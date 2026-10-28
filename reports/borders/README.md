@@ -17,6 +17,7 @@
 | [아프리카 3개국 국가 존속기간 — 카메룬·말리·탄자니아](history/lifetimes/country-lifetime-africa-cmr-mli-tza-2026-10-24.md) | GEO-LIFE-012 | 2026-10-24 | `investigating / phase-1` |
 | [아프리카 국가 존속기간 — 에리트레아·기니비사우·세네갈](history/lifetimes/country-lifetime-africa-eri-gnb-sen-2026-10-18.md) | GEO-LIFE-006 | 2026-10-18 / 검토 10-19 | `investigating` |
 | [아시아 국가 존속기간 — 이라크·요르단·레바논](history/lifetimes/country-lifetime-asia-middle-east-2026-10-17.md) | GEO-LIFE-005 | 2026-10-17 | `investigating` |
+| [아시아 국가 존속기간 1차 — 필리핀·카타르·동티모르](history/lifetimes/country-lifetime-asia-phl-qat-tls-2026-10-29.md) | GEO-LIFE-017 | 2026-10-29 | `investigating / phase-1 / not-applied` |
 | [아시아 3개국 국가 존속기간 — 파키스탄·말레이시아·네팔](history/lifetimes/country-lifetime-asia-south-southeast-2026-10-23.md) | GEO-LIFE-011 | 2026-10-23 (2026-10-24 복구) | `investigating / phase-1` |
 | [유럽 국가 존속기간 공란 27개 — 1801년 이후 조사](history/lifetimes/country-lifetime-europe-1801-plus-2026-10-15.md) | GEO-LIFE-004 | 2026-10-15 | `investigating` |
 | [유럽 발트 3국 국가 존속기간 — 2차 교차검증](history/lifetimes/country-lifetime-europe-baltic-2026-10-22.md) | GEO-LIFE-010 | 2026-10-22 (2026-10-24 복구) | `investigating / phase-2` |

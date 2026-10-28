@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-10-27 회차 / 2026-10-26 UTC · 정본 브랜치: `work/gis`
+> 생성: 2026-10-17 · 최종 수정: 2026-10-29 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 유럽**
-- **lastCompletedRun: 2026-10-28** (유럽 역사 정치체 3개 1차 문헌 조사; 전 지역 완료 아님)
-- **nextRegion: 아시아**
-- **nextPhase: 아시아 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
-- **nextAction: 아시아 GEO-LIFE-001/005/011, 현행 국가 색인·미등록 역사 정치체 후보를 대조해 미조사 2~4개를 국가별 1차로 선정한다. IRQ/JOR/LBN/PAK/MYS/NPL은 중복 집계하지 않는다. 유럽 GEO-LIFE-016의 CSK(1939~1945 계속성·1992 종료일 정밀도), GDR(1990-10-02 종료 포함성), YUG(1992 국가 승계·2003 동일성)는 2차 대기다.**
+- **lastProcessedRegion: 아시아**
+- **lastCompletedRun: 2026-10-29** (아시아 PHL/QAT/TLS 3개 1차 문헌 조사; 전 지역 완료 아님)
+- **nextRegion: 아프리카**
+- **nextPhase: 아프리카 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
+- **nextAction: 아프리카 GEO-LIFE-001/006/012, GEO-023 및 국가 색인을 대조해 미조사 2~4개를 선정한다. 아시아 GEO-LIFE-017의 PHL(1935 자치령/1946 독립), QAT(1878 국가 기원/1971 독립), TLS(1975 선언/2002 독립 회복)는 2차 법적 계속성 검증에 인계한다.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -28,7 +28,7 @@
 | 지역 | 현재까지 확인한 조사 기록 | 지역 전체 1차 | 지역 2차 | 비고 |
 | --- | --- | --- | --- | --- |
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
-| 아시아 | [GEO-LIFE-005: 이라크·요르단·레바논 3개](country-lifetime-asia-middle-east-2026-10-17.md) 및 GEO-LIFE-001의 기존 아시아 국가 | 진행 중 | 미완료 | 이라크·요르단·레바논 법적 효력 차이 유보 |
+| 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보 |
 | 아프리카 | [GEO-LIFE-006: 에리트레아·기니비사우·세네갈 3개](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) 및 [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 3개국 문헌 1차 조사 등록 완료, 전체 지역 완료 아님 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA 2개](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | SLV 1839~1841년 독립국 성립 효력·1896~1898년 국가 동일성 보류; USA 1801년 이전 이미 존속, 내전 중 법적 계속성과 실효 지배 구별 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR | 현행 12개 주권국 선행 기초 조사기록 확인; 역사상 소멸국 전수 미확인 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1816 연합주-현 아르헨티나 동일성 및 볼리비아 1825 국호·국가 법적 효력일 미해결 |
@@ -46,6 +46,8 @@
 | **2026-10-26** | **남아메리카** | 국가별 2차 | `ARG`, `BOL` 2개(기존 기초 연구의 추가 교차검증) | [GEO-LIFE-014](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md), 2차 검증 / 날짜 최종 유보 | **오세아니아** |
 | **2026-10-27** | **오세아니아** | 국가별/역사 정치체 1차 | `NZL` 현존국 1개 + 하와이 왕국·하와이 공화국 역사 정치체 후보 2개(법적 계속성 유보) | [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md), 1차 문헌 교차검증 / 기간 최종 유보 | **유럽** |
 | **2026-10-28** | **유럽** | **역사상 소멸 정치체 1차** | `state:czechoslovakia`, `state:deutsche-demokratische-republik`, `state:yugoslavia` 3개(현행 색인 존재; 날짜·국가 동일성 보류) | [GEO-LIFE-016](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) — 1918/1949 성립, 1990/1992/2003 법적 지위 분리 | **아시아** |
+
+| **2026-10-29** | **아시아** | **국가별 1차(기존 기간값 검증)** | `PHL`, `QAT`, `TLS` 3개(기존 국가별 독립 1차 보고서 중복 없음) | [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) — 1935·1878·2002 기입일과 주권·국가 형성일 층위 구분, 단일기간 확정 유보 | **아프리카** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -107,3 +109,12 @@
 - **미해결:** CSK 1939–45 점령기 법적 계속성/실효통치, 동독 종료일 포함/제외 데이터 규칙, 유고슬라비아 1941~45 및 1992 국가 동일성과 2003 개편 후 법적 승계. 원본 기하/배율/지도 검증은 미실행. 이 결과를 확정 lifetime 갱신 허가로 해석하지 않는다.
 - **정본 수정:** 보고서·진행기록·색인만; `Pando/work/gis`, `Pando/main`, 국가 lifetime·형상, 웹/앱, 배포 **0건**.
 - **lastProcessedRegion=유럽 / nextRegion=아시아 / nextPhase=미조사 국가별 1차**. 지역 1·2차 전수는 미완료.
+
+
+## 2026-10-29 — 아시아 국가별 1차 3개 인계 (GEO-LIFE-017)
+
+- **선정/단계:** 아시아 / 기존 GEO-LIFE-001/005/011, GEO-023과 중복되지 않는 `state:PHL`, `state:QAT`, `state:TLS` 3개 국가별 1차 문헌 검토. 모두 현재 고정 자료 판본에서 `lifetime.validFrom`이 이미 존재하므로 신규 공란 채움이 아닌 기존 기간의 국가성 정합성 검증이다.
+- **자료 기준:** `Pando/work/gis` HEAD `22d0b24eb5916f9597f4b0c6ae4625236a6722d9`, 고정 라이브러리 revision `65fbc692f47f7936a804e7af0eed546966898828`, 인덱스 blob `673f9ff8d4eb53004a6b7655fed0aa66b7583b72`(284 entities). 라이브러리 최신 `main`에서는 동일 index 경로를 직접 열 수 없어 실시간 자료의 동일성 미검증으로 표시한다.
+- **확인:** PHL `1935-11-15`는 자치령 출범, `1946-07-04` 대외 주권 인정(1898 선언·1899 제1공화국과 구별). QAT `1878-12-18`는 국가 창립·통치 승계 기념, `1971-09-03` 영국 보호관계 종료·독립. TLS `1975-11-28` 선언, `1975-12-07` 침공, `1999-10-25` UNTAET 설치, `2002-05-20` 독립 회복.
+- **유보:** PHL 제1공화국 법적 계속성 및 1935부터의 단일 존속기간, QAT 1916 보호국 중 동일성, TLS 1975~2002 불연속·UN 불승인 합병과 실효 지배. GIS 형상·앱/웹 검사 미실행, 자료 값·형상·Pando 코드·main·배포 변경 **0건**.
+- **lastProcessedRegion=아시아 / nextRegion=아프리카 / nextPhase=국가별 미조사 1차 조사**. 아프리카 기존 GEO-LIFE-006/012 6개국 중복 제외. 모든 지역 1·2차 전수 미완료.
