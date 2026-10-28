@@ -15,11 +15,12 @@
 | 출처/발행자 | 날짜·문헌 | 확인 사항 및 한계 |
 | --- | --- | --- |
 | ICJ 사건 185 공식 기록 | 2025-11-05 보도자료 2025/52, 2025-11-26 보도자료 2025/54, 사건별 구술심리 기록 | 11-24~26 공개심리는 과테말라 참가신청에 한정. 국경선 획정/섬 주권 본안 판결 아님. [ICJ 사건·보도자료](https://www.icj-cij.org/case/185), [심리 날짜·절차](https://icj-web.leman.un-icc.cloud/case/185/oral-proceedings). |
+| **벨리즈 정부 공보실** | **2025-11-26 PR#246-25** 정부 보도자료 (2쪽) | 11-24~26 심리의 대상이 과테말라 참가신청임을 별도 당사국 정부 문서에서 확인. 2022-11-16 벨리즈 대 온두라스 제소 및 2023-12-01 과테말라 신청을 구분. **벨리즈의 '장기간 평화적 관리' 언급은 당사국 입장이며 법적 주권 확정으로 간주하지 않음**. [벨리즈 정부 공식 PDF](https://www.pressoffice.gov.bz/wp-content/uploads/2025/11/Nov-26-PR246-25-Guatemalas-Application-for-Permission-to-Intervene-in-the-Case-Concerning-Sovereignty-Over-the-Sapodilla-Cayes-Belize-v.-Honduras.pdf) (원문 1~2쪽 중 1쪽 직접 열람·시각 확인). |
 | 과테말라 외무부 및 정부 | 2025-11-24 시작 발표, 2025-11-26 종료 발표 | 2019년부터의 별도 과테말라–벨리즈 소송과 2022년 시작한 벨리즈–온두라스 사건 구분, 당일 심리는 참가신청만 취급. 당사국 주장이라 주권 인정의 중립적 증거는 아님. [정부 11-24 발표](https://prensa.gob.gt/comunicado/el-24-de-noviembre-del-2025-se-iniciaron-las-audiencias-publicas-ante-la-cij-sobre-la), [외무부 11-26 발표](https://www.minex.gob.gt/3345-concluyen-audiencias-publicas-ante-la-cij-sobre-la-peticion-de-permiso-para-intervenir-de-guatemala-en-el-caso-soberania-sobre-los-cayos-zapotillos) (후자 원문 직접 열람 403; 검색색인으로 제목/일자만 확인). |
 | ICJ/유엔 원 자료와 별개의 공개 영상 기록 | 2025-11-24, 25, 26 제작 | 심리 자체와 날짜를 보강하지만 **ICJ 제공 영상을 ICJ와 독립된 제3의 역사 판정으로 계산하지 않음**. [UN Web TV 11-24](https://webtv.un.org/en/asset/k11/k117tj6olc). |
 | ICJ 후속 사건 기록 | 2026-03-19 판결/보도자료 2026/7 | 참가만 허용한 2026 절차적 판정임. **2025년 사건 숫자에 추가하지 않으며 본안·주권 판결로 해석하지 않음**. [ICJ 사건 185](https://icj-web.leman.un-icc.cloud/case/185). |
 
-**독립 자료 판정:** ICJ/법원 원문과 과테말라 정부 발표라는 **서로 다른 기관**으로 2025 심리 일정 및 성격을 교차 확인. 과테말라의 주권 주장과 재판 결과의 진위는 같은 뜻이 아니며 독립된 영토 현황/법적 귀속 검증은 **미완료**.
+**독립 자료 판정:** ICJ/법원 원문과 **벨리즈 정부 2025-11-26 공식 PDF**, 과테말라 정부 발표라는 **서로 다른 기관**으로 2025 심리 일정 및 성격을 교차 확인. 벨리즈·과테말라 정부는 당사국/참가신청국이므로 주권 주장 자체는 중립 판정으로 취급하지 않음. 과테말라의 주권 주장과 재판 결과의 진위는 같은 뜻이 아니며 독립된 영토 현황/법적 귀속 검증은 **미완료**.
 
 ## 역사 GIS 벡터 우선 탐색 — 2025 시점과 원본 판본의 분리
 
