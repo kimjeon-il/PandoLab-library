@@ -1,0 +1,580 @@
+{
+  "at": "2026-10-28T14:04:16.109Z",
+  "target": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+  "refs": "refs/heads/main 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/heads/work/gis 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/heads/work/objects 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/heads/work/places 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/heads/work/ui 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/remotes/origin/HEAD 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/remotes/origin/main 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/remotes/origin/work/gis 22d0b24eb5916f9597f4b0c6ae4625236a6722d9\nrefs/remotes/origin/work/objects 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/remotes/origin/work/places 69ee27763b75c7aca6ede227a21d1ccb090c0be7\nrefs/remotes/origin/work/ui 69ee27763b75c7aca6ede227a21d1ccb090c0be7\n",
+  "roots": {
+    "main": {
+      "root": "D:/dev/PandoLab",
+      "head": "69ee27763b75c7aca6ede227a21d1ccb090c0be7",
+      "status": "",
+      "files": [],
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "d4c65479847d12f810f96b2162698dbc96d25ed7",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\d4c65479847d12f810f96b2162698dbc96d25ed7\\assets\\data"
+    },
+    "gis": {
+      "root": "D:/dev/worktrees/gis",
+      "head": "69ee27763b75c7aca6ede227a21d1ccb090c0be7",
+      "status": "",
+      "files": [],
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "d4c65479847d12f810f96b2162698dbc96d25ed7",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\d4c65479847d12f810f96b2162698dbc96d25ed7\\assets\\data"
+    },
+    "objects": {
+      "root": "D:/dev/worktrees/objects",
+      "head": "69ee27763b75c7aca6ede227a21d1ccb090c0be7",
+      "status": "",
+      "files": [],
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "d4c65479847d12f810f96b2162698dbc96d25ed7",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\d4c65479847d12f810f96b2162698dbc96d25ed7\\assets\\data"
+    },
+    "places": {
+      "root": "D:/dev/worktrees/places",
+      "head": "69ee27763b75c7aca6ede227a21d1ccb090c0be7",
+      "status": "",
+      "files": [],
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "d4c65479847d12f810f96b2162698dbc96d25ed7",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\d4c65479847d12f810f96b2162698dbc96d25ed7\\assets\\data"
+    },
+    "ui": {
+      "root": "D:/dev/worktrees/ui",
+      "head": "69ee27763b75c7aca6ede227a21d1ccb090c0be7",
+      "status": " M apps/editor/README.md\u0000 M apps/editor/native-contract.mjs\u0000 M apps/editor/native-producer.mjs\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png\u0000 M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png\u0000 M apps/editor/src-tauri/icons/icon.ico\u0000 M apps/editor/src-tauri/icons/icon.png\u0000 M apps/editor/src-tauri/sync-android.mjs\u0000 M apps/editor/tests/android-policy-sync.test.mjs\u0000 M apps/editor/tests/native-build.test.mjs\u0000 M apps/editor/tests/native-contract.test.mjs\u0000 M shared/frontend/js/modules/gpu-map-renderer.js\u0000 M shared/frontend/js/modules/map-content-presentation.js\u0000 M shared/frontend/js/modules/map-input-controller.js\u0000 M shared/frontend/js/modules/map-input-presentation.js\u0000 M shared/frontend/js/modules/map-render-coordinator.js\u0000 M shared/frontend/js/modules/rendering-domain.js\u0000 M tests/browser/temporal-map-presentation.spec.mjs\u0000 M tests/unit/domain-split-contract.test.mjs\u0000 M tests/unit/edit-preview-presentation.test.mjs\u0000 M tests/unit/gpu-renderer-lifecycle.test.mjs\u0000 M tests/unit/map-input-controller.test.mjs\u0000 M tests/unit/map-render-coordinator.test.mjs\u0000 M tests/unit/selection-fill-handoff.test.mjs\u0000 M tests/unit/visual-frame-consumers.test.mjs\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/ic_launcher.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/ic_launcher.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png\u0000?? apps/editor/src-tauri/android/app/src/main/res/values/ic_launcher_background.xml\u0000?? apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml\u0000?? apps/editor/src-tauri/gen/android/app/src/main/res/values/ic_launcher_background.xml\u0000?? apps/editor/src-tauri/icons/128x128.png\u0000?? apps/editor/src-tauri/icons/128x128@2x.png\u0000?? apps/editor/src-tauri/icons/32x32.png\u0000?? apps/editor/src-tauri/icons/64x64.png\u0000?? apps/editor/src-tauri/icons/Square107x107Logo.png\u0000?? apps/editor/src-tauri/icons/Square142x142Logo.png\u0000?? apps/editor/src-tauri/icons/Square150x150Logo.png\u0000?? apps/editor/src-tauri/icons/Square284x284Logo.png\u0000?? apps/editor/src-tauri/icons/Square30x30Logo.png\u0000?? apps/editor/src-tauri/icons/Square310x310Logo.png\u0000?? apps/editor/src-tauri/icons/Square44x44Logo.png\u0000?? apps/editor/src-tauri/icons/Square71x71Logo.png\u0000?? apps/editor/src-tauri/icons/Square89x89Logo.png\u0000?? apps/editor/src-tauri/icons/StoreLogo.png\u0000?? apps/editor/src-tauri/icons/app-icon.png\u0000?? apps/editor/src-tauri/icons/app-icon.svg\u0000?? apps/editor/src-tauri/icons/icon-manifest.json\u0000?? apps/editor/src-tauri/icons/icon.icns\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-20x20@1x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-20x20@2x-1.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-20x20@2x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-20x20@3x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-29x29@1x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-29x29@2x-1.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-29x29@2x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-29x29@3x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-40x40@1x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-40x40@2x-1.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-40x40@2x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-40x40@3x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-512@2x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-60x60@2x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-60x60@3x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-76x76@1x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-76x76@2x.png\u0000?? apps/editor/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png\u0000",
+      "files": [
+        {
+          "path": "apps/editor/README.md",
+          "sha256": "981236072beec944af808acdfb6e159bba88591c84483a4f1f1333840fe99eb8",
+          "bytes": 11547
+        },
+        {
+          "path": "apps/editor/native-contract.mjs",
+          "sha256": "3804739f5af4aafd93ab4515d89b7aa68f4f57e2dfe9f97f9ea4bb1b6fa8b6f2",
+          "bytes": 8377
+        },
+        {
+          "path": "apps/editor/native-producer.mjs",
+          "sha256": "ae890c2f521e4e45677daa99141a1f9491c2fb2cea238deecf68489bc764459c",
+          "bytes": 6423
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+          "sha256": "4a718d047e016b6465ba1514e7456d1f63dc5a349869abe4a9e134185a531051",
+          "bytes": 7161
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+          "sha256": "3b3a024ea007e61df3e2229d47ea638ae4968366061c4cb0848bb3c359480df8",
+          "bytes": 30602
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+          "sha256": "1b7c9e29f46d5a1e6bd6fbb9dce862999034118f470bc092879c00261cd81ef9",
+          "bytes": 8505
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+          "sha256": "a886af423540a36d498065b836942060a948568a97fe36debf472753a2a60ae8",
+          "bytes": 3853
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+          "sha256": "4c3081c3383b78d5f072a4eaa1ae66a94a6a175993163624377a6b95be82a730",
+          "bytes": 16243
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+          "sha256": "eaaaf77b1d05100265e88de345c5cc968f404a4400973cd06acc9f29c9e49994",
+          "bytes": 4562
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+          "sha256": "819accb91fe33cec78a05613e7a315fe3a640f114f6bf006bb3a1ebbc45fa125",
+          "bytes": 11285
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+          "sha256": "c1e3468576cd55bcb0d4313bf29bb1ba946fc7dc566ba22142b25a458b3eb080",
+          "bytes": 47216
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+          "sha256": "61a5581e068c993c324949d5d23058012999d1a36ae531baf9510fa9c62f1e0c",
+          "bytes": 13024
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+          "sha256": "52ec03b496abd1062a0cffec927c6490220fe7e0280355602bd1c61b250f75bc",
+          "bytes": 21018
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+          "sha256": "5dee6006f60dea24f15b9a60ca1249122e43a7f3a50c9dc0aad77aabfd4d3de9",
+          "bytes": 89417
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+          "sha256": "eb0d45cc58ba84b4ac5a2d8f9210d9055b1d29c8b365ad8bfcb63f0336bc818e",
+          "bytes": 24402
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "sha256": "cdce51e0a54a7e9539d4642176667722e09f592da848732000bb504f99dc0494",
+          "bytes": 32682
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "sha256": "2c2f3b7b342f0548df3c553b38b54edff02bedc27e887ae2d0515bc18ec2ccf0",
+          "bytes": 144248
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "sha256": "39eeb25d906275bbae801f37fe205608cc2cd139ebb48e0bebd7cef3055f4b7d",
+          "bytes": 37938
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/icon.ico",
+          "sha256": "9b88599510c5831b86430eca1a6aa738eb40ae5261c3f1652f0602225fafaf8c",
+          "bytes": 78540
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/icon.png",
+          "sha256": "00b3263e058210c939c7e9e42f9ab949633acf6bc5ae65c0626c9d058400b1ed",
+          "bytes": 193158
+        },
+        {
+          "path": "apps/editor/src-tauri/sync-android.mjs",
+          "sha256": "6c1bd79ed26442a27be609f8c9386f80d0db2654326a87a8c7d912e5123aebd8",
+          "bytes": 2495
+        },
+        {
+          "path": "apps/editor/tests/android-policy-sync.test.mjs",
+          "sha256": "5aba5db72102daca54bc24f7bc4d9cd61924b48b37ad96974704188b88bfd59b",
+          "bytes": 3327
+        },
+        {
+          "path": "apps/editor/tests/native-build.test.mjs",
+          "sha256": "311857ff1ac51f0082d9e2b8909db91e1627f169d09d6f73824b817043156606",
+          "bytes": 2002
+        },
+        {
+          "path": "apps/editor/tests/native-contract.test.mjs",
+          "sha256": "29e510a7f650a0b27db79827ea7f8c83ac24c363f9d4f9fe94d7c135d8d5ff07",
+          "bytes": 10479
+        },
+        {
+          "path": "shared/frontend/js/modules/gpu-map-renderer.js",
+          "sha256": "c1d5d3dcfc5cd58db4f7263fa074cfe37a35e45e5561f85b3081c5cfa7521b0f",
+          "bytes": 289308
+        },
+        {
+          "path": "shared/frontend/js/modules/map-content-presentation.js",
+          "sha256": "e2e471637075d3fda88fd5962b66f858345113cb9d3fc4e4a1fda6ac09e84951",
+          "bytes": 40507
+        },
+        {
+          "path": "shared/frontend/js/modules/map-input-controller.js",
+          "sha256": "0c5e630a7e29c27a703285ae69d3590a70a80138fc28c783be916a6ee7b043cf",
+          "bytes": 11107
+        },
+        {
+          "path": "shared/frontend/js/modules/map-input-presentation.js",
+          "sha256": "c7a064cb6fce8447a201d5dfec294ab59344604fe47c54e51b812f32514dc01e",
+          "bytes": 12093
+        },
+        {
+          "path": "shared/frontend/js/modules/map-render-coordinator.js",
+          "sha256": "1ea6c8f18a39b6c4e3ba21befe884419be947885c7c7e77c0e942f8287d5c15b",
+          "bytes": 16318
+        },
+        {
+          "path": "shared/frontend/js/modules/rendering-domain.js",
+          "sha256": "80975828687818ca7a5b4c75a21d0a0058a0a6954a7f96efdd20cd90bce25d5c",
+          "bytes": 69603
+        },
+        {
+          "path": "tests/browser/temporal-map-presentation.spec.mjs",
+          "sha256": "87fe2df171c3383671ccb7c4842d0a8a40c9d1d6d9177b38e1e4bfff646b8338",
+          "bytes": 10868
+        },
+        {
+          "path": "tests/unit/domain-split-contract.test.mjs",
+          "sha256": "09ac6e4cb8262a0378515ecb7f6d75e0d8b84ceb0b28dae08a9108c13c60253a",
+          "bytes": 24928
+        },
+        {
+          "path": "tests/unit/edit-preview-presentation.test.mjs",
+          "sha256": "bbf506318e24c2b583a0ecad7eb6f7b1f1935ed5dd20d01e2ffd0a4c2e162054",
+          "bytes": 15185
+        },
+        {
+          "path": "tests/unit/gpu-renderer-lifecycle.test.mjs",
+          "sha256": "9b00acef5055c127eee00e30300b592815d2bc8ac249badc67192a216d1ce1fe",
+          "bytes": 3900
+        },
+        {
+          "path": "tests/unit/map-input-controller.test.mjs",
+          "sha256": "5e08980f4cf49a7da257351b682d94ac5302c476c9010c062a4f47ab140ad708",
+          "bytes": 12260
+        },
+        {
+          "path": "tests/unit/map-render-coordinator.test.mjs",
+          "sha256": "2d06f523749f2a3c69abda882a267c9d4c37cc1401db4b1f0adeee17cdcfeda3",
+          "bytes": 19469
+        },
+        {
+          "path": "tests/unit/selection-fill-handoff.test.mjs",
+          "sha256": "8c9b4a356db31cb3446c14f9e8363fec4470d857e4e11b2cabad66d699395a99",
+          "bytes": 24979
+        },
+        {
+          "path": "tests/unit/visual-frame-consumers.test.mjs",
+          "sha256": "db014e8c5d7287fc40bf0910595becbab3a874a53d5be65feb5aec5bc3cc7959",
+          "bytes": 7789
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+          "sha256": "760d4b8a06bf7163dd010c33ad2cac9e4a75fa0177afaba042f83e311eef0c3e",
+          "bytes": 261
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+          "sha256": "c8a8a6f67d5292af871e6ee61a1bdb761221f60d688254262f0e537966bb9f4f",
+          "bytes": 3856
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+          "sha256": "85348f01ba4c9a5f5ed24783cfd48aa76524f10db4c30a4413fe3f5968e7855f",
+          "bytes": 4598
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+          "sha256": "29b9ff9ad0567009c508db315e1adf33e710e742da3343d5299e5ccac0e0943e",
+          "bytes": 3377
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+          "sha256": "cfc5e9d8382ffedb3c8a8872fd4e234696cc54cbec03fdcd126284bc22232b48",
+          "bytes": 2252
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+          "sha256": "5d223e8c3375870eeb8c97ac45bb2b34cf5b46f10c875344265a5daff03f2336",
+          "bytes": 3081
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+          "sha256": "ac83aadab720bdf95ef95663e9e515f40d6f5bf50560099bf8fdf4dcebe3bdb7",
+          "bytes": 2062
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+          "sha256": "a3c77511c51905ea8a4c99fd273b4a89de9544fd3541e8f8925ae73507b45791",
+          "bytes": 5025
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+          "sha256": "3e04b6764e455834eaff4a4464439d34d56ec1ac89aadc35bb62c08e3949dc01",
+          "bytes": 6049
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+          "sha256": "cc3e3e0660f174c94fdf1f8c650696547e0e82bf4b67a31ad647ababfffdccd5",
+          "bytes": 4541
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+          "sha256": "d6d3adad40213e7e2d69a702e439aa4a37b50c41c7c75f7da80c5f5fa7249282",
+          "bytes": 8752
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+          "sha256": "b3fc597d31c5def9343096521d3f32d08a86571361f8c8cf2fb520b63f86ebc8",
+          "bytes": 8907
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+          "sha256": "82f431e82ae530d06559b55724a23af9be4f1f66981b7f575700571af9de5f1a",
+          "bytes": 7914
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "sha256": "7de114f68eb8042152100d374db79198b96afee7df17f3c84efb9e3a0ac694a3",
+          "bytes": 12077
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "sha256": "896c517b45744b4f1257dbdea65eed8d425500e1ed5a82192eb2107192756f40",
+          "bytes": 12221
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "sha256": "25d4a655be2781f17b1579d141e0fae2c77ed7d5e22b7c2a5d665cdf442232bd",
+          "bytes": 10662
+        },
+        {
+          "path": "apps/editor/src-tauri/android/app/src/main/res/values/ic_launcher_background.xml",
+          "sha256": "b1c42868a1777ed1cf61108b506ffc91d0a826318d8516e36cf8f76fab8c4ced",
+          "bytes": 118
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+          "sha256": "760d4b8a06bf7163dd010c33ad2cac9e4a75fa0177afaba042f83e311eef0c3e",
+          "bytes": 261
+        },
+        {
+          "path": "apps/editor/src-tauri/gen/android/app/src/main/res/values/ic_launcher_background.xml",
+          "sha256": "f829572b966007a1beece39260337ae0b889a3ae980ada8dd2551fe5660fa0a8",
+          "bytes": 118
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/128x128.png",
+          "sha256": "3c21e243a4a30f156777e9021f51a7bfc15f921836adc6f1a2fa890ebe123d66",
+          "bytes": 21233
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/128x128@2x.png",
+          "sha256": "558f98d3af8b86683b9bbb265277dc1a9f55afa6afde43e491453d8f6709bd97",
+          "bytes": 61317
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/32x32.png",
+          "sha256": "9a1d7051a8b30ab932e32341c592723545ee28c4eed9b234127561d79932afab",
+          "bytes": 2442
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/64x64.png",
+          "sha256": "dcc9f33c551437e9a1bb0c80986a8065b3d8d9e75e5b917680501c38ae651825",
+          "bytes": 7264
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square107x107Logo.png",
+          "sha256": "1d38106963cee67216a3bfde3a5ecf19008b4ff51623ff8a1260fcd6c3fb55b3",
+          "bytes": 16150
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square142x142Logo.png",
+          "sha256": "8d4d71969c61545bdc908eec1d0d51f0b98dec75d32846d7a2b5f8dddf9ce0f3",
+          "bytes": 24925
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square150x150Logo.png",
+          "sha256": "56f43379eefa59f2a71dac17dfe89b35f31897608edf9b394f5d1b559825f136",
+          "bytes": 27199
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square284x284Logo.png",
+          "sha256": "c8d8df873e2d0099c856d329bab3d63405d134ae7cf1a614a05c4d87f5ff1cd8",
+          "bytes": 72389
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square30x30Logo.png",
+          "sha256": "7007a4332aecf3cc204d93a983a06a11b76f59d79dae601942dc947e799ca9f3",
+          "bytes": 2261
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square310x310Logo.png",
+          "sha256": "662c6e204d668cbad00c67f2402d057515c3cc264fb361d4b53a9f13ac9f46a0",
+          "bytes": 82886
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square44x44Logo.png",
+          "sha256": "15279a7a0754f0ca852f3e3c1ace972beb7763c71ac147041f490863c6017abc",
+          "bytes": 4006
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square71x71Logo.png",
+          "sha256": "a5fa15ae7c7f2c37d98deafb766146cec839ded93237b62aab97b2d7e7b7a54b",
+          "bytes": 8456
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/Square89x89Logo.png",
+          "sha256": "36d8f838881711325a084e997c28cd756e170a115b7889e09a318bb859cb46e2",
+          "bytes": 12025
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/StoreLogo.png",
+          "sha256": "8085ef26228a27f25dcdfca4b13f2a145a72c96d66e40e41650454264fd9922d",
+          "bytes": 4929
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/app-icon.png",
+          "sha256": "03d8dc15e32b8fd9e430d10f9bdd16e7ffe1f71781a4fd4bd18db0470a3b6db0",
+          "bytes": 1149975
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/app-icon.svg",
+          "sha256": "abda53d2a238c1d4d2c3f7e44aaeaf28123f4849a586125c82862e19a2c3aa43",
+          "bytes": 399
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/icon-manifest.json",
+          "sha256": "347657c230cb634baef7db9eee80a6ea580fe935968859698407b9806f341fe2",
+          "bytes": 83
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/icon.icns",
+          "sha256": "7bda5ffd59fa001769f476e3378cfa2dde71e1576f4a8fc19611e1b536b46607",
+          "bytes": 1228448
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-20x20@1x.png",
+          "sha256": "b649500c1ecf2c6e3ed0304ff233bf9df72e69f81b5ee85a8768269fca5ce6a8",
+          "bytes": 1120
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
+          "sha256": "a3c0bca776e10fa9449d58b54fa2cf076a938a36cbda7e161e574b4fb19499e2",
+          "bytes": 3309
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-20x20@2x.png",
+          "sha256": "a3c0bca776e10fa9449d58b54fa2cf076a938a36cbda7e161e574b4fb19499e2",
+          "bytes": 3309
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-20x20@3x.png",
+          "sha256": "015944a45ebc4065e62a10d92b684221f942f590085765b337235f3fdcaedef5",
+          "bytes": 6242
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-29x29@1x.png",
+          "sha256": "703b1b34d49fae8e344fec6010b14950521bdff09ceced0723e8661de0308036",
+          "bytes": 2007
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
+          "sha256": "d186fa98e53841f36e69f93dad825201bb7f37dd6bf92c3ee7e5903374c64ecf",
+          "bytes": 5922
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-29x29@2x.png",
+          "sha256": "d186fa98e53841f36e69f93dad825201bb7f37dd6bf92c3ee7e5903374c64ecf",
+          "bytes": 5922
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-29x29@3x.png",
+          "sha256": "3b63a1e9dba9275be2dc4eab17fe85abda5b8e1082af1dd13706df198c629453",
+          "bytes": 11298
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-40x40@1x.png",
+          "sha256": "a3c0bca776e10fa9449d58b54fa2cf076a938a36cbda7e161e574b4fb19499e2",
+          "bytes": 3309
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
+          "sha256": "372dfaf1aa34576670b2258adeef7316ab44ccea4630155dfe10487bb99400f7",
+          "bytes": 9831
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-40x40@2x.png",
+          "sha256": "372dfaf1aa34576670b2258adeef7316ab44ccea4630155dfe10487bb99400f7",
+          "bytes": 9831
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-40x40@3x.png",
+          "sha256": "6be72681f8aa898b11b4160370a770157957a0c314b3eec86a4e2119f8f8f068",
+          "bytes": 18620
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-512@2x.png",
+          "sha256": "37a4b30f3867c8025bb0509319d489bfbafc4d88a1810eacc568408b997d8e09",
+          "bytes": 673843
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-60x60@2x.png",
+          "sha256": "6be72681f8aa898b11b4160370a770157957a0c314b3eec86a4e2119f8f8f068",
+          "bytes": 18620
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-60x60@3x.png",
+          "sha256": "6395a8c71eb86b50c247e06814ce8df15fe2945ec0d81bdac9c78c252cf79860",
+          "bytes": 34938
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-76x76@1x.png",
+          "sha256": "8c5fdc995b5c0cc4b8f7604685d177ccde2c6d6626419802cfe5957e54e1c402",
+          "bytes": 9131
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-76x76@2x.png",
+          "sha256": "6a63e1c7249150565bb62e605998d1c257be5715410925ad37d89dc48cc35fdb",
+          "bytes": 26973
+        },
+        {
+          "path": "apps/editor/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
+          "sha256": "e3b4541c7e1a3bd48cbaf1c50ee5324d87ad7c1e679dfbfc063de3231a317ab5",
+          "bytes": 31082
+        }
+      ],
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "d4c65479847d12f810f96b2162698dbc96d25ed7",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\d4c65479847d12f810f96b2162698dbc96d25ed7\\assets\\data"
+    }
+  },
+  "dataHeads": "refs/heads/gh-pages e99cd3d027c8046e95291d2d10573de83df2da11\nrefs/heads/main f35016e5b274cfe76953be8cc939885cb8c8d2e8\nrefs/heads/work/gis 95b36191fe209468db027b8be60839c2ec4a67fa\nrefs/heads/work/objects 77dd2ea28551d1acc7f798d19d65fbb7448cb566\nrefs/heads/work/places 7a8e17f3355c79a377f6dba691caeb5fb3038067\nrefs/heads/work/ui 9abcc29b2d5caa807f5e0296f1eeabf101652b04\n",
+  "dataOwnerRefs": "refs/pando/reports/gis d1d768a63c3cd7b1ae0721a48b0cd706bd898009\nrefs/pando/reports/main a398bb3894b959b93f5b9891a34eeeebe5084f99\nrefs/pando/reports/objects b31690412c96b20fcb314dec4d68b46c7b080911\nrefs/pando/reports/places a340a0005afc0d1fe8154c547baf51ac948510d7\nrefs/pando/reports/ui 617d77c28c8d70522d0ac361848bd0cde42001f8\n",
+  "incoming": [
+    "config/library-data.json",
+    "tests/unit/caspian-territory-delta.test.mjs",
+    "tools/gis/caspian-territory-delta.mjs"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "at": "2026-10-28T14:28:56.101Z",
+  "status": "complete",
+  "code": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+  "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+  "scope": "reports/development/releases/branch-sync-2026-10-28",
+  "worktrees": [
+    {
+      "name": "main",
+      "root": "D:/dev/PandoLab",
+      "head": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\65fbc692f47f7936a804e7af0eed546966898828\\assets\\data",
+      "wipFiles": 0,
+      "wipHashesPreserved": true,
+      "oldRuntimeViewRemoved": true,
+      "runtimeFiles": 1670,
+      "runtimeLogicalBytes": 514676084
+    },
+    {
+      "name": "gis",
+      "root": "D:/dev/worktrees/gis",
+      "head": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\65fbc692f47f7936a804e7af0eed546966898828\\assets\\data",
+      "wipFiles": 0,
+      "wipHashesPreserved": true,
+      "oldRuntimeViewRemoved": true,
+      "runtimeFiles": 1670,
+      "runtimeLogicalBytes": 514676084
+    },
+    {
+      "name": "objects",
+      "root": "D:/dev/worktrees/objects",
+      "head": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\65fbc692f47f7936a804e7af0eed546966898828\\assets\\data",
+      "wipFiles": 0,
+      "wipHashesPreserved": true,
+      "oldRuntimeViewRemoved": true,
+      "runtimeFiles": 1670,
+      "runtimeLogicalBytes": 514676084
+    },
+    {
+      "name": "places",
+      "root": "D:/dev/worktrees/places",
+      "head": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\65fbc692f47f7936a804e7af0eed546966898828\\assets\\data",
+      "wipFiles": 0,
+      "wipHashesPreserved": true,
+      "oldRuntimeViewRemoved": true,
+      "runtimeFiles": 1670,
+      "runtimeLogicalBytes": 514676084
+    },
+    {
+      "name": "ui",
+      "root": "D:/dev/worktrees/ui",
+      "head": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+      "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\65fbc692f47f7936a804e7af0eed546966898828\\assets\\data",
+      "wipFiles": 93,
+      "wipHashesPreserved": true,
+      "oldRuntimeViewRemoved": true,
+      "runtimeFiles": 1670,
+      "runtimeLogicalBytes": 514676084
+    }
+  ],
+  "remoteHeads": [
+    [
+      "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "refs/heads/main"
+    ],
+    [
+      "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "refs/heads/work/gis"
+    ],
+    [
+      "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "refs/heads/work/objects"
+    ],
+    [
+      "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "refs/heads/work/places"
+    ],
+    [
+      "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+      "refs/heads/work/ui"
+    ]
+  ],
+  "dataBranchHeadsUnchanged": true,
+  "reportOwnerRefsUnchangedBeforePublication": true,
+  "ui": {
+    "files": 93,
+    "modifiedTracked": 38,
+    "untracked": 55,
+    "uncommitted": true,
+    "purpose": "79 native Windows/Android installation and icon/resource paths;14 map input/rendering and associated regression-test paths",
+    "allHashesUnchanged": true
+  },
+  "tests": {
+    "command": "node --test tests/unit/caspian-territory-delta.test.mjs",
+    "passed": 5,
+    "failed": 0
+  },
+  "app": {
+    "entries": 684,
+    "countries": 258,
+    "editedInputsVerified": 8,
+    "contentRevision": "data-99ba7d1e42bc8582b0f5d4e58675d9fc"
+  },
+  "web": {
+    "at": "2026-10-28T14:27:06.530Z",
+    "runId": 40705220401,
+    "code": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+    "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+    "url": "https://github.com/kimjeon-il/Pando/actions/runs/40705220401",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "conclusion": "success"
+      }
+    ],
+    "liveVerification": {
+      "name": "Verify the actual public code and pinned data bytes",
+      "conclusion": "success"
+    },
+    "scope": "Existing Pages pipeline including actual public code and pinned asset identity/hash checks; no claim about other CI workflows or an independent geometry review"
+  },
+  "review": {
+    "critical": 0,
+    "important": 0
+  },
+  "temporaryOutputs": [],
+  "limitations": [
+    "No native build or installer packaging",
+    "No new full test suite or GIS regeneration",
+    "No independent acceptance review of historical geometry",
+    "Automatic CI workflows other than Pages were not claimed green"
+  ]
+}

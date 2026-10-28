@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-28T14:27:06.530Z",
+  "runId": 40705220401,
+  "code": "22d0b24eb5916f9597f4b0c6ae4625236a6722d9",
+  "pin": "65fbc692f47f7936a804e7af0eed546966898828",
+  "url": "https://github.com/kimjeon-il/Pando/actions/runs/40705220401",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "build",
+      "conclusion": "success"
+    },
+    {
+      "name": "deploy",
+      "conclusion": "success"
+    }
+  ],
+  "liveVerification": {
+    "name": "Verify the actual public code and pinned data bytes",
+    "conclusion": "success"
+  },
+  "scope": "Existing Pages pipeline including actual public code and pinned asset identity/hash checks; no claim about other CI workflows or an independent geometry review"
+}
