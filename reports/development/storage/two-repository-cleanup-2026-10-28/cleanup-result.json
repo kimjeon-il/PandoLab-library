@@ -9701,8 +9701,9 @@
     ]
   },
   "temporaryStorage": {
-    "status": "blocked_by_automatic_approval_review",
-    "retainedTemporaryOutputs": [
+    "status": "removed_by_user_verified_absent",
+    "retainedTemporaryOutputs": [],
+    "removedOutputs": [
       {
         "path": "D:\\dev\\PandoLab-library-data\\.pando-store\\history-rewrite\\two-repositories",
         "files": 1299,
@@ -9717,13 +9718,26 @@
         "reason": "Parent recursive deletion rejected; earlier metadata preserved"
       }
     ],
-    "note": "Most task staging bytes are hardlinks to the installed retained Git packs; summed path sizes are not additional drive occupancy."
+    "previousAutomaticReview": {
+      "status": "blocked_by_automatic_approval_review",
+      "note": "Automatic attempts were rejected before execution. The user then ran the supplied PowerShell command directly."
+    },
+    "verification": {
+      "at": "2026-10-28T13:38:38.190Z",
+      "root": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite",
+      "exists": false,
+      "userReportedComplete": true,
+      "activeGitHeadTreesAvailable": true,
+      "activeGitPacksReadOnly": true
+    }
   },
   "drive": {
     "taskStartFreeBytes": 53791404032,
-    "note": "Record final free space after removing temporary outputs. Observed drive change includes concurrent activity and differs from summed logical bytes and shared hardlink allocation.",
-    "finalFreeBytes": 60621991936,
-    "observedChangeBytes": 6830587904
+    "note": "Final observation after user-performed temporary-directory deletion. Concurrent drive activity may affect the observed change; logical shared-link bytes are not physical reclamation.",
+    "finalFreeBytes": 60810452992,
+    "observedChangeBytes": 7019048960,
+    "previousFinalFreeBytes": 60621991936
   },
-  "status": "repository_replacement_and_selected_file_history_cleanup_complete_temporary_directory_deletion_blocked"
+  "status": "complete",
+  "lastCompletionUpdate": "2026-10-28T13:38:38.190Z"
 }
