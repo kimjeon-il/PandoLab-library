@@ -10,7 +10,7 @@
   "blockedOperation": "PowerShell Remove-Item on verified completed staging package and ZIP",
   "reason": "Automatic approval review rejected the command as blocked by policy; no specific reason provided. No alternate deletion method used.",
   "freeBeforeRequest": 60195995648,
-  "freeAtCompletion": 60193390592,
+  "freeAtCompletion": 60183306240,
   "measuredChangeSinceRequest": -2605056,
   "intervalMayIncludeOtherActivity": true,
   "command": "Remove-Item -LiteralPath @('D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package','D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip','D:/dev/worktrees/ui/.superpowers/sdd/2026-10-29-map-toolkit-georeference-quality') -Recurse -Force",
@@ -20,5 +20,18 @@
     "status": "blocked",
     "reason": "Automatic approval review also rejected removal of the completed plan ledger. No alternative deletion method used."
   },
-  "totalBlockedLogicalBytes": 51779520
+  "totalBlockedLogicalBytes": 51779520,
+  "gitPackCleanup": {
+    "evidence": "git-pack-cleanup.json",
+    "deletedLogicalBytes": 3026365109,
+    "measuredFreeChange": 1647775744,
+    "objectsPreserved": 28456,
+    "repeat": {
+      "compacted": false,
+      "deletedBytes": 0
+    },
+    "canonicalObjectAndRefChecksPassed": true
+  },
+  "taskInitialFreeBytes": 60327174144,
+  "measuredTaskIntervalChange": -143867904
 }

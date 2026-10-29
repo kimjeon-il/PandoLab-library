@@ -1,0 +1,375 @@
+{
+  "operation": "Existing library Git pack deduplication only; staging package and ledger were not touched",
+  "freeBefore": 58535546880,
+  "freeAfter": 60183322624,
+  "compacted": true,
+  "deletedBytes": 3026365109,
+  "objects": 28456,
+  "deleted": [
+    {
+      "path": ".git/objects/pack/pack-128d9f972ba82d12c3273bea01dc50728377b17c.idx",
+      "bytes": 263012,
+      "sha256": "535cd3f4d7ea92e8c3c40f647d634086971743c94590071dc975fc903013bd7f",
+      "id": "2029611902:6755399441094968",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-128d9f972ba82d12c3273bea01dc50728377b17c.pack",
+      "bytes": 1590298233,
+      "sha256": "040c3a577cda2a4bbb39a73df054bebcc5493704c52b6e0e763ebf8c7335539c",
+      "id": "2029611902:6755399441094961",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-128d9f972ba82d12c3273bea01dc50728377b17c.promisor",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "id": "2029611902:6755399441094970",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-128d9f972ba82d12c3273bea01dc50728377b17c.rev",
+      "bytes": 37472,
+      "sha256": "6c43756d919892b1f2bce28377103d11a9c66a6cc1c1c7981efff610e2af236a",
+      "id": "2029611902:6473924464384313",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-43ea0f8d9d0f9a6f28c756635f5a1173e39647e2.idx",
+      "bytes": 1688,
+      "sha256": "4a5c4d11a27f47f91341f51aec4f5306976b3f0ac887d72ab5f3fa19824a4e44",
+      "id": "2029611902:2251799813818200",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-43ea0f8d9d0f9a6f28c756635f5a1173e39647e2.pack",
+      "bytes": 3484,
+      "sha256": "7f7811b22505d6ba726ca90194d06badfb9c80ef02f7b7023074734e7a5fb29d",
+      "id": "2029611902:2251799813818199",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-43ea0f8d9d0f9a6f28c756635f5a1173e39647e2.promisor",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "id": "2029611902:2251799813818202",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-43ea0f8d9d0f9a6f28c756635f5a1173e39647e2.rev",
+      "bytes": 140,
+      "sha256": "9e4da2533ecb9672042a1f661fe59e2f8bd2aedf1d6dd67440ed7039ca4f140f",
+      "id": "2029611902:2251799813818201",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-9d76e95439c1fbca986730212945a02da8363140.idx",
+      "bytes": 529796,
+      "sha256": "5e9f28122635049842e12a734b9eb5371ddf4dd9b2133c168e76d563fc6e240d",
+      "id": "2029611902:8162774324652454",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/pack/pack-9d76e95439c1fbca986730212945a02da8363140.pack",
+      "bytes": 1433999005,
+      "sha256": "0d6cbeda3d0fe9be83299a385361cab9690ef46df37ef77dd3d43b5eaf0ac67c",
+      "id": "2029611902:24488322973867101",
+      "reason": "exact complete object set verified in new local packs"
+    },
+    {
+      "path": ".git/objects/0a/d7a555d2c65718c6c247613ff227bc021ff449",
+      "bytes": 316,
+      "sha256": "245a8877cdb52584190dcb46afe0473f3884f6b6f07a07be4109ba9c11a16e9e",
+      "id": "2029611902:6192449487680561",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/13/ac4070e45a59cbeac598f079c47ca33bdecbb1",
+      "bytes": 325,
+      "sha256": "a78b96c3de173d213d6682ba9526b9873ad9090c2d73be5aa73998c34838d8df",
+      "id": "2029611902:4222124650705280",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/13/cdf9ff2b5350891ef744413c8e9ecfdb7a8b19",
+      "bytes": 121,
+      "sha256": "07885a08dff582ba910f8681fe3842f14039ae102e808224584b52d965c4444b",
+      "id": "2029611902:3096224743835843",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/2f/cce21bd14f9ac32a5ee95ba150216dc6dc7a4f",
+      "bytes": 225,
+      "sha256": "59e976837dffc6b05fe4dc4f6b220a5615b6a1608ee7954f071c747d1fca6574",
+      "id": "2029611902:8725724278049012",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/32/54c6dc637459a0ff25babdca87964ea39328e7",
+      "bytes": 297225,
+      "sha256": "00ed36bf63186930324e82e31ca1f9cbdf23a82d91600d09bd3f41a79d7917db",
+      "id": "2029611902:4785074604107913",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/3e/cc2b25644688231f36c90539ee4f2c21fcf304",
+      "bytes": 1335,
+      "sha256": "aa80896d7479ac79831ea847c5f1e8ef1aa0fda222aaf4508f48d4294eddfb09",
+      "id": "2029611902:4785074604126558",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/41/8db8c458d2de24460b66c6db6b14bad6610333",
+      "bytes": 282,
+      "sha256": "7e6048188c0655621ba936347cd6660f282b773adcb3031f3f172e4b901224b1",
+      "id": "2029611902:8725724278076069",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/43/f6bc430c163e993b7b9efd87957e3b2596085a",
+      "bytes": 317,
+      "sha256": "0450ab3215294dddb0bce47ac2d9fdb284578f8588bab4f9e41272856ab5d167",
+      "id": "2029611902:4503599627397743",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/44/a4f52357ad14fbfd67929d65b35c87e7ad968f",
+      "bytes": 185,
+      "sha256": "1b7bc10815a8052627479c1c8afbbb7b5f80c5f5c9b15c62141f008d777a40d8",
+      "id": "2029611902:7881299347943797",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/56/93383072409e30a37bcd714e1afa2ec97434cf",
+      "bytes": 254,
+      "sha256": "3d242e74f89fdf3ccd641f5bb63b2f3aa6ebf3be1bc7887f304c01d9303e7a71",
+      "id": "2029611902:4785074604126575",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/5b/640c0a4ca0907455a6ee6a1ccf391c218481ee",
+      "bytes": 541,
+      "sha256": "5e85a2a7ec0f31501d18b3f20b5bd88de7414d0f24c6cb7af1411bc8b50818a4",
+      "id": "2029611902:7881299347943803",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/65/e78479b981188eeebf647bf6464f01c604d2f9",
+      "bytes": 394,
+      "sha256": "68b03642e57b160db404ac7b39bfc9979a08a7bc9f319e3924ada89af5697b56",
+      "id": "2029611902:4222124650705538",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/69/492a93705208647d234b157f3e5bc4282777ee",
+      "bytes": 1790,
+      "sha256": "105fc1561faf2220b109a022cade043d3bc4e9f3946db2472a99c001c4a1b48f",
+      "id": "2029611902:4785074604108373",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/6c/20d13e26bce2ff78d3d50d91f41cec2bd21730",
+      "bytes": 201,
+      "sha256": "7874e22bab417f716f9ab94c3ad1cec6efe875ec18322ffa098c980fc755f4bb",
+      "id": "2029611902:4222124650705243",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/72/e8bcec9a8fcd39034d003c5d70fee1184e6e00",
+      "bytes": 225,
+      "sha256": "f0d99a8100e08df9156e28044ca9b70bd2a62003771a983eb1ac5c7ad5e18379",
+      "id": "2029611902:3096224743835840",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/7c/e9a1e1cc1d787119255ba98df44bfca8cb1595",
+      "bytes": 1792,
+      "sha256": "9504124b3fcd8990c40e428d8b490a425e00ae3725fcf95f41ff33a8c850695c",
+      "id": "2029611902:3096224743835847",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/80/1b90a8b1f5c4cb73f41d383a8d1683de41861b",
+      "bytes": 2519,
+      "sha256": "bbbb0ccd846b21b8b9367fdbc8f31d4d0282b4f4cd6fa7f845ea4b7a5507cc55",
+      "id": "2029611902:30399297484796084",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/8a/76a7d1f35b4c8823f3a244b5c9dc81cd6ab224",
+      "bytes": 52258,
+      "sha256": "21b78cb8874f290d64224d73e9163e2423d54feace3d5e0fb8b126a08ed76995",
+      "id": "2029611902:3096224743835836",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/8a/81290dee39aa3f4bc2ea42d4610adfe5669b5a",
+      "bytes": 52228,
+      "sha256": "cc53b95d83b28e891c90a89264bc655b298ea17082617a4e47b9f7398fa57594",
+      "id": "2029611902:3096224743835837",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/97/dcfccc2b5a1564feda693cf4cf163569ae72e1",
+      "bytes": 316,
+      "sha256": "c64ddf320909d35e4f3bb7f48178bef04de245d46ddabd87971dd53c58030588",
+      "id": "2029611902:5348024557529436",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/a3/c3823faad967558c812a2905317b2da75b3e1e",
+      "bytes": 121,
+      "sha256": "d5574c9c1b6ff1ae0575397436b8a8ec379c8e1c15304f605b5025d4ce342221",
+      "id": "2029611902:4222124650705339",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/a5/1b8cdea43c32b06e918ee9bab1380800e763d6",
+      "bytes": 225,
+      "sha256": "7e9719aebe4c908daa0f9680ccda59632d778800c9f90b9ccf901ed0c67f0cf3",
+      "id": "2029611902:5066549580810410",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/a5/5b3b5bf157878ea92cfd457d2430346a931244",
+      "bytes": 1277,
+      "sha256": "d7c44afe73e92e22c2c8e8d217aecbf9590179faf74f4de1d938abbd6ae541ce",
+      "id": "2029611902:4503599627416183",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/a9/5895923b857891b51d57426281c4f1a7d9c392",
+      "bytes": 121,
+      "sha256": "391125db33c4eae8f8afc2464a071f7111c81dfb8fbf23ba91847ffd1f15da1e",
+      "id": "2029611902:4785074604108184",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/aa/f0cd32c81c4f928a39ea360cdcd076eeae4c98",
+      "bytes": 2501,
+      "sha256": "1775c2f7ac018f828ee1f34605dbbebffd0a0054075c88fd9419a3aa810ab42c",
+      "id": "2029611902:3377699720554732",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/b8/a8b9b4e796d9f19859ff8c8e4b99b8f9336008",
+      "bytes": 395,
+      "sha256": "e45b4d23275bd3c19136faae28b19b2b9167b24a10319115fafdb58df21b676b",
+      "id": "2029611902:3096224743835849",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/bc/8471a6293f78d2c9292b2076958533e2fcd678",
+      "bytes": 215,
+      "sha256": "e6aa936bbe1da573bb43d4ab21f92701dbc1ed1d6255e8b6719fcf2bf9f7aac3",
+      "id": "2029611902:3377699720555027",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/c3/9118609d0fb67c2953490a2090d3534dcaf0bd",
+      "bytes": 215,
+      "sha256": "d5bf7f381982c6dc088ddddd68930fe19487fde26473b86b3a75f8314cdf4bd2",
+      "id": "2029611902:3096224743835845",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/cb/be0702164958a47eb783c125ae329ebe80ad80",
+      "bytes": 297865,
+      "sha256": "8f210d8f73cbf2a726c06ae16625ea49e61d40a7d0896a8c805fec151a634c42",
+      "id": "2029611902:3377699720571537",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/cf/a84ddb524a9464dbaf745c6a76675e6f3d87fb",
+      "bytes": 316,
+      "sha256": "9a49e40d1e2a26a88c063924422d7f978c00bb196dafe73f4c4ed866a97f847a",
+      "id": "2029611902:5348024557521126",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/d6/15c4403dfb08ede167cd2474f7677d72316ddb",
+      "bytes": 283,
+      "sha256": "7db7ca4fc87f8fb263addf7f8d20027adf1fffa0fa3065ff28c3021af0654556",
+      "id": "2029611902:3940649673976418",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/d6/9c9a0e4ebae29004b7dab80fff3d8ce437fbcf",
+      "bytes": 394,
+      "sha256": "0018bd011f8e6fd6d33ff7ce6c6ad02b39686933aa5a78ce1e45434b9c968bc4",
+      "id": "2029611902:4785074604108381",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/da/246cbf9fd5e4a4d00edff1113ae277ae008638",
+      "bytes": 7184,
+      "sha256": "414f581dd4330d92dd55011fe99e0a20e5ceb5195b93e2f172deabce5ddaeb0a",
+      "id": "2029611902:4222124650705240",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/db/20704c14fd029c363aab78f8a1e27df13ccf18",
+      "bytes": 417,
+      "sha256": "a82173313baebde5fb25c15531f12f47864c9ea323c1d2b24efd31d3ff276ed6",
+      "id": "2029611902:4222124650705304",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/dc/7b7e333b076b9628e8a76dc455b90338103867",
+      "bytes": 297228,
+      "sha256": "cddac7ffa0c85c9e2eca05d2b30daa0f0112d3d5055c8bd1832aabb0e7a2d4f6",
+      "id": "2029611902:3096224743835831",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/e6/a2b96adaeccaa53f919b610dbe2cb1ed0f4170",
+      "bytes": 103207,
+      "sha256": "73c1ad41f9ab5e363153b416ce41cb2135475d0c905369680f08e0c88ac77394",
+      "id": "2029611902:4222124650686665",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/f2/c66d47ae9f52ebed41988344e2f6553fed9cc5",
+      "bytes": 346,
+      "sha256": "53ea5fe5c250af332139625a01e18fbabbd3ddc835834b4169331ed2daf38e4b",
+      "id": "2029611902:4503599627416083",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/f3/5016e5b274cfe76953be8cc939885cb8c8d2e8",
+      "bytes": 226,
+      "sha256": "f1966d4c0d780c48618c140e623c7990fefb80033534bfb41091418c41cf910f",
+      "id": "2029611902:6192449487661691",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/f5/84906e72ad8c2ce379686a5cdd2511492b75a9",
+      "bytes": 283,
+      "sha256": "6e94c861abbb0f37331411e80bccaf6bbf3b95e6a81cede976fa788daee7d4e6",
+      "id": "2029611902:3096224743835850",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/f5/afa0f432b259ac7c5bf6fd99edc8d2a347dd41",
+      "bytes": 103061,
+      "sha256": "3506f98a7c0dd42b0b978fc5f371d95e9850fc9f741db6ba0f9a657c2ac0397e",
+      "id": "2029611902:3096224743835834",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/f5/c7204ec18339d63531bfe4fc074b921295de9d",
+      "bytes": 2512,
+      "sha256": "2a74d929848810b56fe33879a06e5411cd1fe2a0b41556d4f4de16aaab34275a",
+      "id": "2029611902:3096224743835838",
+      "reason": "verified packed local object"
+    },
+    {
+      "path": ".git/objects/f8/6803759586110b040381fbfc68a1958468bb5b",
+      "bytes": 1038,
+      "sha256": "7855b9ca0b3658da10bf1b5dcf14005e70df9e1f4827366fcee8e072f98fe25b",
+      "id": "2029611902:360850920143106387",
+      "reason": "verified packed local object"
+    }
+  ],
+  "measuredFreeChange": 1647775744
+}
