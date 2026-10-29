@@ -15,6 +15,7 @@
 | [NE 국가 자료 복원 및 모나코·바이코누르 표시 경계](data/ne-selected-20261023/README.md) | GEO-NE-SELECTED-20261023 |  | 원문 참조 |
 | [국가 존속기간 공란 조사 — 최상위 일반객체 A–D 32개](history/lifetimes/country-lifetime-a-d-2026-10-13.md) | GEO-LIFE-001 | 2026-10-13 | `investigating` |
 | [아프리카 3개국 국가 존속기간 — 카메룬·말리·탄자니아](history/lifetimes/country-lifetime-africa-cmr-mli-tza-2026-10-24.md) | GEO-LIFE-012 | 2026-10-24 | `investigating / phase-1` |
+| [아프리카 국가 존속기간 1차 — 에티오피아·수단·남아프리카공화국](history/lifetimes/country-lifetime-africa-eth-sdn-zaf-2026-10-30.md) | GEO-LIFE-018 | 2026-10-30 | `investigating / phase-1 / not-applied` |
 | [아프리카 국가 존속기간 — 에리트레아·기니비사우·세네갈](history/lifetimes/country-lifetime-africa-eri-gnb-sen-2026-10-18.md) | GEO-LIFE-006 | 2026-10-18 / 검토 10-19 | `investigating` |
 | [아시아 국가 존속기간 — 이라크·요르단·레바논](history/lifetimes/country-lifetime-asia-middle-east-2026-10-17.md) | GEO-LIFE-005 | 2026-10-17 | `investigating` |
 | [아시아 국가 존속기간 1차 — 필리핀·카타르·동티모르](history/lifetimes/country-lifetime-asia-phl-qat-tls-2026-10-29.md) | GEO-LIFE-017 | 2026-10-29 | `investigating / phase-1 / not-applied` |

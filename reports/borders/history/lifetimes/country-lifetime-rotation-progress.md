@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-10-29 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-10-30 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 아시아**
-- **lastCompletedRun: 2026-10-29** (아시아 PHL/QAT/TLS 3개 1차 문헌 조사; 전 지역 완료 아님)
-- **nextRegion: 아프리카**
-- **nextPhase: 아프리카 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
-- **nextAction: 아프리카 GEO-LIFE-001/006/012, GEO-023 및 국가 색인을 대조해 미조사 2~4개를 선정한다. 아시아 GEO-LIFE-017의 PHL(1935 자치령/1946 독립), QAT(1878 국가 기원/1971 독립), TLS(1975 선언/2002 독립 회복)는 2차 법적 계속성 검증에 인계한다.**
+- **lastProcessedRegion: 아프리카**
+- **lastCompletedRun: 2026-10-30** (아프리카 ETH/SDN/ZAF 3개 1차 국가성 문헌 조사; 전 지역 완료 아님)
+- **nextRegion: 북아메리카**
+- **nextPhase: 북아메리카 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
+- **nextAction: 북아메리카 GEO-LIFE-001/007/013 및 GEO-023와 현행 국가 색인을 대조해 미조사 국가 2~4개를 선정한다. 아프리카 GEO-LIFE-018의 ETH(1936–1941 점령과 국가 계속성), SDN(1955 의회 선언/1956 독립·2011 남수단 분리), ZAF(1910 자치령/1934 주권 강화/1961 공화국)은 2차 법적 동일성 검증으로 인계한다.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -29,7 +29,7 @@
 | --- | --- | --- | --- | --- |
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보 |
-| 아프리카 | [GEO-LIFE-006: 에리트레아·기니비사우·세네갈 3개](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) 및 [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 3개국 문헌 1차 조사 등록 완료, 전체 지역 완료 아님 |
+| 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA 2개](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | SLV 1839~1841년 독립국 성립 효력·1896~1898년 국가 동일성 보류; USA 1801년 이전 이미 존속, 내전 중 법적 계속성과 실효 지배 구별 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR | 현행 12개 주권국 선행 기초 조사기록 확인; 역사상 소멸국 전수 미확인 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1816 연합주-현 아르헨티나 동일성 및 볼리비아 1825 국호·국가 법적 효력일 미해결 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 모두 선행 문헌/기간 근거 확인, 역사상 소멸국 전수 및 COK/NIU 분류는 미완료 | 미완료 | NZL 시작일 1907/1942/1947/1987의 층위 구분; 하와이 왕국·공화국 법적 계속성과 미등록 역사 객체 유보 |
@@ -48,6 +48,7 @@
 | **2026-10-28** | **유럽** | **역사상 소멸 정치체 1차** | `state:czechoslovakia`, `state:deutsche-demokratische-republik`, `state:yugoslavia` 3개(현행 색인 존재; 날짜·국가 동일성 보류) | [GEO-LIFE-016](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) — 1918/1949 성립, 1990/1992/2003 법적 지위 분리 | **아시아** |
 
 | **2026-10-29** | **아시아** | **국가별 1차(기존 기간값 검증)** | `PHL`, `QAT`, `TLS` 3개(기존 국가별 독립 1차 보고서 중복 없음) | [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) — 1935·1878·2002 기입일과 주권·국가 형성일 층위 구분, 단일기간 확정 유보 | **아프리카** |
+| **2026-10-30** | **아프리카** | **국가별 1차(기존 기간값의 독립 법적 검토)** | `ETH`, `SDN`, `ZAF` 3개(기존 시작값 유지) | [GEO-LIFE-018](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md) — ETH 점령/법적 계속성, SDN 1956 독립·2011 분리, ZAF 1910/1934/1961 구별; 최종 lifetime 유보 | **북아메리카** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -118,3 +119,12 @@
 - **확인:** PHL `1935-11-15`는 자치령 출범, `1946-07-04` 대외 주권 인정(1898 선언·1899 제1공화국과 구별). QAT `1878-12-18`는 국가 창립·통치 승계 기념, `1971-09-03` 영국 보호관계 종료·독립. TLS `1975-11-28` 선언, `1975-12-07` 침공, `1999-10-25` UNTAET 설치, `2002-05-20` 독립 회복.
 - **유보:** PHL 제1공화국 법적 계속성 및 1935부터의 단일 존속기간, QAT 1916 보호국 중 동일성, TLS 1975~2002 불연속·UN 불승인 합병과 실효 지배. GIS 형상·앱/웹 검사 미실행, 자료 값·형상·Pando 코드·main·배포 변경 **0건**.
 - **lastProcessedRegion=아시아 / nextRegion=아프리카 / nextPhase=국가별 미조사 1차 조사**. 아프리카 기존 GEO-LIFE-006/012 6개국 중복 제외. 모든 지역 1·2차 전수 미완료.
+
+
+## 2026-10-30 — 아프리카 3개국 국가성·법적 계속성 1차 조사 (GEO-LIFE-018)
+
+- **선정·단계:** 직전 아시아 → **아프리카**. ETH·SDN·ZAF 기존 기간값에 관한 독립 국가별 1차 3건. 기존 GEO-LIFE-001/006/012/023과 중복 집계하지 않으며 전체 대륙 전수 완료라고 표시하지 않음.
+- **자료 기준:** `Pando/work/gis` HEAD `2c41bf5fca8ccdcb69a5485d7bceddd347647ac7`; 고정 자료 revision `890e2ae21b8b2c240de5dd64c5d459f4c7e59841`; 색인 blob `c46da52683d752022ec7427b8122eff5a4057882` (284개). 현행 `ETH=1270`(1801년 이전, **이번 조사에서 검증하지 않음**), `SDN=1956-01-01`, `ZAF=1910-05-31` 값 모두 미변경.
+- **사건·구분:** ETH 1936–1941 이탈리아 실효 점령과 대외 법적 불승인·1941 복귀, 1974/1991/1995 헌정 변화 및 1993 에리트레아 분리; SDN 1955-12-19 의회 선언과 1956-01-01 독립, 2011-07-09 남수단 분리; ZAF 1910-05-31 영국 자치령 연합 성립, 1934 주권 관련 법률, 1961-05-31 공화국 전환을 구분.
+- **유보:** 1936~1941 에티오피아 계속성·1801년 이전 기존 기입일, 수단 원 독립법·분리승계, 남아공 1934 원관보 및 국가 동일성. 역사 지도/GIS·웹·앱 검사 미실행; 라이프타임·GIS 형상·코드·`Pando/work/gis`·`Pando/main`·배포 변경 **0건**.
+- **lastProcessedRegion=아프리카 / nextRegion=북아메리카 / nextPhase=국가별 미조사 1차(소진 시 2차)**. 여섯 지역의 1·2차 전수 모두 미완료.
