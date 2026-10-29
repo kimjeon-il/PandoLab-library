@@ -66,6 +66,13 @@
     "freeAtCompletion": 60193390592,
     "measuredChangeSinceRequest": -2605056,
     "intervalMayIncludeOtherActivity": true,
-    "command": "Remove-Item -LiteralPath @('D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package','D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip') -Recurse -Force"
+    "command": "Remove-Item -LiteralPath @('D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package','D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip','D:/dev/worktrees/ui/.superpowers/sdd/2026-10-29-map-toolkit-georeference-quality') -Recurse -Force",
+    "taskScratch": {
+      "path": "D:/dev/worktrees/ui/.superpowers/sdd/2026-10-29-map-toolkit-georeference-quality",
+      "logicalBytes": 8225,
+      "status": "blocked",
+      "reason": "Automatic approval review also rejected removal of the completed plan ledger. No alternative deletion method used."
+    },
+    "totalBlockedLogicalBytes": 51779520
   }
 }
