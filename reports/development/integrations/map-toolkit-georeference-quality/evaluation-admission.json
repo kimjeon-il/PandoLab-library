@@ -1,0 +1,153 @@
+{
+  "scope": "Selected macro development cases only",
+  "corpusSha256": "0fa1163b7c2f649c38946290b6804278c41d57d0ce52e0a579211da50b8be6ed",
+  "sourceFamilies": [
+    {
+      "id": "cia-asia-political-seams-r4",
+      "family": "cia-asia-political-azimuthal",
+      "duplicateGroup": "cia-asia-political-2013",
+      "split": "train"
+    },
+    {
+      "id": "cia-world-political-2021",
+      "family": "cia-world-political-robinson",
+      "duplicateGroup": "cia-world-political-2021",
+      "split": "train"
+    },
+    {
+      "id": "ga-australia-general-reference",
+      "family": "geoscience-australia-folio-reference",
+      "duplicateGroup": "ga-australia-folio-edition-3",
+      "split": "train"
+    },
+    {
+      "id": "gsi-japan-national-japanese-exclusions-r2",
+      "family": "gsi-japan-national-azimuthal",
+      "duplicateGroup": "gsi-japan-national-20221220",
+      "split": "train"
+    },
+    {
+      "id": "nrcan-africa-national-reference",
+      "family": "atlas-canada-continental-reference",
+      "duplicateGroup": "nrcan-africa-copyright-2024",
+      "split": "train"
+    },
+    {
+      "id": "nrcan-canada-monochrome",
+      "family": "atlas-canada-national-reference",
+      "duplicateGroup": "nrcan-canada-national",
+      "split": "train"
+    },
+    {
+      "id": "nrcan-canada-national",
+      "family": "atlas-canada-national-reference",
+      "duplicateGroup": "nrcan-canada-national",
+      "split": "train"
+    }
+  ],
+  "selected": [
+    {
+      "id": "cia-asia-political-seams-r4",
+      "family": "cia-asia-political-azimuthal",
+      "duplicateGroup": "cia-asia-political-2013",
+      "split": "train",
+      "mapKind": "color",
+      "script": "Latin",
+      "annotation": "labels/cia-asia-political-seams-r4.json",
+      "annotationSha256": "e9c2c975f29c5391850e4271b734feb7c0fb68082797c858e1eb4b52c7120ef0",
+      "reviewed": false,
+      "supervisionQuality": "source-derived-weak",
+      "observedChannels": [
+        "international"
+      ],
+      "positivePixels": {
+        "international": 39681,
+        "administrative": 0,
+        "coast": 0,
+        "hydro": 0,
+        "transport": 0,
+        "text": 0,
+        "frame": 0
+      },
+      "sourceSha256": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+      "source": {
+        "url": "https://maps.lib.utexas.edu/maps/middle_east_and_asia/asia_pol_2013.pdf",
+        "metadataUrl": "https://maps.lib.utexas.edu/maps/asia.html",
+        "license": "CIA public-domain map; credit Central Intelligence Agency and University of Texas Libraries archival reproduction; retain source notices.",
+        "rightsUrl": "https://www.cia.gov/site-policies/",
+        "published": "2013"
+      }
+    },
+    {
+      "id": "gsi-japan-national-japanese-exclusions-r2",
+      "family": "gsi-japan-national-azimuthal",
+      "duplicateGroup": "gsi-japan-national-20221220",
+      "split": "train",
+      "mapKind": "color",
+      "script": "Japanese",
+      "annotation": "labels/gsi-japan-national-japanese-exclusions-r2.json",
+      "annotationSha256": "2e83346c30854c13b74c67a9757ba0a67c11a4e77cb11adc5f9f14d8ae7216f1",
+      "reviewed": false,
+      "supervisionQuality": "source-derived-weak",
+      "observedChannels": [
+        "international"
+      ],
+      "positivePixels": {
+        "international": 355,
+        "administrative": 0,
+        "coast": 0,
+        "hydro": 0,
+        "transport": 0,
+        "text": 0,
+        "frame": 0
+      },
+      "sourceSha256": "3b6fe3c79a50d263435aa99d90881040a5ef9f02d545508fdfc9072b10429784",
+      "source": {
+        "url": "https://web1.gsi.go.jp/common/000247485.pdf",
+        "metadataUrl": "https://www.gsi.go.jp/chizuhensyu/chizuhensyu41009.html",
+        "license": "Geospatial Information Authority of Japan: free download/reuse with source attribution, no application required per official source page. Retain GSI and GEBCO credits; no endorsement or sovereignty claim.",
+        "rightsUrl": "https://www.gsi.go.jp/chizuhensyu/chizuhensyu41009.html",
+        "published": null
+      }
+    },
+    {
+      "id": "nrcan-canada-monochrome",
+      "family": "atlas-canada-national-reference",
+      "duplicateGroup": "nrcan-canada-national",
+      "split": "train",
+      "mapKind": "monochrome",
+      "script": "Latin",
+      "annotation": "labels/nrcan-canada-monochrome.json",
+      "annotationSha256": "09409a96e532c2c6b9c4c422285c056c5debcc7b49e824817b56c3cda57b434e",
+      "reviewed": false,
+      "supervisionQuality": "source-derived-weak",
+      "observedChannels": [
+        "international",
+        "administrative"
+      ],
+      "positivePixels": {
+        "international": 9577,
+        "administrative": 12420,
+        "coast": 0,
+        "hydro": 0,
+        "transport": 0,
+        "text": 0,
+        "frame": 0
+      },
+      "sourceSha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+      "source": {
+        "url": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_canada/b&w/Canadab&w.pdf",
+        "metadataUrl": "https://open.canada.ca/data/en/dataset/e9ffaaa6-c8f0-4c88-be9a-5d019a919ad8",
+        "license": "Contains information licensed under the Open Government Licence - Canada. Source: Natural Resources Canada, Atlas of Canada. Retain Crown copyright and map credits.",
+        "rightsUrl": "https://open.canada.ca/en/open-government-licence-canada",
+        "published": null
+      }
+    }
+  ],
+  "decision": {
+    "newTraining": false,
+    "independentEvaluation": "unavailable",
+    "reason": "Selected original families have already been used for training and annotations remain unreviewed source-derived weak supervision. Reassigning their tiles or colour variants cannot create an independent test set.",
+    "nextRequired": "Separately reviewed held-out production families with international/administrative positives, text/grid/frame negatives, explicit unknown overlap and independent source-pixel georeference checks."
+  }
+}

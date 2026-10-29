@@ -1,0 +1,71 @@
+{
+  "sourceSha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+  "note": "Selected development cases against visually checked PDF symbol centres, not held-out accuracy.",
+  "rows": [
+    {
+      "name": "whitehorse",
+      "actual": [
+        211.795,
+        513.57
+      ],
+      "before": [
+        306.6521739130435,
+        479.391304347826
+      ],
+      "after": [
+        211.41379310344828,
+        513.2758620689655
+      ],
+      "beforeError": 100.82691445865693,
+      "afterError": 0.4814933233720756
+    },
+    {
+      "name": "yellowknife",
+      "actual": [
+        465.599,
+        591.009
+      ],
+      "before": [
+        496.8556701030928,
+        556.1752577319587
+      ],
+      "after": null,
+      "beforeError": 46.801378466129634,
+      "afterError": null
+    },
+    {
+      "name": "iqaluit",
+      "actual": [
+        1005,
+        527.782
+      ],
+      "before": [
+        993.25,
+        499.75
+      ],
+      "after": [
+        1004.5,
+        527.2142857142857
+      ],
+      "beforeError": 30.394991758511836,
+      "afterError": 0.7565047985334801
+    },
+    {
+      "name": "ottawa",
+      "actual": [
+        1074.203,
+        1033.016
+      ],
+      "before": [
+        1096.6666666666667,
+        1000.6666666666666
+      ],
+      "after": [
+        1073.7714285714285,
+        1032.5714285714287
+      ],
+      "beforeError": 39.383952153411855,
+      "afterError": 0.6195947490588155
+    }
+  ]
+}

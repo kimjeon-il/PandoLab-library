@@ -1,0 +1,139 @@
+{
+  "jobId": "c1c9e2a5-2f12-446f-a5b1-4c89dea735b9",
+  "jobPath": "/workspace/scratch/4e952140e20d/canada-regression-20261029/canada.job.json",
+  "revision": 0,
+  "status": "needs-georeference",
+  "pluginVersion": "0.4.2",
+  "codeRevision": "58a68e11812e015cd04debdef7deb834d6869fca",
+  "runtimeCatalogSha256": "451051baf4df8dc922aefe979e5723915b923cca90c194c870e68fc5dc4163ce",
+  "producerSha256": "051c4cb0e8e8b67e8aea20ca5daa9fb85a175608bf9770cbbc10717fdaa89564",
+  "coreManifestSha256": "991e5365677bafa422ccf0e9f714c1ac10ce90b542c109ec1eae75e8a64d9c32",
+  "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+  "modelEvaluationStatus": "pending",
+  "trainingOnly": true,
+  "releaseApproved": false,
+  "execution": {
+    "ocr": "Tesseract.js actual execution",
+    "inference": "onnxruntime-web WASM CPU actual execution",
+    "tilesCompleted": 12,
+    "tilesTotal": 12
+  },
+  "source": {
+    "id": "nrcan-canada-bw",
+    "url": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_canada/b%26w/Canadab%26w.pdf",
+    "format": "pdf",
+    "title": "Canada black and white reference map",
+    "provider": "NRCan Atlas of Canada",
+    "depictedDate": null,
+    "copyrightYear": 2024,
+    "license": "Open Government Licence Canada",
+    "licenseUrl": "https://open.canada.ca/en/open-government-licence-canada",
+    "rightsReviewed": true,
+    "expectedBytes": 841931,
+    "sha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+    "maximumBytes": 841931,
+    "bytes": 841931,
+    "acquiredAt": "2026-10-29T04:35:11.665317+00:00",
+    "annotations": null,
+    "reviewedLabels": false,
+    "trainingReady": false
+  },
+  "page": 1,
+  "maxPixels": 4000000,
+  "analysisSize": [
+    1584,
+    1224
+  ],
+  "ocrOrientation": {
+    "script": "Cyrillic",
+    "clockwiseDegrees": 0,
+    "osdClockwiseDegrees": 0,
+    "confidence": 5.092620849609375,
+    "scriptConfidence": 3.000000476837158,
+    "probeScores": [
+      {
+        "angle": 0,
+        "score": 317.9699999999998,
+        "language": "eng"
+      },
+      {
+        "angle": 0,
+        "score": 37.17,
+        "language": "rus"
+      },
+      {
+        "angle": 180,
+        "score": 13.79,
+        "language": "eng"
+      },
+      {
+        "angle": 270,
+        "score": 13.63,
+        "language": "eng"
+      },
+      {
+        "angle": 90,
+        "score": 11.279999999999998,
+        "language": "eng"
+      },
+      {
+        "angle": 270,
+        "score": 2.58,
+        "language": "rus"
+      },
+      {
+        "angle": 90,
+        "score": 2.25,
+        "language": "rus"
+      },
+      {
+        "angle": 180,
+        "score": 1.949999999999999,
+        "language": "rus"
+      }
+    ],
+    "selectionReason": "recognition-probe-overrides-weak-script",
+    "languages": [
+      "eng"
+    ]
+  },
+  "ocrDetections": 180,
+  "boundaries": 551,
+  "faces": 2,
+  "locationCandidates": 0,
+  "warp": null,
+  "quality": null,
+  "review": null,
+  "diagnostics": [
+    {
+      "code": "LIMITED_PLACE_COVERAGE",
+      "reason": "The packaged curated city subset is not a complete world gazetteer.",
+      "action": "Missing settlements cannot establish a location; inspect source/grid evidence or supply reviewed control points."
+    },
+    {
+      "code": "NEEDS_GEOREFERENCE",
+      "reason": "no-auto-georef-consensus",
+      "action": "Review locationCandidates/grid or supply original-image UV control points."
+    }
+  ],
+  "previewInspection": {
+    "viewed": true,
+    "observations": [
+      "Provisional candidates follow some province and international boundaries.",
+      "False candidates occur on graticule, text and legend; no candidate approval."
+    ],
+    "georeferenceApproved": false
+  },
+  "geojsonExported": false,
+  "retention": {
+    "originalJobRuntimeModel": "retained for structured revise in this active environment",
+    "temporaryTensors": "disposed by inference finally blocks",
+    "failedDownloads": "none remaining"
+  },
+  "retainedSizesBytes": {
+    "job": 883526,
+    "preview": 809021,
+    "original": 841931,
+    "model": 16697571
+  }
+}

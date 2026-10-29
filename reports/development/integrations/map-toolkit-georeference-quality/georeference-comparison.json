@@ -1,0 +1,156 @@
+{
+  "elapsedSeconds": 0.08180950000000001,
+  "mode": "affine",
+  "quality": {
+    "crossValidationP95Pixels": 577.757012389573,
+    "folded": false,
+    "imageCoverage": 0.81,
+    "ok": true,
+    "reason": "source-pixel-validation-failed",
+    "recommended": false,
+    "modelComparison": [
+      {
+        "mode": "similarity",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 3265190.725005711,
+        "crossValidationP95Pixels": 2547.5314824064562,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "affine",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 983085.4625836759,
+        "crossValidationP95Pixels": 577.757012389573,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "projective",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 842021.6857595916,
+        "crossValidationP95Pixels": 813.5344023808613,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "tps",
+        "ok": true,
+        "eligible": false,
+        "rmsMeters": 0.00004878835841690789,
+        "crossValidationP95Pixels": 253.07417346092512,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "check-0-0",
+      "meters": 948175.8410558371
+    },
+    {
+      "id": "check-0-1",
+      "meters": 432572.31874278415
+    },
+    {
+      "id": "check-0-2",
+      "meters": 208750.33416557364
+    },
+    {
+      "id": "check-0-3",
+      "meters": 734861.4007072637
+    },
+    {
+      "id": "check-0-4",
+      "meters": 1287285.813437524
+    },
+    {
+      "id": "check-1-0",
+      "meters": 860185.1447434064
+    },
+    {
+      "id": "check-1-1",
+      "meters": 631091.4403254755
+    },
+    {
+      "id": "check-1-2",
+      "meters": 435539.14445420715
+    },
+    {
+      "id": "check-1-3",
+      "meters": 427441.6662985473
+    },
+    {
+      "id": "check-1-4",
+      "meters": 631266.2776548697
+    },
+    {
+      "id": "check-2-0",
+      "meters": 949742.0949315308
+    },
+    {
+      "id": "check-2-1",
+      "meters": 798903.5583313353
+    },
+    {
+      "id": "check-2-2",
+      "meters": 632217.4348232691
+    },
+    {
+      "id": "check-2-3",
+      "meters": 469176.83275948727
+    },
+    {
+      "id": "check-2-4",
+      "meters": 325855.56925855397
+    },
+    {
+      "id": "check-3-0",
+      "meters": 933253.941958593
+    },
+    {
+      "id": "check-3-1",
+      "meters": 621125.5914999881
+    },
+    {
+      "id": "check-3-2",
+      "meters": 403533.26255993784
+    },
+    {
+      "id": "check-3-3",
+      "meters": 416052.89279720833
+    },
+    {
+      "id": "check-3-4",
+      "meters": 593142.6243554418
+    },
+    {
+      "id": "check-4-0",
+      "meters": 957812.6014133027
+    },
+    {
+      "id": "check-4-1",
+      "meters": 362607.32746764866
+    },
+    {
+      "id": "check-4-2",
+      "meters": 342550.9660394487
+    },
+    {
+      "id": "check-4-3",
+      "meters": 865567.1694953678
+    },
+    {
+      "id": "check-4-4",
+      "meters": 1357963.7939740962
+    }
+  ]
+}

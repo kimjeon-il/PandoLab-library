@@ -1,0 +1,47 @@
+{
+  "version": "0.4.2",
+  "scope": "PRIVATE USER audience preserved",
+  "sourceRevision": "58a68e11812e015cd04debdef7deb834d6869fca",
+  "dataRevision": "65fbc692f47f7936a804e7af0eed546966898828",
+  "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+  "coreSourceSha256": "ec79740da1362e4b382ae9cc5508235c0709bd963add975a2d319342f962705a",
+  "sourceFileCount": 212,
+  "installedFileCount": 213,
+  "packageLogicalBytes": 28260904,
+  "zipBytes": 23510391,
+  "zipSha256": "a38611973ae8e3c7178150bdfad46d8e9ad26fe49b9d1ed1e4d55e603fe879ac",
+  "validation": {
+    "archiveCrc": true,
+    "packagedCoreSourceIdentity": true,
+    "exactReadBackComparedFiles": 7,
+    "retiredFilesAbsent": 16,
+    "generatedManifestVersionMatched": true
+  },
+  "tests": {
+    "command": "node --test tests/unit/map-analysis-symbols.test.mjs tests/unit/map-analysis-georef.test.mjs tests/unit/map-analysis-ocr-catalog.test.mjs tests/unit/map-plugin.test.mjs tests/unit/map-plugin-import.test.mjs tests/unit/map-cloud-probe.test.mjs tests/unit/map-plugin-package.test.mjs tests/unit/map-runtime.test.mjs tests/unit/map-cli.test.mjs",
+    "passed": 82,
+    "failed": 0,
+    "elapsedMs": 7720.2896,
+    "focusedEslintPassed": true
+  },
+  "remoteWasm": {
+    "firstRun": 40815234032,
+    "firstResult": "success",
+    "reviewFixRun": 40817212305,
+    "reviewFixResult": "success",
+    "compiledCommit": "b20faaaf"
+  },
+  "review": {
+    "critical": 0,
+    "important": 2,
+    "minor": 1,
+    "fixes": "Crop folds checked before rejecting outside controls; label eligibility/scoring applied before component ranking; original OSD angle retained separately.",
+    "regressionsObservedRedThenGreen": true
+  },
+  "modelApproval": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "noAppBuildOrMainIntegration": true
+}

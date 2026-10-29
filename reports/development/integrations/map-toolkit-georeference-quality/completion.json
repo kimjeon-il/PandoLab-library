@@ -1,0 +1,71 @@
+{
+  "completedAt": "2026-10-29T04:44:37.771Z",
+  "status": "registration-fixes-installed-and-work-verified-with-limitations",
+  "sourceRevision": "58a68e11812e015cd04debdef7deb834d6869fca",
+  "pluginVersion": "0.4.2",
+  "modelFlags": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "work": {
+    "actualCloud": true,
+    "pcRemoteUsed": false,
+    "managedVersionAndRevisionMatched": true,
+    "originalPdfBytes": 841931,
+    "sourceSha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+    "actualTesseract": true,
+    "actualOnnxWasmCpu": true,
+    "default4MP": true,
+    "originalSize": [
+      1584,
+      1224
+    ],
+    "ocrDetections": 180,
+    "tiles": 12,
+    "chains": 551,
+    "faces": 2,
+    "status": "needs-georeference",
+    "secondTurnRevision": 1,
+    "preservedSourceOcrGraphResources": true,
+    "expectedExportRefusal": true,
+    "downloadedFiles": [
+      "summary.json",
+      "analysis.json",
+      "preview.png",
+      "revise-summary.json",
+      "revised-analysis.json"
+    ],
+    "downloadHashesVerified": true,
+    "revisedPreviewDuplicateNotDownloaded": true
+  },
+  "testsPassed": 82,
+  "focusedLintPassed": true,
+  "finalFreshReviewFixesVerified": true,
+  "actualPhone042Retested": false,
+  "nativeSaveReopenRetested": false,
+  "appBuildOrMainIntegration": false,
+  "newTraining": false,
+  "remainingProductWork": [
+    "complete analysis gazetteer independent of curated display city subset",
+    "projection-aware nationwide/high-latitude registration",
+    "held-out reviewed map families and text/grid/frame negatives before independent model accuracy evaluation"
+  ],
+  "storage": {
+    "status": "blocked",
+    "removedByAgent": [],
+    "logicalBytesRemovedByAgent": 0,
+    "blocked": [
+      "D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package",
+      "D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip"
+    ],
+    "remainingLogicalBytes": 51771295,
+    "blockedOperation": "PowerShell Remove-Item on verified completed staging package and ZIP",
+    "reason": "Automatic approval review rejected the command as blocked by policy; no specific reason provided. No alternate deletion method used.",
+    "freeBeforeRequest": 60195995648,
+    "freeAtCompletion": 60193390592,
+    "measuredChangeSinceRequest": -2605056,
+    "intervalMayIncludeOtherActivity": true,
+    "command": "Remove-Item -LiteralPath @('D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package','D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip') -Recurse -Force"
+  }
+}

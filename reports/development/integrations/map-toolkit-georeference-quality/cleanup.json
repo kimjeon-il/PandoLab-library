@@ -1,0 +1,17 @@
+{
+  "status": "blocked",
+  "removedByAgent": [],
+  "logicalBytesRemovedByAgent": 0,
+  "blocked": [
+    "D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package",
+    "D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip"
+  ],
+  "remainingLogicalBytes": 51771295,
+  "blockedOperation": "PowerShell Remove-Item on verified completed staging package and ZIP",
+  "reason": "Automatic approval review rejected the command as blocked by policy; no specific reason provided. No alternate deletion method used.",
+  "freeBeforeRequest": 60195995648,
+  "freeAtCompletion": 60193390592,
+  "measuredChangeSinceRequest": -2605056,
+  "intervalMayIncludeOtherActivity": true,
+  "command": "Remove-Item -LiteralPath @('D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package','D:/dev/PandoLab-library-data/.working/map-toolkit-georeference-quality/package.zip') -Recurse -Force"
+}

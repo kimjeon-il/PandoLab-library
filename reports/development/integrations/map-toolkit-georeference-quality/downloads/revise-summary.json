@@ -1,0 +1,137 @@
+{
+  "jobId": "c1c9e2a5-2f12-446f-a5b1-4c89dea735b9",
+  "pluginVersion": "0.4.2",
+  "runtimeCodeRevision": "58a68e11812e015cd04debdef7deb834d6869fca",
+  "revisionBefore": 0,
+  "revisionAfter": 1,
+  "status": "needs-georeference",
+  "reason": "insufficient-control-points",
+  "review": null,
+  "controlPoints": [
+    {
+      "id": "ottawa-reviewed-source-symbol",
+      "image": [
+        0.6785868603916614,
+        0.8446573998364678
+      ],
+      "coordinate": [
+        -75.69812,
+        45.41117
+      ]
+    }
+  ],
+  "history": [
+    {
+      "revision": 1,
+      "command": {
+        "type": "control-points",
+        "mode": "auto",
+        "points": [
+          {
+            "id": "ottawa-reviewed-source-symbol",
+            "image": [
+              0.6785868603916614,
+              0.8446573998364678
+            ],
+            "coordinate": [
+              -75.69812,
+              45.41117
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "changedTopLevelFields": [
+    "revision",
+    "calibration",
+    "warp",
+    "history",
+    "signature"
+  ],
+  "hashMethod": "SHA256 of JSON.stringify(value), preserving saved key order; file hashes use original bytes",
+  "before": {
+    "sourceSha": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+    "actualSourceSha": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+    "segmentationSignature": "6fea1e5dbef767aee88029ff2bd765282410c8c8c3d4e2fd44455d9d1664edca",
+    "rawGraphSha256": "df5f41acc09f398ff6cd7592a8c4fb8f0a8d528a9045e80b81d158ccca235e4f",
+    "graphSha256": "df5f41acc09f398ff6cd7592a8c4fb8f0a8d528a9045e80b81d158ccca235e4f",
+    "ocrSha256": "8c201b3a797e202f10f8c017ffa0c16cac74295b68edd0a9ade771899a5369c7",
+    "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "actualModelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "modelMetadataSha256": "36eac2a3f99112a195ac2076204fe7ffb738350d04b5ece937b9dd29768d1d5c",
+    "producerSha256": "051c4cb0e8e8b67e8aea20ca5daa9fb85a175608bf9770cbbc10717fdaa89564",
+    "coreManifestSha256": "991e5365677bafa422ccf0e9f714c1ac10ce90b542c109ec1eae75e8a64d9c32",
+    "resourcesSha256": "ec5f37119d35222b1f6fd26ae2dcc5a786ed7335a638ee558695d53a372d2bf1"
+  },
+  "after": {
+    "sourceSha": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+    "actualSourceSha": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+    "segmentationSignature": "6fea1e5dbef767aee88029ff2bd765282410c8c8c3d4e2fd44455d9d1664edca",
+    "rawGraphSha256": "df5f41acc09f398ff6cd7592a8c4fb8f0a8d528a9045e80b81d158ccca235e4f",
+    "graphSha256": "df5f41acc09f398ff6cd7592a8c4fb8f0a8d528a9045e80b81d158ccca235e4f",
+    "ocrSha256": "8c201b3a797e202f10f8c017ffa0c16cac74295b68edd0a9ade771899a5369c7",
+    "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "actualModelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "modelMetadataSha256": "36eac2a3f99112a195ac2076204fe7ffb738350d04b5ece937b9dd29768d1d5c",
+    "producerSha256": "051c4cb0e8e8b67e8aea20ca5daa9fb85a175608bf9770cbbc10717fdaa89564",
+    "coreManifestSha256": "991e5365677bafa422ccf0e9f714c1ac10ce90b542c109ec1eae75e8a64d9c32",
+    "resourcesSha256": "ec5f37119d35222b1f6fd26ae2dcc5a786ed7335a638ee558695d53a372d2bf1"
+  },
+  "equal": {
+    "sourceSha": true,
+    "actualSourceSha": true,
+    "segmentationSignature": true,
+    "rawGraphSha256": true,
+    "graphSha256": true,
+    "ocrSha256": true,
+    "modelSha256": true,
+    "actualModelSha256": true,
+    "modelMetadataSha256": true,
+    "producerSha256": true,
+    "coreManifestSha256": true,
+    "resourcesSha256": true
+  },
+  "ocrRerun": false,
+  "inferenceRerun": false,
+  "executionEvidence": "Existing revise CLI returned revision 1; runtime cacheHit true; control-points branch invokes reviseJob and renderPreview, not recognize/inferReferenceBoundaries.",
+  "originalDownloadsUnchanged": {
+    "summary.json": "66e50c30a5dcbb1c5e064e4acd202526724720a09659a1a7a46df48a75bd5401",
+    "analysis.json": "3c02f1a33e96baf89b3de60efd228a2845554be2eb3183db8b14847f8f90acaa",
+    "preview.png": "2d7aebfd093642747bccaeef196d6bf8ab4f3a8a8ec2e662a416561a7bb8de83"
+  },
+  "exportGate": {
+    "attempts": 1,
+    "destination": "/workspace/scratch/4e952140e20d/canada-regression-20261029/rejected-export-revision-1",
+    "existedBefore": false,
+    "exitCode": 1,
+    "stdout": "",
+    "stderr": "{\"phase\":\"runtime\",\"step\":\"verify\"}\n{\"phase\":\"runtime\",\"step\":\"ready\",\"cacheHit\":true}\n{\"status\":\"failed\",\"code\":\"Error\",\"message\":\"Review current georeference and boundaries before export.\",\"stack\":\"Error: Review current georeference and boundaries before export.\\n    at jobFeatures (file:///root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.2/skills/pando-map-analysis/lib/jobs.mjs:88:64)\\n    at exportJob (file:///root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.2/skills/pando-map-analysis/lib/jobs.mjs:106:18)\\n    at file:///root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.2/skills/pando-map-analysis/scripts/map.mjs:60:24\"}\n",
+    "destinationExistsAfter": false,
+    "stagingDirectoriesAfter": [],
+    "geojsonFilesAfter": [],
+    "completeFilesAfter": []
+  },
+  "modelFlags": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "retained": {
+    "job": "/workspace/scratch/4e952140e20d/canada-regression-20261029/canada.job.json",
+    "original": "/workspace/scratch/4e952140e20d/canada-regression-20261029/canada.job.json.input/nrcan-canada-bw.pdf",
+    "model": "/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.2/skills/pando-map-analysis/model/boundary.manifest.json",
+    "runtime": "/tmp/map-toolkit-runtime",
+    "reason": "Next structured revision in the active environment"
+  },
+  "artifacts": {
+    "revised-analysis.json": {
+      "bytes": 884391,
+      "sha256": "4994e24ca7237d9710bfc32f067da939be375ea3d6cf4fb5e68d7c611b687c70"
+    },
+    "revised-preview.png": {
+      "bytes": 809021,
+      "sha256": "2d7aebfd093642747bccaeef196d6bf8ab4f3a8a8ec2e662a416561a7bb8de83"
+    }
+  }
+}
