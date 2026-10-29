@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "reviewed": true,
+  "width": 750,
+  "height": 643,
+  "review": {
+    "kind": "agent",
+    "reviewer": "Codex",
+    "sourceSha256": "39c7045f246a96eebe2c9ea96db2a518f1a43ecf3f0b4b506b5dbde13ec1d3fe",
+    "predictionBlind": true,
+    "coverage": "partial",
+    "reviewedAt": "2026-10-29T11:46:22.780019Z",
+    "reviewPasses": 2,
+    "checks": [
+      "Original source, legend and semantic context examined before predictions",
+      "First source overlay checked at 2x to 8x native enlargement",
+      "Second multi-patch annotated source contact sheet checked; frame, coast, country title and nonboundary symbols distinguished"
+    ],
+    "limitation": "Partial known patches only; historic ownership and final model accuracy unverified."
+  },
+  "known": {
+    "international": [
+      [
+        [
+          39,
+          298
+        ],
+        [
+          48,
+          298
+        ],
+        [
+          48,
+          332
+        ],
+        [
+          39,
+          332
+        ]
+      ],
+      [
+        [
+          352,
+          202
+        ],
+        [
+          407,
+          202
+        ],
+        [
+          407,
+          261
+        ],
+        [
+          352,
+          261
+        ]
+      ]
+    ],
+    "administrative": [
+      [
+        [
+          39,
+          298
+        ],
+        [
+          48,
+          298
+        ],
+        [
+          48,
+          332
+        ],
+        [
+          39,
+          332
+        ]
+      ],
+      [
+        [
+          352,
+          202
+        ],
+        [
+          407,
+          202
+        ],
+        [
+          407,
+          261
+        ],
+        [
+          352,
+          261
+        ]
+      ]
+    ],
+    "coast": [
+      [
+        [
+          39,
+          298
+        ],
+        [
+          48,
+          298
+        ],
+        [
+          48,
+          332
+        ],
+        [
+          39,
+          332
+        ]
+      ],
+      [
+        [
+          352,
+          202
+        ],
+        [
+          407,
+          202
+        ],
+        [
+          407,
+          261
+        ],
+        [
+          352,
+          261
+        ]
+      ]
+    ],
+    "frame": [
+      [
+        [
+          39,
+          298
+        ],
+        [
+          48,
+          298
+        ],
+        [
+          48,
+          332
+        ],
+        [
+          39,
+          332
+        ]
+      ]
+    ]
+  },
+  "lines": [
+    {
+      "kind": "frame",
+      "points": [
+        [
+          43.14,
+          302
+        ],
+        [
+          43.14,
+          303
+        ],
+        [
+          43.15,
+          304
+        ],
+        [
+          43.18,
+          305
+        ],
+        [
+          43.2,
+          306
+        ],
+        [
+          43.21,
+          307
+        ],
+        [
+          43.2,
+          308
+        ],
+        [
+          43.19,
+          309
+        ],
+        [
+          43.21,
+          310
+        ],
+        [
+          43.23,
+          311
+        ],
+        [
+          43.23,
+          312
+        ],
+        [
+          43.23,
+          313
+        ],
+        [
+          43.21,
+          314
+        ],
+        [
+          43.17,
+          315
+        ],
+        [
+          43.16,
+          316
+        ],
+        [
+          43.16,
+          317
+        ],
+        [
+          43.13,
+          318
+        ],
+        [
+          43.11,
+          319
+        ],
+        [
+          43.12,
+          320
+        ],
+        [
+          43.12,
+          321
+        ],
+        [
+          43.11,
+          322
+        ],
+        [
+          43.11,
+          323
+        ],
+        [
+          43.11,
+          324
+        ],
+        [
+          43.11,
+          325
+        ],
+        [
+          43.12,
+          326
+        ],
+        [
+          43.13,
+          327
+        ],
+        [
+          43.08,
+          328
+        ]
+      ],
+      "width": 2
+    }
+  ],
+  "regions": [],
+  "ignore": [
+    [
+      [
+        38,
+        297
+      ],
+      [
+        49,
+        297
+      ],
+      [
+        49,
+        306
+      ],
+      [
+        38,
+        306
+      ]
+    ],
+    [
+      [
+        38,
+        324
+      ],
+      [
+        49,
+        324
+      ],
+      [
+        49,
+        333
+      ],
+      [
+        38,
+        333
+      ]
+    ]
+  ],
+  "notes": [
+    "Source-only partial patches; no neural boundary-model output used. Two source-overlay reviews completed.",
+    "Dutch/Latin and Han remain source scripts. Compass and frame only; no guessed transcription or historical territorial assignment."
+  ],
+  "confounders": [
+    {
+      "kind": "compass-rose",
+      "polygon": [
+        [
+          352,
+          202
+        ],
+        [
+          407,
+          202
+        ],
+        [
+          407,
+          261
+        ],
+        [
+          352,
+          261
+        ]
+      ]
+    }
+  ],
+  "sourceAssistance": {
+    "kind": "manual-source-frame-profile",
+    "boundaryModelUsed": false,
+    "region": [
+      40,
+      302,
+      48,
+      329
+    ],
+    "inkThreshold": 180
+  }
+}

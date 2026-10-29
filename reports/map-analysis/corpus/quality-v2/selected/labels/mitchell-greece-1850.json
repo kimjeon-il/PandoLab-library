@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "reviewed": true,
+  "width": 3000,
+  "height": 2444,
+  "review": {
+    "kind": "agent",
+    "reviewer": "Codex",
+    "sourceSha256": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+    "predictionBlind": true,
+    "coverage": "partial",
+    "reviewedAt": "2026-10-29T11:32:57.949451Z",
+    "reviewPasses": 2,
+    "checks": [
+      "Printed source and semantic context inspected before neural-model predictions",
+      "First original-pixel overlay checked; loose text box and ambiguous coastline overprint corrected",
+      "Second source overlay at native-pixel enlargement checked after corrections"
+    ],
+    "limitation": "Partial patches only; no whole-map qualification or historical ownership validation."
+  },
+  "known": {
+    "international": [
+      [
+        [
+          440,
+          1420
+        ],
+        [
+          470,
+          1420
+        ],
+        [
+          470,
+          1455
+        ],
+        [
+          440,
+          1455
+        ]
+      ]
+    ],
+    "administrative": [
+      [
+        [
+          440,
+          1420
+        ],
+        [
+          470,
+          1420
+        ],
+        [
+          470,
+          1455
+        ],
+        [
+          440,
+          1455
+        ]
+      ]
+    ],
+    "coast": [
+      [
+        [
+          440,
+          1420
+        ],
+        [
+          470,
+          1420
+        ],
+        [
+          470,
+          1455
+        ],
+        [
+          440,
+          1455
+        ]
+      ]
+    ],
+    "text": [
+      [
+        [
+          2195,
+          320
+        ],
+        [
+          2750,
+          320
+        ],
+        [
+          2750,
+          410
+        ],
+        [
+          2195,
+          410
+        ]
+      ]
+    ]
+  },
+  "lines": [],
+  "regions": [
+    {
+      "kind": "text",
+      "polygon": [
+        [
+          2195,
+          320
+        ],
+        [
+          2750,
+          320
+        ],
+        [
+          2750,
+          410
+        ],
+        [
+          2195,
+          410
+        ]
+      ],
+      "transcription": "GREECE."
+    }
+  ],
+  "ignore": [],
+  "notes": [
+    "Source-only partial patches; no boundary-model predictions, no historical ownership validation. Two source-overlay reviews completed.",
+    "Coastal-water hachures are explicitly boundary-negative; no guessed old political route. Title word transcription is source literal."
+  ],
+  "confounders": [
+    {
+      "kind": "coastal-water-hachure",
+      "polygon": [
+        [
+          440,
+          1420
+        ],
+        [
+          470,
+          1420
+        ],
+        [
+          470,
+          1455
+        ],
+        [
+          440,
+          1455
+        ]
+      ]
+    }
+  ]
+}

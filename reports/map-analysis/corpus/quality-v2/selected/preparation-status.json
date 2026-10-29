@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-29T13:40:57.863Z",
+  "phase": "trained-evaluated-candidate-rejected-workflow-verification-in-progress",
+  "sourceSelectionSha256": "3f3f54ddf441649fdcfd542578dcafb5560cc50b5ebedae19a657fcc0d1a0e26",
+  "labelsFreezeSha256": "7098d6648e0dcb3c42450350058055c67e71932450d61165c2b844f3cfc6b5d6",
+  "selectedOriginals": 18,
+  "splits": {
+    "train": 6,
+    "validation": 6,
+    "test": 6
+  },
+  "perSplit": {
+    "modern": 4,
+    "historical": 2,
+    "color": 3,
+    "monochrome": 3
+  },
+  "review": {
+    "kind": "agent",
+    "predictionBlind": true,
+    "coverage": "partial",
+    "reviewedLabels": 18,
+    "wholeMapQualification": false
+  },
+  "selectionRevision": {
+    "reason": "Africa 2024 BW is a sibling of an original already exposed in macro-v6. Replaced with South America before neural predictions/training. Prior freeze preserved as split-freeze.01.json; Africa source/grid/partial label remain a development oracle.",
+    "canonicalNrcanFamily": "atlas-canada-continental-reference",
+    "excludedAuxiliaryFamily": "geoscience-australia-folio-reference because GA states is held out"
+  },
+  "model": {
+    "neuralPredictionsOnThisCohort": true,
+    "trainingStarted": true,
+    "trainingCompleted": true,
+    "completedEpochs": 12,
+    "runAttemptedBatches": 1584,
+    "runOptimizerUpdates": 1578,
+    "skippedAmpUpdates": 6,
+    "selectedEpoch": 6,
+    "selectedValidationLoss": 1.0641453393868037,
+    "checkpointSha256": "253b488859afad07e978a1a23b96bf65b646234fe961fbc3d0e1658d032d594c",
+    "onnxSha256": "c3894f5f12fb4973f5be92e74b04f5c8fdb6c4e0bd1e23edac3eebcdf4d2bd84",
+    "admission": "failed",
+    "default": "macro-v6 unchanged",
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false,
+    "privateWeights": true,
+    "testNowExposed": true,
+    "parityMaximumAbsoluteError": 0.0006875991821289062
+  },
+  "coordinationHold": {
+    "released": true,
+    "applicationSourcePushed": true
+  },
+  "cleanup": {
+    "blocked": [
+      {
+        "path": "../source-staging/derived/openclipart-mexico-states.inspection.png",
+        "bytes": 48211
+      },
+      {
+        "path": "../source-staging/derived/openclipart-usa-states.inspection.png",
+        "bytes": 51253
+      }
+    ],
+    "logicalBytes": 99464,
+    "result": "Deletion execution rejected by automatic approval review: blocked by policy; no detailed reason. Original pixel equivalence verified; no consumer. No alternate deletion attempted.",
+    "removedLogicalBytes": 0
+  },
+  "pending": [
+    "Complete actual private 0.5 Work/Pando workflow and report publication",
+    "Finish scoped cleanup or report approval-review blocked targets"
+  ],
+  "contractValidation": {
+    "passed": true,
+    "selectedOriginals": 18,
+    "auxiliarySheets": 6,
+    "reviewCoverage": "partial",
+    "correctionHistory": "annotation-corrections.json"
+  }
+}
