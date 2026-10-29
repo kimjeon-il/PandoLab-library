@@ -5,7 +5,7 @@
 - 사용자 요청: 모든 로컬·원격 브랜치를 main에 병합하며 충돌은 먼저 확인한다.
 - 시작 main/origin/main: `22d0b24eb5916f9597f4b0c6ae4625236a6722d9`.
 - 통합 main: `f839d72c955d92d57b8ef2257f4f06783283425e` (시작 원격 main보다 88커밋 앞섬).
-- 현재 원격 main 푸시는 승인 대기다. main 푸시는 Pages 자동 배포를 시작하므로 별도 확인했다. 배포 완료를 주장하지 않는다.
+- 사용자가 원격 main 푸시·자동 웹 배포를 명시적으로 승인했다. `f839d72c955d92d57b8ef2257f4f06783283425e`를 원격 main에 푸시하고 정확한 원격 SHA를 확인했다. Pages 배포와 실제 공개 응답 검증을 완료했다.
 - 기존 main 작업트리와 고정 `build-native/wasm`을 재사용했다. 새 브랜치·워크트리·저장소 복사본·네이티브 앱 패키지를 만들지 않았다.
 
 ## 포함한 브랜치 판본
@@ -43,6 +43,16 @@
 - 독립 검토자는 충돌 해결·자동 병합·자료 부모·최종 WASM 소스 식별에 P1/P2 통합 결함을 발견하지 않았다.
 - 전체 테스트·동종 실자료 전수검사·전체 GIS 재생성·앱 재빌드·설치 패키지 생성은 하지 않았다. 지원되지 않는 `--help` 호출 1회는 인자 오류였으며 실제 packaging/check 명령은 정상 통과했다.
 - PROJ 라이선스 첫 문장의 기존 행 끝 공백만 정리했다. 최종 시작 main 대비 `git diff --check`를 통과했다.
+
+## 승인 후 원격 푸시·공개 웹 배포
+
+- Git 원격 main: `f839d72c955d92d57b8ef2257f4f06783283425e`. 일반 push로 반영했으며 force push하지 않았다. 다른 작업 브랜치와 미커밋 수정은 그대로 유지했다.
+- [Pages 실행 40852823332](https://github.com/kimjeon-il/Pando/actions/runs/40852823332)의 build·deploy·실제 응답 검증 단계가 모두 성공했다.
+- 공개 주소: https://kimjeon-il.github.io/Pando/ . 실제 build-meta의 코드 SHA는 `f839d72c955d92d57b8ef2257f4f06783283425e`, 자료 SHA는 `ef77d01776dfd9d8bd7a495877ce9e2b39095823`으로 일치한다.
+- CI에서 게시 직전에 생성한 `deployment/pages-evidence.json`(537,778바이트)을 내려받아 기존 `tools/verify-pages-deployment.mjs`로 공개 HTML/build-meta/자료 색인 등 10개 파일의 HTTP·크기·SHA-256을 다시 검증했다. 결과는 `deployment/live-local.json`이다.
+- 추가로 실제 공개된 JS·WASM·manifest와 12,563,846바이트 세계지도 transport의 HTTP 200·크기·SHA-256을 같은 CI 목록과 대조했다. 4개 모두 일치하며 결과는 `deployment/live-core-data.json`이다. 전송 바이트 검증이며 국가 전체 의미 검사나 GIS 재생성을 수행하지 않았다.
+- 검증 바이트는 메모리에서 비교했다. 200MB Pages 패키지를 로컬로 내려받거나 새 staging·빌드·임시 복사본을 만들지 않았다. 보관한 작은 CI 목록과 JSON은 이 배포의 출처·검증 증거이며 이 보고서와 같은 범위로 라이브러리에 보관한다.
+- 별도 Shared C++/Application Architecture 워크플로는 이 기록 시점에 진행 중이다. Pages 성공과 이 두 CI 전체 성공을 혼동하지 않는다. 실제 페이지에서 추가적인 국가 전수 검사·전체 사용자 흐름 재검사는 수행하지 않았다.
 
 ## 저장공간과 정리
 
