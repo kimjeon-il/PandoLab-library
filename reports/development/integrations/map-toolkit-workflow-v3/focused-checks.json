@@ -1,0 +1,45 @@
+{
+  "schema": "map-toolkit-verification",
+  "codeRevision": "749c15490c778b28403d18ef1d2ad883955ffa4f",
+  "contentSha256": "2a4f4f5f7c7f7ac9c9f18d9d34391fb72968b9543cbeaef86e6c2b73075cfd5e",
+  "checks": [
+    {
+      "command": "node",
+      "args": [
+        "--test",
+        "tests/unit/map-plugin-workflow.test.mjs",
+        "tests/unit/map-analysis-graph.test.mjs",
+        "tests/unit/map-plugin-region-atomic.test.mjs",
+        "tests/unit/map-plugin-package.test.mjs"
+      ],
+      "inputs": [
+        "tests/unit/map-plugin-workflow.test.mjs",
+        "tests/unit/map-analysis-graph.test.mjs",
+        "tests/unit/map-plugin-region-atomic.test.mjs",
+        "tests/unit/map-plugin-package.test.mjs",
+        "tools/reference-analysis/package-private-plugin.mjs",
+        "tools/reference-analysis/runtime-assets.mjs",
+        "tools/reference-analysis/release-private-plugin.mjs"
+      ],
+      "exitCode": 0,
+      "outputSha256": "52893616d3fe53608e1037b7e46795755afb727a98058d7c0325584d75ee1bb5"
+    },
+    {
+      "command": "node",
+      "args": [
+        "node_modules/eslint/bin/eslint.js",
+        "plugins/pando-map-tools/lib/engine.mjs",
+        "tests/unit/map-plugin-region-atomic.test.mjs"
+      ],
+      "inputs": [
+        "eslint.config.js",
+        "plugins/pando-map-tools/lib/engine.mjs",
+        "tests/unit/map-plugin-region-atomic.test.mjs"
+      ],
+      "exitCode": 0,
+      "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "Only workflow/graph/region-atomic/package tests and changed JavaScript ESLint, with source-matched WASM. No full local suite or native app rebuild.",
+  "reportedFocusedTests": 35
+}

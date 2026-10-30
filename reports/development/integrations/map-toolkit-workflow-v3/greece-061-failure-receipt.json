@@ -1,0 +1,140 @@
+{
+  "case": "mitchell-greece-1850",
+  "version": "0.6.1",
+  "status": "failed",
+  "sourceHash": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+  "downloadedDiagnostics": {
+    "bytes": 44160,
+    "sha256": "441f169d6695f5b062d32b19951249ee1be682bef6280ae12fe8d9063db22819"
+  },
+  "installedSource": "647ff0fb0e5b553864cf23d77559fe30e5a9fb7a",
+  "actualAnalyze": {
+    "seconds": 123.76188608299708,
+    "exitCode": 1,
+    "analysisSize": [
+      2215,
+      1805
+    ],
+    "ocrDetections": 256,
+    "onnxProvider": "wasm",
+    "tiles": 25,
+    "childMaxRSSKiB": 1085724,
+    "memoryCaveat": "Largest Linux child-process high-water mark; invalid PID-namespace sampled process-tree RSS excluded."
+  },
+  "error": {
+    "code": "PL-REFERENCE-CALCULATION",
+    "message": "Overlapping boundary segments require explicit correction.",
+    "owner": "originalGraph -> editBoundaryGraph rebuild"
+  },
+  "exported": false,
+  "localDiagnostic": {
+    "environment": "Existing Windows development environment; inference-only diagnostic, not Work run performance.",
+    "sourceHash": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+    "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "image": {
+      "width": 2215,
+      "height": 1805,
+      "originalWidth": 3000,
+      "originalHeight": 2444,
+      "mapping": {
+        "exifOrientation": 1,
+        "encodedSize": [
+          3000,
+          2444
+        ],
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 3000,
+          "height": 2444
+        },
+        "analysisSize": [
+          2215,
+          1805
+        ],
+        "coordinateSpace": "exif-oriented-original-pixels"
+      }
+    },
+    "inferenceSeconds": 19.511814299999998,
+    "attempts": [
+      {
+        "tolerance": 0.75,
+        "chains": 9644,
+        "vertices": 31269,
+        "faces": 853,
+        "error": "Overlapping boundary segments require explicit correction.",
+        "graphSeconds": 0.8939905999999973
+      },
+      {
+        "tolerance": 0,
+        "chains": 9644,
+        "vertices": 110669,
+        "faces": 854,
+        "restored": {
+          "chains": 9644,
+          "faces": 854
+        },
+        "graphSeconds": 1.5910051999999997
+      }
+    ],
+    "actualCollision": {
+      "chains": [
+        6497,
+        6498
+      ],
+      "first": [
+        [
+          1592,
+          1197
+        ],
+        [
+          1593,
+          1197
+        ],
+        [
+          1594,
+          1198
+        ],
+        [
+          1594,
+          1199
+        ]
+      ],
+      "second": [
+        [
+          1592,
+          1197
+        ],
+        [
+          1592,
+          1198
+        ],
+        [
+          1593,
+          1199
+        ],
+        [
+          1594,
+          1199
+        ]
+      ],
+      "bothSimplifiedTo": [
+        [
+          1592,
+          1197
+        ],
+        [
+          1594,
+          1199
+        ]
+      ]
+    }
+  },
+  "fix": {
+    "sourceRevision": "278070c936f5c217d318f6bc2cafc3b4ce98e554",
+    "version": "0.6.2",
+    "behavior": "Keep unsimplified source-pixel master; existing vector overlap guard unchanged.",
+    "regression": "Integrated actual analyze fixture reproduced overlap before change and passed after change.",
+    "actualWorkRetry": "0.6.2 analyze passed at product default4MP: realengOCR+25WASMCPUtiles,9644chains/854faces,sourcehashmatched; review/export is separate next-turn work."
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "case": "mitchell-greece-1850",
+  "version": "0.6.2",
+  "status": "failed-boundary-ID-invariant",
+  "downloadedDiagnostics": {
+    "bytes": 22904,
+    "sha256": "877289a8eb4aeba7fa87b6332f66ebf57f874c109385f4fc4670c99d3916b803"
+  },
+  "controls": {
+    "normalization": "image=[sourceX/2999,sourceY/2443]",
+    "mainPanelOnly": true,
+    "candiaExcludedFromFitAndExport": true,
+    "visibleLongitudeReference": "Longitude East of Greenwich",
+    "visibleLongitudeNumerals": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "visibleLatitudeNumerals": [
+      37,
+      38,
+      39
+    ],
+    "picked": [
+      {
+        "id": "main-grid-21E-39N",
+        "coordinate": [
+          21,
+          39
+        ],
+        "pixel": [
+          531.5,
+          561.5
+        ],
+        "image": [
+          0.17722574191397134,
+          0.22984036021285306
+        ],
+        "role": "fit",
+        "pickingUncertaintyPixels": 3,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-23E-39N",
+        "coordinate": [
+          23,
+          39
+        ],
+        "pixel": [
+          1440.5,
+          580.5
+        ],
+        "image": [
+          0.48032677559186393,
+          0.23761768317642243
+        ],
+        "role": "fit",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-26E-39N",
+        "coordinate": [
+          26,
+          39
+        ],
+        "pixel": [
+          2800,
+          566
+        ],
+        "image": [
+          0.9336445481827276,
+          0.23168235775685633
+        ],
+        "role": "fit",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-21E-37N",
+        "coordinate": [
+          21,
+          37
+        ],
+        "pixel": [
+          505.5,
+          1707
+        ],
+        "image": [
+          0.1685561853951317,
+          0.6987310683585756
+        ],
+        "role": "fit",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-23E-37N",
+        "coordinate": [
+          23,
+          37
+        ],
+        "pixel": [
+          1436,
+          1723
+        ],
+        "image": [
+          0.4788262754251417,
+          0.7052803929594761
+        ],
+        "role": "fit",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-25E-37N",
+        "coordinate": [
+          25,
+          37
+        ],
+        "pixel": [
+          2365.5,
+          1715
+        ],
+        "image": [
+          0.7887629209736579,
+          0.7020057306590258
+        ],
+        "role": "fit",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-22E-39N",
+        "coordinate": [
+          22,
+          39
+        ],
+        "pixel": [
+          984,
+          573.5
+        ],
+        "image": [
+          0.32810936978993,
+          0.23475235366352845
+        ],
+        "role": "withheld",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-24E-39N",
+        "coordinate": [
+          24,
+          39
+        ],
+        "pixel": [
+          1893.5,
+          580
+        ],
+        "image": [
+          0.6313771257085695,
+          0.2374130167826443
+        ],
+        "role": "withheld",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-21E-38N",
+        "coordinate": [
+          21,
+          38
+        ],
+        "pixel": [
+          518,
+          1133
+        ],
+        "image": [
+          0.1727242414138046,
+          0.46377404830126895
+        ],
+        "role": "withheld",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-23E-38N",
+        "coordinate": [
+          23,
+          38
+        ],
+        "pixel": [
+          1438,
+          1149.5
+        ],
+        "image": [
+          0.4794931643881294,
+          0.4705280392959476
+        ],
+        "role": "withheld",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      },
+      {
+        "id": "main-grid-26E-38N",
+        "coordinate": [
+          26,
+          38
+        ],
+        "pixel": [
+          2814,
+          1136.5
+        ],
+        "image": [
+          0.9383127709236412,
+          0.46520671305771594
+        ],
+        "role": "withheld",
+        "pickingUncertaintyPixels": 2,
+        "evidence": "Original marginal Greenwich longitudes and latitude numerals traced to visible main-panel crossings; visual enlargement checked. Separate Candia grid not used."
+      }
+    ],
+    "fitCount": 6,
+    "withheldCount": 5,
+    "withheldAreNotIndependentHistoricalEvidence": true,
+    "originalSourceReview": "controls-source-review.png",
+    "coarseSourceInspectionSecondsApprox": 181.92808532714844,
+    "inspectionTimingCaveat": "Approximate interval between initial snapshot creation and first revise start; includes reading structured edit contract and enlarged-source picking.",
+    "fitHypothesis": "Geographic plus empirical projective correction. Printed projection and historical datum unknown; normalized WGS84 field is a software default, not evidence of original datum or a performed datum transformation.",
+    "selectedMode": "projective",
+    "quality": {
+      "crossValidationP95Pixels": 30.69333919971341,
+      "folded": false,
+      "imageCoverage": 0.3249558933343452,
+      "invalidDomain": false,
+      "ok": true,
+      "reason": "source-pixel-validation-failed",
+      "recommended": false,
+      "modelComparison": [
+        {
+          "mode": "similarity",
+          "ok": true,
+          "eligible": true,
+          "rmsMeters": 199360.3643364845,
+          "crossValidationP95Pixels": 4782.2362629622585,
+          "recommended": false,
+          "folded": false,
+          "reason": "source-pixel-validation-failed"
+        },
+        {
+          "mode": "affine",
+          "ok": true,
+          "eligible": true,
+          "rmsMeters": 2403.168978990637,
+          "crossValidationP95Pixels": 42.23794800126204,
+          "recommended": false,
+          "folded": false,
+          "reason": "source-pixel-validation-failed"
+        },
+        {
+          "mode": "projective",
+          "ok": true,
+          "eligible": true,
+          "rmsMeters": 1390.789374400758,
+          "crossValidationP95Pixels": 30.69333919971341,
+          "recommended": false,
+          "folded": false,
+          "reason": "source-pixel-validation-failed"
+        },
+        {
+          "mode": "tps",
+          "ok": true,
+          "eligible": false,
+          "rmsMeters": 0.0000027607553964933305,
+          "crossValidationP95Pixels": 34.16704379655909,
+          "recommended": false,
+          "folded": false,
+          "reason": "source-pixel-validation-failed"
+        }
+      ]
+    },
+    "withheldSameSourcePixelErrors": {
+      "ok": true,
+      "p95Pixels": 14.54140421538657,
+      "pixels": [
+        5.826260072659836,
+        10.091949531976372,
+        1.0494000437806184,
+        14.54140421538657,
+        2.320327873829906
+      ]
+    },
+    "withheldPointOrder": [
+      "main-grid-22E-39N",
+      "main-grid-24E-39N",
+      "main-grid-21E-38N",
+      "main-grid-23E-38N",
+      "main-grid-26E-38N"
+    ],
+    "automaticRecommendation": false,
+    "manualValidity": "Warp ok; no folds or invalid domain. P95 cross-validation exceeds 8 pixels, so automatic recommendation failed. Valid only as a disclosed coarse manual hypothesis; no precision approval performed.",
+    "fitHullOriginalPixels": [
+      [
+        505.5,
+        1707
+      ],
+      [
+        531.5,
+        561.5
+      ],
+      [
+        2800,
+        566
+      ],
+      [
+        2365.5,
+        1715
+      ],
+      [
+        1436,
+        1723
+      ]
+    ],
+    "unappliedCoastProposalInsideFitHull": true,
+    "extrapolationLimit": "Full raster, edge areas and Candia are not approved by this fit. No independent survey validation. Only the intended short coast proposal falls inside the fit hull."
+  },
+  "blockingAttempt": {
+    "cliExitCode": 0,
+    "cliCommittedRevision": 2,
+    "acceptance": "FAILED unrelated-ID invariant after CLI success",
+    "requestedCommand": {
+      "type": "boundary",
+      "command": {
+        "type": "exclude",
+        "chainId": 4615
+      }
+    },
+    "reasonForTargetExclusion": "Source-coast candidate 4615 intersects the intended manual tracing. It was being replaced by explicit manual coast, not approved as an international border.",
+    "actualChangeSet": {
+      "created": [
+        9645
+      ],
+      "faces": {
+        "created": [
+          854
+        ],
+        "modified": [],
+        "removed": [
+          232
+        ]
+      },
+      "modified": [],
+      "removed": [
+        4615,
+        9644
+      ]
+    },
+    "expectedRemovedIds": [
+      4615
+    ],
+    "unexpectedRetiredId": 9644,
+    "unexpectedCreatedId": 9645,
+    "unrelatedExactMatchCount": 9642,
+    "unrelatedExpectedMatchCount": 9643,
+    "oldUnrelatedChain": {
+      "confidence": 0.8671942353248596,
+      "id": 9644,
+      "points": [
+        [
+          877.7560975609756,
+          702.8364745011087
+        ],
+        [
+          879.1106594399276,
+          702.8364745011087
+        ]
+      ],
+      "semanticBits": 1,
+      "touchesImageEdge": false
+    },
+    "newUnrelatedChain": {
+      "confidence": 0.8671942353248596,
+      "id": 9645,
+      "points": [
+        [
+          877.7560975609756,
+          702.8364745011087
+        ],
+        [
+          879.1106594399276,
+          702.8364745011087
+        ]
+      ],
+      "semanticBits": 1,
+      "touchesImageEdge": false
+    },
+    "sameCoordinatesSemanticBitsConfidenceAndRemainingFieldsExceptId": true,
+    "sourceGraphDistanceToIntendedCoast": "Unrelated chain is around source [878,703]; coast proposal is around [2258,1189] to [2314,1212].",
+    "ocrUnchanged": true,
+    "resourcesUnchanged": true,
+    "segmentationIncludingRawGraphUnchanged": true,
+    "diagnosis": "Observed global graph rebuild ID churn. Installed editReferenceBoundaryGraph re-nodes all chains and allocates new IDs in the cuts.size()!=2 branch; the exact numerical trigger was not independently established. No source or runtime patch was attempted.",
+    "investigationFile": "shared/core/src/referenceboundaries.cpp: editReferenceBoundaryGraph noded-loop"
+  },
+  "manualCoast": {
+    "status": "UNAPPLIED; stopped before add/review/export because preceding edit violated invariants",
+    "class": "coast",
+    "semanticBits": 4,
+    "origin": "manual source tracing",
+    "modelObservedCoast": false,
+    "pointsOriginalPixels": [
+      [
+        2258,
+        1188.5
+      ],
+      [
+        2263,
+        1191
+      ],
+      [
+        2272,
+        1191.5
+      ],
+      [
+        2275,
+        1195
+      ],
+      [
+        2277,
+        1198
+      ],
+      [
+        2284,
+        1200
+      ],
+      [
+        2293,
+        1203.5
+      ],
+      [
+        2299,
+        1204
+      ],
+      [
+        2304,
+        1208.5
+      ],
+      [
+        2314,
+        1212
+      ]
+    ],
+    "sourcePixelTraceUncertaintyApprox": 3,
+    "extent": "One short open main-panel shoreline near printed Andro label; no name assigned to an output object.",
+    "manualLineCommandPrepared": {
+      "type": "boundary",
+      "command": {
+        "type": "add",
+        "semanticBits": 4,
+        "points": [
+          [
+            2258,
+            1188.5
+          ],
+          [
+            2263,
+            1191
+          ],
+          [
+            2272,
+            1191.5
+          ],
+          [
+            2275,
+            1195
+          ],
+          [
+            2277,
+            1198
+          ],
+          [
+            2284,
+            1200
+          ],
+          [
+            2293,
+            1203.5
+          ],
+          [
+            2299,
+            1204
+          ],
+          [
+            2304,
+            1208.5
+          ],
+          [
+            2314,
+            1212
+          ]
+        ],
+        "reason": "Manual source trace of one short main-panel Andro shoreline, original pixels [2258,1188.5] to [2314,1212]. Follows the inner land/sea edge, not surrounding sea hatching; open segment, no modern reference or closure. Coast is an unobserved model channel: this addition is human source review, not model recognition/confidence. Geographic+empirical registration is approximate, not an identified historical projection or datum. Names, country and validity unspecified; review limited to this source segment."
+      }
+    },
+    "sourceReview": "coast-unapplied-source-review.png",
+    "closure": false,
+    "modernReferenceUsed": false,
+    "selectedIds": [],
+    "preflightCrossingCandidateIds": [
+      4615
+    ]
+  },
+  "export": {
+    "executed": false,
+    "canonicalFiveFilesCreated": false,
+    "completeManifestHashCheck": "NOT RUN: no export/complete.json exists, because pre-review invariant check blocked the workflow.",
+    "newUuidGenerated": false,
+    "uuidCaveat": "If a future existing export succeeds, Feature UUIDs may differ on a later re-export even when geometry/source/review stay equal; an unrelated pixel-chain ID change is a separate invariant failure."
+  },
+  "rootReproduction": {
+    "fullActualBaselineExclude4615": true,
+    "actualRemoved": [
+      4615,
+      9644
+    ],
+    "actualCreated": [
+      9645
+    ],
+    "exactCoordinatesAndAttributesUnchanged": true,
+    "minimalFixture": "Two two-point chains sharing an exact fractional endpoint and one distant excluded chain.",
+    "parameterCause": {
+      "computedT": 0.9999999999999999,
+      "computedU": 1,
+      "canonicalContact": "Exact existing shared endpoint",
+      "invalidExtraBreak": "Parameter retained below1 alongside existing1; unchanged remaining segment allocated a new ID."
+    }
+  },
+  "fix": {
+    "sourceCandidate": "a58a271f57f1db8f07e5a5fca4a6cbde136c5807",
+    "behavior": "Canonicalize split parameter only on exact endpoint equality; no epsilon rounding of distinct interior junctions.",
+    "regression": "Genuine RED old WASM: retained ID90 became92. Four direction combinations and repeated rebuild; near-endpoint distinct-junction guard added.",
+    "review": "Read-only independent review: no Critical/Important; compiled verification pending.",
+    "buildRun": "https://github.com/kimjeon-il/Pando/actions/runs/41068002945",
+    "status": "Source-matched WASM CI passed; tiny regression2GREEN; full actual baseline excluding4615 preservesall9643remainingchains and allocationcounter, repeatedrebuild nochange. Private0.6.3verificationrunning.",
+    "compiledSourceSha256": "1c2fc8330475703b3cc1ede8edf768c7e0771234e4ddf1d43688422cc2c9eca0",
+    "wasmSha256": "105cac16c2af6b868471ecf521a29ff1bcdca8d556841f64f74c3eab651f287a",
+    "generatedCommit": "ffd119d5857daa2d1fe9f3fd2a86d6858718e4bf",
+    "fullBaselineObserved": {
+      "chains": 9643,
+      "removed": [
+        4615
+      ],
+      "created": [],
+      "modified": [],
+      "facesCreated": [],
+      "facesRemoved": [],
+      "rebuildChanges": 0,
+      "nextChainId": 9645
+    }
+  }
+}

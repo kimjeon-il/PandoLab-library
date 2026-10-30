@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-30T13:34:20.949Z",
+  "purpose": "availability only, not a platform pass",
+  "windows": {
+    "status": "pending",
+    "runningPandoProcess": false,
+    "matchingUninstallRegistration": false,
+    "inspectedDebugReleaseBinaryPresent": false,
+    "standardCargoExecutablePresent": false,
+    "reason": "Canonical per-worktree native-artifacts binding identifies an existing Windows development host in shared cache. Its native input fingerprint differs from current protected native WIP; no matching cache among existing native input directories. Did not launch mismatched host, trigger CI rebuild, overwrite WIP or claim current native validation.",
+    "cachedDevelopmentHostFound": true,
+    "cachedNativeInputSha256": "2596d458378169db5e51d5756fc3d7d6ce0c7fe4e722186f598c6b4cdbeafd50",
+    "currentNativeInputSha256": "0c638b818bb026120181ae05598fa7c078bace21be4b6155643592c96b81f232"
+  },
+  "android": {
+    "status": "pending",
+    "existingAdbAvailable": true,
+    "connectedDevices": [],
+    "existingAvds": null,
+    "reason": "Current existing SDK platform-tools adb devices -l returned no devices. Configured SDK has no emulator executable, so no fresh emulator/AVD runtime check was possible; no new emulator or SDK was created.",
+    "emulatorExecutablePresent": false
+  },
+  "physicalPhone": {
+    "status": "partial",
+    "version": "0.6.2",
+    "reportedBy": "User reply to physical-phone/no-PC-Remote check",
+    "requestReachedWork": true,
+    "reviewGateRejectedExport": true,
+    "reason": "User reports revision1 needs-review/review:null. No approved selection, new directory, canonical files or UUID; prior job/preview byte-identical. This is expected gate behavior after root-observed ID-invariant failure, not a successful export/download.",
+    "exportAndDownload": "pending fixed release",
+    "fixedRelease": "0.6.3",
+    "fixedReleaseObserved": "User reports yellow too-many-requests notice when opening new verification conversation; no successful latest export/download."
+  }
+}

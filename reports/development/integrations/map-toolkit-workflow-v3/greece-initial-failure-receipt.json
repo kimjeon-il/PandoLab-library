@@ -1,0 +1,286 @@
+{
+  "case": "mitchell-greece-1850",
+  "stage": "initial-analyze",
+  "actualCloudExecution": true,
+  "input": "natural-language-search",
+  "sourceRevision": "75ae291cec5642cf93cdd2d85fc5464239c7139c",
+  "pluginVersion": "0.6.0",
+  "jobSchema": 3,
+  "result": "partial-failure",
+  "source": {
+    "retrievedOn": "2026-10-30",
+    "timeZone": "Asia/Seoul",
+    "mode": "actual web searches and opened result pages; no local map used as a pretend search result",
+    "queries": [
+      {
+        "engine": "system2",
+        "q": "Mitchell 1850 Greece map David Rumsey original"
+      },
+      {
+        "engine": "system2",
+        "q": "Mitchell 1850 Greece ancient map library digital collection"
+      },
+      {
+        "engine": "system1",
+        "q": "site.davidrumsey.com Mitchell 1850 Greece"
+      },
+      {
+        "engine": "system1",
+        "q": "1850 Mitchell Greece map digital original public domain"
+      },
+      {
+        "engine": "system2",
+        "q": "\"4835.078\" \"Greece\" 1850"
+      },
+      {
+        "engine": "system2",
+        "q": "\"Greece-m-50\" \"Atlas\" 1850"
+      },
+      {
+        "engine": "system1",
+        "q": "site.davidrumsey.com/luna/servlet/detail/ \"4835.078\" \"Greece\""
+      },
+      {
+        "engine": "system1",
+        "q": "\"Mitchell\" \"Greece\" \"1850\" \"Entered\""
+      }
+    ],
+    "openedSources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:1850_Mitchell_Map_of_Greece_-_Geographicus_-_Greece-m-50.jpg",
+        "role": "selected scan record, resolution, donor and rights",
+        "observed": {
+          "title": "Greece",
+          "attributedAuthor": "Samuel Augustus Mitchell",
+          "catalogYear": 1850,
+          "provider": "Geographicus Rare Antique Maps",
+          "originalResolution": [
+            3000,
+            2444
+          ],
+          "displayedFileSize": "2.4 MB",
+          "rights": "Public domain / PD-Art / Public Domain Mark 1.0",
+          "reproductionJurisdictionCaveat": "Commons notes that other jurisdictions can differ",
+          "originalLinkId": 36
+        }
+      },
+      {
+        "url": "https://www.geographicus.com/P/AntiqueMap/Greece-m-50",
+        "role": "original scan provider and 1850 catalog attribution",
+        "observed": {
+          "catalogTitle": "1850 Mitchell Map of Greece",
+          "accession": "Greece-m-50",
+          "physicalInches": [
+            12.5,
+            15
+          ],
+          "catalogClaimsDateAndCopyright1850": true,
+          "rights": "Provider allows use, modification and publication of scans; credit appreciated",
+          "paidTiffNotPurchased": true
+        }
+      },
+      {
+        "url": "https://www.davidrumsey.com/luna/servlet/view/all/where/Greece?os=550&showAll=what&sort=date",
+        "role": "alternative collection candidate",
+        "observed": {
+          "entry": "4835.078",
+          "year": 1850,
+          "title": "Greece. (inset) Candia (Crete)."
+        },
+        "selected": false,
+        "reason": "Public Geographicus/Commons original gives known 7.332 MP dimensions and explicit rights. Rumsey catalog entry is a different holding and does not establish the exact atlas issue of the selected loose sheet."
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/1850_Mitchell_Map_of_Greece_-_Geographicus_-_Greece-m-50.jpg",
+        "role": "selected original; web image opened and actual bytes acquired through installed analyze --source"
+      }
+    ],
+    "searchCautions": [
+      "The first web click to original link 36, containing tracking query parameters, timed out. Opening the unparameterized original URL succeeded; installed bounded source acquisition also succeeded.",
+      "Search also found 1853 and 1854 issues with 1850 copyright language. Those were not selected and were not conflated with publication year.",
+      "1850 is the selected provider/Commons catalog attribution. No legible publication, survey, revision or depicted-year inscription has been independently confirmed within this scan. Exact atlas title-page issue is unverified; no facsimile identity claimed with Rumsey 4835.078.",
+      "Source.json's phrase '1850-dated plate' quotes the catalog characterization, not a date inscription visually verified in this copy. This qualification must accompany the immutable signed job's provenance.",
+      "No depicted date supplied to analyze; options.date remains null. No ownership, country label or validity period was confirmed."
+    ],
+    "selection": {
+      "singleOriginal": true,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/1850_Mitchell_Map_of_Greece_-_Geographicus_-_Greece-m-50.jpg",
+      "bytes": 2520371,
+      "sha256": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+      "resolution": [
+        3000,
+        2444
+      ],
+      "pixels": 7332000
+    },
+    "observedSourceElements": {
+      "fullOriginalOpened": true,
+      "frame": "Decorative green outer border with pink band, inner degree ticks; frame is not territorial geometry.",
+      "grid": "Longitude East of Greenwich printed at bottom. Integer longitudes 21–26 and latitudes 37–39 are visible in main panel; projection name and datum not printed/confirmed.",
+      "legend": "Explanation distinguishes a capital, important towns and smaller towns by point symbols; bar is in miles. No explicit territorial line/color legend was found.",
+      "inset": "Candia occupies lower-left panel with separate 24–26 longitude and 35 latitude markings; its geometry must not be registered with the main-panel transform.",
+      "symbolCheck": "Legend symbols examined at original pixel crop. No manually validated city-centre control points added this turn.",
+      "boundaryCaution": "Hachures, coastal water-lining, text, rivers, frame, inset border and hand-color edges can resemble boundaries. Present colors alone do not authorize name, political ownership or historical dates."
+    }
+  },
+  "analysis": {
+    "requestedPixelBudget": 4000000,
+    "originalSafetyCap": 16000000,
+    "actualOriginalPixels": 7332000,
+    "actualAnalysisSize": [
+      2215,
+      1805
+    ],
+    "actualAnalysisPixels": 3998075,
+    "ocrCompleted": true,
+    "inferenceCompleted": true,
+    "executionProvider": "ONNX Runtime Web wasm CPU, numThreads=1",
+    "ocrOrientation": {
+      "script": "Japanese",
+      "clockwiseDegrees": 0,
+      "osdClockwiseDegrees": 180,
+      "confidence": 1.670928955078125,
+      "scriptConfidence": 0.06372571736574173,
+      "probeScores": [
+        {
+          "angle": 0,
+          "score": 27.009999999999994,
+          "language": "eng"
+        },
+        {
+          "angle": 180,
+          "score": 12.589999999999998,
+          "language": "eng"
+        },
+        {
+          "angle": 270,
+          "score": 11.969999999999999,
+          "language": "eng"
+        },
+        {
+          "angle": 90,
+          "score": 11.36,
+          "language": "eng"
+        }
+      ],
+      "selectionReason": "explicit-languages",
+      "languages": [
+        "eng"
+      ]
+    },
+    "ocrDetections": 256,
+    "matchingCounts": {
+      "detectionCount": 256,
+      "placeCount": 1799,
+      "matchCount": 452,
+      "rejectedCount": 86
+    },
+    "autoGeoreference": {
+      "locationCandidates": [],
+      "warp": null,
+      "quality": null,
+      "reason": "duplicate-control-observations",
+      "projectionTrials": 0,
+      "crossValidationP95Pixels": null,
+      "independentlyReviewedControlCount": 0
+    },
+    "layout": {
+      "width": 2215,
+      "height": 1805,
+      "panels": []
+    },
+    "grid": {
+      "coordinateSystem": "unverified",
+      "labels": [],
+      "points": [],
+      "unresolved": [],
+      "independentLongitudeLabels": 0,
+      "independentLatitudeLabels": 0
+    },
+    "finalStatus": "failed",
+    "revision": 0,
+    "history": [],
+    "review": null,
+    "graph": null,
+    "segmentation": null,
+    "previewExists": false
+  },
+  "failureDiagnosis": {
+    "code": "PL-REFERENCE-CALCULATION",
+    "message": "Overlapping boundary segments require explicit correction.",
+    "observedStack": "analyze engine.mjs:224 -> originalGraph engine.mjs:146 -> editBoundaryGraph(type=rebuild) -> C++ overlap guard",
+    "guardSource": "shared/core/src/referenceboundaries.cpp:226",
+    "observedMechanism": "After the 25 tile inference completed, originalGraph converts graph vertices to original pixels and requests a rebuild. The C++ graph arrangement rejects collinear segments with positive-length overlap. The signed job saves the error before graph/segmentation assignment.",
+    "notEstablished": "The colliding chain IDs, exact pixels, whether scaling or an earlier simplification created the overlap, and a corrective patch have not been established. The intermediate graph and mask were not persisted by this CLI; do not invent them.",
+    "reproduction": "One exact default-budget installed analyze run; no repeat or alternate crop/resolution trial.",
+    "continuationLimitation": "Installed loadJob/assertJob rejects failed jobs. This failed job cannot proceed to control-point/boundary revise or export. A corrected installation must perform a new analysis with new producer identity; never restamp this job.",
+    "notPerformed": [
+      "No review command",
+      "No export command",
+      "No manually synthesized candidate preview or GeoJSON",
+      "No re-signing or editing signed job",
+      "No plugin, runtime or model patch",
+      "No resolution/crop reduction to evade graph gate",
+      "No historical name/ownership/validity approval",
+      "No modern boundary fill",
+      "No training, paid API, external server, PC Remote or ZIP input"
+    ]
+  },
+  "downloadedDiagnostics": {
+    "bytes": 107272,
+    "sha256": "665a1a332c2d8e8e36ff7acecb37974b53dd472edf8d6f236891c17b41224598"
+  },
+  "downloadedSearchEvidence": {
+    "bytes": 5586,
+    "sha256": "3ee364299328bae06084950faacb701daa7b4d1c16ae72d52bc37bf862ce5a1a"
+  },
+  "wallSeconds": 120.7444187719957,
+  "wait4MaxRssKiB": 1107272,
+  "samplingValidity": "INVALID: child PID uses a process namespace different from visible /proc; sampled PID 7 was unrelated sites-preview. Do not use these samples or the 131072-byte value as analysis memory. Raw observer output preserved separately.",
+  "rootReproduction": {
+    "source": "small synthetic pixel mask; not claimed to be an extracted actual Greek mask",
+    "pixels": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "defaultSimplificationTolerance": 0.75,
+    "observedSimplifiedRing": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "result": "Original-pixel graph rebuild fails with same overlap guard.",
+    "regression": "Focused test reproduces failure with existing compiled core; correction pending rebuilt WASM and actual-map rerun."
+  }
+}

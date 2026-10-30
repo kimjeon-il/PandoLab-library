@@ -1,0 +1,240 @@
+{
+  "case": "farzan-canada-persian",
+  "stage": "initial-analyze",
+  "actualCloudExecution": true,
+  "input": "url",
+  "sourceRevision": "75ae291cec5642cf93cdd2d85fc5464239c7139c",
+  "pluginVersion": "0.6.0",
+  "jobSchema": 3,
+  "archiveSha256": "d4bcf58edd6a3580ee9224ccd8a2dbe89a2a50bc6ad615b54ea48fbf1cf58a9c",
+  "archiveBytes": 1404055,
+  "verifiedEntries": [
+    {
+      "file": "canada.job.json",
+      "sha256": "f760e3f79e7c8de7b82f1bed77bf65f0cf4ac77fd4cc4b703b6c957d0d024fe8",
+      "bytes": 985787
+    },
+    {
+      "file": "canada.job.json.input/political-map-of-canada-persian.png",
+      "sha256": "1ca0c7c7849bfc2a3390b4114148e8856f97c2e51f9c69de0cbac7df60a13f6d",
+      "bytes": 554737
+    },
+    {
+      "file": "canada.job.json.input/political-map-of-canada-persian.source.json",
+      "sha256": "077061b4617e4f076b4acb376c32376b03eb84b3f24b5734e833364c2f00285b",
+      "bytes": 2083
+    },
+    {
+      "file": "canada.job.json.preview.png",
+      "sha256": "345df591bd9685fcfb63dde16136249aea5c987535e0724508b9911ab1c4fb29",
+      "bytes": 481117
+    },
+    {
+      "file": "diagnosis.md",
+      "sha256": "dbd9f11326c0162b42bbe1774e610c70e5339b6047ebe18e8f9261fe7adadebe",
+      "bytes": 13260
+    },
+    {
+      "file": "diagnostics.json",
+      "sha256": "8fd045ef9ff1febe54ebc30825c18274e047cfa628e3d146bebf0b2f18cc6a35",
+      "bytes": 7408
+    },
+    {
+      "file": "events.jsonl",
+      "sha256": "c546aaae359af44d4403027bc66f7afd04a2348d4d6ed97d16fe63e0f463d1a8",
+      "bytes": 4633
+    },
+    {
+      "file": "installed-manifests/analysis-data.json",
+      "sha256": "97d72ee1f2ef5cbc7dc78a316b16ee4189b3203d76b3b4ae0464e39fb539d156",
+      "bytes": 824
+    },
+    {
+      "file": "installed-manifests/boundary.manifest.json",
+      "sha256": "2b745a592b6fc80d8709fa27a88bd00536cc50ca42d071262a3ba4662930aa74",
+      "bytes": 810
+    },
+    {
+      "file": "installed-manifests/plugin.json",
+      "sha256": "6d016593a53720917938f7b2d3286d10bb52b130282ff5fd42e5bcc13a499ea9",
+      "bytes": 1290
+    },
+    {
+      "file": "installed-manifests/runtime.json",
+      "sha256": "1190f3e8dafb07486f28492f20ba7efb87faac95217e6b76a0c9319f48eae805",
+      "bytes": 1775071
+    },
+    {
+      "file": "job-identity.json",
+      "sha256": "b0cc7b7cbae7979acf61e67ac03a0a372c115c59e8a1dfe1047f9b5a783a8478",
+      "bytes": 753
+    },
+    {
+      "file": "measurements.json",
+      "sha256": "fd75563b1f715d8f0388019b5db20a7f8a11bc14769ce680ea8106f6f1c2f503",
+      "bytes": 9516
+    },
+    {
+      "file": "observe_run.py",
+      "sha256": "78b9f080ae1e66fc377e876b8f3d17dac13d47df210f8612e3d49f644aaaf957",
+      "bytes": 4657
+    },
+    {
+      "file": "postflight-hashes.json",
+      "sha256": "d17fcf15f47d39c0d1466e8ff08cf6cb34d056a215a40511ab8a3da0da361d23",
+      "bytes": 125698
+    },
+    {
+      "file": "preflight-hashes.json",
+      "sha256": "ab94c5e499100be3a9cb27cbe26953e7d46bc1db5aa604e5286a193fb614dcf0",
+      "bytes": 86783
+    },
+    {
+      "file": "resource-samples.jsonl",
+      "sha256": "f59d695b29067ceba427088c71abe6d3f87a6cfe246adf977b09df5512002d56",
+      "bytes": 11267
+    },
+    {
+      "file": "run-result.json",
+      "sha256": "15d1f8821b26664fb8dcc835035610c44ddda3886ed0ebd513264e2a8c74ce84",
+      "bytes": 1314
+    },
+    {
+      "file": "run-start.json",
+      "sha256": "c77d04310986710c00a6f633a7209e541d13c278f340de8fdca22cd6dd37bdc8",
+      "bytes": 953
+    },
+    {
+      "file": "source.json",
+      "sha256": "21a3f2c8416bf5962129b4c8633c0c04b0185a2cb9d3a571957bb651a8f1a15c",
+      "bytes": 1944
+    },
+    {
+      "file": "stderr.log",
+      "sha256": "17546c5079322b20ffe3da007cc9dd3cbb298fc2df86ecaac1f125460ea4cd16",
+      "bytes": 964
+    },
+    {
+      "file": "stdout.log",
+      "sha256": "c6d899a2ebdd0338f33699d6e1cd493c9ee0c33d04001b6a32f8ffa60d364b63",
+      "bytes": 797
+    },
+    {
+      "file": "retained-files.json",
+      "sha256": "a2b864f8c826761e3ed0b2c87ad00704dff346bf3462426c59682957754a1bb2",
+      "bytes": 3951
+    }
+  ],
+  "source": {
+    "dimensions": [
+      1281,
+      1108
+    ],
+    "bytes": 554737,
+    "sha256": "1ca0c7c7849bfc2a3390b4114148e8856f97c2e51f9c69de0cbac7df60a13f6d",
+    "expectedAllMatch": true,
+    "analysisSize": [
+      1281,
+      1108
+    ],
+    "analysisPixels": 1419348,
+    "maxPixels": 4000000,
+    "resizedForTest": false
+  },
+  "status": "needs-georeference",
+  "review": null,
+  "ocr": {
+    "orientation": {
+      "script": "Arabic",
+      "clockwiseDegrees": 0,
+      "osdClockwiseDegrees": 0,
+      "confidence": 2.2246780395507812,
+      "scriptConfidence": 46.66667556762695,
+      "probeScores": [
+        {
+          "angle": 0,
+          "score": 21.299999999999997,
+          "language": "fas"
+        },
+        {
+          "angle": 0,
+          "score": 2.58,
+          "language": "eng"
+        },
+        {
+          "angle": 180,
+          "score": 1.07,
+          "language": "eng"
+        },
+        {
+          "angle": 90,
+          "score": 0.64,
+          "language": "eng"
+        },
+        {
+          "angle": 270,
+          "score": 0.6100000000000001,
+          "language": "fas"
+        },
+        {
+          "angle": 270,
+          "score": 0.5500000000000003,
+          "language": "eng"
+        },
+        {
+          "angle": 180,
+          "score": 0.08000000000000002,
+          "language": "fas"
+        },
+        {
+          "angle": 90,
+          "score": 0,
+          "language": "fas"
+        }
+      ],
+      "selectionReason": "explicit-languages",
+      "languages": [
+        "fas"
+      ]
+    },
+    "normalizedDetectionCount": 21,
+    "symbolCandidateCount": 17,
+    "rawTesseractRowsPersisted": false,
+    "retentionNote": "Installed job preserves originalText, boxes, symbol candidates and OSD/probe evidence; engine does not persist full original Tesseract blocks separately."
+  },
+  "graph": {
+    "chainCount": 673,
+    "faceCount": 35,
+    "semanticBitsHistogram": {
+      "1": 430,
+      "3": 243
+    },
+    "unresolvedCount": 866,
+    "unresolvedReasons": {
+      "open-boundary": 855,
+      "inferred-dash-gap": 11
+    }
+  },
+  "modelApproval": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false,
+    "observedChannels": [
+      "international",
+      "administrative"
+    ],
+    "unobservedChannels": [
+      "coast",
+      "hydro",
+      "transport",
+      "text",
+      "frame"
+    ]
+  },
+  "limitations": [
+    "Automatic georeference not accepted.",
+    "Initial review and export not executed.",
+    "Memory process-tree sampling was inaccessible; zero samples are unavailable measurements, not zero memory.",
+    "Actual raw files retained privately for next-turn comparison; no model weights or private account links archived here."
+  ]
+}

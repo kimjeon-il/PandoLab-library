@@ -1,0 +1,223 @@
+{
+  "case": "nrcan-europe-outline",
+  "stage": "initial-analyze",
+  "actualCloudExecution": true,
+  "input": "attachment",
+  "sourceRevision": "75ae291cec5642cf93cdd2d85fc5464239c7139c",
+  "pluginVersion": "0.6.0",
+  "jobSchema": 3,
+  "result": {
+    "jobId": "f1f3b9b7-8617-4e83-8de0-88b26a3fe87a",
+    "schemaVersion": 3,
+    "revision": 0,
+    "status": "needs-georeference",
+    "review": null,
+    "history": [],
+    "locationCandidates": 0,
+    "chains": 790,
+    "faces": 97,
+    "unresolvedCount": 685,
+    "unresolvedReasons": {
+      "open-boundary": 675,
+      "inferred-dash-gap": 10
+    },
+    "semanticBitCounts": {
+      "3": 184,
+      "1": 606
+    },
+    "name": null,
+    "ownership": null,
+    "validity": null
+  },
+  "sourceProvenance": {
+    "kind": "provided-file",
+    "id": "nrcan-europe-outline-attached-page1",
+    "title": "Europe with Names — NRCan Atlas of Canada (attached raster PDF)",
+    "provider": "Natural Resources Canada / The Atlas of Canada",
+    "sourcePage": "https://natural-resources.canada.ca/maps-tools-publications/maps/atlas-canada/reference-maps",
+    "sourcePageObservedVia": "https://prod-natural-resources.azure.cloud.nrcan-rncan.gc.ca/maps-tools-publications/maps/atlas-canada/reference-maps",
+    "format": "pdf",
+    "page": 1,
+    "bytes": 1073146,
+    "sha256": "29f9f4820905f633a0c8ee99bc360dc06e0a88048be4ef6f1a453d74d3921081",
+    "license": "Open Government Licence - Canada",
+    "licenseUrl": "https://open.canada.ca/en/open-government-licence-canada",
+    "rightsReviewed": true,
+    "attribution": "Natural Resources Canada / The Atlas of Canada. Contains information licensed under the Open Government Licence – Canada.",
+    "copyrightYear": 2024,
+    "copyrightStatement": "© His Majesty the King in Right of Canada, as represented by the Minister of Natural Resources, 2024",
+    "depictedDate": null,
+    "published": null,
+    "edition": null,
+    "referencePagePublicationYear": 2022,
+    "dateCaveat": "The source page lists the Europe with Names product as published in 2022; the attachment footer says copyright 2024 and PDF metadata records creation 2024-02-14. None establishes an exact depicted-content date. Attachment bytes are authoritative for this test; linked original-file byte identity is not independently established.",
+    "projectionPrinted": "Winkel II (world)",
+    "selectionReason": "User supplied this exact attachment and requested first-page analysis only.",
+    "maximumBytes": 67108864,
+    "unassigned": [
+      "name",
+      "ownership",
+      "validity"
+    ],
+    "evidenceReferences": [
+      {
+        "url": "https://natural-resources.canada.ca/maps-tools-publications/maps/atlas-canada/reference-maps",
+        "role": "NRCan Atlas reference product catalogue; Europe with Names section"
+      },
+      {
+        "url": "https://open.canada.ca/data/en/dataset/a1b51601-2be9-56c4-accd-a8f58fadf859",
+        "role": "Related NRCan Europe record explicitly carries OGL-Canada; describes the political edition, not byte identity of this attached outline"
+      },
+      {
+        "url": "https://open.canada.ca/en/open-government-licence-canada",
+        "role": "Official OGL-Canada 2.0 terms and attribution wording"
+      }
+    ],
+    "rightsEvidenceLimit": "Catalogue/provider and licence terms verified; an exact online download of this raster-converted attached PDF was not acquired or hash-matched. Preserve this limitation and the supplied original bytes.",
+    "licenceScopeNote": "Attribution retained; official logos/symbols are present only in the source/diagnostic preview and are not claimed as separately licensed marks or endorsement."
+  },
+  "analysisInput": {
+    "defaultMaxPixels": 4000000,
+    "renderDpi": 144,
+    "actualAnalysisSize": [
+      1584,
+      1224
+    ],
+    "actualAnalysisPixels": 1938816,
+    "embeddedJpegSize": [
+      4400,
+      3400
+    ],
+    "pdfPagePoints": [
+      792,
+      612
+    ],
+    "page": 1,
+    "crop": null
+  },
+  "ocr": {
+    "orientation": {
+      "script": "Unknown",
+      "clockwiseDegrees": 0,
+      "osdClockwiseDegrees": 0,
+      "confidence": 0,
+      "scriptConfidence": 0,
+      "probeScores": [
+        {
+          "angle": 0,
+          "score": 34.03999999999999,
+          "language": "eng"
+        },
+        {
+          "angle": 180,
+          "score": 3.7499999999999996,
+          "language": "eng"
+        },
+        {
+          "angle": 270,
+          "score": 3.67,
+          "language": "eng"
+        },
+        {
+          "angle": 90,
+          "score": 3.32,
+          "language": "eng"
+        }
+      ],
+      "selectionReason": "explicit-languages",
+      "languages": [
+        "eng"
+      ]
+    },
+    "detectionCount": 54,
+    "algorithmicUnreviewedSymbolCount": 28,
+    "matchingSummary": {
+      "detectionCount": 54,
+      "placeCount": 274,
+      "matchCount": 81,
+      "rejectedCount": 26
+    }
+  },
+  "modelStatus": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false,
+    "observedChannels": [
+      "international",
+      "administrative"
+    ],
+    "unobservedChannels": [
+      "coast",
+      "hydro",
+      "transport",
+      "text",
+      "frame"
+    ]
+  },
+  "visualDiagnosticFindings": [
+    {
+      "code": "FALSE_POSITIVE_GRATICULE",
+      "finding": "Original graticule strokes appear among international/administrative candidates. Example current chain 0 follows a northern segment of the printed 30°E meridian; the horizontal 60°N line and other meridians are also highlighted. No candidate was excluded or edited."
+    },
+    {
+      "code": "FALSE_POSITIVE_ICE_TEXTURE",
+      "finding": "The patterned Greenland ice/background at the upper left produces a dense network of provisional border strokes and small faces. These are not national boundaries."
+    },
+    {
+      "code": "FALSE_POSITIVE_DECORATION",
+      "finding": "The Europe title box, header/footer decoration and letter fragments appear among candidates. The map has a scale bar, north arrow and printed projection; no discrete class-key legend validating model output is visible."
+    },
+    {
+      "code": "COAST_NOT_OBSERVED",
+      "finding": "Candidate strokes visually follow parts of coasts and islands, but the coast channel is unobserved and masked. No coastline extraction is claimed; all present chain semanticBits are 1 or 3."
+    },
+    {
+      "code": "CITY_SYMBOLS_UNVALIDATED",
+      "finding": "The map primarily labels countries and major physical features, not a documented city/capital symbol layer. 28 detections have algorithmic symbol candidates; none was manually accepted. Source crops of Volga and Romania show a river stroke or tiny text/line fragments rather than a verified city symbol. Poland and France have symbol:null; their OCR label centres were not turned into accepted controls."
+    },
+    {
+      "code": "NAME_MATCH_AMBIGUITY",
+      "finding": "The gazetteer returns settlement homonyms for country/river labels (for example Poland in the US and Volga settlements). matching.matches contain OCR-centre search metadata; these are not fitted or accepted city coordinates. No warp or calibration exists."
+    },
+    {
+      "code": "AUTOREGISTRATION_REJECTED",
+      "finding": "The installed pipeline reported duplicate-control-observations, zero attempted projections and zero locationCandidates. warp/calibration/quality remain null; no fabricated controls, label-centre controls or modern boundary supplementation were applied."
+    },
+    {
+      "code": "WINKEL_II_UNSUPPORTED",
+      "finding": "Winkel II (world) is printed on the original. The installed structured projection contract lists geographic, eqc, merc, lcc, laea, aeqd, stere and robin; Winkel II is absent. The spelling was not silently substituted with Winkel Tripel/Robinson/geographic and no projection edit was applied."
+    },
+    {
+      "code": "WEAK_GRID_RECOVERY",
+      "finding": "Only one OCR grid label (60°N) survived; independentLongitudeLabels=0, independentLatitudeLabels=0 and grid.points=[]; the label is unresolved. No graticule control was invented."
+    },
+    {
+      "code": "PDF_COORDINATE_PLANE",
+      "finding": "The PDF contains a 4400×3400 embedded JPEG, while the installed default renderer defines original source pixels as its 144-dpi page raster, 1584×1224. Default maxPixels=4000000 remains unchanged and no crop is used. Actual analysis is 1938816 pixels (1.939 MP); the 4MP setting is a ceiling, not a request to upscale. Next-turn pixel edits must use this 1584×1224 job plane or full-original UV, not the embedded JPEG coordinates."
+    },
+    {
+      "code": "OCR_EVIDENCE",
+      "finding": "eng recognition completed. OSD returned Unknown/confidence 0; retained probe scores favour upright 0° (34.04) over 180° (3.75), 270° (3.67), 90° (3.32). Explicit eng was used. Invalid resolution 0 dpi and estimated resolution warnings are preserved verbatim in logs. OCR did not reliably read the footer year; copyright 2024 comes from visual inspection."
+    }
+  ],
+  "downloadedVerified": [
+    {
+      "file": "nrcan-europe.job.json",
+      "bytes": 1079060,
+      "sha256": "3be3a2192c721e444b8061639ad65e06ea170e8ff0b5a48b8e18df632017ab31",
+      "matchesCloudManifest": true
+    },
+    {
+      "file": "preview.png",
+      "bytes": 687961,
+      "sha256": "bdc3bf18a3c6e194934aec1f84454bd8e90a4cc5b0fa4e405d3d8ba28152af82",
+      "matchesCloudManifest": true
+    }
+  ],
+  "diagnosticsSha256": "d2895a94a776b7fb8689a58f72827f1dc03f73e224e90f458e37479de3498e15",
+  "limitations": [
+    "Initial result unregistered/unreviewed; correction/export not yet verified.",
+    "Original PDF coordinates follow existing 144-dpi page raster, not embedded JPEG pixel coordinates.",
+    "Raw cloud files retained privately for active next-turn comparison."
+  ]
+}

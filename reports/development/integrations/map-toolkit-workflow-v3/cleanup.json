@@ -1,0 +1,136 @@
+{
+  "phase": "private-install-delivery",
+  "performedBy": "user after automatic approval review rejected one ended delivery ZIP deletion without a detailed reason",
+  "targets": [
+    "private-package-0.6.0",
+    "private-package-0.6.0.zip",
+    "private-package-0.6.0-reviewed.zip"
+  ],
+  "logicalBytesRemoved": 78863329,
+  "driveFreeBytesBefore": 57241608192,
+  "driveFreeBytesAfter": 57320935424,
+  "measuredDriveFreeChangeBytes": 79327232,
+  "allTargetsAbsentVerified": true,
+  "limitations": "Deletion-window measurements include concurrent activity and allocation differences; these sums are not the whole-task end-to-end drive gain. Two tiny deletions have no separately measured free-space interval.",
+  "protected": "Original maps, model, original source commits, current installed private plugin and unique verification evidence retained.",
+  "additionalSteps": [
+    {
+      "targets": [
+        "private-package-0.6.1",
+        "private-package-0.6.1.zip"
+      ],
+      "reason": "Local delivery candidate not uploaded; separate authorized publisher completed the canonical account update. Original commit, model and installed release preserved.",
+      "logicalBytesRemoved": 54860412,
+      "drive": "D:",
+      "driveFreeBytesBefore": 57255280640,
+      "driveFreeBytesAfter": 57310601216,
+      "measuredDriveFreeChangeBytes": 55320576,
+      "bothTargetsAbsentVerified": true
+    },
+    {
+      "targets": [
+        "Downloads/analysis (1).json",
+        "Downloads/preview (2).png"
+      ],
+      "reason": "Exact hash duplicates of downloaded verified originals; both original downloads and five-file verification set preserved.",
+      "logicalBytesRemoved": 1756299,
+      "drive": "C:",
+      "driveFreeBytesBefore": 45735997440,
+      "driveFreeBytesAfter": 45737758720,
+      "measuredDriveFreeChangeBytes": 1761280
+    },
+    {
+      "targets": [
+        "Downloads/nrcan-europe-diagnostics (1).json"
+      ],
+      "reason": "Exact hash duplicate. Initial force-command review was rejected; a subsequent scoped native PowerShell command without Force completed through the same tool approval path. No alternate deletion tool or policy/configuration change used. No inference about the unprovided rejection reason.",
+      "logicalBytesRemoved": 63000,
+      "absentVerified": true,
+      "measuredDriveFreeChangeBytes": null
+    },
+    {
+      "targets": [
+        "canada-browser/.last-run.json"
+      ],
+      "reason": "Disposable successful-run marker with zero failed tests; receipt, actual saved GeoPackage and screenshot preserved.",
+      "logicalBytesRemoved": 45,
+      "measuredDriveFreeChangeBytes": null
+    },
+    {
+      "targets": [
+        "release-cache/candidate",
+        "release-cache/candidate.zip",
+        "release-cache/candidate.release.json",
+        "release-cache/remote.tar.gz"
+      ],
+      "reason": "Ended canonical 0.6.1 delivery copies. All 211 file hashes and ZIP hash matched verified release plan; no reparse points or active consumers. Fixed path reused for next release, source and model retained.",
+      "logicalBytesRemoved": 78842250,
+      "drive": "C:",
+      "driveFreeBytesBefore": 45762838528,
+      "driveFreeBytesAfter": 45928665088,
+      "measuredDriveFreeChangeBytes": 165826560,
+      "allTargetsAbsentVerified": true
+    },
+    {
+      "targets": [
+        "release-cache/0.6.2-candidate",
+        "release-cache/0.6.2-candidate.zip",
+        "release-cache/0.6.2-candidate.release.json",
+        "release-cache/0.6.2-remote.tar.gz"
+      ],
+      "reason": "Installed release verified against all211 files; real Work loaded pinned source/core/model. Exact source/model retained; delivery copies ended. Hashes/reparse/consumers rechecked before scoped PowerShell cleanup.",
+      "logicalBytesRemoved": 78842605,
+      "drive": "C:",
+      "driveFreeBytesBefore": 46003458048,
+      "driveFreeBytesAfter": 46169669632,
+      "measuredDriveFreeChangeBytes": 166211584,
+      "allTargetsAbsentVerified": true
+    },
+    {
+      "targets": [
+        "verification/greece-overlap/confidence.f32.gz",
+        "verification/greece-overlap/labels.bin.gz",
+        "verification/greece-overlap/pixel-master.json",
+        "verification/greece-overlap/simplified.json",
+        "verification/greece-overlap/diagnostics.json"
+      ],
+      "reason": "Consumed reproducible local diagnostic intermediates. Exact two offending arcs with full metadata and diagnostic summary preserved in scoped evidence; source/model/core retained, real Work now produces signed raw graph successfully. All five hashes/paths and no consumers/reparse points rechecked.",
+      "logicalBytesRemoved": 19644041,
+      "drive": "D:",
+      "driveFreeBytesBefore": 57284755456,
+      "driveFreeBytesAfter": 57304412160,
+      "measuredDriveFreeChangeBytes": 19656704,
+      "remainingFiles": 0
+    },
+    {
+      "targets": [
+        "Downloads/greece.job(2).json"
+      ],
+      "reason": "Unique signed initial-job evidence compacted to a single gzip; decompressed SHA256 exactly matches original. Raw 33MB verification copy consumed; 2,616,296-byte evidence archive retained for the reproduced full-network regression.",
+      "logicalBytesRemoved": 33674457,
+      "retainedCompressedBytes": 2616296,
+      "originalBytesPreserved": true,
+      "drive": "C:",
+      "measuredDriveFreeChangeBytes": null,
+      "measurementCaveat": "Deletion succeeded; trailing PowerShell receipt expression failed, so no complete before/after free-space interval was retained. Original absence and compressed size rechecked separately."
+    },
+    {
+      "targets": [
+        "release-cache/0.6.3-candidate",
+        "release-cache/0.6.3-candidate.zip",
+        "release-cache/0.6.3-candidate.release.json",
+        "release-cache/0.6.3-remote.tar.gz"
+      ],
+      "reason": "Official private0.6.3 account archive verified211 files and exact source/core/model; delivery use ended. Source commit/model kept, all local hashes/paths/reparse/consumers rechecked before native PowerShell cleanup.",
+      "logicalBytesRemoved": 78843261,
+      "drive": "C:",
+      "driveFreeBytesBefore": 46029590528,
+      "driveFreeBytesAfter": 46195425280,
+      "measuredDriveFreeChangeBytes": 165834752,
+      "allTargetsAbsentVerified": true
+    }
+  ],
+  "totalLogicalBytesRemoved": 425389699,
+  "measuredDDeletionWindowChangeBytes": 154304512,
+  "measuredCDeletionWindowChangeBytes": 499634176
+}

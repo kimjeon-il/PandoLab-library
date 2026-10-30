@@ -1,0 +1,117 @@
+{
+  "case": "farzan-canada-persian",
+  "stage": "second-turn-revise-review-export",
+  "actualCloudExecution": true,
+  "sourceRevision": "75ae291cec5642cf93cdd2d85fc5464239c7139c",
+  "pluginVersion": "0.6.0",
+  "jobSchema": 3,
+  "revision": 7,
+  "selectedIds": [
+    "line:677",
+    "face:38",
+    "face:42"
+  ],
+  "exportTypes": [
+    "LineString",
+    "Polygon",
+    "Polygon"
+  ],
+  "unchangedOriginalChains": 655,
+  "originalChains": 673,
+  "retiredOriginalIds": [
+    318,
+    329,
+    332,
+    336,
+    337,
+    339,
+    340,
+    343,
+    344,
+    347,
+    385,
+    386,
+    416,
+    423,
+    453,
+    454,
+    567,
+    568
+  ],
+  "ocrUnchanged": true,
+  "rawSegmentationUnchanged": true,
+  "resourcesUnchanged": true,
+  "sharedChainIds": [
+    675,
+    677
+  ],
+  "actualManifestHashes": {
+    "features.geojson": "d22565a1e302a6fb1470503e39c6282ea209fe7431e9c0065cefba289c728ff5",
+    "analysis.json": "fe7b92bdd34ca7ec3945a5746ea1429380e21a2c1589b393369214a4666c6828",
+    "preview.png": "c97f94364691a27c12e314d8862c8486df872610bf7722b7236a6a88776f5819",
+    "report.md": "4b62a66ebadafc644ac8d953d38411bba6ca787e9cd6f0f3014313bbea6fc619"
+  },
+  "canonicalCompletionFile": "complete.json",
+  "downloadedGeojsonMatches": true,
+  "evidenceZipSha256": "dbda9038195bf337ceddd32b089ffd30d3695e69717fa4c37e33046d42b420cf",
+  "evidenceZipBytes": 8666099,
+  "evidenceEntriesVerified": 62,
+  "registrationQuality": {
+    "crossValidationP95Pixels": 9.265222739900679,
+    "folded": false,
+    "imageCoverage": 0.26549189641840254,
+    "invalidDomain": false,
+    "ok": true,
+    "reason": "source-pixel-validation-failed",
+    "recommended": false,
+    "modelComparison": [
+      {
+        "mode": "similarity",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 1302688.7506205412,
+        "crossValidationP95Pixels": 677.2630813706074,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "affine",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 18142.94258104411,
+        "crossValidationP95Pixels": 9.265222739900679,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "projective",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 17637.312250555417,
+        "crossValidationP95Pixels": 9.699960609466684,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "tps",
+        "ok": true,
+        "eligible": false,
+        "rmsMeters": 0.00030969152307140234,
+        "crossValidationP95Pixels": 12.708378225485621,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      }
+    ]
+  },
+  "limitations": [
+    "Manual registration hypothesis; automatic recommendation failed.",
+    "Selected southern vertices include unverified extrapolation; no independent boundary accuracy established.",
+    "Model remains pending/trainingOnly/releaseApproved:false.",
+    "Earlier prompt misnamed completion file; host-native complete.json preserved without product compatibility alias.",
+    "Actual Work execution and raw files independently compared; browser/native workflows not yet counted."
+  ]
+}

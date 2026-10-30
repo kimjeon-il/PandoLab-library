@@ -1,0 +1,313 @@
+{
+  "case": "nrcan-europe-outline",
+  "stage": "manual-assisted-revise-review-export",
+  "actualCloudExecution": true,
+  "pluginVersion": "0.6.0",
+  "sourceRevision": "75ae291cec5642cf93cdd2d85fc5464239c7139c",
+  "jobSchema": 3,
+  "revision": 5,
+  "selectedIds": [
+    "line:791"
+  ],
+  "unchangedOriginalChains": 790,
+  "originalChains": 790,
+  "ocrRawSegmentationAndResourcesUnchanged": true,
+  "hashesVerified": {
+    "features.geojson": "f4dc9f83104f0a39969e7a139b7b2bc4ad2278e38bae812d933ffb76281e59e5",
+    "analysis.json": "d0a47137ef9970d736fb48a8a42f96488c73b6c847f332cfe3ff850e428a167b",
+    "preview.png": "e58be5b4d05233a726cd2674b7fa7ad104b6a0cde3aac58b480e68c231dd87c2",
+    "report.md": "88c5bd226c509b2bff4564df165da05943caf3a5559a4c9ed627ed5baf212730"
+  },
+  "canonicalCompletionFile": "complete.json",
+  "registration": {
+    "mode": "tps",
+    "printedProjection": "Winkel II (world)",
+    "actualProjectionCoordinateSpace": {
+      "ellipsoid": "WGS84",
+      "k0": 1,
+      "kind": "geographic",
+      "lat0": 0,
+      "lat1": 0,
+      "lat2": 0,
+      "lon0": 0,
+      "x0": 0,
+      "y0": 0
+    },
+    "fitPoints": [
+      {
+        "id": "numeric-60N--30",
+        "image": [
+          0.10737839545167403,
+          0.46647587898609977
+        ],
+        "coordinate": [
+          -30,
+          60
+        ]
+      },
+      {
+        "id": "numeric-60N-0",
+        "image": [
+          0.36568540745420086,
+          0.46647587898609977
+        ],
+        "coordinate": [
+          0,
+          60
+        ]
+      },
+      {
+        "id": "numeric-60N-60",
+        "image": [
+          0.8821351863550222,
+          0.46647587898609977
+        ],
+        "coordinate": [
+          60,
+          60
+        ]
+      },
+      {
+        "id": "aux-Arctic-approx--30",
+        "image": [
+          0.12084649399873658,
+          0.36099754701553555
+        ],
+        "coordinate": [
+          -30,
+          66.55833333333334
+        ]
+      },
+      {
+        "id": "aux-Arctic-approx-30",
+        "image": [
+          0.6104232469993682,
+          0.36099754701553555
+        ],
+        "coordinate": [
+          30,
+          66.55833333333334
+        ]
+      },
+      {
+        "id": "aux-Arctic-approx-60",
+        "image": [
+          0.8551231838281744,
+          0.36099754701553555
+        ],
+        "coordinate": [
+          60,
+          66.55833333333334
+        ]
+      }
+    ],
+    "withheldChecks": [
+      {
+        "id": "numeric-60N-30",
+        "image": [
+          0.6238344914718889,
+          0.46647587898609977
+        ],
+        "coordinate": [
+          30,
+          60
+        ],
+        "residualPixels": 4.371023814695282
+      },
+      {
+        "id": "aux-Arctic-approx-0",
+        "image": [
+          0.365698041692988,
+          0.36099754701553555
+        ],
+        "coordinate": [
+          0,
+          66.55833333333334
+        ],
+        "residualPixels": 0.624349571540321
+      }
+    ],
+    "withheldCaveat": "Excluded from fitted TPS controls, but same-source graticule consistency checks sharing Arctic latitude assumptions; not independent survey validation.",
+    "quality": {
+      "crossValidationP95Pixels": null,
+      "folded": false,
+      "imageCoverage": 0.07958516721771441,
+      "invalidDomain": false,
+      "ok": true,
+      "reason": "insufficient-distributed-controls",
+      "recommended": false,
+      "modelComparison": [
+        {
+          "mode": "tps",
+          "ok": true,
+          "eligible": true,
+          "rmsMeters": 4.101239798113759e-05,
+          "crossValidationP95Pixels": null,
+          "recommended": false,
+          "folded": false,
+          "reason": "insufficient-distributed-controls"
+        }
+      ]
+    },
+    "additionalLeaveOneOutDiagnostic": {
+      "method": "Existing shared C++ TPS warp fitted to five of the six fit points, each fit point withheld once. Diagnostic only; does not replace or alter built-in CV/null or automatic recommendation.",
+      "rows": [
+        {
+          "heldOutFitId": "numeric-60N--30",
+          "fitCount": 5,
+          "warpOK": true,
+          "reason": null,
+          "pixelErrors": {
+            "ok": true,
+            "p95Pixels": 39.66273689174778,
+            "pixels": [
+              39.66273689174778
+            ]
+          }
+        },
+        {
+          "heldOutFitId": "numeric-60N-0",
+          "fitCount": 5,
+          "warpOK": true,
+          "reason": null,
+          "pixelErrors": {
+            "ok": true,
+            "p95Pixels": 2.7842840783971874,
+            "pixels": [
+              2.7842840783971874
+            ]
+          }
+        },
+        {
+          "heldOutFitId": "numeric-60N-60",
+          "fitCount": 5,
+          "warpOK": true,
+          "reason": null,
+          "pixelErrors": {
+            "ok": true,
+            "p95Pixels": 55.85537118961654,
+            "pixels": [
+              55.85537118961654
+            ]
+          }
+        },
+        {
+          "heldOutFitId": "aux-Arctic-approx--30",
+          "fitCount": 5,
+          "warpOK": true,
+          "reason": null,
+          "pixelErrors": {
+            "ok": true,
+            "p95Pixels": 57.386330503675964,
+            "pixels": [
+              57.386330503675964
+            ]
+          }
+        },
+        {
+          "heldOutFitId": "aux-Arctic-approx-30",
+          "fitCount": 5,
+          "warpOK": true,
+          "reason": null,
+          "pixelErrors": {
+            "ok": true,
+            "p95Pixels": 4.095853947945148,
+            "pixels": [
+              4.095853947945148
+            ]
+          }
+        },
+        {
+          "heldOutFitId": "aux-Arctic-approx-60",
+          "fitCount": 5,
+          "warpOK": true,
+          "reason": null,
+          "pixelErrors": {
+            "ok": true,
+            "p95Pixels": 43.444873674236284,
+            "pixels": [
+              43.444873674236284
+            ]
+          }
+        }
+      ],
+      "maxPixels": 57.386330503675964,
+      "p95NearestRankPixels": 57.386330503675964,
+      "independentOfMapAndAuxAssumptions": false
+    },
+    "extrapolation": {
+      "allSelectedVerticesInsideFitHull": true,
+      "fitHullUV": [
+        [
+          0.10737839545167403,
+          0.46647587898609977
+        ],
+        [
+          0.12084649399873658,
+          0.36099754701553555
+        ],
+        [
+          0.8551231838281744,
+          0.36099754701553555
+        ],
+        [
+          0.8821351863550222,
+          0.46647587898609977
+        ]
+      ],
+      "selectedVerticesInside": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selectedSegmentExtrapolated": false,
+      "doNotApplyThisApprovalOutsideSelectedLocalLine": true
+    }
+  },
+  "auxiliaryDefinitionsAndUncertainty": {
+    "nsidc": {
+      "url": "https://nsidc.org/learn/cryosphere-glossary/arctic-circle",
+      "latitudeApprox": 66.55
+    },
+    "noaaFAQ1": {
+      "url": "https://pmel.noaa.gov/arctic-zone/faq.html",
+      "latitudeApprox": 66.56666666666666
+    },
+    "noaaSamePageFAQ17": {
+      "url": "https://pmel.noaa.gov/arctic-zone/faq.html",
+      "latitudeApprox": 66.53333333333333,
+      "role": "additional internal approximate-value inconsistency noted during source read"
+    },
+    "chosenMidpoint": 66.55833333333334,
+    "notPrintedNumericLatitude": true,
+    "independentGeographicValidation": false,
+    "definitionSpreadArcMinutes": 1,
+    "broaderObservedApproximateSpreadArcMinutes": 2,
+    "otherUnquantifiedUncertainties": [
+      "Epoch of represented Arctic Circle is unspecified; copyright 2024 is not content date.",
+      "Generalized map drafting, raster resampling, stroke width and manual centre measurements.",
+      "Educational approximate definitions do not establish a precise datum/epoch latitude."
+    ],
+    "pixelCentreUncertaintyApprox": 0.75,
+    "precisionOrErrorGuarantee": false
+  },
+  "modelStatus": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "verificationFileSha256": "87a7cc6603dfe645e2ccb2082e0fa93a7247318f5e06adb987aa75469aec0a8a",
+  "sourceEvidencePngSha256": "74118c2acfcc970834d26f42e3bff4b54b7af07a0e246a3ac08091b743123910",
+  "limitations": [
+    "Manual source-reviewed functional registration only; no automatic recommendation.",
+    "TPS is an empirical approximation, not a Winkel II implementation.",
+    "Withheld same-source checks are not independent geographic truth.",
+    "Coverage below automatic threshold; built-in CV unavailable, auxiliary LOO P95 about57.39px; no accuracy pass.",
+    "Only one locally reviewed line; no full-map approval."
+  ]
+}

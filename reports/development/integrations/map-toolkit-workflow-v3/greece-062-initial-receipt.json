@@ -1,0 +1,75 @@
+{
+  "case": "mitchell-greece-1850",
+  "input": "actual natural-language search",
+  "version": "0.6.2",
+  "codeRevision": "278070c936f5c217d318f6bc2cafc3b4ce98e554",
+  "sourceHash": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+  "status": "needs-georeference",
+  "review": null,
+  "analysis": {
+    "maxPixels": 4000000,
+    "analysisSize": [
+      2215,
+      1805
+    ],
+    "originalSafetyCap": 16000000,
+    "simplifyTolerance": 0,
+    "threshold": 0.55,
+    "initialExtractionEvidence": "Installed lib/engine.mjs calls referenceBoundaryGraph(...,{threshold:.55,simplifyTolerance:0}); it was not modified.",
+    "projection": null,
+    "date": null
+  },
+  "actualOCR": {
+    "languages": [
+      "eng"
+    ],
+    "detections": 256
+  },
+  "actualONNX": {
+    "provider": "wasm",
+    "tiles": 25,
+    "unobservedChannels": [
+      "coast",
+      "hydro",
+      "transport",
+      "text",
+      "frame"
+    ]
+  },
+  "measured": {
+    "seconds": 145.84317532500427,
+    "maxResidentSetKiB": 1438440,
+    "measurement": "Python monotonic wall time and Linux getrusage(RUSAGE_CHILDREN); high-water RSS is per-child maximum, not simultaneous process-tree sum."
+  },
+  "graph": {
+    "chains": 9644,
+    "faces": 854,
+    "unresolved": 8759,
+    "currentEqualsRawVerified": true
+  },
+  "downloadedBaseline": {
+    "bytes": 33674457,
+    "sha256": "cfc3df4c58f4dacdf30ea2283e478d8eb0fddf40f74bce0388bb67211570283a"
+  },
+  "diagnostics": {
+    "bytes": 69790,
+    "sha256": "f75edb69bc8dfb27cc0770c5ceefceb53485e2c316669058b7e433cd44690ccd"
+  },
+  "modelStatus": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "automaticRegistration": "duplicate-control-observations; no accepted warp",
+  "sourceReview": {
+    "performed": true,
+    "scope": "Unreviewed candidate overlay compared to original; no candidate approval.",
+    "findings": [
+      "Frame, title, scale, text and hatching create false positives.",
+      "Some colored regional strokes are followed, but this is not sovereignty validation.",
+      "Candia is separate; automatic panel/grid detection did not identify it.",
+      "Thousands of open ends/dash gaps remain; source geometry was not artificially closed."
+    ]
+  },
+  "exported": false
+}
