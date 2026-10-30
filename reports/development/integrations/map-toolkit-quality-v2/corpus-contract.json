@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-29T12:32:44.051672Z",
+  "passed": true,
+  "maps": [
+    {
+      "id": "nrcan-south-america-outline",
+      "split": "train",
+      "imageSha256": "77ec8d61b35e6778e1aab8dc6a1898c77b4daf207caa4fe3be73b2591dc07869",
+      "annotationSha256": "d6fd678bc57854037485e50cd0330072edda517cdf2e0bd5412663b3079172fd",
+      "coverage": "partial",
+      "known": [
+        998,
+        998,
+        998,
+        998,
+        998,
+        2132,
+        998
+      ],
+      "positive": [
+        190,
+        0,
+        0,
+        0,
+        0,
+        1134,
+        0
+      ]
+    },
+    {
+      "id": "nrcan-asia-outline",
+      "split": "train",
+      "imageSha256": "7afc94fbad70f2479fc83b41dc0c5470f26242021ac276e203b9de84aa12627b",
+      "annotationSha256": "bc761f00fad87dac003d99109ee72347f0e24e64f8e89d8be0884982562c7145",
+      "coverage": "partial",
+      "known": [
+        1107,
+        1107,
+        1107,
+        1107,
+        1107,
+        3507,
+        1107
+      ],
+      "positive": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        2400,
+        0
+      ]
+    },
+    {
+      "id": "nrcan-europe-outline",
+      "split": "train",
+      "imageSha256": "eb24fdec58854699b4ed7ae9be420fb2597bd8482c27ef5a8c050b3c80fbb6d4",
+      "annotationSha256": "ef1317d54cf8906b04f1466c6e67f5ede0ad179d9d7b8414aca424a073e0d942",
+      "coverage": "partial",
+      "known": [
+        624,
+        624,
+        624,
+        624,
+        624,
+        1548,
+        624
+      ],
+      "positive": [
+        108,
+        0,
+        0,
+        0,
+        0,
+        960,
+        0
+      ]
+    },
+    {
+      "id": "farzan-canada-persian",
+      "split": "train",
+      "imageSha256": "1ca0c7c7849bfc2a3390b4114148e8856f97c2e51f9c69de0cbac7df60a13f6d",
+      "annotationSha256": "827cf871ee322c77ce39f9339193a69abefcee7be5e5d3fb2355904a10a94cd7",
+      "coverage": "partial",
+      "known": [
+        4652,
+        4652,
+        4652,
+        852,
+        852,
+        4652,
+        852
+      ],
+      "positive": [
+        0,
+        105,
+        0,
+        0,
+        0,
+        3800,
+        0
+      ]
+    },
+    {
+      "id": "mitchell-greece-1850",
+      "split": "train",
+      "imageSha256": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+      "annotationSha256": "a9144cffc4e5204f0ad99898e97bb7e04c410892ea5467e23c97bbc7c200b2da",
+      "coverage": "partial",
+      "known": [
+        1116,
+        1116,
+        1116,
+        0,
+        0,
+        50596,
+        0
+      ],
+      "positive": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        50596,
+        0
+      ]
+    },
+    {
+      "id": "brockhaus-china-1900",
+      "split": "train",
+      "imageSha256": "7f8b95396630835ee0e7606525befca33ad9e66d1adcd491657d02b4d493895e",
+      "annotationSha256": "a4ab6122ba3f1b8550a681ddb703a7f7cc4a9a1b8e04996f40450910841f8061",
+      "coverage": "partial",
+      "known": [
+        402,
+        402,
+        417,
+        402,
+        402,
+        402,
+        402
+      ],
+      "positive": [
+        0,
+        0,
+        185,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "openclipart-usa-states",
+      "split": "validation",
+      "imageSha256": "fcc459da42cd759c572d90909c4e8fe07a9acc90dc358c314e597f31296daf0e",
+      "annotationSha256": "afd0c82b65a5aa18e39abdd25dc755cc3c80f96a55c37c71f0ec3398ab23c294",
+      "coverage": "partial",
+      "known": [
+        925,
+        925,
+        925,
+        925,
+        925,
+        925,
+        925
+      ],
+      "positive": [
+        0,
+        50,
+        64,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "openclipart-mexico-states",
+      "split": "validation",
+      "imageSha256": "e1d14c5b21758b9080035725871e322d27ffe97c4c81307df072cb7083ddcae1",
+      "annotationSha256": "62137f8d3e80032b45aa7a9123fdd664934792903d0d3c9c0c18050f51654f36",
+      "coverage": "partial",
+      "known": [
+        1271,
+        1271,
+        1271,
+        1271,
+        1271,
+        1271,
+        1271
+      ],
+      "positive": [
+        81,
+        82,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pakistan-urdu",
+      "split": "validation",
+      "imageSha256": "80c69f01988f97be3094c8bce18722435d069afa892e1e0e61e71f0457657d45",
+      "annotationSha256": "5f4bf051e4139386b9a94f775592adc049198668a457a2b1ff09755f9495b994",
+      "coverage": "partial",
+      "known": [
+        1756,
+        1756,
+        1756,
+        468,
+        468,
+        1756,
+        468
+      ],
+      "positive": [
+        0,
+        82,
+        0,
+        0,
+        0,
+        1288,
+        0
+      ]
+    },
+    {
+      "id": "gloyacks-japan-korean",
+      "split": "validation",
+      "imageSha256": "131e4a5e234273c049b215303f60fa17fdfa56288332f93cedfef6e0d351a3f7",
+      "annotationSha256": "a215cc0e9c6fd8b6e0847cbe76332e149fa1f6258fb6f5c86c5c0d11006b477f",
+      "coverage": "partial",
+      "known": [
+        3180,
+        3184,
+        3180,
+        3180,
+        3180,
+        3180,
+        3180
+      ],
+      "positive": [
+        0,
+        794,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hesperia-greece-1920",
+      "split": "validation",
+      "imageSha256": "ea4db6b5eea5e13b7300559151e1440e6cafac4136be48c394fb1777ae7dbb95",
+      "annotationSha256": "9ed0ab364807d877104a8282a834f982532efb3302a16f1647777fef205000a5",
+      "coverage": "partial",
+      "known": [
+        17721,
+        17704,
+        17704,
+        16248,
+        16248,
+        19960,
+        16248
+      ],
+      "positive": [
+        1763,
+        0,
+        0,
+        0,
+        0,
+        3712,
+        103
+      ]
+    },
+    {
+      "id": "griffis-japan-1876",
+      "split": "validation",
+      "imageSha256": "cf4c5ea27bd4eba2d3ab486cc3e09262818831f2232cc7c5a2c26e4d8f648be5",
+      "annotationSha256": "f91fdf4f2bf41fc4d7a111b78025fe3e1373dd8c8c47669262958588d05c5f52",
+      "coverage": "partial",
+      "known": [
+        5853,
+        5853,
+        5853,
+        2499,
+        2499,
+        5853,
+        2499
+      ],
+      "positive": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3354,
+        367
+      ]
+    },
+    {
+      "id": "europe-afrikaans",
+      "split": "test",
+      "imageSha256": "16863993592e522feaf7b1ebd1d1c404bf6a0bdae86ca49dd25a0f60594f67f5",
+      "annotationSha256": "b84c24b6ba7aab4b0a56e4ed8f4d83b098b8047a1dd887e6600b5f146261a5b0",
+      "coverage": "partial",
+      "known": [
+        1567,
+        1559,
+        1559,
+        257,
+        257,
+        1559,
+        257
+      ],
+      "positive": [
+        56,
+        0,
+        0,
+        0,
+        0,
+        1302,
+        0
+      ]
+    },
+    {
+      "id": "gaba-africa-french",
+      "split": "test",
+      "imageSha256": "218230913f18bb2ead1388c607824ff15e8af17a501265dcadab5b1c271bddb0",
+      "annotationSha256": "eb2e92dc6407f6495789df49a8ba54b2a4d67c45249249caf7bf2c5626898bd5",
+      "coverage": "partial",
+      "known": [
+        1999,
+        1999,
+        1999,
+        474,
+        474,
+        1999,
+        474
+      ],
+      "positive": [
+        48,
+        0,
+        0,
+        0,
+        0,
+        1525,
+        0
+      ]
+    },
+    {
+      "id": "greece-outline",
+      "split": "test",
+      "imageSha256": "dd2ea6f0216e1898bbdd107d3b3cb658a14bd81e536be08eb3e69661423ddc96",
+      "annotationSha256": "ed8e673bac37e971c4b83214463ec86bd4e61d944cdb2d8871500ce796a7fc0a",
+      "coverage": "partial",
+      "known": [
+        1501,
+        1497,
+        1497,
+        1497,
+        1497,
+        1497,
+        1497
+      ],
+      "positive": [
+        231,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ga-australia-states",
+      "split": "test",
+      "imageSha256": "cd43ede4a59a7cac4c86a03eb449fdf3f1678a0c1fd51bca03da918298b4151e",
+      "annotationSha256": "d41a3816effe127377dde815af21632e216e0f4b60b73f9bf763c0ccb7648968",
+      "coverage": "partial",
+      "known": [
+        5063,
+        5063,
+        5063,
+        5063,
+        5063,
+        5063,
+        5063
+      ],
+      "positive": [
+        0,
+        130,
+        29,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "smithsonian-china-1892",
+      "split": "test",
+      "imageSha256": "6407a7d3e28e46c803ef8e341be8f72672f79975543254822df078ab8ea8f038",
+      "annotationSha256": "c10b51ec260e8a201ad00a05197725276e4aed14ad8f4a8731f63107a393be2a",
+      "coverage": "partial",
+      "known": [
+        13985,
+        13985,
+        13985,
+        1691,
+        1691,
+        13985,
+        2909
+      ],
+      "positive": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        11076,
+        364
+      ]
+    },
+    {
+      "id": "kaempfer-japan-1729",
+      "split": "test",
+      "imageSha256": "39c7045f246a96eebe2c9ea96db2a518f1a43ecf3f0b4b506b5dbde13ec1d3fe",
+      "annotationSha256": "03920533d6a2d774bd58e8ca877063d92602f0b12934ceb6d1a0bcd886f9c142",
+      "coverage": "partial",
+      "known": [
+        3530,
+        3530,
+        3530,
+        0,
+        0,
+        0,
+        170
+      ],
+      "positive": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        34
+      ]
+    }
+  ],
+  "auxiliarySheets": [
+    "cia-asia-political-seams-r4",
+    "cia-world-political-2021",
+    "gsi-japan-national-japanese-exclusions-r2",
+    "nrcan-africa-national-reference",
+    "nrcan-canada-monochrome",
+    "nrcan-canada-national"
+  ],
+  "tilesPerTrainingCorpus": [
+    13,
+    119
+  ],
+  "balancedBatchesPerEpoch": 132,
+  "channels": [
+    "international",
+    "administrative",
+    "coast",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "supervisionByTrainingCorpus": [
+    [
+      [
+        8899,
+        497
+      ],
+      [
+        8899,
+        105
+      ],
+      [
+        8914,
+        185
+      ],
+      [
+        3983,
+        0
+      ],
+      [
+        3983,
+        0
+      ],
+      [
+        62837,
+        58890
+      ],
+      [
+        3983,
+        0
+      ]
+    ],
+    [
+      [
+        9955289,
+        113840
+      ],
+      [
+        8391723,
+        25328
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  ],
+  "wholeMapQualification": false,
+  "sourceManifestSha256": "1924988adfcd78526821118139c3f45724d17a03ea8a6b1b1c01c3f9fe0edd05",
+  "labelsFreezeSha256": "7098d6648e0dcb3c42450350058055c67e71932450d61165c2b844f3cfc6b5d6",
+  "note": "All 18 full-source identities/current annotation contracts and six reused auxiliary macro labels validated in prior preparation. Prior receipt write failed only because the newly resolved report directory did not yet exist; no test failure hidden."
+}

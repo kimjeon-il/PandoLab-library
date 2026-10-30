@@ -1,0 +1,1046 @@
+{
+  "schemaVersion": 1,
+  "metric": "full-sheet-source-pixel-euclidean-tolerance",
+  "tolerance": "max(2px, half annotated original stroke width)",
+  "corpusSha256": "79b6ad51cb26a2c1444c198725ec5a5644e7ad52a86901c1fbe3343523bdb8b2",
+  "trainingCorpusSha256": "336008e64a4531325ba396aaba2dbdbe70c2ab29fd1e5faee09d64d0c49791ef",
+  "lineageSha256": null,
+  "checkpointSha256": "25d9612705ba1180282cd0f65c83031c37189481a0a98b4f0c407b6df6a435a6",
+  "reviewKinds": [
+    "agent"
+  ],
+  "trainingOnly": true,
+  "evaluationStatus": "pending",
+  "groups": {
+    "color/Latin/afr": {
+      "international": {
+        "precision": 0.5428571428571428,
+        "recall": 0.8461538461538461,
+        "matchedPrediction": 95,
+        "predicted": 175,
+        "matchedReference": 22,
+        "reference": 26
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 87,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "color/Latin/fra": {
+      "international": {
+        "precision": 0.631578947368421,
+        "recall": 0.9,
+        "matchedPrediction": 60,
+        "predicted": 95,
+        "matchedReference": 18,
+        "reference": 20
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 3,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "color/Zyyy/und": {
+      "international": {
+        "precision": 1.0,
+        "recall": 0.16,
+        "matchedPrediction": 19,
+        "predicted": 19,
+        "matchedReference": 16,
+        "reference": 100
+      },
+      "administrative": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "monochrome/Latin/eng": {
+      "international": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 765,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "matchedPrediction": 0,
+        "predicted": 498,
+        "matchedReference": 0,
+        "reference": 130
+      },
+      "coast": {
+        "precision": null,
+        "recall": 0.0,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 29
+      }
+    },
+    "monochrome/Latin+Han/nld": {
+      "international": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 115,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 5,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    }
+  },
+  "sheets": {
+    "europe-afrikaans": {
+      "international": {
+        "precision": 0.5428571428571428,
+        "recall": 0.8461538461538461,
+        "matchedPrediction": 95,
+        "predicted": 175,
+        "matchedReference": 22,
+        "reference": 26
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 87,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "gaba-africa-french": {
+      "international": {
+        "precision": 0.631578947368421,
+        "recall": 0.9,
+        "matchedPrediction": 60,
+        "predicted": 95,
+        "matchedReference": 18,
+        "reference": 20
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 3,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "greece-outline": {
+      "international": {
+        "precision": 1.0,
+        "recall": 0.16,
+        "matchedPrediction": 19,
+        "predicted": 19,
+        "matchedReference": 16,
+        "reference": 100
+      },
+      "administrative": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "ga-australia-states": {
+      "international": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "administrative": {
+        "precision": null,
+        "recall": 0.0,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 130
+      },
+      "coast": {
+        "precision": null,
+        "recall": 0.0,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 29
+      }
+    },
+    "smithsonian-china-1892": {
+      "international": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 765,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 498,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    },
+    "kaempfer-japan-1729": {
+      "international": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 115,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 5,
+        "matchedReference": 0,
+        "reference": 0
+      },
+      "coast": {
+        "precision": null,
+        "recall": null,
+        "matchedPrediction": 0,
+        "predicted": 0,
+        "matchedReference": 0,
+        "reference": 0
+      }
+    }
+  },
+  "threshold": 0.55,
+  "diagnosticOnly": true,
+  "independence": {
+    "passed": false,
+    "reason": "Complete verified ancestral lineage required"
+  },
+  "confounders": {
+    "europe-afrikaans": {
+      "hydro": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "transport": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "text": {
+        "international": {
+          "falsePositive": 35,
+          "pixels": 1302,
+          "rate": 0.026881720430107527
+        },
+        "administrative": {
+          "falsePositive": 1,
+          "pixels": 1302,
+          "rate": 0.0007680491551459293
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 1302,
+          "rate": 0.0
+        }
+      },
+      "frame": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      }
+    },
+    "gaba-africa-french": {
+      "hydro": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "transport": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "text": {
+        "international": {
+          "falsePositive": 25,
+          "pixels": 1525,
+          "rate": 0.01639344262295082
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 1525,
+          "rate": 0.0
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 1525,
+          "rate": 0.0
+        }
+      },
+      "frame": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      }
+    },
+    "greece-outline": {
+      "hydro": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "transport": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "text": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "frame": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      }
+    },
+    "ga-australia-states": {
+      "hydro": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "transport": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "text": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "frame": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      }
+    },
+    "smithsonian-china-1892": {
+      "hydro": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "transport": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "text": {
+        "international": {
+          "falsePositive": 25,
+          "pixels": 11076,
+          "rate": 0.00225713253882268
+        },
+        "administrative": {
+          "falsePositive": 13,
+          "pixels": 11076,
+          "rate": 0.0011737089201877935
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 11076,
+          "rate": 0.0
+        }
+      },
+      "frame": {
+        "international": {
+          "falsePositive": 235,
+          "pixels": 364,
+          "rate": 0.6456043956043956
+        },
+        "administrative": {
+          "falsePositive": 136,
+          "pixels": 364,
+          "rate": 0.37362637362637363
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 364,
+          "rate": 0.0
+        }
+      }
+    },
+    "kaempfer-japan-1729": {
+      "hydro": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "transport": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "text": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 0,
+          "rate": null
+        }
+      },
+      "frame": {
+        "international": {
+          "falsePositive": 0,
+          "pixels": 34,
+          "rate": 0.0
+        },
+        "administrative": {
+          "falsePositive": 0,
+          "pixels": 34,
+          "rate": 0.0
+        },
+        "coast": {
+          "falsePositive": 0,
+          "pixels": 34,
+          "rate": 0.0
+        }
+      }
+    }
+  },
+  "coverage": {
+    "europe-afrikaans": {
+      "international": {
+        "knownPixels": 1567,
+        "originalPixels": 1764654
+      },
+      "administrative": {
+        "knownPixels": 1559,
+        "originalPixels": 1764654
+      },
+      "coast": {
+        "knownPixels": 1559,
+        "originalPixels": 1764654
+      },
+      "hydro": {
+        "knownPixels": 257,
+        "originalPixels": 1764654
+      },
+      "transport": {
+        "knownPixels": 257,
+        "originalPixels": 1764654
+      },
+      "text": {
+        "knownPixels": 1559,
+        "originalPixels": 1764654
+      },
+      "frame": {
+        "knownPixels": 257,
+        "originalPixels": 1764654
+      }
+    },
+    "gaba-africa-french": {
+      "international": {
+        "knownPixels": 1999,
+        "originalPixels": 1110016
+      },
+      "administrative": {
+        "knownPixels": 1999,
+        "originalPixels": 1110016
+      },
+      "coast": {
+        "knownPixels": 1999,
+        "originalPixels": 1110016
+      },
+      "hydro": {
+        "knownPixels": 474,
+        "originalPixels": 1110016
+      },
+      "transport": {
+        "knownPixels": 474,
+        "originalPixels": 1110016
+      },
+      "text": {
+        "knownPixels": 1999,
+        "originalPixels": 1110016
+      },
+      "frame": {
+        "knownPixels": 474,
+        "originalPixels": 1110016
+      }
+    },
+    "greece-outline": {
+      "international": {
+        "knownPixels": 1501,
+        "originalPixels": 560000
+      },
+      "administrative": {
+        "knownPixels": 1497,
+        "originalPixels": 560000
+      },
+      "coast": {
+        "knownPixels": 1497,
+        "originalPixels": 560000
+      },
+      "hydro": {
+        "knownPixels": 1497,
+        "originalPixels": 560000
+      },
+      "transport": {
+        "knownPixels": 1497,
+        "originalPixels": 560000
+      },
+      "text": {
+        "knownPixels": 1497,
+        "originalPixels": 560000
+      },
+      "frame": {
+        "knownPixels": 1497,
+        "originalPixels": 560000
+      }
+    },
+    "ga-australia-states": {
+      "international": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      },
+      "administrative": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      },
+      "coast": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      },
+      "hydro": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      },
+      "transport": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      },
+      "text": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      },
+      "frame": {
+        "knownPixels": 5063,
+        "originalPixels": 2000592
+      }
+    },
+    "smithsonian-china-1892": {
+      "international": {
+        "knownPixels": 13985,
+        "originalPixels": 4894912
+      },
+      "administrative": {
+        "knownPixels": 13985,
+        "originalPixels": 4894912
+      },
+      "coast": {
+        "knownPixels": 13985,
+        "originalPixels": 4894912
+      },
+      "hydro": {
+        "knownPixels": 1691,
+        "originalPixels": 4894912
+      },
+      "transport": {
+        "knownPixels": 1691,
+        "originalPixels": 4894912
+      },
+      "text": {
+        "knownPixels": 13985,
+        "originalPixels": 4894912
+      },
+      "frame": {
+        "knownPixels": 2909,
+        "originalPixels": 4894912
+      }
+    },
+    "kaempfer-japan-1729": {
+      "international": {
+        "knownPixels": 3530,
+        "originalPixels": 482250
+      },
+      "administrative": {
+        "knownPixels": 3530,
+        "originalPixels": 482250
+      },
+      "coast": {
+        "knownPixels": 3530,
+        "originalPixels": 482250
+      },
+      "hydro": {
+        "knownPixels": 0,
+        "originalPixels": 482250
+      },
+      "transport": {
+        "knownPixels": 0,
+        "originalPixels": 482250
+      },
+      "text": {
+        "knownPixels": 0,
+        "originalPixels": 482250
+      },
+      "frame": {
+        "knownPixels": 170,
+        "originalPixels": 482250
+      }
+    }
+  },
+  "nonregression": {
+    "passed": false,
+    "measured": 0,
+    "failures": [
+      {
+        "reason": "missing-or-different-baseline-scope"
+      }
+    ]
+  },
+  "reviewCoverage": {
+    "complete": false,
+    "sheets": {
+      "europe-afrikaans": "partial",
+      "gaba-africa-french": "partial",
+      "greece-outline": "partial",
+      "ga-australia-states": "partial",
+      "smithsonian-china-1892": "partial",
+      "kaempfer-japan-1729": "partial"
+    }
+  },
+  "baselineReportSha256": null,
+  "admission": {
+    "passed": false,
+    "macro": {
+      "international": {
+        "precision": 0.724812030075188,
+        "recall": 0.6353846153846153,
+        "positiveMaps": 3
+      },
+      "administrative": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "positiveMaps": 1
+      },
+      "coast": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "positiveMaps": 1
+      }
+    },
+    "failures": [
+      {
+        "sheet": "europe-afrikaans",
+        "channel": "international",
+        "reason": "per-map-floor"
+      },
+      {
+        "sheet": "gaba-africa-french",
+        "channel": "international",
+        "reason": "per-map-floor"
+      },
+      {
+        "sheet": "greece-outline",
+        "channel": "international",
+        "reason": "per-map-floor"
+      },
+      {
+        "sheet": "smithsonian-china-1892",
+        "channel": "international",
+        "reason": "false-positive-in-known-negative-area"
+      },
+      {
+        "sheet": "kaempfer-japan-1729",
+        "channel": "international",
+        "reason": "false-positive-in-known-negative-area"
+      },
+      {
+        "channel": "international",
+        "reason": "map-macro-threshold"
+      },
+      {
+        "sheet": "europe-afrikaans",
+        "channel": "administrative",
+        "reason": "false-positive-in-known-negative-area"
+      },
+      {
+        "sheet": "gaba-africa-french",
+        "channel": "administrative",
+        "reason": "false-positive-in-known-negative-area"
+      },
+      {
+        "sheet": "ga-australia-states",
+        "channel": "administrative",
+        "reason": "per-map-floor"
+      },
+      {
+        "sheet": "smithsonian-china-1892",
+        "channel": "administrative",
+        "reason": "false-positive-in-known-negative-area"
+      },
+      {
+        "sheet": "kaempfer-japan-1729",
+        "channel": "administrative",
+        "reason": "false-positive-in-known-negative-area"
+      },
+      {
+        "channel": "administrative",
+        "reason": "map-macro-threshold"
+      },
+      {
+        "sheet": "ga-australia-states",
+        "channel": "coast",
+        "reason": "per-map-floor"
+      },
+      {
+        "channel": "coast",
+        "reason": "map-macro-threshold"
+      },
+      {
+        "reason": "incomplete-source-map-review"
+      },
+      {
+        "reason": "diagnostic-baseline-is-not-qualification"
+      },
+      {
+        "reason": "confounder-nonregression-not-passed"
+      }
+    ],
+    "mapCount": 6,
+    "thresholds": {
+      "macroPrecision": 0.95,
+      "macroRecall": 0.85,
+      "mapPrecision": 0.9,
+      "mapRecall": 0.75
+    }
+  },
+  "releaseApproved": false,
+  "pending": [
+    "independent georeference region evaluation",
+    "all script/map-family coverage",
+    "Windows WebView2 and Android offline performance"
+  ]
+}

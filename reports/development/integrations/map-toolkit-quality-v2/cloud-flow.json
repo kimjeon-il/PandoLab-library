@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-29T14:46:00.623129Z",
+  "purpose": "actual-Work-cloud-export-and-next-turn-download-proof-not-model-accuracy",
+  "pluginVersion": "0.5.1",
+  "sourceRevision": "d0bca5aa37e7c66da8d9a01e9b7c39d942e853b1",
+  "dataRevision": "8d668a6c9ffb7844849fb63af5b02ebc8a496b70",
+  "source": {
+    "url": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_continental/b%26w/Africab%26w.pdf",
+    "sha256": "6dd3c89b159bd8d6ab09bb75cf261ad04b678f3ca56e9c58b1e25cb09f4f0780",
+    "width": 1224,
+    "height": 1584
+  },
+  "downloads": [
+    {
+      "bytes": 499361,
+      "sha256": "7fd8b2a99f3648e07ade46280bdf7ca4b6ad72d60c40f4f4b7f2a430d2573bc3",
+      "hashes": {
+        "features.geojson": "d9ab06dd083a29ee0a0ce0ad7b8d92aebcde7f8e9ca7bb45bf8cad0534d1d227",
+        "analysis.json": "f051311f686da5481cf07b2b093ec54381148f557d17e9ddc18f95c974d838e3",
+        "preview.png": "51123b3bd9b95cb70a8568dc5d65cca8d791d4ad2fa4576200faacac820a8f08",
+        "report.md": "2a08847a566f7ca32bb01846980f869f6ecd4b523b597dc6cb09345d3708250d"
+      },
+      "completeSha256": "915521bd05dfba2bcaa7f40f7e29d579dbcbf6f350419c76f1c7ba8e4a6f44cf"
+    },
+    {
+      "bytes": 499361,
+      "sha256": "b2be35a5e28dc698d128b9a4a7cc94f9b599e6ce16dd0bc8ed0bb58973a1f3a9",
+      "hashes": {
+        "features.geojson": "dda169eaa9b4c24c50a004ea03d5f2909ed69a454a99511563c28d65707cc796",
+        "analysis.json": "f051311f686da5481cf07b2b093ec54381148f557d17e9ddc18f95c974d838e3",
+        "preview.png": "51123b3bd9b95cb70a8568dc5d65cca8d791d4ad2fa4576200faacac820a8f08",
+        "report.md": "2a08847a566f7ca32bb01846980f869f6ecd4b523b597dc6cb09345d3708250d"
+      },
+      "completeSha256": "313149a9d0c7416c207a58bc37b6b6782f656c631ce435e1a84b5a1431632289"
+    }
+  ],
+  "checks": {
+    "eachZipHasExactlyFiveExpectedFiles": true,
+    "allBodyHashesMatchEachCompleteManifest": true,
+    "sameAnalysisPreviewReportBytes": true,
+    "sameGeometryPropertiesSourceAndReview": true,
+    "generatedFeatureUuidChanged": true,
+    "changedGeojsonPaths": [
+      "features[0].id"
+    ],
+    "firstLocalGeojsonUnchangedAfterPandoTest": true
+  },
+  "review": {
+    "kind": "agent",
+    "status": "reviewed-provisional",
+    "selection": [
+      "line:87"
+    ],
+    "manualAddition": true,
+    "sameSourceGridChecksOnly": true,
+    "independentHistoricalAccuracy": false,
+    "nameOwnershipValiditySpecified": false
+  },
+  "georeference": {
+    "crossValidationP95Pixels": 0.7448096098796274,
+    "folded": false,
+    "imageCoverage": 0.38366040653736627,
+    "invalidDomain": false,
+    "ok": true,
+    "reason": "",
+    "recommended": true,
+    "modelComparison": [
+      {
+        "mode": "similarity",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 4483373.473747583,
+        "crossValidationP95Pixels": 1728.683502945593,
+        "recommended": false,
+        "folded": false,
+        "reason": "source-pixel-validation-failed"
+      },
+      {
+        "mode": "affine",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 2659.3861511667656,
+        "crossValidationP95Pixels": 0.7448096098796274,
+        "recommended": true,
+        "folded": false,
+        "reason": ""
+      },
+      {
+        "mode": "projective",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 2661.220639715129,
+        "crossValidationP95Pixels": 1.321633325141631,
+        "recommended": true,
+        "folded": false,
+        "reason": ""
+      },
+      {
+        "mode": "tps",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 0.000017889113595869843,
+        "crossValidationP95Pixels": 1.1696065715256472,
+        "recommended": true,
+        "folded": false,
+        "reason": ""
+      }
+    ]
+  },
+  "model": {
+    "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "trainingOnly": true,
+    "evaluationStatus": "pending",
+    "releaseApproved": false
+  },
+  "coreManifestSha256": "d720122d6a9964040f20c4712eaf9336fbd0b79a3a23e08897c34ca85ddcfbcd",
+  "segmentationSignature": "ef6b4c8a5210b10738bc96d191b3b49c85806fc4841b5bf56f098aff0a63b0f9",
+  "limitations": [
+    "Current graph rebuild changes other provisional chains and may shift endpoints by one original pixel.",
+    "Full preview displays diagnostic candidates; the export contains only the selected manual line.",
+    "Actual phone verification for 0.5.1 is pending user observation."
+  ],
+  "individualDownload": {
+    "verifiedAt": "2026-10-30T10:18:14.964Z",
+    "file": "features.geojson",
+    "bytes": 10074,
+    "sha256": "d9ab06dd083a29ee0a0ce0ad7b8d92aebcde7f8e9ca7bb45bf8cad0534d1d227",
+    "matchesFirstZipMember": true,
+    "method": "actual individual file download through the Work library UI"
+  }
+}

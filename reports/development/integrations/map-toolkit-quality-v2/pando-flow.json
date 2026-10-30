@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "purpose": "browser-editor-import-edit-history-save-reopen-proof-test-document-only",
+  "environment": "real Chromium browser editor; not native Windows/Android picker",
+  "productSourceBasis": "821bdccbadc3e80ed642f0e631fa6206b8ddad59",
+  "testSourceCommit": "ee44b97d5a16bce04d22d823086032a81cb1339a",
+  "pushedTestMerge": "74a76c93ffec98ab913c978d30f973d2077fa25f",
+  "inputSha256": "d9ab06dd083a29ee0a0ce0ad7b8d92aebcde7f8e9ca7bb45bf8cad0534d1d227",
+  "importedCount": 1,
+  "geometryEdited": true,
+  "batchUndoRedo": true,
+  "editUndoRedo": true,
+  "savedReopened": true,
+  "sourcePreserved": true,
+  "saved": {
+    "filename": "판도연구소-프로젝트.gpkg",
+    "path": "pando-test-project.gpkg",
+    "bytes": 57344,
+    "sha256": "8613b3baab38751c767406071a0a18f8038e704950c9d52200bdf56a84e82b04",
+    "sqliteHeaderVerified": true
+  },
+  "errors": [],
+  "checks": {
+    "resolvedCoreGeometry": true,
+    "geometryRegistryEqualAfterReopen": true,
+    "timelineRecordsEqualAfterReopen": true,
+    "resolvedEditedGeometryEqualAfterReopen": true
+  },
+  "notes": [
+    "The test converts the imported generic line into the existing hydro editor solely to exercise vertex editing. This is not a real river classification or territorial edit.",
+    "The first run correctly exposed a stale test assumption: stored hydro identities have geometry:null. The helper now reads the canonical accepted Core read model; geometry/history/provenance assertions were retained and persisted-registry checks were strengthened.",
+    "The original downloaded GeoJSON is unchanged."
+  ]
+}
