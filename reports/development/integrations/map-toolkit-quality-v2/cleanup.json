@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-30T10:18:14.964Z",
+  "verifiedAt": "2026-10-30T10:26:54.522Z",
   "purpose": "scoped-transfer-copy-cleanup-accounting",
   "removed": {
     "method": "user-executed scoped PowerShell command, independently verified absent",
@@ -26,35 +26,6 @@
     "freeSpaceBefore": 58413703168,
     "freeSpaceAfter": 58518110208,
     "observedFreeSpaceIncrease": 104407040
-  },
-  "pendingTransferCopies": {
-    "logicalBytes": 106517102,
-    "targets": [
-      {
-        "path": ".working/map-toolkit-quality-v2/private-package-0.5.1",
-        "bytes": 30767535
-      },
-      {
-        "path": ".working/map-toolkit-quality-v2/private-package-0.5.1.zip",
-        "bytes": 23978272,
-        "sha256": "b4cf76fd4b08b3cb1c63d14edf85899e18920a64a3bee0b642d79910ca4057f5"
-      },
-      {
-        "path": ".working/map-toolkit-georeference-quality/package",
-        "bytes": 28260904
-      },
-      {
-        "path": ".working/map-toolkit-georeference-quality/package.zip",
-        "bytes": 23510391,
-        "sha256": "a38611973ae8e3c7178150bdfad46d8e9ad26fe49b9d1ed1e4d55e603fe879ac"
-      }
-    ],
-    "commandLineConsumers": 0,
-    "symlinks": 0,
-    "recovery": "Preserved original macro-v6 model and existing pinned source/data Git objects verified.",
-    "originalModelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
-    "status": "user execution requested; no deletion success claimed",
-    "freeSpaceBeforeHandoff": 57399828480
   },
   "blockedOther": {
     "logicalBytes": 99464,
@@ -92,5 +63,44 @@
       "purpose": "Actual first/next-turn downloaded output ZIPs retained as download and persistence evidence."
     }
   ],
-  "note": "Logical file bytes are distinct from measured drive free-space change. Concurrent tasks write to the drive; no global free-space delta is attributed to this task."
+  "note": "Logical file bytes are distinct from measured drive free-space change. Concurrent tasks write to the drive; no global free-space delta is attributed to this task.",
+  "removedTransferCopies": {
+    "logicalBytes": 106517102,
+    "targets": [
+      {
+        "path": ".working/map-toolkit-quality-v2/private-package-0.5.1",
+        "bytes": 30767535,
+        "absent": true
+      },
+      {
+        "path": ".working/map-toolkit-quality-v2/private-package-0.5.1.zip",
+        "bytes": 23978272,
+        "sha256": "b4cf76fd4b08b3cb1c63d14edf85899e18920a64a3bee0b642d79910ca4057f5",
+        "absent": true
+      },
+      {
+        "path": ".working/map-toolkit-georeference-quality/package",
+        "bytes": 28260904,
+        "absent": true
+      },
+      {
+        "path": ".working/map-toolkit-georeference-quality/package.zip",
+        "bytes": 23510391,
+        "sha256": "a38611973ae8e3c7178150bdfad46d8e9ad26fe49b9d1ed1e4d55e603fe879ac",
+        "absent": true
+      }
+    ],
+    "commandLineConsumers": 0,
+    "symlinks": 0,
+    "recovery": "Preserved original macro-v6 model and existing pinned source/data Git objects verified.",
+    "originalModelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "status": "removed by user command; all four exact targets independently verified absent",
+    "freeSpaceBeforeHandoff": 57399828480,
+    "verifiedAt": "2026-10-30T10:26:54.522Z",
+    "latestFreeSpaceBeforeUserExecution": 57244106752,
+    "freeSpaceAfterUserExecution": 57350340608,
+    "observedFreeSpaceIncrease": 106233856,
+    "freeSpaceIntervalNote": "Latest observation before user execution to first verification after execution; allocation and concurrent writes prevent exact attribution."
+  },
+  "totalRemovedLogicalBytes": 216001408
 }
