@@ -80,6 +80,18 @@
     },
     {
       "schemaVersion": 2,
+      "lineageId": "aral",
+      "names": {
+        "ko": "아랄해",
+        "en": "Aral Sea"
+      },
+      "entityRefs": [
+        "waterbody:aral"
+      ],
+      "relations": []
+    },
+    {
+      "schemaVersion": 2,
       "lineageId": "are",
       "names": {
         "ko": "아랍에미리트"
@@ -463,6 +475,18 @@
       },
       "entityRefs": [
         "state:CAN"
+      ],
+      "relations": []
+    },
+    {
+      "schemaVersion": 2,
+      "lineageId": "caspian",
+      "names": {
+        "ko": "카스피해",
+        "en": "Caspian Sea"
+      },
+      "entityRefs": [
+        "waterbody:caspian"
       ],
       "relations": []
     },
@@ -1443,9 +1467,16 @@
         "ko": "코소보"
       },
       "entityRefs": [
+        "state:unmik-kosovo",
         "state:KOS"
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "successor",
+          "from": "state:unmik-kosovo",
+          "to": "state:KOS"
+        }
+      ]
     },
     {
       "schemaVersion": 2,
@@ -2588,9 +2619,16 @@
         "ko": "동티모르"
       },
       "entityRefs": [
+        "state:untaet-east-timor",
         "state:TLS"
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "successor",
+          "from": "state:untaet-east-timor",
+          "to": "state:TLS"
+        }
+      ]
     },
     {
       "schemaVersion": 2,
@@ -2923,30 +2961,6 @@
       },
       "entityRefs": [
         "state:ZWE"
-      ],
-      "relations": []
-    },
-    {
-      "schemaVersion": 2,
-      "lineageId": "caspian",
-      "names": {
-        "ko": "카스피해",
-        "en": "Caspian Sea"
-      },
-      "entityRefs": [
-        "waterbody:caspian"
-      ],
-      "relations": []
-    },
-    {
-      "schemaVersion": 2,
-      "lineageId": "aral",
-      "names": {
-        "ko": "아랄해",
-        "en": "Aral Sea"
-      },
-      "entityRefs": [
-        "waterbody:aral"
       ],
       "relations": []
     }
@@ -3306,6 +3320,59 @@
         42.428677,
         1.765091,
         42.649362
+      ],
+      "geometryVersionCount": 1
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "waterbody:aral",
+      "entityKind": "lake",
+      "lineageId": "aral",
+      "names": {
+        "ko": "아랄해",
+        "en": "Aral Sea"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "aral-prasolov1926-approved",
+          "validFrom": "1922-01-01",
+          "validTo": "1929-12-31",
+          "certainty": "reviewed",
+          "sourceId": "prasolov-1926-aral-approved-20261026",
+          "notes": "User-selected display interval, not a surveyed historical validity interval. Approved 1:10M display candidate based on the 1926 printed Prasolov map; source shoreline survey date unknown; southern extrapolation and wetland classification uncertainty retained."
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "builtinHydroId": "waterbody:aral",
+        "representativeGeometryVersionId": "aral-prasolov1926-approved",
+        "geographicRegion": "Asia"
+      },
+      "sourceInfo": {
+        "title": "Approved Aral near-1922 display reconstruction from Prasolov printed 1926 map",
+        "license": "Preserve original source terms",
+        "sourceId": "prasolov-1926-aral-approved-20261026"
+      },
+      "file": "waterbody-aral.json.gz",
+      "validFrom": null,
+      "validTo": null,
+      "compressedBytes": 13864,
+      "decodedBytes": 66567,
+      "sha256": "cdd7c615eb3701471b296dd31531427fb9a5b8db46e145b8eb5becd53adbdc6e",
+      "bbox": [
+        58.128082951848334,
+        43.57018886659471,
+        61.973568075392336,
+        46.86873677784073
       ],
       "geometryVersionCount": 1
     },
@@ -5346,6 +5413,75 @@
         83.116523
       ],
       "geometryVersionCount": 1
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "waterbody:caspian",
+      "entityKind": "lake",
+      "lineageId": "caspian",
+      "names": {
+        "ko": "카스피해",
+        "en": "Caspian Sea"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "waterbody:caspian:modern-before",
+          "validFrom": null,
+          "validTo": "1921-12-31",
+          "certainty": "approximate",
+          "sourceId": "natural-earth-5.1.1",
+          "notes": "Existing NE5.1.1 display baseline outside the user-approved restoration window; not a historical survey or a 2026 observed shore."
+        },
+        {
+          "versionId": "caspian-near1922-approved",
+          "validFrom": "1922-01-01",
+          "validTo": "1929-12-31",
+          "certainty": "reviewed",
+          "sourceId": "approved-caspian-completion-20261024",
+          "notes": "User-approved display coverage 1922-01-01 through 1929-12-31 inclusive (2026-10-27). Mixed-period near-1922 cartographic reconstruction; this interval is not surveyed shoreline validity. NOT_COAST partitions remain water limits, never land/bank strokes."
+        },
+        {
+          "versionId": "waterbody:caspian:modern-after",
+          "validFrom": "1930-01-01",
+          "validTo": null,
+          "certainty": "approximate",
+          "sourceId": "natural-earth-5.1.1",
+          "notes": "Existing NE5.1.1 display baseline outside the user-approved restoration window; not a historical survey or a 2026 observed shore."
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "representativeGeometryVersionId": "waterbody:caspian:modern-after",
+        "builtinHydroId": "waterbody:caspian",
+        "geographicRegion": "Europe/Asia"
+      },
+      "sourceInfo": {
+        "title": "NE5.1.1 modern baseline and approved near-1922 Caspian display restoration",
+        "license": "Preserve original source terms",
+        "sourceId": "caspian-common-object-history"
+      },
+      "file": "waterbody-caspian.json.gz",
+      "validFrom": null,
+      "validTo": null,
+      "compressedBytes": 155343,
+      "decodedBytes": 1062136,
+      "sha256": "f6b69fb97567ec6a9a9ae0f7b12974660cb48d1d0ec2c2c707dcac09c9bf618f",
+      "bbox": [
+        46.64864864864864,
+        36.582709,
+        54.767426,
+        47.244677236108494
+      ],
+      "geometryVersionCount": 3
     },
     {
       "schemaVersion": 2,
@@ -9493,9 +9629,9 @@
       "file": "state-IRN.json.gz",
       "validFrom": "1501",
       "validTo": null,
-      "compressedBytes": 118306,
-      "decodedBytes": 317743,
-      "sha256": "ff8c54060bed359f2563e8f7378f820af425a0f55769c692ecfbd68aa3301ace",
+      "compressedBytes": 134668,
+      "decodedBytes": 1216936,
+      "sha256": "106341565a386be756354f12c35d401ded253572dac175ba12e812eec3336fd3",
       "bbox": [
         44.014863,
         25.059408,
@@ -10705,6 +10841,73 @@
         43.01027
       ],
       "geometryVersionCount": 3
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "state:unmik-kosovo",
+      "entityKind": "general",
+      "lineageId": "kos",
+      "names": {
+        "ko": "코소보 유엔 임시행정",
+        "en": "Kosovo under United Nations interim administration"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1999-06-10",
+        "validTo": "2008-02-16"
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "state:unmik-kosovo:existing-outline-proxy",
+          "validFrom": "1999-06-10",
+          "validTo": "2008-02-16",
+          "certainty": "low",
+          "sourceId": "existing-natural-earth-outline-temporal-proxy",
+          "notes": "Unchanged modern outline reused for a UN-administered non-sovereign territory. Exact historical limits unverified.",
+          "instantiation": {
+            "mode": "territory-replacement",
+            "countryUpdates": {}
+          },
+          "historicalProvenance": {
+            "sourceEntityId": "state:KOS",
+            "sourceGeometryVersionId": "state:KOS:natural-earth-5.1.1",
+            "verifiedHistoricalGeometry": false,
+            "evidence": [
+              "https://unmik.unmissions.org/en/united-nations-resolution-1244"
+            ]
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "territory-replacement",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "politicalStatus": "UN-administered-non-sovereign-territory",
+        "administeringAuthority": "UNMIK",
+        "sovereigntyNotConferred": true,
+        "approximateGeometry": true,
+        "representativeGeometryVersionId": "state:unmik-kosovo:existing-outline-proxy"
+      },
+      "sourceInfo": {
+        "title": "UN interim administration using previously archived Natural Earth outline",
+        "license": "Natural Earth public domain",
+        "sourceId": "existing-country-outline-temporal-proxy"
+      },
+      "file": "state-unmik-kosovo.json.gz",
+      "validFrom": "1999-06-10",
+      "validTo": "2008-02-16",
+      "compressedBytes": 3441,
+      "decodedBytes": 23138,
+      "sha256": "f8c547fcbdfdb347b8556c9381af6fa1d8c1d6e623876928207aad16bc7442de",
+      "bbox": [
+        20.024751,
+        41.84401,
+        21.772758,
+        43.263071
+      ],
+      "geometryVersionCount": 1
     },
     {
       "schemaVersion": 2,
@@ -16762,6 +16965,74 @@
     },
     {
       "schemaVersion": 2,
+      "entityId": "state:untaet-east-timor",
+      "entityKind": "general",
+      "lineageId": "tls",
+      "names": {
+        "ko": "동티모르 유엔 과도행정부",
+        "en": "United Nations Transitional Administration in East Timor"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1999-10-25",
+        "validTo": "2002-05-19"
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "state:untaet-east-timor:existing-outline-proxy",
+          "validFrom": "1999-10-25",
+          "validTo": "2002-05-19",
+          "certainty": "low",
+          "sourceId": "existing-natural-earth-outline-temporal-proxy",
+          "notes": "Unchanged modern outline reused for a UN-administered non-sovereign territory. Exact historical limits unverified.",
+          "instantiation": {
+            "mode": "territory-replacement",
+            "countryUpdates": {}
+          },
+          "historicalProvenance": {
+            "sourceEntityId": "state:TLS",
+            "sourceGeometryVersionId": "state:TLS:2002-2026-independence-r1",
+            "verifiedHistoricalGeometry": false,
+            "evidence": [
+              "https://digitallibrary.un.org/record/291410",
+              "https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm"
+            ]
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "territory-replacement",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "politicalStatus": "UN-administered-non-sovereign-territory",
+        "administeringAuthority": "UNTAET",
+        "sovereigntyNotConferred": true,
+        "approximateGeometry": true,
+        "representativeGeometryVersionId": "state:untaet-east-timor:existing-outline-proxy"
+      },
+      "sourceInfo": {
+        "title": "UN interim administration using previously archived Natural Earth outline",
+        "license": "Natural Earth public domain",
+        "sourceId": "existing-country-outline-temporal-proxy"
+      },
+      "file": "state-untaet-east-timor.json.gz",
+      "validFrom": "1999-10-25",
+      "validTo": "2002-05-19",
+      "compressedBytes": 3663,
+      "decodedBytes": 26566,
+      "sha256": "1bc62e73ae36277d20ca42cc37a98ddf6a14a77f8ec9e4713e1e3a8c83f5de89",
+      "bbox": [
+        124.03004,
+        -9.501228,
+        127.313243,
+        -8.135024
+      ],
+      "geometryVersionCount": 1
+    },
+    {
+      "schemaVersion": 2,
       "entityId": "state:TLS",
       "entityKind": "general",
       "lineageId": "tls",
@@ -20203,11 +20474,41 @@
         "유고슬라비아 연방공화국",
         "Federal Republic of Yugoslavia",
         "세르비아-몬테네그로",
-        "FRY"
+        "FRY",
+        "세르비아 몬테네그로 국가연합",
+        "Serbia and Montenegro"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Yugoslavia"
+            },
+            "ko": {
+              "common": "유고슬라비아"
+            }
+          },
+          "validFrom": "1918-12-01",
+          "validTo": "2003-02-03"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Serbia and Montenegro",
+              "formal": "State Union of Serbia and Montenegro"
+            },
+            "ko": {
+              "common": "세르비아 몬테네그로",
+              "formal": "세르비아 몬테네그로 국가연합"
+            }
+          },
+          "validFrom": "2003-02-04",
+          "validTo": "2006-06-02"
+        }
       ],
       "lifetime": {
         "validFrom": "1918-12-01",
-        "validTo": "2003-02-04"
+        "validTo": "2006-06-02"
       },
       "parentEntityId": "",
       "geometryVersions": [
@@ -20230,10 +20531,26 @@
         {
           "versionId": "state:federal-republic-of-yugoslavia:1992-2003-r1",
           "validFrom": "1992-04-27",
-          "validTo": "2003-02-04",
+          "validTo": "2003-02-03",
           "certainty": "medium",
           "sourceId": "natural-earth-5.1.1-historical-successor-union",
           "notes": "세르비아·몬테네그로와 당시 세르비아에 포함된 코소보를 합친 참고 경계입니다."
+        },
+        {
+          "versionId": "state:serbia-montenegro:2003-2006-r1",
+          "validFrom": "2003-02-04",
+          "validTo": "2006-06-02",
+          "certainty": "medium",
+          "sourceId": "natural-earth-5.1.1-historical-successor-union",
+          "notes": "Serbia and Montenegro state union; exact reuse of FRY country outline.",
+          "historicalProvenance": {
+            "sourceEntityId": "state:yugoslavia",
+            "sourceGeometryVersionId": "state:federal-republic-of-yugoslavia:1992-2003-r1",
+            "verifiedHistoricalGeometry": false,
+            "evidence": [
+              "https://unmik.unmissions.org/en/united-nations-resolution-1244"
+            ]
+          }
         }
       ],
       "instantiation": {
@@ -20245,7 +20562,7 @@
         "pilot": true,
         "approximateGeometry": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyIDEiIGlkPSJmbGFnLXl1Z29zbGF2aWEiPjxwYXRoIGZpbGw9IiMwMDM4OTMiIGQ9Ik0wIDBoMnYuMzMzSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgLjMzM2gydi4zMzRIMHoiLz48cGF0aCBmaWxsPSIjZGQwMDAwIiBkPSJNMCAuNjY3aDJ2LjMzM0gweiIvPjxwYXRoIGZpbGw9IiNkZDAwMDAiIHN0cm9rZT0iI2Y1YmYyMiIgc3Ryb2tlLXdpZHRoPSIuMDI1IiBkPSJtMSAuMjM1LjA2LjE4aC4xOWwtLjE1NS4xMS4wNi4xOEwxIC41OTUuODQ1LjcwNWwuMDYtLjE4TC43NS40MTVoLjE5eiIvPjwvc3ZnPg==",
-        "representativeGeometryVersionId": "state:federal-republic-of-yugoslavia:1992-2003-r1"
+        "representativeGeometryVersionId": "state:serbia-montenegro:2003-2006-r1"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with historical Yugoslav state versions",
@@ -20254,17 +20571,17 @@
       },
       "file": "state-yugoslavia.json.gz",
       "validFrom": "1918-12-01",
-      "validTo": "2003-02-04",
-      "compressedBytes": 61432,
-      "decodedBytes": 577811,
-      "sha256": "a6f8abc4fdb1be581dc7a7d091c4eb6262a66cb8c3672b1628ed739ba5c84e21",
+      "validTo": "2006-06-02",
+      "compressedBytes": 72673,
+      "decodedBytes": 669793,
+      "sha256": "95a6b9ec51359d25b4f921f781b144a6bfaa57a610faf5f6e6ca1235088055cd",
       "bbox": [
         13.365261,
         40.849394,
         23.009582,
         46.863962
       ],
-      "geometryVersionCount": 3
+      "geometryVersionCount": 4
     },
     {
       "schemaVersion": 2,
@@ -20416,128 +20733,6 @@
         -22.39734,
         33.042768,
         -15.614808
-      ],
-      "geometryVersionCount": 1
-    },
-    {
-      "schemaVersion": 2,
-      "entityId": "waterbody:caspian",
-      "entityKind": "lake",
-      "lineageId": "caspian",
-      "names": {
-        "ko": "카스피해",
-        "en": "Caspian Sea"
-      },
-      "alternateNames": [],
-      "lifetime": {
-        "validFrom": null,
-        "validTo": null
-      },
-      "parentEntityId": "",
-      "geometryVersions": [
-        {
-          "versionId": "waterbody:caspian:modern-before",
-          "validFrom": null,
-          "validTo": "1921-12-31",
-          "certainty": "approximate",
-          "sourceId": "natural-earth-5.1.1",
-          "notes": "Existing NE5.1.1 display baseline outside the user-approved restoration window; not a historical survey or a 2026 observed shore."
-        },
-        {
-          "versionId": "caspian-near1922-approved",
-          "validFrom": "1922-01-01",
-          "validTo": "1929-12-31",
-          "certainty": "reviewed",
-          "sourceId": "approved-caspian-completion-20261024",
-          "notes": "User-approved display coverage 1922-01-01 through 1929-12-31 inclusive (2026-10-27). Mixed-period near-1922 cartographic reconstruction; this interval is not surveyed shoreline validity. NOT_COAST partitions remain water limits, never land/bank strokes."
-        },
-        {
-          "versionId": "waterbody:caspian:modern-after",
-          "validFrom": "1930-01-01",
-          "validTo": null,
-          "certainty": "approximate",
-          "sourceId": "natural-earth-5.1.1",
-          "notes": "Existing NE5.1.1 display baseline outside the user-approved restoration window; not a historical survey or a 2026 observed shore."
-        }
-      ],
-      "instantiation": {
-        "mode": "independent",
-        "countryUpdates": {}
-      },
-      "metadata": {
-        "representativeGeometryVersionId": "waterbody:caspian:modern-after",
-        "builtinHydroId": "waterbody:caspian",
-        "geographicRegion": "Europe/Asia"
-      },
-      "sourceInfo": {
-        "title": "NE5.1.1 modern baseline and approved near-1922 Caspian display restoration",
-        "license": "Preserve original source terms",
-        "sourceId": "caspian-common-object-history"
-      },
-      "file": "waterbody-caspian.json.gz",
-      "validFrom": null,
-      "validTo": null,
-      "compressedBytes": 155343,
-      "decodedBytes": 1062136,
-      "sha256": "f6b69fb97567ec6a9a9ae0f7b12974660cb48d1d0ec2c2c707dcac09c9bf618f",
-      "bbox": [
-        46.64864864864864,
-        36.582709,
-        54.767426,
-        47.244677236108494
-      ],
-      "geometryVersionCount": 3
-    },
-    {
-      "schemaVersion": 2,
-      "entityId": "waterbody:aral",
-      "entityKind": "lake",
-      "lineageId": "aral",
-      "names": {
-        "ko": "아랄해",
-        "en": "Aral Sea"
-      },
-      "alternateNames": [],
-      "lifetime": {
-        "validFrom": null,
-        "validTo": null
-      },
-      "parentEntityId": "",
-      "geometryVersions": [
-        {
-          "versionId": "aral-prasolov1926-approved",
-          "validFrom": "1922-01-01",
-          "validTo": "1929-12-31",
-          "certainty": "reviewed",
-          "sourceId": "prasolov-1926-aral-approved-20261026",
-          "notes": "User-selected display interval, not a surveyed historical validity interval. Approved 1:10M display candidate based on the 1926 printed Prasolov map; source shoreline survey date unknown; southern extrapolation and wetland classification uncertainty retained."
-        }
-      ],
-      "instantiation": {
-        "mode": "independent",
-        "countryUpdates": {}
-      },
-      "metadata": {
-        "builtinHydroId": "waterbody:aral",
-        "representativeGeometryVersionId": "aral-prasolov1926-approved",
-        "geographicRegion": "Asia"
-      },
-      "sourceInfo": {
-        "title": "Approved Aral near-1922 display reconstruction from Prasolov printed 1926 map",
-        "license": "Preserve original source terms",
-        "sourceId": "prasolov-1926-aral-approved-20261026"
-      },
-      "file": "waterbody-aral.json.gz",
-      "validFrom": null,
-      "validTo": null,
-      "compressedBytes": 13864,
-      "decodedBytes": 66567,
-      "sha256": "cdd7c615eb3701471b296dd31531427fb9a5b8db46e145b8eb5becd53adbdc6e",
-      "bbox": [
-        58.128082951848334,
-        43.57018886659471,
-        61.973568075392336,
-        46.86873677784073
       ],
       "geometryVersionCount": 1
     }
