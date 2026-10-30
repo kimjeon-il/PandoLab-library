@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "recordedAt": "2026-10-29T13:40:57.863Z",
-  "phase": "trained-evaluated-candidate-rejected-workflow-verification-in-progress",
+  "recordedAt": "2026-10-30T10:18:14.964Z",
+  "phase": "trained-evaluated-candidate-rejected-work-and-browser-workflow-verified-phone-pending",
   "sourceSelectionSha256": "3f3f54ddf441649fdcfd542578dcafb5560cc50b5ebedae19a657fcc0d1a0e26",
   "labelsFreezeSha256": "7098d6648e0dcb3c42450350058055c67e71932450d61165c2b844f3cfc6b5d6",
   "selectedOriginals": 18,
@@ -69,8 +69,8 @@
     "removedLogicalBytes": 0
   },
   "pending": [
-    "Complete actual private 0.5 Work/Pando workflow and report publication",
-    "Finish scoped cleanup or report approval-review blocked targets"
+    "Physical-phone 0.5.1 selection/re-export/download requires direct user observation; prior-version confirmation is not reused.",
+    "User-side deletion of ended transfer packages and policy-blocked tiny remnants remain recorded in the scoped integration cleanup receipt."
   ],
   "contractValidation": {
     "passed": true,
@@ -78,5 +78,15 @@
     "auxiliarySheets": 6,
     "reviewCoverage": "partial",
     "correctionHistory": "annotation-corrections.json"
+  },
+  "workflow": {
+    "pluginVersion": "0.5.1",
+    "installedSource": "d0bca5aa37e7c66da8d9a01e9b7c39d942e853b1",
+    "actualWorkAnalysisRevisionExport": true,
+    "nextTurnReexport": true,
+    "individualGeojsonDownload": true,
+    "pandoBrowserImportEditHistorySaveReopen": true,
+    "physicalPhone051": "pending",
+    "reportScope": "reports/development/integrations/map-toolkit-quality-v2"
   }
 }
