@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-10-30 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-10-31 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 아프리카**
-- **lastCompletedRun: 2026-10-30** (아프리카 ETH/SDN/ZAF 3개 1차 국가성 문헌 조사; 전 지역 완료 아님)
-- **nextRegion: 북아메리카**
-- **nextPhase: 북아메리카 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
-- **nextAction: 북아메리카 GEO-LIFE-001/007/013 및 GEO-023와 현행 국가 색인을 대조해 미조사 국가 2~4개를 선정한다. 아프리카 GEO-LIFE-018의 ETH(1936–1941 점령과 국가 계속성), SDN(1955 의회 선언/1956 독립·2011 남수단 분리), ZAF(1910 자치령/1934 주권 강화/1961 공화국)은 2차 법적 동일성 검증으로 인계한다.**
+- **lastProcessedRegion: 북아메리카**
+- **lastCompletedRun: 2026-10-31** (북아메리카 역사 정치체 중앙아메리카 연방·텍사스 공화국·유카탄 분리정치체 3개 1차 검토; 전 지역 완료 아님)
+- **nextRegion: 남아메리카**
+- **nextPhase: 남아메리카 미조사 역사상 소멸국 1차 조사(1차 소진된 경우 2차 교차검증)**
+- **nextAction: 남아메리카 GEO-LIFE-001/008/014 및 GEO-023와 국가 색인을 대조해 역사상 소멸국 2~4개 1차 미처리 대상을 선정한다. 북아메리카 GEO-LIFE-019의 중앙아메리카 연방(1838~1840 소멸 효력), 텍사스(1845 편입/1846 정부 인계), 유카탄(1840~1848 복수 분리·국제법적 국가성)을 2차로 인계한다.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -30,7 +30,7 @@
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보 |
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
-| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA 2개](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | SLV 1839~1841년 독립국 성립 효력·1896~1898년 국가 동일성 보류; USA 1801년 이전 이미 존속, 내전 중 법적 계속성과 실효 지배 구별 |
+| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR | 현행 12개 주권국 선행 기초 조사기록 확인; 역사상 소멸국 전수 미확인 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1816 연합주-현 아르헨티나 동일성 및 볼리비아 1825 국호·국가 법적 효력일 미해결 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 모두 선행 문헌/기간 근거 확인, 역사상 소멸국 전수 및 COK/NIU 분류는 미완료 | 미완료 | NZL 시작일 1907/1942/1947/1987의 층위 구분; 하와이 왕국·공화국 법적 계속성과 미등록 역사 객체 유보 |
 
@@ -49,6 +49,7 @@
 
 | **2026-10-29** | **아시아** | **국가별 1차(기존 기간값 검증)** | `PHL`, `QAT`, `TLS` 3개(기존 국가별 독립 1차 보고서 중복 없음) | [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) — 1935·1878·2002 기입일과 주권·국가 형성일 층위 구분, 단일기간 확정 유보 | **아프리카** |
 | **2026-10-30** | **아프리카** | **국가별 1차(기존 기간값의 독립 법적 검토)** | `ETH`, `SDN`, `ZAF` 3개(기존 시작값 유지) | [GEO-LIFE-018](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md) — ETH 점령/법적 계속성, SDN 1956 독립·2011 분리, ZAF 1910/1934/1961 구별; 최종 lifetime 유보 | **북아메리카** |
+| **2026-10-31** | **북아메리카** | **역사상 소멸/분리 정치체 1차** | 중앙아메리카 연방·텍사스 공화국·유카탄 분리정치체 3개(국가 객체 ID 없음) | [GEO-LIFE-019](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md) — 1823/1824 연방 형성, 1836/1845/1846 텍사스, 1840~1848 유카탄 반복 분리; 국가성·종료일 유보 | **남아메리카** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -128,3 +129,11 @@
 - **사건·구분:** ETH 1936–1941 이탈리아 실효 점령과 대외 법적 불승인·1941 복귀, 1974/1991/1995 헌정 변화 및 1993 에리트레아 분리; SDN 1955-12-19 의회 선언과 1956-01-01 독립, 2011-07-09 남수단 분리; ZAF 1910-05-31 영국 자치령 연합 성립, 1934 주권 관련 법률, 1961-05-31 공화국 전환을 구분.
 - **유보:** 1936~1941 에티오피아 계속성·1801년 이전 기존 기입일, 수단 원 독립법·분리승계, 남아공 1934 원관보 및 국가 동일성. 역사 지도/GIS·웹·앱 검사 미실행; 라이프타임·GIS 형상·코드·`Pando/work/gis`·`Pando/main`·배포 변경 **0건**.
 - **lastProcessedRegion=아프리카 / nextRegion=북아메리카 / nextPhase=국가별 미조사 1차(소진 시 2차)**. 여섯 지역의 1·2차 전수 모두 미완료.
+
+## 2026-10-31 — 북아메리카 역사 정치체 3건 1차 인계 (GEO-LIFE-019)
+
+- **단계/대상:** 아프리카→북아메리카; 중앙아메리카 연합주·연방공화국, 텍사스 공화국, 유카탄 분리공화국 3개 1차. 기존 GEO-LIFE-001/007/013/023의 현존국 성립일 반복 조사 아님. 유카탄은 국제법상 주권국으로 확정한 것이 아니라 별도 분류가 필요한 후보.
+- **색인 확인:** Pando/work/gis HEAD `2b460e40dbc51de2d13b0fe40e11bd4af9e49b75`; 자료 revision `139941d8056418547c796068304ba8db3696fe69`; index blob `9488b695db8a7b362eea8d637dcd43ab57e7500f`(286 entities). 세 역사 정치체에 해당하는 단독 entity ID 없음. 새 객체/기간 입력 없음.
+- **확인:** 중앙아메리카 1823-07-01 연합주 독립 선언과 1824-11-22 연방헌법, 1838~1840 해체; 텍사스 1836-03-02 독립 선언, 1837-03-03 미국 승인, 1845-12-29 편입, 1846-02-19 정부 이양; 유카탄 1840-03-04 분리 선언, 1841·1845 재분리 및 1843-12-14 협약, 1848-08-17 최종 재편입.
+- **유보:** 중앙아메리카 연방 종료의 정확한 법률 효력, 텍사스의 법적 종료/정부 인계 차이, 유카탄의 복수 독립기간 및 국제법상 국가성·대외 승인. 원문 PDF 화면 확인 실패, GIS/위상/화면·웹/앱 검사 미실행. 국가 lifetime·형상·코드·Pando/work/gis·Pando/main·배포 변경 0건.
+- **커서:** lastProcessedRegion=북아메리카; nextRegion=남아메리카; nextPhase=역사상 소멸국 1차 미조사(소진 시 2차). 여섯 지역 모두 1·2차 전수 미완료.
