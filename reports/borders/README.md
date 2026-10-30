@@ -32,6 +32,7 @@
 | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](history/lifetimes/country-lifetime-south-america-2026-10-20.md) | GEO-LIFE-008 | 2026-10-20 회차 / 검토 10-20 | `investigating` |
 | [남아메리카 국가 존속기간 2차 — 아르헨티나·볼리비아](history/lifetimes/country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | GEO-LIFE-014 | 2026-10-26 | `investigating / phase-2 / not-applied` |
 | [Verified entity lifetime additions](history/lifetimes/verified-entity-lifetimes.md) | GEO-023 | 2026-10-08 | `historical-record` |
+| [2025년 오세아니아 뉴칼레도니아 부지발 협정·국제적 지위 제안과 벡터 선별](history/timeline/historical-timeline-2025-oceania-new-caledonia-bougival-2026-10-31.md) | GEO-TIME-016 | 2026-10-31 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 남아메리카 가이아나–베네수엘라 에세키보 선거·ICJ 잠정조치와 역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-south-america-essequibo-elections-2026-10-30.md) | GEO-TIME-015 | 2026-10-30 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 북아메리카 사포딜라 제도 ICJ 절차와 역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-north-america-sapodilla-cayes-2026-10-29.md) | GEO-TIME-014 | 2026-10-29 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 아프리카 가봉–적도기니 ICJ 법적 권원 판결·벡터 선별](history/timeline/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md) | GEO-TIME-009 | 2026-10-24 | `investigating / source-indexed / provisional` |
