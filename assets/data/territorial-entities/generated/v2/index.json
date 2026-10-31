@@ -4380,9 +4380,59 @@
       "entityKind": "general",
       "lineageId": "bhr",
       "names": {
-        "ko": "바레인"
+        "ko": "바레인",
+        "en": "Bahrain"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "바레인",
+        "바레인국",
+        "Bahrain",
+        "State of Bahrain",
+        "바레인 왕국",
+        "Kingdom of Bahrain"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Bahrain"
+            },
+            "ko": {
+              "common": "바레인"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Bahrain",
+              "formal": "State of Bahrain"
+            },
+            "ko": {
+              "common": "바레인",
+              "formal": "바레인국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2002-02-13"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Bahrain",
+              "formal": "Kingdom of Bahrain"
+            },
+            "ko": {
+              "common": "바레인",
+              "formal": "바레인 왕국"
+            }
+          },
+          "validFrom": "2002-02-14",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1783",
         "validTo": null
@@ -4404,7 +4454,20 @@
       "metadata": {
         "sourceFeatureId": "BHR",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bh.svg",
-        "representativeGeometryVersionId": "state:BHR:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:BHR:natural-earth-5.1.1",
+        "flagHistory": [
+          {
+            "validFrom": "1972-08-19",
+            "validTo": "2002-02-13",
+            "policy": "embedded",
+            "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgMzYwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjM2MCIgZmlsbD0iI0NFMTEyNiIvPjxwYXRoIGQ9Ik0wIDAgSDE0OCBMMTQ4IDAgTDIxMCAyMi41IEwxNDggNDUgTDE0OCA0NSBMMjEwIDY3LjUgTDE0OCA5MCBMMTQ4IDkwIEwyMTAgMTEyLjUgTDE0OCAxMzUgTDE0OCAxMzUgTDIxMCAxNTcuNSBMMTQ4IDE4MCBMMTQ4IDE4MCBMMjEwIDIwMi41IEwxNDggMjI1IEwxNDggMjI1IEwyMTAgMjQ3LjUgTDE0OCAyNzAgTDE0OCAyNzAgTDIxMCAyOTIuNSBMMTQ4IDMxNSBMMTQ4IDMxNSBMMjEwIDMzNy41IEwxNDggMzYwIEwwIDM2MFoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+          },
+          {
+            "validFrom": "2002-02-14",
+            "validTo": null,
+            "policy": "default"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -4414,9 +4477,9 @@
       "file": "state-BHR.json.gz",
       "validFrom": "1783",
       "validTo": null,
-      "compressedBytes": 2416,
-      "decodedBytes": 15154,
-      "sha256": "f40bf8c6e147e2689c0e619394642085b81059af7b21f560d48b352f5d339bd2",
+      "compressedBytes": 3340,
+      "decodedBytes": 17732,
+      "sha256": "16ebd2189002685dffe5536355e89599f026d9e2562af8912273acbbc743bc6f",
       "bbox": [
         50.38053,
         25.579891,
@@ -4912,9 +4975,59 @@
       "entityKind": "general",
       "lineageId": "bol",
       "names": {
-        "ko": "볼리비아"
+        "ko": "볼리비아",
+        "en": "Bolivia"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "볼리비아",
+        "볼리비아 공화국",
+        "Bolivia",
+        "Republic of Bolivia",
+        "볼리비아 다민족국",
+        "Plurinational State of Bolivia"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Bolivia"
+            },
+            "ko": {
+              "common": "볼리비아"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Bolivia",
+              "formal": "Republic of Bolivia"
+            },
+            "ko": {
+              "common": "볼리비아",
+              "formal": "볼리비아 공화국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2009-02-06"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Bolivia",
+              "formal": "Plurinational State of Bolivia"
+            },
+            "ko": {
+              "common": "볼리비아",
+              "formal": "볼리비아 다민족국"
+            }
+          },
+          "validFrom": "2009-02-07",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1825-08-06",
         "validTo": null
@@ -4946,9 +5059,9 @@
       "file": "state-BOL.json.gz",
       "validFrom": "1825-08-06",
       "validTo": null,
-      "compressedBytes": 15307,
-      "decodedBytes": 121055,
-      "sha256": "20543afa2ca1b634519efd0c60daa33b3118235c6c03fb883e37b6d5acfe53a1",
+      "compressedBytes": 15763,
+      "decodedBytes": 122467,
+      "sha256": "67f97d3f86766bda47d9e0d6273b7d6a8e991246159f9e886fbf217e4818ce9e",
       "bbox": [
         -69.666492,
         -22.897258,
@@ -6057,9 +6170,59 @@
       "entityKind": "general",
       "lineageId": "com",
       "names": {
-        "ko": "코모로"
+        "ko": "코모로",
+        "en": "Comoros"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "코모로",
+        "코모로 연방 이슬람 공화국",
+        "Comoros",
+        "Federal Islamic Republic of the Comoros",
+        "코모로 연합",
+        "Union of the Comoros"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Comoros"
+            },
+            "ko": {
+              "common": "코모로"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Comoros",
+              "formal": "Federal Islamic Republic of the Comoros"
+            },
+            "ko": {
+              "common": "코모로",
+              "formal": "코모로 연방 이슬람 공화국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2001-12-22"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Comoros",
+              "formal": "Union of the Comoros"
+            },
+            "ko": {
+              "common": "코모로",
+              "formal": "코모로 연합"
+            }
+          },
+          "validFrom": "2001-12-23",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1975-07-06",
         "validTo": null
@@ -6091,9 +6254,9 @@
       "file": "state-COM.json.gz",
       "validFrom": "1975-07-06",
       "validTo": null,
-      "compressedBytes": 1816,
-      "decodedBytes": 12367,
-      "sha256": "d7009c247a8d54848a6507888a04ea7df2426abe84f23fe2dcba9a8a3f9c4217",
+      "compressedBytes": 2246,
+      "decodedBytes": 13822,
+      "sha256": "7ad1dcee5286e0eeb4600a7dd3e8886bd655fd0c698d543db8c5f9e8299832eb",
       "bbox": [
         43.213227,
         -12.380304,
@@ -7754,7 +7917,20 @@
       "metadata": {
         "sourceFeatureId": "GEO",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ge.svg",
-        "representativeGeometryVersionId": "state:GEO:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:GEO:natural-earth-5.1.1",
+        "flagHistory": [
+          {
+            "validFrom": null,
+            "validTo": "2004-01-13",
+            "policy": "embedded",
+            "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgMzYwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjM2MCIgZmlsbD0iIzk4MUUzMiIvPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDAiIGhlaWdodD0iNzIiIGZpbGw9IiMxMTEiLz48cmVjdCB4PSIwIiB5PSI3MiIgd2lkdGg9IjI0MCIgaGVpZ2h0PSI3MiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg=="
+          },
+          {
+            "validFrom": "2004-01-14",
+            "validTo": null,
+            "policy": "default"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -7764,9 +7940,9 @@
       "file": "state-GEO.json.gz",
       "validFrom": "1991-04-09",
       "validTo": null,
-      "compressedBytes": 6147,
-      "decodedBytes": 43508,
-      "sha256": "6bfe501596e305fa51bd60a3c1b5ef5002f11cdd238469142882ce4db3182675",
+      "compressedBytes": 6749,
+      "decodedBytes": 44477,
+      "sha256": "21d0350c31baf8d338da895bdfdcf2c4bbbfa9551604755316967554d5d6c931",
       "bbox": [
         39.985976,
         41.044111,
@@ -11164,9 +11340,70 @@
       "entityKind": "general",
       "lineageId": "lby",
       "names": {
-        "ko": "리비아"
+        "ko": "리비아",
+        "en": "Libya"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "리비아",
+        "Libya",
+        "Great Socialist People's Libyan Arab Jamahiriya",
+        "리비아국",
+        "State of Libya"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Libya"
+            },
+            "ko": {
+              "common": "리비아"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Libya",
+              "formal": "Great Socialist People's Libyan Arab Jamahiriya"
+            },
+            "ko": {
+              "common": "리비아"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2011-08-02"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Libya",
+              "formal": "Libya"
+            },
+            "ko": {
+              "common": "리비아"
+            }
+          },
+          "validFrom": "2011-08-03",
+          "validTo": "2017-12-21"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Libya",
+              "formal": "State of Libya"
+            },
+            "ko": {
+              "common": "리비아",
+              "formal": "리비아국"
+            }
+          },
+          "validFrom": "2017-12-22",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1951-12-24",
         "validTo": null
@@ -11188,7 +11425,20 @@
       "metadata": {
         "sourceFeatureId": "LBY",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ly.svg",
-        "representativeGeometryVersionId": "state:LBY:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:LBY:natural-earth-5.1.1",
+        "flagHistory": [
+          {
+            "validFrom": "1977-11-11",
+            "validTo": "2011-08-22",
+            "policy": "embedded",
+            "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzAwOUIzQSIvPjwvc3ZnPg=="
+          },
+          {
+            "validFrom": "2011-08-23",
+            "validTo": null,
+            "policy": "default"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11198,9 +11448,9 @@
       "file": "state-LBY.json.gz",
       "validFrom": "1951-12-24",
       "validTo": null,
-      "compressedBytes": 7033,
-      "decodedBytes": 52517,
-      "sha256": "c723dac0d06c21bc243b2e43987283299b5c77b7a4a584a7c35484cc2181303b",
+      "compressedBytes": 7978,
+      "decodedBytes": 54913,
+      "sha256": "577b5ca97dd46276f3b3987c063d72945a4ef27226b387b6fbbddd465ad1b7ec",
       "bbox": [
         9.286544,
         19.496124,
@@ -12244,9 +12494,61 @@
       "entityKind": "general",
       "lineageId": "mkd",
       "names": {
-        "ko": "북마케도니아"
+        "ko": "북마케도니아",
+        "en": "North Macedonia"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "마케도니아",
+        "마케도니아 공화국",
+        "Macedonia",
+        "Republic of Macedonia",
+        "북마케도니아",
+        "북마케도니아 공화국",
+        "North Macedonia",
+        "Republic of North Macedonia"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Macedonia"
+            },
+            "ko": {
+              "common": "마케도니아"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Macedonia",
+              "formal": "Republic of Macedonia"
+            },
+            "ko": {
+              "common": "마케도니아",
+              "formal": "마케도니아 공화국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2019-02-11"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "North Macedonia",
+              "formal": "Republic of North Macedonia"
+            },
+            "ko": {
+              "common": "북마케도니아",
+              "formal": "북마케도니아 공화국"
+            }
+          },
+          "validFrom": "2019-02-12",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1991-09-17",
         "validTo": null
@@ -12278,9 +12580,9 @@
       "file": "state-MKD.json.gz",
       "validFrom": "1991-09-17",
       "validTo": null,
-      "compressedBytes": 4326,
-      "decodedBytes": 30057,
-      "sha256": "1933d2d4f3350215a4b0476619152f89147daf1260a23865687f51cbc5385cb8",
+      "compressedBytes": 4775,
+      "decodedBytes": 31664,
+      "sha256": "5475fec7266701fd39f6437de787a87b849057a870ab05fcb373364f3cecbca8",
       "bbox": [
         20.444157,
         40.849394,
@@ -12397,9 +12699,59 @@
       "entityKind": "general",
       "lineageId": "mmr",
       "names": {
-        "ko": "미얀마"
+        "ko": "미얀마",
+        "en": "Myanmar"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "미얀마",
+        "미얀마 연방",
+        "Myanmar",
+        "Union of Myanmar",
+        "미얀마 연방공화국",
+        "Republic of the Union of Myanmar"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Myanmar"
+            },
+            "ko": {
+              "common": "미얀마"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Myanmar",
+              "formal": "Union of Myanmar"
+            },
+            "ko": {
+              "common": "미얀마",
+              "formal": "미얀마 연방"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2010-10-20"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Myanmar",
+              "formal": "Republic of the Union of Myanmar"
+            },
+            "ko": {
+              "common": "미얀마",
+              "formal": "미얀마 연방공화국"
+            }
+          },
+          "validFrom": "2010-10-21",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1948-01-04",
         "validTo": null
@@ -12431,9 +12783,9 @@
       "file": "state-MMR.json.gz",
       "validFrom": "1948-01-04",
       "validTo": null,
-      "compressedBytes": 40946,
-      "decodedBytes": 398109,
-      "sha256": "8d18741d55ab7cd39ad7d321b6da10f140ebe1bc81d0d8e09914267eb5535ea6",
+      "compressedBytes": 41419,
+      "decodedBytes": 399504,
+      "sha256": "2d438271f472021005fd44f5e6f9b558de5bbfd46b3308db725cfa0aec92359c",
       "bbox": [
         92.174973,
         9.790717,
@@ -13531,9 +13883,59 @@
       "entityKind": "general",
       "lineageId": "npl",
       "names": {
-        "ko": "네팔"
+        "ko": "네팔",
+        "en": "Nepal"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "네팔",
+        "네팔 왕국",
+        "Nepal",
+        "Kingdom of Nepal",
+        "네팔 연방민주공화국",
+        "Federal Democratic Republic of Nepal"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Nepal"
+            },
+            "ko": {
+              "common": "네팔"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Nepal",
+              "formal": "Kingdom of Nepal"
+            },
+            "ko": {
+              "common": "네팔",
+              "formal": "네팔 왕국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2008-05-27"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Nepal",
+              "formal": "Federal Democratic Republic of Nepal"
+            },
+            "ko": {
+              "common": "네팔",
+              "formal": "네팔 연방민주공화국"
+            }
+          },
+          "validFrom": "2008-05-28",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1768",
         "validTo": null
@@ -13565,9 +13967,9 @@
       "file": "state-NPL.json.gz",
       "validFrom": "1768",
       "validTo": null,
-      "compressedBytes": 10706,
-      "decodedBytes": 81426,
-      "sha256": "1279ccc2fe55d76b589f3a487a02f764bef83aa54d339b89754a3588f57f88b1",
+      "compressedBytes": 11213,
+      "decodedBytes": 82876,
+      "sha256": "f1bee2aefb4f35ed0558fc6f28abbabf1404786aaecd47c7630e78183ee8f7fa",
       "bbox": [
         80.030288,
         26.343768,
@@ -13582,9 +13984,61 @@
       "entityKind": "general",
       "lineageId": "nru",
       "names": {
-        "ko": "나우루"
+        "ko": "나오에로",
+        "en": "Naoero"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "나우루",
+        "나우루 공화국",
+        "Nauru",
+        "Republic of Nauru",
+        "나오에로",
+        "나오에로 공화국",
+        "Naoero",
+        "Republic of Naoero"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Nauru"
+            },
+            "ko": {
+              "common": "나우루"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Nauru",
+              "formal": "Republic of Nauru"
+            },
+            "ko": {
+              "common": "나우루",
+              "formal": "나우루 공화국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2026-05-11"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Naoero",
+              "formal": "Republic of Naoero"
+            },
+            "ko": {
+              "common": "나오에로",
+              "formal": "나오에로 공화국"
+            }
+          },
+          "validFrom": "2026-05-12",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1968-01-31",
         "validTo": null
@@ -13616,9 +14070,9 @@
       "file": "state-NRU.json.gz",
       "validFrom": "1968-01-31",
       "validTo": null,
-      "compressedBytes": 706,
-      "decodedBytes": 1923,
-      "sha256": "3c9335bfd381f0c20bb5f5e04f42bc0a67ad1e3c48290b53b7f480e0589fef84",
+      "compressedBytes": 1060,
+      "decodedBytes": 3314,
+      "sha256": "26e417c782d7d0dbda4cd6d32c8508991d49cfef8464f1bf6e5f7279a594381d",
       "bbox": [
         166.906993,
         -0.551853,
@@ -14817,7 +15271,20 @@
       "metadata": {
         "sourceFeatureId": "RWA",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/rw.svg",
-        "representativeGeometryVersionId": "state:RWA:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:RWA:natural-earth-5.1.1",
+        "flagHistory": [
+          {
+            "validFrom": null,
+            "validTo": "2001-12-30",
+            "policy": "embedded",
+            "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cGF0aCBmaWxsPSIjQ0UxMTI2IiBkPSJNMCAwaDIwMHY0MDBIMHoiLz48cGF0aCBmaWxsPSIjRkNERDA5IiBkPSJNMjAwIDBoMjAwdjQwMEgyMDB6Ii8+PHBhdGggZmlsbD0iIzAwN0E1RSIgZD0iTTQwMCAwaDIwMHY0MDBINDAweiIvPjx0ZXh0IHg9IjMwMCIgeT0iMzA0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMjYwIiBmaWxsPSIjMDAwIj5SPC90ZXh0Pjwvc3ZnPg=="
+          },
+          {
+            "validFrom": "2001-12-31",
+            "validTo": null,
+            "policy": "default"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -14827,9 +15294,9 @@
       "file": "state-RWA.json.gz",
       "validFrom": "1962-07-01",
       "validTo": null,
-      "compressedBytes": 3567,
-      "decodedBytes": 26173,
-      "sha256": "439b93cd70871c21d976b61ed69f9f3ab0261d13780a1e1da14ada5414804f6e",
+      "compressedBytes": 4309,
+      "decodedBytes": 27293,
+      "sha256": "7cb29e24161748ff123033c4654300d849528860dbf77ebe3bff95c4f04ebea7",
       "bbox": [
         28.857236,
         -2.826855,
@@ -16309,9 +16776,61 @@
       "entityKind": "general",
       "lineageId": "swz",
       "names": {
-        "ko": "에스와티니"
+        "ko": "에스와티니",
+        "en": "Eswatini"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "스와질란드",
+        "스와질란드 왕국",
+        "Swaziland",
+        "Kingdom of Swaziland",
+        "에스와티니",
+        "에스와티니 왕국",
+        "Eswatini",
+        "Kingdom of Eswatini"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Swaziland"
+            },
+            "ko": {
+              "common": "스와질란드"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Swaziland",
+              "formal": "Kingdom of Swaziland"
+            },
+            "ko": {
+              "common": "스와질란드",
+              "formal": "스와질란드 왕국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2018-04-18"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Eswatini",
+              "formal": "Kingdom of Eswatini"
+            },
+            "ko": {
+              "common": "에스와티니",
+              "formal": "에스와티니 왕국"
+            }
+          },
+          "validFrom": "2018-04-19",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1968-09-06",
         "validTo": null
@@ -16343,9 +16862,9 @@
       "file": "state-SWZ.json.gz",
       "validFrom": "1968-09-06",
       "validTo": null,
-      "compressedBytes": 1481,
-      "decodedBytes": 7922,
-      "sha256": "8a2971825724c5a6141512e2e71a89446c12a95aef316cd39ad1063da7b6ece8",
+      "compressedBytes": 1887,
+      "decodedBytes": 9404,
+      "sha256": "f0363c9cc3b4ae031b094cf561974d92c558d382bc57fa39e5fc01c708736b24",
       "bbox": [
         30.782906,
         -27.316264,
@@ -16486,7 +17005,21 @@
       "metadata": {
         "sourceFeatureId": "SYR",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sy.svg",
-        "representativeGeometryVersionId": "state:SYR:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SYR:natural-earth-5.1.1",
+        "flagHistory": [
+          {
+            "validFrom": "1980-03-30",
+            "validTo": "2024-12-07",
+            "policy": "embedded",
+            "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cGF0aCBmaWxsPSIjQ0UxMTI2IiBkPSJNMCAwaDYwMHYxMzMuMzMzSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTMzLjMzM2g2MDB2MTMzLjMzNEgweiIvPjxwYXRoIGQ9Ik0wIDI2Ni42NjdoNjAwVjQwMEgweiIvPjxwb2x5Z29uIHBvaW50cz0iMjIwLjAwMCwxNDQuMDAwIDIzMi41NzQsMTgyLjY5NCAyNzMuMjU5LDE4Mi42OTUgMjQwLjM0NSwyMDYuNjEwIDI1Mi45MTYsMjQ1LjMwNSAyMjAuMDAwLDIyMS4zOTIgMTg3LjA4NCwyNDUuMzA1IDE5OS42NTUsMjA2LjYxMCAxNjYuNzQxLDE4Mi42OTUgMjA3LjQyNiwxODIuNjk0IiBmaWxsPSIjMDA3QTNEIi8+PHBvbHlnb24gcG9pbnRzPSIzODAuMDAwLDE0NC4wMDAgMzkyLjU3NCwxODIuNjk0IDQzMy4yNTksMTgyLjY5NSA0MDAuMzQ1LDIwNi42MTAgNDEyLjkxNiwyNDUuMzA1IDM4MC4wMDAsMjIxLjM5MiAzNDcuMDg0LDI0NS4zMDUgMzU5LjY1NSwyMDYuNjEwIDMyNi43NDEsMTgyLjY5NSAzNjcuNDI2LDE4Mi42OTQiIGZpbGw9IiMwMDdBM0QiLz48L3N2Zz4="
+          },
+          {
+            "validFrom": "2024-12-08",
+            "validTo": null,
+            "policy": "embedded",
+            "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cGF0aCBmaWxsPSIjMDA3QTNEIiBkPSJNMCAwaDYwMHYxMzMuMzMzSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTMzLjMzM2g2MDB2MTMzLjMzNEgweiIvPjxwYXRoIGQ9Ik0wIDI2Ni42NjdoNjAwVjQwMEgweiIvPjxwb2x5Z29uIHBvaW50cz0iMTcwLjAwMCwxNTguMDAwIDE3OS40MzAsMTg3LjAyMCAyMDkuOTQ0LDE4Ny4wMjEgMTg1LjI1OSwyMDQuOTU4IDE5NC42ODcsMjMzLjk3OSAxNzAuMDAwLDIxNi4wNDQgMTQ1LjMxMywyMzMuOTc5IDE1NC43NDEsMjA0Ljk1OCAxMzAuMDU2LDE4Ny4wMjEgMTYwLjU3MCwxODcuMDIwIiBmaWxsPSIjQ0UxMTI2Ii8+PHBvbHlnb24gcG9pbnRzPSIzMDAuMDAwLDE1OC4wMDAgMzA5LjQzMCwxODcuMDIwIDMzOS45NDQsMTg3LjAyMSAzMTUuMjU5LDIwNC45NTggMzI0LjY4NywyMzMuOTc5IDMwMC4wMDAsMjE2LjA0NCAyNzUuMzEzLDIzMy45NzkgMjg0Ljc0MSwyMDQuOTU4IDI2MC4wNTYsMTg3LjAyMSAyOTAuNTcwLDE4Ny4wMjAiIGZpbGw9IiNDRTExMjYiLz48cG9seWdvbiBwb2ludHM9IjQzMC4wMDAsMTU4LjAwMCA0MzkuNDMwLDE4Ny4wMjAgNDY5Ljk0NCwxODcuMDIxIDQ0NS4yNTksMjA0Ljk1OCA0NTQuNjg3LDIzMy45NzkgNDMwLjAwMCwyMTYuMDQ0IDQwNS4zMTMsMjMzLjk3OSA0MTQuNzQxLDIwNC45NTggMzkwLjA1NiwxODcuMDIxIDQyMC41NzAsMTg3LjAyMCIgZmlsbD0iI0NFMTEyNiIvPjwvc3ZnPg=="
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -16496,9 +17029,9 @@
       "file": "state-SYR.json.gz",
       "validFrom": "1961-09-28",
       "validTo": null,
-      "compressedBytes": 6661,
-      "decodedBytes": 48274,
-      "sha256": "73078b9db0cf7483f6ddb92ae8a07bb2c9a663d963f6919b183871f9e5fe1eba",
+      "compressedBytes": 8145,
+      "decodedBytes": 50894,
+      "sha256": "b8f4a7dac1610eadba115f983eda074d4a4c79889b23308cc3b12abe5ef78a67",
       "bbox": [
         35.723399,
         32.313042,
@@ -17341,9 +17874,61 @@
       "entityKind": "general",
       "lineageId": "tur",
       "names": {
-        "ko": "튀르키예"
+        "ko": "튀르키예",
+        "en": "Türkiye"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "터키",
+        "터키 공화국",
+        "Turkey",
+        "Republic of Turkey",
+        "튀르키예",
+        "튀르키예 공화국",
+        "Türkiye",
+        "Republic of Türkiye"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Turkey"
+            },
+            "ko": {
+              "common": "터키"
+            }
+          },
+          "validFrom": null,
+          "validTo": "1999-12-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Turkey",
+              "formal": "Republic of Turkey"
+            },
+            "ko": {
+              "common": "터키",
+              "formal": "터키 공화국"
+            }
+          },
+          "validFrom": "2000-01-01",
+          "validTo": "2022-05-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Türkiye",
+              "formal": "Republic of Türkiye"
+            },
+            "ko": {
+              "common": "튀르키예",
+              "formal": "튀르키예 공화국"
+            }
+          },
+          "validFrom": "2022-06-01",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1920-04-23",
         "validTo": null
@@ -17375,9 +17960,9 @@
       "file": "state-TUR.json.gz",
       "validFrom": "1920-04-23",
       "validTo": null,
-      "compressedBytes": 32377,
-      "decodedBytes": 314314,
-      "sha256": "cf860c650b9acd2fd313726ba58d2ecb38b764ee22e350e5dcb1cf2954b0b12d",
+      "compressedBytes": 32883,
+      "decodedBytes": 315731,
+      "sha256": "b0c1b8429613ceef111cd853dab37e3faad8af3a0dd17f865bf49fa10ae8223b",
       "bbox": [
         25.663259,
         35.819779,
