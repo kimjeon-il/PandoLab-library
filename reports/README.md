@@ -245,3 +245,5 @@
 - GEO-REVIEW-20261028-2200: [자동 검토 — 카스피 보고서 게시 상태 정정](borders/validation/reviews/scheduled-2026-10-28-2200/README.md) — report-only / runtime-not-changed; 이미 게시된 형상은 재적용하지 않음.
 
 - [벨라루스·우크라이나 내부 경계 전체 검토·반영 · 2026-10-29](borders/reconstruction/by-ukraine-full-internal-2026-10-29/README.md)
+
+- GEO-RUS-FRONTIER-20261031: [러시아 접경 A–C 기본 복원·D–F 분리 조건부안](borders/reconstruction/russia-frontier-1991-2026-2026-10-31/README.md) — research archive; runtime application recorded separately.

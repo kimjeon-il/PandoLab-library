@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "panel": "A",
+      "old_endpoint_correction_m": [
+        107.47530313843463,
+        31.882346464350814
+      ],
+      "old_taper_length_m": 500,
+      "collar_original_baseline_target_length_m_each": 3000,
+      "collar_is_cartographic_not_historical": true,
+      "new_source_vertices_preserved": true,
+      "baseline_endpoint_offset_m": [
+        692.407647331588,
+        1631.422302546707
+      ],
+      "exact_difference_length_deg_float_sensitive": 0.0,
+      "shared_sample_max_residual_deg": 4.413868854096143e-15
+    },
+    {
+      "panel": "B",
+      "old_endpoint_correction_m": [
+        115.69465660302001,
+        122.37254206234338
+      ],
+      "old_taper_length_m": 500,
+      "collar_original_baseline_target_length_m_each": 4000,
+      "collar_is_cartographic_not_historical": true,
+      "new_source_vertices_preserved": true,
+      "baseline_endpoint_offset_m": [
+        1771.7700645579037,
+        770.8625386205911
+      ],
+      "exact_difference_length_deg_float_sensitive": 0.0,
+      "shared_sample_max_residual_deg": 4.690840976581522e-15
+    },
+    {
+      "panel": "C",
+      "old_endpoint_correction_m": [
+        1.923868433715568,
+        14.26754397583427
+      ],
+      "old_taper_length_m": 500,
+      "collar_original_baseline_target_length_m_each": 3000,
+      "collar_is_cartographic_not_historical": true,
+      "new_source_vertices_preserved": true,
+      "baseline_endpoint_offset_m": [
+        395.4755191743123,
+        77.48120755982903
+      ],
+      "exact_difference_length_deg_float_sensitive": 0.0,
+      "shared_sample_max_residual_deg": 3.949851991663623e-15
+    },
+    {
+      "panel": "C",
+      "operation": "reverse_treaty_change",
+      "union_symdiff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "exact_difference_length_deg_float_sensitive": 0.0,
+      "shared_sample_max_residual_deg": 4.692386344276319e-15,
+      "patch_geodesic_area_km2": 1.423781106797345
+    },
+    {
+      "panel": "B",
+      "operation": "reverse_treaty_change",
+      "union_symdiff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "exact_difference_length_deg_float_sensitive": 0.0,
+      "shared_sample_max_residual_deg": 4.196325546650064e-15,
+      "patch_geodesic_area_km2": 5.232305258897099
+    },
+    {
+      "panel": "A",
+      "operation": "reverse_treaty_change",
+      "union_symdiff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "exact_difference_length_deg_float_sensitive": 0.0,
+      "shared_sample_max_residual_deg": 4.4793679498865575e-15,
+      "patch_geodesic_area_km2": 5.297255127749214
+    }
+  ],
+  "all_country_geometries_valid": true,
+  "G_unchanged_sha256": "c66180ac0114c794ee5e726d864f325d7a99153ef3f82435329dc10a91590be7",
+  "production_written": false,
+  "source_hashes": {
+    "RUS": "36a903730b9454c2776940a46167e88cff516313592a14a591fb9d6b8ed1ff73",
+    "KAZ": "20828bc04a26728102a5fcc72d83b1a214982f3f14043e3af543edc98cc78674",
+    "CHN": "8d3eb8d0a6d160da8af4830d36a708fd26912841a937d42c3db260ee6587971e"
+  }
+}

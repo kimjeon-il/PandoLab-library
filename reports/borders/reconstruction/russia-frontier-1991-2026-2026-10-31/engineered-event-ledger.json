@@ -1,0 +1,51 @@
+{
+  "scope": "A-H Russian exterior boundary research, Crimea/Lithuania excluded",
+  "baseline_pin": "c73d3f562d35f92d749458c9890bec02875ff605",
+  "country_dates_unchanged": true,
+  "reverse_event_groups": [
+    {
+      "event": "China border agreement control transfer",
+      "signed": "2004-10-14",
+      "effective": "2005-06-02",
+      "implementation_protocol": "2008-07-21",
+      "control_transfer": "2008-10-14",
+      "panels": [
+        "G",
+        "H"
+      ],
+      "status": "no polygon change; claim/control and geographic registration unresolved; G frozen"
+    },
+    {
+      "event": "Kazakh-Russian border treaty",
+      "signed": "2005-01-18",
+      "effective": "2006-01-12",
+      "announcement": "2006-01-24",
+      "physical_handover": null,
+      "panels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "applied_to_shared_edge_model": true,
+      "before_interval_end_exclusive": "2006-01-12",
+      "before_interval_start": null,
+      "post_interval_start": "2006-01-12",
+      "same_date_undo_order": [
+        "F",
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "ABC_status": "engineering_reconstruction",
+      "DEF_status": "separate_conditional_SK42_scenario",
+      "F_scope": "common traced easting range only; no invented west extension",
+      "date_source": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280420e3a",
+      "freshly_rechecked_utc": "2026-10-31T11:24:00Z"
+    }
+  ]
+}
