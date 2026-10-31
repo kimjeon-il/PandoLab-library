@@ -9352,7 +9352,7 @@
         {
           "versionId": "state:IDN:1999-2026-after-east-timor-r1",
           "validFrom": "1999-10-25",
-          "validTo": "2026-10-05",
+          "validTo": null,
           "certainty": "low",
           "sourceId": "natural-earth-5.1.1-post-east-timor-temporal-proxy",
           "notes": "1999-10-25 UNTAET 설치 이후 동티모르 제외. 현대 Natural Earth 인도네시아 폴리곤을 1999~2026년 기간에 재사용한 잠정 형상으로, 이후의 세부 경계 변화 미검증.",
@@ -9372,13 +9372,6 @@
               "https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm"
             ]
           }
-        },
-        {
-          "versionId": "state:IDN:natural-earth-5.1.1",
-          "validFrom": "2026-10-06",
-          "validTo": null,
-          "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
         }
       ],
       "instantiation": {
@@ -9388,7 +9381,8 @@
       "metadata": {
         "sourceFeatureId": "IDN",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/id.svg",
-        "representativeGeometryVersionId": "state:IDN:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+        "sourceOutlineReferenceDate": "2026-10-06"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -9398,16 +9392,16 @@
       "file": "state-IDN.json.gz",
       "validFrom": "1945-08-17",
       "validTo": null,
-      "compressedBytes": 832273,
-      "decodedBytes": 8261167,
-      "sha256": "3da4e83c1173a2538024adf5b0b5e29853b01375fadb107aaddd42c18c5a6938",
+      "compressedBytes": 661953,
+      "decodedBytes": 6556180,
+      "sha256": "be91f34ae7b0f35f93a6a72cc9e135d3deec8ff6b9f038ddbc7feebb6f534812",
       "bbox": [
         95.012706,
         -10.922621,
         140.977627,
         5.910102
       ],
-      "geometryVersionCount": 5
+      "geometryVersionCount": 4
     },
     {
       "schemaVersion": 2,
@@ -15014,7 +15008,7 @@
         {
           "versionId": "state:SDS:2011-07-09-independence-r1",
           "validFrom": "2011-07-09",
-          "validTo": "2026-10-05",
+          "validTo": null,
           "certainty": "low",
           "sourceId": "natural-earth-5.1.1-current-outline-temporal-proxy",
           "notes": "2011-07-09 독립한 남수단. 현대 Natural Earth 외곽선을 초기 독립국의 잠정 경계로 재사용. 아비에이·미획정 경계의 당대 확정 형상은 아님.",
@@ -15033,13 +15027,6 @@
             ],
             "verifiedHistoricalGeometry": false
           }
-        },
-        {
-          "versionId": "state:SDS:natural-earth-5.1.1",
-          "validFrom": "2026-10-06",
-          "validTo": null,
-          "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
         }
       ],
       "instantiation": {
@@ -15049,7 +15036,8 @@
       "metadata": {
         "sourceFeatureId": "SDS",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ss.svg",
-        "representativeGeometryVersionId": "state:SDS:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SDS:2011-07-09-independence-r1",
+        "sourceOutlineReferenceDate": "2026-10-06"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -15059,16 +15047,16 @@
       "file": "state-SDS.json.gz",
       "validFrom": "2011-07-09",
       "validTo": null,
-      "compressedBytes": 22853,
-      "decodedBytes": 180479,
-      "sha256": "136d27fc2a329fc4228abcf23146532069bb8b67651ba336ef587a7a9f4a1269",
+      "compressedBytes": 12367,
+      "decodedBytes": 92014,
+      "sha256": "d6807ec333ed46cf4f675514d45e459e7bafead9643cbd0e1ce1ea56f03b7121",
       "bbox": [
         24.121556,
         3.490202,
         35.920835,
         12.216155
       ],
-      "geometryVersionCount": 2
+      "geometryVersionCount": 1
     },
     {
       "schemaVersion": 2,
@@ -16061,7 +16049,7 @@
         {
           "versionId": "state:SDN:2011-07-09-post-secession-r1",
           "validFrom": "2011-07-09",
-          "validTo": "2026-10-05",
+          "validTo": null,
           "certainty": "low",
           "sourceId": "natural-earth-5.1.1-current-outline-temporal-proxy",
           "notes": "2011-07-09 남수단 독립 뒤 수단 형상 잠정값. 2026-10-06 Natural Earth 외곽선을 2011~2026 구간의 대리 자료로 사용. 아비에이(Abyei) 분쟁지역과 경계 변경을 해당 연도별로 검증한 도형이 아님.",
@@ -16080,13 +16068,6 @@
             ],
             "verifiedHistoricalGeometry": false
           }
-        },
-        {
-          "versionId": "state:SDN:natural-earth-5.1.1",
-          "validFrom": "2026-10-06",
-          "validTo": null,
-          "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
         }
       ],
       "instantiation": {
@@ -16096,7 +16077,8 @@
       "metadata": {
         "sourceFeatureId": "SDN",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sd.svg",
-        "representativeGeometryVersionId": "state:SDN:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SDN:2011-07-09-post-secession-r1",
+        "sourceOutlineReferenceDate": "2026-10-06"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -16106,16 +16088,16 @@
       "file": "state-SDN.json.gz",
       "validFrom": "1956-01-01",
       "validTo": null,
-      "compressedBytes": 39751,
-      "decodedBytes": 355255,
-      "sha256": "94b71dca211cf9612981902851b5c7b575539a1015eeebf907c98724c3d3c032",
+      "compressedBytes": 29311,
+      "decodedBytes": 254870,
+      "sha256": "5155daddec2112925c0f85da5554ee9758772429e2d28301fc4091e10c3fa486",
       "bbox": [
         21.809449,
         3.490202,
         38.603852,
         22.226965
       ],
-      "geometryVersionCount": 3
+      "geometryVersionCount": 2
     },
     {
       "schemaVersion": 2,
@@ -17049,7 +17031,7 @@
         {
           "versionId": "state:TLS:2002-2026-independence-r1",
           "validFrom": "2002-05-20",
-          "validTo": "2026-10-05",
+          "validTo": null,
           "certainty": "low",
           "sourceId": "natural-earth-5.1.1-east-timor-independence-proxy",
           "notes": "2002-05-20 동티모르 독립 이후 현대 Natural Earth 국경을 임시 적용한 형상. 1999-10-25~2002-05-19 UNTAET 통치기는 독립국 존속기간에 자동 포함하지 않으며 별도의 통치 객체가 필요함.",
@@ -17069,13 +17051,6 @@
               "https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm"
             ]
           }
-        },
-        {
-          "versionId": "state:TLS:natural-earth-5.1.1",
-          "validFrom": "2026-10-06",
-          "validTo": null,
-          "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
         }
       ],
       "instantiation": {
@@ -17085,7 +17060,8 @@
       "metadata": {
         "sourceFeatureId": "TLS",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tl.svg",
-        "representativeGeometryVersionId": "state:TLS:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:TLS:2002-2026-independence-r1",
+        "sourceOutlineReferenceDate": "2026-10-06"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -17095,16 +17071,16 @@
       "file": "state-TLS.json.gz",
       "validFrom": "2002-05-20",
       "validTo": null,
-      "compressedBytes": 4293,
-      "decodedBytes": 51279,
-      "sha256": "c13e1456d1ab5a4a3ac6abea6b4dfdaeefa378d50f9d525c1b63b8150be0a995",
+      "compressedBytes": 4216,
+      "decodedBytes": 27531,
+      "sha256": "7abdc5bfbd37a9d3cd4ae0748973bd5868a73da190dff51750da0522583ad982",
       "bbox": [
         124.03004,
         -9.501228,
         127.313243,
         -8.135024
       ],
-      "geometryVersionCount": 2
+      "geometryVersionCount": 1
     },
     {
       "schemaVersion": 2,
@@ -19517,7 +19493,7 @@
         {
           "versionId": "state:UKR:2014-03-18-post-crimea-r1",
           "validFrom": "2014-03-18",
-          "validTo": "2026-10-05",
+          "validTo": null,
           "certainty": "low",
           "sourceId": "natural-earth-5.1.1-current-outline-temporal-proxy",
           "notes": "2014-03-18 러시아의 크림반도 병합 조약을 실효 지배 지도상 전환 시점으로 채택. 우크라이나의 크림 제외 영역을 2026-10-06 Natural Earth 외곽선으로 근사. 국제법상 크림 영유권 변화를 승인한 의미가 아니며 동부 전쟁과 2022년 이후 실제 통제선·분쟁지역 경계의 연도별 검증을 뜻하지 않음.",
@@ -19537,13 +19513,6 @@
             ],
             "verifiedHistoricalGeometry": false
           }
-        },
-        {
-          "versionId": "state:UKR:natural-earth-5.1.1",
-          "validFrom": "2026-10-06",
-          "validTo": null,
-          "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
         }
       ],
       "instantiation": {
@@ -19553,7 +19522,8 @@
       "metadata": {
         "sourceFeatureId": "UKR",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ua.svg",
-        "representativeGeometryVersionId": "state:UKR:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:UKR:2014-03-18-post-crimea-r1",
+        "sourceOutlineReferenceDate": "2026-10-06"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -19563,16 +19533,16 @@
       "file": "state-UKR.json.gz",
       "validFrom": "1991-08-24",
       "validTo": null,
-      "compressedBytes": 82245,
-      "decodedBytes": 769020,
-      "sha256": "003bcb99c1ed926311ae872c6f8e96b7fbc5fe48b119be35ae3c562ea0b4c506",
+      "compressedBytes": 58850,
+      "decodedBytes": 541324,
+      "sha256": "d8e2eea8bf462b7f059c8177a8cbd1dadf72c5f24a31c66eecc84200927092f5",
       "bbox": [
         22.13284,
         44.381049,
         40.159543,
         52.368949
       ],
-      "geometryVersionCount": 3
+      "geometryVersionCount": 2
     },
     {
       "schemaVersion": 2,
@@ -20776,7 +20746,7 @@
       "selections": [
         {
           "entityId": "state:IDN",
-          "geometryVersionId": "state:IDN:natural-earth-5.1.1"
+          "geometryVersionId": "state:IDN:1999-2026-after-east-timor-r1"
         },
         {
           "entityId": "state:MYS",
@@ -20832,7 +20802,7 @@
         },
         {
           "entityId": "state:SDS",
-          "geometryVersionId": "state:SDS:natural-earth-5.1.1"
+          "geometryVersionId": "state:SDS:2011-07-09-independence-r1"
         },
         {
           "entityId": "state:SOM",
@@ -20908,7 +20878,7 @@
         },
         {
           "entityId": "state:UKR",
-          "geometryVersionId": "state:UKR:natural-earth-5.1.1"
+          "geometryVersionId": "state:UKR:2014-03-18-post-crimea-r1"
         },
         {
           "entityId": "state:BLR",
@@ -21116,7 +21086,7 @@
         },
         {
           "entityId": "state:SDN",
-          "geometryVersionId": "state:SDN:natural-earth-5.1.1"
+          "geometryVersionId": "state:SDN:2011-07-09-post-secession-r1"
         },
         {
           "entityId": "state:DJI",
@@ -21248,7 +21218,7 @@
         },
         {
           "entityId": "state:TLS",
-          "geometryVersionId": "state:TLS:natural-earth-5.1.1"
+          "geometryVersionId": "state:TLS:2002-2026-independence-r1"
         },
         {
           "entityId": "state:BRN",
