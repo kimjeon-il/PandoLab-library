@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "surface": "general-chat",
+  "pluginVersion": "0.6.3",
+  "codeRevision": "749c15490c778b28403d18ef1d2ad883955ffa4f",
+  "outcome": {
+    "overall": "stopped-on-unrecovered-current-job-after-second-review",
+    "unattendedFullWorkflowPassed": false,
+    "manualMaintenanceAssistedFirstExportPassed": true,
+    "affineProjectiveRoundtripValidatedThroughRevision7": true,
+    "secondReviewCliExitCode": 0,
+    "secondReviewCliReportedRevision": 8,
+    "secondReviewPersistedJobValid": false,
+    "secondExportExecuted": false,
+    "deliveredExportRevision": 5,
+    "deliveredExportMeaning": "Preserved first successful authentic export; not a completed second export or current revision 8 result.",
+    "rootCause": "unconfirmed"
+  },
+  "localDownloadedBytesVerified": true,
+  "downloadedFiles": [
+    {
+      "name": "features.geojson",
+      "bytes": 15293,
+      "sha256": "d0aacdf5c4af1e05c28d6218456cd06ab3aefb24cd89b7ad5996d1701f8d1c51"
+    },
+    {
+      "name": "preview.png",
+      "bytes": 10741020,
+      "sha256": "0388fd62fef720ec76ea5aa5d63cc88e91777db5a113e5fa4e125c4c4b12dac6"
+    },
+    {
+      "name": "analysis.json",
+      "bytes": 33671534,
+      "sha256": "dee516eb1fd777238f1de1477947678208802bc62b40542530954269615484f6"
+    },
+    {
+      "name": "report.md",
+      "bytes": 2339,
+      "sha256": "928c2c285a46678695eb99965a2ed65cf1728957cf7a43d421a6e6c03e12c245"
+    },
+    {
+      "name": "complete.json",
+      "bytes": 442,
+      "sha256": "c5ed3c690c53f9455a21fd9c87d36545d2f340dc3697a106f74a86bd104e553a"
+    },
+    {
+      "name": "diagnostics-continuation.json",
+      "bytes": 90622,
+      "sha256": "de387aaaf6b2e9916df655c25d1114816a77c2d932ebb091e63c5dc0a205b8e2"
+    }
+  ],
+  "completeManifestFourHashesVerified": true,
+  "jobSignatureRecomputedReadOnly": true,
+  "jobSchema": 3,
+  "jobRevision": 5,
+  "selectedIds": [
+    "line:9644"
+  ],
+  "feature": {
+    "count": 1,
+    "type": "LineString",
+    "projectedCoordinateCount": 13,
+    "sourcePixelVertexCount": 10,
+    "manual": true,
+    "semanticBits": 4,
+    "open": true
+  },
+  "sourceImageSha256": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a",
+  "georeference": {
+    "cvP95Pixels": 30.69333919971341,
+    "sameSourceWithheldP95Pixels": 14.54140421538657,
+    "automaticRecommended": false,
+    "folded": false,
+    "invalidDomain": false,
+    "originalProjectionAndDatum": "unknown; empirical manual hypothesis only"
+  },
+  "model": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false,
+    "coast": "unobserved"
+  },
+  "cloudReportedChecks": {
+    "unrelatedChainsExactEqual": 9643,
+    "ocrRawGraphResourcesUnchanged": true,
+    "affineProjectiveRoundtripThroughRevision": 7,
+    "reviewInvalidatedByRevisions": true,
+    "secondExportExecuted": false,
+    "selectedPreviewGreenPixels": 65,
+    "unexpectedSelectedGreenPixels": 0
+  },
+  "finalFailure": {
+    "cliExitCode": 0,
+    "cliReportedRevision": 8,
+    "cliReportedStatus": "reviewed",
+    "actualJobBytes": 0,
+    "actualPartBytes": 0,
+    "actualJobParseable": false,
+    "ownerProcessObserved": false,
+    "previewSha256": "0388fd62fef720ec76ea5aa5d63cc88e91777db5a113e5fa4e125c4c4b12dac6",
+    "rootCause": "unconfirmed",
+    "noRestoreOrResignAttempted": true
+  },
+  "maintenance": {
+    "cleanupBatches": 4,
+    "deletedFiles": 5,
+    "removedEmptyDirectories": 2,
+    "logicalFileBytesRemoved": 67338318,
+    "policyDenials": 0,
+    "unattendedPass": false
+  },
+  "limitations": [
+    "First export verified with manual temporary cleanup; not an unassisted flow pass.",
+    "No attribution of file truncation to plugin or cloud filesystem without further reproduction.",
+    "Revision 8 invariants and second export not validated.",
+    "No model or independent historical accuracy pass.",
+    "Phone general-Chat and native Windows/Android checks remain separate."
+  ]
+}
