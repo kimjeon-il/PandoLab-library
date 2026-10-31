@@ -1,0 +1,47 @@
+{
+  "branchNote": "local hover-relations snapshot, not verified latestwork/gis",
+  "projection": "equirectangular",
+  "formula": "contentWidth*64*groundDistance/(2*pi*meanEarthRadius)",
+  "physical1to10million": {
+    "30mMillimeters": 0.003,
+    "200mMillimeters": 0.02
+  },
+  "rows": [
+    {
+      "viewportCssPx": 390,
+      "contentCssPx": 338,
+      "flatMaxZoom": 64,
+      "pixelsPerGroundMeterNorthSouth": 0.0005403916141135891,
+      "30mCssPx": 0.01621174842340767,
+      "200mCssPx": 0.1080783228227178,
+      "80.81mCssPx": 0.043669046336519135
+    },
+    {
+      "viewportCssPx": 1920,
+      "contentCssPx": 1868,
+      "flatMaxZoom": 64,
+      "pixelsPerGroundMeterNorthSouth": 0.0029865430034443324,
+      "30mCssPx": 0.08959629010332996,
+      "200mCssPx": 0.5973086006888665,
+      "80.81mCssPx": 0.2413425401083365
+    },
+    {
+      "viewportCssPx": 3840,
+      "contentCssPx": 3788,
+      "flatMaxZoom": 64,
+      "pixelsPerGroundMeterNorthSouth": 0.006056223178290755,
+      "30mCssPx": 0.18168669534872264,
+      "200mCssPx": 1.211244635658151,
+      "80.81mCssPx": 0.48940339503767594
+    }
+  ],
+  "warning": "200m is historical Tokyo-grid contrast, not established WGS84 boundary displacement",
+  "sourceFiles": [
+    "pando-web-hover-relations/assets/js/modules/app-environment.js",
+    "pando-web-hover-relations/assets/js/modules/app-map-projection.js",
+    "pando-web-hover-relations/assets/js/modules/map-layout-metrics.js"
+  ],
+  "localCodeCommit": "cb438d67fcc338c981943636586804f0d8ee1710",
+  "largestReportedRelativeLatitudeDifferenceMeters": 80.81,
+  "notAbsoluteWgs84ErrorBound": true
+}

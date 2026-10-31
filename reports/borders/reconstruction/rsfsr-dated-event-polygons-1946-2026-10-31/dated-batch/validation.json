@@ -1,0 +1,73 @@
+{
+  "allRingsValid": true,
+  "beforePlusDeltaEqualsAfter": true,
+  "beforeDeltaOverlapSquareDegrees": 0,
+  "temporalContiguousAt": "1946-02-02",
+  "intervalConvention": "[from,to), null is unknown start or unestablished end",
+  "eventDeltaExcludedFromStateOverlapCheck": true,
+  "confirmedEventCount": 1,
+  "conditionalEventGeometryCount": 1,
+  "confirmedHistoricalGeometryCount": 0,
+  "countryLifetimesModified": false,
+  "featureCount": 21,
+  "localExtentFeatures": 2,
+  "eventFootprintFeatures": 19,
+  "administrativeEventDates": [
+    "1946-02-02"
+  ],
+  "datedConditionalSakhalinFootprints": 0,
+  "datedReusedKurilFootprints": 18,
+  "fullHistoricalCountries": 0,
+  "distinctFootprintPairOverlapSquareDegrees": 0.0,
+  "allFeaturesValid": true,
+  "kurilCoverage": {
+    "sourceAvailableKurilComponents": 18,
+    "selectedComponents": [
+      176,
+      178,
+      179,
+      180,
+      183,
+      185,
+      186,
+      187,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      199
+    ],
+    "allSourceEnvelopeComponentsIncluded": true,
+    "exactArchipelagoComplete": false,
+    "missingFromGeneralizedInputExamples": [
+      "Antsiferov",
+      "Chirinkotan",
+      "Raikoke",
+      "Ushishir",
+      "Broutona",
+      "Chirpoy",
+      "Habomai islands except one Zelyony component",
+      "small rocks and satellites"
+    ],
+    "missingReason": "No separate component present in this generalized country input; not clipped away or replaced with invented polygon",
+    "sourceMask": [
+      145,
+      43.3,
+      156.6,
+      51
+    ],
+    "coastVerticesMoved": 0,
+    "extraSimplificationApplied": false,
+    "allValid": true,
+    "pairOverlap": 0,
+    "unionReconstructionDifference": 0,
+    "TuvaCheck": "Selected-Tuva1052 is open modern-admin-proxy LineString, not1944closed territory; no local admin1 polygon dataset found"
+  },
+  "recommendedGeneralizedSakhalinFootprints": 1,
+  "precisionDecision": "Nominal50N retained fordisplay; geodetic exactsurvey not asserted"
+}
