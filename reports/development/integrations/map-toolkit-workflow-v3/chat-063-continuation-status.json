@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "surface": "general-chat",
+  "pluginVersion": "0.6.3",
+  "codeRevision": "749c15490c778b28403d18ef1d2ad883955ffa4f",
+  "overall": "incomplete",
+  "gates": {
+    "installedResourcesNodePythonWasm": "passed",
+    "actualDefault4MpOcrOnnxAnalysis": "passed",
+    "initialRevise": "blocked-at-lock",
+    "assistedCalibrationAndExclude": "observed-in-chat-progress; new diagnostic not received",
+    "boundaryAddReviewExport": "not-verified",
+    "nextTurnReviseReexportDownload": "not-verified",
+    "phoneGeneralChat": "not-verified",
+    "nativeWindowsAndroid": "pending-existing-availability-limitations"
+  },
+  "continuation": {
+    "singleConversation": true,
+    "freshAnalysisCount": 1,
+    "staleLockCleanup": {
+      "confirmedUnlinkCount": 1,
+      "confirmedLogicalBytes": 48,
+      "ownerProcessAbsent": true,
+      "sourceJobPreviewAndModelUnchanged": true,
+      "method": "Canonical fs unlink after process, open-file, path, type and hash checks",
+      "toolPolicyDenialObserved": false
+    },
+    "observedProgress": {
+      "manualGeoreferenceCvP95Pixels": 30.6933,
+      "sameSourceWithheldP95Pixels": 14.5414,
+      "automaticRecommended": false,
+      "excludedChainId": 4615,
+      "reportedOtherChainsExactEqual": 9643,
+      "proofLimit": "These later measurements/comparisons appeared in actual cloud progress text; final diagnostic and output bytes have not been received."
+    },
+    "pending": "Existing follow-up remains responding with no new tool result, final response or returned export files visible. No duplicate analysis or extra chat created.",
+    "rootCause": "Cause of remaining temporary lock/part and delayed follow-up not established; no attribution to product or platform asserted."
+  },
+  "delivery": {
+    "downloadedDiagnosticBytes": 71498,
+    "downloadedDiagnosticSha256": "4edc2184ae47364bda2b42172cf097bb0d857acfac7bd535600af7d363d61182",
+    "requestedFiveExportFilesReceived": false,
+    "previousArchiveIntegrity": "not accepted; cloud follow-up reported truncated archive and hash mismatch"
+  },
+  "scope": {
+    "productCodeChanged": false,
+    "pluginReleaseChanged": false,
+    "retraining": false,
+    "mainIntegration": false,
+    "appBuild": false,
+    "fullProjectChecks": false
+  },
+  "model": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "storage": {
+    "localRemovedLogicalBytes": 0,
+    "cloudConfirmedRemovedLogicalBytes": 48,
+    "additionalCloudCleanup": "not verified; active continuation owns remaining job/snapshots/temporary data",
+    "cloudRetainedKnown": {
+      "currentJobBytes": 33674206,
+      "previousTruncatedArchiveReportedSize": "approximately 27 MB; exact current size not returned",
+      "duplicatePartReported": "Duplicate of then-current job, about 33 MB; exact size pending new diagnostic"
+    },
+    "retentionReason": "Current active validation and failure evidence. Do not delete active jobs, non-identical partials or recovery originals.",
+    "beforeFreeBytes": {
+      "C": 49764851712,
+      "D": 56889831424
+    },
+    "afterFreeBytes": {
+      "C": 49106423808,
+      "D": 56858271744
+    },
+    "measuredChangeBytes": {
+      "C": -658427904,
+      "D": -31559680
+    },
+    "driveDeltaAttribution": "Concurrent activity and retained evidence; not attributed as cleanup gain."
+  }
+}

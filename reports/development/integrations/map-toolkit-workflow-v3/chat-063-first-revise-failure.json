@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "surface": "general-chat",
+  "pluginVersion": "0.6.3",
+  "codeRevision": "749c15490c778b28403d18ef1d2ad883955ffa4f",
+  "attempt": "initial analyze and first revise",
+  "outcome": "analysis-passed-first-revise-blocked",
+  "analysis": {
+    "pixels": [
+      2215,
+      1805
+    ],
+    "pixelCount": 3998075,
+    "maxPixels": 4000000,
+    "ocrLanguage": "eng",
+    "savedDetections": 256,
+    "ocrCountScope": "Saved normalized detections; engine maximumDetections=256. Total raw Tesseract rows were not exposed or counted.",
+    "onnxExecutionProvider": "wasm",
+    "onnxThreads": 1,
+    "completedTiles": 25,
+    "totalTiles": 25,
+    "chains": 9644,
+    "faces": 854,
+    "unresolved": 8759,
+    "elapsedSeconds": 124.35610314299993,
+    "elapsedScope": "Whole CLI including pinned runtime preparation/install, image read, OCR, gazetteer, ONNX, graph generation, save and initial preview.",
+    "rusage": {
+      "ruMaxrssKiB": 1509016,
+      "userSeconds": 105.87965,
+      "systemSeconds": 4.758656,
+      "majorPageFaults": 0
+    },
+    "rss": {
+      "intervalTargetSeconds": 0.1,
+      "samples": 1229,
+      "rootPeakSampledRssKiB": 1467132,
+      "rootPeakObservedHwmKiB": 1509016,
+      "processTreePeakSampledRssKiB": 1662484,
+      "scope": "/proc of the CLI Node process and currently observable descendants; worker threads share Node RSS; process-tree sums may double-count shared pages; short unsampled peaks may be missed; ru_maxrss is wait4 kernel-reported process/descendant maximum, not sum of simultaneous RSS; observer excluded"
+    }
+  },
+  "source": {
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:1850_Mitchell_Map_of_Greece_-_Geographicus_-_Greece-m-50.jpg",
+    "pageRevisionUrl": "https://commons.wikimedia.org/w/index.php?title=File:1850_Mitchell_Map_of_Greece_-_Geographicus_-_Greece-m-50.jpg&oldid=1026614743",
+    "checkedBy": "web open actual page plus actual downloaded source image visual inspection",
+    "publicDomainMarkObserved": true,
+    "rightsStatementObserved": [
+      "PD-Art",
+      "PD-old-100-expired",
+      "Public Domain Mark 1.0"
+    ],
+    "pageReportedBytes": 2520371,
+    "pageReportedDimensions": [
+      3000,
+      2444
+    ],
+    "publicationYear": 1850,
+    "depictedDate": null,
+    "originalProjection": null,
+    "datum": null,
+    "ownership": null,
+    "name": null,
+    "validity": null,
+    "scope": "Short open coastline source-review workflow regression; no independent historical or model accuracy assessment",
+    "visualObservations": [
+      "Original page body includes a separate Candia inset at lower left.",
+      "Bottom main-map axis states Longitude East of Greenwich and labels 21,22,23,24,25.",
+      "Main-map side latitude labels 39,38,37 are visible.",
+      "Andro crop shows yellow land bounded by a dark inner land/sea edge and multiple offshore hachure contours."
+    ],
+    "sourceImageSha256": "3857511ce113a3ee44a097640e6a867ce9b7c3fef25b9a513c63c9ecf1ef176a"
+  },
+  "blocker": {
+    "code": "EEXIST",
+    "operation": "first revise could not reserve its own job lock after analyze exited 0",
+    "lockBytes": 48,
+    "pid": 960,
+    "ownerProcessObserved": false,
+    "rootCause": "not established"
+  },
+  "preservation": {
+    "jobBytes": 33674206,
+    "jobSha256": "fb798d1e6d8b42c30c6c4fc704c013876aca1918d3fb21c3b24a683299efed43",
+    "revision": 0,
+    "review": null,
+    "jobUnchanged": true,
+    "all9644ChainsExactEqual": true,
+    "ocrRawGraphResourcesUnchanged": true,
+    "signatureRecomputedReadOnly": true
+  },
+  "firstAttemptNotRun": [
+    "calibration revision",
+    "boundary edit",
+    "review",
+    "export"
+  ],
+  "download": {
+    "diagnosticBytes": 71498,
+    "diagnosticSha256": "4edc2184ae47364bda2b42172cf097bb0d857acfac7bd535600af7d363d61182",
+    "localDownloadBytesVerified": true
+  },
+  "separateArchive": {
+    "status": "not-accepted-as-proof",
+    "reason": "Subsequent cloud inspection reported a truncated gzip with a different hash; it was not downloaded or used to claim archive integrity."
+  },
+  "followup": "Continuation under separately recorded verified task-owned stale temporary cleanup; not an unassisted workflow pass."
+}

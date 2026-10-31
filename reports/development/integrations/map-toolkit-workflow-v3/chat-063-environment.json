@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "surface": "general-chat",
+  "pluginVersion": "0.6.3",
+  "status": "passed",
+  "method": "Actual installed skill read and cloud shell commands in a Chat-mode conversation; no PC execution or Work switch.",
+  "system": {
+    "os": "Ubuntu 24.04.3 LTS",
+    "kernel": "Linux 6.18.57",
+    "architecture": "x86_64",
+    "node": "v24.22.1",
+    "python": "3.12.14"
+  },
+  "release": {
+    "bytes": 448,
+    "sha256": "ff05f55e002af6bf23bb62891c14e75d486dbb72bc954911c80b6a3698427406",
+    "codeRevision": "749c15490c778b28403d18ef1d2ad883955ffa4f",
+    "contentSha256": "2a4f4f5f7c7f7ac9c9f18d9d34391fb72968b9543cbeaef86e6c2b73075cfd5e",
+    "contentHashCheck": "Compared recorded field; not an independent recomputation of all packaged content."
+  },
+  "model": {
+    "bytes": 16697571,
+    "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+    "hashMeasured": true,
+    "inferenceAtThisGate": "not-run"
+  },
+  "wasm": {
+    "loader": "loadNodeCore",
+    "processExitCode": 0,
+    "abiVersion": 1,
+    "compilerVersion": "4.0.20",
+    "sourceSha256": "1c2fc8330475703b3cc1ede8edf768c7e0771234e4ddf1d43688422cc2c9eca0",
+    "status": "initialized"
+  },
+  "evidence": "Observed complete environment-check response with actual commands and outputs. Full pipeline is a separate gate.",
+  "notEstablished": [
+    "OCR and ONNX inference at this gate",
+    "model accuracy",
+    "historical accuracy",
+    "native Windows/Android flow",
+    "phone general-Chat flow"
+  ],
+  "usageLimit": {
+    "requestAccepted": true,
+    "accountWideLimitRemoval": "not-established"
+  }
+}
