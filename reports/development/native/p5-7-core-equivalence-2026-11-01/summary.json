@@ -1,0 +1,165 @@
+{
+  "schema": "pando-p5-7-equivalence-v1",
+  "fixtureSha256": "e09c1abac27ceb1d0a7cb6035a8fab228bb5314c319ed97e962bac1109999e60",
+  "fixtureBytes": 9835,
+  "months": [
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ],
+  "pairedCalls": 328,
+  "failureCodes": {
+    "PL-SCHEMA-BASE": 3,
+    "CORE_TEMPORAL_SOURCE_PIN": 1,
+    "UNSUPPORTED_VERSION": 1,
+    "CORE_TEMPORAL_SOURCE_BUDGET": 1,
+    "CORE_TEMPORAL_CANDIDATE_SOURCE": 1,
+    "CORE_TEMPORAL_CANDIDATE_PIN": 4,
+    "CORE_TEMPORAL_CANDIDATE_MONTH": 1,
+    "PL-TEMPORAL-001": 1,
+    "CORE_TEMPORAL_CANDIDATE_SETUP": 1,
+    "STALE_REVISION": 2,
+    "CORE_TEMPORAL_CANDIDATE_STALE": 3,
+    "PL-CORE-DISPOSED": 1,
+    "CORE_TEMPORAL_CANDIDATE_CAPSULE": 1
+  },
+  "cases": [
+    {
+      "name": "P5-7 same-source native/WASM month endpoints, geometry, attributes and full-path oracle",
+      "status": "passed"
+    },
+    {
+      "name": "P5-7 invalid bytes, schema, source pins and candidate requests preserve active state",
+      "status": "passed"
+    },
+    {
+      "name": "P5-7 stale candidates, A-B-A, disposal and file-open epoch invalidation",
+      "status": "passed"
+    },
+    {
+      "name": "P5-7 adoption receipt failures and post-adopt rollback restore edits, selection, draft and history",
+      "status": "passed"
+    },
+    {
+      "name": "P5-7 source cache identity, bounded eviction and owned-byte isolation",
+      "status": "passed"
+    }
+  ],
+  "observations": [
+    {
+      "month": "2026-08",
+      "visible": [
+        {
+          "domain": "territorial",
+          "id": "A"
+        },
+        {
+          "domain": "territorial",
+          "id": "C"
+        },
+        {
+          "domain": "hydro",
+          "id": "22000000-0000-4000-8000-000000000005"
+        }
+      ],
+      "worldSha256": "76291aa6a673de9143c70a36a7a10ad773b8f7ad968a8f62bb39069d73026ff3",
+      "projectSha256": "1d12297395293c5aee8b2830341938b2ff6d438ebddd5cafc11c0dece58608ce"
+    },
+    {
+      "month": "2026-09",
+      "visible": [
+        {
+          "domain": "territorial",
+          "id": "A"
+        },
+        {
+          "domain": "territorial",
+          "id": "B"
+        },
+        {
+          "domain": "territorial",
+          "id": "C"
+        },
+        {
+          "domain": "hydro",
+          "id": "22000000-0000-4000-8000-000000000005"
+        }
+      ],
+      "worldSha256": "96467a796ff5afb55a0899e0687283caa4927a507626f88edbce8f11b7497ba1",
+      "projectSha256": "3a0fe00fefaff88aacdcd41129f9b6db1678c24d81fc49c3d7087d225e161840"
+    },
+    {
+      "month": "2026-10",
+      "visible": [
+        {
+          "domain": "territorial",
+          "id": "A"
+        },
+        {
+          "domain": "territorial",
+          "id": "B"
+        },
+        {
+          "domain": "territorial",
+          "id": "R"
+        },
+        {
+          "domain": "hydro",
+          "id": "22000000-0000-4000-8000-000000000005"
+        }
+      ],
+      "worldSha256": "688dfd6dbe1c5eac642af7ca66a80112919874d09136e58c1afafa7ce2f62e5d",
+      "projectSha256": "a6499c262a9bef7fffae270e1ccc78bf6ebb90543a236c89a338e8d760a7f378"
+    },
+    {
+      "month": "2026-11",
+      "visible": [
+        {
+          "domain": "territorial",
+          "id": "A"
+        },
+        {
+          "domain": "territorial",
+          "id": "B"
+        }
+      ],
+      "worldSha256": "db2ca86f90bb0ad07727b2d465b3776c9d0316ab4f1b8f27a626d7d5eaad00e6",
+      "projectSha256": "36ca47bb0291f0af0cfb66e96047c1dc646f6752fd5fa89cc16be7bf7bdf9394"
+    }
+  ],
+  "teardownFailures": [],
+  "identity": {
+    "abiVersion": 1,
+    "sourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043",
+    "compilerVersion": "4.0.20"
+  },
+  "passed": true,
+  "verification": {
+    "repository": "kimjeon-il/Pando",
+    "branch": "work/ui",
+    "baselineCommit": "00b8ac42a679e88b404756a7dbec6b080007b4ba",
+    "verifiedCommit": "aacf43ec4c41948e8c610e30cae56532a80d3f92",
+    "workflowRunId": 41259763808,
+    "workflowRunAttempt": 1,
+    "jobId": 124710425959,
+    "workflowUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41259763808",
+    "status": "success",
+    "workerTransportTests": {
+      "passed": 6,
+      "failed": 0,
+      "scope": "test doubles for ordered Worker transport; real WASM covered by paired runtime scenarios"
+    },
+    "scope": {
+      "realDatasetLoaded": false,
+      "browserTestRun": false,
+      "productionSourceChanged": false,
+      "wasmRebuilt": false,
+      "defaultTimeoutCasesRerun": false
+    },
+    "errorScope": {
+      "actualCoreRejections": 20,
+      "adapterDisposedGuard": 1
+    }
+  }
+}
