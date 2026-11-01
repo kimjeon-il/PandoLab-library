@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "included": [
+      "initial desktop presentation",
+      "mouse pan",
+      "wheel zoom",
+      "previous year",
+      "next year",
+      "direct year input",
+      "dark/light preferences apply",
+      "camera and clean history preservation"
+    ],
+    "excluded": [
+      "deferred July 1953 timeout",
+      "deferred injected-failure previous-year timeout",
+      "P6-2",
+      "mobile",
+      "other browsers",
+      "native desktop package",
+      "performance benchmark",
+      "reload persistence",
+      "main merge",
+      "deployment"
+    ]
+  },
+  "outcome": "passed",
+  "verifiedAt": "2026-11-01",
+  "repository": "kimjeon-il/Pando",
+  "branch": "work/ui",
+  "codeRevision": "9bc6856fa2218f758565acb8670f406c6dab8a41",
+  "parentRevision": "aacf43ec4c41948e8c610e30cae56532a80d3f92",
+  "applicationMainUnchanged": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+  "dataRevision": "139941d8056418547c796068304ba8db3696fe69",
+  "execution": {
+    "runId": 41262009537,
+    "url": "https://github.com/kimjeon-il/Pando/actions/runs/41262009537",
+    "jobId": 124717018945,
+    "attempt": 1,
+    "conclusion": "success",
+    "createdAt": "2026-11-01T01:39:49Z",
+    "updatedAt": "2026-11-01T01:42:35Z",
+    "testCount": 1,
+    "observationCount": 7,
+    "retries": 0,
+    "workers": 1,
+    "runner": "ubuntu-24.04",
+    "browser": "151.0.7922.34",
+    "node": "v24.22.1",
+    "playwright": "1.62.1",
+    "pnpm": "11.19.0",
+    "runnerText": "1 passed (1.4m)",
+    "timingCaveat": "Playwright test-run duration only; no performance benchmark or latency claim."
+  },
+  "changes": [
+    {
+      "path": "tests/integration/viewer-functional-p6-1.spec.mjs",
+      "bytes": 8150,
+      "sha256": "1153bc7ab385d51a61b05750a81f4dcfd560096b27c5cb56c7a3d3fd73726007"
+    },
+    {
+      "path": "tests/integration/viewer-functional-p6-1.config.mjs",
+      "bytes": 688,
+      "sha256": "5a0340362f424b52757baccbcdcc0567a9150d7b361a781b41d5a20796e9079c"
+    },
+    {
+      "path": ".github/workflows/viewer-functional-p6-1.yml",
+      "bytes": 4014,
+      "sha256": "3d0e6d6170ad798734412067a6d20ed2b94bd015f20526effe5ec1f7bfca1398"
+    }
+  ],
+  "sourceMatchedRuntime": {
+    "sourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043",
+    "assets": {
+      "js": {
+        "file": "pandoeditor-core.js",
+        "sha256": "008ce95293a0a291fac586e95e6ec3c9d4684a92a0d552ea60eaca421355b895"
+      },
+      "wasm": {
+        "file": "pandoeditor-core.wasm",
+        "sha256": "9671907356ac4b00d1f3bbb10a4a4ed85362b57c8c7d34a530d9ce20e32a70d5"
+      }
+    },
+    "mode": "check"
+  },
+  "staticVerification": {
+    "specSyntax": "passed",
+    "configSyntax": "passed",
+    "workflowYamlParse": "passed",
+    "inlineNodeSyntax": "passed",
+    "sourceReview": "passed after correcting the 1280x800 layout expectation to compact"
+  },
+  "functionalEvidence": "p6-1-functional.json",
+  "screenshotEvidence": [
+    {
+      "name": "dark.jpg",
+      "bytes": 115419,
+      "sha256": "9e06e36c1fddec91e4b32aa1407b3b1ebd7becf760bd957f29496e589197a458"
+    },
+    {
+      "name": "initial.jpg",
+      "bytes": 113571,
+      "sha256": "f907fc8f60215ef5f5ad6283a654114bbb7605b3798969fa8d4940c2ad5cb8ad"
+    },
+    {
+      "name": "light.jpg",
+      "bytes": 127844,
+      "sha256": "a219bdad269a0d6c190bae2a956f0d8faacc2ad02ae54b134694fecb2d6650ae"
+    }
+  ],
+  "visualReview": {
+    "reviewed": true,
+    "reviewers": 2,
+    "outcome": "accepted for requested desktop functions",
+    "findings": [
+      "Initial globe, terrain, boundaries, labels, city markers and desktop controls are visible.",
+      "Pan and zoom visibly change initial framing.",
+      "Dark and light images preserve geography/camera and 2024 year-end while changing surface, boundary and marker styling.",
+      "No blank map, error overlay or leftover preferences dialog in reviewed frames."
+    ],
+    "readabilityObservation": "Country and city labels crowd or overlap in dense European areas (including Benelux/central Europe). This affects local readability but does not obstruct the tested controls. No claim that it is newly introduced; no label-layout fix or extra test performed."
+  },
+  "otherAutomaticWorkflows": {
+    "P1": {
+      "runId": 41262009492,
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41262009492",
+      "jobs": [
+        {
+          "id": 124717019018,
+          "name": "native-plan",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 124717019238,
+          "name": "plan",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 124717048115,
+          "name": "native-artifact",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717166243,
+          "name": "wasm-compile",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717166463,
+          "name": "native-core",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717166693,
+          "name": "gis-cpp-tools",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717166776,
+          "name": "web-smoke",
+          "status": "completed",
+          "conclusion": "skipped"
+        }
+      ]
+    },
+    "P3": {
+      "runId": 41262009497,
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41262009497",
+      "jobs": [
+        {
+          "id": 124717018835,
+          "name": "plan",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 124717019546,
+          "name": "calculation-performance",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717229473,
+          "name": "web-snapshot",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717229575,
+          "name": "browser-regression",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "id": 124717229992,
+          "name": "web-contracts",
+          "status": "completed",
+          "conclusion": "skipped"
+        }
+      ]
+    },
+    "note": "Existing push-triggered plan jobs ran. Broad browser, snapshot, contract, calculation-performance, native, GIS and WASM build jobs were skipped."
+  },
+  "capacity": {
+    "dataRevision": "139941d8056418547c796068304ba8db3696fe69",
+    "coldPeakBytes": "2080907017",
+    "headroomBytes": "5368709120",
+    "requiredBytes": "7449616137",
+    "freeBytes": "90502475776"
+  },
+  "artifact": {
+    "id": 13065767019,
+    "name": "viewer-p6-1-9bc6856fa2218f758565acb8670f406c6dab8a41",
+    "size_in_bytes": 689194,
+    "url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/13065767019",
+    "archive_download_url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/13065767019/zip",
+    "expired": false,
+    "created_at": "2026-11-01T01:42:31Z",
+    "expires_at": "2026-11-15T01:42:31Z",
+    "updated_at": "2026-11-01T01:42:31Z",
+    "digest": "sha256:d5bca6d86417e984ae6e41775e5fbf43b00bf1269dda982ca62c95f4c55557b2",
+    "workflow_run": {
+      "id": 41262009537,
+      "repository_id": 1436926716,
+      "head_repository_id": 1436926716,
+      "head_branch": "work/ui",
+      "head_sha": "9bc6856fa2218f758565acb8670f406c6dab8a41"
+    }
+  },
+  "storage": {
+    "reportScope": "reports/development/ui/p6-1-desktop-2026-11-01/",
+    "repository": "kimjeon-il/PandoLab-library-data",
+    "transport": "Scoped GitHub Git-data API commit with expected-head ref update and independent remote byte/index verification.",
+    "nativeHelperCommandsExecuted": false,
+    "reason": "The container Git/HTTPS proxy is unavailable; the supported GitHub connector is used without changing or bypassing network policy.",
+    "runtimePinChanged": false
+  },
+  "cleanup": {
+    "removed": [
+      {
+        "path": "/workspace/scratch/b8bc66be8985/p6-1-evidence/transfer.json",
+        "logicalBytes": 480113,
+        "reason": "Verified transport duplicate; exact summary and image originals retained"
+      }
+    ],
+    "logicalBytesRemoved": 480113,
+    "measuredFreeBytesDelta": 483328,
+    "failedArtifactProbeFileExists": false
+  }
+}
