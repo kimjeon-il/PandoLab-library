@@ -34,6 +34,7 @@
 | [남아메리카 국가 존속기간 2차 — 아르헨티나·볼리비아](history/lifetimes/country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | GEO-LIFE-014 | 2026-10-26 | `investigating / phase-2 / not-applied` |
 | [남아메리카 역사 정치체 1차 — 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 분리공화국](history/lifetimes/country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | GEO-LIFE-020 | 2026-11-01 | `investigating / phase-1 / provisional / not-applied` |
 | [Verified entity lifetime additions](history/lifetimes/verified-entity-lifetimes.md) | GEO-023 | 2026-10-08 | `historical-record` |
+| [2025년 아시아 중앙아시아 국경조약 효력·3국 접점 부속도면 후속 검증](history/timeline/historical-timeline-2025-central-asia-tripoint-effective-date-2026-11-02.md) | GEO-TIME-018 | 2026-11-02 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 유럽 지브롤터–스페인 국경통행 정치합의·주권 불변 및 역사 GIS 벡터자료 선별](history/timeline/historical-timeline-2025-europe-gibraltar-border-regime-2026-11-01.md) | GEO-TIME-017 | 2026-11-01 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 오세아니아 뉴칼레도니아 부지발 협정·국제적 지위 제안과 벡터 선별](history/timeline/historical-timeline-2025-oceania-new-caledonia-bougival-2026-10-31.md) | GEO-TIME-016 | 2026-10-31 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 남아메리카 가이아나–베네수엘라 에세키보 선거·ICJ 잠정조치와 역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-south-america-essequibo-elections-2026-10-30.md) | GEO-TIME-015 | 2026-10-30 | `investigating / source-indexed / provisional / not-applied` |
