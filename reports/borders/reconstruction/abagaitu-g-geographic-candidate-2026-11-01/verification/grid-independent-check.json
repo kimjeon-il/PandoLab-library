@@ -1,0 +1,33 @@
+{
+  "independent_from_Ozi_pixel_registration": true,
+  "same_map_not_independent_ground_survey": true,
+  "fit_ids": [
+    "printed-grid-1",
+    "printed-grid-3",
+    "printed-grid-4",
+    "printed-grid-6",
+    "printed-grid-7",
+    "printed-grid-9"
+  ],
+  "heldout_ids": [
+    "printed-grid-2",
+    "printed-grid-5",
+    "printed-grid-8"
+  ],
+  "errors_m": [
+    3.122546854447555,
+    2.5330969094186973,
+    3.120756346766178,
+    8.43620130810577,
+    13.980742859612407,
+    4.230943602919986,
+    7.892750382713413,
+    15.498430987996255,
+    5.999668760876414
+  ],
+  "heldout_max_m": 15.498430987996255,
+  "datum_operation": "Pulkovo 1942 to WGS 84 (20) (with axis order normalized for visualization)",
+  "grid_crs": "EPSG:28420",
+  "full_pipeline": "proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=push v_3 step proj=cart ellps=krass step proj=helmert x=23.57 y=-140.95 z=-79.8 rx=0 ry=-0.35 rz=-0.79 s=-0.22 convention=coordinate_frame step inv proj=cart ellps=WGS84 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg",
+  "geometry_validity_dates": null
+}
