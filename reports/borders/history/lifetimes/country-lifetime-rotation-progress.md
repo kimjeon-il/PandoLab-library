@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-01 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-02 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 남아메리카**
-- **lastCompletedRun: 2026-11-01** (남아메리카 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국 3개 역사 정치체/분리정치체 1차 검토; 주권국 확정·대륙 전체 완료 아님)
-- **nextRegion: 오세아니아**
-- **nextPhase: 오세아니아 미조사 역사 정치체·법적 지위 분류 1차 조사(1차 소진 시 2차 교차검증)**
-- **nextAction: 오세아니아 기존 GEO-LIFE-001/009/015·GEO-023의 현존국 및 역사상 하와이 중복을 피하고 미조사 역사 정치체 2~4개 1차 조사 또는 COK/NIU 법적 분류를 검증한다. 남아메리카 GEO-LIFE-020의 그란콜롬비아 1831-11-17/21 채택·발효, 페루–볼리비아 1839-02-20 정부 종결/11-10 법령 색인 효력, 리우그란덴시 공화국 1845 평화 및 국가성 유보를 2차에 인계한다. 북아메리카 GEO-LIFE-019의 세 미완료 건도 유지한다.**
+- **lastProcessedRegion: 오세아니아**
+- **lastCompletedRun: 2026-11-02** (오세아니아 피지 왕국·타히티 왕국·쿡 제도 연방정부 3개 정치체 1차 검토; 쿡 연방은 주권국 확정 아님)
+- **nextRegion: 유럽**
+- **nextPhase: 유럽 미조사 역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
+- **nextAction: 유럽 GEO-LIFE-001/004/010/016 중복 제외 후 미조사 역사상 소멸국 2~4개 1차 조사. 오세아니아 1871 피지 왕국 공식 원선언·통치범위, 타히티 1842 보호국 정확한 효력·1880 법적 종료, 쿡 제도 1900/1901 연방정부 폐지일 및 COK/NIU 주권국 분류는 2차 유보 유지. **
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -32,7 +32,7 @@
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
-| 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 모두 선행 문헌/기간 근거 확인, 역사상 소멸국 전수 및 COK/NIU 분류는 미완료 | 미완료 | NZL 시작일 1907/1942/1947/1987의 층위 구분; 하와이 왕국·공화국 법적 계속성과 미등록 역사 객체 유보 |
+| 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 선행 근거 확인, 19세기 정치체 3개 1차 추가, 소멸국 전수 및 COK/NIU 법적 분류는 미완료 | 미완료 | NZL·하와이 법적 계속성 유보; GEO-LIFE-021 피지 왕국·타히티 보호국·쿡 연방(비주권) 1차, 1871/1880/1900~1901 법적 기간 2차 유보 |
 
 ## 실행 이력
 
@@ -51,6 +51,7 @@
 | **2026-10-30** | **아프리카** | **국가별 1차(기존 기간값의 독립 법적 검토)** | `ETH`, `SDN`, `ZAF` 3개(기존 시작값 유지) | [GEO-LIFE-018](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md) — ETH 점령/법적 계속성, SDN 1956 독립·2011 분리, ZAF 1910/1934/1961 구별; 최종 lifetime 유보 | **북아메리카** |
 | **2026-10-31** | **북아메리카** | **역사상 소멸/분리 정치체 1차** | 중앙아메리카 연방·텍사스 공화국·유카탄 분리정치체 3개(국가 객체 ID 없음) | [GEO-LIFE-019](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md) — 1823/1824 연방 형성, 1836/1845/1846 텍사스, 1840~1848 유카탄 반복 분리; 국가성·종료일 유보 | **남아메리카** |
 | **2026-11-01** | **남아메리카** | **역사상 소멸·분리 정치체 1차** | 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국 3개(마지막은 국제법상 주권국 판정 유보) | [GEO-LIFE-020](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) — 1819/1831, 1836/1839, 1836/1845 법적 성립·정부 종료·분리정치체 국가성 구분 | **오세아니아** |
+| **2026-11-02** | **오세아니아** | **역사 정치체 1차** | 피지 왕국·타히티 왕국·쿡 제도 연방정부 3건(마지막은 보호국 내부 비주권 정부) | [GEO-LIFE-021](country-lifetime-oceania-historic-fiji-tahiti-cook-federation-2026-11-02.md) — 1871/1874, 1842/1880, 1891/1901 구분, 최종 국가성·정확 일자 유보 | **유럽** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -147,3 +148,12 @@
 - **제한:** 오늘 고정 라이브러리 revision `a3872b373584d06f20da1975f82739c9b6210f1a`의 `assets/data/territorial-entities/generated/v2/index.json` 직접 조회에서 빈 본문이 반환되어 현행 객체 ID·기간 필드는 **직접 확인 실패**. 기존 보고서 286개는 전 회차 스냅샷으로만 참고. 이 상태에서 ID 유무와 기간값을 확정하지 않는다. `Pando/work/gis` 최근 커밋 검색 첫 결과 `2b460e40`, 해당 브랜치 HEAD 여부 미확인.
 - **검사·변경:** GIS/위상/화면·웹/앱 검사 **미실행**. 국가 lifetime·형상·정본 타임라인·웹/앱 코드·`Pando/work/gis`·`Pando/main`·배포 **변경 0건**. 보고서 원격 저장과 파일 재조회는 별도 검증.
 - **커서:** `lastProcessedRegion=남아메리카`, `nextRegion=오세아니아`, `nextPhase=미조사 역사 정치체·법적 지위 1차(소진 시 2차)`. 모든 지역 1·2차 전수 미완료, 종료하지 않음.
+
+## 2026-11-02 — 오세아니아 역사 정치체 3건 1차 인계 (GEO-LIFE-021)
+
+- **선정/단계:** 남아메리카 → **오세아니아** / 기존 현존 14국·하와이 조사와 중복하지 않는 19세기 정치체 3건 1차: **피지 왕국(1871~1874), 타히티 왕국 보호국/양도(1842·1880), 쿡 제도 연방정부(1891~1901)**. 마지막은 **주권국으로 확정하지 않은 영국 보호국 내부 정부**.
+- **근거:** 피지 의회 2017 자료·Pacific History 학술논문(1871 왕권, 1874-10-10 양도); 프랑스령 폴리네시아 기록원·프랑스 1880-12-30 비준 법률(1880-06-29 양도와 구분); 뉴질랜드 1891-06-05 연방헌정법 당대 의회기록·1901-06-11 시행 법률·국립도서관 소장 기록. 상세 원문·URL 및 미확인은 [GEO-LIFE-021](country-lifetime-oceania-historic-fiji-tahiti-cook-federation-2026-11-02.md).
+- **데이터 색인:** `Pando/work/gis` 고정 library revision `5eb7be55`, index blob `f8c0c94a26c492115d41504f3ffc099c19d31d62` **`fetch_blob`으로 286 entities 직접 파싱**. FJI 1970-10-10, COK 1965-08-04, NIU 1974-10-19, PYF 1880-12-30 현재 값 확인. 새 역사 정치체 ID는 해당 색인에서 찾지 못했으나 데이터 수정·신규 생성 없음.
+- **유보:** 피지 왕국 1871-06-05 정확한 창립일과 실효 범위, 타히티 1842 보호국 체결일·1880 실제 소멸 효력과 소속 군도, 쿡 연방 1900/1901 의회 폐지일·주권국 배제 판정 및 자유연합 COK/NIU 별도 분류. 원문 PDF 시각 확인 실패, GIS·위상·화면 및 앱/웹 테스트·로컬 보고서 게시/검사 미실행.
+- **변경:** 조사 보고서·진행기록·보고서 색인만 외부 보고서 정본 저장소에 기록. 국가 lifetime·형상·코드·`Pando/work/gis`·`Pando/main`·배포 **0건**.
+- **커서:** `lastProcessedRegion=오세아니아`, `nextRegion=유럽`, `nextPhase=미조사 역사 정치체 1차(소진 시 사건별 2차)`. 전 세계 6개 지역 1·2차 전수 미완료.

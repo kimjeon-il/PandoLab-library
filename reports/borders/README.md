@@ -28,7 +28,8 @@
 | [북아메리카 역사 정치체 국가 존속기간 — 중앙아메리카 연방·텍사스·유카탄](history/lifetimes/country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md) | GEO-LIFE-019 | 2026-10-31 | `investigating / phase-1 / not-applied` |
 | [오세아니아 4개국 국가 존속기간 — FSM·마셜제도·팔라우·통가](history/lifetimes/country-lifetime-oceania-micronesia-tonga-2026-10-21.md) | GEO-LIFE-009 | 2026-10-21 (2026-10-24 복구) | `investigating / phase-1` |
 | [오세아니아 국가 존속기간 — 뉴질랜드·하와이 왕국·공화국](history/lifetimes/country-lifetime-oceania-nzl-hawaii-2026-10-27.md) | GEO-LIFE-015 | 2026-10-27 | `investigating / phase-1 / not-applied` |
-| [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-01 | `investigating` |
+| [오세아니아 역사 정치체 1차 — 피지 왕국·타히티 왕국·쿡 제도 연방정부](history/lifetimes/country-lifetime-oceania-historic-fiji-tahiti-cook-federation-2026-11-02.md) | GEO-LIFE-021 | 2026-11-02 | `investigating / phase-1 / provisional / not-applied` |
+| [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-02 | `investigating` |
 | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](history/lifetimes/country-lifetime-south-america-2026-10-20.md) | GEO-LIFE-008 | 2026-10-20 회차 / 검토 10-20 | `investigating` |
 | [남아메리카 국가 존속기간 2차 — 아르헨티나·볼리비아](history/lifetimes/country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | GEO-LIFE-014 | 2026-10-26 | `investigating / phase-2 / not-applied` |
 | [남아메리카 역사 정치체 1차 — 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 분리공화국](history/lifetimes/country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | GEO-LIFE-020 | 2026-11-01 | `investigating / phase-1 / provisional / not-applied` |
