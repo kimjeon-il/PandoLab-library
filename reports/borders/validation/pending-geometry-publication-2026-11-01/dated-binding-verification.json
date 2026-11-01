@@ -1,0 +1,145 @@
+{
+  "dataBase": "2b5c0617f80a9571fde06fe331b8d0022c8932cf",
+  "checks": "Fresh staged byte/hash, identity, exact inclusive-day endpoint and outside-compiled-version preservation checks only; no historical topology QA rerun",
+  "passed": true,
+  "results": [
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "officialStoredReassemblyPassed": true,
+      "sourceNativeExact": true,
+      "sourceNativeCompiledIdentityMatch": true,
+      "lifetimesParentsPropertiesUnchanged": true,
+      "outsideCompiledVersionsUnchanged": 1,
+      "samples": [
+        {
+          "date": "1922-12-29",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1922-12-30",
+          "selected": [
+            "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1925-05-12",
+          "selected": [
+            "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1925-05-13",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1991-01-01",
+          "selected": [
+            "state:soviet-union-russian-sfsr:1991-r1"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1991-12-24",
+          "selected": [
+            "state:soviet-union-russian-sfsr:1991-r1"
+          ],
+          "coverage": true
+        }
+      ]
+    },
+    {
+      "id": "state:soviet-union-transcaucasian-sfsr",
+      "officialStoredReassemblyPassed": true,
+      "sourceNativeExact": true,
+      "sourceNativeCompiledIdentityMatch": true,
+      "lifetimesParentsPropertiesUnchanged": true,
+      "outsideCompiledVersionsUnchanged": 0,
+      "samples": [
+        {
+          "date": "1922-12-29",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1922-12-30",
+          "selected": [
+            "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1925-05-12",
+          "selected": [
+            "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1925-05-13",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1991-01-01",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1991-12-24",
+          "selected": [],
+          "coverage": false
+        }
+      ]
+    },
+    {
+      "id": "state:soviet-union-ukrainian-ssr",
+      "officialStoredReassemblyPassed": true,
+      "sourceNativeExact": true,
+      "sourceNativeCompiledIdentityMatch": true,
+      "lifetimesParentsPropertiesUnchanged": true,
+      "outsideCompiledVersionsUnchanged": 1,
+      "samples": [
+        {
+          "date": "1922-12-29",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1922-12-30",
+          "selected": [
+            "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1925-05-12",
+          "selected": [
+            "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1925-05-13",
+          "selected": [],
+          "coverage": false
+        },
+        {
+          "date": "1991-01-01",
+          "selected": [
+            "state:soviet-union-ukrainian-ssr:1991-r1"
+          ],
+          "coverage": true
+        },
+        {
+          "date": "1991-12-24",
+          "selected": [],
+          "coverage": false
+        }
+      ]
+    }
+  ]
+}

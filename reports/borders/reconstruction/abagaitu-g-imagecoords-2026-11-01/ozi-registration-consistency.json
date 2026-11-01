@@ -1,0 +1,180 @@
+{
+  "purpose": "Ozi registration metadata consistency only; NOT Toolkit job/export; NOT independent survey validation",
+  "datum_transform_to_WGS84": null,
+  "fit_ids": [
+    "Point01",
+    "Point03",
+    "Point04",
+    "Point06",
+    "Point07",
+    "Point09"
+  ],
+  "holdout_ids": [
+    "Point02",
+    "Point05",
+    "Point08"
+  ],
+  "matrix_pixel_to_krass_projection": [
+    [
+      12.727788405919572,
+      0.09390274408799718
+    ],
+    [
+      0.10881936751787204,
+      -12.67890067598651
+    ],
+    [
+      534898.8225799832,
+      5505269.004871943
+    ]
+  ],
+  "holdout_max_px": 2.881665603524274,
+  "holdout_p95_px": 2.8587988138677947,
+  "controls": [
+    {
+      "id": "Point01",
+      "pixel": [
+        94.0,
+        96.0
+      ],
+      "lon": 117.5,
+      "lat": 49.666666666666664,
+      "projected_krass_m": [
+        536095.64602458,
+        5503988.6121259425
+      ],
+      "role": "metadata_fit",
+      "residual_px": 5.737465568913071,
+      "residual_m": 72.74070253592349
+    },
+    {
+      "id": "Point02",
+      "pixel": [
+        1510.0,
+        100.0
+      ],
+      "lon": 117.75,
+      "lat": 49.666666666666664,
+      "projected_krass_m": [
+        554143.3307054788,
+        5504138.690480799
+      ],
+      "role": "metadata_holdout",
+      "residual_px": 1.1989027878424425,
+      "residual_m": 15.260067573458018
+    },
+    {
+      "id": "Point03",
+      "pixel": [
+        2930.0,
+        98.0
+      ],
+      "lon": 118.0,
+      "lat": 49.666666666666664,
+      "projected_krass_m": [
+        572190.8493300959,
+        5504348.806273956
+      ],
+      "role": "metadata_fit",
+      "residual_px": 3.8215726478277627,
+      "residual_m": 48.47659752313198
+    },
+    {
+      "id": "Point04",
+      "pixel": [
+        89.0,
+        1565.0
+      ],
+      "lon": 117.5,
+      "lat": 49.5,
+      "projected_krass_m": [
+        536218.8097805101,
+        5485451.570192481
+      ],
+      "role": "metadata_fit",
+      "residual_px": 1.8712509661706158,
+      "residual_m": 23.758790957015297
+    },
+    {
+      "id": "Point05",
+      "pixel": [
+        1512.0,
+        1560.0
+      ],
+      "lon": 117.75,
+      "lat": 49.5,
+      "projected_krass_m": [
+        554328.0808319501,
+        5485601.788111812
+      ],
+      "role": "metadata_holdout",
+      "residual_px": 2.6529977069594826,
+      "residual_m": 33.6793421499045
+    },
+    {
+      "id": "Point06",
+      "pixel": [
+        2934.0,
+        1559.0
+      ],
+      "lon": 118.0,
+      "lat": 49.5,
+      "projected_krass_m": [
+        572437.1912180051,
+        5485812.099370483
+      ],
+      "role": "metadata_fit",
+      "residual_px": 3.3432360518229682,
+      "residual_m": 42.42491992932525
+    },
+    {
+      "id": "Point07",
+      "pixel": [
+        88.0,
+        3030.0
+      ],
+      "lon": 117.5,
+      "lat": 49.333333333333336,
+      "projected_krass_m": [
+        536341.6643948006,
+        5466915.060979371
+      ],
+      "role": "metadata_fit",
+      "residual_px": 4.360359131702866,
+      "residual_m": 55.29720247524483
+    },
+    {
+      "id": "Point08",
+      "pixel": [
+        1518.0,
+        3024.0
+      ],
+      "lon": 117.75,
+      "lat": 49.333333333333336,
+      "projected_krass_m": [
+        554512.3672855186,
+        5467065.413375042
+      ],
+      "role": "metadata_holdout",
+      "residual_px": 2.881665603524274,
+      "residual_m": 36.66991530365713
+    },
+    {
+      "id": "Point09",
+      "pixel": [
+        2944.0,
+        3012.0
+      ],
+      "lon": 118.0,
+      "lat": 49.333333333333336,
+      "projected_krass_m": [
+        572682.9149492242,
+        5467275.912975827
+      ],
+      "role": "metadata_fit",
+      "residual_px": 6.4635664288120775,
+      "residual_m": 81.94665667880264
+    }
+  ],
+  "historical_boundary_extracted": false
+}

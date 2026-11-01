@@ -23,6 +23,8 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-PENDING-PUBLISHED-20261101` | [보류 중이던 5국 형상 게시·archive/생성기 정합 보정](borders/validation/pending-geometry-publication-2026-11-01/README.md) | 2026-11-01 UTC | `scoped-published / CI-follow-up` | `work/gis-only / not-deployed` |
+| `GEO-ABAGAITU-G-IMAGECOORDS-20261101` | [G 차이면 이미지좌표·출처·정합 보류](borders/reconstruction/abagaitu-g-imagecoords-2026-11-01/README-ko.md) | 2026-11-01 UTC | `image-coordinates-only / geographic-hold` | `archive-only / runtime-not-applied` |
 | `GEO-RSFSR-DATED-POLYGONS-20261031` | [1946 남사할린·쿠릴 사건 폴리곤 21 feature](borders/reconstruction/rsfsr-dated-event-polygons-1946-2026-10-31/README.md) | 2026-10-31 UTC | `geometry-produced / administrative-candidate` | `archive-only / runtime-not-applied` |
 | `GEO-RSFSR-REMAINING-20261031` | [RSFSR 1953–1922 검토·106행 커버리지·문헌 정정](borders/history/rsfsr-reverse-research-1953-1922-2026-10-31/README.md) | 2026-10-31 UTC | `coverage-complete / geometry-holds` | `not-applied` |
 | `GEO-RSFSR-RESEARCH-20261031` | [RSFSR 1965–1954 역순 연구·1957 Estonia·출처 카탈로그](borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/README.md) | 2026-10-31 UTC | `source-research / geometry-holds` | `not-applied` |
