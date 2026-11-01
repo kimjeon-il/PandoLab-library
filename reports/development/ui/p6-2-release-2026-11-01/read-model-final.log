@@ -1,0 +1,287 @@
+﻿2026-11-01T02:30:32.1856588Z Current runner version: '2.338.2'
+2026-11-01T02:30:32.1879127Z ##[group]Runner Image Provisioner
+2026-11-01T02:30:32.1879825Z Hosted Compute Agent
+2026-11-01T02:30:32.1880455Z Version: 20261021.618
+2026-11-01T02:30:32.1881028Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T02:30:32.1881663Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T02:30:32.1882251Z Worker ID: {822e7456-cd52-4ff1-adaf-729287b2461f}
+2026-11-01T02:30:32.1882896Z Region: centralus
+2026-11-01T02:30:32.1883471Z Cloud: Azure
+2026-11-01T02:30:32.1883939Z ##[endgroup]
+2026-11-01T02:30:32.1885172Z ##[group]Operating System
+2026-11-01T02:30:32.1885726Z Ubuntu
+2026-11-01T02:30:32.1886184Z 24.04.5
+2026-11-01T02:30:32.1886707Z LTS
+2026-11-01T02:30:32.1887186Z ##[endgroup]
+2026-11-01T02:30:32.1887644Z ##[group]Runner Image
+2026-11-01T02:30:32.1888221Z Image: ubuntu-24.04
+2026-11-01T02:30:32.1889017Z Version: 20261025.353.1
+2026-11-01T02:30:32.1890149Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T02:30:32.1891393Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T02:30:32.1892254Z ##[endgroup]
+2026-11-01T02:30:32.1893196Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T02:30:32.1895159Z Contents: read
+2026-11-01T02:30:32.1895668Z Metadata: read
+2026-11-01T02:30:32.1896529Z ##[endgroup]
+2026-11-01T02:30:32.1898712Z Secret source: Actions
+2026-11-01T02:30:32.1899634Z Cache mode: write
+2026-11-01T02:30:32.1900472Z Prepare workflow directory
+2026-11-01T02:30:32.2182397Z Prepare all required actions
+2026-11-01T02:30:32.2226438Z Getting action download info
+2026-11-01T02:30:32.4622080Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-01T02:30:32.6618879Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-01T02:30:32.7756838Z Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+2026-11-01T02:30:33.3552140Z Complete job name: read-model
+2026-11-01T02:30:33.4296676Z ##[group]Run actions/checkout@v4
+2026-11-01T02:30:33.4297416Z with:
+2026-11-01T02:30:33.4297824Z   persist-credentials: false
+2026-11-01T02:30:33.4298439Z   repository: kimjeon-il/Pando
+2026-11-01T02:30:33.4301920Z   token: ***
+2026-11-01T02:30:33.4302313Z   ssh-strict: true
+2026-11-01T02:30:33.4302702Z   ssh-user: git
+2026-11-01T02:30:33.4303070Z   clean: true
+2026-11-01T02:30:33.4303459Z   sparse-checkout-cone-mode: true
+2026-11-01T02:30:33.4303914Z   fetch-depth: 1
+2026-11-01T02:30:33.4304305Z   fetch-tags: false
+2026-11-01T02:30:33.4304704Z   show-progress: true
+2026-11-01T02:30:33.4305101Z   lfs: false
+2026-11-01T02:30:33.4305479Z   submodules: false
+2026-11-01T02:30:33.4305882Z   set-safe-directory: true
+2026-11-01T02:30:33.4306330Z   allow-unsafe-pr-checkout: false
+2026-11-01T02:30:33.4306970Z ##[endgroup]
+2026-11-01T02:30:33.6174376Z Syncing repository: kimjeon-il/Pando
+2026-11-01T02:30:33.6176917Z ##[group]Getting Git version info
+2026-11-01T02:30:33.6178065Z Working directory is '/home/runner/work/Pando/Pando'
+2026-11-01T02:30:33.6179623Z [command]/usr/bin/git version
+2026-11-01T02:30:33.6226461Z git version 2.56.0
+2026-11-01T02:30:33.6244720Z ##[endgroup]
+2026-11-01T02:30:33.6257816Z Temporarily overriding HOME='/home/runner/work/_temp/c8f1c6dc-7e2e-4750-9989-38170751b2a9' before making global git config changes
+2026-11-01T02:30:33.6259997Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:30:33.6263313Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:30:33.6311262Z Deleting the contents of '/home/runner/work/Pando/Pando'
+2026-11-01T02:30:33.6315436Z ##[group]Initializing the repository
+2026-11-01T02:30:33.6333426Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+2026-11-01T02:30:33.6408105Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T02:30:33.6410062Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T02:30:33.6411409Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T02:30:33.6412381Z hint: call:
+2026-11-01T02:30:33.6413309Z hint:
+2026-11-01T02:30:33.6414036Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T02:30:33.6414735Z hint:
+2026-11-01T02:30:33.6415255Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T02:30:33.6416255Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T02:30:33.6417311Z hint:
+2026-11-01T02:30:33.6417835Z hint: 	git branch -m <name>
+2026-11-01T02:30:33.6418579Z hint:
+2026-11-01T02:30:33.6419155Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T02:30:33.6420057Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+2026-11-01T02:30:33.6428846Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+2026-11-01T02:30:33.6532131Z ##[endgroup]
+2026-11-01T02:30:33.6533057Z ##[group]Disabling automatic garbage collection
+2026-11-01T02:30:33.6533696Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T02:30:33.6582331Z ##[endgroup]
+2026-11-01T02:30:33.6583185Z ##[group]Setting up auth
+2026-11-01T02:30:33.6589374Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:30:33.6632008Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:30:33.6954114Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:30:33.6993339Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:30:33.7203726Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:30:33.7243370Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:30:33.7459589Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T02:30:33.7503357Z ##[endgroup]
+2026-11-01T02:30:33.7504101Z ##[group]Fetching the repository
+2026-11-01T02:30:33.7512870Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +84bf8312a09b53215a551eeb74d48f6df4750428:refs/remotes/origin/work/ui
+2026-11-01T02:30:35.7769833Z From https://github.com/kimjeon-il/Pando
+2026-11-01T02:30:35.7770395Z  * [new ref]         84bf8312a09b53215a551eeb74d48f6df4750428 -> origin/work/ui
+2026-11-01T02:30:35.7772659Z ##[endgroup]
+2026-11-01T02:30:35.7773131Z ##[group]Determining the checkout info
+2026-11-01T02:30:35.7774986Z ##[endgroup]
+2026-11-01T02:30:35.7780779Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T02:30:35.7831889Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T02:30:35.7866310Z ##[group]Checking out the ref
+2026-11-01T02:30:35.7871131Z [command]/usr/bin/git checkout --progress --force -B work/ui refs/remotes/origin/work/ui
+2026-11-01T02:30:36.1446548Z Switched to a new branch 'work/ui'
+2026-11-01T02:30:36.1465922Z branch 'work/ui' set up to track 'origin/work/ui'.
+2026-11-01T02:30:36.1477863Z ##[endgroup]
+2026-11-01T02:30:36.1520049Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T02:30:36.1553478Z 84bf8312a09b53215a551eeb74d48f6df4750428
+2026-11-01T02:30:36.1566909Z ##[group]Removing auth
+2026-11-01T02:30:36.1568979Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:30:36.1628180Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:30:36.1847446Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:30:36.1880450Z http.https://github.com/.extraheader
+2026-11-01T02:30:36.1886739Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-01T02:30:36.1937514Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:30:36.2150182Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:30:36.2191117Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:30:36.2411890Z ##[endgroup]
+2026-11-01T02:30:36.2739857Z ##[group]Run actions/setup-node@v4
+2026-11-01T02:30:36.2740136Z with:
+2026-11-01T02:30:36.2740353Z   node-version: 24
+2026-11-01T02:30:36.2740540Z   always-auth: false
+2026-11-01T02:30:36.2740719Z   check-latest: false
+2026-11-01T02:30:36.2742888Z   token: ***
+2026-11-01T02:30:36.2743104Z ##[endgroup]
+2026-11-01T02:30:36.3963038Z (node:2189) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:30:36.3963706Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:30:36.3964452Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-11-01T02:30:36.3967382Z ##[group]Environment details
+2026-11-01T02:30:36.7042556Z node: v24.22.1
+2026-11-01T02:30:36.7043032Z npm: 11.19.1
+2026-11-01T02:30:36.7043300Z yarn: 1.22.22
+2026-11-01T02:30:36.7044010Z ##[endgroup]
+2026-11-01T02:30:36.7187619Z ##[group]Run pnpm/action-setup@v4
+2026-11-01T02:30:36.7187843Z with:
+2026-11-01T02:30:36.7188009Z   dest: ~/setup-pnpm
+2026-11-01T02:30:36.7188184Z   run_install: null
+2026-11-01T02:30:36.7188559Z   cache: false
+2026-11-01T02:30:36.7188761Z   cache_dependency_path: pnpm-lock.yaml
+2026-11-01T02:30:36.7188998Z   package_json_file: package.json
+2026-11-01T02:30:36.7189196Z   standalone: false
+2026-11-01T02:30:36.7189367Z ##[endgroup]
+2026-11-01T02:30:36.8392025Z ##[group]Running self-installer...
+2026-11-01T02:30:37.1719284Z (node:2233) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:30:37.1720938Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:30:37.6428682Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:30:37.6507271Z Packages: +1
+2026-11-01T02:30:37.6508033Z +
+2026-11-01T02:30:38.0798974Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-11-01T02:30:38.1951137Z 
+2026-11-01T02:30:38.1951766Z dependencies:
+2026-11-01T02:30:38.1952207Z + pnpm 11.19.0 (12.16.1 is available)
+2026-11-01T02:30:38.1952522Z 
+2026-11-01T02:30:38.2296663Z Done in 1.2s
+2026-11-01T02:30:38.3306579Z ##[endgroup]
+2026-11-01T02:30:38.3307637Z Installation Completed!
+2026-11-01T02:30:38.3479259Z ##[group]Run pnpm install --frozen-lockfile
+2026-11-01T02:30:38.3479619Z [36;1mpnpm install --frozen-lockfile[0m
+2026-11-01T02:30:38.3505349Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:30:38.3505567Z env:
+2026-11-01T02:30:38.3505784Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:30:38.3506044Z ##[endgroup]
+2026-11-01T02:30:39.1750592Z ? Verifying lockfile against supply-chain policies (146 entries)...
+2026-11-01T02:30:39.2316586Z Lockfile is up to date, resolution step is skipped
+2026-11-01T02:30:39.3249690Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:30:39.3459599Z Packages: +120
+2026-11-01T02:30:39.3460157Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-11-01T02:30:39.5879500Z Packages are hard linked from the content-addressable store to the virtual store.
+2026-11-01T02:30:39.5881052Z   Content-addressable store is at: /home/runner/setup-pnpm/node_modules/.bin/store/v11
+2026-11-01T02:30:39.5881970Z   Virtual store is at:             node_modules/.pnpm
+2026-11-01T02:30:40.3269752Z Progress: resolved 120, reused 0, downloaded 118, added 55
+2026-11-01T02:30:40.7200286Z ✓ Lockfile passes supply-chain policies (146 entries in 1.5s)
+2026-11-01T02:30:41.1059999Z Progress: resolved 120, reused 0, downloaded 120, added 120, done
+2026-11-01T02:30:41.1450287Z .../esbuild@0.25.10/node_modules/esbuild postinstall$ node install.js
+2026-11-01T02:30:41.2211743Z .../esbuild@0.25.10/node_modules/esbuild postinstall: Done
+2026-11-01T02:30:41.3962581Z 
+2026-11-01T02:30:41.3963256Z devDependencies:
+2026-11-01T02:30:41.3963651Z + @eslint/js 10.0.1
+2026-11-01T02:30:41.3964036Z + @modelcontextprotocol/server 2.4.0
+2026-11-01T02:30:41.3964622Z + @playwright/test 1.62.1
+2026-11-01T02:30:41.3964950Z + esbuild 0.25.10
+2026-11-01T02:30:41.3965220Z + eslint 10.9.1
+2026-11-01T02:30:41.3965585Z + onnxruntime-web 1.30.0
+2026-11-01T02:30:41.3965905Z + postcss 8.5.30
+2026-11-01T02:30:41.3966290Z + tesseract.js 7.0.0
+2026-11-01T02:30:41.3966618Z + topojson-client 3.1.0
+2026-11-01T02:30:41.3966942Z + topojson-server 3.0.1
+2026-11-01T02:30:41.3967267Z + topojson-simplify 3.0.3
+2026-11-01T02:30:41.3967569Z + yaml 2.9.1
+2026-11-01T02:30:41.3967820Z + yazl 3.3.1
+2026-11-01T02:30:41.3968066Z + zod 4.6.7
+2026-11-01T02:30:41.3968199Z 
+2026-11-01T02:30:41.5030899Z Done in 3.1s using pnpm v11.19.0
+2026-11-01T02:30:41.5899538Z ##[group]Run node tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check
+2026-11-01T02:30:41.5900550Z [36;1mnode tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check[0m
+2026-11-01T02:30:41.5923729Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:30:41.5924040Z env:
+2026-11-01T02:30:41.5924352Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:30:41.5924754Z ##[endgroup]
+2026-11-01T02:30:41.6761668Z {"sourceSha256":"fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043","assets":{"js":{"file":"pandoeditor-core.js","sha256":"008ce95293a0a291fac586e95e6ec3c9d4684a92a0d552ea60eaca421355b895"},"wasm":{"file":"pandoeditor-core.wasm","sha256":"9671907356ac4b00d1f3bbb10a4a4ed85362b57c8c7d34a530d9ce20e32a70d5"}},"mode":"check"}
+2026-11-01T02:30:41.6901169Z ##[group]Run node --test tests/unit/core-document-read-model.test.mjs
+2026-11-01T02:30:41.6901826Z [36;1mnode --test tests/unit/core-document-read-model.test.mjs[0m
+2026-11-01T02:30:41.6924360Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:30:41.6924667Z env:
+2026-11-01T02:30:41.6924968Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:30:41.6925351Z ##[endgroup]
+2026-11-01T02:30:41.8901962Z ✔ service queries expose the same immutable accepted domain rows without writable stores (3.988735ms)
+2026-11-01T02:30:41.8918204Z ✔ document load replaces the same readonly facade atomically and releases the prior geometry archive and diagnostic (3.193963ms)
+2026-11-01T02:30:41.8920528Z ✔ accepted replacement reuses equal immutable geometry while rejecting changed coordinates under the same reference (2.687019ms)
+2026-11-01T02:30:41.8922345Z ✔ a complete C++ document delta changes only its authoritative object and retains every other domain exactly (2.849231ms)
+2026-11-01T02:30:41.8924080Z ✔ authoritative vector indices preserve multi-create order independently of delta object ordering (0.971226ms)
+2026-11-01T02:30:41.8925734Z ✔ whole-project history removal drops obsolete geometry versions and never reorders unrelated content (1.638959ms)
+2026-11-01T02:30:41.8927383Z ✔ a canonical archive delta can re-admit an existing identical version without duplicating or reallocating it (2.39265ms)
+2026-11-01T02:30:41.8929081Z ✔ authoritative domain order can reorder existing rows while provenance remains outside stored JSON (1.181919ms)
+2026-11-01T02:30:41.8930308Z ✔ an incomplete authoritative order rejects the entire delta without publishing any read state (0.825388ms)
+2026-11-01T02:30:41.8932269Z ✔ current document world rows share immutable authoritative identities/archive without another writable timeline source (1.29059ms)
+2026-11-01T02:30:41.8933841Z ✔ world projection rejects stale epochs and invalid refs without modifying the accepted document (0.64519ms)
+2026-11-01T02:30:41.8935524Z ✔ accepted metadata acknowledgements reproject current C++ rows while retaining unchanged view and geometry allocations (1.85452ms)
+2026-11-01T02:30:41.8937252Z ✔ authoritative header patches preserve explicit null and missing fields without admitting a second domain writer (2.134036ms)
+2026-11-01T02:30:41.8939090Z ✔ a retained C++ candidate projects immutable preview rows without publishing document, world or archive changes (1.086817ms)
+2026-11-01T02:30:41.9075199Z ℹ tests 14
+2026-11-01T02:30:41.9076032Z ℹ suites 0
+2026-11-01T02:30:41.9076614Z ℹ pass 14
+2026-11-01T02:30:41.9077095Z ℹ fail 0
+2026-11-01T02:30:41.9077549Z ℹ cancelled 0
+2026-11-01T02:30:41.9078069Z ℹ skipped 0
+2026-11-01T02:30:41.9078684Z ℹ todo 0
+2026-11-01T02:30:41.9079178Z ℹ duration_ms 180.464442
+2026-11-01T02:30:41.9203097Z ##[group]Run node --test tests/unit/check-automation.test.mjs tests/unit/check-runner.test.mjs
+2026-11-01T02:30:41.9203635Z [36;1mnode --test tests/unit/check-automation.test.mjs tests/unit/check-runner.test.mjs[0m
+2026-11-01T02:30:41.9224627Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:30:41.9224899Z env:
+2026-11-01T02:30:41.9225201Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:30:41.9225574Z ##[endgroup]
+2026-11-01T02:30:42.4200420Z ✔ every current browser workflow can be assigned before CI dependency planning (21.096345ms)
+2026-11-01T02:30:42.4250661Z ✔ reference-analysis command documentation is a passive CI input (44.253727ms)
+2026-11-01T02:30:42.4252155Z ✔ application CI prepares pinned data before planning and executing registered checks (27.280217ms)
+2026-11-01T02:30:42.4253252Z ✔ transitive source changes choose related units and declared HTTP browser consumers (10.222523ms)
+2026-11-01T02:30:42.4254398Z ✔ staged shell imports, re-exports and module URLs resolve to their source owners (14.995056ms)
+2026-11-01T02:30:42.4255296Z ✔ shell Node tools and nested tests keep source-relative paths (2.371499ms)
+2026-11-01T02:30:42.4255897Z ✔ verification startup resolves versioned fixture modules at the declared runtime base (8.980034ms)
+2026-11-01T02:30:42.4256528Z ✔ current native startup metadata seed resolves to the shared runtime owner (28.831586ms)
+2026-11-01T02:30:42.4257101Z ✔ module URL reads retain root configuration and workflow consumers (11.448797ms)
+2026-11-01T02:30:42.4257703Z ✔ staged dependencies still reject missing imports and paths outside the bundle root (2.874648ms)
+2026-11-01T02:30:42.4258267Z ✔ nested GIS Python changes select their existing external workflow (8.810492ms)
+2026-11-01T02:30:42.4259399Z ✔ new and moved tests are discovered; an unregistered browser test fails coverage (6.202741ms)
+2026-11-01T02:30:42.4260426Z ✔ deleted imports and missing declared prerequisite commands fail, not silently pass (3.361533ms)
+2026-11-01T02:30:42.4261330Z ✔ docs-only changes skip runtime work and unknown product code fails registration (12.117183ms)
+2026-11-01T02:30:42.4262292Z ✔ an unknown computed executable import fails with its owner and does not invent a dependency (4.382632ms)
+2026-11-01T02:30:42.4263217Z ✔ classic mixed arguments cannot hide a computed script behind a literal script (5.607816ms)
+2026-11-01T02:30:42.4264143Z ✔ fixed fixture directories are data leaves and their child changes retain test consumers (9.015707ms)
+2026-11-01T02:30:42.4265174Z ✔ cycles in prerequisites and missing fixture inputs fail inventory before execution (3.030159ms)
+2026-11-01T02:30:42.4266239Z ✔ a checker and its prerequisite implementation are inferred inputs, not copied file lists (13.212963ms)
+2026-11-01T02:30:42.4267340Z ✔ computing a script base URL does not make every sibling script a consumed input (1.916783ms)
+2026-11-01T02:30:42.4269383Z ✔ classic generated metadata resolves to its source owner without a root output file (7.624106ms)
+2026-11-01T02:30:42.4487132Z ✔ local comparison includes commits, index, working tree, untracked and both rename paths (112.006815ms)
+2026-11-01T02:30:42.4490070Z ✔ prerequisites and identical commands execute once; failed prerequisites block consumers visibly (0.855874ms)
+2026-11-01T02:30:42.4491278Z ✔ missing tools and test process failures are failures, never skipped passes (0.229642ms)
+2026-11-01T02:30:42.4499684Z ✔ a verifier runs again after a different profile replaces its staged input (0.351793ms)
+2026-11-01T02:30:42.4500841Z ✔ explicit manual coverage stays explicit while artifact auto dispatch stays affected-only (0.343861ms)
+2026-11-01T02:30:42.4544755Z ℹ tests 26
+2026-11-01T02:30:42.4545051Z ℹ suites 0
+2026-11-01T02:30:42.4545318Z ℹ pass 26
+2026-11-01T02:30:42.4545570Z ℹ fail 0
+2026-11-01T02:30:42.4545827Z ℹ cancelled 0
+2026-11-01T02:30:42.4546099Z ℹ skipped 0
+2026-11-01T02:30:42.4546353Z ℹ todo 0
+2026-11-01T02:30:42.4546679Z ℹ duration_ms 485.304585
+2026-11-01T02:30:42.4637293Z Post job cleanup.
+2026-11-01T02:30:42.5908773Z Pruning is unnecessary.
+2026-11-01T02:30:42.6045686Z Post job cleanup.
+2026-11-01T02:30:42.7160999Z (node:2367) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:30:42.7161988Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:30:42.7340867Z Post job cleanup.
+2026-11-01T02:30:42.8405682Z [command]/usr/bin/git version
+2026-11-01T02:30:42.8469611Z git version 2.56.0
+2026-11-01T02:30:42.8522942Z Temporarily overriding HOME='/home/runner/work/_temp/d96cebb8-769f-4b3c-979d-0c6565e6ce85' before making global git config changes
+2026-11-01T02:30:42.8524245Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:30:42.8525338Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:30:42.8580582Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:30:42.8633264Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:30:42.9110982Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:30:42.9190295Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:30:42.9505947Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:30:42.9558412Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:30:42.9939386Z Cleaning up orphan processes
+2026-11-01T02:30:43.0266893Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, pnpm/action-setup@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

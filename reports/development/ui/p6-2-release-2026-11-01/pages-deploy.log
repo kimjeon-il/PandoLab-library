@@ -1,0 +1,238 @@
+﻿2026-11-01T02:49:52.5092514Z Current runner version: '2.338.2'
+2026-11-01T02:49:52.5128625Z ##[group]Runner Image Provisioner
+2026-11-01T02:49:52.5130122Z Hosted Compute Agent
+2026-11-01T02:49:52.5131255Z Version: 20261021.618
+2026-11-01T02:49:52.5132584Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T02:49:52.5133967Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T02:49:52.5135413Z Worker ID: {eb1edfa9-ab56-4246-a49f-8d6f39bd3c4c}
+2026-11-01T02:49:52.5137070Z Region: centralus
+2026-11-01T02:49:52.5138137Z Cloud: Azure
+2026-11-01T02:49:52.5139298Z ##[endgroup]
+2026-11-01T02:49:52.5141725Z ##[group]Operating System
+2026-11-01T02:49:52.5142852Z Ubuntu
+2026-11-01T02:49:52.5143965Z 24.04.5
+2026-11-01T02:49:52.5144903Z LTS
+2026-11-01T02:49:52.5145932Z ##[endgroup]
+2026-11-01T02:49:52.5147245Z ##[group]Runner Image
+2026-11-01T02:49:52.5148327Z Image: ubuntu-24.04
+2026-11-01T02:49:52.5149676Z Version: 20261025.353.1
+2026-11-01T02:49:52.5151825Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T02:49:52.5154633Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T02:49:52.5155659Z ##[endgroup]
+2026-11-01T02:49:52.5157332Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T02:49:52.5159582Z Contents: read
+2026-11-01T02:49:52.5160341Z Metadata: read
+2026-11-01T02:49:52.5160917Z Pages: write
+2026-11-01T02:49:52.5161513Z ##[endgroup]
+2026-11-01T02:49:52.5164063Z Secret source: Actions
+2026-11-01T02:49:52.5165090Z Cache mode: write
+2026-11-01T02:49:52.5166081Z Prepare workflow directory
+2026-11-01T02:49:52.5559428Z Prepare all required actions
+2026-11-01T02:49:52.5633399Z Getting action download info
+2026-11-01T02:49:52.8420289Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-01T02:49:53.0748229Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-01T02:49:53.1946528Z Download action repository 'actions/download-artifact@v4' (SHA:d3f86a106a0bac45b974a628896c90dbdf5c8093)
+2026-11-01T02:49:53.6202604Z Download action repository 'actions/deploy-pages@v4' (SHA:d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e)
+2026-11-01T02:49:54.0360014Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-01T02:49:54.2981666Z Complete job name: deploy
+2026-11-01T02:49:54.3942900Z ##[group]Run actions/checkout@v4
+2026-11-01T02:49:54.3944217Z with:
+2026-11-01T02:49:54.3944978Z   persist-credentials: false
+2026-11-01T02:49:54.3945819Z   repository: kimjeon-il/Pando
+2026-11-01T02:49:54.3951809Z   token: ***
+2026-11-01T02:49:54.3952560Z   ssh-strict: true
+2026-11-01T02:49:54.3953293Z   ssh-user: git
+2026-11-01T02:49:54.3954012Z   clean: true
+2026-11-01T02:49:54.3954784Z   sparse-checkout-cone-mode: true
+2026-11-01T02:49:54.3955654Z   fetch-depth: 1
+2026-11-01T02:49:54.3956397Z   fetch-tags: false
+2026-11-01T02:49:54.3957683Z   show-progress: true
+2026-11-01T02:49:54.3958831Z   lfs: false
+2026-11-01T02:49:54.3959598Z   submodules: false
+2026-11-01T02:49:54.3960364Z   set-safe-directory: true
+2026-11-01T02:49:54.3961183Z   allow-unsafe-pr-checkout: false
+2026-11-01T02:49:54.3962365Z ##[endgroup]
+2026-11-01T02:49:54.8990104Z Syncing repository: kimjeon-il/Pando
+2026-11-01T02:49:54.8992311Z ##[group]Getting Git version info
+2026-11-01T02:49:54.8993377Z Working directory is '/home/runner/work/Pando/Pando'
+2026-11-01T02:49:54.9179416Z [command]/usr/bin/git version
+2026-11-01T02:49:54.9301481Z git version 2.56.0
+2026-11-01T02:49:54.9326977Z ##[endgroup]
+2026-11-01T02:49:54.9345450Z Temporarily overriding HOME='/home/runner/work/_temp/316b5877-a2de-404d-b42c-c70f8d307919' before making global git config changes
+2026-11-01T02:49:54.9348626Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:49:54.9352048Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:49:54.9641055Z Deleting the contents of '/home/runner/work/Pando/Pando'
+2026-11-01T02:49:54.9647735Z ##[group]Initializing the repository
+2026-11-01T02:49:54.9653325Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+2026-11-01T02:49:54.9752690Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T02:49:54.9754624Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T02:49:54.9755943Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T02:49:54.9757255Z hint: call:
+2026-11-01T02:49:54.9758102Z hint:
+2026-11-01T02:49:54.9759025Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T02:49:54.9760187Z hint:
+2026-11-01T02:49:54.9761533Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T02:49:54.9763212Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T02:49:54.9764859Z hint:
+2026-11-01T02:49:54.9765958Z hint: 	git branch -m <name>
+2026-11-01T02:49:54.9767337Z hint:
+2026-11-01T02:49:54.9768782Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T02:49:54.9770678Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+2026-11-01T02:49:54.9779369Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+2026-11-01T02:49:54.9841053Z ##[endgroup]
+2026-11-01T02:49:54.9843525Z ##[group]Disabling automatic garbage collection
+2026-11-01T02:49:54.9858598Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T02:49:54.9907784Z ##[endgroup]
+2026-11-01T02:49:54.9909808Z ##[group]Setting up auth
+2026-11-01T02:49:54.9920649Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:49:55.0101534Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:49:55.0749230Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:49:55.0793413Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:49:55.1044952Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:49:55.1091800Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:49:55.1340708Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T02:49:55.1392044Z ##[endgroup]
+2026-11-01T02:49:55.1393996Z ##[group]Fetching the repository
+2026-11-01T02:49:55.1406290Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +35bce38a3444c57bcaf60a9a12d30421e6602740:refs/remotes/origin/main
+2026-11-01T02:49:57.1257164Z From https://github.com/kimjeon-il/Pando
+2026-11-01T02:49:57.1257914Z  * [new ref]         35bce38a3444c57bcaf60a9a12d30421e6602740 -> origin/main
+2026-11-01T02:49:57.1265853Z ##[endgroup]
+2026-11-01T02:49:57.1266418Z ##[group]Determining the checkout info
+2026-11-01T02:49:57.1267373Z ##[endgroup]
+2026-11-01T02:49:57.1280923Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T02:49:57.1341699Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T02:49:57.1380385Z ##[group]Checking out the ref
+2026-11-01T02:49:57.1385153Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-01T02:49:57.5657313Z Switched to a new branch 'main'
+2026-11-01T02:49:57.5661356Z branch 'main' set up to track 'origin/main'.
+2026-11-01T02:49:57.5676336Z ##[endgroup]
+2026-11-01T02:49:57.5737548Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T02:49:57.5775610Z 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:49:57.5787908Z ##[group]Removing auth
+2026-11-01T02:49:57.5793701Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:49:57.5834619Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:49:57.6081100Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:49:57.6116364Z http.https://github.com/.extraheader
+2026-11-01T02:49:57.6124550Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-01T02:49:57.6169478Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:49:57.6415487Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:49:57.6459428Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:49:57.6702442Z ##[endgroup]
+2026-11-01T02:49:57.6977188Z ##[group]Run actions/setup-node@v4
+2026-11-01T02:49:57.6977580Z with:
+2026-11-01T02:49:57.6977795Z   node-version: 24
+2026-11-01T02:49:57.6978036Z   always-auth: false
+2026-11-01T02:49:57.6978273Z   check-latest: false
+2026-11-01T02:49:57.6980821Z   token: ***
+2026-11-01T02:49:57.6981073Z ##[endgroup]
+2026-11-01T02:49:57.8697146Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-11-01T02:49:57.8703432Z (node:2383) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:49:57.8704764Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:49:57.8708182Z ##[group]Environment details
+2026-11-01T02:49:58.3071944Z node: v24.22.1
+2026-11-01T02:49:58.3072376Z npm: 11.19.1
+2026-11-01T02:49:58.3072699Z yarn: 1.22.22
+2026-11-01T02:49:58.3073775Z ##[endgroup]
+2026-11-01T02:49:58.3220418Z ##[group]Run current="$(git ls-remote origin refs/heads/main | cut -f1)"
+2026-11-01T02:49:58.3221026Z [36;1mcurrent="$(git ls-remote origin refs/heads/main | cut -f1)"[0m
+2026-11-01T02:49:58.3221547Z [36;1mtest -n "$current" || { echo 'Cannot verify current main'; exit 1; }[0m
+2026-11-01T02:49:58.3221987Z [36;1mif [[ "$current" == "$GITHUB_SHA" ]]; then[0m
+2026-11-01T02:49:58.3222328Z [36;1m  echo 'deploy=true' >> "$GITHUB_OUTPUT"[0m
+2026-11-01T02:49:58.3222627Z [36;1melse[0m
+2026-11-01T02:49:58.3222877Z [36;1m  echo 'deploy=false' >> "$GITHUB_OUTPUT"[0m
+2026-11-01T02:49:58.3223360Z [36;1m  echo "Superseded by $current; preserving the current site" >> "$GITHUB_STEP_SUMMARY"[0m
+2026-11-01T02:49:58.3223811Z [36;1mfi[0m
+2026-11-01T02:49:58.3256037Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-01T02:49:58.3256414Z ##[endgroup]
+2026-11-01T02:49:58.5305012Z ##[group]Run actions/download-artifact@v4
+2026-11-01T02:49:58.5305348Z with:
+2026-11-01T02:49:58.5305645Z   name: pages-evidence-35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:49:58.5306065Z   path: /home/runner/work/_temp/pages-verification
+2026-11-01T02:49:58.5306386Z   merge-multiple: false
+2026-11-01T02:49:58.5306636Z   repository: kimjeon-il/Pando
+2026-11-01T02:49:58.5307180Z   run-id: 41266675990
+2026-11-01T02:49:58.5307398Z ##[endgroup]
+2026-11-01T02:49:58.6921242Z Downloading single artifact
+2026-11-01T02:49:58.7117141Z (node:2421) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:49:58.7118125Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:49:58.8771810Z Preparing to download the following artifacts:
+2026-11-01T02:49:58.8774076Z - pages-evidence-35bce38a3444c57bcaf60a9a12d30421e6602740 (ID: 13067856110, Size: 91905, Expected Digest: sha256:d94ea045b8f89d14c6a8b7367a239321b37bd21349727be92f366deedc8abcae)
+2026-11-01T02:49:59.0561064Z Redirecting to blob download url: https://productionresultssa7.blob.core.windows.net/actions-results/935e1c7d-0e57-80d6-b4af-4fdc2f4c5168/workflow-job-run-44f0d832-3a7f-5e66-abf2-4ab00c22d232/artifacts/7cfc245c7744478cff8af53a63e2c013c72f820d02245bfe689d4bdb8c044673.zip
+2026-11-01T02:49:59.0563255Z Starting download of artifact to: /home/runner/work/_temp/pages-verification
+2026-11-01T02:49:59.1865662Z (node:2421) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2026-11-01T02:49:59.2419763Z SHA256 digest of downloaded artifact is d94ea045b8f89d14c6a8b7367a239321b37bd21349727be92f366deedc8abcae
+2026-11-01T02:49:59.2421119Z Artifact download completed successfully.
+2026-11-01T02:49:59.2421907Z Total of 1 artifact(s) downloaded
+2026-11-01T02:49:59.2425245Z Download artifact has finished successfully
+2026-11-01T02:49:59.2640995Z ##[group]Run actions/deploy-pages@v4
+2026-11-01T02:49:59.2641584Z with:
+2026-11-01T02:49:59.2647166Z   token: ***
+2026-11-01T02:49:59.2647580Z   timeout: 600000
+2026-11-01T02:49:59.2647968Z   error_count: 10
+2026-11-01T02:49:59.2648373Z   reporting_interval: 5000
+2026-11-01T02:49:59.2648844Z   artifact_name: github-pages
+2026-11-01T02:49:59.2649311Z   preview: false
+2026-11-01T02:49:59.2649688Z ##[endgroup]
+2026-11-01T02:49:59.4599111Z (node:2434) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:49:59.4600674Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:49:59.6177599Z Fetching artifact metadata for "github-pages" in this workflow run
+2026-11-01T02:49:59.7601356Z Found 2 artifact(s)
+2026-11-01T02:49:59.7665702Z Creating Pages deployment with payload:
+2026-11-01T02:49:59.7666526Z {
+2026-11-01T02:49:59.7667398Z 	"artifact_id": 13067282322,
+2026-11-01T02:49:59.7668393Z 	"pages_build_version": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+2026-11-01T02:49:59.7771590Z 	"oidc_token": "***"
+2026-11-01T02:49:59.7772118Z }
+2026-11-01T02:50:00.8266517Z Created deployment for 35bce38a3444c57bcaf60a9a12d30421e6602740, ID: 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:50:05.8282693Z Getting Pages deployment status...
+2026-11-01T02:50:06.0330919Z Current status: syncing_files
+2026-11-01T02:50:11.0344972Z Getting Pages deployment status...
+2026-11-01T02:50:11.2031132Z Reported success!
+2026-11-01T02:50:11.2268266Z ##[group]Run node tools/verify-pages-deployment.mjs --url 'https://kimjeon-il.github.io/Pando/' --manifest "$RUNNER_TEMP/pages-verification/pages-evidence.json" --output "$RUNNER_TEMP/pages-verification/live.json"
+2026-11-01T02:50:11.2269864Z [36;1mnode tools/verify-pages-deployment.mjs --url 'https://kimjeon-il.github.io/Pando/' --manifest "$RUNNER_TEMP/pages-verification/pages-evidence.json" --output "$RUNNER_TEMP/pages-verification/live.json"[0m
+2026-11-01T02:50:11.2291253Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:50:11.2291518Z ##[endgroup]
+2026-11-01T02:50:12.0424663Z {"sourceCommit":"35bce38a3444c57bcaf60a9a12d30421e6602740","dataCommit":"139941d8056418547c796068304ba8db3696fe69","checkedFiles":10}
+2026-11-01T02:50:12.0588640Z ##[group]Run actions/upload-artifact@v4
+2026-11-01T02:50:12.0588995Z with:
+2026-11-01T02:50:12.0589310Z   name: pages-live-35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:50:12.0589759Z   path: /home/runner/work/_temp/pages-verification
+2026-11-01T02:50:12.0590134Z   if-no-files-found: error
+2026-11-01T02:50:12.0590438Z   compression-level: 6
+2026-11-01T02:50:12.0590711Z   overwrite: false
+2026-11-01T02:50:12.0590981Z   include-hidden-files: false
+2026-11-01T02:50:12.0591280Z ##[endgroup]
+2026-11-01T02:50:12.2329095Z (node:2467) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:50:12.2330665Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:50:12.2389491Z With the provided path, there will be 2 files uploaded
+2026-11-01T02:50:12.2397482Z Artifact name is valid!
+2026-11-01T02:50:12.2398000Z Root directory input is valid!
+2026-11-01T02:50:12.5293052Z Beginning upload of artifact content to blob storage
+2026-11-01T02:50:12.5613530Z (node:2467) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:50:12.7437771Z Uploaded bytes 92134
+2026-11-01T02:50:12.7850887Z Finished uploading artifact content to blob storage!
+2026-11-01T02:50:12.7852315Z SHA256 digest of uploaded artifact zip is ce7164aa9e311c3da9f5e91506e4c0a36b4837eab2693b11df412288f587cad4
+2026-11-01T02:50:12.7853436Z Finalizing artifact upload
+2026-11-01T02:50:13.2365900Z Artifact pages-live-35bce38a3444c57bcaf60a9a12d30421e6602740.zip successfully finalized. Artifact ID 13068025779
+2026-11-01T02:50:13.2368118Z Artifact pages-live-35bce38a3444c57bcaf60a9a12d30421e6602740 has been successfully uploaded! Final size is 92134 bytes. Artifact ID is 13068025779
+2026-11-01T02:50:13.2372726Z Artifact download URL: https://github.com/kimjeon-il/Pando/actions/runs/41266675990/artifacts/13068025779
+2026-11-01T02:50:13.2579747Z Post job cleanup.
+2026-11-01T02:50:13.3928321Z (node:2508) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:50:13.3929706Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:50:13.4170328Z Post job cleanup.
+2026-11-01T02:50:13.5172215Z [command]/usr/bin/git version
+2026-11-01T02:50:13.5222521Z git version 2.56.0
+2026-11-01T02:50:13.5271116Z Temporarily overriding HOME='/home/runner/work/_temp/a09cd76d-b0f4-4b04-b225-8d33cdb479e5' before making global git config changes
+2026-11-01T02:50:13.5272856Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:50:13.5277426Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:50:13.5346661Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:50:13.5389874Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:50:13.5698474Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:50:13.5775552Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:50:13.6044471Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:50:13.6102021Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:50:13.6620396Z Evaluate and set environment url
+2026-11-01T02:50:13.6623782Z Evaluated environment url: https://kimjeon-il.github.io/Pando/
+2026-11-01T02:50:13.6624742Z Cleaning up orphan processes
+2026-11-01T02:50:13.7162420Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/deploy-pages@v4, actions/download-artifact@v4, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

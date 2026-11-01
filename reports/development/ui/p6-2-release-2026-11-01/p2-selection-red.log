@@ -1,0 +1,15 @@
+# Retained RED execution excerpt; this is not a complete raw stdout/stderr capture.
+# Provenance: the original tool execution was observed before implementation;
+# the retained conversation summary preserves the following assertion excerpt.
+# The complete pre-compaction tool output is not available for verbatim export.
+# Command: "$CODEX_PRIMARY_RUNTIME_NODE" --test --test-isolation=none --test-name-pattern="auto validation/presentation-only push" tests/unit/p2-artifact-plan.test.mjs
+# Working directory: /workspace/scratch/b8bc66be8985/Pando
+# Exit code: 1
+# The failure was an actual assertion, not the earlier test-worker setup failure.
+
+✖ auto validation/presentation-only push leaves nine stale data families unselected
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ ['territorial','current-world','builtin-world','world-mesh','world-preview',
++  'world-bundle','shared-boundaries','prepared-mesh','places']
+- []
+at tests/unit/p2-artifact-plan.test.mjs:150

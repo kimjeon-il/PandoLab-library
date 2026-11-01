@@ -1,0 +1,57 @@
+{
+  "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+  "baselineMain": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+  "authorization": "User explicitly requested P6-2, main integration and deployment.",
+  "scope": [
+    "390x844 Chromium touch-emulated Viewer functionality",
+    "focused touch/read-model/check-registry/shared-boundary fixture contracts",
+    "Web publication closure and both App staging profiles",
+    "fast-forward main integration and existing Pages deployment with live response verification"
+  ],
+  "deferredUserCases": {
+    "automaticExecution": false,
+    "passed": false,
+    "deleted": false,
+    "cases": [
+      "July 1953 transition completion wait",
+      "injected-failure previous-year click timeout"
+    ]
+  },
+  "existingContractFailures": {
+    "observedRun": 41265483904,
+    "job": 124727574107,
+    "counts": {
+      "tests": 399,
+      "pass": 333,
+      "fail": 66,
+      "skipped": 0
+    },
+    "workflowStatus": "cancelled after corrective push; completed unit batches contain failures",
+    "disposition": "Unresolved. Not skipped, deleted, reclassified, or marked passing. Read-only triage compared immutable baseline/current sources and identified stale fixtures, paths and frozen-oracle contracts. No full baseline replay was performed.",
+    "evidence": [
+      "existing-core-contract-triage.md",
+      "existing-test-path-triage.md",
+      "existing-packaging-contract-triage.md",
+      "p3-contracts-before.log"
+    ]
+  },
+  "newRegressionCorrections": [
+    "Viewer pinch avoids editor-only cancellation; Editor async/error behavior retained",
+    "new test fixture event globals qualified for lint",
+    "read-model fixture canonical order and objectRef aligned",
+    "shared-boundary archive read from its actual data mount"
+  ],
+  "generationPolicy": {
+    "runtimeDataPin": "139941d8056418547c796068304ba8db3696fe69",
+    "compiledSourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043",
+    "unrelatedAutomaticGenerationCancelled": 41264286651,
+    "staleDiagnosticsPreserved": true,
+    "requiredWasmAndManualGenerationUnchanged": true
+  },
+  "completionLimits": [
+    "No claim of all repository checks being green.",
+    "No physical-device, Safari, WebView, IME or software-keyboard certification.",
+    "No native installer built or launched; App verification covers the two staging profiles.",
+    "No full behavioral parity or new performance benchmark claimed."
+  ]
+}

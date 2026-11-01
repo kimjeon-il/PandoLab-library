@@ -1,0 +1,5 @@
+Command: ["node", "--input-type=module", "-"]
+Scope: actual frontendAsset API; one synthetic gzip; no real data or generator execution.
+Exit code: 0
+
+{"fixture":"one synthetic gzip only","staleResolverError":"Missing frontend source: assets/data/countries-preview-shared-v0.36.1.json.gz","correctedPath":"/tmp/p6-2-boundary-owner-2crYf9/assets/data/countries-preview-shared-v0.36.1.json.gz","correctedReadMatchesExactFixtureBytes":true,"temporaryFixtureRemoved":true,"removedLogicalBytes":66}

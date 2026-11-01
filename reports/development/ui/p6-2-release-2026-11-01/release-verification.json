@@ -1,0 +1,384 @@
+{
+  "schema": "pando-p6-2-release-verification-v1",
+  "reportDate": "2026-11-01",
+  "request": "P6-2 · main 통합 · 배포",
+  "outcome": {
+    "p62Functional": "passed",
+    "mainIntegration": "completed",
+    "pagesDeployment": "completed",
+    "liveSelectedResponseIdentity": "passed: 10 files",
+    "allRepositoryCiGreen": false,
+    "independentLiveUiStartup": "unconfirmed: browser client blocked dynamic module",
+    "latestNativeWasmParity": "not passed: native 3 failures; downstream WASM parity skipped"
+  },
+  "identity": {
+    "checkedAt": "2026-11-01 02:57:01 UTC",
+    "appMain": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "appWorkUi": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "dataWorkUi": "67e54b893d754b58e58544d24ad3b2c0eed58e02",
+    "runtimeDataPin": "139941d8056418547c796068304ba8db3696fe69",
+    "pinFile": "config/library-data.json",
+    "pinFileBlob": "33835a6a694a8a0b628b6fbf407cc6c0cdaf0293"
+  },
+  "mainIntegration": {
+    "previousMain": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+    "main": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "workUi": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "method": "fast-forward",
+    "force": false,
+    "integratedAt": "2026-11-01 02:48:28 UTC",
+    "advance": 201,
+    "changedFiles": 229
+  },
+  "sourceTree": "d251ffa02c3026b7cdb65dc7e0cd30538a81e357",
+  "p62": {
+    "run": 41266380067,
+    "job": 124729942675,
+    "url": "https://github.com/kimjeon-il/Pando/actions/runs/41266380067",
+    "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "conclusion": "success",
+    "tests": 1,
+    "steps": 4,
+    "passed": 1,
+    "failed": 0,
+    "retries": 0,
+    "environment": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hasTouch": true,
+      "isMobile": true,
+      "locale": "ko-KR",
+      "timezone": "Asia/Seoul",
+      "fixedTime": "2026-10-31T00:00:00+09:00"
+    },
+    "browser": "151.0.7922.34",
+    "node": "v24.22.1",
+    "pageExceptions": 0,
+    "consoleErrors": 0,
+    "inputContracts": {
+      "tests": 18,
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0
+    },
+    "focusedLint": "passed",
+    "evidence": [
+      "narrow-release.json",
+      "narrow-release.log",
+      "screenshots-release/manifest.json"
+    ],
+    "screenshotOrigin": "CI Chromium emulation, not live Pages browser startup",
+    "visualObservation": "No clipping of inspected controls/forms. Dense map labels overlap and some edge labels crop."
+  },
+  "focusedContracts": [
+    {
+      "name": "read model",
+      "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+      "run": 41266000828,
+      "job": 124728815176,
+      "tests": 14,
+      "passed": 14,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "read-model-release.log"
+    },
+    {
+      "name": "registry and runner",
+      "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+      "run": 41266000828,
+      "job": 124728815176,
+      "tests": 26,
+      "passed": 26,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "read-model-release.log"
+    },
+    {
+      "name": "shared boundary pinned real-data fixture",
+      "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+      "run": 41266000828,
+      "job": 124728815278,
+      "tests": 8,
+      "assertions": 18,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "shared-boundary-final.log"
+    },
+    {
+      "name": "P2 source, selection and dependency graph",
+      "sourceCommit": "84bf8312a09b53215a551eeb74d48f6df4750428",
+      "run": 41265483853,
+      "job": 124727448843,
+      "tests": 49,
+      "passed": 49,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "p2-ci-checks.log"
+    }
+  ],
+  "staging": {
+    "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "run": 41266380067,
+    "webClosure": "passed",
+    "appProfiles": [
+      {
+        "profile": "test-fixture",
+        "files": 1131,
+        "bytes": 67149412,
+        "entities": 3,
+        "stage": "passed",
+        "verify": "passed"
+      },
+      {
+        "profile": "map-data",
+        "files": 1829,
+        "bytes": 263395493,
+        "entities": 258,
+        "stage": "passed",
+        "verify": "passed"
+      }
+    ],
+    "nativeInstallerBuilt": false,
+    "nativeInstallerLaunched": false,
+    "scope": "staging and dependency verification only"
+  },
+  "integrationPlan": {
+    "unitTests": 432,
+    "browserSpecs": 159,
+    "commands": [
+      "app-small-stage",
+      "app-small-verify",
+      "app-world-stage",
+      "app-world-verify",
+      "assets",
+      "commands",
+      "country-boundaries",
+      "country-preview",
+      "country-selftest",
+      "country-validity",
+      "country-validity-canonical",
+      "current-world",
+      "lint",
+      "object-registry",
+      "places-runtime",
+      "provenance",
+      "renderer-contract",
+      "runtime-boundaries",
+      "territorial-chunks",
+      "territorial-library-contract",
+      "territorial-storage",
+      "ui-architecture",
+      "ui-components",
+      "ui-ia",
+      "ui-layering",
+      "ui-spacing",
+      "version",
+      "version-contract",
+      "web-stage",
+      "worker-contracts"
+    ],
+    "prerequisites": [
+      "app-small-stage",
+      "app-small-verify",
+      "app-world-stage",
+      "core",
+      "country-preview",
+      "country-validity-canonical",
+      "generated"
+    ],
+    "deferredAutomatic": false,
+    "deferredManual": [
+      "tests/browser/deferred-builtin-timeline.spec.mjs"
+    ],
+    "mode": "list-only",
+    "countsArePassCounts": false,
+    "commandCount": 30
+  },
+  "generation": {
+    "unrelatedRunCancelled": 41264286651,
+    "runtimePublicationFromCancelledRun": false,
+    "irrelevantFamilySelectionBefore": 9,
+    "irrelevantFamilySelectionAfter": 0,
+    "staleFamilyDiagnosticsRetained": 11,
+    "requiredWasmAndManualModesPreserved": true,
+    "compiledSourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043",
+    "runtimePinUnchanged": true,
+    "finalP2Run": 41266380044,
+    "finalPlan": "success",
+    "finalGenerate": "skipped, unselected",
+    "evidence": [
+      "p2-ci-selection.json",
+      "p2-selection-boundaries.json",
+      "p2-cancelled-runtime-audit.json"
+    ]
+  },
+  "deployment": {
+    "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "dataCommit": "139941d8056418547c796068304ba8db3696fe69",
+    "checkedFiles": 10,
+    "url": "https://kimjeon-il.github.io/Pando/",
+    "run": 41266675990,
+    "buildJob": 124730803083,
+    "deployJob": 124731040846,
+    "deployReportedSuccessAt": "2026-11-01T02:50:11.2031132Z",
+    "liveVerifiedAt": "2026-11-01T02:50:12.0424663Z",
+    "command": "node tools/verify-pages-deployment.mjs --url https://kimjeon-il.github.io/Pando/ --manifest <staged pages-evidence.json> --output <live.json>",
+    "result": "success",
+    "evidenceKind": "Exact emitted live-verifier summary and complete build/deploy logs; detailed artifact retained by the CI run.",
+    "liveArtifactId": 13068025779,
+    "liveArtifactUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266675990/artifacts/13068025779"
+  },
+  "independentLiveBrowser": {
+    "url": "https://kimjeon-il.github.io/Pando/",
+    "observedAt": "2026-11-01T02:52:02Z",
+    "browserTitle": "판도연구소",
+    "initialUi": "Viewer menu, map canvas element, timeline controls and loading status were present.",
+    "subsequentUi": "연결이 복구되면 지도를 다시 불러옵니다. / 다시 시도",
+    "productConsoleError": "[PL-VIEWER-START] TypeError: Failed to fetch dynamically imported module: https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-35bce38a3444",
+    "retry": {
+      "performed": true,
+      "uiChanged": false
+    },
+    "directModuleObservation": {
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-35bce38a3444",
+      "result": "Browser Use cannot open the URL; browser reported net::ERR_BLOCKED_BY_CLIENT."
+    },
+    "interpretation": "The current browser client blocks the module request. This observation does not establish an HTTP 404 or a product regression, and does not establish a successful live UI startup.",
+    "limits": "No browser protection or network setting was changed. Live UI startup is unconfirmed in this browser; separate CI response checks and P6-2 functionality are recorded independently.",
+    "searchReader": "Public site and module URL were also unavailable through the search reader; this is not treated as a website outage.",
+    "buildIdObservedInScriptUrl": "0.36.0-build-35bce38a3444",
+    "matchingVerifiedSourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "sourceIdentityBasis": "The browser observed the 12-character build suffix; the full commit identity was independently verified from main and the Pages response verifier."
+  },
+  "remainingChecks": {
+    "run": 41266380046,
+    "job": 124730140093,
+    "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "conclusion": "failure",
+    "counts": {
+      "tests": 85,
+      "pass": 84,
+      "fail": 1,
+      "skipped": 0
+    },
+    "remainingFailure": {
+      "file": "tests/unit/current-browser-contracts.test.mjs",
+      "name": "CSS selects relevant UI checks without C++/GIS build or data generation commands",
+      "message": "Unclassified product change: assets/css/features/map-rendering.css",
+      "baselineEvidence": "The test and selector are unchanged from main 2b460e40; an earlier main run 40895207190 also recorded this exact path classification failure."
+    },
+    "lintIntroducedInThisTask": "Corrected; final narrow workflow lint step succeeded.",
+    "broaderPriorObservation": {
+      "run": 41265483904,
+      "job": 124727574107,
+      "counts": {
+        "tests": 399,
+        "pass": 333,
+        "fail": 66,
+        "skipped": 0
+      },
+      "status": "unresolved, not replayed or counted as passing"
+    },
+    "mainAutomaticChecks": {
+      "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+      "observedAtUtc": "2026-11-01T02:57:32Z",
+      "native": {
+        "run": 41266676029,
+        "job": 124730803184,
+        "conclusion": "failure",
+        "counts": {
+          "tests": 9,
+          "passed": 6,
+          "failed": 3,
+          "exitCode": 8,
+          "reportedPercentPassed": 67
+        },
+        "failures": [
+          {
+            "test": "web_content_codec_tests",
+            "path": "shared/tests/web-content-codec-tests.cpp",
+            "line": 50,
+            "function": "currentDtoReadersPreserveEveryFieldAndArrayOrder",
+            "assertion": "codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()"
+          },
+          {
+            "test": "web_content_command_tests",
+            "path": "shared/tests/web-content-command-tests.cpp",
+            "line": 144,
+            "function": "currentRawHydroAndLabelAnnotationsKeepPresence",
+            "assertion": "row.encode()==expected.encode()"
+          },
+          {
+            "test": "web_object_command_tests",
+            "path": "shared/tests/web-object-command-tests.cpp",
+            "line": 54,
+            "function": "apply",
+            "error": "INVALID_DATE: format",
+            "assertion": "false"
+          }
+        ],
+        "subsequentWasmParityAndWorkerLifecycle": "skipped after native test failure"
+      },
+      "architecture": {
+        "run": 41266676100,
+        "job": 124730992689,
+        "status": "in_progress",
+        "conclusion": null,
+        "observedFailureCount": null,
+        "countsMeaning": "null means not observed, never zero or passed"
+      },
+      "evidence": "main-automatic-checks.json"
+    },
+    "liveUiStartup": {
+      "status": "unconfirmed in the independent browser",
+      "reason": "dynamic module request blocked by current client: net::ERR_BLOCKED_BY_CLIENT",
+      "evidence": "live-browser-observation.json"
+    },
+    "doNotSumCountsAcrossRuns": true
+  },
+  "deferredCases": {
+    "cases": [
+      "July 1953 transition completion wait",
+      "injected-failure previous-year click timeout"
+    ],
+    "file": "tests/browser/deferred-builtin-timeline.spec.mjs",
+    "automaticExecution": false,
+    "rerunInThisTask": false,
+    "passed": false,
+    "deleted": false,
+    "manualCatalogGroup": "deferred-builtin-timeline",
+    "bodyAndHelperIdentityComparedTo": "9bc6856fa2218f758565acb8670f406c6dab8a41",
+    "ordinaryFloatingDateControlsRemainAutomatic": true
+  },
+  "limitations": [
+    "Not all repository CI is green; unresolved failures are retained.",
+    "No full previous-main baseline replay was performed; source triage is not proof all product behavior is unchanged.",
+    "Current main native 6/9 pass, 3 fail; subsequent WASM parity and lifecycle verification skipped.",
+    "Independent public UI startup could not be confirmed due to client-side blocked module request.",
+    "Live identity verifier checks 10 selected response files, not all modules or full UI startup.",
+    "No physical device, Safari, WebView, software keyboard or IME certification.",
+    "No native installer build or launch; two App profiles were staged and verified.",
+    "No new performance benchmark and no rerun of the two user-deferred cases."
+  ],
+  "cleanup": {
+    "knownExplicitTemporaryFilesRemoved": 8,
+    "logicalBytes": 449124,
+    "components": [
+      92157,
+      178674,
+      178293
+    ],
+    "physicalReclamationMeasured": false
+  },
+  "evidencePublication": {
+    "repository": "kimjeon-il/PandoLab-library-data",
+    "scope": "reports/development/ui/p6-2-release-2026-11-01/",
+    "method": "Git-data connector blob/tree/commit with expected-SHA ref update and remote hash/index verification",
+    "runtimePinMustRemain": "139941d8056418547c796068304ba8db3696fe69",
+    "repositoryHelperExecuted": false,
+    "publicationReceipt": "Recorded separately after publication; this document does not self-attest its own commit."
+  }
+}

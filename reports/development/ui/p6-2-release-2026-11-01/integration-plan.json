@@ -1,0 +1,49 @@
+{
+  "unitTests": 432,
+  "browserSpecs": 159,
+  "commands": [
+    "app-small-stage",
+    "app-small-verify",
+    "app-world-stage",
+    "app-world-verify",
+    "assets",
+    "commands",
+    "country-boundaries",
+    "country-preview",
+    "country-selftest",
+    "country-validity",
+    "country-validity-canonical",
+    "current-world",
+    "lint",
+    "object-registry",
+    "places-runtime",
+    "provenance",
+    "renderer-contract",
+    "runtime-boundaries",
+    "territorial-chunks",
+    "territorial-library-contract",
+    "territorial-storage",
+    "ui-architecture",
+    "ui-components",
+    "ui-ia",
+    "ui-layering",
+    "ui-spacing",
+    "version",
+    "version-contract",
+    "web-stage",
+    "worker-contracts"
+  ],
+  "prerequisites": [
+    "app-small-stage",
+    "app-small-verify",
+    "app-world-stage",
+    "core",
+    "country-preview",
+    "country-validity-canonical",
+    "generated"
+  ],
+  "deferredAutomatic": false,
+  "deferredManual": [
+    "tests/browser/deferred-builtin-timeline.spec.mjs"
+  ]
+}

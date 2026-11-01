@@ -1,0 +1,86 @@
+{
+  "run": 41266380046,
+  "job": 124730140093,
+  "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+  "conclusion": "failure",
+  "counts": {
+    "tests": 85,
+    "pass": 84,
+    "fail": 1,
+    "skipped": 0
+  },
+  "remainingFailure": {
+    "file": "tests/unit/current-browser-contracts.test.mjs",
+    "name": "CSS selects relevant UI checks without C++/GIS build or data generation commands",
+    "message": "Unclassified product change: assets/css/features/map-rendering.css",
+    "baselineEvidence": "The test and selector are unchanged from main 2b460e40; an earlier main run 40895207190 also recorded this exact path classification failure."
+  },
+  "lintIntroducedInThisTask": "Corrected; final narrow workflow lint step succeeded.",
+  "broaderPriorObservation": {
+    "run": 41265483904,
+    "job": 124727574107,
+    "counts": {
+      "tests": 399,
+      "pass": 333,
+      "fail": 66,
+      "skipped": 0
+    },
+    "status": "unresolved, not replayed or counted as passing"
+  },
+  "mainAutomaticChecks": {
+    "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "observedAtUtc": "2026-11-01T02:57:32Z",
+    "native": {
+      "run": 41266676029,
+      "job": 124730803184,
+      "conclusion": "failure",
+      "counts": {
+        "tests": 9,
+        "passed": 6,
+        "failed": 3,
+        "exitCode": 8,
+        "reportedPercentPassed": 67
+      },
+      "failures": [
+        {
+          "test": "web_content_codec_tests",
+          "path": "shared/tests/web-content-codec-tests.cpp",
+          "line": 50,
+          "function": "currentDtoReadersPreserveEveryFieldAndArrayOrder",
+          "assertion": "codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()"
+        },
+        {
+          "test": "web_content_command_tests",
+          "path": "shared/tests/web-content-command-tests.cpp",
+          "line": 144,
+          "function": "currentRawHydroAndLabelAnnotationsKeepPresence",
+          "assertion": "row.encode()==expected.encode()"
+        },
+        {
+          "test": "web_object_command_tests",
+          "path": "shared/tests/web-object-command-tests.cpp",
+          "line": 54,
+          "function": "apply",
+          "error": "INVALID_DATE: format",
+          "assertion": "false"
+        }
+      ],
+      "subsequentWasmParityAndWorkerLifecycle": "skipped after native test failure"
+    },
+    "architecture": {
+      "run": 41266676100,
+      "job": 124730992689,
+      "status": "in_progress",
+      "conclusion": null,
+      "observedFailureCount": null,
+      "countsMeaning": "null means not observed, never zero or passed"
+    },
+    "evidence": "main-automatic-checks.json"
+  },
+  "liveUiStartup": {
+    "status": "unconfirmed in the independent browser",
+    "reason": "dynamic module request blocked by current client: net::ERR_BLOCKED_BY_CLIENT",
+    "evidence": "live-browser-observation.json"
+  },
+  "doNotSumCountsAcrossRuns": true
+}

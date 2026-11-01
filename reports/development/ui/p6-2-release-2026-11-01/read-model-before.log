@@ -1,0 +1,788 @@
+﻿2026-11-01T02:10:23.3130633Z Current runner version: '2.338.2'
+2026-11-01T02:10:23.3151189Z ##[group]Runner Image Provisioner
+2026-11-01T02:10:23.3151897Z Hosted Compute Agent
+2026-11-01T02:10:23.3152452Z Version: 20261021.618
+2026-11-01T02:10:23.3153014Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T02:10:23.3153625Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T02:10:23.3154260Z Worker ID: {d09f4706-18ac-4c5c-830b-0153aeac7483}
+2026-11-01T02:10:23.3154843Z Region: westus3
+2026-11-01T02:10:23.3155328Z Cloud: Azure
+2026-11-01T02:10:23.3155872Z ##[endgroup]
+2026-11-01T02:10:23.3156935Z ##[group]Operating System
+2026-11-01T02:10:23.3157525Z Ubuntu
+2026-11-01T02:10:23.3157971Z 24.04.5
+2026-11-01T02:10:23.3158430Z LTS
+2026-11-01T02:10:23.3158918Z ##[endgroup]
+2026-11-01T02:10:23.3159386Z ##[group]Runner Image
+2026-11-01T02:10:23.3160057Z Image: ubuntu-24.04
+2026-11-01T02:10:23.3160540Z Version: 20261025.353.1
+2026-11-01T02:10:23.3161634Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T02:10:23.3162916Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T02:10:23.3163740Z ##[endgroup]
+2026-11-01T02:10:23.3164670Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T02:10:23.3166189Z Contents: read
+2026-11-01T02:10:23.3166769Z Metadata: read
+2026-11-01T02:10:23.3167602Z ##[endgroup]
+2026-11-01T02:10:23.3169547Z Secret source: Actions
+2026-11-01T02:10:23.3170494Z Cache mode: write
+2026-11-01T02:10:23.3171111Z Prepare workflow directory
+2026-11-01T02:10:23.3447341Z Prepare all required actions
+2026-11-01T02:10:23.3502473Z Getting action download info
+2026-11-01T02:10:23.6396571Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-01T02:10:23.7172074Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-01T02:10:23.9274262Z Complete job name: read-model
+2026-11-01T02:10:23.9948353Z ##[group]Run actions/checkout@v4
+2026-11-01T02:10:23.9949030Z with:
+2026-11-01T02:10:23.9949406Z   persist-credentials: false
+2026-11-01T02:10:23.9950008Z   repository: kimjeon-il/Pando
+2026-11-01T02:10:23.9953044Z   token: ***
+2026-11-01T02:10:23.9953404Z   ssh-strict: true
+2026-11-01T02:10:23.9953768Z   ssh-user: git
+2026-11-01T02:10:23.9954112Z   clean: true
+2026-11-01T02:10:23.9954485Z   sparse-checkout-cone-mode: true
+2026-11-01T02:10:23.9954912Z   fetch-depth: 1
+2026-11-01T02:10:23.9955261Z   fetch-tags: false
+2026-11-01T02:10:23.9955618Z   show-progress: true
+2026-11-01T02:10:23.9955985Z   lfs: false
+2026-11-01T02:10:23.9956325Z   submodules: false
+2026-11-01T02:10:23.9956703Z   set-safe-directory: true
+2026-11-01T02:10:23.9957120Z   allow-unsafe-pr-checkout: false
+2026-11-01T02:10:23.9957693Z ##[endgroup]
+2026-11-01T02:10:24.1844869Z Syncing repository: kimjeon-il/Pando
+2026-11-01T02:10:24.1846828Z ##[group]Getting Git version info
+2026-11-01T02:10:24.1847684Z Working directory is '/home/runner/work/Pando/Pando'
+2026-11-01T02:10:24.1848821Z [command]/usr/bin/git version
+2026-11-01T02:10:24.1895827Z git version 2.56.0
+2026-11-01T02:10:24.1911273Z ##[endgroup]
+2026-11-01T02:10:24.1926370Z Temporarily overriding HOME='/home/runner/work/_temp/0a10271c-f81c-4058-bd38-32e8aaf49e26' before making global git config changes
+2026-11-01T02:10:24.1928129Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:10:24.1932185Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:10:24.1971199Z Deleting the contents of '/home/runner/work/Pando/Pando'
+2026-11-01T02:10:24.1974883Z ##[group]Initializing the repository
+2026-11-01T02:10:24.1977649Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+2026-11-01T02:10:24.2050912Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T02:10:24.2052223Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T02:10:24.2053486Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T02:10:24.2055098Z hint: call:
+2026-11-01T02:10:24.2055784Z hint:
+2026-11-01T02:10:24.2056486Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T02:10:24.2057310Z hint:
+2026-11-01T02:10:24.2058086Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T02:10:24.2059357Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T02:10:24.2060495Z hint:
+2026-11-01T02:10:24.2061095Z hint: 	git branch -m <name>
+2026-11-01T02:10:24.2061749Z hint:
+2026-11-01T02:10:24.2062609Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T02:10:24.2064029Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+2026-11-01T02:10:24.2074516Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+2026-11-01T02:10:24.2114717Z ##[endgroup]
+2026-11-01T02:10:24.2115713Z ##[group]Disabling automatic garbage collection
+2026-11-01T02:10:24.2117363Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T02:10:24.2146456Z ##[endgroup]
+2026-11-01T02:10:24.2147412Z ##[group]Setting up auth
+2026-11-01T02:10:24.2151593Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:10:24.2180625Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:10:24.2490104Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:10:24.2525234Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:10:24.2762716Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:10:24.2800879Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:10:24.3048141Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T02:10:24.3092454Z ##[endgroup]
+2026-11-01T02:10:24.3093317Z ##[group]Fetching the repository
+2026-11-01T02:10:24.3105362Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90:refs/remotes/origin/work/ui
+2026-11-01T02:10:27.0713953Z From https://github.com/kimjeon-il/Pando
+2026-11-01T02:10:27.0715090Z  * [new ref]         fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90 -> origin/work/ui
+2026-11-01T02:10:27.0729046Z ##[endgroup]
+2026-11-01T02:10:27.0730296Z ##[group]Determining the checkout info
+2026-11-01T02:10:27.0731395Z ##[endgroup]
+2026-11-01T02:10:27.0732122Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T02:10:27.1025002Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T02:10:27.1372191Z ##[group]Checking out the ref
+2026-11-01T02:10:27.1375048Z [command]/usr/bin/git checkout --progress --force -B work/ui refs/remotes/origin/work/ui
+2026-11-01T02:10:27.4962870Z Switched to a new branch 'work/ui'
+2026-11-01T02:10:27.4964954Z branch 'work/ui' set up to track 'origin/work/ui'.
+2026-11-01T02:10:27.4976737Z ##[endgroup]
+2026-11-01T02:10:27.5020863Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T02:10:27.5049206Z fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:10:27.5057901Z ##[group]Removing auth
+2026-11-01T02:10:27.5061581Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:10:27.5094546Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:10:27.5299788Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:10:27.5328988Z http.https://github.com/.extraheader
+2026-11-01T02:10:27.5334451Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-01T02:10:27.5368812Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:10:27.5570313Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:10:27.5603588Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:10:27.5805016Z ##[endgroup]
+2026-11-01T02:10:27.6032436Z ##[group]Run actions/setup-node@v4
+2026-11-01T02:10:27.6032713Z with:
+2026-11-01T02:10:27.6032921Z   node-version: 24
+2026-11-01T02:10:27.6033138Z   always-auth: false
+2026-11-01T02:10:27.6033354Z   check-latest: false
+2026-11-01T02:10:27.6035327Z   token: ***
+2026-11-01T02:10:27.6035554Z ##[endgroup]
+2026-11-01T02:10:27.7182306Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-11-01T02:10:27.7183368Z (node:2168) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:10:27.7184323Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:10:27.7185651Z ##[group]Environment details
+2026-11-01T02:10:28.0084476Z node: v24.22.1
+2026-11-01T02:10:28.0084793Z npm: 11.19.1
+2026-11-01T02:10:28.0085031Z yarn: 1.22.22
+2026-11-01T02:10:28.0085752Z ##[endgroup]
+2026-11-01T02:10:28.0310155Z ##[group]Run node tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check
+2026-11-01T02:10:28.0310822Z [36;1mnode tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check[0m
+2026-11-01T02:10:28.0337535Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:10:28.0337767Z ##[endgroup]
+2026-11-01T02:10:28.1288158Z {"sourceSha256":"fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043","assets":{"js":{"file":"pandoeditor-core.js","sha256":"008ce95293a0a291fac586e95e6ec3c9d4684a92a0d552ea60eaca421355b895"},"wasm":{"file":"pandoeditor-core.wasm","sha256":"9671907356ac4b00d1f3bbb10a4a4ed85362b57c8c7d34a530d9ce20e32a70d5"}},"mode":"check"}
+2026-11-01T02:10:28.1557779Z ##[group]Run node --test tests/unit/core-document-read-model.test.mjs
+2026-11-01T02:10:28.1558398Z [36;1mnode --test tests/unit/core-document-read-model.test.mjs[0m
+2026-11-01T02:10:28.1584480Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:10:28.1584800Z ##[endgroup]
+2026-11-01T02:10:28.4014668Z ✔ service queries expose the same immutable accepted domain rows without writable stores (3.93459ms)
+2026-11-01T02:10:28.4034128Z ✔ document load replaces the same readonly facade atomically and releases the prior geometry archive and diagnostic (3.007625ms)
+2026-11-01T02:10:28.4057902Z ✔ accepted replacement reuses equal immutable geometry while rejecting changed coordinates under the same reference (2.680408ms)
+2026-11-01T02:10:28.4061327Z ✖ a complete C++ document delta changes only its authoritative object and retains every other domain exactly (6.214635ms)
+2026-11-01T02:10:28.4063593Z ✔ authoritative vector indices preserve multi-create order independently of delta object ordering (1.272639ms)
+2026-11-01T02:10:28.4064954Z ✖ whole-project history removal drops obsolete geometry versions and never reorders unrelated content (4.406511ms)
+2026-11-01T02:10:28.4090915Z ✖ a canonical archive delta can re-admit an existing identical version without duplicating or reallocating it (4.135198ms)
+2026-11-01T02:10:28.4111052Z ✖ authoritative domain order can reorder existing rows while provenance remains outside stored JSON (2.969748ms)
+2026-11-01T02:10:28.4112759Z ✔ an incomplete authoritative order rejects the entire delta without publishing any read state (1.131449ms)
+2026-11-01T02:10:28.4114497Z ✖ current document world rows share immutable authoritative identities/archive without another writable timeline source (1.277756ms)
+2026-11-01T02:10:28.4117469Z ✖ world projection rejects stale epochs and invalid refs without modifying the accepted document (1.13862ms)
+2026-11-01T02:10:28.4120743Z ✖ accepted metadata acknowledgements reproject current C++ rows while retaining unchanged view and geometry allocations (1.37408ms)
+2026-11-01T02:10:28.4122568Z ✔ authoritative header patches preserve explicit null and missing fields without admitting a second domain writer (2.091495ms)
+2026-11-01T02:10:28.4124403Z ✖ a retained C++ candidate projects immutable preview rows without publishing document, world or archive changes (0.785697ms)
+2026-11-01T02:10:28.4239191Z ℹ tests 14
+2026-11-01T02:10:28.4239576Z ℹ suites 0
+2026-11-01T02:10:28.4239969Z ℹ pass 6
+2026-11-01T02:10:28.4240225Z ℹ fail 8
+2026-11-01T02:10:28.4240493Z ℹ cancelled 0
+2026-11-01T02:10:28.4240779Z ℹ skipped 0
+2026-11-01T02:10:28.4241064Z ℹ todo 0
+2026-11-01T02:10:28.4241416Z ℹ duration_ms 232.712717
+2026-11-01T02:10:28.4363520Z 
+2026-11-01T02:10:28.4364231Z ✖ failing tests:
+2026-11-01T02:10:28.4364489Z 
+2026-11-01T02:10:28.4364872Z test at tests/unit/core-document-read-model.test.mjs:52:1
+2026-11-01T02:10:28.4365876Z ✖ a complete C++ document delta changes only its authoritative object and retains every other domain exactly (6.214635ms)
+2026-11-01T02:10:28.4366912Z   AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+2026-11-01T02:10:28.4367267Z   + actual - expected
+2026-11-01T02:10:28.4367480Z   ... Skipped lines
+2026-11-01T02:10:28.4367668Z   
+2026-11-01T02:10:28.4367823Z     {
+2026-11-01T02:10:28.4368175Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4368466Z       distributionEntries: [
+2026-11-01T02:10:28.4368678Z         {
+2026-11-01T02:10:28.4368850Z           certainty: 'high',
+2026-11-01T02:10:28.4369046Z   ...
+2026-11-01T02:10:28.4369213Z             coordinates: [
+2026-11-01T02:10:28.4369404Z   +           [
+2026-11-01T02:10:28.4369577Z   +             127.25,
+2026-11-01T02:10:28.4370200Z   +             37.75
+2026-11-01T02:10:28.4370385Z   +           ],
+2026-11-01T02:10:28.4370552Z   +           [
+2026-11-01T02:10:28.4370721Z   +             127.5,
+2026-11-01T02:10:28.4370896Z   +             38
+2026-11-01T02:10:28.4371067Z   +           ]
+2026-11-01T02:10:28.4371226Z   +         ],
+2026-11-01T02:10:28.4371806Z   +         type: 'LineString'
+2026-11-01T02:10:28.4372014Z   +       },
+2026-11-01T02:10:28.4372267Z   +       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4372529Z   +       version: 1
+2026-11-01T02:10:28.4372710Z   +     },
+2026-11-01T02:10:28.4372872Z   +     {
+2026-11-01T02:10:28.4373030Z   +       geojson: {
+2026-11-01T02:10:28.4373206Z   +         coordinates: [
+2026-11-01T02:10:28.4373399Z               5,
+2026-11-01T02:10:28.4373571Z               6
+2026-11-01T02:10:28.4373738Z             ],
+2026-11-01T02:10:28.4373919Z             type: 'Point'
+2026-11-01T02:10:28.4374104Z           },
+2026-11-01T02:10:28.4374413Z   ...
+2026-11-01T02:10:28.4374572Z         },
+2026-11-01T02:10:28.4374735Z   -     {
+2026-11-01T02:10:28.4374932Z   -       geojson: {
+2026-11-01T02:10:28.4375129Z   -         coordinates: [
+2026-11-01T02:10:28.4375321Z   -           [
+2026-11-01T02:10:28.4375489Z   -             127.25,
+2026-11-01T02:10:28.4375679Z   -             37.75
+2026-11-01T02:10:28.4375870Z   -           ],
+2026-11-01T02:10:28.4376034Z   -           [
+2026-11-01T02:10:28.4376197Z   -             127.5,
+2026-11-01T02:10:28.4376376Z   -             38
+2026-11-01T02:10:28.4376550Z   -           ]
+2026-11-01T02:10:28.4376722Z   -         ],
+2026-11-01T02:10:28.4376920Z   -         type: 'LineString'
+2026-11-01T02:10:28.4377134Z   -       },
+2026-11-01T02:10:28.4377419Z   -       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4377715Z   -       version: 1
+2026-11-01T02:10:28.4377903Z   -     }
+2026-11-01T02:10:28.4378083Z       ],
+2026-11-01T02:10:28.4378250Z       hydroEdits: [
+2026-11-01T02:10:28.4378596Z         {
+2026-11-01T02:10:28.4378791Z           geometry: null,
+2026-11-01T02:10:28.4379056Z           id: '22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4379305Z   
+2026-11-01T02:10:28.4379991Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:59:10)
+2026-11-01T02:10:28.4380590Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4380948Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4381363Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4381794Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:10:28.4382149Z       at Test.run (node:internal/test_runner/test:1467:12)
+2026-11-01T02:10:28.4382582Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+2026-11-01T02:10:28.4383018Z     generatedMessage: true,
+2026-11-01T02:10:28.4383263Z     code: 'ERR_ASSERTION',
+2026-11-01T02:10:28.4383479Z     actual: {
+2026-11-01T02:10:28.4383709Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4383967Z       schemaVersion: 14,
+2026-11-01T02:10:28.4384180Z       version: '0.34.0',
+2026-11-01T02:10:28.4384422Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4384766Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4385592Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4386679Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4387440Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4388205Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4388841Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4389172Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4389402Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4389980Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4390251Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4390510Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4391006Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4391831Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4392538Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4392997Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4393299Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4393785Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4394451Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false },
+2026-11-01T02:10:28.4394878Z       geometries: [
+2026-11-01T02:10:28.4395068Z         [Object], [Object],
+2026-11-01T02:10:28.4395262Z         [Object], [Object],
+2026-11-01T02:10:28.4395449Z         [Object], [Object],
+2026-11-01T02:10:28.4395632Z         [Object]
+2026-11-01T02:10:28.4395811Z       ]
+2026-11-01T02:10:28.4395966Z     },
+2026-11-01T02:10:28.4396128Z     expected: {
+2026-11-01T02:10:28.4396340Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4396565Z       schemaVersion: 14,
+2026-11-01T02:10:28.4396756Z       version: '0.34.0',
+2026-11-01T02:10:28.4396971Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4397255Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4398178Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4399176Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4400047Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4400696Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4401144Z       geometries: [
+2026-11-01T02:10:28.4401326Z         [Object], [Object],
+2026-11-01T02:10:28.4401518Z         [Object], [Object],
+2026-11-01T02:10:28.4401707Z         [Object], [Object],
+2026-11-01T02:10:28.4401891Z         [Object]
+2026-11-01T02:10:28.4402059Z       ],
+2026-11-01T02:10:28.4402360Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4402672Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4402893Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4403131Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4403377Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4403629Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4403967Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4404480Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4404960Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4405296Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4405600Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4406082Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4406758Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false }
+2026-11-01T02:10:28.4407187Z     },
+2026-11-01T02:10:28.4407390Z     operator: 'deepStrictEqual',
+2026-11-01T02:10:28.4407718Z     diff: 'simple'
+2026-11-01T02:10:28.4407900Z   }
+2026-11-01T02:10:28.4407995Z 
+2026-11-01T02:10:28.4408196Z test at tests/unit/core-document-read-model.test.mjs:75:1
+2026-11-01T02:10:28.4408894Z ✖ whole-project history removal drops obsolete geometry versions and never reorders unrelated content (4.406511ms)
+2026-11-01T02:10:28.4409464Z   AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+2026-11-01T02:10:28.4409927Z   + actual - expected
+2026-11-01T02:10:28.4410117Z   ... Skipped lines
+2026-11-01T02:10:28.4410291Z   
+2026-11-01T02:10:28.4410443Z     {
+2026-11-01T02:10:28.4410669Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4410952Z       distributionEntries: [
+2026-11-01T02:10:28.4411153Z         {
+2026-11-01T02:10:28.4411322Z           certainty: 'high',
+2026-11-01T02:10:28.4411514Z   ...
+2026-11-01T02:10:28.4411680Z             coordinates: [
+2026-11-01T02:10:28.4411866Z   +           [
+2026-11-01T02:10:28.4412046Z   +             127.25,
+2026-11-01T02:10:28.4412239Z   +             37.75
+2026-11-01T02:10:28.4412410Z   +           ],
+2026-11-01T02:10:28.4412576Z   +           [
+2026-11-01T02:10:28.4412738Z   +             127.5,
+2026-11-01T02:10:28.4412913Z   +             38
+2026-11-01T02:10:28.4413162Z   +           ]
+2026-11-01T02:10:28.4413389Z   +         ],
+2026-11-01T02:10:28.4413604Z   +         type: 'LineString'
+2026-11-01T02:10:28.4413797Z   +       },
+2026-11-01T02:10:28.4414049Z   +       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4414312Z   +       version: 1
+2026-11-01T02:10:28.4414488Z   +     },
+2026-11-01T02:10:28.4414651Z   +     {
+2026-11-01T02:10:28.4414940Z   +       geojson: {
+2026-11-01T02:10:28.4415117Z   +         coordinates: [
+2026-11-01T02:10:28.4415307Z               5,
+2026-11-01T02:10:28.4415470Z               6
+2026-11-01T02:10:28.4415630Z             ],
+2026-11-01T02:10:28.4415805Z             type: 'Point'
+2026-11-01T02:10:28.4415989Z           },
+2026-11-01T02:10:28.4416147Z   ...
+2026-11-01T02:10:28.4416308Z         },
+2026-11-01T02:10:28.4416463Z   -     {
+2026-11-01T02:10:28.4416686Z   -       geojson: {
+2026-11-01T02:10:28.4416865Z   -         coordinates: [
+2026-11-01T02:10:28.4417048Z   -           [
+2026-11-01T02:10:28.4417216Z   -             127.25,
+2026-11-01T02:10:28.4417391Z   -             37.75
+2026-11-01T02:10:28.4417573Z   -           ],
+2026-11-01T02:10:28.4417732Z   -           [
+2026-11-01T02:10:28.4417922Z   -             127.5,
+2026-11-01T02:10:28.4418096Z   -             38
+2026-11-01T02:10:28.4418258Z   -           ]
+2026-11-01T02:10:28.4418419Z   -         ],
+2026-11-01T02:10:28.4418636Z   -         type: 'LineString'
+2026-11-01T02:10:28.4418836Z   -       },
+2026-11-01T02:10:28.4419118Z   -       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4419448Z   -       version: 1
+2026-11-01T02:10:28.4419744Z   -     }
+2026-11-01T02:10:28.4419915Z       ],
+2026-11-01T02:10:28.4420085Z       hydroEdits: [
+2026-11-01T02:10:28.4420253Z         {
+2026-11-01T02:10:28.4420421Z           geometry: null,
+2026-11-01T02:10:28.4420653Z           id: '22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4420875Z   
+2026-11-01T02:10:28.4421319Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:83:10)
+2026-11-01T02:10:28.4421907Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4422397Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4422985Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4423581Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:10:28.4424107Z       at Test.run (node:internal/test_runner/test:1467:12)
+2026-11-01T02:10:28.4424615Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+2026-11-01T02:10:28.4424957Z     generatedMessage: true,
+2026-11-01T02:10:28.4425164Z     code: 'ERR_ASSERTION',
+2026-11-01T02:10:28.4425496Z     actual: {
+2026-11-01T02:10:28.4425716Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4425952Z       schemaVersion: 14,
+2026-11-01T02:10:28.4426147Z       version: '0.34.0',
+2026-11-01T02:10:28.4426372Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4426657Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4427442Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4428473Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4429189Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4430040Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4430646Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4430964Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4431211Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4431452Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4431694Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4432022Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4432372Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4432916Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4433550Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4433902Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4434219Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4434733Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4435430Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false },
+2026-11-01T02:10:28.4435856Z       geometries: [
+2026-11-01T02:10:28.4436039Z         [Object], [Object],
+2026-11-01T02:10:28.4436232Z         [Object], [Object],
+2026-11-01T02:10:28.4436419Z         [Object], [Object],
+2026-11-01T02:10:28.4436600Z         [Object]
+2026-11-01T02:10:28.4436775Z       ]
+2026-11-01T02:10:28.4436929Z     },
+2026-11-01T02:10:28.4437092Z     expected: {
+2026-11-01T02:10:28.4437323Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4437554Z       schemaVersion: 14,
+2026-11-01T02:10:28.4437745Z       version: '0.34.0',
+2026-11-01T02:10:28.4437976Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4438262Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4439080Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4440383Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4441117Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4441796Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4442256Z       geometries: [
+2026-11-01T02:10:28.4442438Z         [Object], [Object],
+2026-11-01T02:10:28.4442632Z         [Object], [Object],
+2026-11-01T02:10:28.4442824Z         [Object], [Object],
+2026-11-01T02:10:28.4443004Z         [Object]
+2026-11-01T02:10:28.4443171Z       ],
+2026-11-01T02:10:28.4443603Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4443915Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4444137Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4444387Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4444628Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4444884Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4445238Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4445770Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4446276Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4446610Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4446918Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4447420Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4448106Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false }
+2026-11-01T02:10:28.4448530Z     },
+2026-11-01T02:10:28.4448729Z     operator: 'deepStrictEqual',
+2026-11-01T02:10:28.4448937Z     diff: 'simple'
+2026-11-01T02:10:28.4449109Z   }
+2026-11-01T02:10:28.4449201Z 
+2026-11-01T02:10:28.4449408Z test at tests/unit/core-document-read-model.test.mjs:86:1
+2026-11-01T02:10:28.4450321Z ✖ a canonical archive delta can re-admit an existing identical version without duplicating or reallocating it (4.135198ms)
+2026-11-01T02:10:28.4451024Z   AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+2026-11-01T02:10:28.4451346Z   + actual - expected
+2026-11-01T02:10:28.4451535Z   ... Skipped lines
+2026-11-01T02:10:28.4451706Z   
+2026-11-01T02:10:28.4451862Z     {
+2026-11-01T02:10:28.4452099Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4452372Z       distributionEntries: [
+2026-11-01T02:10:28.4452568Z         {
+2026-11-01T02:10:28.4452737Z           certainty: 'high',
+2026-11-01T02:10:28.4452923Z   ...
+2026-11-01T02:10:28.4453089Z             coordinates: [
+2026-11-01T02:10:28.4453280Z   +           [
+2026-11-01T02:10:28.4453457Z   +             127.25,
+2026-11-01T02:10:28.4453635Z   +             37.75
+2026-11-01T02:10:28.4453805Z   +           ],
+2026-11-01T02:10:28.4453974Z   +           [
+2026-11-01T02:10:28.4454136Z   +             127.5,
+2026-11-01T02:10:28.4454310Z   +             38
+2026-11-01T02:10:28.4454480Z   +           ]
+2026-11-01T02:10:28.4454641Z   +         ],
+2026-11-01T02:10:28.4454841Z   +         type: 'LineString'
+2026-11-01T02:10:28.4455039Z   +       },
+2026-11-01T02:10:28.4455293Z   +       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4455553Z   +       version: 1
+2026-11-01T02:10:28.4455734Z   +     },
+2026-11-01T02:10:28.4455891Z   +     {
+2026-11-01T02:10:28.4456051Z   +       geojson: {
+2026-11-01T02:10:28.4456235Z   +         coordinates: [
+2026-11-01T02:10:28.4456422Z               5,
+2026-11-01T02:10:28.4456588Z               6
+2026-11-01T02:10:28.4456750Z             ],
+2026-11-01T02:10:28.4456930Z             type: 'Point'
+2026-11-01T02:10:28.4457114Z           },
+2026-11-01T02:10:28.4457276Z   ...
+2026-11-01T02:10:28.4457433Z         },
+2026-11-01T02:10:28.4457589Z   -     {
+2026-11-01T02:10:28.4457751Z   -       geojson: {
+2026-11-01T02:10:28.4457938Z   -         coordinates: [
+2026-11-01T02:10:28.4458128Z   -           [
+2026-11-01T02:10:28.4458297Z   -             127.25,
+2026-11-01T02:10:28.4458478Z   -             37.75
+2026-11-01T02:10:28.4458659Z   -           ],
+2026-11-01T02:10:28.4458821Z   -           [
+2026-11-01T02:10:28.4458984Z   -             127.5,
+2026-11-01T02:10:28.4459167Z   -             38
+2026-11-01T02:10:28.4459333Z   -           ]
+2026-11-01T02:10:28.4459494Z   -         ],
+2026-11-01T02:10:28.4459874Z   -         type: 'LineString'
+2026-11-01T02:10:28.4460287Z   -       },
+2026-11-01T02:10:28.4460549Z   -       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4460811Z   -       version: 1
+2026-11-01T02:10:28.4460981Z   -     }
+2026-11-01T02:10:28.4461142Z       ],
+2026-11-01T02:10:28.4461308Z       hydroEdits: [
+2026-11-01T02:10:28.4461482Z         {
+2026-11-01T02:10:28.4461651Z           geometry: null,
+2026-11-01T02:10:28.4461900Z           id: '22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4462122Z   
+2026-11-01T02:10:28.4462578Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:91:10)
+2026-11-01T02:10:28.4463082Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4463410Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4463804Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4464210Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:10:28.4464546Z       at Test.run (node:internal/test_runner/test:1467:12)
+2026-11-01T02:10:28.4464952Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+2026-11-01T02:10:28.4465277Z     generatedMessage: true,
+2026-11-01T02:10:28.4465480Z     code: 'ERR_ASSERTION',
+2026-11-01T02:10:28.4465671Z     actual: {
+2026-11-01T02:10:28.4465896Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4466124Z       schemaVersion: 14,
+2026-11-01T02:10:28.4466318Z       version: '0.34.0',
+2026-11-01T02:10:28.4466539Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4466826Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4467838Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4468882Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4469755Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4470461Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4471075Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4471394Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4471628Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4471869Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4472123Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4472389Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4472748Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4473283Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4473778Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4474121Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4474430Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4474928Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4475611Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false },
+2026-11-01T02:10:28.4476039Z       geometries: [
+2026-11-01T02:10:28.4476229Z         [Object], [Object],
+2026-11-01T02:10:28.4476425Z         [Object], [Object],
+2026-11-01T02:10:28.4476616Z         [Object], [Object],
+2026-11-01T02:10:28.4476798Z         [Object]
+2026-11-01T02:10:28.4476965Z       ]
+2026-11-01T02:10:28.4477120Z     },
+2026-11-01T02:10:28.4477282Z     expected: {
+2026-11-01T02:10:28.4477702Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4477938Z       schemaVersion: 14,
+2026-11-01T02:10:28.4478131Z       version: '0.34.0',
+2026-11-01T02:10:28.4478355Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4478643Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4479456Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4480647Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4481357Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4482020Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4482483Z       geometries: [
+2026-11-01T02:10:28.4482662Z         [Object], [Object],
+2026-11-01T02:10:28.4482883Z         [Object], [Object],
+2026-11-01T02:10:28.4483083Z         [Object], [Object],
+2026-11-01T02:10:28.4483264Z         [Object]
+2026-11-01T02:10:28.4483431Z       ],
+2026-11-01T02:10:28.4483751Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4484065Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4484291Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4484530Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4484769Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4485138Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4485498Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4486020Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4486519Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4486857Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4487173Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4487670Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4488352Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false }
+2026-11-01T02:10:28.4488769Z     },
+2026-11-01T02:10:28.4488967Z     operator: 'deepStrictEqual',
+2026-11-01T02:10:28.4489183Z     diff: 'simple'
+2026-11-01T02:10:28.4489357Z   }
+2026-11-01T02:10:28.4489442Z 
+2026-11-01T02:10:28.4489789Z test at tests/unit/core-document-read-model.test.mjs:103:1
+2026-11-01T02:10:28.4490463Z ✖ authoritative domain order can reorder existing rows while provenance remains outside stored JSON (2.969748ms)
+2026-11-01T02:10:28.4491019Z   AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+2026-11-01T02:10:28.4491336Z   + actual - expected
+2026-11-01T02:10:28.4491533Z   ... Skipped lines
+2026-11-01T02:10:28.4491700Z   
+2026-11-01T02:10:28.4491852Z     {
+2026-11-01T02:10:28.4492084Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4492345Z       distributionEntries: [
+2026-11-01T02:10:28.4492539Z         {
+2026-11-01T02:10:28.4492716Z           certainty: 'high',
+2026-11-01T02:10:28.4492902Z   ...
+2026-11-01T02:10:28.4493064Z             coordinates: [
+2026-11-01T02:10:28.4493253Z   +           [
+2026-11-01T02:10:28.4493420Z   +             127.25,
+2026-11-01T02:10:28.4493611Z   +             37.75
+2026-11-01T02:10:28.4493784Z   +           ],
+2026-11-01T02:10:28.4493953Z   +           [
+2026-11-01T02:10:28.4494118Z   +             127.5,
+2026-11-01T02:10:28.4494291Z   +             38
+2026-11-01T02:10:28.4494455Z   +           ]
+2026-11-01T02:10:28.4494616Z   +         ],
+2026-11-01T02:10:28.4494929Z   +         type: 'LineString'
+2026-11-01T02:10:28.4495136Z   +       },
+2026-11-01T02:10:28.4495391Z   +       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4495648Z   +       version: 1
+2026-11-01T02:10:28.4495823Z   +     },
+2026-11-01T02:10:28.4495979Z   +     {
+2026-11-01T02:10:28.4496137Z   +       geojson: {
+2026-11-01T02:10:28.4496320Z   +         coordinates: [
+2026-11-01T02:10:28.4496523Z               5,
+2026-11-01T02:10:28.4496688Z               6
+2026-11-01T02:10:28.4496849Z             ],
+2026-11-01T02:10:28.4497016Z             type: 'Point'
+2026-11-01T02:10:28.4497201Z           },
+2026-11-01T02:10:28.4497357Z   ...
+2026-11-01T02:10:28.4497525Z         },
+2026-11-01T02:10:28.4497682Z   -     {
+2026-11-01T02:10:28.4497844Z   -       geojson: {
+2026-11-01T02:10:28.4498024Z   -         coordinates: [
+2026-11-01T02:10:28.4498211Z   -           [
+2026-11-01T02:10:28.4498376Z   -             127.25,
+2026-11-01T02:10:28.4498565Z   -             37.75
+2026-11-01T02:10:28.4498739Z   -           ],
+2026-11-01T02:10:28.4498906Z   -           [
+2026-11-01T02:10:28.4499076Z   -             127.5,
+2026-11-01T02:10:28.4499249Z   -             38
+2026-11-01T02:10:28.4499417Z   -           ]
+2026-11-01T02:10:28.4499586Z   -         ],
+2026-11-01T02:10:28.4500018Z   -         type: 'LineString'
+2026-11-01T02:10:28.4500210Z   -       },
+2026-11-01T02:10:28.4500464Z   -       id: 'fixture-water:22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4500719Z   -       version: 1
+2026-11-01T02:10:28.4500887Z   -     }
+2026-11-01T02:10:28.4501044Z       ],
+2026-11-01T02:10:28.4501217Z       hydroEdits: [
+2026-11-01T02:10:28.4501388Z         {
+2026-11-01T02:10:28.4501672Z           geometry: null,
+2026-11-01T02:10:28.4501914Z           id: '22000000-0000-4000-8000-000000000005',
+2026-11-01T02:10:28.4502182Z   
+2026-11-01T02:10:28.4502643Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:110:10)
+2026-11-01T02:10:28.4503157Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4503483Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4503873Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4504264Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:10:28.4504596Z       at Test.run (node:internal/test_runner/test:1467:12)
+2026-11-01T02:10:28.4504999Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+2026-11-01T02:10:28.4505333Z     generatedMessage: true,
+2026-11-01T02:10:28.4505536Z     code: 'ERR_ASSERTION',
+2026-11-01T02:10:28.4505727Z     actual: {
+2026-11-01T02:10:28.4505939Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4506174Z       schemaVersion: 14,
+2026-11-01T02:10:28.4506366Z       version: '0.34.0',
+2026-11-01T02:10:28.4506582Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4506868Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4507674Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4508700Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4509400Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4510235Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4510834Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4511154Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4511379Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4511625Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4511977Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4512237Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4512588Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4513114Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4513603Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4513939Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4514245Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4514751Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4515441Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false },
+2026-11-01T02:10:28.4515868Z       geometries: [
+2026-11-01T02:10:28.4516054Z         [Object], [Object],
+2026-11-01T02:10:28.4516246Z         [Object], [Object],
+2026-11-01T02:10:28.4516429Z         [Object], [Object],
+2026-11-01T02:10:28.4516624Z         [Object]
+2026-11-01T02:10:28.4516789Z       ]
+2026-11-01T02:10:28.4533285Z     },
+2026-11-01T02:10:28.4533492Z     expected: {
+2026-11-01T02:10:28.4533737Z       format: 'pandolab-project-state',
+2026-11-01T02:10:28.4533983Z       schemaVersion: 14,
+2026-11-01T02:10:28.4534179Z       version: '0.34.0',
+2026-11-01T02:10:28.4534409Z       savedAt: '2026-10-04T00:00:00.000Z',
+2026-11-01T02:10:28.4534705Z       baseDataset: 'external-territorial-entities',
+2026-11-01T02:10:28.4535505Z       landObjectModel: { schemaVersion: 2, coastlineAuthority: 'territorialEntities', purpose: 'lossless-fallback', directCreation: false, sourceProvenanceSchemaVersion: 1, canonicalProperties: [Array] },
+2026-11-01T02:10:28.4536708Z       territorialModel: { schemaVersion: 6, coastlineAuthority: 'territorialEntities', storage: 'territorialEntities', kinds: [Array], coverageModes: [Array] },
+2026-11-01T02:10:28.4537420Z       distributionModel: { schemaVersion: 3, sourceModes: [Array], valueKind: 'finite-number' },
+2026-11-01T02:10:28.4538092Z       timelineRecords: { schemaVersion: 3, lifetimes: [Array], geometryBindings: [Array], parentRelations: [Array], propertyBindings: [] },
+2026-11-01T02:10:28.4538550Z       geometries: [
+2026-11-01T02:10:28.4538737Z         [Object], [Object],
+2026-11-01T02:10:28.4538934Z         [Object], [Object],
+2026-11-01T02:10:28.4539125Z         [Object], [Object],
+2026-11-01T02:10:28.4539303Z         [Object]
+2026-11-01T02:10:28.4539468Z       ],
+2026-11-01T02:10:28.4539993Z       sourceInfo: { provider: 'web-worker', schemaVersion: 1, fixture: [Object] },
+2026-11-01T02:10:28.4540323Z       labels: [ [Object] ],
+2026-11-01T02:10:28.4540550Z       genericFeatures: [ [Object] ],
+2026-11-01T02:10:28.4540798Z       hydroEdits: [ [Object] ],
+2026-11-01T02:10:28.4541035Z       distributionLayers: [ [Object] ],
+2026-11-01T02:10:28.4541305Z       distributionEntries: [ [Object] ],
+2026-11-01T02:10:28.4541650Z       labelSettings: { 'label:22000000-0000-4000-8000-000000000001': [Object] },
+2026-11-01T02:10:28.4542167Z       layerPresentation: { schemaVersion: 5, styles: [Object], objectStyles: [Object], objectOrder: [Array] },
+2026-11-01T02:10:28.4542663Z       territorialEntities: [ [Object], [Object], [Object], [Object] ],
+2026-11-01T02:10:28.4542998Z       physicalSourceInfo: { hydro: [Object] },
+2026-11-01T02:10:28.4543305Z       documentId: '1b314eb1-e095-5075-a89b-24866b16bb01',
+2026-11-01T02:10:28.4543796Z       projectSetup: { initialMonth: '2026-10', timelineRange: null, initialMapBounds: null, sourceMode: 'empty' },
+2026-11-01T02:10:28.4544488Z       distributionSettings: { renderMode: 'single', activeLayerId: '22000000-0000-4000-8000-000000000003', boundaryVisible: false }
+2026-11-01T02:10:28.4544913Z     },
+2026-11-01T02:10:28.4545112Z     operator: 'deepStrictEqual',
+2026-11-01T02:10:28.4545331Z     diff: 'simple'
+2026-11-01T02:10:28.4545629Z   }
+2026-11-01T02:10:28.4545725Z 
+2026-11-01T02:10:28.4545932Z test at tests/unit/core-document-read-model.test.mjs:125:1
+2026-11-01T02:10:28.4546723Z ✖ current document world rows share immutable authoritative identities/archive without another writable timeline source (1.277756ms)
+2026-11-01T02:10:28.4547335Z   TypeError [Error]: Cannot read properties of undefined (reading 'domain')
+2026-11-01T02:10:28.4547918Z       at timelineObjectKey (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/timeline-records.js:5:61)
+2026-11-01T02:10:28.4548565Z       at file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:70:39
+2026-11-01T02:10:28.4548995Z       at Array.map (<anonymous>)
+2026-11-01T02:10:28.4549470Z       at worldAgainst (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:69:33)
+2026-11-01T02:10:28.4550364Z       at Object.projectWorld (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:85:47)
+2026-11-01T02:10:28.4551093Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:130:23)
+2026-11-01T02:10:28.4551580Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4551914Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4552298Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4552686Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:10:28.4552876Z 
+2026-11-01T02:10:28.4553068Z test at tests/unit/core-document-read-model.test.mjs:145:1
+2026-11-01T02:10:28.4553811Z ✖ world projection rejects stale epochs and invalid refs without modifying the accepted document (1.13862ms)
+2026-11-01T02:10:28.4554337Z   AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+2026-11-01T02:10:28.4554652Z   + actual - expected
+2026-11-01T02:10:28.4554833Z   
+2026-11-01T02:10:28.4554999Z   + Comparison {}
+2026-11-01T02:10:28.4555180Z   - Comparison {
+2026-11-01T02:10:28.4555403Z   -   code: 'PL-CORE-RESPONSE'
+2026-11-01T02:10:28.4555606Z   - }
+2026-11-01T02:10:28.4555761Z   
+2026-11-01T02:10:28.4556195Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:148:10)
+2026-11-01T02:10:28.4556680Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4557002Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4557381Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4557758Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:10:28.4558096Z       at Test.run (node:internal/test_runner/test:1467:12)
+2026-11-01T02:10:28.4558497Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+2026-11-01T02:10:28.4558825Z     generatedMessage: true,
+2026-11-01T02:10:28.4559031Z     code: 'ERR_ASSERTION',
+2026-11-01T02:10:28.4559360Z     actual: TypeError: Cannot read properties of undefined (reading 'domain')
+2026-11-01T02:10:28.4560110Z         at timelineObjectKey (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/timeline-records.js:5:61)
+2026-11-01T02:10:28.4560745Z         at file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:70:39
+2026-11-01T02:10:28.4561151Z         at Array.map (<anonymous>)
+2026-11-01T02:10:28.4561639Z         at worldAgainst (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:69:33)
+2026-11-01T02:10:28.4562341Z         at Object.projectWorld (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:85:47)
+2026-11-01T02:10:28.4563041Z         at assert.throws.code (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:148:29)
+2026-11-01T02:10:28.4563481Z         at getActual (node:assert:611:5)
+2026-11-01T02:10:28.4563865Z         at strict.throws (node:assert:759:24)
+2026-11-01T02:10:28.4564372Z         at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:148:10)
+2026-11-01T02:10:28.4564857Z         at Test.runInAsyncScope (node:async_hooks:227:14),
+2026-11-01T02:10:28.4565155Z     expected: { code: 'PL-CORE-RESPONSE' },
+2026-11-01T02:10:28.4565387Z     operator: 'throws',
+2026-11-01T02:10:28.4565570Z     diff: 'simple'
+2026-11-01T02:10:28.4565742Z   }
+2026-11-01T02:10:28.4565826Z 
+2026-11-01T02:10:28.4566022Z test at tests/unit/core-document-read-model.test.mjs:153:1
+2026-11-01T02:10:28.4566748Z ✖ accepted metadata acknowledgements reproject current C++ rows while retaining unchanged view and geometry allocations (1.37408ms)
+2026-11-01T02:10:28.4567338Z   TypeError [Error]: Cannot read properties of undefined (reading 'domain')
+2026-11-01T02:10:28.4567907Z       at timelineObjectKey (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/timeline-records.js:5:61)
+2026-11-01T02:10:28.4568541Z       at file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:70:39
+2026-11-01T02:10:28.4568946Z       at Array.map (<anonymous>)
+2026-11-01T02:10:28.4569412Z       at worldAgainst (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:69:33)
+2026-11-01T02:10:28.4570208Z       at projectWorld (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:85:47)
+2026-11-01T02:10:28.4570887Z       at acceptWorld (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:104:21)
+2026-11-01T02:10:28.4571712Z       at Object.acceptTransition (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:124:24)
+2026-11-01T02:10:28.4572416Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:157:9)
+2026-11-01T02:10:28.4572898Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4573219Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4573392Z 
+2026-11-01T02:10:28.4573586Z test at tests/unit/core-document-read-model.test.mjs:182:1
+2026-11-01T02:10:28.4574259Z ✖ a retained C++ candidate projects immutable preview rows without publishing document, world or archive changes (0.785697ms)
+2026-11-01T02:10:28.4574808Z   TypeError [Error]: Cannot read properties of undefined (reading 'domain')
+2026-11-01T02:10:28.4575365Z       at timelineObjectKey (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/timeline-records.js:5:61)
+2026-11-01T02:10:28.4575995Z       at file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:70:39
+2026-11-01T02:10:28.4576384Z       at Array.map (<anonymous>)
+2026-11-01T02:10:28.4576847Z       at worldAgainst (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:69:33)
+2026-11-01T02:10:28.4577517Z       at projectWorld (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:85:47)
+2026-11-01T02:10:28.4578214Z       at Object.acceptWorld (file:///home/runner/work/Pando/Pando/shared/frontend/js/modules/core-document-read-model.js:104:21)
+2026-11-01T02:10:28.4578904Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/core-document-read-model.test.mjs:185:9)
+2026-11-01T02:10:28.4579371Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:10:28.4579861Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:10:28.4580267Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:10:28.4590279Z ##[error]Process completed with exit code 1.
+2026-11-01T02:10:28.4707942Z Post job cleanup.
+2026-11-01T02:10:28.5421738Z [command]/usr/bin/git version
+2026-11-01T02:10:28.5457397Z git version 2.56.0
+2026-11-01T02:10:28.5486783Z Temporarily overriding HOME='/home/runner/work/_temp/236b1aec-77a5-4b20-ab35-a24ba8276c53' before making global git config changes
+2026-11-01T02:10:28.5488079Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:10:28.5490237Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:10:28.5523681Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:10:28.5563898Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:10:28.5783186Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:10:28.5814347Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:10:28.6039098Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:10:28.6075855Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:10:28.6440542Z Cleaning up orphan processes
+2026-11-01T02:10:28.6752496Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

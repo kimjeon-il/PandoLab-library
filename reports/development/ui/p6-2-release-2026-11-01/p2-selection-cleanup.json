@@ -1,0 +1,41 @@
+{
+  "schema": "pando-p2-selection-cleanup-v1",
+  "syntheticFixture": {
+    "creator": "mkdtempSync(join(tmpdir(), \"pando-p2-\"))",
+    "cleanup": "t.after(() => rmSync(root, {recursive:true, force:true}))",
+    "owner": "tests/unit/p2-artifact-plan.test.mjs fixture(t)",
+    "scope": "Each test fixture contains only synthetic source, tiny WASM bytes, inputs, outputs, and its own temporary Git repository.",
+    "teardownFailuresReported": 0,
+    "independentPostRunFilesystemAbsenceProbePerformed": false,
+    "qualification": "The retained test output reports no teardown failure; it does not contain an independent residual-directory inventory."
+  },
+  "stagingProbe": {
+    "twoExistingTestsFailedBeforeStagingAssertions": true,
+    "failure": "spawnSync git EPERM during existing assertBranchState git rev-parse HEAD",
+    "fixturesUseSameAfterCleanupHook": true
+  },
+  "hydration": {
+    "originCommit": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+    "unchangedSourceDependenciesHydrated": [
+      "scripts/lib/p2-artifact-graph.mjs",
+      "scripts/p2-publish-artifacts.mjs",
+      "scripts/p1-plan-remote-checks.mjs",
+      "scripts/lib/check-changes.mjs",
+      "tools/library-data.mjs",
+      "tools/library-content.mjs",
+      "tools/library-git.mjs",
+      "tools/library-archive.mjs",
+      "tools/library-report-layout.mjs",
+      "tools/report-paths.mjs",
+      "tools/build-world-bundle.mjs"
+    ],
+    "disposition": "Baseline dependency copies remain in the partial local source workspace; these are not modified deliverables and were not added to this patch."
+  },
+  "evidenceSave": {
+    "testsRerun": false,
+    "sourceFilesModified": false,
+    "remoteActionsPerformed": false,
+    "patchMethod": "In-memory comparison of retained immutable baseline strings against current local files; no temporary baseline files needed.",
+    "artifactsPrefix": "p2-selection-"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "run": 41265483853,
+  "job": 124727448843,
+  "sourceCommit": "84bf8312a09b53215a551eeb74d48f6df4750428",
+  "verification": { "tests": 49, "pass": 49, "fail": 0, "skipped": 0 },
+  "selected": {
+    "wasm": false,
+    "families": [],
+    "bootstrap": true
+  },
+  "blocked": [],
+  "dataGenerationDeferred": true,
+  "reason": "automatic validation/presentation-only push outside declared generation ownership",
+  "changedPaths": [
+    ".github/workflows/integration-read-model-p6.yml",
+    ".github/workflows/viewer-functional-p6-2.yml",
+    "scripts/p2-artifact-plan.mjs",
+    "shared/frontend/js/modules/map-input-presentation.js",
+    "tests/unit/map-input-controller.test.mjs",
+    "tests/unit/p2-artifact-plan.test.mjs"
+  ],
+  "diffFallback": false,
+  "status": {
+    "wasm": {
+      "needed": false,
+      "reasons": [],
+      "sourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043"
+    },
+    "territorial": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "output bytes/hash"
+      ],
+      "blocked": [],
+      "inputFingerprint": "ba3a0196bf9b4f73a611d8672478daef2d38a9df1d4e1b95cdcbe01e362f7555",
+      "outputFingerprint": "c9554ddead6acfd5443beeb1f156784baf28624c9e6d83aac9896fa8cdb2e420"
+    },
+    "current-world": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint"
+      ],
+      "blocked": [],
+      "inputFingerprint": "c284adb66d0eca84aadeeef7620d0721a535d3ccecae6d36d7c390acaafbf943",
+      "outputFingerprint": "12dd9e38f54d732bcf0607006a8b6ff952ae95d3bbf8d90dd3e3209a2fbbbc4f"
+    },
+    "builtin-world": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "output bytes/hash",
+        "upstream: territorial, current-world"
+      ],
+      "blocked": [],
+      "inputFingerprint": "429c12b9836bd5444910a9220ec6d50d2238e42ba72c4942eb36f07961dbc4ec",
+      "outputFingerprint": "c881ec270d9c76fe4e7b1c825f79100cb7a7f6b5c0e1e901f8f5fc5a2a4fabf4"
+    },
+    "world-mesh": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "upstream: current-world"
+      ],
+      "blocked": [],
+      "inputFingerprint": "0ee3483e03c109767288a2251109800555c5a810bca661b1179ef422158ac381",
+      "outputFingerprint": "411de4f429bfec927136178384f4b40646feb0d3825d6316bb961e6d53bda841"
+    },
+    "world-preview": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "upstream: world-mesh, current-world"
+      ],
+      "blocked": [],
+      "inputFingerprint": "d18e2e062fa4319373a4ecc30b4013308fe7f546c18f7fd2bec97266efa5f702",
+      "outputFingerprint": "c0c8e5c62e738d798225bdd61b6941cc8801828ed3b09abe904f7caeaef3d1f5"
+    },
+    "world-bundle": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "upstream: world-preview"
+      ],
+      "blocked": [],
+      "inputFingerprint": "281a955d97c00ba13738ec982837b16abd13edab4ec0d644cbfd033c8160e9d7",
+      "outputFingerprint": "86260beb4034e543c5fe2e53a02f94fda43aff91d797cdd9637a3bb98a76e418"
+    },
+    "shared-boundaries": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "upstream: world-bundle"
+      ],
+      "blocked": [],
+      "inputFingerprint": "d9be491634c19182bc7dd3b2874d50a78c2e9ef6872beb846036f58bbc7602d5",
+      "outputFingerprint": "234f0f16b196c724d31561ef1638f4ecf7485e08da227437cbeac7412b2b1ec4"
+    },
+    "prepared-mesh": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "output bytes/hash",
+        "upstream: builtin-world, territorial, current-world"
+      ],
+      "blocked": [],
+      "inputFingerprint": "beca8c0dec250de3dd2152146db234455eee22eeb989af2494023b26dc196e27",
+      "outputFingerprint": "3461596eb8d0f0a5f66028df27509cf9f6cb7baf65041ed359ffa2d5bd063d6b"
+    },
+    "places": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint"
+      ],
+      "blocked": [],
+      "inputFingerprint": "578b764d97f9b44a1148ab4f609ef8f6701a0611fa62fbbff037e7301158049b",
+      "outputFingerprint": "7469eca633fbb3669dd2ea9bd25066f06f82828b22320169f82dd181663c80d7"
+    },
+    "hydro": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "unrecorded generation"
+      ],
+      "blocked": [],
+      "inputFingerprint": "9f23bc45a01bbe11156128f93873ff02b355f800f3857068acad27c0c6858b2d",
+      "outputFingerprint": "9f8e50210a9ff36e0a2c0c825a97f4bcf2217bf03dda22d6ecc4be57f9125966"
+    },
+    "terrain": {
+      "needed": true,
+      "selected": false,
+      "reasons": [
+        "unrecorded generation"
+      ],
+      "blocked": [],
+      "inputFingerprint": "ca52e9c63bff0af493ac1fccc191abb55bdc7d9cc7ca037208a5aa947eaf1dbb",
+      "outputFingerprint": "b548c372f478079966cae216c532394fb3bb9f269992617c808ff1ce74c08c33"
+    }
+  }
+}

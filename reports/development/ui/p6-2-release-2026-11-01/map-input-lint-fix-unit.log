@@ -1,0 +1,119 @@
+TAP version 13
+# Subtest: project replacement blocks wheel, pinch and an already started drag until released
+ok 1 - project replacement blocks wheel, pinch and an already started drag until released
+  ---
+  duration_ms: 2.341013
+  type: 'test'
+  ...
+# Subtest: image placement owns the gesture before map drawing or navigation starts
+ok 2 - image placement owns the gesture before map drawing or navigation starts
+  ---
+  duration_ms: 0.27885
+  type: 'test'
+  ...
+# Subtest: image point taps commit on release, while a drag pans without committing a point
+ok 3 - image point taps commit on release, while a drag pans without committing a point
+  ---
+  duration_ms: 0.229798
+  type: 'test'
+  ...
+# Subtest: second touch and pointercancel roll back image input rather than committing it
+ok 4 - second touch and pointercancel roll back image input rather than committing it
+  ---
+  duration_ms: 0.459676
+  type: 'test'
+  ...
+# Subtest: middle button navigates without starting the active drawing tool
+ok 5 - middle button navigates without starting the active drawing tool
+  ---
+  duration_ms: 0.321973
+  type: 'test'
+  ...
+# Subtest: second touch cancels the editing gesture before starting pinch
+ok 6 - second touch cancels the editing gesture before starting pinch
+  ---
+  duration_ms: 0.216348
+  type: 'test'
+  ...
+# Subtest: a simple pointer click keeps its original overlay target
+ok 7 - a simple pointer click keeps its original overlay target
+  ---
+  duration_ms: 0.154937
+  type: 'test'
+  ...
+# Subtest: native browser gestures are prevented only on the map surface
+ok 8 - native browser gestures are prevented only on the map surface
+  ---
+  duration_ms: 0.154417
+  type: 'test'
+  ...
+# Subtest: pointer capture begins only after navigation crosses the drag threshold
+ok 9 - pointer capture begins only after navigation crosses the drag threshold
+  ---
+  duration_ms: 1.405417
+  type: 'test'
+  ...
+# Subtest: pointer drag forwards left and upward surface deltas without sign conversion
+ok 10 - pointer drag forwards left and upward surface deltas without sign conversion
+  ---
+  duration_ms: 0.248425
+  type: 'test'
+  ...
+# Subtest: interactive draft handles do not begin map panning
+ok 11 - interactive draft handles do not begin map panning
+  ---
+  duration_ms: 0.206855
+  type: 'test'
+  ...
+# Subtest: genericFeature owns a drag, emits local coalesced samples, and does not pan
+ok 12 - genericFeature owns a drag, emits local coalesced samples, and does not pan
+  ---
+  duration_ms: 0.268956
+  type: 'test'
+  ...
+# Subtest: a second touch cancels an unfinished stroke and starts centroid pan and pinch
+ok 13 - a second touch cancels an unfinished stroke and starts centroid pan and pinch
+  ---
+  duration_ms: 0.257639
+  type: 'test'
+  ...
+# Subtest: wheel zoom uses the pointer as a stable focal point
+ok 14 - wheel zoom uses the pointer as a stable focal point
+  ---
+  duration_ms: 0.215306
+  type: 'test'
+  ...
+# Subtest: viewer pinch navigates without reporting an editing cancellation error
+ok 15 - viewer pinch navigates without reporting an editing cancellation error
+  ---
+  duration_ms: 2.513156
+  type: 'test'
+  ...
+# Subtest: editor pinch awaits gesture cancellation before dispatch and awaits its acknowledgement
+ok 16 - editor pinch awaits gesture cancellation before dispatch and awaits its acknowledgement
+  ---
+  duration_ms: 0.513305
+  type: 'test'
+  ...
+# Subtest: editor pinch reports gesture cancellation failures through its operation error boundary
+ok 17 - editor pinch reports gesture cancellation failures through its operation error boundary
+  ---
+  duration_ms: 0.412997
+  type: 'test'
+  ...
+# Subtest: editor pinch reports stroke cancellation failures through its operation error boundary
+ok 18 - editor pinch reports stroke cancellation failures through its operation error boundary
+  ---
+  duration_ms: 0.267253
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 33.139317
+

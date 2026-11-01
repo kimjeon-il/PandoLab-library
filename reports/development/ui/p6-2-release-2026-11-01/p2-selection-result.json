@@ -1,0 +1,117 @@
+{
+  "schema": "pando-p2-selection-evidence-v1",
+  "evidenceOperation": "Preserve previously observed outputs only; no tests or remote actions were rerun while saving.",
+  "cwd": "/workspace/scratch/b8bc66be8985/Pando",
+  "sourceBaselineCommit": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+  "finalRemoteCommitPrefixReportedByRoot": "84bf8312",
+  "remoteCommitNotRequeriedDuringEvidenceSave": true,
+  "modifiedPaths": [
+    "scripts/p2-artifact-plan.mjs",
+    "tests/unit/p2-artifact-plan.test.mjs"
+  ],
+  "nodeVersion": "v24.22.1",
+  "red": {
+    "command": "\"$CODEX_PRIMARY_RUNTIME_NODE\" --test --test-isolation=none --test-name-pattern=\"auto validation/presentation-only push\" tests/unit/p2-artifact-plan.test.mjs",
+    "exitCode": 1,
+    "test": "auto validation/presentation-only push leaves nine stale data families unselected",
+    "errorCode": "ERR_ASSERTION",
+    "actualSelectedFamilies": [
+      "territorial",
+      "current-world",
+      "builtin-world",
+      "world-mesh",
+      "world-preview",
+      "world-bundle",
+      "shared-boundaries",
+      "prepared-mesh",
+      "places"
+    ],
+    "expectedSelectedFamilies": [],
+    "evidenceFile": "p2-selection-red.log",
+    "capture": "retained execution-summary excerpt, not full raw tool output",
+    "executionBeforeImplementation": true,
+    "workerSetupFailure": false
+  },
+  "green": {
+    "command": "\"$CODEX_PRIMARY_RUNTIME_NODE\" --test --test-isolation=none --test-name-pattern=\"^(current coherent|a changed C\\+\\+|missing or corrupted|shared reference|scope overrides|publishing is limited|current output verification|auto )\" tests/unit/p2-artifact-plan.test.mjs",
+    "toolChunkId": "4001cd",
+    "exitCode": 0,
+    "tests": 12,
+    "pass": 12,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 820.913873,
+    "evidenceFile": "p2-selection-green.log",
+    "capture": "complete output field transcribed from the retained tool result"
+  },
+  "newRegressionSelection": {
+    "tests": 5,
+    "pass": 5,
+    "fail": 0,
+    "exitCode": 0,
+    "toolChunkId": "165a2f"
+  },
+  "adjacentStageProbe": {
+    "toolChunkId": "7e7fdb",
+    "exitCode": 1,
+    "tests": 14,
+    "pass": 12,
+    "fail": 2,
+    "failure": "Existing graph helper spawnSync git EPERM at git rev-parse HEAD",
+    "countedAsPassing": false,
+    "evidenceFile": "p2-selection-stage-limitations.log",
+    "capture": "explicit excerpt and run summary"
+  },
+  "review": {
+    "reviewer": "/root/p62_merge_review",
+    "mode": "independent read-only",
+    "blockingFindings": 0,
+    "testExecutionOrWritesByReviewer": false
+  },
+  "policy": {
+    "deferOnlyWhen": [
+      "event is push",
+      "manual scope is auto",
+      "changes is nonempty",
+      "no explicit families",
+      "existing WASM selection is false",
+      "every change is allowlisted and outside generation ownership"
+    ],
+    "preservedDiagnostics": [
+      "needed",
+      "reasons",
+      "inputFingerprint",
+      "outputFingerprint",
+      "blocked"
+    ],
+    "deferredFamilySelected": false,
+    "topLevelSelectedFamilies": [],
+    "topLevelBlockedFamilies": [],
+    "cliFields": [
+      "dataGenerationDeferred",
+      "dataGenerationDeferredReason"
+    ],
+    "assertArtifactsCurrentPreserved": true,
+    "publisherUnchanged": true,
+    "workflowTriggersUnchanged": true,
+    "receiptUnchanged": true
+  },
+  "originalRunLastObserved": {
+    "runId": 41264286651,
+    "generationJobId": 124723960136,
+    "observedAt": "2026-11-01T02:30:31Z",
+    "status": "in_progress",
+    "activeStep": "Commit verified phases locally, then publish one guarded result",
+    "appWorkUi": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+    "dataWorkUi": "67e54b893d754b58e58544d24ad3b2c0eed58e02",
+    "dataMain": "41a09133c2d78b1e960d7fcf969717883ba0c1b3"
+  },
+  "subsequentRootReport": {
+    "originalRunCancelledAt": "2026-11-01T02:31:08Z",
+    "dataWorkUiUnchanged": true,
+    "newP2RunId": 41265483853,
+    "provenance": "Parent agent message; no new remote query performed while saving evidence"
+  }
+}

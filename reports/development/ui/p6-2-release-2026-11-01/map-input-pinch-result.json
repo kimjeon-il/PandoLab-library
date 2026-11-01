@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "observedAt": "2026-11-01T02:22:58.469273+00:00",
+  "sourceRef": "e0baee5c",
+  "testPath": "tests/unit/map-input-controller.test.mjs",
+  "baseTestBlobSha": "bfd60ce395eb837a976e62c8079a86fc21232726",
+  "baseTestSha256": "cfaadb930d6b1f893c1fafb96f21ac453af8cfecc0d421a3601fefd24948643d",
+  "testSha256": "0d798c2a779cfd46bcd02ad1f61660d45f3a0c77179ffc11b9e1c4bcf981ccf4",
+  "testGitBlobSha": "831bdff4c56baa67fef615726fad12471331a617",
+  "testBytes": 18557,
+  "diff": {
+    "path": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/map-input-pinch-tests.patch",
+    "sha256": "a3a2804effe060baa2498f32a3393e90f182655ba3eeb4a769d51af47181fb7e",
+    "additions": 152,
+    "deletions": 0
+  },
+  "baseline": {
+    "status": "expected_red",
+    "sourceRef": "e0baee5c",
+    "oldPresentationBlobSha": "867148099c573405da5797b828dc359dcce20d07",
+    "oldPresentationSha256": "3d68d448ebf3e11fb30e94c051304a2b96805717ee042951c8cc67a7a96a4793",
+    "guardedPresentationSha256": "cea099b56af220f71ea9bccd8ec9a1001e0bd7b3aeed480f5a7c1fba20c989e0",
+    "testSha256": "0d798c2a779cfd46bcd02ad1f61660d45f3a0c77179ffc11b9e1c4bcf981ccf4",
+    "temporaryTestSha256": "0f87a20e8c54d519e1d15193586bfef29a02f38682fa0986c23b77628fca3fea",
+    "temporaryImportChanges": 2,
+    "command": [
+      "node",
+      "--test",
+      "--test-isolation=none",
+      "--test-reporter=tap",
+      "--test-name-pattern=viewer pinch navigates without reporting an editing cancellation error",
+      "/tmp/p6-2-pinch-before-test-3s8wyz2k.mjs"
+    ],
+    "exitCode": 1,
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/map-input-pinch-red.log",
+    "logSha256": "9b9e239efeb1c19e5bcf6b03b077bbdf3a20381c8554b74173ebb4092a1150f4",
+    "expectedFailureObserved": true,
+    "removedTemporaryFiles": [
+      {
+        "path": "/tmp/p6-2-pinch-old-c6u8c3x_.mjs",
+        "bytes": 12142
+      },
+      {
+        "path": "/tmp/p6-2-pinch-before-test-3s8wyz2k.mjs",
+        "bytes": 18577
+      }
+    ]
+  },
+  "verification": {
+    "command": [
+      "node",
+      "--test",
+      "--test-isolation=none",
+      "--test-reporter=tap",
+      "tests/unit/map-input-controller.test.mjs"
+    ],
+    "exitCode": 0,
+    "counts": {
+      "tests": 18,
+      "pass": 18,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "duration_ms": 29.915773
+    },
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/map-input-pinch-green.log",
+    "logSha256": "46fe4cdf9161ae19c8ace0a71704918e2a8c146b8f5c699baf2fcbbbf542ba4b",
+    "nodeVersion": "v24.22.1"
+  },
+  "newCases": [
+    "viewer actual second-touch pinch has no editing operation error and transforms view",
+    "editor awaits gesture cancellation before stroke dispatch and awaits acknowledgement",
+    "editor reports gesture cancellation rejection without dispatch",
+    "editor reports stroke cancellation rejection at the operation boundary"
+  ],
+  "preservedExistingTests": 14,
+  "modifiedPaths": [
+    "tests/unit/map-input-controller.test.mjs"
+  ],
+  "hydratedPaths": [
+    "tests/unit/map-input-controller.test.mjs",
+    "shared/frontend/js/modules/map-input-controller.js"
+  ],
+  "controllerBlobSha": "d98e503bbeaa2f1360ea71fc4f6427006c7cee54",
+  "controllerSha256": "0c5e630a7e29c27a703285ae69d3590a70a80138fc28c783be916a6ee7b043cf",
+  "guardedPresentationSha256": "cea099b56af220f71ea9bccd8ec9a1001e0bd7b3aeed480f5a7c1fba20c989e0",
+  "productionSourceEditsByAgent": [],
+  "runnerLimitation": "Default child-process isolation failed before named tests and emitted only ERR_TEST_FAILURE; red and green both ran with the documented --test-isolation=none option. Initial launch logs retained.",
+  "initialLaunchLogs": [
+    "map-input-pinch-before.log",
+    "map-input-pinch-before-tap.log"
+  ],
+  "temporaryCleanup": "All six task-owned temporary source/test files used across the three baseline attempts were removed after execution; 92157 logical bytes removed.",
+  "scope": "Only this unit file executed; no full suite, real dataset, WASM, remote mutation, or browser run."
+}

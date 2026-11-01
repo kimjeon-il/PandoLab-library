@@ -1,0 +1,286 @@
+﻿2026-11-01T02:37:57.5610352Z Current runner version: '2.338.2'
+2026-11-01T02:37:57.5636299Z ##[group]Runner Image Provisioner
+2026-11-01T02:37:57.5637240Z Hosted Compute Agent
+2026-11-01T02:37:57.5637878Z Version: 20261021.618
+2026-11-01T02:37:57.5638540Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T02:37:57.5639299Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T02:37:57.5639986Z Worker ID: {27bacfa8-f04f-4587-aeff-8712e8e85ef1}
+2026-11-01T02:37:57.5640743Z Region: eastus
+2026-11-01T02:37:57.5641360Z Cloud: Azure
+2026-11-01T02:37:57.5641962Z ##[endgroup]
+2026-11-01T02:37:57.5643877Z ##[group]Operating System
+2026-11-01T02:37:57.5644528Z Ubuntu
+2026-11-01T02:37:57.5645168Z 24.04.5
+2026-11-01T02:37:57.5645682Z LTS
+2026-11-01T02:37:57.5646190Z ##[endgroup]
+2026-11-01T02:37:57.5646814Z ##[group]Runner Image
+2026-11-01T02:37:57.5647416Z Image: ubuntu-24.04
+2026-11-01T02:37:57.5648008Z Version: 20261025.353.1
+2026-11-01T02:37:57.5649310Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T02:37:57.5650944Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T02:37:57.5651919Z ##[endgroup]
+2026-11-01T02:37:57.5653950Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T02:37:57.5656129Z Contents: read
+2026-11-01T02:37:57.5656869Z Metadata: read
+2026-11-01T02:37:57.5657430Z ##[endgroup]
+2026-11-01T02:37:57.5659620Z Secret source: Actions
+2026-11-01T02:37:57.5660688Z Cache mode: write
+2026-11-01T02:37:57.5661671Z Prepare workflow directory
+2026-11-01T02:37:57.5999742Z Prepare all required actions
+2026-11-01T02:37:57.6047971Z Getting action download info
+2026-11-01T02:37:57.8392317Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-01T02:37:57.9645920Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-01T02:37:58.0488624Z Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+2026-11-01T02:37:58.3414449Z Complete job name: shared-boundary-fixture
+2026-11-01T02:37:58.4331327Z ##[group]Run actions/checkout@v4
+2026-11-01T02:37:58.4332189Z with:
+2026-11-01T02:37:58.4332617Z   persist-credentials: false
+2026-11-01T02:37:58.4333374Z   repository: kimjeon-il/Pando
+2026-11-01T02:37:58.4336975Z   token: ***
+2026-11-01T02:37:58.4337394Z   ssh-strict: true
+2026-11-01T02:37:58.4337811Z   ssh-user: git
+2026-11-01T02:37:58.4338212Z   clean: true
+2026-11-01T02:37:58.4338644Z   sparse-checkout-cone-mode: true
+2026-11-01T02:37:58.4339157Z   fetch-depth: 1
+2026-11-01T02:37:58.4339577Z   fetch-tags: false
+2026-11-01T02:37:58.4340013Z   show-progress: true
+2026-11-01T02:37:58.4340442Z   lfs: false
+2026-11-01T02:37:58.4340839Z   submodules: false
+2026-11-01T02:37:58.4341270Z   set-safe-directory: true
+2026-11-01T02:37:58.4341762Z   allow-unsafe-pr-checkout: false
+2026-11-01T02:37:58.4342517Z ##[endgroup]
+2026-11-01T02:37:58.6965167Z Syncing repository: kimjeon-il/Pando
+2026-11-01T02:37:58.6967011Z ##[group]Getting Git version info
+2026-11-01T02:37:58.6967745Z Working directory is '/home/runner/work/Pando/Pando'
+2026-11-01T02:37:58.6968700Z [command]/usr/bin/git version
+2026-11-01T02:37:58.7069620Z git version 2.56.0
+2026-11-01T02:37:58.7105780Z ##[endgroup]
+2026-11-01T02:37:58.7119131Z Temporarily overriding HOME='/home/runner/work/_temp/c880ebdb-585e-4f70-b5ba-da7dc9a79d14' before making global git config changes
+2026-11-01T02:37:58.7124630Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:37:58.7126854Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:37:58.7170565Z Deleting the contents of '/home/runner/work/Pando/Pando'
+2026-11-01T02:37:58.7176096Z ##[group]Initializing the repository
+2026-11-01T02:37:58.7180748Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+2026-11-01T02:37:58.7298915Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T02:37:58.7300984Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T02:37:58.7302353Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T02:37:58.7303442Z hint: call:
+2026-11-01T02:37:58.7303865Z hint:
+2026-11-01T02:37:58.7305142Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T02:37:58.7305944Z hint:
+2026-11-01T02:37:58.7306666Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T02:37:58.7307839Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T02:37:58.7308767Z hint:
+2026-11-01T02:37:58.7309287Z hint: 	git branch -m <name>
+2026-11-01T02:37:58.7309854Z hint:
+2026-11-01T02:37:58.7310608Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T02:37:58.7319574Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+2026-11-01T02:37:58.7332557Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+2026-11-01T02:37:58.7381076Z ##[endgroup]
+2026-11-01T02:37:58.7382375Z ##[group]Disabling automatic garbage collection
+2026-11-01T02:37:58.7386356Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T02:37:58.7420908Z ##[endgroup]
+2026-11-01T02:37:58.7422094Z ##[group]Setting up auth
+2026-11-01T02:37:58.7430099Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:37:58.7469065Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:37:58.7900984Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:37:58.7951018Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:37:58.8198106Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:37:58.8243421Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:37:58.8486059Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T02:37:58.8534747Z ##[endgroup]
+2026-11-01T02:37:58.8535984Z ##[group]Fetching the repository
+2026-11-01T02:37:58.8547606Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e53f067ef37cafc4bd5d4d50e323f8866e7c9833:refs/remotes/origin/work/ui
+2026-11-01T02:38:00.6375618Z From https://github.com/kimjeon-il/Pando
+2026-11-01T02:38:00.6377904Z  * [new ref]         e53f067ef37cafc4bd5d4d50e323f8866e7c9833 -> origin/work/ui
+2026-11-01T02:38:00.6382639Z ##[endgroup]
+2026-11-01T02:38:00.6385109Z ##[group]Determining the checkout info
+2026-11-01T02:38:00.6387468Z ##[endgroup]
+2026-11-01T02:38:00.6392475Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T02:38:00.6460480Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T02:38:00.6502114Z ##[group]Checking out the ref
+2026-11-01T02:38:00.6507053Z [command]/usr/bin/git checkout --progress --force -B work/ui refs/remotes/origin/work/ui
+2026-11-01T02:38:01.0756862Z Switched to a new branch 'work/ui'
+2026-11-01T02:38:01.0764212Z branch 'work/ui' set up to track 'origin/work/ui'.
+2026-11-01T02:38:01.0775114Z ##[endgroup]
+2026-11-01T02:38:01.0830814Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T02:38:01.0865552Z e53f067ef37cafc4bd5d4d50e323f8866e7c9833
+2026-11-01T02:38:01.0875750Z ##[group]Removing auth
+2026-11-01T02:38:01.0879374Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:38:01.0920610Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:38:01.1169260Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:38:01.1206241Z http.https://github.com/.extraheader
+2026-11-01T02:38:01.1213550Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-01T02:38:01.1255840Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:38:01.1506667Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:38:01.1551001Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:38:01.1797135Z ##[endgroup]
+2026-11-01T02:38:01.2170838Z ##[group]Run actions/setup-node@v4
+2026-11-01T02:38:01.2171517Z with:
+2026-11-01T02:38:01.2171933Z   node-version: 24
+2026-11-01T02:38:01.2172337Z   always-auth: false
+2026-11-01T02:38:01.2172752Z   check-latest: false
+2026-11-01T02:38:01.2175908Z   token: ***
+2026-11-01T02:38:01.2176341Z ##[endgroup]
+2026-11-01T02:38:01.3663957Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-11-01T02:38:01.3667459Z (node:2395) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:38:01.3668644Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:38:01.3670490Z ##[group]Environment details
+2026-11-01T02:38:01.8196863Z node: v24.22.1
+2026-11-01T02:38:01.8197407Z npm: 11.19.1
+2026-11-01T02:38:01.8197727Z yarn: 1.22.22
+2026-11-01T02:38:01.8198905Z ##[endgroup]
+2026-11-01T02:38:01.8381063Z ##[group]Run pnpm/action-setup@v4
+2026-11-01T02:38:01.8381359Z with:
+2026-11-01T02:38:01.8381566Z   dest: ~/setup-pnpm
+2026-11-01T02:38:01.8381792Z   run_install: null
+2026-11-01T02:38:01.8381997Z   cache: false
+2026-11-01T02:38:01.8382235Z   cache_dependency_path: pnpm-lock.yaml
+2026-11-01T02:38:01.8382540Z   package_json_file: package.json
+2026-11-01T02:38:01.8382809Z   standalone: false
+2026-11-01T02:38:01.8383325Z ##[endgroup]
+2026-11-01T02:38:02.0008326Z ##[group]Running self-installer...
+2026-11-01T02:38:02.4455476Z (node:2438) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:38:02.4457731Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:38:02.5894131Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:38:02.5988220Z Packages: +1
+2026-11-01T02:38:02.5989212Z +
+2026-11-01T02:38:03.0587173Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-11-01T02:38:03.0888536Z 
+2026-11-01T02:38:03.0889516Z dependencies:
+2026-11-01T02:38:03.0890281Z + pnpm 11.19.0 (12.16.1 is available)
+2026-11-01T02:38:03.0890699Z 
+2026-11-01T02:38:03.0914094Z Done in 900ms
+2026-11-01T02:38:03.2008793Z ##[endgroup]
+2026-11-01T02:38:03.2009703Z Installation Completed!
+2026-11-01T02:38:03.2178647Z ##[group]Run pnpm install --frozen-lockfile
+2026-11-01T02:38:03.2179101Z [36;1mpnpm install --frozen-lockfile[0m
+2026-11-01T02:38:03.2208269Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:38:03.2208550Z env:
+2026-11-01T02:38:03.2208814Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:38:03.2209184Z ##[endgroup]
+2026-11-01T02:38:03.9390482Z ? Verifying lockfile against supply-chain policies (146 entries)...
+2026-11-01T02:38:04.0433214Z Lockfile is up to date, resolution step is skipped
+2026-11-01T02:38:04.2320682Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:38:04.2629030Z Packages: +120
+2026-11-01T02:38:04.2630248Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-11-01T02:38:05.0759706Z Packages are hard linked from the content-addressable store to the virtual store.
+2026-11-01T02:38:05.0796036Z   Content-addressable store is at: /home/runner/setup-pnpm/node_modules/.bin/store/v11
+2026-11-01T02:38:05.0812605Z   Virtual store is at:             node_modules/.pnpm
+2026-11-01T02:38:05.2355075Z Progress: resolved 120, reused 0, downloaded 78, added 4
+2026-11-01T02:38:05.6059030Z ✓ Lockfile passes supply-chain policies (146 entries in 1.6s)
+2026-11-01T02:38:06.0308512Z Progress: resolved 120, reused 0, downloaded 120, added 120, done
+2026-11-01T02:38:06.0819782Z .../esbuild@0.25.10/node_modules/esbuild postinstall$ node install.js
+2026-11-01T02:38:06.1658356Z .../esbuild@0.25.10/node_modules/esbuild postinstall: Done
+2026-11-01T02:38:06.3237581Z 
+2026-11-01T02:38:06.3238182Z devDependencies:
+2026-11-01T02:38:06.3238621Z + @eslint/js 10.0.1
+2026-11-01T02:38:06.3238940Z + @modelcontextprotocol/server 2.4.0
+2026-11-01T02:38:06.3239325Z + @playwright/test 1.62.1
+2026-11-01T02:38:06.3239595Z + esbuild 0.25.10
+2026-11-01T02:38:06.3239853Z + eslint 10.9.1
+2026-11-01T02:38:06.3240089Z + onnxruntime-web 1.30.0
+2026-11-01T02:38:06.3240321Z + postcss 8.5.30
+2026-11-01T02:38:06.3240575Z + tesseract.js 7.0.0
+2026-11-01T02:38:06.3240831Z + topojson-client 3.1.0
+2026-11-01T02:38:06.3241072Z + topojson-server 3.0.1
+2026-11-01T02:38:06.3241356Z + topojson-simplify 3.0.3
+2026-11-01T02:38:06.3241591Z + yaml 2.9.1
+2026-11-01T02:38:06.3241791Z + yazl 3.3.1
+2026-11-01T02:38:06.3241977Z + zod 4.6.7
+2026-11-01T02:38:06.3242087Z 
+2026-11-01T02:38:06.4468747Z Done in 3.1s using pnpm v11.19.0
+2026-11-01T02:38:06.5280461Z ##[group]Run node --input-type=module <<'NODE'
+2026-11-01T02:38:06.5280873Z [36;1mnode --input-type=module <<'NODE'[0m
+2026-11-01T02:38:06.5281217Z [36;1mimport assert from 'node:assert/strict';[0m
+2026-11-01T02:38:06.5281603Z [36;1mimport { readFileSync, statfsSync } from 'node:fs';[0m
+2026-11-01T02:38:06.5282089Z [36;1mconst pin = JSON.parse(readFileSync('config/library-data.json', 'utf8'));[0m
+2026-11-01T02:38:06.5282645Z [36;1massert.equal(pin.revision, '139941d8056418547c796068304ba8db3696fe69');[0m
+2026-11-01T02:38:06.5283674Z [36;1mconst requiredBytes = 2080907017n + 512n * 1024n ** 2n + 5n * 1024n ** 3n;[0m
+2026-11-01T02:38:06.5284164Z [36;1mconst disk = statfsSync(process.cwd(), { bigint: true });[0m
+2026-11-01T02:38:06.5284554Z [36;1mconst freeBytes = disk.bavail * disk.bsize;[0m
+2026-11-01T02:38:06.5284961Z [36;1mconsole.log(JSON.stringify({ dataRevision: pin.revision,[0m
+2026-11-01T02:38:06.5285481Z [36;1m  requiredBytes: String(requiredBytes), freeBytes: String(freeBytes) }));[0m
+2026-11-01T02:38:06.5286184Z [36;1massert.ok(freeBytes >= requiredBytes, 'Fixture preparation needs its cold peak, temporary reserve and 5 GiB headroom');[0m
+2026-11-01T02:38:06.5286734Z [36;1mNODE[0m
+2026-11-01T02:38:06.5309103Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-01T02:38:06.5309460Z env:
+2026-11-01T02:38:06.5309722Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:38:06.5310046Z ##[endgroup]
+2026-11-01T02:38:06.5636578Z {"dataRevision":"139941d8056418547c796068304ba8db3696fe69","requiredBytes":"7986487049","freeBytes":"91429617664"}
+2026-11-01T02:38:06.5812217Z Prepare all required actions
+2026-11-01T02:38:06.5812746Z Getting action download info
+2026-11-01T02:38:06.6752470Z ##[group]Run ./.github/actions/library-data
+2026-11-01T02:38:06.6752766Z with:
+2026-11-01T02:38:06.6753188Z   inputs-target: .
+2026-11-01T02:38:06.6753392Z env:
+2026-11-01T02:38:06.6753625Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:38:06.6753928Z ##[endgroup]
+2026-11-01T02:38:06.6809582Z ##[start-action display=Run actions/checkout@v4;id=__self.__actions_checkout]
+2026-11-01T02:38:06.6819455Z ##[end-action id=__self.__actions_checkout;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-11-01T02:38:06.6841459Z ##[start-action display=Run node "$GITHUB_ACTION_PATH/../../../tools/library-data.mjs" --mount-inputs="$GITHUB_WORKSPACE/$INPUT_SOURCE" --root="$GITHUB_WORKSPACE/$INPUT_TARGET";id=__self.__run]
+2026-11-01T02:38:06.6846517Z ##[end-action id=__self.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-11-01T02:38:06.6848396Z ##[start-action display=Run node tools/library-data.mjs;id=__self.__run_2]
+2026-11-01T02:38:06.6931071Z ##[group]Run node tools/library-data.mjs
+2026-11-01T02:38:06.6931389Z [36;1mnode tools/library-data.mjs[0m
+2026-11-01T02:38:06.6951739Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-01T02:38:06.6952077Z env:
+2026-11-01T02:38:06.6952324Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:38:06.6952638Z ##[endgroup]
+2026-11-01T02:38:06.7424445Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:38:06.7426012Z Cloning into '/home/runner/work/Pando/Pando/.library-data/repository'...
+2026-11-01T02:38:06.7506160Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:38:06.8814796Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:38:07.0678675Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:38:44.2653855Z Library mounted: kimjeon-il/PandoLab-library-data@139941d8056418547c796068304ba8db3696fe69
+2026-11-01T02:38:44.2868766Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=37601]
+2026-11-01T02:38:44.2905301Z ##[group]Run node tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check
+2026-11-01T02:38:44.2906091Z [36;1mnode tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check[0m
+2026-11-01T02:38:44.2926341Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:38:44.2926587Z env:
+2026-11-01T02:38:44.2926838Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:38:44.2927152Z ##[endgroup]
+2026-11-01T02:38:44.3865751Z {"sourceSha256":"fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043","assets":{"js":{"file":"pandoeditor-core.js","sha256":"008ce95293a0a291fac586e95e6ec3c9d4684a92a0d552ea60eaca421355b895"},"wasm":{"file":"pandoeditor-core.wasm","sha256":"9671907356ac4b00d1f3bbb10a4a4ed85362b57c8c7d34a530d9ce20e32a70d5"}},"mode":"check"}
+2026-11-01T02:38:44.3976409Z ##[group]Run node --test tests/unit/country-shared-boundary-generator.test.mjs
+2026-11-01T02:38:44.3977454Z [36;1mnode --test tests/unit/country-shared-boundary-generator.test.mjs[0m
+2026-11-01T02:38:44.4000784Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:38:44.4001041Z env:
+2026-11-01T02:38:44.4001298Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:38:44.4001628Z ##[endgroup]
+2026-11-01T02:39:17.4081440Z ✔ shared boundary generator accepts platform gzip headers with identical exact content (12268.564153ms)
+2026-11-01T02:39:17.4083867Z ✔ shared boundary generator accepts different valid DEFLATE encoding of identical exact content (11526.445283ms)
+2026-11-01T02:39:17.4085706Z ✔ shared boundary generator rejects stale signatures despite valid gzip (1829.647735ms)
+2026-11-01T02:39:17.4087357Z ✔ shared boundary generator rejects stale segments despite valid gzip (1880.097783ms)
+2026-11-01T02:39:17.4093187Z ✔ shared boundary generator rejects different exact JSON bytes even for equivalent parsed data (1805.457333ms)
+2026-11-01T02:39:17.4094625Z ✔ shared boundary generator rejects corrupted gzip checksum (1812.698051ms)
+2026-11-01T02:39:17.4096513Z ✔ shared boundary generator rejects missing archives (1772.103235ms)
+2026-11-01T02:39:17.4097822Z ✔ offline source and browser packet share compiled grouping, phase and seam rules (11.849735ms)
+2026-11-01T02:39:17.5207269Z ℹ tests 8
+2026-11-01T02:39:17.5207889Z ℹ suites 0
+2026-11-01T02:39:17.5208312Z ℹ pass 8
+2026-11-01T02:39:17.5208720Z ℹ fail 0
+2026-11-01T02:39:17.5209161Z ℹ cancelled 0
+2026-11-01T02:39:17.5209660Z ℹ skipped 0
+2026-11-01T02:39:17.5210054Z ℹ todo 0
+2026-11-01T02:39:17.5210534Z ℹ duration_ms 33082.487226
+2026-11-01T02:39:17.5371021Z Post job cleanup.
+2026-11-01T02:39:17.5414054Z Post job cleanup.
+2026-11-01T02:39:17.6966300Z Pruning is unnecessary.
+2026-11-01T02:39:17.7156405Z Post job cleanup.
+2026-11-01T02:39:17.8512228Z (node:5045) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:39:17.8513914Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:39:17.8805929Z Post job cleanup.
+2026-11-01T02:39:17.9818267Z [command]/usr/bin/git version
+2026-11-01T02:39:17.9865516Z git version 2.56.0
+2026-11-01T02:39:17.9905179Z Temporarily overriding HOME='/home/runner/work/_temp/5c409ddc-bebb-45cc-8ed0-d9cf76daa026' before making global git config changes
+2026-11-01T02:39:17.9907122Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:39:17.9911192Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:39:17.9954881Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:39:18.0005552Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:39:18.0270067Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:39:18.0309244Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:39:18.0605453Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:39:18.0671608Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:39:18.1169261Z Cleaning up orphan processes
+2026-11-01T02:39:18.1549815Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, pnpm/action-setup@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

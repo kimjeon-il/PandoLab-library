@@ -1,0 +1,299 @@
+{
+  "scope": "Read-only triage of assigned P3 web-contract failures; no source edits, test reruns, hydration, builds, or remote mutations.",
+  "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+  "mainCommit": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+  "baseline": {
+    "runId": 41265483904,
+    "jobId": 124727574107,
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-contracts-before.log",
+    "logSha256": "dffe028b77d5a844c731a44543ab57b166690c062f4a9bca495aa2c0ed5c5a5d"
+  },
+  "compare": {
+    "url": "https://github.com/kimjeon-il/Pando/compare/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75...e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+    "status": "ahead",
+    "aheadBy": 200,
+    "behindBy": 0,
+    "totalCommits": 200,
+    "changedFiles": 229,
+    "filesResponseComplete": true
+  },
+  "testBlobComparisons": [
+    {
+      "path": "tests/unit/river-territory-partition-source.test.mjs",
+      "candidateBlob": "f40e66ea0ce8c58e5895234a7f27419af73a2579",
+      "mainBlob": "f40e66ea0ce8c58e5895234a7f27419af73a2579",
+      "identical": true
+    },
+    {
+      "path": "tests/unit/startup-performance-contract.test.mjs",
+      "candidateBlob": "a54877f80f866a3d58b1fa8b3530b9950d92789f",
+      "mainBlob": "a54877f80f866a3d58b1fa8b3530b9950d92789f",
+      "identical": true
+    },
+    {
+      "path": "tests/unit/territorial-editor-lifecycle.test.mjs",
+      "candidateBlob": "3bd675d77f213d3a74f5da4832310e572acc701b",
+      "mainBlob": "3bd675d77f213d3a74f5da4832310e572acc701b",
+      "identical": true
+    },
+    {
+      "path": "tests/unit/country-label-input-contract.test.mjs",
+      "candidateBlob": "a00d6ce9d2fb4c367a9b156c5b5a16b6eda4b4f7",
+      "mainBlob": "a00d6ce9d2fb4c367a9b156c5b5a16b6eda4b4f7",
+      "identical": true
+    },
+    {
+      "path": "tests/unit/core-prerequisite.test.mjs",
+      "candidateBlob": "0ff91828ee86dcc2cde3b21e44ce0fd475758abc",
+      "mainBlob": "0ff91828ee86dcc2cde3b21e44ce0fd475758abc",
+      "identical": true
+    },
+    {
+      "path": "tests/unit/core-product-mode.test.mjs",
+      "candidateBlob": "e47bef9a4b69c237bdc026579b71811abe3cf891",
+      "mainBlob": "e47bef9a4b69c237bdc026579b71811abe3cf891",
+      "identical": true
+    },
+    {
+      "path": "tests/unit/current-browser-contracts.test.mjs",
+      "candidateBlob": "8ee19488d7342b75466692b4772ebc74f93a9c70",
+      "mainBlob": "8ee19488d7342b75466692b4772ebc74f93a9c70",
+      "identical": true
+    }
+  ],
+  "productionComparisons": [
+    {
+      "path": "shared/frontend/js/modules/object-picking.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "301839f7373dfec0fe3f62ad004c834631e77ff1",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "apps/editor/frontend/js/modules/app-object-commands.js",
+      "status": "modified",
+      "candidateBlob": "7deb429406a248b2d278234362db99f24a184098",
+      "additions": 39,
+      "deletions": 16,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "shared/frontend/js/modules/worker-asset-url.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "ebec37f8866564278baf4a608d240a6c4d9614ec",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "shared/frontend/js/modules/core-document-client.js",
+      "status": "modified",
+      "candidateBlob": "8f3c8875868c49f12be62d83a8fbb18dc5f54d32",
+      "additions": 48,
+      "deletions": 6,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "apps/editor/frontend/js/modules/app-lifecycle-assembly.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "73667487f607f909c0e2e96e07e8d93167a3e0b9",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "shared/frontend/js/modules/map-input-presentation.js",
+      "status": "modified",
+      "candidateBlob": "3556d45bb3cea679818e62b4d3e67963a328edec",
+      "additions": 1,
+      "deletions": 0,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "apps/editor/frontend/js/modules/app-capability-ports-foundation.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "0c0f9d9246cf0b7595551c653edac626bf60ba63",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "shared/frontend/js/modules/map-owner-ports.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "7fd681668f693f6d5bd273ee9aa45dd2895bdb5a",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "shared/frontend/js/workers/data-loader-worker.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "0c1ceda2064af41832df296d7143552ecdd9e3af",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "tools/load-node-core.mjs",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": null,
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "scripts/lib/frontend-layout.mjs",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": null,
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "scripts/plan-application-checks.mjs",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": null,
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "scripts/contracts/application-checks.json",
+      "status": "modified",
+      "candidateBlob": "41120760f9dd164008ef048f47e038494c35b04d",
+      "additions": 19,
+      "deletions": 2,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "tests/unit/helpers/capability-port-fixture.mjs",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": "c7b892cdfaac44e011293e757b5d3f9b9552d4b7",
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    },
+    {
+      "path": "shared/frontend/js/modules/gpu-map-renderer.js",
+      "status": "modified",
+      "candidateBlob": "20fb44c0e27fdff28da967e602bb48dec3061a66",
+      "additions": 694,
+      "deletions": 154,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "shared/frontend/js/modules/gpu-scene.js",
+      "status": "modified",
+      "candidateBlob": "bec0625aeffdfc0b648c89c56ad654101d851bbe",
+      "additions": 12,
+      "deletions": 1,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "shared/frontend/js/modules/map-content-presentation.js",
+      "status": "modified",
+      "candidateBlob": "6569d52597fa71500b660b0af7de8ba77f5cf8d7",
+      "additions": 7,
+      "deletions": 5,
+      "evidence": "GitHub compare file entry"
+    },
+    {
+      "path": "shared/frontend/js/modules/rendering-domain.js",
+      "status": "unchanged_in_complete_compare",
+      "candidateBlob": null,
+      "additions": 0,
+      "deletions": 0,
+      "evidence": "Absent from complete 229-file GitHub compare; full per-file main body was not separately fetched"
+    }
+  ],
+  "findings": [
+    {
+      "id": "lint",
+      "classification": "new_test_only_lint_defect",
+      "confidence": "confirmed",
+      "observed": "map-input-controller.test.mjs:75 EventTarget and :83 CustomEvent violate no-undef.",
+      "cause": "The newly added test harness references Node globals as bare identifiers not declared in the repository ESLint environment.",
+      "mainComparison": "New +152-line test fixture relative to main. This defect was introduced in the new regression test; it is not a production runtime regression.",
+      "minimalFollowup": "Use globalThis.EventTarget and globalThis.CustomEvent, or explicit destructuring from globalThis.",
+      "status": "Root reports both references fixed and all 18 unit tests passed; final focused lint gate is pending. This triage did not re-run or re-read the subsequent fix."
+    },
+    {
+      "id": "river",
+      "classification": "preexisting_test_import_and_source_path_defects",
+      "confidence": "confirmed_for_observed_failure",
+      "observed": "river-territory-partition-source.test.mjs fails at module import: readFileSync is not defined.",
+      "cause": "The test imports fs as a default but calls bare readFileSync at line 7. Its next two reads also still use retired assets/js source locations.",
+      "mainComparison": "Test blob f40e66ea0ce8c58e5895234a7f27419af73a2579 is identical on both commits. ReferenceError occurs before those production files are read.",
+      "minimalFollowup": "Correct the fs import/use and move renderer/worker reads to the canonical shared/frontend source owner. Preserve the existing partition assertions.",
+      "unverified": "Subsequent regexp assertions and the latent old-path failures were not executed."
+    },
+    {
+      "id": "startup",
+      "classification": "stale_source_text_oracles",
+      "confidence": "confirmed_for_two_owner_contracts_probable_for_retired_snapshot_symbol",
+      "observed": "Three failures expect createResourceSnapshot, MANIFEST_URL.searchParams.set('v', DATA_REVISION), and an inline canonicalCountryStore port mapping in the foundation module.",
+      "cause": "The manifest loader now consumes pinned buildMeta.worldBundle through manifestLoader.loadAsset/parseVerifiedWorldBundle. The exact canonicalCountryStore mapping exists in shared map-owner-ports.js rather than inline in foundation. The createResourceSnapshot search on immutable main returned only the stale test reference; no production owner was confirmed for that symbol.",
+      "mainComparison": "Test identical on both commits. data-loader-worker.js, foundation port module, and shared map-owner-ports.js unchanged in the complete compare. gpu-map-renderer.js, gpu-scene.js, and map-content-presentation.js do have branch changes, so this report does not certify all rendering behavior as unchanged.",
+      "minimalFollowup": "Replace obsolete symbol/file-location checks with checks against the current owner or observable frame/resource behavior. Keep revision separation and immutable manifest verification coverage.",
+      "unverified": "Actual startup/render performance and the replacement for the retired snapshot symbol were not traced or executed; no performance-regression pass claim."
+    },
+    {
+      "id": "lifecycle",
+      "classification": "preexisting_incomplete_dependency_fixture",
+      "confidence": "confirmed_for_observed_failure",
+      "observed": "Lifecycle assembly test fails with 'Map input requires its operation error reporter.'",
+      "cause": "capabilityPortsForFixture returns flatDependencies[property]. The lifecycle test's flat overrides omit reportOperationError, leaving ports.feedback.reportOperationError undefined when real map presentation is constructed.",
+      "mainComparison": "Test, capability fixture helper, and app-lifecycle-assembly are unchanged. map-input-presentation differs only by the viewer cancelStroke guard; its required reporter validation is unchanged.",
+      "minimalFollowup": "Provide a real operation-error recorder/handler in the fixture while preserving the strict production requirement and lifecycle/Escape assertions.",
+      "unverified": "The entire real editor composition graph was not rerun in this triage."
+    },
+    {
+      "id": "country_label",
+      "classification": "preexisting_incomplete_dependency_fixture",
+      "confidence": "confirmed_for_observed_failure",
+      "observed": "Six label-input cases fail because dependencies.objectOperationsA.objectRefVisible is not a function.",
+      "cause": "Fixture objectOperationsA contains only objectDisplayInfo. Unchanged object-picking.js requires objectRefVisible at line 36 before label selection. The production foundation map exposes objectRefVisible from objectCommands; the current objectCommands obtains it from createObjectQuery.",
+      "mainComparison": "Test, object-picking.js, and foundation port mapping unchanged. app-object-commands.js has branch changes (+39/-16), so complete object-command behavior is not claimed identical.",
+      "minimalFollowup": "Wire the fixture's visibility dependency using the current object-query/visibility contract; preserve hidden-object, explicit label identity, blocking, modifier, and placement assertions.",
+      "unverified": "No label cases were rerun, and later failures after the missing dependency are not excluded."
+    },
+    {
+      "id": "core_prerequisite",
+      "classification": "preexisting_temporary_fixture_owner_path_mismatch",
+      "confidence": "confirmed_for_observed_failures",
+      "observed": "Three cases expect successful admission/integrity/capability checks but receive PL-CORE-PREREQUISITE-MISSING for shared/frontend/static/wasm/pandoeditor-core.manifest.json.",
+      "cause": "The fixture writes under root/assets/wasm; the current loader reads frontendWasmRoot = shared/frontend/static/wasm.",
+      "mainComparison": "Test identical; tools/load-node-core.mjs and scripts/lib/frontend-layout.mjs unchanged in complete compare.",
+      "minimalFollowup": "Use frontendWasmRoot in the synthetic fixture and make shared-directory setup idempotent or order it before creating nested assets. Retain missing/integrity/stale/capability expectations.",
+      "unverified": "No synthetic prerequisite tests or native/WASM builds were run."
+    },
+    {
+      "id": "core_product_worker",
+      "classification": "preexisting_unemitted_source_worker_harness_mismatch",
+      "confidence": "confirmed_for_observed_missing_worker_asset",
+      "observed": "Fixed separate Worker-entry test fails with Missing immutable Worker asset for /shared/frontend/js/workers/core-viewer-session-worker.js.",
+      "cause": "The test directly imports source and replaces global Worker but does not supply a generated frontend/immutable worker metadata context. workerAssetUrl intentionally recognizes the deployed /assets/js/ namespace; the source file URL does not provide that key.",
+      "mainComparison": "Test and worker-asset-url.js unchanged. core-document-client.js changed for temporal operations (+48/-6), but its default Worker factory precedes the changed hunks and is unchanged.",
+      "minimalFollowup": "Exercise the real default client factory from the generated frontend fixture with valid immutable Worker metadata. Do not add a production fallback or merely replace the factory while asserting fake URLs.",
+      "unverified": "No Worker/bootstrap test rerun; actual generated build behavior not independently reverified here."
+    },
+    {
+      "id": "current_browser",
+      "classification": "preexisting_changed_file_path_fixture_mismatch",
+      "confidence": "confirmed_for_observed_failure",
+      "observed": "CSS selector contract fails with Unclassified product change: assets/css/features/map-rendering.css.",
+      "cause": "The fixture supplies deployed URL paths as repository changed-file paths. Canonical source paths are shared/frontend/css/features/map-rendering.css and shared/frontend/js/workers/canvas-render-worker.js.",
+      "mainComparison": "Test and plan-application-checks.mjs unchanged. Catalog changed only deferred/manual registrations in the inspected diff, not these source owner mappings.",
+      "minimalFollowup": "Update fixture changedFiles to source-owned paths; preserve expected UI/browser selection and absence of native/GIS generation.",
+      "unverified": "The application selector was not run."
+    }
+  ],
+  "additionalObservedFailure": "core-product-mode.test.mjs:88 also fails a whole-project equality check due to canonical geometry ordering; handed back as separate Core/oracle scope rather than conflated with Worker routing.",
+  "rootReportedFollowups": {
+    "lint": "globalThis qualification applied; 18 map-input unit cases passed; focused lint gate pending",
+    "boundary": "8 actual boundary generator cases passed in run 41266000828, job 124728815278"
+  },
+  "statusPolicy": "Existing unrelated failed checks remain failed/unverified. The root-reported 66 unrelated failures are not converted to passes by this static triage. No claim that main's full test suite was run or that all product behavior is unchanged.",
+  "createdAt": "2026-11-01T02:46:08.007219+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "blocked_before_baseline",
+  "observedAt": "2026-11-01T02:01:58.455155+00:00",
+  "baseSha": "9bc6856fa2218f758565acb8670f406c6dab8a41",
+  "testPath": "tests/unit/core-document-read-model.test.mjs",
+  "testBaseBlobSha": "f10ec60b14da2f9a962226be02b3c3acc6fb08b5",
+  "testBaseSha256": "aff2f9729f3d9f4841d7446a1785ea0059b6f1b42c13022a744537c27717c025",
+  "reason": "temporal.js top-level loadNodeCore requires missing compiled pandoeditor-core.wasm; task forbids fetching or building large WASM dependencies",
+  "testRuns": [],
+  "editedPaths": [],
+  "hydratedPaths": [],
+  "sourceFilesChanged": [],
+  "assets": [
+    {
+      "path": "tests/fixtures/portability/web-document-seed.json",
+      "exists": true,
+      "bytes": 15458,
+      "sha256": "2e32576076081a4b26807d9657763982d6fad6e6f982d0f6b888433de7dd18fa"
+    },
+    {
+      "path": "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
+      "exists": true,
+      "bytes": 24470,
+      "sha256": "c89bdb652c2ac188828077ccddfd9389fb51e64533266981885e602081895f65"
+    },
+    {
+      "path": "shared/frontend/static/wasm/pandoeditor-core.js",
+      "exists": true,
+      "bytes": 54650,
+      "sha256": "008ce95293a0a291fac586e95e6ec3c9d4684a92a0d552ea60eaca421355b895"
+    },
+    {
+      "path": "shared/frontend/static/wasm/pandoeditor-core.wasm",
+      "exists": false,
+      "bytes": null,
+      "sha256": null
+    }
+  ],
+  "gitInventory": "git worktree list --porcelain and git status --short --branch both exit 128: not a git repository",
+  "scope": "Only read-only inspection and exact-base source retrieval performed. No native build, browser, full suite, CI, remote mutation, or source mutation."
+}

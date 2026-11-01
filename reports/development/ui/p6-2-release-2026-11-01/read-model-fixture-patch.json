@@ -1,0 +1,57 @@
+{
+  "status": "patch_ready_for_ci",
+  "observedAt": "2026-11-01T02:12:06.756701+00:00",
+  "testPath": "tests/unit/core-document-read-model.test.mjs",
+  "baseCommit": "9bc6856fa2218f758565acb8670f406c6dab8a41",
+  "baseBlobSha": "f10ec60b14da2f9a962226be02b3c3acc6fb08b5",
+  "baseSha256": "aff2f9729f3d9f4841d7446a1785ea0059b6f1b42c13022a744537c27717c025",
+  "patchedBlobSha": "e6521eb6f0437c31074700c398bb2f44194263b5",
+  "patchedSha256": "7045eb30fae0c5d49de6322c52b507b3e2d3380dc561c2f7a2902e6d65d3bfdb",
+  "patchedBytes": 14716,
+  "diff": {
+    "path": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/read-model-fixture.patch",
+    "sha256": "bbf806069428f07b01baa163da5b85a9c837d7bcc50f279f18dc9c657526e978",
+    "additions": 15,
+    "deletions": 8
+  },
+  "preservedCoverage": {
+    "testsBefore": 14,
+    "testsAfter": 14,
+    "assertionsBefore": 73,
+    "assertionsAfter": 73
+  },
+  "baseline": {
+    "commit": "fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90",
+    "runId": 41264070047,
+    "jobId": 124723074548,
+    "command": "node --test tests/unit/core-document-read-model.test.mjs",
+    "tests": 14,
+    "pass": 6,
+    "fail": 8,
+    "skip": 0,
+    "durationMs": 232.712717,
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/read-model-before.log",
+    "logSha256": "90db4422381d92fa5e33c5d82c5aad4e5ee183aaed3315d7ad76fdc4780b56f5",
+    "confirmedFailureGroups": [
+      "4 expected geometry archive order mismatches",
+      "4 legacy world fixture objectRef errors"
+    ],
+    "existingCoreIdentityCheck": "passed"
+  },
+  "syntax": {
+    "command": "node --check tests/unit/core-document-read-model.test.mjs",
+    "nodeVersion": "v24.22.1",
+    "exitCode": 0,
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/read-model-fixture-syntax.log",
+    "logSha256": "aaabe5f267c246cdb7f02e67865ee24dbd6d39a0c6637e7968a9de6c6829d833"
+  },
+  "behavioralRecheck": "Pending root-managed CI using the same single-file test and tracked compiled core",
+  "hydratedPaths": [
+    "tests/unit/core-document-read-model.test.mjs"
+  ],
+  "modifiedPaths": [
+    "tests/unit/core-document-read-model.test.mjs"
+  ],
+  "productionSourceHydrated": [],
+  "productionSourceModified": []
+}

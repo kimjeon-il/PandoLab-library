@@ -1,0 +1,238 @@
+{
+  "schema": "pando-p2-selection-actual-graph-intersection-v1",
+  "origin": {
+    "repository": "kimjeon-il/Pando",
+    "sourceCommit": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+    "sourceRunId": 41264286651,
+    "planJobId": 124723731354,
+    "graphConfigPath": "config/generated-artifacts.json",
+    "basis": "Immutable graph configuration and already retrieved actual P2 plan status; previously observed ownership check output preserved here"
+  },
+  "changedPaths": [
+    "shared/frontend/js/modules/map-input-presentation.js",
+    "tests/unit/map-input-controller.test.mjs",
+    ".github/workflows/viewer-functional-p6-2.yml",
+    ".github/workflows/integration-read-model-p6.yml",
+    "scripts/p2-artifact-plan.mjs",
+    "tests/unit/p2-artifact-plan.test.mjs"
+  ],
+  "checkedOwnership": [
+    "declared input exact/prefix/pattern selectors",
+    "declared output exact/prefix selectors",
+    "external source paths",
+    "expanded input hash keys",
+    "generator and validator closure hash keys",
+    "expanded output hash keys"
+  ],
+  "familyCount": 11,
+  "familySummary": [
+    {
+      "id": "territorial",
+      "declaredInputs": [
+        "assets/data/territorial-entities/source/"
+      ],
+      "declaredOutputs": [
+        "assets/data/territorial-entities/generated/v2/"
+      ],
+      "inputsCount": 554,
+      "generatorClosureCount": 20,
+      "outputsCount": 287,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "output bytes/hash"
+      ]
+    },
+    {
+      "id": "current-world",
+      "declaredInputs": [
+        "assets/data/territorial-entities/source/"
+      ],
+      "declaredOutputs": [
+        "assets/data/territorial-entities/generated/current-world.geojson"
+      ],
+      "inputsCount": 554,
+      "generatorClosureCount": 19,
+      "outputsCount": 1,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint"
+      ]
+    },
+    {
+      "id": "builtin-world",
+      "declaredInputs": [
+        "assets/data/historical-world/policy.json"
+      ],
+      "declaredOutputs": [
+        "assets/data/builtin-world/generated/v1/"
+      ],
+      "inputsCount": 1,
+      "generatorClosureCount": 42,
+      "outputsCount": 579,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "output bytes/hash",
+        "upstream: territorial, current-world"
+      ]
+    },
+    {
+      "id": "world-mesh",
+      "declaredInputs": [
+        "assets/data/world/build-input.json",
+        "shared/frontend/js/workers/gpu-mesh-core.js"
+      ],
+      "declaredOutputs": [],
+      "inputsCount": 2,
+      "generatorClosureCount": 21,
+      "outputsCount": 1,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "upstream: current-world"
+      ]
+    },
+    {
+      "id": "world-preview",
+      "declaredInputs": [
+        "assets/data/world/build-input.json",
+        "shared/frontend/js/vendor/d3.min.js",
+        "shared/frontend/js/workers/gpu-mesh-core.js"
+      ],
+      "declaredOutputs": [],
+      "inputsCount": 4,
+      "generatorClosureCount": 30,
+      "outputsCount": 4,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "upstream: world-mesh, current-world"
+      ]
+    },
+    {
+      "id": "world-bundle",
+      "declaredInputs": [
+        "assets/data/world/build-input.json"
+      ],
+      "declaredOutputs": [
+        "assets/data/world/current.json"
+      ],
+      "inputsCount": 1,
+      "generatorClosureCount": 6,
+      "outputsCount": 6,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "upstream: world-preview"
+      ]
+    },
+    {
+      "id": "shared-boundaries",
+      "declaredInputs": [],
+      "declaredOutputs": [],
+      "inputsCount": 0,
+      "generatorClosureCount": 28,
+      "outputsCount": 2,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "upstream: world-bundle"
+      ]
+    },
+    {
+      "id": "prepared-mesh",
+      "declaredInputs": [
+        "shared/frontend/js/workers/gpu-mesh-core.js"
+      ],
+      "declaredOutputs": [
+        "assets/data/prepared-polygons/generated/v2/"
+      ],
+      "inputsCount": 1,
+      "generatorClosureCount": 39,
+      "outputsCount": 445,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint",
+        "output bytes/hash",
+        "upstream: builtin-world, territorial, current-world"
+      ]
+    },
+    {
+      "id": "places",
+      "declaredInputs": [
+        {
+          "prefix": "reports/places/",
+          "pattern": "(?:^|/)(?:tier1-major-cities-batch\\d{2}[-a-z0-9]*|runtime-release-approvals-v1)\\.json$"
+        }
+      ],
+      "declaredOutputs": [
+        "assets/data/places/reviewed-records-v1.json",
+        "assets/data/places/places-v1.bin",
+        "assets/data/places/manifest.json"
+      ],
+      "inputsCount": 25,
+      "generatorClosureCount": 18,
+      "outputsCount": 3,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "inputs/generator/tool/dependency fingerprint"
+      ]
+    },
+    {
+      "id": "hydro",
+      "declaredInputs": [],
+      "declaredOutputs": [],
+      "inputsCount": 0,
+      "generatorClosureCount": 0,
+      "outputsCount": 3,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "unrecorded generation"
+      ]
+    },
+    {
+      "id": "terrain",
+      "declaredInputs": [],
+      "declaredOutputs": [],
+      "inputsCount": 0,
+      "generatorClosureCount": 0,
+      "outputsCount": 9,
+      "observedConflictPaths": [],
+      "needed": true,
+      "reasons": [
+        "unrecorded generation"
+      ]
+    }
+  ],
+  "observedConflicts": [],
+  "observedConflictCount": 0,
+  "originalWasmSelection": false,
+  "originalSelectedFamilies": [
+    "territorial",
+    "current-world",
+    "builtin-world",
+    "world-mesh",
+    "world-preview",
+    "world-bundle",
+    "shared-boundaries",
+    "prepared-mesh",
+    "places"
+  ],
+  "fixedPlannerSixFileSyntheticRegression": {
+    "selectedFamilies": [],
+    "wasm": false,
+    "dataGenerationDeferred": true,
+    "result": "passed"
+  },
+  "limitation": "The real-data graph was not regenerated and no new remote planner execution was performed for this evidence save."
+}

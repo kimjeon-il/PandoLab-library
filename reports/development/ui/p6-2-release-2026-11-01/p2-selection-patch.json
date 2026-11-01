@@ -1,0 +1,30 @@
+{
+  "schema": "pando-p2-selection-patch-v1",
+  "baselineCommit": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+  "finalRemoteCommitPrefixReportedByRoot": "84bf8312",
+  "sourceFiles": [
+    {
+      "path": "scripts/p2-artifact-plan.mjs",
+      "baselineSha256": "e97715164fc87e306f4ca743ee771fcc77640393275705360a04cb9bd915143e",
+      "patchedSha256": "a8c4521461f2a32b70de493bb3eefc6243157a9f65ccc715ebf347918b773fee",
+      "patchedBytes": 10536,
+      "additions": 34,
+      "deletions": 4
+    },
+    {
+      "path": "tests/unit/p2-artifact-plan.test.mjs",
+      "baselineSha256": "359239cb9de38600a8969fadf26933fcb639f51ff12135b030948a8998649391",
+      "patchedSha256": "b1369666bdba8726c04337122a241b3a5572f5499b8abd627ceb150154a0a078",
+      "patchedBytes": 36918,
+      "additions": 103,
+      "deletions": 0
+    }
+  ],
+  "patch": {
+    "file": "p2-selection-patch.diff",
+    "sha256": "22bc79f652d8d6ab8eab2107dbf93313a5b3ec5c43a3a239ea26bc667c619281",
+    "bytes": 9878
+  },
+  "method": "Retained immutable baseline strings compared to current local bytes; expected previously verified source hashes asserted; no tests rerun; no source writes or remote actions.",
+  "temporaryBaselineFilesCreated": false
+}

@@ -1,0 +1,42 @@
+# Excerpt from the current main SharedCore job log, not a prior-run substitution.
+# Source commit: 35bce38a3444c57bcaf60a9a12d30421e6602740
+# Run: 41266676029; job: 124730803184
+# Snapshot: 2026-11-01T02:57:32Z
+
+2026-11-01T02:53:48.1798192Z Test project /home/runner/work/Pando/Pando/build-native/core-session
+2026-11-01T02:53:48.2412432Z     Start  2: project_codec_tests
+2026-11-01T02:53:48.2547084Z 1/9 Test  #2: project_codec_tests ..............   Passed    0.01 sec
+2026-11-01T02:53:48.2601726Z     Start  3: document_session_tests
+2026-11-01T02:53:48.4028245Z 2/9 Test  #3: document_session_tests ...........   Passed    0.14 sec
+2026-11-01T02:53:48.4029477Z     Start  4: web_content_codec_tests
+2026-11-01T02:53:48.4979374Z 3/9 Test  #4: web_content_codec_tests ..........Subprocess aborted***Exception:   0.09 sec
+2026-11-01T02:53:48.4982904Z web_content_codec_tests: /pando/shared/tests/web-content-codec-tests.cpp:50: void {anonymous}::currentDtoReadersPreserveEveryFieldAndArrayOrder(const std::string&): Assertion `codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()' failed.
+2026-11-01T02:53:48.5005172Z 
+2026-11-01T02:53:48.5005723Z     Start  5: web_content_command_tests
+2026-11-01T02:53:48.5850833Z 4/9 Test  #5: web_content_command_tests ........Subprocess aborted***Exception:   0.09 sec
+2026-11-01T02:53:48.5865068Z web_content_command_tests: /pando/shared/tests/web-content-command-tests.cpp:144: void {anonymous}::currentRawHydroAndLabelAnnotationsKeepPresence(): Assertion `row.encode()==expected.encode()' failed.
+2026-11-01T02:53:48.5871609Z 
+2026-11-01T02:53:48.5872184Z     Start  6: web_territorial_command_tests
+2026-11-01T02:53:48.6009939Z 5/9 Test  #6: web_territorial_command_tests ....   Passed    0.02 sec
+2026-11-01T02:53:48.6023669Z     Start  8: geometry_draft_tests
+2026-11-01T02:53:48.6051819Z 6/9 Test  #8: geometry_draft_tests .............   Passed    0.00 sec
+2026-11-01T02:53:48.6054946Z     Start 12: source_admission_tests
+2026-11-01T02:53:48.6331593Z 7/9 Test #12: source_admission_tests ...........   Passed    0.03 sec
+2026-11-01T02:53:48.6333364Z     Start 13: web_storage_tests
+2026-11-01T02:53:48.6495304Z 8/9 Test #13: web_storage_tests ................   Passed    0.02 sec
+2026-11-01T02:53:48.6496813Z     Start 14: web_object_command_tests
+2026-11-01T02:53:48.7405560Z 9/9 Test #14: web_object_command_tests .........Subprocess aborted***Exception:   0.09 sec
+2026-11-01T02:53:48.7411625Z Errors while running CTest
+2026-11-01T02:53:48.7412245Z INVALID_DATE: format
+2026-11-01T02:53:48.7414861Z web_object_command_tests: /pando/shared/tests/web-object-command-tests.cpp:54: pandoeditor::CommandResult {anonymous}::apply(pandoeditor::Project&, const std::vector<pandoeditor::ObjectRef>&): Assertion `false' failed.
+2026-11-01T02:53:48.7416587Z 
+2026-11-01T02:53:48.7416619Z 
+2026-11-01T02:53:48.7416931Z 67% tests passed, 3 tests failed out of 9
+2026-11-01T02:53:48.7417259Z 
+2026-11-01T02:53:48.7417509Z Total Test time (real) =   0.56 sec
+2026-11-01T02:53:48.7418055Z 
+2026-11-01T02:53:48.7418721Z The following tests FAILED:
+2026-11-01T02:53:48.7419447Z 	  4 - web_content_codec_tests (Subprocess aborted)
+2026-11-01T02:53:48.7420086Z 	  5 - web_content_command_tests (Subprocess aborted)
+2026-11-01T02:53:48.7421051Z 	 14 - web_object_command_tests (Subprocess aborted)
+2026-11-01T02:53:48.7785625Z ##[error]Process completed with exit code 8.

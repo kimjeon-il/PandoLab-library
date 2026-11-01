@@ -1,0 +1,22 @@
+{
+  "url": "https://kimjeon-il.github.io/Pando/",
+  "observedAt": "2026-11-01T02:52:02Z",
+  "browserTitle": "판도연구소",
+  "initialUi": "Viewer menu, map canvas element, timeline controls and loading status were present.",
+  "subsequentUi": "연결이 복구되면 지도를 다시 불러옵니다. / 다시 시도",
+  "productConsoleError": "[PL-VIEWER-START] TypeError: Failed to fetch dynamically imported module: https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-35bce38a3444",
+  "retry": {
+    "performed": true,
+    "uiChanged": false
+  },
+  "directModuleObservation": {
+    "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-35bce38a3444",
+    "result": "Browser Use cannot open the URL; browser reported net::ERR_BLOCKED_BY_CLIENT."
+  },
+  "interpretation": "The current browser client blocks the module request. This observation does not establish an HTTP 404 or a product regression, and does not establish a successful live UI startup.",
+  "limits": "No browser protection or network setting was changed. Live UI startup is unconfirmed in this browser; separate CI response checks and P6-2 functionality are recorded independently.",
+  "searchReader": "Public site and module URL were also unavailable through the search reader; this is not treated as a website outage.",
+  "buildIdObservedInScriptUrl": "0.36.0-build-35bce38a3444",
+  "matchingVerifiedSourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+  "sourceIdentityBasis": "The browser observed the 12-character build suffix; the full commit identity was independently verified from main and the Pages response verifier."
+}

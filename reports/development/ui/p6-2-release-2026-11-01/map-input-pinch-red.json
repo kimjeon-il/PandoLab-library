@@ -1,0 +1,32 @@
+{
+  "status": "expected_red",
+  "sourceRef": "e0baee5c",
+  "oldPresentationBlobSha": "867148099c573405da5797b828dc359dcce20d07",
+  "oldPresentationSha256": "3d68d448ebf3e11fb30e94c051304a2b96805717ee042951c8cc67a7a96a4793",
+  "guardedPresentationSha256": "cea099b56af220f71ea9bccd8ec9a1001e0bd7b3aeed480f5a7c1fba20c989e0",
+  "testSha256": "0d798c2a779cfd46bcd02ad1f61660d45f3a0c77179ffc11b9e1c4bcf981ccf4",
+  "temporaryTestSha256": "0f87a20e8c54d519e1d15193586bfef29a02f38682fa0986c23b77628fca3fea",
+  "temporaryImportChanges": 2,
+  "command": [
+    "node",
+    "--test",
+    "--test-isolation=none",
+    "--test-reporter=tap",
+    "--test-name-pattern=viewer pinch navigates without reporting an editing cancellation error",
+    "/tmp/p6-2-pinch-before-test-3s8wyz2k.mjs"
+  ],
+  "exitCode": 1,
+  "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/map-input-pinch-red.log",
+  "logSha256": "9b9e239efeb1c19e5bcf6b03b077bbdf3a20381c8554b74173ebb4092a1150f4",
+  "expectedFailureObserved": true,
+  "removedTemporaryFiles": [
+    {
+      "path": "/tmp/p6-2-pinch-old-c6u8c3x_.mjs",
+      "bytes": 12142
+    },
+    {
+      "path": "/tmp/p6-2-pinch-before-test-3s8wyz2k.mjs",
+      "bytes": 18577
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "schema": "pando-existing-core-contract-triage-v1",
+  "kind": "read-only-release-triage",
+  "repository": "kimjeon-il/Pando",
+  "main_commit": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+  "candidate_commit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+  "log": {
+    "path": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-contracts-before.log",
+    "workflow_run_id": "41265483904",
+    "job_id": "124727574107",
+    "execution_status": "cancelled_before_job_completion",
+    "reported_overall_failure_count": 66,
+    "overall_count_provenance": "Count supplied by parent release triage; this subtask did not independently recount the entire multi-area job.",
+    "scoped_core_and_web_failure_entries": 54,
+    "scoped_count_method": "Previously completed read-only extraction of failing 'test at tests/unit/(core-|web-)' entries from the supplied log; grouped by observed error signature."
+  },
+  "conclusion": {
+    "new_product_regression_found_in_assigned_scope": false,
+    "finding": "Observed assigned failure signatures are supported as pre-existing harness, fixture, or golden-contract mismatches. This is not a declaration that all product behavior is correct.",
+    "existing_issues_resolved": false,
+    "existing_issues_status": "Unresolved existing debt retained and must be disclosed in release reporting.",
+    "full_baseline_rerun_performed": false,
+    "ci_pass_verified": false,
+    "count_as_ci_pass": false,
+    "release_approval_or_waiver": false,
+    "blocked_assertions_after_first_failure": "Not executed or proven by this triage; correcting setup may expose additional failures."
+  },
+  "actions": {
+    "immutable_github_reads": true,
+    "existing_log_read": true,
+    "source_modifications": false,
+    "test_execution": false,
+    "build_execution": false,
+    "workflow_execution": false,
+    "remote_mutation": false,
+    "browser_reruns": false,
+    "evidence_deletion": false,
+    "persistence_only": "This turn saved the already-established findings to the requested Markdown and JSON files; it performed no new source lookup, test or fix."
+  },
+  "failure_groups": [
+    {
+      "id": "frozen_v10_rejects_current_v14",
+      "scoped_failure_entries": 22,
+      "classification": "pre_existing_stale_harness",
+      "log_lines": [
+        2098,
+        2194,
+        3111,
+        3678,
+        3789,
+        5837,
+        5891
+      ],
+      "cause": "Current schema-14 input is sent to frozen web-9300609-oracle project-state.js, whose supported project schema is 10. Failures occur during oracle setup, before the intended native/WASM behavior comparison.",
+      "representative_tests": [
+        "core-codec-unicode-ids-wasm.test.mjs",
+        "core-codec-unicode-wasm.test.mjs",
+        "core-document-field-wasm.test.mjs",
+        "core-generic-conversion-wasm.test.mjs",
+        "core-label-gesture-wasm.test.mjs",
+        "web-flag-contract.test.mjs",
+        "web-opaque-flag-contract.test.mjs"
+      ],
+      "evidence_paths": [
+        "tests/helpers/web-full-document-fixture.mjs",
+        "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/project-state.js",
+        "tests/fixtures/portability/web-document-seed.json"
+      ]
+    },
+    {
+      "id": "current_v14_rejects_schema13_golden",
+      "scoped_failure_entries": 1,
+      "classification": "pre_existing_stale_golden",
+      "log_lines": [
+        3175
+      ],
+      "cause": "core-document-flag-wasm loads schema-13 projects from web-opaque-flag-contract.json into the current C++ codec, which requires schema 14.",
+      "representative_tests": [
+        "core-document-flag-wasm.test.mjs"
+      ],
+      "evidence_paths": [
+        "tests/unit/core-document-flag-wasm.test.mjs",
+        "tests/fixtures/portability/web-opaque-flag-contract.json",
+        "shared/core/src/projectcodec.cpp"
+      ]
+    },
+    {
+      "id": "geometry_archive_order",
+      "scoped_failure_entries": 15,
+      "classification": "pre_existing_noncanonical_fixture_order",
+      "log_lines": [
+        1955,
+        3837,
+        5706
+      ],
+      "cause": "The fixture-water geometry row is last in the seed but first in canonical ID/version order. The displayed diff moves the same row and coordinates; it does not show coordinate loss. Native GeometryStore uses std::map and JS geometry-version-store.snapshot sorts by ID/version; both implementations are identical on main and candidate.",
+      "representative_tests": [
+        "core-candidate-projection-wasm.test.mjs",
+        "core-direct-object-writers-wasm.test.mjs",
+        "core-distribution-array-metadata-wasm.test.mjs",
+        "core-document-batch-wasm.test.mjs",
+        "core-document-content-wasm.test.mjs",
+        "core-document-selection-wasm.test.mjs",
+        "core-document-wasm.test.mjs",
+        "core-object-catalog-wasm.test.mjs",
+        "core-product-mode.test.mjs",
+        "core-territorial-service-wasm.test.mjs",
+        "core-territorial-store-wasm.test.mjs",
+        "web-document-seed.test.mjs"
+      ],
+      "evidence_paths": [
+        "tests/fixtures/portability/web-document-seed.json",
+        "shared/core/include/pandoeditor/geometry-types.h",
+        "shared/core/src/projectcodec.cpp",
+        "shared/frontend/js/modules/geometry-version-store.js",
+        "shared/frontend/js/modules/project-state.js"
+      ]
+    },
+    {
+      "id": "world_dto_fields",
+      "scoped_failure_entries": 1,
+      "classification": "pre_existing_stale_expected_shape",
+      "log_lines": [
+        3599
+      ],
+      "cause": "Actual world rows contain objectRef and rendering:{}; the frozen expected rows omit these fields. The WASM world() serializer body is identical on main and candidate. The read-model difference only adds temporal-candidate-adopt to accepted replacement transitions.",
+      "representative_tests": [
+        "core-document-world-wasm.test.mjs"
+      ],
+      "evidence_paths": [
+        "tests/unit/core-document-world-wasm.test.mjs",
+        "tests/fixtures/portability/web-timeline-read-model.json",
+        "shared/wasm/session-bindings.cpp",
+        "shared/frontend/js/modules/core-document-read-model.js"
+      ]
+    },
+    {
+      "id": "hydro_dangling_timeline",
+      "scoped_failure_entries": 1,
+      "classification": "pre_existing_invalid_fixture",
+      "log_lines": [
+        4144
+      ],
+      "cause": "The test empties hydroEdits without removing the same hydro object's timeline lifetimes and geometry bindings. Core correctly rejects the dangling reference with TIMELINE_ENTITY before the writer-clock scenario.",
+      "representative_tests": [
+        "core-service-writer-clock-wasm.test.mjs"
+      ],
+      "evidence_paths": [
+        "tests/unit/core-service-writer-clock-wasm.test.mjs",
+        "tests/fixtures/portability/web-document-seed.json",
+        "shared/core/src/timeline-records.cpp"
+      ]
+    },
+    {
+      "id": "other_scoped_entries",
+      "scoped_failure_entries": 14,
+      "classification": "mixed_pre_existing_harness_and_out_of_scope",
+      "log_lines": [
+        2084,
+        2290,
+        3078,
+        3325,
+        3901,
+        3923,
+        3958,
+        3993,
+        5307,
+        5333,
+        5852,
+        5878,
+        5923,
+        5939
+      ],
+      "details": [
+        {
+          "failure_entries": 1,
+          "cause": "Candidate rollback test supplies persistence.queueProject only; production dispose also requires cancelPending. The requirement is already present on main.",
+          "paths": [
+            "tests/unit/core-candidate-projection-wasm.test.mjs",
+            "tests/helpers/core-project.mjs",
+            "shared/frontend/js/modules/project-domain.js"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "Frozen generic deletion graph lacks the dependency that supplies markLayerTreeDirty; failure occurs in the original() oracle setup.",
+          "paths": [
+            "tests/unit/core-delete-selection-wasm.test.mjs"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "Draft facade actual snapshot has selectedVertex:null, vertexPlacement:false, objectVertexEditing:null; frozen expected shape lacks them. Tool activation itself succeeds. Product, test and golden blobs are unchanged on main.",
+          "paths": [
+            "tests/unit/core-document-draft-wasm.test.mjs",
+            "apps/editor/frontend/js/modules/editing-domain.js",
+            "tests/fixtures/portability/web-draft-contract.json"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "View-selection test sends current schema-3/objectRef timeline records into frozen schema-1/entityId store; TIMELINE_SCHEMA occurs before creating the Core client.",
+          "paths": [
+            "tests/unit/core-document-view-selection-wasm.test.mjs",
+            "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/timeline-records.js"
+          ]
+        },
+        {
+          "failure_entries": 3,
+          "cause": "Prerequisite fixture writes assets/wasm; unchanged canonical loader reads shared/frontend/static/wasm. Integrity and capability cases fail on missing manifest before reaching their intended assertions.",
+          "paths": [
+            "tests/unit/core-prerequisite.test.mjs",
+            "tools/load-node-core.mjs"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "Fixed Worker-entry test uses file URLs and a mocked global Worker without immutable Worker build metadata. workerAssetUrl rejects before the mock Worker is constructed.",
+          "paths": [
+            "tests/unit/core-product-mode.test.mjs",
+            "shared/frontend/js/modules/worker-asset-url.js"
+          ]
+        },
+        {
+          "failure_entries": 3,
+          "cause": "Frozen history/content/selection/writer-clock fixtures omit layerTree.normalizeLayerFolderState. Undo restore fails; writer-clock content token consequently remains unchanged.",
+          "paths": [
+            "tests/helpers/editable-history-fixture.mjs",
+            "tests/helpers/web-writer-clock-contract.mjs",
+            "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/app-project-snapshots.js"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "Frozen web-core trace emits timeline schema 1/entityId, whereas the frozen expected JSON contains schema 3/objectRef/propertyBindings. Both already exist unchanged on main.",
+          "paths": [
+            "tests/helpers/web-core-contract.mjs",
+            "tests/unit/web-core-contract.test.mjs",
+            "tests/fixtures/portability/web-core-contract.json"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "Frozen map settings expects state.layerVisibility, but helper constructs runtime state from the current saved seed without that device-viewing field.",
+          "paths": [
+            "tests/helpers/web-map-presentation-contract.mjs",
+            "tests/fixtures/portability/web-document-seed.json"
+          ]
+        },
+        {
+          "failure_entries": 1,
+          "cause": "web-shell-packaged-build assertion concerns Windows packaged custom-protocol invocation; outside this frozen Core/oracle assignment. Product versus harness status was not determined.",
+          "paths": [
+            "tests/unit/web-shell-packaged-build.test.mjs"
+          ],
+          "classification": "unresolved_outside_assigned_scope"
+        }
+      ]
+    }
+  ],
+  "file_identities": [
+    {
+      "path": "tests/helpers/web-full-document-fixture.mjs",
+      "main_blob_sha": "66c761fb8c738e209f2ad89b88dd8360f2ca1db6",
+      "candidate_blob_sha": "66c761fb8c738e209f2ad89b88dd8360f2ca1db6",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/web-full-document-fixture.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/web-full-document-fixture.mjs"
+    },
+    {
+      "path": "tests/helpers/core-session.mjs",
+      "main_blob_sha": "accbf4870baabdb6a8d5fa7bf6255253e7ba1b46",
+      "candidate_blob_sha": "accbf4870baabdb6a8d5fa7bf6255253e7ba1b46",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/core-session.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/core-session.mjs"
+    },
+    {
+      "path": "tests/helpers/core-project.mjs",
+      "main_blob_sha": "02c03f7dee5f39b5540a22e670a82a5a564b2ff1",
+      "candidate_blob_sha": "02c03f7dee5f39b5540a22e670a82a5a564b2ff1",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/core-project.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/core-project.mjs"
+    },
+    {
+      "path": "tests/unit/core-document-world-wasm.test.mjs",
+      "main_blob_sha": "56ea46c2c8fafc58d588ea9a166c8af014ca6734",
+      "candidate_blob_sha": "56ea46c2c8fafc58d588ea9a166c8af014ca6734",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-document-world-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-document-world-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/core-candidate-projection-wasm.test.mjs",
+      "main_blob_sha": "0cd8bde6b5721b5f06fe20ef9b14c14120dc0e00",
+      "candidate_blob_sha": "0cd8bde6b5721b5f06fe20ef9b14c14120dc0e00",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-candidate-projection-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-candidate-projection-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/core-service-writer-clock-wasm.test.mjs",
+      "main_blob_sha": "7fc2ad7bcb95eca4baf36b1ba1cc3f4520d56a54",
+      "candidate_blob_sha": "7fc2ad7bcb95eca4baf36b1ba1cc3f4520d56a54",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-service-writer-clock-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-service-writer-clock-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/core-document-flag-wasm.test.mjs",
+      "main_blob_sha": "049844b76199bae93d4861b1c5e01c7c41f0dfec",
+      "candidate_blob_sha": "049844b76199bae93d4861b1c5e01c7c41f0dfec",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-document-flag-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-document-flag-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/core-delete-selection-wasm.test.mjs",
+      "main_blob_sha": "2eb6f2b0b3a729655276710bb3bc13548edff212",
+      "candidate_blob_sha": "2eb6f2b0b3a729655276710bb3bc13548edff212",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-delete-selection-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-delete-selection-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/web-document-seed.test.mjs",
+      "main_blob_sha": "95cc41329cf2dc5dba857efae5b774a33f6aeae5",
+      "candidate_blob_sha": "95cc41329cf2dc5dba857efae5b774a33f6aeae5",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/web-document-seed.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/web-document-seed.test.mjs"
+    },
+    {
+      "path": "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/project-state.js",
+      "main_blob_sha": "a13a94f3ab320a87520cb6309653adcf44e989e8",
+      "candidate_blob_sha": "a13a94f3ab320a87520cb6309653adcf44e989e8",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-9300609-oracle/assets/js/modules/project-state.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-9300609-oracle/assets/js/modules/project-state.js"
+    },
+    {
+      "path": "tests/fixtures/portability/web-document-seed.json",
+      "main_blob_sha": "020a84294bb06afc91bb487e4900abc41a887e9b",
+      "candidate_blob_sha": "020a84294bb06afc91bb487e4900abc41a887e9b",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-document-seed.json",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-document-seed.json"
+    },
+    {
+      "path": "shared/core/src/projectcodec.cpp",
+      "main_blob_sha": "1864b074a61de665d8a60a45be5871cad84ef6a5",
+      "candidate_blob_sha": "1864b074a61de665d8a60a45be5871cad84ef6a5",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/core/src/projectcodec.cpp",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/core/src/projectcodec.cpp"
+    },
+    {
+      "path": "shared/core/src/document.cpp",
+      "main_blob_sha": "202fefca299322fcd501249dd985e301fd86d72a",
+      "candidate_blob_sha": "202fefca299322fcd501249dd985e301fd86d72a",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/core/src/document.cpp",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/core/src/document.cpp"
+    },
+    {
+      "path": "shared/core/src/timeline-records.cpp",
+      "main_blob_sha": "95c0366a7c3ff8aaf1f4a1a1483dbb082b890720",
+      "candidate_blob_sha": "95c0366a7c3ff8aaf1f4a1a1483dbb082b890720",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/core/src/timeline-records.cpp",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/core/src/timeline-records.cpp"
+    },
+    {
+      "path": "shared/core/src/timeline-resolver.cpp",
+      "main_blob_sha": "637991f37071d18c6cca4fedffc97b367e0034a7",
+      "candidate_blob_sha": "637991f37071d18c6cca4fedffc97b367e0034a7",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/core/src/timeline-resolver.cpp",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/core/src/timeline-resolver.cpp"
+    },
+    {
+      "path": "shared/frontend/js/modules/core-document-read-model.js",
+      "main_blob_sha": "08bb70afd37aa824306b2e8b3b8508b4efe80df4",
+      "candidate_blob_sha": "588fae3942048135751b77f7e85407515d365b82",
+      "identical": false,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/frontend/js/modules/core-document-read-model.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/frontend/js/modules/core-document-read-model.js"
+    },
+    {
+      "path": "shared/frontend/js/modules/project-domain.js",
+      "main_blob_sha": "9f5223bf0fc144c8578c8b866c480e74c9afb105",
+      "candidate_blob_sha": "765ac66a75f39e7c55b0ebde529125e2607d5628",
+      "identical": false,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/frontend/js/modules/project-domain.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/frontend/js/modules/project-domain.js"
+    },
+    {
+      "path": "shared/wasm/session-bindings.cpp",
+      "main_blob_sha": "aa7fa7ae8a60dd96c3906e33348422b1b443c710",
+      "candidate_blob_sha": "99271f22c5b216d48b0298759d7a755c835feb84",
+      "identical": false,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/wasm/session-bindings.cpp",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/wasm/session-bindings.cpp"
+    },
+    {
+      "path": "tests/helpers/web-oracle.mjs",
+      "main_blob_sha": "1f072c3000b9877296ac00c4fab2b3addb1d7bb8",
+      "candidate_blob_sha": "1f072c3000b9877296ac00c4fab2b3addb1d7bb8",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/web-oracle.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/web-oracle.mjs"
+    },
+    {
+      "path": "tests/helpers/web-core-contract.mjs",
+      "main_blob_sha": "8a2844f3540d993e8c68a14aecece238b694b590",
+      "candidate_blob_sha": "8a2844f3540d993e8c68a14aecece238b694b590",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/web-core-contract.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/web-core-contract.mjs"
+    },
+    {
+      "path": "tests/unit/web-core-contract.test.mjs",
+      "main_blob_sha": "40b31050a83719a2e6c3cce6036f415b7c0e2095",
+      "candidate_blob_sha": "40b31050a83719a2e6c3cce6036f415b7c0e2095",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/web-core-contract.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/web-core-contract.test.mjs"
+    },
+    {
+      "path": "tests/helpers/web-writer-clock-contract.mjs",
+      "main_blob_sha": "0aa8e94e61f48905310bad56d3bf69c948370dce",
+      "candidate_blob_sha": "0aa8e94e61f48905310bad56d3bf69c948370dce",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/web-writer-clock-contract.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/web-writer-clock-contract.mjs"
+    },
+    {
+      "path": "tests/unit/core-prerequisite.test.mjs",
+      "main_blob_sha": "0ff91828ee86dcc2cde3b21e44ce0fd475758abc",
+      "candidate_blob_sha": "0ff91828ee86dcc2cde3b21e44ce0fd475758abc",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-prerequisite.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-prerequisite.test.mjs"
+    },
+    {
+      "path": "tools/load-node-core.mjs",
+      "main_blob_sha": "aae7fc7e84c51b67acac83d02358e8a4851736a9",
+      "candidate_blob_sha": "aae7fc7e84c51b67acac83d02358e8a4851736a9",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tools/load-node-core.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tools/load-node-core.mjs"
+    },
+    {
+      "path": "tests/fixtures/portability/web-core-contract.json",
+      "main_blob_sha": "5bd0fa8b48a8041784b0566fb91d1c111b395560",
+      "candidate_blob_sha": "5bd0fa8b48a8041784b0566fb91d1c111b395560",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-core-contract.json",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-core-contract.json"
+    },
+    {
+      "path": "tests/fixtures/portability/web-opaque-flag-contract.json",
+      "main_blob_sha": "dcfe8a2a648240199fec7da92e2b7a2e71f6383a",
+      "candidate_blob_sha": "dcfe8a2a648240199fec7da92e2b7a2e71f6383a",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-opaque-flag-contract.json",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-opaque-flag-contract.json"
+    },
+    {
+      "path": "tests/fixtures/portability/web-timeline-read-model.json",
+      "main_blob_sha": "c9f67b9ec02269cf580db3c35ee875061e0469ba",
+      "candidate_blob_sha": "c9f67b9ec02269cf580db3c35ee875061e0469ba",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-timeline-read-model.json",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-timeline-read-model.json"
+    },
+    {
+      "path": "shared/frontend/js/modules/project-state.js",
+      "main_blob_sha": "65c6527927ee67b4949647a1565565fc368dfce7",
+      "candidate_blob_sha": "65c6527927ee67b4949647a1565565fc368dfce7",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/frontend/js/modules/project-state.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/frontend/js/modules/project-state.js"
+    },
+    {
+      "path": "tests/helpers/editable-history-fixture.mjs",
+      "main_blob_sha": "48a33fb0679503254083ddb8f0e083070ec0e59e",
+      "candidate_blob_sha": "48a33fb0679503254083ddb8f0e083070ec0e59e",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/editable-history-fixture.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/editable-history-fixture.mjs"
+    },
+    {
+      "path": "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/app-project-snapshots.js",
+      "main_blob_sha": "951d1e63f47c9c1a65dfe03c69b5616a41213dee",
+      "candidate_blob_sha": "951d1e63f47c9c1a65dfe03c69b5616a41213dee",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-9300609-oracle/assets/js/modules/app-project-snapshots.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-9300609-oracle/assets/js/modules/app-project-snapshots.js"
+    },
+    {
+      "path": "tests/helpers/web-map-presentation-contract.mjs",
+      "main_blob_sha": "14edcdeaa9fb77961641383a922b10c385021365",
+      "candidate_blob_sha": "14edcdeaa9fb77961641383a922b10c385021365",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/helpers/web-map-presentation-contract.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/helpers/web-map-presentation-contract.mjs"
+    },
+    {
+      "path": "shared/core/include/pandoeditor/geometry-types.h",
+      "main_blob_sha": "073e5cf1288458bdb75a3f2be5bf4184465cb9b8",
+      "candidate_blob_sha": "073e5cf1288458bdb75a3f2be5bf4184465cb9b8",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/core/include/pandoeditor/geometry-types.h",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/core/include/pandoeditor/geometry-types.h"
+    },
+    {
+      "path": "shared/frontend/js/modules/geometry-version-store.js",
+      "main_blob_sha": "ddc53dc60df91d92ce5bd040e5eb41e488876f02",
+      "candidate_blob_sha": "ddc53dc60df91d92ce5bd040e5eb41e488876f02",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/frontend/js/modules/geometry-version-store.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/frontend/js/modules/geometry-version-store.js"
+    },
+    {
+      "path": "tests/unit/core-document-draft-wasm.test.mjs",
+      "main_blob_sha": "2b1431e3e2203fbbc6210c04ae540bab5434d08a",
+      "candidate_blob_sha": "2b1431e3e2203fbbc6210c04ae540bab5434d08a",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-document-draft-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-document-draft-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/core-document-view-selection-wasm.test.mjs",
+      "main_blob_sha": "f546e8dc0c8d3dc773c0b2eeeecbb01a706d3cbc",
+      "candidate_blob_sha": "f546e8dc0c8d3dc773c0b2eeeecbb01a706d3cbc",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-document-view-selection-wasm.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-document-view-selection-wasm.test.mjs"
+    },
+    {
+      "path": "tests/unit/core-product-mode.test.mjs",
+      "main_blob_sha": "e47bef9a4b69c237bdc026579b71811abe3cf891",
+      "candidate_blob_sha": "e47bef9a4b69c237bdc026579b71811abe3cf891",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/core-product-mode.test.mjs",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/core-product-mode.test.mjs"
+    },
+    {
+      "path": "apps/editor/frontend/js/modules/editing-domain.js",
+      "main_blob_sha": "bfe8f78433cf91ad4eeb82a8d67f6d4e182cbe1c",
+      "candidate_blob_sha": "bfe8f78433cf91ad4eeb82a8d67f6d4e182cbe1c",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/frontend/js/modules/editing-domain.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/frontend/js/modules/editing-domain.js"
+    },
+    {
+      "path": "tests/fixtures/portability/web-draft-contract.json",
+      "main_blob_sha": "6488d265d2e39cdbb39711539259e164e86e7f49",
+      "candidate_blob_sha": "6488d265d2e39cdbb39711539259e164e86e7f49",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-draft-contract.json",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-draft-contract.json"
+    },
+    {
+      "path": "shared/frontend/js/modules/worker-asset-url.js",
+      "main_blob_sha": "ebec37f8866564278baf4a608d240a6c4d9614ec",
+      "candidate_blob_sha": "ebec37f8866564278baf4a608d240a6c4d9614ec",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/shared/frontend/js/modules/worker-asset-url.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/shared/frontend/js/modules/worker-asset-url.js"
+    },
+    {
+      "path": "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/timeline-records.js",
+      "main_blob_sha": "f1353d9fb7d5f0a8d323452d63126d887577cc3f",
+      "candidate_blob_sha": "f1353d9fb7d5f0a8d323452d63126d887577cc3f",
+      "identical": true,
+      "main_url": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/fixtures/portability/web-9300609-oracle/assets/js/modules/timeline-records.js",
+      "candidate_url": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/fixtures/portability/web-9300609-oracle/assets/js/modules/timeline-records.js"
+    }
+  ],
+  "changed_file_relevant_section_findings": [
+    {
+      "path": "shared/frontend/js/modules/core-document-read-model.js",
+      "whole_file_identical": false,
+      "observed_difference": "Only added core.document-temporal-candidate-adopt to acceptLoadedProject replacement-operation list; existing typed world projection fields are unchanged."
+    },
+    {
+      "path": "shared/wasm/session-bindings.cpp",
+      "whole_file_identical": false,
+      "verified_section": "val world(const ResolvedWorld& result)",
+      "section_body_identical": true
+    },
+    {
+      "path": "shared/frontend/js/modules/project-domain.js",
+      "whole_file_identical": false,
+      "verified_section": "dispose() persistence.cancelPending requirement",
+      "section_requirement_identical": true
+    }
+  ],
+  "recommendations_not_executed": [
+    "Retain and disclose existing debt; do not count this triage as successful CI.",
+    "Update current fixtures and expectations to canonical current contracts without adding product support for obsolete development schemas.",
+    "Keep frozen oracle bytes immutable; use version-appropriate inputs and explicit semantic comparisons rather than feeding current storage objects to the old validator.",
+    "If authorized later, correct the smallest relevant harness issues and run only the focused cases needed; no such fixes or reruns were made here."
+  ],
+  "limitations": [
+    "Overall job was cancelled; this is not a complete baseline result.",
+    "No whole-baseline rerun was performed.",
+    "No independent product failure was reproduced in this subtask.",
+    "Windows packaging assertion was not classified.",
+    "Parent-authorized deployment decisions remain outside this triage artifact."
+  ]
+}
+

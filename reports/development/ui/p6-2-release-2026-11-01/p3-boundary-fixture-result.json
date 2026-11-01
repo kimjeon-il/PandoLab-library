@@ -1,0 +1,106 @@
+{
+  "status": "ready_for_targeted_ci",
+  "observedAt": "2026-11-01T02:36:54.118947+00:00",
+  "sourceCommit": "84bf8312a09b53215a551eeb74d48f6df4750428",
+  "testPath": "tests/unit/country-shared-boundary-generator.test.mjs",
+  "baseTestBlobSha": "6901162747905c8966f62375eb94e99c22c46aff",
+  "baseTestSha256": "30b969f2b201424f696682ccf0b2500beb15c190adf2321200812ea20e30755f",
+  "testSha256": "470d7ebd3a3214591f8d8a1dbf3d54e3fd8e6f00f948c67704e4fa61db71393c",
+  "testGitBlobSha": "0b055525b50690c024f8bfc09c7553dfc32aeecb",
+  "testBytes": 4201,
+  "diff": {
+    "path": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-fixture.patch",
+    "sha256": "ebc37f8007bde3cf7cd8eeedb947113856c4e0c599e05c1848f800bfe8fd5e5c",
+    "additions": 1,
+    "deletions": 2
+  },
+  "rootCause": "A runtime data archive was incorrectly resolved through the frontend source ownership index, which excludes the assets/data mount. The pinned archive exists.",
+  "sourceEvidence": {
+    "frontendLayoutBlobSha": "5a988a66b489ccef7a0a8dfae60daf62dba2cee2",
+    "pinBlobSha": "33835a6a694a8a0b628b6fbf407cc6c0cdaf0293",
+    "pin": {
+      "schemaVersion": 1,
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "139941d8056418547c796068304ba8db3696fe69",
+      "mounts": [
+        "assets/data",
+        "reports",
+        "tools/historical-library/sources",
+        "tools/historical-library/working",
+        "tools/historical-library/review-output",
+        "tools/historical-library/land-borders"
+      ]
+    },
+    "worldManifestBlobSha": "6f637e1b4f6afea2311af44a8a2aa1733bea2f1f",
+    "worldCompatibility": {
+      "sharedBoundaries": {
+        "preview": "countries-preview-shared-v0.36.1.json.gz",
+        "canonical": "countries-canonical-shared-v0.36.1.json.gz"
+      }
+    },
+    "pinnedArchive": {
+      "name": "countries-preview-shared-v0.36.1.json.gz",
+      "path": "assets/data/countries-preview-shared-v0.36.1.json.gz",
+      "type": "file",
+      "size": 178234,
+      "sha": "3ebafb5c2e238b475972b888ac295569ef3ee39b"
+    },
+    "archiveMetadataUrl": "https://api.github.com/repos/kimjeon-il/PandoLab-library-data/contents/assets/data?ref=139941d8056418547c796068304ba8db3696fe69"
+  },
+  "baseline": {
+    "runId": 41265483904,
+    "jobId": 124727574166,
+    "tests": 31,
+    "pass": 30,
+    "fail": 1,
+    "skipped": 0,
+    "failedFile": "tests/unit/country-shared-boundary-generator.test.mjs",
+    "failure": "Missing frontend source: assets/data/countries-preview-shared-v0.36.1.json.gz",
+    "pinMount": "success",
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-fixture-before.log",
+    "logSha256": "6afd4faa1b6bbe24c3e401e627bffb6dcab17d823432cb6a020dd00a52a9f7c7"
+  },
+  "preservation": {
+    "onlyExpectedTwoSitesChanged": true,
+    "assertionsBefore": 18,
+    "assertionsAfter": 18,
+    "expandedTargetTests": 8
+  },
+  "syntax": {
+    "command": [
+      "node",
+      "--check",
+      "tests/unit/country-shared-boundary-generator.test.mjs"
+    ],
+    "exitCode": 0,
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-fixture-syntax.log",
+    "logSha256": "0c962771733cd1651af447c0de56e45960827650c90b098d928a5624625fa797"
+  },
+  "ownershipProbe": {
+    "command": [
+      "node",
+      "--input-type=module",
+      "-"
+    ],
+    "exitCode": 0,
+    "result": {
+      "fixture": "one synthetic gzip only",
+      "staleResolverError": "Missing frontend source: assets/data/countries-preview-shared-v0.36.1.json.gz",
+      "correctedPath": "/tmp/p6-2-boundary-owner-2crYf9/assets/data/countries-preview-shared-v0.36.1.json.gz",
+      "correctedReadMatchesExactFixtureBytes": true,
+      "temporaryFixtureRemoved": true,
+      "removedLogicalBytes": 66
+    },
+    "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-owner-probe.log",
+    "logSha256": "3c6e552982a7185592371f556dc78d94220a31e4001662226ed157072843fd87"
+  },
+  "actualUnitRerun": "Pending root-managed focused CI; local snapshot lacks real pinned data and WASM. Existing unit invokes the real preview/canonical country generator, so no local data/WASM hydration was attempted.",
+  "modifiedPaths": [
+    "tests/unit/country-shared-boundary-generator.test.mjs"
+  ],
+  "hydratedPaths": [
+    "tests/unit/country-shared-boundary-generator.test.mjs"
+  ],
+  "helperLayoutProductPinGeneratorChanges": [],
+  "remoteMutations": []
+}

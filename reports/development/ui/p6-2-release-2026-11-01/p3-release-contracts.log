@@ -1,0 +1,701 @@
+﻿2026-11-01T02:45:04.9355091Z Current runner version: '2.338.2'
+2026-11-01T02:45:04.9380627Z ##[group]Runner Image Provisioner
+2026-11-01T02:45:04.9381596Z Hosted Compute Agent
+2026-11-01T02:45:04.9382256Z Version: 20261021.618
+2026-11-01T02:45:04.9382931Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T02:45:04.9383680Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T02:45:04.9384465Z Worker ID: {31b7b556-0ccb-4348-ae12-6bfd27ea627b}
+2026-11-01T02:45:04.9385577Z Region: westus
+2026-11-01T02:45:04.9386143Z Cloud: Azure
+2026-11-01T02:45:04.9386720Z ##[endgroup]
+2026-11-01T02:45:04.9388941Z ##[group]Operating System
+2026-11-01T02:45:04.9389618Z Ubuntu
+2026-11-01T02:45:04.9390231Z 24.04.5
+2026-11-01T02:45:04.9390744Z LTS
+2026-11-01T02:45:04.9391236Z ##[endgroup]
+2026-11-01T02:45:04.9391890Z ##[group]Runner Image
+2026-11-01T02:45:04.9392533Z Image: ubuntu-24.04
+2026-11-01T02:45:04.9393136Z Version: 20261025.353.1
+2026-11-01T02:45:04.9394497Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T02:45:04.9396131Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T02:45:04.9397176Z ##[endgroup]
+2026-11-01T02:45:04.9398627Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T02:45:04.9400811Z Contents: read
+2026-11-01T02:45:04.9401556Z Metadata: read
+2026-11-01T02:45:04.9402131Z ##[endgroup]
+2026-11-01T02:45:04.9404189Z Secret source: Actions
+2026-11-01T02:45:04.9405360Z Cache mode: write
+2026-11-01T02:45:04.9406032Z Prepare workflow directory
+2026-11-01T02:45:04.9748798Z Prepare all required actions
+2026-11-01T02:45:04.9800504Z Getting action download info
+2026-11-01T02:45:05.3653691Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-01T02:45:05.4626516Z Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+2026-11-01T02:45:05.8432515Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-01T02:45:05.9262345Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-01T02:45:06.1427500Z Complete job name: web-contracts
+2026-11-01T02:45:06.2324097Z ##[group]Run actions/checkout@v4
+2026-11-01T02:45:06.2325008Z with:
+2026-11-01T02:45:06.2325438Z   fetch-depth: 0
+2026-11-01T02:45:06.2325925Z   ref: 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:45:06.2326526Z   persist-credentials: false
+2026-11-01T02:45:06.2327043Z   repository: kimjeon-il/Pando
+2026-11-01T02:45:06.2331185Z   token: ***
+2026-11-01T02:45:06.2331622Z   ssh-strict: true
+2026-11-01T02:45:06.2332055Z   ssh-user: git
+2026-11-01T02:45:06.2332468Z   clean: true
+2026-11-01T02:45:06.2332919Z   sparse-checkout-cone-mode: true
+2026-11-01T02:45:06.2333435Z   fetch-tags: false
+2026-11-01T02:45:06.2333878Z   show-progress: true
+2026-11-01T02:45:06.2334329Z   lfs: false
+2026-11-01T02:45:06.2334742Z   submodules: false
+2026-11-01T02:45:06.2335184Z   set-safe-directory: true
+2026-11-01T02:45:06.2335705Z   allow-unsafe-pr-checkout: false
+2026-11-01T02:45:06.2336472Z ##[endgroup]
+2026-11-01T02:45:06.6889193Z Syncing repository: kimjeon-il/Pando
+2026-11-01T02:45:06.6891882Z ##[group]Getting Git version info
+2026-11-01T02:45:06.6892832Z Working directory is '/home/runner/work/Pando/Pando'
+2026-11-01T02:45:06.6893953Z [command]/usr/bin/git version
+2026-11-01T02:45:06.7078714Z git version 2.56.0
+2026-11-01T02:45:06.7120813Z ##[endgroup]
+2026-11-01T02:45:06.7128755Z Temporarily overriding HOME='/home/runner/work/_temp/624b23b2-f94d-4722-a29b-e6f99f8defc1' before making global git config changes
+2026-11-01T02:45:06.7131924Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:45:06.7134865Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:45:06.7182646Z Deleting the contents of '/home/runner/work/Pando/Pando'
+2026-11-01T02:45:06.7187299Z ##[group]Initializing the repository
+2026-11-01T02:45:06.7192504Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+2026-11-01T02:45:06.7305974Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T02:45:06.7308419Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T02:45:06.7309701Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T02:45:06.7311143Z hint: call:
+2026-11-01T02:45:06.7311704Z hint:
+2026-11-01T02:45:06.7312740Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T02:45:06.7314039Z hint:
+2026-11-01T02:45:06.7314803Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T02:45:06.7315930Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T02:45:06.7317840Z hint:
+2026-11-01T02:45:06.7319297Z hint: 	git branch -m <name>
+2026-11-01T02:45:06.7320587Z hint:
+2026-11-01T02:45:06.7321808Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T02:45:06.7324678Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+2026-11-01T02:45:06.7332392Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+2026-11-01T02:45:06.7386100Z ##[endgroup]
+2026-11-01T02:45:06.7387678Z ##[group]Disabling automatic garbage collection
+2026-11-01T02:45:06.7390923Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T02:45:06.7427702Z ##[endgroup]
+2026-11-01T02:45:06.7429984Z ##[group]Setting up auth
+2026-11-01T02:45:06.7436556Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:45:06.7480583Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:45:06.7913291Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:45:06.7960071Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:45:06.8204767Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:45:06.8250218Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:45:06.8492345Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T02:45:06.8541008Z ##[endgroup]
+2026-11-01T02:45:06.8542474Z ##[group]Fetching the repository
+2026-11-01T02:45:06.8558728Z [command]/usr/bin/git -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2026-11-01T02:45:10.8116007Z From https://github.com/kimjeon-il/Pando
+2026-11-01T02:45:10.8118277Z  * [new branch]        gpu-recovery-fix       -> origin/gpu-recovery-fix
+2026-11-01T02:45:10.8119375Z  * [new branch]        main                   -> origin/main
+2026-11-01T02:45:10.8120238Z  * [new branch]        work/gis               -> origin/work/gis
+2026-11-01T02:45:10.8121087Z  * [new branch]        work/gpu-g4-validation -> origin/work/gpu-g4-validation
+2026-11-01T02:45:10.8121917Z  * [new branch]        work/objects           -> origin/work/objects
+2026-11-01T02:45:10.8123067Z  * [new branch]        work/p8-annex-focused  -> origin/work/p8-annex-focused
+2026-11-01T02:45:10.8124115Z  * [new branch]        work/p8-hydro-focused  -> origin/work/p8-hydro-focused
+2026-11-01T02:45:10.8124764Z  * [new branch]        work/places            -> origin/work/places
+2026-11-01T02:45:10.8125361Z  * [new branch]        work/ui                -> origin/work/ui
+2026-11-01T02:45:10.8130494Z [command]/usr/bin/git rev-parse --verify --quiet 35bce38a3444c57bcaf60a9a12d30421e6602740^{object}
+2026-11-01T02:45:10.8208661Z 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:45:10.8212881Z ##[endgroup]
+2026-11-01T02:45:10.8214158Z ##[group]Determining the checkout info
+2026-11-01T02:45:10.8215602Z ##[endgroup]
+2026-11-01T02:45:10.8216611Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T02:45:10.8247026Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T02:45:10.8287418Z ##[group]Checking out the ref
+2026-11-01T02:45:10.8292071Z [command]/usr/bin/git checkout --progress --force 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:45:11.2887456Z Note: switching to '35bce38a3444c57bcaf60a9a12d30421e6602740'.
+2026-11-01T02:45:11.2888414Z 
+2026-11-01T02:45:11.2889640Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-11-01T02:45:11.2890520Z changes and commit them, and you can discard any commits you make in this
+2026-11-01T02:45:11.2891374Z state without impacting any branches by switching back to a branch.
+2026-11-01T02:45:11.2891883Z 
+2026-11-01T02:45:11.2892233Z If you want to create a new branch to retain commits you create, you may
+2026-11-01T02:45:11.2893166Z do so (now or later) by using -c with the switch command. Example:
+2026-11-01T02:45:11.2893666Z 
+2026-11-01T02:45:11.2893891Z   git switch -c <new-branch-name>
+2026-11-01T02:45:11.2894270Z 
+2026-11-01T02:45:11.2894473Z Or undo this operation with:
+2026-11-01T02:45:11.2894788Z 
+2026-11-01T02:45:11.2894964Z   git switch -
+2026-11-01T02:45:11.2895304Z 
+2026-11-01T02:45:11.2895720Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-11-01T02:45:11.2896324Z 
+2026-11-01T02:45:11.2896784Z HEAD is now at 35bce38a test(ui): qualify Node event globals in the pinch regression fixture
+2026-11-01T02:45:11.2919349Z ##[endgroup]
+2026-11-01T02:45:11.2976784Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T02:45:11.3013210Z 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:45:11.3024799Z ##[group]Removing auth
+2026-11-01T02:45:11.3029422Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:45:11.3073299Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:45:11.3337000Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:45:11.3375316Z http.https://github.com/.extraheader
+2026-11-01T02:45:11.3384474Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-01T02:45:11.3427094Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:45:11.3696480Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:45:11.3739808Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:45:11.3999674Z ##[endgroup]
+2026-11-01T02:45:11.4310312Z Prepare all required actions
+2026-11-01T02:45:11.4310875Z Getting action download info
+2026-11-01T02:45:11.5874555Z ##[group]Run ./.github/actions/library-data
+2026-11-01T02:45:11.5874854Z with:
+2026-11-01T02:45:11.5875057Z   inputs-target: .
+2026-11-01T02:45:11.5875267Z ##[endgroup]
+2026-11-01T02:45:11.5932418Z ##[start-action display=Run actions/checkout@v4;id=__self.__actions_checkout]
+2026-11-01T02:45:11.5950602Z ##[end-action id=__self.__actions_checkout;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-11-01T02:45:11.5975600Z ##[start-action display=Run node "$GITHUB_ACTION_PATH/../../../tools/library-data.mjs" --mount-inputs="$GITHUB_WORKSPACE/$INPUT_SOURCE" --root="$GITHUB_WORKSPACE/$INPUT_TARGET";id=__self.__run]
+2026-11-01T02:45:11.5980691Z ##[end-action id=__self.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-11-01T02:45:11.5982629Z ##[start-action display=Run node tools/library-data.mjs;id=__self.__run_2]
+2026-11-01T02:45:11.6024994Z ##[group]Run node tools/library-data.mjs
+2026-11-01T02:45:11.6025362Z [36;1mnode tools/library-data.mjs[0m
+2026-11-01T02:45:11.6049684Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-01T02:45:11.6050035Z ##[endgroup]
+2026-11-01T02:45:11.8428703Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:45:11.8430054Z Cloning into '/home/runner/work/Pando/Pando/.library-data/repository'...
+2026-11-01T02:45:11.8511945Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:45:12.1944001Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:45:12.4446931Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:45:53.9874908Z Library mounted: kimjeon-il/PandoLab-library-data@139941d8056418547c796068304ba8db3696fe69
+2026-11-01T02:45:54.0080369Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=42409]
+2026-11-01T02:45:54.0154049Z ##[group]Run pnpm/action-setup@v4
+2026-11-01T02:45:54.0154341Z with:
+2026-11-01T02:45:54.0154543Z   dest: ~/setup-pnpm
+2026-11-01T02:45:54.0154761Z   run_install: null
+2026-11-01T02:45:54.0154965Z   cache: false
+2026-11-01T02:45:54.0155192Z   cache_dependency_path: pnpm-lock.yaml
+2026-11-01T02:45:54.0155479Z   package_json_file: package.json
+2026-11-01T02:45:54.0155732Z   standalone: false
+2026-11-01T02:45:54.0155936Z ##[endgroup]
+2026-11-01T02:45:54.1724663Z ##[group]Running self-installer...
+2026-11-01T02:45:54.6292892Z (node:4879) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:45:54.6294956Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:45:54.7717989Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:45:54.7821305Z Packages: +1
+2026-11-01T02:45:54.7821850Z +
+2026-11-01T02:45:55.2545028Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-11-01T02:45:55.2865332Z 
+2026-11-01T02:45:55.2865678Z dependencies:
+2026-11-01T02:45:55.2866080Z + pnpm 11.19.0 (12.16.1 is available)
+2026-11-01T02:45:55.2866306Z 
+2026-11-01T02:45:55.2888463Z Done in 907ms
+2026-11-01T02:45:55.3796904Z ##[endgroup]
+2026-11-01T02:45:55.3797409Z Installation Completed!
+2026-11-01T02:45:55.3957491Z ##[group]Run actions/setup-node@v4
+2026-11-01T02:45:55.3957779Z with:
+2026-11-01T02:45:55.3958242Z   node-version-file: .nvmrc
+2026-11-01T02:45:55.3958595Z   cache: pnpm
+2026-11-01T02:45:55.3958801Z   always-auth: false
+2026-11-01T02:45:55.3959019Z   check-latest: false
+2026-11-01T02:45:55.3961721Z   token: ***
+2026-11-01T02:45:55.3961920Z env:
+2026-11-01T02:45:55.3962170Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:45:55.3962483Z ##[endgroup]
+2026-11-01T02:45:55.5384967Z Resolved .nvmrc as 24
+2026-11-01T02:45:55.5474662Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-11-01T02:45:55.5479604Z (node:4894) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:45:55.5480917Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:45:55.5483119Z ##[group]Environment details
+2026-11-01T02:45:56.0084744Z node: v24.22.1
+2026-11-01T02:45:56.0085299Z npm: 11.19.1
+2026-11-01T02:45:56.0085658Z yarn: 1.22.22
+2026-11-01T02:45:56.0086462Z ##[endgroup]
+2026-11-01T02:45:56.0108261Z [command]/home/runner/setup-pnpm/node_modules/.bin/pnpm store path --silent
+2026-11-01T02:45:56.6544878Z /home/runner/setup-pnpm/node_modules/.bin/store/v11
+2026-11-01T02:45:56.9317574Z Cache hit for: node-cache-Linux-x64-pnpm-3fc3cdb5baa3bd3b771a0ebd2d242e94615c307aabc1f309e3d5b8b6c51024d9
+2026-11-01T02:45:56.9419693Z (node:4894) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:45:58.2067963Z Received 29360128 of 65979960 (44.5%), 28.0 MBs/sec
+2026-11-01T02:45:58.5362697Z Received 65979960 of 65979960 (100.0%), 47.3 MBs/sec
+2026-11-01T02:45:58.5364109Z Cache Size: ~63 MB (65979960 B)
+2026-11-01T02:45:58.5476834Z [command]/usr/bin/tar -xf /home/runner/work/_temp/90393f13-d576-461c-9a7c-2193b5e0afcc/cache.tzst -P -C /home/runner/work/Pando/Pando --use-compress-program unzstd
+2026-11-01T02:45:59.0367501Z Cache restored successfully
+2026-11-01T02:45:59.0405044Z Cache restored from key: node-cache-Linux-x64-pnpm-3fc3cdb5baa3bd3b771a0ebd2d242e94615c307aabc1f309e3d5b8b6c51024d9
+2026-11-01T02:45:59.0564860Z ##[group]Run pnpm install --frozen-lockfile
+2026-11-01T02:45:59.0565249Z [36;1mpnpm install --frozen-lockfile[0m
+2026-11-01T02:45:59.0592563Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:45:59.0592825Z env:
+2026-11-01T02:45:59.0593086Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:45:59.0593407Z ##[endgroup]
+2026-11-01T02:45:59.5772989Z ? Verifying lockfile against supply-chain policies (146 entries)...
+2026-11-01T02:45:59.6677331Z Lockfile is up to date, resolution step is skipped
+2026-11-01T02:45:59.8513150Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:45:59.8899547Z Packages: +120
+2026-11-01T02:45:59.8902441Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-11-01T02:46:00.2664469Z Packages are hard linked from the content-addressable store to the virtual store.
+2026-11-01T02:46:00.2689628Z   Content-addressable store is at: /home/runner/setup-pnpm/node_modules/.bin/store/v11
+2026-11-01T02:46:00.2701795Z   Virtual store is at:             node_modules/.pnpm
+2026-11-01T02:46:00.3817199Z Progress: resolved 120, reused 120, downloaded 0, added 120, done
+2026-11-01T02:46:00.6927420Z ✓ Lockfile passes supply-chain policies (146 entries in 1.1s)
+2026-11-01T02:46:00.8226319Z 
+2026-11-01T02:46:00.8226774Z devDependencies:
+2026-11-01T02:46:00.8227231Z + @eslint/js 10.0.1
+2026-11-01T02:46:00.8227639Z + @modelcontextprotocol/server 2.4.0
+2026-11-01T02:46:00.8228222Z + @playwright/test 1.62.1
+2026-11-01T02:46:00.8228557Z + esbuild 0.25.10
+2026-11-01T02:46:00.8228780Z + eslint 10.9.1
+2026-11-01T02:46:00.8229024Z + onnxruntime-web 1.30.0
+2026-11-01T02:46:00.8229268Z + postcss 8.5.30
+2026-11-01T02:46:00.8229501Z + tesseract.js 7.0.0
+2026-11-01T02:46:00.8229765Z + topojson-client 3.1.0
+2026-11-01T02:46:00.8230022Z + topojson-server 3.0.1
+2026-11-01T02:46:00.8230275Z + topojson-simplify 3.0.3
+2026-11-01T02:46:00.8230518Z + yaml 2.9.1
+2026-11-01T02:46:00.8230725Z + yazl 3.3.1
+2026-11-01T02:46:00.8230923Z + zod 4.6.7
+2026-11-01T02:46:00.8231067Z 
+2026-11-01T02:46:00.9208829Z Done in 1.8s using pnpm v11.19.0
+2026-11-01T02:46:00.9779896Z ##[group]Run node scripts/run-application-checks.mjs --list --github-output
+2026-11-01T02:46:00.9780518Z [36;1mnode scripts/run-application-checks.mjs --list --github-output[0m
+2026-11-01T02:46:00.9801492Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:46:00.9801762Z env:
+2026-11-01T02:46:00.9802019Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:46:00.9802430Z   BASE_SHA: e53f067ef37cafc4bd5d4d50e323f8866e7c9833
+2026-11-01T02:46:00.9802789Z   HEAD_SHA: 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:46:00.9803083Z   CHECK_PROFILE: p3
+2026-11-01T02:46:00.9803297Z   CHECK_SCOPE: auto
+2026-11-01T02:46:00.9803509Z ##[endgroup]
+2026-11-01T02:46:17.0752817Z {
+2026-11-01T02:46:17.0753274Z   "schema": "pando-application-check-plan-v1",
+2026-11-01T02:46:17.0753657Z   "changedFiles": [
+2026-11-01T02:46:17.0754021Z     ".github/workflows/viewer-functional-p6-2.yml",
+2026-11-01T02:46:17.0754461Z     "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:46:17.0754916Z   ],
+2026-11-01T02:46:17.0755135Z   "unitTests": [
+2026-11-01T02:46:17.0755462Z     "tests/unit/application-composition.test.mjs",
+2026-11-01T02:46:17.0755939Z     "tests/unit/application-source-extraction.test.mjs",
+2026-11-01T02:46:17.0756409Z     "tests/unit/capability-ports-contract.test.mjs",
+2026-11-01T02:46:17.0757687Z     "tests/unit/check-automation.test.mjs",
+2026-11-01T02:46:17.0758483Z     "tests/unit/check-contract-architecture.test.mjs",
+2026-11-01T02:46:17.0758912Z     "tests/unit/check-runner.test.mjs",
+2026-11-01T02:46:17.0759324Z     "tests/unit/current-browser-contracts.test.mjs",
+2026-11-01T02:46:17.0759765Z     "tests/unit/map-input-controller.test.mjs",
+2026-11-01T02:46:17.0760187Z     "tests/unit/qt-retirement-boundary.test.mjs",
+2026-11-01T02:46:17.0760611Z     "tests/unit/selection-architecture.test.mjs",
+2026-11-01T02:46:17.0761068Z     "tests/unit/ui-architecture-surface-boundary.test.mjs"
+2026-11-01T02:46:17.0761413Z   ],
+2026-11-01T02:46:17.0761612Z   "browserSpecs": [],
+2026-11-01T02:46:17.0761854Z   "externalChecks": [],
+2026-11-01T02:46:17.0762093Z   "commands": [
+2026-11-01T02:46:17.0762295Z     "lint"
+2026-11-01T02:46:17.0762519Z   ],
+2026-11-01T02:46:17.0762712Z   "prerequisites": [
+2026-11-01T02:46:17.0762926Z     "core"
+2026-11-01T02:46:17.0763116Z   ],
+2026-11-01T02:46:17.0763303Z   "reasons": {
+2026-11-01T02:46:17.0763596Z     "tests/unit/application-composition.test.mjs": [
+2026-11-01T02:46:17.0763994Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0764304Z     ],
+2026-11-01T02:46:17.0764609Z     "tests/unit/application-source-extraction.test.mjs": [
+2026-11-01T02:46:17.0765032Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0765342Z     ],
+2026-11-01T02:46:17.0765625Z     "tests/unit/capability-ports-contract.test.mjs": [
+2026-11-01T02:46:17.0766024Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0766332Z     ],
+2026-11-01T02:46:17.0766582Z     "tests/unit/check-automation.test.mjs": [
+2026-11-01T02:46:17.0766959Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0767256Z     ],
+2026-11-01T02:46:17.0767548Z     "tests/unit/check-contract-architecture.test.mjs": [
+2026-11-01T02:46:17.0767949Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0768528Z     ],
+2026-11-01T02:46:17.0768769Z     "tests/unit/check-runner.test.mjs": [
+2026-11-01T02:46:17.0769125Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0769459Z     ],
+2026-11-01T02:46:17.0769739Z     "tests/unit/current-browser-contracts.test.mjs": [
+2026-11-01T02:46:17.0770161Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0770461Z     ],
+2026-11-01T02:46:17.0770730Z     "tests/unit/map-input-controller.test.mjs": [
+2026-11-01T02:46:17.0771107Z       "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:46:17.0771394Z     ],
+2026-11-01T02:46:17.0771663Z     "tests/unit/qt-retirement-boundary.test.mjs": [
+2026-11-01T02:46:17.0772360Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0772674Z     ],
+2026-11-01T02:46:17.0772954Z     "tests/unit/selection-architecture.test.mjs": [
+2026-11-01T02:46:17.0773368Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0773689Z     ],
+2026-11-01T02:46:17.0773998Z     "tests/unit/ui-architecture-surface-boundary.test.mjs": [
+2026-11-01T02:46:17.0774428Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0774727Z     ],
+2026-11-01T02:46:17.0774914Z     "lint": [
+2026-11-01T02:46:17.0775196Z       "tests/unit/map-input-controller.test.mjs",
+2026-11-01T02:46:17.0775578Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:17.0775877Z     ]
+2026-11-01T02:46:17.0776098Z   },
+2026-11-01T02:46:17.0776392Z   "manualTests": [
+2026-11-01T02:46:17.0776768Z     "tests/browser/canonical-country-packet-memory.spec.mjs",
+2026-11-01T02:46:17.0777214Z     "tests/browser/canvas-globe-performance.spec.mjs",
+2026-11-01T02:46:17.0777631Z     "tests/browser/deferred-builtin-timeline.spec.mjs",
+2026-11-01T02:46:17.0778315Z     "tests/browser/m2-gpu-worker-frame-probe.spec.mjs",
+2026-11-01T02:46:17.0778761Z     "tests/browser/map-transition-p5-6.spec.mjs",
+2026-11-01T02:46:17.0779168Z     "tests/browser/p3-remote-preview.spec.mjs",
+2026-11-01T02:46:17.0779772Z     "tests/browser/p9-browser-performance.spec.mjs",
+2026-11-01T02:46:17.0780186Z     "tests/browser/performance-observability.spec.mjs",
+2026-11-01T02:46:17.0780612Z     "tests/browser/russia-edit-preparation.spec.mjs",
+2026-11-01T02:46:17.0781046Z     "tests/browser/soviet-1991-import-profile.spec.mjs",
+2026-11-01T02:46:17.0781537Z     "tests/browser/soviet-boundary-index-packed-memory.spec.mjs",
+2026-11-01T02:46:17.0782054Z     "tests/browser/soviet-contact-wire-reencode.spec.mjs",
+2026-11-01T02:46:17.0782503Z     "tests/browser/soviet-core-candidate-cpp.spec.mjs",
+2026-11-01T02:46:17.0782961Z     "tests/browser/soviet-core-candidate-stages.spec.mjs",
+2026-11-01T02:46:17.0783406Z     "tests/browser/soviet-edit-entry-profile.spec.mjs",
+2026-11-01T02:46:17.0783832Z     "tests/browser/soviet-initialization-cpu.spec.mjs",
+2026-11-01T02:46:17.0784295Z     "tests/browser/soviet-initialization-memory.spec.mjs",
+2026-11-01T02:46:17.0784767Z     "tests/browser/soviet-lightweight-timeline.spec.mjs",
+2026-11-01T02:46:17.0785206Z     "tests/browser/soviet-main-long-cycle.spec.mjs",
+2026-11-01T02:46:17.0785630Z     "tests/browser/soviet-memory-attribution.spec.mjs",
+2026-11-01T02:46:17.0786033Z     "tests/browser/soviet-memory-cycle.spec.mjs",
+2026-11-01T02:46:17.0786486Z     "tests/browser/soviet-prepared-source-owners.spec.mjs",
+2026-11-01T02:46:17.0786964Z     "tests/browser/soviet-real-edit-commit-cancel.spec.mjs",
+2026-11-01T02:46:17.0787447Z     "tests/browser/soviet-retained-owners-breakdown.spec.mjs",
+2026-11-01T02:46:17.0787956Z     "tests/browser/soviet-shared-border-heap-owners.spec.mjs",
+2026-11-01T02:46:17.0788693Z     "tests/browser/soviet-transition-periods.spec.mjs",
+2026-11-01T02:46:17.0789143Z     "tests/browser/soviet-visible-edit-vertices.spec.mjs",
+2026-11-01T02:46:17.0789608Z     "tests/browser/soviet-web-render-profile.spec.mjs",
+2026-11-01T02:46:17.0790061Z     "tests/browser/soviet-worker-move-source.spec.mjs",
+2026-11-01T02:46:17.0790476Z     "tests/browser/terrain-dem-benchmark.spec.mjs",
+2026-11-01T02:46:17.0790924Z     "tests/browser/viewer-initial-geometry-benchmark.spec.mjs"
+2026-11-01T02:46:17.0791267Z   ],
+2026-11-01T02:46:17.0791460Z   "inventory": {
+2026-11-01T02:46:17.0791670Z     "unit": 713,
+2026-11-01T02:46:17.0791879Z     "browser": 190
+2026-11-01T02:46:17.0792082Z   },
+2026-11-01T02:46:17.0792270Z   "comparison": {
+2026-11-01T02:46:17.0792482Z     "event": "push",
+2026-11-01T02:46:17.0792807Z     "base": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+2026-11-01T02:46:17.0793246Z     "requestedBase": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+2026-11-01T02:46:17.0793683Z     "head": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+2026-11-01T02:46:17.0794048Z     "workingTree": false,
+2026-11-01T02:46:17.0794457Z     "files": [
+2026-11-01T02:46:17.0794778Z       ".github/workflows/viewer-functional-p6-2.yml",
+2026-11-01T02:46:17.0795183Z       "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:46:17.0795500Z     ]
+2026-11-01T02:46:17.0795701Z   }
+2026-11-01T02:46:17.0795894Z }
+2026-11-01T02:46:17.1355018Z ##[group]Run node scripts/run-application-checks.mjs --output "$RUNNER_TEMP/application-checks.json"
+2026-11-01T02:46:17.1355789Z [36;1mnode scripts/run-application-checks.mjs --output "$RUNNER_TEMP/application-checks.json"[0m
+2026-11-01T02:46:17.1376546Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:46:17.1376805Z env:
+2026-11-01T02:46:17.1377069Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:46:17.1377437Z   BASE_SHA: e53f067ef37cafc4bd5d4d50e323f8866e7c9833
+2026-11-01T02:46:17.1377777Z   HEAD_SHA: 35bce38a3444c57bcaf60a9a12d30421e6602740
+2026-11-01T02:46:17.1378413Z   CHECK_PROFILE: p3
+2026-11-01T02:46:17.1378651Z   CHECK_SCOPE: auto
+2026-11-01T02:46:17.1378860Z ##[endgroup]
+2026-11-01T02:46:33.4087364Z {
+2026-11-01T02:46:33.4087924Z   "schema": "pando-application-check-plan-v1",
+2026-11-01T02:46:33.4088662Z   "changedFiles": [
+2026-11-01T02:46:33.4089070Z     ".github/workflows/viewer-functional-p6-2.yml",
+2026-11-01T02:46:33.4090374Z     "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:46:33.4090927Z   ],
+2026-11-01T02:46:33.4091272Z   "unitTests": [
+2026-11-01T02:46:33.4091820Z     "tests/unit/application-composition.test.mjs",
+2026-11-01T02:46:33.4092562Z     "tests/unit/application-source-extraction.test.mjs",
+2026-11-01T02:46:33.4093282Z     "tests/unit/capability-ports-contract.test.mjs",
+2026-11-01T02:46:33.4093927Z     "tests/unit/check-automation.test.mjs",
+2026-11-01T02:46:33.4094574Z     "tests/unit/check-contract-architecture.test.mjs",
+2026-11-01T02:46:33.4095210Z     "tests/unit/check-runner.test.mjs",
+2026-11-01T02:46:33.4095764Z     "tests/unit/current-browser-contracts.test.mjs",
+2026-11-01T02:46:33.4096170Z     "tests/unit/map-input-controller.test.mjs",
+2026-11-01T02:46:33.4096573Z     "tests/unit/qt-retirement-boundary.test.mjs",
+2026-11-01T02:46:33.4096994Z     "tests/unit/selection-architecture.test.mjs",
+2026-11-01T02:46:33.4097419Z     "tests/unit/ui-architecture-surface-boundary.test.mjs"
+2026-11-01T02:46:33.4097762Z   ],
+2026-11-01T02:46:33.4097970Z   "browserSpecs": [],
+2026-11-01T02:46:33.4098580Z   "externalChecks": [],
+2026-11-01T02:46:33.4098812Z   "commands": [
+2026-11-01T02:46:33.4099055Z     "lint"
+2026-11-01T02:46:33.4099242Z   ],
+2026-11-01T02:46:33.4099431Z   "prerequisites": [
+2026-11-01T02:46:33.4099656Z     "core"
+2026-11-01T02:46:33.4099836Z   ],
+2026-11-01T02:46:33.4100016Z   "reasons": {
+2026-11-01T02:46:33.4100313Z     "tests/unit/application-composition.test.mjs": [
+2026-11-01T02:46:33.4102687Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4103208Z     ],
+2026-11-01T02:46:33.4103726Z     "tests/unit/application-source-extraction.test.mjs": [
+2026-11-01T02:46:33.4104493Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4105036Z     ],
+2026-11-01T02:46:33.4105577Z     "tests/unit/capability-ports-contract.test.mjs": [
+2026-11-01T02:46:33.4106293Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4106848Z     ],
+2026-11-01T02:46:33.4107320Z     "tests/unit/check-automation.test.mjs": [
+2026-11-01T02:46:33.4108283Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4108873Z     ],
+2026-11-01T02:46:33.4109428Z     "tests/unit/check-contract-architecture.test.mjs": [
+2026-11-01T02:46:33.4110223Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4110802Z     ],
+2026-11-01T02:46:33.4111249Z     "tests/unit/check-runner.test.mjs": [
+2026-11-01T02:46:33.4111939Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4112508Z     ],
+2026-11-01T02:46:33.4113025Z     "tests/unit/current-browser-contracts.test.mjs": [
+2026-11-01T02:46:33.4113741Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4114274Z     ],
+2026-11-01T02:46:33.4114726Z     "tests/unit/map-input-controller.test.mjs": [
+2026-11-01T02:46:33.4115413Z       "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:46:33.4115930Z     ],
+2026-11-01T02:46:33.4116727Z     "tests/unit/qt-retirement-boundary.test.mjs": [
+2026-11-01T02:46:33.4117471Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4118333Z     ],
+2026-11-01T02:46:33.4118865Z     "tests/unit/selection-architecture.test.mjs": [
+2026-11-01T02:46:33.4119589Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4120137Z     ],
+2026-11-01T02:46:33.4120684Z     "tests/unit/ui-architecture-surface-boundary.test.mjs": [
+2026-11-01T02:46:33.4121422Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4121953Z     ],
+2026-11-01T02:46:33.4122272Z     "lint": [
+2026-11-01T02:46:33.4122766Z       "tests/unit/map-input-controller.test.mjs",
+2026-11-01T02:46:33.4123439Z       ".github/workflows/viewer-functional-p6-2.yml"
+2026-11-01T02:46:33.4124000Z     ]
+2026-11-01T02:46:33.4124374Z   },
+2026-11-01T02:46:33.4125361Z   "manualTests": [
+2026-11-01T02:46:33.4126011Z     "tests/browser/canonical-country-packet-memory.spec.mjs",
+2026-11-01T02:46:33.4126852Z     "tests/browser/canvas-globe-performance.spec.mjs",
+2026-11-01T02:46:33.4127849Z     "tests/browser/deferred-builtin-timeline.spec.mjs",
+2026-11-01T02:46:33.4128837Z     "tests/browser/m2-gpu-worker-frame-probe.spec.mjs",
+2026-11-01T02:46:33.4129526Z     "tests/browser/map-transition-p5-6.spec.mjs",
+2026-11-01T02:46:33.4130241Z     "tests/browser/p3-remote-preview.spec.mjs",
+2026-11-01T02:46:33.4130977Z     "tests/browser/p9-browser-performance.spec.mjs",
+2026-11-01T02:46:33.4131779Z     "tests/browser/performance-observability.spec.mjs",
+2026-11-01T02:46:33.4132574Z     "tests/browser/russia-edit-preparation.spec.mjs",
+2026-11-01T02:46:33.4133316Z     "tests/browser/soviet-1991-import-profile.spec.mjs",
+2026-11-01T02:46:33.4133786Z     "tests/browser/soviet-boundary-index-packed-memory.spec.mjs",
+2026-11-01T02:46:33.4134256Z     "tests/browser/soviet-contact-wire-reencode.spec.mjs",
+2026-11-01T02:46:33.4134682Z     "tests/browser/soviet-core-candidate-cpp.spec.mjs",
+2026-11-01T02:46:33.4135106Z     "tests/browser/soviet-core-candidate-stages.spec.mjs",
+2026-11-01T02:46:33.4135549Z     "tests/browser/soviet-edit-entry-profile.spec.mjs",
+2026-11-01T02:46:33.4135952Z     "tests/browser/soviet-initialization-cpu.spec.mjs",
+2026-11-01T02:46:33.4136367Z     "tests/browser/soviet-initialization-memory.spec.mjs",
+2026-11-01T02:46:33.4136792Z     "tests/browser/soviet-lightweight-timeline.spec.mjs",
+2026-11-01T02:46:33.4137213Z     "tests/browser/soviet-main-long-cycle.spec.mjs",
+2026-11-01T02:46:33.4137608Z     "tests/browser/soviet-memory-attribution.spec.mjs",
+2026-11-01T02:46:33.4137994Z     "tests/browser/soviet-memory-cycle.spec.mjs",
+2026-11-01T02:46:33.4138732Z     "tests/browser/soviet-prepared-source-owners.spec.mjs",
+2026-11-01T02:46:33.4139181Z     "tests/browser/soviet-real-edit-commit-cancel.spec.mjs",
+2026-11-01T02:46:33.4139667Z     "tests/browser/soviet-retained-owners-breakdown.spec.mjs",
+2026-11-01T02:46:33.4140142Z     "tests/browser/soviet-shared-border-heap-owners.spec.mjs",
+2026-11-01T02:46:33.4140580Z     "tests/browser/soviet-transition-periods.spec.mjs",
+2026-11-01T02:46:33.4141006Z     "tests/browser/soviet-visible-edit-vertices.spec.mjs",
+2026-11-01T02:46:33.4141428Z     "tests/browser/soviet-web-render-profile.spec.mjs",
+2026-11-01T02:46:33.4141827Z     "tests/browser/soviet-worker-move-source.spec.mjs",
+2026-11-01T02:46:33.4142214Z     "tests/browser/terrain-dem-benchmark.spec.mjs",
+2026-11-01T02:46:33.4142643Z     "tests/browser/viewer-initial-geometry-benchmark.spec.mjs"
+2026-11-01T02:46:33.4142976Z   ],
+2026-11-01T02:46:33.4143165Z   "inventory": {
+2026-11-01T02:46:33.4143374Z     "unit": 713,
+2026-11-01T02:46:33.4143575Z     "browser": 190
+2026-11-01T02:46:33.4143775Z   },
+2026-11-01T02:46:33.4143958Z   "comparison": {
+2026-11-01T02:46:33.4144175Z     "event": "push",
+2026-11-01T02:46:33.4144464Z     "base": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+2026-11-01T02:46:33.4144874Z     "requestedBase": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+2026-11-01T02:46:33.4145287Z     "head": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+2026-11-01T02:46:33.4145788Z     "workingTree": false,
+2026-11-01T02:46:33.4146030Z     "files": [
+2026-11-01T02:46:33.4146323Z       ".github/workflows/viewer-functional-p6-2.yml",
+2026-11-01T02:46:33.4146700Z       "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:46:33.4146991Z     ]
+2026-11-01T02:46:33.4147174Z   }
+2026-11-01T02:46:33.4147356Z }
+2026-11-01T02:46:33.5320999Z Shared C++ core prerequisite passed: ABI 1, source fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043
+2026-11-01T02:46:34.6302248Z ✔ entry stays below 400 nonempty lines and owns only versioned composition/startup (1.184148ms)
+2026-11-01T02:46:34.6350585Z ✔ all owners construct without DOM access, connect once, and expose every referenced port (195.305898ms)
+2026-11-01T02:46:34.6357151Z ✔ object editing consumes the shared territory component UI through application ports (0.532533ms)
+2026-11-01T02:46:34.6359206Z ✔ canonical replacement retains one live store and updates dependent ID reads (3.403687ms)
+2026-11-01T02:46:34.6361435Z ✔ the phase-aware scene provides a common label ref for each general root (1.037475ms)
+2026-11-01T02:46:34.6726797Z ✔ Node application source parser preserves a multiline owner and nested body (25.34175ms)
+2026-11-01T02:46:37.7935055Z ✔ foundation editor capabilities expose the actual presentation methods without aliases (2.436353ms)
+2026-11-01T02:46:37.7936986Z ✔ required editor capabilities fail before initialization and after their owner is reset (1.237667ms)
+2026-11-01T02:46:37.8025437Z ✔ every owner access is declared by an injected capability port (1264.439683ms)
+2026-11-01T02:46:37.8049659Z ✔ remaining connector domains expose owner contracts without flat dependency access (2096.773811ms)
+2026-11-01T02:46:37.8093444Z ✔ map-resources writes use explicit capability commands (5.032212ms)
+2026-11-01T02:46:37.9470046Z ✔ environment provides the platform values consumed by boundary editing (157.240736ms)
+2026-11-01T02:46:37.9499629Z ✔ application capability ports are frozen, shared and bounded to twelve members (8.006348ms)
+2026-11-01T02:46:37.9529576Z ✔ P5-6 interaction preparation failure retains the explicit user-visible reporting port (0.596933ms)
+2026-11-01T02:46:38.0414005Z ✔ every current browser workflow can be assigned before CI dependency planning (23.463247ms)
+2026-11-01T02:46:38.0415985Z ✔ reference-analysis command documentation is a passive CI input (55.321343ms)
+2026-11-01T02:46:38.0417709Z ✔ application CI prepares pinned data before planning and executing registered checks (38.033985ms)
+2026-11-01T02:46:38.0419822Z ✔ transitive source changes choose related units and declared HTTP browser consumers (10.902107ms)
+2026-11-01T02:46:38.0421545Z ✔ staged shell imports, re-exports and module URLs resolve to their source owners (18.140853ms)
+2026-11-01T02:46:38.0423053Z ✔ shell Node tools and nested tests keep source-relative paths (2.986248ms)
+2026-11-01T02:46:38.0424778Z ✔ verification startup resolves versioned fixture modules at the declared runtime base (13.409072ms)
+2026-11-01T02:46:38.0426542Z ✔ current native startup metadata seed resolves to the shared runtime owner (39.544461ms)
+2026-11-01T02:46:38.0428293Z ✔ module URL reads retain root configuration and workflow consumers (10.471654ms)
+2026-11-01T02:46:38.0429995Z ✔ staged dependencies still reject missing imports and paths outside the bundle root (3.312436ms)
+2026-11-01T02:46:38.0431484Z ✔ nested GIS Python changes select their existing external workflow (11.003476ms)
+2026-11-01T02:46:38.0432810Z ✔ new and moved tests are discovered; an unregistered browser test fails coverage (6.802343ms)
+2026-11-01T02:46:38.0434248Z ✔ deleted imports and missing declared prerequisite commands fail, not silently pass (4.640254ms)
+2026-11-01T02:46:38.0435772Z ✔ docs-only changes skip runtime work and unknown product code fails registration (14.971765ms)
+2026-11-01T02:46:38.0437591Z ✔ an unknown computed executable import fails with its owner and does not invent a dependency (5.04685ms)
+2026-11-01T02:46:38.0440209Z ✔ classic mixed arguments cannot hide a computed script behind a literal script (6.616416ms)
+2026-11-01T02:46:38.0444536Z ✔ fixed fixture directories are data leaves and their child changes retain test consumers (17.25905ms)
+2026-11-01T02:46:38.0446390Z ✔ cycles in prerequisites and missing fixture inputs fail inventory before execution (3.671505ms)
+2026-11-01T02:46:38.0456492Z ✔ a checker and its prerequisite implementation are inferred inputs, not copied file lists (15.273608ms)
+2026-11-01T02:46:38.0458889Z ✔ computing a script base URL does not make every sibling script a consumed input (2.175687ms)
+2026-11-01T02:46:38.0460687Z ✔ classic generated metadata resolves to its source owner without a root output file (8.997596ms)
+2026-11-01T02:46:38.0462463Z ✔ project lifecycle guard checks the current domain facade and rejects a missing command (1.786762ms)
+2026-11-01T02:46:38.0464420Z ✔ RPC architecture accepts aliases, formatting and comment-only private implementation markers (19.615443ms)
+2026-11-01T02:46:38.0509610Z ✔ RPC architecture rejects actual direct message handling and transport bypass (2.85317ms)
+2026-11-01T02:46:38.0587691Z ✔ removing an RPC import or using a barrel cannot disable message ownership guards (4.947104ms)
+2026-11-01T02:46:38.0609261Z ✔ RPC workers cannot use the host without loading it (7.090981ms)
+2026-11-01T02:46:38.0613477Z ✔ schema ownership follows imports and exported bindings rather than declaration spelling (9.62173ms)
+2026-11-01T02:46:38.0615798Z ✔ version displays follow the current package version without pinning its value or quote style (0.747464ms)
+2026-11-01T02:46:38.0617697Z ✔ schema re-exports can cross renamed modules without creating another schema owner (6.530116ms)
+2026-11-01T02:46:38.0619638Z ✔ local comparison includes commits, index, working tree, untracked and both rename paths (96.57364ms)
+2026-11-01T02:46:38.0621489Z ✔ prerequisites and identical commands execute once; failed prerequisites block consumers visibly (1.207357ms)
+2026-11-01T02:46:38.0633224Z ✔ missing tools and test process failures are failures, never skipped passes (0.364381ms)
+2026-11-01T02:46:38.0634923Z ✔ a verifier runs again after a different profile replaces its staged input (0.532676ms)
+2026-11-01T02:46:38.0636768Z ✔ explicit manual coverage stays explicit while artifact auto dispatch stays affected-only (0.515774ms)
+2026-11-01T02:47:08.1298899Z ✔ current discovered tests each have one owner; diagnostic purposes and commands remain explicit (108.573428ms)
+2026-11-01T02:47:08.1304748Z ✔ application CI calls the shared selector and runner; automatic test lists are not copied into YAML (1.082864ms)
+2026-11-01T02:47:08.1307720Z ✔ P1/P3 retain native and artifact owners while Web checks share the same runner (29.114284ms)
+2026-11-01T02:47:08.1329377Z ✖ CSS selects relevant UI checks without C++/GIS build or data generation commands (16853.69563ms)
+2026-11-01T02:47:08.1331293Z ✔ prepared asset changes retain the real fixed-land unit and browser regressions (15078.922598ms)
+2026-11-01T02:47:08.1333787Z ✔ manual capture jobs preserve bounded execution and immutable evidence without exact titles or historical SHA assertions (1.098678ms)
+2026-11-01T02:47:08.1336393Z ✔ concurrency follows the current PR/ref while manual diagnostics and reruns remain independent (2.31184ms)
+2026-11-01T02:47:08.1999380Z ✔ project replacement blocks wheel, pinch and an already started drag until released (2.956242ms)
+2026-11-01T02:47:08.2001500Z ✔ image placement owns the gesture before map drawing or navigation starts (0.554494ms)
+2026-11-01T02:47:08.2003432Z ✔ image point taps commit on release, while a drag pans without committing a point (0.544075ms)
+2026-11-01T02:47:08.2005395Z ✔ second touch and pointercancel roll back image input rather than committing it (0.502815ms)
+2026-11-01T02:47:08.2007109Z ✔ middle button navigates without starting the active drawing tool (0.366804ms)
+2026-11-01T02:47:08.2009083Z ✔ second touch cancels the editing gesture before starting pinch (0.27394ms)
+2026-11-01T02:47:08.2010984Z ✔ a simple pointer click keeps its original overlay target (0.363859ms)
+2026-11-01T02:47:08.2012335Z ✔ native browser gestures are prevented only on the map surface (0.237503ms)
+2026-11-01T02:47:08.2013726Z ✔ pointer capture begins only after navigation crosses the drag threshold (0.451521ms)
+2026-11-01T02:47:08.2015208Z ✔ pointer drag forwards left and upward surface deltas without sign conversion (0.55786ms)
+2026-11-01T02:47:08.2016517Z ✔ interactive draft handles do not begin map panning (0.314106ms)
+2026-11-01T02:47:08.2017941Z ✔ genericFeature owns a drag, emits local coalesced samples, and does not pan (1.275588ms)
+2026-11-01T02:47:08.2020024Z ✔ a second touch cancels an unfinished stroke and starts centroid pan and pinch (0.524719ms)
+2026-11-01T02:47:08.2021410Z ✔ wheel zoom uses the pointer as a stable focal point (0.313946ms)
+2026-11-01T02:47:08.2022731Z ✔ viewer pinch navigates without reporting an editing cancellation error (3.241203ms)
+2026-11-01T02:47:08.2024391Z ✔ editor pinch awaits gesture cancellation before dispatch and awaits its acknowledgement (0.810081ms)
+2026-11-01T02:47:08.2026382Z ✔ editor pinch reports gesture cancellation failures through its operation error boundary (0.698241ms)
+2026-11-01T02:47:08.2028459Z ✔ editor pinch reports stroke cancellation failures through its operation error boundary (0.408943ms)
+2026-11-01T02:47:08.2029796Z ✔ retired app tree and build variants are absent (2.069648ms)
+2026-11-01T02:47:08.2031112Z ✔ current WebView application, common algorithms and required fixtures remain (0.377584ms)
+2026-11-01T02:47:08.2032637Z ✔ active CI keeps common and WebView checks without installing or running Qt (332.444682ms)
+2026-11-01T02:47:08.2034041Z ✔ RenderDevice exposes the shared WebGL1 capability contract (1.698036ms)
+2026-11-01T02:47:08.2035442Z ✔ SelectionPacket separates state, geometry, style, and boundary revisions (0.368467ms)
+2026-11-01T02:47:08.2036924Z ✔ map CSS keeps base, GPU, overlay and interaction layers in painting order (15.47536ms)
+2026-11-01T02:47:08.2038887Z ✔ main renderer creates the RenderDevice while selection consumes an injected device (579.89461ms)
+2026-11-01T02:47:08.2040527Z ✔ UI architecture accepts surface content beyond the old fixed-length window (78.896226ms)
+2026-11-01T02:47:08.2042133Z ✔ UI architecture checks product control skin even below the product byte budget (75.127169ms)
+2026-11-01T02:47:08.2043581Z ✔ UI architecture rejects component padding owned by layout (93.34007ms)
+2026-11-01T02:47:08.2044977Z ✔ UI architecture accepts product placement and component-owned skin (86.485358ms)
+2026-11-01T02:47:08.2046391Z ✔ UI architecture rejects content owned by a later sibling surface (80.679397ms)
+2026-11-01T02:47:08.2047265Z ℹ tests 85
+2026-11-01T02:47:08.2047680Z ℹ suites 0
+2026-11-01T02:47:08.2048405Z ℹ pass 84
+2026-11-01T02:47:08.2048860Z ℹ fail 1
+2026-11-01T02:47:08.2049285Z ℹ cancelled 0
+2026-11-01T02:47:08.2049713Z ℹ skipped 0
+2026-11-01T02:47:08.2050109Z ℹ todo 0
+2026-11-01T02:47:08.2050609Z ℹ duration_ms 34261.568406
+2026-11-01T02:47:08.2050909Z 
+2026-11-01T02:47:08.2051178Z ✖ failing tests:
+2026-11-01T02:47:08.2051430Z 
+2026-11-01T02:47:08.2051894Z test at tests/unit/current-browser-contracts.test.mjs:44:1
+2026-11-01T02:47:08.2053205Z ✖ CSS selects relevant UI checks without C++/GIS build or data generation commands (16853.69563ms)
+2026-11-01T02:47:08.2054286Z   Error: Unclassified product change: assets/css/features/map-rendering.css
+2026-11-01T02:47:08.2055567Z       at planApplicationChecks (file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:265:92)
+2026-11-01T02:47:08.2057298Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/current-browser-contracts.test.mjs:46:16)
+2026-11-01T02:47:08.2058801Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+2026-11-01T02:47:08.2059583Z       at Test.run (node:internal/test_runner/test:1402:25)
+2026-11-01T02:47:08.2060523Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+2026-11-01T02:47:08.2061917Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+2026-11-01T02:47:08.2062887Z       at Test.run (node:internal/test_runner/test:1467:12)
+2026-11-01T02:47:08.2063948Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+2026-11-01T02:47:08.2111402Z {
+2026-11-01T02:47:08.2111776Z   "applicationChecksPassed": false,
+2026-11-01T02:47:08.2112078Z   "results": [
+2026-11-01T02:47:08.2112286Z     {
+2026-11-01T02:47:08.2112480Z       "id": "core",
+2026-11-01T02:47:08.2112698Z       "argv": [
+2026-11-01T02:47:08.2112905Z         "node",
+2026-11-01T02:47:08.2113181Z         "scripts/check-core-prerequisite.mjs"
+2026-11-01T02:47:08.2113489Z       ],
+2026-11-01T02:47:08.2113696Z       "status": "passed",
+2026-11-01T02:47:08.2113940Z       "exitCode": 0
+2026-11-01T02:47:08.2114151Z     },
+2026-11-01T02:47:08.2114331Z     {
+2026-11-01T02:47:08.2114520Z       "id": "lint",
+2026-11-01T02:47:08.2114723Z       "argv": [
+2026-11-01T02:47:08.2114926Z         "node",
+2026-11-01T02:47:08.2115175Z         "node_modules/eslint/bin/eslint.js",
+2026-11-01T02:47:08.2115801Z         "tests/unit/map-input-controller.test.mjs"
+2026-11-01T02:47:08.2116112Z       ],
+2026-11-01T02:47:08.2116311Z       "status": "passed",
+2026-11-01T02:47:08.2116544Z       "exitCode": 0
+2026-11-01T02:47:08.2116752Z     },
+2026-11-01T02:47:08.2116932Z     {
+2026-11-01T02:47:08.2117116Z       "id": "unit",
+2026-11-01T02:47:08.2117318Z       "argv": [
+2026-11-01T02:47:08.2117519Z         "node",
+2026-11-01T02:47:08.2117714Z         "--test",
+2026-11-01T02:47:08.2117949Z         "--test-concurrency=2",
+2026-11-01T02:47:08.2118582Z         "tests/unit/application-composition.test.mjs",
+2026-11-01T02:47:08.2119021Z         "tests/unit/application-source-extraction.test.mjs",
+2026-11-01T02:47:08.2119450Z         "tests/unit/capability-ports-contract.test.mjs",
+2026-11-01T02:47:08.2119835Z         "tests/unit/check-automation.test.mjs",
+2026-11-01T02:47:08.2120229Z         "tests/unit/check-contract-architecture.test.mjs",
+2026-11-01T02:47:08.2120610Z         "tests/unit/check-runner.test.mjs",
+2026-11-01T02:47:08.2121000Z         "tests/unit/current-browser-contracts.test.mjs",
+2026-11-01T02:47:08.2121384Z         "tests/unit/map-input-controller.test.mjs",
+2026-11-01T02:47:08.2121767Z         "tests/unit/qt-retirement-boundary.test.mjs",
+2026-11-01T02:47:08.2122155Z         "tests/unit/selection-architecture.test.mjs",
+2026-11-01T02:47:08.2122570Z         "tests/unit/ui-architecture-surface-boundary.test.mjs"
+2026-11-01T02:47:08.2122903Z       ],
+2026-11-01T02:47:08.2123107Z       "status": "failed",
+2026-11-01T02:47:08.2123337Z       "exitCode": 1
+2026-11-01T02:47:08.2123540Z     }
+2026-11-01T02:47:08.2123720Z   ],
+2026-11-01T02:47:08.2123918Z   "externalChecks": []
+2026-11-01T02:47:08.2124131Z }
+2026-11-01T02:47:08.2608805Z ##[error]Process completed with exit code 1.
+2026-11-01T02:47:08.2679343Z ##[group]Run actions/upload-artifact@v4
+2026-11-01T02:47:08.2679656Z with:
+2026-11-01T02:47:08.2679891Z   name: p3-application-checks-41266380046-1
+2026-11-01T02:47:08.2680274Z   path: /home/runner/work/_temp/application-checks.json
+2026-11-01T02:47:08.2680613Z   if-no-files-found: warn
+2026-11-01T02:47:08.2680853Z   compression-level: 6
+2026-11-01T02:47:08.2681075Z   overwrite: false
+2026-11-01T02:47:08.2681296Z   include-hidden-files: false
+2026-11-01T02:47:08.2681542Z env:
+2026-11-01T02:47:08.2681778Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:47:08.2682083Z ##[endgroup]
+2026-11-01T02:47:08.4403154Z (node:5189) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:47:08.4404015Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:47:08.4455220Z With the provided path, there will be 1 file uploaded
+2026-11-01T02:47:08.4462089Z Artifact name is valid!
+2026-11-01T02:47:08.4462929Z Root directory input is valid!
+2026-11-01T02:47:08.8250047Z Beginning upload of artifact content to blob storage
+2026-11-01T02:47:08.8445029Z (node:5189) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:47:09.1050432Z Uploaded bytes 1327
+2026-11-01T02:47:09.1766351Z Finished uploading artifact content to blob storage!
+2026-11-01T02:47:09.1767586Z SHA256 digest of uploaded artifact zip is c218ede9d5b358ae5d8b024e71596fdb0a6f21a109818f7f84e5a5ac5e06e87b
+2026-11-01T02:47:09.1769185Z Finalizing artifact upload
+2026-11-01T02:47:09.6656322Z Artifact p3-application-checks-41266380046-1.zip successfully finalized. Artifact ID 13067301901
+2026-11-01T02:47:09.6658236Z Artifact p3-application-checks-41266380046-1 has been successfully uploaded! Final size is 1327 bytes. Artifact ID is 13067301901
+2026-11-01T02:47:09.6663501Z Artifact download URL: https://github.com/kimjeon-il/Pando/actions/runs/41266380046/artifacts/13067301901
+2026-11-01T02:47:09.6860701Z Post job cleanup.
+2026-11-01T02:47:09.8476197Z Pruning is unnecessary.
+2026-11-01T02:47:09.8613122Z Post job cleanup.
+2026-11-01T02:47:09.8682417Z Post job cleanup.
+2026-11-01T02:47:09.9618376Z [command]/usr/bin/git version
+2026-11-01T02:47:09.9668634Z git version 2.56.0
+2026-11-01T02:47:09.9716041Z Temporarily overriding HOME='/home/runner/work/_temp/ca8905d8-800a-4516-b642-79330eb88ac1' before making global git config changes
+2026-11-01T02:47:09.9717682Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:47:09.9722422Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:47:09.9767465Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:47:09.9821230Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:47:10.0170906Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:47:10.0223694Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:47:10.0639287Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:47:10.0660836Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:47:10.1114040Z Cleaning up orphan processes
+2026-11-01T02:47:10.1552598Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/upload-artifact@v4, pnpm/action-setup@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

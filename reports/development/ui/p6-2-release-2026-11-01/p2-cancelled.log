@@ -1,0 +1,1475 @@
+﻿2026-11-01T02:14:38.0353424Z Current runner version: '2.338.2'
+2026-11-01T02:14:38.0382110Z ##[group]Runner Image Provisioner
+2026-11-01T02:14:38.0383335Z Hosted Compute Agent
+2026-11-01T02:14:38.0384132Z Version: 20261021.618
+2026-11-01T02:14:38.0385001Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T02:14:38.0385902Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T02:14:38.0386860Z Worker ID: {3a045f83-ef6b-4105-9a01-b6233a3e1555}
+2026-11-01T02:14:38.0388045Z Region: centralus
+2026-11-01T02:14:38.0388758Z Cloud: Azure
+2026-11-01T02:14:38.0389596Z ##[endgroup]
+2026-11-01T02:14:38.0391094Z ##[group]Operating System
+2026-11-01T02:14:38.0392001Z Ubuntu
+2026-11-01T02:14:38.0392682Z 24.04.5
+2026-11-01T02:14:38.0393278Z LTS
+2026-11-01T02:14:38.0393979Z ##[endgroup]
+2026-11-01T02:14:38.0394728Z ##[group]Runner Image
+2026-11-01T02:14:38.0395569Z Image: ubuntu-24.04
+2026-11-01T02:14:38.0396298Z Version: 20261025.353.1
+2026-11-01T02:14:38.0398151Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T02:14:38.0400274Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T02:14:38.0401578Z ##[endgroup]
+2026-11-01T02:14:38.0403042Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T02:14:38.0405265Z Actions: write
+2026-11-01T02:14:38.0405978Z Contents: write
+2026-11-01T02:14:38.0406708Z Metadata: read
+2026-11-01T02:14:38.0407570Z ##[endgroup]
+2026-11-01T02:14:38.0409759Z Secret source: Actions
+2026-11-01T02:14:38.0410885Z Cache mode: write
+2026-11-01T02:14:38.0412050Z Prepare workflow directory
+2026-11-01T02:14:38.0913593Z Prepare all required actions
+2026-11-01T02:14:38.0969676Z Getting action download info
+2026-11-01T02:14:38.3321815Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-01T02:14:38.4670127Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-01T02:14:38.5828953Z Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+2026-11-01T02:14:38.9848441Z Download action repository 'jwlawson/actions-setup-cmake@v2' (SHA:0d6a7d60b009d01c9e7523be22153ff8f19460d3)
+2026-11-01T02:14:39.2149858Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-01T02:14:39.5173168Z Complete job name: generate
+2026-11-01T02:14:39.6113131Z ##[group]Run actions/checkout@v4
+2026-11-01T02:14:39.6114283Z with:
+2026-11-01T02:14:39.6115022Z   persist-credentials: true
+2026-11-01T02:14:39.6115865Z   fetch-depth: 2
+2026-11-01T02:14:39.6116651Z   repository: kimjeon-il/Pando
+2026-11-01T02:14:39.6126344Z   token: ***
+2026-11-01T02:14:39.6127327Z   ssh-strict: true
+2026-11-01T02:14:39.6128096Z   ssh-user: git
+2026-11-01T02:14:39.6128820Z   clean: true
+2026-11-01T02:14:39.6129600Z   sparse-checkout-cone-mode: true
+2026-11-01T02:14:39.6130509Z   fetch-tags: false
+2026-11-01T02:14:39.6131282Z   show-progress: true
+2026-11-01T02:14:39.6132060Z   lfs: false
+2026-11-01T02:14:39.6132818Z   submodules: false
+2026-11-01T02:14:39.6133603Z   set-safe-directory: true
+2026-11-01T02:14:39.6134490Z   allow-unsafe-pr-checkout: false
+2026-11-01T02:14:39.6135762Z env:
+2026-11-01T02:14:39.6136454Z   EMCC_CORES: 1
+2026-11-01T02:14:39.6137303Z   BINARYEN_CORES: 1
+2026-11-01T02:14:39.6138075Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:14:39.6138919Z   PANDO_P2_WASM: false
+2026-11-01T02:14:39.6139896Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:14:39.6140992Z ##[endgroup]
+2026-11-01T02:14:39.8045156Z Syncing repository: kimjeon-il/Pando
+2026-11-01T02:14:39.8047903Z ##[group]Getting Git version info
+2026-11-01T02:14:39.8049072Z Working directory is '/home/runner/work/Pando/Pando'
+2026-11-01T02:14:39.8050852Z [command]/usr/bin/git version
+2026-11-01T02:14:39.8081930Z git version 2.56.0
+2026-11-01T02:14:39.8101126Z ##[endgroup]
+2026-11-01T02:14:39.8115395Z Temporarily overriding HOME='/home/runner/work/_temp/838dd56c-4e0b-4072-bed5-7a7a339fef92' before making global git config changes
+2026-11-01T02:14:39.8119255Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:14:39.8130289Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:14:39.8172437Z Deleting the contents of '/home/runner/work/Pando/Pando'
+2026-11-01T02:14:39.8177175Z ##[group]Initializing the repository
+2026-11-01T02:14:39.8191334Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+2026-11-01T02:14:39.8292023Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T02:14:39.8294466Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T02:14:39.8298039Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T02:14:39.8300049Z hint: call:
+2026-11-01T02:14:39.8301257Z hint:
+2026-11-01T02:14:39.8302690Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T02:14:39.8304215Z hint:
+2026-11-01T02:14:39.8305877Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T02:14:39.8308227Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T02:14:39.8310161Z hint:
+2026-11-01T02:14:39.8311023Z hint: 	git branch -m <name>
+2026-11-01T02:14:39.8311900Z hint:
+2026-11-01T02:14:39.8313063Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T02:14:39.8315249Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+2026-11-01T02:14:39.8318496Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+2026-11-01T02:14:39.8392113Z ##[endgroup]
+2026-11-01T02:14:39.8393683Z ##[group]Disabling automatic garbage collection
+2026-11-01T02:14:39.8395082Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T02:14:39.8427104Z ##[endgroup]
+2026-11-01T02:14:39.8432492Z ##[group]Setting up auth
+2026-11-01T02:14:39.8433710Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:14:39.8466432Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:14:39.8779139Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:14:39.8819739Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:14:39.9024658Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:14:39.9063055Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:14:39.9266639Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T02:14:39.9309254Z ##[endgroup]
+2026-11-01T02:14:39.9310549Z ##[group]Fetching the repository
+2026-11-01T02:14:39.9319566Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=2 origin +e0baee5c2533129d0fb2d0d60cfe746a83de68cc:refs/remotes/origin/work/ui
+2026-11-01T02:14:41.9351208Z From https://github.com/kimjeon-il/Pando
+2026-11-01T02:14:41.9352710Z  * [new ref]         e0baee5c2533129d0fb2d0d60cfe746a83de68cc -> origin/work/ui
+2026-11-01T02:14:41.9357939Z ##[endgroup]
+2026-11-01T02:14:41.9358659Z ##[group]Determining the checkout info
+2026-11-01T02:14:41.9359205Z ##[endgroup]
+2026-11-01T02:14:41.9373499Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T02:14:41.9412748Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T02:14:41.9447621Z ##[group]Checking out the ref
+2026-11-01T02:14:41.9450270Z [command]/usr/bin/git checkout --progress --force -B work/ui refs/remotes/origin/work/ui
+2026-11-01T02:14:42.2981869Z Switched to a new branch 'work/ui'
+2026-11-01T02:14:42.2984664Z branch 'work/ui' set up to track 'origin/work/ui'.
+2026-11-01T02:14:42.2996713Z ##[endgroup]
+2026-11-01T02:14:42.3043185Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T02:14:42.3071815Z e0baee5c2533129d0fb2d0d60cfe746a83de68cc
+2026-11-01T02:14:42.3338164Z Prepare all required actions
+2026-11-01T02:14:42.3338730Z Getting action download info
+2026-11-01T02:14:42.4413989Z ##[group]Run ./.github/actions/library-data
+2026-11-01T02:14:42.4414255Z with:
+2026-11-01T02:14:42.4414428Z   inputs-target: .
+2026-11-01T02:14:42.4414608Z env:
+2026-11-01T02:14:42.4414767Z   EMCC_CORES: 1
+2026-11-01T02:14:42.4414939Z   BINARYEN_CORES: 1
+2026-11-01T02:14:42.4415119Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:14:42.4415300Z   PANDO_P2_WASM: false
+2026-11-01T02:14:42.4415535Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:14:42.4415806Z ##[endgroup]
+2026-11-01T02:14:42.4461794Z ##[start-action display=Run actions/checkout@v4;id=__self.__actions_checkout]
+2026-11-01T02:14:42.4472467Z ##[end-action id=__self.__actions_checkout;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-11-01T02:14:42.4489364Z ##[start-action display=Run node "$GITHUB_ACTION_PATH/../../../tools/library-data.mjs" --mount-inputs="$GITHUB_WORKSPACE/$INPUT_SOURCE" --root="$GITHUB_WORKSPACE/$INPUT_TARGET";id=__self.__run]
+2026-11-01T02:14:42.4493173Z ##[end-action id=__self.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-11-01T02:14:42.4494834Z ##[start-action display=Run node tools/library-data.mjs;id=__self.__run_2]
+2026-11-01T02:14:42.4530270Z ##[group]Run node tools/library-data.mjs
+2026-11-01T02:14:42.4530611Z [36;1mnode tools/library-data.mjs[0m
+2026-11-01T02:14:42.4551630Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-01T02:14:42.4551926Z env:
+2026-11-01T02:14:42.4552093Z   EMCC_CORES: 1
+2026-11-01T02:14:42.4552266Z   BINARYEN_CORES: 1
+2026-11-01T02:14:42.4552445Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:14:42.4552635Z   PANDO_P2_WASM: false
+2026-11-01T02:14:42.4552896Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:14:42.4553163Z ##[endgroup]
+2026-11-01T02:14:42.6080062Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:14:42.6080683Z Cloning into '/home/runner/work/Pando/Pando/.library-data/repository'...
+2026-11-01T02:14:42.6151185Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:14:42.8860948Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:14:43.1458971Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:15:15.8437955Z Library mounted: kimjeon-il/PandoLab-library-data@139941d8056418547c796068304ba8db3696fe69
+2026-11-01T02:15:15.8605070Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=33410]
+2026-11-01T02:15:15.8672986Z ##[group]Run actions/setup-node@v4
+2026-11-01T02:15:15.8673213Z with:
+2026-11-01T02:15:15.8673393Z   node-version-file: .nvmrc
+2026-11-01T02:15:15.8673618Z   always-auth: false
+2026-11-01T02:15:15.8673795Z   check-latest: false
+2026-11-01T02:15:15.8675791Z   token: ***
+2026-11-01T02:15:15.8675956Z env:
+2026-11-01T02:15:15.8676114Z   EMCC_CORES: 1
+2026-11-01T02:15:15.8676280Z   BINARYEN_CORES: 1
+2026-11-01T02:15:15.8676452Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:15:15.8676629Z   PANDO_P2_WASM: false
+2026-11-01T02:15:15.8676857Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:15:15.8677369Z ##[endgroup]
+2026-11-01T02:15:15.9808401Z Resolved .nvmrc as 24
+2026-11-01T02:15:15.9849267Z Found in cache @ /opt/hostedtoolcache/node/24.22.1/x64
+2026-11-01T02:15:15.9852813Z (node:4538) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-01T02:15:15.9853604Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:15:15.9855724Z ##[group]Environment details
+2026-11-01T02:15:16.3235640Z node: v24.22.1
+2026-11-01T02:15:16.3236349Z npm: 11.19.1
+2026-11-01T02:15:16.3236595Z yarn: 1.22.22
+2026-11-01T02:15:16.3237366Z ##[endgroup]
+2026-11-01T02:15:16.3382700Z ##[group]Run pnpm/action-setup@v4
+2026-11-01T02:15:16.3382933Z with:
+2026-11-01T02:15:16.3383109Z   version: 11.19.0
+2026-11-01T02:15:16.3383295Z   run_install: false
+2026-11-01T02:15:16.3383482Z   dest: ~/setup-pnpm
+2026-11-01T02:15:16.3383660Z   cache: false
+2026-11-01T02:15:16.3383864Z   cache_dependency_path: pnpm-lock.yaml
+2026-11-01T02:15:16.3384116Z   package_json_file: package.json
+2026-11-01T02:15:16.3384338Z   standalone: false
+2026-11-01T02:15:16.3384519Z env:
+2026-11-01T02:15:16.3384687Z   EMCC_CORES: 1
+2026-11-01T02:15:16.3384864Z   BINARYEN_CORES: 1
+2026-11-01T02:15:16.3385045Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:15:16.3385244Z   PANDO_P2_WASM: false
+2026-11-01T02:15:16.3385481Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:15:16.3385751Z ##[endgroup]
+2026-11-01T02:15:16.4570167Z ##[group]Running self-installer...
+2026-11-01T02:15:16.7955554Z (node:4582) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-01T02:15:16.7956490Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-01T02:15:16.9955383Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:15:17.0027829Z Packages: +1
+2026-11-01T02:15:17.0028443Z +
+2026-11-01T02:15:17.4120914Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-11-01T02:15:17.4476524Z 
+2026-11-01T02:15:17.4477266Z dependencies:
+2026-11-01T02:15:17.4477728Z + pnpm 11.19.0 (12.16.1 is available)
+2026-11-01T02:15:17.4477917Z 
+2026-11-01T02:15:17.4500040Z Done in 851ms
+2026-11-01T02:15:17.6179205Z ##[endgroup]
+2026-11-01T02:15:17.6180139Z Installation Completed!
+2026-11-01T02:15:17.6291280Z ##[group]Run pnpm install --frozen-lockfile --ignore-scripts
+2026-11-01T02:15:17.6291657Z [36;1mpnpm install --frozen-lockfile --ignore-scripts[0m
+2026-11-01T02:15:17.6313967Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:15:17.6314177Z env:
+2026-11-01T02:15:17.6314346Z   EMCC_CORES: 1
+2026-11-01T02:15:17.6314513Z   BINARYEN_CORES: 1
+2026-11-01T02:15:17.6314685Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:15:17.6314864Z   PANDO_P2_WASM: false
+2026-11-01T02:15:17.6315097Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:15:17.6315400Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:15:17.6315652Z ##[endgroup]
+2026-11-01T02:15:18.1778314Z ? Verifying lockfile against supply-chain policies (146 entries)...
+2026-11-01T02:15:18.2419664Z Lockfile is up to date, resolution step is skipped
+2026-11-01T02:15:18.2676770Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-11-01T02:15:18.2813085Z Packages: +120
+2026-11-01T02:15:18.2814070Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-11-01T02:15:18.5474293Z Packages are hard linked from the content-addressable store to the virtual store.
+2026-11-01T02:15:18.5475143Z   Content-addressable store is at: /home/runner/setup-pnpm/node_modules/.bin/store/v11
+2026-11-01T02:15:18.5475664Z   Virtual store is at:             node_modules/.pnpm
+2026-11-01T02:15:19.2685975Z Progress: resolved 120, reused 0, downloaded 118, added 73
+2026-11-01T02:15:19.4828017Z ✓ Lockfile passes supply-chain policies (146 entries in 1.3s)
+2026-11-01T02:15:19.7847457Z Progress: resolved 120, reused 0, downloaded 120, added 120, done
+2026-11-01T02:15:19.8826335Z 
+2026-11-01T02:15:19.8826895Z devDependencies:
+2026-11-01T02:15:19.8827366Z + @eslint/js 10.0.1
+2026-11-01T02:15:19.8827663Z + @modelcontextprotocol/server 2.4.0
+2026-11-01T02:15:19.8827943Z + @playwright/test 1.62.1
+2026-11-01T02:15:19.8828155Z + esbuild 0.25.10
+2026-11-01T02:15:19.8828390Z + eslint 10.9.1
+2026-11-01T02:15:19.8828616Z + onnxruntime-web 1.30.0
+2026-11-01T02:15:19.8828808Z + postcss 8.5.30
+2026-11-01T02:15:19.8828997Z + tesseract.js 7.0.0
+2026-11-01T02:15:19.8829461Z + topojson-client 3.1.0
+2026-11-01T02:15:19.8829660Z + topojson-server 3.0.1
+2026-11-01T02:15:19.8829910Z + topojson-simplify 3.0.3
+2026-11-01T02:15:19.8830098Z + yaml 2.9.1
+2026-11-01T02:15:19.8830264Z + yazl 3.3.1
+2026-11-01T02:15:19.8830420Z + zod 4.6.7
+2026-11-01T02:15:19.8830515Z 
+2026-11-01T02:15:19.9124199Z Done in 2.2s using pnpm v11.19.0
+2026-11-01T02:15:19.9882693Z ##[group]Run node tools/report-paths.mjs reports/places read
+2026-11-01T02:15:19.9883063Z [36;1mnode tools/report-paths.mjs reports/places read[0m
+2026-11-01T02:15:19.9900990Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:15:19.9901196Z env:
+2026-11-01T02:15:19.9901369Z   EMCC_CORES: 1
+2026-11-01T02:15:19.9901539Z   BINARYEN_CORES: 1
+2026-11-01T02:15:19.9901718Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:15:19.9901899Z   PANDO_P2_WASM: false
+2026-11-01T02:15:19.9902127Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:15:19.9902431Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:15:19.9902691Z ##[endgroup]
+2026-11-01T02:15:28.4404012Z /home/runner/work/Pando/Pando/.library-data/repository/reports/.views/ui/a48fcb713243b3d460ca7f05e4e4e5ef1cd4d8ce4981ce20cdd3e98a39d4fd38/places
+2026-11-01T02:15:28.4566630Z ##[group]Run node tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check
+2026-11-01T02:15:28.4567442Z [36;1mnode tools/package-shared-core-assets.mjs --build-dir shared/frontend/static/wasm --check[0m
+2026-11-01T02:15:28.4585139Z shell: /usr/bin/bash -e {0}
+2026-11-01T02:15:28.4585352Z env:
+2026-11-01T02:15:28.4585513Z   EMCC_CORES: 1
+2026-11-01T02:15:28.4585684Z   BINARYEN_CORES: 1
+2026-11-01T02:15:28.4585858Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:15:28.4586036Z   PANDO_P2_WASM: false
+2026-11-01T02:15:28.4586270Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:15:28.4586582Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:15:28.4586821Z ##[endgroup]
+2026-11-01T02:15:28.5344899Z {"sourceSha256":"fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043","assets":{"js":{"file":"pandoeditor-core.js","sha256":"008ce95293a0a291fac586e95e6ec3c9d4684a92a0d552ea60eaca421355b895"},"wasm":{"file":"pandoeditor-core.wasm","sha256":"9671907356ac4b00d1f3bbb10a4a4ed85362b57c8c7d34a530d9ce20e32a70d5"}},"mode":"check"}
+2026-11-01T02:15:28.5459614Z ##[group]Run set -euo pipefail
+2026-11-01T02:15:28.5460004Z [36;1mset -euo pipefail[0m
+2026-11-01T02:15:28.5460351Z [36;1mgit config user.name 'github-actions[bot]'[0m
+2026-11-01T02:15:28.5460926Z [36;1mgit config user.email '41898282+github-actions[bot]@users.noreply.github.com'[0m
+2026-11-01T02:15:28.5461504Z [36;1mnode scripts/p2-publish-artifacts.mjs[0m
+2026-11-01T02:15:28.5485076Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-01T02:15:28.5485461Z env:
+2026-11-01T02:15:28.5485678Z   EMCC_CORES: 1
+2026-11-01T02:15:28.5485922Z   BINARYEN_CORES: 1
+2026-11-01T02:15:28.5486179Z   PANDO_P2_SCOPE: auto
+2026-11-01T02:15:28.5486437Z   PANDO_P2_WASM: false
+2026-11-01T02:15:28.5486788Z   PANDO_P2_BASE_SHA: fb4f5df57b6c10a65c8dcdc218eef4679ab8cd90
+2026-11-01T02:15:28.5487387Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-11-01T02:15:28.5488918Z   PANDOLAB_LIBRARY_WRITE_TOKEN: ***
+2026-11-01T02:15:28.5489270Z ##[endgroup]
+2026-11-01T02:15:35.6420127Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:15:35.6420874Z Cloning into '/home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/.library-data/repository'...
+2026-11-01T02:15:35.6572259Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:15:35.9619126Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:15:36.2714161Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+2026-11-01T02:16:19.0330118Z Built 286 territorial chunks and 2 reference snapshots
+2026-11-01T02:16:21.1156482Z Checked 286 territorial chunks and 2 reference snapshots
+2026-11-01T02:16:23.4153194Z Derived world view: 258 explicitly selected country versions
+2026-11-01T02:16:25.1371781Z Derived world view: 258 explicitly selected country versions
+2026-11-01T02:21:57.4800874Z Builtin world: 278 country files retained; packed transport, 25297984 bytes
+2026-11-01T02:27:34.0562559Z Builtin world: 278 country files retained; packed transport, 25297984 bytes
+2026-11-01T02:27:43.5915451Z {
+2026-11-01T02:27:43.5916938Z   "output": "assets/data/world-mesh-v0.36.1.bin.gz",
+2026-11-01T02:27:43.5917785Z   "sourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:27:43.5918567Z   "meshSha256": "e2d54d91c33470c8907f1c09ba58c81ebacd333d4d3afb129280403d74eec0a6",
+2026-11-01T02:27:43.5918938Z   "countries": 258,
+2026-11-01T02:27:43.5919145Z   "sourceCoordinates": 561142,
+2026-11-01T02:27:43.5919354Z   "vertices": 1038279,
+2026-11-01T02:27:43.5919541Z   "triangles": 1511396,
+2026-11-01T02:27:43.5919732Z   "lineSegments": 555959,
+2026-11-01T02:27:43.5919941Z   "polarPolygons": 1,
+2026-11-01T02:27:43.5920204Z   "removedDegenerateTriangles": 483,
+2026-11-01T02:27:43.5920460Z   "maxEdgeDegrees": 0.4989977266966532,
+2026-11-01T02:27:43.5920682Z   "algorithmRevision": 5,
+2026-11-01T02:27:43.5920877Z   "rawBytes": 32976552,
+2026-11-01T02:27:43.5921077Z   "compressedBytes": 14762581,
+2026-11-01T02:27:43.5922543Z   "buildMilliseconds": 8866
+2026-11-01T02:27:43.5922822Z }
+2026-11-01T02:27:43.8776028Z P2 validated actual world-mesh artifacts
+2026-11-01T02:28:58.6915202Z {
+2026-11-01T02:28:58.6915531Z   "mode": "build",
+2026-11-01T02:28:58.6915840Z   "version": "0.36.1",
+2026-11-01T02:28:58.6916280Z   "source": "territorial-entities/generated/current-world.geojson",
+2026-11-01T02:28:58.6916933Z   "sourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:28:58.6917636Z   "defaultClassification": {
+2026-11-01T02:28:58.6917943Z     "countries": {
+2026-11-01T02:28:58.6918216Z       "IDN": "9g6r:voqbzb",
+2026-11-01T02:28:58.6918501Z       "MYS": "16wq:1qhyfbc",
+2026-11-01T02:28:58.6918855Z       "CHL": "8s25:1vm0sbz",
+2026-11-01T02:28:58.6919136Z       "BOL": "rak:r7m3ym",
+2026-11-01T02:28:58.6919427Z       "PER": "176n:4ekp2d",
+2026-11-01T02:28:58.6919726Z       "ARG": "2ds2:vjcmy7",
+2026-11-01T02:28:58.6920007Z       "CYP": "53d:jt5nyt",
+2026-11-01T02:28:58.6920860Z       "IND": "3loi:4zl7un",
+2026-11-01T02:28:58.6921139Z       "CHN": "8fpv:1bax1a6",
+2026-11-01T02:28:58.6921428Z       "ISR": "7x3:2foanb",
+2026-11-01T02:28:58.6921694Z       "PSX": "3yj:1sm15x0",
+2026-11-01T02:28:58.6921959Z       "LBN": "597:1qgfi0c",
+2026-11-01T02:28:58.6922224Z       "ETH": "hlx:60bdoi",
+2026-11-01T02:28:58.6922487Z       "SDS": "ipp:vyfsiw",
+2026-11-01T02:28:58.6922769Z       "SOM": "azl:8cjx4s",
+2026-11-01T02:28:58.6923036Z       "KEN": "ef6:j2ddpo",
+2026-11-01T02:28:58.6923278Z       "MWI": "e8u:i9t0rr",
+2026-11-01T02:28:58.6923460Z       "TZA": "tyt:1tl2t4n",
+2026-11-01T02:28:58.6923664Z       "SYR": "9yc:1yr0vls",
+2026-11-01T02:28:58.6923850Z       "SOL": "5b0:1n19fsj",
+2026-11-01T02:28:58.6924061Z       "FRA": "257q:1dyketg",
+2026-11-01T02:28:58.6924249Z       "SUR": "ceq:iobdxv",
+2026-11-01T02:28:58.6924438Z       "GUY": "ivh:1gs0ica",
+2026-11-01T02:28:58.6924628Z       "KOR": "570d:xbh7wq",
+2026-11-01T02:28:58.6924815Z       "PRK": "65zv:1p2oirh",
+2026-11-01T02:28:58.6925010Z       "MAR": "hha:1tnqn35",
+2026-11-01T02:28:58.6925187Z       "SAH": "51m:1r9en7d",
+2026-11-01T02:28:58.6925373Z       "CRI": "e76:280jk4",
+2026-11-01T02:28:58.6925547Z       "NIC": "gi9:t6e02i",
+2026-11-01T02:28:58.6925721Z       "COG": "m77:1k5n7yt",
+2026-11-01T02:28:58.6925897Z       "COD": "1bvz:emp5mr",
+2026-11-01T02:28:58.6926085Z       "BTN": "5iy:8vaqa2",
+2026-11-01T02:28:58.6926262Z       "UKR": "18qo:1g121uz",
+2026-11-01T02:28:58.6926445Z       "BLR": "jqa:tpn0b",
+2026-11-01T02:28:58.6926625Z       "NAM": "ktr:1wm497u",
+2026-11-01T02:28:58.6926801Z       "ZAF": "12ur:1ark733",
+2026-11-01T02:28:58.6927169Z       "OMN": "hf5:p4slln",
+2026-11-01T02:28:58.6927445Z       "UZB": "s1d:e86zrc",
+2026-11-01T02:28:58.6927986Z       "KAZ": "1zlf:1whg54p",
+2026-11-01T02:28:58.6928266Z       "TJK": "l6k:1ofxk3f",
+2026-11-01T02:28:58.6928537Z       "LTU": "9h2:jxzbwr",
+2026-11-01T02:28:58.6928720Z       "BRA": "5hrd:ljjqbf",
+2026-11-01T02:28:58.6928902Z       "URY": "aqc:rfnle7",
+2026-11-01T02:28:58.6929098Z       "MNG": "ppp:17w2ifn",
+2026-11-01T02:28:58.6929283Z       "RUS": "hkvy:1294wb8",
+2026-11-01T02:28:58.6929472Z       "CZE": "fit:1fb933o",
+2026-11-01T02:28:58.6929650Z       "DEU": "1dwx:5gkrwz",
+2026-11-01T02:28:58.6929932Z       "EST": "hln:1efdoln",
+2026-11-01T02:28:58.6930222Z       "LVA": "95j:1fdiuqa",
+2026-11-01T02:28:58.6930492Z       "NOR": "7ayi:b09u",
+2026-11-01T02:28:58.6930758Z       "SWE": "26ka:mzqmlb",
+2026-11-01T02:28:58.6931018Z       "FIN": "1ibg:1rqyej8",
+2026-11-01T02:28:58.6931301Z       "VNM": "214l:1r6easn",
+2026-11-01T02:28:58.6931577Z       "KHM": "l9z:grd3jj",
+2026-11-01T02:28:58.6931856Z       "LUX": "36l:1rrqj2f",
+2026-11-01T02:28:58.6932114Z       "ARE": "dgs:xztwre",
+2026-11-01T02:28:58.6932379Z       "BEL": "afg:e93akt",
+2026-11-01T02:28:58.6932639Z       "GEO": "8yx:162lia0",
+2026-11-01T02:28:58.6933000Z       "MKD": "64p:1uinyvd",
+2026-11-01T02:28:58.6933302Z       "ALB": "9c0:1pafq1n",
+2026-11-01T02:28:58.6933555Z       "AZE": "g45:1pa1vvp",
+2026-11-01T02:28:58.6933831Z       "KOS": "4ky:1lu2kn2",
+2026-11-01T02:28:58.6934107Z       "TUR": "1p73:6demg0",
+2026-11-01T02:28:58.6934368Z       "ESP": "1dxh:xtjizr",
+2026-11-01T02:28:58.6934620Z       "LAO": "uyd:1h9bvjf",
+2026-11-01T02:28:58.6934876Z       "KGZ": "kam:190e4g5",
+2026-11-01T02:28:58.6935144Z       "ARM": "7bs:1wobu9q",
+2026-11-01T02:28:58.6935396Z       "DNK": "1000:1phe1co",
+2026-11-01T02:28:58.6935652Z       "LBY": "b3g:eyw1w",
+2026-11-01T02:28:58.6935912Z       "TUN": "bm7:luyyvj",
+2026-11-01T02:28:58.6936175Z       "ROU": "k61:1bjhjd8",
+2026-11-01T02:28:58.6936424Z       "HUN": "e9t:j797ou",
+2026-11-01T02:28:58.6936674Z       "SVK": "9mr:fq3kyo",
+2026-11-01T02:28:58.6936947Z       "POL": "me5:eonm1a",
+2026-11-01T02:28:58.6938787Z       "IRL": "14j1:zhwlmx",
+2026-11-01T02:28:58.6939058Z       "GBR": "3bid:shdl5p",
+2026-11-01T02:28:58.6939321Z       "GRC": "2uqg:4hkqe1",
+2026-11-01T02:28:58.6939604Z       "ZMB": "qe7:1pos5ht",
+2026-11-01T02:28:58.6939854Z       "SLE": "bp3:1hc4t4v",
+2026-11-01T02:28:58.6940343Z       "GIN": "rke:r65sah",
+2026-11-01T02:28:58.6940602Z       "LBR": "bbq:1viqk3c",
+2026-11-01T02:28:58.6940871Z       "CAF": "sut:m0n7z9",
+2026-11-01T02:28:58.6941128Z       "SDN": "jpz:swsxfx",
+2026-11-01T02:28:58.6941392Z       "DJI": "3k1:1pbqb75",
+2026-11-01T02:28:58.6941657Z       "ERI": "h05:1j7683i",
+2026-11-01T02:28:58.6941915Z       "AUT": "ick:z7okmv",
+2026-11-01T02:28:58.6942088Z       "IRQ": "e5a:8d5q5n",
+2026-11-01T02:28:58.6942267Z       "ITA": "1jmy:1r7uqz9",
+2026-11-01T02:28:58.6942460Z       "CHE": "c4h:1oq8s8",
+2026-11-01T02:28:58.6942706Z       "IRN": "19wf:144jucg",
+2026-11-01T02:28:58.6942971Z       "NLD": "dv5:15iy1bc",
+2026-11-01T02:28:58.6943178Z       "LIE": "ho:199dpde",
+2026-11-01T02:28:58.6943396Z       "CIV": "pxd:supmvy",
+2026-11-01T02:28:58.6943671Z       "SRB": "ftp:1j5ugw6",
+2026-11-01T02:28:58.6943970Z       "MLI": "tjp:8lyak5",
+2026-11-01T02:28:58.6944329Z       "SEN": "o8f:1e8ktbo",
+2026-11-01T02:28:58.6944761Z       "NGA": "rt1:q1wq13",
+2026-11-01T02:28:58.6945093Z       "BEN": "9oy:83l3kz",
+2026-11-01T02:28:58.6945473Z       "AGO": "sc2:10v7jie",
+2026-11-01T02:28:58.6945791Z       "HRV": "13fb:tctfjv",
+2026-11-01T02:28:58.6946083Z       "SVN": "8rr:12a3q7l",
+2026-11-01T02:28:58.6946428Z       "QAT": "432:qdvz6t",
+2026-11-01T02:28:58.6946739Z       "SAU": "13um:1r4uerk",
+2026-11-01T02:28:58.6947309Z       "BWA": "gud:dki1xh",
+2026-11-01T02:28:58.6947681Z       "ZWE": "dhn:sdri1e",
+2026-11-01T02:28:58.6960528Z       "PAK": "zzc:wiltmd",
+2026-11-01T02:28:58.6960786Z       "BGR": "et2:rc50dy",
+2026-11-01T02:28:58.6960995Z       "THA": "1k67:z61ser",
+2026-11-01T02:28:58.6961222Z       "SMR": "cf:m8tcdw",
+2026-11-01T02:28:58.6961439Z       "HTI": "bi9:j8ob6g",
+2026-11-01T02:28:58.6961862Z       "DOM": "a89:15x9bbo",
+2026-11-01T02:28:58.6962061Z       "TCD": "k5b:k73pht",
+2026-11-01T02:28:58.6962246Z       "KWT": "47q:ocptcm",
+2026-11-01T02:28:58.6962445Z       "SLV": "6pz:relyuq",
+2026-11-01T02:28:58.6962628Z       "GTM": "830:11vl5m",
+2026-11-01T02:28:58.6962816Z       "TLS": "4xw:9ucwbo",
+2026-11-01T02:28:58.6963095Z       "BRN": "2ns:17ayizl",
+2026-11-01T02:28:58.6963365Z       "MCO": "fp:q8iugq",
+2026-11-01T02:28:58.6963624Z       "DZA": "kfu:18y9c24",
+2026-11-01T02:28:58.6963887Z       "MOZ": "153g:1ews61b",
+2026-11-01T02:28:58.6964161Z       "SWZ": "1it:16me08e",
+2026-11-01T02:28:58.6964412Z       "BDI": "56c:wvm007",
+2026-11-01T02:28:58.6964667Z       "RWA": "5f0:pio3jh",
+2026-11-01T02:28:58.6964926Z       "MMR": "25l6:1e57jx6",
+2026-11-01T02:28:58.6965195Z       "BGD": "12el:1eile2o",
+2026-11-01T02:28:58.6965461Z       "AND": "ul:e7hbpx",
+2026-11-01T02:28:58.6965724Z       "AFG": "pqo:136bdrt",
+2026-11-01T02:28:58.6965993Z       "MNE": "61u:lrtbba",
+2026-11-01T02:28:58.6966264Z       "BIH": "adj:fu57tt",
+2026-11-01T02:28:58.6966535Z       "UGA": "9y2:1uos5pi",
+2026-11-01T02:28:58.6966789Z       "CUB": "1bkl:h580x",
+2026-11-01T02:28:58.6967180Z       "HND": "kua:jazas8",
+2026-11-01T02:28:58.6967442Z       "ECU": "qef:1av5rvy",
+2026-11-01T02:28:58.6967709Z       "COL": "1kcn:3zrssf",
+2026-11-01T02:28:58.6967974Z       "PRY": "kwr:qkk06",
+2026-11-01T02:28:58.6968229Z       "PRT": "lgd:ceuh5r",
+2026-11-01T02:28:58.6968476Z       "MDA": "c54:7cx5w3",
+2026-11-01T02:28:58.6968736Z       "TKM": "s0o:amwnvo",
+2026-11-01T02:28:58.6968980Z       "JOR": "651:xbvq4c",
+2026-11-01T02:28:58.6969233Z       "NPL": "h5r:610rqm",
+2026-11-01T02:28:58.6969488Z       "LSO": "5qc:onzeau",
+2026-11-01T02:28:58.6969748Z       "CMR": "nb8:193uufx",
+2026-11-01T02:28:58.6969939Z       "GAB": "noz:5t5iz",
+2026-11-01T02:28:58.6970120Z       "NER": "h2i:r05htv",
+2026-11-01T02:28:58.6970297Z       "BFA": "i9r:1j7ys8",
+2026-11-01T02:28:58.6970470Z       "TGO": "7k6:1yysw1u",
+2026-11-01T02:28:58.6970657Z       "GHA": "d8a:rzhhtq",
+2026-11-01T02:28:58.6970843Z       "GNB": "mmg:99mc70",
+2026-11-01T02:28:58.6971023Z       "USA": "i3uf:1182u52",
+2026-11-01T02:28:58.6971206Z       "CAN": "xqak:19ny8ov",
+2026-11-01T02:28:58.6971388Z       "MEX": "3qlm:vtbpjj",
+2026-11-01T02:28:58.6971572Z       "BLZ": "8q0:6vrt0t",
+2026-11-01T02:28:58.6971896Z       "PAN": "xnj:7p1oi0",
+2026-11-01T02:28:58.6972080Z       "VEN": "1iwk:4dwkbu",
+2026-11-01T02:28:58.6972254Z       "PNG": "2d22:1nyrwd6",
+2026-11-01T02:28:58.6972449Z       "EGY": "wat:7i9c43",
+2026-11-01T02:28:58.6972636Z       "YEM": "hd1:14b3u16",
+2026-11-01T02:28:58.6972825Z       "MRT": "k03:1snomyk",
+2026-11-01T02:28:58.6973027Z       "GNQ": "3wg:1xnezkq",
+2026-11-01T02:28:58.6973221Z       "GMB": "75z:5i2z6p",
+2026-11-01T02:28:58.6973408Z       "VAT": "5a:6gzup6",
+2026-11-01T02:28:58.6973592Z       "CYN": "3f4:dw510w",
+2026-11-01T02:28:58.6973770Z       "CNM": "3rq:13k46f2",
+2026-11-01T02:28:58.6973951Z       "KAS": "o3:1cuv6ct",
+2026-11-01T02:28:58.6974143Z       "SPI": "rh:8t2itn",
+2026-11-01T02:28:58.6974326Z       "BRT": "8x:1gbasa5",
+2026-11-01T02:28:58.6974510Z       "ATA": "c0up:13y1s5o",
+2026-11-01T02:28:58.6974704Z       "AUS": "6ysk:1ehugv7",
+2026-11-01T02:28:58.6974899Z       "FJI": "rck:m96vd0",
+2026-11-01T02:28:58.6975082Z       "NZL": "2bdy:a8xmyp",
+2026-11-01T02:28:58.6975272Z       "MDG": "t0p:1mt0xz5",
+2026-11-01T02:28:58.6975456Z       "PHL": "3kms:49k9sz",
+2026-11-01T02:28:58.6975657Z       "LKA": "e08:ttm3mu",
+2026-11-01T02:28:58.6975848Z       "BHS": "sra:14aq1ue",
+2026-11-01T02:28:58.6976027Z       "TWN": "9wn:6znt5x",
+2026-11-01T02:28:58.6976205Z       "JPN": "3emo:or4737",
+2026-11-01T02:28:58.6976381Z       "ISL": "1itn:8z2meq",
+2026-11-01T02:28:58.6976563Z       "SYC": "5nf:11te37u",
+2026-11-01T02:28:58.6976741Z       "KIR": "cjf:156us3f",
+2026-11-01T02:28:58.6976919Z       "MHL": "3oc:s1onzt",
+2026-11-01T02:28:58.6977286Z       "TTO": "3h2:1orak1t",
+2026-11-01T02:28:58.6977474Z       "GRD": "15t:k66j5h",
+2026-11-01T02:28:58.6977653Z       "VCT": "1i4:3rdgi6",
+2026-11-01T02:28:58.6977974Z       "BRB": "n4:ytq0er",
+2026-11-01T02:28:58.6978152Z       "LCA": "wl:bbgegq",
+2026-11-01T02:28:58.6978409Z       "DMA": "1cf:1rulodo",
+2026-11-01T02:28:58.6978715Z       "ATG": "23r:ksf6dk",
+2026-11-01T02:28:58.6979002Z       "KNA": "si:1oy0pjr",
+2026-11-01T02:28:58.6979279Z       "JAM": "4hr:q25plv",
+2026-11-01T02:28:58.6979537Z       "MUS": "213:eun820",
+2026-11-01T02:28:58.6979784Z       "COM": "29o:1fzjuhm",
+2026-11-01T02:28:58.6980041Z       "STP": "1i2:1qqmdvn",
+2026-11-01T02:28:58.6980291Z       "CPV": "7ny:1lqalm4",
+2026-11-01T02:28:58.6980536Z       "MLT": "ys:185807",
+2026-11-01T02:28:58.6980787Z       "SGP": "pa:1a0zdvo",
+2026-11-01T02:28:58.6981034Z       "COK": "2k8:8uozo1",
+2026-11-01T02:28:58.6981279Z       "TON": "440:12d6il4",
+2026-11-01T02:28:58.6981520Z       "WSM": "2k7:n4rxze",
+2026-11-01T02:28:58.6981791Z       "SLB": "12si:2xizfr",
+2026-11-01T02:28:58.6982047Z       "TUV": "19z:y0xsgh",
+2026-11-01T02:28:58.6982294Z       "MDV": "nxk:1pqtnmc",
+2026-11-01T02:28:58.6982562Z       "NRU": "6q:frwjtt",
+2026-11-01T02:28:58.6982809Z       "FSM": "4dg:4og1wf",
+2026-11-01T02:28:58.6983074Z       "VUT": "ipl:940ijv",
+2026-11-01T02:28:58.6983327Z       "NIU": "pw:1leiliq",
+2026-11-01T02:28:58.6983589Z       "PLW": "2u5:eublvq",
+2026-11-01T02:28:58.6983843Z       "BHR": "2ie:1gf5v3t"
+2026-11-01T02:28:58.6984092Z     },
+2026-11-01T02:28:58.6984298Z     "changed": {
+2026-11-01T02:28:58.6984532Z       "CHN": "8fpv:1bax1a6",
+2026-11-01T02:28:58.6984794Z       "BRA": "5hrd:ljjqbf",
+2026-11-01T02:28:58.6985045Z       "COL": "1kcn:3zrssf"
+2026-11-01T02:28:58.6985287Z     },
+2026-11-01T02:28:58.6985494Z     "removedIds": [
+2026-11-01T02:28:58.6985723Z       "ESB",
+2026-11-01T02:28:58.6985929Z       "MAF",
+2026-11-01T02:28:58.6986140Z       "SXM",
+2026-11-01T02:28:58.6986334Z       "USG",
+2026-11-01T02:28:58.6986534Z       "BRI",
+2026-11-01T02:28:58.6986737Z       "GIB",
+2026-11-01T02:28:58.6986934Z       "HKG",
+2026-11-01T02:28:58.6987272Z       "KAB",
+2026-11-01T02:28:58.6987472Z       "WSB",
+2026-11-01T02:28:58.6987668Z       "GRL",
+2026-11-01T02:28:58.6987875Z       "NCL",
+2026-11-01T02:28:58.6988066Z       "CUW",
+2026-11-01T02:28:58.6988275Z       "ABW",
+2026-11-01T02:28:58.6988470Z       "TCA",
+2026-11-01T02:28:58.6988667Z       "SPM",
+2026-11-01T02:28:58.6988876Z       "PCN",
+2026-11-01T02:28:58.6989262Z       "PYF",
+2026-11-01T02:28:58.6989479Z       "ATF",
+2026-11-01T02:28:58.6989683Z       "UMI",
+2026-11-01T02:28:58.6989889Z       "MSR",
+2026-11-01T02:28:58.6990086Z       "VIR",
+2026-11-01T02:28:58.6990296Z       "BLM",
+2026-11-01T02:28:58.6990500Z       "PRI",
+2026-11-01T02:28:58.6990697Z       "AIA",
+2026-11-01T02:28:58.6990899Z       "VGB",
+2026-11-01T02:28:58.6991098Z       "CYM",
+2026-11-01T02:28:58.6991314Z       "BMU",
+2026-11-01T02:28:58.6991515Z       "HMD",
+2026-11-01T02:28:58.6991708Z       "SHN",
+2026-11-01T02:28:58.6991915Z       "JEY",
+2026-11-01T02:28:58.6992111Z       "GGY",
+2026-11-01T02:28:58.6992324Z       "IMN",
+2026-11-01T02:28:58.6992520Z       "ALD",
+2026-11-01T02:28:58.6992726Z       "FRO",
+2026-11-01T02:28:58.6992921Z       "IOA",
+2026-11-01T02:28:58.6993136Z       "IOT",
+2026-11-01T02:28:58.6993335Z       "NFK",
+2026-11-01T02:28:58.6993540Z       "WLF",
+2026-11-01T02:28:58.6993750Z       "SGS",
+2026-11-01T02:28:58.6993950Z       "FLK",
+2026-11-01T02:28:58.6994161Z       "ASM",
+2026-11-01T02:28:58.6994364Z       "GUM",
+2026-11-01T02:28:58.6994569Z       "MNP",
+2026-11-01T02:28:58.6994775Z       "CSI",
+2026-11-01T02:28:58.6994972Z       "PGA",
+2026-11-01T02:28:58.6995178Z       "CLP",
+2026-11-01T02:28:58.6995383Z       "MAC",
+2026-11-01T02:28:58.6995582Z       "ATC",
+2026-11-01T02:28:58.6995777Z       "SER",
+2026-11-01T02:28:58.6995980Z       "BJN",
+2026-11-01T02:28:58.6996201Z       "SCR"
+2026-11-01T02:28:58.6996400Z     ],
+2026-11-01T02:28:58.6996618Z     "units": {
+2026-11-01T02:28:58.6996903Z       "d34b00a1-9b13-8000-8000-000000455342": {
+2026-11-01T02:28:58.6997363Z         "parentId": "GBR",
+2026-11-01T02:28:58.6997648Z         "geometry": "1to:dtaxkq"
+2026-11-01T02:28:58.6998098Z       },
+2026-11-01T02:28:58.6998358Z       "d34b00a1-9b13-8000-8000-0000004d4146": {
+2026-11-01T02:28:58.6998658Z         "parentId": "FRA",
+2026-11-01T02:28:58.6998952Z         "geometry": "ez:4e3ip5"
+2026-11-01T02:28:58.6999221Z       },
+2026-11-01T02:28:58.6999484Z       "d34b00a1-9b13-8000-8000-00000053584d": {
+2026-11-01T02:28:58.6999803Z         "parentId": "NLD",
+2026-11-01T02:28:58.7000090Z         "geometry": "6m:zxl87w"
+2026-11-01T02:28:58.7000336Z       },
+2026-11-01T02:28:58.7000590Z       "d34b00a1-9b13-8000-8000-000000555347": {
+2026-11-01T02:28:58.7000894Z         "parentId": "CUB",
+2026-11-01T02:28:58.7001172Z         "geometry": "t6:tuei7d"
+2026-11-01T02:28:58.7001419Z       },
+2026-11-01T02:28:58.7001671Z       "d34b00a1-9b13-8000-8000-000000474942": {
+2026-11-01T02:28:58.7001972Z         "parentId": "GBR",
+2026-11-01T02:28:58.7002243Z         "geometry": "54:8a6t4p"
+2026-11-01T02:28:58.7002490Z       },
+2026-11-01T02:28:58.7002737Z       "d34b00a1-9b13-8000-8000-000000484b47": {
+2026-11-01T02:28:58.7003048Z         "parentId": "CHN",
+2026-11-01T02:28:58.7003325Z         "geometry": "71x:nu9wjz"
+2026-11-01T02:28:58.7003592Z       },
+2026-11-01T02:28:58.7003842Z       "d34b00a1-9b13-8000-8000-0000004b4142": {
+2026-11-01T02:28:58.7004145Z         "parentId": "KAZ",
+2026-11-01T02:28:58.7004421Z         "geometry": "1ux:9r964t"
+2026-11-01T02:28:58.7004677Z       },
+2026-11-01T02:28:58.7004934Z       "d34b00a1-9b13-8000-8000-000000575342": {
+2026-11-01T02:28:58.7005241Z         "parentId": "GBR",
+2026-11-01T02:28:58.7005512Z         "geometry": "tf:14sey7x"
+2026-11-01T02:28:58.7005762Z       },
+2026-11-01T02:28:58.7006024Z       "d34b00a1-9b13-8000-8000-00000047524c": {
+2026-11-01T02:28:58.7006321Z         "parentId": "DNK",
+2026-11-01T02:28:58.7006607Z         "geometry": "9u8q:14d2d8m"
+2026-11-01T02:28:58.7006880Z       },
+2026-11-01T02:28:58.7007283Z       "d34b00a1-9b13-8000-8000-0000004e434c": {
+2026-11-01T02:28:58.7007591Z         "parentId": "FRA",
+2026-11-01T02:28:58.7007886Z         "geometry": "i69:myz3t8"
+2026-11-01T02:28:58.7008142Z       },
+2026-11-01T02:28:58.7008391Z       "d34b00a1-9b13-8000-8000-000000435557": {
+2026-11-01T02:28:58.7008700Z         "parentId": "NLD",
+2026-11-01T02:28:58.7008987Z         "geometry": "sw:wkccri"
+2026-11-01T02:28:58.7009423Z       },
+2026-11-01T02:28:58.7009672Z       "d34b00a1-9b13-8000-8000-000000414257": {
+2026-11-01T02:28:58.7009980Z         "parentId": "NLD",
+2026-11-01T02:28:58.7010263Z         "geometry": "hj:4982hh"
+2026-11-01T02:28:58.7010511Z       },
+2026-11-01T02:28:58.7010756Z       "d34b00a1-9b13-8000-8000-000000544341": {
+2026-11-01T02:28:58.7011068Z         "parentId": "GBR",
+2026-11-01T02:28:58.7011345Z         "geometry": "3tb:xa8nr8"
+2026-11-01T02:28:58.7011615Z       },
+2026-11-01T02:28:58.7011877Z       "d34b00a1-9b13-8000-8000-00000053504d": {
+2026-11-01T02:28:58.7012196Z         "parentId": "FRA",
+2026-11-01T02:28:58.7012478Z         "geometry": "1ha:l52t9y"
+2026-11-01T02:28:58.7012732Z       },
+2026-11-01T02:28:58.7012996Z       "d34b00a1-9b13-8000-8000-00000050434e": {
+2026-11-01T02:28:58.7013299Z         "parentId": "GBR",
+2026-11-01T02:28:58.7013580Z         "geometry": "rk:8cftwk"
+2026-11-01T02:28:58.7013832Z       },
+2026-11-01T02:28:58.7014080Z       "d34b00a1-9b13-8000-8000-000000505946": {
+2026-11-01T02:28:58.7014411Z         "parentId": "FRA",
+2026-11-01T02:28:58.7014695Z         "geometry": "k4w:1pm12ag"
+2026-11-01T02:28:58.7014975Z       },
+2026-11-01T02:28:58.7015236Z       "d34b00a1-9b13-8000-8000-000000415446": {
+2026-11-01T02:28:58.7015538Z         "parentId": "FRA",
+2026-11-01T02:28:58.7015826Z         "geometry": "9g5:ja9o6q"
+2026-11-01T02:28:58.7016093Z       },
+2026-11-01T02:28:58.7016353Z       "d34b00a1-9b13-8000-8000-000000554d49": {
+2026-11-01T02:28:58.7016674Z         "parentId": "USA",
+2026-11-01T02:28:58.7017114Z         "geometry": "28o:g9lpvg"
+2026-11-01T02:28:58.7017384Z       },
+2026-11-01T02:28:58.7017639Z       "d34b00a1-9b13-8000-8000-0000004d5352": {
+2026-11-01T02:28:58.7018127Z         "parentId": "GBR",
+2026-11-01T02:28:58.7018421Z         "geometry": "fj:1q831em"
+2026-11-01T02:28:58.7018688Z       },
+2026-11-01T02:28:58.7018934Z       "d34b00a1-9b13-8000-8000-000000564952": {
+2026-11-01T02:28:58.7019240Z         "parentId": "USA",
+2026-11-01T02:28:58.7019540Z         "geometry": "1ab:1loid8z"
+2026-11-01T02:28:58.7019819Z       },
+2026-11-01T02:28:58.7020076Z       "d34b00a1-9b13-8000-8000-000000424c4d": {
+2026-11-01T02:28:58.7020385Z         "parentId": "FRA",
+2026-11-01T02:28:58.7020662Z         "geometry": "7z:1tencom"
+2026-11-01T02:28:58.7020927Z       },
+2026-11-01T02:28:58.7021186Z       "d34b00a1-9b13-8000-8000-000000505249": {
+2026-11-01T02:28:58.7021502Z         "parentId": "USA",
+2026-11-01T02:28:58.7021781Z         "geometry": "5d4:16b6s5w"
+2026-11-01T02:28:58.7022055Z       },
+2026-11-01T02:28:58.7022326Z       "d34b00a1-9b13-8000-8000-000000414941": {
+2026-11-01T02:28:58.7022631Z         "parentId": "GBR",
+2026-11-01T02:28:58.7022919Z         "geometry": "168:mn9yf5"
+2026-11-01T02:28:58.7023191Z       },
+2026-11-01T02:28:58.7023452Z       "d34b00a1-9b13-8000-8000-000000564742": {
+2026-11-01T02:28:58.7023761Z         "parentId": "GBR",
+2026-11-01T02:28:58.7024042Z         "geometry": "1oo:xyd3cq"
+2026-11-01T02:28:58.7024310Z       },
+2026-11-01T02:28:58.7024577Z       "d34b00a1-9b13-8000-8000-00000043594d": {
+2026-11-01T02:28:58.7024908Z         "parentId": "GBR",
+2026-11-01T02:28:58.7025193Z         "geometry": "1gp:18kd5f2"
+2026-11-01T02:28:58.7025461Z       },
+2026-11-01T02:28:58.7025732Z       "d34b00a1-9b13-8000-8000-000000424d55": {
+2026-11-01T02:28:58.7026050Z         "parentId": "GBR",
+2026-11-01T02:28:58.7026338Z         "geometry": "1j2:1mwrjht"
+2026-11-01T02:28:58.7026599Z       },
+2026-11-01T02:28:58.7026855Z       "d34b00a1-9b13-8000-8000-000000484d44": {
+2026-11-01T02:28:58.7027320Z         "parentId": "AUS",
+2026-11-01T02:28:58.7027621Z         "geometry": "z2:1k678tm"
+2026-11-01T02:28:58.7027885Z       },
+2026-11-01T02:28:58.7028156Z       "d34b00a1-9b13-8000-8000-00000053484e": {
+2026-11-01T02:28:58.7028477Z         "parentId": "GBR",
+2026-11-01T02:28:58.7028758Z         "geometry": "1im:1qt13zt"
+2026-11-01T02:28:58.7029011Z       },
+2026-11-01T02:28:58.7029260Z       "d34b00a1-9b13-8000-8000-0000004a4559": {
+2026-11-01T02:28:58.7029743Z         "parentId": "GBR",
+2026-11-01T02:28:58.7030042Z         "geometry": "t9:170cerj"
+2026-11-01T02:28:58.7030318Z       },
+2026-11-01T02:28:58.7030560Z       "d34b00a1-9b13-8000-8000-000000474759": {
+2026-11-01T02:28:58.7030869Z         "parentId": "GBR",
+2026-11-01T02:28:58.7031151Z         "geometry": "11b:cthno7"
+2026-11-01T02:28:58.7031433Z       },
+2026-11-01T02:28:58.7031695Z       "d34b00a1-9b13-8000-8000-000000494d4e": {
+2026-11-01T02:28:58.7032019Z         "parentId": "GBR",
+2026-11-01T02:28:58.7032317Z         "geometry": "195:1hef7zr"
+2026-11-01T02:28:58.7032610Z       },
+2026-11-01T02:28:58.7032887Z       "d34b00a1-9b13-8000-8000-000000414c44": {
+2026-11-01T02:28:58.7033214Z         "parentId": "FIN",
+2026-11-01T02:28:58.7033517Z         "geometry": "80j:yvxoi6"
+2026-11-01T02:28:58.7033792Z       },
+2026-11-01T02:28:58.7034048Z       "d34b00a1-9b13-8000-8000-00000046524f": {
+2026-11-01T02:28:58.7034365Z         "parentId": "DNK",
+2026-11-01T02:28:58.7034662Z         "geometry": "87v:10lf77w"
+2026-11-01T02:28:58.7034953Z       },
+2026-11-01T02:28:58.7035225Z       "d34b00a1-9b13-8000-8000-000000494f41": {
+2026-11-01T02:28:58.7035557Z         "parentId": "AUS",
+2026-11-01T02:28:58.7035851Z         "geometry": "10h:ea0yfg"
+2026-11-01T02:28:58.7036137Z       },
+2026-11-01T02:28:58.7036411Z       "d34b00a1-9b13-8000-8000-000000494f54": {
+2026-11-01T02:28:58.7036735Z         "parentId": "GBR",
+2026-11-01T02:28:58.7037187Z         "geometry": "1rx:9aqu74"
+2026-11-01T02:28:58.7037491Z       },
+2026-11-01T02:28:58.7037780Z       "d34b00a1-9b13-8000-8000-0000004e464b": {
+2026-11-01T02:28:58.7038124Z         "parentId": "AUS",
+2026-11-01T02:28:58.7038443Z         "geometry": "i8:1pv5tjp"
+2026-11-01T02:28:58.7038736Z       },
+2026-11-01T02:28:58.7039266Z       "d34b00a1-9b13-8000-8000-000000574c46": {
+2026-11-01T02:28:58.7039603Z         "parentId": "FRA",
+2026-11-01T02:28:58.7039907Z         "geometry": "rf:5ityn8"
+2026-11-01T02:28:58.7040181Z       },
+2026-11-01T02:28:58.7040463Z       "d34b00a1-9b13-8000-8000-000000534753": {
+2026-11-01T02:28:58.7040804Z         "parentId": "GBR",
+2026-11-01T02:28:58.7041117Z         "geometry": "atr:mg9yli"
+2026-11-01T02:28:58.7041406Z       },
+2026-11-01T02:28:58.7041688Z       "d34b00a1-9b13-8000-8000-000000464c4b": {
+2026-11-01T02:28:58.7042021Z         "parentId": "GBR",
+2026-11-01T02:28:58.7042332Z         "geometry": "omv:17z8a65"
+2026-11-01T02:28:58.7042611Z       },
+2026-11-01T02:28:58.7042883Z       "d34b00a1-9b13-8000-8000-00000041534d": {
+2026-11-01T02:28:58.7043207Z         "parentId": "USA",
+2026-11-01T02:28:58.7043499Z         "geometry": "17n:1anmtv3"
+2026-11-01T02:28:58.7043777Z       },
+2026-11-01T02:28:58.7044057Z       "d34b00a1-9b13-8000-8000-00000047554d": {
+2026-11-01T02:28:58.7044395Z         "parentId": "USA",
+2026-11-01T02:28:58.7044699Z         "geometry": "w0:1ketn2u"
+2026-11-01T02:28:58.7044974Z       },
+2026-11-01T02:28:58.7045246Z       "d34b00a1-9b13-8000-8000-0000004d4e50": {
+2026-11-01T02:28:58.7045584Z         "parentId": "USA",
+2026-11-01T02:28:58.7045884Z         "geometry": "3a6:cucx7e"
+2026-11-01T02:28:58.7046162Z       },
+2026-11-01T02:28:58.7046435Z       "d34b00a1-9b13-8000-8000-000000435349": {
+2026-11-01T02:28:58.7046766Z         "parentId": "AUS",
+2026-11-01T02:28:58.7047229Z         "geometry": "3n:liguu4"
+2026-11-01T02:28:58.7047517Z       },
+2026-11-01T02:28:58.7047798Z       "d34b00a1-9b13-8000-8000-000000504741": {
+2026-11-01T02:28:58.7048125Z         "parentId": "USA",
+2026-11-01T02:28:58.7048434Z         "geometry": "1un:wo6dad"
+2026-11-01T02:28:58.7048758Z       },
+2026-11-01T02:28:58.7049022Z       "d34b00a1-9b13-8000-8000-000000434c50": {
+2026-11-01T02:28:58.7049358Z         "parentId": "FRA",
+2026-11-01T02:28:58.7049672Z         "geometry": "5m:1m2ents"
+2026-11-01T02:28:58.7049954Z       },
+2026-11-01T02:28:58.7050215Z       "d34b00a1-9b13-8000-8000-0000004d4143": {
+2026-11-01T02:28:58.7050536Z         "parentId": "CHN",
+2026-11-01T02:28:58.7050831Z         "geometry": "1nj:13mg2tv"
+2026-11-01T02:28:58.7051122Z       },
+2026-11-01T02:28:58.7051562Z       "d34b00a1-9b13-8000-8000-000000415443": {
+2026-11-01T02:28:58.7051905Z         "parentId": "AUS",
+2026-11-01T02:28:58.7052213Z         "geometry": "4c:1k66bxt"
+2026-11-01T02:28:58.7052484Z       }
+2026-11-01T02:28:58.7052694Z     }
+2026-11-01T02:28:58.7052902Z   },
+2026-11-01T02:28:58.7053243Z   "previewDerivation": "canonical-topology-simplified",
+2026-11-01T02:28:58.7053664Z   "previewSourceScale": "derived",
+2026-11-01T02:28:58.7054274Z   "previewSourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:28:58.7055180Z   "canonicalSourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:28:58.7055781Z   "simplificationQuantile": 0.16,
+2026-11-01T02:28:58.7056101Z   "countries": 258,
+2026-11-01T02:28:58.7056358Z   "coordinateCount": 106629,
+2026-11-01T02:28:58.7056672Z   "globalAreaError": 0.00019454,
+2026-11-01T02:28:58.7057112Z   "meshAlgorithmRevision": 5,
+2026-11-01T02:28:58.7057411Z   "meshVertices": 126149,
+2026-11-01T02:28:58.7057753Z   "countriesCompressedBytes": 924107,
+2026-11-01T02:28:58.7058113Z   "meshCompressedBytes": 1742500,
+2026-11-01T02:28:58.7058459Z   "combinedCompressedBytes": 2666607,
+2026-11-01T02:28:58.7059024Z   "countriesSha256": "a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb",
+2026-11-01T02:28:58.7059761Z   "meshSha256": "3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e",
+2026-11-01T02:28:58.7060251Z   "assets": {
+2026-11-01T02:28:58.7060486Z     "previewCountries": {
+2026-11-01T02:28:58.7060852Z       "url": "countries-preview-v0.36.1.geojson.gz",
+2026-11-01T02:28:58.7061226Z       "encoding": "gzip",
+2026-11-01T02:28:58.7061521Z       "compressedBytes": 924107,
+2026-11-01T02:28:58.7062026Z       "decodedBytes": 2457647,
+2026-11-01T02:28:58.7062536Z       "sha256": "a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb"
+2026-11-01T02:28:58.7063025Z     },
+2026-11-01T02:28:58.7063261Z     "previewMesh": {
+2026-11-01T02:28:58.7063620Z       "url": "world-mesh-preview-v0.36.1.bin.gz",
+2026-11-01T02:28:58.7063994Z       "encoding": "gzip",
+2026-11-01T02:28:58.7064327Z       "compressedBytes": 1742500,
+2026-11-01T02:28:58.7064672Z       "decodedBytes": 3784872,
+2026-11-01T02:28:58.7065171Z       "sha256": "3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e",
+2026-11-01T02:28:58.7065637Z       "header": [
+2026-11-01T02:28:58.7065883Z         1129137969,
+2026-11-01T02:28:58.7066140Z         2,
+2026-11-01T02:28:58.7066364Z         258,
+2026-11-01T02:28:58.7066601Z         126149,
+2026-11-01T02:28:58.7066848Z         423555,
+2026-11-01T02:28:58.7067206Z         204956,
+2026-11-01T02:28:58.7067430Z         106629,
+2026-11-01T02:28:58.7067657Z         5,
+2026-11-01T02:28:58.7067873Z         516,
+2026-11-01T02:28:58.7068094Z         516,
+2026-11-01T02:28:58.7068314Z         1032,
+2026-11-01T02:28:58.7068534Z         258
+2026-11-01T02:28:58.7068746Z       ]
+2026-11-01T02:28:58.7068960Z     },
+2026-11-01T02:28:58.7069182Z     "labelAnchors": {
+2026-11-01T02:28:58.7069531Z       "url": "country-label-anchors-v0.10.1.json",
+2026-11-01T02:28:58.7069884Z       "encoding": "identity",
+2026-11-01T02:28:58.7070195Z       "compressedBytes": 6312,
+2026-11-01T02:28:58.7070498Z       "decodedBytes": 6312,
+2026-11-01T02:28:58.7070983Z       "sha256": "791e244478cce05b76fa79bc6f7933250a8dd78def1d46aa7ec6ccea2c312902"
+2026-11-01T02:28:58.7071435Z     },
+2026-11-01T02:28:58.7071696Z     "canonicalCountryPacket": {
+2026-11-01T02:28:58.7072075Z       "url": "countries-canonical-v0.36.1.pcg.gz",
+2026-11-01T02:28:58.7072436Z       "encoding": "gzip",
+2026-11-01T02:28:58.7072740Z       "compressedBytes": 5282317,
+2026-11-01T02:28:58.7073061Z       "decodedBytes": 9029248,
+2026-11-01T02:28:58.7073561Z       "sha256": "78680d3a00fdbb066d645ef623eb751fb4ef8d7307815fc1bf8ffd5fe5d745b3",
+2026-11-01T02:28:58.7074054Z       "header": [
+2026-11-01T02:28:58.7074302Z         826753872,
+2026-11-01T02:28:58.7074531Z         1,
+2026-11-01T02:28:58.7074744Z         258,
+2026-11-01T02:28:58.7075221Z         4277,
+2026-11-01T02:28:58.7075472Z         4297,
+2026-11-01T02:28:58.7075696Z         561142,
+2026-11-01T02:28:58.7075922Z         13227,
+2026-11-01T02:28:58.7076142Z         258,
+2026-11-01T02:28:58.7076351Z         259,
+2026-11-01T02:28:58.7076576Z         4278,
+2026-11-01T02:28:58.7076786Z         4298,
+2026-11-01T02:28:58.7077135Z         516,
+2026-11-01T02:28:58.7077363Z         80,
+2026-11-01T02:28:58.7077586Z         13307,
+2026-11-01T02:28:58.7077810Z         13568,
+2026-11-01T02:28:58.7078032Z         14604,
+2026-11-01T02:28:58.7078253Z         31716,
+2026-11-01T02:28:58.7078481Z         48908,
+2026-11-01T02:28:58.7078701Z         50976,
+2026-11-01T02:28:58.7078927Z         9029248
+2026-11-01T02:28:58.7079156Z       ]
+2026-11-01T02:28:58.7079364Z     },
+2026-11-01T02:28:58.7079587Z     "canonicalMesh": {
+2026-11-01T02:28:58.7079907Z       "url": "world-mesh-v0.36.1.bin.gz",
+2026-11-01T02:28:58.7080247Z       "encoding": "gzip",
+2026-11-01T02:28:58.7080561Z       "compressedBytes": 14762581,
+2026-11-01T02:28:58.7080905Z       "decodedBytes": 32976552,
+2026-11-01T02:28:58.7081416Z       "sha256": "e2d54d91c33470c8907f1c09ba58c81ebacd333d4d3afb129280403d74eec0a6",
+2026-11-01T02:28:58.7081914Z       "header": [
+2026-11-01T02:28:58.7082160Z         1129137969,
+2026-11-01T02:28:58.7082392Z         2,
+2026-11-01T02:28:58.7082627Z         258,
+2026-11-01T02:28:58.7082849Z         1038279,
+2026-11-01T02:28:58.7083081Z         4534188,
+2026-11-01T02:28:58.7083310Z         1111918,
+2026-11-01T02:28:58.7083536Z         561142,
+2026-11-01T02:28:58.7083771Z         5,
+2026-11-01T02:28:58.7083990Z         516,
+2026-11-01T02:28:58.7084205Z         516,
+2026-11-01T02:28:58.7084420Z         1032,
+2026-11-01T02:28:58.7084811Z         258
+2026-11-01T02:28:58.7085036Z       ]
+2026-11-01T02:28:58.7085243Z     }
+2026-11-01T02:28:58.7085455Z   },
+2026-11-01T02:28:58.7085681Z   "milliseconds": 74348
+2026-11-01T02:28:58.7085945Z }
+2026-11-01T02:30:09.9770049Z {
+2026-11-01T02:30:09.9770300Z   "mode": "check",
+2026-11-01T02:30:09.9770608Z   "version": "0.36.1",
+2026-11-01T02:30:09.9771021Z   "source": "territorial-entities/generated/current-world.geojson",
+2026-11-01T02:30:09.9771633Z   "sourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:30:09.9772122Z   "defaultClassification": {
+2026-11-01T02:30:09.9772407Z     "countries": {
+2026-11-01T02:30:09.9772658Z       "IDN": "9g6r:voqbzb",
+2026-11-01T02:30:09.9772913Z       "MYS": "16wq:1qhyfbc",
+2026-11-01T02:30:09.9773187Z       "CHL": "8s25:1vm0sbz",
+2026-11-01T02:30:09.9773470Z       "BOL": "rak:r7m3ym",
+2026-11-01T02:30:09.9773772Z       "PER": "176n:4ekp2d",
+2026-11-01T02:30:09.9774044Z       "ARG": "2ds2:vjcmy7",
+2026-11-01T02:30:09.9774344Z       "CYP": "53d:jt5nyt",
+2026-11-01T02:30:09.9774636Z       "IND": "3loi:4zl7un",
+2026-11-01T02:30:09.9774907Z       "CHN": "8fpv:1bax1a6",
+2026-11-01T02:30:09.9775168Z       "ISR": "7x3:2foanb",
+2026-11-01T02:30:09.9775435Z       "PSX": "3yj:1sm15x0",
+2026-11-01T02:30:09.9775717Z       "LBN": "597:1qgfi0c",
+2026-11-01T02:30:09.9775984Z       "ETH": "hlx:60bdoi",
+2026-11-01T02:30:09.9776254Z       "SDS": "ipp:vyfsiw",
+2026-11-01T02:30:09.9776517Z       "SOM": "azl:8cjx4s",
+2026-11-01T02:30:09.9776779Z       "KEN": "ef6:j2ddpo",
+2026-11-01T02:30:09.9777194Z       "MWI": "e8u:i9t0rr",
+2026-11-01T02:30:09.9777463Z       "TZA": "tyt:1tl2t4n",
+2026-11-01T02:30:09.9777733Z       "SYR": "9yc:1yr0vls",
+2026-11-01T02:30:09.9777995Z       "SOL": "5b0:1n19fsj",
+2026-11-01T02:30:09.9778270Z       "FRA": "257q:1dyketg",
+2026-11-01T02:30:09.9778559Z       "SUR": "ceq:iobdxv",
+2026-11-01T02:30:09.9778762Z       "GUY": "ivh:1gs0ica",
+2026-11-01T02:30:09.9778947Z       "KOR": "570d:xbh7wq",
+2026-11-01T02:30:09.9779142Z       "PRK": "65zv:1p2oirh",
+2026-11-01T02:30:09.9779347Z       "MAR": "hha:1tnqn35",
+2026-11-01T02:30:09.9779538Z       "SAH": "51m:1r9en7d",
+2026-11-01T02:30:09.9779727Z       "CRI": "e76:280jk4",
+2026-11-01T02:30:09.9779926Z       "NIC": "gi9:t6e02i",
+2026-11-01T02:30:09.9780625Z       "COG": "m77:1k5n7yt",
+2026-11-01T02:30:09.9780824Z       "COD": "1bvz:emp5mr",
+2026-11-01T02:30:09.9781009Z       "BTN": "5iy:8vaqa2",
+2026-11-01T02:30:09.9781190Z       "UKR": "18qo:1g121uz",
+2026-11-01T02:30:09.9781400Z       "BLR": "jqa:tpn0b",
+2026-11-01T02:30:09.9781594Z       "NAM": "ktr:1wm497u",
+2026-11-01T02:30:09.9781786Z       "ZAF": "12ur:1ark733",
+2026-11-01T02:30:09.9781975Z       "OMN": "hf5:p4slln",
+2026-11-01T02:30:09.9782156Z       "UZB": "s1d:e86zrc",
+2026-11-01T02:30:09.9782344Z       "KAZ": "1zlf:1whg54p",
+2026-11-01T02:30:09.9782528Z       "TJK": "l6k:1ofxk3f",
+2026-11-01T02:30:09.9782710Z       "LTU": "9h2:jxzbwr",
+2026-11-01T02:30:09.9782894Z       "BRA": "5hrd:ljjqbf",
+2026-11-01T02:30:09.9783085Z       "URY": "aqc:rfnle7",
+2026-11-01T02:30:09.9783261Z       "MNG": "ppp:17w2ifn",
+2026-11-01T02:30:09.9783441Z       "RUS": "hkvy:1294wb8",
+2026-11-01T02:30:09.9783625Z       "CZE": "fit:1fb933o",
+2026-11-01T02:30:09.9783800Z       "DEU": "1dwx:5gkrwz",
+2026-11-01T02:30:09.9783993Z       "EST": "hln:1efdoln",
+2026-11-01T02:30:09.9784172Z       "LVA": "95j:1fdiuqa",
+2026-11-01T02:30:09.9784352Z       "NOR": "7ayi:b09u",
+2026-11-01T02:30:09.9784529Z       "SWE": "26ka:mzqmlb",
+2026-11-01T02:30:09.9784714Z       "FIN": "1ibg:1rqyej8",
+2026-11-01T02:30:09.9784898Z       "VNM": "214l:1r6easn",
+2026-11-01T02:30:09.9785075Z       "KHM": "l9z:grd3jj",
+2026-11-01T02:30:09.9785247Z       "LUX": "36l:1rrqj2f",
+2026-11-01T02:30:09.9785422Z       "ARE": "dgs:xztwre",
+2026-11-01T02:30:09.9785602Z       "BEL": "afg:e93akt",
+2026-11-01T02:30:09.9785775Z       "GEO": "8yx:162lia0",
+2026-11-01T02:30:09.9785949Z       "MKD": "64p:1uinyvd",
+2026-11-01T02:30:09.9786127Z       "ALB": "9c0:1pafq1n",
+2026-11-01T02:30:09.9786467Z       "AZE": "g45:1pa1vvp",
+2026-11-01T02:30:09.9786646Z       "KOS": "4ky:1lu2kn2",
+2026-11-01T02:30:09.9786822Z       "TUR": "1p73:6demg0",
+2026-11-01T02:30:09.9787166Z       "ESP": "1dxh:xtjizr",
+2026-11-01T02:30:09.9787426Z       "LAO": "uyd:1h9bvjf",
+2026-11-01T02:30:09.9787715Z       "KGZ": "kam:190e4g5",
+2026-11-01T02:30:09.9787950Z       "ARM": "7bs:1wobu9q",
+2026-11-01T02:30:09.9788205Z       "DNK": "1000:1phe1co",
+2026-11-01T02:30:09.9788465Z       "LBY": "b3g:eyw1w",
+2026-11-01T02:30:09.9788718Z       "TUN": "bm7:luyyvj",
+2026-11-01T02:30:09.9788939Z       "ROU": "k61:1bjhjd8",
+2026-11-01T02:30:09.9789180Z       "HUN": "e9t:j797ou",
+2026-11-01T02:30:09.9789396Z       "SVK": "9mr:fq3kyo",
+2026-11-01T02:30:09.9789619Z       "POL": "me5:eonm1a",
+2026-11-01T02:30:09.9789837Z       "IRL": "14j1:zhwlmx",
+2026-11-01T02:30:09.9790055Z       "GBR": "3bid:shdl5p",
+2026-11-01T02:30:09.9790269Z       "GRC": "2uqg:4hkqe1",
+2026-11-01T02:30:09.9790489Z       "ZMB": "qe7:1pos5ht",
+2026-11-01T02:30:09.9790732Z       "SLE": "bp3:1hc4t4v",
+2026-11-01T02:30:09.9790953Z       "GIN": "rke:r65sah",
+2026-11-01T02:30:09.9791164Z       "LBR": "bbq:1viqk3c",
+2026-11-01T02:30:09.9791378Z       "CAF": "sut:m0n7z9",
+2026-11-01T02:30:09.9791645Z       "SDN": "jpz:swsxfx",
+2026-11-01T02:30:09.9791913Z       "DJI": "3k1:1pbqb75",
+2026-11-01T02:30:09.9792188Z       "ERI": "h05:1j7683i",
+2026-11-01T02:30:09.9792455Z       "AUT": "ick:z7okmv",
+2026-11-01T02:30:09.9792734Z       "IRQ": "e5a:8d5q5n",
+2026-11-01T02:30:09.9793002Z       "ITA": "1jmy:1r7uqz9",
+2026-11-01T02:30:09.9793275Z       "CHE": "c4h:1oq8s8",
+2026-11-01T02:30:09.9793541Z       "IRN": "19wf:144jucg",
+2026-11-01T02:30:09.9793812Z       "NLD": "dv5:15iy1bc",
+2026-11-01T02:30:09.9794100Z       "LIE": "ho:199dpde",
+2026-11-01T02:30:09.9794370Z       "CIV": "pxd:supmvy",
+2026-11-01T02:30:09.9794642Z       "SRB": "ftp:1j5ugw6",
+2026-11-01T02:30:09.9794906Z       "MLI": "tjp:8lyak5",
+2026-11-01T02:30:09.9795178Z       "SEN": "o8f:1e8ktbo",
+2026-11-01T02:30:09.9795455Z       "NGA": "rt1:q1wq13",
+2026-11-01T02:30:09.9795718Z       "BEN": "9oy:83l3kz",
+2026-11-01T02:30:09.9795980Z       "AGO": "sc2:10v7jie",
+2026-11-01T02:30:09.9796248Z       "HRV": "13fb:tctfjv",
+2026-11-01T02:30:09.9796529Z       "SVN": "8rr:12a3q7l",
+2026-11-01T02:30:09.9797114Z       "QAT": "432:qdvz6t",
+2026-11-01T02:30:09.9797517Z       "SAU": "13um:1r4uerk",
+2026-11-01T02:30:09.9797814Z       "BWA": "gud:dki1xh",
+2026-11-01T02:30:09.9798097Z       "ZWE": "dhn:sdri1e",
+2026-11-01T02:30:09.9798370Z       "PAK": "zzc:wiltmd",
+2026-11-01T02:30:09.9798642Z       "BGR": "et2:rc50dy",
+2026-11-01T02:30:09.9798912Z       "THA": "1k67:z61ser",
+2026-11-01T02:30:09.9799196Z       "SMR": "cf:m8tcdw",
+2026-11-01T02:30:09.9799464Z       "HTI": "bi9:j8ob6g",
+2026-11-01T02:30:09.9799728Z       "DOM": "a89:15x9bbo",
+2026-11-01T02:30:09.9799997Z       "TCD": "k5b:k73pht",
+2026-11-01T02:30:09.9800268Z       "KWT": "47q:ocptcm",
+2026-11-01T02:30:09.9800596Z       "SLV": "6pz:relyuq",
+2026-11-01T02:30:09.9800885Z       "GTM": "830:11vl5m",
+2026-11-01T02:30:09.9801153Z       "TLS": "4xw:9ucwbo",
+2026-11-01T02:30:09.9801424Z       "BRN": "2ns:17ayizl",
+2026-11-01T02:30:09.9801725Z       "MCO": "fp:q8iugq",
+2026-11-01T02:30:09.9801999Z       "DZA": "kfu:18y9c24",
+2026-11-01T02:30:09.9802282Z       "MOZ": "153g:1ews61b",
+2026-11-01T02:30:09.9802571Z       "SWZ": "1it:16me08e",
+2026-11-01T02:30:09.9802847Z       "BDI": "56c:wvm007",
+2026-11-01T02:30:09.9803124Z       "RWA": "5f0:pio3jh",
+2026-11-01T02:30:09.9803398Z       "MMR": "25l6:1e57jx6",
+2026-11-01T02:30:09.9803675Z       "BGD": "12el:1eile2o",
+2026-11-01T02:30:09.9803963Z       "AND": "ul:e7hbpx",
+2026-11-01T02:30:09.9804242Z       "AFG": "pqo:136bdrt",
+2026-11-01T02:30:09.9804519Z       "MNE": "61u:lrtbba",
+2026-11-01T02:30:09.9804788Z       "BIH": "adj:fu57tt",
+2026-11-01T02:30:09.9805190Z       "UGA": "9y2:1uos5pi",
+2026-11-01T02:30:09.9805751Z       "CUB": "1bkl:h580x",
+2026-11-01T02:30:09.9806199Z       "HND": "kua:jazas8",
+2026-11-01T02:30:09.9806695Z       "ECU": "qef:1av5rvy",
+2026-11-01T02:30:09.9818893Z       "COL": "1kcn:3zrssf",
+2026-11-01T02:30:09.9819124Z       "PRY": "kwr:qkk06",
+2026-11-01T02:30:09.9819332Z       "PRT": "lgd:ceuh5r",
+2026-11-01T02:30:09.9819522Z       "MDA": "c54:7cx5w3",
+2026-11-01T02:30:09.9819714Z       "TKM": "s0o:amwnvo",
+2026-11-01T02:30:09.9819901Z       "JOR": "651:xbvq4c",
+2026-11-01T02:30:09.9820148Z       "NPL": "h5r:610rqm",
+2026-11-01T02:30:09.9820401Z       "LSO": "5qc:onzeau",
+2026-11-01T02:30:09.9820640Z       "CMR": "nb8:193uufx",
+2026-11-01T02:30:09.9820885Z       "GAB": "noz:5t5iz",
+2026-11-01T02:30:09.9821131Z       "NER": "h2i:r05htv",
+2026-11-01T02:30:09.9821389Z       "BFA": "i9r:1j7ys8",
+2026-11-01T02:30:09.9821634Z       "TGO": "7k6:1yysw1u",
+2026-11-01T02:30:09.9821888Z       "GHA": "d8a:rzhhtq",
+2026-11-01T02:30:09.9822131Z       "GNB": "mmg:99mc70",
+2026-11-01T02:30:09.9822385Z       "USA": "i3uf:1182u52",
+2026-11-01T02:30:09.9822650Z       "CAN": "xqak:19ny8ov",
+2026-11-01T02:30:09.9822908Z       "MEX": "3qlm:vtbpjj",
+2026-11-01T02:30:09.9823170Z       "BLZ": "8q0:6vrt0t",
+2026-11-01T02:30:09.9823418Z       "PAN": "xnj:7p1oi0",
+2026-11-01T02:30:09.9823675Z       "VEN": "1iwk:4dwkbu",
+2026-11-01T02:30:09.9823944Z       "PNG": "2d22:1nyrwd6",
+2026-11-01T02:30:09.9824197Z       "EGY": "wat:7i9c43",
+2026-11-01T02:30:09.9824453Z       "YEM": "hd1:14b3u16",
+2026-11-01T02:30:09.9824709Z       "MRT": "k03:1snomyk",
+2026-11-01T02:30:09.9824957Z       "GNQ": "3wg:1xnezkq",
+2026-11-01T02:30:09.9825206Z       "GMB": "75z:5i2z6p",
+2026-11-01T02:30:09.9825452Z       "VAT": "5a:6gzup6",
+2026-11-01T02:30:09.9825702Z       "CYN": "3f4:dw510w",
+2026-11-01T02:30:09.9825964Z       "CNM": "3rq:13k46f2",
+2026-11-01T02:30:09.9826211Z       "KAS": "o3:1cuv6ct",
+2026-11-01T02:30:09.9826452Z       "SPI": "rh:8t2itn",
+2026-11-01T02:30:09.9826700Z       "BRT": "8x:1gbasa5",
+2026-11-01T02:30:09.9827131Z       "ATA": "c0up:13y1s5o",
+2026-11-01T02:30:09.9827422Z       "AUS": "6ysk:1ehugv7",
+2026-11-01T02:30:09.9827678Z       "FJI": "rck:m96vd0",
+2026-11-01T02:30:09.9827925Z       "NZL": "2bdy:a8xmyp",
+2026-11-01T02:30:09.9828183Z       "MDG": "t0p:1mt0xz5",
+2026-11-01T02:30:09.9828432Z       "PHL": "3kms:49k9sz",
+2026-11-01T02:30:09.9828677Z       "LKA": "e08:ttm3mu",
+2026-11-01T02:30:09.9828924Z       "BHS": "sra:14aq1ue",
+2026-11-01T02:30:09.9829381Z       "TWN": "9wn:6znt5x",
+2026-11-01T02:30:09.9829650Z       "JPN": "3emo:or4737",
+2026-11-01T02:30:09.9829904Z       "ISL": "1itn:8z2meq",
+2026-11-01T02:30:09.9830158Z       "SYC": "5nf:11te37u",
+2026-11-01T02:30:09.9830408Z       "KIR": "cjf:156us3f",
+2026-11-01T02:30:09.9830668Z       "MHL": "3oc:s1onzt",
+2026-11-01T02:30:09.9830913Z       "TTO": "3h2:1orak1t",
+2026-11-01T02:30:09.9831159Z       "GRD": "15t:k66j5h",
+2026-11-01T02:30:09.9831399Z       "VCT": "1i4:3rdgi6",
+2026-11-01T02:30:09.9831647Z       "BRB": "n4:ytq0er",
+2026-11-01T02:30:09.9831909Z       "LCA": "wl:bbgegq",
+2026-11-01T02:30:09.9832150Z       "DMA": "1cf:1rulodo",
+2026-11-01T02:30:09.9832389Z       "ATG": "23r:ksf6dk",
+2026-11-01T02:30:09.9832639Z       "KNA": "si:1oy0pjr",
+2026-11-01T02:30:09.9832891Z       "JAM": "4hr:q25plv",
+2026-11-01T02:30:09.9833138Z       "MUS": "213:eun820",
+2026-11-01T02:30:09.9833406Z       "COM": "29o:1fzjuhm",
+2026-11-01T02:30:09.9833722Z       "STP": "1i2:1qqmdvn",
+2026-11-01T02:30:09.9833999Z       "CPV": "7ny:1lqalm4",
+2026-11-01T02:30:09.9834255Z       "MLT": "ys:185807",
+2026-11-01T02:30:09.9834489Z       "SGP": "pa:1a0zdvo",
+2026-11-01T02:30:09.9834714Z       "COK": "2k8:8uozo1",
+2026-11-01T02:30:09.9834952Z       "TON": "440:12d6il4",
+2026-11-01T02:30:09.9835230Z       "WSM": "2k7:n4rxze",
+2026-11-01T02:30:09.9835502Z       "SLB": "12si:2xizfr",
+2026-11-01T02:30:09.9835740Z       "TUV": "19z:y0xsgh",
+2026-11-01T02:30:09.9835964Z       "MDV": "nxk:1pqtnmc",
+2026-11-01T02:30:09.9836207Z       "NRU": "6q:frwjtt",
+2026-11-01T02:30:09.9836462Z       "FSM": "4dg:4og1wf",
+2026-11-01T02:30:09.9836726Z       "VUT": "ipl:940ijv",
+2026-11-01T02:30:09.9837147Z       "NIU": "pw:1leiliq",
+2026-11-01T02:30:09.9837602Z       "PLW": "2u5:eublvq",
+2026-11-01T02:30:09.9837871Z       "BHR": "2ie:1gf5v3t"
+2026-11-01T02:30:09.9838102Z     },
+2026-11-01T02:30:09.9838313Z     "changed": {
+2026-11-01T02:30:09.9838541Z       "CHN": "8fpv:1bax1a6",
+2026-11-01T02:30:09.9838807Z       "BRA": "5hrd:ljjqbf",
+2026-11-01T02:30:09.9839063Z       "COL": "1kcn:3zrssf"
+2026-11-01T02:30:09.9839301Z     },
+2026-11-01T02:30:09.9839510Z     "removedIds": [
+2026-11-01T02:30:09.9839729Z       "ESB",
+2026-11-01T02:30:09.9839932Z       "MAF",
+2026-11-01T02:30:09.9840125Z       "SXM",
+2026-11-01T02:30:09.9840328Z       "USG",
+2026-11-01T02:30:09.9840525Z       "BRI",
+2026-11-01T02:30:09.9840721Z       "GIB",
+2026-11-01T02:30:09.9840911Z       "HKG",
+2026-11-01T02:30:09.9841110Z       "KAB",
+2026-11-01T02:30:09.9841307Z       "WSB",
+2026-11-01T02:30:09.9841500Z       "GRL",
+2026-11-01T02:30:09.9841697Z       "NCL",
+2026-11-01T02:30:09.9841894Z       "CUW",
+2026-11-01T02:30:09.9842095Z       "ABW",
+2026-11-01T02:30:09.9842294Z       "TCA",
+2026-11-01T02:30:09.9842501Z       "SPM",
+2026-11-01T02:30:09.9842694Z       "PCN",
+2026-11-01T02:30:09.9842892Z       "PYF",
+2026-11-01T02:30:09.9843092Z       "ATF",
+2026-11-01T02:30:09.9843300Z       "UMI",
+2026-11-01T02:30:09.9843494Z       "MSR",
+2026-11-01T02:30:09.9843682Z       "VIR",
+2026-11-01T02:30:09.9843837Z       "BLM",
+2026-11-01T02:30:09.9844050Z       "PRI",
+2026-11-01T02:30:09.9844253Z       "AIA",
+2026-11-01T02:30:09.9844447Z       "VGB",
+2026-11-01T02:30:09.9844634Z       "CYM",
+2026-11-01T02:30:09.9844834Z       "BMU",
+2026-11-01T02:30:09.9845017Z       "HMD",
+2026-11-01T02:30:09.9845207Z       "SHN",
+2026-11-01T02:30:09.9845399Z       "JEY",
+2026-11-01T02:30:09.9845639Z       "GGY",
+2026-11-01T02:30:09.9845853Z       "IMN",
+2026-11-01T02:30:09.9846051Z       "ALD",
+2026-11-01T02:30:09.9846249Z       "FRO",
+2026-11-01T02:30:09.9846448Z       "IOA",
+2026-11-01T02:30:09.9846643Z       "IOT",
+2026-11-01T02:30:09.9846848Z       "NFK",
+2026-11-01T02:30:09.9847189Z       "WLF",
+2026-11-01T02:30:09.9847396Z       "SGS",
+2026-11-01T02:30:09.9847589Z       "FLK",
+2026-11-01T02:30:09.9847791Z       "ASM",
+2026-11-01T02:30:09.9847984Z       "GUM",
+2026-11-01T02:30:09.9848180Z       "MNP",
+2026-11-01T02:30:09.9848382Z       "CSI",
+2026-11-01T02:30:09.9848582Z       "PGA",
+2026-11-01T02:30:09.9848947Z       "CLP",
+2026-11-01T02:30:09.9849157Z       "MAC",
+2026-11-01T02:30:09.9849360Z       "ATC",
+2026-11-01T02:30:09.9849575Z       "SER",
+2026-11-01T02:30:09.9849771Z       "BJN",
+2026-11-01T02:30:09.9849983Z       "SCR"
+2026-11-01T02:30:09.9850198Z     ],
+2026-11-01T02:30:09.9850394Z     "units": {
+2026-11-01T02:30:09.9850667Z       "d34b00a1-9b13-8000-8000-000000455342": {
+2026-11-01T02:30:09.9851041Z         "parentId": "GBR",
+2026-11-01T02:30:09.9851371Z         "geometry": "1to:dtaxkq"
+2026-11-01T02:30:09.9851689Z       },
+2026-11-01T02:30:09.9852007Z       "d34b00a1-9b13-8000-8000-0000004d4146": {
+2026-11-01T02:30:09.9852313Z         "parentId": "FRA",
+2026-11-01T02:30:09.9852654Z         "geometry": "ez:4e3ip5"
+2026-11-01T02:30:09.9852971Z       },
+2026-11-01T02:30:09.9853258Z       "d34b00a1-9b13-8000-8000-00000053584d": {
+2026-11-01T02:30:09.9853600Z         "parentId": "NLD",
+2026-11-01T02:30:09.9853908Z         "geometry": "6m:zxl87w"
+2026-11-01T02:30:09.9854183Z       },
+2026-11-01T02:30:09.9854469Z       "d34b00a1-9b13-8000-8000-000000555347": {
+2026-11-01T02:30:09.9854833Z         "parentId": "CUB",
+2026-11-01T02:30:09.9855145Z         "geometry": "t6:tuei7d"
+2026-11-01T02:30:09.9855434Z       },
+2026-11-01T02:30:09.9855709Z       "d34b00a1-9b13-8000-8000-000000474942": {
+2026-11-01T02:30:09.9856048Z         "parentId": "GBR",
+2026-11-01T02:30:09.9856354Z         "geometry": "54:8a6t4p"
+2026-11-01T02:30:09.9856626Z       },
+2026-11-01T02:30:09.9856930Z       "d34b00a1-9b13-8000-8000-000000484b47": {
+2026-11-01T02:30:09.9857412Z         "parentId": "CHN",
+2026-11-01T02:30:09.9857727Z         "geometry": "71x:nu9wjz"
+2026-11-01T02:30:09.9858019Z       },
+2026-11-01T02:30:09.9858331Z       "d34b00a1-9b13-8000-8000-0000004b4142": {
+2026-11-01T02:30:09.9858863Z         "parentId": "KAZ",
+2026-11-01T02:30:09.9859180Z         "geometry": "1ux:9r964t"
+2026-11-01T02:30:09.9859473Z       },
+2026-11-01T02:30:09.9859762Z       "d34b00a1-9b13-8000-8000-000000575342": {
+2026-11-01T02:30:09.9860116Z         "parentId": "GBR",
+2026-11-01T02:30:09.9860438Z         "geometry": "tf:14sey7x"
+2026-11-01T02:30:09.9860718Z       },
+2026-11-01T02:30:09.9861019Z       "d34b00a1-9b13-8000-8000-00000047524c": {
+2026-11-01T02:30:09.9861368Z         "parentId": "DNK",
+2026-11-01T02:30:09.9861686Z         "geometry": "9u8q:14d2d8m"
+2026-11-01T02:30:09.9861964Z       },
+2026-11-01T02:30:09.9862281Z       "d34b00a1-9b13-8000-8000-0000004e434c": {
+2026-11-01T02:30:09.9862655Z         "parentId": "FRA",
+2026-11-01T02:30:09.9862975Z         "geometry": "i69:myz3t8"
+2026-11-01T02:30:09.9863285Z       },
+2026-11-01T02:30:09.9863593Z       "d34b00a1-9b13-8000-8000-000000435557": {
+2026-11-01T02:30:09.9863962Z         "parentId": "NLD",
+2026-11-01T02:30:09.9864307Z         "geometry": "sw:wkccri"
+2026-11-01T02:30:09.9864596Z       },
+2026-11-01T02:30:09.9864885Z       "d34b00a1-9b13-8000-8000-000000414257": {
+2026-11-01T02:30:09.9865265Z         "parentId": "NLD",
+2026-11-01T02:30:09.9865582Z         "geometry": "hj:4982hh"
+2026-11-01T02:30:09.9865898Z       },
+2026-11-01T02:30:09.9866199Z       "d34b00a1-9b13-8000-8000-000000544341": {
+2026-11-01T02:30:09.9866528Z         "parentId": "GBR",
+2026-11-01T02:30:09.9866875Z         "geometry": "3tb:xa8nr8"
+2026-11-01T02:30:09.9867275Z       },
+2026-11-01T02:30:09.9867580Z       "d34b00a1-9b13-8000-8000-00000053504d": {
+2026-11-01T02:30:09.9867921Z         "parentId": "FRA",
+2026-11-01T02:30:09.9868231Z         "geometry": "1ha:l52t9y"
+2026-11-01T02:30:09.9868534Z       },
+2026-11-01T02:30:09.9868835Z       "d34b00a1-9b13-8000-8000-00000050434e": {
+2026-11-01T02:30:09.9869196Z         "parentId": "GBR",
+2026-11-01T02:30:09.9869499Z         "geometry": "rk:8cftwk"
+2026-11-01T02:30:09.9869803Z       },
+2026-11-01T02:30:09.9870070Z       "d34b00a1-9b13-8000-8000-000000505946": {
+2026-11-01T02:30:09.9870400Z         "parentId": "FRA",
+2026-11-01T02:30:09.9870741Z         "geometry": "k4w:1pm12ag"
+2026-11-01T02:30:09.9871040Z       },
+2026-11-01T02:30:09.9871487Z       "d34b00a1-9b13-8000-8000-000000415446": {
+2026-11-01T02:30:09.9871847Z         "parentId": "FRA",
+2026-11-01T02:30:09.9872153Z         "geometry": "9g5:ja9o6q"
+2026-11-01T02:30:09.9872458Z       },
+2026-11-01T02:30:09.9872739Z       "d34b00a1-9b13-8000-8000-000000554d49": {
+2026-11-01T02:30:09.9873059Z         "parentId": "USA",
+2026-11-01T02:30:09.9873355Z         "geometry": "28o:g9lpvg"
+2026-11-01T02:30:09.9873662Z       },
+2026-11-01T02:30:09.9873942Z       "d34b00a1-9b13-8000-8000-0000004d5352": {
+2026-11-01T02:30:09.9874308Z         "parentId": "GBR",
+2026-11-01T02:30:09.9874607Z         "geometry": "fj:1q831em"
+2026-11-01T02:30:09.9874889Z       },
+2026-11-01T02:30:09.9875174Z       "d34b00a1-9b13-8000-8000-000000564952": {
+2026-11-01T02:30:09.9875553Z         "parentId": "USA",
+2026-11-01T02:30:09.9875855Z         "geometry": "1ab:1loid8z"
+2026-11-01T02:30:09.9876139Z       },
+2026-11-01T02:30:09.9876411Z       "d34b00a1-9b13-8000-8000-000000424c4d": {
+2026-11-01T02:30:09.9876744Z         "parentId": "FRA",
+2026-11-01T02:30:09.9877213Z         "geometry": "7z:1tencom"
+2026-11-01T02:30:09.9877492Z       },
+2026-11-01T02:30:09.9877776Z       "d34b00a1-9b13-8000-8000-000000505249": {
+2026-11-01T02:30:09.9878151Z         "parentId": "USA",
+2026-11-01T02:30:09.9878473Z         "geometry": "5d4:16b6s5w"
+2026-11-01T02:30:09.9878751Z       },
+2026-11-01T02:30:09.9879039Z       "d34b00a1-9b13-8000-8000-000000414941": {
+2026-11-01T02:30:09.9879366Z         "parentId": "GBR",
+2026-11-01T02:30:09.9879666Z         "geometry": "168:mn9yf5"
+2026-11-01T02:30:09.9879975Z       },
+2026-11-01T02:30:09.9880247Z       "d34b00a1-9b13-8000-8000-000000564742": {
+2026-11-01T02:30:09.9880575Z         "parentId": "GBR",
+2026-11-01T02:30:09.9880932Z         "geometry": "1oo:xyd3cq"
+2026-11-01T02:30:09.9881376Z       },
+2026-11-01T02:30:09.9881652Z       "d34b00a1-9b13-8000-8000-00000043594d": {
+2026-11-01T02:30:09.9881985Z         "parentId": "GBR",
+2026-11-01T02:30:09.9882313Z         "geometry": "1gp:18kd5f2"
+2026-11-01T02:30:09.9882643Z       },
+2026-11-01T02:30:09.9882937Z       "d34b00a1-9b13-8000-8000-000000424d55": {
+2026-11-01T02:30:09.9883266Z         "parentId": "GBR",
+2026-11-01T02:30:09.9883579Z         "geometry": "1j2:1mwrjht"
+2026-11-01T02:30:09.9883859Z       },
+2026-11-01T02:30:09.9884139Z       "d34b00a1-9b13-8000-8000-000000484d44": {
+2026-11-01T02:30:09.9884468Z         "parentId": "AUS",
+2026-11-01T02:30:09.9884799Z         "geometry": "z2:1k678tm"
+2026-11-01T02:30:09.9885093Z       },
+2026-11-01T02:30:09.9885365Z       "d34b00a1-9b13-8000-8000-00000053484e": {
+2026-11-01T02:30:09.9885694Z         "parentId": "GBR",
+2026-11-01T02:30:09.9886001Z         "geometry": "1im:1qt13zt"
+2026-11-01T02:30:09.9886279Z       },
+2026-11-01T02:30:09.9886546Z       "d34b00a1-9b13-8000-8000-0000004a4559": {
+2026-11-01T02:30:09.9886887Z         "parentId": "GBR",
+2026-11-01T02:30:09.9887321Z         "geometry": "t9:170cerj"
+2026-11-01T02:30:09.9887646Z       },
+2026-11-01T02:30:09.9887936Z       "d34b00a1-9b13-8000-8000-000000474759": {
+2026-11-01T02:30:09.9888275Z         "parentId": "GBR",
+2026-11-01T02:30:09.9888607Z         "geometry": "11b:cthno7"
+2026-11-01T02:30:09.9888888Z       },
+2026-11-01T02:30:09.9889190Z       "d34b00a1-9b13-8000-8000-000000494d4e": {
+2026-11-01T02:30:09.9889538Z         "parentId": "GBR",
+2026-11-01T02:30:09.9889841Z         "geometry": "195:1hef7zr"
+2026-11-01T02:30:09.9890121Z       },
+2026-11-01T02:30:09.9890426Z       "d34b00a1-9b13-8000-8000-000000414c44": {
+2026-11-01T02:30:09.9890761Z         "parentId": "FIN",
+2026-11-01T02:30:09.9891067Z         "geometry": "80j:yvxoi6"
+2026-11-01T02:30:09.9891334Z       },
+2026-11-01T02:30:09.9891605Z       "d34b00a1-9b13-8000-8000-00000046524f": {
+2026-11-01T02:30:09.9891962Z         "parentId": "DNK",
+2026-11-01T02:30:09.9892294Z         "geometry": "87v:10lf77w"
+2026-11-01T02:30:09.9892600Z       },
+2026-11-01T02:30:09.9892891Z       "d34b00a1-9b13-8000-8000-000000494f41": {
+2026-11-01T02:30:09.9893234Z         "parentId": "AUS",
+2026-11-01T02:30:09.9893539Z         "geometry": "10h:ea0yfg"
+2026-11-01T02:30:09.9893967Z       },
+2026-11-01T02:30:09.9894265Z       "d34b00a1-9b13-8000-8000-000000494f54": {
+2026-11-01T02:30:09.9894592Z         "parentId": "GBR",
+2026-11-01T02:30:09.9894908Z         "geometry": "1rx:9aqu74"
+2026-11-01T02:30:09.9895182Z       },
+2026-11-01T02:30:09.9895461Z       "d34b00a1-9b13-8000-8000-0000004e464b": {
+2026-11-01T02:30:09.9895775Z         "parentId": "AUS",
+2026-11-01T02:30:09.9896068Z         "geometry": "i8:1pv5tjp"
+2026-11-01T02:30:09.9896354Z       },
+2026-11-01T02:30:09.9896622Z       "d34b00a1-9b13-8000-8000-000000574c46": {
+2026-11-01T02:30:09.9897083Z         "parentId": "FRA",
+2026-11-01T02:30:09.9897402Z         "geometry": "rf:5ityn8"
+2026-11-01T02:30:09.9897690Z       },
+2026-11-01T02:30:09.9897962Z       "d34b00a1-9b13-8000-8000-000000534753": {
+2026-11-01T02:30:09.9898286Z         "parentId": "GBR",
+2026-11-01T02:30:09.9898612Z         "geometry": "atr:mg9yli"
+2026-11-01T02:30:09.9898913Z       },
+2026-11-01T02:30:09.9899182Z       "d34b00a1-9b13-8000-8000-000000464c4b": {
+2026-11-01T02:30:09.9899517Z         "parentId": "GBR",
+2026-11-01T02:30:09.9899809Z         "geometry": "omv:17z8a65"
+2026-11-01T02:30:09.9900116Z       },
+2026-11-01T02:30:09.9900393Z       "d34b00a1-9b13-8000-8000-00000041534d": {
+2026-11-01T02:30:09.9900730Z         "parentId": "USA",
+2026-11-01T02:30:09.9901019Z         "geometry": "17n:1anmtv3"
+2026-11-01T02:30:09.9901288Z       },
+2026-11-01T02:30:09.9901571Z       "d34b00a1-9b13-8000-8000-00000047554d": {
+2026-11-01T02:30:09.9901896Z         "parentId": "USA",
+2026-11-01T02:30:09.9902197Z         "geometry": "w0:1ketn2u"
+2026-11-01T02:30:09.9902503Z       },
+2026-11-01T02:30:09.9902797Z       "d34b00a1-9b13-8000-8000-0000004d4e50": {
+2026-11-01T02:30:09.9903323Z         "parentId": "USA",
+2026-11-01T02:30:09.9903627Z         "geometry": "3a6:cucx7e"
+2026-11-01T02:30:09.9903949Z       },
+2026-11-01T02:30:09.9904239Z       "d34b00a1-9b13-8000-8000-000000435349": {
+2026-11-01T02:30:09.9904557Z         "parentId": "AUS",
+2026-11-01T02:30:09.9904837Z         "geometry": "3n:liguu4"
+2026-11-01T02:30:09.9905082Z       },
+2026-11-01T02:30:09.9905322Z       "d34b00a1-9b13-8000-8000-000000504741": {
+2026-11-01T02:30:09.9905646Z         "parentId": "USA",
+2026-11-01T02:30:09.9905969Z         "geometry": "1un:wo6dad"
+2026-11-01T02:30:09.9906266Z       },
+2026-11-01T02:30:09.9906556Z       "d34b00a1-9b13-8000-8000-000000434c50": {
+2026-11-01T02:30:09.9906899Z         "parentId": "FRA",
+2026-11-01T02:30:09.9907331Z         "geometry": "5m:1m2ents"
+2026-11-01T02:30:09.9907621Z       },
+2026-11-01T02:30:09.9907918Z       "d34b00a1-9b13-8000-8000-0000004d4143": {
+2026-11-01T02:30:09.9908261Z         "parentId": "CHN",
+2026-11-01T02:30:09.9908583Z         "geometry": "1nj:13mg2tv"
+2026-11-01T02:30:09.9908890Z       },
+2026-11-01T02:30:09.9909190Z       "d34b00a1-9b13-8000-8000-000000415443": {
+2026-11-01T02:30:09.9909541Z         "parentId": "AUS",
+2026-11-01T02:30:09.9909859Z         "geometry": "4c:1k66bxt"
+2026-11-01T02:30:09.9910152Z       }
+2026-11-01T02:30:09.9910386Z     }
+2026-11-01T02:30:09.9910622Z   },
+2026-11-01T02:30:09.9910988Z   "previewDerivation": "canonical-topology-simplified",
+2026-11-01T02:30:09.9911455Z   "previewSourceScale": "derived",
+2026-11-01T02:30:09.9912106Z   "previewSourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:30:09.9913025Z   "canonicalSourceSha256": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+2026-11-01T02:30:09.9913674Z   "simplificationQuantile": 0.16,
+2026-11-01T02:30:09.9914000Z   "countries": 258,
+2026-11-01T02:30:09.9914283Z   "coordinateCount": 106629,
+2026-11-01T02:30:09.9914638Z   "globalAreaError": 0.00019454,
+2026-11-01T02:30:09.9914976Z   "meshAlgorithmRevision": 5,
+2026-11-01T02:30:09.9915292Z   "meshVertices": 126149,
+2026-11-01T02:30:09.9915635Z   "countriesCompressedBytes": 924107,
+2026-11-01T02:30:09.9916033Z   "meshCompressedBytes": 1742500,
+2026-11-01T02:30:09.9916415Z   "combinedCompressedBytes": 2666607,
+2026-11-01T02:30:09.9917301Z   "countriesSha256": "a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb",
+2026-11-01T02:30:09.9918112Z   "meshSha256": "3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e",
+2026-11-01T02:30:09.9918643Z   "assets": {
+2026-11-01T02:30:09.9918949Z     "previewCountries": {
+2026-11-01T02:30:09.9919355Z       "url": "countries-preview-v0.36.1.geojson.gz",
+2026-11-01T02:30:09.9919756Z       "encoding": "gzip",
+2026-11-01T02:30:09.9920097Z       "compressedBytes": 924107,
+2026-11-01T02:30:09.9920463Z       "decodedBytes": 2457647,
+2026-11-01T02:30:09.9921001Z       "sha256": "a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb"
+2026-11-01T02:30:09.9921498Z     },
+2026-11-01T02:30:09.9921753Z     "previewMesh": {
+2026-11-01T02:30:09.9922120Z       "url": "world-mesh-preview-v0.36.1.bin.gz",
+2026-11-01T02:30:09.9922508Z       "encoding": "gzip",
+2026-11-01T02:30:09.9922833Z       "compressedBytes": 1742500,
+2026-11-01T02:30:09.9923187Z       "decodedBytes": 3784872,
+2026-11-01T02:30:09.9923743Z       "sha256": "3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e",
+2026-11-01T02:30:09.9924252Z       "header": [
+2026-11-01T02:30:09.9924508Z         1129137969,
+2026-11-01T02:30:09.9924756Z         2,
+2026-11-01T02:30:09.9925002Z         258,
+2026-11-01T02:30:09.9925237Z         126149,
+2026-11-01T02:30:09.9925479Z         423555,
+2026-11-01T02:30:09.9925716Z         204956,
+2026-11-01T02:30:09.9925951Z         106629,
+2026-11-01T02:30:09.9926196Z         5,
+2026-11-01T02:30:09.9926427Z         516,
+2026-11-01T02:30:09.9926660Z         516,
+2026-11-01T02:30:09.9926894Z         1032,
+2026-11-01T02:30:09.9927227Z         258
+2026-11-01T02:30:09.9927418Z       ]
+2026-11-01T02:30:09.9927805Z     },
+2026-11-01T02:30:09.9928000Z     "labelAnchors": {
+2026-11-01T02:30:09.9928314Z       "url": "country-label-anchors-v0.10.1.json",
+2026-11-01T02:30:09.9928714Z       "encoding": "identity",
+2026-11-01T02:30:09.9929050Z       "compressedBytes": 6312,
+2026-11-01T02:30:09.9929372Z       "decodedBytes": 6312,
+2026-11-01T02:30:09.9929956Z       "sha256": "791e244478cce05b76fa79bc6f7933250a8dd78def1d46aa7ec6ccea2c312902"
+2026-11-01T02:30:09.9930464Z     },
+2026-11-01T02:30:09.9930748Z     "canonicalCountryPacket": {
+2026-11-01T02:30:09.9931148Z       "url": "countries-canonical-v0.36.1.pcg.gz",
+2026-11-01T02:30:09.9931533Z       "encoding": "gzip",
+2026-11-01T02:30:09.9931861Z       "compressedBytes": 5282317,
+2026-11-01T02:30:09.9932224Z       "decodedBytes": 9029248,
+2026-11-01T02:30:09.9932766Z       "sha256": "78680d3a00fdbb066d645ef623eb751fb4ef8d7307815fc1bf8ffd5fe5d745b3",
+2026-11-01T02:30:09.9933278Z       "header": [
+2026-11-01T02:30:09.9933533Z         826753872,
+2026-11-01T02:30:09.9933852Z         1,
+2026-11-01T02:30:09.9934085Z         258,
+2026-11-01T02:30:09.9934319Z         4277,
+2026-11-01T02:30:09.9934550Z         4297,
+2026-11-01T02:30:09.9934786Z         561142,
+2026-11-01T02:30:09.9935037Z         13227,
+2026-11-01T02:30:09.9935279Z         258,
+2026-11-01T02:30:09.9935518Z         259,
+2026-11-01T02:30:09.9935745Z         4278,
+2026-11-01T02:30:09.9935981Z         4298,
+2026-11-01T02:30:09.9936216Z         516,
+2026-11-01T02:30:09.9936439Z         80,
+2026-11-01T02:30:09.9936671Z         13307,
+2026-11-01T02:30:09.9936909Z         13568,
+2026-11-01T02:30:09.9937264Z         14604,
+2026-11-01T02:30:09.9937500Z         31716,
+2026-11-01T02:30:09.9937741Z         48908,
+2026-11-01T02:30:09.9937973Z         50976,
+2026-11-01T02:30:09.9938210Z         9029248
+2026-11-01T02:30:09.9938455Z       ]
+2026-11-01T02:30:09.9938680Z     },
+2026-11-01T02:30:09.9938952Z     "canonicalMesh": {
+2026-11-01T02:30:09.9939282Z       "url": "world-mesh-v0.36.1.bin.gz",
+2026-11-01T02:30:09.9939648Z       "encoding": "gzip",
+2026-11-01T02:30:09.9939974Z       "compressedBytes": 14762581,
+2026-11-01T02:30:09.9940329Z       "decodedBytes": 32976552,
+2026-11-01T02:30:09.9940854Z       "sha256": "e2d54d91c33470c8907f1c09ba58c81ebacd333d4d3afb129280403d74eec0a6",
+2026-11-01T02:30:09.9941566Z       "header": [
+2026-11-01T02:30:09.9941818Z         1129137969,
+2026-11-01T02:30:09.9942062Z         2,
+2026-11-01T02:30:09.9942294Z         258,
+2026-11-01T02:30:09.9942532Z         1038279,
+2026-11-01T02:30:09.9942783Z         4534188,
+2026-11-01T02:30:09.9943027Z         1111918,
+2026-11-01T02:30:09.9943273Z         561142,
+2026-11-01T02:30:09.9943506Z         5,
+2026-11-01T02:30:09.9943736Z         516,
+2026-11-01T02:30:09.9943975Z         516,
+2026-11-01T02:30:09.9944211Z         1032,
+2026-11-01T02:30:09.9944446Z         258
+2026-11-01T02:30:09.9944675Z       ]
+2026-11-01T02:30:09.9944901Z     }
+2026-11-01T02:30:09.9945135Z   },
+2026-11-01T02:30:09.9945375Z   "milliseconds": 70724
+2026-11-01T02:30:09.9945656Z }
+2026-11-01T02:30:11.1174021Z {"mode":"build","worldDataVersion":"356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964","assets":5,"programVersionDependency":false}
+2026-11-01T02:30:11.5998459Z {"mode":"check","worldDataVersion":"356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964","assets":5,"programVersionDependency":false}
+2026-11-01T02:30:13.9099640Z preview: 254 countries, 12813 segments, 178234 bytes
+2026-11-01T02:30:22.6090615Z canonical: 254 countries, 74956 segments, 930272 bytes
+2026-11-01T02:30:24.4946798Z preview: 254 countries, 12813 segments, 178234 bytes
+2026-11-01T02:30:32.5940858Z canonical: 254 countries, 74956 segments, 930272 bytes
+2026-11-01T02:31:05.8313018Z ##[error]The operation was canceled.
+2026-11-01T02:31:05.8413533Z Post job cleanup.
+2026-11-01T02:31:05.9670347Z Pruning is unnecessary.
+2026-11-01T02:31:05.9860023Z Post job cleanup.
+2026-11-01T02:31:05.9935981Z Post job cleanup.
+2026-11-01T02:31:06.0784503Z [command]/usr/bin/git version
+2026-11-01T02:31:06.0830701Z git version 2.56.0
+2026-11-01T02:31:06.0899298Z Temporarily overriding HOME='/home/runner/work/_temp/905bb501-c664-44c9-aa4a-748fc035cfff' before making global git config changes
+2026-11-01T02:31:06.0900833Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T02:31:06.0902968Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+2026-11-01T02:31:06.0957826Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T02:31:06.1023415Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T02:31:06.1408813Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T02:31:06.1409769Z http.https://github.com/.extraheader
+2026-11-01T02:31:06.1419807Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-01T02:31:06.1519723Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T02:31:06.1898735Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T02:31:06.1940486Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T02:31:06.2342468Z Cleaning up orphan processes
+2026-11-01T02:31:06.2669045Z Terminate orphan process: pid (4894) (MainThread)
+2026-11-01T02:31:06.2727775Z Terminate orphan process: pid (8534) (MainThread)
+2026-11-01T02:31:06.2779333Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, pnpm/action-setup@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

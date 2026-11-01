@@ -1,0 +1,227 @@
+{
+  "schema": "pando-main-automatic-checks-v1",
+  "observedAtUtc": "2026-11-01T02:57:32Z",
+  "mainCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+  "status": "timestamped_snapshot",
+  "method": "Read-only GitHub Actions run/job metadata and existing job-log retrieval. One final run-status refresh was made; no waiting or polling loop.",
+  "sharedCore": {
+    "runId": 41266676029,
+    "runUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266676029",
+    "headSha": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "runStatus": "completed",
+    "runConclusion": "failure",
+    "runUpdatedAt": "2026-11-01T02:53:51Z",
+    "jobId": 124730803184,
+    "jobName": "contracts",
+    "jobUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266676029/job/124730803184",
+    "jobStatus": "completed",
+    "jobConclusion": "failure",
+    "startedAt": "2026-11-01T02:48:33Z",
+    "completedAt": "2026-11-01T02:53:51Z",
+    "failedSteps": [
+      {
+        "number": 9,
+        "name": "Build only the small native core, codec and document tests"
+      }
+    ],
+    "nativeTestSummary": {
+      "tests": 9,
+      "passed": 6,
+      "failed": 3,
+      "exitCode": 8,
+      "reportedPercentPassed": 67
+    },
+    "nativeResults": [
+      {
+        "ordinal": 1,
+        "total": 9,
+        "ctestNumber": 2,
+        "test": "project_codec_tests",
+        "result": "passed",
+        "detail": "Passed    0.01 sec"
+      },
+      {
+        "ordinal": 2,
+        "total": 9,
+        "ctestNumber": 3,
+        "test": "document_session_tests",
+        "result": "passed",
+        "detail": "Passed    0.14 sec"
+      },
+      {
+        "ordinal": 3,
+        "total": 9,
+        "ctestNumber": 4,
+        "test": "web_content_codec_tests",
+        "result": "failed",
+        "detail": "Subprocess aborted***Exception:   0.09 sec"
+      },
+      {
+        "ordinal": 4,
+        "total": 9,
+        "ctestNumber": 5,
+        "test": "web_content_command_tests",
+        "result": "failed",
+        "detail": "Subprocess aborted***Exception:   0.09 sec"
+      },
+      {
+        "ordinal": 5,
+        "total": 9,
+        "ctestNumber": 6,
+        "test": "web_territorial_command_tests",
+        "result": "passed",
+        "detail": "Passed    0.02 sec"
+      },
+      {
+        "ordinal": 6,
+        "total": 9,
+        "ctestNumber": 8,
+        "test": "geometry_draft_tests",
+        "result": "passed",
+        "detail": "Passed    0.00 sec"
+      },
+      {
+        "ordinal": 7,
+        "total": 9,
+        "ctestNumber": 12,
+        "test": "source_admission_tests",
+        "result": "passed",
+        "detail": "Passed    0.03 sec"
+      },
+      {
+        "ordinal": 8,
+        "total": 9,
+        "ctestNumber": 13,
+        "test": "web_storage_tests",
+        "result": "passed",
+        "detail": "Passed    0.02 sec"
+      },
+      {
+        "ordinal": 9,
+        "total": 9,
+        "ctestNumber": 14,
+        "test": "web_object_command_tests",
+        "result": "failed",
+        "detail": "Subprocess aborted***Exception:   0.09 sec"
+      }
+    ],
+    "failureAssertions": [
+      {
+        "test": "web_content_codec_tests",
+        "path": "shared/tests/web-content-codec-tests.cpp",
+        "line": 50,
+        "function": "currentDtoReadersPreserveEveryFieldAndArrayOrder",
+        "assertion": "codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()"
+      },
+      {
+        "test": "web_content_command_tests",
+        "path": "shared/tests/web-content-command-tests.cpp",
+        "line": 144,
+        "function": "currentRawHydroAndLabelAnnotationsKeepPresence",
+        "assertion": "row.encode()==expected.encode()"
+      },
+      {
+        "test": "web_object_command_tests",
+        "path": "shared/tests/web-object-command-tests.cpp",
+        "line": 54,
+        "function": "apply",
+        "error": "INVALID_DATE: format",
+        "assertion": "false"
+      }
+    ],
+    "currentLog": "main-shared-core-contracts.log",
+    "currentFailureExcerpt": "main-shared-core-native-failures.log",
+    "evidence": "The 6/9 pass and 3/9 failure counts and names were parsed from job 124730803184 at this main SHA, rather than inferred from historical main.",
+    "priorResultsUsedAsCurrentEvidence": false,
+    "otherJobs": [
+      {
+        "id": 124730803968,
+        "name": "temporal",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "id": 124730804011,
+        "name": "geometry",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "id": 124730804219,
+        "name": "p6-polygon",
+        "status": "completed",
+        "conclusion": "skipped"
+      }
+    ]
+  },
+  "applicationArchitecture": {
+    "runId": 41266676100,
+    "runUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266676100",
+    "headSha": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+    "runStatus": "in_progress",
+    "runConclusion": null,
+    "lastRunStatusObservedAtUtc": "2026-11-01T02:57:32Z",
+    "runUpdatedAt": "2026-11-01T02:49:35Z",
+    "jobId": 124730992689,
+    "jobName": "checks",
+    "jobUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266676100/job/124730992689",
+    "jobStatus": "in_progress",
+    "jobConclusion": null,
+    "startedAt": "2026-11-01T02:49:35Z",
+    "completedAt": null,
+    "activeSteps": [
+      {
+        "number": 10,
+        "name": "Execute the same checks as local development",
+        "status": "in_progress",
+        "conclusion": null
+      }
+    ],
+    "observedTestCount": null,
+    "observedPassCount": null,
+    "observedFailureCount": null,
+    "failureCountKnown": false,
+    "logAvailable": false,
+    "logRetrievalError": {
+      "httpStatus": 404,
+      "code": "BlobNotFound",
+      "observedAtUtc": "2026-11-01T02:56:50.8661648Z",
+      "message": "GitHub API error 404: ﻿<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:598e6e99-601e-0036-19ac-69ad72000000\nTime:2026-11-01T02:56:50.8661648Z</Message></Error>"
+    },
+    "snapshotLog": "main-application-architecture-snapshot.log",
+    "limitation": "The job remains in progress and its decoded job log is not yet available; null counts mean unobserved, not zero, success, or failure.",
+    "otherJobs": [
+      {
+        "id": 124730803608,
+        "name": "changes",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 124730993579,
+        "name": "Boundary screencast comparison (A1, B1, B2, A2)",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "id": 124730993624,
+        "name": "Boundary native rendering attribution (one B run)",
+        "status": "completed",
+        "conclusion": "skipped"
+      },
+      {
+        "id": 124730993759,
+        "name": "Boundary revision comparison (PR1, main1, main2, PR2)",
+        "status": "completed",
+        "conclusion": "skipped"
+      }
+    ]
+  },
+  "actions": {
+    "rerunsRequested": false,
+    "codeModified": false,
+    "remoteStateChanged": false,
+    "testsOrBuildsStarted": false
+  },
+  "completion": "Stopped after the timestamped in-progress Architecture snapshot as requested."
+}

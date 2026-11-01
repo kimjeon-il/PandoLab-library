@@ -1,0 +1,327 @@
+{
+  "schema": "pando-existing-packaging-contract-triage-v1",
+  "scope": "Read-only investigation of the Windows custom-protocol assertion and existing CI baseline limits.",
+  "repository": "kimjeon-il/Pando",
+  "currentCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+  "mainBaselineCommit": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+  "lastObservationUtc": "2026-11-01T02:42:31Z",
+  "capture": "Saved from already retrieved immutable GitHub files, retained tool output, and existing local CI logs. No new query or test was made to save this report.",
+  "conclusion": {
+    "windowsAssertion": "Pre-existing obsolete assertion against the artifact-fetch wrapper command; not evidence that the real compiler lost custom-protocol.",
+    "sourceBasis": "Both the failing test and the package.json command it reads have identical Git blob SHAs at current and main.",
+    "productRisk": "No missing custom-protocol compiler flag found in the inspected native production path.",
+    "releaseScope": "This single failure does not justify a native installer build for the P6/Web Pages scope.",
+    "unresolved": "The current unrelated Core/editing/fixture contract failures remain failures; they cannot all be classified as prior debt or represented as passing.",
+    "mandatoryGateStatus": "This report does not mark a failing existing gate as passed or authorize disabling it."
+  },
+  "observedFailure": {
+    "runId": 41265483904,
+    "jobId": 124727574107,
+    "log": "p3-contracts-before.log",
+    "test": "the Windows executable explicitly enables its embedded asset protocol",
+    "testPath": "tests/unit/web-shell-packaged-build.test.mjs",
+    "line": 8,
+    "actual": "node packaged-artifacts.mjs --fetch --platform=windows --mode=offline",
+    "expectedRegex": "--features(?:=|\\s+)custom-protocol(?:\\s|$)",
+    "assertion": "a successful Cargo build without custom-protocol produces an EXE without its packaged index.html",
+    "mechanism": "The test reads apps/editor/package.json build:windows and applies a string regex. It does not execute an EXE or request embedded assets."
+  },
+  "identicalFiles": [
+    {
+      "path": "tests/unit/web-shell-packaged-build.test.mjs",
+      "mainBlobSha": "fd9244c360943dcc4743fde0e146e073d9d29cf6",
+      "currentBlobSha": "fd9244c360943dcc4743fde0e146e073d9d29cf6",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/tests/unit/web-shell-packaged-build.test.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/tests/unit/web-shell-packaged-build.test.mjs"
+    },
+    {
+      "path": "package.json",
+      "mainBlobSha": "12f427c5f11e3731a37f1f1c89b97aac3dade59d",
+      "currentBlobSha": "12f427c5f11e3731a37f1f1c89b97aac3dade59d",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/package.json",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/package.json"
+    },
+    {
+      "path": "apps/editor/package.json",
+      "mainBlobSha": "229970c135c740d57ea7de16980fd112aafadb3f",
+      "currentBlobSha": "229970c135c740d57ea7de16980fd112aafadb3f",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/package.json",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/package.json"
+    },
+    {
+      "path": "apps/editor/packaged-artifacts.mjs",
+      "mainBlobSha": "e4884a455f87b0303b46445a79e04dd89df709b0",
+      "currentBlobSha": "e4884a455f87b0303b46445a79e04dd89df709b0",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/packaged-artifacts.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/packaged-artifacts.mjs"
+    },
+    {
+      "path": "apps/editor/native-producer.mjs",
+      "mainBlobSha": "55b8908c04b969534cd8200d9eb7dbed17ce7f91",
+      "currentBlobSha": "55b8908c04b969534cd8200d9eb7dbed17ce7f91",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/native-producer.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/native-producer.mjs"
+    },
+    {
+      "path": "apps/editor/native-contract.mjs",
+      "mainBlobSha": "c28ca70496f8b95e9b3dd586b8b2fbe3460e5b3c",
+      "currentBlobSha": "c28ca70496f8b95e9b3dd586b8b2fbe3460e5b3c",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/native-contract.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/native-contract.mjs"
+    },
+    {
+      "path": "config/native-artifacts.json",
+      "mainBlobSha": "7487c5ee5b00bf62300f67608280d4d44b2f5958",
+      "currentBlobSha": "7487c5ee5b00bf62300f67608280d4d44b2f5958",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/config/native-artifacts.json",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/config/native-artifacts.json"
+    },
+    {
+      "path": ".github/workflows/remote-development-p1.yml",
+      "mainBlobSha": "f4a19e098935b30077b38e9746f45197cedbe4ef",
+      "currentBlobSha": "f4a19e098935b30077b38e9746f45197cedbe4ef",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/.github/workflows/remote-development-p1.yml",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/.github/workflows/remote-development-p1.yml"
+    },
+    {
+      "path": "apps/editor/src-tauri/Cargo.toml",
+      "mainBlobSha": "15792e89d031caffc67ae8686bb2576d074b9836",
+      "currentBlobSha": "15792e89d031caffc67ae8686bb2576d074b9836",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/src-tauri/Cargo.toml",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/src-tauri/Cargo.toml"
+    },
+    {
+      "path": "apps/editor/src-tauri/tauri.conf.json",
+      "mainBlobSha": "f36021c8a71ad1ccae0a67a85d2d19fa9eb46333",
+      "currentBlobSha": "f36021c8a71ad1ccae0a67a85d2d19fa9eb46333",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/src-tauri/tauri.conf.json",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/src-tauri/tauri.conf.json"
+    },
+    {
+      "path": "apps/editor/src-tauri/build.rs",
+      "mainBlobSha": "fc7fc33fa87b5402460022e5f6e76850213651fc",
+      "currentBlobSha": "fc7fc33fa87b5402460022e5f6e76850213651fc",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/src-tauri/build.rs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/src-tauri/build.rs"
+    },
+    {
+      "path": "apps/editor/tests/native-build.test.mjs",
+      "mainBlobSha": "bb0ab9d2f948b1455c9c70d66b74fda62cbcef79",
+      "currentBlobSha": "bb0ab9d2f948b1455c9c70d66b74fda62cbcef79",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/tests/native-build.test.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/tests/native-build.test.mjs"
+    },
+    {
+      "path": "apps/editor/stage.mjs",
+      "mainBlobSha": "1388b5e6739f6eda244dd8de200c110d52bdbac4",
+      "currentBlobSha": "1388b5e6739f6eda244dd8de200c110d52bdbac4",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/stage.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/stage.mjs"
+    },
+    {
+      "path": "apps/editor/check-stage.mjs",
+      "mainBlobSha": "27a663848113b6eef0aff53876d9ee74e3689ec0",
+      "currentBlobSha": "27a663848113b6eef0aff53876d9ee74e3689ec0",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/apps/editor/check-stage.mjs",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/apps/editor/check-stage.mjs"
+    },
+    {
+      "path": ".github/workflows/web-pages.yml",
+      "mainBlobSha": "befde61924e1f8751b564fc2604730142bebf49c",
+      "currentBlobSha": "befde61924e1f8751b564fc2604730142bebf49c",
+      "identical": true,
+      "currentUrl": "https://github.com/kimjeon-il/Pando/blob/e53f067ef37cafc4bd5d4d50e323f8866e7c9833/.github/workflows/web-pages.yml",
+      "mainUrl": "https://github.com/kimjeon-il/Pando/blob/2b460e40dbc51de2d13b0fe40e11bd4af9e49b75/.github/workflows/web-pages.yml"
+    }
+  ],
+  "changedFrontendFiles": [
+    {
+      "path": "scripts/lib/frontend-build.mjs",
+      "mainBlobSha": "2b3f478079a42cee6ff498f72026912c8a57620e",
+      "currentBlobSha": "d4dd2a3feebab650110331d17a355924659c09b8",
+      "observedChange": "Adds createInitialLandPreviewAsset, generated viewer preview bytes and initialLandPreview build metadata."
+    },
+    {
+      "path": "scripts/lib/product-assets.mjs",
+      "mainBlobSha": "f8b1ab83914413c31e1761b7418f8b8d29a5e6b1",
+      "currentBlobSha": "bd18960a21b34632cb8fc2f471dcfa5522d7dfd8",
+      "observedChange": "Reads immutable viewer build metadata, requires initialLandPreview.url and includes its data asset."
+    }
+  ],
+  "nativePath": {
+    "fetchCommand": "node packaged-artifacts.mjs --fetch --platform=windows --mode=offline",
+    "ciWorkflow": ".github/workflows/remote-development-p1.yml",
+    "ciInvocation": "node apps/editor/packaged-artifacts.mjs --ci-build --platform=\"$NATIVE_PLATFORM\" --mode=\"$NATIVE_MODE\" $NATIVE_TEST",
+    "producer": "apps/editor/native-producer.mjs",
+    "function": "nativeBuildArguments('windows','offline')",
+    "argumentsFromSource": [
+      "build",
+      "--debug",
+      "--bundles",
+      "nsis",
+      "--target",
+      "x86_64-pc-windows-msvc",
+      "--features",
+      "custom-protocol"
+    ],
+    "argumentEvidence": "Static source inspection, not a new execution.",
+    "cargoFeatureMapping": {
+      "custom-protocol": [
+        "tauri/custom-protocol"
+      ]
+    },
+    "existingOwnerTest": "apps/editor/tests/native-build.test.mjs",
+    "existingOwnerTestObservation": "Source checks the real argument function for offline custom-protocol and nsis; it was not rerun in this investigation.",
+    "configOverlay": "For offline Windows the producer sets bundle active=true, targets=[nsis], and staged frontendDist.",
+    "installerValidation": "Producer requires one setup EXE and verifyNativeBundle requires the Windows offline installer; these were inspected, not executed."
+  },
+  "existingStageEvidence": {
+    "log": "narrow-final.log",
+    "scope": "Previously completed P6 stage evidence; no new staging executed here.",
+    "web": {
+      "files": 1822,
+      "bytes": 238139589,
+      "nativeFiles": 0
+    },
+    "editorTestFixture": {
+      "files": 1131,
+      "verified": true
+    },
+    "editorMapData": {
+      "files": 1829,
+      "verified": true
+    },
+    "limitation": "Staging and check-stage do not prove native EXE/installer build or launch. Frontend transitive build inputs changed, so not all packaging inputs are identical."
+  },
+  "oldCiEvidence": [
+    {
+      "runId": 41088220785,
+      "jobId": 124174906618,
+      "headSha": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+      "name": "Application Architecture",
+      "result": "failure before unit execution",
+      "error": "Unregistered test: tests/browser/post-2000-world-timeline.spec.mjs",
+      "meaning": "Cannot serve as a baseline execution result for the current numerous unit contract failures.",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41088220785/job/124174906618"
+    },
+    {
+      "runId": 41082088455,
+      "jobId": 124153552959,
+      "headSha": "0a87cabc5c04fe954f54b934f55f5f43b6f71ffb",
+      "name": "Application Architecture",
+      "result": "failure before unit execution",
+      "error": "Unregistered test: tests/browser/post-2000-world-timeline.spec.mjs",
+      "meaning": "No unit contract execution result.",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41082088455/job/124153552959"
+    },
+    {
+      "runId": 40895207190,
+      "jobId": 123523625956,
+      "headSha": "2c41bf5fca8ccdcb69a5485d7bceddd347647ac7",
+      "name": "Application Architecture",
+      "result": "148 tests; 137 pass; 2 fail; 9 skip",
+      "failures": [
+        {
+          "test": "CSS selects relevant UI checks without C++/GIS build or data generation commands",
+          "path": "tests/unit/current-browser-contracts.test.mjs",
+          "error": "Unclassified product change: assets/css/features/map-rendering.css",
+          "alsoObservedInCurrentP3": true
+        },
+        {
+          "test": "Python files only decrease within the reviewed inventory and two integrated tests",
+          "path": "tests/unit/python-bridge-retirement.test.mjs",
+          "error": "Original Python inventory exceeded its current ceiling: 44"
+        }
+      ],
+      "meaning": "Confirms pre-existing CSS classification failure, not a blanket baseline for other current contract failures.",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/40895207190/job/123523625956"
+    },
+    {
+      "runId": 41082088447,
+      "jobId": 124153552678,
+      "headSha": "0a87cabc5c04fe954f54b934f55f5f43b6f71ffb",
+      "name": "Shared C++ core and bounded WASM contracts",
+      "result": "Compilation completed; CTest 9 tests, 3 failed, exit 8",
+      "failures": [
+        {
+          "test": "web_content_codec_tests",
+          "path": "shared/tests/web-content-codec-tests.cpp",
+          "line": 50,
+          "function": "currentDtoReadersPreserveEveryFieldAndArrayOrder",
+          "assertion": "codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()"
+        },
+        {
+          "test": "web_content_command_tests",
+          "path": "shared/tests/web-content-command-tests.cpp",
+          "line": 144,
+          "function": "currentRawHydroAndLabelAnnotationsKeepPresence",
+          "assertion": "row.encode()==expected.encode()"
+        },
+        {
+          "test": "web_object_command_tests",
+          "path": "shared/tests/web-object-command-tests.cpp",
+          "line": 54,
+          "error": "INVALID_DATE: format",
+          "assertion": "false"
+        }
+      ],
+      "meaning": "Confirms prior Core contract failures; it does not establish that the current many JS failures have the same cause.",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41082088447/job/124153552678"
+    },
+    {
+      "runId": 41142687544,
+      "headSha": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+      "name": "P3 Remote preview and Web verification",
+      "result": "success",
+      "jobs": {
+        "plan": "success",
+        "web-contracts": "skipped",
+        "browser-regression": "skipped",
+        "web-snapshot": "skipped",
+        "calculation-performance": "skipped"
+      },
+      "meaning": "Overall success is not a passing web-contracts baseline.",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41142687544"
+    },
+    {
+      "runId": 41087970887,
+      "headSha": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+      "name": "P3 Remote preview and Web verification",
+      "result": "success",
+      "jobs": {
+        "plan": "success",
+        "web-contracts": "skipped",
+        "browser-regression": "skipped",
+        "web-snapshot": "skipped",
+        "calculation-performance": "skipped"
+      },
+      "meaning": "Overall success is not a passing web-contracts baseline.",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41087970887"
+    }
+  ],
+  "limitations": {
+    "nativeInstallerBuilt": false,
+    "nativeInstallerLaunched": false,
+    "buildsPerformedDuringTriage": false,
+    "testsExecutedDuringTriage": false,
+    "sourceFilesModified": false,
+    "remoteMutationsPerformed": false,
+    "baselineCoverage": "Main Architecture stopped before units; the two successful main P3 runs skipped contracts and browser jobs.",
+    "noBlanketDebtClassification": true,
+    "noNewQueriesDuringReportSave": true
+  }
+}

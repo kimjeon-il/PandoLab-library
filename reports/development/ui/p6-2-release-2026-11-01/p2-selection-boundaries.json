@@ -1,0 +1,121 @@
+{
+  "schema": "pando-p2-selection-boundaries-v1",
+  "evidenceSource": "Previously executed five new regression tests, all included in final 12/12 output",
+  "actualPushChanges": [
+    "shared/frontend/js/modules/map-input-presentation.js",
+    "tests/unit/map-input-controller.test.mjs",
+    ".github/workflows/viewer-functional-p6-2.yml",
+    ".github/workflows/integration-read-model-p6.yml",
+    "scripts/p2-artifact-plan.mjs",
+    "tests/unit/p2-artifact-plan.test.mjs"
+  ],
+  "cases": [
+    {
+      "test": "auto validation/presentation-only push leaves nine stale data families unselected",
+      "result": "pass",
+      "assertions": {
+        "beforeSelectedFamilies": [
+          "territorial",
+          "current-world",
+          "builtin-world",
+          "world-mesh",
+          "world-preview",
+          "world-bundle",
+          "shared-boundaries",
+          "prepared-mesh",
+          "places"
+        ],
+        "afterSelectedFamilies": [],
+        "afterBlockedFamilies": [],
+        "wasm": false,
+        "dataGenerationDeferred": true,
+        "eachFamilyNeeded": true,
+        "eachFamilySelected": false,
+        "reasonsAndFingerprintsUnchanged": true,
+        "assertArtifactsCurrentStillThrows": "P2_GENERATED_ARTIFACT_STALE: territorial"
+      }
+    },
+    {
+      "test": "auto presentation guard preserves actual generator, data input and pin changes",
+      "result": "pass",
+      "additionalChangedPaths": [
+        "tools/generate.mjs",
+        "input/a.txt",
+        "config/library-data.json",
+        "config/generated-artifacts.json",
+        "config/toolchain-versions.json"
+      ],
+      "expectedSelection": "Original nine-family selection retained for each case"
+    },
+    {
+      "test": "auto presentation guard gives declared input, generator closure and output ownership priority",
+      "result": "pass",
+      "cases": [
+        "exact input",
+        "prefix input",
+        "pattern input",
+        "deleted prefix input",
+        "generator module closure",
+        "validator module closure",
+        "exact output",
+        "prefix output absent from current expanded file list",
+        "external source"
+      ],
+      "expected": "dataGenerationDeferred=false; selectedFamilies and blockedFamilies equal raw graph status"
+    },
+    {
+      "test": "auto presentation guard keeps manual modes, explicit families and unknown comparisons unchanged",
+      "result": "pass",
+      "cases": [
+        {
+          "event": "workflow_dispatch",
+          "scope": "auto",
+          "expected": "nine selected"
+        },
+        {
+          "event": "local",
+          "scope": "auto",
+          "expected": "nine selected"
+        },
+        {
+          "event": "",
+          "scope": "auto",
+          "expected": "nine selected"
+        },
+        {
+          "event": "push",
+          "changes": [],
+          "expected": "nine selected"
+        },
+        {
+          "event": "push",
+          "scope": "all",
+          "expected": "nine selected; WASM true"
+        },
+        {
+          "event": "push",
+          "scope": "wasm",
+          "expected": "no data families; WASM true"
+        },
+        {
+          "event": "push",
+          "scope": "verify",
+          "expected": "no data families; verifyOnly true"
+        },
+        {
+          "event": "push",
+          "families": [
+            "territorial"
+          ],
+          "expected": "territorial selected"
+        }
+      ]
+    },
+    {
+      "test": "auto presentation guard does not change a required WASM rebuild or its data publication",
+      "result": "pass",
+      "mutation": "fixture shared/core/src/calc.cpp changed",
+      "expected": "WASM true with source fingerprint reason; nine data families retained"
+    }
+  ]
+}
