@@ -289,6 +289,468 @@
       "retained": "build-native/reference-analysis/migration-source-oracle/uniform-mixed-training-20261102/samples-00000001/sample-00/tile.f32",
       "bytes": 3145728,
       "sha256": "c03ae4195ae9be10e4794e9573876b470fe0bb534b4d6e3d0bab265048392d74"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000009/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/selection-independent-validation-20261102/batch-000001/samples/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "4dbc078530885d12af36f45f43524e7d692484bb4a7f8700ca334e34a34c4c2e"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000009/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/selection-independent-validation-20261102/batch-000001/samples/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "ff7b0a0e391d42178ff0db56566cd236099fa6966236f7fa61f0e9024a987819"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000006/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/uniform-resumed-20261102/samples-00000002/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "b1a66a93d1faff14e3bf15d793f4287e574b4dba7c6d87ef5df9c780b2959036"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000006/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/uniform-resumed-20261102/samples-00000002/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "f4d33c0c1943971ccdfab6021b3ed73c9707dbb265481b1949c61e3aa72e7c3d"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-02/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-validation-20261101/sample-node/target.f32",
+      "bytes": 7340032,
+      "sha256": "89308b03c30f0160f2c431a138ab9bf6c8e17ef61005a7936322dd83c04b9f76"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-only-campaign-20261101/epoch-0000/samples-00000001/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-validation-20261101/sample-node/target.f32",
+      "bytes": 7340032,
+      "sha256": "89308b03c30f0160f2c431a138ab9bf6c8e17ef61005a7936322dd83c04b9f76"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-02/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-validation-20261101/sample-node/valid.f32",
+      "bytes": 7340032,
+      "sha256": "5bc6e9790747ef41a52cb7708533db2a48d647a07b6177ef283a6e9f50604a2c"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-only-campaign-20261101/epoch-0000/samples-00000001/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-validation-20261101/sample-node/valid.f32",
+      "bytes": 7340032,
+      "sha256": "5bc6e9790747ef41a52cb7708533db2a48d647a07b6177ef283a6e9f50604a2c"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/reviewed-only-campaign-20261101/epoch-0000/samples-00000001/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/validation-replay/batch-000002/samples/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/validation-replay/batch-000001/samples/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/samples-00000001/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-fixture-20261102/epoch-0000/validation-replay/batch-000001/samples/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-fixture-20261102/epoch-0000/samples-00000001/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0001/validation-replay/batch-000002/samples/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0001/samples-00000001/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0000/validation-replay/batch-000001/samples/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0000/samples-00000001/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/target.f32",
+      "bytes": 7340032,
+      "sha256": "5fb5a1140ee26961a4ef8ddb58fedb3ceb50f88d4d2d18cc0f6d3e5fc587acb6"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/reviewed-only-campaign-20261101/epoch-0000/samples-00000001/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/validation-replay/batch-000002/samples/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/validation-replay/batch-000001/samples/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/samples-00000001/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-fixture-20261102/epoch-0000/validation-replay/batch-000001/samples/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-fixture-20261102/epoch-0000/samples-00000001/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0001/validation-replay/batch-000002/samples/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0001/samples-00000001/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0000/validation-replay/batch-000001/samples/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0000/samples-00000001/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2823bd2cbde2265245cf0f9ec0af0320cc039555b470b5abca6ec9d41b49d803"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000012/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-resume-03-20261102/samples-00000003/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "fc6f639c4828429f138e38d8898786e169e1d3a5c5f5d292af9b1c2b184f7821"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000007/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-resume-03-20261102/samples-00000003/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "fc6f639c4828429f138e38d8898786e169e1d3a5c5f5d292af9b1c2b184f7821"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000012/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-resume-03-20261102/samples-00000003/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "ada8b2dfff7ad91cdcd06d04adf0434a8e4121dd63a51b79571c24222c8ae188"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000007/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-resume-03-20261102/samples-00000003/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "ada8b2dfff7ad91cdcd06d04adf0434a8e4121dd63a51b79571c24222c8ae188"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-partial-20261101/epoch-0001/samples-00000006/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "2505aa2248d12350457ff67e2cc151dcf94784a16e94002b1f6241afbf3af2ef"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-campaign-20261101/epoch-0000/samples-00000006/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-partial-20261101/epoch-0001/samples-00000006/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "2505aa2248d12350457ff67e2cc151dcf94784a16e94002b1f6241afbf3af2ef"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-partial-20261101/epoch-0001/samples-00000006/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "4a6cc72bc75cd8518135ad6044a6d7b3aebe67cbd1b39b7b134804c69c3af8ec"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-campaign-20261101/epoch-0000/samples-00000006/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-partial-20261101/epoch-0001/samples-00000006/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "4a6cc72bc75cd8518135ad6044a6d7b3aebe67cbd1b39b7b134804c69c3af8ec"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/reviewed-only-campaign-20261101/epoch-0000/samples-00000001/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/validation-replay/batch-000002/samples/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/validation-replay/batch-000001/samples/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-resume-20261102/epoch-0001/samples-00000001/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-fixture-20261102/epoch-0000/validation-replay/batch-000001/samples/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-fixture-20261102/epoch-0000/samples-00000001/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0001/validation-replay/batch-000002/samples/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0001/samples-00000001/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0000/validation-replay/batch-000001/samples/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/independent-campaign-cached-20261102/epoch-0000/samples-00000001/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-01/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3fbf82f9deb643ff402c5b61b388bc78caa0aca5c7b8d30f78a0ae12c4be8d40"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-02/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-validation-20261101/sample-node/tile.f32",
+      "bytes": 3145728,
+      "sha256": "fcfe2d131de35c7e7324f8b17adaacbfbc10dbf527961ba3bd9ec1c5c573e955"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-only-campaign-20261101/epoch-0000/samples-00000001/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/publisher-validation-20261101/sample-node/tile.f32",
+      "bytes": 3145728,
+      "sha256": "fcfe2d131de35c7e7324f8b17adaacbfbc10dbf527961ba3bd9ec1c5c573e955"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/synthetic-combined-baseline-20261102/output/tile.f32",
+      "bytes": 3145728,
+      "sha256": "884e1dab2eb914bc8fc5da4d3a42c466b619767bc2f9c135dc26307ba30e90fe"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-campaign-20261101/epoch-0000/samples-00000006/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/synthetic-combined-baseline-20261102/output/tile.f32",
+      "bytes": 3145728,
+      "sha256": "884e1dab2eb914bc8fc5da4d3a42c466b619767bc2f9c135dc26307ba30e90fe"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000011/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/uniform-partial-20261102/samples-00000001/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "8e68591171bf81d4801efd4deafdd2321c983ba3f5a6335dce8d2fce94874b06"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000011/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/uniform-partial-20261102/samples-00000001/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "e5781be6eb5f2b82fecd27dda67134420956157fdeda9fea204aa3f09c52baa2"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000010/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0001/samples-00000001/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "e073da1cecc425ddf3b57a028153bcb6acf8817aa74a7609911d24660679dcbd"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000010/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0001/samples-00000001/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "4fd53f827d4b212f90a1839325853366638698250c34287bb2cdfa60cb8ea9a8"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-01/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "24d8b38d7c32a545b7335ce27386a25cfa36b5183d8caadc15a36a9f75a4bc44"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-01/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "2c0026b5556beeef51213a2e718901df45585aa9d185a4131af45d55c0cab764"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000004/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-sample-recheck-20261102/samples-00000004/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "f2c7fa3f3a46e1f1b40dac04bf6bcd74a253eeb7e613c7938e4836cb9943f0ba"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000004/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-sample-recheck-20261102/samples-00000004/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "1c77cded5a295f361a41151201e192e24e5cb567c495cabfe976a368c176db79"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000014/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "a302ad511fca494fd26f2ea0a97ec7501a30e18357175e9690418747c4c75012"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000013/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "a302ad511fca494fd26f2ea0a97ec7501a30e18357175e9690418747c4c75012"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000008/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "a302ad511fca494fd26f2ea0a97ec7501a30e18357175e9690418747c4c75012"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000014/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "826e722a61fc790d262218462a4f7ca2c78fb50fc0530514bc98d1f50c71166f"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000013/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "826e722a61fc790d262218462a4f7ca2c78fb50fc0530514bc98d1f50c71166f"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000008/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "826e722a61fc790d262218462a4f7ca2c78fb50fc0530514bc98d1f50c71166f"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000012/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-partial-a-20261101/epoch-0000/samples-00000003/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "249d36449cf222d5217fd6c534d2ddaca7dbf92866bd5966f3ffc3006fdaf2bd"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000007/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-partial-a-20261101/epoch-0000/samples-00000003/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "249d36449cf222d5217fd6c534d2ddaca7dbf92866bd5966f3ffc3006fdaf2bd"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000005/sample-00/target.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-mask-evidence-20261102/samples-00000005/sample-00/target.f32",
+      "bytes": 7340032,
+      "sha256": "3317cd8eb9d6ca76fffc01b3645a5074aa847c0a37be0e7b5f95c4b59c7cacda"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000005/sample-00/valid.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/public-encoder-mask-evidence-20261102/samples-00000005/sample-00/valid.f32",
+      "bytes": 7340032,
+      "sha256": "1974f4c6eb5606b82a1fe80b9066f774ddcd9359fdd8be6f95221d7c68ae5c77"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/publisher-semap-validated-campaign-20261101/epoch-0001/samples-00000006/sample-01/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/reviewed-semap-samples-20261101/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "53f0855bb7f314c5e7e74199cd5e107864fd97bf3b53a34dfa2e6aa88469f514"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000014/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "d1388f5c3155df094002567bcc65d308c184ca39cd5057f4137fbaaac58795e7"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000013/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "d1388f5c3155df094002567bcc65d308c184ca39cd5057f4137fbaaac58795e7"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000008/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-transition-cpu-20261101/epoch-0000/samples-00000014/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "d1388f5c3155df094002567bcc65d308c184ca39cd5057f4137fbaaac58795e7"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000009/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-sequence-cpu-20261031/samples-00000001/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "ff0751142158cba5cae580aa3b5a66c45652fa1894d25d6e1554b37c1fcac971"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000004/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-partial-b-20261101/epoch-0000/samples-00000004/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "a91a333eaffc0a44296de7bd73e26db72018d57bbd180508e2531902f3ff9ab7"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000006/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/mixed-warm-sample/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "2f3ea4eeac470726cea709d8893582a2269f8e9c2f590429efb03b80789f3a48"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000010/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/mixed-cli-resume-sample/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "3a49eee7f7e5d25753d88d66b1f4a2401a43cecef43bfc17c1610426ba879271"
+    },
+    {
+      "removed": "build-native/reference-analysis/migration-source-oracle/native-campaign-complete-cpu-20261101/epoch-0000/samples-00000005/sample-00/tile.f32",
+      "retained": "build-native/reference-analysis/migration-source-oracle/native-campaign-after-interrupt-20261101/epoch-0000/samples-00000005/sample-00/tile.f32",
+      "bytes": 3145728,
+      "sha256": "d11148675ada0642ccaf15353bd995626ca2a451bf559aec8fab1c04dfc3cab3"
     }
   ],
   "restored": [
