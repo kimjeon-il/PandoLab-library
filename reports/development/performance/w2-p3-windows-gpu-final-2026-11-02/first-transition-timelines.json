@@ -1,0 +1,3902 @@
+[
+  {
+    "run": "A-cold-0",
+    "displayMs": 1189.7999999970198,
+    "readyMs": 1344.5,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 881.695,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1162.679,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1162.679,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 11.552,
+        "workerMs": 3.899999998509884
+      }
+    ],
+    "layerUpdate": {
+      "count": 11,
+      "maxMs": 0.031,
+      "totalMs": 0.146
+    }
+  },
+  {
+    "run": "A-cold-1",
+    "displayMs": 3145.1999999955297,
+    "readyMs": 3266.0999999940395,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1091.738,
+        "endMs": 1302.495,
+        "durationMs": 210.757,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1638.539,
+        "endMs": 1638.959,
+        "durationMs": 0.42,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1662.794,
+        "endMs": 2572.667,
+        "durationMs": 909.873,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2572.698,
+        "endMs": 2572.793,
+        "durationMs": 0.095,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1644.804,
+        "endMs": 2572.989,
+        "durationMs": 928.185,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1643.503,
+        "endMs": 2572.998,
+        "durationMs": 929.495,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2577.286,
+        "endMs": 2641.829,
+        "durationMs": 64.543,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2701.377,
+        "endMs": 2701.387,
+        "durationMs": 0.01,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2708.111,
+        "endMs": 2708.185,
+        "durationMs": 0.074,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2701.343,
+        "endMs": 2708.203,
+        "durationMs": 6.86,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3085.377,
+        "endMs": 3085.421,
+        "durationMs": 0.044,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3076.131,
+        "endMs": 3085.523,
+        "durationMs": 9.392,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1541.361,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3085.434,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1320.356,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3121.056,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3121.056,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.88,
+        "workerMs": 3.100000001490116
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.046,
+      "totalMs": 0.21199999999999997
+    }
+  },
+  {
+    "run": "A-cold-2",
+    "displayMs": 3209.60000000149,
+    "readyMs": 3331.5,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1147.773,
+        "endMs": 1367.836,
+        "durationMs": 220.063,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1728.908,
+        "endMs": 1729.423,
+        "durationMs": 0.515,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1751.831,
+        "endMs": 2650.348,
+        "durationMs": 898.517,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2650.374,
+        "endMs": 2650.485,
+        "durationMs": 0.111,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1735.162,
+        "endMs": 2650.674,
+        "durationMs": 915.512,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1733.997,
+        "endMs": 2650.679,
+        "durationMs": 916.682,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2655.023,
+        "endMs": 2717.521,
+        "durationMs": 62.498,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2765.992,
+        "endMs": 2766.007,
+        "durationMs": 0.015,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2774.562,
+        "endMs": 2774.648,
+        "durationMs": 0.086,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2765.957,
+        "endMs": 2774.664,
+        "durationMs": 8.707,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3147.53,
+        "endMs": 3147.552,
+        "durationMs": 0.022,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3140.916,
+        "endMs": 3147.64,
+        "durationMs": 6.724,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1631.224,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3147.567,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1386.043,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3185.651,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3185.651,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.465,
+        "workerMs": 3.2000000029802322
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.028,
+      "totalMs": 0.18199999999999997
+    }
+  },
+  {
+    "run": "A-cold-3",
+    "displayMs": 3061.5,
+    "readyMs": 3184.10000000149,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1071.617,
+        "endMs": 1282.137,
+        "durationMs": 210.52,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1611.696,
+        "endMs": 1612.096,
+        "durationMs": 0.4,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1635.908,
+        "endMs": 2510.35,
+        "durationMs": 874.442,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2510.375,
+        "endMs": 2510.462,
+        "durationMs": 0.087,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1618.111,
+        "endMs": 2510.661,
+        "durationMs": 892.55,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1616.86,
+        "endMs": 2510.666,
+        "durationMs": 893.806,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2514.983,
+        "endMs": 2580.404,
+        "durationMs": 65.421,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2634.028,
+        "endMs": 2634.039,
+        "durationMs": 0.011,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2640.697,
+        "endMs": 2640.758,
+        "durationMs": 0.061,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2633.99,
+        "endMs": 2640.77,
+        "durationMs": 6.78,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3001.027,
+        "endMs": 3001.068,
+        "durationMs": 0.041,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2992.099,
+        "endMs": 3001.175,
+        "durationMs": 9.076,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1513.443,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3001.08,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1299.843,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3037.298,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3037.298,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.004,
+        "workerMs": 3.2999999970197678
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.025,
+      "totalMs": 0.18999999999999997
+    }
+  },
+  {
+    "run": "A-cold-4",
+    "displayMs": 1215.7999999970198,
+    "readyMs": 1359.5999999940395,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 865.186,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1182.569,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1182.569,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 20.265,
+        "workerMs": 3.100000001490116
+      }
+    ],
+    "layerUpdate": {
+      "count": 12,
+      "maxMs": 0.03,
+      "totalMs": 0.15899999999999997
+    }
+  },
+  {
+    "run": "A-cold-5",
+    "displayMs": 3142.7999999970198,
+    "readyMs": 3262.6999999955297,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1097.3,
+        "endMs": 1308.688,
+        "durationMs": 211.388,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1671.402,
+        "endMs": 1671.806,
+        "durationMs": 0.404,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1694.736,
+        "endMs": 2597.192,
+        "durationMs": 902.456,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2597.222,
+        "endMs": 2597.337,
+        "durationMs": 0.115,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1677.7,
+        "endMs": 2597.537,
+        "durationMs": 919.837,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1676.573,
+        "endMs": 2597.542,
+        "durationMs": 920.969,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2601.898,
+        "endMs": 2665.325,
+        "durationMs": 63.427,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2713.125,
+        "endMs": 2713.14,
+        "durationMs": 0.015,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2721.425,
+        "endMs": 2721.515,
+        "durationMs": 0.09,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2713.089,
+        "endMs": 2721.53,
+        "durationMs": 8.441,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3082.601,
+        "endMs": 3082.639,
+        "durationMs": 0.038,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3075.835,
+        "endMs": 3082.751,
+        "durationMs": 6.916,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1574.116,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3082.66,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1331.251,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3118.523,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3118.523,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.533,
+        "workerMs": 3
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.035,
+      "totalMs": 0.20499999999999996
+    }
+  },
+  {
+    "run": "A-cold-6",
+    "displayMs": 3162.7000000029802,
+    "readyMs": 3284.39999999851,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1120.128,
+        "endMs": 1327.175,
+        "durationMs": 207.047,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1665.049,
+        "endMs": 1665.434,
+        "durationMs": 0.385,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1689.846,
+        "endMs": 2594.451,
+        "durationMs": 904.605,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2594.478,
+        "endMs": 2594.575,
+        "durationMs": 0.097,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1671.13,
+        "endMs": 2594.753,
+        "durationMs": 923.623,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1669.916,
+        "endMs": 2594.758,
+        "durationMs": 924.842,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2599.963,
+        "endMs": 2667.509,
+        "durationMs": 67.546,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2726.797,
+        "endMs": 2726.808,
+        "durationMs": 0.011,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2733.447,
+        "endMs": 2733.517,
+        "durationMs": 0.07,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2726.761,
+        "endMs": 2733.531,
+        "durationMs": 6.77,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3102.14,
+        "endMs": 3102.181,
+        "durationMs": 0.041,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3093.226,
+        "endMs": 3102.287,
+        "durationMs": 9.061,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1567.112,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3102.194,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1344.533,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3138.77,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3138.77,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.845,
+        "workerMs": 2.899999998509884
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.048,
+      "totalMs": 0.21799999999999997
+    }
+  },
+  {
+    "run": "A-cold-7",
+    "displayMs": 1180,
+    "readyMs": 1308,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 890.018,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1155.327,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1155.327,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 9.974,
+        "workerMs": 3.100000001490116
+      }
+    ],
+    "layerUpdate": {
+      "count": 10,
+      "maxMs": 0.032,
+      "totalMs": 0.13999999999999999
+    }
+  },
+  {
+    "run": "A-cold-8",
+    "displayMs": 3363.6999999955297,
+    "readyMs": 3483.6999999955297,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1143.99,
+        "endMs": 1398.65,
+        "durationMs": 254.66,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1825.351,
+        "endMs": 1825.795,
+        "durationMs": 0.444,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1862.839,
+        "endMs": 2792.533,
+        "durationMs": 929.694,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2792.563,
+        "endMs": 2792.661,
+        "durationMs": 0.098,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1833.767,
+        "endMs": 2792.851,
+        "durationMs": 959.084,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1832.432,
+        "endMs": 2792.856,
+        "durationMs": 960.424,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2797.149,
+        "endMs": 2858.731,
+        "durationMs": 61.582,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2920.725,
+        "endMs": 2920.741,
+        "durationMs": 0.016,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2927.716,
+        "endMs": 2927.818,
+        "durationMs": 0.102,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2920.691,
+        "endMs": 2927.84,
+        "durationMs": 7.149,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3302.396,
+        "endMs": 3302.437,
+        "durationMs": 0.041,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3293.096,
+        "endMs": 3302.541,
+        "durationMs": 9.445,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1689.801,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3302.45,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1418.418,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3339.903,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3339.903,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.986,
+        "workerMs": 2.899999998509884
+      }
+    ],
+    "layerUpdate": {
+      "count": 15,
+      "maxMs": 0.057,
+      "totalMs": 0.252
+    }
+  },
+  {
+    "run": "A-cold-9",
+    "displayMs": 3363.2999999970198,
+    "readyMs": 3492.0999999940395,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1186.957,
+        "endMs": 1428.024,
+        "durationMs": 241.067,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1830.407,
+        "endMs": 1830.832,
+        "durationMs": 0.425,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1856.081,
+        "endMs": 2797.414,
+        "durationMs": 941.333,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2797.441,
+        "endMs": 2797.526,
+        "durationMs": 0.085,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1836.412,
+        "endMs": 2797.721,
+        "durationMs": 961.309,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1835.033,
+        "endMs": 2797.726,
+        "durationMs": 962.693,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2801.998,
+        "endMs": 2873.131,
+        "durationMs": 71.133,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2923.405,
+        "endMs": 2923.419,
+        "durationMs": 0.014,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2932.513,
+        "endMs": 2932.601,
+        "durationMs": 0.088,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2923.369,
+        "endMs": 2932.616,
+        "durationMs": 9.247,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3299.731,
+        "endMs": 3299.758,
+        "durationMs": 0.027,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3292.662,
+        "endMs": 3299.856,
+        "durationMs": 7.194,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1729.493,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3299.774,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1446.601,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3338.892,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3338.892,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.19,
+        "workerMs": 3.5
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.037,
+      "totalMs": 0.22999999999999998
+    }
+  },
+  {
+    "run": "A2-cold-0",
+    "displayMs": 1196.5,
+    "readyMs": 1322.5,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 883.336,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1172.617,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1172.617,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 9.546,
+        "workerMs": 2.9000000059604645
+      }
+    ],
+    "layerUpdate": {
+      "count": 12,
+      "maxMs": 0.035,
+      "totalMs": 0.189
+    }
+  },
+  {
+    "run": "A2-cold-1",
+    "displayMs": 3124.699999988079,
+    "readyMs": 3244.199999988079,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1110.395,
+        "endMs": 1317.715,
+        "durationMs": 207.32,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1658.974,
+        "endMs": 1659.495,
+        "durationMs": 0.521,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1683.562,
+        "endMs": 2566,
+        "durationMs": 882.438,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2566.02,
+        "endMs": 2566.1,
+        "durationMs": 0.08,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1665.656,
+        "endMs": 2566.254,
+        "durationMs": 900.598,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1664.449,
+        "endMs": 2566.257,
+        "durationMs": 901.808,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2572.272,
+        "endMs": 2635.01,
+        "durationMs": 62.738,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2698.571,
+        "endMs": 2698.583,
+        "durationMs": 0.012,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2705.53,
+        "endMs": 2705.586,
+        "durationMs": 0.056,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2698.536,
+        "endMs": 2705.595,
+        "durationMs": 7.059,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3067.651,
+        "endMs": 3067.675,
+        "durationMs": 0.024,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3060.77,
+        "endMs": 3067.775,
+        "durationMs": 7.005,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1561.05,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3067.687,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1335.385,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3101.254,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3101.254,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.05,
+        "workerMs": 3.2000000029802322
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.028,
+      "totalMs": 0.19499999999999995
+    }
+  },
+  {
+    "run": "A2-cold-2",
+    "displayMs": 3174.1000000089407,
+    "readyMs": 3333.4000000059605,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1088.856,
+        "endMs": 1298.156,
+        "durationMs": 209.3,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1670.589,
+        "endMs": 1670.989,
+        "durationMs": 0.4,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1694.695,
+        "endMs": 2592.48,
+        "durationMs": 897.785,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2592.51,
+        "endMs": 2592.619,
+        "durationMs": 0.109,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1676.889,
+        "endMs": 2592.805,
+        "durationMs": 915.916,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1675.671,
+        "endMs": 2592.81,
+        "durationMs": 917.139,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2597.123,
+        "endMs": 2678.471,
+        "durationMs": 81.348,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2730.526,
+        "endMs": 2730.541,
+        "durationMs": 0.015,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2739.539,
+        "endMs": 2739.645,
+        "durationMs": 0.106,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2730.488,
+        "endMs": 2739.663,
+        "durationMs": 9.175,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3101.13,
+        "endMs": 3101.177,
+        "durationMs": 0.047,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3094.069,
+        "endMs": 3101.302,
+        "durationMs": 7.233,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1572.55,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3101.201,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1317.402,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3144.777,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3144.777,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 6.702,
+        "workerMs": 3.7000000029802322
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.038,
+      "totalMs": 0.21399999999999997
+    }
+  },
+  {
+    "run": "A2-cold-3",
+    "displayMs": 1171.2999999970198,
+    "readyMs": 1304.5,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 883.198,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1147.208,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1147.208,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 9.633,
+        "workerMs": 3
+      }
+    ],
+    "layerUpdate": {
+      "count": 11,
+      "maxMs": 0.042,
+      "totalMs": 0.159
+    }
+  },
+  {
+    "run": "A2-cold-4",
+    "displayMs": 3129.4000000059605,
+    "readyMs": 3253,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1089.429,
+        "endMs": 1309.319,
+        "durationMs": 219.89,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1663.558,
+        "endMs": 1663.958,
+        "durationMs": 0.4,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1688.534,
+        "endMs": 2568.013,
+        "durationMs": 879.479,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2568.04,
+        "endMs": 2568.131,
+        "durationMs": 0.091,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1669.548,
+        "endMs": 2568.642,
+        "durationMs": 899.094,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1668.256,
+        "endMs": 2568.655,
+        "durationMs": 900.399,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2572.94,
+        "endMs": 2642.294,
+        "durationMs": 69.354,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2692.515,
+        "endMs": 2692.53,
+        "durationMs": 0.015,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2701.674,
+        "endMs": 2701.763,
+        "durationMs": 0.089,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2692.48,
+        "endMs": 2701.78,
+        "durationMs": 9.3,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3066.174,
+        "endMs": 3066.195,
+        "durationMs": 0.021,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3059.428,
+        "endMs": 3066.285,
+        "durationMs": 6.857,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1565.992,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3066.211,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1327.316,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3105.211,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3105.211,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.824,
+        "workerMs": 3.0999999940395355
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.03,
+      "totalMs": 0.19599999999999995
+    }
+  },
+  {
+    "run": "A2-cold-5",
+    "displayMs": 3226.3999999910593,
+    "readyMs": 3347.199999988079,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1096.041,
+        "endMs": 1308.507,
+        "durationMs": 212.466,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1657.038,
+        "endMs": 1657.464,
+        "durationMs": 0.426,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1681.848,
+        "endMs": 2656.677,
+        "durationMs": 974.829,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2656.71,
+        "endMs": 2656.807,
+        "durationMs": 0.097,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1663.62,
+        "endMs": 2656.994,
+        "durationMs": 993.374,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1662.277,
+        "endMs": 2656.998,
+        "durationMs": 994.721,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2661.222,
+        "endMs": 2722.918,
+        "durationMs": 61.696,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2787.836,
+        "endMs": 2787.852,
+        "durationMs": 0.016,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2795.352,
+        "endMs": 2795.545,
+        "durationMs": 0.193,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2787.798,
+        "endMs": 2795.569,
+        "durationMs": 7.771,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3167.746,
+        "endMs": 3167.787,
+        "durationMs": 0.041,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3159.32,
+        "endMs": 3167.89,
+        "durationMs": 8.57,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1556.133,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3167.799,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1330.211,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3202.362,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3202.362,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.898,
+        "workerMs": 2.8999999910593033
+      }
+    ],
+    "layerUpdate": {
+      "count": 15,
+      "maxMs": 0.039,
+      "totalMs": 0.238
+    }
+  },
+  {
+    "run": "A2-cold-6",
+    "displayMs": 3227.300000011921,
+    "readyMs": 3352.5,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1147.728,
+        "endMs": 1377.973,
+        "durationMs": 230.245,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1725.085,
+        "endMs": 1725.498,
+        "durationMs": 0.413,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1748.53,
+        "endMs": 2666.171,
+        "durationMs": 917.641,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2666.201,
+        "endMs": 2666.3,
+        "durationMs": 0.099,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1730.92,
+        "endMs": 2666.482,
+        "durationMs": 935.562,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1729.646,
+        "endMs": 2666.49,
+        "durationMs": 936.844,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2670.786,
+        "endMs": 2741.739,
+        "durationMs": 70.953,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2793.017,
+        "endMs": 2793.031,
+        "durationMs": 0.014,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2800.217,
+        "endMs": 2800.294,
+        "durationMs": 0.077,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2792.973,
+        "endMs": 2800.31,
+        "durationMs": 7.337,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3165.81,
+        "endMs": 3165.848,
+        "durationMs": 0.038,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3158.663,
+        "endMs": 3165.966,
+        "durationMs": 7.303,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1623.427,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3165.862,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1396.209,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3202.516,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3202.516,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.301,
+        "workerMs": 3.0999999940395355
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.027,
+      "totalMs": 0.17999999999999997
+    }
+  },
+  {
+    "run": "A2-cold-7",
+    "displayMs": 3218.1000000089407,
+    "readyMs": 3343.5,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1169.346,
+        "endMs": 1384.268,
+        "durationMs": 214.922,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1713.592,
+        "endMs": 1713.974,
+        "durationMs": 0.382,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1739.242,
+        "endMs": 2641.615,
+        "durationMs": 902.373,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2641.653,
+        "endMs": 2641.747,
+        "durationMs": 0.094,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1720.045,
+        "endMs": 2641.945,
+        "durationMs": 921.9,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1718.807,
+        "endMs": 2641.951,
+        "durationMs": 923.144,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2646.211,
+        "endMs": 2715.291,
+        "durationMs": 69.08,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 2776.87,
+        "endMs": 2776.882,
+        "durationMs": 0.012,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2784.065,
+        "endMs": 2784.135,
+        "durationMs": 0.07,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 2776.826,
+        "endMs": 2784.149,
+        "durationMs": 7.323,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3151.907,
+        "endMs": 3151.953,
+        "durationMs": 0.046,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3142.457,
+        "endMs": 3152.066,
+        "durationMs": 9.609,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1616.242,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3151.967,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1402.608,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3192.247,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3192.247,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.014,
+        "workerMs": 3
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.039,
+      "totalMs": 0.207
+    }
+  },
+  {
+    "run": "A2-cold-8",
+    "displayMs": 3930.7000000029802,
+    "readyMs": 4065.7999999970198,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1229.988,
+        "endMs": 1458.46,
+        "durationMs": 228.472,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 2203.617,
+        "endMs": 2204.158,
+        "durationMs": 0.541,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2229.633,
+        "endMs": 3335.08,
+        "durationMs": 1105.447,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 3335.108,
+        "endMs": 3335.2,
+        "durationMs": 0.092,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 2210.059,
+        "endMs": 3335.381,
+        "durationMs": 1125.322,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 2208.825,
+        "endMs": 3335.385,
+        "durationMs": 1126.56,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 3339.705,
+        "endMs": 3410.558,
+        "durationMs": 70.853,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 3483.602,
+        "endMs": 3483.617,
+        "durationMs": 0.015,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3491.729,
+        "endMs": 3491.851,
+        "durationMs": 0.122,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 3483.559,
+        "endMs": 3491.883,
+        "durationMs": 8.324,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3867.27,
+        "endMs": 3867.35,
+        "durationMs": 0.08,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3859.585,
+        "endMs": 3867.487,
+        "durationMs": 7.902,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 2072.807,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3867.369,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1477.022,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3903.932,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3903.932,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.669,
+        "workerMs": 3.3999999910593033
+      }
+    ],
+    "layerUpdate": {
+      "count": 15,
+      "maxMs": 0.041,
+      "totalMs": 0.252
+    }
+  },
+  {
+    "run": "A2-cold-9",
+    "displayMs": 3464.300000011921,
+    "readyMs": 3589.4000000059605,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1266.454,
+        "endMs": 1522.083,
+        "durationMs": 255.629,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1906.141,
+        "endMs": 1906.595,
+        "durationMs": 0.454,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 1932.699,
+        "endMs": 2868.747,
+        "durationMs": 936.048,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-packet",
+        "startMs": 2868.773,
+        "endMs": 2868.858,
+        "durationMs": 0.085,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet",
+        "startMs": 1912.942,
+        "endMs": 2869.045,
+        "durationMs": 956.103,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1911.371,
+        "endMs": 2869.049,
+        "durationMs": 957.678,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 2873.2,
+        "endMs": 2952.245,
+        "durationMs": 79.045,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 3029.626,
+        "endMs": 3029.644,
+        "durationMs": 0.018,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3036.883,
+        "endMs": 3037,
+        "durationMs": 0.117,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 3029.568,
+        "endMs": 3037.029,
+        "durationMs": 7.461,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 3401.714,
+        "endMs": 3401.757,
+        "durationMs": 0.043,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 3392.368,
+        "endMs": 3401.865,
+        "durationMs": 9.497,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1793.171,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 3401.77,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1544.835,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 3439.011,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 3439.011,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.024,
+        "workerMs": 3.0999999940395355
+      }
+    ],
+    "layerUpdate": {
+      "count": 15,
+      "maxMs": 0.065,
+      "totalMs": 0.30500000000000005
+    }
+  },
+  {
+    "run": "B-cold-0",
+    "displayMs": 1171,
+    "readyMs": 1298.8999999985099,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 882.548,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1147.582,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1147.582,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 9.325,
+        "workerMs": 3.100000001490116
+      }
+    ],
+    "layerUpdate": {
+      "count": 10,
+      "maxMs": 0.082,
+      "totalMs": 0.192
+    }
+  },
+  {
+    "run": "B-cold-1",
+    "displayMs": 2174.5,
+    "readyMs": 2295,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1090.781,
+        "endMs": 1304.312,
+        "durationMs": 213.531,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1633.421,
+        "endMs": 1633.812,
+        "durationMs": 0.391,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1638.531,
+        "endMs": 1639.791,
+        "durationMs": 1.26,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1643.919,
+        "endMs": 1695.229,
+        "durationMs": 51.31,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1745.642,
+        "endMs": 1745.654,
+        "durationMs": 0.012,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1752.3,
+        "endMs": 1752.368,
+        "durationMs": 0.068,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1745.601,
+        "endMs": 1752.398,
+        "durationMs": 6.797,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2115.633,
+        "endMs": 2115.657,
+        "durationMs": 0.024,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2109.025,
+        "endMs": 2115.759,
+        "durationMs": 6.734,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1536.344,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2115.671,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1321.601,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2150.884,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2150.884,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.128,
+        "workerMs": 3.2000000029802322
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.029,
+      "totalMs": 0.18999999999999997
+    }
+  },
+  {
+    "run": "B-cold-2",
+    "displayMs": 1209.5,
+    "readyMs": 1407.1000000014901,
+    "stages": [],
+    "points": [
+      {
+        "stage": "boundary-published",
+        "atMs": 867.038,
+        "requestId": 3,
+        "generation": 1
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1184.424,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 1184.424,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 9.664,
+        "workerMs": 3
+      }
+    ],
+    "layerUpdate": {
+      "count": 12,
+      "maxMs": 0.027,
+      "totalMs": 0.146
+    }
+  },
+  {
+    "run": "B-cold-3",
+    "displayMs": 2176.7000000029802,
+    "readyMs": 2298.3000000044703,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1088.634,
+        "endMs": 1298.381,
+        "durationMs": 209.747,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1628.35,
+        "endMs": 1628.78,
+        "durationMs": 0.43,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1633.616,
+        "endMs": 1634.871,
+        "durationMs": 1.255,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1639.566,
+        "endMs": 1692.21,
+        "durationMs": 52.644,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1742.776,
+        "endMs": 1742.787,
+        "durationMs": 0.011,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1749.836,
+        "endMs": 1749.914,
+        "durationMs": 0.078,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1742.74,
+        "endMs": 1749.931,
+        "durationMs": 7.191,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2116.848,
+        "endMs": 2116.876,
+        "durationMs": 0.028,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2109.783,
+        "endMs": 2116.969,
+        "durationMs": 7.186,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1530.44,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2116.888,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1316.325,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2152.84,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2152.84,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.362,
+        "workerMs": 3.399999998509884
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.044,
+      "totalMs": 0.21799999999999997
+    }
+  },
+  {
+    "run": "B-cold-4",
+    "displayMs": 2241.5,
+    "readyMs": 2364.3000000044703,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1098.11,
+        "endMs": 1331.603,
+        "durationMs": 233.493,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1677.176,
+        "endMs": 1677.579,
+        "durationMs": 0.403,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1682.374,
+        "endMs": 1683.782,
+        "durationMs": 1.408,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1688.456,
+        "endMs": 1746.92,
+        "durationMs": 58.464,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1808.596,
+        "endMs": 1808.612,
+        "durationMs": 0.016,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1815.705,
+        "endMs": 1815.811,
+        "durationMs": 0.106,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1808.559,
+        "endMs": 1815.834,
+        "durationMs": 7.275,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2182.075,
+        "endMs": 2182.116,
+        "durationMs": 0.041,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2175.425,
+        "endMs": 2182.238,
+        "durationMs": 6.813,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1576.885,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2182.133,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1349.833,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2217.483,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2217.483,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.523,
+        "workerMs": 3.5
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.03,
+      "totalMs": 0.19099999999999998
+    }
+  },
+  {
+    "run": "B-cold-5",
+    "displayMs": 2174.4000000059605,
+    "readyMs": 2295.5,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1079.597,
+        "endMs": 1287.97,
+        "durationMs": 208.373,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1617.675,
+        "endMs": 1618.072,
+        "durationMs": 0.397,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1622.174,
+        "endMs": 1623.47,
+        "durationMs": 1.296,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1627.623,
+        "endMs": 1678.409,
+        "durationMs": 50.786,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1738.046,
+        "endMs": 1738.061,
+        "durationMs": 0.015,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1744.716,
+        "endMs": 1744.802,
+        "durationMs": 0.086,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1738.009,
+        "endMs": 1744.819,
+        "durationMs": 6.81,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2116.115,
+        "endMs": 2116.142,
+        "durationMs": 0.027,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2109.561,
+        "endMs": 2116.242,
+        "durationMs": 6.681,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1521.562,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2116.154,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1305.443,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2150.702,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2150.702,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.962,
+        "workerMs": 3.100000001490116
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.037,
+      "totalMs": 0.21199999999999997
+    }
+  },
+  {
+    "run": "B-cold-6",
+    "displayMs": 2191.5,
+    "readyMs": 2313.6999999955297,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1095.76,
+        "endMs": 1300.708,
+        "durationMs": 204.948,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1635.828,
+        "endMs": 1636.265,
+        "durationMs": 0.437,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1640.944,
+        "endMs": 1642.262,
+        "durationMs": 1.318,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1647.054,
+        "endMs": 1700.58,
+        "durationMs": 53.526,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1761.113,
+        "endMs": 1761.124,
+        "durationMs": 0.011,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1768.197,
+        "endMs": 1768.27,
+        "durationMs": 0.073,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1761.079,
+        "endMs": 1768.285,
+        "durationMs": 7.206,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2134.216,
+        "endMs": 2134.248,
+        "durationMs": 0.032,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2127.232,
+        "endMs": 2134.347,
+        "durationMs": 7.115,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1539.11,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2134.261,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1318.151,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2167.929,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2167.929,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.008,
+        "workerMs": 3
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.037,
+      "totalMs": 0.213
+    }
+  },
+  {
+    "run": "B-cold-7",
+    "displayMs": 2193,
+    "readyMs": 2314.39999999851,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1093.41,
+        "endMs": 1301.501,
+        "durationMs": 208.091,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1630.54,
+        "endMs": 1630.935,
+        "durationMs": 0.395,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1635.066,
+        "endMs": 1636.49,
+        "durationMs": 1.424,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1640.675,
+        "endMs": 1693.628,
+        "durationMs": 52.953,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1753.247,
+        "endMs": 1753.257,
+        "durationMs": 0.01,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1760.817,
+        "endMs": 1760.884,
+        "durationMs": 0.067,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1753.211,
+        "endMs": 1760.898,
+        "durationMs": 7.687,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2133.552,
+        "endMs": 2133.583,
+        "durationMs": 0.031,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2126.221,
+        "endMs": 2133.678,
+        "durationMs": 7.457,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1533.475,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2133.595,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1319.199,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2169.114,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2169.114,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 5.394,
+        "workerMs": 3.2000000029802322
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.045,
+      "totalMs": 0.20999999999999996
+    }
+  },
+  {
+    "run": "B-cold-8",
+    "displayMs": 2175.1999999955297,
+    "readyMs": 2295.0999999940395,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1089.567,
+        "endMs": 1297.205,
+        "durationMs": 207.638,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1624.875,
+        "endMs": 1625.271,
+        "durationMs": 0.396,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1629.363,
+        "endMs": 1630.683,
+        "durationMs": 1.32,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1635.744,
+        "endMs": 1690.07,
+        "durationMs": 54.326,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1750.483,
+        "endMs": 1750.493,
+        "durationMs": 0.01,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1757.289,
+        "endMs": 1757.389,
+        "durationMs": 0.1,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1750.454,
+        "endMs": 1757.404,
+        "durationMs": 6.95,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2115.467,
+        "endMs": 2115.499,
+        "durationMs": 0.032,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2108.895,
+        "endMs": 2115.599,
+        "durationMs": 6.704,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1528.322,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2115.512,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1314.239,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2151.7,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2151.7,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.914,
+        "workerMs": 2.9000000059604645
+      }
+    ],
+    "layerUpdate": {
+      "count": 15,
+      "maxMs": 0.029,
+      "totalMs": 0.22099999999999997
+    }
+  },
+  {
+    "run": "B-cold-9",
+    "displayMs": 2274.89999999851,
+    "readyMs": 2395.39999999851,
+    "stages": [
+      {
+        "stage": "main-post",
+        "startMs": 1158.93,
+        "endMs": 1374.905,
+        "durationMs": 215.975,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "state-replace",
+        "startMs": 1711.952,
+        "endMs": 1712.36,
+        "durationMs": 0.408,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "packet-prepare-total",
+        "startMs": 1717.262,
+        "endMs": 1718.604,
+        "durationMs": 1.342,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "result-post",
+        "startMs": 1723.352,
+        "endMs": 1776.942,
+        "durationMs": 53.59,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "pending",
+        "startMs": 1837.168,
+        "endMs": 1837.18,
+        "durationMs": 0.012,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 1844.657,
+        "endMs": 1844.727,
+        "durationMs": 0.07,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "main-receive",
+        "startMs": 1837.133,
+        "endMs": 1844.742,
+        "durationMs": 7.609,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "stroke-upload",
+        "startMs": 2216.582,
+        "endMs": 2216.612,
+        "durationMs": 0.03,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "promote",
+        "startMs": 2209.503,
+        "endMs": 2216.713,
+        "durationMs": 7.21,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "points": [
+      {
+        "stage": "worker-receive",
+        "atMs": 1614.43,
+        "requestId": 5,
+        "generation": 2
+      },
+      {
+        "stage": "boundary-published",
+        "atMs": 2216.625,
+        "requestId": 5,
+        "generation": 2
+      }
+    ],
+    "gates": [
+      {
+        "atMs": 1393.785,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": false,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      },
+      {
+        "atMs": 2250.983,
+        "generation": 2,
+        "canonical": true,
+        "boundaries": true,
+        "resources": true,
+        "surface": "canonical",
+        "physical": true,
+        "terrainNeeded": true,
+        "terrain": true
+      }
+    ],
+    "lastObservedGate": {
+      "atMs": 2250.983,
+      "generation": 2,
+      "canonical": true,
+      "boundaries": true,
+      "resources": true,
+      "surface": "canonical",
+      "physical": true,
+      "terrainNeeded": true,
+      "terrain": true
+    },
+    "coreRelease": [
+      {
+        "wallMs": 4.886,
+        "workerMs": 3.2999999970197678
+      }
+    ],
+    "layerUpdate": {
+      "count": 14,
+      "maxMs": 0.037,
+      "totalMs": 0.19899999999999998
+    }
+  }
+]

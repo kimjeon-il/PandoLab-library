@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-02T07:42:47.800Z",
+  "status": "M docs/branch-policy.md",
+  "head": "5fa78dc30eeb179c9bbcd6d350ad50c7cacd5e80",
+  "remote": "34906452a2c9d2484f9049e59ddb5ae9395335fe",
+  "worktrees": "worktree D:/dev/PandoLab\nHEAD f1fa8805525df71fd844ec86ceb79e5b88334405\nbranch refs/heads/main\n\nworktree D:/dev/worktrees/gis\nHEAD 2a43c0f48bd16fb39f59cffb957eb944b7777e23\nbranch refs/heads/work/gis\n\nworktree D:/dev/worktrees/objects\nHEAD f1fa8805525df71fd844ec86ceb79e5b88334405\nbranch refs/heads/work/objects\n\nworktree D:/dev/worktrees/places\nHEAD f1fa8805525df71fd844ec86ceb79e5b88334405\nbranch refs/heads/work/places\n\nworktree D:/dev/worktrees/ui\nHEAD 5fa78dc30eeb179c9bbcd6d350ad50c7cacd5e80\nbranch refs/heads/work/ui\n\nworktree D:/dev/worktrees/w2-p2-diagnostic\nHEAD 69a34dceccdf4b348dfaaab79fa5dc712a169e53\ndetached",
+  "diff": "shared/frontend/js/workers/country-shared-boundary-worker.js",
+  "files": [
+    {
+      "path": "docs/branch-policy.md",
+      "sha256": "927b1ee7166fcb1c7af95827ba26f6c29f037c55afc3c56d9e1f78b49f7f707e"
+    },
+    {
+      "path": "shared/frontend/static/wasm/pandoeditor-core.wasm",
+      "sha256": "d1a22762fdeb8cfb03163da22ba3cb4850a0fd9c93291f50fde6d5f3b839e135"
+    },
+    {
+      "path": "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
+      "sha256": "3effb107f52e006917c6638e42c448590e81b901725b9d2df5e5d26575589cbb"
+    }
+  ],
+  "recovery": "D:/dev/PandoLab-library-data/reports/.edits/ui/development/performance/w1-windows-gpu-2026-11-02/recovery",
+  "p2": "D:/dev/worktrees/w2-p2-diagnostic",
+  "plannedAdditionalBytes": "<2GiB including traces, worktrees and archival; reuse current runtime/dependencies; free space >43GiB"
+}

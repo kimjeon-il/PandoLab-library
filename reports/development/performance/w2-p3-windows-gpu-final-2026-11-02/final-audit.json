@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-02T09:00:13.921Z",
+  "passed": true,
+  "primaryTransitions": 600,
+  "additionalUntracedTransitions": 320,
+  "forcedRepreparations": 60,
+  "latestTransitions": 6,
+  "conditions": "10/10/10 fresh processes",
+  "protectedFilesUnchanged": true,
+  "detachedSourcesClean": true,
+  "scopeOnly": true,
+  "knownEarlierDiagnosticFailures": [
+    "B-browser-regression.json",
+    "B-browser-regression-v2.json"
+  ],
+  "memoryVerdict": "See memory-verdict.md for bounded stability and trace-control evidence."
+}
