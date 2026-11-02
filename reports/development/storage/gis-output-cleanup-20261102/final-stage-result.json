@@ -1,0 +1,63 @@
+{
+  "at": "2026-11-02T13:21:30.868Z",
+  "codeCommit": "e6cae17a",
+  "sdk": {
+    "files": 18198,
+    "deletedBytes": 1985048291,
+    "payloadBytesUnlinked": 1985048291,
+    "allocation": {
+      "deleteOnlyReclaimableAllocation": 2014556120,
+      "files": 18198,
+      "note": "NTFS primary streams, file-ID deduplicated; excludes metadata and alternate streams",
+      "reclaimableAllocation": 2014556120,
+      "selectedUniqueAllocation": 2014556120,
+      "sharedWithUnselectedAllocation": 0,
+      "uniqueFileIds": 18198
+    },
+    "retainedSourceBytes": 1989927,
+    "deletedDirectories": [
+      "D:/build/toolchains/emsdk-6.0.3/upstream",
+      "D:/build/toolchains/emsdk-6.0.3/node",
+      "D:/build/toolchains/emsdk-6.0.3/python",
+      "D:/build/toolchains/emsdk-6.0.3/downloads"
+    ]
+  },
+  "git": {
+    "files": 66,
+    "logicalBytes": 1695962,
+    "refsUnchanged": true,
+    "headUnchanged": true,
+    "statusUnchanged": true,
+    "freeBefore": 47454912512,
+    "freeAfter": 47456714752
+  },
+  "classification": {
+    "files": 1605,
+    "preserve": 1570,
+    "undetermined": 35,
+    "undeterminedBytes": 213211117,
+    "verifiedCheckpoints": 54
+  },
+  "libraryViews": {
+    "mounted": 5,
+    "privateEdits": 13,
+    "undetermined": 1,
+    "undeterminedBytes": 332470058
+  },
+  "temporaryGitPack": {
+    "bytes": 33595391,
+    "declaredObjects": 90,
+    "validSha1Trailer": false,
+    "classification": "undetermined-local-object-recoverability-not-proven"
+  },
+  "freeD": {
+    "before": 47456342016,
+    "after": 49455837184,
+    "delta": 1999495168
+  },
+  "taskTemporaryCleanup": {
+    "files": 12,
+    "logicalBytes": 10121582,
+    "old164379ByteInventoryRemoved": true
+  }
+}
