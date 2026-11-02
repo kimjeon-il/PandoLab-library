@@ -1,0 +1,128 @@
+diff --git a/tests/browser/viewer-gpu-backend-cross.spec.mjs b/tests/browser/viewer-gpu-backend-cross.spec.mjs
+index 7b75d2e9..18811e0f 100644
+--- a/tests/browser/viewer-gpu-backend-cross.spec.mjs
++++ b/tests/browser/viewer-gpu-backend-cross.spec.mjs
+@@ -1,6 +1,9 @@
+ import {chromium,test,expect} from '@playwright/test';
+ import {createHash} from 'node:crypto';
+ import {mkdir,writeFile} from 'node:fs/promises';
++import {gzipSync} from 'node:zlib';
++import {reportPath} from '../../tools/report-paths.mjs';
++const evidence=reportPath('reports/development/performance/w1-windows-gpu-2026-11-02/measurement',{access:'write'});
+ 
+ test.use({timezoneId:'Asia/Seoul',locale:'ko-KR',viewport:{width:1280,height:800},trace:'off'});
+ 
+@@ -32,7 +35,7 @@ async function installInstrumentation(page){
+   await page.addInitScript(()=>{
+     globalThis.__gpuCrossProbe={
+       marks:[],longTasks:[],
+-      mark(stage,month='',extra={}){this.marks.push({stage,month,at:performance.now(),...extra});}
++      mark(stage,month='',extra={}){this.marks.push({stage,month,at:performance.now(),...extra});performance.mark('W1:'+stage+':'+month);}
+     };
+     try{
+       new PerformanceObserver(list=>{
+@@ -69,10 +72,15 @@ async function installInstrumentation(page){
+ }
+ async function runOne(mode,baseURL){
+   const report={mode:mode.name,flags:mode.flags,platform:process.platform,status:'pending',samples:[],errors:[]};
+-  let browser,context,page;
++  let browser,context,page,cdp;const traceEvents=[];
+   try{
++    await mkdir(evidence,{recursive:true});
+     browser=await chromium.launch({headless:true,args:mode.flags,timeout:90000});
+     report.browserVersion=browser.version();
++    cdp=await browser.newBrowserCDPSession();
++    report.systemInfo=await cdp.send('SystemInfo.getInfo');
++    cdp.on('Tracing.dataCollected',e=>traceEvents.push(...e.value));
++    await cdp.send('Tracing.start',{categories:'devtools.timeline,blink.user_timing,cc,gpu',options:'record-as-much-as-possible',transferMode:'ReportEvents'});
+     context=await browser.newContext({viewport:{width:1280,height:800},
+       deviceScaleFactor:1,timezoneId:'Asia/Seoul',locale:'ko-KR',reducedMotion:'reduce'});
+     page=await context.newPage();
+@@ -97,6 +105,7 @@ async function runOne(mode,baseURL){
+         dataRevision:globalThis.PANDOLAB_BUILD_META?.dataRevision??null};
+     });
+     report.category=classifyBackend(report.gpu);
++    console.log('W1_DRIVER '+JSON.stringify({mode:mode.name,category:report.category,gpu:report.gpu}));
+     report.initialMonth=await page.evaluate(()=>globalThis.__PANDOLAB_VIEWER__?.builtinMonth()?.month);
+     if(!/^\d{4}-\d{2}$/.test(report.initialMonth||''))
+       throw new Error('Viewer did not expose the current month after first frame');
+@@ -104,9 +113,10 @@ async function runOne(mode,baseURL){
+       throw new Error('WebGL GPU driver identity unavailable. Hardware cannot be verified.');
+     if(!report.gpu?.webglVersion?.includes('WebGL 2.0'))
+       throw new Error('Actual Viewer is not running WebGL2');
+-    const previous=String(Number(report.initialMonth.slice(0,4))-1)+'-12';
++    if(!report.initialMonth.startsWith('2026-'))throw Error('Expected 2026 initial year');
++    const previous='2025-12';
+     const hashes=new Map();
+-    const rounds=8,warmups=2;
++    const rounds=Number(process.env.PANDOLAB_W1_ROUNDS||8),warmups=2;
+     for(let i=0;i<warmups+rounds;i++){
+       const target=i%2===0?previous:report.initialMonth;
+       const button=i%2===0?'#timelinePreviousYear':'#timelineNextYear';
+@@ -129,6 +139,10 @@ async function runOne(mode,baseURL){
+         const document=globalThis.__PANDOLAB_VIEWER__.documentSnapshot();
+         const semantic={
+           setupMonth:document.projectSetup?.initialMonth,
++          geometries:document.geometries,
++          places:document.places,
++          labels:[...globalThis.document.querySelectorAll('#viewerLabels text')].map(e=>({text:e.textContent,x:e.getAttribute('x'),y:e.getAttribute('y')})).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b))),
++          svgPaths:[...globalThis.document.querySelectorAll('#viewerLabels path')].map(e=>e.getAttribute('d')).sort(),
+           entities:document.territorialEntities?.map(e=>[e.id,e.properties?.name,
+             e.properties?.parentId,e.geometryRef?.id,e.geometryRef?.version]),
+           geometryVersions:document.geometries?.map(g=>[g.id,g.version]),
+@@ -149,7 +163,7 @@ async function runOne(mode,baseURL){
+       const known=hashes.get(target);
+       if(known && known!==semanticHash)throw new Error('Repeated year changed semantic world data for '+target);
+       hashes.set(target,semanticHash);
+-      const sample={target,kind:i<warmups?'warmup':'measured',
++      const sample={requestedAt:record.requested,presentedAt:record.presented,readyAt:record.ready,target,kind:i<warmups?'warmup':'measured',
+         requestedToPresentedMs:record.presented-record.requested,
+         requestedToReadyMs:record.ready-record.requested,
+         presentedToReadyMs:record.ready-record.presented,
+@@ -157,6 +171,7 @@ async function runOne(mode,baseURL){
+         workerReleaseMs:record.workerReleaseMs,longTaskMaxMs:record.longTaskMaxMs,
+         longTasks:record.longTasks,semanticHash,visible:record.visible};
+       if(i>=warmups)report.samples.push(sample);
++      if(i===warmups||i===warmups+1)await page.screenshot({path:evidence+'/'+mode.name+'-'+target+'.png'});
+       console.log('GPU_CROSS_SAMPLE '+JSON.stringify({mode:mode.name,category:report.category,round:i,...sample}).slice(0,6000));
+     }
+     report.hashes=Object.fromEntries(hashes);
+@@ -171,6 +186,7 @@ async function runOne(mode,baseURL){
+     report.failure=String(error?.stack||error);
+     console.log('GPU_CROSS_ERROR '+JSON.stringify({mode:mode.name,category:report.category,error:report.failure}).slice(0,2400));
+   }finally{
++    try{if(cdp){const completed=new Promise(resolve=>cdp.once('Tracing.tracingComplete',resolve));await cdp.send('Tracing.end');await completed;await writeFile(evidence+'/'+mode.name+'-trace.json.gz',gzipSync(JSON.stringify({traceEvents})));report.traceEventCount=traceEvents.length;}}catch(e){report.traceError=String(e);}
+     try{await context?.close();}catch(e){report.closeError=String(e);}
+     try{await browser?.close();}catch(e){report.browserCloseError=String(e);}
+   }
+@@ -187,9 +203,9 @@ test('same-host GPU/backend comparison without presuming hardware acceleration',
+     ?[{name:'metal',flags:['--use-angle=metal']},
+       {name:'swiftshader',flags:['--use-angle=swiftshader']},
+       {name:'metal-retest',flags:['--use-angle=metal']}]
+-    :[{name:'default',flags:[]},
++    :[{name:'default',flags:process.platform==='win32'?['--use-angle=d3d11']:[]},
+       {name:'swiftshader',flags:['--use-angle=swiftshader']},
+-      {name:'default-retest',flags:[]}];
++      {name:'default-retest',flags:process.platform==='win32'?['--use-angle=d3d11']:[]}];
+   const report={schema:'pando-gpu-cross-v1',sourceCommit:process.env.GITHUB_SHA??null,
+     host:{platform:process.platform,arch:process.arch,cpus:process.env.RUNNER_OS??null},
+     measuredAt:new Date().toISOString(),modes:[],comparison:null};
+@@ -236,10 +252,16 @@ test('same-host GPU/backend comparison without presuming hardware acceleration',
+     console.log('GPU_CROSS_COMPARISON '+JSON.stringify(report.comparison));
+   }finally{
+     await mkdir('test-results/viewer-gpu-backend-cross',{recursive:true});
+-    const file='test-results/viewer-gpu-backend-cross/report-'+process.platform+'.json';
++    const file=evidence+'/report-'+process.platform+'.json';
+     await writeFile(file,JSON.stringify(report,null,2));
+     await testInfo.attach('viewer-gpu-backend-cross',{path:file,contentType:'application/json'});
+   }
+-  if(report.modes.every(m=>m.status!=='passed'))
++  if(report.modes.some(m=>m.status!=='passed')||report.modes[0].category!=='hardware-reported'||report.modes[2].category!=='hardware-reported'||report.modes[1].category!=='swiftshader-software')
+     throw new Error('Neither GPU backend ran the actual Viewer, cannot claim cross measurement');
+ });
++test('W1 unforced backend diagnostic',async({baseURL})=>{
++  test.setTimeout(300000);
++  const report=await runOne({name:'unforced',flags:[]},baseURL);
++  await writeFile(evidence+'/unforced.json',JSON.stringify(report,null,2));
++  expect(report.status).toBe('passed');
++});

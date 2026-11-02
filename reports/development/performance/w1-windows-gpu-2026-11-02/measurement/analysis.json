@@ -1,0 +1,5321 @@
+{
+  "source": "69a34dceccdf4b348dfaaab79fa5dc712a169e53",
+  "data": "data-f50b7f480c812df6f5ea0c40f5461ab0",
+  "modes": [
+    {
+      "mode": "default",
+      "status": "passed",
+      "category": "hardware-reported",
+      "driver": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00002188) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "stats": {
+        "requestedToPresentedMs": {
+          "p50": 800.1,
+          "p95Exploratory": 866.7,
+          "max": 866.8000000044703
+        },
+        "requestedToReadyMs": {
+          "p50": 926.1,
+          "p95Exploratory": 994.7,
+          "max": 997.6000000014901
+        },
+        "presentedToReadyMs": {
+          "p50": 124.5,
+          "p95Exploratory": 129.6,
+          "max": 130.79999999701977
+        },
+        "releaseRoundtripMs": {
+          "p50": 8.4,
+          "p95Exploratory": 9.5,
+          "max": 9.799999997019768
+        },
+        "longTaskMaxMs": {
+          "p50": 161.5,
+          "p95Exploratory": 169.9,
+          "max": 173
+        }
+      },
+      "rows": [
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 0,
+          "requestedAt": 18990.30000000447,
+          "presentedAt": 20166.80000000447,
+          "readyAt": 20293.80000000447,
+          "target": "2025-12",
+          "kind": "warmup",
+          "requestedToPresentedMs": 1176.5,
+          "requestedToReadyMs": 1303.5,
+          "presentedToReadyMs": 127,
+          "releaseRoundtripMs": 9.100000001490116,
+          "workerReleaseMs": 3.1999999955296516,
+          "longTaskMaxMs": 373,
+          "longTasks": [
+            {
+              "at": 18987.89999999851,
+              "ms": 373
+            },
+            {
+              "at": 19948.80000000447,
+              "ms": 159
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 13,
+          "layerMaxMs": 0.532,
+          "layerTotalMs": 0.761,
+          "topTraceSpans": [
+            {
+              "name": "TimerFire",
+              "ms": 3501.247,
+              "pid": 21196,
+              "tid": 12424,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "timerId": 28
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 415.804,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915535179"
+                }
+              }
+            },
+            {
+              "name": "EventDispatch",
+              "ms": 369.61,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "type": "click"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.041,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915535796"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 136.904,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915535449"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 103.73,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915535738"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 68.398,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915535185"
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 68.377,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 24,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "worker.onmessage",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 26,
+                  "sampleTraceId": 3095641758483785,
+                  "scriptId": "217",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/gpu-worker-channels.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 65.281,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 1204,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915536000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 60.326,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 605
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 60.043,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758484386,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "TimerFire",
+              "ms": 53.145,
+              "pid": 21196,
+              "tid": 12424,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "timerId": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 1,
+          "requestedAt": 31852.89999999851,
+          "presentedAt": 32651.10000000149,
+          "readyAt": 32784.39999999851,
+          "target": "2026-11",
+          "kind": "warmup",
+          "requestedToPresentedMs": 798.2000000029802,
+          "requestedToReadyMs": 931.5,
+          "presentedToReadyMs": 133.29999999701977,
+          "releaseRoundtripMs": 9.600000001490116,
+          "workerReleaseMs": 3.5,
+          "longTaskMaxMs": 162,
+          "longTasks": [
+            {
+              "at": 32427.60000000149,
+              "ms": 162
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.582,
+          "layerTotalMs": 0.873,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 392.082,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540450"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 162.461,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540300"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 129.207,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540339"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 105.303,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540720"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 67.676,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 1952,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915540000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 62.563,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 620
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 62.234,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758488891,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 2,
+          "requestedAt": 44635.39999999851,
+          "presentedAt": 45427.30000000447,
+          "readyAt": 45551.10000000149,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 791.9000000059605,
+          "requestedToReadyMs": 915.7000000029802,
+          "presentedToReadyMs": 123.79999999701977,
+          "releaseRoundtripMs": 8.899999998509884,
+          "workerReleaseMs": 3.0999999940395355,
+          "longTaskMaxMs": 161,
+          "longTasks": [
+            {
+              "at": 45206.30000000447,
+              "ms": 161
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.544,
+          "layerTotalMs": 0.744,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 388.927,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540490"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 161.763,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540822"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.57,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540891"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 100.825,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915540762"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 65.048,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 2719,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915540000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 60.654,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 635
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 60.388,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758489413,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 3,
+          "requestedAt": 58001.30000000447,
+          "presentedAt": 58790.30000000447,
+          "readyAt": 58913.89999999851,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 789,
+          "requestedToReadyMs": 912.5999999940395,
+          "presentedToReadyMs": 123.59999999403954,
+          "releaseRoundtripMs": 8.299999997019768,
+          "workerReleaseMs": 3.1999999955296516,
+          "longTaskMaxMs": 161,
+          "longTasks": [
+            {
+              "at": 58571.80000000447,
+              "ms": 161
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.541,
+          "layerTotalMs": 0.736,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 392.831,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915541325"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 161.305,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915541654"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 129.082,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915541722"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 101.53,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915541592"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 63.117,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 3521,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915542000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 58.475,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 650
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 58.212,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758490242,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 4,
+          "requestedAt": 71502,
+          "presentedAt": 72337.5,
+          "readyAt": 72462.89999999851,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 835.5,
+          "requestedToReadyMs": 960.8999999985099,
+          "presentedToReadyMs": 125.39999999850988,
+          "releaseRoundtripMs": 8.5,
+          "workerReleaseMs": 3.2999999970197678,
+          "longTaskMaxMs": 164,
+          "longTasks": [
+            {
+              "at": 72113.80000000447,
+              "ms": 164
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.532,
+          "layerTotalMs": 0.7500000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 424.301,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915541808"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 164.892,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538073"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 132.344,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538113"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 102.881,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915537996"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 64.531,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 4334,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915538000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 59.975,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 665
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 59.718,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758486645,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 57.17,
+              "pid": 21196,
+              "tid": 20276,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 556
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 57.132,
+              "pid": 21196,
+              "tid": 20320,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 556
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 55.432,
+              "pid": 21196,
+              "tid": 12308,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 556
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 55.391,
+              "pid": 21196,
+              "tid": 6064,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 556
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 55.351,
+              "pid": 21196,
+              "tid": 19364,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 556
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 5,
+          "requestedAt": 85034.80000000447,
+          "presentedAt": 85833,
+          "readyAt": 85960.39999999851,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 798.1999999955297,
+          "requestedToReadyMs": 925.5999999940395,
+          "presentedToReadyMs": 127.39999999850988,
+          "releaseRoundtripMs": 8.900000005960464,
+          "workerReleaseMs": 3.4000000059604645,
+          "longTaskMaxMs": 162,
+          "longTasks": [
+            {
+              "at": 85610.10000000149,
+              "ms": 162
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.529,
+          "layerTotalMs": 0.764,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 392.735,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538604"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 162.92,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538441"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.356,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538493"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 103.366,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538875"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 65.917,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 5144,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915538000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 61.296,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 680
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 60.993,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758487525,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 6,
+          "requestedAt": 98168,
+          "presentedAt": 98956,
+          "readyAt": 99080.20000000298,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 788,
+          "requestedToReadyMs": 912.2000000029802,
+          "presentedToReadyMs": 124.20000000298023,
+          "releaseRoundtripMs": 8.199999995529652,
+          "workerReleaseMs": 3.3000000044703484,
+          "longTaskMaxMs": 159,
+          "longTasks": [
+            {
+              "at": 98741.39999999851,
+              "ms": 159
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.533,
+          "layerTotalMs": 0.7570000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 394.437,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539136"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.015,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915538989"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.038,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539025"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 102.476,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539420"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 61.246,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 5932,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915540000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 56.836,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 695
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 56.576,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758487577,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 7,
+          "requestedAt": 111866.39999999851,
+          "presentedAt": 112732.80000000447,
+          "readyAt": 112855.60000000149,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 866.4000000059605,
+          "requestedToReadyMs": 989.2000000029802,
+          "presentedToReadyMs": 122.79999999701977,
+          "releaseRoundtripMs": 8.199999995529652,
+          "workerReleaseMs": 3.3000000044703484,
+          "longTaskMaxMs": 160,
+          "longTasks": [
+            {
+              "at": 112513.80000000447,
+              "ms": 160
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.531,
+          "layerTotalMs": 0.749,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 459.965,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539513"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 160.291,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539840"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 136.055,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539894"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 100.795,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915539766"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 64.603,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 6758,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915540000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 62.037,
+              "pid": 21196,
+              "tid": 20320,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 691
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 60.118,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 710
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 59.794,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758488446,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 55.625,
+              "pid": 21196,
+              "tid": 12308,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 691
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 55.585,
+              "pid": 21196,
+              "tid": 6064,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 691
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 55.517,
+              "pid": 21196,
+              "tid": 20276,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 691
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 8,
+          "requestedAt": 125165.89999999851,
+          "presentedAt": 125967.89999999851,
+          "readyAt": 126092.60000000149,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 802,
+          "requestedToReadyMs": 926.7000000029802,
+          "presentedToReadyMs": 124.70000000298023,
+          "releaseRoundtripMs": 8.100000001490116,
+          "workerReleaseMs": 3.8000000044703484,
+          "longTaskMaxMs": 164,
+          "longTasks": [
+            {
+              "at": 125745.39999999851,
+              "ms": 164
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 14,
+          "layerMaxMs": 0.53,
+          "layerTotalMs": 0.7350000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 397.858,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915544159"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 163.986,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915544511"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 134.291,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915544557"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 102.84,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915544420"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 64.178,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 7553,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915544000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 59.781,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 724
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 59.522,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758493100,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default",
+          "category": "hardware-reported",
+          "round": 9,
+          "requestedAt": 138298.3999999985,
+          "presentedAt": 139165.20000000298,
+          "readyAt": 139296,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 866.8000000044703,
+          "requestedToReadyMs": 997.6000000014901,
+          "presentedToReadyMs": 130.79999999701977,
+          "releaseRoundtripMs": 9.799999997019768,
+          "workerReleaseMs": 3.5,
+          "longTaskMaxMs": 173,
+          "longTasks": [
+            {
+              "at": 138934.30000000447,
+              "ms": 173
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.54,
+          "layerTotalMs": 0.782,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 423.516,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915545052"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 173.458,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915544869"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 145.16,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915544938"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 107.17,
+              "pid": 21196,
+              "tid": 21024,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "16450241480915545320"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 73.28,
+              "pid": 21196,
+              "tid": 20276,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 802
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 70.898,
+              "pid": 21196,
+              "tid": 12308,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 802
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 63.768,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 8344,
+                "main_frame_pipeline": {
+                  "main_frame_id": 16450241480915544000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 58.754,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "id": 739
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 58.462,
+              "pid": 21196,
+              "tid": 11876,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "BC2A7F5AB1531B8E0080D00AA5E03C00",
+                  "functionName": "",
+                  "isolate": "17094600420039550391",
+                  "lineNumber": 346,
+                  "sampleTraceId": 3095641758493459,
+                  "scriptId": "201",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 54.367,
+              "pid": 21196,
+              "tid": 20320,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 802
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "swiftshader",
+      "status": "passed",
+      "category": "swiftshader-software",
+      "driver": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "stats": {
+        "requestedToPresentedMs": {
+          "p50": 819.6,
+          "p95Exploratory": 856.3,
+          "max": 866
+        },
+        "requestedToReadyMs": {
+          "p50": 1018.3,
+          "p95Exploratory": 1131.5,
+          "max": 1136.6999999955297
+        },
+        "presentedToReadyMs": {
+          "p50": 198.7,
+          "p95Exploratory": 293,
+          "max": 298.5
+        },
+        "releaseRoundtripMs": {
+          "p50": 14.2,
+          "p95Exploratory": 15.4,
+          "max": 15.700000002980232
+        },
+        "longTaskMaxMs": {
+          "p50": 160.5,
+          "p95Exploratory": 175.7,
+          "max": 176
+        }
+      },
+      "rows": [
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 0,
+          "requestedAt": 36127.39999999851,
+          "presentedAt": 37634.5,
+          "readyAt": 37785,
+          "target": "2025-12",
+          "kind": "warmup",
+          "requestedToPresentedMs": 1507.1000000014901,
+          "requestedToReadyMs": 1657.6000000014901,
+          "presentedToReadyMs": 150.5,
+          "releaseRoundtripMs": 12.800000004470348,
+          "workerReleaseMs": 6.899999998509884,
+          "longTaskMaxMs": 480,
+          "longTasks": [
+            {
+              "at": 36123.89999999851,
+              "ms": 480
+            },
+            {
+              "at": 37379.30000000447,
+              "ms": 194
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 16,
+          "layerMaxMs": 0.533,
+          "layerTotalMs": 0.7430000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 548.938,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099937993"
+                }
+              }
+            },
+            {
+              "name": "EventDispatch",
+              "ms": 475.688,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "type": "click"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 193.982,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099938284"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 177.192,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099938198"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 122.474,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099938054"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 67.476,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 2250,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099938300,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 62.485,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 508
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 62.217,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786334171,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 1,
+          "requestedAt": 50540.10000000149,
+          "presentedAt": 51386.20000000298,
+          "readyAt": 51639.39999999851,
+          "target": "2026-11",
+          "kind": "warmup",
+          "requestedToPresentedMs": 846.1000000014901,
+          "requestedToReadyMs": 1099.2999999970198,
+          "presentedToReadyMs": 253.19999999552965,
+          "releaseRoundtripMs": 15.399999998509884,
+          "workerReleaseMs": 3.2000000029802322,
+          "longTaskMaxMs": 159,
+          "longTasks": [
+            {
+              "at": 51159.70000000298,
+              "ms": 159
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.594,
+          "layerTotalMs": 0.8449999999999999,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 419.638,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943934"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 217.382,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943049"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.428,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943750"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.574,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943689"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 75.66,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 3077,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099944000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "MajorGC",
+              "ms": 72.908,
+              "pid": 8380,
+              "tid": 15540,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "type": "finalize incremental marking via task",
+                "usedHeapSizeAfter": 106830540,
+                "usedHeapSizeBefore": 106933448
+              }
+            },
+            {
+              "name": "V8.GC_MARK_COMPACTOR",
+              "ms": 72.869,
+              "pid": 8380,
+              "tid": 15540,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "epoch": 451
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 68.663,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 523
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 68.353,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786338995,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 65.206,
+              "pid": 8380,
+              "tid": 14304,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 451
+              }
+            },
+            {
+              "name": "RasterizerTaskImpl::RunOnWorkerThread",
+              "ms": 59.119,
+              "pid": 8380,
+              "tid": 21204,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "source_prepare_tiles_id": 252
+              }
+            },
+            {
+              "name": "RasterTask",
+              "ms": 59.114,
+              "pid": 8380,
+              "tid": 21204,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "tileData": {
+                  "layerId": 13,
+                  "sourceFrameNumber": 411,
+                  "tileId": {
+                    "id_ref": "0x5bbc015da3e0"
+                  },
+                  "tileResolution": "HIGH_RESOLUTION"
+                }
+              }
+            },
+            {
+              "name": "GpuRasterBuffer::Playback",
+              "ms": 59.111,
+              "pid": 8380,
+              "tid": 21204,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {}
+            },
+            {
+              "name": "RasterImplementation::RasterCHROMIUM",
+              "ms": 59.089,
+              "pid": 8380,
+              "tid": 21204,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "raster_chromium_id": 64
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 53.165,
+              "pid": 8380,
+              "tid": 15384,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 437
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 52.879,
+              "pid": 8380,
+              "tid": 21208,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 437
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 2,
+          "requestedAt": 63789,
+          "presentedAt": 64601.80000000447,
+          "readyAt": 64788.10000000149,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 812.8000000044703,
+          "requestedToReadyMs": 999.1000000014901,
+          "presentedToReadyMs": 186.29999999701977,
+          "releaseRoundtripMs": 14.899999998509884,
+          "workerReleaseMs": 3.1999999955296516,
+          "longTaskMaxMs": 158,
+          "longTasks": [
+            {
+              "at": 64383.60000000149,
+              "ms": 158
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 3.372,
+          "layerTotalMs": 3.5869999999999997,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 400.827,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943301"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 158.158,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943276"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 155.547,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099944592"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.084,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943190"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 69.192,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 3872,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099943400,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 61.285,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 538
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 61.031,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786339161,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 3,
+          "requestedAt": 77206.30000000447,
+          "presentedAt": 78028.60000000149,
+          "readyAt": 78223.39999999851,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 822.2999999970198,
+          "requestedToReadyMs": 1017.0999999940395,
+          "presentedToReadyMs": 194.79999999701977,
+          "releaseRoundtripMs": 11,
+          "workerReleaseMs": 3.2999999970197678,
+          "longTaskMaxMs": 175,
+          "longTasks": [
+            {
+              "at": 77794.10000000149,
+              "ms": 175
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 14,
+          "layerMaxMs": 0.621,
+          "layerTotalMs": 0.812,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 403.52,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099944782"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 175.528,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099943954"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 158.409,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099944006"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.12,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099944133"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 65.225,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 4675,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099944000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 60.236,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 553
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 59.976,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786339849,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 4,
+          "requestedAt": 90654.80000000447,
+          "presentedAt": 91462.39999999851,
+          "readyAt": 91656.5,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 807.5999999940395,
+          "requestedToReadyMs": 1001.6999999955297,
+          "presentedToReadyMs": 194.10000000149012,
+          "releaseRoundtripMs": 14.100000001490116,
+          "workerReleaseMs": 3.6999999955296516,
+          "longTaskMaxMs": 160,
+          "longTasks": [
+            {
+              "at": 91242.39999999851,
+              "ms": 160
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.533,
+          "layerTotalMs": 0.771,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 390.773,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941561"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 163.087,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941809"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 160.167,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941378"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.158,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941579"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 65.848,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 5482,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099941400,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 61.159,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 568
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 60.908,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786337407,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 5,
+          "requestedAt": 103853.70000000298,
+          "presentedAt": 104670.60000000149,
+          "readyAt": 104873.20000000298,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 816.8999999985099,
+          "requestedToReadyMs": 1019.5,
+          "presentedToReadyMs": 202.60000000149012,
+          "releaseRoundtripMs": 14.600000001490116,
+          "workerReleaseMs": 3.399999998509884,
+          "longTaskMaxMs": 159,
+          "longTasks": [
+            {
+              "at": 104446.5,
+              "ms": 159
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.531,
+          "layerTotalMs": 0.7650000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 395.802,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099940910"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 171.343,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941156"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.581,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941360"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.085,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099941306"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 70.451,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 6274,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099941400,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 65.74,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 583
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 65.481,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786337261,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 6,
+          "requestedAt": 117222,
+          "presentedAt": 118027.5,
+          "readyAt": 118215.60000000149,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 805.5,
+          "requestedToReadyMs": 993.6000000014901,
+          "presentedToReadyMs": 188.10000000149012,
+          "releaseRoundtripMs": 10.299999997019768,
+          "workerReleaseMs": 3.2999999970197678,
+          "longTaskMaxMs": 159,
+          "longTasks": [
+            {
+              "at": 117805.89999999851,
+              "ms": 159
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.549,
+          "layerTotalMs": 0.7410000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 389.688,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942606"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.09,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942801"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 158.402,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942878"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.243,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942489"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 68.115,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 7077,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099943000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 63.659,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 598
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 63.395,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786338688,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 7,
+          "requestedAt": 130420.30000000447,
+          "presentedAt": 131258.5,
+          "readyAt": 131557,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 838.1999999955297,
+          "requestedToReadyMs": 1136.6999999955297,
+          "presentedToReadyMs": 298.5,
+          "releaseRoundtripMs": 14.100000001490116,
+          "workerReleaseMs": 3.7999999970197678,
+          "longTaskMaxMs": 176,
+          "longTasks": [
+            {
+              "at": 131018.10000000149,
+              "ms": 176
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 2.27,
+          "layerTotalMs": 2.499,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 398.753,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942320"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 247.402,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947708"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 176.625,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942152"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 128.588,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099942199"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 72.102,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 7869,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099942400,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 65.19,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 613
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 64.85,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786338149,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 51.733,
+              "pid": 8380,
+              "tid": 21208,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 686
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 8,
+          "requestedAt": 144086.80000000447,
+          "presentedAt": 144914.3999999985,
+          "readyAt": 145197.20000000298,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 827.5999999940395,
+          "requestedToReadyMs": 1110.3999999985099,
+          "presentedToReadyMs": 282.80000000447035,
+          "releaseRoundtripMs": 15.700000002980232,
+          "workerReleaseMs": 3.600000001490116,
+          "longTaskMaxMs": 161,
+          "longTasks": [
+            {
+              "at": 144683.30000000447,
+              "ms": 161
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.548,
+          "layerTotalMs": 0.7790000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 396.579,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947586"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 251.066,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947870"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 161.3,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947797"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 133.699,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947997"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 76.411,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 8690,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099948000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 71.347,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 628
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 71.036,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786343684,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 57.319,
+              "pid": 8380,
+              "tid": 20372,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 743
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_SWEEPING",
+              "ms": 51.819,
+              "pid": 8380,
+              "tid": 21208,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 743
+              }
+            }
+          ]
+        },
+        {
+          "mode": "swiftshader",
+          "category": "swiftshader-software",
+          "round": 9,
+          "requestedAt": 157503.6000000015,
+          "presentedAt": 158369.6000000015,
+          "readyAt": 158625.5,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 866,
+          "requestedToReadyMs": 1121.8999999985099,
+          "presentedToReadyMs": 255.89999999850988,
+          "releaseRoundtripMs": 14.299999997019768,
+          "workerReleaseMs": 3.7000000029802322,
+          "longTaskMaxMs": 164,
+          "longTasks": [
+            {
+              "at": 158140.70000000298,
+              "ms": 164
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.556,
+          "layerTotalMs": 0.7930000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 424.213,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947315"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 201.925,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099948749"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 163.964,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099948677"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 136.393,
+              "pid": 8380,
+              "tid": 20936,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "4399724847099947330"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 71.411,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 9497,
+                "main_frame_pipeline": {
+                  "main_frame_id": 4399724847099948500,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 66.417,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "id": 643
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 66.093,
+              "pid": 8380,
+              "tid": 12356,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "C32A145932B3AB5AEF85F4CDBF51A557",
+                  "functionName": "",
+                  "isolate": "14563759962998778522",
+                  "lineNumber": 346,
+                  "sampleTraceId": 4211610786344694,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "default-retest",
+      "status": "passed",
+      "category": "hardware-reported",
+      "driver": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00002188) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "stats": {
+        "requestedToPresentedMs": {
+          "p50": 831.8,
+          "p95Exploratory": 849,
+          "max": 850.6000000014901
+        },
+        "requestedToReadyMs": {
+          "p50": 961.1,
+          "p95Exploratory": 976.1,
+          "max": 979.1000000014901
+        },
+        "presentedToReadyMs": {
+          "p50": 125.4,
+          "p95Exploratory": 131.4,
+          "max": 132.80000000447035
+        },
+        "releaseRoundtripMs": {
+          "p50": 8.6,
+          "p95Exploratory": 10,
+          "max": 10.200000002980232
+        },
+        "longTaskMaxMs": {
+          "p50": 163.5,
+          "p95Exploratory": 189.3,
+          "max": 198
+        }
+      },
+      "rows": [
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 0,
+          "requestedAt": 19228.5,
+          "presentedAt": 22524,
+          "readyAt": 22660.29999999702,
+          "target": "2025-12",
+          "kind": "warmup",
+          "requestedToPresentedMs": 3295.5,
+          "requestedToReadyMs": 3431.7999999970198,
+          "presentedToReadyMs": 136.29999999701977,
+          "releaseRoundtripMs": 5.899999998509884,
+          "workerReleaseMs": 3.2999999970197678,
+          "longTaskMaxMs": 410,
+          "longTasks": [
+            {
+              "at": 19225.39999999851,
+              "ms": 410
+            },
+            {
+              "at": 20265.29999999702,
+              "ms": 375
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 16,
+          "layerMaxMs": 0.568,
+          "layerTotalMs": 0.852,
+          "topTraceSpans": [
+            {
+              "name": "TimerFire",
+              "ms": 3992.443,
+              "pid": 15740,
+              "tid": 11592,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "timerId": 17
+                }
+              }
+            },
+            {
+              "name": "TimerFire",
+              "ms": 970.998,
+              "pid": 15740,
+              "tid": 11592,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "timerId": 26
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 449.824,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023442025"
+                }
+              }
+            },
+            {
+              "name": "EventDispatch",
+              "ms": 406.067,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "type": "click"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 375.586,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023442299"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 280.341,
+              "pid": 15740,
+              "tid": 11592,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023442264"
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 256.009,
+              "pid": 15740,
+              "tid": 11592,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "functionName": "self.onmessage",
+                  "isolate": "12664369474299647277",
+                  "lineNumber": 153,
+                  "sampleTraceId": 5564247739556697,
+                  "scriptId": "3",
+                  "url": "http://127.0.0.1:4187/assets/worker-runtime/722bce91fa7f4364463e55cfc179c53d/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-69a34dceccdf&dataRevision=data-f50b7f480c812df6f5ea0c40f5461ab0"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 132.107,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023442137"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 114.283,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023448583"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 79.8,
+              "pid": 15740,
+              "tid": 21104,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 392
+              }
+            },
+            {
+              "name": "TimerFire",
+              "ms": 71.484,
+              "pid": 15740,
+              "tid": 11592,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "timerId": 18
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 63.647,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023442120"
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 63.598,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 24,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "worker.onmessage",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 26,
+                  "sampleTraceId": 5564247739556553,
+                  "scriptId": "217",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/gpu-worker-channels.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 62.264,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 1355,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023448600,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 62.14,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023442410"
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 62.099,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 24,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "worker.onmessage",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 26,
+                  "sampleTraceId": 5564247739556843,
+                  "scriptId": "217",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/gpu-worker-channels.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "TimerFire",
+              "ms": 58.766,
+              "pid": 15740,
+              "tid": 11592,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "timerId": 27
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 56.846,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 614
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 56.479,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739563072,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 50.868,
+              "pid": 15740,
+              "tid": 18668,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 368
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 1,
+          "requestedAt": 33857.69999999553,
+          "presentedAt": 34645.69999999553,
+          "readyAt": 34783.29999999702,
+          "target": "2026-11",
+          "kind": "warmup",
+          "requestedToPresentedMs": 788,
+          "requestedToReadyMs": 925.6000000014901,
+          "presentedToReadyMs": 137.60000000149012,
+          "releaseRoundtripMs": 14.699999995529652,
+          "workerReleaseMs": 4,
+          "longTaskMaxMs": 158,
+          "longTasks": [
+            {
+              "at": 34423.69999999553,
+              "ms": 158
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.543,
+          "layerTotalMs": 0.7810000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 387.191,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023449009"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 158.982,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023449109"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.761,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023449127"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 107.466,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023449266"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 70.037,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 2072,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023449000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 64.889,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 628
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 64.547,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739563771,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 2,
+          "requestedAt": 47256.89999999851,
+          "presentedAt": 48081.69999999553,
+          "readyAt": 48214.5,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 824.7999999970198,
+          "requestedToReadyMs": 957.6000000014901,
+          "presentedToReadyMs": 132.80000000447035,
+          "releaseRoundtripMs": 8.600000001490116,
+          "workerReleaseMs": 3.2999999970197678,
+          "longTaskMaxMs": 159,
+          "longTasks": [
+            {
+              "at": 47861.79999999702,
+              "ms": 159
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.567,
+          "layerTotalMs": 0.779,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 423.936,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023449558"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.6,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447560"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.452,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447620"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 109.879,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447751"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 66.361,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 2878,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023447600,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 61.705,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 643
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 61.39,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739562015,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 51.413,
+              "pid": 15740,
+              "tid": 18668,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 464
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 51.14,
+              "pid": 15740,
+              "tid": 1388,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 464
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 3,
+          "requestedAt": 60606.19999999553,
+          "presentedAt": 61452.19999999553,
+          "readyAt": 61576.39999999851,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 846,
+          "requestedToReadyMs": 970.2000000029802,
+          "presentedToReadyMs": 124.20000000298023,
+          "releaseRoundtripMs": 8.199999995529652,
+          "workerReleaseMs": 3.2000000029802322,
+          "longTaskMaxMs": 163,
+          "longTasks": [
+            {
+              "at": 61230,
+              "ms": 163
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 14,
+          "layerMaxMs": 0.534,
+          "layerTotalMs": 0.7110000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 438.862,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023448082"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 163.851,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023448445"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 137.205,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023448195"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 102.063,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023448330"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 64.191,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 3681,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023448600,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 59.613,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 657
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 59.34,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739562819,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 4,
+          "requestedAt": 74105.89999999851,
+          "presentedAt": 74895.59999999404,
+          "readyAt": 75020.59999999404,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 789.6999999955297,
+          "requestedToReadyMs": 914.6999999955297,
+          "presentedToReadyMs": 125,
+          "releaseRoundtripMs": 8.599999994039536,
+          "workerReleaseMs": 3.3000000044703484,
+          "longTaskMaxMs": 160,
+          "longTasks": [
+            {
+              "at": 74677.39999999851,
+              "ms": 160
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.53,
+          "layerTotalMs": 0.7500000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 388.45,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023446544"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 160.646,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023446858"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.618,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023446657"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 101.456,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023446790"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 63.929,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 4487,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023447000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 59.286,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 672
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 58.57,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739561305,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 5,
+          "requestedAt": 87087.59999999404,
+          "presentedAt": 87883.19999999553,
+          "readyAt": 88012,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 795.6000000014901,
+          "requestedToReadyMs": 924.4000000059605,
+          "presentedToReadyMs": 128.80000000447035,
+          "releaseRoundtripMs": 10.200000002980232,
+          "workerReleaseMs": 3.399999998509884,
+          "longTaskMaxMs": 160,
+          "longTasks": [
+            {
+              "at": 87659.09999999404,
+              "ms": 160
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.536,
+          "layerTotalMs": 0.7590000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 390.513,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447404"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 160.924,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447494"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 129.126,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447314"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 103.52,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023447442"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 69.383,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 5266,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023447600,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 64.667,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 687
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 64.366,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739561941,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 6,
+          "requestedAt": 100140.89999999851,
+          "presentedAt": 100986.19999999553,
+          "readyAt": 101111.29999999702,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 845.2999999970198,
+          "requestedToReadyMs": 970.3999999985099,
+          "presentedToReadyMs": 125.10000000149012,
+          "releaseRoundtripMs": 8.600000001490116,
+          "workerReleaseMs": 3.5,
+          "longTaskMaxMs": 173,
+          "longTasks": [
+            {
+              "at": 100752.5,
+              "ms": 173
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.551,
+          "layerTotalMs": 0.7570000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 401.767,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023445640"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 173.708,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023445985"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 135.735,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023445817"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 102.524,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023445948"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 65.911,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 6052,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023446000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 61.246,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 702
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 60.974,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739560436,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 7,
+          "requestedAt": 112921,
+          "presentedAt": 113759.89999999851,
+          "readyAt": 113885.59999999404,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 838.8999999985099,
+          "requestedToReadyMs": 964.5999999940395,
+          "presentedToReadyMs": 125.69999999552965,
+          "releaseRoundtripMs": 9.5,
+          "workerReleaseMs": 3.399999998509884,
+          "longTaskMaxMs": 198,
+          "longTasks": [
+            {
+              "at": 113496.69999999553,
+              "ms": 198
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.539,
+          "layerTotalMs": 0.7390000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 394.955,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023446273"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 198.187,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023436409"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 129.605,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023446455"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 101.656,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023436299"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 71.125,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 6817,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023436300,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 66.359,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 717
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 66.055,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739550787,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 54.193,
+              "pid": 15740,
+              "tid": 13080,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 718
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 54.115,
+              "pid": 15740,
+              "tid": 1388,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 718
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 8,
+          "requestedAt": 125987.59999999404,
+          "presentedAt": 126838.19999999553,
+          "readyAt": 126966.69999999553,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 850.6000000014901,
+          "requestedToReadyMs": 979.1000000014901,
+          "presentedToReadyMs": 128.5,
+          "releaseRoundtripMs": 8.400000005960464,
+          "workerReleaseMs": 3.899999998509884,
+          "longTaskMaxMs": 166,
+          "longTasks": [
+            {
+              "at": 126609.69999999553,
+              "ms": 166
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.538,
+          "layerTotalMs": 0.755,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 422.714,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023436603"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 166.084,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023436700"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 148.823,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023436713"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 104.74,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023436840"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 68.373,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 7603,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023437000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 63.816,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 732
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 63.527,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739551331,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "default-retest",
+          "category": "hardware-reported",
+          "round": 9,
+          "requestedAt": 138952.5,
+          "presentedAt": 139748,
+          "readyAt": 139872.79999999702,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 795.5,
+          "requestedToReadyMs": 920.2999999970198,
+          "presentedToReadyMs": 124.79999999701977,
+          "releaseRoundtripMs": 8.800000004470348,
+          "workerReleaseMs": 3.399999998509884,
+          "longTaskMaxMs": 164,
+          "longTasks": [
+            {
+              "at": 139526.59999999404,
+              "ms": 164
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 0.549,
+          "layerTotalMs": 0.7540000000000001,
+          "topTraceSpans": [
+            {
+              "name": "HandlePostMessage",
+              "ms": 392.243,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023437237"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 164.338,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023435497"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 130.115,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023435322"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 101.825,
+              "pid": 15740,
+              "tid": 14276,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "3869652728023435428"
+                }
+              }
+            },
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 62.772,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 8378,
+                "main_frame_pipeline": {
+                  "main_frame_id": 3869652728023435300,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 58.281,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "id": 747
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 58.014,
+              "pid": 15740,
+              "tid": 7336,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "200311009B9D117964FA170928779D33",
+                  "functionName": "",
+                  "isolate": "13164847672160536835",
+                  "lineNumber": 346,
+                  "sampleTraceId": 5564247739549948,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "unforced",
+      "status": "passed",
+      "category": "swiftshader-software",
+      "driver": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "stats": {
+        "requestedToPresentedMs": {
+          "p50": 809.9,
+          "p95Exploratory": 832.3,
+          "max": 834.8000000044703
+        },
+        "requestedToReadyMs": {
+          "p50": 3618,
+          "p95Exploratory": 3642.6,
+          "max": 3645.3000000044703
+        },
+        "presentedToReadyMs": {
+          "p50": 2808.1,
+          "p95Exploratory": 2810.3,
+          "max": 2810.5
+        },
+        "releaseRoundtripMs": {
+          "p50": 2656.3,
+          "p95Exploratory": 2666.6,
+          "max": 2667.7999999970198
+        },
+        "longTaskMaxMs": {
+          "p50": 2711,
+          "p95Exploratory": 2724.5,
+          "max": 2726
+        }
+      },
+      "rows": [
+        {
+          "mode": "unforced",
+          "category": "swiftshader-software",
+          "round": 0,
+          "requestedAt": 40156,
+          "presentedAt": 41355.29999999702,
+          "readyAt": 44242.5,
+          "target": "2025-12",
+          "kind": "warmup",
+          "requestedToPresentedMs": 1199.2999999970198,
+          "requestedToReadyMs": 4086.5,
+          "presentedToReadyMs": 2887.2000000029802,
+          "releaseRoundtripMs": 2717.5,
+          "workerReleaseMs": 3,
+          "longTaskMaxMs": 2772,
+          "longTasks": [
+            {
+              "at": 40153.70000000298,
+              "ms": 371
+            },
+            {
+              "at": 41134.70000000298,
+              "ms": 162
+            },
+            {
+              "at": 41297.29999999702,
+              "ms": 2772
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 14,
+          "layerMaxMs": 2708.227,
+          "layerTotalMs": 2753.685,
+          "topTraceSpans": [
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 2772.068,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 2475,
+                "main_frame_pipeline": {
+                  "main_frame_id": 17508223489455890000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "LayerTreeHost::DoUpdateLayers",
+              "ms": 2708.227,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "source_frame_number": 385
+              }
+            },
+            {
+              "name": "GLES2::ReadPixels",
+              "ms": 2706.276,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "ImplementationBase::WaitForCmd",
+              "ms": 2705.707,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferHelper::Finish",
+              "ms": 2705.705,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferProxyImpl::WaitForGetOffset",
+              "ms": 2705.63,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "end": 45002,
+                "start": 45002
+              }
+            },
+            {
+              "name": "Scheduler::RunTask",
+              "ms": 2705.393,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "GpuChannel::ExecuteDeferredRequest",
+              "ms": 2705.385,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "WebGL",
+              "ms": 2705.373,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBuffer::Flush",
+              "ms": 2705.37,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferStub::OnAsyncFlush",
+              "ms": 2705.369,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "put_offset": 45002
+              }
+            },
+            {
+              "name": "CommandBufferService:PutChanged",
+              "ms": 2705.321,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "handler": ".WebGL-0x4cdc0254fe00",
+                "put_offset": 45002
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 437.486,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455889525"
+                }
+              }
+            },
+            {
+              "name": "EventDispatch",
+              "ms": 368.349,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "type": "click"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 162.596,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455889844"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 140.785,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455889083"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 138.654,
+              "pid": 5320,
+              "tid": 16392,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 385
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 138.45,
+              "pid": 5320,
+              "tid": 16552,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 385
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 138.429,
+              "pid": 5320,
+              "tid": 13280,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 385
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 137.345,
+              "pid": 5320,
+              "tid": 20652,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 385
+              }
+            }
+          ]
+        },
+        {
+          "mode": "unforced",
+          "category": "swiftshader-software",
+          "round": 1,
+          "requestedAt": 56401,
+          "presentedAt": 57228.5,
+          "readyAt": 59973.70000000298,
+          "target": "2026-11",
+          "kind": "warmup",
+          "requestedToPresentedMs": 827.5,
+          "requestedToReadyMs": 3572.7000000029802,
+          "presentedToReadyMs": 2745.2000000029802,
+          "releaseRoundtripMs": 2598.8000000044703,
+          "workerReleaseMs": 3.3000000044703484,
+          "longTaskMaxMs": 2653,
+          "longTasks": [
+            {
+              "at": 57003.5,
+              "ms": 166
+            },
+            {
+              "at": 57170.10000000149,
+              "ms": 2653
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 2589.876,
+          "layerTotalMs": 2650.1450000000004,
+          "topTraceSpans": [
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 2653.785,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 3427,
+                "main_frame_pipeline": {
+                  "main_frame_id": 17508223489455888000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "LayerTreeHost::DoUpdateLayers",
+              "ms": 2589.876,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "source_frame_number": 406
+              }
+            },
+            {
+              "name": "GLES2::ReadPixels",
+              "ms": 2587.965,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "ImplementationBase::WaitForCmd",
+              "ms": 2587.606,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferHelper::Finish",
+              "ms": 2587.605,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferProxyImpl::WaitForGetOffset",
+              "ms": 2587.527,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "end": 144283,
+                "start": 144283
+              }
+            },
+            {
+              "name": "Scheduler::RunTask",
+              "ms": 2587.337,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "GpuChannel::ExecuteDeferredRequest",
+              "ms": 2587.328,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "WebGL",
+              "ms": 2587.317,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBuffer::Flush",
+              "ms": 2587.314,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferStub::OnAsyncFlush",
+              "ms": 2587.313,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "put_offset": 144283
+              }
+            },
+            {
+              "name": "CommandBufferService:PutChanged",
+              "ms": 2587.272,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "handler": ".WebGL-0x4cdc0254fe00",
+                "put_offset": 144283
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 387.912,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455888495"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 166.613,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455888821"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 131.346,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455888884"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 115.705,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455892147"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 59.766,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "7D5D7354E3C3E1A0C0192F9105B50427",
+                  "id": 534
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 59.484,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "7D5D7354E3C3E1A0C0192F9105B50427",
+                  "functionName": "",
+                  "isolate": "5419043978294073881",
+                  "lineNumber": 346,
+                  "sampleTraceId": 7235337494141349,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "unforced",
+          "category": "swiftshader-software",
+          "round": 2,
+          "requestedAt": 72267.39999999851,
+          "presentedAt": 73102.20000000298,
+          "readyAt": 75912.70000000298,
+          "target": "2025-12",
+          "kind": "measured",
+          "requestedToPresentedMs": 834.8000000044703,
+          "requestedToReadyMs": 3645.3000000044703,
+          "presentedToReadyMs": 2810.5,
+          "releaseRoundtripMs": 2667.7999999970198,
+          "workerReleaseMs": 4.299999997019768,
+          "longTaskMaxMs": 2726,
+          "longTasks": [
+            {
+              "at": 72877.70000000298,
+              "ms": 163
+            },
+            {
+              "at": 73041.29999999702,
+              "ms": 2726
+            }
+          ],
+          "semanticHash": "f86eee17a50e0cfe12d8df11f3cc4d16b7c1319f59b4478ce0d986c01d239654",
+          "visible": 254,
+          "layerCount": 15,
+          "layerMaxMs": 2659.241,
+          "layerTotalMs": 2722.121,
+          "topTraceSpans": [
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 2725.964,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 4380,
+                "main_frame_pipeline": {
+                  "main_frame_id": 17508223489455892000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "LayerTreeHost::DoUpdateLayers",
+              "ms": 2659.241,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "source_frame_number": 427
+              }
+            },
+            {
+              "name": "GLES2::ReadPixels",
+              "ms": 2657.274,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "ImplementationBase::WaitForCmd",
+              "ms": 2656.89,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferHelper::Finish",
+              "ms": 2656.889,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferProxyImpl::WaitForGetOffset",
+              "ms": 2656.842,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "end": 243564,
+                "start": 243564
+              }
+            },
+            {
+              "name": "Scheduler::RunTask",
+              "ms": 2656.623,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "GpuChannel::ExecuteDeferredRequest",
+              "ms": 2656.614,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "WebGL",
+              "ms": 2656.603,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBuffer::Flush",
+              "ms": 2656.599,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferStub::OnAsyncFlush",
+              "ms": 2656.597,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "put_offset": 243564
+              }
+            },
+            {
+              "name": "CommandBufferService:PutChanged",
+              "ms": 2656.544,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "handler": ".WebGL-0x4cdc0254fe00",
+                "put_offset": 243564
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 403.298,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455892264"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 163.489,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455891560"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 136.737,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455891623"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 114.657,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455891811"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 62.441,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "7D5D7354E3C3E1A0C0192F9105B50427",
+                  "id": 549
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 62.1,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "7D5D7354E3C3E1A0C0192F9105B50427",
+                  "functionName": "",
+                  "isolate": "5419043978294073881",
+                  "lineNumber": 346,
+                  "sampleTraceId": 7235337494144086,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mode": "unforced",
+          "category": "swiftshader-software",
+          "round": 3,
+          "requestedAt": 88048.5,
+          "presentedAt": 88833.5,
+          "readyAt": 91639.20000000298,
+          "target": "2026-11",
+          "kind": "measured",
+          "requestedToPresentedMs": 785,
+          "requestedToReadyMs": 3590.7000000029802,
+          "presentedToReadyMs": 2805.7000000029802,
+          "releaseRoundtripMs": 2644.8000000044703,
+          "workerReleaseMs": 3.2999999970197678,
+          "longTaskMaxMs": 2696,
+          "longTasks": [
+            {
+              "at": 88619.5,
+              "ms": 159
+            },
+            {
+              "at": 88779.39999999851,
+              "ms": 2696
+            }
+          ],
+          "semanticHash": "99e67c572db8e13ab5aa6d054c5f1ff6162dffebd36913fe2909e8bf59eb44d5",
+          "visible": 254,
+          "layerCount": 14,
+          "layerMaxMs": 2636.769,
+          "layerTotalMs": 2682.1209999999996,
+          "topTraceSpans": [
+            {
+              "name": "ProxyMain::BeginMainFrame",
+              "ms": 2696.529,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "begin_frame_id": 5324,
+                "main_frame_pipeline": {
+                  "main_frame_id": 17508223489455890000,
+                  "step": "BEGIN_MAIN_FRAME"
+                }
+              }
+            },
+            {
+              "name": "LayerTreeHost::DoUpdateLayers",
+              "ms": 2636.769,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "source_frame_number": 451
+              }
+            },
+            {
+              "name": "GLES2::ReadPixels",
+              "ms": 2635.336,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "ImplementationBase::WaitForCmd",
+              "ms": 2635.038,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferHelper::Finish",
+              "ms": 2635.037,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferProxyImpl::WaitForGetOffset",
+              "ms": 2634.951,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "end": 80422,
+                "start": 80422
+              }
+            },
+            {
+              "name": "Scheduler::RunTask",
+              "ms": 2634.782,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "GpuChannel::ExecuteDeferredRequest",
+              "ms": 2634.773,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "WebGL",
+              "ms": 2634.762,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBuffer::Flush",
+              "ms": 2634.76,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {}
+            },
+            {
+              "name": "CommandBufferStub::OnAsyncFlush",
+              "ms": 2634.758,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "put_offset": 80422
+              }
+            },
+            {
+              "name": "CommandBufferService:PutChanged",
+              "ms": 2634.692,
+              "pid": 14540,
+              "tid": 17512,
+              "thread": "CrGpuMain",
+              "args": {
+                "handler": ".WebGL-0x4cdc0254fe00",
+                "put_offset": 80422
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 392.328,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455890667"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 159.793,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455890525"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 132.225,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455890774"
+                }
+              }
+            },
+            {
+              "name": "HandlePostMessage",
+              "ms": 128.964,
+              "pid": 5320,
+              "tid": 652,
+              "thread": "DedicatedWorker thread",
+              "args": {
+                "data": {
+                  "traceId": "17508223489455890570"
+                }
+              }
+            },
+            {
+              "name": "FireAnimationFrame",
+              "ms": 55.471,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "frame": "7D5D7354E3C3E1A0C0192F9105B50427",
+                  "id": 563
+                }
+              }
+            },
+            {
+              "name": "FunctionCall",
+              "ms": 55.201,
+              "pid": 5320,
+              "tid": 5404,
+              "thread": "CrRendererMain",
+              "args": {
+                "data": {
+                  "columnNumber": 18,
+                  "frame": "7D5D7354E3C3E1A0C0192F9105B50427",
+                  "functionName": "",
+                  "isolate": "5419043978294073881",
+                  "lineNumber": 346,
+                  "sampleTraceId": 7235337494143050,
+                  "scriptId": "200",
+                  "url": "http://127.0.0.1:4187/assets/js/modules/map-render-coordinator.js?v=0.36.0-build-69a34dceccdf"
+                }
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 50.545,
+              "pid": 5320,
+              "tid": 16552,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 502
+              }
+            },
+            {
+              "name": "V8.GC_MC_BACKGROUND_MARKING",
+              "ms": 50.341,
+              "pid": 5320,
+              "tid": 16392,
+              "thread": "ThreadPoolForegroundWorker",
+              "args": {
+                "epoch": 502
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sameSource": true,
+  "sameSemantics": true,
+  "complete": true
+}
