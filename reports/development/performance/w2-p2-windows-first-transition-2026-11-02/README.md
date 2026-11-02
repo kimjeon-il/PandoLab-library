@@ -118,4 +118,4 @@ Worker target 수는 대표 실행에서 시작/종료 모두 7개였다. 추가
 
 기존 ui의 AGENTS.md, branch-policy.md, pnpm-lock.yaml, WASM/manifest 바이트를 그대로 보존했다. 진단 워크트리의 tracked 소스도 clean 상태다. 해당 예외 worktree는 승인 없이 제거하지 않으며 현재 증거 재현 경로로 보존한다. 공유 node_modules와 ui의 runtime 캐시는 현재 pin과 재현 도구의 소비자이므로 유지한다. 원시 trace/profile/PNG는 고유 검증 증거이며 재생성 가능한 임시 빌드 사본으로 취급하지 않는다. main 통합과 공개 배포는 수행하지 않았다.
 
-保管補足: 진단 worktree의 tracked 소스는 3,692개, 논리 크기 81,477,838 bytes다. 현 호스트 재현 경로이므로 보존하며 자동 삭제하지 않는다. 보고 범위는 약 255MB의 고유 trace/profile/화면/버전별 진단 소스와 batch 완료 증거다. 재실행은 새 보고 편집 하위 디렉터리를 사용해야 하며 현재 runner는 기존 실행 이름의 JSON/PNG/trace 덮어쓰기를 거부한다. phase results는 배치 완료 및 개별 원시 결과와의 일치 검증에 사용한다.
+보관 보충: 진단 worktree의 tracked 소스는 3,692개, 논리 크기 81,477,838 bytes다. 현 호스트 재현 경로이므로 보존하며 자동 삭제하지 않는다. 보고 범위는 약 255MB의 고유 trace/profile/화면/버전별 진단 소스와 batch 완료 증거다. 재실행은 새 보고 편집 하위 디렉터리를 사용해야 하며 현재 runner는 기존 실행 이름의 JSON/PNG/trace 덮어쓰기를 거부한다. phase results는 배치 완료 및 개별 원시 결과와의 일치 검증에 사용한다.
