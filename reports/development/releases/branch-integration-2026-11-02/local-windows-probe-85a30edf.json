@@ -1,0 +1,49 @@
+{
+  "embeddedBuild": {
+    "commit": "85a30edf63180524d532fa4067694c5b7d00dac2",
+    "coreSourceSha256": "9225ebc3704f4b7cdf2a3119609e3a7170fffaedc7369dceed61eeb76a32eff6",
+    "executionMode": "verification",
+    "files": [
+      {
+        "bytes": 55329,
+        "path": "assets/wasm/pandoeditor-core.js",
+        "sha256": "064dab971a64dc61b4e4da6609b97b38d94757db8ae1c98254596c6cb4ae04bf"
+      },
+      {
+        "bytes": 3352591,
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "sha256": "d1a22762fdeb8cfb03163da22ba3cb4850a0fd9c93291f50fde6d5f3b839e135"
+      },
+      {
+        "bytes": 24469,
+        "path": "assets/wasm/pandoeditor-core.manifest.json",
+        "sha256": "3effb107f52e006917c6638e42c448590e81b901725b9d2df5e5d26575589cbb"
+      }
+    ],
+    "fixture": null,
+    "mode": "verification",
+    "nativeInputSha256": "63b4fa0780f452fda1387e91acc0205fb7c2f3b18945d3dc1d34937cbdabf6a4",
+    "platform": "windows",
+    "profile": "map-data",
+    "schema": "pandolab-web-shell-stage",
+    "sourceCommit": "85a30edf63180524d532fa4067694c5b7d00dac2",
+    "target": "x86_64-pc-windows-msvc",
+    "toolchainVersion": "1.99.1",
+    "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification": true
+  },
+  "observed": {
+    "canUndo": false,
+    "dataReady": true,
+    "editorDomAbsent": true,
+    "elapsedMs": 18558,
+    "hasReviewLoad": true,
+    "mutationBlocked": true,
+    "panelOpen": true,
+    "projection": "flat",
+    "readOnly": true
+  },
+  "ok": true,
+  "phase": "read-only-map-ready",
+  "schema": "pandolab-windows-review-probe"
+}
