@@ -1,5 +1,5 @@
 import {chromium,expect} from '@playwright/test';
-import {writeFileSync,mkdirSync} from 'node:fs';
+import {existsSync,writeFileSync,mkdirSync} from 'node:fs';
 import {gzipSync} from 'node:zlib';
 import {execFileSync} from 'node:child_process';
 import {reportPath} from './report-paths.mjs';
@@ -7,6 +7,7 @@ const base=process.env.PANDOLAB_W2_EVIDENCE||reportPath('reports/development/per
 const results=[];
 function nativeMemory(processes){const ids=processes.map(p=>Number(p.id)).filter(Number.isInteger);return JSON.parse(execFileSync('powershell.exe',['-NoProfile','-Command','@(Get-Process -Id '+ids.join(',')+' -ErrorAction SilentlyContinue | Select-Object Id,WorkingSet64,PrivateMemorySize64) | ConvertTo-Json -Compress'],{encoding:'utf8',windowsHide:true})||'[]');}
 async function run(name,{plain=false,software=false,delay=null,warm=0,profile=true}={}){
+ if(['.json','.png','-trace.json.gz'].some(suffix=>existsSync(base+'/'+name+suffix)))throw Error('Preserve existing evidence; select a fresh PANDOLAB_W2_EVIDENCE directory: '+name);
  console.log('W2_START '+name);
  const events=[],errors=[],warnings=[];let browser,cdp,context;
  const row={name,plain,software,delay,profile,samples:[],status:'running'};
