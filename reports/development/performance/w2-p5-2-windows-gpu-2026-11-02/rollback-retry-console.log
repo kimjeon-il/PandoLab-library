@@ -1,0 +1,11 @@
+W5_ROLLBACK failed Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+
+Call Log:
+- Timeout 120000ms exceeded while waiting on the predicate
+    at captureRawStack (D:\build\cache\pandolab\pnpm\store\v11\links\@\playwright-core\1.62.1\d16be522bd3782e68b18803e7d9d69b1e31fd31d6e7ecd51a853b07a5b44f577\node_modules\playwright-core\lib\coreBundle.js:9681:17)
+    at callMatcherAsStep (D:\build\cache\pandolab\pnpm\store\v11\links\@\playwright\1.62.1\ce969b33b40494ae10f81dc5790dde91d8f88fe7798e18d8eff26444c67071e2\node_modules\playwright\lib\matchers\expect.js:13310:57)
+    at Object.toBe (D:\build\cache\pandolab\pnpm\store\v11\links\@\playwright\1.62.1\ce969b33b40494ae10f81dc5790dde91d8f88fe7798e18d8eff26444c67071e2\node_modules\playwright\lib\matchers\expect.js:13300:23)
+    at D:\dev\worktrees\ui\tools\w2-p5-2-rollback.mjs:11:353

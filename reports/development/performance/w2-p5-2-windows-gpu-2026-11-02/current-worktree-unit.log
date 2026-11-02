@@ -1,0 +1,92 @@
+✔ leaving the historical window during first lake admission cannot overwrite the modern second lake (39.7034ms)
+✔ changing only the timeline cursor prevents stale second lake admission before the next frame (6.6595ms)
+✔ exact identical in-flight work is adopted only with the current generation certificate (27.3844ms)
+✔ changed geometry is sent natively and never joined (7.7841ms)
+✔ changed owner is sent natively and never joined (20.7233ms)
+✔ changed quality is sent natively and never joined (9.9876ms)
+✔ changed outlines is sent natively and never joined (20.0721ms)
+✔ a superseding generation cannot receive an old joined response (9.3588ms)
+✔ an unavailable readiness certificate falls back to native delivery (8.7942ms)
+✔ a third request supersedes the held second request without admitting stale output (1.0906ms)
+✔ an old Worker error causes the newer request to be sent normally (0.7521ms)
+✔ a same-generation patch flushes the pending replacement before the patch (0.639ms)
+✔ an asynchronous native fallback failure reaches the channel error handler (14.484ms)
+✖ W2-P5 same-content cancellation loses a useful in-flight packet cache; never assert a speed win (2.7263ms)
+✖ W2-P5 pre-packet cooperative cancellation skips an obsolete generation with different content (0.5555ms)
+✖ W2-P5 grace mode still publishes initial boundaries if no new date is requested (0.3588ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 13
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 388.391
+
+✖ failing tests:
+
+test at tests\unit\w2-p5-worker-contention.test.mjs:115:1
+✖ W2-P5 same-content cancellation loses a useful in-flight packet cache; never assert a speed win (2.7263ms)
+  AssertionError [ERR_ASSERTION]: The exact pre-packet checkpoint moved: re-audit cancellation semantics before testing.
+  
+  1 !== 2
+  
+      at spawn (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:25:10)
+      at referencePacket (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:105:13)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:116:24)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\w2-p5-worker-contention.test.mjs:132:1
+✖ W2-P5 pre-packet cooperative cancellation skips an obsolete generation with different content (0.5555ms)
+  AssertionError [ERR_ASSERTION]: The exact pre-packet checkpoint moved: re-audit cancellation semantics before testing.
+  
+  1 !== 2
+  
+      at spawn (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:25:10)
+      at referencePacket (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:105:13)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:133:24)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\w2-p5-worker-contention.test.mjs:153:1
+✖ W2-P5 grace mode still publishes initial boundaries if no new date is requested (0.3588ms)
+  AssertionError [ERR_ASSERTION]: The exact pre-packet checkpoint moved: re-audit cancellation semantics before testing.
+  
+  1 !== 2
+  
+      at spawn (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:25:10)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/w2-p5-worker-contention.test.mjs:154:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,13 @@
+W2P5_SAME_CONTENT {"syntheticWorkMs":350,"graceMs":85,"runs":[{"mode":"baseline","elapsedMs":389.97439999999983,"cacheHit":true},{"mode":"grace","elapsedMs":470.5568999999998,"cacheHit":false},{"mode":"baseline","elapsedMs":390.2651000000001,"cacheHit":true}],"conclusion":"canceling an identical in-flight computation discards a cache that the next generation needs","realGpuSpeedupClaim":false}
+✔ W2-P5 same-content cancellation loses a useful in-flight packet cache; never assert a speed win (2768.7894ms)
+W2P5_CHANGED_CONTENT {"syntheticWorkMs":350,"graceMs":85,"runs":[{"mode":"baseline","elapsedMs":734.1810999999998,"cacheHit":false},{"mode":"grace","elapsedMs":470.0036999999993,"cacheHit":false},{"mode":"baseline","elapsedMs":745.6580999999996,"cacheHit":false}],"conclusion":"skip only when request is superseded before synchronous packet computation","realGpuSpeedupClaim":false}
+✔ W2-P5 pre-packet cooperative cancellation skips an obsolete generation with different content (3233.24ms)
+✔ W2-P5 grace mode still publishes initial boundaries if no new date is requested (884.0167ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7006.4047

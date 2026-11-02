@@ -1,0 +1,1178 @@
+{
+  "A": {
+    "n": 10,
+    "elapsed": {
+      "p50": 16433.54999999702,
+      "p90": 17877.410000000895,
+      "max": 17944.10000000894
+    },
+    "afterCheckpoint": {
+      "p50": 7526.04999999702,
+      "p90": 7942.609999999404,
+      "max": 8218.09999999404
+    },
+    "afterCheckpointIncludingIdentity": {
+      "p50": 8001.79999999702,
+      "p90": 8481.00000001043,
+      "max": 8703.29999999702
+    },
+    "identity": {
+      "p50": 281.8500000014901,
+      "p90": 300.2400000080466,
+      "max": 342
+    },
+    "geometry": {
+      "p50": 197,
+      "p90": 202.32000001072885,
+      "max": 202.5
+    },
+    "cancelled": 0,
+    "cacheHits": 0,
+    "rows": [
+      {
+        "name": "protocol-changed-A-0",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 342,
+        "geometryMs": 202.30000001192093,
+        "featureCount": 254,
+        "elapsedMs": 17688.90000000596,
+        "afterCheckpointMs": 7912,
+        "afterCheckpointIncludingIdentityMs": 8456.300000011921,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9776.90000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 17688.80000001192,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-1",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 280.70000000298023,
+        "geometryMs": 195.09999999403954,
+        "featureCount": 254,
+        "elapsedMs": 17944.10000000894,
+        "afterCheckpointMs": 7401.70000000298,
+        "afterCheckpointIncludingIdentityMs": 7877.5,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 10542.40000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 17943.79999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-2",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 287,
+        "geometryMs": 198.20000000298023,
+        "featureCount": 254,
+        "elapsedMs": 17870,
+        "afterCheckpointMs": 8218.09999999404,
+        "afterCheckpointIncludingIdentityMs": 8703.29999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9651.90000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 17869.90000000596,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-3",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 274.70000000298023,
+        "geometryMs": 196.5,
+        "featureCount": 254,
+        "elapsedMs": 16502.5,
+        "afterCheckpointMs": 7524.399999991059,
+        "afterCheckpointIncludingIdentityMs": 7995.5999999940395,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8978.10000000894,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16502.40000000596,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-4",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 295.6000000089407,
+        "geometryMs": 195.69999998807907,
+        "featureCount": 254,
+        "elapsedMs": 16364.59999999404,
+        "afterCheckpointMs": 7616,
+        "afterCheckpointIncludingIdentityMs": 8107.29999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8748.59999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16364.59999999404,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-5",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 277.79999999701977,
+        "geometryMs": 202.5,
+        "featureCount": 254,
+        "elapsedMs": 16270,
+        "afterCheckpointMs": 7527.70000000298,
+        "afterCheckpointIncludingIdentityMs": 8008,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8742.29999999702,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16269.90000000596,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-6",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 273.29999999701977,
+        "geometryMs": 196.79999999701977,
+        "featureCount": 254,
+        "elapsedMs": 16720.79999999702,
+        "afterCheckpointMs": 7638.29999999702,
+        "afterCheckpointIncludingIdentityMs": 8108.399999991059,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9082.5,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16720.59999999404,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-7",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 283,
+        "geometryMs": 195.70000000298023,
+        "featureCount": 254,
+        "elapsedMs": 15822.20000000298,
+        "afterCheckpointMs": 7216.5999999940395,
+        "afterCheckpointIncludingIdentityMs": 7695.29999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8605.60000000894,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 15822.20000000298,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-8",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 288,
+        "geometryMs": 197.20000000298023,
+        "featureCount": 254,
+        "elapsedMs": 15925,
+        "afterCheckpointMs": 7400.29999999702,
+        "afterCheckpointIncludingIdentityMs": 7885.5,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8524.70000000298,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 15925,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A-9",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 278.20000000298023,
+        "geometryMs": 201.70000000298023,
+        "featureCount": 254,
+        "elapsedMs": 16211,
+        "afterCheckpointMs": 7390.9000000059605,
+        "afterCheckpointIncludingIdentityMs": 7870.800000011921,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8820.09999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16210.79999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      }
+    ]
+  },
+  "B": {
+    "n": 10,
+    "elapsed": {
+      "p50": 12857.84999999404,
+      "p90": 13243.240000005066,
+      "max": 14807.79999999702
+    },
+    "afterCheckpoint": {
+      "p50": 4101.35000000149,
+      "p90": 4330.75000000149,
+      "max": 4398.699999988079
+    },
+    "afterCheckpointIncludingIdentity": {
+      "p50": 4569.60000000149,
+      "p90": 4923.269999989867,
+      "max": 5097.599999979138
+    },
+    "identity": {
+      "p50": 280.55000000447035,
+      "p90": 378.04999999701977,
+      "max": 447.79999999701977
+    },
+    "geometry": {
+      "p50": 197.59999999403954,
+      "p90": 238.1399999886751,
+      "max": 251.09999999403954
+    },
+    "cancelled": 10,
+    "cacheHits": 0,
+    "rows": [
+      {
+        "name": "protocol-changed-B-0",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 273,
+        "geometryMs": 194.70000000298023,
+        "featureCount": 254,
+        "elapsedMs": 12830.39999999106,
+        "afterCheckpointMs": 4099.899999991059,
+        "afterCheckpointIncludingIdentityMs": 4567.5999999940395,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8730.5,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9156.39999999106,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 12830.29999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-1",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 285.90000000596046,
+        "geometryMs": 200.8999999910593,
+        "featureCount": 254,
+        "elapsedMs": 12771.70000000298,
+        "afterCheckpointMs": 4019.2000000029802,
+        "afterCheckpointIncludingIdentityMs": 4506,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8752.5,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9191.40000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 12771.60000000894,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-2",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 370.29999999701977,
+        "geometryMs": 198.29999999701977,
+        "featureCount": 254,
+        "elapsedMs": 13011.5,
+        "afterCheckpointMs": 3980.9000000059605,
+        "afterCheckpointIncludingIdentityMs": 4549.5,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9030.59999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9438.5,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 13011.40000000596,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-3",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 275.20000000298023,
+        "geometryMs": 194.20000000298023,
+        "featureCount": 254,
+        "elapsedMs": 12550.70000000298,
+        "afterCheckpointMs": 3952.300000011921,
+        "afterCheckpointIncludingIdentityMs": 4421.700000017881,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8598.39999999106,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9001.5,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 12550.70000000298,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-4",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 273.09999999403954,
+        "geometryMs": 193.29999999701977,
+        "featureCount": 254,
+        "elapsedMs": 12568.90000000596,
+        "afterCheckpointMs": 3952.9000000059605,
+        "afterCheckpointIncludingIdentityMs": 4419.29999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8616,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9026.09999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 12568.90000000596,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-5",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 344,
+        "geometryMs": 236.69999998807907,
+        "featureCount": 254,
+        "elapsedMs": 13026.10000000894,
+        "afterCheckpointMs": 4323.20000000298,
+        "afterCheckpointIncludingIdentityMs": 4903.899999991059,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8702.90000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9167.20000000298,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 13026.10000000894,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-6",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 319.29999999701977,
+        "geometryMs": 207.09999999403954,
+        "featureCount": 254,
+        "elapsedMs": 12885.29999999702,
+        "afterCheckpointMs": 4209,
+        "afterCheckpointIncludingIdentityMs": 4735.399999991059,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8676.29999999702,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9100.20000000298,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 12885.29999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-7",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 273.29999999701977,
+        "geometryMs": 196.8999999910593,
+        "featureCount": 254,
+        "elapsedMs": 13069.40000000596,
+        "afterCheckpointMs": 4104.9000000059605,
+        "afterCheckpointIncludingIdentityMs": 4575.0999999940395,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8964.5,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9450,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 13069.40000000596,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-8",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 447.79999999701977,
+        "geometryMs": 251.09999999403954,
+        "featureCount": 254,
+        "elapsedMs": 14807.79999999702,
+        "afterCheckpointMs": 4398.699999988079,
+        "afterCheckpointIncludingIdentityMs": 5097.599999979138,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 10409.10000000894,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 10907.5,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 14807.60000000894,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-B-9",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 272.79999999701977,
+        "geometryMs": 196,
+        "featureCount": 254,
+        "elapsedMs": 12821.90000000596,
+        "afterCheckpointMs": 4102.800000011921,
+        "afterCheckpointIncludingIdentityMs": 4571.600000008941,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8719.09999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "w5-cancelled",
+            "id": 9101,
+            "at": 9145.90000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 12821.79999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      }
+    ]
+  },
+  "A2": {
+    "n": 10,
+    "elapsed": {
+      "p50": 16606.99999999255,
+      "p90": 16873.730000008643,
+      "max": 17333.90000000596
+    },
+    "afterCheckpoint": {
+      "p50": 7571.79999999702,
+      "p90": 7709.50000000298,
+      "max": 7865.20000000298
+    },
+    "afterCheckpointIncludingIdentity": {
+      "p50": 8057.89999999851,
+      "p90": 8274.599999997019,
+      "max": 8344.79999999702
+    },
+    "identity": {
+      "p50": 284.04999999701977,
+      "p90": 316.170000000298,
+      "max": 371.70000000298023
+    },
+    "geometry": {
+      "p50": 199.35000000149012,
+      "p90": 207.50999999940393,
+      "max": 230.09999999403954
+    },
+    "cancelled": 0,
+    "cacheHits": 0,
+    "rows": [
+      {
+        "name": "protocol-changed-A2-0",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 274.8999999910593,
+        "geometryMs": 204.70000000298023,
+        "featureCount": 254,
+        "elapsedMs": 17333.90000000596,
+        "afterCheckpointMs": 7865.20000000298,
+        "afterCheckpointIncludingIdentityMs": 8344.79999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9468.70000000298,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 17333.79999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-1",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 284.19999998807907,
+        "geometryMs": 199.20000000298023,
+        "featureCount": 254,
+        "elapsedMs": 16502.70000000298,
+        "afterCheckpointMs": 7557.79999999702,
+        "afterCheckpointIncludingIdentityMs": 8041.199999988079,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8944.90000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16502.59999999404,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-2",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 296.40000000596046,
+        "geometryMs": 230.09999999403954,
+        "featureCount": 254,
+        "elapsedMs": 16233.59999999404,
+        "afterCheckpointMs": 7381,
+        "afterCheckpointIncludingIdentityMs": 7907.5,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8852.59999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16233.5,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-3",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 285.29999999701977,
+        "geometryMs": 195.09999999403954,
+        "featureCount": 254,
+        "elapsedMs": 16452.40000000596,
+        "afterCheckpointMs": 7459.20000000298,
+        "afterCheckpointIncludingIdentityMs": 7939.5999999940395,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8993.20000000298,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16452.30000001192,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-4",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 271.79999999701977,
+        "geometryMs": 199.5,
+        "featureCount": 254,
+        "elapsedMs": 16628.89999999106,
+        "afterCheckpointMs": 7665.399999991059,
+        "afterCheckpointIncludingIdentityMs": 8136.699999988079,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8963.5,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16628.79999999702,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-5",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 280,
+        "geometryMs": 195.90000000596046,
+        "featureCount": 254,
+        "elapsedMs": 16505.70000000298,
+        "afterCheckpointMs": 7517,
+        "afterCheckpointIncludingIdentityMs": 7992.9000000059605,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8988.70000000298,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16505.70000000298,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-6",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 310,
+        "geometryMs": 197.59999999403954,
+        "featureCount": 254,
+        "elapsedMs": 16822.60000000894,
+        "afterCheckpointMs": 7665.70000000298,
+        "afterCheckpointIncludingIdentityMs": 8173.29999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9156.90000000596,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16822.60000000894,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-7",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 283.80000001192093,
+        "geometryMs": 205,
+        "featureCount": 254,
+        "elapsedMs": 16664.09999999404,
+        "afterCheckpointMs": 7585.79999999702,
+        "afterCheckpointIncludingIdentityMs": 8074.600000008941,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9078.29999999702,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16664,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-8",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 283.90000000596046,
+        "geometryMs": 196.29999999701977,
+        "featureCount": 254,
+        "elapsedMs": 16735.59999999404,
+        "afterCheckpointMs": 7326,
+        "afterCheckpointIncludingIdentityMs": 7806.20000000298,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 9409.59999999404,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16735.59999999404,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      },
+      {
+        "name": "protocol-changed-A2-9",
+        "oldIdentity": "a5905eac314b08dc4694fcc2574881feff46adc1e5a91426bd700f2cc8b7b53e",
+        "nextIdentity": "e5840198837be0a8fc0b81800d94858217bcdafa796f3467d8fe0b013323b330",
+        "oldGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "nextGeometrySha256": "f92c2d9e85a47505ef06f5a2cfb3ef3729d54a5d75a545577cf37746243352d3",
+        "identityMs": 371.70000000298023,
+        "geometryMs": 202.8999999910593,
+        "featureCount": 254,
+        "elapsedMs": 16585.09999999404,
+        "afterCheckpointMs": 7692.20000000298,
+        "afterCheckpointIncludingIdentityMs": 8266.79999999702,
+        "cacheHit": false,
+        "expected": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "actual": "f1def790eff71b032a6f6c624d70a2c02171527fe75e1ae56d360a547c201005",
+        "initialMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "finalMapHash": "e6010b615633fac3f1eef040f2a7a6a018937d86535c96b76d19d335ead31789",
+        "events": [
+          {
+            "type": "w5-checkpoint",
+            "id": 9101,
+            "at": 8892.89999999106,
+            "cacheHit": null
+          },
+          {
+            "type": "prepared",
+            "id": 9102,
+            "at": 16585,
+            "cacheHit": false
+          }
+        ],
+        "mapMonth": "2026-11",
+        "mapCursor": "2026-11"
+      }
+    ]
+  }
+}

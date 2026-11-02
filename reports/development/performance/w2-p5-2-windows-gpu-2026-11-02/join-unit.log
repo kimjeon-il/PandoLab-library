@@ -1,0 +1,21 @@
+✔ leaving the historical window during first lake admission cannot overwrite the modern second lake (64.8673ms)
+✔ changing only the timeline cursor prevents stale second lake admission before the next frame (9.4305ms)
+✔ exact identical in-flight work is adopted only with the current generation certificate (19.1575ms)
+✔ changed geometry is sent natively and never joined (13.7163ms)
+✔ changed owner is sent natively and never joined (14.0705ms)
+✔ changed quality is sent natively and never joined (16.8569ms)
+✔ changed outlines is sent natively and never joined (21.4058ms)
+✔ a superseding generation cannot receive an old joined response (6.5907ms)
+✔ an unavailable readiness certificate falls back to native delivery (14.7177ms)
+✔ a third request supersedes the held second request without admitting stale output (1.3434ms)
+✔ an old Worker error causes the newer request to be sent normally (0.6202ms)
+✔ a same-generation patch flushes the pending replacement before the patch (0.5618ms)
+✔ an asynchronous native fallback failure reaches the channel error handler (6.9298ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 448.4234
