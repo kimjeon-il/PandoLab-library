@@ -23,6 +23,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-REVIEW-20261103-2200` | [양 브랜치 자동 검토 — 하노버 날짜 충돌·부하라 조약 전사 보완](borders/validation/reviews/scheduled-2026-11-03-2200/README.md) | 2026-11-03 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261101-2200` | [자동 검토 — 중앙아시아 날짜·부속서 / Cook 기관 연속성 정정안](borders/validation/reviews/scheduled-2026-11-01-2200/README.md) | 2026-11-01 UTC | `reviewed / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-ABAGAITU-G-GEOGRAPHIC-20261101` | [G 실제좌표 비교면 후보·출처·접합 검증](borders/reconstruction/abagaitu-g-geographic-candidate-2026-11-01/README-ko.md) | 2026-11-01 UTC | `geographic-comparison-candidate / historical-holds` | `archive-only / runtime-not-applied` |
 | `GEO-PENDING-PUBLISHED-20261101` | [보류 중이던 5국 형상 게시·archive/생성기 정합 보정](borders/validation/pending-geometry-publication-2026-11-01/README.md) | 2026-11-01 UTC | `scoped-published / CI-follow-up` | `work/gis-only / not-deployed` |
