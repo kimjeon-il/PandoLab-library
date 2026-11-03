@@ -1,0 +1,120 @@
+{
+  "initial": "2026-11",
+  "previous": "2025-12",
+  "records": [
+    {
+      "month": "2025-12",
+      "stats": {
+        "countrySharedBoundaryReady": true,
+        "countryBoundaryReplacementPending": false,
+        "countrySharedBoundarySegmentCount": 75205,
+        "currentGeneration": 2
+      },
+      "packets": [
+        {
+          "kind": "prepared",
+          "requestId": 1,
+          "projectGeneration": 0,
+          "geometryRevision": 0,
+          "quality": "canonical",
+          "packetCacheHit": false,
+          "packetPreparationMs": 2.800000000745058,
+          "packetCacheResidentEstimate": 0,
+          "segments": 0,
+          "receivedAt": 899.1999999992549
+        },
+        {
+          "kind": "prepared",
+          "requestId": 3,
+          "projectGeneration": 1,
+          "geometryRevision": 1,
+          "quality": "canonical",
+          "packetCacheHit": false,
+          "packetPreparationMs": 3425.5,
+          "packetCacheResidentEstimate": 16556996,
+          "segments": 75205,
+          "receivedAt": 18467.300000000745
+        }
+      ]
+    },
+    {
+      "month": "2026-11",
+      "stats": {
+        "countrySharedBoundaryReady": true,
+        "countryBoundaryReplacementPending": false,
+        "countrySharedBoundarySegmentCount": 75205,
+        "currentGeneration": 3
+      },
+      "packets": [
+        {
+          "kind": "prepared",
+          "requestId": 1,
+          "projectGeneration": 0,
+          "geometryRevision": 0,
+          "quality": "canonical",
+          "packetCacheHit": false,
+          "packetPreparationMs": 2.800000000745058,
+          "packetCacheResidentEstimate": 0,
+          "segments": 0,
+          "receivedAt": 899.1999999992549
+        },
+        {
+          "kind": "prepared",
+          "requestId": 3,
+          "projectGeneration": 1,
+          "geometryRevision": 1,
+          "quality": "canonical",
+          "packetCacheHit": false,
+          "packetPreparationMs": 3425.5,
+          "packetCacheResidentEstimate": 16556996,
+          "segments": 75205,
+          "receivedAt": 18467.300000000745
+        }
+      ]
+    },
+    {
+      "kind": "resync-supersession",
+      "invalidId": 7,
+      "burst": [
+        9,
+        10,
+        11
+      ],
+      "latest": 11,
+      "accepted": [
+        1,
+        3,
+        6,
+        8,
+        11
+      ],
+      "recovery": [
+        {
+          "type": "delta",
+          "requestId": 7,
+          "generation": 3,
+          "quality": "canonical",
+          "total": 254,
+          "included": 0,
+          "omitted": 254,
+          "removed": 0,
+          "hasBaseToken": true
+        },
+        {
+          "type": "replace",
+          "requestId": 8,
+          "generation": 3,
+          "quality": "canonical",
+          "total": 254,
+          "included": 254,
+          "omitted": 0,
+          "removed": 0,
+          "hasBaseToken": false
+        }
+      ],
+      "semanticUnchanged": true,
+      "pixelsUnchanged": true
+    }
+  ],
+  "errors": []
+}

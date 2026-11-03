@@ -1,0 +1,562 @@
+{
+  "historical": {
+    "A": {
+      "1992-12": {
+        "n": 10,
+        "displayP50": 5869.79999999702,
+        "displayP90": 6305.20000000298,
+        "readyP50": 5985.099999997765,
+        "postP50": 195.89999999850988,
+        "semanticHashes": [
+          "2fd9100f328cd90d721979d43c26b6e0300356f5ea77817db847a1db74602dba"
+        ],
+        "payloads": [
+          "{\"type\":\"replace\",\"count\":246,\"included\":246,\"removed\":0}"
+        ]
+      },
+      "1991-12": {
+        "n": 10,
+        "displayP50": 5402.300000000745,
+        "displayP90": 5450.199999999255,
+        "readyP50": 5517.5,
+        "postP50": 190.59999999776483,
+        "semanticHashes": [
+          "7c68f3c2d747d6699bbabc6b457d5f98358a762fdd19df2ae861d6ffff24597a"
+        ],
+        "payloads": [
+          "{\"type\":\"replace\",\"count\":242,\"included\":242,\"removed\":0}"
+        ]
+      }
+    },
+    "B": {
+      "1992-12": {
+        "n": 10,
+        "displayP50": 5893.300000000745,
+        "displayP90": 6122.599999997765,
+        "readyP50": 6010.400000002235,
+        "postP50": 195.10000000149012,
+        "semanticHashes": [
+          "2fd9100f328cd90d721979d43c26b6e0300356f5ea77817db847a1db74602dba"
+        ],
+        "payloads": [
+          "{\"type\":\"replace\",\"count\":246,\"included\":246,\"removed\":0}"
+        ]
+      },
+      "1991-12": {
+        "n": 10,
+        "displayP50": 5051.5,
+        "displayP90": 5168.89999999851,
+        "readyP50": 5165.300000000745,
+        "postP50": 1.5,
+        "semanticHashes": [
+          "7c68f3c2d747d6699bbabc6b457d5f98358a762fdd19df2ae861d6ffff24597a"
+        ],
+        "payloads": [
+          "{\"type\":\"delta\",\"count\":242,\"included\":1,\"removed\":4}"
+        ]
+      }
+    },
+    "A2": {
+      "1992-12": {
+        "n": 10,
+        "displayP50": 5872,
+        "displayP90": 5938.70000000298,
+        "readyP50": 5987.800000000745,
+        "postP50": 195.89999999850988,
+        "semanticHashes": [
+          "2fd9100f328cd90d721979d43c26b6e0300356f5ea77817db847a1db74602dba"
+        ],
+        "payloads": [
+          "{\"type\":\"replace\",\"count\":246,\"included\":246,\"removed\":0}"
+        ]
+      },
+      "1991-12": {
+        "n": 10,
+        "displayP50": 5385.800000000745,
+        "displayP90": 5451.199999999255,
+        "readyP50": 5501.10000000149,
+        "postP50": 187.90000000223517,
+        "semanticHashes": [
+          "7c68f3c2d747d6699bbabc6b457d5f98358a762fdd19df2ae861d6ffff24597a"
+        ],
+        "payloads": [
+          "{\"type\":\"replace\",\"count\":242,\"included\":242,\"removed\":0}"
+        ]
+      }
+    }
+  },
+  "memory": {
+    "A": {
+      "n": 20,
+      "displayP50": 777.8000000007451,
+      "displayP90": 790.5999999977648,
+      "checkpoints": [
+        {
+          "at": 0,
+          "mainAfterGC": 124529808,
+          "boundaryAfterGC": 136069888,
+          "totalWorkerJsAfterGC": 148986144,
+          "wasmAllocated": 345702400,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 10,
+          "mainAfterGC": 126143024,
+          "boundaryAfterGC": 136069984,
+          "totalWorkerJsAfterGC": 149068160,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 20,
+          "mainAfterGC": 126286520,
+          "boundaryAfterGC": 136069984,
+          "totalWorkerJsAfterGC": 149093884,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        }
+      ]
+    },
+    "B": {
+      "n": 60,
+      "displayP50": 785.1999999992549,
+      "displayP90": 795.8000000007451,
+      "checkpoints": [
+        {
+          "at": 0,
+          "mainAfterGC": 124567468,
+          "boundaryAfterGC": 136059588,
+          "totalWorkerJsAfterGC": 148975368,
+          "wasmAllocated": 345702400,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 10,
+          "mainAfterGC": 126178756,
+          "boundaryAfterGC": 136059684,
+          "totalWorkerJsAfterGC": 149057340,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 20,
+          "mainAfterGC": 126321336,
+          "boundaryAfterGC": 136059684,
+          "totalWorkerJsAfterGC": 149083064,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 40,
+          "mainAfterGC": 126513288,
+          "boundaryAfterGC": 136059800,
+          "totalWorkerJsAfterGC": 149124200,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 60,
+          "mainAfterGC": 126692024,
+          "boundaryAfterGC": 136060048,
+          "totalWorkerJsAfterGC": 149126472,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        }
+      ]
+    },
+    "A2": {
+      "n": 20,
+      "displayP50": 781.1999999992549,
+      "displayP90": 795.6999999992549,
+      "checkpoints": [
+        {
+          "at": 0,
+          "mainAfterGC": 124566972,
+          "boundaryAfterGC": 136052000,
+          "totalWorkerJsAfterGC": 148970032,
+          "wasmAllocated": 345702400,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 10,
+          "mainAfterGC": 126148504,
+          "boundaryAfterGC": 136052096,
+          "totalWorkerJsAfterGC": 149052004,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        },
+        {
+          "at": 20,
+          "mainAfterGC": 126271892,
+          "boundaryAfterGC": 136052096,
+          "totalWorkerJsAfterGC": 149077728,
+          "wasmAllocated": 386465792,
+          "cache": {
+            "available": true,
+            "supported": true,
+            "count": 1,
+            "residentBytes": 16556996,
+            "budget": 100663296,
+            "arrays": [
+              {
+                "bytes": 1203280,
+                "detached": false
+              },
+              {
+                "bytes": 3008160,
+                "detached": false
+              },
+              {
+                "bytes": 2418496,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              },
+              {
+                "bytes": 0,
+                "detached": false
+              }
+            ],
+            "segments": 75205
+          }
+        }
+      ]
+    }
+  }
+}
