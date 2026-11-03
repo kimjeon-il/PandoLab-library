@@ -1,0 +1,13 @@
+✔ P6-3 real Worker delta reuses only acknowledged SHA geometry while matching fresh full packets (1088.804ms)
+✔ P6-3 real Worker rejects malformed deletion and unknown omitted geometry without modifying base (260.3255ms)
+✔ P6-3 sends only certified immutable geometry omissions and preserves all current metadata (2.8565ms)
+✔ P6-3 supports removed IDs and trailing insertion but falls back for reorder (0.5319ms)
+✔ P6-3 touch revisions and missing acknowledgement force safe full geometry (0.2726ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1787.5543

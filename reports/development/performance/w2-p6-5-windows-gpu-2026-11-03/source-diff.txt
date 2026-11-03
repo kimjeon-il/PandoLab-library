@@ -1,0 +1,10 @@
+ .github/workflows/w2-p6-3-boundary-delta.yml       | 58 +++++++++++++
+ .../w2-p6-3-boundary-delta-result-2026-11-03.md    | 31 +++++++
+ .../modules/country-boundary-geometry-transport.js | 94 ++++++++++++++++++++++
+ shared/frontend/js/modules/gpu-map-renderer.js     | 56 +++++++++++--
+ .../js/workers/country-shared-boundary-worker.js   | 78 +++++++++++++++---
+ ...ewer-temporal-boundary-worker-rollback.spec.mjs |  2 +-
+ tests/browser/viewer-w2-p3-packet-reuse.spec.mjs   | 30 +++++++
+ .../country-boundary-geometry-transport.test.mjs   | 88 ++++++++++++++++++++
+ tests/unit/country-shared-boundary-state.test.mjs  | 84 +++++++++++++++++++
+ 9 files changed, 501 insertions(+), 20 deletions(-)

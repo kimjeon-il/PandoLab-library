@@ -1,0 +1,257 @@
+{
+  "A": {
+    "requestId": 9,
+    "postMs": 186.879,
+    "postToWorkerMs": 229.424,
+    "digestMs": 106.449,
+    "afterDigestToPacketMs": 636.186,
+    "packetMs": 2988.229,
+    "packetToMainMs": 111.525,
+    "mainToPublishMs": 349.812,
+    "postToPublishMs": 4608.58,
+    "marks": [
+      {
+        "stage": "post-start",
+        "requestId": 9,
+        "generation": 4,
+        "type": "replace",
+        "count": 242,
+        "included": 242,
+        "removed": 0,
+        "ts": 15401382804
+      },
+      {
+        "stage": "post-end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15401569683
+      },
+      {
+        "stage": "worker-receive",
+        "requestId": 9,
+        "generation": 4,
+        "type": "replace",
+        "ts": 15401799107
+      },
+      {
+        "stage": "worker-process",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15401799171
+      },
+      {
+        "stage": "digest",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15401799183
+      },
+      {
+        "stage": "digest",
+        "edge": "end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15401905632
+      },
+      {
+        "stage": "packet",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15402541818
+      },
+      {
+        "stage": "packet",
+        "edge": "end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15405530047
+      },
+      {
+        "stage": "receive",
+        "requestId": 9,
+        "generation": 4,
+        "type": "prepared",
+        "cacheHit": false,
+        "ts": 15405641572
+      },
+      {
+        "stage": "boundary-published",
+        "generation": 4,
+        "quality": "canonical",
+        "ts": 15405991384
+      }
+    ]
+  },
+  "B": {
+    "requestId": 9,
+    "postMs": 1.57,
+    "postToWorkerMs": 2.616,
+    "digestMs": 9.583,
+    "afterDigestToPacketMs": 636.932,
+    "packetMs": 3020.889,
+    "packetToMainMs": 136.777,
+    "mainToPublishMs": 335.521,
+    "postToPublishMs": 4144.393,
+    "marks": [
+      {
+        "stage": "post-start",
+        "requestId": 9,
+        "generation": 4,
+        "type": "delta",
+        "count": 242,
+        "included": 1,
+        "removed": 4,
+        "ts": 15449895687
+      },
+      {
+        "stage": "post-end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15449897257
+      },
+      {
+        "stage": "worker-receive",
+        "requestId": 9,
+        "generation": 4,
+        "type": "delta",
+        "ts": 15449899873
+      },
+      {
+        "stage": "worker-process",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15449899906
+      },
+      {
+        "stage": "digest",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15449900378
+      },
+      {
+        "stage": "digest",
+        "edge": "end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15449909961
+      },
+      {
+        "stage": "packet",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15450546893
+      },
+      {
+        "stage": "packet",
+        "edge": "end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15453567782
+      },
+      {
+        "stage": "receive",
+        "requestId": 9,
+        "generation": 4,
+        "type": "prepared",
+        "cacheHit": false,
+        "ts": 15453704559
+      },
+      {
+        "stage": "boundary-published",
+        "generation": 4,
+        "quality": "canonical",
+        "ts": 15454040080
+      }
+    ]
+  },
+  "A2": {
+    "requestId": 9,
+    "postMs": 190.161,
+    "postToWorkerMs": 231.729,
+    "digestMs": 109.894,
+    "afterDigestToPacketMs": 635.045,
+    "packetMs": 2973.397,
+    "packetToMainMs": 110.335,
+    "mainToPublishMs": 332.948,
+    "postToPublishMs": 4583.582,
+    "marks": [
+      {
+        "stage": "post-start",
+        "requestId": 9,
+        "generation": 4,
+        "type": "replace",
+        "count": 242,
+        "included": 242,
+        "removed": 0,
+        "ts": 15498869661
+      },
+      {
+        "stage": "post-end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15499059822
+      },
+      {
+        "stage": "worker-receive",
+        "requestId": 9,
+        "generation": 4,
+        "type": "replace",
+        "ts": 15499291551
+      },
+      {
+        "stage": "worker-process",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15499291610
+      },
+      {
+        "stage": "digest",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15499291624
+      },
+      {
+        "stage": "digest",
+        "edge": "end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15499401518
+      },
+      {
+        "stage": "packet",
+        "edge": "start",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15500036563
+      },
+      {
+        "stage": "packet",
+        "edge": "end",
+        "requestId": 9,
+        "generation": 4,
+        "ts": 15503009960
+      },
+      {
+        "stage": "receive",
+        "requestId": 9,
+        "generation": 4,
+        "type": "prepared",
+        "cacheHit": false,
+        "ts": 15503120295
+      },
+      {
+        "stage": "boundary-published",
+        "generation": 4,
+        "quality": "canonical",
+        "ts": 15503453243
+      }
+    ]
+  }
+}

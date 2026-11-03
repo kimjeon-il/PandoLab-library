@@ -1,0 +1,2 @@
+import{defineConfig}from'@playwright/test';
+export default defineConfig({testDir:'.',testMatch:['w65-boundary-rollback.spec.mjs','w65-boundary-reuse.spec.mjs','w65-temporal-cancel.spec.mjs'],workers:1,timeout:240000,reporter:'line',outputDir:process.env.PANDOLAB_W3_EVIDENCE+'/'+(process.env.W65_TEST_OUTPUT||'browser-regression-artifacts'),use:{baseURL:'http://127.0.0.1:4262',viewport:{width:1280,height:800},deviceScaleFactor:1,timezoneId:'Asia/Seoul',locale:'ko-KR',launchOptions:{args:['--use-angle=d3d11']}}});

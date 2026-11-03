@@ -1,0 +1,44 @@
+{
+  "modern": {
+    "method": "independent nonparametric bootstrap; 10000 resamples; difference of medians B minus mean(A,A2); descriptive, unpaired and sequential",
+    "samples": 10,
+    "observedMs": 15.5,
+    "interval95Ms": [
+      -3.8006250007310878,
+      20.700000000186265
+    ],
+    "medians": {
+      "A": 1146.25,
+      "B": 1161.7999999998137,
+      "A2": 1146.3499999996275
+    }
+  },
+  "history-forward": {
+    "method": "independent nonparametric bootstrap; 10000 resamples; difference of medians B minus mean(A,A2); descriptive, unpaired and sequential",
+    "samples": 10,
+    "observedMs": 18.899999999441206,
+    "interval95Ms": [
+      -30.326249998796264,
+      60.200625001091964
+    ],
+    "medians": {
+      "A": 5901.549999999814,
+      "B": 5893.449999999255,
+      "A2": 5847.549999999814
+    }
+  },
+  "history-return": {
+    "method": "independent nonparametric bootstrap; 10000 resamples; difference of medians B minus mean(A,A2); descriptive, unpaired and sequential",
+    "samples": 10,
+    "observedMs": -236.05000000121072,
+    "interval95Ms": [
+      -300.5012500004726,
+      -209.89937500085216
+    ],
+    "medians": {
+      "A": 5371.050000000745,
+      "B": 5126.8499999996275,
+      "A2": 5354.750000000931
+    }
+  }
+}
