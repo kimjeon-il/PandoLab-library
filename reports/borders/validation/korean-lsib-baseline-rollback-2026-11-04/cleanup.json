@@ -229,7 +229,28 @@
     {
       "path": ".git-ne-oracle-path.tmp",
       "reason": "Pre-existing untracked work, protected; not task-owned"
+    },
+    {
+      "path": "build-native/territorial-recipe/historical-detail-collect.mjs",
+      "bytes": 1625,
+      "consumer": "Authorized unfinished historical inventory"
     }
   ],
-  "removedFiles": 54
+  "removedFiles": 54,
+  "blockedCleanup": {
+    "status": "denied; no retry or workaround; files remain",
+    "action": "PowerShell Remove-Item of two finished helper scripts",
+    "targets": [
+      {
+        "path": "build-native/territorial-recipe/historical-detail-observation-fix.mjs",
+        "bytes": 1804
+      },
+      {
+        "path": "build-native/territorial-recipe/historical-detail-inspect.mjs",
+        "bytes": 634
+      }
+    ],
+    "reason": "Automatic approval review classified the files as related to unfinished historical inventory and found insufficient evidence that they were disposable. Additional deletion approval is required if removal is pursued.",
+    "effect": "No effect on completed rollback, data push, or report archival"
+  }
 }
