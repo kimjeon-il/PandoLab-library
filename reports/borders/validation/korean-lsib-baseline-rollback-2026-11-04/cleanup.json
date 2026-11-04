@@ -1,5 +1,5 @@
 {
-  "status": "Verified reproducible task-local outputs; removal authorized by storage policy. No running task commands consume these finished files. Original source snapshots recover exactly from verified immutable native objects; source/master evidence retained. Report evidence verified against working bytes.",
+  "status": "Removed successfully after remote archival verification; no source/master evidence or active runtime cache removed",
   "targets": [
     {
       "name": "current-lsib-chain-lengths.json",
@@ -230,5 +230,6 @@
       "path": ".git-ne-oracle-path.tmp",
       "reason": "Pre-existing untracked work, protected; not task-owned"
     }
-  ]
+  ],
+  "removedFiles": 54
 }
