@@ -51580,12 +51580,15 @@
       "bytes": 1762,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/generated-artifacts-p2.yml",
         "tests/unit/library-data.test.mjs",
         "tests/unit/library-report-publication.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
     {
@@ -51595,14 +51598,17 @@
       "bytes": 1197,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/hydro-packfile-runtime-gate.yml",
         "scripts/contracts/application-checks.json",
         "scripts/p2-artifact-plan.mjs",
         "tests/unit/native-check-prerequisites.test.mjs",
         "tests/unit/p2-artifact-plan.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/hydro-packfile-runtime-gate.yml"
       ]
     },
     {
@@ -52169,8 +52175,8 @@
       "bytes": 4,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".devcontainer/ensure-node.sh",
         ".devcontainer/setup-remote.sh",
@@ -52239,6 +52245,71 @@
         ".github/workflows/w2-p6-feature-projection-experiment.yml",
         "scripts/contracts/application-checks.json",
         "scripts/p1-plan-remote-checks.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/active-hydro-optimization-gate.yml",
+        ".github/workflows/application-architecture.yml",
+        ".github/workflows/boundary-spatial-packed-gate.yml",
+        ".github/workflows/e1-map-readonly-acceptance.yml",
+        ".github/workflows/e2-review-history-acceptance.yml",
+        ".github/workflows/e3-revision-comparison.yml",
+        ".github/workflows/e4-web-review-acceptance.yml",
+        ".github/workflows/e5-windows-review-acceptance.yml",
+        ".github/workflows/e6-retirement-acceptance.yml",
+        ".github/workflows/e7-final-readonly-regression.yml",
+        ".github/workflows/generated-artifacts-p2.yml",
+        ".github/workflows/gis-independent-river-point-screen.yml",
+        ".github/workflows/gpu-g4-canvas-unit.yml",
+        ".github/workflows/gpu-g4-worker-diagnostic.yml",
+        ".github/workflows/gpu-recovery-focused.yml",
+        ".github/workflows/gpu-recovery-g4-runtime.yml",
+        ".github/workflows/gpu-recovery-regression.yml",
+        ".github/workflows/gpu-recovery-viewer.yml",
+        ".github/workflows/integration-r4-e4-e5.yml",
+        ".github/workflows/integration-r4-gis-w2-stage1.yml",
+        ".github/workflows/integration-r4-gis-w2-stage2.yml",
+        ".github/workflows/m2-canvas-worker-real-frame.yml",
+        ".github/workflows/m2-gpu-worker-probe.yml",
+        ".github/workflows/map-transition-p0.yml",
+        ".github/workflows/map-transition-p5-1.yml",
+        ".github/workflows/objects-cursor-focused-acceptance.yml",
+        ".github/workflows/objects-soviet-library-acceptance.yml",
+        ".github/workflows/p5-shared-border-verification.yml",
+        ".github/workflows/p6-5-resource-check.yml",
+        ".github/workflows/p6-6-desktop-performance.yml",
+        ".github/workflows/p6-7-narrow-performance.yml",
+        ".github/workflows/p6-8-final-status.yml",
+        ".github/workflows/place-runtime.yml",
+        ".github/workflows/r4-editor-pruning-validation.yml",
+        ".github/workflows/r4-editor-source-audit.yml",
+        ".github/workflows/remote-development-p1.yml",
+        ".github/workflows/remote-only-gate.yml",
+        ".github/workflows/remote-preview-p3.yml",
+        ".github/workflows/shared-core.yml",
+        ".github/workflows/soviet-streamed-renderable-contract.yml",
+        ".github/workflows/ui-architecture.yml",
+        ".github/workflows/viewer-adjacent-prefetch-p4-1.yml",
+        ".github/workflows/viewer-boundary-physical-p4-5.yml",
+        ".github/workflows/viewer-country-mesh-p3-2.yml",
+        ".github/workflows/viewer-gpu-mesh-p3-3.yml",
+        ".github/workflows/viewer-initial-geometry-benchmark.yml",
+        ".github/workflows/viewer-initial-land-p1c.yml",
+        ".github/workflows/viewer-initial-p1.yml",
+        ".github/workflows/viewer-latest-year-p3-1.yml",
+        ".github/workflows/viewer-membership-p4-4.yml",
+        ".github/workflows/viewer-post-presentation-p2-3.yml",
+        ".github/workflows/viewer-preparation-p2-1.yml",
+        ".github/workflows/viewer-property-only-p4-3.yml",
+        ".github/workflows/viewer-temporal-boundary-worker-rollback.yml",
+        ".github/workflows/viewer-temporal-cross-acceptance.yml",
+        ".github/workflows/viewer-temporal-performance.yml",
+        ".github/workflows/viewer-transition-dedup-p2-4.yml",
+        ".github/workflows/w2-p5-boundary-contention.yml",
+        ".github/workflows/w2-p6-3-boundary-delta.yml",
+        ".github/workflows/w2-p6-3-delta-protocol.yml",
+        ".github/workflows/w2-p6-3-viewer-delta-probe.yml",
+        ".github/workflows/w2-p6-baseline-payload-census.yml",
+        ".github/workflows/w2-p6-feature-projection-experiment.yml"
       ]
     },
     {
@@ -52278,8 +52349,8 @@
       "bytes": 1551,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/core-temporal-candidate-p5-3.yml",
         ".github/workflows/core-temporal-source-p5-2.yml",
@@ -52328,6 +52399,20 @@
         "tools/package-shared-core-assets.mjs",
         "tools/qgis/native-client.mjs",
         "tools/verify-compiler-cache.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/core-temporal-candidate-p5-3.yml",
+        ".github/workflows/core-temporal-source-p5-2.yml",
+        ".github/workflows/generated-artifacts-p2.yml",
+        ".github/workflows/gis-hydro-osm-batch01-research.yml",
+        ".github/workflows/gis-hydro-osm-batch02-research.yml",
+        ".github/workflows/gis-hydro-osm-batch03-research.yml",
+        ".github/workflows/gis-independent-river-point-screen.yml",
+        ".github/workflows/gis-native-hydro.yml",
+        ".github/workflows/gis-osm-river-audit.yml",
+        ".github/workflows/gis-source-p4.yml",
+        ".github/workflows/gis-victoria-yarra-official.yml",
+        ".github/workflows/p5-shared-border-verification.yml"
       ]
     },
     {
@@ -52993,9 +53078,15 @@
         ".github/workflows/remote-development-p1.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/e5-windows-review-acceptance.yml",
+        ".github/workflows/e6-retirement-acceptance.yml",
+        ".github/workflows/e7-final-readonly-regression.yml",
+        ".github/workflows/remote-development-p1.yml"
+      ],
+      "evidence": [
         ".github/workflows/e5-windows-review-acceptance.yml",
         ".github/workflows/e6-retirement-acceptance.yml",
         ".github/workflows/e7-final-readonly-regression.yml",
@@ -53023,9 +53114,13 @@
         ".github/workflows/e7-final-readonly-regression.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/e6-retirement-acceptance.yml",
+        ".github/workflows/e7-final-readonly-regression.yml"
+      ],
+      "evidence": [
         ".github/workflows/e6-retirement-acceptance.yml",
         ".github/workflows/e7-final-readonly-regression.yml"
       ]
@@ -53052,9 +53147,14 @@
         ".github/workflows/e7-final-readonly-regression.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/builtin-country-deployment.yml",
+        ".github/workflows/e6-retirement-acceptance.yml",
+        ".github/workflows/e7-final-readonly-regression.yml"
+      ],
+      "evidence": [
         ".github/workflows/builtin-country-deployment.yml",
         ".github/workflows/e6-retirement-acceptance.yml",
         ".github/workflows/e7-final-readonly-regression.yml"
@@ -53070,9 +53170,13 @@
         ".github/workflows/gis-hydro-v0134-integration-gate.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/builtin-country-deployment.yml",
+        ".github/workflows/gis-hydro-v0134-integration-gate.yml"
+      ],
+      "evidence": [
         ".github/workflows/builtin-country-deployment.yml",
         ".github/workflows/gis-hydro-v0134-integration-gate.yml"
       ]
@@ -53244,14 +53348,17 @@
       "bytes": 36,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/library-data-auto-sync.yml",
         "docs/library-data.md",
         "docs/superpowers/plans/2026-11-01-automatic-library-data.md",
         "scripts/library-auto-sync.mjs",
         "tests/unit/library-auto-executor.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/library-data-auto-sync.yml"
       ]
     },
     {
@@ -53261,12 +53368,15 @@
       "bytes": 103,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/library-data-auto-sync.yml",
         "scripts/lib/library-auto-request.mjs",
         "tests/unit/library-auto-workflows.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/library-data-auto-sync.yml"
       ]
     },
     {
@@ -53731,9 +53841,12 @@
       "bytes": 5035,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/integration-r4-gis-w2-stage1.yml"
+      ],
+      "evidence": [
         ".github/workflows/integration-r4-gis-w2-stage1.yml"
       ]
     },
@@ -53766,9 +53879,12 @@
       "bytes": 3490,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/r4-editor-pruning-validation.yml"
+      ],
+      "evidence": [
         ".github/workflows/r4-editor-pruning-validation.yml"
       ]
     },
@@ -53946,9 +54062,12 @@
       "bytes": 1253,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-01-place-runtime.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-04-timeline-persistence.md",
@@ -53957,9 +54076,12 @@
       "bytes": 3564,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-04-timeline-persistence.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-04-timeline-storage.md",
@@ -53968,9 +54090,12 @@
       "bytes": 2156,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-04-timeline-storage.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-13-pre-transfer-cleanup.md",
@@ -53979,9 +54104,12 @@
       "bytes": 1646,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-13-pre-transfer-cleanup.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-14-prepared-geometry-mesh.md",
@@ -53990,9 +54118,12 @@
       "bytes": 2913,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-14-prepared-geometry-mesh.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-14-resilient-verification.md",
@@ -54001,9 +54132,12 @@
       "bytes": 3174,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-14-resilient-verification.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-16-temporal-editing-execution.md",
@@ -54012,9 +54146,12 @@
       "bytes": 7227,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-16-temporal-editing-execution.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-16-web-shell-prototype.md",
@@ -54023,9 +54160,12 @@
       "bytes": 2861,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-16-web-shell-prototype.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-18-retire-qt-app.md",
@@ -54034,9 +54174,12 @@
       "bytes": 2380,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-18-retire-qt-app.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-18-viewer-editor-split.md",
@@ -54045,9 +54188,12 @@
       "bytes": 2098,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-18-viewer-editor-split.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-19-check-automation.md",
@@ -54056,9 +54202,12 @@
       "bytes": 1254,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-19-check-automation.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-19-editor-focus-project-storage.md",
@@ -54067,9 +54216,12 @@
       "bytes": 2882,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-19-editor-focus-project-storage.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-19-shared-viewing-cleanup.md",
@@ -54078,9 +54230,12 @@
       "bytes": 2125,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-19-shared-viewing-cleanup.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-21-country-files-lsib.md",
@@ -54089,9 +54244,12 @@
       "bytes": 1413,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-21-country-files-lsib.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-21-country-loading-current-month.md",
@@ -54100,9 +54258,12 @@
       "bytes": 1598,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-21-country-loading-current-month.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-21-editable-library.md",
@@ -54111,9 +54272,12 @@
       "bytes": 3595,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-21-editable-library.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-21-korean-boundaries.md",
@@ -54122,9 +54286,12 @@
       "bytes": 1331,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-21-korean-boundaries.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-23-ddr-remaining-vector-map.md",
@@ -54133,9 +54300,12 @@
       "bytes": 1258,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-23-ddr-remaining-vector-map.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-24-central-library-reports.md",
@@ -54144,9 +54314,12 @@
       "bytes": 4239,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-24-central-library-reports.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-24-qgis-macro-diversity.md",
@@ -54155,9 +54328,12 @@
       "bytes": 2400,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-24-qgis-macro-diversity.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-24-shared-library-storage.md",
@@ -54166,9 +54342,12 @@
       "bytes": 7009,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-24-shared-library-storage.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-24-ussr-caspian-application.md",
@@ -54177,9 +54356,12 @@
       "bytes": 1360,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-24-ussr-caspian-application.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-25-ci-native.md",
@@ -54188,9 +54370,12 @@
       "bytes": 1954,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-25-ci-native.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-25-generated-cleanup.md",
@@ -54199,9 +54384,12 @@
       "bytes": 1617,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-25-generated-cleanup.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-25-map-plugin.md",
@@ -54210,9 +54398,12 @@
       "bytes": 1761,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-25-map-plugin.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-25-workspace-layout.md",
@@ -54221,9 +54412,12 @@
       "bytes": 1289,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-25-workspace-layout.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-26-c-drive-cleanup.md",
@@ -54232,9 +54426,12 @@
       "bytes": 1404,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-26-c-drive-cleanup.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-27-two-lake-history.md",
@@ -54243,9 +54440,12 @@
       "bytes": 3125,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-27-two-lake-history.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-29-map-toolkit-quality-v2.md",
@@ -54254,9 +54454,12 @@
       "bytes": 3726,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-29-map-toolkit-quality-v2.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-10-30-map-toolkit-workflow-v3.md",
@@ -54265,9 +54468,12 @@
       "bytes": 2890,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-10-30-map-toolkit-workflow-v3.md"
+      ]
     },
     {
       "path": "docs/superpowers/plans/2026-11-01-p6-preflight-completion.md",
@@ -54276,9 +54482,12 @@
       "bytes": 7382,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/plans/2026-11-01-p6-preflight-completion.md"
+      ]
     },
     {
       "path": "docs/superpowers/specs/2026-09-16-reference-image-live-wire-design.md",
@@ -54287,10 +54496,13 @@
       "bytes": 3867,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
       "additionalNameReferenceHints": [
         "docs/superpowers/plans/2026-09-16-reference-image-live-wire.md"
+      ],
+      "evidence": [
+        "docs/superpowers/specs/2026-09-16-reference-image-live-wire-design.md"
       ]
     },
     {
@@ -54300,9 +54512,12 @@
       "bytes": 2129,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "docs/superpowers/specs/2026-10-01-place-runtime-design.md"
+      ]
     },
     {
       "path": "docs/superpowers/specs/2026-11-01-architecture-check-execution-design.md",
@@ -54311,10 +54526,13 @@
       "bytes": 4467,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
       "additionalNameReferenceHints": [
         "docs/superpowers/plans/2026-11-01-architecture-check-execution.md"
+      ],
+      "evidence": [
+        "docs/superpowers/specs/2026-11-01-architecture-check-execution-design.md"
       ]
     },
     {
@@ -54324,10 +54542,13 @@
       "bytes": 5595,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Historical development plan/specification retained as project evidence; filename reference count does not establish disposability.",
       "additionalNameReferenceHints": [
         "docs/superpowers/plans/2026-11-03-map-toolkit-baseline.md"
+      ],
+      "evidence": [
+        "docs/superpowers/specs/2026-11-03-map-toolkit-baseline-design.md"
       ]
     },
     {
@@ -54436,12 +54657,16 @@
       "bytes": 109,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/generated-artifacts-p2.yml",
         ".github/workflows/shared-core.yml",
         "scripts/lib/p2-artifact-graph.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/generated-artifacts-p2.yml",
+        ".github/workflows/shared-core.yml"
       ]
     },
     {
@@ -54556,14 +54781,17 @@
         "scripts/contracts/application-checks.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/r4-editor-pruning-validation.yml",
         "docs/architecture/application-command-pipeline.md",
         "docs/interaction-emphasis.md",
         "package.json",
         "scripts/contracts/application-checks.json"
+      ],
+      "evidence": [
+        ".github/workflows/r4-editor-pruning-validation.yml"
       ]
     },
     {
@@ -54583,8 +54811,8 @@
         "scripts/contracts/application-checks.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/e1-map-readonly-acceptance.yml",
         ".github/workflows/e2-review-history-acceptance.yml",
@@ -54595,6 +54823,15 @@
         ".github/workflows/e7-final-readonly-regression.yml",
         "package.json",
         "scripts/contracts/application-checks.json"
+      ],
+      "evidence": [
+        ".github/workflows/e1-map-readonly-acceptance.yml",
+        ".github/workflows/e2-review-history-acceptance.yml",
+        ".github/workflows/e3-revision-comparison.yml",
+        ".github/workflows/e4-web-review-acceptance.yml",
+        ".github/workflows/e5-windows-review-acceptance.yml",
+        ".github/workflows/e6-retirement-acceptance.yml",
+        ".github/workflows/e7-final-readonly-regression.yml"
       ]
     },
     {
@@ -54626,13 +54863,16 @@
         "scripts/contracts/application-checks.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/r4-editor-pruning-validation.yml",
         "docs/architecture/ui-object-registry.md",
         "package.json",
         "scripts/contracts/application-checks.json"
+      ],
+      "evidence": [
+        ".github/workflows/r4-editor-pruning-validation.yml"
       ]
     },
     {
@@ -54648,14 +54888,17 @@
         "tests/unit/territorial-store-boundary.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/r4-editor-pruning-validation.yml",
         "docs/territorial-entity-storage.md",
         "package.json",
         "scripts/contracts/application-checks.json",
         "tests/unit/territorial-store-boundary.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/r4-editor-pruning-validation.yml"
       ]
     },
     {
@@ -55266,11 +55509,14 @@
         "config/generated-artifacts.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/builtin-country-residuals.yml",
         "config/generated-artifacts.json"
+      ],
+      "evidence": [
+        ".github/workflows/builtin-country-residuals.yml"
       ]
     },
     {
@@ -55312,9 +55558,12 @@
         ".github/workflows/r4-editor-source-audit.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/r4-editor-source-audit.yml"
+      ],
+      "evidence": [
         ".github/workflows/r4-editor-source-audit.yml"
       ]
     },
@@ -55328,9 +55577,13 @@
         ".github/workflows/r4-editor-source-audit.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/r4-editor-pruning-validation.yml",
+        ".github/workflows/r4-editor-source-audit.yml"
+      ],
+      "evidence": [
         ".github/workflows/r4-editor-pruning-validation.yml",
         ".github/workflows/r4-editor-source-audit.yml"
       ]
@@ -55483,12 +55736,15 @@
         "tests/unit/r4d-legacy-ci-boundaries.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/r4-editor-pruning-validation.yml",
         "package.json",
         "tests/unit/r4d-legacy-ci-boundaries.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/r4-editor-pruning-validation.yml"
       ]
     },
     {
@@ -60064,9 +60320,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60079,9 +60338,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60094,9 +60356,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60109,9 +60374,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60124,9 +60392,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60139,9 +60410,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60154,9 +60428,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60169,9 +60446,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60220,9 +60500,12 @@
         ".github/workflows/shared-core.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/shared-core.yml"
+      ],
+      "evidence": [
         ".github/workflows/shared-core.yml"
       ]
     },
@@ -60253,9 +60536,12 @@
         ".github/workflows/generated-artifacts-p2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/generated-artifacts-p2.yml"
+      ],
+      "evidence": [
         ".github/workflows/generated-artifacts-p2.yml"
       ]
     },
@@ -60671,12 +60957,16 @@
         "docs/development/map-transition-p0.md"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/map-transition-p0.yml",
         ".github/workflows/viewer-temporal-performance.yml",
         "docs/development/map-transition-p0.md"
+      ],
+      "evidence": [
+        ".github/workflows/map-transition-p0.yml",
+        ".github/workflows/viewer-temporal-performance.yml"
       ]
     },
     {
@@ -60689,11 +60979,14 @@
         "docs/development/map-transition-p5-1.md"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/map-transition-p5-1.yml",
         "docs/development/map-transition-p5-1.md"
+      ],
+      "evidence": [
+        ".github/workflows/map-transition-p5-1.yml"
       ]
     },
     {
@@ -60705,9 +60998,12 @@
         ".github/workflows/viewer-temporal-candidate-p5-6.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/viewer-temporal-candidate-p5-6.yml"
+      ],
+      "evidence": [
         ".github/workflows/viewer-temporal-candidate-p5-6.yml"
       ]
     },
@@ -60812,8 +61108,8 @@
         "tools/w2-p6-5-server.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".devcontainer/start-preview.sh",
         ".github/workflows/e5-windows-review-acceptance.yml",
@@ -60849,6 +61145,10 @@
         "tools/w2-p6-2-projection-experiment.mjs",
         "tools/w2-p6-3-browser-delta-probe.mjs",
         "tools/w2-p6-5-server.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/e5-windows-review-acceptance.yml",
+        ".github/workflows/e6-retirement-acceptance.yml"
       ]
     },
     {
@@ -61620,9 +61920,12 @@
       "bytes": 299,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -61633,9 +61936,12 @@
       "bytes": 198,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -61646,9 +61952,12 @@
       "bytes": 462,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -61701,9 +62010,12 @@
       "bytes": 1409,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -65083,9 +65395,12 @@
         ".github/workflows/gpu-recovery-viewer.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gpu-recovery-viewer.yml"
+      ],
+      "evidence": [
         ".github/workflows/gpu-recovery-viewer.yml"
       ]
     },
@@ -65340,12 +65655,16 @@
         "tests/helpers/gpu-recovery-viewer-admission-fix.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/gpu-recovery-focused.yml",
         ".github/workflows/gpu-recovery-viewer.yml",
         "tests/helpers/gpu-recovery-viewer-admission-fix.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/gpu-recovery-focused.yml",
+        ".github/workflows/gpu-recovery-viewer.yml"
       ]
     },
     {
@@ -65370,9 +65689,14 @@
         ".github/workflows/gpu-recovery-viewer.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gpu-recovery-focused.yml",
+        ".github/workflows/gpu-recovery-regression.yml",
+        ".github/workflows/gpu-recovery-viewer.yml"
+      ],
+      "evidence": [
         ".github/workflows/gpu-recovery-focused.yml",
         ".github/workflows/gpu-recovery-regression.yml",
         ".github/workflows/gpu-recovery-viewer.yml"
@@ -65526,9 +65850,12 @@
         ".github/workflows/replacement-reset-probe.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/replacement-reset-probe.yml"
+      ],
+      "evidence": [
         ".github/workflows/replacement-reset-probe.yml"
       ]
     },
@@ -66426,9 +66753,12 @@
         ".github/workflows/builtin-country-deployment.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/builtin-country-deployment.yml"
+      ],
+      "evidence": [
         ".github/workflows/builtin-country-deployment.yml"
       ]
     },
@@ -66474,9 +66804,12 @@
         ".github/workflows/web-pages.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/web-pages.yml"
+      ],
+      "evidence": [
         ".github/workflows/web-pages.yml"
       ]
     },
@@ -66561,9 +66894,13 @@
         ".github/workflows/viewer-functional-p6-1.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/p6-8-final-status.yml",
+        ".github/workflows/viewer-functional-p6-1.yml"
+      ],
+      "evidence": [
         ".github/workflows/p6-8-final-status.yml",
         ".github/workflows/viewer-functional-p6-1.yml"
       ]
@@ -66578,9 +66915,13 @@
         ".github/workflows/viewer-functional-p6-2.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/p6-8-final-status.yml",
+        ".github/workflows/viewer-functional-p6-2.yml"
+      ],
+      "evidence": [
         ".github/workflows/p6-8-final-status.yml",
         ".github/workflows/viewer-functional-p6-2.yml"
       ]
@@ -66594,9 +66935,12 @@
         ".github/workflows/core-temporal-parity-p5-7.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/core-temporal-parity-p5-7.yml"
+      ],
+      "evidence": [
         ".github/workflows/core-temporal-parity-p5-7.yml"
       ]
     },
@@ -73004,9 +73348,12 @@
         ".github/workflows/p5-shared-border-verification.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/p5-shared-border-verification.yml"
+      ],
+      "evidence": [
         ".github/workflows/p5-shared-border-verification.yml"
       ]
     },
@@ -73024,8 +73371,8 @@
         "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/country-default-colors.js"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/pando-pretransfer-cleanup-gate.yml",
         "package.json",
@@ -73033,6 +73380,9 @@
         "shared/frontend/js/modules/country-default-colors.js",
         "tests/fixtures/portability/web-9300609-hydro-create/assets/js/modules/country-default-colors.js",
         "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/country-default-colors.js"
+      ],
+      "evidence": [
+        ".github/workflows/pando-pretransfer-cleanup-gate.yml"
       ]
     },
     {
@@ -73150,8 +73500,8 @@
         "tools/gis/normalize-2026-source-reference.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/german-empire-diagnostics.yml",
         ".github/workflows/gis-2000-2026-attribute-history.yml",
@@ -73166,6 +73516,12 @@
         "tools/gis/apply-2000-2026-name-flag-history.mjs",
         "tools/gis/apply-post-2000-territorial-links.mjs",
         "tools/gis/normalize-2026-source-reference.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/german-empire-diagnostics.yml",
+        ".github/workflows/gis-2000-2026-attribute-history.yml",
+        ".github/workflows/gis-post-2000-territorial-links.yml",
+        ".github/workflows/territorial-stage2-refresh.yml"
       ]
     },
     {
@@ -74908,9 +75264,12 @@
         ".github/workflows/gis-historical-native.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-historical-native.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-historical-native.yml"
       ]
     },
@@ -75763,9 +76122,12 @@
         ".github/workflows/gis-native-hydro.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -75779,9 +76141,13 @@
         ".github/workflows/gis-p1-hydro-real-data.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml",
+        ".github/workflows/gis-p1-hydro-real-data.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml",
         ".github/workflows/gis-p1-hydro-real-data.yml"
       ]
@@ -75835,9 +76201,12 @@
         ".github/workflows/gis-native-hydro.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -75851,9 +76220,13 @@
         ".github/workflows/gis-p1-dem-real-data.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml",
+        ".github/workflows/gis-p1-dem-real-data.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml",
         ".github/workflows/gis-p1-dem-real-data.yml"
       ]
@@ -75868,9 +76241,13 @@
         ".github/workflows/gis-p1-dem-reconstruction.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml",
+        ".github/workflows/gis-p1-dem-reconstruction.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml",
         ".github/workflows/gis-p1-dem-reconstruction.yml"
       ]
@@ -75945,9 +76322,13 @@
         ".github/workflows/gis-p1-dem-reconstruction.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml",
+        ".github/workflows/gis-p1-dem-reconstruction.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml",
         ".github/workflows/gis-p1-dem-reconstruction.yml"
       ]
@@ -75992,9 +76373,13 @@
         ".github/workflows/terrain-preview-gate.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml",
+        ".github/workflows/terrain-preview-gate.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml",
         ".github/workflows/terrain-preview-gate.yml"
       ]
@@ -76189,9 +76574,12 @@
         ".github/workflows/gis-hydro-v0134-library-publish.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-hydro-v0134-library-publish.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-hydro-v0134-library-publish.yml"
       ]
     },
@@ -76582,9 +76970,12 @@
         ".github/workflows/gis-p1-dem-reconstruction.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-p1-dem-reconstruction.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-p1-dem-reconstruction.yml"
       ]
     },
@@ -76597,9 +76988,12 @@
         ".github/workflows/gis-p1-dem-tint-diagnostic.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-p1-dem-tint-diagnostic.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-p1-dem-tint-diagnostic.yml"
       ]
     },
@@ -76610,9 +77004,12 @@
       "bytes": 1884,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/git-history-size-audit.yml"
+      ],
+      "evidence": [
         ".github/workflows/git-history-size-audit.yml"
       ]
     },
@@ -76636,9 +77033,12 @@
         ".github/workflows/shared-core.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/shared-core.yml"
+      ],
+      "evidence": [
         ".github/workflows/shared-core.yml"
       ]
     },
@@ -77155,9 +77555,12 @@
         ".github/workflows/shared-core.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/shared-core.yml"
+      ],
+      "evidence": [
         ".github/workflows/shared-core.yml"
       ]
     },
@@ -77170,9 +77573,12 @@
         ".github/workflows/shared-core.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/shared-core.yml"
+      ],
+      "evidence": [
         ".github/workflows/shared-core.yml"
       ]
     },
@@ -77185,9 +77591,12 @@
         ".github/workflows/gis-native-hydro.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -77341,9 +77750,12 @@
         ".github/workflows/gis-native-hydro.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/gis-native-hydro.yml"
+      ],
+      "evidence": [
         ".github/workflows/gis-native-hydro.yml"
       ]
     },
@@ -77356,9 +77768,12 @@
         ".github/workflows/p4-immutable-mesh-assets.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/p4-immutable-mesh-assets.yml"
+      ],
+      "evidence": [
         ".github/workflows/p4-immutable-mesh-assets.yml"
       ]
     },
@@ -77510,12 +77925,16 @@
         "docs/architecture/review-change-history-e2.md"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/e2-review-history-acceptance.yml",
         ".github/workflows/e3-revision-comparison.yml",
         "docs/architecture/review-change-history-e2.md"
+      ],
+      "evidence": [
+        ".github/workflows/e2-review-history-acceptance.yml",
+        ".github/workflows/e3-revision-comparison.yml"
       ]
     },
     {
@@ -77633,9 +78052,12 @@
         ".github/workflows/p4-immutable-mesh-assets.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/p4-immutable-mesh-assets.yml"
+      ],
+      "evidence": [
         ".github/workflows/p4-immutable-mesh-assets.yml"
       ]
     },
@@ -77648,9 +78070,12 @@
         ".github/workflows/w2-first-transition-audit.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/w2-first-transition-audit.yml"
+      ],
+      "evidence": [
         ".github/workflows/w2-first-transition-audit.yml"
       ]
     },
@@ -78411,9 +78836,12 @@
         ".github/workflows/w2-p6-6-packet-stage-profile.yml"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Explicit path referenced from a GitHub Actions workflow entrypoint.",
       "additionalNameReferenceHints": [
+        ".github/workflows/w2-p6-6-packet-stage-profile.yml"
+      ],
+      "evidence": [
         ".github/workflows/w2-p6-6-packet-stage-profile.yml"
       ]
     }
