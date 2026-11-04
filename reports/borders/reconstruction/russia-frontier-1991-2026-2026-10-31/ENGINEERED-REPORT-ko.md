@@ -8,7 +8,7 @@ A–C는 기존 부분 교차구간만이 아니라 확보한 전체 전후선�
 - 기본 복원: `engineered-periods/01-post-2006-RUS-KAZ.geojson`, `03-pre-2006-RUS-KAZ.geojson`
 - 조건부 D–F 포함: `conditional-ABCDEF-periods/01-post-2006-RUS-KAZ.geojson`, `03-pre-2006-RUS-KAZ.geojson`
 - 각 역전 단계 파일 `02-reverse-*.geojson` 제공. A–F는 같은 조약 발효 묶음이므로 이 파일 순서는 계산 순서이지 서로 다른 역사 날짜가 아니다.
-- 비교 그림: `conditional-ABCDEF-periods/six-panel-period-comparison.png`
+- A–F 소규모 사건의 중복 6패널 비교 그림은 2026-11-04 최신 트리에서 제외했다. 기존 후보·검증 JSON은 유지하며 그림은 Git 이력으로 복구할 수 있다.
 
 ## 날짜
 이번 실행에서 UN 등록부 52717을 직접 다시 확인했다. 러시아–카자흐스탄 국경조약은 **2005-01-18 서명, 2006-01-12 발효**다. 2006-01-24 발표일은 발효일과 구별한다. 각 소필지의 실제 인계일은 확인하지 못해 따로 비워뒀다.

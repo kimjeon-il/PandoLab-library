@@ -1,6 +1,6 @@
 # 판도편집기 조사·검증 보고서
 
-> **2026-11-04 활성 조사 범위 변경:** [기존 500km² 미만 연구 폐기](borders/history/sub500-research-retirement-2026-11-04.md). 명시한 소규모 사건의 상세 후속조사를 종료한다. 아래 과거 상태·링크는 사실과 검증 이력이며 종료 항목의 재개 지시가 아니다. 큰 사건·면적 미확정 항목과 이미 채택한 지오메트리는 일괄 삭제하지 않는다.
+> **2026-11-04 활성 조사 범위 변경:** [500km² 미만 연구 제외 요약](borders/history/sub500-research-retirement-2026-11-04.md). 명시한 소규모 사건의 상세 후속조사를 종료한다. 아래 과거 상태·링크는 사실과 검증 이력이며 종료 항목의 재개 지시가 아니다. 큰 사건·면적 미확정 항목과 이미 채택한 지오메트리는 일괄 삭제하지 않는다.
 
 계산 최적화 기록: [전수 정적 조사·동일 결과 검증·용량 증가·미해결 CI — 2026-10-23](development/testing/exact-calculation-2026-10-23/README.md) (`DEV-EXACT-CALC-20261023`, `deployed / focused-verification / CI-incomplete`).
 
@@ -27,9 +27,9 @@
 | --- | --- | --- | --- | --- |
 | `GEO-REVIEW-20261103-2200` | [양 브랜치 자동 검토 — 하노버 날짜 충돌·부하라 조약 전사 보완](borders/validation/reviews/scheduled-2026-11-03-2200/README.md) | 2026-11-03 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261101-2200` | [자동 검토 — 중앙아시아 날짜·부속서 / Cook 기관 연속성 정정안](borders/validation/reviews/scheduled-2026-11-01-2200/README.md) | 2026-11-01 UTC | `reviewed / important-holds` | `report-only / runtime-unchanged` |
-| `GEO-ABAGAITU-G-GEOGRAPHIC-20261101` | [G 실제좌표 비교면 후보·출처·접합 검증](borders/reconstruction/abagaitu-g-geographic-candidate-2026-11-01/README-ko.md) | 2026-11-01 UTC | `retired-research-under-500km2 / evidence-preserved` | `archive-only / runtime-not-applied` |
+| `GEO-ABAGAITU-G-GEOGRAPHIC-20261101` | [G 실제좌표 후보: 제외 요약](borders/reconstruction/abagaitu-g-geographic-candidate-2026-11-01/README-ko.md) | 2026-11-01 UTC | `retired-research-under-500km2 / evidence-preserved` | `archive-only / runtime-not-applied` |
 | `GEO-PENDING-PUBLISHED-20261101` | [보류 중이던 5국 형상 게시·archive/생성기 정합 보정](borders/validation/pending-geometry-publication-2026-11-01/README.md) | 2026-11-01 UTC | `scoped-published / CI-follow-up` | `work/gis-only / not-deployed` |
-| `GEO-ABAGAITU-G-IMAGECOORDS-20261101` | [G 차이면 이미지좌표·출처·정합 보류](borders/reconstruction/abagaitu-g-imagecoords-2026-11-01/README-ko.md) | 2026-11-01 UTC | `retired-research-under-500km2 / evidence-preserved` | `archive-only / runtime-not-applied` |
+| `GEO-ABAGAITU-G-IMAGECOORDS-20261101` | [G 이미지좌표: 제외 요약](borders/reconstruction/abagaitu-g-imagecoords-2026-11-01/README-ko.md) | 2026-11-01 UTC | `retired-research-under-500km2 / evidence-preserved` | `archive-only / runtime-not-applied` |
 | `GEO-RSFSR-DATED-POLYGONS-20261031` | [1946 남사할린·쿠릴 사건 폴리곤 21 feature](borders/reconstruction/rsfsr-dated-event-polygons-1946-2026-10-31/README.md) | 2026-10-31 UTC | `geometry-produced / administrative-candidate` | `archive-only / runtime-not-applied` |
 | `GEO-RSFSR-REMAINING-20261031` | [RSFSR 1953–1922 검토·106행 커버리지·문헌 정정](borders/history/rsfsr-reverse-research-1953-1922-2026-10-31/README.md) | 2026-10-31 UTC | `coverage-complete / geometry-holds` | `not-applied` |
 | `GEO-RSFSR-RESEARCH-20261031` | [RSFSR 1965–1954 역순 연구·1957 Estonia·출처 카탈로그](borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/README.md) | 2026-10-31 UTC | `source-research / geometry-holds` | `not-applied` |
