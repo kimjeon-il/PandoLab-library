@@ -5718,15 +5718,27 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4",
+          "sourceId": "natural-earth-5.1.1",
           "historicalProvenance": {
             "evidenceStatus": "provisional",
             "sourceIds": [
-              "natural-earth-5.1.1",
+              "natural-earth-5.1.1"
+            ],
+            "reconstructionScope": "Paektu pre-LSIB Natural Earth shared display baseline only; other Chinese borders and historical coverage unchanged",
+            "sourceFile": "assets/data/countries-ne-5.1.1.geojson",
+            "retiredModernSourceIds": [
               "dos-lsib-11.4"
             ],
-            "reconstructionScope": "Paektu shared boundary only; no extension of Chinese historical coverage",
-            "sourceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson"
+            "retiredEvidenceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+            "displayBaselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+            "lsibDirectReplacementRetirement": {
+              "date": "2026-11-04",
+              "baselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+              "retiredSourceId": "dos-lsib-11.4",
+              "scope": "Paektu pre-LSIB Natural Earth shared display baseline only; other Chinese borders and historical coverage unchanged",
+              "report": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+            },
+            "displayMeaning": "Pre-LSIB Natural Earth cartographic baseline; not a precise reconstruction of a treaty or surveyed historical boundary"
           }
         }
       ],
@@ -5737,19 +5749,20 @@
       "metadata": {
         "sourceFeatureId": "CHN",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cn.svg",
-        "representativeGeometryVersionId": "state:CHN:paektu-lsib-11.4"
+        "representativeGeometryVersionId": "state:CHN:paektu-lsib-11.4",
+        "directLsibRollbackReport": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
       },
       "sourceInfo": {
-        "title": "Natural Earth with US Department of State LSIB 11.4 Paektu boundary",
+        "title": "Natural Earth Chinese display geometry with other existing supplements preserved",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        "sourceId": "natural-earth-5.1.1"
       },
       "file": "state-CHN.json.gz",
       "validFrom": "1949-10-01",
       "validTo": null,
-      "compressedBytes": 143274,
-      "decodedBytes": 1426061,
-      "sha256": "37ac9cb9a462d49dad15b3040cb092f4a17d6013c6bd1b2153825f04018b0388",
+      "compressedBytes": 124857,
+      "decodedBytes": 1228839,
+      "sha256": "0815d10ba50e3e97eada38d7fa305f7ed815b52b12d80aebc893f5692e2671f5",
       "bbox": [
         73.602256,
         15.775377,
@@ -10963,14 +10976,26 @@
             "evidenceStatus": "provisional",
             "sourceIds": [
               "natural-earth-5.1.1",
-              "dos-lsib-11.4",
               "ibs022-1963"
             ],
-            "reconstructionScope": "Korean mutual land boundary; Paektu modern boundary refinement",
+            "reconstructionScope": "Existing 1948 38th-parallel geometry and island allocation retained",
             "coastline": "Modern Natural Earth outlines retained; period coastlines not reconstructed",
             "unresolvedSegments": [],
             "independentPeriodScreenDeltaChecked": false,
-            "sourceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson"
+            "sourceFile": "assets/data/countries-ne-5.1.1.geojson",
+            "retiredModernSourceIds": [
+              "dos-lsib-11.4"
+            ],
+            "retiredEvidenceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+            "displayBaselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+            "lsibDirectReplacementRetirement": {
+              "date": "2026-11-04",
+              "baselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+              "retiredSourceId": "dos-lsib-11.4",
+              "scope": "Existing 1948 38th-parallel geometry and island allocation retained",
+              "report": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+            },
+            "displayMeaning": "Pre-LSIB Natural Earth cartographic baseline; not a precise reconstruction of a treaty or surveyed historical boundary"
           }
         },
         {
@@ -10978,19 +11003,31 @@
           "validFrom": "1953-07-27",
           "validTo": null,
           "certainty": "medium",
-          "sourceId": "dos-lsib-11.4",
+          "sourceId": "natural-earth-5.1.1-armistice-display-baseline",
           "historicalProvenance": {
             "evidenceStatus": "provisional",
             "sourceIds": [
               "natural-earth-5.1.1",
-              "dos-lsib-11.4",
               "korean-armistice-1953"
             ],
-            "reconstructionScope": "Korean mutual land boundary; Paektu modern boundary refinement",
+            "reconstructionScope": "Existing 1953/1964 phase dates retained; mutual land boundary uses pre-LSIB NE display baseline",
             "coastline": "Modern Natural Earth outlines retained; period coastlines not reconstructed",
             "unresolvedSegments": [],
             "independentPeriodScreenDeltaChecked": false,
-            "sourceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson"
+            "sourceFile": "assets/data/countries-ne-5.1.1.geojson",
+            "retiredModernSourceIds": [
+              "dos-lsib-11.4"
+            ],
+            "retiredEvidenceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+            "displayBaselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+            "lsibDirectReplacementRetirement": {
+              "date": "2026-11-04",
+              "baselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+              "retiredSourceId": "dos-lsib-11.4",
+              "scope": "Existing 1953/1964 phase dates retained; mutual land boundary uses pre-LSIB NE display baseline",
+              "report": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+            },
+            "displayMeaning": "Pre-LSIB Natural Earth cartographic baseline; not a precise reconstruction of a treaty or surveyed historical boundary"
           }
         }
       ],
@@ -11003,19 +11040,20 @@
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kr.svg",
         "historicalBoundaryEvidence": "provisional",
         "boundaryEvidenceFile": "reports/geography/korea-boundaries-2026-10-21.md",
-        "representativeGeometryVersionId": "state:KOR:armistice-1953"
+        "representativeGeometryVersionId": "state:KOR:armistice-1953",
+        "directLsibRollbackReport": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
       },
       "sourceInfo": {
-        "title": "Natural Earth coastlines with US Department of State LSIB 11.4 Korean boundaries",
+        "title": "Natural Earth display baseline with retained Korean historical phase dates",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        "sourceId": "natural-earth-5.1.1"
       },
       "file": "state-KOR.json.gz",
       "validFrom": "1948-08-15",
       "validTo": null,
-      "compressedBytes": 102917,
-      "decodedBytes": 1014585,
-      "sha256": "d3f68671390d4829c1c96366289efc00bf032685586d7f9872fc4ac4cdcb1333",
+      "compressedBytes": 56307,
+      "decodedBytes": 561927,
+      "sha256": "102a0d3b49f015d6c7cf737bcacce1b8deb283593e54c83b75cfaf8a43324a9b",
       "bbox": [
         124.613617,
         33.197577,
@@ -11049,17 +11087,29 @@
             "evidenceStatus": "provisional",
             "sourceIds": [
               "natural-earth-5.1.1",
-              "dos-lsib-11.4",
               "ibs022-1963"
             ],
-            "reconstructionScope": "Korean mutual land boundary; Paektu modern boundary refinement",
+            "reconstructionScope": "Existing 1948 38th-parallel phase retained; Paektu pre-LSIB NE display baseline restored",
             "coastline": "Modern Natural Earth outlines retained; period coastlines not reconstructed",
             "unresolvedSegments": [
               "Sino-Korean pre-settlement boundary; modern alignment retained as provisional context"
             ],
             "notice": "북중 국경 확정 이전의 북쪽 경계는 미복원 상태이며 현재 경계를 참고용으로 표시합니다.",
             "independentPeriodScreenDeltaChecked": false,
-            "sourceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson"
+            "sourceFile": "assets/data/countries-ne-5.1.1.geojson",
+            "retiredModernSourceIds": [
+              "dos-lsib-11.4"
+            ],
+            "retiredEvidenceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+            "displayBaselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+            "lsibDirectReplacementRetirement": {
+              "date": "2026-11-04",
+              "baselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+              "retiredSourceId": "dos-lsib-11.4",
+              "scope": "Existing 1948 38th-parallel phase retained; Paektu pre-LSIB NE display baseline restored",
+              "report": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+            },
+            "displayMeaning": "Pre-LSIB Natural Earth cartographic baseline; not a precise reconstruction of a treaty or surveyed historical boundary"
           }
         },
         {
@@ -11067,22 +11117,34 @@
           "validFrom": "1953-07-27",
           "validTo": "1964-03-19",
           "certainty": "medium",
-          "sourceId": "dos-lsib-11.4",
+          "sourceId": "natural-earth-5.1.1-armistice-display-baseline",
           "historicalProvenance": {
             "evidenceStatus": "provisional",
             "sourceIds": [
               "natural-earth-5.1.1",
-              "dos-lsib-11.4",
               "korean-armistice-1953"
             ],
-            "reconstructionScope": "Korean mutual land boundary; Paektu modern boundary refinement",
+            "reconstructionScope": "Existing 1953/1964 phase dates retained; mutual land boundary uses pre-LSIB NE display baseline",
             "coastline": "Modern Natural Earth outlines retained; period coastlines not reconstructed",
             "unresolvedSegments": [
               "Sino-Korean pre-settlement boundary; modern alignment retained as provisional context"
             ],
             "notice": "북중 국경 확정 이전의 북쪽 경계는 미복원 상태이며 현재 경계를 참고용으로 표시합니다.",
             "independentPeriodScreenDeltaChecked": false,
-            "sourceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson"
+            "sourceFile": "assets/data/countries-ne-5.1.1.geojson",
+            "retiredModernSourceIds": [
+              "dos-lsib-11.4"
+            ],
+            "retiredEvidenceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+            "displayBaselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+            "lsibDirectReplacementRetirement": {
+              "date": "2026-11-04",
+              "baselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+              "retiredSourceId": "dos-lsib-11.4",
+              "scope": "Existing 1953/1964 phase dates retained; mutual land boundary uses pre-LSIB NE display baseline",
+              "report": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+            },
+            "displayMeaning": "Pre-LSIB Natural Earth cartographic baseline; not a precise reconstruction of a treaty or surveyed historical boundary"
           }
         },
         {
@@ -11090,15 +11152,14 @@
           "validFrom": "1964-03-20",
           "validTo": null,
           "certainty": "medium",
-          "sourceId": "dos-lsib-11.4",
+          "sourceId": "natural-earth-5.1.1-armistice-display-baseline",
           "historicalProvenance": {
             "evidenceStatus": "provisional",
             "sourceIds": [
               "natural-earth-5.1.1",
-              "dos-lsib-11.4",
               "korean-armistice-1953"
             ],
-            "reconstructionScope": "Korean mutual land boundary; Paektu modern boundary refinement",
+            "reconstructionScope": "Existing 1953/1964 phase dates retained; mutual land boundary uses pre-LSIB NE display baseline",
             "coastline": "Modern Natural Earth outlines retained; period coastlines not reconstructed",
             "treatySigned": "1962-10-12",
             "protocolEffective": "1964-03-20",
@@ -11107,7 +11168,20 @@
               "Period river-island allocation outside Paektu not independently digitized"
             ],
             "independentPeriodScreenDeltaChecked": false,
-            "sourceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson"
+            "sourceFile": "assets/data/countries-ne-5.1.1.geojson",
+            "retiredModernSourceIds": [
+              "dos-lsib-11.4"
+            ],
+            "retiredEvidenceFile": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+            "displayBaselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+            "lsibDirectReplacementRetirement": {
+              "date": "2026-11-04",
+              "baselineSha256": "985c34f55ace12be51580f420c6b691d03f48bf73c84a88aed65b7ae6cfc5d01",
+              "retiredSourceId": "dos-lsib-11.4",
+              "scope": "Existing 1953/1964 phase dates retained; mutual land boundary uses pre-LSIB NE display baseline",
+              "report": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+            },
+            "displayMeaning": "Pre-LSIB Natural Earth cartographic baseline; not a precise reconstruction of a treaty or surveyed historical boundary"
           }
         }
       ],
@@ -11120,19 +11194,20 @@
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kp.svg",
         "historicalBoundaryEvidence": "provisional",
         "boundaryEvidenceFile": "reports/geography/korea-boundaries-2026-10-21.md",
-        "representativeGeometryVersionId": "state:PRK:sino-korean-protocol-1964"
+        "representativeGeometryVersionId": "state:PRK:sino-korean-protocol-1964",
+        "directLsibRollbackReport": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
       },
       "sourceInfo": {
-        "title": "Natural Earth coastlines with US Department of State LSIB 11.4 Korean boundaries",
+        "title": "Natural Earth display baseline with retained Korean historical phase dates",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        "sourceId": "natural-earth-5.1.1"
       },
       "file": "state-PRK.json.gz",
       "validFrom": "1948-09-09",
       "validTo": null,
-      "compressedBytes": 197706,
-      "decodedBytes": 1945350,
-      "sha256": "ae68971c5db40acd0194a35d824e9ed9c6dbc979190b67fc87a97d305b14697d",
+      "compressedBytes": 48735,
+      "decodedBytes": 445316,
+      "sha256": "c9452771033de593457602f6a3e16c6564dbe032e1faca8d5895df84359752f6",
       "bbox": [
         124.211316,
         37.675605,
