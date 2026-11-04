@@ -1,5 +1,7 @@
 # RSFSR 역순 연구 1965–1954 — 완료된 문헌·자료목록 보관
 
+> **2026-11-04 연구 종료:** Dzhanybek 70.49km², Varna 교환 각3.81km², Bobrovsky/Sandzhursky 18.33km² 및 별도 원장의 Belarus1964 22.56km² 연구를 종료한다. 다른 큰 사건·미확정 사건은 유지한다. 해당 항목의 기존 추가 조사·정합·선 추출·정밀 검증 대기는 폐기한다. 아래 원문은 당시 사실·출처·검증 이력으로만 보존하며, 이미 채택한 GIS 형상과 혼합 원자료는 변경하지 않는다. [500km² 미만 연구 폐기 목록](../sub500-research-retirement-2026-11-04.md)이 후속 작업 지시보다 우선한다.
+
 > ID: GEO-RSFSR-RESEARCH-20261031 · 조사 상태: source-research / geometry-holds · 지도 반영: not-applied
 > 게시 범위: 자체 작성 조사보고서와 출처·해시 카탈로그만. 데이터 work/gis 기준 `33941b3b9f253527c2db3287cf82b5f10ef64ca5`.
 

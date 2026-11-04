@@ -1,5 +1,7 @@
 # 판도편집기 조사·검증 보고서
 
+> **2026-11-04 활성 조사 범위 변경:** [기존 500km² 미만 연구 폐기](borders/history/sub500-research-retirement-2026-11-04.md). 명시한 소규모 사건의 상세 후속조사를 종료한다. 아래 과거 상태·링크는 사실과 검증 이력이며 종료 항목의 재개 지시가 아니다. 큰 사건·면적 미확정 항목과 이미 채택한 지오메트리는 일괄 삭제하지 않는다.
+
 계산 최적화 기록: [전수 정적 조사·동일 결과 검증·용량 증가·미해결 CI — 2026-10-23](development/testing/exact-calculation-2026-10-23/README.md) (`DEV-EXACT-CALC-20261023`, `deployed / focused-verification / CI-incomplete`).
 
 

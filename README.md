@@ -15,3 +15,5 @@ Only terrain is published from gh-pages. Main holds the full storage corpus and 
 규칙 정본은 Pando의 [역사적 국경·해안선 복원 공통 작업 규칙](https://github.com/kimjeon-il/Pando/blob/work/gis/docs/historical-border-reconstruction-policy.md)이다. 이 저장소에 별도의 경쟁 규칙을 만들지 않는다.
 
 §0.1의 실무 선별 기준은 **실제로 달라진 연결된 구역의 면적 약 500km² 이상**이다. 그보다 작은 일반적 변화의 개별 정밀 복원은 원칙적으로 생략하되, 중요한 역사 사건·국가·도시·도서 귀속과 필요한 연결성의 예외를 유지한다. 실제 최대 확대 캡처(지도 1180×709 CSS px, DPR 1) 기반 모의 전후 비교에서 사용자가 약 500km²부터 식별된다고 판단한 데 따른 작업 우선순위다. 보편적인 최소 가시 면적·정확도 보장이 아니며, 형상·폭·표시 배율을 함께 판단하고 별도 고정 폭 기준은 두지 않는다. 자세한 조건·생략 및 보존 범위는 정본을 따르며 기존 지역 재조사·자료 삭제·핀 변경을 요구하지 않는다.
+
+기존 연구에 대한 2026-11-04 추가 지시: [500km² 미만 연구 폐기 목록](reports/borders/history/sub500-research-retirement-2026-11-04.md)에 따라 해당 상세 조사·복원 대기를 종료한다. 과거 작은 사건 예외를 활성 조사에 자동 유지하지 않으며, 실제 채택 지오메트리·원도·혼합 자료 및 main은 변경하지 않는다.
