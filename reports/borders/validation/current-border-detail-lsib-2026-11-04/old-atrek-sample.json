@@ -1,0 +1,221 @@
+{
+  "samples": [
+    {
+      "id": "ussr-atrek",
+      "type": "applied historical river boundary",
+      "box": [
+        54.3,
+        37.3,
+        55.2,
+        38.3
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.8 +lon_0=54.75 +datum=WGS84 +units=m +type=crs",
+      "historical": [
+        [
+          3796.8477767298655,
+          -19477.157729054947
+        ],
+        [
+          4733.093811778269,
+          -20317.761102500324
+        ],
+        [
+          5135.0790885848255,
+          -21048.829028176282
+        ],
+        [
+          5245.05763158725,
+          -21825.90554570836
+        ],
+        [
+          5137.216959305942,
+          -24495.80862451339
+        ],
+        [
+          4864.226676652351,
+          -26076.11590033878
+        ],
+        [
+          3660.2010901688936,
+          -28864.20085252232
+        ],
+        [
+          3386.8319666674697,
+          -30561.98445038541
+        ],
+        [
+          2975.9847161281173,
+          -31359.365110613697
+        ],
+        [
+          737.6429383434826,
+          -33235.32877778615
+        ],
+        [
+          -3467.418808366333,
+          -35993.43559836212
+        ],
+        [
+          -4574.205959470954,
+          -37036.72691573248
+        ],
+        [
+          -6321.050033884795,
+          -37735.237325093374
+        ],
+        [
+          -8499.702526009136,
+          -40073.32278929846
+        ],
+        [
+          -9826.760063912181,
+          -40697.04078886601
+        ],
+        [
+          -11784.256975085695,
+          -40723.23664197066
+        ],
+        [
+          -17169.562172953312,
+          -39538.05123925802
+        ]
+      ],
+      "geographic": {
+        "historical": [
+          [
+            54.79300985851431,
+            37.62450808451315
+          ],
+          [
+            54.80361,
+            37.61693
+          ],
+          [
+            54.808158,
+            37.610341
+          ],
+          [
+            54.809398,
+            37.603339
+          ],
+          [
+            54.808158,
+            37.579284
+          ],
+          [
+            54.805057,
+            37.565047
+          ],
+          [
+            54.791415,
+            37.539932
+          ],
+          [
+            54.788314,
+            37.524636
+          ],
+          [
+            54.783663,
+            37.517453
+          ],
+          [
+            54.758342,
+            37.500555
+          ],
+          [
+            54.7108,
+            37.475698
+          ],
+          [
+            54.698294,
+            37.466293
+          ],
+          [
+            54.678554,
+            37.459989
+          ],
+          [
+            54.653956,
+            37.438905
+          ],
+          [
+            54.638969,
+            37.433272
+          ],
+          [
+            54.616852,
+            37.433013
+          ],
+          [
+            54.555977,
+            37.443607
+          ]
+        ]
+      },
+      "componentCounts": {
+        "historical": 2
+      },
+      "versions": [
+        "state:soviet-union:1922-12-30-reviewed-v2",
+        "state:IRN:natural-earth-5.1.1:caspian-1922-12-30"
+      ],
+      "applicationStatus": "applied compiled USSR/IRN shared border, 1922-12-30 through 1925-05-12",
+      "positionalComparisonExcluded": "Modern political route is not a period reference; compare detail only, not historical accuracy.",
+      "displaySourceCategory": "applied compiled USSR/IRN shared border, 1922-12-30 through 1925-05-12",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Different historical route/type; density alone is not a tolerance calibration"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "ussr-atrek",
+      "type": "applied historical river boundary",
+      "box": [
+        54.3,
+        37.3,
+        55.2,
+        38.3
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.8 +lon_0=54.75 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "historical": 2
+      },
+      "versions": [
+        "state:soviet-union:1922-12-30-reviewed-v2",
+        "state:IRN:natural-earth-5.1.1:caspian-1922-12-30"
+      ],
+      "applicationStatus": "applied compiled USSR/IRN shared border, 1922-12-30 through 1925-05-12",
+      "positionalComparisonExcluded": "Modern political route is not a period reference; compare detail only, not historical accuracy.",
+      "displaySourceCategory": "applied compiled USSR/IRN shared border, 1922-12-30 through 1925-05-12",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Different historical route/type; density alone is not a tolerance calibration",
+      "metrics": {
+        "historical": {
+          "vertices": 17,
+          "lengthKm": 36.2924646924979,
+          "verticesPerKm": 0.4684167951677889,
+          "spacingMeters": {
+            "min": 784.8204852198479,
+            "median": 1800.4876734049053,
+            "p90": 4112.345711848593,
+            "p95": 5150.209629773056,
+            "p99": 5441.385595213354,
+            "max": 5514.179586573428
+          },
+          "lengthToChordRatio": 1.2506988010217863,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 980.8774241215649,
+          "turnDegrees": {
+            "min": 0,
+            "median": 4.95234057487523,
+            "p90": 15.748668278993872,
+            "p95": 20.589913893738878,
+            "p99": 24.10500489584017,
+            "max": 24.12841030046983
+          },
+          "turnDegreesPer100Km": 678.4848143204532
+        }
+      }
+    }
+  ]
+}
