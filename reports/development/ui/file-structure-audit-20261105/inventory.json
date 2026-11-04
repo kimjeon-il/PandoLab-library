@@ -7,7 +7,8 @@
     "Basename references are candidate hints, not proof of no dynamic/manual consumer",
     "Vendor and frozen fixture modules are outside the dependency parser pass",
     "Windows native executable and native CMake CI were not run",
-    "Ignored caches and external library data are outside tracked file counts"
+    "Ignored caches and external library data are outside tracked file counts",
+    "Final CSS/HTML changes followed the recorded preliminary browser performance measurements; those numbers are not final-state measurements."
   ],
   "before": {
     "files": 3278,
@@ -99,12 +100,12 @@
     }
   },
   "after": {
-    "files": 3199,
-    "bytes": 36858476,
+    "files": 3197,
+    "bytes": 36850286,
     "roles": {
       "configuration": 172,
       "other": 77,
-      "source": 888,
+      "source": 886,
       "documentation": 184,
       "resources": 493,
       "tests-and-fixtures": 1385
@@ -117,7 +118,7 @@
       ".mjs": 1270,
       ".md": 183,
       ".txt": 26,
-      ".css": 24,
+      ".css": 23,
       ".js": 345,
       ".ps1": 6,
       ".yaml": 4,
@@ -127,7 +128,7 @@
       ".rs": 7,
       ".ico": 2,
       ".png": 36,
-      ".html": 17,
+      ".html": 16,
       ".cmake": 1,
       ".svg": 487,
       ".h": 72,
@@ -172,14 +173,14 @@
       "design": 11,
       "docs": 173,
       "scripts": 77,
-      "shared": 945,
+      "shared": 943,
       "tests": 1330,
       "tools": 420
     },
     "lineBins": {
-      "text0to50": 1496,
+      "text0to50": 1495,
       "text51to500": 1446,
-      "text501plus": 97,
+      "text501plus": 96,
       "binary": 160
     }
   },
@@ -193,7 +194,9 @@
     "scripts/check-ui-layering.mjs",
     "shared/frontend/css/components/command-row.css",
     "shared/frontend/css/components/editor-shell.css",
+    "shared/frontend/css/components/statusbar.css",
     "shared/frontend/js/modules/label-text-presentation.js",
+    "shared/frontend/ui/fragments/preferences-statusbar.html",
     "tests/browser/helpers/ui-select.mjs",
     "tests/fixtures/reference-corpus-fingerprint/annotation.json",
     "tests/fixtures/reference-corpus-fingerprint/corpus.json",
@@ -26496,9 +26499,9 @@
     {
       "path": "scripts/lib/product-html.mjs",
       "role": "source",
-      "bytes": 1032,
-      "lines": 13,
-      "sha256": "ab9d5bd01aecf75b98ca3804f9236b2361a18f4e4b282d806752312d41f21fee"
+      "bytes": 956,
+      "lines": 12,
+      "sha256": "6e66ca271a1fdd14ccaf82113d20e850468db146d68f320b6990edcfafed2c35"
     },
     {
       "path": "scripts/lib/remote-only-native-policy.mjs",
@@ -26538,9 +26541,9 @@
     {
       "path": "scripts/lib/ui-source-catalog.mjs",
       "role": "source",
-      "bytes": 2298,
-      "lines": 37,
-      "sha256": "4c73d32f5b6c161092676b235fbf328453947a622b04d380485f21e44ebbeed3"
+      "bytes": 2213,
+      "lines": 36,
+      "sha256": "afea29edfc15d5e72eed74b4e773e9a67029972a227aedb1358fe8142bcf1999"
     },
     {
       "path": "scripts/lib/unit-test-isolation.mjs",
@@ -27595,16 +27598,16 @@
     {
       "path": "shared/frontend/css/components/dialogs.css",
       "role": "source",
-      "bytes": 9771,
-      "lines": 402,
-      "sha256": "f88d8faa09d74a5aa5a934f2f351c24bf5d449fb8424b7c9dfa05905b24d78d4"
+      "bytes": 7334,
+      "lines": 289,
+      "sha256": "ac7552fd058b30fd06d38992a8496ae9e27c1782d2bc0c1927a833f10f03d19e"
     },
     {
       "path": "shared/frontend/css/components/feedback.css",
       "role": "source",
-      "bytes": 12331,
-      "lines": 483,
-      "sha256": "8261c2287e2190b66c9f819afce2f31cef440c7158c633085d2bda3cfb79732a"
+      "bytes": 11506,
+      "lines": 452,
+      "sha256": "868b9e5bad762ec3d1721a64555142f08d64232e9952700e8384199e62e5e1f7"
     },
     {
       "path": "shared/frontend/css/components/map-display.css",
@@ -27616,9 +27619,9 @@
     {
       "path": "shared/frontend/css/components/map-search.css",
       "role": "source",
-      "bytes": 6935,
+      "bytes": 6913,
       "lines": 269,
-      "sha256": "ee0660dfb1e6cfc433fa4eda9b8cad7ec20e8feced87b9e051d385da463325ab"
+      "sha256": "f8e476e94d8734a1fc692417ba7a6ef259d0788bcc70d4f0fd975d44aff98353"
     },
     {
       "path": "shared/frontend/css/components/map-viewport.css",
@@ -27649,13 +27652,6 @@
       "sha256": "25c7a0e7e9051b6cac5eb38df4db5502aae749348ec8b5e887115708cdfa2c20"
     },
     {
-      "path": "shared/frontend/css/components/statusbar.css",
-      "role": "source",
-      "bytes": 3400,
-      "lines": 151,
-      "sha256": "3c08aa094d547edfcd96dadd2e687b4086dfd8b596107893bf71191f06f6283b"
-    },
-    {
       "path": "shared/frontend/css/components/surface.css",
       "role": "source",
       "bytes": 7996,
@@ -27679,23 +27675,23 @@
     {
       "path": "shared/frontend/css/features/map-rendering.css",
       "role": "source",
-      "bytes": 5614,
-      "lines": 320,
-      "sha256": "6c862db1e4217bb7ada49d38c4b48adc5ba237ee47be697f8164d652ecf0f685"
+      "bytes": 5541,
+      "lines": 316,
+      "sha256": "96ffcd3d3b0b062cd6510051314c56ee015bdf3ce6771f4d005fb49c4d75d4c1"
     },
     {
       "path": "shared/frontend/css/layout/surfaces.css",
       "role": "source",
-      "bytes": 11416,
-      "lines": 312,
-      "sha256": "a4cdbd59c56e3a3695b0b6630da7c606d32c244dfecb2980b3f160c33e197a04"
+      "bytes": 10989,
+      "lines": 294,
+      "sha256": "69c403b518679a5ecb86b6feed3bac6dbd598e0ca0e552f29fefb002ad6dce6d"
     },
     {
       "path": "shared/frontend/css/primitives/controls.css",
       "role": "source",
-      "bytes": 34149,
-      "lines": 1337,
-      "sha256": "905c17ea770b552db7a702d6bd29c152678c16f4bfa2affd4bc1dbbfd037cfb3"
+      "bytes": 34077,
+      "lines": 1334,
+      "sha256": "d3bb2a6f2771019e49ba13794d8cc08aa2344fc6be2ee98717127ca84a8fc28c"
     },
     {
       "path": "shared/frontend/css/primitives/select.css",
@@ -27728,9 +27724,9 @@
     {
       "path": "shared/frontend/css/utilities/accessibility.css",
       "role": "source",
-      "bytes": 12388,
-      "lines": 522,
-      "sha256": "296fb8fc124c347332709968348559fdf39a2f3137888a623fcace7ed111a9fc"
+      "bytes": 11287,
+      "lines": 467,
+      "sha256": "b07727ab3f1b35b453dc9c04fd9e60c405683b9d357e64cd5c02481790aab89b"
     },
     {
       "path": "shared/frontend/js/modules/accent-presets.js",
@@ -32934,18 +32930,11 @@
       "sha256": "a16a28a110201cbd73d06989a3436497ea922bceef509b74c4d92f949c3fc565"
     },
     {
-      "path": "shared/frontend/ui/fragments/preferences-statusbar.html",
-      "role": "source",
-      "bytes": 161,
-      "lines": 1,
-      "sha256": "c74e201bab4750ee4f6d3484404e19ac4f29d2f22492fb93552de02e3ab51fcf"
-    },
-    {
       "path": "shared/frontend/ui/fragments/preferences.html",
       "role": "source",
-      "bytes": 3750,
+      "bytes": 3712,
       "lines": 36,
-      "sha256": "a82d18c22c4e60a35ca7445728b7174db9905694152ebccaa06fdf08acc94ed5"
+      "sha256": "069488d1b28ca19a5fbf78cd9270ad9feed0e929ac9d771014910dfa01fe4e1d"
     },
     {
       "path": "shared/frontend/ui/fragments/timeline.html",
@@ -41196,9 +41185,9 @@
     {
       "path": "tests/unit/product-html.test.mjs",
       "role": "tests-and-fixtures",
-      "bytes": 1946,
-      "lines": 32,
-      "sha256": "760efbd903d6d913c3ac6e7d2919779c56db52d4f761ccd618b6231f1c0b2205"
+      "bytes": 2307,
+      "lines": 39,
+      "sha256": "72396e1ca16615e3151be378afeb8805d064986de99c37dc31f4593e4e347611"
     },
     {
       "path": "tests/unit/project-creation-contract.test.mjs",
@@ -41567,9 +41556,9 @@
     {
       "path": "tests/unit/retired-layer-panel-contract.test.mjs",
       "role": "tests-and-fixtures",
-      "bytes": 2997,
-      "lines": 47,
-      "sha256": "d38430eb4b257dfb64d520a39f748bef8894c5db4e1e1cd7a6f71e9eaf459fd0"
+      "bytes": 3191,
+      "lines": 49,
+      "sha256": "063406e39b1953ce51ddd5ab6d42e4ed7c85e9a11a8be3f843b228e1d297c2d8"
     },
     {
       "path": "tests/unit/retired-shared-core-modules.test.mjs",
@@ -42456,9 +42445,9 @@
     {
       "path": "tests/unit/viewer-ui-bundle.test.mjs",
       "role": "tests-and-fixtures",
-      "bytes": 1127,
+      "bytes": 1099,
       "lines": 21,
-      "sha256": "9fc5dc3be3fafcdd4b828e18a822be5adc6e8ee6fe0b0e11a9e4c4842a0540bb"
+      "sha256": "93d185f199d16b7cb8092b5d6a5b3ae593545eecfbf7f5df77a3f2c9828e86d1"
     },
     {
       "path": "tests/unit/viewing-ui-contract.test.mjs",
@@ -45612,218 +45601,136 @@
     }
   ],
   "duplicateGroups": [
-    {
-      "sha256": "bd6f1a9373e02ac0f0ae46622e60e752b408a2183d7ea40dd575f901e869aed5",
-      "paths": [
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/au.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hm.svg"
-      ]
-    },
-    {
-      "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2",
-      "paths": [
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bl.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fr.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mf.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nc.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pm.svg"
-      ]
-    },
-    {
-      "sha256": "910e4fa63fb7a23d30d59dee2feb08da51a405eb06b38a7e12d18d9b504d13b5",
-      "paths": [
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gb.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sh.svg"
-      ]
-    },
-    {
-      "sha256": "6b234bd17b00d498ac8d1c645a00025817e624641289fe4faec164c52eb43f20",
-      "paths": [
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/um.svg",
-        "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/us.svg"
-      ]
-    },
-    {
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/cmyk.json",
-        "tests/fixtures/map-image/jpeg-read/gray.json",
-        "tests/fixtures/map-image/jpeg-read/progressive.json",
-        "tests/fixtures/map-image/jpeg-read/rgb.json",
-        "tests/fixtures/map-image/png-read/gray-alpha.json",
-        "tests/fixtures/map-image/png-read/gray-alpha16.json",
-        "tests/fixtures/map-image/png-read/gray-key.json",
-        "tests/fixtures/map-image/png-read/gray1.json",
-        "tests/fixtures/map-image/png-read/gray16-key.json",
-        "tests/fixtures/map-image/png-read/gray16.json",
-        "tests/fixtures/map-image/png-read/palette-alpha.json",
-        "tests/fixtures/map-image/png-read/rgb-key.json",
-        "tests/fixtures/map-image/png-read/rgb.json",
-        "tests/fixtures/map-image/png-read/rgb16.json",
-        "tests/fixtures/map-image/png-read/rgba.json",
-        "tests/fixtures/map-image/png-read/rgba16.json"
-      ]
-    },
-    {
-      "sha256": "a9cac820a6398dfc1380e5ed7feb97200714f52f316957178d6307fb7dbaa9d9",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/crop-resize.json",
-        "tests/fixtures/map-image/png-read/crop-resize.json"
-      ]
-    },
-    {
-      "sha256": "2bc7df445cd273db325059026af3ba6bf4e87fc083eb680941469f0a77f0a683",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-2.json",
-        "tests/fixtures/map-image/png-read/orientation-2.json"
-      ]
-    },
-    {
-      "sha256": "a54764b665f38b26a2c97b10fb4099e0ea48e88e74497c76a24ef82665ef9252",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-3.json",
-        "tests/fixtures/map-image/png-read/orientation-3.json"
-      ]
-    },
-    {
-      "sha256": "d646f07867cc423e3a1865c0bd5d3c53d2a31c1a7be36a43c3a64be604a1ec55",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-4.json",
-        "tests/fixtures/map-image/png-read/orientation-4.json"
-      ]
-    },
-    {
-      "sha256": "47b5a70ff21eeaf1c03aeb310cb3bff2654e2c810b2fa32890dbb59e0ef0cc11",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-5.json",
-        "tests/fixtures/map-image/png-read/orientation-5.json"
-      ]
-    },
-    {
-      "sha256": "ecb8f2297c9ac87033eaa323dc505e4ad10942f521008c933cf6b9edfc7220f0",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-6.json",
-        "tests/fixtures/map-image/png-read/orientation-6.json"
-      ]
-    },
-    {
-      "sha256": "76c41b5f2fd175298a66efe93a52a0b0a24c149e7537f69e237025b7c7ac94db",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-7.json",
-        "tests/fixtures/map-image/png-read/orientation-7.json"
-      ]
-    },
-    {
-      "sha256": "2cc603f7c4ca5a1aecbf70bf329a212dba9222fcd1cfbc814537fcdfe98e7252",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/orientation-8.json",
-        "tests/fixtures/map-image/png-read/orientation-8.json"
-      ]
-    },
-    {
-      "sha256": "a5c2bbb43e85b85e551d12fefcc48805f61cb4403a77a05e274563d892fe801e",
-      "paths": [
-        "tests/fixtures/map-image/jpeg-read/progressive.rgba",
-        "tests/fixtures/map-image/jpeg-read/rgb.rgba"
-      ]
-    },
-    {
-      "sha256": "9cd778417e7c5ac00baaeaf5972ac318a1d868e131473e552b1e8a069877706e",
-      "paths": [
-        "tests/fixtures/map-image/pdf-read/bad-angular-unit.json",
-        "tests/fixtures/map-image/pdf-read/bad-axis.json",
-        "tests/fixtures/map-image/pdf-read/bad-datum.json",
-        "tests/fixtures/map-image/pdf-read/bad-linear-unit.json",
-        "tests/fixtures/map-image/pdf-read/bad-prime.json",
-        "tests/fixtures/map-image/pdf-read/unsupported-crs.json"
-      ]
-    },
-    {
-      "sha256": "fa59c17dcb196e6c42baa2b1c41b0a24f45d2d1143b18abf93b79b059be839eb",
-      "paths": [
-        "tests/fixtures/map-image/pdf-read/bad-angular-unit.rgba",
-        "tests/fixtures/map-image/pdf-read/bad-axis.rgba",
-        "tests/fixtures/map-image/pdf-read/bad-controls.rgba",
-        "tests/fixtures/map-image/pdf-read/bad-datum.rgba",
-        "tests/fixtures/map-image/pdf-read/bad-linear-unit.rgba",
-        "tests/fixtures/map-image/pdf-read/bad-prime.rgba",
-        "tests/fixtures/map-image/pdf-read/geopdf-ref.rgba",
-        "tests/fixtures/map-image/pdf-read/two-viewports.rgba",
-        "tests/fixtures/map-image/pdf-read/unsupported-crs.rgba"
-      ]
-    },
-    {
-      "sha256": "148d06670f6c97d61419246b37769db12b9b90785e6e3508151000157d6aa0ab",
-      "paths": [
-        "tests/fixtures/map-image/pdf-read/geopdf-ref.json",
-        "tests/fixtures/map-image/pdf-read/geopdf.json"
-      ]
-    },
-    {
-      "sha256": "5527b0f7d574ced2781d7f261443d98c273c070b323505de26bb89eaf6c76f67",
-      "paths": [
-        "tests/fixtures/map-image/pdf-read/geopdf.rgba",
-        "tests/fixtures/map-image/pdf-read/single.rgba"
-      ]
-    },
-    {
-      "sha256": "623ffeae159716e2196fc74430f1d2e60cb75c0571cdd83271d66e5a62eb3ed8",
-      "paths": [
-        "tests/fixtures/map-image/webp-read/animated.json",
-        "tests/fixtures/map-image/webp-read/lossy-alpha.json",
-        "tests/fixtures/map-image/webp-read/rgb.json",
-        "tests/fixtures/map-image/webp-read/rgba.json"
-      ]
-    },
-    {
-      "sha256": "e4be1abf76b6db7267287b6f9893959d80f03d2e11b05e1c60e4f9044709d065",
-      "paths": [
-        "tests/fixtures/map-image/webp-read/crop-resize.webp",
-        "tests/fixtures/map-image/webp-read/rgba.webp"
-      ]
-    },
-    {
-      "sha256": "61e5b9b1fc6592cdaae2306853bc60ec93c6668a5449f6d2e39ba3b7811ac453",
-      "paths": [
-        "tests/fixtures/portability/baseline-selection.mjs",
-        "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/object-selection-controller.js"
-      ]
-    },
-    {
-      "sha256": "4ceddf070464808bddf451542561ce047e25794c290cdf7f29f44e22514170a2",
-      "paths": [
-        "tests/fixtures/portability/web-9300609-hydro-create/assets/js/modules/color-adapter.js",
-        "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/color-adapter.js"
-      ]
-    },
-    {
-      "sha256": "46e2e18f2fb78058edd7d990ecc99d9a81cb087dc3f0ca2de55f7771d5660730",
-      "paths": [
-        "tests/fixtures/portability/web-9300609-hydro-create/assets/js/modules/country-default-colors.js",
-        "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/country-default-colors.js"
-      ]
-    },
-    {
-      "sha256": "f9b7248b16ebfcbcadcc008edf22dbf464bf5b3c3df811bc8e9c533ff7b4454e",
-      "paths": [
-        "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/place-contract.js",
-        "tests/fixtures/portability/web-9300609-removal-oracle/assets/js/modules/place-contract.js"
-      ]
-    },
-    {
-      "sha256": "0203d29f21ee2ac4d7e6df3dd7d6c3f9715cc85bc91f70f224699945476425fd",
-      "paths": [
-        "tests/fixtures/reference-training-photometry/input.rgb",
-        "tests/fixtures/reference-training-photometry/neutral.rgb"
-      ]
-    },
-    {
-      "sha256": "13c0d012495c8b825e80d17443f3dbf151ec7454ff29e7360462cb6f13734f99",
-      "paths": [
-        "tests/fixtures/reference-training-raster/map.png",
-        "tests/fixtures/reference-training-tile/map.png"
-      ]
-    }
+    [
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/au.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hm.svg"
+    ],
+    [
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bl.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fr.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mf.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nc.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pm.svg"
+    ],
+    [
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gb.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sh.svg"
+    ],
+    [
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/um.svg",
+      "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/us.svg"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/cmyk.json",
+      "tests/fixtures/map-image/jpeg-read/gray.json",
+      "tests/fixtures/map-image/jpeg-read/progressive.json",
+      "tests/fixtures/map-image/jpeg-read/rgb.json",
+      "tests/fixtures/map-image/png-read/gray-alpha.json",
+      "tests/fixtures/map-image/png-read/gray-alpha16.json",
+      "tests/fixtures/map-image/png-read/gray-key.json",
+      "tests/fixtures/map-image/png-read/gray1.json",
+      "tests/fixtures/map-image/png-read/gray16-key.json",
+      "tests/fixtures/map-image/png-read/gray16.json",
+      "tests/fixtures/map-image/png-read/palette-alpha.json",
+      "tests/fixtures/map-image/png-read/rgb-key.json",
+      "tests/fixtures/map-image/png-read/rgb.json",
+      "tests/fixtures/map-image/png-read/rgb16.json",
+      "tests/fixtures/map-image/png-read/rgba.json",
+      "tests/fixtures/map-image/png-read/rgba16.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/crop-resize.json",
+      "tests/fixtures/map-image/png-read/crop-resize.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-2.json",
+      "tests/fixtures/map-image/png-read/orientation-2.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-3.json",
+      "tests/fixtures/map-image/png-read/orientation-3.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-4.json",
+      "tests/fixtures/map-image/png-read/orientation-4.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-5.json",
+      "tests/fixtures/map-image/png-read/orientation-5.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-6.json",
+      "tests/fixtures/map-image/png-read/orientation-6.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-7.json",
+      "tests/fixtures/map-image/png-read/orientation-7.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/orientation-8.json",
+      "tests/fixtures/map-image/png-read/orientation-8.json"
+    ],
+    [
+      "tests/fixtures/map-image/jpeg-read/progressive.rgba",
+      "tests/fixtures/map-image/jpeg-read/rgb.rgba"
+    ],
+    [
+      "tests/fixtures/map-image/pdf-read/bad-angular-unit.json",
+      "tests/fixtures/map-image/pdf-read/bad-axis.json",
+      "tests/fixtures/map-image/pdf-read/bad-datum.json",
+      "tests/fixtures/map-image/pdf-read/bad-linear-unit.json",
+      "tests/fixtures/map-image/pdf-read/bad-prime.json",
+      "tests/fixtures/map-image/pdf-read/unsupported-crs.json"
+    ],
+    [
+      "tests/fixtures/map-image/pdf-read/bad-angular-unit.rgba",
+      "tests/fixtures/map-image/pdf-read/bad-axis.rgba",
+      "tests/fixtures/map-image/pdf-read/bad-controls.rgba",
+      "tests/fixtures/map-image/pdf-read/bad-datum.rgba",
+      "tests/fixtures/map-image/pdf-read/bad-linear-unit.rgba",
+      "tests/fixtures/map-image/pdf-read/bad-prime.rgba",
+      "tests/fixtures/map-image/pdf-read/geopdf-ref.rgba",
+      "tests/fixtures/map-image/pdf-read/two-viewports.rgba",
+      "tests/fixtures/map-image/pdf-read/unsupported-crs.rgba"
+    ],
+    [
+      "tests/fixtures/map-image/pdf-read/geopdf-ref.json",
+      "tests/fixtures/map-image/pdf-read/geopdf.json"
+    ],
+    [
+      "tests/fixtures/map-image/pdf-read/geopdf.rgba",
+      "tests/fixtures/map-image/pdf-read/single.rgba"
+    ],
+    [
+      "tests/fixtures/map-image/webp-read/animated.json",
+      "tests/fixtures/map-image/webp-read/lossy-alpha.json",
+      "tests/fixtures/map-image/webp-read/rgb.json",
+      "tests/fixtures/map-image/webp-read/rgba.json"
+    ],
+    [
+      "tests/fixtures/map-image/webp-read/crop-resize.webp",
+      "tests/fixtures/map-image/webp-read/rgba.webp"
+    ],
+    [
+      "tests/fixtures/portability/baseline-selection.mjs",
+      "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/object-selection-controller.js"
+    ],
+    [
+      "tests/fixtures/portability/web-9300609-hydro-create/assets/js/modules/color-adapter.js",
+      "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/color-adapter.js"
+    ],
+    [
+      "tests/fixtures/portability/web-9300609-hydro-create/assets/js/modules/country-default-colors.js",
+      "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/country-default-colors.js"
+    ],
+    [
+      "tests/fixtures/portability/web-9300609-oracle/assets/js/modules/place-contract.js",
+      "tests/fixtures/portability/web-9300609-removal-oracle/assets/js/modules/place-contract.js"
+    ],
+    [
+      "tests/fixtures/portability/web-9300609-oracle/tests/fixtures/timeline-storage-cases.mjs",
+      "tests/fixtures/timeline-storage-cases.mjs"
+    ]
   ],
   "dependencyGraph": {
     ".pnpmfile.mjs": [],
@@ -54902,8 +54809,8 @@
     {
       "path": "scripts/lib/product-html.mjs",
       "role": "source",
-      "lines": 13,
-      "bytes": 1032,
+      "lines": 12,
+      "bytes": 956,
       "nameReferences": [
         ".github/workflows/e6-retirement-acceptance.yml",
         "scripts/check-generic-provenance.mjs",
@@ -54996,8 +54903,8 @@
     {
       "path": "scripts/lib/ui-source-catalog.mjs",
       "role": "source",
-      "lines": 37,
-      "bytes": 2298,
+      "lines": 36,
+      "bytes": 2213,
       "nameReferences": [
         "apps/editor/tests/helpers/world-fixture.mjs",
         "docs/architecture/ui-architecture.md",
@@ -58129,20 +58036,10 @@
       "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan"
     },
     {
-      "path": "shared/frontend/ui/fragments/preferences-statusbar.html",
-      "role": "source",
-      "lines": 1,
-      "bytes": 161,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan"
-    },
-    {
       "path": "shared/frontend/ui/fragments/preferences.html",
       "role": "source",
       "lines": 36,
-      "bytes": 3750,
+      "bytes": 3712,
       "nameReferences": null,
       "parsedIncoming": [],
       "decision": "further-investigation",
@@ -66294,8 +66191,8 @@
     {
       "path": "tests/unit/product-html.test.mjs",
       "role": "tests-and-fixtures",
-      "lines": 32,
-      "bytes": 1946,
+      "lines": 39,
+      "bytes": 2307,
       "nameReferences": [],
       "parsedIncoming": [],
       "decision": "keep",
@@ -66773,8 +66670,8 @@
     {
       "path": "tests/unit/retired-layer-panel-contract.test.mjs",
       "role": "tests-and-fixtures",
-      "lines": 47,
-      "bytes": 2997,
+      "lines": 49,
+      "bytes": 3191,
       "nameReferences": [
         "package.json"
       ],
@@ -67936,7 +67833,7 @@
       "path": "tests/unit/viewer-ui-bundle.test.mjs",
       "role": "tests-and-fixtures",
       "lines": 21,
-      "bytes": 1127,
+      "bytes": 1099,
       "nameReferences": [],
       "parsedIncoming": [],
       "decision": "keep",
@@ -71161,20 +71058,21 @@
       "A": 662,
       "B": 661
     },
-    "method": "Same pinned data, headless Chromium, fresh contexts, A/B/A/B; two samples per condition"
+    "method": "Same pinned data, headless Chromium, fresh contexts, A/B/A/B; two samples per condition",
+    "caveat": "Measured before the final CSS and HTML changes; only two runs per condition."
   },
   "delivery": {
     "viewer": {
       "beforeFiles": 1570,
       "beforeBytes": 213343480,
       "afterFiles": 1569,
-      "afterBytes": 213322965
+      "afterBytes": 213314931
     },
     "windowsStage": {
       "beforeFiles": 1571,
       "beforeBytes": 213501197,
       "afterFiles": 1570,
-      "afterBytes": 213480550
+      "afterBytes": 213472516
     }
   }
 }
