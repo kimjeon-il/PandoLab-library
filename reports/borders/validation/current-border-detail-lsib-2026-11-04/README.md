@@ -1,5 +1,7 @@
 # Current border detail compared with LSIB 11.4
 
+> Scope correction (2026-11-04): the original Atrek sample is 17 points / 36.292 km of retained modern NE boundary, not the complete approved 140-point replacement or its nonmodern river trace. See [ATREK-SCOPE-CORRECTION.md](ATREK-SCOPE-CORRECTION.md). Original sample/metric bytes are preserved.
+
 Measurement completed 2026-11-04. Runtime simplification was deliberately **not** applied: current borders have heterogeneous NE-based and exact-LSIB detail, and the selected applied historical examples do not demonstrate excess detail. No safe automatic historical generalization parameter was established. This completes the scoped comparison, not the requested eventual generalization of all historical borders.
 
 ![Two-window summary](comparison-summary.png)
