@@ -1,0 +1,72 @@
+{
+  "baseline": "c73d3f562d35f92d749458c9890bec02875ff605",
+  "before": [
+    {
+      "id": "state:RUS",
+      "versions": [
+        {
+          "id": "state:RUS:post-soviet-existing-coordinates",
+          "hash": "1622accbe95fcd708d980b0871b72a2d65dc471541371e1a0af193f44dc985be"
+        },
+        {
+          "id": "state:RUS:post-soviet-existing-coordinates:rus-kaz-treaty-2006-01-12-abc-r1",
+          "hash": "c00a57473748ec8f36ae3498cd26fe54f964df86ab0864e4d3ba0439ed65cbd1"
+        },
+        {
+          "id": "state:RUS:natural-earth-5.1.1",
+          "hash": "e6fa9b950db8df26fe0b015c54d4cf2b4e77d8a8825cec3596eff7e2d91aad93"
+        }
+      ]
+    },
+    {
+      "id": "state:KAZ",
+      "versions": [
+        {
+          "id": "state:KAZ:post-soviet-existing-coordinates",
+          "hash": "0e22daa74dfe984e57a7cbe6bc2ef4c24b43fb33d6f73018c75154f6cca745c1"
+        },
+        {
+          "id": "state:KAZ:natural-earth-5.1.1:pre-2006-treaty-r1",
+          "hash": "02ce3308bce584ea00619ed51051e1a8d090c67ee33127101ff9aa7b709da853"
+        },
+        {
+          "id": "state:KAZ:natural-earth-5.1.1",
+          "hash": "2c16ffda27144c332102e7610d5a6cc10edab3bd24c1b3351dcf60255e67066f"
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "id": "state:RUS",
+      "versions": [
+        {
+          "id": "state:RUS:post-soviet-existing-coordinates",
+          "hash": "1622accbe95fcd708d980b0871b72a2d65dc471541371e1a0af193f44dc985be"
+        },
+        {
+          "id": "state:RUS:natural-earth-5.1.1",
+          "hash": "ec4a51711dd7b654e21e4529fd60fbfae9ded094e95edcdbb7f69128472cad13"
+        }
+      ]
+    },
+    {
+      "id": "state:KAZ",
+      "versions": [
+        {
+          "id": "state:KAZ:post-soviet-existing-coordinates",
+          "hash": "0e22daa74dfe984e57a7cbe6bc2ef4c24b43fb33d6f73018c75154f6cca745c1"
+        },
+        {
+          "id": "state:KAZ:natural-earth-5.1.1",
+          "hash": "02ce3308bce584ea00619ed51051e1a8d090c67ee33127101ff9aa7b709da853"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "twoCountryCompileMatchesPublished": true,
+    "restoredWorldGeometryMatchesPriorInput": true
+  },
+  "dataRevision": "89bff9a4c9ed42a7bca5325a3449fbe8055012e8"
+}

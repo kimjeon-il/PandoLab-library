@@ -1,0 +1,89 @@
+{
+  "engine": "OSGeo4W GEOS C API",
+  "geometryChecks": [
+    {
+      "id": "state:soviet-union",
+      "kind": "source",
+      "valid": true,
+      "technicalSymmetricDifferenceSquareDegrees": 0.0028038652172892994,
+      "outsideSarakhsWindowSquareDegrees": 0.0,
+      "deltaDifferenceFromUSSRSourceSquareDegrees": 0
+    },
+    {
+      "id": "state:soviet-union",
+      "kind": "compiled",
+      "valid": true,
+      "technicalSymmetricDifferenceSquareDegrees": 0.0028038652172892994,
+      "outsideSarakhsWindowSquareDegrees": 0.0,
+      "deltaDifferenceFromUSSRSourceSquareDegrees": 0.0
+    },
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "kind": "source",
+      "valid": true,
+      "technicalSymmetricDifferenceSquareDegrees": 0.0028038652172892994,
+      "outsideSarakhsWindowSquareDegrees": 0.0,
+      "deltaDifferenceFromUSSRSourceSquareDegrees": 0.0
+    },
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "kind": "compiled",
+      "valid": true,
+      "technicalSymmetricDifferenceSquareDegrees": 0.0028038652172892994,
+      "outsideSarakhsWindowSquareDegrees": 0.0,
+      "deltaDifferenceFromUSSRSourceSquareDegrees": 0.0
+    },
+    {
+      "id": "state:IRN",
+      "kind": "source",
+      "valid": true,
+      "technicalSymmetricDifferenceSquareDegrees": 0.002803865217289307,
+      "outsideSarakhsWindowSquareDegrees": 0.0,
+      "deltaDifferenceFromUSSRSourceSquareDegrees": 8.097634975751111e-18
+    },
+    {
+      "id": "state:IRN",
+      "kind": "compiled",
+      "valid": true,
+      "technicalSymmetricDifferenceSquareDegrees": 0.002803865217289307,
+      "outsideSarakhsWindowSquareDegrees": 0.0,
+      "deltaDifferenceFromUSSRSourceSquareDegrees": 8.097634975751111e-18
+    }
+  ],
+  "pairChecks": [
+    {
+      "id": "state:soviet-union",
+      "kind": "source",
+      "peer": "state:IRN",
+      "unionDifferenceSquareDegrees": 0.0,
+      "overlapInsideSarakhsWindowSquareDegrees": 4.854515227303846e-17,
+      "sharedBoundaryInsideWindowDegrees": 0.1243993253960818
+    },
+    {
+      "id": "state:soviet-union",
+      "kind": "compiled",
+      "peer": "state:IRN",
+      "unionDifferenceSquareDegrees": 0.0,
+      "overlapInsideSarakhsWindowSquareDegrees": 4.854515227303846e-17,
+      "sharedBoundaryInsideWindowDegrees": 0.12439932539608178
+    },
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "kind": "source",
+      "peer": "state:IRN",
+      "unionDifferenceSquareDegrees": 0.0,
+      "overlapInsideSarakhsWindowSquareDegrees": 4.854515227303846e-17,
+      "sharedBoundaryInsideWindowDegrees": 0.1243993253960818
+    },
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "kind": "compiled",
+      "peer": "state:IRN",
+      "unionDifferenceSquareDegrees": 0.0,
+      "overlapInsideSarakhsWindowSquareDegrees": 4.854515227303846e-17,
+      "sharedBoundaryInsideWindowDegrees": 0.12439932539608178
+    }
+  ],
+  "eventAreaKm2": 25.9,
+  "eventAreaBasis": "prior documentary research, not the technical display symmetric difference"
+}

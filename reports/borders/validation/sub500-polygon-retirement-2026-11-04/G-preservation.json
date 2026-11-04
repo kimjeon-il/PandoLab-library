@@ -1,0 +1,38 @@
+{
+  "purpose": "Read-only comparison with saved pre-G geometry; no G generation or publication",
+  "checks": [
+    {
+      "id": "state:RUS",
+      "version": "state:RUS:post-soviet-existing-coordinates",
+      "GWindow": [
+        117,
+        49,
+        119,
+        50
+      ],
+      "differenceFromPreGNativeSquareDegrees": 0.0
+    },
+    {
+      "id": "state:RUS",
+      "version": "state:RUS:natural-earth-5.1.1",
+      "GWindow": [
+        117,
+        49,
+        119,
+        50
+      ],
+      "differenceFromPreGNativeSquareDegrees": 0.0
+    },
+    {
+      "id": "state:CHN",
+      "version": "state:CHN:paektu-lsib-11.4",
+      "GWindow": [
+        117,
+        49,
+        119,
+        50
+      ],
+      "differenceFromPreGNativeSquareDegrees": 0.0
+    }
+  ]
+}
