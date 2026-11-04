@@ -1,0 +1,2198 @@
+{
+  "schema": "pando-border-detail-metrics-v1",
+  "publicRevision": "0388abf78dff4ea4835e36b01de67d10703ac596",
+  "workRevision": "89bff9a4c9ed42a7bca5325a3449fbe8055012e8",
+  "lsibProvenance": {
+    "sourceId": "dos-lsib-11.4",
+    "published": "2025-02-24",
+    "url": "https://data.geodata.state.gov/LSIB.zip",
+    "license": "US Government public release; see upstream metadata",
+    "archiveSha256": "1eb5af7e80fce60e48d27eba80ae81fd2b25c9cf59f4f4e2efc89c06ad57490a",
+    "innerArchiveSha256": "d0486e4751ead87c4b96ba8e2d878e80a9f0560b422b5cfcd13e300ec8649a67",
+    "shpSha256": "b0077110f48bcf543cc52a01d09fb3fea30ad430104096d4d8829c18e5d90845",
+    "dbfSha256": "8404d581b493f64dcb0d8c482571b5ddc21e9363100a84cfeda80d31f48aa21a",
+    "masterSha256": "de87a3d317b7c18c07a8d16d1299778aaa19fd43a8d7b06a1217ac397cbd4194",
+    "naturalEarthDisputes": {
+      "release": "v5.1.1",
+      "url": "https://github.com/nvkelso/natural-earth-vector/tree/v5.1.1/10m_cultural",
+      "shpSha256": "b3294d9e15bc093091c3d1524ec120eeafcfc16a188177bc4cbe3d1489f25626",
+      "dbfSha256": "6d1e7dcfc13474dba5f304427a97190630cd04af9ea2911d2d5711735a761e34"
+    },
+    "policy": "Existing attribution retained; special/disputed/joint/historical lines withheld; no guessed connectors."
+  },
+  "samples": [
+    {
+      "legacyParameterDegrees": 0.0004,
+      "id": "lsib-paektu",
+      "type": "lsib-paektu",
+      "countries": [
+        "CHN",
+        "PRK"
+      ],
+      "box": [
+        127.98,
+        41.93,
+        128.15,
+        42.08
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=42.004999999999995 +lon_0=128.065 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "public": 1,
+        "work": 1,
+        "reference": 1
+      },
+      "lsibIds": [
+        "8ea0154a-8bae-42a1-abdc-af310aeca0cc"
+      ],
+      "sourceVersions": [
+        "state:CHN:paektu-lsib-11.4",
+        "state:PRK:sino-korean-protocol-1964"
+      ],
+      "runtimeBasis": "actual selected compiled geometry where registered; source fallback explicitly marked only for unregistered candidates",
+      "applicationStatus": "applied current runtime",
+      "sourceSupplement": [
+        null,
+        null
+      ],
+      "displaySourceCategory": "Paektu recipe directly reused LSIB vertices; same-source identity check, not independent high-resolution verification",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Source alignment is not pure simplification; fixed window cuts have reported endpoint offsets, not common legal survey monuments",
+      "metrics": {
+        "public": {
+          "vertices": 501,
+          "lengthKm": 21.241075050454874,
+          "verticesPerKm": 23.58637681049346,
+          "spacingMeters": {
+            "min": 0.6351988626752965,
+            "median": 17.800215838790827,
+            "p90": 44.051420364962105,
+            "p95": 197.33599408557527,
+            "p99": 656.537845429962,
+            "max": 1707.5396664399802
+          },
+          "lengthToChordRatio": 1.9147614027675854,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 965.5034113843125,
+          "turnDegrees": {
+            "min": 0.007501966341325656,
+            "median": 7.1973777483174395,
+            "p90": 22.555857711698238,
+            "p95": 47.358216467401064,
+            "p99": 95.94283944349596,
+            "max": 108.08899518751961
+          },
+          "turnDegreesPer100Km": 1468.980969534225
+        },
+        "work": {
+          "vertices": 501,
+          "lengthKm": 21.241075050454874,
+          "verticesPerKm": 23.58637681049346,
+          "spacingMeters": {
+            "min": 0.6351988626752965,
+            "median": 17.800215838790827,
+            "p90": 44.051420364962105,
+            "p95": 197.33599408557527,
+            "p99": 656.537845429962,
+            "max": 1707.5396664399802
+          },
+          "lengthToChordRatio": 1.9147614027675854,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 965.5034113843125,
+          "turnDegrees": {
+            "min": 0.007501966341325656,
+            "median": 7.1973777483174395,
+            "p90": 22.555857711698238,
+            "p95": 47.358216467401064,
+            "p99": 95.94283944349596,
+            "max": 108.08899518751961
+          },
+          "turnDegreesPer100Km": 1468.980969534225
+        },
+        "reference": {
+          "vertices": 501,
+          "lengthKm": 21.241075050454874,
+          "verticesPerKm": 23.58637681049346,
+          "spacingMeters": {
+            "min": 0.6351988626752965,
+            "median": 17.800215838790827,
+            "p90": 44.051420364962105,
+            "p95": 197.33599408557527,
+            "p99": 656.537845429962,
+            "max": 1707.5396664399802
+          },
+          "lengthToChordRatio": 1.9147614027675854,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 965.5034113843125,
+          "turnDegrees": {
+            "min": 0.007501966341325656,
+            "median": 7.1973777483174395,
+            "p90": 22.555857711698238,
+            "p95": 47.358216467401064,
+            "p99": 95.94283944349596,
+            "max": 108.08899518751961
+          },
+          "turnDegreesPer100Km": 1468.980969534225
+        },
+        "legacyDerivative": {
+          "vertices": 32,
+          "lengthKm": 20.88361050955733,
+          "verticesPerKm": 1.5323020885375775,
+          "spacingMeters": {
+            "min": 62.441346772707654,
+            "median": 349.5570327224508,
+            "p90": 1689.939090345607,
+            "p95": 2532.1300163598,
+            "p99": 4620.713380339364,
+            "max": 5217.561427961153
+          },
+          "lengthToChordRatio": 1.8825380193398245,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 994.4576433122538,
+          "turnDegrees": {
+            "min": 0,
+            "median": 11.814958565803808,
+            "p90": 27.882342034280793,
+            "p95": 44.43168735657032,
+            "p99": 80.64865615062334,
+            "max": 89.70289834913667
+          },
+          "turnDegreesPer100Km": 1498.193340775547
+        }
+      },
+      "legacyVsReference": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 419,
+          "min": 0,
+          "median": 3.912075092653506,
+          "p90": 13.435186037874068,
+          "p95": 18.486478499977267,
+          "p99": 29.389480386851027,
+          "max": 38.29826291455001
+        },
+        "rightToLeft": {
+          "samples": 426,
+          "min": 0,
+          "median": 4.024947004616523,
+          "p90": 14.952139590250358,
+          "p95": 19.0929012660085,
+          "p99": 30.035063535922294,
+          "max": 39.53892705416754
+        },
+        "pooled": {
+          "samples": 845,
+          "min": 0,
+          "median": 3.9738019468628147,
+          "p90": 14.200330497388434,
+          "p95": 18.786409516989192,
+          "p99": 30.13975457308736,
+          "max": 39.53892705416754
+        },
+        "sampledMaximumMeters": 39.53892705416754,
+        "lengthRatio": 0.9831710711417175,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "legacyVsCurrent": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 426,
+          "min": 0,
+          "median": 4.024947004616523,
+          "p90": 14.952139590250358,
+          "p95": 19.0929012660085,
+          "p99": 30.035063535922294,
+          "max": 39.53892705416754
+        },
+        "rightToLeft": {
+          "samples": 419,
+          "min": 0,
+          "median": 3.912075092653506,
+          "p90": 13.435186037874068,
+          "p95": 18.486478499977267,
+          "p99": 29.389480386851027,
+          "max": 38.29826291455001
+        },
+        "pooled": {
+          "samples": 845,
+          "min": 0,
+          "median": 3.9738019468628147,
+          "p90": 14.200330497388434,
+          "p95": 18.786409516989192,
+          "p99": 30.13975457308736,
+          "max": 39.53892705416754
+        },
+        "sampledMaximumMeters": 39.53892705416754,
+        "lengthRatio": 1.0171169894561074,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison100m": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 214,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 2.2737367544323206e-13,
+          "max": 4.547473508864641e-13
+        },
+        "rightToLeft": {
+          "samples": 214,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 2.2737367544323206e-13,
+          "max": 4.547473508864641e-13
+        },
+        "pooled": {
+          "samples": 428,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 2.2737367544323206e-13,
+          "max": 4.547473508864641e-13
+        },
+        "sampledMaximumMeters": 4.547473508864641e-13,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison50m": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 426,
+          "min": 0,
+          "median": 0,
+          "p90": 2.2737367544323206e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 4.547473508864641e-13,
+          "max": 3.749942721349417e-12
+        },
+        "rightToLeft": {
+          "samples": 426,
+          "min": 0,
+          "median": 0,
+          "p90": 2.2737367544323206e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 4.547473508864641e-13,
+          "max": 3.749942721349417e-12
+        },
+        "pooled": {
+          "samples": 852,
+          "min": 0,
+          "median": 0,
+          "p90": 2.2737367544323206e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 4.547473508864641e-13,
+          "max": 3.749942721349417e-12
+        },
+        "sampledMaximumMeters": 3.749942721349417e-12,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "publicWork": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 214,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 2.2737367544323206e-13,
+          "max": 4.547473508864641e-13
+        },
+        "rightToLeft": {
+          "samples": 214,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 2.2737367544323206e-13,
+          "max": 4.547473508864641e-13
+        },
+        "pooled": {
+          "samples": 428,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 2.2737367544323206e-13,
+          "p99": 2.2737367544323206e-13,
+          "max": 4.547473508864641e-13
+        },
+        "sampledMaximumMeters": 4.547473508864641e-13,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "resolutionCheck": {
+        "maximumChange50mMinus100m": 3.295195370462953e-12,
+        "p95Change50mMinus100m": 0,
+        "conclusion": "Finite resolution diagnostic only; no continuous maximum/convergence guarantee claimed."
+      }
+    },
+    {
+      "legacyParameterDegrees": 0.0004,
+      "id": "lsib-river",
+      "type": "lsib-river",
+      "countries": [
+        "CHN",
+        "PRK"
+      ],
+      "box": [
+        125.5,
+        40.7,
+        126,
+        41.1
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=40.900000000000006 +lon_0=125.75 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "public": 2,
+        "work": 2,
+        "reference": 2
+      },
+      "lsibIds": [
+        "8ea0154a-8bae-42a1-abdc-af310aeca0cc"
+      ],
+      "sourceVersions": [
+        "state:CHN:paektu-lsib-11.4",
+        "state:PRK:sino-korean-protocol-1964"
+      ],
+      "runtimeBasis": "actual selected compiled geometry where registered; source fallback explicitly marked only for unregistered candidates",
+      "applicationStatus": "applied current runtime",
+      "sourceSupplement": [
+        null,
+        null
+      ],
+      "displaySourceCategory": "Outside Paektu LSIB refinement; NE retained despite LSIB citation for another part of the same country object",
+      "calibrationEligible": false,
+      "calibrationExclusion": "LSIB island attribution and unresolved period islands; multiple components",
+      "metrics": {
+        "public": {
+          "vertices": 37,
+          "lengthKm": 63.986270918695546,
+          "verticesPerKm": 0.5782490441897172,
+          "spacingMeters": {
+            "min": 240.64652449423374,
+            "median": 1330.6986741897013,
+            "p90": 3885.097808878673,
+            "p95": 4409.46537618949,
+            "p99": 5155.079378314873,
+            "max": 5258.954103204555
+          },
+          "lengthToChordRatio": 1.377489425127222,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.7854831046179,
+          "turnDegrees": {
+            "min": 3.3364846167765807e-15,
+            "median": 11.24772496666903,
+            "p90": 39.787054670038295,
+            "p95": 44.664144858882146,
+            "p99": 66.5990358977254,
+            "max": 79.15794689171165
+          },
+          "turnDegreesPer100Km": 1447.6158126082435
+        },
+        "work": {
+          "vertices": 37,
+          "lengthKm": 63.986270918695546,
+          "verticesPerKm": 0.5782490441897172,
+          "spacingMeters": {
+            "min": 240.64652449423374,
+            "median": 1330.6986741897013,
+            "p90": 3885.097808878673,
+            "p95": 4409.46537618949,
+            "p99": 5155.079378314873,
+            "max": 5258.954103204555
+          },
+          "lengthToChordRatio": 1.377489425127222,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.7854831046179,
+          "turnDegrees": {
+            "min": 3.3364846167765807e-15,
+            "median": 11.24772496666903,
+            "p90": 39.787054670038295,
+            "p95": 44.664144858882146,
+            "p99": 66.5990358977254,
+            "max": 79.15794689171165
+          },
+          "turnDegreesPer100Km": 1447.6158126082435
+        },
+        "reference": {
+          "vertices": 936,
+          "lengthKm": 76.62307340617701,
+          "verticesPerKm": 12.215641560581721,
+          "spacingMeters": {
+            "min": 21.71476173118472,
+            "median": 80.669421987525,
+            "p90": 108.10371738395824,
+            "p95": 115.39887202332518,
+            "p99": 133.22050407581128,
+            "max": 173.14213129841715
+          },
+          "lengthToChordRatio": 1.6495782237750758,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 995.1048494308704,
+          "turnDegrees": {
+            "min": 0.03622877755233848,
+            "median": 20.999995516390133,
+            "p90": 55.86286213661326,
+            "p95": 63.69409529968425,
+            "p99": 87.3013796366894,
+            "max": 98.94533221131391
+          },
+          "turnDegreesPer100Km": 2702.9104345903406
+        },
+        "legacyDerivative": {
+          "vertices": 118,
+          "lengthKm": 76.320259128316,
+          "verticesPerKm": 1.546116343782436,
+          "spacingMeters": {
+            "min": 121.42918656716903,
+            "median": 566.2814627205457,
+            "p90": 1054.1787248489597,
+            "p95": 1438.3848646868398,
+            "p99": 1752.7822852423005,
+            "max": 2053.506897926808
+          },
+          "lengthToChordRatio": 1.6430590929649633,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 991.1721964716363,
+          "turnDegrees": {
+            "min": 1.2647120741554347,
+            "median": 20.17256659527355,
+            "p90": 56.07377053855753,
+            "p95": 61.23770404700933,
+            "p99": 88.98117381337688,
+            "max": 101.8177449132599
+          },
+          "turnDegreesPer100Km": 2686.3824542462344
+        }
+      },
+      "legacyVsReference": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 1528,
+          "min": 0,
+          "median": 9.747425528135137,
+          "p90": 25.036381869405574,
+          "p95": 30.913672395265166,
+          "p99": 37.44709689796523,
+          "max": 43.89915219777212
+        },
+        "rightToLeft": {
+          "samples": 1534,
+          "min": 0,
+          "median": 9.716001187340716,
+          "p90": 25.177079046265742,
+          "p95": 31.33793966555709,
+          "p99": 37.4217724679775,
+          "max": 43.80853054677392
+        },
+        "pooled": {
+          "samples": 3062,
+          "min": 0,
+          "median": 9.728996466156584,
+          "p90": 25.088954067639598,
+          "p95": 31.232243125097714,
+          "p99": 37.45620530170151,
+          "max": 43.89915219777212
+        },
+        "sampledMaximumMeters": 43.89915219777212,
+        "lengthRatio": 0.9960480014126318,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "legacyVsCurrent": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 1281,
+          "min": 0.5661342079792171,
+          "median": 382.86795943181176,
+          "p90": 872.0083256482476,
+          "p95": 990.4441713288361,
+          "p99": 1222.5681217217214,
+          "max": 1443.3693943324458
+        },
+        "rightToLeft": {
+          "samples": 1528,
+          "min": 0.07137443577200284,
+          "median": 448.5322385398582,
+          "p90": 1137.8819717052895,
+          "p95": 1290.1841250663522,
+          "p99": 1721.8630474215302,
+          "max": 1860.4707189913684
+        },
+        "pooled": {
+          "samples": 2809,
+          "min": 0.07137443577200284,
+          "median": 417.4627984741694,
+          "p90": 981.1060224032801,
+          "p95": 1205.5414972868762,
+          "p99": 1537.7437874476918,
+          "max": 1860.4707189913684
+        },
+        "sampledMaximumMeters": 1860.4707189913684,
+        "lengthRatio": 0.8383916885176775,
+        "endpointOffsetsMeters": [
+          9.740653909171206,
+          6.604179054673325
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison100m": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 641,
+          "min": 0.3952232285881717,
+          "median": 388.8513222286649,
+          "p90": 874.8408578525465,
+          "p95": 992.1858998224578,
+          "p99": 1232.6644042256669,
+          "max": 1429.2803403720213
+        },
+        "rightToLeft": {
+          "samples": 768,
+          "min": 3.023805898634272,
+          "median": 450.13710997558746,
+          "p90": 1152.2788418145935,
+          "p95": 1299.9914905393111,
+          "p99": 1733.219970752867,
+          "max": 1871.2294959708731
+        },
+        "pooled": {
+          "samples": 1409,
+          "min": 0.3952232285881717,
+          "median": 426.70031132031073,
+          "p90": 978.0999058791941,
+          "p95": 1212.6178518701436,
+          "p99": 1531.41353060422,
+          "max": 1871.2294959708731
+        },
+        "sampledMaximumMeters": 1871.2294959708731,
+        "lengthRatio": 0.8350783657489945,
+        "endpointOffsetsMeters": [
+          9.740653909171206,
+          6.604179054673325
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison50m": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 1281,
+          "min": 0.3952232285881717,
+          "median": 390.3776376119433,
+          "p90": 870.8360803659327,
+          "p95": 992.1858998224578,
+          "p99": 1233.3841644189654,
+          "max": 1455.050353143343
+        },
+        "rightToLeft": {
+          "samples": 1534,
+          "min": 0.43170799615544025,
+          "median": 451.0177449161346,
+          "p90": 1151.404575623494,
+          "p95": 1304.0221507321482,
+          "p99": 1735.446969968276,
+          "max": 1872.6360442644707
+        },
+        "pooled": {
+          "samples": 2815,
+          "min": 0.3952232285881717,
+          "median": 426.1647102182818,
+          "p90": 984.1261093372259,
+          "p95": 1213.5739793191035,
+          "p99": 1550.1303632556326,
+          "max": 1872.6360442644707
+        },
+        "sampledMaximumMeters": 1872.6360442644707,
+        "lengthRatio": 0.8350783657489945,
+        "endpointOffsetsMeters": [
+          9.740653909171206,
+          6.604179054673325
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "publicWork": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 641,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 6.821210263296962e-13,
+          "p99": 9.094947017729282e-13,
+          "max": 3.637978807091713e-12
+        },
+        "rightToLeft": {
+          "samples": 641,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 6.821210263296962e-13,
+          "p99": 9.094947017729282e-13,
+          "max": 3.637978807091713e-12
+        },
+        "pooled": {
+          "samples": 1282,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 6.821210263296962e-13,
+          "p99": 9.094947017729282e-13,
+          "max": 3.637978807091713e-12
+        },
+        "sampledMaximumMeters": 3.637978807091713e-12,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "resolutionCheck": {
+        "maximumChange50mMinus100m": 1.4065482935975524,
+        "p95Change50mMinus100m": 0.9561274489599327,
+        "conclusion": "Finite resolution diagnostic only; no continuous maximum/convergence guarantee claimed."
+      }
+    },
+    {
+      "legacyParameterDegrees": 0.0004,
+      "id": "straight",
+      "type": "straight",
+      "countries": [
+        "USA",
+        "CAN"
+      ],
+      "box": [
+        -115,
+        48.8,
+        -112,
+        49.2
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=49.0 +lon_0=-113.5 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "public": 1,
+        "work": 1,
+        "reference": 1
+      },
+      "lsibIds": [
+        "8c67fad8-9850-4820-97ec-80ccc1b3fdf3"
+      ],
+      "sourceVersions": [
+        "state:USA:natural-earth-5.1.1",
+        "state:CAN:natural-earth-5.1.1"
+      ],
+      "runtimeBasis": "actual selected compiled geometry where registered; source fallback explicitly marked only for unregistered candidates",
+      "applicationStatus": "applied current runtime",
+      "sourceSupplement": [
+        null,
+        null
+      ],
+      "displaySourceCategory": "NE-based current compiled window",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Source alignment is not pure simplification; fixed window cuts have reported endpoint offsets, not common legal survey monuments",
+      "metrics": {
+        "public": {
+          "vertices": 17,
+          "lengthKm": 219.5480880792258,
+          "verticesPerKm": 0.07743178339073217,
+          "spacingMeters": {
+            "min": 1232.470818082742,
+            "median": 16085.97051949908,
+            "p90": 16087.906375729694,
+            "p95": 16088.363788803927,
+            "p99": 16089.461473871888,
+            "max": 16089.735895138878
+          },
+          "lengthToChordRatio": 1.0000652526045308,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.9458549055718,
+          "turnDegrees": {
+            "min": 0,
+            "median": 5.5006607059089575e-15,
+            "p90": 0.036619123204999125,
+            "p95": 0.08614996325389414,
+            "p99": 0.14819764795349624,
+            "max": 0.18343237387048764
+          },
+          "turnDegreesPer100Km": 1.0067936404086288
+        },
+        "work": {
+          "vertices": 17,
+          "lengthKm": 219.5480880792258,
+          "verticesPerKm": 0.07743178339073217,
+          "spacingMeters": {
+            "min": 1232.470818082742,
+            "median": 16085.97051949908,
+            "p90": 16087.906375729694,
+            "p95": 16088.363788803927,
+            "p99": 16089.461473871888,
+            "max": 16089.735895138878
+          },
+          "lengthToChordRatio": 1.0000652526045308,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.9458549055718,
+          "turnDegrees": {
+            "min": 0,
+            "median": 5.5006607059089575e-15,
+            "p90": 0.036619123204999125,
+            "p95": 0.08614996325389414,
+            "p99": 0.14819764795349624,
+            "max": 0.18343237387048764
+          },
+          "turnDegreesPer100Km": 1.0067936404086288
+        },
+        "reference": {
+          "vertices": 272,
+          "lengthKm": 219.52249636966107,
+          "verticesPerKm": 1.2390529649497533,
+          "spacingMeters": {
+            "min": 6.7100303237109005,
+            "median": 815.1376311895282,
+            "p90": 987.2527143700531,
+            "p95": 991.0166764067467,
+            "p99": 999.2439716915246,
+            "max": 999.251590515388
+          },
+          "lengthToChordRatio": 1.000081268683716,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.8295289530048,
+          "turnDegrees": {
+            "min": 0.000006793915065439742,
+            "median": 0.004596907143270305,
+            "p90": 0.06976348767748615,
+            "p95": 0.22335915423993458,
+            "p99": 0.5916073594296727,
+            "max": 0.845443918224874
+          },
+          "turnDegreesPer100Km": 3.7115553739113576
+        },
+        "legacyDerivative": {
+          "vertices": 8,
+          "lengthKm": 219.52140153319453,
+          "verticesPerKm": 0.03644291601696199,
+          "spacingMeters": {
+            "min": 8218.166925824802,
+            "median": 21495.29661463431,
+            "p90": 56998.605554920825,
+            "p95": 64731.73356005331,
+            "p99": 70918.23596415934,
+            "max": 72464.86156518584
+          },
+          "lengthToChordRatio": 1.0000762809240988,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.8245524236115,
+          "turnDegrees": {
+            "min": 0,
+            "median": 2.6430526354682987e-15,
+            "p90": 1.7480783767255882e-14,
+            "p95": 0.01156422929983187,
+            "p99": 0.37459128824104254,
+            "max": 0.7770056166739113
+          },
+          "turnDegreesPer100Km": 1.4634729477375283
+        }
+      },
+      "legacyVsReference": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 4392,
+          "min": 0,
+          "median": 25.73244218595501,
+          "p90": 96.7291069333042,
+          "p95": 100.74628407531239,
+          "p99": 115.36957961740183,
+          "max": 121.51687819686057
+        },
+        "rightToLeft": {
+          "samples": 4392,
+          "min": 0,
+          "median": 25.732461085903047,
+          "p90": 96.72910098193063,
+          "p95": 100.74737624621804,
+          "p99": 115.37119295593011,
+          "max": 121.51847415161174
+        },
+        "pooled": {
+          "samples": 8784,
+          "min": 0,
+          "median": 25.732461085903047,
+          "p90": 96.73078066868783,
+          "p95": 100.74652354339761,
+          "p99": 115.3888555479418,
+          "max": 121.51847415161174
+        },
+        "sampledMaximumMeters": 121.51847415161174,
+        "lengthRatio": 0.9999950126456986,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "legacyVsCurrent": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 4392,
+          "min": 551.2951889329053,
+          "median": 737.6422106235495,
+          "p90": 936.9550886831871,
+          "p95": 953.1372468532397,
+          "p99": 956.8535798197405,
+          "max": 957.7820544616612
+        },
+        "rightToLeft": {
+          "samples": 4392,
+          "min": 551.3203250733759,
+          "median": 737.6466431025956,
+          "p90": 936.959613255698,
+          "p95": 953.1380780224157,
+          "p99": 956.852546729464,
+          "max": 957.7840474713338
+        },
+        "pooled": {
+          "samples": 8784,
+          "min": 551.2951889329053,
+          "median": 737.6445761389552,
+          "p90": 936.9701491984417,
+          "p95": 953.1416252214412,
+          "p99": 956.8554697833689,
+          "max": 957.7840474713338
+        },
+        "sampledMaximumMeters": 957.7840474713338,
+        "lengthRatio": 1.000121566944475,
+        "endpointOffsetsMeters": [
+          814.2057631753355,
+          661.3177713808261
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison100m": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 2197,
+          "min": 551.4412164196658,
+          "median": 672.3409909679661,
+          "p90": 921.2614187949458,
+          "p95": 949.1493847519948,
+          "p99": 950.9010591763661,
+          "max": 951.8098634583474
+        },
+        "rightToLeft": {
+          "samples": 2197,
+          "min": 551.4564266760538,
+          "median": 672.3410259385918,
+          "p90": 921.2796915339582,
+          "p95": 949.1719789508207,
+          "p99": 950.8992968083174,
+          "max": 951.8122933241667
+        },
+        "pooled": {
+          "samples": 4394,
+          "min": 551.4412164196658,
+          "median": 672.341008453279,
+          "p90": 921.3038466110233,
+          "p95": 949.1705558916219,
+          "p99": 950.9016545542829,
+          "max": 951.8122933241667
+        },
+        "sampledMaximumMeters": 951.8122933241667,
+        "lengthRatio": 1.0001165789838762,
+        "endpointOffsetsMeters": [
+          814.2057631753355,
+          661.3177713808261
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison50m": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 4392,
+          "min": 551.2736581513406,
+          "median": 672.341596936064,
+          "p90": 921.2367249807135,
+          "p95": 949.1496457971158,
+          "p99": 950.8914667482987,
+          "max": 951.7582322010007
+        },
+        "rightToLeft": {
+          "samples": 4392,
+          "min": 551.2888879392241,
+          "median": 672.341510371836,
+          "p90": 921.266131076319,
+          "p95": 949.1527771165125,
+          "p99": 950.8898302653089,
+          "max": 951.7614109054451
+        },
+        "pooled": {
+          "samples": 8784,
+          "min": 551.2736581513406,
+          "median": 672.341510371836,
+          "p90": 921.2608455044035,
+          "p95": 949.1711382407952,
+          "p99": 950.8925678149371,
+          "max": 951.7614109054451
+        },
+        "sampledMaximumMeters": 951.7614109054451,
+        "lengthRatio": 1.0001165789838762,
+        "endpointOffsetsMeters": [
+          814.2057631753355,
+          661.3177713808261
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "publicWork": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 2197,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 1.4210854715202004e-13,
+          "p99": 1.8225386545374702e-12,
+          "max": 7.275957614183426e-12
+        },
+        "rightToLeft": {
+          "samples": 2197,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 1.4210854715202004e-13,
+          "p99": 1.8225386545374702e-12,
+          "max": 7.275957614183426e-12
+        },
+        "pooled": {
+          "samples": 4394,
+          "min": 0,
+          "median": 0,
+          "p90": 1.1368683772161603e-13,
+          "p95": 1.4210854715202004e-13,
+          "p99": 1.8225386545374702e-12,
+          "max": 7.275957614183426e-12
+        },
+        "sampledMaximumMeters": 7.275957614183426e-12,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "resolutionCheck": {
+        "maximumChange50mMinus100m": -0.050882418721585054,
+        "p95Change50mMinus100m": 0.0005823491733281116,
+        "conclusion": "Finite resolution diagnostic only; no continuous maximum/convergence guarantee claimed."
+      }
+    },
+    {
+      "legacyParameterDegrees": 0.0004,
+      "id": "mountain",
+      "type": "mountain",
+      "countries": [
+        "AUT",
+        "LIE"
+      ],
+      "box": [
+        9.48,
+        47.06,
+        9.68,
+        47.27
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=47.165000000000006 +lon_0=9.58 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "public": 1,
+        "work": 1,
+        "reference": 1
+      },
+      "lsibIds": [
+        "c133c4d6-bf4f-489d-b51e-abf2be55d369"
+      ],
+      "sourceVersions": [
+        "state:AUT:natural-earth-5.1.1",
+        "state:LIE:natural-earth-5.1.1"
+      ],
+      "runtimeBasis": "actual selected compiled geometry where registered; source fallback explicitly marked only for unregistered candidates",
+      "applicationStatus": "applied current runtime",
+      "sourceSupplement": [
+        null,
+        null
+      ],
+      "displaySourceCategory": "NE-based current compiled window",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Source alignment is not pure simplification; fixed window cuts have reported endpoint offsets, not common legal survey monuments",
+      "metrics": {
+        "public": {
+          "vertices": 15,
+          "lengthKm": 26.636885360767774,
+          "verticesPerKm": 0.5631289017781637,
+          "spacingMeters": {
+            "min": 796.6416806793184,
+            "median": 1705.8613277627614,
+            "p90": 2940.0263241431658,
+            "p95": 2995.223703096434,
+            "p99": 3075.6148380484474,
+            "max": 3095.7126217864507
+          },
+          "lengthToChordRatio": 1.1552536697963678,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 986.5513096580657,
+          "turnDegrees": {
+            "min": 1.0279800340685007e-14,
+            "median": 11.044929793804547,
+            "p90": 29.14333714049672,
+            "p95": 45.892054665255415,
+            "p99": 61.6068364699551,
+            "max": 65.06317426068843
+          },
+          "turnDegreesPer100Km": 1400.1125959532974
+        },
+        "work": {
+          "vertices": 15,
+          "lengthKm": 26.636885360767774,
+          "verticesPerKm": 0.5631289017781637,
+          "spacingMeters": {
+            "min": 796.6416806793184,
+            "median": 1705.8613277627614,
+            "p90": 2940.0263241431658,
+            "p95": 2995.223703096434,
+            "p99": 3075.6148380484474,
+            "max": 3095.7126217864507
+          },
+          "lengthToChordRatio": 1.1552536697963678,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 986.5513096580657,
+          "turnDegrees": {
+            "min": 1.0279800340685007e-14,
+            "median": 11.044929793804547,
+            "p90": 29.14333714049672,
+            "p95": 45.892054665255415,
+            "p99": 61.6068364699551,
+            "max": 65.06317426068843
+          },
+          "turnDegreesPer100Km": 1400.1125959532974
+        },
+        "reference": {
+          "vertices": 2462,
+          "lengthKm": 36.60355744201486,
+          "verticesPerKm": 67.26122191538764,
+          "spacingMeters": {
+            "min": 0.5563776374530044,
+            "median": 10.083951324160433,
+            "p90": 36.75183671807457,
+            "p95": 43.26414666768388,
+            "p99": 49.2693329159264,
+            "max": 49.883765757814786
+          },
+          "lengthToChordRatio": 1.5278658276939077,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 989.2853362706719,
+          "turnDegrees": {
+            "min": 0.24966281745105479,
+            "median": 26.430121871189257,
+            "p90": 69.5492421434846,
+            "p95": 88.01730608955603,
+            "p99": 123.1343849937324,
+            "max": 135.7542089265641
+          },
+          "turnDegreesPer100Km": 3341.3507676112213
+        },
+        "legacyDerivative": {
+          "vertices": 92,
+          "lengthKm": 34.680405228472786,
+          "verticesPerKm": 2.6527948388696316,
+          "spacingMeters": {
+            "min": 60.69919697746969,
+            "median": 325.1966677247681,
+            "p90": 639.4503842645464,
+            "p95": 830.060342758169,
+            "p99": 1121.321742572702,
+            "max": 1127.5866391116224
+          },
+          "lengthToChordRatio": 1.447591702612499,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 990.8687208135083,
+          "turnDegrees": {
+            "min": 1.2692539178328142,
+            "median": 28.15602129465247,
+            "p90": 70.7375449916889,
+            "p95": 80.35982343895333,
+            "p99": 97.66662406174054,
+            "max": 100.23601550440999
+          },
+          "turnDegreesPer100Km": 3281.3945215989474
+        }
+      },
+      "legacyVsReference": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 695,
+          "min": 0,
+          "median": 5.400718823002175,
+          "p90": 19.265481033887877,
+          "p95": 24.62587602321962,
+          "p99": 33.1030259647732,
+          "max": 38.37536354149676
+        },
+        "rightToLeft": {
+          "samples": 734,
+          "min": 0,
+          "median": 5.81046309036304,
+          "p90": 20.446532605429617,
+          "p95": 25.941255721396505,
+          "p99": 34.80070981215341,
+          "max": 40.427088481966265
+        },
+        "pooled": {
+          "samples": 1429,
+          "min": 0,
+          "median": 5.616269446712393,
+          "p90": 19.84225838701429,
+          "p95": 25.409079095781745,
+          "p99": 34.85306113096329,
+          "max": 40.427088481966265
+        },
+        "sampledMaximumMeters": 40.427088481966265,
+        "lengthRatio": 0.9474599643330128,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "legacyVsCurrent": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 534,
+          "min": 258.64230062573927,
+          "median": 1112.223948599326,
+          "p90": 1435.7594469649218,
+          "p95": 1535.0384927558864,
+          "p99": 1591.3332607462373,
+          "max": 1692.2139045217975
+        },
+        "rightToLeft": {
+          "samples": 695,
+          "min": 273.13101824272456,
+          "median": 1276.2221071368865,
+          "p90": 1757.4917016280754,
+          "p95": 1898.1752108382732,
+          "p99": 2125.8269110376514,
+          "max": 2210.1308163976473
+        },
+        "pooled": {
+          "samples": 1229,
+          "min": 258.64230062573927,
+          "median": 1201.921004386165,
+          "p90": 1620.366449828224,
+          "p95": 1773.2815275936389,
+          "p99": 2094.4966494957957,
+          "max": 2210.1308163976473
+        },
+        "sampledMaximumMeters": 2210.1308163976473,
+        "lengthRatio": 0.7680673044413783,
+        "endpointOffsetsMeters": [
+          1692.2139045217975,
+          1115.6581655976202
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison100m": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 268,
+          "min": 261.25229307925764,
+          "median": 1108.8745801479213,
+          "p90": 1434.0759974628374,
+          "p95": 1517.9159958155908,
+          "p99": 1584.5396476406793,
+          "max": 1692.2139045217975
+        },
+        "rightToLeft": {
+          "samples": 368,
+          "min": 278.21369072872596,
+          "median": 1277.801346546382,
+          "p90": 1757.844690474543,
+          "p95": 1906.7241778996574,
+          "p99": 2120.0504243029905,
+          "max": 2208.0447031186336
+        },
+        "pooled": {
+          "samples": 636,
+          "min": 261.25229307925764,
+          "median": 1194.2999939403894,
+          "p90": 1618.4704417241974,
+          "p95": 1770.0351536094047,
+          "p99": 2093.958915773521,
+          "max": 2208.0447031186336
+        },
+        "sampledMaximumMeters": 2208.0447031186336,
+        "lengthRatio": 0.7277130208713816,
+        "endpointOffsetsMeters": [
+          1692.2139045217975,
+          1115.6581655976202
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison50m": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 534,
+          "min": 258.64230062573927,
+          "median": 1110.268960139982,
+          "p90": 1436.3406454917251,
+          "p95": 1526.929657544566,
+          "p99": 1591.3332607462373,
+          "max": 1692.2139045217975
+        },
+        "rightToLeft": {
+          "samples": 734,
+          "min": 265.5398395632899,
+          "median": 1274.8356415327041,
+          "p90": 1756.5617806917712,
+          "p95": 1900.0088739585087,
+          "p99": 2130.3243315655236,
+          "max": 2224.5191174202796
+        },
+        "pooled": {
+          "samples": 1268,
+          "min": 258.64230062573927,
+          "median": 1195.728508354955,
+          "p90": 1625.0406208458444,
+          "p95": 1775.8719573992755,
+          "p99": 2095.2047511825135,
+          "max": 2224.5191174202796
+        },
+        "sampledMaximumMeters": 2224.5191174202796,
+        "lengthRatio": 0.7277130208713816,
+        "endpointOffsetsMeters": [
+          1692.2139045217975,
+          1115.6581655976202
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "publicWork": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 268,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 4.547473508864641e-13,
+          "p99": 5.528696638273442e-13,
+          "max": 9.094947017729282e-13
+        },
+        "rightToLeft": {
+          "samples": 268,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 4.547473508864641e-13,
+          "p99": 5.528696638273442e-13,
+          "max": 9.094947017729282e-13
+        },
+        "pooled": {
+          "samples": 536,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 4.547473508864641e-13,
+          "p99": 5.959694643047298e-13,
+          "max": 9.094947017729282e-13
+        },
+        "sampledMaximumMeters": 9.094947017729282e-13,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "resolutionCheck": {
+        "maximumChange50mMinus100m": 16.474414301645993,
+        "p95Change50mMinus100m": 5.836803789870828,
+        "conclusion": "Finite resolution diagnostic only; no continuous maximum/convergence guarantee claimed."
+      }
+    },
+    {
+      "legacyParameterDegrees": 0.0004,
+      "id": "river",
+      "type": "river",
+      "countries": [
+        "DEU",
+        "POL"
+      ],
+      "box": [
+        14.1,
+        52.7,
+        14.5,
+        53
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=52.85 +lon_0=14.3 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "public": 1,
+        "work": 1,
+        "reference": 1
+      },
+      "lsibIds": [
+        "5fb7af9c-c2ff-4dc7-92d2-756ba7ad21d1"
+      ],
+      "sourceVersions": [
+        "state:DEU:natural-earth-5.1.1",
+        "state:POL:natural-earth-5.1.1"
+      ],
+      "runtimeBasis": "actual selected compiled geometry where registered; source fallback explicitly marked only for unregistered candidates",
+      "applicationStatus": "applied current runtime",
+      "sourceSupplement": [
+        null,
+        null
+      ],
+      "displaySourceCategory": "NE-based current compiled window",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Source alignment is not pure simplification; fixed window cuts have reported endpoint offsets, not common legal survey monuments",
+      "metrics": {
+        "public": {
+          "vertices": 20,
+          "lengthKm": 48.88558547514482,
+          "verticesPerKm": 0.40911855316059814,
+          "spacingMeters": {
+            "min": 692.974847368149,
+            "median": 1744.7677777088986,
+            "p90": 4121.258568426797,
+            "p95": 4854.8591844980465,
+            "p99": 8102.31333670775,
+            "max": 8914.17687476017
+          },
+          "lengthToChordRatio": 1.385617711137965,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.6650096968331,
+          "turnDegrees": {
+            "min": 0,
+            "median": 3.491264363491561,
+            "p90": 18.735212830940146,
+            "p95": 25.596366868122274,
+            "p99": 53.88147027177259,
+            "max": 64.69613320239387
+          },
+          "turnDegreesPer100Km": 779.8590989611711
+        },
+        "work": {
+          "vertices": 20,
+          "lengthKm": 48.88558547514482,
+          "verticesPerKm": 0.40911855316059814,
+          "spacingMeters": {
+            "min": 692.974847368149,
+            "median": 1744.7677777088986,
+            "p90": 4121.258568426797,
+            "p95": 4854.8591844980465,
+            "p99": 8102.31333670775,
+            "max": 8914.17687476017
+          },
+          "lengthToChordRatio": 1.385617711137965,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.6650096968331,
+          "turnDegrees": {
+            "min": 0,
+            "median": 3.491264363491561,
+            "p90": 18.735212830940146,
+            "p95": 25.596366868122274,
+            "p99": 53.88147027177259,
+            "max": 64.69613320239387
+          },
+          "turnDegreesPer100Km": 779.8590989611711
+        },
+        "reference": {
+          "vertices": 349,
+          "lengthKm": 50.98098271604571,
+          "verticesPerKm": 6.845689929985521,
+          "spacingMeters": {
+            "min": 14.724419281096234,
+            "median": 138.16482886337872,
+            "p90": 217.55522071999147,
+            "p95": 263.3937314688553,
+            "p99": 376.85600919792637,
+            "max": 442.9866923776081
+          },
+          "lengthToChordRatio": 1.448157668511225,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.6271120793276,
+          "turnDegrees": {
+            "min": 0.3419455313438338,
+            "median": 11.903124966592454,
+            "p90": 31.462014507296953,
+            "p95": 35.141035738309895,
+            "p99": 37.94637772935873,
+            "max": 39.029247790467515
+          },
+          "turnDegreesPer100Km": 1527.1142549910041
+        },
+        "legacyDerivative": {
+          "vertices": 112,
+          "lengthKm": 50.623743320081246,
+          "verticesPerKm": 2.2124005981116817,
+          "spacingMeters": {
+            "min": 92.28238576041755,
+            "median": 436.74091183795036,
+            "p90": 774.8149872701063,
+            "p95": 834.5625889292596,
+            "p99": 997.6978532932235,
+            "max": 1100.8566609097256
+          },
+          "lengthToChordRatio": 1.4380099831744841,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 992.6224180408087,
+          "turnDegrees": {
+            "min": 0.09943837217457462,
+            "median": 12.416631230746393,
+            "p90": 31.17622318616093,
+            "p95": 33.634810179482386,
+            "p99": 37.40661872206295,
+            "max": 39.06567868057949
+          },
+          "turnDegreesPer100Km": 1505.7755346218803
+        }
+      },
+      "legacyVsReference": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 1014,
+          "min": 0,
+          "median": 5.816429580466792,
+          "p90": 22.674073270580767,
+          "p95": 26.723719328940167,
+          "p99": 36.031242057399794,
+          "max": 38.998345465037424
+        },
+        "rightToLeft": {
+          "samples": 1021,
+          "min": 0,
+          "median": 5.992000639347385,
+          "p90": 23.218091604301573,
+          "p95": 26.995843774764314,
+          "p99": 36.586916157384984,
+          "max": 38.6591959138159
+        },
+        "pooled": {
+          "samples": 2035,
+          "min": 0,
+          "median": 5.911564354370761,
+          "p90": 22.89951620315331,
+          "p95": 26.799532683933112,
+          "p99": 36.20111735568668,
+          "max": 38.998345465037424
+        },
+        "sampledMaximumMeters": 38.998345465037424,
+        "lengthRatio": 0.9929926930213524,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "legacyVsCurrent": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 979,
+          "min": 0.7153693920304084,
+          "median": 322.64833932892896,
+          "p90": 739.838990531314,
+          "p95": 792.7594183481704,
+          "p99": 863.935584674897,
+          "max": 896.905064480097
+        },
+        "rightToLeft": {
+          "samples": 1014,
+          "min": 0.29448989452830426,
+          "median": 345.4204402319123,
+          "p90": 761.2235478970804,
+          "p95": 820.308225500465,
+          "p99": 888.8528991602096,
+          "max": 961.5201414630222
+        },
+        "pooled": {
+          "samples": 1993,
+          "min": 0.29448989452830426,
+          "median": 334.18966845671156,
+          "p90": 754.422741786151,
+          "p95": 805.8944890229205,
+          "p99": 873.7380184275835,
+          "max": 961.5201414630222
+        },
+        "sampledMaximumMeters": 961.5201414630222,
+        "lengthRatio": 0.965665165573662,
+        "endpointOffsetsMeters": [
+          101.199915283648,
+          342.1258721807495
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison100m": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 490,
+          "min": 0.7980725874845991,
+          "median": 317.7355291345204,
+          "p90": 732.8547635112297,
+          "p95": 785.2984671450923,
+          "p99": 856.7352079965971,
+          "max": 893.9653944622765
+        },
+        "rightToLeft": {
+          "samples": 511,
+          "min": 0.8007975481976166,
+          "median": 349.1544785832745,
+          "p90": 761.8629449454328,
+          "p95": 817.3075006500649,
+          "p99": 893.9716480931464,
+          "max": 965.6506528454996
+        },
+        "pooled": {
+          "samples": 1001,
+          "min": 0.7980725874845991,
+          "median": 336.27364929057796,
+          "p90": 750.2762164027575,
+          "p95": 807.3412953865383,
+          "p99": 874.3700879742788,
+          "max": 965.6506528454996
+        },
+        "sampledMaximumMeters": 965.6506528454996,
+        "lengthRatio": 0.9588984533199008,
+        "endpointOffsetsMeters": [
+          101.199915283648,
+          342.1258721807495
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison50m": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 979,
+          "min": 0.03450045651497308,
+          "median": 319.8121815777514,
+          "p90": 732.6332801718147,
+          "p95": 787.7626823792257,
+          "p99": 861.4965743593511,
+          "max": 900.5944006858681
+        },
+        "rightToLeft": {
+          "samples": 1021,
+          "min": 0.5903463760624941,
+          "median": 349.1544785832745,
+          "p90": 763.2373637442322,
+          "p95": 817.095100370835,
+          "p99": 894.360555769242,
+          "max": 965.6506528454996
+        },
+        "pooled": {
+          "samples": 2000,
+          "min": 0.03450045651497308,
+          "median": 335.90100156492343,
+          "p90": 749.1900473103236,
+          "p95": 805.2869053726789,
+          "p99": 878.8715472822278,
+          "max": 965.6506528454996
+        },
+        "sampledMaximumMeters": 965.6506528454996,
+        "lengthRatio": 0.9588984533199008,
+        "endpointOffsetsMeters": [
+          101.199915283648,
+          342.1258721807495
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "publicWork": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 490,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 9.094947017729282e-13,
+          "p99": 9.094947017729282e-13,
+          "max": 1.8189894035458565e-12
+        },
+        "rightToLeft": {
+          "samples": 490,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 9.094947017729282e-13,
+          "p99": 9.094947017729282e-13,
+          "max": 1.8189894035458565e-12
+        },
+        "pooled": {
+          "samples": 980,
+          "min": 0,
+          "median": 0,
+          "p90": 4.547473508864641e-13,
+          "p95": 9.094947017729282e-13,
+          "p99": 9.094947017729282e-13,
+          "max": 1.8189894035458565e-12
+        },
+        "sampledMaximumMeters": 1.8189894035458565e-12,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "resolutionCheck": {
+        "maximumChange50mMinus100m": 0,
+        "p95Change50mMinus100m": -2.054390013859347,
+        "conclusion": "Finite resolution diagnostic only; no continuous maximum/convergence guarantee claimed."
+      }
+    },
+    {
+      "legacyParameterDegrees": 0.0004,
+      "id": "lake",
+      "type": "lake",
+      "countries": [
+        "USA",
+        "CAN"
+      ],
+      "box": [
+        -89.5,
+        47.8,
+        -88.3,
+        48.5
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=48.15 +lon_0=-88.9 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "public": 1,
+        "work": 1,
+        "reference": 1
+      },
+      "lsibIds": [
+        "8c67fad8-9850-4820-97ec-80ccc1b3fdf3"
+      ],
+      "sourceVersions": [
+        "state:USA:natural-earth-5.1.1",
+        "state:CAN:natural-earth-5.1.1"
+      ],
+      "runtimeBasis": "actual selected compiled geometry where registered; source fallback explicitly marked only for unregistered candidates",
+      "applicationStatus": "applied current runtime",
+      "sourceSupplement": [
+        null,
+        null
+      ],
+      "displaySourceCategory": "NE-based current compiled window",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Source alignment is not pure simplification; fixed window cuts have reported endpoint offsets, not common legal survey monuments",
+      "metrics": {
+        "public": {
+          "vertices": 16,
+          "lengthKm": 99.23332998423267,
+          "verticesPerKm": 0.16123614921057536,
+          "spacingMeters": {
+            "min": 77.48778364330033,
+            "median": 4982.336075613418,
+            "p90": 13124.837815170338,
+            "p95": 14188.054363043928,
+            "p99": 15978.980600096425,
+            "max": 16426.71215935955
+          },
+          "lengthToChordRatio": 1.0471542023487665,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 992.3332998423267,
+          "turnDegrees": {
+            "min": 0,
+            "median": 1.0160355507010264e-13,
+            "p90": 5.026241496937295,
+            "p95": 10.20532514754632,
+            "p99": 12.437790802427244,
+            "max": 12.706958785758706
+          },
+          "turnDegreesPer100Km": 122.22968415030009
+        },
+        "work": {
+          "vertices": 16,
+          "lengthKm": 99.23332998423267,
+          "verticesPerKm": 0.16123614921057536,
+          "spacingMeters": {
+            "min": 77.48778364330033,
+            "median": 4982.336075613418,
+            "p90": 13124.837815170338,
+            "p95": 14188.054363043928,
+            "p99": 15978.980600096425,
+            "max": 16426.71215935955
+          },
+          "lengthToChordRatio": 1.0471542023487665,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 992.3332998423267,
+          "turnDegrees": {
+            "min": 0,
+            "median": 1.0160355507010264e-13,
+            "p90": 5.026241496937295,
+            "p95": 10.20532514754632,
+            "p99": 12.437790802427244,
+            "max": 12.706958785758706
+          },
+          "turnDegreesPer100Km": 122.22968415030009
+        },
+        "reference": {
+          "vertices": 104,
+          "lengthKm": 100.39294729958709,
+          "verticesPerKm": 1.0359293436186203,
+          "spacingMeters": {
+            "min": 814.1493509655629,
+            "median": 990.831788764404,
+            "p90": 990.8375534107996,
+            "p95": 990.8398422258239,
+            "p99": 997.5383574942329,
+            "max": 997.5412939945502
+          },
+          "lengthToChordRatio": 1.0669596799622492,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 993.9895772236346,
+          "turnDegrees": {
+            "min": 0.000004191521642722199,
+            "median": 0.0002779726054972736,
+            "p90": 0.000707081329456445,
+            "p95": 4.5007186317732915,
+            "p99": 41.4297889982139,
+            "max": 48.930792505626506
+          },
+          "turnDegreesPer100Km": 142.19485520300472
+        },
+        "legacyDerivative": {
+          "vertices": 7,
+          "lengthKm": 100.39294729846814,
+          "verticesPerKm": 0.0697260135135689,
+          "spacingMeters": {
+            "min": 814.1493509655629,
+            "median": 18127.24814365068,
+            "p90": 28734.19034579321,
+            "p95": 28734.19045391349,
+            "p99": 28734.190540409712,
+            "max": 28734.190562033767
+          },
+          "lengthToChordRatio": 1.0669596799503573,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 993.9895772125559,
+          "turnDegrees": {
+            "min": 0,
+            "median": 8.607544948940777e-14,
+            "p90": 3.335001729236639e-13,
+            "p95": 4.500592878083007,
+            "p99": 41.43000755958012,
+            "max": 48.93077557341712
+          },
+          "turnDegreesPer100Km": 142.17009096610101
+        }
+      },
+      "legacyVsReference": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 2009,
+          "min": 0,
+          "median": 0.0032095749989575592,
+          "p90": 0.009191397916031487,
+          "p95": 0.010459458023342064,
+          "p99": 0.013226182720253773,
+          "max": 0.014298471775457474
+        },
+        "rightToLeft": {
+          "samples": 2009,
+          "min": 0,
+          "median": 0.0032095749994722547,
+          "p90": 0.009191397916472704,
+          "p95": 0.010459458024275926,
+          "p99": 0.013226182719605418,
+          "max": 0.01429847177496764
+        },
+        "pooled": {
+          "samples": 4018,
+          "min": 0,
+          "median": 0.0032095749992149068,
+          "p90": 0.009191478717230427,
+          "p95": 0.010473292467749452,
+          "p99": 0.013229288193641596,
+          "max": 0.014298471775457474
+        },
+        "sampledMaximumMeters": 0.014298471775457474,
+        "lengthRatio": 0.9999999999888544,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "legacyVsCurrent": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 1986,
+          "min": 0.02394008353584555,
+          "median": 556.8014774159797,
+          "p90": 972.5534578792954,
+          "p95": 1083.608210142761,
+          "p99": 1950.7494149968475,
+          "max": 2069.6689289084043
+        },
+        "rightToLeft": {
+          "samples": 2009,
+          "min": 0.03597420229015783,
+          "median": 566.8189676167567,
+          "p90": 997.0458742412249,
+          "p95": 1143.2293052899643,
+          "p99": 2020.381419630058,
+          "max": 2168.382027703369
+        },
+        "pooled": {
+          "samples": 3995,
+          "min": 0.02394008353584555,
+          "median": 562.1186965453163,
+          "p90": 984.9435526557162,
+          "p95": 1121.90616680414,
+          "p99": 1982.326305641994,
+          "max": 2168.382027703369
+        },
+        "sampledMaximumMeters": 2168.382027703369,
+        "lengthRatio": 0.9884492153538641,
+        "endpointOffsetsMeters": [
+          1967.7566181682323,
+          58.62481549924935
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison100m": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 994,
+          "min": 0.40789674515818475,
+          "median": 556.6256998639229,
+          "p90": 972.633664892916,
+          "p95": 1083.6030536600704,
+          "p99": 1949.6833185832113,
+          "max": 2065.761683033488
+        },
+        "rightToLeft": {
+          "samples": 1005,
+          "min": 0.5389170844380495,
+          "median": 566.8237404631994,
+          "p90": 997.4421073988224,
+          "p95": 1143.2241711190409,
+          "p99": 2016.9939711052705,
+          "max": 2168.382027705611
+        },
+        "pooled": {
+          "samples": 1999,
+          "min": 0.40789674515818475,
+          "median": 562.1224474812494,
+          "p90": 985.3973157191035,
+          "p95": 1122.3804183964573,
+          "p99": 1982.2944204622888,
+          "max": 2168.382027705611
+        },
+        "sampledMaximumMeters": 2168.382027705611,
+        "lengthRatio": 0.9884492153428471,
+        "endpointOffsetsMeters": [
+          1967.7566181682323,
+          58.62481549924935
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "comparison50m": {
+        "spacingMeters": 50,
+        "leftToRight": {
+          "samples": 1986,
+          "min": 0.030134000044928957,
+          "median": 556.804039569065,
+          "p90": 972.5518296387662,
+          "p95": 1083.603053660069,
+          "p99": 1950.7522618013202,
+          "max": 2069.6712124947
+        },
+        "rightToLeft": {
+          "samples": 2009,
+          "min": 0.042172580397740314,
+          "median": 566.8237404631994,
+          "p90": 997.0449779815694,
+          "p95": 1143.2241711190406,
+          "p99": 2020.3827097741068,
+          "max": 2168.382027705611
+        },
+        "pooled": {
+          "samples": 3995,
+          "min": 0.030134000044928957,
+          "median": 562.1224474812494,
+          "p90": 984.9391520850951,
+          "p95": 1121.9030717215305,
+          "p99": 1982.3264909208008,
+          "max": 2168.382027705611
+        },
+        "sampledMaximumMeters": 2168.382027705611,
+        "lengthRatio": 0.9884492153428471,
+        "endpointOffsetsMeters": [
+          1967.7566181682323,
+          58.62481549924935
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "publicWork": {
+        "spacingMeters": 100,
+        "leftToRight": {
+          "samples": 994,
+          "min": 0,
+          "median": 0,
+          "p90": 1.8189894035458565e-12,
+          "p95": 2.033691978340166e-12,
+          "p99": 3.637978807091713e-12,
+          "max": 7.275957614183426e-12
+        },
+        "rightToLeft": {
+          "samples": 994,
+          "min": 0,
+          "median": 0,
+          "p90": 1.8189894035458565e-12,
+          "p95": 2.033691978340166e-12,
+          "p99": 3.637978807091713e-12,
+          "max": 7.275957614183426e-12
+        },
+        "pooled": {
+          "samples": 1988,
+          "min": 0,
+          "median": 0,
+          "p90": 1.8189894035458565e-12,
+          "p95": 2.033691978340166e-12,
+          "p99": 3.637978807091713e-12,
+          "max": 7.275957614183426e-12
+        },
+        "sampledMaximumMeters": 7.275957614183426e-12,
+        "lengthRatio": 1,
+        "endpointOffsetsMeters": [
+          0,
+          0
+        ],
+        "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+      },
+      "resolutionCheck": {
+        "maximumChange50mMinus100m": 0,
+        "p95Change50mMinus100m": -0.4773466749268209,
+        "conclusion": "Finite resolution diagnostic only; no continuous maximum/convergence guarantee claimed."
+      }
+    },
+    {
+      "id": "gdr-berlin",
+      "type": "built urban historical boundary",
+      "box": [
+        13.1,
+        52.39,
+        13.28,
+        52.57
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=52.480000000000004 +lon_0=13.19 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "historical": 2
+      },
+      "version": "state:deutsche-demokratische-republik:1989-04-25-r1",
+      "applicationStatus": "source candidate, absent from active compiled catalog",
+      "positionalComparisonExcluded": "Modern LSIB has no corresponding internal German historical boundary.",
+      "displaySourceCategory": "source candidate, absent from active compiled catalog",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Different historical route/type; density alone is not a tolerance calibration",
+      "metrics": {
+        "historical": {
+          "vertices": 182,
+          "lengthKm": 23.27075056846092,
+          "verticesPerKm": 7.820976786484335,
+          "spacingMeters": {
+            "min": 0.44093085048233194,
+            "median": 86.4929884530665,
+            "p90": 300.23080227268116,
+            "p95": 398.7542202808244,
+            "p99": 698.0124471941658,
+            "max": 833.8442050547695
+          },
+          "lengthToChordRatio": 1.41226723200652,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 969.614607019205,
+          "turnDegrees": {
+            "min": 0.48865951209626085,
+            "median": 14.611942808782088,
+            "p90": 78.31750848838698,
+            "p95": 91.39662047415496,
+            "p99": 147.38358113420455,
+            "max": 162.89138627585348
+          },
+          "turnDegreesPer100Km": 3069.4935703714823
+        }
+      }
+    },
+    {
+      "id": "gdr-elbe",
+      "type": "historical river boundary",
+      "box": [
+        10.6,
+        53.1,
+        11.05,
+        53.4
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=53.25 +lon_0=10.825 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "historical": 1
+      },
+      "version": "state:deutsche-demokratische-republik:1989-04-25-r1",
+      "applicationStatus": "source candidate, absent from active compiled catalog",
+      "positionalComparisonExcluded": "Modern LSIB has no corresponding internal German historical boundary.",
+      "displaySourceCategory": "source candidate, absent from active compiled catalog",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Different historical route/type; density alone is not a tolerance calibration",
+      "metrics": {
+        "historical": {
+          "vertices": 78,
+          "lengthKm": 46.228642729830696,
+          "verticesPerKm": 1.6872656300088102,
+          "spacingMeters": {
+            "min": 13.548456439483383,
+            "median": 310.880314039319,
+            "p90": 1379.6659348573146,
+            "p95": 1794.0029771726538,
+            "p99": 2975.925442238607,
+            "max": 4946.835151770806
+          },
+          "lengthToChordRatio": 1.178937921210216,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 983.5881431878871,
+          "turnDegrees": {
+            "min": 4.30909653158848e-15,
+            "median": 8.960299437905977,
+            "p90": 28.779272576363255,
+            "p95": 32.86843699440759,
+            "p99": 70.54956351367994,
+            "max": 96.86731546395913
+          },
+          "turnDegreesPer100Km": 1241.9148918715875
+        }
+      }
+    },
+    {
+      "id": "ussr-atrek",
+      "type": "applied historical river boundary",
+      "box": [
+        54.3,
+        37.3,
+        55.2,
+        38.3
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.8 +lon_0=54.75 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "historical": 2
+      },
+      "versions": [
+        "state:soviet-union:1922-12-30-reviewed-v2",
+        "state:IRN:natural-earth-5.1.1:caspian-1922-12-30"
+      ],
+      "applicationStatus": "applied compiled USSR/IRN shared border, 1922-12-30 through 1925-05-12",
+      "positionalComparisonExcluded": "Modern political route is not a period reference; compare detail only, not historical accuracy.",
+      "displaySourceCategory": "applied compiled USSR/IRN shared border, 1922-12-30 through 1925-05-12",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Different historical route/type; density alone is not a tolerance calibration",
+      "metrics": {
+        "historical": {
+          "vertices": 17,
+          "lengthKm": 36.2924646924979,
+          "verticesPerKm": 0.4684167951677889,
+          "spacingMeters": {
+            "min": 784.8204852198479,
+            "median": 1800.4876734049053,
+            "p90": 4112.345711848593,
+            "p95": 5150.209629773056,
+            "p99": 5441.385595213354,
+            "max": 5514.179586573428
+          },
+          "lengthToChordRatio": 1.2506988010217863,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 980.8774241215649,
+          "turnDegrees": {
+            "min": 0,
+            "median": 4.95234057487523,
+            "p90": 15.748668278993872,
+            "p95": 20.589913893738878,
+            "p99": 24.10500489584017,
+            "max": 24.12841030046983
+          },
+          "turnDegreesPer100Km": 678.4848143204532
+        }
+      }
+    },
+    {
+      "id": "prk-1948-straight",
+      "type": "applied historical straight border",
+      "box": [
+        126.5,
+        37.98,
+        127.5,
+        38.02
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=38 +lon_0=127 +datum=WGS84 +units=m +type=crs",
+      "componentCounts": {
+        "historical": 1
+      },
+      "version": "state:PRK:38th-parallel-1948",
+      "applicationStatus": "applied compiled historical geometry",
+      "positionalComparisonExcluded": "38th parallel is historical ownership, not a current LSIB boundary.",
+      "displaySourceCategory": "applied compiled historical geometry",
+      "calibrationEligible": false,
+      "calibrationExclusion": "Different historical route/type; density alone is not a tolerance calibration",
+      "metrics": {
+        "historical": {
+          "vertices": 2,
+          "lengthKm": 87.83203847790551,
+          "verticesPerKm": 0.022770734172395505,
+          "spacingMeters": {
+            "min": 87832.03847790552,
+            "median": 87832.03847790552,
+            "p90": 87832.03847790552,
+            "p95": 87832.03847790552,
+            "p99": 87832.03847790552,
+            "max": 87832.03847790552
+          },
+          "lengthToChordRatio": 1,
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 998.0913463398355,
+          "turnDegrees": {
+            "min": 0,
+            "median": 8.157790381015144e-16,
+            "p90": 8.157790381016453e-16,
+            "p95": 8.157790381016453e-16,
+            "p99": 8.157790381017029e-16,
+            "max": 8.157790381017284e-16
+          },
+          "turnDegreesPer100Km": 4.0866952764054915e-14
+        }
+      }
+    }
+  ],
+  "method": {
+    "coordinates": "WGS84 -> sample-centred azimuthal equidistant PROJ metre CRS; no global Web Mercator or degree-to-metre conversion.",
+    "nativeVertices": "Stored chain vertices, including window cut endpoints; independent of distance sampling.",
+    "distanceSampling": "Uniform projected arc length, both directions, 100m then 50m convergence check; native-vertex average not used.",
+    "turnSampling": "Uniform 1km maximum step; actual equal step reported; absolute turns measured between successive sampled chords.",
+    "anchors": "Identical geographic bounding window for both sources; longest connected intersecting shared chain, fixed transverse cuts. Endpoint displacements reported, not snapped away. Multiple-component samples require explicit correspondence review.",
+    "uncertainty": "Source edition, registration, river movement and political interpretation may contribute; LSIB 11.4 is not a legal/historical accuracy oracle. No tolerance inferred from mean displacement or vertex density."
+  }
+}

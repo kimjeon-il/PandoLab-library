@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-04",
+  "scope": "reports/borders/validation/current-border-detail-lsib-2026-11-04",
+  "appBefore": "4069a656c11adfe70e7eb57eeaf4ea16c2f40417",
+  "mainSynchronized": "2bd0623da46b8e81e7d35d9a417b345c6802d496",
+  "mergeCommit": "ab1b1e32a712aad749819a9471938b2ccf99bb62",
+  "app": "627bdf3410345cfc19250fbe84eb8f0fe484ba1c",
+  "appRemote": "627bdf3410345cfc19250fbe84eb8f0fe484ba1c",
+  "dataPin": "89bff9a4c9ed42a7bca5325a3449fbe8055012e8",
+  "dataRemote": "89bff9a4c9ed42a7bca5325a3449fbe8055012e8",
+  "measurementsCompleted": true,
+  "generalizationApplied": false,
+  "historicalShapesChanged": [],
+  "reason": "Heterogeneous modern detail and non-overdense applied historical samples do not establish a safe all-history rule.",
+  "futurePath": "tools/gis/measure-border-detail.mjs; tools/historical-library/README.md",
+  "tests": {
+    "measurement": 4,
+    "retirementPreservation": 5,
+    "passed": 9,
+    "failed": 0
+  },
+  "changedFileEslintPassed": true,
+  "gitDiffCheckPassed": true,
+  "visualQa": {
+    "method": "Existing headless Edge static HTML SVG render, then PNG opened for inspection",
+    "files": [
+      "comparison-summary.png",
+      "current-lsib-comparison.png",
+      "historical-detail.png"
+    ],
+    "actualViewerScreenshot": false
+  },
+  "wholeProjectValidation": false,
+  "wholeCatalogGisGeneration": false,
+  "applicationMainIntegration": false,
+  "deployment": false,
+  "reportRevision": "Independent canonical publish/check result; not embedded in its own content.",
+  "cleanup": {
+    "removed": [
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-audit.json",
+        "bytes": 13957
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-audit.mjs",
+        "bytes": 2597
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-extend.mjs",
+        "bytes": 1648
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-extract.py",
+        "bytes": 8391
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-finalize-report.mjs",
+        "bytes": 11464
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-finish.mjs",
+        "bytes": 5279
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-input.json",
+        "bytes": 203539089
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-metrics.json",
+        "bytes": 71681
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-prepare.mjs",
+        "bytes": 1658
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-public-compiled.mjs",
+        "bytes": 927
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-render.mjs",
+        "bytes": 738
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-render.py",
+        "bytes": 659
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-report.mjs",
+        "bytes": 5587
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\border-detail-samples.json",
+        "bytes": 1103967
+      }
+    ],
+    "logicalBytes": 204767642,
+    "driveFreeBytesBefore": 44240953344,
+    "driveFreeBytesAfter": 44445753344,
+    "driveFreeBytesChange": 204800000,
+    "reason": "Source originals remain in their pinned archive; extracted coordinate evidence and method files were copied and checked. Staging/scripts have no remaining consumer.",
+    "retainedTemporaryOutputs": [],
+    "protectedExistingUntracked": ".git-ne-oracle-path.tmp preserved",
+    "retainedOutputs": "Report PNG/SVG, coordinate samples, metrics and audit methods are requested reusable evidence; canonical LSIB source and pinned runtime caches remain active."
+  }
+}
