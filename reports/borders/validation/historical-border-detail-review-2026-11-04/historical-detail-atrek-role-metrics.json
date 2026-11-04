@@ -1,0 +1,147 @@
+{
+  "schema": "pando-border-detail-metrics-v1",
+  "samples": [
+    {
+      "id": "atrek-pure-nonmodern-river",
+      "extent": [
+        54.03485054613264,
+        37.23937845072322,
+        54.58050967233277,
+        37.47335537664383
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.35636691368353 +lon_0=54.307680109232706 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ executed with traditional XY order",
+      "scope": "Pure nonmodern replacement river edges 2..121, excluding closure 0..1 and exact NE reuse 122..138. Same geographic window current NE shared river context, differing route/endpoints; not position error or DP calibration",
+      "metrics": {
+        "work": {
+          "vertices": 13,
+          "lengthKm": 52.08801387092603,
+          "verticesPerKm": 0.24957757138166123,
+          "spacingMeters": {
+            "min": 1742.2002315163115,
+            "median": 2043.227286383226,
+            "p90": 12482.367226665234,
+            "p95": 15213.917436474749,
+            "p99": 16890.102136063568,
+            "max": 17309.14831096077
+          },
+          "lengthToChordRatio": 1.0478681627483564,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 982.7927145457741,
+          "turnDegrees": {
+            "min": 0,
+            "median": 8.804792053102858e-14,
+            "p90": 11.59051314036488,
+            "p95": 14.491467818269271,
+            "p99": 17.46337761557616,
+            "max": 19.375252841690347
+          },
+          "turnDegreesPer100Km": 346.1697603754559
+        },
+        "historical": {
+          "vertices": 121,
+          "lengthKm": 61.62439810991905,
+          "verticesPerKm": 1.9635080213550007,
+          "spacingMeters": {
+            "min": 201.98978151390722,
+            "median": 488.0941634087746,
+            "p90": 842.7903855520414,
+            "p95": 874.3894598077977,
+            "p99": 925.3077561618366,
+            "max": 929.9911892540445
+          },
+          "lengthToChordRatio": 1.4207423764934912,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 993.9419049986943,
+          "turnDegrees": {
+            "min": 0.017794550911029043,
+            "median": 5.428649222131348,
+            "p90": 40.23204012097526,
+            "p95": 44.88838134681066,
+            "p99": 48.69259274518121,
+            "max": 49.4550969067948
+          },
+          "turnDegreesPer100Km": 1172.0346168643255
+        }
+      }
+    },
+    {
+      "id": "atrek-coast-closure",
+      "metricCrs": "+proj=aeqd +lat_0=37.35636691368353 +lon_0=54.307680109232706 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ executed with traditional XY order",
+      "scope": "Role decomposition only, not an independent historical source validation",
+      "metrics": {
+        "historical": {
+          "vertices": 3,
+          "lengthKm": 1.650033094320412,
+          "verticesPerKm": 1.8181453513425376,
+          "spacingMeters": {
+            "min": 201.35869262170544,
+            "median": 825.0165471602061,
+            "p90": 1323.9428307910064,
+            "p95": 1386.3086162448565,
+            "p99": 1436.2012446079366,
+            "max": 1448.6744016987066
+          },
+          "lengthToChordRatio": 1.0022633997323662,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 825.016547160206,
+          "turnDegrees": {
+            "min": 2.866741627902423,
+            "median": 2.866741627902423,
+            "p90": 2.866741627902423,
+            "p95": 2.866741627902423,
+            "p99": 2.866741627902423,
+            "max": 2.866741627902423
+          },
+          "turnDegreesPer100Km": 173.73843214236433
+        }
+      }
+    },
+    {
+      "id": "atrek-retained-modern",
+      "metricCrs": "+proj=aeqd +lat_0=37.35636691368353 +lon_0=54.307680109232706 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ executed with traditional XY order",
+      "scope": "Role decomposition only, not an independent historical source validation",
+      "metrics": {
+        "historical": {
+          "vertices": 18,
+          "lengthKm": 36.78202124898266,
+          "verticesPerKm": 0.48936951773681703,
+          "spacingMeters": {
+            "min": 489.5641058725867,
+            "median": 1719.6613791211257,
+            "p90": 3929.030217369004,
+            "p95": 5125.925861210906,
+            "p99": 5436.500048754213,
+            "max": 5514.143595640039
+          },
+          "lengthToChordRatio": 1.25024863311076,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 994.1086824049368,
+          "turnDegrees": {
+            "min": 0,
+            "median": 4.932674160690904,
+            "p90": 18.917960813441802,
+            "p95": 21.340901827387626,
+            "p99": 24.582774992105985,
+            "max": 24.786489545970046
+          },
+          "turnDegreesPer100Km": 704.53435125092
+        }
+      }
+    }
+  ],
+  "method": {
+    "coordinates": "Caller-supplied metre chains and explicit CRS metadata. Projection execution belongs in sample.projectionEvidence; +units=m alone does not verify projection or ground accuracy.",
+    "nativeVertices": "Stored chain vertices, including window cut endpoints; independent of distance sampling.",
+    "distanceSampling": "Uniform projected arc length, both directions, 100m then 50m convergence check; native-vertex average not used.",
+    "turnSampling": "Uniform 1km maximum step; actual equal step reported; absolute turns measured between successive sampled chords.",
+    "anchors": "Identical geographic bounding window for both sources; longest connected intersecting shared chain, fixed transverse cuts. Endpoint displacements reported, not snapped away. Multiple-component samples require explicit correspondence review.",
+    "uncertainty": "Source edition, registration, river movement and political interpretation may contribute; LSIB 11.4 is not a legal/historical accuracy oracle. No tolerance inferred from mean displacement or vertex density."
+  }
+}

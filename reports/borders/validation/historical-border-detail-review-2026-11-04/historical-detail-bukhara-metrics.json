@@ -1,0 +1,229 @@
+{
+  "schema": "pando-border-detail-metrics-v1",
+  "samples": [
+    {
+      "id": "bukhara-west",
+      "metricCrs": "+proj=aeqd +lat_0=40.2 +lon_0=63.8 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ transform executed; traditional XY",
+      "extent": [
+        61.8,
+        38.8,
+        65.8,
+        41.6
+      ],
+      "historicalParts": 1,
+      "modernParts": 1,
+      "modernCountries": [
+        "UZB",
+        "TKM"
+      ],
+      "scope": "Regional NE land-boundary context at same physical scale. Routes/ownership/endpoints differ; not historical accuracy, positional-error calibration or uniformly same landform",
+      "metrics": {
+        "work": {
+          "vertices": 65,
+          "lengthKm": 382.1033683252631,
+          "verticesPerKm": 0.17011103640591088,
+          "spacingMeters": {
+            "min": 299.19136627436194,
+            "median": 3026.225460673449,
+            "p90": 14332.85301047021,
+            "p95": 15760.925362199263,
+            "p99": 23658.974222232944,
+            "max": 34775.79634977887
+          },
+          "lengthToChordRatio": 1.0837689356914186,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.6589251312353,
+          "turnDegrees": {
+            "min": 0,
+            "median": 6.768461532397788e-13,
+            "p90": 7.330197890822999,
+            "p95": 10.970800134674061,
+            "p99": 21.18538132936325,
+            "max": 34.01461102874501
+          },
+          "turnDegreesPer100Km": 200.8125383791075
+        },
+        "historical": {
+          "vertices": 65,
+          "lengthKm": 380.2217679372755,
+          "verticesPerKm": 0.17095286351601766,
+          "spacingMeters": {
+            "min": 1509.5510199261576,
+            "median": 6201.902939125257,
+            "p90": 7954.734496636145,
+            "p95": 7998.979241684248,
+            "p99": 8259.6939649318,
+            "max": 8606.947684141252
+          },
+          "lengthToChordRatio": 1.1619152820764551,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.9573961608281,
+          "turnDegrees": {
+            "min": 0,
+            "median": 8.271337285669956e-13,
+            "p90": 6.120341486903542,
+            "p95": 9.163521251709488,
+            "p99": 21.948182529024823,
+            "max": 46.858760742547545
+          },
+          "turnDegreesPer100Km": 179.00164842346442
+        }
+      }
+    },
+    {
+      "id": "bukhara-central",
+      "metricCrs": "+proj=aeqd +lat_0=39.95 +lon_0=66.85 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ transform executed; traditional XY",
+      "extent": [
+        65.5,
+        38.8,
+        68.2,
+        41.1
+      ],
+      "historicalParts": 1,
+      "modernParts": 1,
+      "modernCountries": [
+        "UZB",
+        "TJK"
+      ],
+      "scope": "Regional NE land-boundary context at same physical scale. Routes/ownership/endpoints differ; not historical accuracy, positional-error calibration or uniformly same landform",
+      "metrics": {
+        "work": {
+          "vertices": 79,
+          "lengthKm": 216.7029100475379,
+          "verticesPerKm": 0.3645544029965719,
+          "spacingMeters": {
+            "min": 12.358045719292608,
+            "median": 1535.9444199911848,
+            "p90": 6978.761257364006,
+            "p95": 8841.507246408402,
+            "p99": 15615.739729206336,
+            "max": 30320.68245394684
+          },
+          "lengthToChordRatio": 2.588360537249047,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 998.6309218780549,
+          "turnDegrees": {
+            "min": 0,
+            "median": 8.403357589665794e-13,
+            "p90": 21.453227967567496,
+            "p95": 28.17123886576163,
+            "p99": 47.397504590826365,
+            "max": 51.98529266692946
+          },
+          "turnDegreesPer100Km": 641.6109371837537
+        },
+        "historical": {
+          "vertices": 127,
+          "lengthKm": 588.0521108385453,
+          "verticesPerKm": 0.2159672547028216,
+          "spacingMeters": {
+            "min": 1873.3688483926069,
+            "median": 3812.631272310654,
+            "p90": 7811.140969646678,
+            "p95": 8514.663833259583,
+            "p99": 12485.943010435127,
+            "max": 16286.550475895352
+          },
+          "lengthToChordRatio": 1.831615271253495,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 998.3906805408241,
+          "turnDegrees": {
+            "min": 0,
+            "median": 7.679687792988959e-13,
+            "p90": 16.337186165235746,
+            "p95": 25.21912850256254,
+            "p99": 46.300762583034874,
+            "max": 102.99415011066729
+          },
+          "turnDegreesPer100Km": 467.9342955667436
+        }
+      }
+    },
+    {
+      "id": "bukhara-east",
+      "metricCrs": "+proj=aeqd +lat_0=38.55 +lon_0=70.44999999999999 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ transform executed; traditional XY",
+      "extent": [
+        67.8,
+        37.2,
+        73.1,
+        39.9
+      ],
+      "historicalParts": 1,
+      "modernParts": 3,
+      "modernCountries": [
+        "TJK",
+        "KGZ"
+      ],
+      "scope": "Regional NE land-boundary context at same physical scale. Routes/ownership/endpoints differ; not historical accuracy, positional-error calibration or uniformly same landform",
+      "metrics": {
+        "work": {
+          "vertices": 198,
+          "lengthKm": 496.80201958121825,
+          "verticesPerKm": 0.3985491044639977,
+          "spacingMeters": {
+            "min": 17.867003235510854,
+            "median": 1893.5344582640253,
+            "p90": 4147.764166443192,
+            "p95": 5807.843958372794,
+            "p99": 10531.909568784391,
+            "max": 16461.741516226502
+          },
+          "lengthToChordRatio": 1.4869721285120188,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.6016490567772,
+          "turnDegrees": {
+            "min": 0,
+            "median": 4.73337721917884,
+            "p90": 21.22840132983643,
+            "p95": 28.417005602108695,
+            "p99": 48.816075990338945,
+            "max": 72.19421508898152
+          },
+          "turnDegreesPer100Km": 806.2890222576322
+        },
+        "historical": {
+          "vertices": 111,
+          "lengthKm": 716.01505908228,
+          "verticesPerKm": 0.15502467244511484,
+          "spacingMeters": {
+            "min": 1812.980797050132,
+            "median": 6178.097555468676,
+            "p90": 10564.15480292447,
+            "p95": 12459.555290545773,
+            "p99": 18843.59651102835,
+            "max": 19866.164847674165
+          },
+          "lengthToChordRatio": 1.4513212212089601,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 998.6263027646862,
+          "turnDegrees": {
+            "min": 0,
+            "median": 7.106499220936955e-13,
+            "p90": 9.270255835931527,
+            "p95": 18.11263560089068,
+            "p99": 47.51884217514723,
+            "max": 86.22266007295234
+          },
+          "turnDegreesPer100Km": 308.33804739935636
+        }
+      }
+    }
+  ],
+  "method": {
+    "coordinates": "Caller-supplied metre chains and explicit CRS metadata. Projection execution belongs in sample.projectionEvidence; +units=m alone does not verify projection or ground accuracy.",
+    "nativeVertices": "Stored chain vertices, including window cut endpoints; independent of distance sampling.",
+    "distanceSampling": "Uniform projected arc length, both directions, 100m then 50m convergence check; native-vertex average not used.",
+    "turnSampling": "Uniform 1km maximum step; actual equal step reported; absolute turns measured between successive sampled chords.",
+    "anchors": "Identical geographic bounding window for both sources; longest connected intersecting shared chain, fixed transverse cuts. Endpoint displacements reported, not snapped away. Multiple-component samples require explicit correspondence review.",
+    "uncertainty": "Source edition, registration, river movement and political interpretation may contribute; LSIB 11.4 is not a legal/historical accuracy oracle. No tolerance inferred from mean displacement or vertex density."
+  }
+}

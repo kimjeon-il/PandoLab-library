@@ -1,0 +1,64 @@
+{
+  "baseRole": "Current published joint Caspian-Aral physical land, not modern2026land; exact replay proves unaffected water holes stay fixed",
+  "selected": [
+    {
+      "objectRef": {
+        "domain": "hydroBuiltin",
+        "id": "waterbody:caspian"
+      },
+      "land": {
+        "url": "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+        "encoding": "gzip",
+        "compressedBytes": 4365908,
+        "decodedBytes": 12384826,
+        "sha256": "a627e16fa56d7e9ad5ff65103bd7dfc66a6ba6edf2f22eabf4300e3b7939de4f"
+      },
+      "water": {
+        "url": "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+        "encoding": "gzip",
+        "compressedBytes": 101744,
+        "decodedBytes": 262771,
+        "sha256": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1"
+      }
+    },
+    {
+      "objectRef": {
+        "domain": "hydroBuiltin",
+        "id": "waterbody:aral"
+      },
+      "land": {
+        "url": "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+        "encoding": "gzip",
+        "compressedBytes": 4365908,
+        "decodedBytes": 12384826,
+        "sha256": "a627e16fa56d7e9ad5ff65103bd7dfc66a6ba6edf2f22eabf4300e3b7939de4f"
+      },
+      "water": {
+        "url": "assets/data/physical-land/v1/aral-1922-1929-water.json.gz",
+        "encoding": "gzip",
+        "compressedBytes": 11280,
+        "decodedBytes": 25948,
+        "sha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+      }
+    }
+  ],
+  "binary": "build-native/territorial-recipe/german-coast-final-incoming/pando-territorial-recipe.exe",
+  "binarySha256": "1303650b32864e822babb047ae8ccf76a3767dcc3b3b26c6557815484a76539f",
+  "requestSha256": "f3c07af45d47aebd802c4e36413ab2a810398d246836b456fbcc78ee25e09eee",
+  "resultSha256": "d9c065e3ee8c0bef60fa134c328e4b047294a7237836d56a52e89ac3ba3ef79e",
+  "metrics": {
+    "fullLandValid": false,
+    "historicalLandComponentCount": 4330,
+    "historicalWaterAreaKm2": 430881.89674501336,
+    "historicalWaterHoles": 68,
+    "localLandValid": true,
+    "modernFullLandValid": false,
+    "modernWaterAreaKm2": 430881.8971904612,
+    "outsideRegionDifferenceSquareDegrees": 0,
+    "patchedLandValid": true,
+    "preexistingGlobalInvalidityPreserved": true,
+    "publishedSymmetricDifferenceSquareDegrees": 2.0314967156404018e-15,
+    "unchangedFarGeometryPreserved": true,
+    "unchangedFarPolygonCount": 4261
+  }
+}

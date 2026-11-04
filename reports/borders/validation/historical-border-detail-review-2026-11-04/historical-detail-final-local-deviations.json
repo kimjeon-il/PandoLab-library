@@ -1,0 +1,356 @@
+{
+  "scope": "Only two western windows and editable Atrek shared interior. Geometric display change between same historical route before/after; never modern positional error.",
+  "rows": [
+    {
+      "id": "latvia-50m",
+      "projection": "+proj=aeqd +lat_0=56.905842769808885 +lon_0=28.054507432027933 +datum=WGS84 +units=m +type=crs",
+      "deviation": [
+        {
+          "spacingMeters": 20,
+          "leftToRight": {
+            "samples": 685,
+            "min": 0,
+            "median": 0.0006215466396958093,
+            "p90": 27.17052658044576,
+            "p95": 32.95331935836555,
+            "p99": 41.11061459876219,
+            "max": 45.21506481026488
+          },
+          "rightToLeft": {
+            "samples": 672,
+            "min": 0,
+            "median": 0.0005804586779323407,
+            "p90": 24.65655080838563,
+            "p95": 30.92416771502089,
+            "p99": 38.083900748394136,
+            "max": 42.80839018801972
+          },
+          "pooled": {
+            "samples": 1357,
+            "min": 0,
+            "median": 0.0005809279521989996,
+            "p90": 25.650428403052384,
+            "p95": 32.27906928866273,
+            "p99": 40.33440142966557,
+            "max": 45.21506481026488
+          },
+          "sampledMaximumMeters": 45.21506481026488,
+          "lengthRatio": 1.019562068951728,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 5,
+          "leftToRight": {
+            "samples": 2735,
+            "min": 0,
+            "median": 0.0006814377408663068,
+            "p90": 26.531187168495713,
+            "p95": 33.58072337838485,
+            "p99": 41.07920155524907,
+            "max": 46.25096263739735
+          },
+          "rightToLeft": {
+            "samples": 2683,
+            "min": 0,
+            "median": 0.0005809272539112549,
+            "p90": 24.946690750599974,
+            "p95": 31.141920882886556,
+            "p99": 38.41665692006318,
+            "max": 44.17637102923712
+          },
+          "pooled": {
+            "samples": 5418,
+            "min": 0,
+            "median": 0.0005815729318787682,
+            "p90": 25.789051610204915,
+            "p95": 32.31621766759386,
+            "p99": 40.11474749771149,
+            "max": 46.25096263739735
+          },
+          "sampledMaximumMeters": 46.25096263739735,
+          "lengthRatio": 1.019562068951728,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 1,
+          "leftToRight": {
+            "samples": 13670,
+            "min": 0,
+            "median": 0.0006824902520080832,
+            "p90": 26.624916930190324,
+            "p95": 33.584261163629634,
+            "p99": 41.15526196747971,
+            "max": 46.232039597841975
+          },
+          "rightToLeft": {
+            "samples": 13407,
+            "min": 0,
+            "median": 0.0005809273058022724,
+            "p90": 24.95775731758622,
+            "p95": 31.136935824885633,
+            "p99": 38.302872380598444,
+            "max": 44.37884041209873
+          },
+          "pooled": {
+            "samples": 27077,
+            "min": 0,
+            "median": 0.0005831642317009989,
+            "p90": 25.758202334282675,
+            "p95": 32.3507558819159,
+            "p99": 40.11419662827628,
+            "max": 46.232039597841975
+          },
+          "sampledMaximumMeters": 46.232039597841975,
+          "lengthRatio": 1.019562068951728,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ]
+    },
+    {
+      "id": "poland-100m",
+      "projection": "+proj=aeqd +lat_0=54.08643199375257 +lon_0=27.21347665377865 +datum=WGS84 +units=m +type=crs",
+      "deviation": [
+        {
+          "spacingMeters": 20,
+          "leftToRight": {
+            "samples": 1983,
+            "min": 0,
+            "median": 3.6573969040681846,
+            "p90": 29.01176123657183,
+            "p95": 45.86667036984708,
+            "p99": 78.4340986871889,
+            "max": 98.98806318370987
+          },
+          "rightToLeft": {
+            "samples": 1940,
+            "min": 0,
+            "median": 3.482318711711727,
+            "p90": 25.181995692398445,
+            "p95": 39.05285286420717,
+            "p99": 66.08546877446659,
+            "max": 87.28978638010867
+          },
+          "pooled": {
+            "samples": 3923,
+            "min": 0,
+            "median": 3.566611819766313,
+            "p90": 27.0368506233421,
+            "p95": 42.46346914444995,
+            "p99": 73.13483046171018,
+            "max": 98.98806318370987
+          },
+          "sampledMaximumMeters": 98.98806318370987,
+          "lengthRatio": 1.0221096739103253,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 5,
+          "leftToRight": {
+            "samples": 7927,
+            "min": 0,
+            "median": 3.6353273442091383,
+            "p90": 28.922679352749842,
+            "p95": 45.775604787443285,
+            "p99": 78.9927841527629,
+            "max": 98.83112005128054
+          },
+          "rightToLeft": {
+            "samples": 7755,
+            "min": 0,
+            "median": 3.4861055319903875,
+            "p90": 25.066577551402915,
+            "p95": 39.47276172549769,
+            "p99": 66.35803685565126,
+            "max": 87.42535485485723
+          },
+          "pooled": {
+            "samples": 15682,
+            "min": 0,
+            "median": 3.5571952591584015,
+            "p90": 27.09149459848409,
+            "p95": 42.26401265731331,
+            "p99": 72.89830199138802,
+            "max": 98.83112005128054
+          },
+          "sampledMaximumMeters": 98.83112005128054,
+          "lengthRatio": 1.0221096739103253,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 1,
+          "leftToRight": {
+            "samples": 39627,
+            "min": 0,
+            "median": 3.6401269182845724,
+            "p90": 28.982186910821095,
+            "p95": 45.912890090154605,
+            "p99": 79.11595448061979,
+            "max": 98.94918846086429
+          },
+          "rightToLeft": {
+            "samples": 38770,
+            "min": 0,
+            "median": 3.4795853690214393,
+            "p90": 25.098778655688466,
+            "p95": 39.472208523263966,
+            "p99": 66.39459496921259,
+            "max": 87.57999285808157
+          },
+          "pooled": {
+            "samples": 78397,
+            "min": 0,
+            "median": 3.557385396937398,
+            "p90": 27.064328745989098,
+            "p95": 42.34526422875979,
+            "p99": 73.0638169962415,
+            "max": 98.94918846086429
+          },
+          "sampledMaximumMeters": 98.94918846086429,
+          "lengthRatio": 1.0221096739103253,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ]
+    },
+    {
+      "id": "atrek-shared-interior-400m",
+      "projection": "+proj=aeqd +lat_0=37.35636691368353 +lon_0=54.307680109232706 +datum=WGS84 +units=m +type=crs",
+      "deviation": [
+        {
+          "spacingMeters": 20,
+          "leftToRight": {
+            "samples": 2645,
+            "min": 0,
+            "median": 49.226319727669775,
+            "p90": 241.23108706269403,
+            "p95": 294.08762809944153,
+            "p99": 353.85649570298153,
+            "max": 387.93628166026156
+          },
+          "rightToLeft": {
+            "samples": 2608,
+            "min": 0,
+            "median": 47.97527732965695,
+            "p90": 236.7565364705289,
+            "p95": 289.0470882337591,
+            "p99": 350.7551336078504,
+            "max": 381.8283265202759
+          },
+          "pooled": {
+            "samples": 5253,
+            "min": 0,
+            "median": 48.50642468791097,
+            "p90": 239.09314925189105,
+            "p95": 291.8385787363771,
+            "p99": 352.3457791664221,
+            "max": 387.93628166026156
+          },
+          "sampledMaximumMeters": 387.93628166026156,
+          "lengthRatio": 1.014217297547379,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 5,
+          "leftToRight": {
+            "samples": 10577,
+            "min": 0,
+            "median": 49.23435437169615,
+            "p90": 241.5743329907018,
+            "p95": 294.05759700556297,
+            "p99": 353.98852577964453,
+            "max": 389.06192925852844
+          },
+          "rightToLeft": {
+            "samples": 10428,
+            "min": 0,
+            "median": 48.02431419218095,
+            "p90": 237.03952723255443,
+            "p95": 289.5939540297726,
+            "p99": 351.03931142128056,
+            "max": 381.7941007041512
+          },
+          "pooled": {
+            "samples": 21005,
+            "min": 0,
+            "median": 48.5966289149807,
+            "p90": 239.255967425792,
+            "p95": 291.99466164808086,
+            "p99": 352.5148703044983,
+            "max": 389.06192925852844
+          },
+          "sampledMaximumMeters": 389.06192925852844,
+          "lengthRatio": 1.014217297547379,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 1,
+          "leftToRight": {
+            "samples": 52877,
+            "min": 0,
+            "median": 49.21183381632536,
+            "p90": 241.57631034860748,
+            "p95": 294.118471884827,
+            "p99": 354.16736143771953,
+            "max": 389.2801107402738
+          },
+          "rightToLeft": {
+            "samples": 52136,
+            "min": 0,
+            "median": 48.03903895386767,
+            "p90": 237.02056656268897,
+            "p95": 289.5831269725533,
+            "p99": 351.10081243448957,
+            "max": 381.8823547943929
+          },
+          "pooled": {
+            "samples": 105013,
+            "min": 0,
+            "median": 48.626927528210395,
+            "p90": 239.31668070654223,
+            "p95": 291.95900949487924,
+            "p99": 352.6253381136475,
+            "max": 389.2801107402738
+          },
+          "sampledMaximumMeters": 389.2801107402738,
+          "lengthRatio": 1.014217297547379,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ]
+    }
+  ]
+}

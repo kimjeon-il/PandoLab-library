@@ -1,0 +1,102 @@
+{
+  "inputPin": "a548d5fa6612a97f998b7bdb326a27eb8b8d9717",
+  "definition": "Five reviewed family versions = USSR, RSFSR, Byelorussian SSR, Ukrainian SSR, Transcaucasian SFSR at1922-12-30-reviewed-v2; not five USSR versions.",
+  "totalNativeVersions": {
+    "USSR": 3,
+    "RSFSR": 2
+  },
+  "actualChangedInterval": "1922-12-30 through1925-05-12",
+  "regions": [
+    {
+      "region": "northern Finland/Petsamo",
+      "status": "retain",
+      "evidence": "Modern shared136edges489.158km plus coarse historicaljoins .049–.303points/km; Arctic16563direct NE+11collinear split edges; no Arctic display candidate."
+    },
+    {
+      "region": "Estonia",
+      "status": "retain",
+      "evidence": "57points277.99km; no overdetail evidence."
+    },
+    {
+      "region": "Latvia",
+      "status": "validated-candidate",
+      "evidence": "1734 to800; initial50mwindow plus15additional; sharedRSFSR copies exact."
+    },
+    {
+      "region": "Poland",
+      "status": "validated-candidate",
+      "evidence": "1991 to1457; initial100mwindow plus45additional; RSFSR/BY/UA copies exact;19coarse,5shape-constrained,3short/sparse windows held."
+    },
+    {
+      "region": "Dniester",
+      "status": "retain",
+      "evidence": "Current860point chain geometrically equals archived884point hydro route;0difference/Hausdorff; modern hydro-derived reuse, inferredmouth closure retained."
+    },
+    {
+      "region": "BY–RU/BY–UA/UA–RU main",
+      "status": "retain",
+      "evidence": "Previously matched main/sharedlines retained; no extra source inference."
+    },
+    {
+      "region": "Konotop",
+      "status": "retain",
+      "evidence": "62edges63points205.68km;1/2/5km phase turning9.432/8.842/6.213 vsmodern9.717/8.950/5.949; compiledcopies checked."
+    },
+    {
+      "region": "Crimea99",
+      "status": "retain-source-exception",
+      "evidence": "98edges separate actual historical trace; modern exact reuse0.250m diagnostic retains99; larger route/shape differs. Existing source-readability uncertainty retained."
+    },
+    {
+      "region": "TC north west/BSE33 and east Samur",
+      "status": "retain",
+      "evidence": "144moderngeometric edges plus833/59point residuals. Compiledbothcounterparts confirmed. Original33vertexidentity/taper unverified."
+    },
+    {
+      "region": "Caucasus external",
+      "status": "retain",
+      "evidence": "408point adoptedlandchain modern reuse;411coast-to-coast replacement preserves closure."
+    },
+    {
+      "region": "Khiva",
+      "status": "retain",
+      "evidence": "33points32edges455.620km; allsource/compiled edges covered; coarser than regionalmoderncontext."
+    },
+    {
+      "region": "Bukhara",
+      "status": "retain",
+      "evidence": "288points287edges1606.3km; allsource/compiled edges covered. Localfixed1/5km turns lower than nearby appropriatecontexts; sixmodernPamirconnectorpoints excluded."
+    },
+    {
+      "region": "Atrek",
+      "status": "validated-candidate",
+      "evidence": "120historicalriveredges61.624km; protectedcommoninterior105 to13points52.875 to52.134km vsmodern13points52.088km.92coordsremoved perUSSR/RSFSR/IRNmiddleversion. Coastalclosure/17NEreuseedges/cutsheld."
+    },
+    {
+      "region": "Eastern China/Pamir/KAZ selected route",
+      "status": "validated-candidate",
+      "evidence": "4355 to4204;14features151pointsremoved;2302modernNEedges, MNG354pointsubset,Tuva/B60/east unchanged;14currentCHNcomparisonarcs195entriesexact."
+    },
+    {
+      "region": "Tuva/Mongolia",
+      "status": "retain",
+      "evidence": "Tuva726 originalNEadmin1retainedsubset coarser than1052pointmaster; B60joined18sourcecorners retained; no fullcountrydensity inference."
+    },
+    {
+      "region": "Caspian north/east except Darja",
+      "status": "retain-existing-derivative",
+      "evidence": "5770nationalwateredges matched display network;51modernexactreuse; protectedislands/waterlimits held."
+    },
+    {
+      "region": "Darja feature72",
+      "status": "production-blocked",
+      "evidence": "Existing official CI runtime/binary successfully reused; current joint Caspian-Aral baseline replay passed. Candidate country/water/native/compiled checks pass, but independent existing physical-overlap shape preservation fails0.0012482331degree² despite same overlap area; no production application."
+    },
+    {
+      "region": "Aral",
+      "status": "separate-hydro-layer",
+      "evidence": "national_territory_subtraction=false;0sharednationalwateredges."
+    }
+  ],
+  "laterPeriods": "1930 USSR and1991 RSFSR remain NE-derived macro constructions.1925Caspian period unchanged with Darja hold explicit."
+}

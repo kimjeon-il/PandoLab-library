@@ -1,0 +1,9 @@
+from historical_detail_membership import *
+samples=load(base+'historical-detail-west-whole-view-input.json');out=[];svg=[];mpp=10000000*.0254/96
+for i,s in enumerate(samples):
+ points=s['old'];lon=sum(p[0] for p in points)/len(points);lat=sum(p[1] for p in points)/len(points);src=osr.SpatialReference();src.ImportFromEPSG(4326);src.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER);dst=osr.SpatialReference();definition=f'+proj=aeqd +lat_0={lat} +lon_0={lon} +datum=WGS84 +units=m';dst.SetFromUserInput(definition);dst.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER);tr=osr.CoordinateTransformation(src,dst);arrays={k:[tr.TransformPoint(*p)[:2] for p in s[k]] for k in ['old','next']};allpoints=arrays['old']+arrays['next'];xmin=min(p[0] for p in allpoints);ymax=max(p[1] for p in allpoints);x=20+i*430;y=80
+ svg.append(f'<text x="{x}" y="{y}" font-size="16">{s["id"]}: {len(s["old"])} to {len(s["next"])} points</text>')
+ for k,color,width in [('old','#dc4b3c',1.4),('next','#174b89',.8)]:
+  line=' '.join(('M' if j==0 else 'L')+f'{x+20+(p[0]-xmin)/mpp:.4f},{y+25+(ymax-p[1])/mpp:.4f}' for j,p in enumerate(arrays[k]));svg.append(f'<path d="{line}" fill="none" stroke="{color}" stroke-width="{width}"/>')
+ out.append({'id':s['id'],'projection':definition,'executed':'GDAL OSR XY-axis transform','beforePoints':len(s['old']),'afterPoints':len(s['next']),'coordinates':s,'projected':arrays})
+open(base+'historical-detail-west-whole-comparison.svg','w').write('<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620"><rect width="100%" height="100%" fill="white"/><g font-family="Arial" fill="#17283c"><text x="20" y="25" font-size="18">Integrated western historical display derivatives</text><text x="20" y="47" font-size="12">Red: previous display; blue: candidate. Local AEQD, nominal 1:10M at 96dpi. Same extent before/after.</text>'+''.join(svg)+'</g></svg>');json.dump(out,open(base+'historical-detail-west-whole-view.json','w'))
