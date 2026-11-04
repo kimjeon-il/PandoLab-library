@@ -51500,10 +51500,13 @@
       "bytes": 686,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "docs/development/remote-preview-p3.md",
+        "tests/unit/remote-only-contract.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/remote-only-contract.test.mjs"
       ]
     },
@@ -51514,14 +51517,17 @@
       "bytes": 1869,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".devcontainer/acceptance.sh",
         ".devcontainer/pnpm.sh",
         ".devcontainer/setup-remote.sh",
         ".devcontainer/start-preview.sh",
         "docs/development/remote-only-development.md",
+        "tests/unit/remote-only-contract.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/remote-only-contract.test.mjs"
       ]
     },
@@ -51532,12 +51538,15 @@
       "bytes": 545,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".devcontainer/acceptance.sh",
         ".devcontainer/setup-remote.sh",
         "docs/development/remote-only-development.md",
+        "tests/unit/remote-only-contract.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/remote-only-contract.test.mjs"
       ]
     },
@@ -51548,11 +51557,14 @@
       "bytes": 950,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".devcontainer/devcontainer.json",
         "docs/development/remote-only-development.md",
+        "tests/unit/remote-only-contract.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/remote-only-contract.test.mjs"
       ]
     },
@@ -51563,12 +51575,16 @@
       "bytes": 1665,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".devcontainer/acceptance.sh",
         ".devcontainer/devcontainer.json",
         "docs/development/remote-preview-p3.md",
+        "tests/unit/codespaces-acceptance-contract.test.mjs",
+        "tests/unit/remote-only-contract.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/codespaces-acceptance-contract.test.mjs",
         "tests/unit/remote-only-contract.test.mjs"
       ]
@@ -52148,11 +52164,26 @@
       "bytes": 1276,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "apps/editor/tests/native-consumer.test.mjs",
         "tests/helpers/frontend-pages-fixture.mjs",
+        "tests/unit/builtin-country-materialization.test.mjs",
+        "tests/unit/check-runner.test.mjs",
+        "tests/unit/library-data.test.mjs",
+        "tests/unit/library-report-centralization.test.mjs",
+        "tests/unit/library-report-organization.test.mjs",
+        "tests/unit/library-report-publication.test.mjs",
+        "tests/unit/library-runtime-sharing.test.mjs",
+        "tests/unit/library-storage.test.mjs",
+        "tests/unit/p2-artifact-plan.test.mjs",
+        "tests/unit/p2-publication-paths.test.mjs",
+        "tests/unit/r2-native-platform-retirement.test.mjs",
+        "tests/unit/worktree-cleanup-protection.test.mjs",
+        "tests/unit/world-archive-retirement-integrity.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/builtin-country-materialization.test.mjs",
         "tests/unit/check-runner.test.mjs",
         "tests/unit/library-data.test.mjs",
@@ -52453,8 +52484,8 @@
       "bytes": 3930,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".github/workflows/generated-artifacts-p2.yml",
         ".github/workflows/objects-soviet-library-acceptance.yml",
@@ -52501,6 +52532,10 @@
         "tools/w2-p3-report.mjs",
         "tools/w2-p4-2-report.mjs",
         "tools/w2-p5-inflight-packet-audit.mjs"
+      ],
+      "evidence": [
+        "tests/unit/p1-remote-scopes.test.mjs",
+        "tests/unit/p3-remote-plan.test.mjs"
       ]
     },
     {
@@ -52949,11 +52984,14 @@
       "bytes": 117,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "tests/unit/qt-retirement-boundary.test.mjs",
         "tools/verify-compiler-cache.mjs"
+      ],
+      "evidence": [
+        "tests/unit/qt-retirement-boundary.test.mjs"
       ]
     },
     {
@@ -53599,11 +53637,14 @@
       "bytes": 208,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "docs/development/remote-only-development.md",
         "scripts/lib/remote-only-native-policy.mjs",
+        "tests/unit/remote-only-native-policy.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/remote-only-native-policy.test.mjs"
       ]
     },
@@ -53614,8 +53655,8 @@
       "bytes": 644,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "apps/editor/native-contract.mjs",
         "apps/editor/tests/native-consumer.test.mjs",
@@ -53637,6 +53678,12 @@
         "tests/unit/remote-only-artifact-cache.test.mjs",
         "tools/verify-compiler-cache.mjs",
         "tools/worktree-storage.mjs"
+      ],
+      "evidence": [
+        "tests/unit/p2-artifact-plan.test.mjs",
+        "tests/unit/p2-publication-paths.test.mjs",
+        "tests/unit/p3-preview-server.test.mjs",
+        "tests/unit/remote-only-artifact-cache.test.mjs"
       ]
     },
     {
@@ -53717,10 +53764,13 @@
       "bytes": 785,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "design/brand/README.md",
+        "tests/unit/brand-icons.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/brand-icons.test.mjs"
       ]
     },
@@ -54585,10 +54635,13 @@
         "tests/unit/codespaces-acceptance-contract.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".devcontainer/acceptance.sh",
+        "tests/unit/codespaces-acceptance-contract.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/codespaces-acceptance-contract.test.mjs"
       ]
     },
@@ -54621,8 +54674,8 @@
         "tests/integration/viewer-functional-p6-1.config.mjs",
         "tests/integration/viewer-functional-p6-2.config.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "package.json",
         "playwright.p8.config.js",
@@ -54636,6 +54689,9 @@
         "tests/integration/public-viewer-boot.config.mjs",
         "tests/integration/viewer-functional-p6-1.config.mjs",
         "tests/integration/viewer-functional-p6-2.config.mjs",
+        "tests/unit/check-automation.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/check-automation.test.mjs"
       ]
     },
@@ -54844,10 +54900,13 @@
         "package.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced in package command or configuration.",
       "additionalNameReferenceHints": [
         "docs/superpowers/plans/2026-11-03-viewer-code-and-assets-cleanup.md",
+        "package.json"
+      ],
+      "evidence": [
         "package.json"
       ]
     },
@@ -54913,12 +54972,15 @@
         "tests/unit/ui-source-catalog.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "docs/architecture/ui-information-architecture.md",
         "package.json",
         "scripts/contracts/application-checks.json",
+        "tests/unit/ui-source-catalog.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/ui-source-catalog.test.mjs"
       ]
     },
@@ -55754,8 +55816,8 @@
       "bytes": 335,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".github/workflows/core-temporal-candidate-p5-3.yml",
         ".github/workflows/core-temporal-source-p5-2.yml",
@@ -55804,6 +55866,11 @@
         "tools/package-shared-core-assets.mjs",
         "tools/qgis/native-client.mjs",
         "tools/verify-compiler-cache.mjs"
+      ],
+      "evidence": [
+        "tests/unit/p2-artifact-plan.test.mjs",
+        "tests/unit/remote-only-artifact-cache.test.mjs",
+        "tests/unit/shared-core-assets.test.mjs"
       ]
     },
     {
@@ -61968,9 +62035,12 @@
       "bytes": 608,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
+        "tests/unit/hydro-source-reader.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/hydro-source-reader.test.mjs"
       ]
     },
@@ -61981,10 +62051,15 @@
       "bytes": 608,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "tests/unit/gis-german-base-native.test.mjs",
+        "tests/unit/hydro-connectivity-native.test.mjs",
+        "tests/unit/hydro-repair-pipeline.test.mjs",
+        "tests/unit/hydro-source-reader.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/hydro-connectivity-native.test.mjs",
         "tests/unit/hydro-repair-pipeline.test.mjs",
         "tests/unit/hydro-source-reader.test.mjs"
@@ -61997,9 +62072,12 @@
       "bytes": 608,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
+        "tests/unit/hydro-source-reader.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/hydro-source-reader.test.mjs"
       ]
     },
@@ -64508,13 +64586,16 @@
       "bytes": 166,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         ".github/workflows/gis-p1-dem-tint-diagnostic.yml",
         "docs/development/gis-python-p4.md",
         "tests/unit/terrain-dem-build.test.mjs",
         "tests/unit/terrain-dem-tint.test.mjs"
+      ],
+      "evidence": [
+        "tests/unit/terrain-dem-build.test.mjs"
       ]
     },
     {
@@ -64524,11 +64605,14 @@
       "bytes": 334,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "tests/unit/terrain-dem-build.test.mjs",
         "tests/unit/terrain-dem-tint.test.mjs"
+      ],
+      "evidence": [
+        "tests/unit/terrain-dem-build.test.mjs"
       ]
     },
     {
@@ -73318,9 +73402,12 @@
         "tests/unit/hydro-audit-cli.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
+        "tests/unit/hydro-audit-cli.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/hydro-audit-cli.test.mjs"
       ]
     },
@@ -73333,9 +73420,12 @@
         "package.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced in package command or configuration.",
       "additionalNameReferenceHints": [
+        "package.json"
+      ],
+      "evidence": [
         "package.json"
       ]
     },
@@ -73396,11 +73486,14 @@
         "tests/unit/physical-hydro-native.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "README.md",
         "scripts/gis/run-source.mjs",
+        "tests/unit/physical-hydro-native.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/physical-hydro-native.test.mjs"
       ]
     },
@@ -73470,13 +73563,16 @@
         "scripts/contracts/application-checks.json"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced in package command or configuration.",
       "additionalNameReferenceHints": [
         "config/generated-artifacts.json",
         "docs/territorial-entity-storage.md",
         "package.json",
         "scripts/contracts/application-checks.json"
+      ],
+      "evidence": [
+        "package.json"
       ]
     },
     {
@@ -73577,13 +73673,16 @@
       "bytes": 1042,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
         "scripts/p2-artifact-plan.mjs",
         "tests/unit/country-validator-properties.test.mjs",
         "tests/unit/p2-artifact-plan.test.mjs",
         "tools/cpp/validate-country-geometry.cpp"
+      ],
+      "evidence": [
+        "tests/unit/p2-artifact-plan.test.mjs"
       ]
     },
     {
@@ -78036,9 +78135,13 @@
         "tests/unit/hydro-staged-cli.test.mjs"
       ],
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Exact path referenced by registered, non-retired checks.",
       "additionalNameReferenceHints": [
+        "tests/unit/hydro-repair-cli.test.mjs",
+        "tests/unit/hydro-staged-cli.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/hydro-repair-cli.test.mjs",
         "tests/unit/hydro-staged-cli.test.mjs"
       ]
