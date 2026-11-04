@@ -1,0 +1,1261 @@
+{
+  "id": "GEO-REVIEW-20261104-2200",
+  "scheduledAtUtc": "2026-11-04T22:00:00Z",
+  "state": "reviewed-supplemental-corrections-important-holds",
+  "runtimeChanges": 0,
+  "previousReview": {
+    "commit": "6e3e3f9dfae3cbf7a1c73016bad5e81a65c9128f",
+    "path": "reports/borders/validation/reviews/scheduled-2026-11-03-2200/README.md",
+    "mainSourceSnapshot": "4dfc9729cf6a206db72b2a3140b1cd66cbf7f356"
+  },
+  "snapshots": [
+    {
+      "repository": "kimjeon-il/Pando",
+      "branch": "main",
+      "commit": "d667ed067354d086edfa362da3dea88b7b2b16bc",
+      "rootTree": "0a17ffe7f1100ecbbdd3729ed603605f578ee793",
+      "reportTree": null,
+      "truncated": false,
+      "applicationReportFiles": 0
+    },
+    {
+      "repository": "kimjeon-il/Pando",
+      "branch": "work/gis",
+      "commit": "26ecb9ca0237d0d8026c190d50f52c664e53a723",
+      "rootTree": "a67171252dba4e9f8d1e13dc8346c7483f827406",
+      "reportTree": null,
+      "truncated": false,
+      "applicationReportFiles": 0
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "commit": "68c9a1fa23dd3272c5822697cfbeffc3e537265a",
+      "rootTree": "dea5ba78b12144c3a48b859acc79fbc83311a199",
+      "reportTree": "ad57b03535945454d4f81d8c48a2545e186a41b7",
+      "truncated": false,
+      "applicationReportFiles": null
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "work/gis",
+      "commit": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+      "rootTree": "12adeb9682292ac55655af857188f43907010184",
+      "reportTree": "80872afeb615fe7c70af0efcfb5d6339b76a7b3a",
+      "truncated": false,
+      "applicationReportFiles": null
+    }
+  ],
+  "policy": {
+    "applicationAgentsBlob": "4d741ed5e05c5b10c5bfee7e63e88968735d16d8",
+    "workGisHistoricalPolicyBlob": "059674cd55f8d0305603854e21788d83b3f81132",
+    "retirementRecord": "reports/borders/history/sub500-research-retirement-2026-11-04.md",
+    "retirementRecordBlob": "014a5bc5aeabefad83c98da63fe0148490800b02",
+    "mainReadOnly": true,
+    "allowedWriteBranch": "work/gis",
+    "cutoffBasis": "Actual connected changed area, not net national area; old confirmed sub-500 detailed research retired; uncertain extent and state existence not automatically excluded."
+  },
+  "changeInventory": {
+    "main": {
+      "reportsChanged": 245,
+      "bordersChanged": 128,
+      "unrelatedDevelopmentChanged": 117,
+      "bordersDeleted": [],
+      "files": [
+        {
+          "path": "borders/README.md",
+          "sha": "4682380cd47988a6c353298c692d7e09e55c7c11",
+          "old": "cfd09103adeac087220ff024d2c4a5c512202313"
+        },
+        {
+          "path": "borders/history/lifetimes/country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md",
+          "sha": "34cbf158fa428b2d593c8f1098417cd9847b4b38",
+          "old": null
+        },
+        {
+          "path": "borders/history/lifetimes/country-lifetime-rotation-progress.md",
+          "sha": "cb2e5a14c99faf5bc7aadf11ee19fe8f276e92f8",
+          "old": "c13fdb7a265933e2aa441bc0de25e3c1e4a0952f"
+        },
+        {
+          "path": "borders/history/timeline/historical-timeline-2025-south-america-peru-colombia-santa-rosa-2026-11-05.md",
+          "sha": "42eacf76023f4adc43aa55eba8a439f617ea785b",
+          "old": null
+        },
+        {
+          "path": "borders/history/timeline/historical-timeline-yearly-progress.md",
+          "sha": "ff912a2296950baae642a8876d8b18af58c74f04",
+          "old": "cfd78f0174a346647081bd41d54002dd5de51a44"
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/ATREK-SCOPE-CORRECTION.md",
+          "sha": "b08a8135f75723fc77cfedb1e7ae06988f976f45",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/README.md",
+          "sha": "3329ee4dab47cb469664809ed8d60c6bb4f49f7a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/atrek-approved-replacement.geojson",
+          "sha": "34a5a561008d3fff499fc0427cdf9d88afdf20a3",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/atrek-role-correspondence.json",
+          "sha": "8dec6696ff638b9129792e794439356c9ee9c8b7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/atrek-role-correspondence.py",
+          "sha": "e259e39ff82a2d489eb3ecbe20889cc7ed343abf",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/atrek-role-measure.py",
+          "sha": "f470a347415af0c724a9b6bfdad6fa6d4741e843",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/atrek-role-metrics.json",
+          "sha": "8b92de6155a86fd4d37c3d046e58fb9f313788f7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/atrek-role-samples.json",
+          "sha": "a57980e78c83a07ac734844b4ee0987706e22584",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/comparison-summary.png",
+          "sha": "600b49fb5103583b709dbef6268ff091931f4ed8",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/comparison-summary.svg",
+          "sha": "a0b4e5a08203f171ed3d87c99f48d6b84b818f96",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/completion.json",
+          "sha": "35135de7ee2769a654a0b6d1709b77b41cdbcdf3",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/current-lsib-comparison.png",
+          "sha": "6fb7bdb56b7c9577b2133487393e1720a8f99682",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/current-lsib-comparison.svg",
+          "sha": "e0cbc56480de6f0005b240be7c7c82018b97e9c1",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/deployment-observations.json",
+          "sha": "d236335a6e9f3b01366d929668ec231f459d90c4",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/extraction-method.py",
+          "sha": "10b04b9cdfe5a2146ab141b1700313c9ec8723f4",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/historical-detail.png",
+          "sha": "61f4b411972e418564555d22aa1332e1155fe45a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/historical-detail.svg",
+          "sha": "36df208321f286da0d0e0361f1d8420c220440ab",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/historical_detail_line_merge.py",
+          "sha": "f6de6da7138bc6f714bd0341ff8b1e818a4b38f6",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/historical_detail_membership.py",
+          "sha": "f35bd9c14ae7fc73ffcb039334b27b5ba04a7a64",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/metrics.json",
+          "sha": "1c0309ea57d3b4e274eab5b53ac277dc7177f332",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/old-atrek-sample.json",
+          "sha": "1154465cc1007872d6d7351fb653a9d259d5a8c7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/plot-method.mjs",
+          "sha": "4b2f4a6e0d347703aa1867c7a3469302cb3da886",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/png-render-method.mjs",
+          "sha": "6c72efff4d2c9061f032c3d8ca2a988ff1ac12f7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/public-compiled-selection-method.mjs",
+          "sha": "4f2b4fada3ca9083d990c9d5b40febc2bf312347",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/samples.json",
+          "sha": "438c00cc1299dfb349dcc07820c027b4d12bca53",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/source-audit-method.mjs",
+          "sha": "17a097981ab7b1ff0ca4bdfa1dc7d1896b9eb2fd",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/source-provenance.json",
+          "sha": "9b8d5db855e86e32cde666a93415c162990744f7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/source-runtime-audit.json",
+          "sha": "809036db05f8f3a660b7da6b15b22a8a9700698a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/source-selection-method.mjs",
+          "sha": "43db3fed3a5cadca640be5d602fad1ddb42164fd",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-border-detail-lsib-2026-11-04/work-compiled-selection-method.mjs",
+          "sha": "f004b912464f27297dd691f197e98281377e5661",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-lsib-coordinate-audit-2026-11-04/README.md",
+          "sha": "cf11e2fce8a6c046ed3c21b99e168512123d966a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-lsib-coordinate-audit-2026-11-04/current-lsib-chain-lengths.json",
+          "sha": "9fb60b884d476eef65334421091775e41b732b54",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-lsib-coordinate-audit-2026-11-04/current-lsib-chain-lengths.py",
+          "sha": "c426321ccb5f82479cff38f0c0fee203fda6012c",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-lsib-coordinate-audit-2026-11-04/current-lsib-coordinate-audit.json",
+          "sha": "f64bb720b62f76aa4faf0fcc7ad978aefc5e0986",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-lsib-coordinate-audit-2026-11-04/current-lsib-coordinate-run.mjs",
+          "sha": "0c695511acc99431bf0c34499bebca4da625f039",
+          "old": null
+        },
+        {
+          "path": "borders/validation/current-lsib-coordinate-audit-2026-11-04/current-lsib-live.json",
+          "sha": "0f8bd934118c0be71d081beaef2dbacd6b533d07",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/README.md",
+          "sha": "a0feee2fe2f6a10eb615884adcfbd77323fa0be6",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/completion-manifest.json",
+          "sha": "cdbf85ccacbd2c7c93211a3dd5dd602abc154618",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/evidence-manifest.json",
+          "sha": "80ea0d70231401c44bcf145abbff8066ba923851",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-atrek-role-metrics.json",
+          "sha": "8b92de6155a86fd4d37c3d046e58fb9f313788f7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-atrek-selected-arc.json",
+          "sha": "4999ad03e42a9abcf6815eede8e4373fd8f81b07",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-bukhara-correspondence.json",
+          "sha": "eaa58e03ede72f8ac49f49028ab5370f29ba695e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-bukhara-metrics.json",
+          "sha": "93105442a02e9173396f1723869939d967efc94f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-bukhara-pamir-reuse.json",
+          "sha": "a6a5b1b6faa921f1c669acb6d1c5e43fd84762dd",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-code-review.patch",
+          "sha": "62e1eccbc9d837f80c490cbd8a7c180e8a3eeb1f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-concurrent-pin-diff.mjs",
+          "sha": "8278fdefba450c69d4f55e8a2525ec4224500f5a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-integrated-exact-outside.json",
+          "sha": "26c767fe0f99db41ffe7a4d05289ec34d2d365ae",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-integrated-topology.json",
+          "sha": "bd09eda1fa0deefc2179bb8d9ca1a180675451ad",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-baseline-proof.json",
+          "sha": "263a36e790dba41ce370ce873c1a2de7d414600f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-baseline.mjs",
+          "sha": "617fd0ccbb749780a3e957edbb9720d16c476535",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-candidate-proof.json",
+          "sha": "8803d10b0b909823c0c349d8519d320a1cf667fd",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-candidate.mjs",
+          "sha": "cb07f9c14253d404c1a7b5d7194d66f45b2e1356",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-independent-observation.json",
+          "sha": "96ab7154be1f74f0da7095a13019f83892f790ec",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-independent.py",
+          "sha": "054b5e12894a3cd1e61136c45b763a53fa44cfcb",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-overlap-diagnostic.json",
+          "sha": "02f468edfbdc2159d19a5748bad904de7c242dc7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-overlap-diagnostic.py",
+          "sha": "f674cade052037b55f1d01efeb8d751cdde30458",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-overlay-stability.json",
+          "sha": "be38606032eb59327ec9df0b26d1faaf970bf199",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-overlay-stability.py",
+          "sha": "de70c233e6c124bb1c1d67e7b3a3eb15e011b44e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-darja-reviewed-display.json",
+          "sha": "7c17d26d1c0d33c53bc193d3b96522e2f7cffe9b",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-east-candidate.json",
+          "sha": "91871b20226008ad188ac25b21538fd55b84af6c",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-eastern-comparator-chains.json",
+          "sha": "2f91df211b53a656d862a798e6ea89728a7ba46e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-comparison.png",
+          "sha": "3f6aa393b30d56e232e4a85d6ee6650c51e87611",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-comparison.svg",
+          "sha": "8bed8fe30480e6fe919c379678c028bbda05d283",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-local-deviations.json",
+          "sha": "8c92b5a054e23069c1e179ba9f9e60b5d51d34e9",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-metric-input.json",
+          "sha": "1f8c434a44a58a34bdf0b904ae5492d0b0d062bf",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-metric-input.py",
+          "sha": "fdfeea20e6ffd81263a4c63381b44afb3620e985",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-metrics.json",
+          "sha": "247b3d7825036b583c7e493786acececf0086490",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-final-plot.mjs",
+          "sha": "5522efe818563c3cbd526b0ee0c91162b36d215d",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrate-west.mjs",
+          "sha": "25e4c7c53c4bc4c64b59c4315ed3085a77f8543e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-exact-outside.json",
+          "sha": "604c01f985b0cfa2028966c5f8ddde16e5281b7e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-exact-outside.mjs",
+          "sha": "7feb2a577013b7f82ff31f126a6895286d3875a3",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-peer-and-retain.json",
+          "sha": "e670717ed1474c8125d46717daae3271506840b9",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-peers.py",
+          "sha": "e005118d9a220bdbaef3eb44c164fb750926c27d",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-prepared-result.json",
+          "sha": "27ffb4660ada8109292e3a18a081ee46e86d0c6f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-topology.json",
+          "sha": "0419b01ba579663bd3daa798d47aaf7ce63836fb",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-topology.py",
+          "sha": "f7cbcddedb4bc6cdfa8e2faab049c24f74c4d878",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-inventory-current.json",
+          "sha": "2e4bd1bfd5e513f9be4e1367819c468dc61d7f83",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-konotop-tc-current-chains.json",
+          "sha": "1e2aa4cebe3d76c925999207d3cd37b6329347cb",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-prepare-candidate.mjs",
+          "sha": "4a10a923e2fa48f0afac33ba471e46aec57f0ea6",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-review-ledger-current.json",
+          "sha": "54724d981fbf2fe166ba0f8ec66492c766772857",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-reviewed-staging-plan.json",
+          "sha": "51100c80f91e927874b3807b89d45b2bedab0ad3",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-reviewed-storage-preflight.json",
+          "sha": "d69d3272e6f785d38c75d4545a50cebe0d74c7d4",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-reviewed-storage-preflight.mjs",
+          "sha": "906cc5eafc83d71177911319342a33d667ad6095",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-soviet-family-scope.json",
+          "sha": "c16091e19b22324db93b6b67b956fc7eb7ead23f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-stage-reviewed-runtime.mjs",
+          "sha": "c13b7ced2620c8feb3dcb26f1e4623755268b52a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-additional-replay.json",
+          "sha": "765b10f694dad7b403b14b1b1c08d006e6d1fd84",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-additional-spec.mjs",
+          "sha": "9b0cd535cbf0fa0fef548fb791b1d21625f48fe9",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-darja-arcs.json",
+          "sha": "998e211888c12c1da1c117bb50b91247efa57d3e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-comparison.png",
+          "sha": "dbaa7162f3856e8716227c414ce06a5ee712736f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-comparison.svg",
+          "sha": "805f9b75b9609e773516f6c9037faf26f34f3a66",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-view-input.json",
+          "sha": "2d9f35ee7915e0d61d06bf1efb624fcbbea8df50",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-view.json",
+          "sha": "2c5fd1369a54fed2f6d66bc9beedff8dc3e7d081",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-view.mjs",
+          "sha": "04e312779b98e4547e4df30d853519fe5f24f771",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-view.py",
+          "sha": "1d1cf8dd2981ad7c368aa98dd8d8a0ba0ed2e936",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-border-detail-review-2026-11-04/historical_detail_membership.py",
+          "sha": "7db65c70d9f7f59cf3b9a3c9fac56a02c37af3ad",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/README.md",
+          "sha": "c5bccc81ceef47f213d4a7ddaa3a916663b69de2",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/completion.json",
+          "sha": "382617bc110123440515d7096b19e1d87ed99d9c",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/final-tests.log",
+          "sha": "234cc8586275e0b899358373092b514c7ff65237",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/inventory.json",
+          "sha": "2e4bd1bfd5e513f9be4e1367819c468dc61d7f83",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/scoped-contact-recheck.json",
+          "sha": "93e8290eb6ca00e8c162451bd7c960258fa5d659",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/seam-inserted-reproduction.log",
+          "sha": "44da80a90150258018e5b0521340dc65a897811f",
+          "old": null
+        },
+        {
+          "path": "borders/validation/historical-display-review-gate-2026-11-04/storage-review-reproduction.log",
+          "sha": "f9c5bc980fd44291b41fb837737f5814f96dcf4a",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md",
+          "sha": "56695658e530376356260cfb552bea8bdc1af85e",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/cleanup.json",
+          "sha": "99df449d4ab6bf641bb89eccbbe43dc03c42bcd9",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/coordinate-verification.json",
+          "sha": "1599fc77a3a91ebb7e6b05f024b04d83abeed794",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/final-verification.json",
+          "sha": "a7b7b3eb3cca1b168072a133605d20cd066b0b57",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/geometry-check.py",
+          "sha": "c93b202522bfb06441cfca8b5244b9b17e361f5b",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/monaco-and-france-before.json",
+          "sha": "b0aa0d18c5ef036fd70bc8c24ac20bb1af287a82",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/paired-proof.json",
+          "sha": "7970cde1fc128e1c171b517a900eb5e0c69fac41",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/publication.json",
+          "sha": "4d5065b94253f210e072aab873c719985f180e34",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/qa.json",
+          "sha": "e65399aeb77b982aed1332901e5722b91a674134",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/rollback-baseline-and-versions.json",
+          "sha": "65811b647a75fbc88e6f7451938e0b3c3a167bd0",
+          "old": null
+        },
+        {
+          "path": "borders/validation/korean-lsib-baseline-rollback-2026-11-04/storage.json",
+          "sha": "77c56f5e8c684d3661002323c5444ececfdb5901",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/A-C-retirement.json",
+          "sha": "5329de77afb514b3bfa621391e7d3c1bf57d9a91",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/G-preservation.json",
+          "sha": "274ffd2eb530dffb13e4116eee0a03ce437c7343",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/README.md",
+          "sha": "f5c908950387eb4dda25000860a7573f4df77f63",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/artifact-receipts.json",
+          "sha": "15a62133b91aa1897f32aca9342642385fc1d7c5",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/cleanup.json",
+          "sha": "a6346e8ad028e457a94e624005d63049c148a8fa",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/geometry-check.json",
+          "sha": "b6107bcaeb8f00840e7b7418984902663ce2d0db",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/native-verification.json",
+          "sha": "40ae2669524a4c2807753db1b3aef816c3e8110b",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/publication-verification.json",
+          "sha": "b57eb15f09754ece2bd717079fe58b95da0779a7",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/sarakhs-geometry-check.json",
+          "sha": "0343abf32c042cf52599b7a75c68128905608bef",
+          "old": null
+        },
+        {
+          "path": "borders/validation/sub500-polygon-retirement-2026-11-04/sarakhs-retirement.json",
+          "sha": "9aa0c6713273ac636127920882109164ebff03f3",
+          "old": null
+        }
+      ]
+    },
+    "workGis": {
+      "files": [
+        {
+          "path": "README.md",
+          "sha": "e908eaf9c0fb392e861256e64f788c0da53f2650",
+          "old": "3bb586261c73016e6b4c555d2370b0990729ed63"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1953-1922-2026-10-31/COVERAGE-106.csv",
+          "sha": "67c1a26a056a42d1f4734daf9d38f281775a3fde",
+          "old": "d492bb1513b447419b8953f109625f1648aeb71d"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1953-1922-2026-10-31/README.md",
+          "sha": "f2a9a08d23059bdbdc686086d609e61c7e17a237",
+          "old": "9b176c54c6c0bce0a253c297545d360b3e96683f"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1953-1922-2026-10-31/remaining1939-1945.md",
+          "sha": "aa917494071838ec47dd0dd2992801e1fb66ee24",
+          "old": "7b898663bb85bbe624cb6a31ac2324332237e978"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1953-1922-2026-10-31/remaining1946-1953.md",
+          "sha": "b2fb991eaed2c08a625b8f5a5e2b0f262dfd17c7",
+          "old": "ce9557cb5390ba5f089a74e58dd3f1d1efe0bd26"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/1962-Varna-source-audit-ko.md",
+          "sha": "172a7802aa559224b44845088ebd5672235fd10a",
+          "old": "c3e342169f0dba17794bae6d4a5136786acb53df"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/INCREMENT-ko.md",
+          "sha": "1e58cd54f7c045dd5ed93f47f98f6cc41a9569ad",
+          "old": "ac893dc328a1847db1b876d0d3f27edf55ea6411"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/README.md",
+          "sha": "bf21fbd6abc0ee519b9c2af915b39ad71d49c48b",
+          "old": "b86c4db7a2711451839e5e7987806dacc921c356"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/batch1957-1954/REVIEW-ko.md",
+          "sha": "5b9476c3e4e577e8fe243a96d904203c30dd72e8",
+          "old": "bb3f362e78665c8216f2cb403f588d306d5e049a"
+        },
+        {
+          "path": "borders/history/rsfsr-reverse-research-1965-1954-2026-10-31/dzhanybek1956.md",
+          "sha": "5769ed4803ffbc0ddbc2384f6c8fd38c394e3f83",
+          "old": "b05c21be23bdbf5d4236c77e0afe78125f19e174"
+        },
+        {
+          "path": "borders/history/sub500-research-retirement-2026-11-04.md",
+          "sha": "014a5bc5aeabefad83c98da63fe0148490800b02",
+          "old": null
+        },
+        {
+          "path": "borders/reconstruction/abagaitu-g-geographic-candidate-2026-11-01/README-ko.md",
+          "sha": "660be837eb4dcd3651a836bd15c09a4c0ecd5d91",
+          "old": "11d7f3809ecb963909edb3f6f56ce687d45b0822"
+        },
+        {
+          "path": "borders/reconstruction/abagaitu-g-geographic-candidate-2026-11-01/SHA256SUMS",
+          "sha": "a6f9a9aebe71742b574cf1380bf4757efe3b396a",
+          "old": "f5e490ca5405b15d53f4c8f187d8b615eb3a4886"
+        },
+        {
+          "path": "borders/reconstruction/abagaitu-g-imagecoords-2026-11-01/README-ko.md",
+          "sha": "5d17652778960807191f6bcdc324c054ea464cdc",
+          "old": "2204695f08f5e484c06eacb8523ab2eec797874d"
+        },
+        {
+          "path": "borders/reconstruction/abagaitu-g-imagecoords-2026-11-01/SHA256SUMS",
+          "sha": "6543d613a73f8aa68c3c83c564c3044baf4dbe23",
+          "old": "a3406a748af0bf63d1aefe1c156972e0a0c7f0e4"
+        },
+        {
+          "path": "borders/reconstruction/russia-frontier-1991-2026-2026-10-31/ENGINEERED-REPORT-ko.md",
+          "sha": "46a2298afff1c5e441aac37151612e5b84bd127f",
+          "old": "dc9f7e5384f09b3d6aab01e60b3b031d533fbbe1"
+        },
+        {
+          "path": "borders/reconstruction/russia-frontier-1991-2026-2026-10-31/README.md",
+          "sha": "66e0c7e405f2a880006a287a61a1dc827909d10d",
+          "old": "7407d437424a73244714543e98e3f22973bdc8a4"
+        },
+        {
+          "path": "borders/reconstruction/russia-frontier-1991-2026-2026-10-31/engineered-event-ledger.json",
+          "sha": "93a2338ebe154b518333b29da1285c7676cadf45",
+          "old": "088d73e57d66f1746f79a297997d8ce65aeccbba"
+        },
+        {
+          "path": "borders/validation/pending-geometry-publication-2026-11-01/README.md",
+          "sha": "4942c6fc846e58df2ad70f26db92c10dd130b8f8",
+          "old": "c989e6945ede7cb593a766ffc2bf5d3e1fc94615"
+        }
+      ],
+      "deleted": [
+        "borders/reconstruction/russia-frontier-1991-2026-2026-10-31/six-panel-period-comparison.png"
+      ]
+    },
+    "workGisCommitsSinceReview": [
+      {
+        "sha": "fd531a1cba5cea28d5a68522c57f8df50d6ada88",
+        "message": "docs(gis): link canonical historical-map research threshold",
+        "authoredAt": "2026-11-04T01:24:55Z"
+      },
+      {
+        "sha": "6f55f3a1ab3ad14664204869331a40d73927cd0b",
+        "message": "docs(gis): align library guidance with 500 km2 threshold",
+        "authoredAt": "2026-11-04T04:14:21Z"
+      },
+      {
+        "sha": "b8e70f7a95d094ec386199e166bb01cb7dc17501",
+        "message": "docs(gis): retire documented sub-500 km2 boundary research",
+        "authoredAt": "2026-11-04T04:42:23Z"
+      },
+      {
+        "sha": "dc1dc4487bfaa92beea9beebe0fc7b380040e57c",
+        "message": "docs(gis): include documented Orenburg parcel research retirement",
+        "authoredAt": "2026-11-04T04:44:55Z"
+      },
+      {
+        "sha": "8ada5a8611c683e153b1db3be7129b3bfe681eb9",
+        "message": "docs(gis): retire sub-500 China G/H research and preserve publication stop",
+        "authoredAt": "2026-11-04T05:03:54Z"
+      },
+      {
+        "sha": "73b9fa0ceea441e7bf7527ea6399f12d71b3d918",
+        "message": "docs(gis): compact sub-500 research and retire four rough-screened cases",
+        "authoredAt": "2026-11-04T05:43:30Z"
+      },
+      {
+        "sha": "5500b6a035d29844c7de93a709db3557bfc9c12c",
+        "message": "Store app-produced library material from bb61bb10243c357e2c79b5d2752078cd4a30b5b9",
+        "authoredAt": "2026-11-04T11:00:31Z"
+      },
+      {
+        "sha": "deb5576939de1a7e9d70c00fd68b98c1e2e2e883",
+        "message": "Store app-produced library material from 46e1c59483568a4032e806c05e97f90f6974ad6d",
+        "authoredAt": "2026-11-04T11:16:05Z"
+      },
+      {
+        "sha": "89bff9a4c9ed42a7bca5325a3449fbe8055012e8",
+        "message": "Store app-produced library material from f851bafeb6db34a02113a05e59ac2f96ac22266c",
+        "authoredAt": "2026-11-04T11:27:56Z"
+      },
+      {
+        "sha": "30ce140bdd55b45cbe40d75346719a4b140e1342",
+        "message": "Store app-produced library material from 8bdccdd5b1e20305e0069ec856d0f2086637ecdb",
+        "authoredAt": "2026-11-04T13:49:26Z"
+      },
+      {
+        "sha": "a548d5fa6612a97f998b7bdb326a27eb8b8d9717",
+        "message": "Store app-produced library material from 9f9058f79997be56e0a72f47078d935f9e438363",
+        "authoredAt": "2026-11-04T14:17:54Z"
+      },
+      {
+        "sha": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+        "message": "Store app-produced library material from 3b3339df9c8db7b89210510d1e157b893697ee91",
+        "authoredAt": "2026-11-04T17:08:15Z"
+      }
+    ]
+  },
+  "sourceReportHistories": [
+    {
+      "path": "reports/borders/history/lifetimes/country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md",
+      "history": [
+        {
+          "sha": "b6d7c787145060203b19ba206fc26ea36eb15f33",
+          "authoredAt": "2026-11-04T18:00:45Z",
+          "message": "reports(geo-life): research Zanzibar, Madagascar and Dahomey; advance Africa rotation"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/history/lifetimes/country-lifetime-rotation-progress.md",
+      "history": [
+        {
+          "sha": "b6d7c787145060203b19ba206fc26ea36eb15f33",
+          "authoredAt": "2026-11-04T18:00:45Z",
+          "message": "reports(geo-life): research Zanzibar, Madagascar and Dahomey; advance Africa rotation"
+        },
+        {
+          "sha": "cea99260afa36d43872c77553d5cfe20a72e1071",
+          "authoredAt": "2026-11-03T18:00:09Z",
+          "message": "docs(gis): GEO-LIFE-023 Asia Kokand Khiva Bukhara lifetime research and rotation"
+        },
+        {
+          "sha": "77fde2368829962656c97a166d32301ccd8679bb",
+          "authoredAt": "2026-11-02T18:00:05Z",
+          "message": "docs(gis): record GEO-LIFE-022 Europe historic polities and rotation"
+        },
+        {
+          "sha": "d5e3f398ad3ec183075613cd7973b227c904dc66",
+          "authoredAt": "2026-11-01T17:29:52Z",
+          "message": "GEO-LIFE-021: survey historic Oceania polities and advance regional rotation"
+        },
+        {
+          "sha": "599d8dc721f6cda1daa2f824d83b48cf3b282525",
+          "authoredAt": "2026-10-31T17:45:17Z",
+          "message": "GEO-LIFE-020: advance lifetime region cursor to Oceania"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/history/timeline/historical-timeline-2025-south-america-peru-colombia-santa-rosa-2026-11-05.md",
+      "history": [
+        {
+          "sha": "71d77218dff8620214da35025b620ab7073b99d3",
+          "authoredAt": "2026-11-04T20:22:18Z",
+          "message": "docs(gis): index 2025 Peru-Colombia Santa Rosa boundary dispute and vector candidates [GEO-TIME-021]"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/history/timeline/historical-timeline-yearly-progress.md",
+      "history": [
+        {
+          "sha": "68c9a1fa23dd3272c5822697cfbeffc3e537265a",
+          "authoredAt": "2026-11-04T20:23:44Z",
+          "message": "docs(gis): expose current 2025 Oceania cursor at top of timeline progress"
+        },
+        {
+          "sha": "9f4869fa47b8b33e3c6015fd8af0982b64ed4037",
+          "authoredAt": "2026-11-04T20:22:54Z",
+          "message": "docs(gis): hand off 2025 South America Santa Rosa inquiry and Oceania cursor [GEO-TIME-021]"
+        },
+        {
+          "sha": "44407de0377a8e5efde8372e3ad0f21a95284a8a",
+          "authoredAt": "2026-11-03T20:21:19Z",
+          "message": "docs(gis): advance 2025 yearly investigation cursor to South America after Haiti"
+        },
+        {
+          "sha": "f5c1022138dfd1b99045b01bcae3c35c48c5f423",
+          "authoredAt": "2026-11-02T20:09:15Z",
+          "message": "docs(gis): research 2025 DRC M23 de facto control and vector sources (GEO-TIME-019)"
+        },
+        {
+          "sha": "81593cc21eb644ead44dcb8115bbc73c57c474b9",
+          "authoredAt": "2026-11-01T20:24:03Z",
+          "message": "GEO-TIME-018: verify 2025 Central Asia border treaty effectiveness and annex gaps"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/current-border-detail-lsib-2026-11-04/ATREK-SCOPE-CORRECTION.md",
+      "history": [
+        {
+          "sha": "9f94b41ea13bdfc6baa859f71bd73594ab94d9dd",
+          "authoredAt": "2026-11-04T16:55:59Z",
+          "message": "Store app-produced library material from 3b3339df9c8db7b89210510d1e157b893697ee91"
+        },
+        {
+          "sha": "2a769aaaa09bec28ef0e820d75403d00219bda8c",
+          "authoredAt": "2026-11-04T16:54:50Z",
+          "message": "Store app-produced library material from 3b3339df9c8db7b89210510d1e157b893697ee91"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/current-border-detail-lsib-2026-11-04/README.md",
+      "history": [
+        {
+          "sha": "2a769aaaa09bec28ef0e820d75403d00219bda8c",
+          "authoredAt": "2026-11-04T16:54:50Z",
+          "message": "Store app-produced library material from 3b3339df9c8db7b89210510d1e157b893697ee91"
+        },
+        {
+          "sha": "b9b00ec3fd976ab3bf72f8b775a7ba2c7a61c3cb",
+          "authoredAt": "2026-11-04T14:01:52Z",
+          "message": "Store app-produced library material from 9f9058f79997be56e0a72f47078d935f9e438363"
+        },
+        {
+          "sha": "8da3586ad37953d5d90cc09b462e5b658c209454",
+          "authoredAt": "2026-11-04T12:29:55Z",
+          "message": "Store app-produced library material from 627bdf3410345cfc19250fbe84eb8f0fe484ba1c"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/current-lsib-coordinate-audit-2026-11-04/README.md",
+      "history": [
+        {
+          "sha": "b148bf52ae8656a96b2facffc54ed1851c9cc22f",
+          "authoredAt": "2026-11-04T14:03:41Z",
+          "message": "Store app-produced library material from 9f9058f79997be56e0a72f47078d935f9e438363"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/historical-border-detail-review-2026-11-04/README.md",
+      "history": [
+        {
+          "sha": "6ebc04f88d8b24f7503dc15512c79f4bb9040744",
+          "authoredAt": "2026-11-04T19:00:26Z",
+          "message": "Store app-produced library material from 52725b98fedcdfead55f0affc7cdec458d25e8b7"
+        },
+        {
+          "sha": "687d4e515034468822f8ef78538e26dbd02a22f7",
+          "authoredAt": "2026-11-04T18:56:13Z",
+          "message": "Store app-produced library material from 26ecb9ca0237d0d8026c190d50f52c664e53a723"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/historical-display-review-gate-2026-11-04/README.md",
+      "history": [
+        {
+          "sha": "7fc13eeee688614c6b44f276a3f41ad75de5ce6a",
+          "authoredAt": "2026-11-04T16:46:09Z",
+          "message": "Store app-produced library material from 3b3339df9c8db7b89210510d1e157b893697ee91"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md",
+      "history": [
+        {
+          "sha": "7aab2d1395f03670debfe416d3a41aae21da58bc",
+          "authoredAt": "2026-11-04T14:00:22Z",
+          "message": "Store app-produced library material from 9f9058f79997be56e0a72f47078d935f9e438363"
+        }
+      ]
+    },
+    {
+      "path": "reports/borders/validation/sub500-polygon-retirement-2026-11-04/README.md",
+      "history": [
+        {
+          "sha": "14b7599cd4ac34d91f39fd0d83cd0e636e959333",
+          "authoredAt": "2026-11-04T11:52:00Z",
+          "message": "Store app-produced library material from 4069a656c11adfe70e7eb57eeaf4ea16c2f40417"
+        },
+        {
+          "sha": "fda46f34cada5d5458d3a95907d06eb2bd55721f",
+          "authoredAt": "2026-11-04T10:44:35Z",
+          "message": "Store app-produced library material from bb61bb10243c357e2c79b5d2752078cd4a30b5b9"
+        },
+        {
+          "sha": "315cd2218b1d288bbc2bee1d8a2f480effd8ee50",
+          "authoredAt": "2026-11-04T10:40:04Z",
+          "message": "Store app-produced library material from bb61bb10243c357e2c79b5d2752078cd4a30b5b9"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "report": "GEO-LIFE-024",
+      "topic": "Zanzibar",
+      "finding": "1861-04-02 arbitration award and subsequent acceptances directly located; not automatic entity founding.",
+      "source": "https://legal.un.org/riaa/cases/vol_XXVIII/107-114.pdf",
+      "pages": "109-113"
+    },
+    {
+      "report": "GEO-LIFE-024",
+      "topic": "Madagascar",
+      "finding": "1895-10-01 treaty signing confirmed in contemporary diplomatic translation; effect, revisions and continuity held.",
+      "source": "https://history.state.gov/historicaldocuments/frus1896/d90",
+      "priorTreatyDate": "1885-12-17"
+    },
+    {
+      "report": "GEO-LIFE-024",
+      "topic": "Madagascar",
+      "finding": "1896-08-06 promulgation and 08-08 publication confirmed; do not conflate with 1897 monarchy abolition.",
+      "source": "https://history.state.gov/historicaldocuments/frus1896/d107"
+    },
+    {
+      "report": "GEO-LIFE-024",
+      "topic": "Dahomey",
+      "finding": "Court-filed party memorial distinguishes 1892-12-03 protection proclamation, 1894-01-15 appointment and 1894-01-29 treaty. Not a judicial finding or original treaty.",
+      "source": "https://icj-web.leman.un-icc.cloud/sites/default/files/case-related/125/8285.pdf",
+      "page": "printed 38, section 1.2.9",
+      "underlyingReference": "Hertslet pp.651-652",
+      "remainingConflict": "SHD indexed 1895-01-29 remains attributed; original instrument not independently resolved."
+    },
+    {
+      "report": "GEO-TIME-021",
+      "topic": "Santa Rosa",
+      "finding": "June11 session approval and June12 congressional autograph must be separated; session ended June12 00:14, exact vote timestamp unverified.",
+      "sources": [
+        "https://www3.congreso.gob.pe/Docs/legislativo/TemasTratados/files/22_ctt_11.jun.2025.pdf",
+        "https://www.gob.pe/institucion/pcm/noticias/1195200-pcm-demarcacion-territorial-en-lo-que-va-del-ano-beneficia-a-mas-de-2-5-millones-de-peruanos-y-fortalece-la-presencia-del-estado",
+        "https://busquedas.elperuano.pe/dispositivo/NL/2415565-1"
+      ]
+    },
+    {
+      "report": "GEO-TIME-021",
+      "topic": "Santa Rosa",
+      "finding": "No new border coordinates, cession or final island assignment published in September11-12 COMPERIF communiqué. This is not a universal absence claim.",
+      "source": "https://www.cancilleria.gov.co/en/node/31174"
+    }
+  ],
+  "verifiedSupportingSources": [
+    "https://www.legislation.gov.uk/ukpga/1963/55/pdfs/ukpga_19630055_en.pdf",
+    "https://www.legislation.gov.uk/ukpga/1969/29/pdfs/ukpga_19690029_en.pdf",
+    "https://cancilleria.gov.co/node/30985",
+    "https://www.elperuano.pe/noticia/276140-peru-expresa-protesta-por-declaraciones-de-colombia-sobre-integridad-territorial",
+    "https://geo.serfor.gob.pe/geoservicios/rest/services/Visor/Limites_Politicos_Administrativos/MapServer",
+    "https://geo.serfor.gob.pe/geoservicios/rest/services/Visor/Limites_Politicos_Administrativos/MapServer/2",
+    "https://geosenace.senace.gob.pe/arcgis/rest/services/EVA_SERVER/Limite_distrital_2025/FeatureServer"
+  ],
+  "sourceAccessLimits": [
+    "SHD English/French indexed text available, full page timeout.",
+    "Perpignan Dahomey transcription returned 502; no claim of full direct verification.",
+    "Peru gob.pe August5 direct read returned418; official indexed text and El Peruano reproduction corroborated.",
+    "No original Dahomey 1900 abolition or Madagascar1897 order verified.",
+    "Metadata reads are not original GIS feature/geometry/rights verification."
+  ],
+  "targetEntityRead": {
+    "libraryBlob": "ad9296b37c0b3aedd7f27edfb22e34f032e92234",
+    "indexEntityCount": 286,
+    "entities": [
+      {
+        "entityId": "state:BEN",
+        "lifetime": {
+          "validFrom": "1960-08-01",
+          "validTo": null
+        },
+        "objectHash": "ff642906b87ebc77edf8cde8dab0c8276fc42144a27438091edeb16aea20d7b0",
+        "blob": "32bc3ba72ceadd054baa878287f55dca23aa5304",
+        "geometryVersions": [
+          {
+            "versionId": "state:BEN:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "sourceId": "natural-earth-5.1.1"
+          }
+        ],
+        "source": "natural-earth-5.1.1"
+      },
+      {
+        "entityId": "state:BRA",
+        "lifetime": {
+          "validFrom": "1822-09-07",
+          "validTo": null
+        },
+        "objectHash": "be06cd86e094d8b90710f03a1476d88bdf7c55a35841b29af0851425aa1f3e5e",
+        "blob": "d1153c6151300c701f6915274e0ad2c5f6a9f824",
+        "geometryVersions": [
+          {
+            "versionId": "state:BRA:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "sourceId": "natural-earth-5.1.1"
+          }
+        ],
+        "source": "natural-earth-5.1.1"
+      },
+      {
+        "entityId": "state:COL",
+        "lifetime": {
+          "validFrom": "1831-11-21",
+          "validTo": null
+        },
+        "objectHash": "bf8d8034f10e4619807bab7cb5c5356025bc6cce315bd83f9ec9a86b92431443",
+        "blob": "608f2de8067539ed8942f36436937d8af884a8b6",
+        "geometryVersions": [
+          {
+            "versionId": "state:COL:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "sourceId": "natural-earth-5.1.1"
+          }
+        ],
+        "source": "natural-earth-5.1.1"
+      },
+      {
+        "entityId": "state:MDG",
+        "lifetime": {
+          "validFrom": "1960-06-26",
+          "validTo": null
+        },
+        "objectHash": "bd5d6b02fe8b630aa79968c22f27854dec46fb5ee72a326e6086114c5cb153dc",
+        "blob": "094cf65465ff819d29b37eab6f25fd26f355b619",
+        "geometryVersions": [
+          {
+            "versionId": "state:MDG:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "sourceId": "natural-earth-5.1.1"
+          }
+        ],
+        "source": "natural-earth-5.1.1"
+      },
+      {
+        "entityId": "state:PER",
+        "lifetime": {
+          "validFrom": "1838-08-25",
+          "validTo": null
+        },
+        "objectHash": "6bbb34316dd795e5cd95d35094580a59216bf2100260a75f50858dc4e75af7a1",
+        "blob": "ae3c10349a94ee491dce4f61fe2894db85532a0a",
+        "geometryVersions": [
+          {
+            "versionId": "state:PER:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "sourceId": "natural-earth-5.1.1"
+          }
+        ],
+        "source": "natural-earth-5.1.1"
+      },
+      {
+        "entityId": "state:TZA",
+        "lifetime": {
+          "validFrom": "1964-04-26",
+          "validTo": null
+        },
+        "objectHash": "83de9c339cbb507cafa0375e3e4e65cc3f08ef4d70d28e4a669346270a58787f",
+        "blob": "88feaa428221a56b37dd6be794776b15f862ed9c",
+        "geometryVersions": [
+          {
+            "versionId": "state:TZA:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "sourceId": "natural-earth-5.1.1"
+          }
+        ],
+        "source": "natural-earth-5.1.1"
+      }
+    ],
+    "historicalIdStringMatches": [],
+    "absenceLimit": "ID-string screen only; not an exhaustive name/identity audit."
+  },
+  "dispositions": {
+    "lifetime": "Hold final historical entity identity and lifespan mapping; modern TZA/MDG/BEN remain unchanged; 1801 is research lower bound only.",
+    "santaRosa": "No verified national-border change. Keep administrative/diplomatic evidence separate; do not reconstruct river/island geometry.",
+    "appliedHistory": "Do not replay sub500 retirement, Korean rollback, existing Atrek correction or review-gate implementation.",
+    "stagedCandidates": "Five-country historical display candidates remain productionActivated=false. a548d5fa to c1d25c3f physical Git diff contains archive/index.json plus archive blob, no runtime geometry activation.",
+    "darja": "Retain prior independent overlap-shape hold; no fresh geometry reproduction.",
+    "prussia": "Retain recorded hold.",
+    "retiredResearch": "S01-S24 respected; 11 COVERAGE-106 rows change lifecycle only; no old precision research resumed."
+  },
+  "verification": {
+    "performed": [
+      "Non-truncated Git tree comparisons across both repositories and branches",
+      "Source report full text and immutable history review",
+      "Official documentary and service metadata review",
+      "Six current entity JSON reads",
+      "Report JSON and selected path/link scope check"
+    ],
+    "notPerformed": [
+      "GIS or topology recomputation",
+      "Vector feature downloads or georeferencing",
+      "Viewer or application test suites",
+      "publish-reports/check-reports helpers"
+    ],
+    "helperReason": "Default report helper targets main, forbidden for this scheduled task.",
+    "method": "GitHub existing-base-tree single-parent commit, expected-head lease, force=false; read back final commit and three file contents.",
+    "localWorkspace": "Registered work/gis path absent; existing other-branch checkout left untouched.",
+    "localTemporaryOutputsCreated": 0
+  }
+}
