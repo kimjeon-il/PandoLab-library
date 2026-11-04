@@ -1,6 +1,8 @@
 {
   "scopeCompleted": "metadata inventory, bounded measurements, local candidate/source/compiled/prepared verification and explicit Darja physical hold diagnosis only",
   "productionActivated": false,
+  "localCodeCommit": "52725b98f",
+  "remoteCodePushStatus": "denied-before-execution; not retried",
   "files": [
     {
       "file": "evidence-manifest.json",
@@ -31,6 +33,11 @@
       "file": "historical-detail-bukhara-pamir-reuse.json",
       "bytes": 6312,
       "sha256": "acadf33efeeec7163d6380d131ea4857bf9c9860730307923b1744a48cbc82c7"
+    },
+    {
+      "file": "historical-detail-code-review.patch",
+      "bytes": 9442,
+      "sha256": "a79aa376c8fbcf89501dcccf218078c303e2e974c3d33486a1f72732bf75c8c8"
     },
     {
       "file": "historical-detail-concurrent-pin-diff.mjs",
@@ -81,6 +88,21 @@
       "file": "historical-detail-darja-overlap-diagnostic.json",
       "bytes": 699,
       "sha256": "0db6fea9b1eb0fefcfe7a867a0602a9e0bc0f044c0575a5549a1892cd39c2a41"
+    },
+    {
+      "file": "historical-detail-darja-overlap-diagnostic.py",
+      "bytes": 1501,
+      "sha256": "ca8f5d62c5b4dc66231c2dce3b82999edef502321b1167cc0cbe8dcc3945b4e7"
+    },
+    {
+      "file": "historical-detail-darja-overlay-stability.json",
+      "bytes": 1161,
+      "sha256": "50a9bdb4d32f0a19f3865408782e85a9b2f731b9ae12019e420f752d8a0a3b6a"
+    },
+    {
+      "file": "historical-detail-darja-overlay-stability.py",
+      "bytes": 1736,
+      "sha256": "589a966832f165e5e643a463f9c8b5bc22faa89cec1ecb84a156a743a9153522"
     },
     {
       "file": "historical-detail-darja-reviewed-display.json",
@@ -269,8 +291,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 12370,
-      "sha256": "235e5abc99c8149fe838259dc1939bd31ed05ee01c84fca48b9a34725d9c0628"
+      "bytes": 14247,
+      "sha256": "a10cff2ed5bb427fb38643ade3b55df7359caa385f998e54c057ae84840f69e6"
     }
   ]
 }

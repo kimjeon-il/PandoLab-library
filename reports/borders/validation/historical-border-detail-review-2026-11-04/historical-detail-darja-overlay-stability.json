@@ -1,0 +1,29 @@
+{
+  "purpose": "Numerical stability diagnostic on four clipped in-memory measurement copies only; never quantizes or overwrites source/native/compiled/physical candidates; raw preservation assertion remains recorded independently. Grid is sub-mm overlay arithmetic support, not display tolerance.",
+  "rows": [
+    {
+      "measurementGridDegrees": 1e-08,
+      "oldOverlapDeg2": 0.007118932687509964,
+      "newOverlapDeg2": 0.007118932687507851,
+      "overlapGeometryDifferenceDeg2": 0.0012374289403657237,
+      "unionDifferenceDeg2": 0.0,
+      "deltaDifferenceDeg2": 0.0
+    },
+    {
+      "measurementGridDegrees": 1e-09,
+      "oldOverlapDeg2": 0.007118932404202465,
+      "newOverlapDeg2": 0.0071189324042041265,
+      "overlapGeometryDifferenceDeg2": 0.0012250096727832833,
+      "unionDifferenceDeg2": 0.0,
+      "deltaDifferenceDeg2": 0.0
+    },
+    {
+      "measurementGridDegrees": 1e-10,
+      "oldOverlapDeg2": 0.00711893240546143,
+      "newOverlapDeg2": 0.00711893240545932,
+      "overlapGeometryDifferenceDeg2": 0.0012250096313763952,
+      "unionDifferenceDeg2": 0.0,
+      "deltaDifferenceDeg2": 0.0
+    }
+  ]
+}

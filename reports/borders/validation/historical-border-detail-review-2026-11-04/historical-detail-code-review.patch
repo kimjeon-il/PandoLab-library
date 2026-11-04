@@ -1,0 +1,107 @@
+diff --git a/tools/build-korean-boundaries.mjs b/tools/build-korean-boundaries.mjs
+index b990918de..d2103eafd 100644
+--- a/tools/build-korean-boundaries.mjs
++++ b/tools/build-korean-boundaries.mjs
+@@ -42,7 +42,7 @@ export function replaceBoundaryChain(geometry,start,end,replacement,through) {
+   const originalStart=ring[0],retainedStart=next.findIndex(p=>same(p,originalStart));
+   if(retainedStart>0){if(same(next[0],next.at(-1)))next.pop();next=[...next.slice(retainedStart),...next.slice(0,retainedStart)];}
+   if(!same(next[0],next.at(-1)))next.push([...next[0]]);
+-  ring.splice(0,ring.length,...next);return normalize(result);
++  ring.splice(0,ring.length,...next);return result;
+ }
+ 
+ function lineBetween(points,start,end) {
+@@ -98,7 +98,7 @@ function atBaseline(geometry,chain) {
+   return chain.baseline.slice(1).every((p,i)=>edges.has(edge(chain.baseline[i],p)));
+ }
+ function restoreChain(geometry,chain) {
+-  return atBaseline(geometry,chain)?geometry:replaceBoundaryChain(geometry,chain.start,chain.end,chain.baseline,chain.retiredWitness);
++  return atBaseline(geometry,chain)?geometry:normalize(replaceBoundaryChain(geometry,chain.start,chain.end,chain.baseline,chain.retiredWitness));
+ }
+ function provenance(previous,scope) {
+   return {...previous,sourceIds:[...new Set(['natural-earth-5.1.1',...(previous?.sourceIds||[]).filter(id=>id!=='dos-lsib-11.4')])],
+diff --git a/tools/build-prepared-polygon-mesh.mjs b/tools/build-prepared-polygon-mesh.mjs
+index 665169cab..7ba0ae33b 100644
+--- a/tools/build-prepared-polygon-mesh.mjs
++++ b/tools/build-prepared-polygon-mesh.mjs
+@@ -16,10 +16,14 @@ import { resolveWorld } from "../shared/frontend/js/modules/timeline-resolver.js
+ import { createTerritorialScopeResolver } from "../shared/frontend/js/modules/territorial-scope.js";
+ import {assembleBuiltinWorld,selectBuiltinCountries} from "../shared/frontend/js/modules/builtin-world-loader.js";
+ import {resolvePhysicalWaterObjects,composePhysicalWaterGeometry} from '../shared/frontend/js/modules/physical-resources.js';
++import {BUILTIN_SUBUNITS} from '../shared/frontend/js/modules/builtin-subunits.js';
+ import {timelineObjectKey} from '../shared/frontend/js/modules/timeline-records.js';
+ 
+ const defaultRoot=fileURLToPath(new URL('../',import.meta.url));
+-export function buildPreparedPolygonMeshes({root=defaultRoot,physicalMonth=null,write=writeLibraryOutput,sourceIdentity=sharedSourceManifest}={}) {
++export function buildPreparedPolygonMeshes({root=defaultRoot,physicalMonth=null,countryIds=null,countryMonths=null,write=writeLibraryOutput,sourceIdentity=sharedSourceManifest}={}) {
++if((countryIds===null)!==(countryMonths===null))throw Error('Countries and query months must be supplied together.');
++if(countryIds!==null&&(!Array.isArray(countryIds)||!countryIds.length||new Set(countryIds).size!==countryIds.length||!Array.isArray(countryMonths)||!countryMonths.length||countryMonths.some(month=>parseTemporal(month,{nullable:false}).precision!=='month')||physicalMonth!==null))throw Error('Explicit unique countries and query months are required for scoped meshes.');
++const append=physicalMonth!==null||countryIds!==null;
+ if(physicalMonth!==null&&(!physicalMonth||parseTemporal(physicalMonth,{nullable:false}).precision!=='month'))throw Error('A physical query month is required.');
+ const destination = 'assets/data/prepared-polygons/generated/v2';
+ const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
+@@ -55,23 +59,32 @@ if(physicalMonth){
+ }else{
+ const indexPath='assets/data/builtin-world/generated/v1/index.json';
+ const index=readJson(indexPath);source(indexPath);
+-const countries=index.entities.map(entry=>{
++const sourceIndex=readJson('assets/data/territorial-entities/generated/v2/index.json');
++if(countryIds){
++ const mapping=new Map(index.sourceIdentities.flatMap(row=>row.sourceEntityIds.map(id=>[id,row.projectEntityId]))),required=new Set(countryIds),subunits=new Map(BUILTIN_SUBUNITS.map(row=>[row.id,row.parentId]));
++ if(countryIds.some(id=>!index.entities.some(row=>row.entityId===id)))throw Error('Unknown scoped mesh country');
++ for(const month of countryMonths){const active=new Set(selectBuiltinCountries(index,month).map(row=>row.entityId));let grew=true;while(grew){grew=false;for(const source of sourceIndex.entities){const child=mapping.get(source.entityId),parent=subunits.get(child)||mapping.get(source.parentEntityId)||source.parentEntityId;if(parent&&active.has(child)&&active.has(parent)&&(required.has(child)||required.has(parent)))for(const id of [child,parent])if(!required.has(id)){required.add(id);grew=true;}}}}
++ if(required.size!==countryIds.length)throw Error('Scoped meshes require active parent/child closure: '+[...required].join(','));
++}
++const countries=index.entities.filter(entry=>!countryIds||countryIds.includes(entry.entityId)).map(entry=>{
+  const stored=readBuiltinCountryStoredBytes(entry,relative=>{
+   const file='assets/data/builtin-world/generated/v1/'+relative,bytes=readFileSync(resolve(root,file));
+   inputHashes[file]=sha256(bytes);return bytes;
+  });
+  const country=JSON.parse(gunzipSync(stored));collect(country);return country;
+ });
++if(!countryIds){
+ source('assets/data/territorial-entities/generated/current-world.geojson');
+ source('assets/data/physical-land/v1/geometry.json.gz');
+ const physicalManifestPath='assets/data/physical-land/v1/manifest.json';
+ inputHashes[physicalManifestPath]=sha256(readFileSync(resolve(root,physicalManifestPath)));
+ for(const context of readJson(physicalManifestPath).waterObjects?.geometries||[])
+  for(const item of [context.land,context.asset])source(item.url);
+-const sourceIndex=readJson('assets/data/territorial-entities/generated/v2/index.json');
+-for(const entity of sourceIndex.entities)source(`assets/data/territorial-entities/generated/v2/${entity.file}`);
+-const months=new Set();
+-for(const country of countries)for(const row of [...country.timelineRecords.geometryBindings,...country.timelineRecords.parentRelations])
++}
++const selectedSources=countryIds?new Set(index.sourceIdentities.filter(row=>countryIds.includes(row.projectEntityId)).flatMap(row=>row.sourceEntityIds)):null;
++for(const entity of sourceIndex.entities.filter(row=>!selectedSources||selectedSources.has(row.entityId)))source(`assets/data/territorial-entities/generated/v2/${entity.file}`);
++const months=new Set(countryMonths||[]);
++if(!countryIds)for(const country of countries)for(const row of [...country.timelineRecords.geometryBindings,...country.timelineRecords.parentRelations])
+  for(const value of [row.validFrom,row.validTo])if(value)for(const offset of [-1,0,1])months.add(shiftTemporalMonth(value.slice(0,-3),offset));
+ 
+ for(const month of [...months].sort()){
+@@ -110,7 +123,7 @@ const reusable=oldManifest?.schemaVersion===2 && oldManifest.meshFormatVersion==
+   && oldManifest.algorithmVersion===engine.MESH_ALGORITHM_REVISION && oldManifest.maxEdgeDegrees===engine.MAX_RENDER_EDGE_DEGREES;
+ // Match the runtime's packet algorithm/precision contract. An unrelated Core
+ // edit (for example reference-image UI) does not change a polygon mesh.
+-if(physicalMonth){
++if(append){
+  if(!reusable)throw Error('Scoped append requires a prepared manifest with the current mesh algorithm and precision.');
+  Object.assign(meshes,oldManifest.meshes);
+ }
+@@ -141,13 +154,13 @@ const manifest = { schema: 'pandolab-prepared-polygon-meshes', schemaVersion: 2,
+   meshFormatVersion: POLYGON_MESH_FORMAT_VERSION,
+   algorithmVersion: engine.MESH_ALGORITHM_REVISION, algorithmSourceSha256,
+   maxEdgeDegrees: engine.MAX_RENDER_EDGE_DEGREES,
+-  inputHashes:physicalMonth?{...oldManifest.inputHashes,...inputHashes}:inputHashes,
+-  precisionDiscards:physicalMonth?oldManifest.precisionDiscards:precisionDiscards, meshes };
++  inputHashes:append?{...oldManifest.inputHashes,...inputHashes}:inputHashes,
++  precisionDiscards:append?[...oldManifest.precisionDiscards.filter(row=>!countryIds||!countryIds.includes(row.id)||!countryMonths.includes(row.month)),...precisionDiscards]:precisionDiscards, meshes };
+ write(resolve(root, `${destination}/manifest.json`), JSON.stringify(manifest, null, 2) + '\n');
+ return {manifest,count,bytes,reused,selectedDigests:[...geometries.keys()]};
+ }
+ if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
+- const args=process.argv.slice(2);if(args.some(arg=>!arg.startsWith('--physical-month='))||args.length>1)throw Error('Usage: node tools/build-prepared-polygon-mesh.mjs [--physical-month=YYYY-MM]');
+- const result=buildPreparedPolygonMeshes({physicalMonth:args.length?args[0].slice('--physical-month='.length):null});
++ const args=process.argv.slice(2),physical=args.find(a=>a.startsWith('--physical-month=')),countries=args.find(a=>a.startsWith('--countries=')),months=args.find(a=>a.startsWith('--months='));if(args.some(arg=>!['--physical-month=','--countries=','--months='].some(p=>arg.startsWith(p)))||args.length!==[physical,countries,months].filter(Boolean).length||!!countries!==!!months)throw Error('Use --physical-month=YYYY-MM or --countries=<ids> --months=<YYYY-MM,...>');
++ const result=buildPreparedPolygonMeshes({physicalMonth:physical?physical.slice(17):null,countryIds:countries?countries.slice(12).split(','):null,countryMonths:months?months.slice(9).split(','):null});
+  console.log(JSON.stringify({selected:result.count,compressedBytes:result.bytes,reused:result.reused,digests:result.selectedDigests}));
+ }
