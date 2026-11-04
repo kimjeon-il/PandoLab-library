@@ -9852,7 +9852,17 @@
           "validFrom": "1922-12-30",
           "validTo": "1925-05-12",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "sarakhsSmallEventRetirement": {
+              "date": "2026-11-04",
+              "record": "S15",
+              "eventAreaKm2": 25.9,
+              "scope": "Remove only the UNTS451 Sarakhs26 display patch; restore its five prior interior vertices. Atrek, Khiva, Bukhara, all other coordinates and periods preserved.",
+              "removedArcSha256": "6b90985c1f12f9eb0572611dc9aafda07ae54847327d84d9d10252e7015f50ff",
+              "restoredArcSha256": "13375fdd39e02a7f7b4963f86b860dbf39e36935610341051f46d4267eb3c76a"
+            }
+          }
         },
         {
           "versionId": "state:IRN:natural-earth-5.1.1:caspian-1925-05-13",
@@ -9886,9 +9896,9 @@
       "file": "state-IRN.json.gz",
       "validFrom": "1501",
       "validTo": null,
-      "compressedBytes": 134668,
-      "decodedBytes": 1216936,
-      "sha256": "106341565a386be756354f12c35d401ded253572dac175ba12e812eec3336fd3",
+      "compressedBytes": 134726,
+      "decodedBytes": 1215271,
+      "sha256": "d7d18ace0bb6e3d21f8e06d18db8944fa766a8cd82a1ada7e269ada7a6eee1d0",
       "bbox": [
         44.014863,
         25.059408,
@@ -10473,9 +10483,9 @@
           }
         },
         {
-          "versionId": "state:KAZ:natural-earth-5.1.1:pre-2006-treaty-r1",
+          "versionId": "state:KAZ:natural-earth-5.1.1",
           "validFrom": "1995-09-25",
-          "validTo": "2006-01-11",
+          "validTo": null,
           "certainty": "medium",
           "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
           "modernBoundarySupplement": {
@@ -10503,53 +10513,6 @@
             ],
             "scope": "Lease display subdivision; Kazakhstan sovereignty is unchanged. Existing modern lease outline remains approximate for the treaty era."
           }
-        },
-        {
-          "versionId": "state:KAZ:natural-earth-5.1.1",
-          "validFrom": "2006-01-12",
-          "validTo": null,
-          "certainty": "medium",
-          "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
-          "modernBoundarySupplement": {
-            "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
-            "status": "approved-display-candidate",
-            "historicalAccuracyVerified": false,
-            "effectiveDateEstablished": false,
-            "sourceFile": "evidence/baikonur/KAZ.geojson",
-            "simplificationToleranceMeters": 1000,
-            "simplificationProjection": "EPSG:32641",
-            "boundaryCertainty": "low",
-            "unresolved": [
-              "Treaty coordinate datum not established; WGS84 assumption",
-              "Present-day OSM bank does not establish treaty-era bank",
-              "Narrow road and railway exclusions not resolved"
-            ],
-            "displayGeneralization": "Whole outline constrained at 1 km; 26 major official points and all southern points 21–30 fixed; minor north detours and river chains simplified",
-            "displayExclusions": "Four large exclusions conservatively simplified to cover all original excluded area without topology change; display exclusion area increases 7.371787 km2 (not a legal boundary change); Toretam/Akai display holes omitted (2.859003731 km2)",
-            "pairing": "KAZ is original NE KAZ+KAB union minus remade KAB; therefore also an OSM-derived paired geometry"
-          },
-          "notes": "Existing coordinates reused from this macro display transition; later survey-level boundary detail is not independently established here. A–C Russian–Kazakh treaty border reconstructed from 2006-01-12; this is a local shared-edge update, not certification of the whole-country historical silhouette. Pre-treaty reconstruction remains a separate candidate because its start is unresolved. D–F and China G/H are not applied.",
-          "historicalProvenance": {
-            "periodSources": [
-              "https://old.adilet.zan.kz/rus/docs/U950002195_"
-            ],
-            "scope": "Lease display subdivision; Kazakhstan sovereignty is unchanged. Existing modern lease outline remains approximate for the treaty era.",
-            "rusKazTreaty2006ABC": {
-              "signed": "2005-01-18",
-              "effective": "2006-01-12",
-              "physicalHandoverDate": null,
-              "sources": [
-                "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280420e3a"
-              ],
-              "scope": "A/B/C shared edges only; common cartographic collars are not territorial transfers",
-              "wholeCountryHistoricallyVerified": false,
-              "displayTarget": "Natural Earth 1:10M",
-              "preTreatyStartUnresolved": true,
-              "DFConditionalScenarioApplied": false,
-              "GHUnchanged": true,
-              "sourceBaselineRevision": "c73d3f562d35f92d749458c9890bec02875ff605"
-            }
-          }
         }
       ],
       "instantiation": {
@@ -10569,16 +10532,16 @@
       "file": "state-KAZ.json.gz",
       "validFrom": "1991-12-16",
       "validTo": null,
-      "compressedBytes": 122765,
-      "decodedBytes": 1114116,
-      "sha256": "5fbf59232da190dcede263aa8c50bd193d94ae0328382d48b6b933ddac5679b4",
+      "compressedBytes": 78856,
+      "decodedBytes": 722602,
+      "sha256": "f278d40b3228544bb4a2cfb7cdaad37293f084953b0432394d280118fa081a71",
       "bbox": [
         46.478279,
         40.584656,
         87.323796,
         55.43455
       ],
-      "geometryVersionCount": 3
+      "geometryVersionCount": 2
     },
     {
       "schemaVersion": 2,
@@ -15239,7 +15202,7 @@
         {
           "versionId": "state:RUS:post-soviet-existing-coordinates",
           "validFrom": "1991-12-25",
-          "validTo": "2006-01-11",
+          "validTo": "2014-03-17",
           "certainty": "medium",
           "sourceId": "natural-earth-5.1.1-late-soviet-adjustment",
           "notes": "Existing late-Soviet coordinates reused for the post-transition macro outline; no coordinate reconstruction performed.",
@@ -15252,62 +15215,17 @@
           }
         },
         {
-          "versionId": "state:RUS:post-soviet-existing-coordinates:rus-kaz-treaty-2006-01-12-abc-r1",
-          "validFrom": "2006-01-12",
-          "validTo": "2014-03-17",
-          "certainty": "medium",
-          "sourceId": "natural-earth-5.1.1-late-soviet-adjustment",
-          "notes": "Existing late-Soviet coordinates reused for the post-transition macro outline; no coordinate reconstruction performed. A–C Russian–Kazakh treaty border reconstructed from 2006-01-12; this is a local shared-edge update, not certification of the whole-country historical silhouette. Pre-treaty reconstruction remains a separate candidate because its start is unresolved. D–F and China G/H are not applied.",
-          "historicalProvenance": {
-            "sourceEntityId": "state:soviet-union-russian-sfsr",
-            "sourceGeometryVersionId": "state:soviet-union-russian-sfsr:1991-r1",
-            "periodSources": [
-              "https://www.prlib.ru/item/331430"
-            ],
-            "rusKazTreaty2006ABC": {
-              "signed": "2005-01-18",
-              "effective": "2006-01-12",
-              "physicalHandoverDate": null,
-              "sources": [
-                "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280420e3a"
-              ],
-              "scope": "A/B/C shared edges only; common cartographic collars are not territorial transfers",
-              "wholeCountryHistoricallyVerified": false,
-              "displayTarget": "Natural Earth 1:10M",
-              "preTreatyStartUnresolved": true,
-              "DFConditionalScenarioApplied": false,
-              "GHUnchanged": true,
-              "sourceBaselineRevision": "c73d3f562d35f92d749458c9890bec02875ff605"
-            }
-          }
-        },
-        {
           "versionId": "state:RUS:natural-earth-5.1.1",
           "validFrom": "2014-03-18",
           "validTo": null,
           "certainty": "medium",
           "sourceId": "natural-earth-5.1.1",
-          "notes": "Existing coordinates reused from this macro display transition; later survey-level boundary detail is not independently established here. A–C Russian–Kazakh treaty border reconstructed from 2006-01-12; this is a local shared-edge update, not certification of the whole-country historical silhouette. Pre-treaty reconstruction remains a separate candidate because its start is unresolved. D–F and China G/H are not applied.",
+          "notes": "Existing coordinates reused from this macro display transition; later survey-level boundary detail is not independently established here.",
           "historicalProvenance": {
             "periodSources": [
               "https://www.prlib.ru/item/331430"
             ],
-            "scope": "Existing Crimea display convention; no determination of internationally recognised sovereignty.",
-            "rusKazTreaty2006ABC": {
-              "signed": "2005-01-18",
-              "effective": "2006-01-12",
-              "physicalHandoverDate": null,
-              "sources": [
-                "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280420e3a"
-              ],
-              "scope": "A/B/C shared edges only; common cartographic collars are not territorial transfers",
-              "wholeCountryHistoricallyVerified": false,
-              "displayTarget": "Natural Earth 1:10M",
-              "preTreatyStartUnresolved": true,
-              "DFConditionalScenarioApplied": false,
-              "GHUnchanged": true,
-              "sourceBaselineRevision": "c73d3f562d35f92d749458c9890bec02875ff605"
-            }
+            "scope": "Existing Crimea display convention; no determination of internationally recognised sovereignty."
           }
         }
       ],
@@ -15328,16 +15246,16 @@
       "file": "state-RUS.json.gz",
       "validFrom": "1991-12-25",
       "validTo": null,
-      "compressedBytes": 991699,
-      "decodedBytes": 9527145,
-      "sha256": "5f835c91b7c8b62e5478c39bcee6703985fba211cb92f421bf486c3e1cab9800",
+      "compressedBytes": 656238,
+      "decodedBytes": 6329397,
+      "sha256": "0169e591e6b16da19fab27b567a1cebac8834d32c1b0b32676b3106b16b4f952",
       "bbox": [
         -180,
         41.192681,
         180,
         81.85871
       ],
-      "geometryVersionCount": 3
+      "geometryVersionCount": 2
     },
     {
       "schemaVersion": 2,
@@ -15497,6 +15415,16 @@
             "sourceSha256": "59d43061c6140bc00b50478765c70252354e2edc9921fda07f8e8a5819f73bd0",
             "archivedInputSha256": "102338b9cdfb3aa9a6f9dbede0d7a219e5850a866b4fb1d139cfbd7847a89809",
             "report": "reports/borders/reconstruction/ussr/bse33-final-2026-10-31/README.md"
+          },
+          "historicalProvenance": {
+            "sarakhsSmallEventRetirement": {
+              "date": "2026-11-04",
+              "record": "S15",
+              "eventAreaKm2": 25.9,
+              "scope": "Remove only the UNTS451 Sarakhs26 display patch; restore its five prior interior vertices. Atrek, Khiva, Bukhara, all other coordinates and periods preserved.",
+              "removedArcSha256": "6b90985c1f12f9eb0572611dc9aafda07ae54847327d84d9d10252e7015f50ff",
+              "restoredArcSha256": "13375fdd39e02a7f7b4963f86b860dbf39e36935610341051f46d4267eb3c76a"
+            }
           }
         }
       ],
@@ -15521,9 +15449,9 @@
       "file": "state-soviet-union-russian-sfsr.json.gz",
       "validFrom": "1922-12-30",
       "validTo": "1991-12-24",
-      "compressedBytes": 817294,
-      "decodedBytes": 7060209,
-      "sha256": "fce2892414232fd6ea2423413aea98186a790a2e5e346108ba55e20f5c3ae8db",
+      "compressedBytes": 817201,
+      "decodedBytes": 7058544,
+      "sha256": "efd8c441c6de52454171251e839b0d0d399008c3c6dabdd62c5094dc4f4ff675",
       "bbox": [
         -180,
         35.140647,
@@ -16531,6 +16459,16 @@
             "connectedVertices": 4355,
             "m01": "modern shared-line reuse conditionally selected after bounded literature review; not proof of no historical changes",
             "islandControl": "1922 eastern island control remains unconfirmed"
+          },
+          "historicalProvenance": {
+            "sarakhsSmallEventRetirement": {
+              "date": "2026-11-04",
+              "record": "S15",
+              "eventAreaKm2": 25.9,
+              "scope": "Remove only the UNTS451 Sarakhs26 display patch; restore its five prior interior vertices. Atrek, Khiva, Bukhara, all other coordinates and periods preserved.",
+              "removedArcSha256": "6b90985c1f12f9eb0572611dc9aafda07ae54847327d84d9d10252e7015f50ff",
+              "restoredArcSha256": "13375fdd39e02a7f7b4963f86b860dbf39e36935610341051f46d4267eb3c76a"
+            }
           }
         }
       ],
@@ -16555,9 +16493,9 @@
       "file": "state-soviet-union.json.gz",
       "validFrom": "1922-12-30",
       "validTo": "1991",
-      "compressedBytes": 1306111,
-      "decodedBytes": 11433479,
-      "sha256": "4f254ba2e9db8a57581b71670d7488674057875951a826a11c3bd3152ba86722",
+      "compressedBytes": 1305967,
+      "decodedBytes": 11431814,
+      "sha256": "1fcfc278e4f78948c6b67f0f7e530d9e5e1f4695295ba4ded58b44f0bc599b07",
       "bbox": [
         -180,
         35.140647,
