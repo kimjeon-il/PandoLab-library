@@ -1,0 +1,37 @@
+??consecutive original coordinates match in either ring direction (2.5821ms)
+??retained subset is not called unchanged original detail; isolated contacts do not count (0.495ms)
+??rounding correspondence is separate from strict numeric identity and Monaco is excluded (1.001ms)
+??ordered retained anchors survive inserted target points without becoming an exact chain (0.2716ms)
+??ring rotation and reversal cannot split a three-vertex original chain at the closing seam (0.7145ms)
+??an inserted nonmatching pivot cannot split a cyclic retained subsequence (5.1824ms)
+??tests 6
+??suites 0
+??pass 5
+??fail 1
+??cancelled 0
+??skipped 0
+??todo 0
+??duration_ms 128.6384
+
+??failing tests:
+
+test at tests\unit\lsib-coordinate-audit.test.mjs:30:1
+??an inserted nonmatching pivot cannot split a cyclic retained subsequence (5.1824ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(chain)
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/lsib-coordinate-audit.test.mjs:30:405)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
