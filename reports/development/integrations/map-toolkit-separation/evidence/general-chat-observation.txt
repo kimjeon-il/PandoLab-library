@@ -1,0 +1,90 @@
+내가 한 말:
+
+Map Toolkit Map Toolkit으로 첨부한 지도를 분석하고 검토한 경계를 GeoJSON으로 만들어줘 이번에는 첨부 대신 이 공식 지도를 사용하세요: https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_canada/b&w/Canadab&w.pdf . Map Toolkit 0.7.0 설치 검증입니다. 일반 Chat의 실제 클라우드 실행 도구만 사용하고 PC Remote, 사용자 PC의 D: 경로, Work 전환이나 다른 대화는 사용하지 마세요. 먼저 관리 참조 파일의 코드 SHA가 97045569c2197b72d12cd6894ad18af1c9ecbf0b인지, 모델 SHA256이 04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c인지 확인하세요. 실행 도구나 관리 모델 접근이 없으면 정확한 unavailable 원인만 보고하고 중단하세요. 가능하면 PDF 1페이지를 기본 최대 4MP 분석 설정으로 실제 OCR과 macro-v6 추론에 통과시키고 새 작업과 원본 위 후보 미리보기를 제공하세요. 원본 PDF 예상 SHA256은 358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4, 크기는 841931바이트입니다. 출처는 Natural Resources Canada Atlas of Canada, 이용 조건은 Open Government Licence Canada이며 Crown copyright와 지도 크레딧을 유지하세요. 판본의 저작권 표기는 2024이나 발행일은 미확인입니다. 정합이 불확실하면 그대로 남기고 아직 내보내거나 국가 귀속을 확정하지 마세요. 결과에는 실제 실행한 단계, 관리 파일 해시, 작업 경로와 다음 수정 가능 여부를 구분해 주세요. 재학습은 하지 마세요.
+
+…
+더 보기
+1m 19s 동안 처리함
+ChatGPT 답변:
+UNAVAILABLE — 실행 환경 접근 불가
+
+Map Toolkit의 관리 참조 메타데이터는 확인했지만, 일반 Chat 클라우드 실행 환경에서 Map Toolkit의 실제 분석 런타임에 접근할 수 없어 중단했습니다.
+
+검증 항목
+
+	
+
+결과
+
+
+
+
+코드 SHA (codeRevision)
+
+	
+
+ 참조값 일치
+
+
+
+
+모델 SHA256 (매니페스트)
+
+	
+
+ 참조값 일치
+
+
+
+
+실제 모델 바이너리 해시 검증
+
+	
+
+미실행
+
+
+
+
+Map Toolkit 실행 진입점
+
+	
+
+접근 불가
+
+
+
+
+관리 모델 로딩
+
+	
+
+미실행
+
+확인된 참조값:
+
+코드: 97045569c2197b72d12cd6894ad18af1c9ecbf0b
+
+모델: 04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c
+
+정확한 차단 원인: 플러그인의 runtime.json, analysis-data.json, 모델 매니페스트 및 실행 스크립트 텍스트는 읽을 수 있습니다. 그러나 일반 Chat의 클라우드 컨테이너에 Map Toolkit 런타임 디렉터리가 마운트되어 있지 않습니다. 별도의 Map Toolkit 실행 도구도 제공되지 않았습니다.
+
+따라서 매니페스트에 기록된 해시의 일치는 확인했지만, 실제 모델 파일의 무결성이나 실행 가능성은 검증하지 못했습니다.
+
+실제 수행: 관리 메타데이터 조회, 해시 참조값 대조, 클라우드 실행 경로 확인.
+
+미수행: PDF 다운로드·해시 검증, OCR, macro-v6 추론, 경계 정합, 후보 미리보기 생성, GeoJSON 내보내기.
+
+작업 경로: 생성된 작업 없음.
+다음 수정 가능 여부: 저장된 분석 작업이 없어 수정 불가. 실행 환경 접근이 확보되어야 신규 분석 가능.
+
+요청에 따라 PC Remote, 로컬 D: 경로, Work 전환, 다른 대화, 재학습 및 대체 분석 엔진은 사용하지 않았습니다.
+
+ChatGPT는 실수할 수 있습니다. 중요한 정보는 확인하세요.
+최신 응답
+
+
+
+
+추론 수준
+Extra High

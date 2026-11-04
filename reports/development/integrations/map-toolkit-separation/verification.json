@@ -1,0 +1,123 @@
+{
+  "sourceRepository": "kimjeon-il/map-toolkit",
+  "sourceRevision": "ee528ace8738d2d6795135f80bbc6b0d6598346e",
+  "pandoRevision": "6f1292664",
+  "pluginVersion": "0.7.1",
+  "privateRelease": {
+    "status": "verified",
+    "checkedFiles": 277,
+    "contentSha256": "0cee696dbfbec547db2df8c712c07ade897184c414ed827dcfd5cf1d61f5361e"
+  },
+  "sharedPin": {
+    "schema": "pando-shared-toolkit",
+    "interfaceVersion": 1,
+    "source": {
+      "repository": "kimjeon-il/Pando",
+      "revision": "504df204fb346cfec79cbda2fef75ef6607ba074"
+    },
+    "bytes": 44579173,
+    "sha256": "9ee47d4ad202bcceaf7ad0de3345af8e2754b3306c0c64626728fc8cd6d40d9b",
+    "inventorySha256": "a020a759d6b0b64910706888fb1334c9cb6c7f85a6696d24cb17687912d933b8",
+    "bootstrap": {
+      "url": "https://raw.githubusercontent.com/kimjeon-il/Pando/046cacb4aa71e343d0807b53cad790686853adc1/tools/shared-toolkit.mjs",
+      "sha256": "6b6bc2e1e9fd4fed896c7275f66e249342a517161b772796e15e9f989531d38b"
+    },
+    "resource": {
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/0ea41ed3b2cf5ff0b8de5665ee0c17b5aace3060/reports/development/integrations/map-toolkit-separation/shared-runtime/shared-toolkit.gz",
+      "encoding": "identity",
+      "bytes": 89158346
+    }
+  },
+  "analysis": {
+    "pixels": [
+      2274,
+      1758
+    ],
+    "tiles": 24,
+    "chains": 1159,
+    "faces": 24,
+    "unchangedChains": 1158,
+    "inferencePreserved": true,
+    "selectedIds": [
+      "line:736"
+    ],
+    "quality": {
+      "crossValidationP95Pixels": null,
+      "folded": false,
+      "imageCoverage": 0.19069753181051666,
+      "invalidDomain": false,
+      "ok": true,
+      "reason": "insufficient-distributed-controls",
+      "recommended": false,
+      "modelComparison": [
+        {
+          "mode": "affine",
+          "ok": true,
+          "eligible": true,
+          "rmsMeters": 380794.3311801795,
+          "crossValidationP95Pixels": null,
+          "recommended": false,
+          "folded": false,
+          "reason": "insufficient-distributed-controls"
+        }
+      ]
+    }
+  },
+  "localCodex": {
+    "version": "0.7.1",
+    "source": "D:/dev/Map Toolkit",
+    "cachedEntrypointExport": true,
+    "sameGeometryAndSource": true,
+    "newFeatureUUID": true
+  },
+  "cloud": {
+    "versionObserved": "0.7.0",
+    "mode": "general Chat",
+    "status": "unavailable",
+    "reason": "Conversation reported runtime directory unavailable and no execution tool; only managed text metadata was readable.",
+    "binaryHashExecuted": false,
+    "ocrExecuted": false,
+    "modelExecuted": false,
+    "version071CloudExecuted": false
+  },
+  "focusedReleaseChecks": [
+    {
+      "args": [
+        "--test",
+        "tests/unit/map-cli.test.mjs",
+        "tests/unit/map-runtime.test.mjs",
+        "tests/unit/map-source-acquisition.test.mjs",
+        "tests/unit/map-plugin-release.test.mjs",
+        "tests/unit/map-plugin-lineage.test.mjs",
+        "tests/unit/map-analysis-core.test.mjs",
+        "tests/unit/map-analysis-graph.test.mjs",
+        "tests/unit/map-analysis-georef.test.mjs",
+        "tests/unit/map-analysis-ocr-catalog.test.mjs",
+        "tests/unit/map-analysis-gazetteer.test.mjs",
+        "tests/unit/map-analysis-place-match.test.mjs",
+        "tests/unit/map-plugin-workflow.test.mjs",
+        "tests/unit/map-plugin-region-atomic.test.mjs",
+        "tests/unit/map-plugin.test.mjs"
+      ],
+      "exitCode": 0,
+      "outputSha256": "2387ca0dee67bd965f048cc1a7201b745e311600b122195ccfd42958115ba853"
+    }
+  ],
+  "ci": [
+    {
+      "url": "https://github.com/kimjeon-il/map-toolkit/actions/runs/41840730762",
+      "scope": "Linux ONNX",
+      "status": "passed"
+    },
+    {
+      "url": "https://github.com/kimjeon-il/map-toolkit/actions/runs/41841238176",
+      "scope": "Windows/Linux small native training step",
+      "status": "passed"
+    },
+    {
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/41847032013",
+      "scope": "Six selected common image/PDF/preview/terrain checks at 24ba45b4",
+      "status": "passed"
+    }
+  ]
+}

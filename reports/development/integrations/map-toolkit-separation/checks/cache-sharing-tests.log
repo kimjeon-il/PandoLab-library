@@ -1,0 +1,20 @@
+✔ analyze rejects conflicting file and source inputs before loading a runtime (114.3607ms)
+✔ missing selected workspace fails inside the operation error boundary (104.978ms)
+✔ local lazy resources reuse the immutable library inode and reject changed cache bytes (77.803ms)
+✔ public runtime leases exclude dependency replacement and release after use (12.0135ms)
+✔ runtime seed validation refuses corrupt, missing, duplicate and escaping resources (11.3229ms)
+✔ installed catalog refuses a mixed data revision, gazetteer or unpinned lazy shard before creating a cache (57.9919ms)
+✔ another valid pending model cannot silently replace the immutable private default (40.1152ms)
+✔ private installed resources create one reusable workspace without copying model weights (123.2169ms)
+✔ OCR prepares only a requested language, verifies decoded archive bytes and reuses them (115.4221ms)
+✔ a pre-existing preparation temporary file is never removed or overwritten (41.1902ms)
+✔ gazetteer resources use the same bounded hash-verified lazy asset loader (19.1316ms)
+✔ workspace gazetteer preserves hashed report paths and hydrates only requested shards (3572.7893ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4250.927

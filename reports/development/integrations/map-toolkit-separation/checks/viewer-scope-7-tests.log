@@ -1,0 +1,15 @@
+✔ E7 validates all test registrations without reparsing retired editor imports on a no-change commit (293.6858ms)
+✔ R1 runtime checker executes against the shipped Viewer and Windows reviewer (3795.9511ms)
+✔ R1 generated build metadata remains owned by the canonical frontend builder (0.2351ms)
+✔ retired Windows verification script changes select current reviewer checks (22397.3669ms)
+✔ retired project attachments are rejected before Core validation or replacement (3.84ms)
+✔ GeoPackage reader refuses retired image tables or settings even when empty (27.6308ms)
+✔ hydro geometry undo restores the accepted feature coordinates as well as Core history (413.6627ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27109.4678

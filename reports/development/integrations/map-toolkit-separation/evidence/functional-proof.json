@@ -1,0 +1,48 @@
+{
+  "sourceRevision": "97045569c2197b72d12cd6894ad18af1c9ecbf0b",
+  "analysisPixels": [
+    2274,
+    1758
+  ],
+  "tiles": 24,
+  "chains": 1159,
+  "faces": 24,
+  "unchangedChains": 1158,
+  "inferencePreserved": true,
+  "selectedIds": [
+    "line:736"
+  ],
+  "reexport": {
+    "sameGeometryAndSource": true,
+    "newUUID": true
+  },
+  "quality": {
+    "crossValidationP95Pixels": null,
+    "folded": false,
+    "imageCoverage": 0.19069753181051666,
+    "invalidDomain": false,
+    "ok": true,
+    "reason": "insufficient-distributed-controls",
+    "recommended": false,
+    "modelComparison": [
+      {
+        "mode": "affine",
+        "ok": true,
+        "eligible": true,
+        "rmsMeters": 380794.3311801795,
+        "crossValidationP95Pixels": null,
+        "recommended": false,
+        "folded": false,
+        "reason": "insufficient-distributed-controls"
+      }
+    ]
+  },
+  "checks": [
+    "true OCR",
+    "true macro-v6 WASM CPU inference",
+    "manual controls",
+    "local vector replacement",
+    "review gate",
+    "two exports"
+  ]
+}

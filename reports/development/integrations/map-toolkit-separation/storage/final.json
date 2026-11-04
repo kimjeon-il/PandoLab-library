@@ -1,0 +1,51 @@
+{
+  "removedLogicalBytes": 851927959,
+  "verifiedRemainingCleanupTargets": [],
+  "measurements": {
+    "first": {
+      "before": 47744229376,
+      "after": 48300113920,
+      "delta": 555884544,
+      "includesConcurrentAnalysis": true
+    },
+    "second": {
+      "before": 48086913024,
+      "after": 48301785088,
+      "delta": 214872064,
+      "includesOtherWriters": true
+    },
+    "third": {
+      "before": 48301785088,
+      "after": 48356900864,
+      "delta": 55115776,
+      "includesReportCopies": true
+    }
+  },
+  "sourceTransferBytes": 1497968,
+  "cacheSharingLogicalBytes": 100203208,
+  "retained": [
+    {
+      "path": "D:/dev/Map Toolkit generated shared dependencies",
+      "bytes": 69925176,
+      "reason": "Pinned math/native/image/report dependency used by analyze, training tools and packaging"
+    },
+    {
+      "path": "shared-runtime/shared-toolkit.gz",
+      "bytes": 44579173,
+      "reason": "Published immutable dependency consumed by independent bootstrap"
+    },
+    {
+      "path": "D:/dev/Map Toolkit cached gazetteer/OCR",
+      "reason": "Active lazy analysis resources, shared pool hardlinks; no full data checkout"
+    },
+    {
+      "path": "current-export, prior-execution, evidence, checks, storage",
+      "reason": "Unique designated public-map execution, revision, source-review, platform limitation and audit evidence"
+    },
+    {
+      "path": "local ignored release verification JSON and account configuration",
+      "reason": "Next guarded release requires confirmed private source identity, receipts and exact check input scope; no model/archive duplicate kept"
+    }
+  ],
+  "blockedDeletionHandling": "Automatic review denied transfer and working-copy deletion without a stated reason; user performed all listed deletions and absence was verified. No bypass."
+}
