@@ -1,0 +1,187 @@
+{
+  "pin": "89bff9a4c9ed42a7bca5325a3449fbe8055012e8",
+  "files": {
+    "assets/data/territorial-entities/source/countries/state-MCO.json": {
+      "sha256": "981a76e226d0058d770b1b8a165f9f380661d7f66e62404eb28cfeaa7d84e262",
+      "bytes": 4850
+    },
+    "assets/data/territorial-entities/generated/v2/state-MCO.json.gz": {
+      "sha256": "0fb02306ac34f741f3de7e3d64c9074a4a516e0e890333f6ecf5d046abc5ad39",
+      "bytes": 1792
+    },
+    "assets/data/territorial-entities/source/countries/state-FRA.json": {
+      "sha256": "cfdbf228ce84f551b904eda32870f630fca95eb5de2c89e1c76c926f3df2e61a",
+      "bytes": 401914
+    },
+    "assets/data/territorial-entities/generated/v2/state-FRA.json.gz": {
+      "sha256": "8d734f93b13b75520f55323f6c4ef3eaccbd5eecaca999aa48a3e646420d090f",
+      "bytes": 42358
+    }
+  },
+  "nativeObjects": {
+    "state:MCO": "95f289b59edeaf23a01d29d2f5ad10170c57225e96fc080e6407f8120f972d40",
+    "state:FRA": "a1a834938d84e57b30c75b72dc225aa74d6806390a90b24fd9bcef5421e94682"
+  },
+  "sourceDescriptors": [
+    {
+      "schemaVersion": 2,
+      "entityId": "state:FRA",
+      "entityKind": "general",
+      "lineageId": "france",
+      "names": {
+        "ko": "프랑스"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "0843",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "state:FRA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4-land-100m-fixed-extension",
+          "modernBoundarySupplement": {
+            "sourceId": "natural-earth-5.1.1+dos-lsib-11.4-land-100m-fixed-extension",
+            "status": "approved-display-candidate",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "sourceFile": "evidence/monaco/selected-france.geojson",
+            "boundarySourceFile": "evidence/monaco/source/FRA_MCO_LSIB11_4_original.geojson",
+            "coast": "Unchanged Natural Earth 5.1.1 France/Monaco union coastline",
+            "simplificationToleranceMeters": 100,
+            "simplificationProjection": "EPSG:32632",
+            "fixedExtensionMeters": 367.72876855834636,
+            "extensionStatus": "Generalized display connection, not a legally established straight-line border",
+            "priorSelectedFileIdentity": "Reconstructed from sources and recorded metrics; prior file hash unavailable"
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "FRA",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fr.svg",
+        "representativeGeometryVersionId": "state:FRA:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "title": "Natural Earth 5.1.1 coast with LSIB 11.4 land border simplified at 100 m and fixed display extension",
+        "license": "Natural Earth public domain; U.S. Government work (17 USC 105); third-party-rights disclaimer applies",
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4-land-100m-fixed-extension"
+      },
+      "file": "state-FRA.json.gz",
+      "validFrom": "0843",
+      "validTo": null,
+      "compressedBytes": 42358,
+      "decodedBytes": 401914,
+      "sha256": "8d734f93b13b75520f55323f6c4ef3eaccbd5eecaca999aa48a3e646420d090f",
+      "bbox": [
+        -61.797841,
+        -21.370782,
+        55.854503,
+        51.087541
+      ],
+      "geometryVersionCount": 1
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "state:MCO",
+      "entityKind": "general",
+      "lineageId": "mco",
+      "names": {
+        "ko": "모나코"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1814-05-30",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "state:MCO:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4-land-100m-fixed-extension",
+          "modernBoundarySupplement": {
+            "sourceId": "natural-earth-5.1.1+dos-lsib-11.4-land-100m-fixed-extension",
+            "status": "approved-display-candidate",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "sourceFile": "evidence/monaco/selected-monaco.geojson",
+            "boundarySourceFile": "evidence/monaco/source/FRA_MCO_LSIB11_4_original.geojson",
+            "coast": "Unchanged Natural Earth 5.1.1 France/Monaco union coastline",
+            "simplificationToleranceMeters": 100,
+            "simplificationProjection": "EPSG:32632",
+            "fixedExtensionMeters": 367.72876855834636,
+            "extensionStatus": "Generalized display connection, not a legally established straight-line border",
+            "priorSelectedFileIdentity": "Reconstructed from sources and recorded metrics; prior file hash unavailable"
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "MCO",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mc.svg",
+        "representativeGeometryVersionId": "state:MCO:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "title": "Natural Earth 5.1.1 coast with LSIB 11.4 land border simplified at 100 m and fixed display extension",
+        "license": "Natural Earth public domain; U.S. Government work (17 USC 105); third-party-rights disclaimer applies",
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4-land-100m-fixed-extension"
+      },
+      "file": "state-MCO.json.gz",
+      "validFrom": "1814-05-30",
+      "validTo": null,
+      "compressedBytes": 1792,
+      "decodedBytes": 4850,
+      "sha256": "0fb02306ac34f741f3de7e3d64c9074a4a516e0e890333f6ecf5d046abc5ad39",
+      "bbox": [
+        7.409077600000046,
+        43.727081219314314,
+        7.441606419201303,
+        43.75190930000008
+      ],
+      "geometryVersionCount": 1
+    }
+  ],
+  "compiledDescriptors": [
+    {
+      "entityId": "FRA",
+      "coverage": [
+        {
+          "validFrom": "0843-01-01",
+          "validTo": null
+        }
+      ],
+      "file": "countries/FRA-sha256-51a3cede1b314fc8d762e7b97d6b102176fdb61e6ee368fb58ca2d658ef1281d.json.gz",
+      "encoding": "gzip",
+      "sha256": "51a3cede1b314fc8d762e7b97d6b102176fdb61e6ee368fb58ca2d658ef1281d",
+      "compressedBytes": 38608,
+      "decodedBytes": 103024
+    },
+    {
+      "entityId": "MCO",
+      "coverage": [
+        {
+          "validFrom": "1814-05-30",
+          "validTo": null
+        }
+      ],
+      "file": "countries/MCO-sha256-d307505bf5b1cfff622098f44f3ca21147a8c5e74b2f3ef6d2411807d5759822.json.gz",
+      "encoding": "gzip",
+      "sha256": "d307505bf5b1cfff622098f44f3ca21147a8c5e74b2f3ef6d2411807d5759822",
+      "compressedBytes": 1320,
+      "decodedBytes": 3531
+    }
+  ]
+}
