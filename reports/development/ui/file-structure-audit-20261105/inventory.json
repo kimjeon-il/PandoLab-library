@@ -55557,8 +55557,8 @@
       "bytes": 620,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/include/pandoeditor/boundarycontact.h",
@@ -55571,6 +55571,11 @@
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/boundary-chain-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/boundarychain.cpp",
+        "shared/core/include/pandoeditor/boundarychain.h"
       ]
     },
     {
@@ -55580,14 +55585,19 @@
       "bytes": 576,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/src/boundarycontact.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/boundary-interior-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/boundarycontact.cpp",
+        "shared/core/include/pandoeditor/boundarycontact.h"
       ]
     },
     {
@@ -55597,14 +55607,19 @@
       "bytes": 721,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/src/boundaryoverlap.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/boundary-overlap-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/boundaryoverlap.cpp",
+        "shared/core/include/pandoeditor/boundaryoverlap.h"
       ]
     },
     {
@@ -55614,14 +55629,19 @@
       "bytes": 1478,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/src/boundarypacket.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/boundary-packet-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/boundarypacket.cpp",
+        "shared/core/include/pandoeditor/boundarypacket.h"
       ]
     },
     {
@@ -55631,8 +55651,8 @@
       "bytes": 765,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/include/pandoeditor/boundarypacket.h",
@@ -55641,6 +55661,11 @@
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/boundary-refinement-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/boundaryrefinement.cpp",
+        "shared/core/include/pandoeditor/boundaryrefinement.h"
       ]
     },
     {
@@ -55650,8 +55675,8 @@
       "bytes": 1157,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/src/boundarysplit.cpp",
@@ -55659,6 +55684,11 @@
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/boundary-split-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/boundarysplit.cpp",
+        "shared/core/include/pandoeditor/boundarysplit.h"
       ]
     },
     {
@@ -55668,14 +55698,19 @@
       "bytes": 1359,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/core/src/countrycontact.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/country-contact-tests.cpp",
         "shared/wasm/boundary-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/countrycontact.cpp",
+        "shared/core/include/pandoeditor/countrycontact.h"
       ]
     },
     {
@@ -55685,13 +55720,18 @@
       "bytes": 893,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/cutgeometry.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/cut-geometry-probe.cpp",
         "shared/wasm/cut-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/cutgeometry.cpp",
+        "shared/core/include/pandoeditor/cutgeometry.h"
       ]
     },
     {
@@ -55976,11 +56016,16 @@
       "bytes": 400,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/geopackagegeometry.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/geopackagegeometry.cpp",
+        "shared/core/include/pandoeditor/geopackagegeometry.h"
       ]
     },
     {
@@ -55990,11 +56035,16 @@
       "bytes": 664,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/giszip.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/giszip.cpp",
+        "shared/core/include/pandoeditor/giszip.h"
       ]
     },
     {
@@ -56004,11 +56054,16 @@
       "bytes": 503,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/hydroviewport.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/hydroviewport.cpp",
+        "shared/core/include/pandoeditor/hydroviewport.h"
       ]
     },
     {
@@ -56212,12 +56267,17 @@
       "bytes": 792,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/referenceimage.h",
         "shared/core/src/mapprojection.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/mapprojection.cpp",
+        "shared/core/include/pandoeditor/mapprojection.h"
       ]
     },
     {
@@ -56227,8 +56287,8 @@
       "bytes": 691,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/project.h",
         "shared/core/src/commands.cpp",
@@ -56239,6 +56299,11 @@
         "shared/core/src/timeline-records.cpp",
         "shared/core/src/webcontentcommands.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/timeline-records.cpp",
+        "shared/core/include/pandoeditor/objectproperties.h"
       ]
     },
     {
@@ -56248,12 +56313,17 @@
       "bytes": 865,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/placenames.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/wasm/place-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/placenames.cpp",
+        "shared/core/include/pandoeditor/placenames.h"
       ]
     },
     {
@@ -56263,14 +56333,19 @@
       "bytes": 448,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/cutgeometry.cpp",
         "shared/core/src/planargraph.cpp",
         "shared/core/src/referenceboundaries.cpp",
         "shared/core/src/riverpartition.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/planargraph.cpp",
+        "shared/core/include/pandoeditor/planargraph.h"
       ]
     },
     {
@@ -56419,13 +56494,18 @@
       "bytes": 1513,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/polygonmesh.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/polygon-mesh-tests.cpp",
         "shared/wasm/mesh-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/polygonmesh.cpp",
+        "shared/core/include/pandoeditor/polygonmesh.h"
       ]
     },
     {
@@ -56435,14 +56515,19 @@
       "bytes": 312,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/polygonwrapping.cpp",
         "shared/core/src/referenceimage.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/cut-geometry-probe.cpp",
         "shared/wasm/polygon-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/polygonwrapping.cpp",
+        "shared/core/include/pandoeditor/polygonwrapping.h"
       ]
     },
     {
@@ -56452,13 +56537,18 @@
       "bytes": 2927,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/document-session.h",
         "shared/core/include/pandoeditor/webpresentationcommands.h",
         "shared/core/src/presentationcommands.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/presentationcommands.cpp",
+        "shared/core/include/pandoeditor/presentationcommands.h"
       ]
     },
     {
@@ -56514,13 +56604,18 @@
       "bytes": 530,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/referenceboundaries.cpp",
         "shared/core/src/referenceimage.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/wasm/reference-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/referenceimage.cpp",
+        "shared/core/include/pandoeditor/referenceboundaries.h"
       ]
     },
     {
@@ -56530,14 +56625,19 @@
       "bytes": 1917,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/referencetracing.h",
         "shared/core/src/referenceimage.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/reference-image-tests.cpp",
         "shared/wasm/reference-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/referenceimage.cpp",
+        "shared/core/include/pandoeditor/referenceimage.h"
       ]
     },
     {
@@ -56547,8 +56647,8 @@
       "bytes": 1957,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/referenceboundaries.cpp",
         "shared/core/src/referenceimage.cpp",
@@ -56556,6 +56656,11 @@
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/reference-image-tests.cpp",
         "shared/wasm/reference-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/referenceimage.cpp",
+        "shared/core/include/pandoeditor/referencetracing.h"
       ]
     },
     {
@@ -56565,13 +56670,18 @@
       "bytes": 444,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/riverpartition.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/river-partition-probe.cpp",
         "shared/wasm/river-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/riverpartition.cpp",
+        "shared/core/include/pandoeditor/riverpartition.h"
       ]
     },
     {
@@ -56581,11 +56691,18 @@
       "bytes": 1861,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/selection.h",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/presentationcommands.cpp",
+        "shared/core/include/pandoeditor/presentationcommands.h",
+        "shared/core/include/pandoeditor/selection.h",
+        "shared/core/include/pandoeditor/selectionref.h"
       ]
     },
     {
@@ -56880,8 +56997,8 @@
       "bytes": 1815,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/commands.cpp",
         "shared/core/src/timeline-edit.cpp",
@@ -56892,6 +57009,11 @@
         "shared/tests/document-session-tests.cpp",
         "shared/wasm/session-bindings.cpp",
         "shared/wasm/timeline-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/timeline-view.cpp",
+        "shared/core/include/pandoeditor/timeline-edit.h"
       ]
     },
     {
@@ -56901,8 +57023,8 @@
       "bytes": 1764,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/project.h",
         "shared/core/include/pandoeditor/timeline-view.h",
@@ -56914,6 +57036,11 @@
         "shared/core/src/timeline-resolver.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/wasm/timeline-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/presentation.cpp",
+        "shared/core/include/pandoeditor/timeline-resolver.h"
       ]
     },
     {
@@ -56923,13 +57050,18 @@
       "bytes": 1134,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "docs/superpowers/plans/2026-10-04-timeline-storage.md",
         "shared/core/src/projectcodec.cpp",
         "shared/core/src/timeline-storage.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/timeline-storage.cpp",
+        "shared/core/include/pandoeditor/timeline-storage.h"
       ]
     },
     {
@@ -56939,8 +57071,8 @@
       "bytes": 1189,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/commands.cpp",
         "shared/core/src/historicalinstantiation.cpp",
@@ -56952,6 +57084,11 @@
         "shared/tests/hydro-timeline-tests.cpp",
         "shared/tests/temporal-candidate-tests.cpp",
         "shared/tests/temporal-editing-tests.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/project.cpp",
+        "shared/core/include/pandoeditor/timeline-view.h"
       ]
     },
     {
@@ -56982,8 +57119,8 @@
       "bytes": 873,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/commands.cpp",
         "shared/core/src/projectcodec.cpp",
@@ -56996,6 +57133,11 @@
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/document-session-tests.cpp",
         "shared/wasm/session-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/projectcodec.cpp",
+        "shared/core/include/pandoeditor/webcommands.h"
       ]
     },
     {
@@ -57005,8 +57147,8 @@
       "bytes": 412,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/webcontentcommands.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
@@ -57014,6 +57156,11 @@
         "shared/tests/source-admission-tests.cpp",
         "shared/tests/web-content-command-tests.cpp",
         "shared/wasm/session-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/webcontentcommands.cpp",
+        "shared/core/include/pandoeditor/webcontentcommands.h"
       ]
     },
     {
@@ -57023,8 +57170,8 @@
       "bytes": 656,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/commands.h",
         "shared/core/src/webobjectcommands.cpp",
@@ -57032,6 +57179,11 @@
         "shared/tests/hydro-timeline-tests.cpp",
         "shared/tests/web-object-command-tests.cpp",
         "shared/wasm/session-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/webobjectcommands.cpp",
+        "shared/core/include/pandoeditor/webobjectcommands.h"
       ]
     },
     {
@@ -57041,13 +57193,18 @@
       "bytes": 305,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/webcontentcommands.cpp",
         "shared/core/src/webpresentationcommands.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/wasm/session-bindings.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/webcontentcommands.cpp",
+        "shared/core/include/pandoeditor/webpresentationcommands.h"
       ]
     },
     {
@@ -57057,8 +57214,8 @@
       "bytes": 1723,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/include/pandoeditor/commands.h",
         "shared/core/include/pandoeditor/projectcodec.h",
@@ -57077,6 +57234,11 @@
         "shared/tests/web-territorial-command-tests.cpp",
         "shared/wasm/session-bindings.cpp",
         "tests/native/temporal-parity-probe.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/document-session.cpp",
+        "shared/core/include/pandoeditor/webterritorialcommands.h"
       ]
     },
     {
@@ -57086,12 +57248,16 @@
       "bytes": 3326,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "scripts/research/instrument-core-candidate-cpp.mjs",
         "shared/core/CMakeLists.txt",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/commandbatch.cpp"
       ]
     },
     {
@@ -57101,8 +57267,8 @@
       "bytes": 1890,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/src/commandbatch.cpp",
         "shared/core/src/commands.cpp",
@@ -57112,6 +57278,11 @@
         "shared/core/src/project.cpp",
         "shared/core/src/snapshot.cpp",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/project.cpp",
+        "shared/core/src/documentstate.h"
       ]
     },
     {
@@ -57121,11 +57292,15 @@
       "bytes": 2183,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/CMakeLists.txt",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/hydroviewport.cpp"
       ]
     },
     {
@@ -57135,11 +57310,15 @@
       "bytes": 1755,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/CMakeLists.txt",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/placenames.cpp"
       ]
     },
     {
@@ -57149,11 +57328,15 @@
       "bytes": 1820,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/CMakeLists.txt",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/planargraph.cpp"
       ]
     },
     {
@@ -57174,11 +57357,15 @@
       "bytes": 901,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/CMakeLists.txt",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/snapshot.cpp"
       ]
     },
     {
@@ -57188,11 +57375,15 @@
       "bytes": 2228,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/core/CMakeLists.txt",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/core/src/timeline-storage.cpp"
       ]
     },
     {
@@ -59702,12 +59893,16 @@
       "bytes": 1772,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/boundary-chain-tests.cpp"
       ]
     },
     {
@@ -59717,12 +59912,16 @@
       "bytes": 1629,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/boundary-interior-tests.cpp"
       ]
     },
     {
@@ -59732,12 +59931,16 @@
       "bytes": 1364,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/boundary-overlap-tests.cpp"
       ]
     },
     {
@@ -59747,12 +59950,16 @@
       "bytes": 1950,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/boundary-packet-tests.cpp"
       ]
     },
     {
@@ -59762,12 +59969,16 @@
       "bytes": 1243,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/boundary-refinement-tests.cpp"
       ]
     },
     {
@@ -59777,12 +59988,16 @@
       "bytes": 2184,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/boundary-split-tests.cpp"
       ]
     },
     {
@@ -59792,12 +60007,16 @@
       "bytes": 2933,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         ".github/workflows/p5-shared-border-verification.yml",
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/country-contact-tests.cpp"
       ]
     },
     {
@@ -59807,11 +60026,15 @@
       "bytes": 1089,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/cut-geometry-probe.cpp"
       ]
     },
     {
@@ -59821,11 +60044,15 @@
       "bytes": 2881,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/hydro-timeline-tests.cpp"
       ]
     },
     {
@@ -59955,11 +60182,15 @@
       "bytes": 2123,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/polygon-clipping-probe.cpp"
       ]
     },
     {
@@ -59969,11 +60200,15 @@
       "bytes": 4832,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/reference-image-tests.cpp"
       ]
     },
     {
@@ -59998,11 +60233,15 @@
       "bytes": 723,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/CMakeLists.txt"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/river-partition-probe.cpp"
       ]
     },
     {
@@ -60027,12 +60266,17 @@
       "bytes": 995,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Source or include reachable from a current CMake Core/test target.",
       "additionalNameReferenceHints": [
         "shared/frontend/static/wasm/pandoeditor-core.manifest.json",
         "shared/tests/source-admission-tests.cpp",
         "shared/tests/temporal-editing-tests.cpp"
+      ],
+      "evidence": [
+        "shared/CMakeLists.txt",
+        "shared/tests/temporal-editing-tests.cpp",
+        "shared/tests/territorial-document-fixture.h"
       ]
     },
     {
@@ -61492,9 +61736,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-angular-unit.pdf",
@@ -61503,9 +61750,12 @@
       "bytes": 964,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-angular-unit.rgba",
@@ -61514,9 +61764,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-axis.json",
@@ -61525,9 +61778,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-axis.pdf",
@@ -61536,9 +61792,12 @@
       "bytes": 982,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-axis.rgba",
@@ -61547,9 +61806,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-controls.json",
@@ -61558,9 +61820,12 @@
       "bytes": 568,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-controls.pdf",
@@ -61569,9 +61834,12 @@
       "bytes": 962,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-controls.rgba",
@@ -61580,9 +61848,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-datum.json",
@@ -61591,9 +61862,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-datum.pdf",
@@ -61602,9 +61876,12 @@
       "bytes": 979,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-datum.rgba",
@@ -61613,9 +61890,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-linear-unit.json",
@@ -61624,9 +61904,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-linear-unit.pdf",
@@ -61635,9 +61918,12 @@
       "bytes": 968,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-linear-unit.rgba",
@@ -61646,9 +61932,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-prime.json",
@@ -61657,9 +61946,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-prime.pdf",
@@ -61668,9 +61960,12 @@
       "bytes": 969,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/bad-prime.rgba",
@@ -61679,9 +61974,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/crop-resize.json",
@@ -61690,9 +61988,12 @@
       "bytes": 606,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/geopdf-ref.pdf",
@@ -61701,9 +62002,12 @@
       "bytes": 1006,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/geopdf-ref.rgba",
@@ -61712,9 +62016,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/multipage.json",
@@ -61723,9 +62030,12 @@
       "bytes": 521,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/oversized.pdf",
@@ -61734,9 +62044,12 @@
       "bytes": 462,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
       "additionalNameReferenceHints": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ],
+      "evidence": [
         "tests/unit/map-native-pdf.test.mjs"
       ]
     },
@@ -61747,9 +62060,12 @@
       "bytes": 507,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/two-viewports.json",
@@ -61758,9 +62074,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/two-viewports.pdf",
@@ -61769,9 +62088,12 @@
       "bytes": 1464,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/two-viewports.rgba",
@@ -61780,9 +62102,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/unsupported-crs.json",
@@ -61791,9 +62116,12 @@
       "bytes": 579,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/unsupported-crs.pdf",
@@ -61802,9 +62130,12 @@
       "bytes": 960,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/pdf-read/unsupported-crs.rgba",
@@ -61813,9 +62144,12 @@
       "bytes": 16200,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read by the current native PDF regression test as a PDF, metadata oracle or expected pixels.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "tests/unit/map-native-pdf.test.mjs"
+      ]
     },
     {
       "path": "tests/fixtures/map-image/rgb-7x5-to-1x1.raw",
