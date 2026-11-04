@@ -101,19 +101,19 @@
     }
   },
   "after": {
-    "files": 3197,
-    "bytes": 36850286,
+    "files": 3018,
+    "bytes": 32432703,
     "roles": {
       "configuration": 172,
       "other": 77,
       "source": 886,
       "documentation": 184,
       "resources": 493,
-      "tests-and-fixtures": 1385
+      "tests-and-fixtures": 1206
     },
     "extensions": {
       ".sh": 6,
-      ".json": 234,
+      ".json": 179,
       "(none)": 18,
       ".yml": 143,
       ".mjs": 1270,
@@ -128,7 +128,7 @@
       ".toml": 4,
       ".rs": 7,
       ".ico": 2,
-      ".png": 36,
+      ".png": 3,
       ".html": 16,
       ".cmake": 1,
       ".svg": 487,
@@ -148,11 +148,9 @@
       ".shp": 2,
       ".shx": 2,
       ".zip": 5,
-      ".jpg": 23,
-      ".rgba": 66,
       ".pdf": 15,
+      ".rgba": 14,
       ".raw": 12,
-      ".webp": 16,
       ".qgs": 1,
       ".qgz": 1,
       ".gpkg": 4,
@@ -175,14 +173,14 @@
       "docs": 173,
       "scripts": 77,
       "shared": 943,
-      "tests": 1330,
+      "tests": 1151,
       "tools": 420
     },
     "lineBins": {
-      "text0to50": 1495,
-      "text51to500": 1446,
+      "text0to50": 1436,
+      "text51to500": 1441,
       "text501plus": 96,
-      "binary": 160
+      "binary": 45
     }
   },
   "added": [
@@ -199,6 +197,185 @@
     "shared/frontend/js/modules/label-text-presentation.js",
     "shared/frontend/ui/fragments/preferences-statusbar.html",
     "tests/browser/helpers/ui-select.mjs",
+    "tests/fixtures/map-image/derivative/cmyk.expected.jpg",
+    "tests/fixtures/map-image/derivative/cmyk.jpg",
+    "tests/fixtures/map-image/derivative/cmyk.json",
+    "tests/fixtures/map-image/derivative/draft2.expected.jpg",
+    "tests/fixtures/map-image/derivative/draft2.jpg",
+    "tests/fixtures/map-image/derivative/draft2.json",
+    "tests/fixtures/map-image/derivative/draft4.expected.jpg",
+    "tests/fixtures/map-image/derivative/draft4.jpg",
+    "tests/fixtures/map-image/derivative/draft4.json",
+    "tests/fixtures/map-image/derivative/gray.expected.jpg",
+    "tests/fixtures/map-image/derivative/gray.jpg",
+    "tests/fixtures/map-image/derivative/gray.json",
+    "tests/fixtures/map-image/derivative/oriented.jpg",
+    "tests/fixtures/map-image/derivative/unchanged.jpg",
+    "tests/fixtures/map-image/derivative/unchanged.json",
+    "tests/fixtures/map-image/jpeg-read/cmyk.jpg",
+    "tests/fixtures/map-image/jpeg-read/cmyk.json",
+    "tests/fixtures/map-image/jpeg-read/cmyk.rgba",
+    "tests/fixtures/map-image/jpeg-read/crop-resize.jpg",
+    "tests/fixtures/map-image/jpeg-read/crop-resize.json",
+    "tests/fixtures/map-image/jpeg-read/crop-resize.rgba",
+    "tests/fixtures/map-image/jpeg-read/gray.jpg",
+    "tests/fixtures/map-image/jpeg-read/gray.json",
+    "tests/fixtures/map-image/jpeg-read/gray.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-2.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-2.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-2.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-3.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-3.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-3.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-4.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-4.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-4.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-5.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-5.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-5.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-6.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-6.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-6.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-7.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-7.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-7.rgba",
+    "tests/fixtures/map-image/jpeg-read/orientation-8.jpg",
+    "tests/fixtures/map-image/jpeg-read/orientation-8.json",
+    "tests/fixtures/map-image/jpeg-read/orientation-8.rgba",
+    "tests/fixtures/map-image/jpeg-read/progressive.jpg",
+    "tests/fixtures/map-image/jpeg-read/progressive.json",
+    "tests/fixtures/map-image/jpeg-read/progressive.rgba",
+    "tests/fixtures/map-image/jpeg-read/rgb.jpg",
+    "tests/fixtures/map-image/jpeg-read/rgb.json",
+    "tests/fixtures/map-image/jpeg-read/rgb.rgba",
+    "tests/fixtures/map-image/jpeg-read/training-large-overview.rgba",
+    "tests/fixtures/map-image/jpeg-read/training-large-rotated-overview.rgba",
+    "tests/fixtures/map-image/jpeg-read/training-large.jpg",
+    "tests/fixtures/map-image/png-read/adam7.json",
+    "tests/fixtures/map-image/png-read/adam7.png",
+    "tests/fixtures/map-image/png-read/adam7.rgba",
+    "tests/fixtures/map-image/png-read/crop-resize.json",
+    "tests/fixtures/map-image/png-read/crop-resize.png",
+    "tests/fixtures/map-image/png-read/crop-resize.rgba",
+    "tests/fixtures/map-image/png-read/gray-alpha.json",
+    "tests/fixtures/map-image/png-read/gray-alpha.png",
+    "tests/fixtures/map-image/png-read/gray-alpha.rgba",
+    "tests/fixtures/map-image/png-read/gray-alpha16.json",
+    "tests/fixtures/map-image/png-read/gray-alpha16.png",
+    "tests/fixtures/map-image/png-read/gray-alpha16.rgba",
+    "tests/fixtures/map-image/png-read/gray-key.json",
+    "tests/fixtures/map-image/png-read/gray-key.png",
+    "tests/fixtures/map-image/png-read/gray-key.rgba",
+    "tests/fixtures/map-image/png-read/gray1.json",
+    "tests/fixtures/map-image/png-read/gray1.png",
+    "tests/fixtures/map-image/png-read/gray1.rgba",
+    "tests/fixtures/map-image/png-read/gray16-key.json",
+    "tests/fixtures/map-image/png-read/gray16-key.png",
+    "tests/fixtures/map-image/png-read/gray16-key.rgba",
+    "tests/fixtures/map-image/png-read/gray16.json",
+    "tests/fixtures/map-image/png-read/gray16.png",
+    "tests/fixtures/map-image/png-read/gray16.rgba",
+    "tests/fixtures/map-image/png-read/orientation-2.json",
+    "tests/fixtures/map-image/png-read/orientation-2.png",
+    "tests/fixtures/map-image/png-read/orientation-2.rgba",
+    "tests/fixtures/map-image/png-read/orientation-3.json",
+    "tests/fixtures/map-image/png-read/orientation-3.png",
+    "tests/fixtures/map-image/png-read/orientation-3.rgba",
+    "tests/fixtures/map-image/png-read/orientation-4.json",
+    "tests/fixtures/map-image/png-read/orientation-4.png",
+    "tests/fixtures/map-image/png-read/orientation-4.rgba",
+    "tests/fixtures/map-image/png-read/orientation-5.json",
+    "tests/fixtures/map-image/png-read/orientation-5.png",
+    "tests/fixtures/map-image/png-read/orientation-5.rgba",
+    "tests/fixtures/map-image/png-read/orientation-6.json",
+    "tests/fixtures/map-image/png-read/orientation-6.png",
+    "tests/fixtures/map-image/png-read/orientation-6.rgba",
+    "tests/fixtures/map-image/png-read/orientation-7.json",
+    "tests/fixtures/map-image/png-read/orientation-7.png",
+    "tests/fixtures/map-image/png-read/orientation-7.rgba",
+    "tests/fixtures/map-image/png-read/orientation-8.json",
+    "tests/fixtures/map-image/png-read/orientation-8.png",
+    "tests/fixtures/map-image/png-read/orientation-8.rgba",
+    "tests/fixtures/map-image/png-read/palette-alpha.json",
+    "tests/fixtures/map-image/png-read/palette-alpha.png",
+    "tests/fixtures/map-image/png-read/palette-alpha.rgba",
+    "tests/fixtures/map-image/png-read/rgb-key.json",
+    "tests/fixtures/map-image/png-read/rgb-key.png",
+    "tests/fixtures/map-image/png-read/rgb-key.rgba",
+    "tests/fixtures/map-image/png-read/rgb.json",
+    "tests/fixtures/map-image/png-read/rgb.png",
+    "tests/fixtures/map-image/png-read/rgb.rgba",
+    "tests/fixtures/map-image/png-read/rgb16.json",
+    "tests/fixtures/map-image/png-read/rgb16.png",
+    "tests/fixtures/map-image/png-read/rgb16.rgba",
+    "tests/fixtures/map-image/png-read/rgba.json",
+    "tests/fixtures/map-image/png-read/rgba.png",
+    "tests/fixtures/map-image/png-read/rgba.rgba",
+    "tests/fixtures/map-image/png-read/rgba16.json",
+    "tests/fixtures/map-image/png-read/rgba16.png",
+    "tests/fixtures/map-image/png-read/rgba16.rgba",
+    "tests/fixtures/map-image/png-read/training-large-adam7-overview.png",
+    "tests/fixtures/map-image/png-read/training-large-adam7-rotated-overview.png",
+    "tests/fixtures/map-image/png-read/training-large-adam7-rotated.png",
+    "tests/fixtures/map-image/png-read/training-large-adam7.png",
+    "tests/fixtures/map-image/png-read/training-large-overview.png",
+    "tests/fixtures/map-image/png-read/training-large.png",
+    "tests/fixtures/map-image/preview/large.json",
+    "tests/fixtures/map-image/preview/large.png",
+    "tests/fixtures/map-image/preview/large.rgba",
+    "tests/fixtures/map-image/preview/pdf-odd-source.png",
+    "tests/fixtures/map-image/preview/pdf-odd.json",
+    "tests/fixtures/map-image/preview/pdf-odd.rgba",
+    "tests/fixtures/map-image/preview/pdf-wide-source.png",
+    "tests/fixtures/map-image/preview/pdf-wide.json",
+    "tests/fixtures/map-image/preview/pdf-wide.rgba",
+    "tests/fixtures/map-image/preview/rich.json",
+    "tests/fixtures/map-image/preview/rich.png",
+    "tests/fixtures/map-image/preview/rich.rgba",
+    "tests/fixtures/map-image/preview/wide.json",
+    "tests/fixtures/map-image/preview/wide.png",
+    "tests/fixtures/map-image/preview/wide.rgba",
+    "tests/fixtures/map-image/webp-read/animated.json",
+    "tests/fixtures/map-image/webp-read/animated.rgba",
+    "tests/fixtures/map-image/webp-read/animated.webp",
+    "tests/fixtures/map-image/webp-read/crop-resize.json",
+    "tests/fixtures/map-image/webp-read/crop-resize.rgba",
+    "tests/fixtures/map-image/webp-read/crop-resize.webp",
+    "tests/fixtures/map-image/webp-read/lossy-alpha.json",
+    "tests/fixtures/map-image/webp-read/lossy-alpha.rgba",
+    "tests/fixtures/map-image/webp-read/lossy-alpha.webp",
+    "tests/fixtures/map-image/webp-read/orientation-2.json",
+    "tests/fixtures/map-image/webp-read/orientation-2.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-2.webp",
+    "tests/fixtures/map-image/webp-read/orientation-3.json",
+    "tests/fixtures/map-image/webp-read/orientation-3.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-3.webp",
+    "tests/fixtures/map-image/webp-read/orientation-4.json",
+    "tests/fixtures/map-image/webp-read/orientation-4.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-4.webp",
+    "tests/fixtures/map-image/webp-read/orientation-5.json",
+    "tests/fixtures/map-image/webp-read/orientation-5.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-5.webp",
+    "tests/fixtures/map-image/webp-read/orientation-6.json",
+    "tests/fixtures/map-image/webp-read/orientation-6.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-6.webp",
+    "tests/fixtures/map-image/webp-read/orientation-7.json",
+    "tests/fixtures/map-image/webp-read/orientation-7.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-7.webp",
+    "tests/fixtures/map-image/webp-read/orientation-8.json",
+    "tests/fixtures/map-image/webp-read/orientation-8.rgba",
+    "tests/fixtures/map-image/webp-read/orientation-8.webp",
+    "tests/fixtures/map-image/webp-read/rgb.json",
+    "tests/fixtures/map-image/webp-read/rgb.rgba",
+    "tests/fixtures/map-image/webp-read/rgb.webp",
+    "tests/fixtures/map-image/webp-read/rgba.json",
+    "tests/fixtures/map-image/webp-read/rgba.rgba",
+    "tests/fixtures/map-image/webp-read/rgba.webp",
+    "tests/fixtures/map-image/webp-read/training-large-lossy-overview.png",
+    "tests/fixtures/map-image/webp-read/training-large-lossy.webp",
+    "tests/fixtures/map-image/webp-read/training-large.webp",
+    "tests/fixtures/map-image/webp-read/training-stripes-opaque.webp",
+    "tests/fixtures/map-image/webp-read/training-stripes.webp",
     "tests/fixtures/reference-corpus-fingerprint/annotation.json",
     "tests/fixtures/reference-corpus-fingerprint/corpus.json",
     "tests/fixtures/reference-corpus-fingerprint/image.dat",
@@ -34457,384 +34634,6 @@
       "sha256": "e4f921f16e6c15f3cd2301e69d7c1ed7920b92d5c796f6753d71699633ca5246"
     },
     {
-      "path": "tests/fixtures/map-image/derivative/cmyk.expected.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 1816,
-      "lines": null,
-      "sha256": "d7162a6c16476cdc02338812c5ceb0b97c43ecd35e740155f4d2451f0b8f1066"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/cmyk.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 13295,
-      "lines": null,
-      "sha256": "63a4e7e14329fadaf2428233dadb6d34509619f787483d78317fe6cb78784b99"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/cmyk.json",
-      "role": "tests-and-fixtures",
-      "bytes": 576,
-      "lines": 24,
-      "sha256": "06494a4322b2e253f166aa0a70778c32065274af37e5ed7583fd34e1f9701604"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft2.expected.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 1861,
-      "lines": null,
-      "sha256": "e6fb9419e9d01c64d1ad44c671c8fc6a374212ca7f5d278e1c4d394d61b676f1"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft2.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 5926,
-      "lines": null,
-      "sha256": "371ba0616739be1ff61ecc94cd3a4e200bbcb0378e50041a48b55c7afd8957c7"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft2.json",
-      "role": "tests-and-fixtures",
-      "bytes": 575,
-      "lines": 24,
-      "sha256": "73bba1552e20b94260d579172009deed767f605ba7eed60ef583a2ec817b5613"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft4.expected.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 1420,
-      "lines": null,
-      "sha256": "9a083142aa913f179fdb51311291951133fa50b9d650279fca66d3107533dfe6"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft4.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 20408,
-      "lines": null,
-      "sha256": "b546c963754954b9572a4f2b46f65c3053dd8017bfb8a9b0ee48bb27c0bd8a19"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft4.json",
-      "role": "tests-and-fixtures",
-      "bytes": 565,
-      "lines": 24,
-      "sha256": "085fcebf2d2f6e41dff2b2d779e5c8ae059efbd686274d20b57fe3eef0cdac3f"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/gray.expected.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 1635,
-      "lines": null,
-      "sha256": "d1be28053c377e57144423963bd03313e06db5f8aa7602fcc45fe0e0d7a6070b"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/gray.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 4574,
-      "lines": null,
-      "sha256": "e484fbf7b1ef8a9066ce2c90ba8c90f391bc2820febb74a0b6d607b7c798e2e0"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/gray.json",
-      "role": "tests-and-fixtures",
-      "bytes": 576,
-      "lines": 24,
-      "sha256": "dfd5920bec0ea2aaddd29a16a8f77096d2a18d10d6565220b49ce20d3e986216"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/oriented.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 5624,
-      "lines": null,
-      "sha256": "a09dcd129726e27376e3a6193bb78655e19986e7395f7dd11fd59d0d73e94ce3"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/unchanged.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 838,
-      "lines": null,
-      "sha256": "6c8e7e07a399d1bc1a5734921d280f187b385c55be57912fe63d45b93f953b7c"
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/unchanged.json",
-      "role": "tests-and-fixtures",
-      "bytes": 533,
-      "lines": 24,
-      "sha256": "21195ea1a9b410f8ef0deea91c0583b368cb3fc338ed4be136759e0fc1af2f71"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/cmyk.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 544,
-      "lines": null,
-      "sha256": "a553c44ad493157b358a7e1d535b5b1f71a48573055be2c30f621d7af0f0f546"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/cmyk.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/cmyk.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "3061af445c7b8fd77f5ff6f378154c93ddba6fd86416029fc99d7b3e50976975"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/crop-resize.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 1153,
-      "lines": null,
-      "sha256": "c0775a373b733868aec609d3296009231d61a9f07703f91ba7abab2181143931"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/crop-resize.json",
-      "role": "tests-and-fixtures",
-      "bytes": 614,
-      "lines": 36,
-      "sha256": "a9cac820a6398dfc1380e5ed7feb97200714f52f316957178d6307fb7dbaa9d9"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/crop-resize.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "c3bf91f3432e683ec21835f7dadea144f65401da5c746b753da688e55dd517c7"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/gray.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 384,
-      "lines": null,
-      "sha256": "ccced62322eba97e39e9cafeafcb7bc4d234a2dc8d9871ce6fab4ccc55a07ba3"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/gray.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/gray.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "447eda67444044199b7b5fd193a120dae1cca9b240b714a8db7360242485c747"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-2.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "ad58236c1b38bf0bb6f72bb216d2a830f0be51de11bbba490f66226f620fd464"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-2.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "2bc7df445cd273db325059026af3ba6bf4e87fc083eb680941469f0a77f0a683"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-2.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "6a7b68a34f302a59a8dce4328110aa0825e674b3424c9c602e25be0f6f7bb789"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-3.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "7759a575e77b1e308551c0dc528d0e5146cf77b3c09f4a21449108656c3de571"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-3.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "a54764b665f38b26a2c97b10fb4099e0ea48e88e74497c76a24ef82665ef9252"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-3.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "122ec055f153fd5d1a570b706b94347fc8bbd9ef90a18b113303f7ed155713c5"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-4.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "65ad697728ecd84455c97596042e86cbad5b297d014ddd2b7f967e198badbce3"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-4.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "d646f07867cc423e3a1865c0bd5d3c53d2a31c1a7be36a43c3a64be604a1ec55"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-4.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "9ed2a56c1fe15df7928eee99876d39ce2809b8b867792d6ff2fcd319055ac9b3"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-5.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "f95dfef7a80e6c88f90a04e8435da37722b80af6a6bcf115f149aa7ff7e89c55"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-5.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "47b5a70ff21eeaf1c03aeb310cb3bff2654e2c810b2fa32890dbb59e0ef0cc11"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-5.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "798cc00d516a415d4c434f8a11e1ef014dc05f7bd887bc8d084fb5bec66695eb"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-6.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "231c941392d3822420b396eb361f7b3fffab48ee41ec045126cf62602a26cc83"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-6.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "ecb8f2297c9ac87033eaa323dc505e4ad10942f521008c933cf6b9edfc7220f0"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-6.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "7d3c9f1b0e8d7242d1f9df03a67e78540fafb68d048afa704c74b41126bb9842"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-7.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "78758d73532b7708840227939056584951dced72dc97bfd63dc095aeae4480e1"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-7.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "76c41b5f2fd175298a66efe93a52a0b0a24c149e7537f69e237025b7c7ac94db"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-7.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "a91abbd62ef15207a42c93d384b650f02add3f3e3b4d1a541d2dfd4e9a85fd61"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-8.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 828,
-      "lines": null,
-      "sha256": "6da1990740d7a2711e6f28e5beacac56454aa635b81486fc4ed4e747becbe3c3"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-8.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "2cc603f7c4ca5a1aecbf70bf329a212dba9222fcd1cfbc814537fcdfe98e7252"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-8.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "b49f361f324b16ddbfcdda6648f9a3f79ab993dfc9327508619ba64d655a06af"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/progressive.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 696,
-      "lines": null,
-      "sha256": "670f7cde0c39012e0a1d9eb5d242d49146e1a70844b6420ec6eeaf34e941bf62"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/progressive.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/progressive.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "a5c2bbb43e85b85e551d12fefcc48805f61cb4403a77a05e274563d892fe801e"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/rgb.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 792,
-      "lines": null,
-      "sha256": "8420f9e4d2fa21ae097e857c10c602c6f76fbd56c8154fcd36fc29516f963f3e"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/rgb.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/rgb.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "a5c2bbb43e85b85e551d12fefcc48805f61cb4403a77a05e274563d892fe801e"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/training-large-overview.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 262144,
-      "lines": null,
-      "sha256": "62cddb1dce0f39bcab0518f8956f49d62b80ff7426b504159ac514087d86caa8"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/training-large-rotated-overview.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 262144,
-      "lines": null,
-      "sha256": "9715aae117ea4aab072557b645b28203c607a3613a66fd95ad872faca93e794b"
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/training-large.jpg",
-      "role": "tests-and-fixtures",
-      "bytes": 483695,
-      "lines": null,
-      "sha256": "75be1c3afd4bc13ddf3ceb49c9d83eebc37f23f1bf3badfc993b6a9d00fcb07e"
-    },
-    {
       "path": "tests/fixtures/map-image/ocr-probe.png",
       "role": "tests-and-fixtures",
       "bytes": 5931,
@@ -35143,594 +34942,6 @@
       "sha256": "fa59c17dcb196e6c42baa2b1c41b0a24f45d2d1143b18abf93b79b059be839eb"
     },
     {
-      "path": "tests/fixtures/map-image/png-read/adam7.json",
-      "role": "tests-and-fixtures",
-      "bytes": 511,
-      "lines": 30,
-      "sha256": "a7e28d5065052a23944bb1e35f7595e640b67b72c9fcfc40876f273bc1a2ce33"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/adam7.png",
-      "role": "tests-and-fixtures",
-      "bytes": 261,
-      "lines": null,
-      "sha256": "3c983e911031d118840c5290a3710682c37293306a96296aca53c9688cf798ec"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/adam7.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 252,
-      "lines": null,
-      "sha256": "e827cb32165ba34439154dea5500f1c458afad7de4104bae6fedcec47e0005ad"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/crop-resize.json",
-      "role": "tests-and-fixtures",
-      "bytes": 614,
-      "lines": 36,
-      "sha256": "a9cac820a6398dfc1380e5ed7feb97200714f52f316957178d6307fb7dbaa9d9"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/crop-resize.png",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "b84d5aca03a75814f8568a56a8cd58a84dcd56bcc0c435a8a34229f2d32f3030"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/crop-resize.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "90771809a148c3fe2d207885a6beb4c271d72f04ad0e058e9d7acefbd24482ad"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha.png",
-      "role": "tests-and-fixtures",
-      "bytes": 114,
-      "lines": null,
-      "sha256": "3a922822ab623532594ea22684807071e2b0c3c509b64b3fe985fada9f4bf866"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": 1,
-      "sha256": "af4c9d40b3692b43bc7a606121d18f2301eead8d67637d1bd1d1c4f3a502211d"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha16.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha16.png",
-      "role": "tests-and-fixtures",
-      "bytes": 509,
-      "lines": null,
-      "sha256": "fadd83a849bd6a109b4e213664a27725392678398f27b0000cf9a11658a8375d"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha16.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": 1,
-      "sha256": "01d592fa32e36e6bb67b7bd9553b31b44608dd851ae262d58322e488faef4932"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-key.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-key.png",
-      "role": "tests-and-fixtures",
-      "bytes": 89,
-      "lines": null,
-      "sha256": "e9a12a699c90ba96b5eb66a8ef4854465d54d74a0a769d88a87a66b19e46b279"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-key.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": 1,
-      "sha256": "1f3fc1cef3edad585b0bd4eff0681f840cd3089ca6beb6547e9fbee54fa3e5a8"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray1.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray1.png",
-      "role": "tests-and-fixtures",
-      "bytes": 74,
-      "lines": null,
-      "sha256": "6a640692c5343d7a801a4e5c82f3b1fd7186d29c6159d6a781ee23ae3398c763"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray1.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "e14af8d1dbd8ac458cb865914dab714eea909c8c14f9ce7bb311f6a1c5e607ef"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16-key.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16-key.png",
-      "role": "tests-and-fixtures",
-      "bytes": 307,
-      "lines": null,
-      "sha256": "eff88a7791d830b6c6dca81ddcc01a4e93d021d578a94a0bc0ebc3bf0071cf6e"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16-key.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": 1,
-      "sha256": "23b08da305801e86e6ab7dd7d5c7d7fb8ad2a6218aa08f42daef1652fe65e872"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16.png",
-      "role": "tests-and-fixtures",
-      "bytes": 112,
-      "lines": null,
-      "sha256": "1a12f00d1194745e454b5262515baf1756ace57aca940f393a986cf535de3d29"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "987b0b88a0d242cba1877ec1afb50784627338b0b6700100498eaef71b366e56"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-2.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "2bc7df445cd273db325059026af3ba6bf4e87fc083eb680941469f0a77f0a683"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-2.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "eb3788540ade54e35be89687277cbc73892a343a544f853637c18e3c0b66377b"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-2.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "2a6ecd43b0e1f32871d62fcd79197dec1b3b7e75f6977c7919184bdb5a4d4ee7"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-3.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "a54764b665f38b26a2c97b10fb4099e0ea48e88e74497c76a24ef82665ef9252"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-3.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "26b184a6e7936741249e40d0a18ad2ae297ced437a17e3d44a1e668869375d05"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-3.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "61798af11c08476d2ba44d68ca8c88c8adf76018940cfd2fc0b352a7c6fac4d3"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-4.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "d646f07867cc423e3a1865c0bd5d3c53d2a31c1a7be36a43c3a64be604a1ec55"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-4.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "c2d15b13543f64ec93094b922a38ecc77fac4ef09174b28ed8290fd1a4d49d44"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-4.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "5964e35ba638ee266e6066695bb7306093b0d3acd21d2d20baaaf45882d98995"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-5.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "47b5a70ff21eeaf1c03aeb310cb3bff2654e2c810b2fa32890dbb59e0ef0cc11"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-5.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "229b72e762df416ac80196b006975fe2487069ffca2c0f36d18db9dd1338fca9"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-5.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "03155f6c8f35201064b767fd315c4ad95e25bbee698ef7f6ed751aabbc5a15fe"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-6.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "ecb8f2297c9ac87033eaa323dc505e4ad10942f521008c933cf6b9edfc7220f0"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-6.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "4743c23cfecadd35cffb625fb07e77f645278df9c0b7f6f3a0c01ac82b693d42"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-6.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "54151edc0ce39e28f754ae81dd91f0e13ee33757d8420df02d77c805f5014bb0"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-7.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "76c41b5f2fd175298a66efe93a52a0b0a24c149e7537f69e237025b7c7ac94db"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-7.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "446b6a24592f9222f84c01de02e4595a907e84a28b236a142c7d0ab4aa53f69b"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-7.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "a8bab0d2d49ec2522373563fb64b13e9b12078cf7882e84527f432277dd12fbd"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-8.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "2cc603f7c4ca5a1aecbf70bf329a212dba9222fcd1cfbc814537fcdfe98e7252"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-8.png",
-      "role": "tests-and-fixtures",
-      "bytes": 181,
-      "lines": null,
-      "sha256": "2a8c5266a30b2b13c31b56882302a5c3b45096fb05b966f87c1686d9518312e6"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-8.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "019b32e4f51d0a5b168c18dbfc7f9f4300e501d50b762ecdec22e0e4dae07c2c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/palette-alpha.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/palette-alpha.png",
-      "role": "tests-and-fixtures",
-      "bytes": 903,
-      "lines": null,
-      "sha256": "1db1ff5d709293c682a488f59f6539d381f4f584356a5bfef24ec15f19129f49"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/palette-alpha.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": 1,
-      "sha256": "92d079421e5fbebacdb767742d9133d7b087f5811e85bda1486b52a1c1aaddd0"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb-key.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb-key.png",
-      "role": "tests-and-fixtures",
-      "bytes": 102,
-      "lines": null,
-      "sha256": "8c5e7089dd124035ae4e790c1c484301a4d8ecb37c12c961d1f681adb58b6cff"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb-key.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "0f77ed2e0c4832a62f7987439367257e24b63b928bd35667d7c61a11ff50127d"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb.png",
-      "role": "tests-and-fixtures",
-      "bytes": 84,
-      "lines": null,
-      "sha256": "2741664fe5aaa8d5d03eb7ac1b15a1590423e372a7065acbcd1b61a9ccff5b16"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "5a53aae09ef25e2de6bf08a2bf98c6ddd379958f5afee1cdcf2cf92fd6e5d748"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb16.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb16.png",
-      "role": "tests-and-fixtures",
-      "bytes": 725,
-      "lines": null,
-      "sha256": "14e8ec792acf8927356036ef71c53c401e5d900b5b96767c8a6d5cd961a9d76d"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb16.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "e3bea620d204dbe03ac495bdd5d32295b0474453243e94dd3263b62e78516866"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba.png",
-      "role": "tests-and-fixtures",
-      "bytes": 143,
-      "lines": null,
-      "sha256": "4db33fcbc55438ddc3c9e45a0ce7204edb772e21c80a71e740ba367ee5f3a081"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": null,
-      "sha256": "cfa9dadf3861881a6986d246dd3961734b86e3af1cea7e86298437192d289167"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba16.json",
-      "role": "tests-and-fixtures",
-      "bytes": 516,
-      "lines": 30,
-      "sha256": "720932a0e39bcbea8f3d59cb389989eaf6e2f44608f2c84c0fcf4d540a257e4c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba16.png",
-      "role": "tests-and-fixtures",
-      "bytes": 941,
-      "lines": null,
-      "sha256": "4704c627e251e3c58bede32c990026995c95b3659a211dc6159dda1ce067c80f"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba16.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 432,
-      "lines": 1,
-      "sha256": "35a292337526d55b5b03d63bf75d3e9bb7c06707954650d45fe2712085e6a774"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/training-large-adam7-overview.png",
-      "role": "tests-and-fixtures",
-      "bytes": 824,
-      "lines": null,
-      "sha256": "fb9c09c6bac36240631d514f921735f6f89d5139365b10fd5c1e951221777746"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/training-large-adam7-rotated-overview.png",
-      "role": "tests-and-fixtures",
-      "bytes": 819,
-      "lines": null,
-      "sha256": "28e53736a413975853ff8ee6781455f830d3b0aefc3df011c730644f7fb0269c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/training-large-adam7-rotated.png",
-      "role": "tests-and-fixtures",
-      "bytes": 90594,
-      "lines": null,
-      "sha256": "871b1884935b493e7cb7560c61e0c959aa727c571f846de435ae7e732f4f6413"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/training-large-adam7.png",
-      "role": "tests-and-fixtures",
-      "bytes": 90556,
-      "lines": null,
-      "sha256": "2ebdae4741dbd2cc71c18be7b3329ac2c919fb789e2c2a4a46b1468b4267770c"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/training-large-overview.png",
-      "role": "tests-and-fixtures",
-      "bytes": 62554,
-      "lines": null,
-      "sha256": "e913c99abbf48b4c92cc5eb97076521125d0e20aae38f98d5d7a55da4870add1"
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/training-large.png",
-      "role": "tests-and-fixtures",
-      "bytes": 341315,
-      "lines": null,
-      "sha256": "300bbf2cdca5a95b657f22aa70af0e5fa1abf65b6739774d0b4ce12f612a1da0"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/large.json",
-      "role": "tests-and-fixtures",
-      "bytes": 1992,
-      "lines": 121,
-      "sha256": "831de049d3464eaaa4b123791601cff2461cc43fe4477c6ad92f439cfc96a1a1"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/large.png",
-      "role": "tests-and-fixtures",
-      "bytes": 71958,
-      "lines": null,
-      "sha256": "be0137d2370cffdce4169e7a829f582f458b98689aa1777a97cd8942e663e38d"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/large.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 519200,
-      "lines": null,
-      "sha256": "873cb3db57501e743cbac4aadca09ab4b349c034699edadfe76429de46c40f85"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/pdf-odd-source.png",
-      "role": "tests-and-fixtures",
-      "bytes": 19935,
-      "lines": null,
-      "sha256": "ee7863577d34762ee5da8e92dd58a66599858d6399f682bb409a170fd292c52c"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/pdf-odd.json",
-      "role": "tests-and-fixtures",
-      "bytes": 1991,
-      "lines": 121,
-      "sha256": "86d43bb57bdc7f26d49c1719b0bd012e8dd7b234d43b267e6a9d6cc4346e11ed"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/pdf-odd.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 501600,
-      "lines": null,
-      "sha256": "079bac02701b1fe9cde7dd7097b3279fbeccdc04041597c8255f1e4df92b33d4"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/pdf-wide-source.png",
-      "role": "tests-and-fixtures",
-      "bytes": 10915,
-      "lines": null,
-      "sha256": "efc5882744d654773a077d3607a7c4c7d44259ab78cefd453dfab4734923b0eb"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/pdf-wide.json",
-      "role": "tests-and-fixtures",
-      "bytes": 1991,
-      "lines": 121,
-      "sha256": "3ee51427bd89c5cb33ad04eea4d3d40deaf7b46903dd95c5729d549049746009"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/pdf-wide.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 519200,
-      "lines": null,
-      "sha256": "8122082c53e7745ed59cc795365341e4b7030317f3532b29a7b1704ac15d02bc"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/rich.json",
-      "role": "tests-and-fixtures",
-      "bytes": 1991,
-      "lines": 121,
-      "sha256": "77899d007361c6d816840e0185dc07136e5e2ee5a9e21155b839811334f34fac"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/rich.png",
-      "role": "tests-and-fixtures",
-      "bytes": 3793,
-      "lines": null,
-      "sha256": "c89802aa2382493a972f8cb19751c17b67ebb5384c90e152b6d065596eabf8f2"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/rich.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 302400,
-      "lines": null,
-      "sha256": "1a50cae7a3210a209f17d16bfdbf818b4ecb394b73a43b6f9e542e46fb2729df"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/wide.json",
-      "role": "tests-and-fixtures",
-      "bytes": 1992,
-      "lines": 121,
-      "sha256": "86a0ff1d769f2ea0d8ec0b7bc5dd866a201bf9ee2f24497f1c66076a32185908"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/wide.png",
-      "role": "tests-and-fixtures",
-      "bytes": 6913,
-      "lines": null,
-      "sha256": "81098f2dce5b65cc85fcf4b2be36d4cfee6b0766f1ce7372035233db8082e76c"
-    },
-    {
-      "path": "tests/fixtures/map-image/preview/wide.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 598400,
-      "lines": null,
-      "sha256": "047c867fd3d8eaf008c831ab23575fb693628e34f90621494dd1b94dd6ddde0e"
-    },
-    {
       "path": "tests/fixtures/map-image/rgb-7x5-to-11x8.raw",
       "role": "tests-and-fixtures",
       "bytes": 264,
@@ -35820,293 +35031,6 @@
       "bytes": 4893,
       "lines": 37,
       "sha256": "97699d7f2cdc9890028b6cbdc04469389d348807269d1efa6dfbea12c1207f94"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/animated.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "623ffeae159716e2196fc74430f1d2e60cb75c0571cdd83271d66e5a62eb3ed8"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/animated.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": 1,
-      "sha256": "df54dafeec23f33aada93d54a729087a5b5e3d822090d3182ae3c47160564bf9"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/animated.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 140,
-      "lines": null,
-      "sha256": "9dbcbb291fd43df7dcd2f12d001809d3045bc18027a90968bd88aae6cefeb600"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/crop-resize.json",
-      "role": "tests-and-fixtures",
-      "bytes": 614,
-      "lines": 36,
-      "sha256": "e6e4e30e56bbc0a07faf30284a1eb426069a865bf7849b766594195d8bc59138"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/crop-resize.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 988,
-      "lines": null,
-      "sha256": "91175a289138ae1b4ff159ebd81fd9e10dd0f2d38cc68e28e71c757e22615da9"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/crop-resize.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 86,
-      "lines": null,
-      "sha256": "e4be1abf76b6db7267287b6f9893959d80f03d2e11b05e1c60e4f9044709d065"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/lossy-alpha.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "623ffeae159716e2196fc74430f1d2e60cb75c0571cdd83271d66e5a62eb3ed8"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/lossy-alpha.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": 1,
-      "sha256": "70eb854c010139230bb33938d489ff0343c12e166b403462374909f39cd13dfe"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/lossy-alpha.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 426,
-      "lines": null,
-      "sha256": "f5a8e51412a405cfadf4483f58bfb7b06eb7e20ecf84d8dd86bdf9f466686097"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-2.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "9a697b04a78a0708eb053c9ea440eafc5f546a7990c7cd1c7cef4247e7147f4b"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-2.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "5aaf2b87d0ea07016a031ba68a4969f0b4d93a0ddf534080eaf08dc08ec7cfa9"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-2.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "1e3a7cd461f7169e8ce577e1f5c1de07f5e810baf5f460e6a705923e2d29b56c"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-3.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "c2927a0aef73c17defeea04c92432d08d91c8b552304329221d62849b95ecb00"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-3.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "05ac43623be22a633a4f0aec22b92b3040c81c5fda1255f7bb6071731ba5433e"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-3.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "68982ccbfe16b935148adaaea04b8b5ce46c1fc966e6aacf4a94de78044948a2"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-4.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "f93b8de60b20c021e30d3c2f6f3a4013c70f3190c4b15696c590871c577e29b3"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-4.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "74ff871dc31759c4ffe35a0d2b4055c4344385e65da9a150369850d4f4f6cc8c"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-4.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "be48649aafb135750c06748ed78804d032d570fc6656ee00b3a0fdbc1d7cf185"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-5.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "3559b18a3bb138638f1d3539f0e0b063063ceecfc593a8fee835ac26a2aab8de"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-5.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "07b940d127f2b61d0758b01e3d724b98b183cd1b8491e2460b053faece8ad255"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-5.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "a9201fe10bc4aa9e723c3d43db3006db63d724061fd3b6dd7b2b376a66e74c2b"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-6.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "e398ffd3f6a8838fc6639bff21c9d35388ff45d9ebbec1bcdfa214e0b7b91642"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-6.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "be739be9a017f27f62dd41dae2ed902d175903bd6d6599b9cba21b91d3c218c6"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-6.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "012bd1055e6e4dbee72543c6e705fb8017f7a8692c7c239b1f911b514c1dd5b1"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-7.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "758a387b885c641c8025a1427ff2636b67797ff79965ab51727cc7c27d08dbde"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-7.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "26e3815036775551573e3e92f31ccb866c95ed192f2d0038487fc70360c7837a"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-7.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "4797300dfd4528ffdc7ce6c9ff9fa24bf3c1d6e693d33d266ad4c987c2f883eb"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-8.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "b1ce812ce51a641837b06fea8c5f0d29bfc7bc874699e8f61d16d9bdc8e93a81"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-8.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "e59b3339b7cadffbc639dff08f4e88223484fdce1352e6d478ae4edc2ecaa6a5"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-8.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 138,
-      "lines": null,
-      "sha256": "7814309c81e2364dbe3b540a3ad2a303705b8689eefc01b3a46fe385c5821ca0"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgb.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "623ffeae159716e2196fc74430f1d2e60cb75c0571cdd83271d66e5a62eb3ed8"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgb.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": 1,
-      "sha256": "dcd1b5c7bd3670f68a5ab175f27c0dfca3520d7b222cec29eedf46903f511ac0"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgb.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 340,
-      "lines": null,
-      "sha256": "ce8560ff15f389de7acb65abde33db806acf5c51ffc0dd9bbb6b1d6212c892d3"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgba.json",
-      "role": "tests-and-fixtures",
-      "bytes": 521,
-      "lines": 30,
-      "sha256": "623ffeae159716e2196fc74430f1d2e60cb75c0571cdd83271d66e5a62eb3ed8"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgba.rgba",
-      "role": "tests-and-fixtures",
-      "bytes": 936,
-      "lines": null,
-      "sha256": "52d9f240b45e61abf66b457195e56ff5222dfd3759024dc821a8401406b72322"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgba.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 86,
-      "lines": null,
-      "sha256": "e4be1abf76b6db7267287b6f9893959d80f03d2e11b05e1c60e4f9044709d065"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/training-large-lossy-overview.png",
-      "role": "tests-and-fixtures",
-      "bytes": 66155,
-      "lines": null,
-      "sha256": "bff47ee1c2bfda648757c2e55f421c896a9a6ccafbd44b97c2eca2b10314ad5f"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/training-large-lossy.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 49464,
-      "lines": null,
-      "sha256": "cbf905d3ad619bc8277338fdc7fbd6be3238b58ff1416910f2d2f006886e3112"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/training-large.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 9278,
-      "lines": null,
-      "sha256": "482ceb35044cf822c0ab1ce333a9c7fddc4839572d38cc057b2441f3f912809b"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/training-stripes-opaque.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 3168,
-      "lines": null,
-      "sha256": "b6f5d09cd5100062c6ce3895c59445f3104afa7358e3b276c22afb7e2ee1b446"
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/training-stripes.webp",
-      "role": "tests-and-fixtures",
-      "bytes": 3270,
-      "lines": null,
-      "sha256": "34b8223839a1d90cc98ff473e763fc56ef14a26384d6d2041f4d6af88ed7ec0b"
     },
     {
       "path": "tests/fixtures/map-plugin/reviewed.geojson",
@@ -45622,60 +44546,6 @@
       "shared/frontend/static/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/us.svg"
     ],
     [
-      "tests/fixtures/map-image/jpeg-read/cmyk.json",
-      "tests/fixtures/map-image/jpeg-read/gray.json",
-      "tests/fixtures/map-image/jpeg-read/progressive.json",
-      "tests/fixtures/map-image/jpeg-read/rgb.json",
-      "tests/fixtures/map-image/png-read/gray-alpha.json",
-      "tests/fixtures/map-image/png-read/gray-alpha16.json",
-      "tests/fixtures/map-image/png-read/gray-key.json",
-      "tests/fixtures/map-image/png-read/gray1.json",
-      "tests/fixtures/map-image/png-read/gray16-key.json",
-      "tests/fixtures/map-image/png-read/gray16.json",
-      "tests/fixtures/map-image/png-read/palette-alpha.json",
-      "tests/fixtures/map-image/png-read/rgb-key.json",
-      "tests/fixtures/map-image/png-read/rgb.json",
-      "tests/fixtures/map-image/png-read/rgb16.json",
-      "tests/fixtures/map-image/png-read/rgba.json",
-      "tests/fixtures/map-image/png-read/rgba16.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/crop-resize.json",
-      "tests/fixtures/map-image/png-read/crop-resize.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-2.json",
-      "tests/fixtures/map-image/png-read/orientation-2.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-3.json",
-      "tests/fixtures/map-image/png-read/orientation-3.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-4.json",
-      "tests/fixtures/map-image/png-read/orientation-4.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-5.json",
-      "tests/fixtures/map-image/png-read/orientation-5.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-6.json",
-      "tests/fixtures/map-image/png-read/orientation-6.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-7.json",
-      "tests/fixtures/map-image/png-read/orientation-7.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/orientation-8.json",
-      "tests/fixtures/map-image/png-read/orientation-8.json"
-    ],
-    [
-      "tests/fixtures/map-image/jpeg-read/progressive.rgba",
-      "tests/fixtures/map-image/jpeg-read/rgb.rgba"
-    ],
-    [
       "tests/fixtures/map-image/pdf-read/bad-angular-unit.json",
       "tests/fixtures/map-image/pdf-read/bad-axis.json",
       "tests/fixtures/map-image/pdf-read/bad-datum.json",
@@ -45701,16 +44571,6 @@
     [
       "tests/fixtures/map-image/pdf-read/geopdf.rgba",
       "tests/fixtures/map-image/pdf-read/single.rgba"
-    ],
-    [
-      "tests/fixtures/map-image/webp-read/animated.json",
-      "tests/fixtures/map-image/webp-read/lossy-alpha.json",
-      "tests/fixtures/map-image/webp-read/rgb.json",
-      "tests/fixtures/map-image/webp-read/rgba.json"
-    ],
-    [
-      "tests/fixtures/map-image/webp-read/crop-resize.webp",
-      "tests/fixtures/map-image/webp-read/rgba.webp"
     ],
     [
       "tests/fixtures/portability/baseline-selection.mjs",
@@ -52752,10 +51612,13 @@
       "bytes": 1740,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
       "additionalNameReferenceHints": [
         "config/performance-baseline-v1.json"
+      ],
+      "evidence": [
+        ".github/workflows/boundary-spatial-packed-gate.yml"
       ]
     },
     {
@@ -52765,9 +51628,12 @@
       "bytes": 2005,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/builtin-country-publication.yml"
+      ]
     },
     {
       "path": ".github/workflows/builtin-country-residuals.yml",
@@ -52776,9 +51642,12 @@
       "bytes": 1359,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/builtin-country-residuals.yml"
+      ]
     },
     {
       "path": ".github/workflows/core-temporal-candidate-p5-3.yml",
@@ -52787,9 +51656,12 @@
       "bytes": 1664,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/core-temporal-candidate-p5-3.yml"
+      ]
     },
     {
       "path": ".github/workflows/core-temporal-source-p5-2.yml",
@@ -52798,9 +51670,12 @@
       "bytes": 1248,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/core-temporal-source-p5-2.yml"
+      ]
     },
     {
       "path": ".github/workflows/e2-review-history-acceptance.yml",
@@ -52809,9 +51684,12 @@
       "bytes": 1782,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/e2-review-history-acceptance.yml"
+      ]
     },
     {
       "path": ".github/workflows/german-empire-1914-modern-coast.yml",
@@ -52820,9 +51698,12 @@
       "bytes": 2124,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/german-empire-1914-modern-coast.yml"
+      ]
     },
     {
       "path": ".github/workflows/gis-baikonur-geometry-validation.yml",
@@ -52831,9 +51712,12 @@
       "bytes": 2242,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/gis-baikonur-geometry-validation.yml"
+      ]
     },
     {
       "path": ".github/workflows/gis-hydro-metadata-refresh.yml",
@@ -52844,10 +51728,13 @@
       "parsedIncoming": [
         "tests/unit/check-automation.test.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
       "additionalNameReferenceHints": [
         "tests/unit/check-automation.test.mjs"
+      ],
+      "evidence": [
+        ".github/workflows/gis-hydro-metadata-refresh.yml"
       ]
     },
     {
@@ -52857,9 +51744,12 @@
       "bytes": 1853,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/gis-p1-hydro-source-inventory.yml"
+      ]
     },
     {
       "path": ".github/workflows/git-history-size-audit.yml",
@@ -52868,9 +51758,12 @@
       "bytes": 1304,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/git-history-size-audit.yml"
+      ]
     },
     {
       "path": ".github/workflows/gpu-g4-canvas-unit.yml",
@@ -52879,9 +51772,12 @@
       "bytes": 826,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/gpu-g4-canvas-unit.yml"
+      ]
     },
     {
       "path": ".github/workflows/gpu-g4-worker-diagnostic.yml",
@@ -52890,9 +51786,12 @@
       "bytes": 1153,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/gpu-g4-worker-diagnostic.yml"
+      ]
     },
     {
       "path": ".github/workflows/gpu-recovery-viewer-inspect.yml",
@@ -52901,9 +51800,12 @@
       "bytes": 1869,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/gpu-recovery-viewer-inspect.yml"
+      ]
     },
     {
       "path": ".github/workflows/m2-canvas-worker-real-frame.yml",
@@ -52912,10 +51814,13 @@
       "bytes": 1975,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
       "additionalNameReferenceHints": [
         "docs/development/r4e3-retired-test-manifest.json"
+      ],
+      "evidence": [
+        ".github/workflows/m2-canvas-worker-real-frame.yml"
       ]
     },
     {
@@ -52925,9 +51830,12 @@
       "bytes": 1213,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/m2-gpu-worker-probe.yml"
+      ]
     },
     {
       "path": ".github/workflows/map-transition-p5-1.yml",
@@ -52936,9 +51844,12 @@
       "bytes": 1510,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/map-transition-p5-1.yml"
+      ]
     },
     {
       "path": ".github/workflows/p6-5-resource-check.yml",
@@ -52947,9 +51858,12 @@
       "bytes": 1488,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/p6-5-resource-check.yml"
+      ]
     },
     {
       "path": ".github/workflows/p6-6-desktop-performance.yml",
@@ -52958,9 +51872,12 @@
       "bytes": 1531,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/p6-6-desktop-performance.yml"
+      ]
     },
     {
       "path": ".github/workflows/p6-7-narrow-performance.yml",
@@ -52969,9 +51886,12 @@
       "bytes": 1537,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/p6-7-narrow-performance.yml"
+      ]
     },
     {
       "path": ".github/workflows/place-sync-contract.yml",
@@ -52980,9 +51900,12 @@
       "bytes": 1388,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/place-sync-contract.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-adjacent-prefetch-p4-1.yml",
@@ -52991,9 +51914,12 @@
       "bytes": 1502,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-adjacent-prefetch-p4-1.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-boundary-physical-p4-5.yml",
@@ -53002,9 +51928,12 @@
       "bytes": 1706,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-boundary-physical-p4-5.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-country-mesh-p3-2.yml",
@@ -53013,10 +51942,13 @@
       "bytes": 1597,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
       "additionalNameReferenceHints": [
         "docs/development/r4e3-retired-test-manifest.json"
+      ],
+      "evidence": [
+        ".github/workflows/viewer-country-mesh-p3-2.yml"
       ]
     },
     {
@@ -53026,9 +51958,12 @@
       "bytes": 1651,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-gpu-mesh-p3-3.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-initial-geometry-benchmark.yml",
@@ -53037,9 +51972,12 @@
       "bytes": 1234,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-initial-geometry-benchmark.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-initial-land-p1c.yml",
@@ -53048,9 +51986,12 @@
       "bytes": 1898,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-initial-land-p1c.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-initial-p1.yml",
@@ -53059,9 +52000,12 @@
       "bytes": 1935,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-initial-p1.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-latest-year-p3-1.yml",
@@ -53070,9 +52014,12 @@
       "bytes": 1516,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-latest-year-p3-1.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-membership-p4-4.yml",
@@ -53081,9 +52028,12 @@
       "bytes": 2164,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-membership-p4-4.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-post-presentation-p2-3.yml",
@@ -53092,9 +52042,12 @@
       "bytes": 2097,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-post-presentation-p2-3.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-preparation-p2-1.yml",
@@ -53103,9 +52056,12 @@
       "bytes": 1617,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-preparation-p2-1.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-property-only-p4-3.yml",
@@ -53114,9 +52070,12 @@
       "bytes": 1521,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-property-only-p4-3.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-temporal-boundary-worker-rollback.yml",
@@ -53125,10 +52084,13 @@
       "bytes": 1884,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
       "additionalNameReferenceHints": [
         "docs/development/w2-p5-2-worker-error-rollback-retest-2026-11-02.md"
+      ],
+      "evidence": [
+        ".github/workflows/viewer-temporal-boundary-worker-rollback.yml"
       ]
     },
     {
@@ -53138,9 +52100,12 @@
       "bytes": 2029,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-temporal-performance.yml"
+      ]
     },
     {
       "path": ".github/workflows/viewer-transition-dedup-p2-4.yml",
@@ -53149,9 +52114,12 @@
       "bytes": 1832,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/viewer-transition-dedup-p2-4.yml"
+      ]
     },
     {
       "path": ".github/workflows/w2-p6-3-delta-protocol.yml",
@@ -53160,9 +52128,12 @@
       "bytes": 1505,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "GitHub Actions workflow is an event entry point; trigger found in workflow itself.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        ".github/workflows/w2-p6-3-delta-protocol.yml"
+      ]
     },
     {
       "path": ".gitignore",
@@ -59526,11 +58497,15 @@
       "bytes": 335,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
       "additionalNameReferenceHints": [
         "design/brand/README.md",
         "tests/unit/brand-icons.test.mjs"
+      ],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/brand-icons.html"
       ]
     },
     {
@@ -59542,11 +58517,15 @@
       "parsedIncoming": [
         "tests/unit/product-html.test.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
       "additionalNameReferenceHints": [
         "docs/development/osm-source-retirement-progress-2026-11-03.md",
         "tests/unit/product-html.test.mjs"
+      ],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-attribution.html"
       ]
     },
     {
@@ -59556,9 +58535,13 @@
       "bytes": 262,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-decoration-controls.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/map-decorations-basic.html",
@@ -59567,9 +58550,13 @@
       "bytes": 123,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-decorations-basic.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/map-fit-control.html",
@@ -59578,9 +58565,13 @@
       "bytes": 245,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-fit-control.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/map-icons.html",
@@ -59589,9 +58580,13 @@
       "bytes": 3620,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-icons.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/map-search-control.html",
@@ -59600,9 +58595,13 @@
       "bytes": 294,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-search-control.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/map-terrain.html",
@@ -59611,9 +58610,13 @@
       "bytes": 1753,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/map-terrain.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/notification.html",
@@ -59622,9 +58625,13 @@
       "bytes": 557,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/notification.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/object-chooser.html",
@@ -59633,9 +58640,13 @@
       "bytes": 641,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/object-chooser.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/object-search.html",
@@ -59644,9 +58655,13 @@
       "bytes": 1988,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/object-search.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/preferences.html",
@@ -59655,9 +58670,13 @@
       "bytes": 3712,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/preferences.html"
+      ]
     },
     {
       "path": "shared/frontend/ui/fragments/timeline.html",
@@ -59668,11 +58687,15 @@
       "parsedIncoming": [
         "tests/unit/product-html.test.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
       "additionalNameReferenceHints": [
         "docs/superpowers/plans/2026-10-26-year-first-timeline.md",
         "tests/unit/product-html.test.mjs"
+      ],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/timeline.html"
       ]
     },
     {
@@ -59682,9 +58705,13 @@
       "bytes": 87,
       "nameReferences": null,
       "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
+      "decision": "keep",
+      "reason": "Read during recursive expansion of the shared Viewer/Windows product HTML.",
+      "additionalNameReferenceHints": [],
+      "evidence": [
+        "scripts/lib/product-html.mjs",
+        "shared/frontend/ui/fragments/tooltip.html"
+      ]
     },
     {
       "path": "shared/tests/boundary-chain-tests.cpp",
@@ -61361,197 +60388,6 @@
       ]
     },
     {
-      "path": "tests/fixtures/map-image/derivative/cmyk.json",
-      "role": "tests-and-fixtures",
-      "lines": 24,
-      "bytes": 576,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft2.json",
-      "role": "tests-and-fixtures",
-      "lines": 24,
-      "bytes": 575,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": [
-        "docs/development/r4e3-retired-test-manifest.json"
-      ]
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/draft4.json",
-      "role": "tests-and-fixtures",
-      "lines": 24,
-      "bytes": 565,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": [
-        "docs/development/r4e3-retired-test-manifest.json"
-      ]
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/gray.json",
-      "role": "tests-and-fixtures",
-      "lines": 24,
-      "bytes": 576,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/derivative/unchanged.json",
-      "role": "tests-and-fixtures",
-      "lines": 24,
-      "bytes": 533,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/cmyk.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/crop-resize.json",
-      "role": "tests-and-fixtures",
-      "lines": 36,
-      "bytes": 614,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/gray.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-2.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-3.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-4.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-5.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-6.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-7.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/orientation-8.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/progressive.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/jpeg-read/rgb.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
       "path": "tests/fixtures/map-image/pdf-read/bad-angular-unit.json",
       "role": "tests-and-fixtures",
       "lines": 30,
@@ -61884,303 +60720,6 @@
       "additionalNameReferenceHints": []
     },
     {
-      "path": "tests/fixtures/map-image/png-read/adam7.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 511,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/crop-resize.json",
-      "role": "tests-and-fixtures",
-      "lines": 36,
-      "bytes": 614,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 432,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha16.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-alpha16.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 432,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-key.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray-key.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 432,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray1.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16-key.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16-key.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 432,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/gray16.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-2.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-3.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-4.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-5.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-6.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-7.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/orientation-8.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/palette-alpha.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/palette-alpha.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 432,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb-key.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgb16.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba16.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 516,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/png-read/rgba16.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 432,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
       "path": "tests/fixtures/map-image/rgb-7x5-to-1x1.raw",
       "role": "tests-and-fixtures",
       "lines": 1,
@@ -62255,171 +60794,6 @@
       "role": "tests-and-fixtures",
       "lines": 37,
       "bytes": 4893,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/animated.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/animated.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 936,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/crop-resize.json",
-      "role": "tests-and-fixtures",
-      "lines": 36,
-      "bytes": 614,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/lossy-alpha.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/lossy-alpha.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 936,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-2.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-3.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-4.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-5.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-6.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-7.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/orientation-8.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgb.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgb.rgba",
-      "role": "tests-and-fixtures",
-      "lines": 1,
-      "bytes": 936,
-      "nameReferences": null,
-      "parsedIncoming": [],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
-      "additionalNameReferenceHints": []
-    },
-    {
-      "path": "tests/fixtures/map-image/webp-read/rgba.json",
-      "role": "tests-and-fixtures",
-      "lines": 30,
-      "bytes": 521,
       "nameReferences": null,
       "parsedIncoming": [],
       "decision": "further-investigation",
