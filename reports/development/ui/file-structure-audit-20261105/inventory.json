@@ -52508,8 +52508,8 @@
         "apps/editor/tests/fixture-limits.test.mjs",
         "apps/editor/tests/fixture.test.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/e6-retirement-acceptance.yml",
         ".github/workflows/shared-core.yml",
@@ -52536,6 +52536,10 @@
         "tests/unit/p3-remote-plan.test.mjs",
         "tests/unit/r4e3-retired-editor-closure.test.mjs",
         "tests/unit/stage-fixture-closure.test.mjs"
+      ],
+      "evidence": [
+        "apps/editor/stage.mjs",
+        "apps/editor/fixture.mjs"
       ]
     },
     {
@@ -53096,8 +53100,8 @@
         "apps/editor/stage.mjs",
         "apps/editor/tests/world-data-plan.test.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/builtin-country-deployment.yml",
         ".github/workflows/gis-hydro-v0134-integration-gate.yml",
@@ -53110,6 +53114,10 @@
         "scripts/contracts/application-checks.json",
         "scripts/plan-application-checks.mjs",
         "tests/unit/builtin-country-residuals.test.mjs"
+      ],
+      "evidence": [
+        "apps/editor/stage.mjs",
+        "apps/editor/world-data-plan.mjs"
       ]
     },
     {
@@ -54725,8 +54733,8 @@
       "parsedIncoming": [
         "scripts/build-ui-bundle.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/generated-artifacts-p2.yml",
         ".github/workflows/gis-2000-2026-attribute-history.yml",
@@ -54746,6 +54754,11 @@
         "tests/unit/check-automation.test.mjs",
         "tools/check-terrain-preview.mjs",
         "tools/regenerate-render-mesh-assets-p4.mjs"
+      ],
+      "evidence": [
+        "tests/browser/button-consistency.spec.mjs",
+        "scripts/build-ui-bundle.mjs",
+        "scripts/generate-build-metadata.mjs"
       ]
     },
     {
@@ -55231,11 +55244,16 @@
         "scripts/run-active-tests.mjs",
         "scripts/run-application-checks.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "scripts/run-active-tests.mjs",
         "scripts/run-application-checks.mjs"
+      ],
+      "evidence": [
+        "tests/unit/check-runner.test.mjs",
+        "scripts/run-application-checks.mjs",
+        "scripts/lib/unit-test-isolation.mjs"
       ]
     },
     {
@@ -59221,8 +59239,8 @@
       "parsedIncoming": [
         "shared/frontend/js/modules/core-document-client.js"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "eslint.config.js",
         "scripts/check-runtime-boundaries.mjs",
@@ -59233,6 +59251,11 @@
         "tests/unit/monorepo-pages-staging.test.mjs",
         "tests/unit/product-assets.test.mjs",
         "tools/stage-monorepo-pages.mjs"
+      ],
+      "evidence": [
+        "tests/unit/core-document-client.test.mjs",
+        "shared/frontend/js/modules/core-document-client.js",
+        "shared/frontend/js/workers/core-viewer-session-worker.js"
       ]
     },
     {
@@ -59271,14 +59294,19 @@
         "shared/frontend/js/modules/map-display-client.js",
         "tests/helpers/map-display-worker-thread.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "eslint.config.js",
         "scripts/lib/product-assets.mjs",
         "shared/frontend/js/modules/map-display-client.js",
         "tests/helpers/map-display-worker-thread.mjs",
         "tests/unit/frontend-layout.test.mjs"
+      ],
+      "evidence": [
+        "tests/browser/map-display-worker.spec.mjs",
+        "shared/frontend/js/modules/map-display-client.js",
+        "shared/frontend/js/workers/map-display-worker.js"
       ]
     },
     {
@@ -59297,14 +59325,19 @@
         "shared/frontend/js/modules/territorial-labels.js",
         "tests/helpers/place-worker-thread.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "eslint.config.js",
         "scripts/lib/product-assets.mjs",
         "shared/frontend/js/modules/territorial-labels.js",
         "tests/helpers/place-worker-thread.mjs",
         "tests/unit/check-automation.test.mjs"
+      ],
+      "evidence": [
+        "tests/unit/app-startup-platform-ports.test.mjs",
+        "shared/frontend/js/modules/territorial-labels.js",
+        "shared/frontend/js/workers/place-worker.js"
       ]
     },
     {
@@ -59320,12 +59353,17 @@
       "parsedIncoming": [
         "shared/frontend/js/modules/project-file-reader.js"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "scripts/lib/product-assets.mjs",
         "shared/frontend/js/modules/project-file-reader.js",
         "tests/unit/viewer-project-reader.test.mjs"
+      ],
+      "evidence": [
+        "tests/unit/viewer-project-reader.test.mjs",
+        "shared/frontend/js/modules/project-file-reader.js",
+        "shared/frontend/js/workers/project-read-worker.js"
       ]
     },
     {
@@ -63545,10 +63583,15 @@
       "parsedIncoming": [
         "tests/helpers/web-opaque-flag-contract.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "tests/helpers/web-opaque-flag-contract.mjs"
+      ],
+      "evidence": [
+        "tests/unit/web-opaque-flag-contract.test.mjs",
+        "tests/helpers/web-opaque-flag-contract.mjs",
+        "tests/fixtures/portability/web-opaque-flag-input.json"
       ]
     },
     {
@@ -64506,11 +64549,16 @@
       "parsedIncoming": [
         "tests/helpers/core-session.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "apps/editor/native-contract.mjs",
         "tests/helpers/core-session.mjs"
+      ],
+      "evidence": [
+        "tests/unit/core-distribution-array-metadata-wasm.test.mjs",
+        "tests/helpers/core-session.mjs",
+        "tests/helpers/core-session-node-worker.mjs"
       ]
     },
     {
@@ -65756,14 +65804,19 @@
         "tests/helpers/web-flag-contract.mjs",
         "tests/helpers/web-opaque-flag-contract.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/r4-editor-pruning-validation.yml",
         "tests/helpers/web-core-contract.mjs",
         "tests/helpers/web-flag-contract.mjs",
         "tests/helpers/web-opaque-flag-contract.mjs",
         "tests/unit/r4e2-core-gis-boundaries.test.mjs"
+      ],
+      "evidence": [
+        "tests/unit/web-core-contract.test.mjs",
+        "tests/helpers/web-core-contract.mjs",
+        "tests/helpers/web-full-document-fixture.mjs"
       ]
     },
     {
@@ -74412,8 +74465,8 @@
         "tools/gis/probe-nga-streams.mjs",
         "tools/gis/verify-victorian-yarra-source.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/gis-hydro-osm-batch01-research.yml",
         ".github/workflows/gis-hydro-osm-batch02-research.yml",
@@ -74427,6 +74480,11 @@
         "tools/gis/probe-finnish-hydro.mjs",
         "tools/gis/probe-nga-streams.mjs",
         "tools/gis/verify-victorian-yarra-source.mjs"
+      ],
+      "evidence": [
+        "tests/unit/finnish-hydro-probe.test.mjs",
+        "tools/gis/probe-finnish-hydro.mjs",
+        "tools/gis/bounded-source-json.mjs"
       ]
     },
     {
@@ -76263,12 +76321,17 @@
       "parsedIncoming": [
         "tools/library-data.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/world-archive-retirement-integrity.yml",
         "apps/editor/native-contract.mjs",
         "tools/library-data.mjs"
+      ],
+      "evidence": [
+        "tests/unit/builtin-country-materialization.test.mjs",
+        "tools/library-data.mjs",
+        "tools/library-archive.mjs"
       ]
     },
     {
@@ -76284,12 +76347,17 @@
       "parsedIncoming": [
         "tools/library-data.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         ".github/workflows/builtin-country-residuals.yml",
         "apps/editor/native-contract.mjs",
         "tools/library-data.mjs"
+      ],
+      "evidence": [
+        "tests/unit/builtin-country-materialization.test.mjs",
+        "tools/library-data.mjs",
+        "tools/library-runtime-index.mjs"
       ]
     },
     {
@@ -77360,13 +77428,20 @@
         "tools/w2-p4-2-instrument.mjs",
         "tools/w2-p6-5-server.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "tools/w2-p3-server.mjs",
         "tools/w2-p4-2-instrument.mjs",
         "tools/w2-p4-2-report.mjs",
         "tools/w2-p6-5-server.mjs"
+      ],
+      "evidence": [
+        "tests/unit/w2-p5-2-join-diagnostic.test.mjs",
+        "tools/w2-p5-2-join-instrument.mjs",
+        "tools/w2-p5-2-instrument.mjs",
+        "tools/w2-p4-2-instrument.mjs",
+        "tools/w2-p3-instrument.mjs"
       ]
     },
     {
@@ -77645,12 +77720,17 @@
         "tools/w2-p5-2-join-instrument.mjs",
         "tools/w2-p5-2-server.mjs"
       ],
-      "decision": "further-investigation",
-      "reason": "Small or low-reference file; standalone, dynamic, CI and external consumers cannot be ruled out by this scan",
+      "decision": "keep",
+      "reason": "Reachable through parsed imports from a registered non-retired check or a Viewer/Windows entrypoint.",
       "additionalNameReferenceHints": [
         "tools/w2-p5-2-check-snapshot.mjs",
         "tools/w2-p5-2-join-instrument.mjs",
         "tools/w2-p5-2-server.mjs"
+      ],
+      "evidence": [
+        "tests/unit/w2-p5-2-join-diagnostic.test.mjs",
+        "tools/w2-p5-2-join-instrument.mjs",
+        "tools/w2-p5-2-instrument.mjs"
       ]
     },
     {
