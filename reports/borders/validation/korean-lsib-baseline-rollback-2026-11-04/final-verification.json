@@ -1,0 +1,112 @@
+{
+  "pin": "30ce140bdd55b45cbe40d75346719a4b140e1342",
+  "remoteDataHead": "30ce140bdd55b45cbe40d75346719a4b140e1342",
+  "sourceNativeChunkParity": [
+    {
+      "entityId": "state:KOR",
+      "nativeSha256": "0be7a5d2565beec53591089986ca2c499c50701ddf2005144c80e837c3dc0272",
+      "versions": [
+        {
+          "versionId": "state:KOR:38th-parallel-1948",
+          "validFrom": "1948-08-15",
+          "validTo": "1953-07-26",
+          "geometrySha256": "9ede7629a788ad79ab0e120eee7e0376634f4b0a7f196deb670f6c105d8cceba"
+        },
+        {
+          "versionId": "state:KOR:armistice-1953",
+          "validFrom": "1953-07-27",
+          "validTo": null,
+          "geometrySha256": "1fa7a8e687064ab79727c8d9b8e4dee1ec3602fb219aeff9ccbfead0d539a500"
+        }
+      ]
+    },
+    {
+      "entityId": "state:PRK",
+      "nativeSha256": "9d39925d037d83213f8062d67af054d6b7ae1e418aa17ab4c05e2e0d1af06224",
+      "versions": [
+        {
+          "versionId": "state:PRK:38th-parallel-1948",
+          "validFrom": "1948-09-09",
+          "validTo": "1953-07-26",
+          "geometrySha256": "a8bc60e245e5f19363c9af065794518e2042f809a37fbf939b27f4db4a723a25"
+        },
+        {
+          "versionId": "state:PRK:armistice-1953",
+          "validFrom": "1953-07-27",
+          "validTo": "1964-03-19",
+          "geometrySha256": "4a5c2b88280c5087c4ccf7892454faf548bee046206ba78a2025edcea31520f0"
+        },
+        {
+          "versionId": "state:PRK:sino-korean-protocol-1964",
+          "validFrom": "1964-03-20",
+          "validTo": null,
+          "geometrySha256": "4a5c2b88280c5087c4ccf7892454faf548bee046206ba78a2025edcea31520f0"
+        }
+      ]
+    },
+    {
+      "entityId": "state:CHN",
+      "nativeSha256": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "versions": [
+        {
+          "versionId": "state:CHN:paektu-lsib-11.4",
+          "validFrom": null,
+          "validTo": null,
+          "geometrySha256": "5e041155da8b2d0933a7876f4f2198c619658658e95ef92817dc387893026cf7"
+        }
+      ]
+    }
+  ],
+  "compiledRuntime": [
+    {
+      "entityId": "CHN",
+      "geometryRef": {
+        "id": "historical-world:aa1dbb60074551d1b081bf4bbb15bcc42f7a71fdb85bd7b01201423d633ac209",
+        "version": 1
+      },
+      "geometrySha256": "aa1dbb60074551d1b081bf4bbb15bcc42f7a71fdb85bd7b01201423d633ac209"
+    },
+    {
+      "entityId": "KOR",
+      "geometryRef": {
+        "id": "historical-world:1fa7a8e687064ab79727c8d9b8e4dee1ec3602fb219aeff9ccbfead0d539a500",
+        "version": 1
+      },
+      "geometrySha256": "1fa7a8e687064ab79727c8d9b8e4dee1ec3602fb219aeff9ccbfead0d539a500"
+    },
+    {
+      "entityId": "PRK",
+      "geometryRef": {
+        "id": "historical-world:4a5c2b88280c5087c4ccf7892454faf548bee046206ba78a2025edcea31520f0",
+        "version": 1
+      },
+      "geometrySha256": "4a5c2b88280c5087c4ccf7892454faf548bee046206ba78a2025edcea31520f0"
+    }
+  ],
+  "monacoAndFrance": {
+    "files": {
+      "assets/data/territorial-entities/source/countries/state-MCO.json": {
+        "sha256": "981a76e226d0058d770b1b8a165f9f380661d7f66e62404eb28cfeaa7d84e262",
+        "bytes": 4850
+      },
+      "assets/data/territorial-entities/generated/v2/state-MCO.json.gz": {
+        "sha256": "0fb02306ac34f741f3de7e3d64c9074a4a516e0e890333f6ecf5d046abc5ad39",
+        "bytes": 1792
+      },
+      "assets/data/territorial-entities/source/countries/state-FRA.json": {
+        "sha256": "cfdbf228ce84f551b904eda32870f630fca95eb5de2c89e1c76c926f3df2e61a",
+        "bytes": 401914
+      },
+      "assets/data/territorial-entities/generated/v2/state-FRA.json.gz": {
+        "sha256": "8d734f93b13b75520f55323f6c4ef3eaccbd5eecaca999aa48a3e646420d090f",
+        "bytes": 42358
+      }
+    },
+    "nativeObjects": {
+      "state:MCO": "95f289b59edeaf23a01d29d2f5ad10170c57225e96fc080e6407f8120f972d40",
+      "state:FRA": "a1a834938d84e57b30c75b72dc225aa74d6806390a90b24fd9bcef5421e94682"
+    },
+    "exactBytesAndDescriptorsUnchanged": true
+  },
+  "storedOutputHashesVerified": 14
+}

@@ -1,0 +1,80 @@
+{
+  "validity": [
+    {
+      "id": "KOR",
+      "versionId": "state:KOR:38th-parallel-1948",
+      "valid": true,
+      "inverseExact": true
+    },
+    {
+      "id": "KOR",
+      "versionId": "state:KOR:armistice-1953",
+      "valid": true,
+      "inverseExact": true
+    },
+    {
+      "id": "PRK",
+      "versionId": "state:PRK:38th-parallel-1948",
+      "valid": true,
+      "inverseExact": true
+    },
+    {
+      "id": "PRK",
+      "versionId": "state:PRK:armistice-1953",
+      "valid": true,
+      "inverseExact": true
+    },
+    {
+      "id": "PRK",
+      "versionId": "state:PRK:sino-korean-protocol-1964",
+      "valid": true,
+      "inverseExact": true
+    },
+    {
+      "id": "CHN",
+      "versionId": "state:CHN:paektu-lsib-11.4",
+      "valid": true,
+      "inverseExact": true
+    }
+  ],
+  "periods": [
+    {
+      "date": "1948-09-09",
+      "threeCountryUnionDifferenceSquareDegrees": 0,
+      "KOR_PRKOverlapSquareDegrees": 0,
+      "PRK_CHNOverlapSquareDegrees": 0
+    },
+    {
+      "date": "1953-07-26",
+      "threeCountryUnionDifferenceSquareDegrees": 0,
+      "KOR_PRKOverlapSquareDegrees": 0,
+      "PRK_CHNOverlapSquareDegrees": 0
+    },
+    {
+      "date": "1953-07-27",
+      "threeCountryUnionDifferenceSquareDegrees": 0,
+      "KOR_PRKOverlapSquareDegrees": 0,
+      "PRK_CHNOverlapSquareDegrees": 0
+    },
+    {
+      "date": "1964-03-19",
+      "threeCountryUnionDifferenceSquareDegrees": 0,
+      "KOR_PRKOverlapSquareDegrees": 0,
+      "PRK_CHNOverlapSquareDegrees": 0
+    },
+    {
+      "date": "1964-03-20",
+      "threeCountryUnionDifferenceSquareDegrees": 0,
+      "KOR_PRKOverlapSquareDegrees": 0,
+      "PRK_CHNOverlapSquareDegrees": 0
+    },
+    {
+      "date": "2026-11-04",
+      "threeCountryUnionDifferenceSquareDegrees": 0,
+      "KOR_PRKOverlapSquareDegrees": 0,
+      "PRK_CHNOverlapSquareDegrees": 0
+    }
+  ],
+  "sharedBaselineChainsExact": true,
+  "method": "Existing OGR/GEOS runtime; exact baseline chain containment, validity, paired overlap and three-country union. Technical square degrees, not event area or historical accuracy."
+}
