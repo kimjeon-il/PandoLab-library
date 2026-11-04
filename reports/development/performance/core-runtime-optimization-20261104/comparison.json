@@ -1,0 +1,102 @@
+{
+  "baseline": {
+    "dir": "D:\\build\\pandolab-p0-recovered-baseline-retry-20261104\\comparison-p0-P0-unchanged-d1c43-tency-and-resources-desktop",
+    "outcome": "passed",
+    "revision": "6fec9113349e606e64dc4deaf13b4bae84939355",
+    "summary": {
+      "count": 20,
+      "failed": 0,
+      "incomplete": 0,
+      "p50Ms": 662,
+      "p95Ms": 736,
+      "maxMs": 797,
+      "meanMs": 674.4
+    },
+    "startup": 18860,
+    "snapshots": {
+      "2026-10": {
+        "sha256": "225ac751f612d802f3f2b738b662a9331a8135e0163f4f4f21e42ecee826d5ee",
+        "file": "semantic-2026-10.json",
+        "entityCount": 254,
+        "geometryCount": 254
+      },
+      "2025-12": {
+        "sha256": "093f7ad265436fe031fd4bd0bf10666d8a93101c5753edacb27b5150a2e57257",
+        "file": "semantic-2025-12.json",
+        "entityCount": 254,
+        "geometryCount": 254
+      },
+      "2015-12": {
+        "sha256": "83683e4e6f1eba8912521d31832b319563ea96b42225de4f9c0ea98d34d91d7e",
+        "file": "semantic-2015-12.json",
+        "entityCount": 255,
+        "geometryCount": 255
+      }
+    },
+    "heapMax": 272014352,
+    "worker": {
+      "source": {
+        "count": 25,
+        "median": 402.59999999403954
+      },
+      "candidate": {
+        "count": 25,
+        "median": 131.8999999910593
+      }
+    },
+    "screens": {
+      "initial.png": "d4c86df27ebe461c63a1675bc6eca4501d77b8a5d8b509c59a31547956324831",
+      "round-trip.png": "30b2ed6a0588181421bc41cf37ee542fca0709fc4fd9d7c313584327d31578f1"
+    }
+  },
+  "final": {
+    "dir": "D:\\build\\pandolab-p0-recovered-final-20261104\\comparison-p0-P0-unchanged-d1c43-tency-and-resources-desktop",
+    "outcome": "passed",
+    "revision": "6fec9113349e606e64dc4deaf13b4bae84939355",
+    "summary": {
+      "count": 20,
+      "failed": 0,
+      "incomplete": 0,
+      "p50Ms": 643,
+      "p95Ms": 680,
+      "maxMs": 695,
+      "meanMs": 649.25
+    },
+    "startup": 18167,
+    "snapshots": {
+      "2026-10": {
+        "sha256": "225ac751f612d802f3f2b738b662a9331a8135e0163f4f4f21e42ecee826d5ee",
+        "file": "semantic-2026-10.json",
+        "entityCount": 254,
+        "geometryCount": 254
+      },
+      "2025-12": {
+        "sha256": "093f7ad265436fe031fd4bd0bf10666d8a93101c5753edacb27b5150a2e57257",
+        "file": "semantic-2025-12.json",
+        "entityCount": 254,
+        "geometryCount": 254
+      },
+      "2015-12": {
+        "sha256": "83683e4e6f1eba8912521d31832b319563ea96b42225de4f9c0ea98d34d91d7e",
+        "file": "semantic-2015-12.json",
+        "entityCount": 255,
+        "geometryCount": 255
+      }
+    },
+    "heapMax": 261329040,
+    "worker": {
+      "source": {
+        "count": 25,
+        "median": 397.19999998807907
+      },
+      "candidate": {
+        "count": 25,
+        "median": 117.7000000178814
+      }
+    },
+    "screens": {
+      "initial.png": "d4c86df27ebe461c63a1675bc6eca4501d77b8a5d8b509c59a31547956324831",
+      "round-trip.png": "30b2ed6a0588181421bc41cf37ee542fca0709fc4fd9d7c313584327d31578f1"
+    }
+  }
+}
