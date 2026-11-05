@@ -30,9 +30,17 @@
       "reason": "Confirmed private plugin release projection; exact 277-file remote read-back and package hashes verified"
     }
   ],
-  "reason": "exec_command rejected the guarded PowerShell temporary-output cleanup command: blocked by policy. No alternate tool or deletion method used.",
+  "reason": "The execution tool rejected both the guarded batch and the narrowed single-file operation before launching PowerShell; no detailed policy reason was provided. No alternate deletion tool used.",
   "initialFreeBytes": 47177949184,
   "measuredFreeBytes": 48018808832,
   "wholeTaskFreeBytesDelta": 840859648,
-  "note": "Measured drive delta includes concurrent system activity and is separate from normal pack reduction"
+  "note": "Measured drive delta includes concurrent system activity and is separate from normal pack reduction",
+  "recheckedAt": "2026-11-05T03:59:40.618Z",
+  "narrowedRetry": {
+    "target": "D:/dev/PandoLab-library-data/.working/map-toolkit-separation/release-candidate.zip",
+    "bytes": 59567335,
+    "method": "same exec_command tool; one literal PowerShell file path; full SHA256, parent reparse and process-consumer checks",
+    "result": "CreateProcess rejected before execution: blocked by policy",
+    "deleted": false
+  }
 }
