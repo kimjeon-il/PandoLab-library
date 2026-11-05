@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-11-05T03:35:44.706Z",
+  "status": "blocked-by-tool-policy",
+  "removedTargets": [],
+  "logicalTemporaryBytesRemoved": 0,
+  "retainedTemporaryBytes": 358184404,
+  "retainedTargets": [
+    {
+      "root": "D:\\dev\\PandoLab\\.library-data\\history-cleanup-20261105",
+      "files": 21729,
+      "bytes": 202785218,
+      "reason": "Superseded task metadata duplicated in verified provenance archive and current object stores; release download/model copies verified against authenticated private plugin"
+    },
+    {
+      "root": "D:\\dev\\PandoLab-library-data\\.working\\map-toolkit-separation\\release-candidate",
+      "files": 277,
+      "bytes": 95768754,
+      "reason": "Confirmed private plugin release projection; exact 277-file remote read-back and package hashes verified"
+    },
+    {
+      "root": "D:\\dev\\PandoLab-library-data\\.working\\map-toolkit-separation\\release-candidate.zip",
+      "files": 1,
+      "bytes": 59567335,
+      "reason": "Confirmed private plugin release projection; exact 277-file remote read-back and package hashes verified"
+    },
+    {
+      "root": "D:\\dev\\PandoLab-library-data\\.working\\map-toolkit-separation\\release-candidate.release.json",
+      "files": 1,
+      "bytes": 63097,
+      "reason": "Confirmed private plugin release projection; exact 277-file remote read-back and package hashes verified"
+    }
+  ],
+  "reason": "exec_command rejected the guarded PowerShell temporary-output cleanup command: blocked by policy. No alternate tool or deletion method used.",
+  "initialFreeBytes": 47177949184,
+  "measuredFreeBytes": 48018808832,
+  "wholeTaskFreeBytesDelta": 840859648,
+  "note": "Measured drive delta includes concurrent system activity and is separate from normal pack reduction"
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "pando-history-cleanup-result-20261105",
+  "date": "2026-11-05T03:33:36.908Z",
+  "status": "ordinary-heads-and-local-complete; GitHub-managed-PR-purge-incomplete",
+  "verification": {
+    "checkedAt": "2026-11-05T03:31:38.613Z",
+    "worktrees": [
+      {
+        "owner": "main",
+        "head": "6a1db6c2e87894016f98309135896ce0199537b6",
+        "pin": "2b8825e4570b0c1e0558f76317f4ce3d021b4f11",
+        "protectedFiles": 20,
+        "preservation": "status and SHA256 unchanged",
+        "mount": "verified"
+      },
+      {
+        "owner": "gis",
+        "head": "e4a6242a4b39f564ce7cb243cb77832d168866c6",
+        "pin": "3673ce501c5c2479356414816b5c5daa0ca3e6c6",
+        "protectedFiles": 3,
+        "preservation": "status and SHA256 unchanged",
+        "mount": "verified"
+      },
+      {
+        "owner": "objects",
+        "head": "6a1db6c2e87894016f98309135896ce0199537b6",
+        "pin": "2b8825e4570b0c1e0558f76317f4ce3d021b4f11",
+        "protectedFiles": 4,
+        "preservation": "status and SHA256 unchanged",
+        "mount": "verified"
+      },
+      {
+        "owner": "places",
+        "head": "6a1db6c2e87894016f98309135896ce0199537b6",
+        "pin": "2b8825e4570b0c1e0558f76317f4ce3d021b4f11",
+        "protectedFiles": 0,
+        "preservation": "status and SHA256 unchanged",
+        "mount": "verified"
+      },
+      {
+        "owner": "ui",
+        "head": "6a1db6c2e87894016f98309135896ce0199537b6",
+        "pin": "2b8825e4570b0c1e0558f76317f4ce3d021b4f11",
+        "protectedFiles": 9,
+        "preservation": "status and SHA256 unchanged",
+        "mount": "verified"
+      }
+    ],
+    "repositories": {
+      "code": {
+        "remoteHeads": [
+          {
+            "ref": "refs/heads/main",
+            "oid": "6a1db6c2e87894016f98309135896ce0199537b6"
+          },
+          {
+            "ref": "refs/heads/work/gis",
+            "oid": "a30d5b9ee28a9a932cb54dd2bb435e7ce7cba1ad"
+          },
+          {
+            "ref": "refs/heads/work/objects",
+            "oid": "6a1db6c2e87894016f98309135896ce0199537b6"
+          },
+          {
+            "ref": "refs/heads/work/places",
+            "oid": "6a1db6c2e87894016f98309135896ce0199537b6"
+          },
+          {
+            "ref": "refs/heads/work/remote-only",
+            "oid": "bab7c99f748fbad8e9f77ae3a36e2cad0363c40f"
+          },
+          {
+            "ref": "refs/heads/work/ui",
+            "oid": "6a1db6c2e87894016f98309135896ce0199537b6"
+          }
+        ],
+        "additional": [
+          {
+            "ref": "refs/heads/work/remote-only",
+            "rewritten": "0c2fae913087697846f79481ae6eb85c3966e2d9",
+            "current": "bab7c99f748fbad8e9f77ae3a36e2cad0363c40f",
+            "preserved": "new descendant commit"
+          }
+        ],
+        "retiredLocallyAbsent": 633,
+        "ordinaryHeadCandidates": "absent",
+        "connectivity": "passed"
+      },
+      "data": {
+        "remoteHeads": [
+          {
+            "ref": "refs/heads/gh-pages",
+            "oid": "e99cd3d027c8046e95291d2d10573de83df2da11"
+          },
+          {
+            "ref": "refs/heads/main",
+            "oid": "1f00cfb5e0255dd04cf8d6643cd87ed962096b14"
+          },
+          {
+            "ref": "refs/heads/work/gis",
+            "oid": "8beb97cca9992ae2099ab0ce19dca4d62f10961a"
+          },
+          {
+            "ref": "refs/heads/work/objects",
+            "oid": "ef77d01776dfd9d8bd7a495877ce9e2b39095823"
+          },
+          {
+            "ref": "refs/heads/work/places",
+            "oid": "7a8e17f3355c79a377f6dba691caeb5fb3038067"
+          },
+          {
+            "ref": "refs/heads/work/research-prune-20261024",
+            "oid": "0def4293b876b2af7de5d3f3d8c34ea06f6a33e8"
+          },
+          {
+            "ref": "refs/heads/work/ui",
+            "oid": "b355236e73503720e38d40b1eba03224f7ab033b"
+          }
+        ],
+        "additional": [],
+        "retiredLocallyAbsent": 3180,
+        "ordinaryHeadCandidates": "absent",
+        "connectivity": "passed"
+      }
+    },
+    "plugin": {
+      "status": "verified",
+      "pluginId": "plugins_6adda758c8288191b019749a1dd7eec5",
+      "releaseId": "pluginrel_6aebf26e144881918daf851710029ebc",
+      "version": "0.7.2",
+      "codeRevision": "9b0b52ec8470526a9c89a54e365d1bcdf3fbf543",
+      "contentSha256": "a73850d6b6d214ad6848813a2aa156de4f388f5594e7bce2f498b051b817dbd9",
+      "checkedFiles": 277
+    },
+    "publication": "ordinary heads rewritten; GitHub read-only PR refs retain 633 code blobs"
+  },
+  "localStorage": {
+    "beforeNormalPackBytes": {
+      "code": 101611452,
+      "data": 4394007073
+    },
+    "afterRetirement": {
+      "code": {
+        "excludedAbsent": 633,
+        "normalPacks": 2,
+        "normalPackBytes": 87690843,
+        "count": "count: 0\nsize: 0\nin-pack: 67791\npacks: 2\nsize-pack: 87491\nprune-packable: 0\ngarbage: 0\nsize-garbage: 0"
+      },
+      "data": {
+        "excludedAbsent": 3180,
+        "normalPacks": 2,
+        "normalPackBytes": 3152209232,
+        "count": "count: 0\nsize: 0\nin-pack: 34019\npacks: 2\nsize-pack: 3079391\nprune-packable: 0\ngarbage: 1\nsize-garbage: 32807"
+      }
+    },
+    "normalPackBytesReduction": 1255718450
+  },
+  "githubManagedRefs": {
+    "readOnlyOldRefs": 17,
+    "retainedApprovedCodeBlobs": 633,
+    "deleteHttpStatus": 422,
+    "message": "refs/pull/* is read-only.",
+    "dataManagedRefs": 0
+  },
+  "preservation": {
+    "protectedFiles": 36,
+    "statusAndSha256": "unchanged",
+    "dataTipTrees": "identical",
+    "codeTipChanges": "only mapped config/library-data.json",
+    "nonRetiredOriginalBlobs": "all preserved by original object ID",
+    "reports": "original bytes and independent editions preserved; owner refs mapped",
+    "gisLocalOnlyCommits": 3
+  },
+  "dependencyRelease": {
+    "version": "0.7.2",
+    "sourceRevision": "9b0b52ec8470526a9c89a54e365d1bcdf3fbf543",
+    "exactReadBackFiles": 277,
+    "modelUnchanged": true,
+    "sharedArtifactUnchanged": true,
+    "focusedTestsPassed": 27,
+    "producerRuntimeCasesPassed": 10
+  },
+  "retained": {
+    "privateProvenance": {
+      "bytes": 18498426,
+      "sha256": "892440e05e7a8689ddb09e974b49f817f64dddfc8ffbc0b71da03ae2ad723551",
+      "verifiedEntries": 42,
+      "purpose": "Private edition/source old-to-new provenance and exact deletion evidence; metadata only, no removed payloads or models"
+    },
+    "damagedEarlierTemporaryPack": {
+      "bytes": 33595391,
+      "path": ".git/objects/pack/tmp_pack_uUtx8n",
+      "reason": "Earlier damaged recovery artifact; unique recoverability uncertain; outside approved manifest"
+    }
+  }
+}
