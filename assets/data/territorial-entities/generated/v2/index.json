@@ -197,7 +197,8 @@
         "ko": "오스트리아"
       },
       "entityRefs": [
-        "state:AUT"
+        "state:AUT",
+        "state:austro-hungarian-empire"
       ],
       "relations": []
     },
@@ -2430,7 +2431,8 @@
         "ko": "세르비아"
       },
       "entityRefs": [
-        "state:SRB"
+        "state:SRB",
+        "state:kingdom-of-serbia"
       ],
       "relations": []
     },
@@ -3190,7 +3192,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "ALB",
+                  "versionId": "state:ALB:natural-earth-5.1.1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "e1739147823f38ea958022f9ed00c8e897418d4982d1ef885b9e4f2b98581f7e",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-ALB.json",
+                    "sha256": "e05a139111761f4b3506c3477a86146fc484a2eb3047bada946121a44d118091"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-ALB.json",
+                    "sha256": "e05a139111761f4b3506c3477a86146fc484a2eb3047bada946121a44d118091"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -3210,9 +3316,9 @@
       "file": "state-ALB.json.gz",
       "validFrom": "1912-11-28",
       "validTo": null,
-      "compressedBytes": 5629,
-      "decodedBytes": 44303,
-      "sha256": "e050133d0f9dbcf778e51551e767454e1883170a8038f0e442f18920387fc5c1",
+      "compressedBytes": 7408,
+      "decodedBytes": 49643,
+      "sha256": "349123ef55f32394070c7942877ae1c6f43ebf82d2cf497a76668bf0b9cdeecd",
       "bbox": [
         19.272033,
         39.637013,
@@ -4139,7 +4245,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "BEL",
+                  "versionId": "state:BEL:natural-earth-5.1.1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "e392cd16733f68b28cedf56302e1570cadb4ddea1e5a2a013ca192bee0515bf3",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-BEL.json",
+                    "sha256": "6cb71be9f100f372c1f4cd9abc498904aedf94a118c07ebeb911ce4368fa0e60"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-BEL.json",
+                    "sha256": "6cb71be9f100f372c1f4cd9abc498904aedf94a118c07ebeb911ce4368fa0e60"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -4159,9 +4369,9 @@
       "file": "state-BEL.json.gz",
       "validFrom": "1830-10-04",
       "validTo": null,
-      "compressedBytes": 6500,
-      "decodedBytes": 50981,
-      "sha256": "a15b3442d73a705c841c589dc988d6890585c042183e8e096f12be7bde3858af",
+      "compressedBytes": 8317,
+      "decodedBytes": 56321,
+      "sha256": "e3c03c0f0da24f42ae1a2100fd74f7d000f846414fe1a340e76b3e8b7f3ddade",
       "bbox": [
         2.5218,
         49.495223,
@@ -4343,7 +4553,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "BGR",
+                  "versionId": "state:BGR:natural-earth-5.1.1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "8258d33451333f5b3e8a7365a38774cb8db4c3fc88d22b4c964e246ee36ad618",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-BGR.json",
+                    "sha256": "7a22aa675717827d7d687374d91f0fbe2002ba2e826d339b20e4ad97bb83d1ce"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-BGR.json",
+                    "sha256": "7a22aa675717827d7d687374d91f0fbe2002ba2e826d339b20e4ad97bb83d1ce"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -4363,9 +4677,9 @@
       "file": "state-BGR.json.gz",
       "validFrom": "1878-03-03",
       "validTo": null,
-      "compressedBytes": 8931,
-      "decodedBytes": 70103,
-      "sha256": "d9302d219bc60170ff0212ff7d60513812c09ebc0a3b8a5dc77d8211a5af635c",
+      "compressedBytes": 10697,
+      "decodedBytes": 75443,
+      "sha256": "b50a00759b452133030f1c69adb31f28fca6c2b236e8e34f389e9d802f9abd88",
       "bbox": [
         22.345023,
         41.238104,
@@ -6259,7 +6573,205 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "CHE",
+                  "versionId": "state:CHE:natural-earth-5.1.1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "46d902cb538506f11b33c59372a48fa60e43023013196badb76fbeb5bc5ca1e0",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-CHE.json",
+                    "sha256": "318373004367291f6ff332713d650bb06d48b51600923eba672899d05ba0c22b"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-CHE.json",
+                    "sha256": "318373004367291f6ff332713d650bb06d48b51600923eba672899d05ba0c22b"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                },
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "CHE",
+                  "versionId": "state:CHE:natural-earth-5.1.1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "45fbe196c956267a7c6a53fe6cefdae042e8ff9140f5a39830420f61509d9bf3",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-CHE.json",
+                    "sha256": "318373004367291f6ff332713d650bb06d48b51600923eba672899d05ba0c22b"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-CHE.json",
+                    "sha256": "318373004367291f6ff332713d650bb06d48b51600923eba672899d05ba0c22b"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -6279,9 +6791,9 @@
       "file": "state-CHE.json.gz",
       "validFrom": "1291-08",
       "validTo": null,
-      "compressedBytes": 7883,
-      "decodedBytes": 59551,
-      "sha256": "200021f95e21970b49bac1d9f565f6c4a798470fad259d5cdd9821d37dc61237",
+      "compressedBytes": 9726,
+      "decodedBytes": 69842,
+      "sha256": "ba722b3c8d435b8badd2944718d95f3ad2637c025a3c8c60e490ecfa4bc92502",
       "bbox": [
         5.954809,
         45.820718,
@@ -7647,7 +8159,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "DNK",
+                  "versionId": "state:DNK:natural-earth-5.1.1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "dc179cf9ed7b60db23ec762bd5f7233fa096469ed4f5d24ca1034303ff5ca109",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DNK.json",
+                    "sha256": "ea9b8810ddee4a21b7ab0531d07c46b9814c173afa7196f6dd34899dfe40869f"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DNK.json",
+                    "sha256": "ea9b8810ddee4a21b7ab0531d07c46b9814c173afa7196f6dd34899dfe40869f"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -7667,9 +8283,9 @@
       "file": "state-DNK.json.gz",
       "validFrom": "0965",
       "validTo": null,
-      "compressedBytes": 20136,
-      "decodedBytes": 189292,
-      "sha256": "a4a5ae520ce69c125fe3bffd9eaa7a9e001875e607d6d240d71068cdcd137293",
+      "compressedBytes": 21629,
+      "decodedBytes": 194632,
+      "sha256": "6e3dab25b44adcbf35209f64916fac2ccab62aab01e6bdbc540fbf4fed15fc2c",
       "bbox": [
         8.094005,
         54.56859,
@@ -8389,6 +9005,110 @@
             "fixedExtensionMeters": 367.72876855834636,
             "extensionStatus": "Generalized display connection, not a legally established straight-line border",
             "priorSelectedFileIdentity": "Reconstructed from sources and recorded metrics; prior file hash unavailable"
+          },
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "FRA",
+                  "versionId": "state:FRA:natural-earth-5.1.1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "4a3012f3b6b62d3582a0ff1f4df489676f75a351d8c69005002b422e8300a21b",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-FRA.json",
+                    "sha256": "cfdbf228ce84f551b904eda32870f630fca95eb5de2c89e1c76c926f3df2e61a"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-FRA.json",
+                    "sha256": "cfdbf228ce84f551b904eda32870f630fca95eb5de2c89e1c76c926f3df2e61a"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
           }
         }
       ],
@@ -8409,9 +9129,9 @@
       "file": "state-FRA.json.gz",
       "validFrom": "0843",
       "validTo": null,
-      "compressedBytes": 42358,
-      "decodedBytes": 401914,
-      "sha256": "8d734f93b13b75520f55323f6c4ef3eaccbd5eecaca999aa48a3e646420d090f",
+      "compressedBytes": 43859,
+      "decodedBytes": 407254,
+      "sha256": "ea781cb6f14bb778a899bddc05a36fb2452b7fc159ff9e9ac371d714f4b88345",
       "bbox": [
         -61.797841,
         -21.370782,
@@ -8763,7 +9483,59 @@
       "names": {
         "ko": "독일"
       },
-      "alternateNames": [],
+      "alternateNames": [
+        "German Empire",
+        "Deutsches Reich",
+        "독일제국"
+      ],
+      "nameVersions": [
+        {
+          "names": {
+            "ko": {
+              "common": "독일"
+            },
+            "native": []
+          },
+          "validFrom": null,
+          "validTo": "1914-07-30"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "German Empire"
+            },
+            "ko": {
+              "common": "독일제국"
+            },
+            "native": [
+              {
+                "common": "Deutsches Reich",
+                "language": "de"
+              }
+            ]
+          },
+          "validFrom": "1914-07-31",
+          "validTo": "1914-07-31"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Germany"
+            },
+            "ko": {
+              "common": "독일"
+            },
+            "native": [
+              {
+                "common": "Deutschland",
+                "language": "de"
+              }
+            ]
+          },
+          "validFrom": "1914-08-01",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1867-07-01",
         "validTo": null
@@ -8771,8 +9543,613 @@
       "parentEntityId": "",
       "geometryVersions": [
         {
-          "versionId": "state:DEU:natural-earth-5.1.1",
+          "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
           "validFrom": null,
+          "validTo": "1914-07-30",
+          "certainty": "provisional",
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "notes": "Retains the previously published undated modern baseline outside the new reference-day reconstruction. Not historically verified.",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "passed",
+              "entityId": "state:DEU",
+              "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+              "validFrom": null,
+              "validTo": "1914-07-30",
+              "geometrySha256": "3793d1e4d573cab073016443d88842f38f4c2bf438aebfb7dcd9f79c23cd42bd",
+              "master": {
+                "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+              },
+              "source": {
+                "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+              },
+              "comparison": {
+                "reference": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                  "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                },
+                "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                "extent": [
+                  5,
+                  40,
+                  28,
+                  57
+                ],
+                "scaleDenominator": 10000000,
+                "projection": {
+                  "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                  "units": "metre",
+                  "evidence": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                    "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                  }
+                }
+              },
+              "method": "preserved-modern-source",
+              "reason": "Existing modern-outline baseline retained outside the new 1914-07-31 snapshot. No new historical accuracy or geometry coverage is inferred.",
+              "parameters": {
+                "toleranceMetres": 250,
+                "smallClosedArcPreservationLengthMetres": 100000,
+                "quantization": false,
+                "coordinateRounding": null,
+                "existingNaturalEarthReferenceArcs": "retained intact",
+                "overlayClosureLedger": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                  "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                },
+                "compiled": false,
+                "scope": "inherited baseline; pre-existing coverage only",
+                "historicalAccuracy": "provisional; no independent positional-error measurement"
+              },
+              "visual": {
+                "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-review.png",
+                "sha256": "7add1d66294bf460d26e638dfd946a9f9c272cb23672a990f9772c06ebfe226b"
+              },
+              "topology": {
+                "status": "passed",
+                "evidence": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                  "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                },
+                "checks": [
+                  "validity",
+                  "shared-boundary",
+                  "union",
+                  "gaps-overlaps",
+                  "connectivity",
+                  "holes-islands",
+                  "dates"
+                ],
+                "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+              },
+              "counterpartVersions": [
+                {
+                  "entityId": "state:DEU",
+                  "versionId": "state:DEU:1914-07-31-display-r1",
+                  "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                },
+                {
+                  "entityId": "state:austro-hungarian-empire",
+                  "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                  "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                },
+                {
+                  "entityId": "state:kingdom-of-serbia",
+                  "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                  "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                }
+              ],
+              "fixedAnchors": [],
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "DEU",
+                  "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+                  "validFrom": "1867-07-01",
+                  "validTo": "1914-07-27",
+                  "geometrySha256": "3793d1e4d573cab073016443d88842f38f4c2bf438aebfb7dcd9f79c23cd42bd",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                    "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                    "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Existing modern-outline baseline retained outside the new 1914-07-31 snapshot. No new historical accuracy or geometry coverage is inferred.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "inherited baseline; pre-existing coverage only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                },
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "DEU",
+                  "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "aeb49bdeca93f14ce62f99a0eb1efcdd66952f5ac048b5b144da6711367a1790",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                    "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                    "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Existing modern-outline baseline retained outside the new 1914-07-31 snapshot. No new historical accuracy or geometry coverage is inferred.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "inherited baseline; pre-existing coverage only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                },
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "DEU",
+                  "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+                  "validFrom": "1914-07-29",
+                  "validTo": "1914-07-30",
+                  "geometrySha256": "3793d1e4d573cab073016443d88842f38f4c2bf438aebfb7dcd9f79c23cd42bd",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                    "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-DEU.json",
+                    "sha256": "c105c6235edd7625c71e7fd333e4dfc32600aab4fa478838c729a2a1b8dcc77e"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Existing modern-outline baseline retained outside the new 1914-07-31 snapshot. No new historical accuracy or geometry coverage is inferred.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "inherited baseline; pre-existing coverage only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "versionId": "state:DEU:1914-07-31-display-r1",
+          "validFrom": "1914-07-31",
+          "validTo": "1914-07-31",
+          "certainty": "provisional",
+          "sourceId": "histogis-modern-coast-policy-1914",
+          "historicalProvenance": {
+            "status": "provisional",
+            "referenceDate": "1914-07-31",
+            "scope": "Reference-day territorial reconstruction. Modern coastal/lake policy; no independent historical positional-accuracy claim.",
+            "limitations": [
+              "Technical topology and generalization only; not independent historical positional accuracy.",
+              "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+              "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+              "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+            ],
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "passed",
+              "entityId": "state:DEU",
+              "versionId": "state:DEU:1914-07-31-display-r1",
+              "validFrom": "1914-07-31",
+              "validTo": "1914-07-31",
+              "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62",
+              "master": {
+                "reference": "tools/historical-library/working/german-empire-1914-base.geojson",
+                "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb"
+              },
+              "source": {
+                "reference": "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson",
+                "sha256": "0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9"
+              },
+              "comparison": {
+                "reference": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                  "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                },
+                "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                "extent": [
+                  5,
+                  40,
+                  28,
+                  57
+                ],
+                "scaleDenominator": 10000000,
+                "projection": {
+                  "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                  "units": "metre",
+                  "evidence": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                    "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                  }
+                }
+              },
+              "method": "reviewed-display-generalization",
+              "reason": "Reference-day display derivative reviewed against the preserved master and NE cartographic detail. Historical status remains provisional.",
+              "parameters": {
+                "toleranceMetres": 250,
+                "smallClosedArcPreservationLengthMetres": 100000,
+                "quantization": false,
+                "coordinateRounding": null,
+                "existingNaturalEarthReferenceArcs": "retained intact",
+                "overlayClosureLedger": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                  "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                },
+                "compiled": false,
+                "scope": "single reference day",
+                "historicalAccuracy": "provisional; no independent positional-error measurement"
+              },
+              "visual": {
+                "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-review.png",
+                "sha256": "7add1d66294bf460d26e638dfd946a9f9c272cb23672a990f9772c06ebfe226b"
+              },
+              "topology": {
+                "status": "passed",
+                "evidence": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                  "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                },
+                "checks": [
+                  "validity",
+                  "shared-boundary",
+                  "union",
+                  "gaps-overlaps",
+                  "connectivity",
+                  "holes-islands",
+                  "dates"
+                ],
+                "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+              },
+              "counterpartVersions": [
+                {
+                  "entityId": "state:austro-hungarian-empire",
+                  "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                  "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                },
+                {
+                  "entityId": "state:kingdom-of-serbia",
+                  "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                  "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                }
+              ],
+              "fixedAnchors": [
+                [
+                  19.1577366,
+                  50.2293859
+                ],
+                [
+                  9.547482,
+                  47.534547
+                ]
+              ],
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "DEU",
+                  "versionId": "state:DEU:1914-07-31-display-r1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62",
+                  "master": {
+                    "reference": "tools/historical-library/working/german-empire-1914-base.geojson",
+                    "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb"
+                  },
+                  "source": {
+                    "reference": "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson",
+                    "sha256": "0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day display derivative reviewed against the preserved master and NE cartographic detail. Historical status remains provisional.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "single reference day",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": [
+                    [
+                      19.1577366,
+                      50.2293859
+                    ],
+                    [
+                      9.547482,
+                      47.534547
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "versionId": "state:DEU:natural-earth-5.1.1",
+          "validFrom": "1914-08-01",
           "validTo": null,
           "certainty": "high",
           "sourceId": "natural-earth-5.1.1"
@@ -8785,7 +10162,8 @@
       "metadata": {
         "sourceFeatureId": "DEU",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/de.svg",
-        "representativeGeometryVersionId": "state:DEU:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:DEU:natural-earth-5.1.1",
+        "historicalGeometryNotes": "1914-07-31 only. Preserves existing German-state continuity; existing modern-outline baseline outside the single reconstructed reference day remains explicitly provisional and unchanged; no historical geometry period is inferred."
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -8795,16 +10173,16 @@
       "file": "state-DEU.json.gz",
       "validFrom": "1867-07-01",
       "validTo": null,
-      "compressedBytes": 27633,
-      "decodedBytes": 261437,
-      "sha256": "68fc146d00ff169cab615cae25110aaf26a7df099b5b742e513d52fe50236e36",
+      "compressedBytes": 116729,
+      "decodedBytes": 1025298,
+      "sha256": "132d43fa710d886f86917986095b46b449a6e36210984579b64e523853f5bce3",
       "bbox": [
         5.85249,
-        47.271121,
-        15.022059,
-        55.065334
+        47.2705079,
+        22.89044648938277,
+        55.89372343711583
       ],
-      "geometryVersionCount": 1
+      "geometryVersionCount": 3
     },
     {
       "schemaVersion": 2,
@@ -9415,7 +10793,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "GRC",
+                  "versionId": "state:GRC:natural-earth-5.1.1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "b4b3dd6c18de8cbc921ec4f143d9fa7146c09d094402f6334eecbe9d262c56c9",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-GRC.json",
+                    "sha256": "b461c4eab89ecf2bc00909bc3d4b96ad9815d0c67995450ea4eb0410fa056a68"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-GRC.json",
+                    "sha256": "b461c4eab89ecf2bc00909bc3d4b96ad9815d0c67995450ea4eb0410fa056a68"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -9435,9 +10917,9 @@
       "file": "state-GRC.json.gz",
       "validFrom": "1822-01-13",
       "validTo": null,
-      "compressedBytes": 51872,
-      "decodedBytes": 528821,
-      "sha256": "5d16ec0d6bd20563f9e33c2a3bbef801f3a245ed1180954e2ec6aba0b281adf3",
+      "compressedBytes": 53705,
+      "decodedBytes": 534161,
+      "sha256": "fb259d01afeb997f726c283877fd0830922c4b76ad8c8f9d44c5e94d0aa42f24",
       "bbox": [
         19.626475,
         34.815009,
@@ -11283,7 +12765,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "ITA",
+                  "versionId": "state:ITA:natural-earth-5.1.1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "e2d323b9e73e12c47095fa01b2eaffb7b2243c9bd07e259e27cbcd612056f382",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-ITA.json",
+                    "sha256": "29ed04c332fca66309ffe234b3dff4f8e36453940493b9606b0810d5a2df4187"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-ITA.json",
+                    "sha256": "29ed04c332fca66309ffe234b3dff4f8e36453940493b9606b0810d5a2df4187"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -11303,9 +12889,9 @@
       "file": "state-ITA.json.gz",
       "validFrom": "1861-03-17",
       "validTo": null,
-      "compressedBytes": 30424,
-      "decodedBytes": 289815,
-      "sha256": "26004b68fb969eca796565d740a037f820d2292cff6c319e679ac9abb9d873d0",
+      "compressedBytes": 32375,
+      "decodedBytes": 295155,
+      "sha256": "5cd8ec2b1e53b04d7ce1101c0e6ada44136fd6bdf8fbab4799528636e6d43feb",
       "bbox": [
         6.602728,
         35.489244,
@@ -13188,7 +14774,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "LUX",
+                  "versionId": "state:LUX:natural-earth-5.1.1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "48b1f2bde52bfac6763d70a29b66d49aa02d5f12d5a2e7c00448477015cf7209",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-LUX.json",
+                    "sha256": "6127042054bd24139eed200cfae6e0c5630039022b4eb27e621fecfa9c4d55cf"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-LUX.json",
+                    "sha256": "6127042054bd24139eed200cfae6e0c5630039022b4eb27e621fecfa9c4d55cf"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -13208,9 +14898,9 @@
       "file": "state-LUX.json.gz",
       "validFrom": "1815-06-09",
       "validTo": null,
-      "compressedBytes": 2844,
-      "decodedBytes": 17088,
-      "sha256": "914d0608daa74a582c792d78c8a874468dad0ab012a44503e7cb7bbc957c633c",
+      "compressedBytes": 4428,
+      "decodedBytes": 22428,
+      "sha256": "8fbd2cc0a0e9eefb4f64b5ec89dc687a9ba36e7f306057209e458c1b9f34e193",
       "bbox": [
         5.714927,
         49.441324,
@@ -15161,7 +16851,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "NLD",
+                  "versionId": "state:NLD:natural-earth-5.1.1",
+                  "validFrom": "1914-07-31",
+                  "validTo": "1914-07-31",
+                  "geometrySha256": "1aea1a851f86931db86ba0ce8351b591db95f0c0f1e454528135fbae82d174b0",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-NLD.json",
+                    "sha256": "dd903672025c02ffc9cdd9d9a22aa978011c67ab7e5591c48fee6e77bbb05f03"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-NLD.json",
+                    "sha256": "dd903672025c02ffc9cdd9d9a22aa978011c67ab7e5591c48fee6e77bbb05f03"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -15181,9 +16975,9 @@
       "file": "state-NLD.json.gz",
       "validFrom": "1813-11-21",
       "validTo": null,
-      "compressedBytes": 8961,
-      "decodedBytes": 75086,
-      "sha256": "8976a29e7ef5fc0cb16a4cf0aea3eed280815cc4f4875a72e0c5fa140ae13160",
+      "compressedBytes": 10709,
+      "decodedBytes": 80426,
+      "sha256": "10905d692d5891d0615ca713131cdeff9ebe4ff76d20103f420e2196e1498ced",
       "bbox": [
         -68.417388,
         12.02204,
@@ -16399,7 +18193,111 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "status": "provisional-modern-proxy",
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "compiled-derivatives-only",
+              "notes": "Only the explicit compiler derivatives below were reviewed; unchanged source geometry is not silently promoted.",
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "ROU",
+                  "versionId": "state:ROU:natural-earth-5.1.1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "844cdcb518bdff9116f863059c970595fea46f7ecc8e20abdd0ca51b3e6bb962",
+                  "master": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-ROU.json",
+                    "sha256": "afdbd3403b537dc6120b5ba1a55fb2ab71aa8fa81da575e1d73701f196a871e5"
+                  },
+                  "source": {
+                    "reference": "Pinned library d2c023082b3e10ed0dc6928f629f190e0756933c: assets/data/territorial-entities/source/countries/state-ROU.json",
+                    "sha256": "afdbd3403b537dc6120b5ba1a55fb2ab71aa8fa81da575e1d73701f196a871e5"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day compiler priority replacement removes overlap with the reviewed 1914 outline. Remaining peer outline is an inherited modern proxy, not a historical reconstruction.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "reference-day replacement only",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": []
+                }
+              ]
+            }
+          }
         }
       ],
       "instantiation": {
@@ -16419,9 +18317,9 @@
       "file": "state-ROU.json.gz",
       "validFrom": "1859-02-05",
       "validTo": null,
-      "compressedBytes": 11958,
-      "decodedBytes": 95131,
-      "sha256": "1ac5a8620bb668b9e65d18eaf2c716498ed7aee1ec8682fa81e8dd9d69cb6c33",
+      "compressedBytes": 13763,
+      "decodedBytes": 100471,
+      "sha256": "387838545dda69df9cfb24cf7e1822b603920dde76305a4e8b87f8be2f9518ca",
       "bbox": [
         20.242826,
         43.65005,
@@ -31418,6 +33316,547 @@
         -22.39734,
         33.042768,
         -15.614808
+      ],
+      "geometryVersionCount": 1
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "state:austro-hungarian-empire",
+      "entityKind": "general",
+      "lineageId": "aut",
+      "names": {
+        "ko": "오스트리아-헝가리",
+        "en": "Austria-Hungary"
+      },
+      "alternateNames": [
+        "오헝",
+        "Austro-Hungarian Empire",
+        "Österreich-Ungarn"
+      ],
+      "lifetime": {
+        "validFrom": "1867",
+        "validTo": "1918"
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+          "validFrom": "1914-07-28",
+          "validTo": "1914-07-28",
+          "certainty": "provisional",
+          "sourceId": "histogis-modern-coast-policy-1914",
+          "historicalProvenance": {
+            "status": "provisional",
+            "referenceDate": "1914-07-28",
+            "scope": "Reference-day territorial reconstruction. Modern coastal/lake policy; no independent historical positional-accuracy claim.",
+            "limitations": [
+              "Technical topology and generalization only; not independent historical positional accuracy.",
+              "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+              "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+              "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+            ],
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "passed",
+              "entityId": "state:austro-hungarian-empire",
+              "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+              "validFrom": "1914-07-28",
+              "validTo": "1914-07-28",
+              "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681",
+              "master": {
+                "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+                "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148"
+              },
+              "source": {
+                "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+                "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148"
+              },
+              "comparison": {
+                "reference": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                  "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                },
+                "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                "extent": [
+                  5,
+                  40,
+                  28,
+                  57
+                ],
+                "scaleDenominator": 10000000,
+                "projection": {
+                  "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                  "units": "metre",
+                  "evidence": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                    "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                  }
+                }
+              },
+              "method": "reviewed-display-generalization",
+              "reason": "Reference-day display derivative reviewed against the preserved master and NE cartographic detail. Historical status remains provisional.",
+              "parameters": {
+                "toleranceMetres": 250,
+                "smallClosedArcPreservationLengthMetres": 100000,
+                "quantization": false,
+                "coordinateRounding": null,
+                "existingNaturalEarthReferenceArcs": "retained intact",
+                "overlayClosureLedger": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                  "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                },
+                "compiled": false,
+                "scope": "single reference day",
+                "historicalAccuracy": "provisional; no independent positional-error measurement"
+              },
+              "visual": {
+                "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-review.png",
+                "sha256": "7add1d66294bf460d26e638dfd946a9f9c272cb23672a990f9772c06ebfe226b"
+              },
+              "topology": {
+                "status": "passed",
+                "evidence": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                  "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                },
+                "checks": [
+                  "validity",
+                  "shared-boundary",
+                  "union",
+                  "gaps-overlaps",
+                  "connectivity",
+                  "holes-islands",
+                  "dates"
+                ],
+                "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+              },
+              "counterpartVersions": [
+                {
+                  "entityId": "state:DEU",
+                  "versionId": "state:DEU:1914-07-31-display-r1",
+                  "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                },
+                {
+                  "entityId": "state:kingdom-of-serbia",
+                  "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                  "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                }
+              ],
+              "fixedAnchors": [
+                [
+                  10.452726,
+                  46.530948
+                ],
+                [
+                  19.226442,
+                  43.527993
+                ],
+                [
+                  22.472058,
+                  44.71405
+                ]
+              ],
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "state:austro-hungarian-empire",
+                  "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681",
+                  "master": {
+                    "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+                    "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148"
+                  },
+                  "source": {
+                    "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+                    "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day display derivative reviewed against the preserved master and NE cartographic detail. Historical status remains provisional.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "single reference day",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:kingdom-of-serbia",
+                      "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                      "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d"
+                    }
+                  ],
+                  "fixedAnchors": [
+                    [
+                      10.452726,
+                      46.530948
+                    ],
+                    [
+                      19.226442,
+                      43.527993
+                    ],
+                    [
+                      22.472058,
+                      44.71405
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "territory-replacement",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "geographicRegion": "Europe",
+        "approximateGeometry": true,
+        "referenceDate": "1914-07-28",
+        "representativeGeometryVersionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+        "defaultColor": "#daa64b"
+      },
+      "sourceInfo": {
+        "title": "ACDH-CH HistoGIS historical land boundaries with Natural Earth v5.1.1 modern Adriatic/Bodensee",
+        "license": "HistoGIS CC BY 4.0; Natural Earth public domain",
+        "sourceId": "histogis-modern-coast-policy-1914"
+      },
+      "file": "state-austro-hungarian-empire.json.gz",
+      "validFrom": "1867",
+      "validTo": "1918",
+      "compressedBytes": 50247,
+      "decodedBytes": 422755,
+      "sha256": "18c50c9b8939122fce42ede0efebc98cd0dad9403300355b05020bf6873fe188",
+      "bbox": [
+        9.528983,
+        42.159049,
+        26.5097507,
+        51.0568033
+      ],
+      "geometryVersionCount": 1
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "state:kingdom-of-serbia",
+      "entityKind": "general",
+      "lineageId": "srb",
+      "names": {
+        "ko": "세르비아 왕국",
+        "en": "Kingdom of Serbia"
+      },
+      "alternateNames": [
+        "Краљевина Србија",
+        "Kraljevina Srbija"
+      ],
+      "lifetime": {
+        "validFrom": "1882-03-06",
+        "validTo": "1918"
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+          "validFrom": "1914-07-28",
+          "validTo": "1914-07-28",
+          "certainty": "provisional",
+          "sourceId": "histogis-modern-coast-policy-1914",
+          "historicalProvenance": {
+            "status": "provisional",
+            "referenceDate": "1914-07-28",
+            "scope": "Reference-day territorial reconstruction. Modern coastal/lake policy; no independent historical positional-accuracy claim.",
+            "limitations": [
+              "Technical topology and generalization only; not independent historical positional accuracy.",
+              "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+              "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+              "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+            ],
+            "displayDetailReview": {
+              "schemaVersion": 1,
+              "status": "passed",
+              "entityId": "state:kingdom-of-serbia",
+              "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+              "validFrom": "1914-07-28",
+              "validTo": "1914-07-28",
+              "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d",
+              "master": {
+                "reference": "tools/historical-library/sources/serbia/serbia-1914.geojson",
+                "sha256": "914dd9a93e6092b7436f99414fd19106fd0676a97c76c0a1e154096fad4591cd"
+              },
+              "source": {
+                "reference": "tools/historical-library/sources/serbia/serbia-1914.geojson",
+                "sha256": "914dd9a93e6092b7436f99414fd19106fd0676a97c76c0a1e154096fad4591cd"
+              },
+              "comparison": {
+                "reference": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                  "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                },
+                "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                "extent": [
+                  5,
+                  40,
+                  28,
+                  57
+                ],
+                "scaleDenominator": 10000000,
+                "projection": {
+                  "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                  "units": "metre",
+                  "evidence": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                    "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                  }
+                }
+              },
+              "method": "reviewed-display-generalization",
+              "reason": "Reference-day display derivative reviewed against the preserved master and NE cartographic detail. Historical status remains provisional.",
+              "parameters": {
+                "toleranceMetres": 250,
+                "smallClosedArcPreservationLengthMetres": 100000,
+                "quantization": false,
+                "coordinateRounding": null,
+                "existingNaturalEarthReferenceArcs": "retained intact",
+                "overlayClosureLedger": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                  "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                },
+                "compiled": false,
+                "scope": "single reference day",
+                "historicalAccuracy": "provisional; no independent positional-error measurement"
+              },
+              "visual": {
+                "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-review.png",
+                "sha256": "7add1d66294bf460d26e638dfd946a9f9c272cb23672a990f9772c06ebfe226b"
+              },
+              "topology": {
+                "status": "passed",
+                "evidence": {
+                  "reference": "reports/borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+                  "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10"
+                },
+                "checks": [
+                  "validity",
+                  "shared-boundary",
+                  "union",
+                  "gaps-overlaps",
+                  "connectivity",
+                  "holes-islands",
+                  "dates"
+                ],
+                "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+              },
+              "counterpartVersions": [
+                {
+                  "entityId": "state:DEU",
+                  "versionId": "state:DEU:1914-07-31-display-r1",
+                  "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                },
+                {
+                  "entityId": "state:austro-hungarian-empire",
+                  "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                  "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                }
+              ],
+              "fixedAnchors": [
+                [
+                  19.226442,
+                  43.527993
+                ],
+                [
+                  22.472058,
+                  44.71405
+                ]
+              ],
+              "compiledDerivatives": [
+                {
+                  "schemaVersion": 1,
+                  "status": "passed",
+                  "entityId": "state:kingdom-of-serbia",
+                  "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+                  "validFrom": "1914-07-28",
+                  "validTo": "1914-07-28",
+                  "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d",
+                  "master": {
+                    "reference": "tools/historical-library/sources/serbia/serbia-1914.geojson",
+                    "sha256": "914dd9a93e6092b7436f99414fd19106fd0676a97c76c0a1e154096fad4591cd"
+                  },
+                  "source": {
+                    "reference": "tools/historical-library/sources/serbia/serbia-1914.geojson",
+                    "sha256": "914dd9a93e6092b7436f99414fd19106fd0676a97c76c0a1e154096fad4591cd"
+                  },
+                  "comparison": {
+                    "reference": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+                      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540"
+                    },
+                    "arcSha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+                    "extent": [
+                      5,
+                      40,
+                      28,
+                      57
+                    ],
+                    "scaleDenominator": 10000000,
+                    "projection": {
+                      "definition": "EPSG:3035; traditional GIS input longitude,latitude",
+                      "units": "metre",
+                      "evidence": {
+                        "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                        "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                      }
+                    }
+                  },
+                  "method": "reviewed-display-generalization",
+                  "reason": "Reference-day display derivative reviewed against the preserved master and NE cartographic detail. Historical status remains provisional.",
+                  "parameters": {
+                    "toleranceMetres": 250,
+                    "smallClosedArcPreservationLengthMetres": 100000,
+                    "quantization": false,
+                    "coordinateRounding": null,
+                    "existingNaturalEarthReferenceArcs": "retained intact",
+                    "overlayClosureLedger": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+                      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b"
+                    },
+                    "compiled": true,
+                    "scope": "single reference day",
+                    "historicalAccuracy": "provisional; no independent positional-error measurement"
+                  },
+                  "visual": {
+                    "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+                    "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e"
+                  },
+                  "topology": {
+                    "status": "passed",
+                    "evidence": {
+                      "reference": "reports/borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+                      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46"
+                    },
+                    "checks": [
+                      "validity",
+                      "shared-boundary",
+                      "union",
+                      "gaps-overlaps",
+                      "connectivity",
+                      "holes-islands",
+                      "dates"
+                    ],
+                    "scope": "Technical preservation and exact reference-date/version bindings; does not certify cadastral or independent historical positional accuracy."
+                  },
+                  "counterpartVersions": [
+                    {
+                      "entityId": "state:DEU",
+                      "versionId": "state:DEU:1914-07-31-display-r1",
+                      "geometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62"
+                    },
+                    {
+                      "entityId": "state:austro-hungarian-empire",
+                      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+                      "geometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681"
+                    }
+                  ],
+                  "fixedAnchors": [
+                    [
+                      19.226442,
+                      43.527993
+                    ],
+                    [
+                      22.472058,
+                      44.71405
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "territory-replacement",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "geographicRegion": "Europe",
+        "approximateGeometry": true,
+        "referenceDate": "1914-07-28",
+        "representativeGeometryVersionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+        "defaultColor": "#c46757"
+      },
+      "sourceInfo": {
+        "title": "ACDH-CH HistoGIS Srbija reference-day reconstruction",
+        "license": "HistoGIS CC BY 4.0",
+        "sourceId": "histogis-modern-coast-policy-1914"
+      },
+      "file": "state-kingdom-of-serbia.json.gz",
+      "validFrom": "1882-03-06",
+      "validTo": "1918",
+      "compressedBytes": 12413,
+      "decodedBytes": 95748,
+      "sha256": "f4f1a3a33a4e1e683c94af6b1648e7e13ff0fa7a7664df1dee6b00a7f85c78b2",
+      "bbox": [
+        19.1035758,
+        40.85366,
+        23.034051,
+        44.9770938
       ],
       "geometryVersionCount": 1
     }
