@@ -9545,7 +9545,7 @@
         {
           "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
           "validFrom": null,
-          "validTo": "1914-07-30",
+          "validTo": "1870-12-31",
           "certainty": "provisional",
           "sourceId": "natural-earth-5.1.1",
           "historicalProvenance": {
@@ -9933,17 +9933,17 @@
         },
         {
           "versionId": "state:DEU:1914-07-31-display-r1",
-          "validFrom": "1914-07-31",
-          "validTo": "1914-07-31",
+          "validFrom": "1871-01-01",
+          "validTo": "1918-11-08",
           "certainty": "provisional",
           "sourceId": "histogis-modern-coast-policy-1914",
           "historicalProvenance": {
-            "status": "provisional",
+            "status": "provisional-representative-reuse",
             "referenceDate": "1914-07-31",
-            "scope": "Reference-day territorial reconstruction. Modern coastal/lake policy; no independent historical positional-accuracy claim.",
+            "scope": "Provisional representative display reuse across the selected historical identity period; detailed border-change versions are deferred.",
             "limitations": [
               "Technical topology and generalization only; not independent historical positional accuracy.",
-              "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+              "The 1914 reference-day geometry is reused provisionally; historical borders varied within the display period and detailed versions are deferred.",
               "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
               "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
             ],
@@ -10144,12 +10144,39 @@
                   ]
                 }
               ]
+            },
+            "representativeReuse": {
+              "status": "provisional-representative-reuse",
+              "referenceDate": "1914-07-31",
+              "displayPeriod": {
+                "validFrom": "1871-01-01",
+                "validTo": "1918-11-08"
+              },
+              "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+              "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+              "periodEvidence": {
+                "calendar": "gregorian",
+                "precision": "date",
+                "validFrom": "1871-01-01",
+                "lastValidDate": "1918-11-08",
+                "endEventDate": "1918-11-09",
+                "endEventBoundary": "exclusive",
+                "storedValidityBounds": "inclusive",
+                "startEvent": "German imperial constitution effective; January 18 was the subsequent symbolic proclamation.",
+                "endEvent": "Republic proclaimed; the imperial regime ends at the start of this model date.",
+                "sourceUrls": [
+                  "https://www.bundestag.de/dokumente/textarchiv/2021/kw11-kalenderblatt-150jahre-reichstag-828278",
+                  "https://www.bundestag.de/en/parliament/history/parliamentarism/empire/empire-200352"
+                ]
+              },
+              "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+              "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
             }
           }
         },
         {
           "versionId": "state:DEU:natural-earth-5.1.1",
-          "validFrom": "1914-08-01",
+          "validFrom": "1918-11-09",
           "validTo": null,
           "certainty": "high",
           "sourceId": "natural-earth-5.1.1"
@@ -10163,7 +10190,34 @@
         "sourceFeatureId": "DEU",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/de.svg",
         "representativeGeometryVersionId": "state:DEU:natural-earth-5.1.1",
-        "historicalGeometryNotes": "1914-07-31 only. Preserves existing German-state continuity; existing modern-outline baseline outside the single reconstructed reference day remains explicitly provisional and unchanged; no historical geometry period is inferred."
+        "historicalGeometryNotes": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다. 기준일 1914-07-31.",
+        "representativeGeometryReuse": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-31",
+          "displayPeriod": {
+            "validFrom": "1871-01-01",
+            "validTo": "1918-11-08"
+          },
+          "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+          "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+          "periodEvidence": {
+            "calendar": "gregorian",
+            "precision": "date",
+            "validFrom": "1871-01-01",
+            "lastValidDate": "1918-11-08",
+            "endEventDate": "1918-11-09",
+            "endEventBoundary": "exclusive",
+            "storedValidityBounds": "inclusive",
+            "startEvent": "German imperial constitution effective; January 18 was the subsequent symbolic proclamation.",
+            "endEvent": "Republic proclaimed; the imperial regime ends at the start of this model date.",
+            "sourceUrls": [
+              "https://www.bundestag.de/dokumente/textarchiv/2021/kw11-kalenderblatt-150jahre-reichstag-828278",
+              "https://www.bundestag.de/en/parliament/history/parliamentarism/empire/empire-200352"
+            ]
+          },
+          "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+          "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+        }
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -10173,9 +10227,9 @@
       "file": "state-DEU.json.gz",
       "validFrom": "1867-07-01",
       "validTo": null,
-      "compressedBytes": 116729,
-      "decodedBytes": 1025298,
-      "sha256": "132d43fa710d886f86917986095b46b449a6e36210984579b64e523853f5bce3",
+      "compressedBytes": 118448,
+      "decodedBytes": 1028500,
+      "sha256": "785e1b34b6c9cd1202391504c6b20abc9539511693038e8de0ef831ba0939f7f",
       "bbox": [
         5.85249,
         47.2705079,
@@ -33334,24 +33388,24 @@
         "Österreich-Ungarn"
       ],
       "lifetime": {
-        "validFrom": "1867",
-        "validTo": "1918"
+        "validFrom": "1867-02-17",
+        "validTo": "1918-10-30"
       },
       "parentEntityId": "",
       "geometryVersions": [
         {
           "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
-          "validFrom": "1914-07-28",
-          "validTo": "1914-07-28",
+          "validFrom": "1867-02-17",
+          "validTo": "1918-10-30",
           "certainty": "provisional",
           "sourceId": "histogis-modern-coast-policy-1914",
           "historicalProvenance": {
-            "status": "provisional",
+            "status": "provisional-representative-reuse",
             "referenceDate": "1914-07-28",
-            "scope": "Reference-day territorial reconstruction. Modern coastal/lake policy; no independent historical positional-accuracy claim.",
+            "scope": "Provisional representative display reuse across the selected historical identity period; detailed border-change versions are deferred.",
             "limitations": [
               "Technical topology and generalization only; not independent historical positional accuracy.",
-              "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+              "The 1914 reference-day geometry is reused provisionally; historical borders varied within the display period and detailed versions are deferred.",
               "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
               "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
             ],
@@ -33560,6 +33614,33 @@
                   ]
                 }
               ]
+            },
+            "representativeReuse": {
+              "status": "provisional-representative-reuse",
+              "referenceDate": "1914-07-28",
+              "displayPeriod": {
+                "validFrom": "1867-02-17",
+                "validTo": "1918-10-30"
+              },
+              "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+              "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+              "periodEvidence": {
+                "calendar": "gregorian",
+                "precision": "date",
+                "validFrom": "1867-02-17",
+                "lastValidDate": "1918-10-30",
+                "endEventDate": "1918-10-31",
+                "endEventBoundary": "exclusive",
+                "storedValidityBounds": "inclusive",
+                "startEvent": "Formation of the dual government selected as the registration event. The 1867 settlement had several constitutional and legislative stages; this date is a documented modeling choice, not the date of every stage.",
+                "endEvent": "Dissolution of the dual union; treated as the first date outside the old identity.",
+                "sourceUrls": [
+                  "https://universitaetsverlage.eu/bucher-e-books/titel/die-protokolle-des-cisleithanischen-ministerrates-1867-1918-band-i-1867/",
+                  "https://encyclopedia.1914-1918-online.net/article/post-war-turmoil-and-violence-hungary-1-1/"
+                ]
+              },
+              "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+              "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
             }
           }
         }
@@ -33573,7 +33654,35 @@
         "approximateGeometry": true,
         "referenceDate": "1914-07-28",
         "representativeGeometryVersionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
-        "defaultColor": "#daa64b"
+        "defaultColor": "#daa64b",
+        "historicalGeometryNotes": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다. 기준일 1914-07-28.",
+        "representativeGeometryReuse": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-28",
+          "displayPeriod": {
+            "validFrom": "1867-02-17",
+            "validTo": "1918-10-30"
+          },
+          "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+          "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+          "periodEvidence": {
+            "calendar": "gregorian",
+            "precision": "date",
+            "validFrom": "1867-02-17",
+            "lastValidDate": "1918-10-30",
+            "endEventDate": "1918-10-31",
+            "endEventBoundary": "exclusive",
+            "storedValidityBounds": "inclusive",
+            "startEvent": "Formation of the dual government selected as the registration event. The 1867 settlement had several constitutional and legislative stages; this date is a documented modeling choice, not the date of every stage.",
+            "endEvent": "Dissolution of the dual union; treated as the first date outside the old identity.",
+            "sourceUrls": [
+              "https://universitaetsverlage.eu/bucher-e-books/titel/die-protokolle-des-cisleithanischen-ministerrates-1867-1918-band-i-1867/",
+              "https://encyclopedia.1914-1918-online.net/article/post-war-turmoil-and-violence-hungary-1-1/"
+            ]
+          },
+          "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+          "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+        }
       },
       "sourceInfo": {
         "title": "ACDH-CH HistoGIS historical land boundaries with Natural Earth v5.1.1 modern Adriatic/Bodensee",
@@ -33581,11 +33690,11 @@
         "sourceId": "histogis-modern-coast-policy-1914"
       },
       "file": "state-austro-hungarian-empire.json.gz",
-      "validFrom": "1867",
-      "validTo": "1918",
-      "compressedBytes": 50247,
-      "decodedBytes": 422755,
-      "sha256": "18c50c9b8939122fce42ede0efebc98cd0dad9403300355b05020bf6873fe188",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "compressedBytes": 51200,
+      "decodedBytes": 427474,
+      "sha256": "3e11d5cf184e92a1e8d2bd841a66b586635204cd9869d3f0cc2e4cd7f1344110",
       "bbox": [
         9.528983,
         42.159049,
@@ -33609,23 +33718,23 @@
       ],
       "lifetime": {
         "validFrom": "1882-03-06",
-        "validTo": "1918"
+        "validTo": "1918-11-30"
       },
       "parentEntityId": "",
       "geometryVersions": [
         {
           "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
-          "validFrom": "1914-07-28",
-          "validTo": "1914-07-28",
+          "validFrom": "1882-03-06",
+          "validTo": "1918-11-30",
           "certainty": "provisional",
           "sourceId": "histogis-modern-coast-policy-1914",
           "historicalProvenance": {
-            "status": "provisional",
+            "status": "provisional-representative-reuse",
             "referenceDate": "1914-07-28",
-            "scope": "Reference-day territorial reconstruction. Modern coastal/lake policy; no independent historical positional-accuracy claim.",
+            "scope": "Provisional representative display reuse across the selected historical identity period; detailed border-change versions are deferred.",
             "limitations": [
               "Technical topology and generalization only; not independent historical positional accuracy.",
-              "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+              "The 1914 reference-day geometry is reused provisionally; historical borders varied within the display period and detailed versions are deferred.",
               "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
               "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
             ],
@@ -33826,6 +33935,33 @@
                   ]
                 }
               ]
+            },
+            "representativeReuse": {
+              "status": "provisional-representative-reuse",
+              "referenceDate": "1914-07-28",
+              "displayPeriod": {
+                "validFrom": "1882-03-06",
+                "validTo": "1918-11-30"
+              },
+              "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+              "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+              "periodEvidence": {
+                "calendar": "gregorian",
+                "precision": "date",
+                "validFrom": "1882-03-06",
+                "lastValidDate": "1918-11-30",
+                "endEventDate": "1918-12-01",
+                "endEventBoundary": "exclusive",
+                "storedValidityBounds": "inclusive",
+                "startEvent": "Kingdom proclaimed on March 6 Gregorian (February 22 Julian).",
+                "endEvent": "New South Slav kingdom established; treated as the first date outside the Kingdom of Serbia identity.",
+                "sourceUrls": [
+                  "https://nmkv.rs/140-years-since-the-establishment-of-the-kingdom-of-serbia/?lang=en",
+                  "https://www.parlament.gov.rs/national-assembly/history/history-1804---1918.1918.533.html"
+                ]
+              },
+              "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+              "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
             }
           }
         }
@@ -33839,7 +33975,35 @@
         "approximateGeometry": true,
         "referenceDate": "1914-07-28",
         "representativeGeometryVersionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
-        "defaultColor": "#c46757"
+        "defaultColor": "#c46757",
+        "historicalGeometryNotes": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다. 기준일 1914-07-28.",
+        "representativeGeometryReuse": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-28",
+          "displayPeriod": {
+            "validFrom": "1882-03-06",
+            "validTo": "1918-11-30"
+          },
+          "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+          "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+          "periodEvidence": {
+            "calendar": "gregorian",
+            "precision": "date",
+            "validFrom": "1882-03-06",
+            "lastValidDate": "1918-11-30",
+            "endEventDate": "1918-12-01",
+            "endEventBoundary": "exclusive",
+            "storedValidityBounds": "inclusive",
+            "startEvent": "Kingdom proclaimed on March 6 Gregorian (February 22 Julian).",
+            "endEvent": "New South Slav kingdom established; treated as the first date outside the Kingdom of Serbia identity.",
+            "sourceUrls": [
+              "https://nmkv.rs/140-years-since-the-establishment-of-the-kingdom-of-serbia/?lang=en",
+              "https://www.parlament.gov.rs/national-assembly/history/history-1804---1918.1918.533.html"
+            ]
+          },
+          "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+          "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+        }
       },
       "sourceInfo": {
         "title": "ACDH-CH HistoGIS Srbija reference-day reconstruction",
@@ -33848,10 +34012,10 @@
       },
       "file": "state-kingdom-of-serbia.json.gz",
       "validFrom": "1882-03-06",
-      "validTo": "1918",
-      "compressedBytes": 12413,
-      "decodedBytes": 95748,
-      "sha256": "f4f1a3a33a4e1e683c94af6b1648e7e13ff0fa7a7664df1dee6b00a7f85c78b2",
+      "validTo": "1918-11-30",
+      "compressedBytes": 13202,
+      "decodedBytes": 99732,
+      "sha256": "9ff77321b92312905c6fb870e002e6420c6e4ace5483de68b031dd227f8b313f",
       "bbox": [
         19.1035758,
         40.85366,
