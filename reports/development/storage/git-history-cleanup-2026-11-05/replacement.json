@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-11-05T04:31:03.520Z",
+  "status": "canonical repository and Pages switched; retired repository deletion pending authentication and Codespace protection",
+  "newRepositoryId": 1446519692,
+  "newRepository": "kimjeon-il/Pando",
+  "oldRepositoryId": 1436926716,
+  "oldRepository": "kimjeon-il/Pando-retired-20261105",
+  "oldArchived": true,
+  "publishedHeads": [
+    {
+      "oid": "6a1db6c2e87894016f98309135896ce0199537b6",
+      "ref": "refs/heads/main"
+    },
+    {
+      "oid": "a30d5b9ee28a9a932cb54dd2bb435e7ce7cba1ad",
+      "ref": "refs/heads/work/gis"
+    },
+    {
+      "oid": "6a1db6c2e87894016f98309135896ce0199537b6",
+      "ref": "refs/heads/work/objects"
+    },
+    {
+      "oid": "6a1db6c2e87894016f98309135896ce0199537b6",
+      "ref": "refs/heads/work/places"
+    },
+    {
+      "oid": "860dc1d44e0987dc0ca96082e1fdc4bd263b4f62",
+      "ref": "refs/heads/work/remote-only"
+    },
+    {
+      "oid": "6a1db6c2e87894016f98309135896ce0199537b6",
+      "ref": "refs/heads/work/ui"
+    }
+  ],
+  "concurrentChangePreserved": {
+    "oldCommit": "dd6712842ffa08d1c41880e17ce5bc365528ebc7",
+    "newCommit": "4310a5e4cb6408409de348f5332bb60277f47971",
+    "parent": "bab7c99f748fbad8e9f77ae3a36e2cad0363c40f",
+    "preservation": "exact four-file diff equality; original author and dates; only skip-ci message added; administrative workflow excluded",
+    "files": [
+      "docs/development/remote-only-development.md",
+      "tests/unit/library-data.test.mjs",
+      "tests/unit/p2-artifact-plan.test.mjs",
+      "tools/library-data.mjs"
+    ]
+  },
+  "secretsRestoration": {
+    "verifiedAt": "2026-11-05T04:18:38.389Z",
+    "targetRepositoryId": 1446519692,
+    "sourceWorkflowRun": 41966844856,
+    "names": [
+      "PANDOLAB_LIBRARY_WRITE_TOKEN",
+      "PANDO_ANDROID_DEBUG_KEYSTORE_B64",
+      "PANDO_ANDROID_DEBUG_KEY_PASSWORD",
+      "PANDO_ANDROID_DEBUG_STORE_PASSWORD"
+    ],
+    "originalsValidated": true,
+    "validatedOriginalSigningSha256": "2F:AB:34:B4:D4:E0:70:91:5C:51:57:41:68:9F:B5:34:9C:86:06:CC:03:C8:29:5B:27:3D:35:9B:D4:E6:7B:DD",
+    "ciphertextArtifactSha256": "fceae76f586f3669f4e3cc193ee8564871c62628967713dddbd9fa1e5e7bd9eb",
+    "ciphertextEntries": 4,
+    "keyBinding": "exact unchanged destination public key verified; REST key_id used as exact API string, correcting YAML numeric formatting",
+    "apiWrites": "all accepted; names read back",
+    "plaintextExtractedLocally": false,
+    "libraryRepositoryId": 1436926839
+  },
+  "canonicalVerification": {
+    "verifiedAt": "2026-11-05T04:29:21.784Z",
+    "newRepositoryId": 1446519692,
+    "runId": 41967722086,
+    "sourceCommit": "6a1db6c2e87894016f98309135896ce0199537b6",
+    "dataCommit": "2b8825e4570b0c1e0558f76317f4ce3d021b4f11",
+    "checkedFiles": 9,
+    "canonicalSite": "https://kimjeon-il.github.io/Pando/",
+    "liveViewerBrowser": "workflow passed",
+    "mapToolkitBootstrap": "exact pinned transfer hash passed",
+    "managedPullRefs": 0,
+    "secretsRestored": 4,
+    "oldDeletion": "pending GitHub authentication and Codespace preservation"
+  },
+  "codespace": {
+    "name": "urban-lamp-gr5rg4qr5g5hw669",
+    "repositoryId": 1436926716,
+    "observedHead": "cdfe47a309d3427dc405aee92716e12739804257",
+    "mappedHead": "a2f73d0f30fd8a49cb9dc6639cae445c8e76cc73",
+    "observedUncommittedFiles": 0,
+    "shallow": true,
+    "gitStorageApproxBytes": 14680064,
+    "state": "active; no deletion requested; source rebind and repository-deletion survival verification pending"
+  },
+  "authentication": {
+    "requiredAdditionalScopes": [
+      "codespace",
+      "delete_repo"
+    ],
+    "status": "GitHub CLI device authorization pending user action; no credentials included in report"
+  }
+}

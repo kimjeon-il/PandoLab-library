@@ -44,3 +44,7 @@ GitHub가 소유하는 과거 PR refs 17개에서 코드 승인 blob 633개가 �
 ## 재개 확인
 
 좁힌 단일 ZIP 삭제도 도구의 사전 정책 검토에서 거절돼 임시 산출물은 남아 있다. GitHub 공식 문서의 PR refs 제한과 비민감 자료 지원 제외를 확인했고, 운영 저장소 교체의 대상·보존 범위·삭제 영향·secrets 복원 조건을 remaining-actions.md에 구체화했다. 저장소 교체와 옛 저장소 삭제는 승인 대기이며 실행하지 않았다.
+
+## 승인 후 저장소 교체
+
+사용자 승인으로 운영 저장소를 새 ID 1446519692로 교체하고 canonical Pages 검증까지 마쳤다. 기존 secrets 4개와 전환 중 추가된 source patch도 보존했다. 새 운영 저장소의 PR refs는 0개다. 옛 ID 1436926716은 읽기 전용 Pando-retired-20261105로 남아 있으며, GitHub 권한 승인과 기존 Codespace 보존 확인 후 삭제할 예정이다. 현재 상태와 실제 증거는 replacement.md, replacement.json, replacement-live.json을 참조한다. 옛 저장소 삭제 완료는 아직 아니다.
