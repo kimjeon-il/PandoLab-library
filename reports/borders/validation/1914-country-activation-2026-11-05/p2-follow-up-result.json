@@ -1,11 +1,11 @@
 {
-  "observedAt": "2026-11-05T10:45:21.824Z",
-  "status": "fix-pushed-P2-pending",
+  "observedAt": "2026-11-05T10:52:34.796Z",
+  "status": "scoped-clipping-regression-fixed-P2-failed-at-USSR-review",
   "appCommit": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
   "remoteAppCommit": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
   "dataCommit": "b6c3c85bba690244829bdec93c58682d9342bda8",
   "remoteP2": {
-    "conclusion": "",
+    "conclusion": "failure",
     "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
     "jobs": [
       {
@@ -108,12 +108,12 @@
         "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652702/job/127195282301"
       },
       {
-        "completedAt": "0001-01-01T00:00:00Z",
-        "conclusion": "",
+        "completedAt": "2026-11-05T10:49:01Z",
+        "conclusion": "failure",
         "databaseId": 127195753611,
         "name": "generate",
         "startedAt": "2026-11-05T10:41:27Z",
-        "status": "in_progress",
+        "status": "completed",
         "steps": [
           {
             "completedAt": "2026-11-05T10:41:29Z",
@@ -252,66 +252,74 @@
             "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:57Z",
+            "conclusion": "failure",
             "name": "Commit verified phases locally, then publish one guarded result",
             "number": 18,
             "startedAt": "2026-11-05T10:42:20Z",
-            "status": "in_progress"
+            "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:57Z",
+            "conclusion": "skipped",
             "name": "Hand the exact verified result to P3",
             "number": 19,
-            "startedAt": "0001-01-01T00:00:00Z",
-            "status": "pending"
+            "startedAt": "2026-11-05T10:48:57Z",
+            "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:57Z",
+            "conclusion": "skipped",
             "name": "Run actions/upload-artifact@v4",
             "number": 20,
-            "startedAt": "0001-01-01T00:00:00Z",
-            "status": "pending"
+            "startedAt": "2026-11-05T10:48:57Z",
+            "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:57Z",
+            "conclusion": "success",
             "name": "Post Install pinned package manager only for selected data-family owners",
             "number": 37,
-            "startedAt": "0001-01-01T00:00:00Z",
-            "status": "pending"
+            "startedAt": "2026-11-05T10:48:57Z",
+            "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:57Z",
+            "conclusion": "skipped",
             "name": "Post Run actions/setup-node@v4",
             "number": 38,
-            "startedAt": "0001-01-01T00:00:00Z",
-            "status": "pending"
+            "startedAt": "2026-11-05T10:48:57Z",
+            "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:57Z",
+            "conclusion": "success",
             "name": "Post Prepare pinned external library data",
             "number": 39,
-            "startedAt": "0001-01-01T00:00:00Z",
-            "status": "pending"
+            "startedAt": "2026-11-05T10:48:57Z",
+            "status": "completed"
           },
           {
-            "completedAt": "0001-01-01T00:00:00Z",
-            "conclusion": "",
+            "completedAt": "2026-11-05T10:48:58Z",
+            "conclusion": "success",
             "name": "Post Run actions/checkout@v4",
             "number": 40,
-            "startedAt": "0001-01-01T00:00:00Z",
-            "status": "pending"
+            "startedAt": "2026-11-05T10:48:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T10:48:58Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 41,
+            "startedAt": "2026-11-05T10:48:58Z",
+            "status": "completed"
           }
         ],
         "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652702/job/127195753611"
       }
     ],
-    "status": "in_progress",
+    "status": "completed",
     "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652702"
   },
   "focusedTests": {
@@ -336,10 +344,92 @@
   "preExistingFailures": [
     "residual fixture ENOENT reproduced on baseline and registered code",
     "Hydro stale hardcoded pin guard",
-    "browser stale landRevision literal; same manifest/selector result at old and current pins"
+    "browser stale landRevision literal; same manifest/selector result at old and current pins",
+    "publication deterministic/stale-output fixture lacks a state:changing/before review; identical failure reproduced with prior and fixed modules"
   ],
   "appMainMerged": false,
   "deployed": false,
   "portableCreated": false,
-  "taskTemporaryFilesDeleted": false
+  "taskTemporaryFilesDeleted": false,
+  "exactCommitWorkflows": [
+    {
+      "conclusion": "success",
+      "databaseId": 42012652727,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "P4 Isolated GIS source checks",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652727"
+    },
+    {
+      "conclusion": "failure",
+      "databaseId": 42012652685,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "Hydro v0.13.4 live-cutover integration gate",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652685"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42012652690,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "Historical Germany 1914 HGIS source readiness",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652690"
+    },
+    {
+      "conclusion": "failure",
+      "databaseId": 42012652728,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "Builtin country publication contracts",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652728"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42012652733,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "P3 Remote preview and Web verification",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652733"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42012652744,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "P1 ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652744"
+    },
+    {
+      "conclusion": "failure",
+      "databaseId": 42012652725,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "Verify published 2000–2026 GIS historical year display",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652725"
+    },
+    {
+      "conclusion": "failure",
+      "databaseId": 42012652702,
+      "headSha": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "name": "P2 Source-matched generated artifacts",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/42012652702"
+    }
+  ],
+  "remainingP2Error": "Historical display review required: state:soviet-union/state:soviet-union:1922-12-30-reviewed-v2: missing or unresolved review",
+  "originalClippingErrorInFinalLog": false,
+  "publicationContractBaselineComparison": {
+    "baseline": "d3a241588424afb7fc0dcf5f94c71f3bdd995238",
+    "current": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+    "bothFailSameMissingReview": true,
+    "source": "publication-baseline-reproduction.json"
+  },
+  "USSRComparison": {
+    "sourceFileSha256": "7d28467b07fc933b9421e57216cb002e8a4df16fa5d61973b254789923f15b8a",
+    "compiledPayloadSha256": "b243f8b7fd9e6014725865fd6e017f907b5558e59e0f04fd65f85d3b7f89c258",
+    "sameAtAllThreePins": true,
+    "exactBaselineFullGenerationRun": false,
+    "USSRDataChanged": false
+  }
 }

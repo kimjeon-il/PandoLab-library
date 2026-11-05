@@ -1,0 +1,59 @@
+generate	Commit verified phases locally, then publish one guarded result	癤?026-11-05T10:42:20.2803061Z ##[group]Run set -euo pipefail
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2803361Z ^[[36;1mset -euo pipefail^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2803602Z ^[[36;1mgit config user.name 'github-actions[bot]'^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2803963Z ^[[36;1mgit config user.email '41898282+github-actions[bot]@users.noreply.github.com'^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2804322Z ^[[36;1mnode scripts/p2-publish-artifacts.mjs^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2823763Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2824047Z env:
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2824209Z   EMCC_CORES: 1
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2824382Z   BINARYEN_CORES: 1
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2824569Z   PANDO_P2_SCOPE: auto
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2824753Z   PANDO_P2_WASM: false
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2824987Z   PANDO_P2_BASE_SHA: d3a241588424afb7fc0dcf5f94c71f3bdd995238
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2825296Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2826148Z   PANDOLAB_LIBRARY_WRITE_TOKEN: ***
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:20.2826380Z ##[endgroup]
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:27.5454827Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:27.5456267Z Cloning into '/home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/.library-data/repository'...
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:27.5667310Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:28.0471749Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:42:28.1927627Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:43:13.6415325Z Built 288 territorial chunks and 2 reference snapshots
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:43:15.7600516Z Checked 288 territorial chunks and 2 reference snapshots
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:43:18.2351459Z Derived world view: 258 explicitly selected country versions
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:43:19.9097392Z Derived world view: 258 explicitly selected country versions
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4730160Z file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/tools/gis/historical-display-review.mjs:12
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4731350Z  const fail=message=>{throw Error(`Historical display review required: ${entityId}/${version.versionId}: ${message}`);};
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4732041Z                             ^
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4732219Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4733129Z Error: Historical display review required: state:soviet-union/state:soviet-union:1922-12-30-reviewed-v2: missing or unresolved review
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4734305Z     at fail (file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/tools/gis/historical-display-review.mjs:12:29)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4735618Z     at assertHistoricalDisplayReview (file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/tools/gis/historical-display-review.mjs:13:39)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4736647Z     at assertHistoricalCompiledChanges (file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/tools/gis/historical-display-review.mjs:41:3)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4737577Z     at writeBuiltinWorldPublication (file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/tools/build-builtin-world.mjs:167:386)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4738342Z     at file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/tools/build-builtin-world.mjs:203:2
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4738682Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.4738766Z Node.js v24.22.1
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6940175Z node:internal/errors:986
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6940800Z   const err = new Error(message);
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6941356Z               ^
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6941576Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6942098Z Error: Command failed: /opt/hostedtoolcache/node/24.22.1/x64/bin/node tools/build-builtin-world.mjs
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6942917Z     at genericNodeError (node:internal/errors:986:15)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6943385Z     at wrappedFn (node:internal/errors:540:14)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6943849Z     at checkExecSyncError (node:child_process:943:11)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6944340Z     at execFileSync (node:child_process:979:15)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6945280Z     at runCommand (file:///home/runner/work/Pando/Pando/scripts/lib/p2-artifact-graph.mjs:260:3)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6946712Z     at stageArtifacts (file:///home/runner/work/Pando/Pando/scripts/lib/p2-artifact-graph.mjs:243:48)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6947680Z     at async publishGeneratedArtifacts (file:///home/runner/work/Pando/Pando/scripts/p2-publish-artifacts.mjs:110:9)
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6948592Z     at async file:///home/runner/work/Pando/Pando/scripts/p2-publish-artifacts.mjs:135:16 {
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6949111Z   status: 1,
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6949362Z   signal: null,
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6949647Z   output: [ null, null, null ],
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6949936Z   pid: 7176,
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6950182Z   stdout: null,
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6950417Z   stderr: null
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6950652Z }
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6950781Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.6950892Z Node.js v24.22.1
+generate	Commit verified phases locally, then publish one guarded result	2026-11-05T10:48:57.7217739Z ##[error]Process completed with exit code 1.

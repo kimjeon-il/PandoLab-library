@@ -1,0 +1,49 @@
+{
+  "baseline": "d3a241588424afb7fc0dcf5f94c71f3bdd995238",
+  "current": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+  "comparison": [
+    {
+      "path": "tests/unit/historical-world-publication.test.mjs",
+      "baselineSha256": "44da56c6298d0f26d281deac80d15230e3d5517e9609b088bc5ce74a0eb8f9ba",
+      "currentSha256": "44da56c6298d0f26d281deac80d15230e3d5517e9609b088bc5ce74a0eb8f9ba",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/historical-world-cases.mjs",
+      "baselineSha256": "ac954fee9bd1163f3c7b798014d156c39770d34b7ef4dce1b751b28e1bcf5caa",
+      "currentSha256": "ac954fee9bd1163f3c7b798014d156c39770d34b7ef4dce1b751b28e1bcf5caa",
+      "unchanged": true
+    },
+    {
+      "path": "tests/helpers/builtin-world.mjs",
+      "baselineSha256": "f3c7fd1c9dc543560c758bf73841f5e905bfad978f57ccbfde20991a567aba9b",
+      "currentSha256": "f3c7fd1c9dc543560c758bf73841f5e905bfad978f57ccbfde20991a567aba9b",
+      "unchanged": true
+    },
+    {
+      "path": "tools/gis/historical-display-review.mjs",
+      "baselineSha256": "fc1d357f360ed013c4bf25dfe3deef3fa85c68024172ae4ebb32c51ead4df7f0",
+      "currentSha256": "fc1d357f360ed013c4bf25dfe3deef3fa85c68024172ae4ebb32c51ead4df7f0",
+      "unchanged": true
+    }
+  ],
+  "adapter": "Only import paths point at the existing application or three extracted baseline modules; fresh fixture cleanup is replaced with a retention diagnostic in both copies. Test assertions, synthetic data and production gate are unchanged. No test folder is removed.",
+  "results": [
+    {
+      "name": "baseline-d3a",
+      "revision": "d3a241588424afb7fc0dcf5f94c71f3bdd995238",
+      "exit": 1,
+      "sameReviewFailure": true,
+      "logFile": "baseline-d3a.log",
+      "output": "✖ country publication is deterministic, has no aggregate project and detects stale output (311.2566ms)\nℹ Preserved fresh synthetic fixture folder: C:\\Users\\taeeu\\AppData\\Local\\Temp\\builtin-country-publication-TsBZfI\nℹ tests 1\nℹ suites 0\nℹ pass 0\nℹ fail 1\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 770.1185\n\n✖ failing tests:\n\ntest at ..\\..\\..\\Codex\\2026-11-05\\task-2\\ci-baseline-publication\\baseline-d3a.test.mjs:11:1\n✖ country publication is deterministic, has no aggregate project and detects stale output (311.2566ms)\n  Error: Historical display review required: state:changing/before: missing or unresolved review\n      at fail (file:///D:/Codex/2026-11-05/task-2/ci-baseline-publication/historical-display-review.mjs:12:29)\n      at assertHistoricalDisplayReview (file:///D:/Codex/2026-11-05/task-2/ci-baseline-publication/historical-display-review.mjs:13:39)\n      at assertHistoricalCompiledChanges (file:///D:/Codex/2026-11-05/task-2/ci-baseline-publication/historical-display-review.mjs:41:3)\n      at writeBuiltinWorldPublication (file:///D:/Codex/2026-11-05/task-2/ci-baseline-publication/build-builtin-world.mjs:162:386)\n      at TestContext.<anonymous> (file:///D:/Codex/2026-11-05/task-2/ci-baseline-publication/baseline-d3a.test.mjs:19:2)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1402:25)\n      at Test.start (node:internal/test_runner/test:1262:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)\n"
+    },
+    {
+      "name": "fixed-ebc",
+      "revision": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+      "exit": 1,
+      "sameReviewFailure": true,
+      "logFile": "fixed-ebc.log",
+      "output": "✖ country publication is deterministic, has no aggregate project and detects stale output (305.2512ms)\nℹ Preserved fresh synthetic fixture folder: C:\\Users\\taeeu\\AppData\\Local\\Temp\\builtin-country-publication-iHkW3x\nℹ tests 1\nℹ suites 0\nℹ pass 0\nℹ fail 1\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 747.0867\n\n✖ failing tests:\n\ntest at ..\\..\\..\\Codex\\2026-11-05\\task-2\\ci-baseline-publication\\fixed-ebc.test.mjs:11:1\n✖ country publication is deterministic, has no aggregate project and detects stale output (305.2512ms)\n  Error: Historical display review required: state:changing/before: missing or unresolved review\n      at fail (file:///D:/dev/worktrees/gis/tools/gis/historical-display-review.mjs:12:29)\n      at assertHistoricalDisplayReview (file:///D:/dev/worktrees/gis/tools/gis/historical-display-review.mjs:13:39)\n      at assertHistoricalCompiledChanges (file:///D:/dev/worktrees/gis/tools/gis/historical-display-review.mjs:41:3)\n      at writeBuiltinWorldPublication (file:///D:/dev/worktrees/gis/tools/build-builtin-world.mjs:167:386)\n      at TestContext.<anonymous> (file:///D:/Codex/2026-11-05/task-2/ci-baseline-publication/fixed-ebc.test.mjs:19:2)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1402:25)\n      at Test.start (node:internal/test_runner/test:1262:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)\n"
+    }
+  ]
+}
