@@ -1,0 +1,244 @@
+{
+  "inheritedWaterSourceReceipt": {
+    "path": "assets/data/territorial-entities/generated/v2/waterbody-caspian.json.gz",
+    "manifestValue": "f6b69fb97567ec6a9a9ae0f7b12974660cb48d1d0ec2c2c707dcac09c9bf618f",
+    "currentChunkValue": "7456a671bc72eca0a0a480fb20c7151b582fa2c9d4b9d525e922e652ae9c1da3",
+    "scope": "Retained historical manifest entry; NOT read by scoped country owner or physical asset owner. Physical dependencies are unchanged land/water asset bytes, verified separately."
+  },
+  "status": "local internally consistent provisional research; not adoption-ready",
+  "rawChecks": [
+    {
+      "entity": "state:soviet-union",
+      "rawChunkNativeExact": true,
+      "lifetimesAndAllGeometryVersionsExpected": true,
+      "chunkSha256": "be912a3a0f146fe11c1033d03b72fb7fda04af886fa26ae0b8329483d7d9b151",
+      "nativeObjectSha256": "6d0c0fafca30aa0c73767ddf2443559e6275e98363e406e173fd41d22713ac77"
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "rawChunkNativeExact": true,
+      "lifetimesAndAllGeometryVersionsExpected": true,
+      "chunkSha256": "831c0523e70ef8c222de514e6be41bc2c6c14ac0581a81fe6cf55359caaa1374",
+      "nativeObjectSha256": "23608f774ee1c1f3a753761cd62e59020256c9a3c4c24a97b43d2ce98d93f6b6"
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "rawChunkNativeExact": true,
+      "lifetimesAndAllGeometryVersionsExpected": true,
+      "chunkSha256": "48b10238c156dca339bb8544c3358bc52e34d37a13fa8f49e460fed19928b880",
+      "nativeObjectSha256": "45db4b44e2e4b27084e6f1fae750d7f515450954d3bf1e5a7ff032d2e17de881"
+    },
+    {
+      "entity": "state:IRN",
+      "rawChunkNativeExact": true,
+      "lifetimesAndAllGeometryVersionsExpected": true,
+      "chunkSha256": "e336bed63e2bdaec955fe2188d462a35dac6121901d55968bfb66e6bf4808da1",
+      "nativeObjectSha256": "1e9e6d70c0b4885129b58abe69062464ded3062bc959dff213b68601aab73fc2"
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "rawChunkNativeExact": true,
+      "lifetimesAndAllGeometryVersionsExpected": true,
+      "chunkSha256": "62ed7ff33d07485c29416ee335d7a599ca5db01a5f9523f874263838aa49558e",
+      "nativeObjectSha256": "5070c125c96f556eccb50a3f648d1f9703392beacbaf8160d488b1fbee450a5b"
+    },
+    {
+      "entity": "waterbody:caspian",
+      "rawChunkNativeExact": true,
+      "lifetimesAndAllGeometryVersionsExpected": true,
+      "chunkSha256": "7456a671bc72eca0a0a480fb20c7151b582fa2c9d4b9d525e922e652ae9c1da3",
+      "nativeObjectSha256": "0f11928755ef27a61cb96e39d78a468656daa2ae0a58fab3064e2dfa510d67b9"
+    }
+  ],
+  "nativeIndexSha256": "d78fdbc523747dcbe092f6519bd489014461c98a976731da49fc734e3cf0ef13",
+  "freshCounterpartResearchDigests": true,
+  "sourceGate": [
+    {
+      "entity": "state:soviet-union",
+      "version": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "rejected": true,
+      "reason": "Historical display review required: state:soviet-union/state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13: missing or unresolved review"
+    },
+    {
+      "entity": "state:soviet-union",
+      "version": "state:soviet-union:1922-12-30-reviewed-v2",
+      "rejected": true,
+      "reason": "Historical display review required: state:soviet-union/state:soviet-union:1922-12-30-reviewed-v2: missing or unresolved review"
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "version": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "rejected": true,
+      "reason": "Historical display review required: state:soviet-union-russian-sfsr/state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2: missing or unresolved review"
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "version": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "rejected": true,
+      "reason": "Historical display review required: state:soviet-union-byelorussian-ssr/state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2: missing or unresolved review"
+    },
+    {
+      "entity": "state:IRN",
+      "version": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+      "rejected": true,
+      "reason": "Historical display review required: state:IRN/state:IRN:natural-earth-5.1.1:caspian-1922-12-30: missing or unresolved review"
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "version": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "rejected": true,
+      "reason": "Historical display review required: state:soviet-union-ukrainian-ssr/state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2: missing or unresolved review"
+    },
+    {
+      "entity": "waterbody:caspian",
+      "version": "caspian-near1922-approved",
+      "rejected": true,
+      "reason": "Historical display review required: waterbody:caspian/caspian-near1922-approved: missing or unresolved review"
+    }
+  ],
+  "storageGate": {
+    "passed": false,
+    "reason": "Historical display review required: state:soviet-union-byelorussian-ssr/state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2: missing or unresolved review"
+  },
+  "dates": [
+    {
+      "entity": "state:soviet-union",
+      "date": "1922-12-29",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union",
+      "date": "1922-12-30",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union",
+      "date": "1925-05-12",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union",
+      "date": "1925-05-13",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "date": "1922-12-29",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "date": "1922-12-30",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "date": "1925-05-12",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "date": "1925-05-13",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "date": "1922-12-29",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "date": "1922-12-30",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "date": "1925-05-12",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "date": "1925-05-13",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "IRN",
+      "date": "1922-12-29",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "IRN",
+      "date": "1922-12-30",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "IRN",
+      "date": "1925-05-12",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "IRN",
+      "date": "1925-05-13",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "date": "1922-12-29",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "date": "1922-12-30",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "date": "1925-05-12",
+      "selected": 1,
+      "dateAndOutsideRefsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "date": "1925-05-13",
+      "selected": 0,
+      "dateAndOutsideRefsPreserved": true
+    }
+  ],
+  "prepared": {
+    "count": 31,
+    "reused": 26,
+    "newPacketsDecoded": 5,
+    "priorManifestEntriesPreserved": 427
+  },
+  "physicalByteIdentity": [
+    "assets/data/physical-land/v1/manifest.json",
+    "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+    "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+    "assets/data/physical-land/v1/aral-1922-1929-water.json.gz"
+  ],
+  "preservedDescriptors": [
+    "state:MCO",
+    "state:CHN",
+    "state:KOR",
+    "state:PRK"
+  ],
+  "allActivePinsUnchanged": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc"
+}
