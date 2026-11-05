@@ -134,3 +134,6 @@
 - 원격 combined-status API는 빈 statuses 배열을 반환했다. 원격 CI 통과로 간주하지 않는다. 로컬 집중 검사는 위와 같이 20건 통과·0건 실패다.
 - 앱 main 통합·배포·native 실행·포터블/설치 패키지는 실행하지 않았다.
 - 런타임/앱 push 및 제한의 구조화된 기록: [publication-result.json](publication-result.json). 보고서 원문은 기존 --publish-reports / --check-reports 절차로 이 범위만 보관·원격 검증한다.
+
+
+[CI follow-up](ci-follow-up.md): reference-day provincial parent correction, exact commits, reproduction and separate baseline failures.

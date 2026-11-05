@@ -1,0 +1,67 @@
+{
+  "referenceGeometryChecks": [
+    {
+      "entityId": "DEU",
+      "date": "1914-07-31",
+      "geometrySha256": "d551696e8c47f3afc3ae6a4af5ccc5c71f9a6e36bf83eea04d77f41df06f218e",
+      "matchesPinnedGeometry": true
+    },
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "date": "1914-07-28",
+      "geometrySha256": "dee748b2c481ba1e3bc0f6a7162390d29f43566e1d44ed46964b1cc177a38394",
+      "matchesPinnedGeometry": true
+    },
+    {
+      "entityId": "state:kingdom-of-serbia",
+      "date": "1914-07-28",
+      "geometrySha256": "78941e64c44324df4c3d5d5d2fea68a63d6e55a59a8f71cf08df48ef34e06700",
+      "matchesPinnedGeometry": true
+    },
+    {
+      "entityId": "state:east-prussia",
+      "date": "1914-07-31",
+      "geometrySha256": "bf7978ac7b95a6e48828fd3d568d0a03aac9f2053b80ce6f78d1334e29dcc473",
+      "matchesPinnedGeometry": true
+    },
+    {
+      "entityId": "state:west-prussia",
+      "date": "1914-07-31",
+      "geometrySha256": "e02e4248108e86f5fe172751be710ace69ff389a4dc4b50467587310e91715fb",
+      "matchesPinnedGeometry": true
+    }
+  ],
+  "nativeTimelineChecks": [
+    {
+      "month": "1914-06",
+      "status": "passed",
+      "entities": 15
+    },
+    {
+      "month": "1914-07",
+      "status": "passed",
+      "entities": 15
+    },
+    {
+      "month": "1914-08",
+      "status": "passed",
+      "entities": 15
+    },
+    {
+      "month": "2026-11",
+      "status": "passed",
+      "entities": 13
+    }
+  ],
+  "sourceChanges": 0,
+  "geometryChanges": 0,
+  "adjacentDatesPreserved": [
+    "1914-07-27",
+    "1914-07-28",
+    "1914-07-29",
+    "1914-07-30",
+    "1914-08-01",
+    "2026-11-05"
+  ],
+  "sharedBoundaryAndIslandEvidence": "The three historical geometry objects are byte-for-byte equal to the previously reviewed pinned shapes; their exact seams, islands, anchors and provisional provenance therefore remain unchanged."
+}

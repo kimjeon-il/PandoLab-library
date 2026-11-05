@@ -1,0 +1,128 @@
+[
+  {
+    "revision": "d2c023082b3e10ed0dc6928f629f190e0756933c",
+    "entities": [
+      "state:DEU",
+      "state:ALB",
+      "state:BEL",
+      "state:BGR",
+      "state:CHE",
+      "state:DNK",
+      "state:FRA",
+      "state:GRC",
+      "state:HUN",
+      "state:ITA",
+      "state:LUX",
+      "state:NLD",
+      "state:ROU",
+      "state:east-prussia",
+      "state:west-prussia"
+    ],
+    "countries": 15,
+    "operations": 31,
+    "status": "passed"
+  },
+  {
+    "revision": "bd62cc8ec6d8221202ed19de0a66f98d3e07ace9",
+    "entities": [
+      "state:DEU",
+      "state:ALB",
+      "state:BEL",
+      "state:BGR",
+      "state:CHE",
+      "state:DNK",
+      "state:FRA",
+      "state:GRC",
+      "state:HUN",
+      "state:ITA",
+      "state:LUX",
+      "state:NLD",
+      "state:ROU",
+      "state:austro-hungarian-empire",
+      "state:kingdom-of-serbia",
+      "state:east-prussia",
+      "state:west-prussia"
+    ],
+    "operations": 155,
+    "status": "failed",
+    "error": "RangeError: Maximum call stack size exceeded",
+    "stack": [
+      "RangeError: Maximum call stack size exceeded",
+      "    at V.enclosingRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22725)",
+      "    at V.isExteriorRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22623)",
+      "    at V.isExteriorRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22667)",
+      "    at V.isExteriorRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22667)",
+      "    at V.isExteriorRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22667)",
+      "    at V.isExteriorRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22667)",
+      "    at V.isExteriorRing (file:///D:/dev/worktrees/gis/shared/frontend/js/vendor/polygon-clipping.min.js:24:22667)"
+    ],
+    "last": [
+      {
+        "op": "intersection",
+        "polygons": [
+          1,
+          1
+        ],
+        "hashes": [
+          "80828e7399059535de875fe3313650db9dcf6c1d4be1c10ff6d502551851c51a",
+          "32a7ea4a980dfa414d3a5cfcdef4d1b3040230460f29892f02150a8932ef3fba"
+        ]
+      },
+      {
+        "op": "intersection",
+        "polygons": [
+          1,
+          1
+        ],
+        "hashes": [
+          "80828e7399059535de875fe3313650db9dcf6c1d4be1c10ff6d502551851c51a",
+          "606ff16e7c465cdfc423a3134ffb6b4421acd76f72e4ba4c433d3005e5746e77"
+        ]
+      },
+      {
+        "op": "intersection",
+        "polygons": [
+          12,
+          1
+        ],
+        "hashes": [
+          "c60611e71b47b8b0c4f97b356832aba3fd78b66f954a199c82c6a23e29b0759b",
+          "32a7ea4a980dfa414d3a5cfcdef4d1b3040230460f29892f02150a8932ef3fba"
+        ]
+      },
+      {
+        "op": "intersection",
+        "polygons": [
+          12,
+          1
+        ],
+        "hashes": [
+          "c60611e71b47b8b0c4f97b356832aba3fd78b66f954a199c82c6a23e29b0759b",
+          "606ff16e7c465cdfc423a3134ffb6b4421acd76f72e4ba4c433d3005e5746e77"
+        ]
+      },
+      {
+        "op": "union",
+        "polygons": [
+          1,
+          1
+        ],
+        "hashes": [
+          "343daddf99e983d55ad7c5fd27c2177da0c6e379f074792b1a85e3ec66be901d",
+          "37ea5175998bbdbd0f7e9bcded40ea28b5a430b3d4d26992a7e03fc34e0bb09d"
+        ]
+      },
+      {
+        "op": "difference",
+        "polygons": [
+          22,
+          1
+        ],
+        "hashes": [
+          "accdfb55b04f1cdc188f190ac22a2e80a3edab6d579f4fa6c9f22a141bb67c1c",
+          "ccadd4180b006e68f311a4ac31db0e6db1b01699834faa89d3f12b408780c760"
+        ]
+      }
+    ]
+  }
+]

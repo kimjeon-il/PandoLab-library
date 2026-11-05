@@ -1,0 +1,68 @@
+{
+  "baseData": "bd62cc8ec6d8221202ed19de0a66f98d3e07ace9",
+  "root": "D:/dev/worktrees/gis",
+  "changedEntities": [
+    "state:east-prussia",
+    "state:west-prussia"
+  ],
+  "sourceChanges": [],
+  "geometryChanges": [],
+  "parentRelations": [
+    {
+      "entityId": "state:east-prussia",
+      "parentEntityId": "state:DEU",
+      "validFrom": "1914-07-31",
+      "validTo": "1914-07-31",
+      "basis": {
+        "sourceEntityId": "state:DEU",
+        "geometryVersionIds": [
+          "state:DEU:1914-07-31-display-r1"
+        ],
+        "scope": "Both provinces belong within the German Empire reference-day baseline. This compiled parent relation changes no source parent, geometry, lifetime, source validity or other date; it does not certify the provincial outlines."
+      }
+    },
+    {
+      "entityId": "state:west-prussia",
+      "parentEntityId": "state:DEU",
+      "validFrom": "1914-07-31",
+      "validTo": "1914-07-31",
+      "basis": {
+        "sourceEntityId": "state:DEU",
+        "geometryVersionIds": [
+          "state:DEU:1914-07-31-display-r1"
+        ],
+        "scope": "Both provinces belong within the German Empire reference-day baseline. This compiled parent relation changes no source parent, geometry, lifetime, source validity or other date; it does not certify the provincial outlines."
+      }
+    }
+  ],
+  "unchangedCountryDescriptors": 278,
+  "files": [
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-east-prussia-sha256-34394d616413a7f6897553c46951b563fc4a718d07b733f742cee68857a9b98e.json.gz",
+      "sha256": "34394d616413a7f6897553c46951b563fc4a718d07b733f742cee68857a9b98e",
+      "bytes": 53268
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-west-prussia-sha256-f3bdc860099d2bad780b5a8ce7d299db04f2e0571b3018db27c146871e26e3e4.json.gz",
+      "sha256": "f3bdc860099d2bad780b5a8ce7d299db04f2e0571b3018db27c146871e26e3e4",
+      "bytes": 25896
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/index.json",
+      "sha256": "8943ecde9621649bccb5a14afac73e182010831e59e2fee55ccfc59c50f79549",
+      "bytes": 148852
+    },
+    {
+      "logical": "assets/data/historical-world/policy.json",
+      "sha256": "c8d013e9868755befaebdbdc6b7c5d8f62dca8ae32816f69421758bfceba1e44",
+      "bytes": 14646
+    }
+  ],
+  "prefixes": [
+    "assets/data/builtin-world/generated/v1/countries/state-east-prussia-sha256-34394d616413a7f6897553c46951b563fc4a718d07b733f742cee68857a9b98e.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-west-prussia-sha256-f3bdc860099d2bad780b5a8ce7d299db04f2e0571b3018db27c146871e26e3e4.json.gz",
+    "assets/data/builtin-world/generated/v1/index.json",
+    "assets/data/historical-world/policy.json"
+  ],
+  "written": true
+}

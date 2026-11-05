@@ -1,0 +1,30 @@
+✖ runtime preparation needs only active builtin files and broad storage preserves unhydrated archive history (6379.0312ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6531.1129
+
+✖ failing tests:
+
+test at ..\..\..\Codex\2026-11-05\task-2\ci-baseline-residual\builtin-country-materialization-3be.test.mjs:45:1
+✖ runtime preparation needs only active builtin files and broad storage preserves unhydrated archive history (6379.0312ms)
+  Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pando-country-runtime-8wmpZI\app\.library-data\repository\.pando-cache\materialized\main\5e2f1a373327365163f72379809aad3c47f63d53\assets\data\territorial-entities\generated\v2\index.json'
+      at Object.openSync (node:fs:621:18)
+      at readFileSync (node:fs:487:35)
+      at newBytes (file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/library-data-3be.mjs:1509:245)
+      at storeOwnedLibraryData (file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/library-data-3be.mjs:1511:34)
+      at file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/library-data-3be.mjs:1399:38
+      at withCheckoutLock (file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/library-data-3be.mjs:591:18)
+      at withLibraryLock (file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/library-data-3be.mjs:575:81)
+      at storeLibraryData (file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/library-data-3be.mjs:1399:10)
+      at TestContext.<anonymous> (file:///D:/Codex/2026-11-05/task-2/ci-baseline-residual/builtin-country-materialization-3be.test.mjs:52:2)
+      at Test.runInAsyncScope (node:async_hooks:227:14) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-country-runtime-8wmpZI\\app\\.library-data\\repository\\.pando-cache\\materialized\\main\\5e2f1a373327365163f72379809aad3c47f63d53\\assets\\data\\territorial-entities\\generated\\v2\\index.json'
+  }

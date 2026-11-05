@@ -1,0 +1,70 @@
+{
+  "appCommit": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+  "dataCommit": "b6c3c85bba690244829bdec93c58682d9342bda8",
+  "remoteDataCommit": "b6c3c85bba690244829bdec93c58682d9342bda8",
+  "verifiedFiles": [
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-east-prussia-sha256-34394d616413a7f6897553c46951b563fc4a718d07b733f742cee68857a9b98e.json.gz",
+      "sha256": "34394d616413a7f6897553c46951b563fc4a718d07b733f742cee68857a9b98e",
+      "bytes": 53268
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-west-prussia-sha256-f3bdc860099d2bad780b5a8ce7d299db04f2e0571b3018db27c146871e26e3e4.json.gz",
+      "sha256": "f3bdc860099d2bad780b5a8ce7d299db04f2e0571b3018db27c146871e26e3e4",
+      "bytes": 25896
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/index.json",
+      "sha256": "8943ecde9621649bccb5a14afac73e182010831e59e2fee55ccfc59c50f79549",
+      "bytes": 148852
+    },
+    {
+      "logical": "assets/data/historical-world/policy.json",
+      "sha256": "c8d013e9868755befaebdbdc6b7c5d8f62dca8ae32816f69421758bfceba1e44",
+      "bytes": 14646
+    }
+  ],
+  "changedLogicalPaths": [
+    "assets/data/builtin-world/generated/v1/index.json",
+    "assets/data/historical-world/policy.json",
+    "assets/data/builtin-world/generated/v1/countries/state-east-prussia-sha256-34394d616413a7f6897553c46951b563fc4a718d07b733f742cee68857a9b98e.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-west-prussia-sha256-f3bdc860099d2bad780b5a8ce7d299db04f2e0571b3018db27c146871e26e3e4.json.gz"
+  ],
+  "sourceDescriptorsPreserved": [
+    "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+    "assets/data/territorial-entities/source/countries/state-west-prussia.json",
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/source/countries/state-kingdom-of-serbia.json"
+  ],
+  "physicalBaselineSelection": [
+    {
+      "revision": "d2c023082b3e10ed0dc6928f629f190e0756933c",
+      "date": "1922-12-31",
+      "selectedObjects": 2,
+      "landRevisions": [
+        "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+      ],
+      "hydroPinnedGuardPasses": false
+    },
+    {
+      "revision": "bd62cc8ec6d8221202ed19de0a66f98d3e07ace9",
+      "date": "1922-12-31",
+      "selectedObjects": 2,
+      "landRevisions": [
+        "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+      ],
+      "hydroPinnedGuardPasses": false
+    },
+    {
+      "revision": "b6c3c85bba690244829bdec93c58682d9342bda8",
+      "date": "1922-12-31",
+      "selectedObjects": 2,
+      "landRevisions": [
+        "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+      ],
+      "hydroPinnedGuardPasses": false
+    }
+  ],
+  "sourceAndGeometryChanges": 0
+}

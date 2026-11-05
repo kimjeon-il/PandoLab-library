@@ -1,0 +1,30 @@
+✖ runtime preparation needs only active builtin files and broad storage preserves unhydrated archive history (6344.73ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6479.1457
+
+✖ failing tests:
+
+test at tests\unit\builtin-country-materialization.test.mjs:45:1
+✖ runtime preparation needs only active builtin files and broad storage preserves unhydrated archive history (6344.73ms)
+  Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pando-country-runtime-O8ZjEP\app\.library-data\repository\.pando-cache\materialized\main\2c2cb4d5d845d799f637d78205d05d7f2eb80baa\assets\data\territorial-entities\generated\v2\index.json'
+      at Object.openSync (node:fs:621:18)
+      at readFileSync (node:fs:487:35)
+      at newBytes (file:///D:/dev/worktrees/gis/tools/library-data.mjs:1532:245)
+      at storeOwnedLibraryData (file:///D:/dev/worktrees/gis/tools/library-data.mjs:1534:34)
+      at file:///D:/dev/worktrees/gis/tools/library-data.mjs:1399:38
+      at withCheckoutLock (file:///D:/dev/worktrees/gis/tools/library-data.mjs:591:18)
+      at withLibraryLock (file:///D:/dev/worktrees/gis/tools/library-data.mjs:575:81)
+      at storeLibraryData (file:///D:/dev/worktrees/gis/tools/library-data.mjs:1399:10)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/builtin-country-materialization.test.mjs:52:2)
+      at Test.runInAsyncScope (node:async_hooks:227:14) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-country-runtime-O8ZjEP\\app\\.library-data\\repository\\.pando-cache\\materialized\\main\\2c2cb4d5d845d799f637d78205d05d7f2eb80baa\\assets\\data\\territorial-entities\\generated\\v2\\index.json'
+  }
