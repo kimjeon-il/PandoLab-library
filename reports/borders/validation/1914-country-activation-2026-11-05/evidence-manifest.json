@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "applicationBase": "3be531e2fb8217adc9803357176e356c0030968b",
+  "libraryBase": "d2c023082b3e10ed0dc6928f629f190e0756933c",
+  "logical": "reports/borders/validation/1914-country-activation-2026-11-05",
+  "originals": {
+    "tools/historical-library/working/german-empire-1914-base.geojson": {
+      "stored": "archive/blobs/1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb.gz",
+      "encoding": "gzip",
+      "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb",
+      "bytes": 687500
+    },
+    "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson": {
+      "stored": "archive/blobs/f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148.gz",
+      "encoding": "gzip",
+      "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148",
+      "bytes": 703289
+    },
+    "tools/historical-library/sources/serbia/serbia-1914.geojson": {
+      "stored": "archive/blobs/914dd9a93e6092b7436f99414fd19106fd0676a97c76c0a1e154096fad4591cd.gz",
+      "encoding": "gzip",
+      "sha256": "914dd9a93e6092b7436f99414fd19106fd0676a97c76c0a1e154096fad4591cd",
+      "bytes": 1038182
+    },
+    "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson": {
+      "stored": "archive/blobs/0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9.gz",
+      "encoding": "gzip",
+      "sha256": "0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9",
+      "bytes": 301148
+    }
+  },
+  "originalReport": {
+    "path": "reports/geography/serbia/serbia-montenegro-1914-map-crosscheck.md",
+    "stored": "archive/blobs/0b0611e4cd7aec54e474e328e9ccd101a3e1f7e3d70bbc0c68d8bbe3bdf66fbe.gz",
+    "encoding": "gzip",
+    "sha256": "0b0611e4cd7aec54e474e328e9ccd101a3e1f7e3d70bbc0c68d8bbe3bdf66fbe",
+    "bytes": 5086
+  },
+  "evidence": {
+    "app-publication.json": {
+      "sha256": "e31bb6a211e057289192779d13da12f4140961d11565ae01eb17c780727dbc4c",
+      "bytes": 344
+    },
+    "bind-reviews.mjs": {
+      "sha256": "e57ec269611ffcbe07385a1b6cf6392266ce1f73b936e60443bb24a24a3b3a04",
+      "bytes": 7213
+    },
+    "candidate.mjs": {
+      "sha256": "36f034aa48b7f5b19d43f8aa3f4746506e2caa805aea73978dec8bc105971bfb",
+      "bytes": 7119
+    },
+    "close-overlay.mjs": {
+      "sha256": "144cb8151330f90a59f436e61eb74db91b6f0fdac9d4324fb42cb9b60a868755",
+      "bytes": 1744
+    },
+    "compiled-proof.json": {
+      "sha256": "721a5c9e028c6306cf344d6898df268aa15468996e52bff3348ae4b63de58b46",
+      "bytes": 5897
+    },
+    "compiled-review.png": {
+      "sha256": "6b1d5b479f7589cf1fbcba7dbcd1a0db61e82d2b707edafd18a6d81d2d6fbf9e",
+      "bytes": 204742
+    },
+    "compiled-review.svg": {
+      "sha256": "e827ce36f88c4bd488179eab84a0baafdb19fdd7f4c83f3f8aa5835d434b7023",
+      "bytes": 2192887
+    },
+    "display-before-closure.json": {
+      "sha256": "969c96f5a7d28c936a6fcc148f6b53425b1bb1c1b3d337ceae0e1f753a16641d",
+      "bytes": 268321
+    },
+    "display-closure-ledger.json": {
+      "sha256": "c93df65ea4ba832f5dd67b8b6c6f38841ea3e735ad35b46c54330dfd0a65d73b",
+      "bytes": 4539
+    },
+    "display-final.json": {
+      "sha256": "252320f8046f6a16ee56f070d1ec0c474b2f22c35eef31b334b4cab5278625e9",
+      "bytes": 268908
+    },
+    "display-review.png": {
+      "sha256": "7add1d66294bf460d26e638dfd946a9f9c272cb23672a990f9772c06ebfe226b",
+      "bytes": 191036
+    },
+    "display-review.svg": {
+      "sha256": "dbeba662341332a5ffc89d063b26e3c3d3f0da5ed20462d12f4d0d58502ad9bd",
+      "bytes": 4814889
+    },
+    "fragment-probe.py": {
+      "sha256": "476194f146aba8fa7454e3f748c2845d86fd913ad929c46519e292c242fd2a07",
+      "bytes": 1070
+    },
+    "generalize.py": {
+      "sha256": "8e6b0bb1ec09ab26abdb5e72d24ccb03e7329b334a9c60fe4fe3e1e6bada0cad",
+      "bytes": 1927
+    },
+    "important-islands-proof.json": {
+      "sha256": "2bbef200efcbe48033dcbb22a263a6feba189649f0f4651784c59007a76dbae9",
+      "bytes": 10437
+    },
+    "ne-reference-arcs.json": {
+      "sha256": "44955c7f3d485cb4a81dd0ee03e6907bd79354857996f337a3f4b551d99aa540",
+      "bytes": 334328
+    },
+    "post-registration-proof.json": {
+      "sha256": "dd6f00ccc2cda834b2976851f3c470b0d55246a3c0a4a242ca335484bb7a467a",
+      "bytes": 7405
+    },
+    "preservation-proof.json": {
+      "sha256": "9b25b440aff57ab337829ca3a483965074eb9936ca177b361a47c5cbe7008c26",
+      "bytes": 16930
+    },
+    "preserve-modern-arcs.py": {
+      "sha256": "cc69c9b0c815972bd190d3d6f653a7c45854807148f7d8f253a6ed6966cba47c",
+      "bytes": 1681
+    },
+    "publication-result.json": {
+      "sha256": "ee9c641f676c66f41dbb39d17f1a9af7a7f4797ccb8b70035d741099c4806193",
+      "bytes": 1225
+    },
+    "README.md": {
+      "sha256": "04d5c52db8e554e9a4ecbe12eeeed138b05dade53f8580da723d22c25b25cd4c",
+      "bytes": 13178
+    },
+    "reference-snapping-proof.json": {
+      "sha256": "659522ede7e1563bfe76b00ac5c87398a2df25062b209678ad5bd014a4ea77b8",
+      "bytes": 689
+    },
+    "register.mjs": {
+      "sha256": "ba67194ab7a830e2f1b590d00cfdf2f7abe13a96579e19e49c291e173d956d78",
+      "bytes": 8582
+    },
+    "registration-plan.json": {
+      "sha256": "2eb8e0a75953629088fcb98300f4f8596809a41e33c9322944a64df9e3b82150",
+      "bytes": 16412
+    },
+    "remote-data-proof.json": {
+      "sha256": "4103c7505d97389b80fdb3859367973f13a9a21f190dbd827280fa40f74e3b88",
+      "bytes": 222
+    },
+    "render-compiled.mjs": {
+      "sha256": "14be18678cea21a13ce3d231312a2266ea22654dc2de7c21367dd6bdc759b74d",
+      "bytes": 2309
+    },
+    "renderer-proof.json": {
+      "sha256": "1aa7576e62465ab85a713f593eb74b57bc1bf858c29cffc721646f43dc67cabe",
+      "bytes": 4313
+    },
+    "repair-proof.json": {
+      "sha256": "2348eedb51da0101c48ca99733492601656d9269f5b133370deb99058beed687",
+      "bytes": 1436
+    },
+    "repair.py": {
+      "sha256": "0e271ed77b1204caf9d27196d9824411f057ca6790ba2c58acb48cb67d32ff37",
+      "bytes": 3555
+    },
+    "review-gate-proof.json": {
+      "sha256": "388483dd6d9a2e34ae7076298f2d5e49ee2aa34dde9617b17a6c22d8a19e1b37",
+      "bytes": 193
+    },
+    "runtime-publication.json": {
+      "sha256": "7cb9354327a9c6756fbdfe749b2ccd22951d2f98d07d5f3b75eb43b05ba0115d",
+      "bytes": 142
+    },
+    "splice-compiled.mjs": {
+      "sha256": "a8c3d84c35a705c47e1eb135780061c5ff17eb605aea058df43ee3c8ac68264c",
+      "bytes": 3693
+    },
+    "topology-proof.json": {
+      "sha256": "95275682d37de6c5fa7cfbf8ae5a54097b73bc8824dcfb1815d73843835dcd10",
+      "bytes": 9303
+    },
+    "topology.mjs": {
+      "sha256": "a970c59929fa0b342670e3d9a30d543afddb5461bed0a2f262e7d7e8d22e65fa",
+      "bytes": 409
+    },
+    "verify-compiled.py": {
+      "sha256": "752c0cb4c83f486595d5febc1f143693b8e960d1e4d026599f5c9b3b00997bd8",
+      "bytes": 5106
+    },
+    "verify-data-publication.mjs": {
+      "sha256": "b473b9fef0c747d108c17ccb3282c9f7f759fa5d45b269cb1e73a1043b515aa6",
+      "bytes": 1719
+    },
+    "verify-islands.py": {
+      "sha256": "66be02992a073fd02f141cbc8a65bfc590a29a1f3063006caf834af644b341f4",
+      "bytes": 1328
+    },
+    "verify-preservation.mjs": {
+      "sha256": "1a872ec44dc62e79e9c9a805692219f54122d1e036aed72a2901c28b2ee5ba83",
+      "bytes": 2427
+    },
+    "verify-registration.mjs": {
+      "sha256": "ac4e79d8aaa9d0141a257885b65d1b676eedf1235f262674e3fbc18d08f9b53b",
+      "bytes": 5868
+    },
+    "verify-renderer.mjs": {
+      "sha256": "c5914e5c86b0b1e4d7183683690fb7f35bc730cf8a2916d80be47c5d912cc464",
+      "bytes": 2370
+    },
+    "verify.py": {
+      "sha256": "fa840920d304471620c2b748372ae4f9903828290852a03313a043b6c4b7570d",
+      "bytes": 5674
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "runtime": {
+    "gdal": "GDAL 3.13.3 \"Iowa City\", released 2026/08/13",
+    "GEOS": "3.15.0"
+  },
+  "projection": "EPSG:3035; traditional GIS lon-lat input order",
+  "repairs": {
+    "DEU": {
+      "removedDuplicateComponent": 1,
+      "duplicateContainedBy": 0,
+      "removedOverlapKm2": 374.6827141471077,
+      "sharedAHRunOriginalPoints": 2225,
+      "sharedAHReplacementPoints": 2195,
+      "lakePolicy": "current Natural Earth v5.1.1 lake partition; AH exact lake arc plus German lake-to-Konstanz continuation",
+      "modernLakeSpliceEnd": [
+        9.18708766625895,
+        47.65747773219228
+      ]
+    },
+    "SERBIA": {
+      "ahRunPoints": 381,
+      "start": [
+        19.226442,
+        43.527993
+      ],
+      "end": [
+        22.472058,
+        44.71405
+      ],
+      "maxOriginalFrontierDeviationMetres": "14.70 prior independent diagnostic; no new positional accuracy claim"
+    }
+  },
+  "pairs": {
+    "DEU-AH": {
+      "overlapKm2": 0.0,
+      "sharedLengthMetres": 2125197.678914267,
+      "sharedType": "LINESTRING"
+    },
+    "AH-SERBIA": {
+      "overlapKm2": 0.0,
+      "sharedLengthMetres": 699606.3462304143,
+      "sharedType": "LINESTRING"
+    }
+  },
+  "masterToNormalizedChangeKm2": {
+    "DEU": 231.20049421220335,
+    "AH": 0.0,
+    "SERBIA": 0.030124739368905994
+  },
+  "valid": {
+    "DEU": true,
+    "AH": true,
+    "SERBIA": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "work/gis-applied-with-documented-month-end-viewer-limit",
+  "appCommit": "d3a241588424afb7fc0dcf5f94c71f3bdd995238",
+  "remoteAppCommit": "d3a241588424afb7fc0dcf5f94c71f3bdd995238",
+  "dataCommit": "bd62cc8ec6d8221202ed19de0a66f98d3e07ace9",
+  "remoteDataCommit": "bd62cc8ec6d8221202ed19de0a66f98d3e07ace9",
+  "reportScope": "reports/borders/validation/1914-country-activation-2026-11-05",
+  "appMainMerged": false,
+  "deployed": false,
+  "portableOrInstallerCreated": false,
+  "localFocusedTests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "rendererUniqueGeometryChecks": 17,
+  "sourceReviewChecks": 4,
+  "compiledReviewChecks": 18,
+  "remoteRuntimeFilesVerified": 49,
+  "unselectedNativeObjectsPreserved": 274,
+  "remoteCI": "Combined-status API returned an empty statuses array; no CI-pass claim is made.",
+  "limitations": [
+    "All three historical display derivatives remain provisional.",
+    "German snapshot is 1914-07-31; AH/Serbia snapshots are 1914-07-28 only.",
+    "Month-end builtin viewer cannot select the AH/Serbia 28 July snapshots; exact-day and representative source instantiation were checked.",
+    "Modern coastal proxies and Serbia-Montenegro detailed-map uncertainty remain."
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "root": "D:/dev/worktrees/gis",
+  "baseApplication": "3be531e2fb8217adc9803357176e356c0030968b",
+  "baseData": "d2c023082b3e10ed0dc6928f629f190e0756933c",
+  "sourceEntities": [
+    "state:DEU",
+    "state:austro-hungarian-empire",
+    "state:kingdom-of-serbia",
+    "state:ALB",
+    "state:BEL",
+    "state:BGR",
+    "state:CHE",
+    "state:DNK",
+    "state:FRA",
+    "state:GRC",
+    "state:ITA",
+    "state:LUX",
+    "state:NLD",
+    "state:ROU"
+  ],
+  "compiledEntities": [
+    "ALB",
+    "BEL",
+    "BGR",
+    "CHE",
+    "DEU",
+    "DNK",
+    "FRA",
+    "GRC",
+    "HUN",
+    "ITA",
+    "LUX",
+    "NLD",
+    "ROU",
+    "state:austro-hungarian-empire",
+    "state:kingdom-of-serbia"
+  ],
+  "unchangedSourceDescriptors": 274,
+  "unchangedBuiltinDescriptors": 265,
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/generated/v2/state-DEU.json.gz",
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/generated/v2/state-austro-hungarian-empire.json.gz",
+    "assets/data/territorial-entities/source/countries/state-kingdom-of-serbia.json",
+    "assets/data/territorial-entities/generated/v2/state-kingdom-of-serbia.json.gz",
+    "assets/data/territorial-entities/source/countries/state-ALB.json",
+    "assets/data/territorial-entities/generated/v2/state-ALB.json.gz",
+    "assets/data/territorial-entities/source/countries/state-BEL.json",
+    "assets/data/territorial-entities/generated/v2/state-BEL.json.gz",
+    "assets/data/territorial-entities/source/countries/state-BGR.json",
+    "assets/data/territorial-entities/generated/v2/state-BGR.json.gz",
+    "assets/data/territorial-entities/source/countries/state-CHE.json",
+    "assets/data/territorial-entities/generated/v2/state-CHE.json.gz",
+    "assets/data/territorial-entities/source/countries/state-DNK.json",
+    "assets/data/territorial-entities/generated/v2/state-DNK.json.gz",
+    "assets/data/territorial-entities/source/countries/state-FRA.json",
+    "assets/data/territorial-entities/generated/v2/state-FRA.json.gz",
+    "assets/data/territorial-entities/source/countries/state-GRC.json",
+    "assets/data/territorial-entities/generated/v2/state-GRC.json.gz",
+    "assets/data/territorial-entities/source/countries/state-ITA.json",
+    "assets/data/territorial-entities/generated/v2/state-ITA.json.gz",
+    "assets/data/territorial-entities/source/countries/state-LUX.json",
+    "assets/data/territorial-entities/generated/v2/state-LUX.json.gz",
+    "assets/data/territorial-entities/source/countries/state-NLD.json",
+    "assets/data/territorial-entities/generated/v2/state-NLD.json.gz",
+    "assets/data/territorial-entities/source/countries/state-ROU.json",
+    "assets/data/territorial-entities/generated/v2/state-ROU.json.gz",
+    "assets/data/territorial-entities/source/lineages/aut.json",
+    "assets/data/territorial-entities/source/lineages/srb.json",
+    "assets/data/territorial-entities/generated/v2/index.json",
+    "assets/data/historical-world/policy.json",
+    "assets/data/builtin-world/generated/v1/countries/ALB-sha256-4a6629121433ffe5db055bf5c15f0f50861e0778ab6b66965b6f713dcc052dcb.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/BEL-sha256-07eec6737157ecc03c2b24fb99532abd773db9ec73ff3736358e37e9fb82872b.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/BGR-sha256-9b726747db75f649146f57c8412ef44de312a611b9a5cf5164b401b749e90228.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/CHE-sha256-2396d6bde634116119a6d879a254cb4e8b93a87db09cf7678f7b1db615f666ea.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/DEU-sha256-b221b8d262b33aed6650a895a649bfaf18310bc9221e542201b1a7d3045a48b0.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/DNK-sha256-37a7239b3d9e160efc16b432afb7c9bd6c01f9367b94c1f824172d397ba88b89.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/FRA-sha256-57610f8277187adcd8b2b25427cf9551008cf9df0379643e38598fa486d8cd4e.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/GRC-sha256-6e9cf5984f98657d3cf885fc30df11f3dbbcad52ec8f69728ce8d7e456102d28.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/HUN-sha256-6b8f763600da94665aff0b5f2792beef5e547a511fafc9207d47164d4d1d4b33.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/ITA-sha256-97cf397555d16f0163b0b9a826a6ffad65751737f3da282908ae0f3ec1c04cbe.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/LUX-sha256-cb17901d3946133f4873e4b0f1752d389551278723a6ef63c012cfc95fb4ddfd.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/NLD-sha256-01600728a4d27653f63e87e3ffe76520a60f78f488a21469fc3d5164bf3997cc.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/ROU-sha256-4ab3b1585d7ea8015e9e0cf783b576ca5cba35aa292913c69f4f7524f6339100.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-austro-hungarian-empire-sha256-2ab040c7a76b859f48fd264d8f0b19a30375673722b1363105f03f72b09f2e95.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-kingdom-of-serbia-sha256-4fb96dcd8d6dd4f9df40f03a534e46d106daabb20661ceddcde69f0e2cc7aab4.json.gz",
+    "assets/data/builtin-world/generated/v1/index.json",
+    "assets/data/builtin-world/generated/v1/coverage-report.json"
+  ],
+  "files": [
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "88a8780113f9da1bb3a71543b759b1e712b387d003c502aff0cbae22194e8afc",
+      "bytes": 1025298
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-DEU.json.gz",
+      "sha256": "132d43fa710d886f86917986095b46b449a6e36210984579b64e523853f5bce3",
+      "bytes": 116729
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "sha256": "ea7cccfc0e431ced28286d69cf4589dec3badd4984ad9701219228c8814b6e31",
+      "bytes": 422755
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-austro-hungarian-empire.json.gz",
+      "sha256": "18c50c9b8939122fce42ede0efebc98cd0dad9403300355b05020bf6873fe188",
+      "bytes": 50247
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-kingdom-of-serbia.json",
+      "sha256": "39013d8f46524648fe7d22a4d2f1358d27063506e2428bd0d512832746bcc988",
+      "bytes": 95748
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-kingdom-of-serbia.json.gz",
+      "sha256": "f4f1a3a33a4e1e683c94af6b1648e7e13ff0fa7a7664df1dee6b00a7f85c78b2",
+      "bytes": 12413
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-ALB.json",
+      "sha256": "04338d7c47ad583f70ea57135acb5ef49876686e0562474bf1ad3a6ef403fc33",
+      "bytes": 49643
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-ALB.json.gz",
+      "sha256": "349123ef55f32394070c7942877ae1c6f43ebf82d2cf497a76668bf0b9cdeecd",
+      "bytes": 7408
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-BEL.json",
+      "sha256": "12c23a1ccf712548eeda2573f7413afa39c1b33e0528b1200022790ed055d5e8",
+      "bytes": 56321
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-BEL.json.gz",
+      "sha256": "e3c03c0f0da24f42ae1a2100fd74f7d000f846414fe1a340e76b3e8b7f3ddade",
+      "bytes": 8317
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-BGR.json",
+      "sha256": "6d6e015e4aab50e54b184fc89b773ceb627aabed272ca3bc434c3069dbe3d24b",
+      "bytes": 75443
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-BGR.json.gz",
+      "sha256": "b50a00759b452133030f1c69adb31f28fca6c2b236e8e34f389e9d802f9abd88",
+      "bytes": 10697
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-CHE.json",
+      "sha256": "e3bce450d5eaccb3149c6495b153249b6c91c518cb11e59de2ce68ae2a78c6ab",
+      "bytes": 69842
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-CHE.json.gz",
+      "sha256": "ba722b3c8d435b8badd2944718d95f3ad2637c025a3c8c60e490ecfa4bc92502",
+      "bytes": 9726
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-DNK.json",
+      "sha256": "1bbdc026fc8bb30d4b2d27eaa33ebd33ea7765ac46354eac5d428838f9fa3a3c",
+      "bytes": 194632
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-DNK.json.gz",
+      "sha256": "6e3dab25b44adcbf35209f64916fac2ccab62aab01e6bdbc540fbf4fed15fc2c",
+      "bytes": 21629
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-FRA.json",
+      "sha256": "4f7537436601946dadee01862b9fedeabf819ffff764be444a00cea7b107901e",
+      "bytes": 407254
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-FRA.json.gz",
+      "sha256": "ea781cb6f14bb778a899bddc05a36fb2452b7fc159ff9e9ac371d714f4b88345",
+      "bytes": 43859
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-GRC.json",
+      "sha256": "cf955aba5fa2dbf559986a30bf1d6ce286cc9a360d5ae58c3bf8cd904b926153",
+      "bytes": 534161
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-GRC.json.gz",
+      "sha256": "fb259d01afeb997f726c283877fd0830922c4b76ad8c8f9d44c5e94d0aa42f24",
+      "bytes": 53705
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-ITA.json",
+      "sha256": "b503f7a7d0f8244058fe14dfb46c132cc8396fed0912d467273401d11a1a8ef6",
+      "bytes": 295155
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-ITA.json.gz",
+      "sha256": "5cd8ec2b1e53b04d7ce1101c0e6ada44136fd6bdf8fbab4799528636e6d43feb",
+      "bytes": 32375
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-LUX.json",
+      "sha256": "94a479ef2c4f7a0c1c2921559c0c587148095747a887ba8bad2e2f30e3a0dfce",
+      "bytes": 22428
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-LUX.json.gz",
+      "sha256": "8fbd2cc0a0e9eefb4f64b5ec89dc687a9ba36e7f306057209e458c1b9f34e193",
+      "bytes": 4428
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-NLD.json",
+      "sha256": "827e1ccea18313702055cbe510c4f425c6ac24234835e20468c07fe6cfea5c04",
+      "bytes": 80426
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-NLD.json.gz",
+      "sha256": "10905d692d5891d0615ca713131cdeff9ebe4ff76d20103f420e2196e1498ced",
+      "bytes": 10709
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-ROU.json",
+      "sha256": "811218bfe54fd16e232b5d6889ccfb87ab575b9cfbdf87291169639cf9e25fb4",
+      "bytes": 100471
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-ROU.json.gz",
+      "sha256": "387838545dda69df9cfb24cf7e1822b603920dde76305a4e8b87f8be2f9518ca",
+      "bytes": 13763
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/lineages/aut.json",
+      "sha256": "e28982866420f52edfb7c6ddaa935f765e87597e99edb1021d179cd5f50d8965",
+      "bytes": 188
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/lineages/srb.json",
+      "sha256": "02b48fae0a52bd8c75465d1bbcb7a9f9cc4af084c54c713d40696243aaa89803",
+      "bytes": 179
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/index.json",
+      "sha256": "edf493de3ac8e8ba45c4969622c4c4f50ac3c56cc138e8a8793beac0bb194db7",
+      "bytes": 1779251
+    },
+    {
+      "logical": "assets/data/historical-world/policy.json",
+      "sha256": "7c7dca3b562de32a1d6122d7219d5ce6d9d1a9dab5d3cb59dd763b25c40c4cff",
+      "bytes": 13525
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/ALB-sha256-4a6629121433ffe5db055bf5c15f0f50861e0778ab6b66965b6f713dcc052dcb.json.gz",
+      "sha256": "4a6629121433ffe5db055bf5c15f0f50861e0778ab6b66965b6f713dcc052dcb",
+      "bytes": 7339
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/BEL-sha256-07eec6737157ecc03c2b24fb99532abd773db9ec73ff3736358e37e9fb82872b.json.gz",
+      "sha256": "07eec6737157ecc03c2b24fb99532abd773db9ec73ff3736358e37e9fb82872b",
+      "bytes": 8541
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/BGR-sha256-9b726747db75f649146f57c8412ef44de312a611b9a5cf5164b401b749e90228.json.gz",
+      "sha256": "9b726747db75f649146f57c8412ef44de312a611b9a5cf5164b401b749e90228",
+      "bytes": 11538
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/CHE-sha256-2396d6bde634116119a6d879a254cb4e8b93a87db09cf7678f7b1db615f666ea.json.gz",
+      "sha256": "2396d6bde634116119a6d879a254cb4e8b93a87db09cf7678f7b1db615f666ea",
+      "bytes": 12817
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/DEU-sha256-b221b8d262b33aed6650a895a649bfaf18310bc9221e542201b1a7d3045a48b0.json.gz",
+      "sha256": "b221b8d262b33aed6650a895a649bfaf18310bc9221e542201b1a7d3045a48b0",
+      "bytes": 154524
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/DNK-sha256-37a7239b3d9e160efc16b432afb7c9bd6c01f9367b94c1f824172d397ba88b89.json.gz",
+      "sha256": "37a7239b3d9e160efc16b432afb7c9bd6c01f9367b94c1f824172d397ba88b89",
+      "bytes": 48633
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/FRA-sha256-57610f8277187adcd8b2b25427cf9551008cf9df0379643e38598fa486d8cd4e.json.gz",
+      "sha256": "57610f8277187adcd8b2b25427cf9551008cf9df0379643e38598fa486d8cd4e",
+      "bytes": 76709
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/GRC-sha256-6e9cf5984f98657d3cf885fc30df11f3dbbcad52ec8f69728ce8d7e456102d28.json.gz",
+      "sha256": "6e9cf5984f98657d3cf885fc30df11f3dbbcad52ec8f69728ce8d7e456102d28",
+      "bytes": 94314
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/HUN-sha256-6b8f763600da94665aff0b5f2792beef5e547a511fafc9207d47164d4d1d4b33.json.gz",
+      "sha256": "6b8f763600da94665aff0b5f2792beef5e547a511fafc9207d47164d4d1d4b33",
+      "bytes": 7770
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/ITA-sha256-97cf397555d16f0163b0b9a826a6ffad65751737f3da282908ae0f3ec1c04cbe.json.gz",
+      "sha256": "97cf397555d16f0163b0b9a826a6ffad65751737f3da282908ae0f3ec1c04cbe",
+      "bytes": 59430
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/LUX-sha256-cb17901d3946133f4873e4b0f1752d389551278723a6ef63c012cfc95fb4ddfd.json.gz",
+      "sha256": "cb17901d3946133f4873e4b0f1752d389551278723a6ef63c012cfc95fb4ddfd",
+      "bytes": 4719
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/NLD-sha256-01600728a4d27653f63e87e3ffe76520a60f78f488a21469fc3d5164bf3997cc.json.gz",
+      "sha256": "01600728a4d27653f63e87e3ffe76520a60f78f488a21469fc3d5164bf3997cc",
+      "bytes": 11288
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/ROU-sha256-4ab3b1585d7ea8015e9e0cf783b576ca5cba35aa292913c69f4f7524f6339100.json.gz",
+      "sha256": "4ab3b1585d7ea8015e9e0cf783b576ca5cba35aa292913c69f4f7524f6339100",
+      "bytes": 22807
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-austro-hungarian-empire-sha256-2ab040c7a76b859f48fd264d8f0b19a30375673722b1363105f03f72b09f2e95.json.gz",
+      "sha256": "2ab040c7a76b859f48fd264d8f0b19a30375673722b1363105f03f72b09f2e95",
+      "bytes": 46688
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-kingdom-of-serbia-sha256-4fb96dcd8d6dd4f9df40f03a534e46d106daabb20661ceddcde69f0e2cc7aab4.json.gz",
+      "sha256": "4fb96dcd8d6dd4f9df40f03a534e46d106daabb20661ceddcde69f0e2cc7aab4",
+      "bytes": 11053
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/index.json",
+      "sha256": "686c82f4a6b2e2b00f2aabdcedc8774150a1bd570e7f59c4ed07d1f701aa3951",
+      "bytes": 148852
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/coverage-report.json",
+      "sha256": "3b6391de519fb63ac94bd06226ab43292579ed47126b4f0afea28fbec1f4f418",
+      "bytes": 53256
+    }
+  ],
+  "written": true
+}

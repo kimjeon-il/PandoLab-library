@@ -1,0 +1,18 @@
+import fs from'node:fs';import{gunzipSync}from'node:zlib';import{readBuiltinCountryStoredBytes}from'file:///D:/dev/worktrees/gis/tools/builtin-country-bytes.mjs';import{temporalContains}from'file:///D:/dev/worktrees/gis/shared/frontend/js/modules/temporal.js';import{normalizeTimelineRecords}from'file:///D:/dev/worktrees/gis/shared/frontend/js/modules/timeline-records.js';
+const base='D:/dev/worktrees/gis/assets/data/builtin-world/generated/v1/',read=p=>JSON.parse(fs.readFileSync(p)),sources=read('candidate-sources.json'),candidate=read('compiled-candidate.json'),priorIndex=read(base+'index.json');let before=[],after=[];const dates=['1914-07-28','1914-07-31'],adjacent={'1914-07-28':['1914-07-27','1914-07-29'],'1914-07-31':['1914-07-30','1914-08-01']};
+function splice(rows,insert,day,idPrefix=''){
+ let out=[];for(const row of rows){if(!temporalContains(row,day)){out.push(row);continue;}if(row.validFrom!==day)out.push({...row,...(row.id?{id:row.id+':before-'+day}:{}),validTo:adjacent[day][0]});if(row.validTo!==day)out.push({...row,...(row.id?{id:row.id+':after-'+day}:{}),validFrom:adjacent[day][1]});}
+ out.push(...insert.filter(row=>temporalContains(row,day)).map((row,i)=>({...row,...(row.id?{id:idPrefix+':review-'+day+'-'+i}:{}),validFrom:day,validTo:day})));return out.sort((a,b)=>a.validFrom===null?-1:b.validFrom===null?1:a.validFrom.localeCompare(b.validFrom));
+}
+for(const c of candidate.countries){const entry=priorIndex.entities.find(e=>e.entityId===c.entityId);if(!entry){after.push(c);continue;}let old=JSON.parse(gunzipSync(readBuiltinCountryStoredBytes(entry,p=>fs.readFileSync(base+p))));before.push(old);let next=structuredClone(old);for(const day of dates){next.sourceBindings=splice(next.sourceBindings,c.sourceBindings,day);next.timelineRecords.parentRelations=splice(next.timelineRecords.parentRelations,c.timelineRecords.parentRelations,day,'historical-world:parentRelations:'+c.entityId);next.timelineRecords.geometryBindings=splice(next.timelineRecords.geometryBindings,c.timelineRecords.geometryBindings,day,'historical-world:geometryBindings:'+c.entityId);}
+ if(c.entityId==='DEU'){
+  const legacy='state:DEU:natural-earth-5.1.1-before-1914-snapshot';next.sourceBindings=next.sourceBindings.map(b=>b.validTo&&b.validTo<='1914-07-30'?{...b,sourceVersionId:legacy}:b);
+  const names=splice(next.timelineRecords.propertyBindings.filter(b=>b.property==='name'),c.timelineRecords.propertyBindings.filter(b=>b.property==='name'),'1914-07-31','historical-world:names:DEU');next.timelineRecords.propertyBindings=[...next.timelineRecords.propertyBindings.filter(b=>b.property!=='name'),...names];
+ }
+ const geom=new Map([...next.geometries,...c.geometries].map(g=>[g.id+':'+g.version,g]));const used=new Set(next.sourceBindings.map(b=>b.geometryRef.id+':'+b.geometryRef.version));next.geometries=[...geom].filter(([id])=>used.has(id)).map(([,g])=>g);next.identity.properties.metadata.historicalTimeline.geometryVersions=c.identity.properties.metadata.historicalTimeline.geometryVersions;
+ // Validate the actual spliced project records with the existing C++-backed owner.
+ normalizeTimelineRecords(next.timelineRecords,{entities:[{objectRef:{domain:'territorial',id:c.entityId},entityKind:next.identity.properties.entityKind}],geometryExists:ref=>next.geometries.some(g=>g.id===ref.id&&g.version===ref.version)});
+ after.push(next);
+}
+fs.writeFileSync('compiled-final-before.json',JSON.stringify(before));fs.writeFileSync('compiled-final-after.json',JSON.stringify(after));console.log('Spliced two reference days into',before.length,'existing countries; added',after.length-before.length,'new countries; retained prior geometry and other timeline records.');
+

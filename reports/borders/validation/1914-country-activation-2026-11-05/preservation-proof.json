@@ -1,0 +1,463 @@
+{
+  "scope": "Only the 13 existing compiled countries and two new reference-day objects; no unrelated payload is opened or generated.",
+  "rows": [
+    {
+      "entityId": "ALB",
+      "modernGeometrySha256": "805b18a98fe4320cc6f5f450fad04bbe06d2be52db421acc8a854d8512d6de7c",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "BEL",
+      "modernGeometrySha256": "26ae4acf7f126603def5f373ce052a616b83b9a06929e974f0df7d3914f6a38c",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "BGR",
+      "modernGeometrySha256": "093f53f1d20e2f3fc1b70ed908e72d972ef7e82c7e957ddca1b6e376214cb1af",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "CHE",
+      "modernGeometrySha256": "7bdfa63e16535cc2f00d1c6c2a97b1f5acdb77cb02e9a99877d5c73ef32d8f5e",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "DEU",
+      "modernGeometrySha256": "3793d1e4d573cab073016443d88842f38f4c2bf438aebfb7dcd9f79c23cd42bd",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 12
+    },
+    {
+      "entityId": "DNK",
+      "modernGeometrySha256": "659973193bb8d994b879c14117de5890cd293b02194affebf7eb19b9d2b05afc",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 12
+    },
+    {
+      "entityId": "FRA",
+      "modernGeometrySha256": "6689160a14bb928a0cd00da2830897379ee380990ed334dcaf152fe316b85c17",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "GRC",
+      "modernGeometrySha256": "65faa93bd37dae9745bb3c1c4386ea15ab5d8751f34e65d881fde4659fe53147",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "HUN",
+      "modernGeometrySha256": "1c43922dfcaff0804ad608d9ebc24ec360ef451e17aad40313fb1f30ed959d1c",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 8
+    },
+    {
+      "entityId": "ITA",
+      "modernGeometrySha256": "d31618f3fcc486a4f30a1329dc62fb7fa59e458615248aed05edd01084d624d8",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "LUX",
+      "modernGeometrySha256": "d76200c6bf6fa3a283619aa6ca0390cf03c83f2a3b6d9c17aa0997212fad16cd",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "NLD",
+      "modernGeometrySha256": "d59b95855064d99a1683185a31ba77f2441bfaaed446678ae375de7da95e7db8",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    },
+    {
+      "entityId": "ROU",
+      "modernGeometrySha256": "63253302b06bbbf1131db556d0b44808c96e842e5130fe651edbb2afae34cb6b",
+      "unchangedOutsideReferenceDays": true,
+      "eventBoundarySamples": 9
+    }
+  ],
+  "protectedDescriptors": [
+    {
+      "entityId": "state:east-prussia",
+      "coverage": [
+        {
+          "validFrom": "1878-04-01",
+          "validTo": "1920-01-10"
+        }
+      ],
+      "file": "countries/state-east-prussia-sha256-3fe55d1e0285087f7d2a4fc47bab473b81f18d5ad071fc5358af1c613c741cc9.json.gz",
+      "encoding": "gzip",
+      "sha256": "3fe55d1e0285087f7d2a4fc47bab473b81f18d5ad071fc5358af1c613c741cc9",
+      "compressedBytes": 53202,
+      "decodedBytes": 156567
+    },
+    {
+      "entityId": "state:soviet-union",
+      "coverage": [
+        {
+          "validFrom": "1922-12-30",
+          "validTo": "1991-12-24"
+        }
+      ],
+      "file": "countries/state-soviet-union-sha256-b243f8b7fd9e6014725865fd6e017f907b5558e59e0f04fd65f85d3b7f89c258.json.gz",
+      "encoding": "gzip",
+      "sha256": "b243f8b7fd9e6014725865fd6e017f907b5558e59e0f04fd65f85d3b7f89c258",
+      "compressedBytes": 5589723,
+      "decodedBytes": 15257986,
+      "parts": [
+        {
+          "file": "country-parts/sha256-9a3910936a2aa0b735d6ec0135c013b5598f7f08c5a076340d23334d0039fcc6.bin",
+          "encoding": "identity",
+          "sha256": "9a3910936a2aa0b735d6ec0135c013b5598f7f08c5a076340d23334d0039fcc6",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-3edcaa44e707bdf755202014405dee9380feb7c2e2a001db2eb519ad474abf40.bin",
+          "encoding": "identity",
+          "sha256": "3edcaa44e707bdf755202014405dee9380feb7c2e2a001db2eb519ad474abf40",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-db1b74d385d8986d14bdff434ec6ab86ef5d2e1151fb7f66018cc72f273aa8ef.bin",
+          "encoding": "identity",
+          "sha256": "db1b74d385d8986d14bdff434ec6ab86ef5d2e1151fb7f66018cc72f273aa8ef",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-e3cfda64fce3b041f01950bb1b9f1b15342a63cf8d820ef71b18a6d7ac5ba4a8.bin",
+          "encoding": "identity",
+          "sha256": "e3cfda64fce3b041f01950bb1b9f1b15342a63cf8d820ef71b18a6d7ac5ba4a8",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-1106bf08ef661535c2f61c5d7dbf3816db77190495ad7baa59ac64fb51ca6370.bin",
+          "encoding": "identity",
+          "sha256": "1106bf08ef661535c2f61c5d7dbf3816db77190495ad7baa59ac64fb51ca6370",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-fca640b7eec46a43ca8062eb282d28d85318c3c505db4f7a089f450f628b4cfb.bin",
+          "encoding": "identity",
+          "sha256": "fca640b7eec46a43ca8062eb282d28d85318c3c505db4f7a089f450f628b4cfb",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-9728a407cb92c34073c4fb74c1e618b22348ad7918e1f9e8fdd6e327649c63f1.bin",
+          "encoding": "identity",
+          "sha256": "9728a407cb92c34073c4fb74c1e618b22348ad7918e1f9e8fdd6e327649c63f1",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-82b3f67f05b7d63b82c58c2f544c6d7da87121deb560fe2c0286fa9ab52b800a.bin",
+          "encoding": "identity",
+          "sha256": "82b3f67f05b7d63b82c58c2f544c6d7da87121deb560fe2c0286fa9ab52b800a",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-db698064eaabcb5998597f44fc33973e65b2f674c4009605340415c8e968bca8.bin",
+          "encoding": "identity",
+          "sha256": "db698064eaabcb5998597f44fc33973e65b2f674c4009605340415c8e968bca8",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-70efcdae866ae02683e73f336f6ec3bc12276a03919d1779735c7ca55d5a4f71.bin",
+          "encoding": "identity",
+          "sha256": "70efcdae866ae02683e73f336f6ec3bc12276a03919d1779735c7ca55d5a4f71",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-a17a82df62fe38deaa1528f872d760b8f16092c2e4c8ed8e083607ab8eea8f16.bin",
+          "encoding": "identity",
+          "sha256": "a17a82df62fe38deaa1528f872d760b8f16092c2e4c8ed8e083607ab8eea8f16",
+          "compressedBytes": 346843,
+          "decodedBytes": 346843
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-armenian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-09-22"
+        }
+      ],
+      "file": "countries/state-soviet-union-armenian-ssr-sha256-68d01eb1aed1d20dd3b2f650c9b287b16905e254ecb8e020a52a5e893df8f3fe.json.gz",
+      "encoding": "gzip",
+      "sha256": "68d01eb1aed1d20dd3b2f650c9b287b16905e254ecb8e020a52a5e893df8f3fe",
+      "compressedBytes": 8166,
+      "decodedBytes": 18618
+    },
+    {
+      "entityId": "state:soviet-union-azerbaijan-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-10-17"
+        }
+      ],
+      "file": "countries/state-soviet-union-azerbaijan-ssr-sha256-ad83cf1b3dae07e1b51b0e02b2c48b54c6304c7303e89c83bcaca9c2a2527767.json.gz",
+      "encoding": "gzip",
+      "sha256": "ad83cf1b3dae07e1b51b0e02b2c48b54c6304c7303e89c83bcaca9c2a2527767",
+      "compressedBytes": 15838,
+      "decodedBytes": 51845
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12"
+        },
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-24"
+        }
+      ],
+      "file": "countries/state-soviet-union-byelorussian-ssr-sha256-25ecebc5c1c13ac1e19a980001c0348fe3c763f23596b137ff3aee5a1cd38ba7.json.gz",
+      "encoding": "gzip",
+      "sha256": "25ecebc5c1c13ac1e19a980001c0348fe3c763f23596b137ff3aee5a1cd38ba7",
+      "compressedBytes": 29698,
+      "decodedBytes": 77663
+    },
+    {
+      "entityId": "state:soviet-union-estonian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-19"
+        }
+      ],
+      "file": "countries/state-soviet-union-estonian-ssr-sha256-131de571364f6e3cd3e6761992c8af0b78c29bf1a92610278884e4fed892066d.json.gz",
+      "encoding": "gzip",
+      "sha256": "131de571364f6e3cd3e6761992c8af0b78c29bf1a92610278884e4fed892066d",
+      "compressedBytes": 12486,
+      "decodedBytes": 32267
+    },
+    {
+      "entityId": "state:soviet-union-georgian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-04-08"
+        }
+      ],
+      "file": "countries/state-soviet-union-georgian-ssr-sha256-574b2d104f3fabd91590b53d66c8c8bfe8bb57896981da364efb4b83d8fef80b.json.gz",
+      "encoding": "gzip",
+      "sha256": "574b2d104f3fabd91590b53d66c8c8bfe8bb57896981da364efb4b83d8fef80b",
+      "compressedBytes": 9328,
+      "decodedBytes": 22405
+    },
+    {
+      "entityId": "state:soviet-union-kazakh-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-12-15"
+        }
+      ],
+      "file": "countries/state-soviet-union-kazakh-ssr-sha256-d55555af26b28b29967072aa371b2b39dc42c587cb08c23bc5ee7a51b42a98bd.json.gz",
+      "encoding": "gzip",
+      "sha256": "d55555af26b28b29967072aa371b2b39dc42c587cb08c23bc5ee7a51b42a98bd",
+      "compressedBytes": 39680,
+      "decodedBytes": 98939
+    },
+    {
+      "entityId": "state:soviet-union-kirghiz-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-30"
+        }
+      ],
+      "file": "countries/state-soviet-union-kirghiz-ssr-sha256-ec151da14ab299281d2964947adfebaeb0b999a9b5fa4ab273750089d14f5797.json.gz",
+      "encoding": "gzip",
+      "sha256": "ec151da14ab299281d2964947adfebaeb0b999a9b5fa4ab273750089d14f5797",
+      "compressedBytes": 15064,
+      "decodedBytes": 35478
+    },
+    {
+      "entityId": "state:soviet-union-latvian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-20"
+        }
+      ],
+      "file": "countries/state-soviet-union-latvian-ssr-sha256-4e5e1dfe3a1a7fd52cc8b2b48da3684f9cb18aa30ac72dc80effa7ff704cde59.json.gz",
+      "encoding": "gzip",
+      "sha256": "4e5e1dfe3a1a7fd52cc8b2b48da3684f9cb18aa30ac72dc80effa7ff704cde59",
+      "compressedBytes": 8434,
+      "decodedBytes": 20298
+    },
+    {
+      "entityId": "state:soviet-union-lithuanian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1990-01-01",
+          "validTo": "1990-03-10"
+        }
+      ],
+      "file": "countries/state-soviet-union-lithuanian-ssr-sha256-aaffa07e338530498481ceeb24b6f3f11d0d231953dd3137c30c8a7bc91b44d6.json.gz",
+      "encoding": "gzip",
+      "sha256": "aaffa07e338530498481ceeb24b6f3f11d0d231953dd3137c30c8a7bc91b44d6",
+      "compressedBytes": 9562,
+      "decodedBytes": 22150
+    },
+    {
+      "entityId": "state:soviet-union-moldavian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-26"
+        }
+      ],
+      "file": "countries/state-soviet-union-moldavian-ssr-sha256-a27cb1a10f3450476284d1d3b5b8c055c2c14146367fbec909e6efcdffaacd74.json.gz",
+      "encoding": "gzip",
+      "sha256": "a27cb1a10f3450476284d1d3b5b8c055c2c14146367fbec909e6efcdffaacd74",
+      "compressedBytes": 10601,
+      "decodedBytes": 24958
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "coverage": [
+        {
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12"
+        },
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-12-24"
+        }
+      ],
+      "file": "countries/state-soviet-union-russian-sfsr-sha256-c923890a8fd28661204e4b9ab357bb6912b11b621b51cf95d864ae95cdda6761.json.gz",
+      "encoding": "gzip",
+      "sha256": "c923890a8fd28661204e4b9ab357bb6912b11b621b51cf95d864ae95cdda6761",
+      "compressedBytes": 716495,
+      "decodedBytes": 1920006,
+      "parts": [
+        {
+          "file": "country-parts/sha256-d80022f06cb5b81f01e1a5e90a4846b3ed069777262066fef5c197f459ed9ef1.bin",
+          "encoding": "identity",
+          "sha256": "d80022f06cb5b81f01e1a5e90a4846b3ed069777262066fef5c197f459ed9ef1",
+          "compressedBytes": 524288,
+          "decodedBytes": 524288
+        },
+        {
+          "file": "country-parts/sha256-7a80592605c69fb42fb798e1eeedf18ab93f2f190917451b4c608b79abe957d2.bin",
+          "encoding": "identity",
+          "sha256": "7a80592605c69fb42fb798e1eeedf18ab93f2f190917451b4c608b79abe957d2",
+          "compressedBytes": 192207,
+          "decodedBytes": 192207
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-tajik-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-09-08"
+        }
+      ],
+      "file": "countries/state-soviet-union-tajik-ssr-sha256-b1388ffe23996b275266e640ce005948fa05727f8609d7a2e3b1f055d7816900.json.gz",
+      "encoding": "gzip",
+      "sha256": "b1388ffe23996b275266e640ce005948fa05727f8609d7a2e3b1f055d7816900",
+      "compressedBytes": 15469,
+      "decodedBytes": 36928
+    },
+    {
+      "entityId": "state:soviet-union-transcaucasian-sfsr",
+      "coverage": [
+        {
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12"
+        }
+      ],
+      "file": "countries/state-soviet-union-transcaucasian-sfsr-sha256-d737d58d4d870ebd53cb9102b6d16a731c3f5154ca0f3a35bd27d94d7003b883.json.gz",
+      "encoding": "gzip",
+      "sha256": "d737d58d4d870ebd53cb9102b6d16a731c3f5154ca0f3a35bd27d94d7003b883",
+      "compressedBytes": 26514,
+      "decodedBytes": 63594
+    },
+    {
+      "entityId": "state:soviet-union-turkmen-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-10-26"
+        }
+      ],
+      "file": "countries/state-soviet-union-turkmen-ssr-sha256-7c1ab994ec1a28ffdca3b650e6d559af3324b4c2443b330acdb747d7ee3d82ce.json.gz",
+      "encoding": "gzip",
+      "sha256": "7c1ab994ec1a28ffdca3b650e6d559af3324b4c2443b330acdb747d7ee3d82ce",
+      "compressedBytes": 19125,
+      "decodedBytes": 45528
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "coverage": [
+        {
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12"
+        },
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-23"
+        }
+      ],
+      "file": "countries/state-soviet-union-ukrainian-ssr-sha256-2f5749324df63d9480826c9782b487cd7c81f74fed7c8704a1bc26e3c0d7dbc6.json.gz",
+      "encoding": "gzip",
+      "sha256": "2f5749324df63d9480826c9782b487cd7c81f74fed7c8704a1bc26e3c0d7dbc6",
+      "compressedBytes": 62950,
+      "decodedBytes": 169899
+    },
+    {
+      "entityId": "state:soviet-union-uzbek-ssr",
+      "coverage": [
+        {
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-30"
+        }
+      ],
+      "file": "countries/state-soviet-union-uzbek-ssr-sha256-3b1b5d567e1cb99cedf1b338631ca97c81dc3e725164018097342c5c3a576db8.json.gz",
+      "encoding": "gzip",
+      "sha256": "3b1b5d567e1cb99cedf1b338631ca97c81dc3e725164018097342c5c3a576db8",
+      "compressedBytes": 19466,
+      "decodedBytes": 45905
+    },
+    {
+      "entityId": "state:west-prussia",
+      "coverage": [
+        {
+          "validFrom": "1878-04-01",
+          "validTo": "1919-12-31"
+        }
+      ],
+      "file": "countries/state-west-prussia-sha256-97528b9c6d4c8ed84b5277ef7f41269138d6fb790e89447062310df80fa43c9d.json.gz",
+      "encoding": "gzip",
+      "sha256": "97528b9c6d4c8ed84b5277ef7f41269138d6fb790e89447062310df80fa43c9d",
+      "compressedBytes": 25835,
+      "decodedBytes": 69048
+    }
+  ],
+  "modernDate": "2026-10-06",
+  "referenceDays": [
+    "1914-07-28",
+    "1914-07-31"
+  ]
+}

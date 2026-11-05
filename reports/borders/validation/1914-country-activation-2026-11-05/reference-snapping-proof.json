@@ -1,0 +1,22 @@
+{
+  "method": "Only exact 6-decimal matches to preserved selected NE reference vertices are replaced by those original reference coordinate pairs; no global rounding and no nearest unrelated vertex snapping.",
+  "maximumCoordinateDifferenceDegrees": 2e-07,
+  "changedVertices": {
+    "DEU": 0,
+    "AH": 0,
+    "SERBIA": 0
+  },
+  "references": [
+    "reference-DEU",
+    "reference-DNK",
+    "reference-POL",
+    "reference-RUS",
+    "reference-LTU",
+    "reference-HRV",
+    "reference-SVN",
+    "reference-ITA",
+    "reference-AUT",
+    "reference-CHE"
+  ],
+  "coastArcPolicy": "Arcs shared with these existing NE lines are retained intact, not generalized again."
+}

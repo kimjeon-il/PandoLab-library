@@ -1,0 +1,416 @@
+{
+  "runtime": {
+    "gdal": "GDAL 3.13.3 \"Iowa City\", released 2026/08/13",
+    "GEOS": "3.15.0"
+  },
+  "projection": {
+    "definition": "EPSG:3035",
+    "units": "metre",
+    "axisOrder": "traditional GIS longitude,latitude",
+    "operation": true
+  },
+  "scaleDenominator": 10000000,
+  "method": "DP on each exact shared TopoJSON arc in EPSG:3035, retaining original coordinate pairs. Existing NE reference arcs and short closed island arcs preserved intact; ten named overlay remnants closed by common Boolean operations (see display-closure-ledger.json).",
+  "parameters": {
+    "toleranceMetres": 250,
+    "smallClosedArcPreservationLengthMetres": 100000,
+    "quantization": false,
+    "coordinateRounding": null
+  },
+  "metrics": {
+    "DEU": {
+      "valid": true,
+      "components": 22,
+      "holes": 0,
+      "masterPoints": 7198,
+      "normalizedPoints": 7080,
+      "displayPoints": 5261,
+      "areaKm2": 544071.993127911,
+      "generalizationSymDifferenceKm2": 184.775861354997,
+      "controls": [
+        {
+          "name": "Berlin",
+          "point": [
+            13.405,
+            52.52
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Strasbourg",
+          "point": [
+            7.7521,
+            48.5734
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Metz",
+          "point": [
+            6.18,
+            49.12
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Poznan",
+          "point": [
+            16.925,
+            52.406
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Danzig",
+          "point": [
+            18.646,
+            54.352
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Konigsberg",
+          "point": [
+            20.51,
+            54.71
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Memel",
+          "point": [
+            21.14,
+            55.7
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Haderslev",
+          "point": [
+            9.49,
+            55.25
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Eupen",
+          "point": [
+            6.04,
+            50.63
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Helgoland-component-presence-source-derived",
+          "point": [
+            7.885362101180695,
+            54.18004525
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Dune-component-presence-source-derived",
+          "point": [
+            7.910270327356747,
+            54.1856332
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Warsaw",
+          "point": [
+            21.012,
+            52.229
+          ],
+          "expected": false,
+          "actual": false
+        },
+        {
+          "name": "Prague",
+          "point": [
+            14.437,
+            50.075
+          ],
+          "expected": false,
+          "actual": false
+        },
+        {
+          "name": "Luxembourg",
+          "point": [
+            6.13,
+            49.61
+          ],
+          "expected": false,
+          "actual": false
+        }
+      ],
+      "deduplicatedMasterPoints": 7110
+    },
+    "AH": {
+      "valid": true,
+      "components": 24,
+      "holes": 0,
+      "masterPoints": 7898,
+      "normalizedPoints": 7898,
+      "displayPoints": 4640,
+      "areaKm2": 676520.2161024227,
+      "generalizationSymDifferenceKm2": 258.29477754228355,
+      "controls": [
+        {
+          "name": "Vienna",
+          "point": [
+            16.3738,
+            48.2082
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Prague",
+          "point": [
+            14.4378,
+            50.0755
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Budapest",
+          "point": [
+            19.0402,
+            47.4979
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Sarajevo",
+          "point": [
+            18.4131,
+            43.8563
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Zagreb",
+          "point": [
+            15.9819,
+            45.815
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Trento",
+          "point": [
+            11.1217,
+            46.0679
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Trieste",
+          "point": [
+            13.7768,
+            45.6495
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Lviv",
+          "point": [
+            24.0316,
+            49.8429
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Belgrade",
+          "point": [
+            20.4489,
+            44.7866
+          ],
+          "expected": false,
+          "actual": false
+        },
+        {
+          "name": "Venice",
+          "point": [
+            12.3155,
+            45.4408
+          ],
+          "expected": false,
+          "actual": false
+        }
+      ]
+    },
+    "SERBIA": {
+      "valid": true,
+      "components": 1,
+      "holes": 0,
+      "masterPoints": 12114,
+      "normalizedPoints": 12115,
+      "displayPoints": 973,
+      "areaKm2": 89242.43006601566,
+      "generalizationSymDifferenceKm2": 84.32774813432418,
+      "controls": [
+        {
+          "name": "Belgrade",
+          "point": [
+            20.4489,
+            44.7866
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Nis",
+          "point": [
+            21.8958,
+            43.3209
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Skopje",
+          "point": [
+            21.4314,
+            41.9981
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Pristina",
+          "point": [
+            21.1662,
+            42.6629
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Bitola",
+          "point": [
+            21.3347,
+            41.0314
+          ],
+          "expected": true,
+          "actual": true
+        },
+        {
+          "name": "Pljevlja",
+          "point": [
+            19.3589,
+            43.3567
+          ],
+          "expected": false,
+          "actual": false
+        },
+        {
+          "name": "Tirana",
+          "point": [
+            19.8187,
+            41.3275
+          ],
+          "expected": false,
+          "actual": false
+        }
+      ]
+    }
+  },
+  "pairs": {
+    "DEU-AH": {
+      "overlapKm2": 0.0,
+      "sharedPathContinuous": true,
+      "sharedLengthMetres3035": 2099995.9873367115,
+      "unionValid": true,
+      "sharedPoints": 1129,
+      "sharedEndpoints": [
+        [
+          19.1577366,
+          50.2293859
+        ],
+        [
+          9.547482,
+          47.534547
+        ]
+      ]
+    },
+    "AH-SERBIA": {
+      "overlapKm2": 0.0,
+      "sharedPathContinuous": true,
+      "sharedLengthMetres3035": 698030.8128072732,
+      "unionValid": true,
+      "sharedPoints": 307,
+      "sharedEndpoints": [
+        [
+          22.472058,
+          44.71405
+        ],
+        [
+          19.226442,
+          43.527993
+        ]
+      ]
+    }
+  },
+  "fixedAnchors": {
+    "DEU": [
+      [
+        19.1577366,
+        50.2293859
+      ],
+      [
+        9.547482,
+        47.534547
+      ]
+    ],
+    "AH": [
+      [
+        10.452726,
+        46.530948
+      ],
+      [
+        19.226442,
+        43.527993
+      ],
+      [
+        22.472058,
+        44.71405
+      ]
+    ],
+    "SERBIA": [
+      [
+        19.226442,
+        43.527993
+      ],
+      [
+        22.472058,
+        44.71405
+      ]
+    ]
+  },
+  "limitations": [
+    "Technical topology and generalization only; not independent historical positional accuracy.",
+    "1914-07-31 DEU and 1914-07-28 AH/Serbia snapshots; no inferred geometry period.",
+    "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+    "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+  ]
+}
