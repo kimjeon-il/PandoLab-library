@@ -1,0 +1,208 @@
+{
+  "sourceVersion": {
+    "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+    "validFrom": "1922-12-30",
+    "validTo": "1925-05-12",
+    "geometrySha256": "9a566c5578c79ff795e84d04a8abb35bb3d5bfb283316b6f0c71d8af35226db0"
+  },
+  "sourceReview": {
+    "status": "passed",
+    "entityId": "state:soviet-union",
+    "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+    "validFrom": "1922-12-30",
+    "validTo": "1925-05-12",
+    "geometrySha256": "9a566c5578c79ff795e84d04a8abb35bb3d5bfb283316b6f0c71d8af35226db0",
+    "master": {
+      "reference": "kimjeon-il/PandoLab-library-data@3673ce501c5c2479356414816b5c5daa0ca3e6c6:objects/dab7724ba5c764269c6c56b0d84dca130072cd91d1a11e8cde05fff0b4b7e005.json; immutable adopted input retained, original map/master provenance unchanged",
+      "sha256": "dab7724ba5c764269c6c56b0d84dca130072cd91d1a11e8cde05fff0b4b7e005"
+    },
+    "source": {
+      "reference": "kimjeon-il/PandoLab-library-data@3673ce501c5c2479356414816b5c5daa0ca3e6c6:assets/data/territorial-entities/source/countries/state-soviet-union.json",
+      "sha256": "87ecdb29d9c91f0779ac9282ff1c7b8aed104feffda2708feb01e404efe523d0"
+    },
+    "comparison": {
+      "reference": {
+        "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/east14-comparison.json",
+        "sha256": "052b100cc64de5513ea50577619355492f58cf13cdd93380399e0cdc74d5bb4b"
+      },
+      "arcSha256": "9a20e0800d9ad2a59804c554e5899769c4099b221a0be7889230503138d1f707",
+      "extent": [
+        26.13454584092981,
+        37.269378450723224,
+        85.21658391558348,
+        57.57474050543881
+      ],
+      "scaleDenominator": 10000000,
+      "projection": {
+        "definition": "Per-line local WGS84 AEQD; exact executed definitions in metric-input.json and atre k metric input",
+        "units": "metre",
+        "evidence": {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/metric-input.json",
+          "sha256": "4a81168cc0fc2d7eecc19ba93b62ecfb97dbe4eb4888e96ddc7129cfc9a01006"
+        }
+      },
+      "additionalEvidence": [
+        {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/atrek-metric-input.json",
+          "sha256": "f2f6e83ba95f36603bb1f0779bb74b27e1dd9de201191b4f0c8267925b637db6"
+        },
+        {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/atrek-metrics.json",
+          "sha256": "d718ff2bba61b176328534e3b3d6cca67be909e079b6a0d4e06d28064bce1be5"
+        },
+        {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/changed-boundary-edges.json",
+          "sha256": "d472bdcc036c7e2197aa955f94572f0dd865b49dcb65fb107557927d270d2221"
+        }
+      ]
+    },
+    "visual": {
+      "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/visual-evidence.json",
+      "sha256": "8b1b25417ea41e10b0027541bc4d7f3136cb32e5d58fcd09b524edc6553d92d0"
+    },
+    "topology": {
+      "status": "passed",
+      "evidence": {
+        "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/validation-evidence.json",
+        "sha256": "69151a6c0a052514b5e0ec9044d19b16cf4a859e8b2eb588fe8896fb187046b5"
+      },
+      "checks": [
+        "validity",
+        "shared-boundary",
+        "union",
+        "gaps-overlaps",
+        "connectivity",
+        "holes-islands",
+        "dates"
+      ]
+    },
+    "method": "reviewed-display-generalization",
+    "parameters": {
+      "selection": {
+        "East14": 592,
+        "LatviaPoints": 163,
+        "PolandPoints": 671
+      },
+      "perFeatureTrials": {
+        "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/east-trials.json",
+        "sha256": "94eaf969535f668c56fe219ccca26eccafa2a7081546c68ab6f66bc5f6a0b281"
+      },
+      "atrokCap_m": 400,
+      "darjaProtectedCap_m": 400,
+      "sourceMeaning": "Mapped named contacts and directly recorded bends are protected; broad glyph/ice uncertainty is not an individual surveyed anchor. Previously omitted points are explicitly recorded.",
+      "Sary": "Conservative35 retained; no stronger500m substitution.",
+      "fixedAnchorListScope": "Explicit critical/mapped points surviving the source version; detailed regional protection and original Darja masks remain in referenced proof.",
+      "publicationScope": "work/gis only; no main/deployment permission inferred"
+    },
+    "reason": "Apply the user-selected bounded592East + Latvia250/Poland250-with-originalPripyatConnector + protectedAtrek/Darja display derivative. Actual meaning/contact safeguards and topology evidence reviewed. This accepts a limited display improvement and disclosed retained uncertainties; it does not certify1922legal accuracy or complete NE parity. Original masters and all important protected connections retained."
+  },
+  "compiledReviews": [
+    {
+      "status": "passed",
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "geometrySha256": "8ce55c0f889fe402d3e5e7e30f0a3d5076363c2ca4cdbd79ab596ff4992e7ca6",
+      "master": {
+        "reference": "kimjeon-il/PandoLab-library-data@3673ce501c5c2479356414816b5c5daa0ca3e6c6:objects/dab7724ba5c764269c6c56b0d84dca130072cd91d1a11e8cde05fff0b4b7e005.json; immutable adopted input retained, original map/master provenance unchanged",
+        "sha256": "dab7724ba5c764269c6c56b0d84dca130072cd91d1a11e8cde05fff0b4b7e005"
+      },
+      "source": {
+        "reference": "kimjeon-il/PandoLab-library-data@3673ce501c5c2479356414816b5c5daa0ca3e6c6:assets/data/territorial-entities/source/countries/state-soviet-union.json",
+        "sha256": "87ecdb29d9c91f0779ac9282ff1c7b8aed104feffda2708feb01e404efe523d0"
+      },
+      "comparison": {
+        "reference": {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/east14-comparison.json",
+          "sha256": "052b100cc64de5513ea50577619355492f58cf13cdd93380399e0cdc74d5bb4b"
+        },
+        "arcSha256": "9a20e0800d9ad2a59804c554e5899769c4099b221a0be7889230503138d1f707",
+        "extent": [
+          26.13454584092981,
+          37.269378450723224,
+          85.21658391558348,
+          57.57474050543881
+        ],
+        "scaleDenominator": 10000000,
+        "projection": {
+          "definition": "Per-line local WGS84 AEQD; exact executed definitions in metric-input.json and atre k metric input",
+          "units": "metre",
+          "evidence": {
+            "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/metric-input.json",
+            "sha256": "4a81168cc0fc2d7eecc19ba93b62ecfb97dbe4eb4888e96ddc7129cfc9a01006"
+          }
+        },
+        "additionalEvidence": [
+          {
+            "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/atrek-metric-input.json",
+            "sha256": "f2f6e83ba95f36603bb1f0779bb74b27e1dd9de201191b4f0c8267925b637db6"
+          },
+          {
+            "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/atrek-metrics.json",
+            "sha256": "d718ff2bba61b176328534e3b3d6cca67be909e079b6a0d4e06d28064bce1be5"
+          },
+          {
+            "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/changed-boundary-edges.json",
+            "sha256": "d472bdcc036c7e2197aa955f94572f0dd865b49dcb65fb107557927d270d2221"
+          }
+        ]
+      },
+      "visual": {
+        "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/visual-evidence.json",
+        "sha256": "8b1b25417ea41e10b0027541bc4d7f3136cb32e5d58fcd09b524edc6553d92d0"
+      },
+      "topology": {
+        "status": "passed",
+        "evidence": {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/validation-evidence.json",
+          "sha256": "69151a6c0a052514b5e0ec9044d19b16cf4a859e8b2eb588fe8896fb187046b5"
+        },
+        "checks": [
+          "validity",
+          "shared-boundary",
+          "union",
+          "gaps-overlaps",
+          "connectivity",
+          "holes-islands",
+          "dates"
+        ]
+      },
+      "method": "reviewed-display-generalization",
+      "parameters": {
+        "selection": {
+          "East14": 592,
+          "LatviaPoints": 163,
+          "PolandPoints": 671
+        },
+        "perFeatureTrials": {
+          "reference": "reports/borders/validation/soviet-display-592-application-2026-11-05/east-trials.json",
+          "sha256": "94eaf969535f668c56fe219ccca26eccafa2a7081546c68ab6f66bc5f6a0b281"
+        },
+        "atrokCap_m": 400,
+        "darjaProtectedCap_m": 400,
+        "sourceMeaning": "Mapped named contacts and directly recorded bends are protected; broad glyph/ice uncertainty is not an individual surveyed anchor. Previously omitted points are explicitly recorded.",
+        "Sary": "Conservative35 retained; no stronger500m substitution.",
+        "fixedAnchorListScope": "Explicit critical/mapped points surviving the source version; detailed regional protection and original Darja masks remain in referenced proof.",
+        "publicationScope": "work/gis only; no main/deployment permission inferred"
+      },
+      "reason": "Apply the user-selected bounded592East + Latvia250/Poland250-with-originalPripyatConnector + protectedAtrek/Darja display derivative. Actual meaning/contact safeguards and topology evidence reviewed. This accepts a limited display improvement and disclosed retained uncertainties; it does not certify1922legal accuracy or complete NE parity. Original masters and all important protected connections retained."
+    }
+  ],
+  "pinnedBindings": [
+    {
+      "objectRef": {
+        "domain": "territorial",
+        "id": "state:soviet-union"
+      },
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "geometryRef": {
+        "id": "historical-world:357d93e0d5b6bc9c7c134bfdbcf09ebbb37f275aa468e1eb87cf979e8bee2c74",
+        "version": 1
+      },
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "geometrySha256": "8ce55c0f889fe402d3e5e7e30f0a3d5076363c2ca4cdbd79ab596ff4992e7ca6"
+    }
+  ]
+}

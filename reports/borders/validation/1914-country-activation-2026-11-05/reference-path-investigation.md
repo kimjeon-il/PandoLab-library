@@ -1,0 +1,27 @@
+# Reference-date usability and USSR receipt recovery: investigation checkpoint
+
+Application baseline: ebc525a87e32808c3bf5f3cb008618a95fb58fba. Runtime data baseline: b6c3c85bba690244829bdec93c58682d9342bda8. No product/source/geometry/pin changes have been made in this investigation.
+
+## Active user path
+
+The current Web and Windows reviewer both run apps/viewer as a read-only product. Source catalog import/representative-date selection is not exposed in that UI. tools/gis/territorial-library.js retains the source calculation contract: exact date selection does not fall back; explicit representative imports create a static project instance with unbounded project binding and preserve sourceReferenceDate, sourceGeometryValidity and historicalProvenance. This is a tool API, not an existing user-visible import dialog.
+
+The active project-file reader admits only .gpkg through the production read worker and projectDomain.open. The file controller and Viewer already support repeated read-only project replacement and return to the builtin map. The separate builtinMonthClock retains the builtin month while a file is open. The monthly timeline contract means month end; the July 28 snapshots must therefore remain absent from the July 31 builtin baseline.
+
+Smallest existing-contract implementation: create explicit reference projects through the existing GeoPackage producer (July 28: Austria-Hungary and Serbia; July 31: Germany) and open them through the existing file menu. Add a bounded read-only reference notice derived from their already-preserved source metadata, showing exact source dates and provisional status and explaining that this is a fixed reference copy, not the selected month-end world's historical coverage. Return to builtin uses its preserved month. This requires no global fallback, source-date widening, editing reactivation or daily calendar semantics. Repeated opening, previous/next months within the explicit fixed document, builtin return to the original month, and modern baseline must be tested on the actual UI before any usability completion claim.
+
+A larger alternative is a dedicated source-reference browser/view with its own explicit selection and return state. No such UI exists today; adding it is a product feature. A global exact-day timeline would also change existing cursor and physical-resource contracts and is outside a minimal fix. No UI behavior or package has been implemented yet, and no actual-screen usability verification is claimed at this checkpoint.
+
+## USSR: existing evidence is real, but the representation drifts
+
+The named source version is 1922-12-30 through 1925-05-12. Its source review binds digest 9a566c5578c79ff795e84d04a8abb35bb3d5bfb283316b6f0c71d8af35226db0. It also contains a passed compiled derivative receipt for the same ID/version/period and digest 8ce55c0f889fe402d3e5e7e30f0a3d5076363c2ca4cdbd79ab596ff4992e7ca6. The currently pinned compiled binding has that exact digest. Thus the prior report's general missing-review diagnosis is now narrowed: an existing exact reviewed compiled representation exists.
+
+The referenced soviet-display-592-application report is preserved in the d2c02308 and b6c3c85b runtime archive indices, independently of report-main. Only seven named records were decoded and SHA checked. Its validation-evidence.json hash exactly matches the receipt's 69151a6c... reference, and its application audit documents the bounded source/compiled identity checks. No other owner's report was edited.
+
+A diagnostic reconstruction loaded only the 51 metadata-bbox candidates for this one USSR source interval (4.4 MB total compressed source chunks), with diagnostic lifetimes bounded in memory to that interval. No world publication or application data write ran. It reproduced the same gate failure and generated digest 22e0f3ef5cead6169325705b136ac1627957f87b1425de6902d0f741f682ea37, with AFG/IRN overlap adjustments. This is a scoped reproduction of the same error, not a captured geometry artifact from the failed full CI job.
+
+Both pinned and diagnostic geometries are GEOS valid. Their symmetric difference is empty. More strongly, exact coordinate-token comparison, allowing only cyclic ring start, ring reversal, polygon order and hole order, produces the same diagnostic canonical hash 4075cc12261a686669a7822ea8992db3dc591b79ad150f371c375d86fe01e653 for both, with 222 components. No rounding, snapping, resampling, coordinate change or production digest change was performed. OGR Equals is recorded separately; its false structural result is not treated as a non-empty geometric difference.
+
+This identifies a representation-stability problem, not evidence of a different border. Reusing the previously reviewed representation verbatim after exact ring-equivalence proof could preserve its original digest and existing matching receipt. That production recovery has not been implemented or accepted by the gate yet. We have not copied the old receipt onto digest 22e0f3ef..., created a new passed review, changed the USSR shape or relaxed the gate. All source/compiled/reference dates and original masters remain preserved.
+
+Supporting files: ussr-review-recovery-inventory.json, ussr-existing-evidence-proof.json, ussr-scoped-compiled-recovery.json, ussr-recovery-coordinate-order.json and ussr-recovery-geometry-comparison.json. The diagnostic canonical ring hash is solely comparison evidence and does not replace the production geometry digest.

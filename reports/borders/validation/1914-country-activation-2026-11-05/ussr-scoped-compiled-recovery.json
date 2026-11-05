@@ -1,0 +1,93 @@
+{
+  "revision": "b6c3c85bba690244829bdec93c58682d9342bda8",
+  "inputScope": [
+    "state:AFG",
+    "state:ALB",
+    "state:ALD",
+    "state:AND",
+    "state:BEL",
+    "state:BGR",
+    "state:soviet-union-byelorussian-ssr",
+    "state:CAN",
+    "state:CHE",
+    "state:czechoslovakia",
+    "state:DNK",
+    "state:ESP",
+    "state:FIN",
+    "state:FRA",
+    "state:GBR",
+    "state:DEU",
+    "state:GGY",
+    "state:GIB",
+    "state:GRC",
+    "state:GRL",
+    "state:HUN",
+    "state:IMN",
+    "state:IRL",
+    "state:IRN",
+    "state:IRQ",
+    "state:ISL",
+    "state:ITA",
+    "state:JEY",
+    "state:JPN",
+    "state:KAS",
+    "state:LIE",
+    "state:LUX",
+    "state:MAR",
+    "state:MCO",
+    "state:MNG",
+    "state:NLD",
+    "state:NOR",
+    "state:POL",
+    "state:PRT",
+    "state:ROU",
+    "state:soviet-union-russian-sfsr",
+    "state:SMR",
+    "state:soviet-union",
+    "state:SPM",
+    "state:SWE",
+    "state:soviet-union-transcaucasian-sfsr",
+    "state:TUN",
+    "state:TUR",
+    "state:soviet-union-ukrainian-ssr",
+    "state:USA",
+    "state:yugoslavia"
+  ],
+  "diagnosticInterval": {
+    "from": "1922-12-30",
+    "to": "1925-05-12"
+  },
+  "method": "Only 51 catalog-bbox candidates for the one source interval. Source coordinates, versions and receipts are unchanged in memory; diagnostic lifetimes are clipped to the interval. No output is registered or written into the application/library.",
+  "bindings": [
+    {
+      "objectRef": {
+        "domain": "territorial",
+        "id": "state:soviet-union"
+      },
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "geometryRef": {
+        "id": "historical-world:bc3584ba6c9a10f8c1106884bdf2aa9144eeee93f0964e0c2d980c0cfb31865a",
+        "version": 1
+      },
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "geometrySha256": "22e0f3ef5cead6169325705b136ac1627957f87b1425de6902d0f741f682ea37"
+    }
+  ],
+  "gate": {
+    "status": "failed",
+    "error": "Error: Historical display review required: state:soviet-union/state:soviet-union:1922-12-30-reviewed-v2: missing or unresolved review"
+  },
+  "adjustments": [
+    {
+      "entityId": "state:soviet-union",
+      "kind": "unknown-peer-overlap",
+      "relatedIds": [
+        "AFG",
+        "IRN"
+      ],
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12"
+    }
+  ]
+}

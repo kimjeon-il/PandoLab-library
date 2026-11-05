@@ -137,3 +137,6 @@
 
 
 [CI follow-up](ci-follow-up.md): reference-day provincial parent correction, exact commits, reproduction and separate baseline failures.
+
+
+[Reference-date usability investigation](reference-path-investigation.md): active UI contract, minimum existing-file path and exact USSR coordinate-order diagnosis; implementation and screen checks remain pending.
