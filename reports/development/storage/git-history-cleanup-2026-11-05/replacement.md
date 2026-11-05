@@ -21,3 +21,13 @@
 상세 공개 상태는 replacement.json, 실제 canonical 전송 검증은 replacement-live.json에 있다. 일회성 workflow·암호문·계정 설정 원문은 로컬 제외 경로에만 보관했다. 이전에 도구 정책이 거절한 임시 출력 삭제는 여전히 미완료이며 다른 도구로 우회하지 않았다.
 
 [GitHub secrets 암호화 방법](https://docs.github.com/en/rest/guides/encrypting-secrets-for-the-rest-api), [Codespace lifecycle](https://docs.github.com/en/codespaces/about-codespaces/understanding-the-codespace-lifecycle). 사용자 권한 화면과 개인 계정 정보는 공개 보고서에 포함하지 않았다.
+
+## 후속 확인: 옛 저장소 삭제와 Codespace 연동 실패
+
+사용자 기기 인증 후 옛 ID 1436926716을 재대조해 삭제했고, API ID 조회 404를 확인했다. 삭제가 기존 Codespace도 함께 제거한 사실을 API와 브라우저 문구로 확인했다. 앞선 단계의 source Git 보존 확인은 VM 보존을 보장하지 않았다. 기존 VM 유지에는 실패했으며, 미커밋·미푸시 변경 0개와 모든 source commits 보존을 확인한 상태에서 새 repository ID에 같은 영구 원격 환경을 다시 만들었다. 새 환경은 Git fetch/fast-forward/push dry-run, 여섯 항목의 profile preflight와 development preview server 시작을 통과했다. 원래 ignored VM 상태를 byte-for-byte 복원했다고 주장하지 않는다.
+
+입력 진단 정정: 앞선 긴 단일행 명령은 실제 실행되지 않았고 SSH 차단·GitHub CLI 설치는 입증되지 않았다. 정상 다중행 붙여넣기 뒤에는 공식 GitHub SSH 443과 저장소 전용 deploy key가 동작했다. 원래 VM이 삭제된 뒤 이 키는 사용처가 없어 회수했다. 새 VM은 새 저장소에 묶인 기본 인증으로 Git 접근이 정상이며 별도 계정 자격을 복사하지 않았다. 컴파일러·SDK·GitHub CLI를 설치하지 않았다.
+
+## 복원 완료
+
+새 영구 Codespace의 Git fetch/fast-forward/push dry-run 및 여섯 profile 조건이 실제로 통과했고 RECOVERY_PASS 출력으로 확인했다. private Viewer는 실제 지형·국가·도시를 렌더링했으며 지도 준비 완료와 2026→2025 전환, 이후 2026 복귀를 확인했다. 계정 권한이나 비공개 모델을 복사하지 않았다. 새 저장소와 연결된 기본 Codespaces 인증이 동작한다. 폐기된 VM용 임시 deploy key는 회수했다. 현재 원격 브랜치에 별도로 추가된 optional/manual Codespaces 정책 변경도 그대로 반영했으며 자동 시작 hook을 추가하지 않았다.

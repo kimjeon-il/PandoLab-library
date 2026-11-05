@@ -1,6 +1,6 @@
 # 승인 후보 Git 이력 정리 결과
 
-> 보고서 ID: DEV-STORAGE-GIT-20261105 · 상태: 일반 refs·로컬 완료 / GitHub PR refs 미완료 · 지도 반영: not-applied · 기준일: 2026-11-05
+> 보고서 ID: DEV-STORAGE-GIT-20261105 · 상태: 일반 refs·로컬·저장소 교체 완료 / 종료 임시 파일 삭제 보류 · 지도 반영: not-applied · 기준일: 2026-11-05
 > 코드 기준: 6a1db6c2e87894016f98309135896ce0199537b6 / runtime pin: 2b8825e4570b0c1e0558f76317f4ce3d021b4f11
 > 근거: 앞선 git-history-review-2026-11-05 승인 목록, 실제 객체·refs·작업트리·전송 바이트 확인
 
@@ -48,3 +48,13 @@ GitHub가 소유하는 과거 PR refs 17개에서 코드 승인 blob 633개가 �
 ## 승인 후 저장소 교체
 
 사용자 승인으로 운영 저장소를 새 ID 1446519692로 교체하고 canonical Pages 검증까지 마쳤다. 기존 secrets 4개와 전환 중 추가된 source patch도 보존했다. 새 운영 저장소의 PR refs는 0개다. 옛 ID 1436926716은 읽기 전용 Pando-retired-20261105로 남아 있으며, GitHub 권한 승인과 기존 Codespace 보존 확인 후 삭제할 예정이다. 현재 상태와 실제 증거는 replacement.md, replacement.json, replacement-live.json을 참조한다. 옛 저장소 삭제 완료는 아직 아니다.
+
+## 최종 교체와 Codespace 복구 경과
+
+승인한 옛 저장소 ID 1436926716은 삭제됐고 ID 조회는 HTTP 404다. 새 운영 저장소 ID는 1446519692이며 PR refs는 0개다. 기존 공개 주소·secrets 4개·전송 검증은 유지됐다.
+
+중요한 예외: 삭제 전에 기존 Codespace의 Git을 새 이력에 맞추고 fetch/push dry-run까지 확인했지만, 저장소 삭제가 원래 Codespace VM도 함께 삭제했다. 이 연동을 확정하지 못한 작업상 실수다. 기존 VM 자체와 그 ignored 실행 상태를 그대로 보존했다는 주장은 하지 않는다. 삭제 직전 미커밋·미푸시 변경은 없었고 소스 커밋은 새 저장소에 보존돼 있다. 새 저장소에 같은 2코어·8GB·Node24 구성을 복원해 Git·환경 preflight·미리보기 서버를 확인 중이다. 정확한 경과는 codespace-recovery.json 및 후속 최종 결과를 참조한다.
+
+## 복원 검증 완료
+
+새 Codespace pando-permanent-remote-workspace-xp9pj5wp45rc6g6g에서 실제 Git fetch·fast-forward·push dry-run, 여섯 profile 조건, 정상 development Viewer 서버, 실제 지형·국가·도시 표시 및 2026→2025→2026 시점 전환을 확인했다. 원래 VM을 그대로 유지한 것은 아니며 생성된 의존성·자료 캐시는 새로 준비했다. 마지막 Git 검사는 동시 추가된 사용자 변경 f7f8ae3b99640161b9244e1105273d5a43678c93에서도 통과했고, 해당 브랜치의 자료 pin은 49c0706b60846f171c3fb7a89f9f460017975e01이다. main·공개 Web의 6a1db6c2/2b8825e4 조합은 유지된다. 불필요해진 임시 deploy key는 회수해 새 저장소에 남은 deploy key가 0개다. 증거는 restored-preview.png, restored-preview-ui.json, restored-codespace-check.png와 codespace-recovery.json에 보관했다.

@@ -42,5 +42,12 @@
     "method": "same exec_command tool; one literal PowerShell file path; full SHA256, parent reparse and process-consumer checks",
     "result": "CreateProcess rejected before execution: blocked by policy",
     "deleted": false
+  },
+  "finalMeasurement": {
+    "checkedAt": "2026-11-05T05:22:58.584Z",
+    "retainedTaskTemporaryBytes": 361808242,
+    "driveFreeBytes": 48009637888,
+    "driveFreeBytesDeltaSinceInitial": 831688704,
+    "note": "No deletion retry after the prior policy rejection; task evidence and report publication added small outputs. Retained cloud generated runtime cache currently serves the verified private preview."
   }
 }

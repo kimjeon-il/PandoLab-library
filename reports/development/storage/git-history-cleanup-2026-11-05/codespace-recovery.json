@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-11-05T05:22:56.929Z",
+  "oldCodespace": "urban-lamp-gr5rg4qr5g5hw669",
+  "oldState": "deleted by GitHub repository-deletion cascade",
+  "oldVmPreserved": false,
+  "preDeletionGitStatus": {
+    "uncommitted": 0,
+    "unpushed": 0,
+    "sourceHead": "c712dbe3e69d2344729192094de038321029f80f"
+  },
+  "sourceCommits": "preserved in new repository",
+  "newCodespace": {
+    "name": "pando-permanent-remote-workspace-xp9pj5wp45rc6g6g",
+    "webUrl": "https://pando-permanent-remote-workspace-xp9pj5wp45rc6g6g.github.dev",
+    "repositoryId": 1446519692,
+    "state": "Available",
+    "machine": {
+      "name": "basicLinux32gb",
+      "display_name": "2 cores, 8 GB RAM, 32 GB storage",
+      "operating_system": "linux",
+      "storage_in_bytes": 34359738368,
+      "memory_in_bytes": 8589934592,
+      "cpus": 2,
+      "prebuild_availability": null
+    },
+    "gitStatus": {
+      "ahead": 0,
+      "behind": 0,
+      "has_unpushed_changes": false,
+      "has_uncommitted_changes": false,
+      "ref": "work/remote-only"
+    }
+  },
+  "configuration": "same committed Node 24 Bookworm devcontainer, branch work/remote-only, 2 cores/8 GiB RAM/32 GiB storage",
+  "checks": {
+    "gitFetch": "passed",
+    "fastForward": "passed",
+    "gitPushDryRun": "passed with existing new-repository authentication",
+    "profilePreflight": "all six checks passed; ready true",
+    "previewServer": "frontend ready at http://127.0.0.1:4173; executionMode development, product viewer",
+    "privatePreviewBrowser": "actual terrain/countries/city map rendered; map ready; year 2026 -> 2025 -> 2026 observed",
+    "finalSource": "f7f8ae3b99640161b9244e1105273d5a43678c93",
+    "finalDataPin": "49c0706b60846f171c3fb7a89f9f460017975e01",
+    "gitVerification": "strict execFileSync checks completed and emitted RECOVERY_PASS; screenshot retained"
+  },
+  "nativeSdkCompilerInstalled": false,
+  "githubCliInstalled": false,
+  "temporaryDeployKey": "revoked after its old VM was deleted",
+  "originalIgnoredVmState": "not byte-for-byte recovered; generated dependencies/runtime caches prepared anew",
+  "status": "replacement environment operational",
+  "laterConfiguration": "Concurrent user commits changed Codespaces to optional/manual startup; fast-forwarded and preserved. Current preview was started manually by the existing start-preview.sh, with no new automatic hook."
+}
