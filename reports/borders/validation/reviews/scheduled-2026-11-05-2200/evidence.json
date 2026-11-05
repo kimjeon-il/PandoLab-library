@@ -1,0 +1,816 @@
+{
+  "id": "GEO-REVIEW-20261105-2200",
+  "scheduledAtUtc": "2026-11-05T22:00:00Z",
+  "previousReview": "8beb97cca9992ae2099ab0ce19dca4d62f10961a",
+  "snapshots": {
+    "Pando": {
+      "main": "7cd224bd198c014d2215e35a93452702227d8314",
+      "work/gis": "a4f2f7f8a72e25b36b3ba5388c18cd8c2e2f8b04"
+    },
+    "library": {
+      "main": "0ed277208a52fcda77d5777f1622e5272c08dadf",
+      "work/gis": "887f72186fda9596502a35631d0a3376d9b4a1f1"
+    }
+  },
+  "inventory": {
+    "main": {
+      "changed": [
+        {
+          "path": "borders/README.md",
+          "sha": "9ca90371eeaa65de4566fceecc7ced53e89ee414",
+          "prior": "4682380cd47988a6c353298c692d7e09e55c7c11"
+        },
+        {
+          "path": "borders/history/lifetimes/country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md",
+          "sha": "c32a371e985608715c93bbde51fa99054fe7fca1",
+          "prior": null
+        },
+        {
+          "path": "borders/history/lifetimes/country-lifetime-rotation-progress.md",
+          "sha": "fff67a131b838c1417ce13c771296c5ed78a0584",
+          "prior": "cb2e5a14c99faf5bc7aadf11ee19fe8f276e92f8"
+        },
+        {
+          "path": "borders/history/timeline/historical-timeline-2025-oceania-vanuatu-maritime-shelf-2026-11-06.md",
+          "sha": "a08a99db63c2e02960a35d26a40d26369083cc46",
+          "prior": null
+        },
+        {
+          "path": "borders/history/timeline/historical-timeline-yearly-progress.md",
+          "sha": "1d5666521ce3212030ccaa511c772749f7bd8a89",
+          "prior": "ff912a2296950baae642a8876d8b18af58c74f04"
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/README.md",
+          "sha": "02082cb0a1cbc514799b77562567566e4fc3647c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/app-publication.json",
+          "sha": "f9d0527d71699aa0c003faa5a3b457cfb8226967",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/bind-reviews.mjs",
+          "sha": "391d1671f64d3a7653a95a533020aaa2a3dcc4e0",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/candidate.mjs",
+          "sha": "310d690887eb08144a3a8a6f4f37b18f8d23d7b2",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ci-baseline-comparison.json",
+          "sha": "c1af52ef99fad5fc233746b192955726870f783c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ci-follow-up.md",
+          "sha": "72f80ac0103e3c3e4f2fd9d2376ee1bef872c6de",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/close-overlay.mjs",
+          "sha": "2f213cdd939d1ca256fcf8b0f0230c2b7eca64ff",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/compare-ussr-coordinate-order.mjs",
+          "sha": "ba579f854d634580aaa5870aac0760c8a579c9d6",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/compare-ussr-recovery.py",
+          "sha": "b2ecff823969a5c16da7b750a1b2253036634ab5",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/compiled-proof.json",
+          "sha": "8a7435afef0cb46594c4640b40442e6905ac0524",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/compiled-review.png",
+          "sha": "5da52e63f7fa77e789848b9e02aff096bdf06859",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/compiled-review.svg",
+          "sha": "2538f68f49a6111651ee106bb5c5924063c47dd7",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/display-before-closure.json",
+          "sha": "0d0f1cddde7cbd913ede11fef8d8b6ab085b4ceb",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/display-closure-ledger.json",
+          "sha": "9520a8282d71661df3785c07ee4e9170528db343",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/display-final.json",
+          "sha": "dff79186af1db7b701cce61d53cb4071c6f1747a",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/display-review.png",
+          "sha": "228192fea528d70a70437d5444bdc327a6b9dd43",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/display-review.svg",
+          "sha": "14372828aeea8c0adba8124e54650962f9feb8d2",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/evidence-manifest.json",
+          "sha": "cb942494a03b094460a4e76a1a198f8037b262bc",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/fragment-probe.py",
+          "sha": "97d268d8bf8abfe5b10c679bbb2ffc3b33848c73",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/generalize.py",
+          "sha": "96fc601dfc21a066dbb32040a0d04cb08b33030c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/important-islands-proof.json",
+          "sha": "d8a34b30c703bba2275ff47795f44ca6bf90ff40",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ne-reference-arcs.json",
+          "sha": "607b0a08bb25389699d99a599ae472af5b39cc20",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-direct-scope-comparison.json",
+          "sha": "1c5c4cf8c0fda366419d52ed32c7c382c415bdb0",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-fixed-commit-failure.log",
+          "sha": "0e4593be496f2d90d204f02699b07aec4dcb3087",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-follow-up-result.json",
+          "sha": "883129702a2e20df15cf3f373ba4bc2ea738bc9b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-parent-preservation-proof.json",
+          "sha": "dc2b1d53f033903c8f1bf077cb72278189207d2c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-parent-remote-proof.json",
+          "sha": "6149f916ee5689593ab171242846b1af2b0ac5ef",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-parent-runtime-plan.json",
+          "sha": "9bdebf62e1e46435a64cabef24ca9b4a8cdb929d",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-parent-runtime-publication.json",
+          "sha": "b1850378309c83a3dfc961cbfa0880df85b9eb7e",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-parent-scope-comparison.json",
+          "sha": "d72c38a31d7381b10991d041190aa9705f1d7825",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-three-pin-regression.json",
+          "sha": "741218bdec3ac276623e4972d30f86173e99406e",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/p2-ussr-input-comparison.json",
+          "sha": "8d25e77f2f423b5b05027afdebd23aea1fad8d6c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/post-registration-proof.json",
+          "sha": "7f639fea3081a0ad94d113c05af85f575fca4b5d",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/preservation-proof.json",
+          "sha": "431d8a430d862f2f7f4fb611d4407652cd8da60f",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/preserve-modern-arcs.py",
+          "sha": "f1bf39873436c0d0949ca09201dc0278dbc94a24",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/publication-baseline-d3a.log",
+          "sha": "89531cc1ad86abff04ea4edc1441409810f300a2",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/publication-baseline-reproduction.json",
+          "sha": "7802a358369069483a6c5893be721060ebbef6be",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/publication-contracts-fixed-failure.log",
+          "sha": "b7c2aa5dec1543b767e959cfba0cc034a22870b2",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/publication-fixed-ebc.log",
+          "sha": "230cf6b3141790e2bce448267c7690f3f5bf3246",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/publication-result.json",
+          "sha": "76aa2e3bb8256998ccd662398e561724d803bdde",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/reference-path-checkpoint.json",
+          "sha": "6b241ffff62f1c8f47ea70c005b2d5f22ba96f91",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/reference-path-investigation.md",
+          "sha": "ba230efbfb8ad0360c42e1d87ebe3caa4ba9839a",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/reference-snapping-proof.json",
+          "sha": "e3b5678cf2fe22a5dca71417439d140c11b93d06",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/register.mjs",
+          "sha": "65a839be3150b135668c6a5aeffb5bdee7d71007",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/registration-plan.json",
+          "sha": "8b1afe9f80a33732bef6b02faa40e065f57a5e19",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/remote-data-proof.json",
+          "sha": "9cf7cf0655f0771597324e093145e48145f71ee3",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/render-compiled.mjs",
+          "sha": "a8415f711a771297b1fa54917b798c635ba19d66",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/renderer-proof.json",
+          "sha": "df8633338eb225d86165c51a473d6cc1079b1578",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/repair-proof.json",
+          "sha": "6ff88d3b3f376c111f85326eb092b0acf212caba",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/repair.py",
+          "sha": "7ee35ab76b160b40d9419b2229b9e792f9c4e367",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/reproduce-1914-p2.mjs",
+          "sha": "a15583b97620620daa16f2ff57adfb46afb2f34d",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/reproduce-publication-baseline.mjs",
+          "sha": "fa2cb44e8ef7ee10fc7618409cee962821ef953f",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/reproduce-ussr-interval.mjs",
+          "sha": "1f569f776617b1c16fa29516b2a62425a6b84ff4",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/residual-baseline-3be.log",
+          "sha": "c59271b48a72939e9b040367dff6b9190f173d1e",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/residual-baseline-reproduction.json",
+          "sha": "5cfbc7fcbfb54569557725b0b8e01383716757c5",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/residual-current-d3a.log",
+          "sha": "e11f9a37193d9b80ff2fcd5fc94e57aace50c909",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/review-gate-proof.json",
+          "sha": "d8b4e757b84b313272f534830257a07bbf26a429",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/runtime-publication.json",
+          "sha": "e1b140f74ffd9a82210dc647b5b90ddc7028cae3",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/splice-compiled.mjs",
+          "sha": "ed7eda77c28ac1b3e187114d447bc9c794daa33b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/topology-proof.json",
+          "sha": "19dee1df959ba75d2f39fae31a48ca9f1efb4596",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/topology.mjs",
+          "sha": "8499e0adb44ce659ecaa0cf481cac93a8cebc922",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-evidence-path-search.json",
+          "sha": "012c1471b9fab8546bb10bb9b070fd29ec6d1d47",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-existing-evidence-proof.json",
+          "sha": "8614dd8d735fd08bf67f76b6cce9e2d1c58e36d9",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-recovery-coordinate-order.json",
+          "sha": "8055c210354fb58d126b71e5dfadfc51e58e7bc7",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-recovery-geometry-comparison.json",
+          "sha": "b1d741f7af5df507f6880fc685e43cccefbd9a79",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-recovery-scope.json",
+          "sha": "4667378ce3be82c66c69ee6a7534247bdc972154",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-review-recovery-inventory.json",
+          "sha": "ef34c6fd82b1952015b9720af1bed27a83795989",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/ussr-scoped-compiled-recovery.json",
+          "sha": "545f4fdeb266342c7dd36d2633335563fca4d5ab",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-compiled.py",
+          "sha": "9e67ec25f1317447c4ce007c8b03fb3763bfdc4b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-data-publication.mjs",
+          "sha": "af1d561373996606a27ce066d7a4cba447b878f3",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-islands.py",
+          "sha": "e183b5ab596e018aac5d76c28cb2933367fb27d7",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-p2-parent.mjs",
+          "sha": "8082d90ea7b517ba1f17986c377793af0acdad4a",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-p2-publication.mjs",
+          "sha": "61ae1ece65030bc026f53a60d3ddfeaa854cdd0c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-preservation.mjs",
+          "sha": "2c9e564ebba9be1fa8fe22a351f60018b76ed097",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-registration.mjs",
+          "sha": "a9bdf53c740c61fcccaeb16e679739b1eb30ea39",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify-renderer.mjs",
+          "sha": "e24ecff2652cfca66944b769301889693932be89",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/1914-country-activation-2026-11-05/verify.py",
+          "sha": "fd7e6d4d24137b413be924b35ab286cf7f985d92",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/README.md",
+          "sha": "da9b12530c113fde6afb9d3450472e74a557c199",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/approved-blobs.json",
+          "sha": "55aa5cfad0626610bce5f4bcd1e7e75e7e89b5c4",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/cleanup.json",
+          "sha": "ef96eb8f6df23e6cb0e6ef7f6666f19e387f7638",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/codespace-recovery.json",
+          "sha": "554f603dcbc347bf9942e7fbcc71740740e2be54",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/remaining-actions.md",
+          "sha": "f11d969c04d308972e2c9e6994c93c8a1368c724",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/replacement-live.json",
+          "sha": "75ff2d760c6825058def2d1429b4540323fbf174",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/replacement.json",
+          "sha": "17879133735e799da106c438c2ee1c44de16f4ab",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/replacement.md",
+          "sha": "d27c32be2f97913ebd4dc3f324e58a5f0eb2a6ca",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/repository-deletion.json",
+          "sha": "b901032e8ff67d8314159c5330708fcba99f4d8b",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/restored-codespace-check.png",
+          "sha": "9cf0f29c75c5a55725f32fc22136e942e155ad30",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/restored-preview-ui.json",
+          "sha": "10644a6c72450d53a2d31e8b87cf5c8dd35621b8",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/restored-preview.png",
+          "sha": "bf9e1d9f4779152adb6aa51a6aea969be7e10be5",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-cleanup-2026-11-05/result.json",
+          "sha": "9a7ca430de5b039088e18a4ca6097f0ffac4f1d6",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-review-2026-11-05/generated-candidates.json",
+          "sha": "55571ba099007dc6cbe0ad2795b8efcba455ad4a",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-review-2026-11-05/review.md",
+          "sha": "ae2549e7226b6397c84e96f4a7a6166a51e7f58e",
+          "prior": null
+        },
+        {
+          "path": "development/storage/git-history-review-2026-11-05/summary.json",
+          "sha": "1db58d9260d2b75995a0bebb8bd0e22e9f3a6f38",
+          "prior": null
+        },
+        {
+          "path": "development/ui/file-structure-audit-20261105/inventory.json",
+          "sha": "803a5edc9d0e69fcfd218aa60be6a449635fc1b6",
+          "prior": null
+        },
+        {
+          "path": "development/ui/file-structure-audit-20261105/report.md",
+          "sha": "048e05c99300f536486a08a2bbb112f9d059d2d5",
+          "prior": null
+        }
+      ],
+      "deleted": []
+    },
+    "work/gis": {
+      "changed": [
+        {
+          "path": "borders/history/1914-representative-periods-2026-11-05/README.md",
+          "sha": "6e04c3c5ee2d83301508e39a87b85918ba4c1793",
+          "prior": null
+        },
+        {
+          "path": "borders/history/1914-representative-periods-2026-11-05/local-plan.json",
+          "sha": "014c98ec3b0fab78198c6f17e0235bbf138114a6",
+          "prior": null
+        },
+        {
+          "path": "borders/history/1914-representative-periods-2026-11-05/validation.json",
+          "sha": "8dd6aab9c81366ab267443b80ee0da9fa9dc0908",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/README.md",
+          "sha": "c4cfe35ff906339184b842d5736bbe05c6c58c4e",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/atrek-comparison-context.png",
+          "sha": "3f6aa393b30d56e232e4a85d6ee6650c51e87611",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/atrek-metric-input.json",
+          "sha": "a57980e78c83a07ac734844b4ee0987706e22584",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/atrek-metrics.json",
+          "sha": "8b92de6155a86fd4d37c3d046e58fb9f313788f7",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/changed-boundary-edges.json",
+          "sha": "80178355d52a2d6730eacce059e90c02e172ecc1",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/checksums.json",
+          "sha": "5660b5328dadaf31bf085557a84687a27d9be3fb",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/current-application-audit.json",
+          "sha": "e403bb25f0c0ee7a065a806d549c6de4e6f91283",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/current-prepared-result.json",
+          "sha": "2ac1b3efa231b3456c357c4466a0a487ffd9f921",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/current-viewer-check.json",
+          "sha": "d067f092a4b75bf12557d956060b2c49493ce72d",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/current-viewer.png",
+          "sha": "4f2029911d25d06276cb0131f4f51e2a95d9c73b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/darja-comparison.png",
+          "sha": "91496dc6df25bd49cc7d21cb3abb7d0e15ed0ffb",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/darja-exact-outside.json",
+          "sha": "26c767fe0f99db41ffe7a4d05289ec34d2d365ae",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/darja-integrated-topology.json",
+          "sha": "bd09eda1fa0deefc2179bb8d9ca1a180675451ad",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/darja-physical-proof.json",
+          "sha": "b68f7fd859eac2f4a12002a1f9c866e00f1acf0b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/east-comparison-1.png",
+          "sha": "f59265fbee28ec15b00fa728f41b9b99f783e3f3",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/east-comparison-2.png",
+          "sha": "63de8959ec1c92bd6a447021f11c59296d08ceb3",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/east-topology.json",
+          "sha": "3e2ccf6e63b4d5ebdb16c03b7ec6d7c38f28a6dc",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/east-trials.json",
+          "sha": "75ad2282e00b11117143b0181fefd95909c15804",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/east14-comparison.json",
+          "sha": "275c72b57a48b5e07c8b07183f4bedd5d7b3d9db",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/metric-input.json",
+          "sha": "1f8c434a44a58a34bdf0b904ae5492d0b0d062bf",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/prior-downstream.json",
+          "sha": "bfa3c07fc8336309b6e1aa70e0bf26d9014ebe52",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/prior-four-east-comparison.png",
+          "sha": "609448ec75101ae754bb5e375e4e78e67974b66d",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/prior-viewer-check.json",
+          "sha": "b66e7eba4f011764315fce04aa557ff69a0b2c3e",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/prior-viewer.png",
+          "sha": "35c7029bb013bf26b439dcd26a1aac9571e4b59b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/reproduction/apply-approved-592-local.mjs",
+          "sha": "e2d1ea37f71c1ac4086dd5c099043b997823923b",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/reproduction/audit-approved-592-canonical.mjs",
+          "sha": "0172342a3b36b28c22f105ba8fd8dc22ea70fa0e",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/reproduction/prepare-approved-592.mjs",
+          "sha": "8e588c55bf5c231cfdadb306c1582aea87b3b4bc",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/reproduction/stage-approved-592.mjs",
+          "sha": "b36699332aeb59dc7b1ba69ecf732b4efa293b41",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/reproduction/viewer-approved-592.mjs",
+          "sha": "51623c53b4b2e26e63453fa0e5e06af80b977160",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/retired-selected-input-receipts.json",
+          "sha": "226a9fc9d258ff5e6c0bf9334ef78c0852cd92c2",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/validation-evidence.json",
+          "sha": "27b8d0eb3b0de00865af6a54ba3ed6b3585b2055",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/visual-evidence.json",
+          "sha": "4a319cf6f000761240761de4c9b5973c8899040c",
+          "prior": null
+        },
+        {
+          "path": "borders/validation/soviet-display-592-application-2026-11-05/west-comparison-context.png",
+          "sha": "482c25026c3813b34160a87c96dc3f41c58a2170",
+          "prior": null
+        }
+      ],
+      "deleted": []
+    }
+  },
+  "runtimeChanges": 0,
+  "mainChanges": 0,
+  "objects": [
+    {
+      "id": "state:USA",
+      "hash": "3e5175f09e83d5a9decda1ee0a9b08fd3c69ce5743ff1140a34340444260cc15",
+      "lifetime": {
+        "validFrom": "1776-07-04",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:USA:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "state:GTM",
+      "hash": "95cf5cb719d36676c9f94068cb779202161e1c21d8baecf0bd6099ea3cd2132d",
+      "lifetime": {
+        "validFrom": "1839-04-17",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:GTM:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "state:HND",
+      "hash": "7ea62a3b4af156e7e99863be40444c8b479487919c2153861a8fd83954866ae2",
+      "lifetime": {
+        "validFrom": "1838-10-26",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:HND:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "state:SLV",
+      "hash": "c534f2d7e881ff9f0fa9f5e5a931672f81ce36d751ce603885dabb2854c9d1fe",
+      "lifetime": {
+        "validFrom": "1841-02-02",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:SLV:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "state:VUT",
+      "hash": "0b422306a4b7e00122a2364908718db99db8aedc4f1ef76258068c6db6c8f4f3",
+      "lifetime": {
+        "validFrom": "1980-07-30",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:VUT:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "state:FJI",
+      "hash": "303e11c2cafbe9299dfb9a30dbb86c878c73752c0e98b247146d1de7226a27fb",
+      "lifetime": {
+        "validFrom": "1970-10-10",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:FJI:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "state:NCL",
+      "hash": "a0fcb67556efaf7c9d0ce56668d528acc99e4633d51aa4e10db9b7c4d6e143a9",
+      "lifetime": {
+        "validFrom": "1853-09-24",
+        "validTo": null
+      },
+      "geometryPeriods": [
+        {
+          "id": "state:NCL:natural-earth-5.1.1",
+          "from": null,
+          "to": null
+        }
+      ]
+    }
+  ]
+}

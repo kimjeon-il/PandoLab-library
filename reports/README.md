@@ -25,6 +25,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-REVIEW-20261105-2200` | [양 브랜치 검토 — 중미 협약 발효·남부연합 정부 사건 보완](borders/validation/reviews/scheduled-2026-11-05-2200/README.md) | 2026-11-05 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261104-2200` | [양 브랜치 자동 검토 — 잔지바르·마다가스카르 근거 보완·산타로사 날짜 구분](borders/validation/reviews/scheduled-2026-11-04-2200/README.md) | 2026-11-04 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261103-2200` | [양 브랜치 자동 검토 — 하노버 날짜 충돌·부하라 조약 전사 보완](borders/validation/reviews/scheduled-2026-11-03-2200/README.md) | 2026-11-03 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261101-2200` | [자동 검토 — 중앙아시아 날짜·부속서 / Cook 기관 연속성 정정안](borders/validation/reviews/scheduled-2026-11-01-2200/README.md) | 2026-11-01 UTC | `reviewed / important-holds` | `report-only / runtime-unchanged` |
