@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-04 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-06 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 아시아**
-- **lastCompletedRun: 2026-11-04** (아시아 중앙아시아 3개 역사 정치체 — 코칸트·히바·부하라 1차 문헌 조사; 법적 종료·주권국 분류 보류)
-- **nextRegion: 아프리카**
-- **nextPhase: 아프리카 미조사 국가·역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
-- **nextAction: GEO-LIFE-006/012/018의 아프리카 기조사 대상과 GEO-023 기존 근거를 제외하고 미조사 2~4개 선정. 중앙아시아 코칸트 1876 구력/신력, 히바 1920-02-02/04-26, 부하라 1920-09-02/10-06~08 법적 종료·계속성 2차 유보 유지. **
+- **lastProcessedRegion: 북아메리카**
+- **lastCompletedRun: 2026-11-06** (서플로리다·남부연합·1921년 중앙아메리카 연방 역사 정치체 3건 1차; 주권국가성·법적 종료일 판정 보류)
+- **nextRegion: 남아메리카**
+- **nextPhase: 남아메리카 미조사 국가·역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
+- **nextAction: GEO-LIFE-001/008/014/020, GEO-023과 288개 최신 국가 색인 중복 대조 후 미조사 역사 정치체 2~4개 선정. 북아메리카 서플로리다 1810 독립/미군 점유·남부연합 1861/1865 주권 인정·1921 중앙아메리카 연방 1922 종료일 2차 보류 유지.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -30,7 +30,7 @@
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md), [GEO-LIFE-022: 양시칠리아·하노버·크라쿠프](country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보 |
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
-| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
+| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 선행 근거 확인, 19세기 정치체 3개 1차 추가, 소멸국 전수 및 COK/NIU 법적 분류는 미완료 | 미완료 | NZL·하와이 법적 계속성 유보; GEO-LIFE-021 피지 왕국·타히티 보호국·쿡 연방(비주권) 1차, 1871/1880/1900~1901 법적 기간 2차 유보 |
 
@@ -55,6 +55,9 @@
 
 | **2026-11-03** | **유럽** | **역사 정치체 1차** | 양시칠리아 왕국·하노버 왕국·크라쿠프 자유시(3개, 크라쿠프 국가성 보류) | [GEO-LIFE-022](country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md) — 1816/1861, 1814/1866, 1815/1846 사건 분리·기간 유보 | **아시아** |
 | **2026-11-04** | **아시아** | **역사 정치체 1차** | 코칸트 칸국·히바 칸국·부하라 토후국(3개, 보호국 시기 법적 동일성 유보) | [GEO-LIFE-023](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md) — 1876 구력/신력 병합일, 1873/1920 히바 종속·폐지, 1868/1920 부하라 실효통치·신정부 분리 | **아프리카** |
+
+| **2026-11-05** | **아프리카** | **역사 정치체 1차** | 잔지바르 술탄국/공화국·마다가스카르 왕국·다호메이 왕국 3건 | [GEO-LIFE-024](country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md) — 주권국 동일성·종료일 유보 | **북아메리카** |
+| **2026-11-06** | **북아메리카** | **역사 정치체 1차** | 서플로리다 공화국·남부연합·1921년 중앙아메리카 연방 3건 | [GEO-LIFE-025](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) — 1810/1861/1921·1922 성립/법적 지위/종료 구분 | **남아메리카** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -187,3 +190,13 @@
 - **2차 보류:** 잔지바르 1856/1861 설립·보호협정 효력·1964 공화국 계속성, 마다가스카르 1895 보호조약·1897 폐위 원명령·영토 범위, 다호메이 1894/1895 일자 상충·1900 폐위 원법령·주권국 법적 종료일. 모든 옛 왕국·현대 공화국 간 **자동 법적 동일성 판정 금지**.
 - **미실행:** GIS/위상/지도·웹/앱 검사, 로컬 보고서 게시/검사. 외부 보고서 정본의 본 보고서·진행기록·색인만 저장; 국가 lifetime·GIS 형상·타임라인·웹/앱·Pando work/gis/main·배포 **0건**.
 - **커서:** lastProcessedRegion=아프리카; nextRegion=북아메리카; nextPhase=미조사 정치체 1차 2~4개(소진 시 2차). **모든 지역 1·2차 전수 미완료**. GEO-LIFE-016 원문 404 지속, 임의 복구 금지.
+
+
+## 2026-11-06 — 북아메리카 역사 정치체 3건 1차 인계 (GEO-LIFE-025)
+
+- **선정/순환:** 직전 아프리카 GEO-LIFE-024 → **북아메리카**. 서플로리다 분리공화국(1810), 미국 남부연합(1861~1865), 1921~1922년 중앙아메리카 신연방 3건을 별도 **1차** 조사. GEO-LIFE-019의 19세기 중미 연방 및 001/007/013/023의 현존 국가 기초 조사와 구별.
+- **기준 검증:** Pando work/gis HEAD `a4f2f7f8a72e25b36b3ba5388c18cd8c2e2f8b04`; pinned data revision `887f72186fda9596502a35631d0a3376d9b4a1f1`; 국가 색인 blob `d982119a3478199a499aeb8a4058b116a7a83b04` **288개 객체 실제 파싱**. 해당 세 옛 정치체 별도 ID 미발견, 현재 미국/과테말라/온두라스/엘살바도르/기타 국가 lifetime 무변경. 남극은 비국가 분류 유지.
+- **확인:** 서플로리다 1810-09-23 요새 점거·**09-26 독립 선언**·10-27 자체 헌법/미국 점유 포고·12-10 배턴루지 실제 점유 구별. 남부연합 **1861-02-08 임시헌법**, 03-11 상설헌법·외국 정부 정식 승인의 부재·1865-04~06 정부/군사 붕괴 및 1869 미 대법원 분리무효 해석 구분. 1921 중미 연방 **09-09 헌법 채택/10-01 발효**, 1922-01-14 과테말라·02-04 엘살바도르·02-07 온두라스 탈퇴의 법적 끝점 검토.
+- **2차 보류:** 서플로리다 국제주권 인정/선언 원문 스캔; 남부연합 주권국 여부·정부의 최종 종료일·공식 승인/교전단체 지위 분리; 1921 연방 임시정부(06-13) 및 1922-01-29 기구 종료 vs 02-07 법적 회원국 탈퇴, 각 원관보 효력. **주권국 확정 0건**.
+- **미실행:** GIS 형상·위상·배율/화면, 모든 원문 이미지 스캔, 로컬 `publish-reports`·`check-reports`, 웹/앱 검사. **문헌 1차 및 별도 라이브러리 원격 보고서 보존**만 수행; GIS/국가 lifetime/정본 타임라인/코드/Pando work/gis/main/배포 변경 **0건**.
+- **커서:** `lastProcessedRegion=북아메리카`, `nextRegion=남아메리카`, `nextPhase=미조사 역사 정치체 2~4건 1차(소진 시 2차)`. 모든 지역 1·2차 전수 미완료. 과거 GEO-LIFE-016 원문 404 보류 유지.
