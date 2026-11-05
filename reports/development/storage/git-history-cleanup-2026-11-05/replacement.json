@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T04:31:03.520Z",
+  "checkedAt": "2026-11-05T04:32:16.024Z",
   "status": "canonical repository and Pages switched; retired repository deletion pending authentication and Codespace protection",
   "newRepositoryId": 1446519692,
   "newRepository": "kimjeon-il/Pando",
@@ -24,7 +24,7 @@
       "ref": "refs/heads/work/places"
     },
     {
-      "oid": "860dc1d44e0987dc0ca96082e1fdc4bd263b4f62",
+      "oid": "cc7225e7c19fdc585c69f144a25d87163d8e7c05",
       "ref": "refs/heads/work/remote-only"
     },
     {
@@ -93,5 +93,12 @@
       "delete_repo"
     ],
     "status": "GitHub CLI device authorization pending user action; no credentials included in report"
+  },
+  "concurrentSubsequentChanges": "Additional source commits after the cutover remain descendants of preserved 4310a5e4; fetched without overwriting or removing them",
+  "localPreservationRechecked": {
+    "protectedFiles": 36,
+    "hashesAndStatus": "unchanged",
+    "codeRetiredBlobsAbsent": 633,
+    "dataRetiredBlobsAbsent": 3180
   }
 }
