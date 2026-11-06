@@ -1,0 +1,151 @@
+{
+  "id": "GEO-REVIEW-20261106-2200",
+  "readHeads": {
+    "Pando:main": "30a8402ac82a3e8a24f943f777a7aaedec211279",
+    "Pando:work/gis": "30a8402ac82a3e8a24f943f777a7aaedec211279",
+    "PandoLab-library-data:main": "6e41eb415d66bffff400bf3b064f4605f95fa326",
+    "PandoLab-library-data:work/gis": "c85273422a1e89d16892c73f8f729d5bc1d56855"
+  },
+  "previousReview": "c85273422a1e89d16892c73f8f729d5bc1d56855",
+  "previousMain": "0ed277208a52fcda77d5777f1622e5272c08dadf",
+  "mainChanges": [
+    {
+      "path": "reports/borders/README.md",
+      "status": "modified",
+      "blob": "cccbac9ed8ddd02f7d368762415ce6355b9abe52"
+    },
+    {
+      "path": "reports/borders/history/lifetimes/country-lifetime-rotation-progress.md",
+      "status": "modified",
+      "blob": "359d79bb3af884d86ab37a38c31c85641fbcbf83"
+    },
+    {
+      "path": "reports/borders/history/lifetimes/country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md",
+      "status": "added",
+      "blob": "49a306c2658809247217a4d884c3b10b6e1f18b0"
+    },
+    {
+      "path": "reports/borders/history/timeline/historical-timeline-2025-europe-kurakhove-effective-control-2026-11-07.md",
+      "status": "added",
+      "blob": "790eb7cfa631b5f0a7f1b83e27a0a728314beaeb"
+    },
+    {
+      "path": "reports/borders/history/timeline/historical-timeline-yearly-progress.md",
+      "status": "modified",
+      "blob": "1f329589343cc84c4d5840d2cf1b5d1ba87a94a3"
+    }
+  ],
+  "workGisNewChanges": 0,
+  "sourceHistory": [
+    {
+      "id": "GEO-LIFE-026",
+      "commit": "82bacc4524b62f2a1252f2f5046b7b5b3693a5f5",
+      "branch": "main"
+    },
+    {
+      "id": "GEO-TIME-023",
+      "commit": "7469b9b578dd54cfc140e7237a7d1bbefd758ea0",
+      "correctedCommit": "6e41eb415d66bffff400bf3b064f4605f95fa326",
+      "branch": "main"
+    }
+  ],
+  "currentTargets": [
+    {
+      "id": "state:ARG",
+      "hash": "214d8704a28be9a0d23e8f4847c75d7dd01cee57e1fd913286a4f7d25e31d1f5",
+      "lifetime": {
+        "validFrom": "1831-01-04",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:ARG:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "id": "state:BOL",
+      "hash": "98ae43c6de673a3d6b18de89dcab92a8b36424e0ebf6c7d858d61caccb88b25b",
+      "lifetime": {
+        "validFrom": "1825-08-06",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:BOL:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "id": "state:BRA",
+      "hash": "be06cd86e094d8b90710f03a1476d88bdf7c55a35841b29af0851425aa1f3e5e",
+      "lifetime": {
+        "validFrom": "1822-09-07",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:BRA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "pandoBothHeadsEqual": true,
+    "pandoTreeTruncated": false,
+    "pandoReportCount": 0,
+    "geoLegacyTree": "cc011048be374646ba373504c9df87fd214c05d5",
+    "mainDiffCount": 5,
+    "reportOriginals": 2,
+    "progressFiles": 2,
+    "indexFiles": 1,
+    "spatialValidation": "not-run; no spatial changes",
+    "runtimeChanges": 0,
+    "lifetimeChanges": 0,
+    "appPinChanges": 0,
+    "localWorktree": "registered /workspace/shared/pando-work-gis absent; preserved stale registration and unrelated checkout",
+    "publication": "report-only GitHub existing-tree commit; no main helper"
+  },
+  "time023": {
+    "layer": "https://services5.arcgis.com/SaBe5HMtmnbqSWlu/ArcGIS/rest/services/JAN2025Timelapse_Ukraine_Russia_War/FeatureServer/1",
+    "startTimeField": "datetime",
+    "endTimeField": null,
+    "cumulative": false,
+    "timezone": "UTC",
+    "timeExtent": [
+      "2025-01-01",
+      "2025-01-31"
+    ],
+    "lastEdit": "2025-04-16",
+    "observation": "Service metadata does not establish actual capture dates or legal border validity. Individual features not acquired.",
+    "accessLimits": [
+      "ISW fair-use page direct403; official search excerpt only",
+      "CTP Jan11 direct403",
+      "UN official PDF direct403; official indexed text only"
+    ],
+    "decision": "No sovereign-border or country-lifetime application"
+  },
+  "corrections": [
+    "Buenos Aires treaty:1859-11-10 signed,11-11 ratifications/exchange; printed340 and344 visually checked",
+    "Buenos Aires constitution: ECAE Apr8 vs AGN Apr11; ECAE treaty discussion p158",
+    "Juliana:July24 capture/July29 proclamation; cited biography does not support city-council attribution",
+    "ISW layer:datetime start,no end field,cumulative=false; no legal interval inference"
+  ],
+  "readFailures": [
+    "RUS object fetch_file empty content; no field verification",
+    "UN/ISW/CTP direct403; no bypass",
+    "Acre Casa Civil timeout; Arquivo Nacional security-block"
+  ]
+}
