@@ -18,7 +18,7 @@
 | **2025-01-07** | 우크라이나 민간 OSINT **DeepState**는 01-06 말 기준 도시 **거의 전체**가 러시아군 통제라고 평가, 발전소 주변 관측초소 등 잔여 지역 언급. [Ukrainska Pravda, 2025-01-07](https://www.pravda.com.ua/eng/news/2025/01/07/7492469/). | 2025년 **도시 대부분 실효 지배 전환**의 독립 관측. 구역별 정확한 전환시각/전면 장악 미확정. |
 | **2025-01-11** | DeepState가 밤사이 지도를 갱신하며 쿠라호베 러시아군 점령으로 표시. [Ukrainska Pravda, 2025-01-11](https://www.pravda.com.ua/news/2025/01/11/7493004/). 같은 날 우크라이나군 대변인은 부대의 잔존 위치를 주장. [RBC-Ukraine, 2025-01-11](https://newsukraine.rbc.ua/news/deep-state-claims-full-occupation-of-kurakhove-1736589495.html). | **지도 표기 갱신일은 실제 최종 점령일과 다를 수 있음**. 러시아군의 상당한 실효 통제는 확인되지만 **완전 점령의 정확한 효력일은 유보**. |
 | **2025-01-11** | ISW/CTP는 쿠라호베 방면 11일 새 러시아군 진격 주장 중 **확인된 신규 전진 없음**으로 평가. [ISW/CTP 2025-01-11](https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-january-11-2025). | '당일 확인된 신규 전진 없음' ≠ 도시 전체가 우크라이나 통제라는 의미. DeepState와 동일 조사조직이 아닌 별도 분석임. |
-| **2025-02-24** | 유엔총회 결의 **A/RES/ES-11/7**에서 우크라이나 영토 보전·국제법적 평화 원칙 재확인. [유엔 문서 검색](https://documents.un.org/doc/undoc/gen/n25/050/46/pdf/n2505046.pdf), [당일 보도](https://www.theguardian.com/world/2025/feb/24/un-general-assembly-russia-ukraine-war). | 군사적 점유선·러시아의 병합 주장과 별도로 **2025년 새 국제법상 국경·주권 이양 인정 근거 0건**. |
+| **2025-02-24** | 유엔총회 결의 **A/RES/ES-11/7**에서 우크라이나 영토 보전·국제법적 평화 원칙 재확인. [유엔 공식 결의 A/RES/ES-11/7](https://docs.un.org/A/RES/ES-11/7), [당일 보도](https://www.theguardian.com/world/2025/feb/24/un-general-assembly-russia-ukraine-war). | 군사적 점유선·러시아의 병합 주장과 별도로 **2025년 새 국제법상 국경·주권 이양 인정 근거 0건**. |
 
 **독립성:** Reuters와 AP의 동시대 취재는 서로 다른 보도기관이며 양측 국방당국의 *동일 발표 인용*은 독립적인 두 개의 점령 확인이 아니다. DeepState의 원지도 관측은 제3의 분석 자료지만 이를 전재한 언론 기사들을 별개의 독립 OSINT로 세지 않는다. ISW/CTP는 또 다른 관측체계이며 특정 날짜/피처의 상세 비교는 미실행. 공식 양국의 충돌하는 발표는 각자의 주장으로 보존한다.
 
