@@ -33,10 +33,11 @@
 | [오세아니아 4개국 국가 존속기간 — FSM·마셜제도·팔라우·통가](history/lifetimes/country-lifetime-oceania-micronesia-tonga-2026-10-21.md) | GEO-LIFE-009 | 2026-10-21 (2026-10-24 복구) | `investigating / phase-1` |
 | [오세아니아 국가 존속기간 — 뉴질랜드·하와이 왕국·공화국](history/lifetimes/country-lifetime-oceania-nzl-hawaii-2026-10-27.md) | GEO-LIFE-015 | 2026-10-27 | `investigating / phase-1 / not-applied` |
 | [오세아니아 역사 정치체 1차 — 피지 왕국·타히티 왕국·쿡 제도 연방정부](history/lifetimes/country-lifetime-oceania-historic-fiji-tahiti-cook-federation-2026-11-02.md) | GEO-LIFE-021 | 2026-11-02 | `investigating / phase-1 / provisional / not-applied` |
-| [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-06 | `investigating` |
+| [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-07 | `investigating` |
 | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](history/lifetimes/country-lifetime-south-america-2026-10-20.md) | GEO-LIFE-008 | 2026-10-20 회차 / 검토 10-20 | `investigating` |
 | [남아메리카 국가 존속기간 2차 — 아르헨티나·볼리비아](history/lifetimes/country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | GEO-LIFE-014 | 2026-10-26 | `investigating / phase-2 / not-applied` |
 | [남아메리카 역사 정치체 1차 — 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 분리공화국](history/lifetimes/country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | GEO-LIFE-020 | 2026-11-01 | `investigating / phase-1 / provisional / not-applied` |
+| [남아메리카 역사 정치체 1차 — 부에노스아이레스국·아크레 분리공화국·줄리아나 공화국](history/lifetimes/country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) | GEO-LIFE-026 | 2026-11-07 | `investigating / phase-1 / provisional / not-applied` |
 | [Verified entity lifetime additions](history/lifetimes/verified-entity-lifetimes.md) | GEO-023 | 2026-10-08 | `historical-record` |
 | [2025년 오세아니아 바누아투–프랑스·피지 해양경계 협상 및 연장 대륙붕 제출·역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-oceania-vanuatu-maritime-shelf-2026-11-06.md) | GEO-TIME-022 | 2026-11-06 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 남아메리카 페루–콜롬비아 산타로사 국경 귀속 이견·COMPERIF 및 역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-south-america-peru-colombia-santa-rosa-2026-11-05.md) | GEO-TIME-021 | 2026-11-05 | `investigating / source-indexed / provisional / not-applied` |

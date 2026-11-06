@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-06 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-07 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 북아메리카**
-- **lastCompletedRun: 2026-11-06** (서플로리다·남부연합·1921년 중앙아메리카 연방 역사 정치체 3건 1차; 주권국가성·법적 종료일 판정 보류)
-- **nextRegion: 남아메리카**
-- **nextPhase: 남아메리카 미조사 국가·역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
-- **nextAction: GEO-LIFE-001/008/014/020, GEO-023과 288개 최신 국가 색인 중복 대조 후 미조사 역사 정치체 2~4개 선정. 북아메리카 서플로리다 1810 독립/미군 점유·남부연합 1861/1865 주권 인정·1921 중앙아메리카 연방 1922 종료일 2차 보류 유지.**
+- **lastProcessedRegion: 남아메리카**
+- **lastCompletedRun: 2026-11-07** (부에노스아이레스국·아크레 분리공화국·줄리아나 공화국 역사 정치체 3건 1차; 주권국가성·시작/종료일 유보)
+- **nextRegion: 오세아니아**
+- **nextPhase: 오세아니아 미조사 국가·역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
+- **nextAction: GEO-LIFE-001/009/015/021, GEO-023 및 최신 288개 색인 중복 대조 후 오세아니아 미조사 2~4개 선별. 남아메리카 GEO-LIFE-014/020/026의 미확정 날짜·국가성을 2차로 인계.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -31,7 +31,7 @@
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보 |
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
-| 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
+| 남아메리카 | [GEO-LIFE-026: 부에노스아이레스국·아크레·줄리아나](country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) 1차 추가, [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 선행 근거 확인, 19세기 정치체 3개 1차 추가, 소멸국 전수 및 COK/NIU 법적 분류는 미완료 | 미완료 | NZL·하와이 법적 계속성 유보; GEO-LIFE-021 피지 왕국·타히티 보호국·쿡 연방(비주권) 1차, 1871/1880/1900~1901 법적 기간 2차 유보 |
 
 ## 실행 이력
@@ -200,3 +200,13 @@
 - **2차 보류:** 서플로리다 국제주권 인정/선언 원문 스캔; 남부연합 주권국 여부·정부의 최종 종료일·공식 승인/교전단체 지위 분리; 1921 연방 임시정부(06-13) 및 1922-01-29 기구 종료 vs 02-07 법적 회원국 탈퇴, 각 원관보 효력. **주권국 확정 0건**.
 - **미실행:** GIS 형상·위상·배율/화면, 모든 원문 이미지 스캔, 로컬 `publish-reports`·`check-reports`, 웹/앱 검사. **문헌 1차 및 별도 라이브러리 원격 보고서 보존**만 수행; GIS/국가 lifetime/정본 타임라인/코드/Pando work/gis/main/배포 변경 **0건**.
 - **커서:** `lastProcessedRegion=북아메리카`, `nextRegion=남아메리카`, `nextPhase=미조사 역사 정치체 2~4건 1차(소진 시 2차)`. 모든 지역 1·2차 전수 미완료. 과거 GEO-LIFE-016 원문 404 보류 유지.
+
+
+## 2026-11-07 — 남아메리카 역사 정치체 3건 1차 인계 (GEO-LIFE-026)
+
+- **단계/순환:** 북아메리카 → **남아메리카**, 1차 미조사 **부에노스아이레스국·아크레 분리공화국·줄리아나 공화국** 3건. 선행 GEO-LIFE-001/008/014/020 및 GEO-023과 중복 회피. 세 정치체 모두 **독립 주권국가 판정 유보**.
+- **코드/데이터 기준:** Pando work/gis HEAD `30a8402ac82a3e8a24f943f777a7aaedec211279`; pin `887f72186fda9596502a35631d0a3376d9b4a1f1`, index blob `d982119a3478199a499aeb8a4058b116a7a83b04` **288개 실제 파싱**. 현대 ARG/BOL/BRA 시작일 무변경, 새 역사 정치체 별도 ID 미발견.
+- **확인:** 부에노스아이레스 1852-09-11 분리정부·1854-04-08 헌법·1859년 재통합 조약·1861-09-17 파본 전투와 1862년 체제 개편; 아크레 1899-07-14 선포, 1900-03-15 정권 변동, 1902~03 재봉기, 1903-11-17 조약 서명과 **1904-03-10 국제법상 발효**; 줄리아나 1839-07-24/29 선포 기록 충돌 및 **11-15** 라구나 수복. AGN·ECAE 원 PDF 화면 일부 확인, 브라질 공문서 일부 접근 제한. 상세 URL·원문 대조 상태는 보고서 본문 참조.
+- **2차 보류:** BA 1859 조약 10/11일 충돌·1861/62 법적 소멸·국가성, 아크레 연속/단절 정권·1903 재선포일·국제승인, 줄리아나 07-24/29의 법적 차이·리우그란덴시 관계·통치 범위. 세 정치체의 법적 존속기간 **입력 보류**.
+- **검증 및 변경:** AGN/ECAE PDF 일부 화면 확인 외 GIS·위상·지도·웹/앱 및 로컬 `publish-reports`·`check-reports` **미실행**. 보고서·진행기록·색인만 외부 라이브러리에 보존. 국가 lifetime·역사 형상·정본 타임라인·Pando 브랜치·main·배포 수정 **0건**.
+- **커서:** `lastProcessedRegion=남아메리카`; `nextRegion=오세아니아`; `nextPhase=미조사 역사 정치체 1차(소진 시 2차)`. 6지역 1·2차 전수 모두 미완료.
