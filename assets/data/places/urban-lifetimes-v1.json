@@ -1,0 +1,98 @@
+{
+  "schema": "pando-place-urban-lifetimes-v1",
+  "schemaVersion": 1,
+  "sourceReviewRevision": "6e41eb415d66bffff400bf3b064f4605f95fa326",
+  "interpretation": "Reviewed periods apply only to modern city-label eligibility, not proven physical settlement existence, sovereignty or modern city rank; year-only dates retain year precision.",
+  "entries": [
+    {
+      "source": "geonames",
+      "sourceId": "993800",
+      "sourceReviewFile": "reports/places/tier1-major-cities-batch06-africa-oceania.json",
+      "status": "reviewed",
+      "scope": "urban-city-label-not-settlement-existence",
+      "beforeCityEstablished": "suppress-city-label",
+      "afterIndependentCityMerger": null,
+      "intervals": [
+        {
+          "fromYear": 1886
+        }
+      ],
+      "reviewedCoverage": null,
+      "sourceUrl": "https://joburg.org.za/media_/Newsroom/Pages/2021%20News%20Articles/October/Joburg-still-city-of-opportunities-135-years-later.aspx",
+      "researchNote": "광산촌과 취락이 1886년 금광 발견에 따라 형성됨. 형성의 정확한 월·일은 의견이 일치하지 않으므로 연도 단위로 제한함."
+    },
+    {
+      "source": "geonames",
+      "sourceId": "1835235",
+      "sourceReviewFile": "reports/places/tier1-major-cities-batch02-east-asia.json",
+      "status": "reviewed",
+      "scope": "urban-city-label-not-settlement-existence",
+      "beforeCityEstablished": "suppress-city-label",
+      "afterIndependentCityMerger": null,
+      "intervals": [
+        {
+          "fromDate": "1905-01-01"
+        }
+      ],
+      "reviewedCoverage": null,
+      "sourceUrl": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1719",
+      "researchNote": "1905년 1월 1일은 경부선 대전역 개통일이며 이때부터 근대 도시로 지도에 표시한다는 편집상 기준. 1801년 대전 지역의 농촌 지명과 정착 자체를 부정하거나 1905년 법정 시 설치를 뜻하지 않음."
+    },
+    {
+      "source": "geonames",
+      "sourceId": "1848354",
+      "sourceReviewFile": "reports/places/tier1-major-cities-batch02-east-asia.json",
+      "status": "reviewed",
+      "scope": "urban-city-label-not-settlement-existence",
+      "beforeCityEstablished": "suppress-city-label",
+      "afterIndependentCityMerger": null,
+      "intervals": [
+        {
+          "fromDate": "1859-07-01"
+        }
+      ],
+      "reviewedCoverage": null,
+      "sourceUrl": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/shuroku/memory/memory4/memory4.html",
+      "researchNote": "개항을 도시 라벨의 편집상 시작 기준으로 선택. 이전에는 어촌 横浜村이 있었지만 현대 주요 도시 라벨을 소급하지 않음. 실제 市 행정체 출범일과 구별."
+    },
+    {
+      "source": "geonames",
+      "sourceId": "3046446",
+      "sourceReviewFile": "reports/places/tier1-major-cities-batch07-europe-capitals.json",
+      "status": "verified",
+      "scope": "urban-city-label-not-settlement-existence",
+      "beforeCityEstablished": null,
+      "afterIndependentCityMerger": "suppress-city-label",
+      "intervals": [
+        {
+          "untilDateExclusive": "1873-11-17",
+          "sourceUrl": "https://old.bparchiv.hu/hirek/150-eves-budapest",
+          "researchNote": "역사적 독립 도시로서의 페슈트 표시는 1873-11-16까지. 1873-11-17부터는 별도 도시 표시를 종료하고 통합된 부다페스트(GeoNames 3054643)를 표시한다. 1801년 이전은 조사 범위 밖이며, 통합 후 Pest라는 지역명 자체가 소멸했다는 뜻은 아니다."
+        }
+      ],
+      "reviewedCoverage": {
+        "fromYear": 1801,
+        "untilYear": 2026
+      },
+      "sourceUrl": "https://old.bparchiv.hu/hirek/150-eves-budapest",
+      "researchNote": "PPLX는 현재 GeoNames의 지역 분류다. 옛 독립 도시로 표시할 때만 city-label eligibility를 부여한다. 현대 Pest의 지역 지명 검색·보존은 독립 도시 표시 제외와 별개. activeIntervals는 현재 조사 데이터에만 존재하며 실제 렌더러는 아직 이를 적용하지 않는다."
+    },
+    {
+      "source": "geonames",
+      "sourceId": "3054643",
+      "sourceReviewFile": "reports/places/tier1-major-cities-batch07-europe-capitals.json",
+      "status": "reviewed",
+      "scope": "urban-city-label-not-settlement-existence",
+      "beforeCityEstablished": "suppress-city-label",
+      "afterIndependentCityMerger": null,
+      "intervals": [
+        {
+          "fromDate": "1873-11-17"
+        }
+      ],
+      "reviewedCoverage": null,
+      "sourceUrl": "https://old.bparchiv.hu/hirek/150-eves-budapest",
+      "researchNote": "1873년 통합 이전은 별도 취락"
+    }
+  ]
+}
