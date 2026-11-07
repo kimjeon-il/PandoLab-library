@@ -25,6 +25,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-REVIEW-20261107-2200` | [양 브랜치 검토 — 사모아 왕제 폐지·리워드 법률·JBC 날짜 보완](borders/validation/reviews/scheduled-2026-11-07-2200/README.md) | 2026-11-07 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261106-2200` | [양 브랜치 검토 — 부에노스아이레스 조약·줄리아나 사건 날짜 정정](borders/validation/reviews/scheduled-2026-11-06-2200/README.md) | 2026-11-06 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261105-2200` | [양 브랜치 검토 — 중미 협약 발효·남부연합 정부 사건 보완](borders/validation/reviews/scheduled-2026-11-05-2200/README.md) | 2026-11-05 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261104-2200` | [양 브랜치 자동 검토 — 잔지바르·마다가스카르 근거 보완·산타로사 날짜 구분](borders/validation/reviews/scheduled-2026-11-04-2200/README.md) | 2026-11-04 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |

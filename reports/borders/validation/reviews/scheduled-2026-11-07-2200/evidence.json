@@ -1,0 +1,185 @@
+{
+  "id": "GEO-REVIEW-20261107-2200",
+  "run": "2026-11-07T22:00:00Z",
+  "heads": {
+    "Pando": {
+      "main": "4f27dc9ac18fc2f6ca0163f8d33fea33e813d50f",
+      "work/gis": "30a8402ac82a3e8a24f943f777a7aaedec211279"
+    },
+    "PandoLab-library-data": {
+      "main": "0967eff19804867eb0c206ad982baffd6bdf3c04",
+      "work/gis": "93e6796fa9197453a28aad6be9047418a34cf1b5"
+    }
+  },
+  "previousReview": "reports/borders/validation/reviews/scheduled-2026-11-06-2200/README.md",
+  "sources": [
+    {
+      "path": "reports/borders/README.md",
+      "blob": "aaa68dc971e681058fcbfe31ee27431074fb40da",
+      "status": "modified",
+      "branch": "main",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "sourceCommit": "0967eff19804867eb0c206ad982baffd6bdf3c04"
+    },
+    {
+      "path": "reports/borders/history/lifetimes/country-lifetime-oceania-historic-samoa-bora-bora-raiatea-2026-11-08.md",
+      "blob": "f3c458c6aa5b8e3c322316b7d869dba6ce7a0ca5",
+      "status": "added",
+      "branch": "main",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "sourceCommit": "8936a8d739d86475a9cd4c055c6c131564d86fa7"
+    },
+    {
+      "path": "reports/borders/history/lifetimes/country-lifetime-rotation-progress.md",
+      "blob": "430e3d6a0c2e69be7c8008ea8f49a3f3da184ca5",
+      "status": "modified",
+      "branch": "main",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "sourceCommit": "8936a8d739d86475a9cd4c055c6c131564d86fa7"
+    },
+    {
+      "path": "reports/borders/history/timeline/historical-timeline-2025-asia-thailand-cambodia-ground-control-vector-followup-2026-11-08.md",
+      "blob": "dc9b3ce8194e89e04d305f043349fdcf2a8e29fd",
+      "status": "added",
+      "branch": "main",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "sourceCommit": "0967eff19804867eb0c206ad982baffd6bdf3c04"
+    },
+    {
+      "path": "reports/borders/history/timeline/historical-timeline-yearly-progress.md",
+      "blob": "3b7427f788294d5d195c60ceb674a09d2f04a619",
+      "status": "modified",
+      "branch": "main",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "sourceCommit": "0967eff19804867eb0c206ad982baffd6bdf3c04"
+    }
+  ],
+  "objects": [
+    {
+      "id": "state:ASM",
+      "hash": "e02992ba43db706b65a1d034550f646d5e8923b0bbe0eef74114eb33aa237a23",
+      "lifetime": {
+        "validFrom": "1900-02-16",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:ASM:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "id": "state:WSM",
+      "hash": "aeb4ea838d51f65ec20387cf0b3573a3d7b61a6bd716a14d25fda7561b2b2c3e",
+      "lifetime": {
+        "validFrom": "1962-01-01",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:WSM:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "id": "state:PYF",
+      "hash": "e7b6e5071b467f86db0e239adccb63f0b8f23cae6e731a7a83af6144e41f7171",
+      "lifetime": {
+        "validFrom": "1880-12-30",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:PYF:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "id": "state:KHM",
+      "hash": "a3aa42193fcda4bcc1501934e8de3c520cb0c177904f66e4d9399c0cafaf4f38",
+      "lifetime": {
+        "validFrom": "1841",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:KHM:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "id": "state:THA",
+      "hash": "84486d70baf072bda7ca8d3a4c5c96e90d035999a295cbbf5c6be63e2447cfb3",
+      "reason": "library.json references absent objects/<hash>.json: fetch404 and complete objects tree has no matching path; no replacement guessed."
+    }
+  ],
+  "runtimeChanged": false,
+  "corrections": [
+    {
+      "topic": "Samoa",
+      "date": "1899-06-10",
+      "meaning": "royal resignation accepted and office of king abolished; not automatic state extinction",
+      "source": "https://history.state.gov/historicaldocuments/frus1899/d616"
+    },
+    {
+      "topic": "Leeward Islands",
+      "date": "1898-03-19",
+      "meaning": "law cited and applied in later official judgment; original promulgation/effect not established",
+      "source": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000025623744"
+    },
+    {
+      "topic": "Senate",
+      "date": "1898-02-24",
+      "meaning": "committee report submission conflicts with tentative Jan25 final approval",
+      "source": "https://www.senat.fr/table-nominative-archives/godin_jules1831r3/3R/1898.html"
+    },
+    {
+      "topic": "Jarnac",
+      "meaning": "June16/19 disagreement also within official archives title/body",
+      "source": "https://www.archives.pf/contenus-blog/page/24/"
+    },
+    {
+      "topic": "JBC",
+      "date": "2025-06-14/2025-06-15",
+      "meaning": "two-day meeting, minutes signed June15",
+      "sources": [
+        "https://thailand.prd.go.th/en/content/category/detail/id/49/iid/397780",
+        "https://vps.akp.gov.kh/post/detail/351161"
+      ]
+    },
+    {
+      "topic": "July clashes",
+      "meaning": "July24 is start of July escalation, not first 2025 clash; May28 Chong Bok precedes it",
+      "source": "https://www.mfa.go.th/en/content/fmnbteng"
+    }
+  ],
+  "validation": {
+    "reportTextReview": true,
+    "objectRead": [
+      "ASM",
+      "WSM",
+      "PYF",
+      "KHM"
+    ],
+    "THA": "404 and absent in nontruncated objects tree",
+    "runtimeIndex": "empty response; not parsed",
+    "GIS": false,
+    "tests": false,
+    "mainPublishHelper": false,
+    "remoteReadback": "performed after commit and recorded in task completion, not preclaimed"
+  }
+}
