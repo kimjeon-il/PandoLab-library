@@ -32,6 +32,7 @@
 | [북아메리카 역사 정치체 1차 — 서플로리다 분리공화국·미국 남부연합·1921년 중미 연방](history/lifetimes/country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | GEO-LIFE-025 | 2026-11-06 | `investigating / phase-1 / provisional / not-applied` |
 | [오세아니아 4개국 국가 존속기간 — FSM·마셜제도·팔라우·통가](history/lifetimes/country-lifetime-oceania-micronesia-tonga-2026-10-21.md) | GEO-LIFE-009 | 2026-10-21 (2026-10-24 복구) | `investigating / phase-1` |
 | [오세아니아 국가 존속기간 — 뉴질랜드·하와이 왕국·공화국](history/lifetimes/country-lifetime-oceania-nzl-hawaii-2026-10-27.md) | GEO-LIFE-015 | 2026-10-27 | `investigating / phase-1 / not-applied` |
+| [오세아니아 역사 정치체 1차 — 19세기 사모아 왕정·보라보라 왕국·라이아테아–타하아 왕국](history/lifetimes/country-lifetime-oceania-historic-samoa-bora-bora-raiatea-2026-11-08.md) | GEO-LIFE-027 | 2026-11-08 | `investigating / phase-1 / provisional / not-applied` |
 | [오세아니아 역사 정치체 1차 — 피지 왕국·타히티 왕국·쿡 제도 연방정부](history/lifetimes/country-lifetime-oceania-historic-fiji-tahiti-cook-federation-2026-11-02.md) | GEO-LIFE-021 | 2026-11-02 | `investigating / phase-1 / provisional / not-applied` |
 | [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-07 | `investigating` |
 | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](history/lifetimes/country-lifetime-south-america-2026-10-20.md) | GEO-LIFE-008 | 2026-10-20 회차 / 검토 10-20 | `investigating` |
