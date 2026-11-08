@@ -81,7 +81,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
-| `UI-LIBRARY-REVIEW-20261021` | [편집 라이브러리 UI·네이티브 코드 검토](../../native/editable-library-editor-native-review-2026-10-21.md) | 2026-10-21 | `reviewed-important-findings-resolved / native-workflow-unverified` | `not-applicable` |
+| `UI-LIBRARY-REVIEW-20261021` | 편집 라이브러리 UI·네이티브 코드 검토 (정리된 일반 작업 기록) | 2026-10-21 | `reviewed-important-findings-resolved / native-workflow-unverified` | `not-applicable` |
 | `UI-LIBRARY-PUBLISH-REVIEW-20261021` | [독립 라이브러리 게시 코드 검토](../../releases/editable-library-publication-review-2026-10-21.md) | 2026-10-21 | `changes-requested / live-publication-unverified` | `not-applicable` |
 | `DEV-CORE-CI-WEBGL-20261020` | [C++ CI 2건과 Windows WebGL UI 시간 초과 수정](../../ci/core-ci-webgl-repair-2026-10-20.md) | 2026-10-20 | `native-ci-verified / webgl-ui-verified / separate-artifact-ci-failure` | `not-applicable` |
 | `DEV-REMAINING-BRANCH-20261020` | [남은 작업 브랜치의 main 통합](../../releases/remaining-branch-integration-2026-10-20.md) | 2026-10-20 | `integrated / remote-verified / docs-only` | `not-applicable` |
@@ -89,15 +89,15 @@
 | `DEV-ALL-BRANCH-20261021` | [10월 21일 작업 브랜치의 main 통합](../../releases/all-branch-integration-2026-10-21.md) | 2026-10-21 | `integrated / release-followup-linked` | `not-applicable` |
 | `UI-WEB-GLOBE-20261021` | [웹 지구본 전용 표시 구현과 최소 검증](../../rendering/viewer-globe-only-2026-10-21.md) | 2026-10-21 | `local-verified / release-followup-linked` | `not-applicable` |
 | `UI-INITIAL-MAP-FIX-20261021` | [초기 지도 배경과 새 프로젝트 전환의 표시 연속성 수정](../../ui/initial-map-continuity-2026-10-21.md) | 2026-10-21 | `local-verified / release-followup-linked` | `not-applicable` |
-| `UI-INITIAL-MAP-20261021` | [초기 지도 요소의 표시 시차와 새 프로젝트의 흰 화면 조사](../../ui/initial-map-and-project-transition-2026-10-21.md) | 2026-10-21 | `historical-record / follow-up-linked` | `not-applicable` |
+| `UI-INITIAL-MAP-20261021` | 초기 지도 요소의 표시 시차와 새 프로젝트의 흰 화면 조사 (정리된 일반 작업 기록) | 2026-10-21 | `historical-record / follow-up-linked` | `not-applicable` |
 | `UI-TERRAIN-RELEASE-20261021` | [지형 전환 지연 수정의 main 반영과 웹·앱 게시 검증](../../releases/terrain-interaction-release-2026-10-21.md) | 2026-10-21 | `pages-live-verified / windows-native-verified` | `not-applicable` |
 | `UI-TERRAIN-LATENCY-20261021` | [고배율 지형 전환 지연의 재현과 수정](../../performance/terrain-interaction-latency-2026-10-21.md) | 2026-10-21 | `local-web-verified / app-unverified / unpublished` | `not-applicable` |
 | `UI-MAP-SCALE-RELEASE-20261020` | [지도 표시·UI 검사 정리와 웹·Windows 게시 검증](../../releases/map-scale-release-2026-10-20.md) | 2026-10-20 | `pages-live-verified / windows-native-verified / separate-ci-failures` | `not-applicable` |
-| `UI-MAP-SCALE-20261020` | [지도 배율별 품질과 표시 준비 상태](../../ui/map-scale-readiness-2026-10-20.md) | 2026-10-20 | `focused-verified / native-webview2-verified / unpublished` | `not-applicable` |
+| `UI-MAP-SCALE-20261020` | 지도 배율별 품질과 표시 준비 상태 (정리된 일반 작업 기록) | 2026-10-20 | `focused-verified / native-webview2-verified / unpublished` | `not-applicable` |
 | `DEV-CLEANUP-MAIN-20261021` | [main 잔여 파일·구형 테스트·생성 자산 목록 정리](../branch-residue-cleanup-2026-10-21.md) | 2026-10-21 | `local-focused-verified / uncommitted / unpublished` | `not-applicable` |
 | `UI-CONVERGENCE-P4-20261021` | [UI 구조 통일 P4 — 참조 이미지 공통 Surface 통합](../../ui/ui-convergence-p4-2026-10-21.md) | 2026-10-21 | `implemented / focused-browser-verified / staged-app-verified / native-unverified` | `not-applicable` |
 | `UI-CONVERGENCE-P2-20261020` | [UI 구조 통일 P2 — 검색창 DOM 고정·가로 화면 CSS 분리](../../ui/ui-convergence-p2-2026-10-20.md) | 2026-10-20 | `implemented / focused-browser-verified / native-unverified` | `not-applicable` |
-| `UI-CONVERGENCE-P0-20261020` | [UI 독자 규칙 통합 P0 — 구조·상태·회귀 기준 조사](../../ui/ui-convergence-p0-audit-2026-10-20.md) | 2026-10-20 | `source-audited / focused-runtime-baseline-not-rerun` | `not-applicable` |
+| `UI-CONVERGENCE-P0-20261020` | UI 독자 규칙 통합 P0 — 구조·상태·회귀 기준 조사 (정리된 일반 작업 기록) | 2026-10-20 | `source-audited / focused-runtime-baseline-not-rerun` | `not-applicable` |
 | `DEV-ALL-BRANCH-20261020` | [작업 브랜치의 미통합 변경 전체 반영](../../releases/all-branch-integration-2026-10-20.md) | 2026-10-20 | `integrated-with-validation-exception` | `not-applicable` |
 | `UI-EDITOR-FLAT-RELEASE-20261020` | [앱 평면 편집 변경 게시와 작업 브랜치 전파](../../releases/editor-flat-release-2026-10-20.md) | 2026-10-20 | `pages-live-verified / branches-propagated / windows-native-verified / android-unverified` | `not-applicable` |
 | `UI-EDITOR-FLAT-20261020` | [앱 평면 편집 집중과 경위선·지구본 장식 제거](../editor-flat-cleanup-2026-10-20.md) | 2026-10-20 | `local-focused-verified / release-followup-linked` | `not-applicable` |
@@ -106,9 +106,9 @@
 | `UI-CHECK-AUTOMATION-20261019` | [코드 변경과 검사 자동 선택·실행 연동](../../ci/check-automation-2026-10-19.md) | 2026-10-20 | `local-validation / known-product-failures / unpublished` | `not-applicable` |
 | `UI-SHARED-VIEWING-20261019` | [공통 지도·열람 구조 정리 구현과 검증](../shared-viewing-cleanup-2026-10-19.md) | 2026-10-19 | `local-validation / native-unverified / unpublished` | `not-applicable` |
 | `UI-COAST-RECURRENCE-20261019` | [해안 점선 재발·수정 유실 여부와 경계 규칙 분기 조사](../../rendering/child-coast-recurrence-audit-2026-10-19.md) | 2026-10-19 | `deployment-parity-confirmed / recurrence-not-reproduced / not-fixed` | `not-applicable` |
-| `UI-EMPTY-TIME-LAND-20261019` | [객체가 없는 시점의 육지 소실 원인 조사](../../ui/empty-time-land-mask-2026-10-19.md) | 2026-10-19 | `reproduced / cause-confirmed / not-fixed / native-unverified` | `not-applicable` |
+| `UI-EMPTY-TIME-LAND-20261019` | 객체가 없는 시점의 육지 소실 원인 조사 (정리된 일반 작업 기록) | 2026-10-19 | `reproduced / cause-confirmed / not-fixed / native-unverified` | `not-applicable` |
 | `UI-CANVAS-GLOBE-20261019` | [Canvas 지구본 지연 수정과 배포 검증](../../releases/canvas-globe-release-2026-10-19.md) | 2026-10-19 | `released / windows-startup-verified / android-unverified` | `not-applicable` |
-| `UI-CHILD-TERRAIN-20261019` | [하위 객체의 지형 표시 누락·지연 조사와 수정](../../rendering/child-terrain-readiness-2026-10-19.md) | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` | `not-applicable` |
+| `UI-CHILD-TERRAIN-20261019` | 하위 객체의 지형 표시 누락·지연 조사와 수정 (정리된 일반 작업 기록) | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` | `not-applicable` |
 | `UI-SOURCE-VISIBILITY-20261019` | [보기 메뉴의 내장 자료 구분 제거](../../ui/source-visibility-menu-2026-10-19.md) | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` | `not-applicable` |
 | `UI-CHILD-COAST-20261019` | [하위 객체의 해안 점선 잔존 수정](../../rendering/child-coast-boundary-2026-10-19.md) | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` | `not-applicable` |
 | `UI-PROJECT-RELEASE-20261019` | [프로젝트 생성·공통 보기 변경 커밋과 Pages 배포](../../releases/project-creation-release-2026-10-19.md) | 2026-10-19 | `published / focused-verified / android-device-unverified` | `not-applicable` |
@@ -119,10 +119,10 @@
 | `UI-EDITOR-FOCUS-20261019` | [앱 편집 집중과 프로젝트 저장 범위 변경 검증](../editor-focus-project-storage-2026-10-19.md) | 2026-10-19 | `focused-verified / android-device-unverified` | `not-applicable` |
 | `UI-POLICY-FIX-20261019` | [웹·앱 공통 열람 규칙 연결 수정](../../ui/shared-view-policy-fix-2026-10-19.md) | 2026-10-19 | `focused-verified / published / existing-ci-failures` | `not-applicable` |
 | `DEV-REF-UI-SYNC-20261019` | [참고 이미지 UI — 최신 work/ui 통합 검증](../../ui/reference-image-ui-integration-2026-10-19.md) | 2026-10-19 | `focused-verified / existing-base-check-failure / native-unverified` | `not-applicable` |
-| `UI-POLICY-AUDIT-20261019` | [웹·앱 독자 규칙 추가 조사](../../ui/independent-view-policy-audit-2026-10-19.md) | 2026-10-19 | `historical-audit / follow-up-linked` | `not-applicable` |
+| `UI-POLICY-AUDIT-20261019` | 웹·앱 독자 규칙 추가 조사 (정리된 일반 작업 기록) | 2026-10-19 | `historical-audit / follow-up-linked` | `not-applicable` |
 | `UI-MAP-PARITY-20261019` | [웹·앱 호버 깃발과 경계 규칙 재점검](../../ui/shared-map-rule-parity-2026-10-19.md) | 2026-10-19 | `focused-verified / published / native-unverified` | `not-applicable` |
 | `UI-SHARING-REFACTOR-20261019` | [웹·앱 공통 소유자 통합 및 검증 · 확대/축소 UI 회귀 수정](../../ui/shared-output-refactor-2026-10-19.md) | 2026-10-19 | `focused-verified / published / native-unverified` | `not-applicable` |
-| `UI-SHARING-AUDIT-20261018` | [출력 외 전부 공유 기준의 추가 조사·독립 코드 잔존](../../ui/shared-output-audit-2026-10-18.md) | 2026-10-18 | `audit-complete / follow-up-linked` | `not-applicable` |
+| `UI-SHARING-AUDIT-20261018` | 출력 외 전부 공유 기준의 추가 조사·독립 코드 잔존 (정리된 일반 작업 기록) | 2026-10-18 | `audit-complete / follow-up-linked` | `not-applicable` |
 | `UI-VIEWING-REPAIR-20261018` | [웹 열람 UI 공유 누락 조사와 복원](../../ui/viewing-ui-reuse-repair-2026-10-18.md) | 2026-10-18 | `verified-web-release / native-unverified` | `not-applicable` |
 | `DEV-QT-RETIRE-20261018` | [구 Qt 앱 전체 제거](../../native/qt-app-retirement-2026-10-18.md) | 2026-10-18 | `verified-focused-runtime` | `not-applicable` |
 | `UI-PRODUCT-SPLIT-20261018` | [웹 열람·앱 편집 분리와 휴대폰 가로 화면](../../ui/web-app-product-split-2026-10-18.md) | 2026-10-18 | `focused-verified / native-device-unverified` | `not-applicable` |
@@ -172,7 +172,7 @@
 | `DEV-010` | [Country lineage storage 실행 기록](../country-lineage-storage.md) | 2026-10-06 | `historical-record` | `not-applicable` |
 | `DEV-003` | [기본 세계 역사 타임라인 검증](../../ui/historical-world-timeline-validation.md) | 2026-10-12 | `historical-record` | `not-applicable` |
 | `DEV-002` | [러시아 상세 형상 편집: 구현 및 검증 기록](../../performance/russia-edit-responsiveness.md) | 2026-09-16 | `historical-record` | `not-applicable` |
-| `DEV-001` | [검사·검증 현재 계약 검수 — 2026-10-06](../../ci/validation-audit.md) | 2026-10-06 | `historical-record` | `not-applicable` |
+| `DEV-001` | 검사·검증 현재 계약 검수 — 2026-10-06 (정리된 일반 작업 기록) | 2026-10-06 | `historical-record` | `not-applicable` |
 
 ## 과거 실행 기록 (통합)
 

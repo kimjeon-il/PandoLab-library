@@ -12,7 +12,7 @@
 
 | 출처 | 원래 경로 | 정본 경로 | 원본 SHA-256 | 후속 Web 원본 Git blob SHA | 후속 이관 당시 바이트 비교 |
 | --- | --- | --- | --- | --- | --- |
-| 웹 | `docs/validation-audit.md` | [정본](../ci/validation-audit.md) | `d048f603f661ffc5eee25670d2c642f69baaad644ee28a90a6b7ab3eeb14dc98` | `7580c0d5341ad000fabaa51e1e6df6e86b7dfed2` | 다름 |
+| 웹 | `docs/validation-audit.md` | 정본 (정리된 일반 작업 기록) | `d048f603f661ffc5eee25670d2c642f69baaad644ee28a90a6b7ab3eeb14dc98` | `7580c0d5341ad000fabaa51e1e6df6e86b7dfed2` | 다름 |
 | 웹 | `docs/russia-edit-responsiveness.md` | [정본](../performance/russia-edit-responsiveness.md) | `9148d83d9f61ba340eccfed0505bc94075594c2dd6f4e14889d3357a5bccbc41` | `31f265877a8200864b5bebe0e2ac5a44cb4ad9de` | 다름 |
 | 웹 | `docs/historical-world-timeline-validation.md` | [정본](../ui/historical-world-timeline-validation.md) | `a89add3d8855e3b0b7322ae93cf58b42f54ac3b177535ea25c2b0b42744709cf` | `1a92076dd5a01e722b8bb4b70ff7889e155be96a` | 다름 |
 | 웹 | `docs/data-versioning-progress.md` | [정본](archive/data-versioning/README.md#arc-004) | `6b6cbd679c4e103ad17b31177271f0825ac71fea23881f4b8c1571190768717f` | `f21690dba6b7a48c39a55d53ca2dfc6a05836abb` | 다름 |

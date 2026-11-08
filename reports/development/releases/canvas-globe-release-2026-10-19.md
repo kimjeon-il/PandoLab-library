@@ -3,7 +3,7 @@
 > 보고서 ID: `UI-CANVAS-GLOBE-20261019` · 상태: `released / windows-startup-verified / android-unverified` · 지도 반영: `not-applicable` · 색인일: 2026-10-19
 > 원문 최종 수정: 2026-10-19
 > 조사 기준: Web·App `f48aa4028a3e5165efafc086e3aa0da03ff5e1d0` 및 `work/ui` 작업본. 최종 소스와 배포 SHA는 아래 배포 기록에 구분한다.
-> 원본·출처: 사용자 홍콩 고유 색상 토글 제보, 실제 Canvas Worker 단계 계측, 현재 내장 지도와 DEM, [선행 조사](../rendering/child-terrain-readiness-2026-10-19.md)
+> 원본·출처: 사용자 홍콩 고유 색상 토글 제보, 실제 Canvas Worker 단계 계측, 현재 내장 지도와 DEM, 선행 조사 (정리된 일반 작업 기록)
 
 ## 대상과 방법
 

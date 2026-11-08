@@ -1,6 +1,6 @@
 # 판도편집기 조사·검증 보고서
 
-최신 개발 통합 기록: [미병합 커밋 main 통합 — 2026-10-21](development/testing/all-branches-main-integration-2026-10-21.md) (`DEV-MAIN-20261021`, `integrated / focused-verification`).
+최신 개발 통합 기록: 미병합 커밋 main 통합 — 2026-10-21 (정리된 일반 작업 기록) (`DEV-MAIN-20261021`, `integrated / focused-verification`).
 
 통합 `Pando` 저장소의 이 폴더가 웹·앱 사람이 읽는 조사·검증 보고서의 정본입니다. 웹 데이터는 루트 `assets/`, 앱 소스는 `apps/web-shell/`, 공통 계산은 `shared/`에 둡니다. 보고서만으로 지도 반영이나 검증 통과를 뜻하지 않습니다.
 
@@ -63,7 +63,7 @@
 | `DEV-CORE-CI-WEBGL-20261020` | [C++ CI 2건과 Windows WebGL UI 시간 초과 수정](development/testing/core-ci-webgl-repair-2026-10-20.md) | 2026-10-20 | `native-ci-verified / webgl-ui-verified / separate-artifact-ci-failure` | `not-applicable` |
 | `DEV-REMAINING-BRANCH-20261020` | [남은 작업 브랜치의 main 통합](development/testing/remaining-branch-integration-2026-10-20.md) | 2026-10-20 | `integrated / remote-verified / docs-only` | `not-applicable` |
 | `DEV-INTEGRATED-RELEASE-20261021` | [통합 main의 원격 게시와 Windows 실행 파일 갱신](development/testing/integrated-release-2026-10-21.md) | 2026-10-21 | `pages-live-verified / windows-native-verified / separate-ci-failure` | `not-applicable` |
-| `DEV-ALL-BRANCH-20261021` | [10월 21일 작업 브랜치의 main 통합](development/testing/all-branch-integration-2026-10-21.md) | 2026-10-21 | `integrated / release-followup-linked` | `not-applicable` |
+| `DEV-ALL-BRANCH-20261021` | 10월 21일 작업 브랜치의 main 통합 (정리된 일반 작업 기록) | 2026-10-21 | `integrated / release-followup-linked` | `not-applicable` |
 | `UI-WEB-GLOBE-20261021` | [웹 지구본 전용 표시 구현과 최소 검증](development/testing/viewer-globe-only-2026-10-21.md) | 2026-10-21 | `local-verified / release-followup-linked` | `not-applicable` |
 | `UI-INITIAL-MAP-FIX-20261021` | [초기 지도 배경과 새 프로젝트 전환의 표시 연속성 수정](development/testing/initial-map-continuity-2026-10-21.md) | 2026-10-21 | `local-verified / release-followup-linked` | `not-applicable` |
 | `UI-INITIAL-MAP-20261021` | [초기 지도 요소의 표시 시차와 새 프로젝트의 흰 화면 조사](development/testing/initial-map-and-project-transition-2026-10-21.md) | 2026-10-21 | `historical-record / follow-up-linked` | `not-applicable` |
@@ -100,12 +100,12 @@
 | `UI-MAP-PARITY-20261019` | [웹·앱 호버 깃발과 경계 규칙 재점검](development/testing/shared-map-rule-parity-2026-10-19.md) | 2026-10-19 | `focused-verified / published / native-unverified` | `not-applicable` |
 | `UI-SHARING-REFACTOR-20261019` | [웹·앱 공통 소유자 통합 및 검증 · 확대/축소 UI 회귀 수정](development/testing/shared-output-refactor-2026-10-19.md) | 2026-10-19 | `focused-verified / published / native-unverified` | `not-applicable` |
 | `UI-SHARING-AUDIT-20261018` | [출력 외 전부 공유 기준의 추가 조사·독립 코드 잔존](development/testing/shared-output-audit-2026-10-18.md) | 2026-10-18 | `audit-complete / follow-up-linked` | `not-applicable` |
-| `UI-VIEWING-REPAIR-20261018` | [웹 열람 UI 공유 누락 조사와 복원](development/testing/viewing-ui-reuse-repair-2026-10-18.md) | 2026-10-18 | `verified-web-release / native-unverified` | `not-applicable` |
+| `UI-VIEWING-REPAIR-20261018` | 웹 열람 UI 공유 누락 조사와 복원 (정리된 일반 작업 기록) | 2026-10-18 | `verified-web-release / native-unverified` | `not-applicable` |
 | `DEV-QT-RETIRE-20261018` | [구 Qt 앱 전체 제거](development/testing/qt-app-retirement-2026-10-18.md) | 2026-10-18 | `verified-focused-runtime` | `not-applicable` |
-| `UI-PRODUCT-SPLIT-20261018` | [웹 열람·앱 편집 분리와 휴대폰 가로 화면](development/testing/web-app-product-split-2026-10-18.md) | 2026-10-18 | `focused-verified / native-device-unverified` | `not-applicable` |
-| `UI-PRODUCT-RELEASE-20261018` | [웹·앱 분리 배포 및 공개 사이트 검증](development/testing/web-app-product-release-2026-10-18.md) | 2026-10-18 | `pages-live-verified / native-device-unverified` | `not-applicable` |
+| `UI-PRODUCT-SPLIT-20261018` | 웹 열람·앱 편집 분리와 휴대폰 가로 화면 (정리된 일반 작업 기록) | 2026-10-18 | `focused-verified / native-device-unverified` | `not-applicable` |
+| `UI-PRODUCT-RELEASE-20261018` | 웹·앱 분리 배포 및 공개 사이트 검증 (정리된 일반 작업 기록) | 2026-10-18 | `pages-live-verified / native-device-unverified` | `not-applicable` |
 | `DEV-NAMING-20261018` | [기존 동작을 유지하는 내부 명칭 정리](development/testing/internal-naming-2026-10-18.md) | 2026-10-18 | `verified-naming / baseline-test-failures` | `not-applicable` |
-| `UI-EDIT-20261018` | [편집 상태와 복구 동작 구현 검증](development/testing/editing-state-recovery-2026-10-18.md) | 2026-10-18 | `deployed-web-ci-incomplete` | `not-applicable` |
+| `UI-EDIT-20261018` | 편집 상태와 복구 동작 구현 검증 (정리된 일반 작업 기록) | 2026-10-18 | `deployed-web-ci-incomplete` | `not-applicable` |
 | `PERF-P0-001` | [기준 코드·기존 계측 자산 통합 검토](development/testing/performance-baseline-consolidation-2026-10-17.md) | 2026-10-17 | `verified-source-and-focused-ci` | `not-applicable` |
 | `DEV-REF-UI-P5-20261018` | [참고 이미지 UI P5 — 회귀 검증과 조작 영역 수정](development/testing/reference-image-ui-p5-2026-10-18.md) | 2026-10-19 | `historical-feature-verification / follow-up-linked` | `not-applicable` |
 | `OBJ-097` | [소련 Core 후보 준비: 135초 WASM 동기 실행 미반환 및 C++ 함수별 계측](development/testing/soviet-core-candidate-bottleneck-2026-10-18.md) | 2026-10-18 | `verified-root-cause / geometryContains-47s-per-SSR` | `not-applicable` |
