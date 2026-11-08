@@ -43,11 +43,7 @@
 | [단일 접촉 공유 경계 레코드 압축 및 Worker 6MiB 절감](performance/soviet-singleton-edge-2026-10-17.md) | OBJ-092 | 2026-10-17 | `verified-web-paired-and-12cycle` |
 | [고배율 지형 전환 지연의 재현과 수정](performance/terrain-interaction-latency-2026-10-21.md) | UI-TERRAIN-LATENCY-20261021 | 2026-10-21 | `local-web-verified / app-unverified / unpublished` |
 | [Canvas 지구본 지연 수정과 배포 검증](releases/canvas-globe-release-2026-10-19.md) | UI-CANVAS-GLOBE-20261019 | 2026-10-19 | `released / windows-startup-verified / android-unverified` |
-| [국경선 마스크 수정 배포 — 2026-10-22](releases/country-border-release-2026-10-22.md) |  |  | 원문 참조 |
 | [독립 라이브러리 게시 코드 검토](releases/editable-library-publication-review-2026-10-21.md) | UI-LIBRARY-PUBLISH-REVIEW-20261021 | 2026-10-21 | `changes-requested / live-publication-unverified` |
-| [지도 표시·UI 검사 정리와 웹·Windows 게시 검증](releases/map-scale-release-2026-10-20.md) | UI-MAP-SCALE-RELEASE-20261020 | 2026-10-20 | `pages-live-verified / windows-native-verified / separate-ci-failures` |
-| [지형 전환 지연 수정의 main 반영과 웹·앱 게시 검증](releases/terrain-interaction-release-2026-10-21.md) | UI-TERRAIN-RELEASE-20261021 | 2026-10-21 | `pages-live-verified / windows-native-verified` |
-| [웹 날짜 도구 배포와 상설 작업 브랜치 전파](releases/web-date-tool-release-2026-10-22.md) | UI-DATE-RELEASE-20261022 |  | pages-live-verified / task-propagated / objects-core-prerequisite-blocked · 지도 반영: not-applicable |
 | [해안 점선 재발·수정 유실 여부와 경계 규칙 분기 조사](rendering/child-coast-recurrence-audit-2026-10-19.md) | UI-COAST-RECURRENCE-20261019 | 2026-10-19 | `deployment-parity-confirmed / recurrence-not-reproduced / not-fixed` |
 | [하위 객체의 지형 표시 누락·지연 조사와 수정](rendering/child-terrain-readiness-2026-10-19.md) | UI-CHILD-TERRAIN-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
 | [북중 국경 선 굵기 차이 진단 — 2026-10-22](rendering/north-korea-border-stroke-2026-10-22.md) |  |  | 원문 참조 |
