@@ -1,0 +1,92 @@
+{
+  "schema": "pando-domain-data-evidence-v1",
+  "code": "2a24ac97d024481db4fbd31163c0182b3cee3ae8",
+  "data": "c370d4f95e27c6b777239de58d3170171d7379db",
+  "coreSourceSha256": "efd08f639c261375e45e932c268b915161e15cc8d05a6e4bcf2778224098e35b",
+  "nativeCI": "https://github.com/kimjeon-il/Pando/actions/runs/42491573144",
+  "assets": {
+    "code": "2a24ac97d024481db4fbd31163c0182b3cee3ae8",
+    "data": "c370d4f95e27c6b777239de58d3170171d7379db",
+    "inputSha256": "e718127a5951f817c05b6d27de39634e69c8fa19ff29da003be1cd8a3495e1b1",
+    "files": 1900,
+    "logicalBytes": 223346549,
+    "uniqueContentBytes": 222373245,
+    "dataFiles": 1048,
+    "dataBytes": 207327815,
+    "hardlinkedDataFiles": 1048,
+    "dataInodeFiles": 1048,
+    "dataInodeLogicalBytes": 207327815,
+    "currentSharedRuntimeAllocatedBytes": 209818392,
+    "allocationMethod": "NTFS FileStandardInfo AllocationSize, unique dev+ino; measured on the same pinned 1048 data files before the final JS-only GPU change. No before allocation baseline."
+  },
+  "comparisons": [
+    {
+      "repeat": false,
+      "before": {
+        "repeat": false,
+        "elapsedMs": 23444.4149,
+        "requests": 585,
+        "encodedNetworkBytes": 46042314,
+        "metrics": {
+          "ScriptDuration": 1.56855,
+          "TaskDuration": 7.027459,
+          "JSHeapUsedSize": 214748580,
+          "JSHeapTotalSize": 295657472
+        },
+        "builtinRequests": 1,
+        "builtinEncodedBytes": 148852,
+        "errors": []
+      },
+      "after": {
+        "repeat": false,
+        "elapsedMs": 17866.407499999998,
+        "requests": 823,
+        "encodedNetworkBytes": 39912277,
+        "metrics": {
+          "ScriptDuration": 1.219092,
+          "TaskDuration": 5.374166,
+          "JSHeapUsedSize": 107425456,
+          "JSHeapTotalSize": 165974016
+        },
+        "builtinRequests": 3,
+        "builtinEncodedBytes": 329513,
+        "errors": []
+      },
+      "timeReductionPercent": 23.7924786086259
+    },
+    {
+      "repeat": true,
+      "before": {
+        "repeat": true,
+        "elapsedMs": 21977.432999999997,
+        "requests": 287,
+        "encodedNetworkBytes": 4764556,
+        "metrics": {
+          "ScriptDuration": 1.48181,
+          "TaskDuration": 6.640637,
+          "JSHeapUsedSize": 216454788,
+          "JSHeapTotalSize": 247353344
+        },
+        "builtinRequests": 0,
+        "builtinEncodedBytes": 0,
+        "errors": []
+      },
+      "after": {
+        "repeat": true,
+        "elapsedMs": 16572.8986,
+        "requests": 284,
+        "encodedNetworkBytes": 4729012,
+        "metrics": {
+          "ScriptDuration": 0.968041,
+          "TaskDuration": 4.386231,
+          "JSHeapUsedSize": 83305824,
+          "JSHeapTotalSize": 92233728
+        },
+        "builtinRequests": 0,
+        "builtinEncodedBytes": 0,
+        "errors": []
+      },
+      "timeReductionPercent": 24.59129052969925
+    }
+  ]
+}

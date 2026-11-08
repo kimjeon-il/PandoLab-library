@@ -1,0 +1,12 @@
+[WebServer] (node:4224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:10300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+temporal pixel comparison {"before":{"hash":621355592,"width":960,"height":592,"different":0,"maxDelta":0},"held":{"hash":621355592,"width":960,"height":592,"different":0,"maxDelta":0}}
+temporal physical preparation webgl {"matches":true,"landRevision":"66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608","roles":["physical-land","physical-water"],"requests":[{"month":"2026-11","phase":"start","at":676.1999999955297},{"month":"2026-11","phase":"ready","at":1288.7999999970198},{"month":"1922-12","phase":"start","at":30240.69999999553},{"month":"1922-12","phase":"ready","at":30507.09999999404}],"batches":[{"at":2592.5,"count":2,"physicalKeys":["polygon:physical-land","polygon:physical-water"],"stats":{"hits":0,"builds":0,"assetHits":2,"bytes":43698936}},{"at":12670.69999999553,"count":33,"physicalKeys":[],"stats":{"hits":0,"builds":0,"assetHits":35,"bytes":45038560}},{"at":33952.59999999404,"count":6,"physicalKeys":["polygon:physical-land","polygon:physical-water"],"stats":{"hits":0,"builds":0,"assetHits":41,"bytes":51209680}}],"mesh":{"featureCount":83,"builtCount":6,"reusedCount":77,"hashMs":56.3999999910593,"triangulationMs":1344.6000000014901,"assemblyMs":23.5,"slowestFeature":{"id":"state:soviet-union","ms":1186.2999999970198},"cacheBytes":46233494,"strokeMs":221,"spatialMs":661.2000000029802,"totalMs":2331.1999999955297}}
+  ok 1 tests\browser\document\viewer-calendar.spec.mjs:535:56 › temporal-map-presentation › temporal map holds its last complete webgl frame until its successor is presented (1.5m)
+
+  1 passed (2.0m)

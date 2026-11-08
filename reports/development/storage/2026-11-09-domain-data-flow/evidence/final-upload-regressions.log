@@ -1,0 +1,16 @@
+▶ gpu-prepared-draw
+  ✔ required physical polygon uploads progress during pending input while optional overlays wait (2.8926ms)
+✔ gpu-prepared-draw (4.499ms)
+▶ gpu-resource-owners
+  ✔ a GPU job cancelled from its own step cannot resolve or requeue itself (2.0902ms)
+  ✔ quiet uploads use the available frame byte budget without starving a queued peer (0.9021ms)
+  ✔ upload priority is sorted on admission and not resorted during repeated drain frames (0.3807ms)
+✔ gpu-resource-owners (4.7148ms)
+ℹ tests 4
+ℹ suites 2
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 481.1058

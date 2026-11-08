@@ -1,0 +1,54 @@
+{
+  "data": "0e06e120ddf7ad0c8cd6b72a8dd599efef2c9098",
+  "states": [
+    {
+      "month": "1922-12",
+      "cursor": "1922-12",
+      "ready": {
+        "mapReady": true,
+        "terrainReady": true,
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 저배율 표시",
+        "retry": false
+      },
+      "quality": "canonical"
+    },
+    {
+      "month": "2026-11",
+      "cursor": "2026-11",
+      "ready": {
+        "mapReady": true,
+        "terrainReady": true,
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 저배율 표시",
+        "retry": false
+      },
+      "quality": "canonical"
+    },
+    {
+      "month": "1922-12",
+      "cursor": "1922-12",
+      "ready": {
+        "mapReady": true,
+        "terrainReady": true,
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 저배율 표시",
+        "retry": false
+      },
+      "quality": "canonical"
+    }
+  ],
+  "requests": [
+    "physical-land/v1/geometry.json.gz",
+    "physical-land/preview/v1/d76ae60e58e09576db6bd155.json.gz",
+    "physical-land/v1/caspian-modern-water.json.gz",
+    "physical-land/v1/replacements/sha256-2a1445bf8db1909a8b0b0e0e8a4b44e5df00d52d6ed4ea2a4636cd871442be51.json.gz",
+    "physical-land/v1/aral-1922-1929-water.json.gz",
+    "physical-land/v1/caspian-1922-water.json.gz"
+  ],
+  "errors": [],
+  "renderer": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00002188) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "passed": true
+}
