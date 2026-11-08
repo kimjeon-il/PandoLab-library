@@ -1,5 +1,5 @@
 {
-  "schema": "pando-physical-land-v2",
+  "schema": "pando-physical-land-v3",
   "sourceSha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
   "asset": {
     "url": "assets/data/physical-land/v1/geometry.json.gz",
@@ -150,7 +150,23 @@
           "encoding": "gzip",
           "compressedBytes": 4360786,
           "decodedBytes": 12372371,
-          "sha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+          "sha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "storageLayout": "regional-land-v1",
+          "base": {
+            "url": "assets/data/physical-land/v1/geometry.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 4357309,
+            "decodedBytes": 12385591,
+            "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
+          },
+          "replacement": {
+            "url": "assets/data/physical-land/v1/replacements/sha256-2a1445bf8db1909a8b0b0e0e8a4b44e5df00d52d6ed4ea2a4636cd871442be51.json.gz",
+            "encoding": "gzip",
+            "sha256": "2a1445bf8db1909a8b0b0e0e8a4b44e5df00d52d6ed4ea2a4636cd871442be51",
+            "compressedBytes": 104309,
+            "decodedBytes": 256319
+          },
+          "contentSha256": "37d223c50432fe26346350e2774520b6c547cb6aa2f237040f3230ebb9cf6725"
         }
       },
       {
@@ -170,7 +186,23 @@
           "encoding": "gzip",
           "compressedBytes": 4360786,
           "decodedBytes": 12372371,
-          "sha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+          "sha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "storageLayout": "regional-land-v1",
+          "base": {
+            "url": "assets/data/physical-land/v1/geometry.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 4357309,
+            "decodedBytes": 12385591,
+            "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
+          },
+          "replacement": {
+            "url": "assets/data/physical-land/v1/replacements/sha256-2a1445bf8db1909a8b0b0e0e8a4b44e5df00d52d6ed4ea2a4636cd871442be51.json.gz",
+            "encoding": "gzip",
+            "sha256": "2a1445bf8db1909a8b0b0e0e8a4b44e5df00d52d6ed4ea2a4636cd871442be51",
+            "compressedBytes": 104309,
+            "decodedBytes": 256319
+          },
+          "contentSha256": "37d223c50432fe26346350e2774520b6c547cb6aa2f237040f3230ebb9cf6725"
         },
         "replaces": [
           {
