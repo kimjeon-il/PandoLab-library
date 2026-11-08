@@ -73,3 +73,9 @@ Core admission은 문서 편집·epoch·dirty·Undo 이력을 만들지 않는�
 ## 보관·판본
 
 이 판본과 evidence/의 원본 JSON·이동표·측정 스크립트·최종 검사 로그를 함께 보관한다. 자료 revision 순서: runtime descriptor 9941f5783ab71e4779816b28de9fcfc584515693 → source descriptor fb33c2dd27448cbbe6fee510d39368869f24920c → land patch ec90157f4a834c5bcbbdc66ecbe036d536d971d8 → mesh delta 0e06e120ddf7ad0c8cd6b72a8dd599efef2c9098 → type catalog c370d4f95e27c6b777239de58d3170171d7379db. 기존 보고서를 대체하거나 예전 결과를 새 검증으로 바꾸지 않는다.
+
+## 종료 정리: BLOCKED
+
+선택 증거를 원격 보관한 뒤 task scratch 삭제를 시도했으나, 도구 자동 승인 심사가 해당 명령을 `blocked by policy`로 거부했다. 삭제는 실행되지 않았고 다른 도구로 우회하지 않았다. 이는 사용자의 전체 검사 제한과 별개다.
+
+현재 남은 task scratch는 147개 파일, 논리 57,655,197 B다. 그중 이미 Git 바이트와 해시가 일치하는 CI 복사본은 각각 3,463,463 B와 3,521,253 B, 재현 가능한 실패 진단 trace는 48,842,512 B다. 원본 측정·이동표·최종 통과 증거는 이 보고서에 별도 보관되어 있다. 남은 scratch의 현재 런타임 소비자는 없으며, 보존 사유는 도구 정책으로 삭제가 차단됐기 때문이다. 실제 삭제량은 0 B이고 드라이브 여유 공간 변화는 측정하지 않았다. 상세는 `evidence/cleanup.json`에 기록했다. 다른 작업의 `gpu-viewer-evidence`, 상설 작업트리 및 참조 중인 runtime 캐시는 보존했다.
