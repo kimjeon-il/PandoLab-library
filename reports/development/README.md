@@ -119,8 +119,6 @@
 | [초기 지도 배경과 새 프로젝트 전환의 표시 연속성 수정](ui/initial-map-continuity-2026-10-21.md) | UI-INITIAL-MAP-FIX-20261021 | 2026-10-21 | `local-verified / release-followup-linked` |
 | [지도 배율별 품질과 표시 준비 상태](ui/map-scale-readiness-2026-10-20.md) | UI-MAP-SCALE-20261020 | 2026-10-20 | `focused-verified / native-webview2-verified / unpublished` |
 | [웹·앱 불필요 기능 정리와 공통 소유자 유지 검증](ui/product-pruning-2026-10-19.md) | UI-PRODUCT-PRUNING-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
-| [참고 이미지 UI — 최신 work/ui 통합 검증](ui/reference-image-ui-integration-2026-10-19.md) | DEV-REF-UI-SYNC-20261019 | 2026-10-19 | `focused-verified / existing-base-check-failure / native-unverified` |
-| [참고 이미지 UI P5 — 회귀 검증과 조작 영역 수정](ui/reference-image-ui-p5-2026-10-18.md) | DEV-REF-UI-P5-20261018 | 2026-10-19 | `historical-feature-verification / follow-up-linked` |
 | [웹·앱 호버 깃발과 경계 규칙 재점검](ui/shared-map-rule-parity-2026-10-19.md) | UI-MAP-PARITY-20261019 | 2026-10-19 | `focused-verified / published / native-unverified` |
 | [출력 외 전부 공유 기준의 추가 조사·독립 코드 잔존](ui/shared-output-audit-2026-10-18.md) | UI-SHARING-AUDIT-20261018 | 2026-10-18 | `audit-complete / follow-up-linked` |
 | [웹·앱 공통 소유자 통합 및 검증 · 확대/축소 UI 회귀 수정](ui/shared-output-refactor-2026-10-19.md) | UI-SHARING-REFACTOR-20261019 | 2026-10-19 | `focused-verified / published / native-unverified` |
