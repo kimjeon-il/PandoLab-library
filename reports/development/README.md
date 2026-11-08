@@ -8,15 +8,11 @@
 
 | 문서 | ID | 기록 날짜 | 상태 |
 | --- | --- | --- | --- |
-| [코드 변경과 검사 자동 선택·실행 연동](ci/check-automation-2026-10-19.md) | UI-CHECK-AUTOMATION-20261019 | 2026-10-20 | `local-validation / known-product-failures / unpublished` |
-| [P2 — C++ 생성물 자동화 실행·검증](ci/p2-generated-artifact-automation-2026-10-14.md) | DEV-073 | 2026-10-14 | `implemented` |
-| [P4 — GIS Python 격리·원격 검증](ci/p4-python-gis-isolation-2026-10-14.md) | DEV-074 | 2026-10-14 | `implemented` |
 | [P5-6 — 공통 C++ 계산 소유권·앱/웹 종료 검증](ci/p5-6-final-verification-2026-10-15.md) | DEV-075 | 2026-10-15 | `implemented` |
 | [검사·검증 현재 계약 검수 — 2026-10-06](ci/validation-audit.md) | DEV-001 | 2026-10-06 | `historical-record` |
 | [QGIS MCP / Pando integration](integrations/qgis-mcp-20261024/REPORT.md) | DEV-QGIS-MCP-001 |  | 원문 참조 |
 | [라이브러리 외부 분리 — 2026-10-21](library-migration-2026-10-21.md) | DEV-LIBRARY-MIGRATION-20261021 |  | published / web-live-verified / native-unverified |
 | [편집 라이브러리 UI·네이티브 코드 검토](native/editable-library-editor-native-review-2026-10-21.md) | UI-LIBRARY-REVIEW-20261021 | 2026-10-21 | `reviewed-important-findings-resolved / native-workflow-unverified` |
-| [P1 — 원격 개발환경 표준화·검증](native/p1-remote-development-validation-2026-10-14.md) | DEV-071 | 2026-10-14 | `implemented` |
 | [P0 — 원격 개발 체계·도구 의존성·성능 기준 조사](native/remote-toolchain-p0-audit-2026-10-14.md) | DEV-070 | 2026-10-14 | `investigating` |
 | [P5-5 공유 국경선 렌더링 패킷 성능 검증](p5-shared-border-performance.md) |  |  | 원문 참조 |
 | [공유 국경선 선분 공간 인덱스 압축: JS 힙 165MiB 절감 A/B 검증](performance/boundary-spatial-index-packed-2026-10-17.md) | OBJ-089 | 2026-10-17 | `verified-web-paired` |
@@ -46,25 +42,11 @@
 | [공유 국경선 Worker 메모리 실제 유지 소유자 분석](performance/soviet-shared-border-retained-owners-2026-10-17.md) | OBJ-088 | 2026-10-17 | `verified-web-diagnostics` |
 | [단일 접촉 공유 경계 레코드 압축 및 Worker 6MiB 절감](performance/soviet-singleton-edge-2026-10-17.md) | OBJ-092 | 2026-10-17 | `verified-web-paired-and-12cycle` |
 | [고배율 지형 전환 지연의 재현과 수정](performance/terrain-interaction-latency-2026-10-21.md) | UI-TERRAIN-LATENCY-20261021 | 2026-10-21 | `local-web-verified / app-unverified / unpublished` |
-| [작업 브랜치의 미통합 변경 전체 반영](releases/all-branch-integration-2026-10-20.md) | DEV-ALL-BRANCH-20261020 | 2026-10-20 | `integrated-with-validation-exception` |
-| [10월 21일 작업 브랜치의 main 통합](releases/all-branch-integration-2026-10-21.md) | DEV-ALL-BRANCH-20261021 | 2026-10-21 | `integrated / release-followup-linked` |
-| [미병합 커밋 main 통합](releases/all-branches-main-integration-2026-10-21.md) | DEV-MAIN-20261021 |  | integrated / focused-verification |
-| [UI·GIS 전체 변경 main 통합 검증 — 2026-10-23](releases/all-branches-main-integration-2026-10-23.md) | DEV-MAIN-20261023 |  | integrated-local / focused-verification · 원격 게시: 이 기록 작성 시 대기 |
 | [Canvas 지구본 지연 수정과 배포 검증](releases/canvas-globe-release-2026-10-19.md) | UI-CANVAS-GLOBE-20261019 | 2026-10-19 | `released / windows-startup-verified / android-unverified` |
 | [국경선 마스크 수정 배포 — 2026-10-22](releases/country-border-release-2026-10-22.md) |  |  | 원문 참조 |
 | [독립 라이브러리 게시 코드 검토](releases/editable-library-publication-review-2026-10-21.md) | UI-LIBRARY-PUBLISH-REVIEW-20261021 | 2026-10-21 | `changes-requested / live-publication-unverified` |
-| [앱 평면 편집 변경 게시와 작업 브랜치 전파](releases/editor-flat-release-2026-10-20.md) | UI-EDITOR-FLAT-RELEASE-20261020 | 2026-10-20 | `pages-live-verified / branches-propagated / windows-native-verified / android-unverified` |
-| [통합 main의 원격 게시와 Windows 실행 파일 갱신](releases/integrated-release-2026-10-21.md) | DEV-INTEGRATED-RELEASE-20261021 | 2026-10-21 | `pages-live-verified / windows-native-verified / separate-ci-failure` |
-| [국가 자료·편집 라이브러리 main 병합 기록](releases/library-korea-main-merge-2026-10-21.md) | UI-GIS-MERGE-20261021 |  | merged-locally / followup-deferred |
 | [지도 표시·UI 검사 정리와 웹·Windows 게시 검증](releases/map-scale-release-2026-10-20.md) | UI-MAP-SCALE-RELEASE-20261020 | 2026-10-20 | `pages-live-verified / windows-native-verified / separate-ci-failures` |
-| [객체 워크트리 main 동기화와 미커밋 작업 복원](releases/objects-main-sync-2026-10-21.md) | OBJ-MAIN-SYNC-20261021 |  | main-synchronized / local-wip-restored |
-| [프로젝트 생성·공통 보기 변경 커밋과 Pages 배포](releases/project-creation-release-2026-10-19.md) | UI-PROJECT-RELEASE-20261019 | 2026-10-19 | `published / focused-verified / android-device-unverified` |
-| [남은 작업 브랜치의 main 통합](releases/remaining-branch-integration-2026-10-20.md) | DEV-REMAINING-BRANCH-20261020 | 2026-10-20 | `integrated / remote-verified / docs-only` |
-| [웹·앱 저장소 통합 — 4단계](releases/repository-unification-stage4-2026-10-12.md) | DEV-065 | 2026-10-12 | `historical-record` |
-| [Web·App 저장소 통합 — 5단계 검증 (2026-10-12)](releases/repository-unification-stage5-2026-10-12.md) |  |  | 원문 참조 |
-| [공통 지도 변경 배포와 작업 브랜치 통합](releases/shared-viewing-release-sync-2026-10-20.md) | UI-RELEASE-SYNC-20261020 | 2026-10-20 | `pages-content-verified / ci-failures-recorded / native-unverified` |
 | [지형 전환 지연 수정의 main 반영과 웹·앱 게시 검증](releases/terrain-interaction-release-2026-10-21.md) | UI-TERRAIN-RELEASE-20261021 | 2026-10-21 | `pages-live-verified / windows-native-verified` |
-| [웹·앱 분리 배포 및 공개 사이트 검증](releases/web-app-product-release-2026-10-18.md) | UI-PRODUCT-RELEASE-20261018 | 2026-10-18 | `pages-live-verified / native-device-unverified` |
 | [웹 날짜 도구 배포와 상설 작업 브랜치 전파](releases/web-date-tool-release-2026-10-22.md) | UI-DATE-RELEASE-20261022 |  | pages-live-verified / task-propagated / objects-core-prerequisite-blocked · 지도 반영: not-applicable |
 | [해안 점선 재발·수정 유실 여부와 경계 규칙 분기 조사](rendering/child-coast-recurrence-audit-2026-10-19.md) | UI-COAST-RECURRENCE-20261019 | 2026-10-19 | `deployment-parity-confirmed / recurrence-not-reproduced / not-fixed` |
 | [하위 객체의 지형 표시 누락·지연 조사와 수정](rendering/child-terrain-readiness-2026-10-19.md) | UI-CHILD-TERRAIN-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
