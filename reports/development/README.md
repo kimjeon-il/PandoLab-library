@@ -134,4 +134,4 @@
 ## 보고서 보관·분류
 
 - [주제별 재배치와 보존 검증](storage/library-organization-2026-10-25/README.md)
-- [완료 보고서 보관·게시 절차](storage/report-completion-2026-10-25/README.md)
+- [필요한 보고서의 보관·게시 설명](https://github.com/kimjeon-il/Pando/blob/main/docs/library-data.md#보고서-완료-명령)
