@@ -9,7 +9,6 @@
 | 문서 | ID | 기록 날짜 | 상태 |
 | --- | --- | --- | --- |
 | [코드 변경과 검사 자동 선택·실행 연동](ci/check-automation-2026-10-19.md) | UI-CHECK-AUTOMATION-20261019 | 2026-10-20 | `local-validation / known-product-failures / unpublished` |
-| [C++ CI 2건과 Windows WebGL UI 시간 초과 수정](ci/core-ci-webgl-repair-2026-10-20.md) | DEV-CORE-CI-WEBGL-20261020 | 2026-10-20 | `native-ci-verified / webgl-ui-verified / separate-artifact-ci-failure` |
 | [P2 — C++ 생성물 자동화 실행·검증](ci/p2-generated-artifact-automation-2026-10-14.md) | DEV-073 | 2026-10-14 | `implemented` |
 | [P4 — GIS Python 격리·원격 검증](ci/p4-python-gis-isolation-2026-10-14.md) | DEV-074 | 2026-10-14 | `implemented` |
 | [P5-6 — 공통 C++ 계산 소유권·앱/웹 종료 검증](ci/p5-6-final-verification-2026-10-15.md) | DEV-075 | 2026-10-15 | `implemented` |
@@ -18,12 +17,7 @@
 | [라이브러리 외부 분리 — 2026-10-21](library-migration-2026-10-21.md) | DEV-LIBRARY-MIGRATION-20261021 |  | published / web-live-verified / native-unverified |
 | [편집 라이브러리 UI·네이티브 코드 검토](native/editable-library-editor-native-review-2026-10-21.md) | UI-LIBRARY-REVIEW-20261021 | 2026-10-21 | `reviewed-important-findings-resolved / native-workflow-unverified` |
 | [P1 — 원격 개발환경 표준화·검증](native/p1-remote-development-validation-2026-10-14.md) | DEV-071 | 2026-10-14 | `implemented` |
-| [구 Qt 앱 전체 제거](native/qt-app-retirement-2026-10-18.md) | DEV-QT-RETIRE-20261018 | 2026-10-18 | `verified-focused-runtime` |
 | [P0 — 원격 개발 체계·도구 의존성·성능 기준 조사](native/remote-toolchain-p0-audit-2026-10-14.md) | DEV-070 | 2026-10-14 | `investigating` |
-| [웹·앱 공통 파일 입출력 — 2-2 구현 기록](native/web-shell-file-io-2026-10-16.md) | DEV-079 | 2026-10-16 | `investigating` |
-| [공통 웹 초기화 및 전체 세계 데이터 패키징 — 2-3A~C](native/web-shell-full-world-2026-10-16.md) | DEV-080 | 2026-10-16 | `investigating` |
-| [신규 WebView 전체 세계지도 물리 자료 로딩 경량화](native/web-shell-physical-startup-2026-10-16.md) | DEV-084 | 2026-10-16 | `verified-windows-paired-30s` |
-| [Windows·Android 웹 기반 시험용 앱](native/web-shell-prototype-2026-10-16.md) | DEV-078 | 2026-10-16 | `investigating` |
 | [P5-5 공유 국경선 렌더링 패킷 성능 검증](p5-shared-border-performance.md) |  |  | 원문 참조 |
 | [공유 국경선 선분 공간 인덱스 압축: JS 힙 165MiB 절감 A/B 검증](performance/boundary-spatial-index-packed-2026-10-17.md) | OBJ-089 | 2026-10-17 | `verified-web-paired` |
 | [객체 시점 resolveWorld 단일화 검증](performance/objects-timeline-cursor-reuse-2026-10-17.md) | OBJ-083 | 2026-10-17 | `verified-web-diagnostics` |
@@ -76,7 +70,6 @@
 | [해안 점선 재발·수정 유실 여부와 경계 규칙 분기 조사](rendering/child-coast-recurrence-audit-2026-10-19.md) | UI-COAST-RECURRENCE-20261019 | 2026-10-19 | `deployment-parity-confirmed / recurrence-not-reproduced / not-fixed` |
 | [하위 객체의 지형 표시 누락·지연 조사와 수정](rendering/child-terrain-readiness-2026-10-19.md) | UI-CHILD-TERRAIN-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
 | [북중 국경 선 굵기 차이 진단 — 2026-10-22](rendering/north-korea-border-stroke-2026-10-22.md) |  |  | 원문 참조 |
-| [웹 지구본 전용 표시 구현과 최소 검증](rendering/viewer-globe-only-2026-10-21.md) | UI-WEB-GLOBE-20261021 | 2026-10-21 | `local-verified / release-followup-linked` |
 | [보고서 이관 기록](storage/MIGRATION.md) |  |  | 원문 참조 |
 | [데이터 버전 관리 — 과거 단계 보고서 통합 요약](storage/archive/data-versioning/README.md) |  |  | 원문 참조 |
 | [판도편집기 조사·검증 보고서](storage/branch-originals/gis/README.md) | DEV-MAIN-20261021 |  | 원문 참조 |
