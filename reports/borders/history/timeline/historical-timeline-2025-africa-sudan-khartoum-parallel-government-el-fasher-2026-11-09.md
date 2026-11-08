@@ -1,0 +1,44 @@
+# 2025년 아프리카 — 수단 하르툼 재장악·병행정부 구성·엘파셰르 실효지배 전환과 역사 GIS 벡터 후보
+
+> **GEO-TIME-025** · 2026-11-09 KST · 조사 대상 **2025년/아프리카(수단)** · **investigating / source-indexed / provisional / not-applied**
+>
+> 순환: **GEO-TIME-024 아시아 → 이번 아프리카 → 다음 북아메리카**. 기존 아프리카 GEO-TIME-009(가봉–적도기니), 010(서사하라), 019(DRC M23) 사건과 중복되지 않는 **AF-2025-006~008 세 개의 사건 묶음**. 2025년 아프리카 전체 전수 조사 완료 또는 '변화 없음' 판정이 아니다. 1801-01-01 이전 사건, 해안선·간척·침식은 이 자동 조사에서 제외한다.
+
+## 1. 사건 조사와 법적 지위 구별
+
+| ID / 날짜(2025) | 확인된 내용 | 법적·지도 판정 / 독립 검증 |
+| --- | --- | --- |
+| **AF-2025-006** / **03-21** | 수단군(SAF)이 하르툼 공화국궁 재장악을 발표. 신속지원군(RSF)은 인근 저항 지속을 주장. | Reuters 03-21과 AP 03-22 취재는 중부 도시의 중요 지점 탈환을 확인하되 당일 하르툼 전역 통제라 하지 않음. [Reuters 03-21](https://www.reuters.com/world/africa/sudanese-army-enters-presidential-palace-khartoum-eastern-side-military-sources-2025-03-21/) / [AP 03-22](https://apnews.com/article/c41e1d829ea2560c9ff8eb43daac85da) |
+| **AF-2025-006** / **03-26** | 수단군이 하르툼 국제공항을 장악하고 부르한이 공항·궁전을 방문. Reuters 현지 증언은 **도심 대부분에서 RSF 철수**를 전함. | AP는 03-26 공항 장악 및 잔여 RSF 거점 가능성을 보도, Reuters는 도심 대부분 탈환으로 한정. **행정상 하르툼주 전역/수도권 전체의 완전 통제일은 미확정**. [AP 03-26](https://apnews.com/article/76b105423863fdc2e9243ceb54435033) / [Reuters 03-26](https://www.reuters.com/world/africa/sudan-army-surrounds-khartoum-airport-nearby-areas-two-military-sources-tell-2025-03-26/) / [EUAA 2025-06 상황도](https://www.euaa.europa.eu/country-guidance-sudan/21-map-areas-control-and-influence) |
+| **AF-2025-007** / **03-11 → 07-26** | 아프리카연합(AU) 평화안보이사회는 **03-11** 이미 RSF 측 병행정부 구상에 대한 불승인 입장 발표. RSF 중심 수단창립연합(Tasis)이 **07-26** 병행정부·대통령위원회 구성을 발표. | 03월 구상 발표와 07월 구체적 구성 발표를 **서로 다른 단계**로 기록. 어느 발표도 국제법상 새 주권국 성립/수단 해체가 아님. [AU 03-11 원문](https://peaceau.org/en/article/press-statement-of-the-1264th-meeting-of-the-peace-and-security-council-held-on-11-march-2025-on-the-situation-in-sudan) / [Sudan Tribune 07-29](https://sudantribune.com/article/303381) |
+| **AF-2025-007** / **08-13 → 08-30~31** | **08-13** 유엔 안보리 이사국은 RSF 지배지 병행 통치기구 설립 발표를 거부하고 수단의 주권·통합·영토 보전을 재확인. **08-30** 남다르푸르 니알라에서 RSF 지도자 및 대통령위원회 선서식이 있었다는 현지 보도(일부 08-31 보도). | **정부기구 자칭 구성과 승인 주권국 탄생을 분리**. 선서 보도·의식일(08-30)과 보도일(08-31), 법적 효력일은 동일시하지 않음. [UN SC/16144 08-13 재현](https://www.securitycouncilreport.org/un-documents/document/sc-16144.php) / [UN 보도 08-13](https://www.globalissues.org/amp/news/2025/08/13/40592) / [Sudan Tribune 08-30](https://sudantribune.com/article/304492) / [The National 08-31](https://www.thenationalnews.com/news/mena/2025/08/31/sudans-rsf-chief-gen-mohamed-dagalo-sworn-in-as-head-of-parallel-darfur-based-government/) |
+| **AF-2025-008** / **10-25** | 유엔 인권최고대표사무소(OHCHR)는 RSF의 북코르도판 **바라(Bara) 10-25 장악**을 사후 확인. | 10-27 UN 발표의 과거 시점 관측. 행정구역 전체를 그날 동일하게 장악했다고 추정하지 않음. [UN OHCHR 10-27](https://sudan.un.org/en/304113-appalling-reports-summary-executions-and-other-serious-violations-rsf-makes-major) |
+| **AF-2025-008** / **10-26 → 10-28** | **10-26** RSF가 북다르푸르 **엘파셰르(El Fasher)** 수단군 제6사단 본부 장악을 주장, Reuters가 공개 영상의 **장소**는 검증했으나 **촬영일**은 확인하지 못함. **10-27** OHCHR가 엘파셰르 **대부분이 아닌 '큰 부분'**에서 RSF 장악을 보고. 10-28 AP는 수단군 철수 및 도시 함락을 보도. | 군 본부 함락 주장일/도시 일부 통제의 현장 관측일/전역 군사통제 확립일을 구별한다. **전체 도시의 정확한 최종 완료 시각 및 외곽 통제 윤곽은 유보**. [Reuters 10-26](https://www.thestar.com.my/news/world/2025/10/26/sudan039s-rsf-says-it-captured-al-fashir-army-headquarters) / [UN OHCHR 10-27](https://sudan.un.org/en/304113-appalling-reports-summary-executions-and-other-serious-violations-rsf-makes-major) / [AP 10-28](https://apnews.com/article/82e1906ae7119b4bd3eae13ec45184fa) |
+
+**분류 결론:** 수단군·RSF 간 **국내 군사적 실효 지배 변화 2건(AF-2025-006, 008)**과 **비승인 병행정부 구성·국제적 지위 쟁점 1건(AF-2025-007)**을 기록한다. 수단의 주권국 법적 동일성 유지·기존 국제국경 보전과 별개다. **확정 신규 주권국·국가 소멸·국경/주권 이전 0건**. 2025년에 서명·발효한 영토 이전 조약이나 새 국제 경계선 좌표는 이 세 사건에서 확인되지 않았다. 외국의 승인·정부 승인·교전단체 지위와 실제 도시 점유를 혼용하지 않는다.
+
+**독립 출처 평가:** Reuters/Associated Press의 서로 다른 직접 취재, UN OHCHR의 현장 기반 발표, AU 원문 및 EUAA의 2025년 6월 국별 상황 정리를 각각 역할별로 대조했다. 언론사가 옮겨 싣는 **동일 Reuters 원문**, 같은 UN 발표문을 두 곳에 재게시한 경우, geoBoundaries의 다른 파일 포맷은 **독립 증거로 중복 계산하지 않는다**. EUAA의 2025-03 추정 상황도는 2025-10 사건의 직접 증거가 아니다. RSF 공식 수립 선언 원문·관보 및 독립 원문 대조와 국제 승인 개별국별 전수조사는 **미확보/미실행**으로 유보한다.
+
+## 2. 국경·실효지배 **벡터 우선 탐색** (SHP/GPKG/GeoJSON/WFS)
+
+| 제공기관·원본/직접 URL | 자료 시점·범위 / 형식 | 원본 필드·권리·2025 사건 적합성 |
+| --- | --- | --- |
+| **OCHA ROSEA/IMWG → geoBoundaries SDN ADM1**, [API 메타](https://www.geoboundaries.org/api/current/gbOpen/SDN/ADM1/), [고정 GeoJSON](https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/SDN/ADM1/geoBoundaries-SDN-ADM1.geojson), [all ZIP](https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/SDN/ADM1/geoBoundaries-SDN-ADM1-all.zip) | **2020년 경계 표상**, 원본 업데이트 메타 **2023-01-19**, 빌드 **2023-12-12**. 19개 주(메타상 ADM1). GeoJSON·ZIP; ZIP의 SHP 구성요소는 미열람. | 데이터셋 ID **SDN-ADM1-86620642**(개별 피처 ID 아님); 출처 OCHA ROSEA/IMWG; **CC BY 3.0 IGO** 메타. 원본 CRS·피처 ID·Polygon/MultiPolygon·도서·접경 공유선 **미확인**. **2025 하르툼/다르푸르 군사 통제선 아님**. |
+| **OCHA ROSEA/IMWG → geoBoundaries SDN ADM2**, [API 메타](https://www.geoboundaries.org/api/current/gbOpen/SDN/ADM2/), [고정 GeoJSON](https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/SDN/ADM2/geoBoundaries-SDN-ADM2.geojson), [all ZIP](https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/SDN/ADM2/geoBoundaries-SDN-ADM2-all.zip) | **2020 표상**, **2023-01-19** 소스 업데이트/ **2023-12-12** 빌드. 189개 지구(메타상). GeoJSON·ZIP. | **SDN-ADM2-16777658**, **CC BY 3.0 IGO**. 동일 OCHA 계통 ADM1·ADM2는 **서로 다른 역사적 독립 사료 아님**. RSF·SAF 일일 실효 통제 자료가 아니며 2025년 유효 통제영역으로 전체 ADM2를 소급 금지. |
+| **IGAD/ICPAC Geoportal Sudan ADM0**, [메타 및 OGC WFS 안내](https://geoportal.icpac.net/layers/data0%3Ageonode%3Asudan_admin_level0/metadata_detail) | 공개 메타상 **2016년대** 등록된 국가 경계 계통. **SHP ZIP·GeoJSON·GML·OGC WFS** 제공 항목 확인, 직접 GetFeature 다운로드 URL/서비스 파라미터 **미확보**. | 폴리곤 실파일/원시 측량일·CRS·ID·배포권 **미확인**. 2025 군사 통제·병행정부 영토 경계와 관계없는 ADM0 배경자료. |
+| **World Bank / HDX 경유 Sudan State Boundary**, [자료 페이지](https://energydata.info/en/dataset/sudan-state-boundary-2014) | **2014년 릴리스 기반** 국가 내 주 경계. **2025-10-16은 포털 업데이트**, 원래 측량·법적 효력일 아님. GeoJSON·SHP ZIP 배포 표시. | 포털 CC BY 4.0 표기이나 **원본/중계 사이트별 라이선스 일치·재배포 의무 재확인 필요**. 변경된 실효 통제선과 무관; SHP 파일 원본·CRS·ID 미열람. |
+| **ETH Zürich CShapes 2.0**, [공식 페이지](https://icr.ethz.ch/data/cshapes/) | 전 세계 **1886~2019년**, SHP·GeoJSON·CSV 등. 독립국·종속지의 국제 국경/국가 정체성 범주. | **CC BY-NC-SA 4.0**; 2025년을 직접 수록하지 않으며 내전의 통제선도 대상 아님. 사용·파생·재배포 권리 심사 전 도입 보류. |
+| **EUAA 2025-06/CTP 2025-09 상황도**, [EUAA 2025-03 기준 지도](https://www.euaa.europa.eu/country-guidance-sudan/21-map-areas-control-and-influence), [CTP 2025-09 지도 글](https://www.criticalthreats.org/analysis/drc-ceasefire-collapse-turkish-troops-niger-sudan-el-fasher-rsf-siege-jnim-pressure-eastern-burkina-faso-africa-file-september-25-2025) | 2025년 시점 **렌더링된 지도 이미지**/분석 텍스트는 검색 확인. 직접 공개 **SHP/GPKG/GeoJSON/WFS 원본은 미발견**. CTP 본문 직접 열람은 **403**. | 지역·시점 후보로만. 지도 색상/추정 영토를 좌표계가 확인된 독립 원벡터로 간주하지 않으며 사용권·제작 기준·정확한 날짜별 폴리곤 모두 미확인. |
+
+**검색 범위와 미발견 사유:** UN OHCHR·EUAA·OCHA/HDX, AU 문서, ICPAC GeoNode SHP/WFS, World Bank 중계, geoBoundaries 원본 URL, CShapes 및 CTP 2025년 분쟁 지도에서 **사건 날짜별 실효 지배권/비승인 병행정부의 정확한 법적 영역 SHP·GPKG·GeoJSON·공식 WFS 원본을 찾지 못했다**. 찾은 SHP/GeoJSON은 행정구역·과거 국가경계, EUAA·CTP는 시점 참고용 **이미지**이다. GeoPackage의 2025 시점 독립 전선 형상도 미발견. 미발견은 데이터/사건의 부재 증명 아님. 국가 바깥 국경과 **국내 전선의 성격을 구별**한다.
+
+### 3. 실제 검사와 미완료
+
+- **실행:** UN OHCHR 2025-10-27 공식 HTML, AU 2025-03-11 원문, UN 안보리 2025-08-13 내용과 Reuters/AP/EUAA 기사, geoBoundaries SDN ADM1·ADM2 **API 메타 JSON**, CShapes 공식 라이선스·기간 페이지, ICPAC/World Bank 검색 메타 확인. 서로 다른 날짜의 기사/정부 발표는 해당 **발행일과 실제 사건일 구분**.
+- **미실행:** GIS 원본 SHP(.shp/.shx/.dbf/.prj ZIP)/GPKG/GeoJSON 다운로드·파일 자체 열람·원본 생성 메타/CRS·피처 ID·해시, OGC WFS GetCapabilities/GetFeature, GDAL ogrinfo/ogr2ogr 변환 및 임시 파생본 생성, 국가 객체 ID 매칭, 인접국 국경·공유 경계·월경지·도서/링/홀·위상·슬리버 검사, 전선 면적(500km² 포함) 계측, Natural Earth 1:10M 같은 투영·범위·배율의 화면 비교, 독립 역사 형상 없는 **0.5 CSS px 정량 검사**. 모두 **미실행/통과 아님**.
+- **상태/결정:** **source-indexed / provisional**. 2025 사건에 유효하고 역사적으로 독립 검증을 마친 벡터 **0개**. 원본과 권리·시간 범위를 검증하지 않았으므로 원본/변환본 **제품 자료 추가·정본 편입 보류**. 참조 ADM 경계를 군사 점유 폴리곤으로 대체하지 않는다. 2025년 이전/이후 지도 중첩·필요 구간 지오리퍼런싱·수작업 복원은 **적합한 벡터 부재 구간에 한한 후속 후보**로만 남기며 이번에 실행하지 않았다.
+- **다음 사건별 미확인:** (1) 하르툼 남부·옴두르만의 2025-03-26 잔여 RSF 점유선 및 이후 철수일, (2) Tasis 헌장·대통령위원회/선서 원문, 2025년 구상의 발표일과 07-26 구성 선언/08-30 선서의 법적 관계 및 대외 승인 현황, (3) 엘파셰르 10-26 군본부 영상 촬영일, 도시 전역·주변 통제 유효 시작일과 이웃 북다르푸르/코르도판 전선, (4) 2025-03·10 당시 폴리곤 원본·정확한 편집/유효일·원본 CRS·피처·라이선스, (5) 기존 GEO-TIME-002/004/006/007/008 미등록 및 010~013 색인-원문 불일치 감사 보류. 기존 결함을 추측 복원하지 않는다.
+
+**진행 커서:** 2025년(잠정·전 세계 전수 미완료), **마지막=아프리카**, **다음=북아메리카**. 유럽·아시아·아프리카·북아메리카·남아메리카·오세아니아 모두 **전수 완료/지역별 변화 없음 조사 미달성**, 2024년으로 이동하지 않는다. 독립 GEO-LIFE 순환 커서는 수정하지 않는다.
+
+**저장·적용 제한:** 이 조사 보고서와 연도별 진행 기록 및 보고서 색인 3개 **텍스트** 문서만 외부 자료 저장소에 보관한다. **국가 lifetime/정본 역사 폴리곤/타임라인/원시 SHP/GPKG·GeoJSON/웹·앱 코드/렌더러/Pando work/gis·main·타 브랜치/배포 반영 0건**. 로컬 publish-reports/check-reports, 앱·GIS 실행 검사는 미실행; GitHub 원격 텍스트 저장 여부는 별도 재조회로 검증한다.
