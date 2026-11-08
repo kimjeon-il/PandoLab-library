@@ -62,3 +62,5 @@ Canvas data-ready 응답에도 projectGeneration을 명시해 이전 문서의 �
 | de8122abf23c6b7de8f4b72b03485ec1 | 242185 |
 | edfad4999a956274b38c477ae585d1ad | 96235 |
 | f3cabab577433dc1795b3b71ce1946ce | 190863 |
+
+WebGL 고배율 준비 중/완료 화면 high-pending.png, high-ready.png(합계 106364바이트)를 보관하고 원래 test-results 검증 사본은 SHA-256 일치를 확인한 뒤 제거했다. 이 추가 정리의 드라이브 여유 차이는 측정하지 않았다.
