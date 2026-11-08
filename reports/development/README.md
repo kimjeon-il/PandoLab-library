@@ -14,13 +14,10 @@
 | [P0 — 원격 개발 체계·도구 의존성·성능 기준 조사](native/remote-toolchain-p0-audit-2026-10-14.md) | DEV-070 | 2026-10-14 | `investigating` |
 | [P5-5 공유 국경선 렌더링 패킷 성능 검증](p5-shared-border-performance.md) |  |  | 원문 참조 |
 | [공유 국경선 선분 공간 인덱스 압축: JS 힙 165MiB 절감 A/B 검증](performance/boundary-spatial-index-packed-2026-10-17.md) | OBJ-089 | 2026-10-17 | `verified-web-paired` |
-| [객체 시점 resolveWorld 단일화 검증](performance/objects-timeline-cursor-reuse-2026-10-17.md) | OBJ-083 | 2026-10-17 | `verified-web-diagnostics` |
 | [P6–P9 구현·검증 진행 기록](performance/p6-p9-execution-2026-10-16.md) | DEV-076 | 2026-10-16 | `investigating` |
 | [기준 코드·기존 계측 자산 통합 검토](performance/performance-baseline-consolidation-2026-10-17.md) | PERF-P0-001 | 2026-10-17 | `verified-source-and-focused-ci` |
-| [편집 포트 제한과 WebGL 면 준비 시간 초과 수정](performance/port-mesh-worker-fixes-2026-10-20.md) | UI-PORT-MESH-20261020 | 2026-10-20 | `local-validation / native-unverified / unpublished` |
 | [main·지리 판정 실험 정확성 및 제한 성능 비교](performance/predicate-comparison-2026-10-18.md) | PERF-PREDICATE-20261018 |  | verified-bounded-comparison / keep-main · 지도 반영: not-applicable |
 | [러시아 상세 형상 편집: 구현 및 검증 기록](performance/russia-edit-responsiveness.md) | DEV-002 | 2026-09-16 | `historical-record` |
-| [공통 C++·WASM 코어와 앱 시작 경로 개선 — 진행 기록](performance/shared-core-startup-implementation-2026-10-12.md) | DEV-066 | 2026-10-12 | `investigating` |
 | [1989년 소련 대형 경계 편집 준비 지연 선분 생성 최적화](performance/soviet-boundary-preparation-2026-10-16.md) | DEV-085 | 2026-10-16 | `verified-web-ci` |
 | [C++ 접촉 변환 캐시 수명 단축 및 Worker JS 23.8MiB 절감](performance/soviet-contact-wire-lifetime-2026-10-17.md) | OBJ-094 | 2026-10-17 | `verified-web-paired-and-12cycle` |
 | [소련 Core 후보 준비: 135초 WASM 동기 실행 미반환 및 C++ 함수별 계측](performance/soviet-core-candidate-bottleneck-2026-10-18.md) | OBJ-097 | 2026-10-18 | `verified-root-cause / geometryContains-47s-per-SSR` |

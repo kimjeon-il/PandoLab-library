@@ -13,7 +13,7 @@
 - OBJ-088/089: 역사 세계의 공유 국경선 Worker 메모리 원인 분해 및 `createBoundarySpatialIndex()` 압축. JS used heap 360.06→194.68MiB (−165.38MiB), 전체 Chromium PSS 2007.59→1841.82MiB (−165.77MiB) 한 쌍의 실측. 동일한 현대 세계 254개, 원본 선분 544163개, 공유 선분 68616개, 접촉 339건 보존.
 - 12회 왕복 검사: 공유 국경 Worker JS 초반4회 227.74MiB, 후반4회 227.75MiB (중앙값). 마지막 추가 30초 유휴 시 194.87MiB. 동일 12회에서 Worker WASM 선형 버퍼 387.5MiB 유지, 전체 autosave 0. 추적된 Stroke 버퍼 수치는 GPU VRAM이 아님.
 
-참조: [OBJ-083](objects-timeline-cursor-reuse-2026-10-17.md) · [OBJ-088](soviet-shared-border-retained-owners-2026-10-17.md) · [OBJ-089](boundary-spatial-index-packed-2026-10-17.md).
+참조: OBJ-083 (정리된 일반 작업 기록) · [OBJ-088](soviet-shared-border-retained-owners-2026-10-17.md) · [OBJ-089](boundary-spatial-index-packed-2026-10-17.md).
 
 ## 기존 테스트 자산의 소유권
 

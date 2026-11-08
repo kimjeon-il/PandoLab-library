@@ -102,7 +102,7 @@
 | `UI-EDITOR-FLAT-RELEASE-20261020` | [앱 평면 편집 변경 게시와 작업 브랜치 전파](../../releases/editor-flat-release-2026-10-20.md) | 2026-10-20 | `pages-live-verified / branches-propagated / windows-native-verified / android-unverified` | `not-applicable` |
 | `UI-EDITOR-FLAT-20261020` | [앱 평면 편집 집중과 경위선·지구본 장식 제거](../editor-flat-cleanup-2026-10-20.md) | 2026-10-20 | `local-focused-verified / release-followup-linked` | `not-applicable` |
 | `UI-RELEASE-SYNC-20261020` | [공통 지도 변경 배포와 작업 브랜치 통합](../../releases/shared-viewing-release-sync-2026-10-20.md) | 2026-10-20 | `pages-content-verified / ci-failures-recorded / native-unverified` | `not-applicable` |
-| `UI-PORT-MESH-20261020` | [편집 포트 제한과 WebGL 면 준비 시간 초과 수정](../../performance/port-mesh-worker-fixes-2026-10-20.md) | 2026-10-20 | `local-validation / native-unverified / unpublished` | `not-applicable` |
+| `UI-PORT-MESH-20261020` | 편집 포트 제한과 WebGL 면 준비 시간 초과 수정 (정리된 일반 작업 기록) | 2026-10-20 | `local-validation / native-unverified / unpublished` | `not-applicable` |
 | `UI-CHECK-AUTOMATION-20261019` | [코드 변경과 검사 자동 선택·실행 연동](../../ci/check-automation-2026-10-19.md) | 2026-10-20 | `local-validation / known-product-failures / unpublished` | `not-applicable` |
 | `UI-SHARED-VIEWING-20261019` | [공통 지도·열람 구조 정리 구현과 검증](../shared-viewing-cleanup-2026-10-19.md) | 2026-10-19 | `local-validation / native-unverified / unpublished` | `not-applicable` |
 | `UI-COAST-RECURRENCE-20261019` | [해안 점선 재발·수정 유실 여부와 경계 규칙 분기 조사](../../rendering/child-coast-recurrence-audit-2026-10-19.md) | 2026-10-19 | `deployment-parity-confirmed / recurrence-not-reproduced / not-fixed` | `not-applicable` |
@@ -144,7 +144,7 @@
 | `OBJ-087` | [현행 main 동일 소스 소련 12회 왕복 메모리 검증](../../performance/soviet-main-12cycle-memory-2026-10-17.md) | 2026-10-17 | `verified-web-diagnostics` | `not-applicable` |
 | `OBJ-085` | [소련 미리보기 build 60초 지연 원인 추적](../../performance/soviet-preview-build-attribution-2026-10-17.md) | 2026-10-17 | `verified-web-diagnostics` | `not-applicable` |
 | `OBJ-084` | [소련 편집·시점 왕복 Worker/WASM 메모리 계측](../../performance/soviet-memory-retention-roundtrip-2026-10-17.md) | 2026-10-17 | `verified-web-diagnostics` | `not-applicable` |
-| `OBJ-083` | [객체 시점 resolveWorld 단일화 검증](../../performance/objects-timeline-cursor-reuse-2026-10-17.md) | 2026-10-17 | `verified-web-diagnostics` | `not-applicable` |
+| `OBJ-083` | 객체 시점 resolveWorld 단일화 검증 (정리된 일반 작업 기록) | 2026-10-17 | `verified-web-diagnostics` | `not-applicable` |
 | `OBJ-082` | [소련 시점 메모리 소유권 계측](../../performance/soviet-memory-owner-attribution-2026-10-16.md) | 2026-10-17 | `verified-web-diagnostics` | `not-applicable` |
 | `DEV-086` | [1989년 소련 편집 메모리·반복 회귀 검증](../../performance/soviet-memory-lifecycle-regression-2026-10-16.md) | 2026-10-16 | `verified-web-ci-with-observability-limits` | `not-applicable` |
 | `DEV-085` | [1989년 소련 대형 경계 편집 준비 지연 선분 생성 최적화](../../performance/soviet-boundary-preparation-2026-10-16.md) | 2026-10-16 | `verified-web-ci` | `not-applicable` |
@@ -166,7 +166,7 @@
 | `DEV-069` | [Git 대용량 이력 정리 — 격리 검증 및 PR 참조 제약](../git-history-readonly-audit-2026-10-13.md) | 2026-10-13 | `historical-record` | `not-applicable` |
 | `DEV-068` | [미사용 세계지도 구버전 대용량 자산 정리 — 의존성 검증](../legacy-world-asset-retirement-2026-10-13.md) | 2026-10-13 | `historical-record` | `not-applicable` |
 | `DEV-067` | [통합 저장소 현행 파일 정리 — 비활성 앱 워크플로](../current-file-cleanup-2026-10-13.md) | 2026-10-13 | `historical-record` | `not-applicable` |
-| `DEV-066` | [공통 C++·WASM 코어와 앱 시작 경로 개선 — 진행 기록](../../performance/shared-core-startup-implementation-2026-10-12.md) | 2026-10-12 | `investigating` | `not-applicable` |
+| `DEV-066` | 공통 C++·WASM 코어와 앱 시작 경로 개선 — 진행 기록 (정리된 일반 작업 기록) | 2026-10-12 | `investigating` | `not-applicable` |
 | `DEV-064` | [웹·앱 저장소 파일 및 Git 이력 정리 — 1~3단계](../repository-cleanup-2026-10-12.md) | 2026-10-12 | `historical-record` | `not-applicable` |
 | `DEV-065` | [웹·앱 저장소 통합 — 4단계](../../releases/repository-unification-stage4-2026-10-12.md) | 2026-10-12 | `historical-record` | `not-applicable` |
 | `DEV-010` | [Country lineage storage 실행 기록](../country-lineage-storage.md) | 2026-10-06 | `historical-record` | `not-applicable` |
