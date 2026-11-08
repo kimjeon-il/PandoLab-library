@@ -50,4 +50,4 @@ Windows 네이티브 UI·Android 기기, 최종 통합 후 모든 편집 흐름,
 
 ## 데이터 반영과 판본
 
-지도 데이터 반영은 `not-applicable`이다. 과거 로컬 검증 기록은 그대로 두고 [공통 열람 정리](../storage/shared-viewing-cleanup-2026-10-19.md), [검사 자동화](../ci/check-automation-2026-10-19.md), [포트·Worker 수정](../performance/port-mesh-worker-fixes-2026-10-20.md)의 배포 후속 근거를 이 문서에 모았다. 배포·브랜치 통합·파일 보존·CI 실패는 각각의 증거로 판단한다.
+지도 데이터 반영은 `not-applicable`이다. 과거 로컬 검증 기록은 그대로 두고 공통 열람 정리 (정리된 일반 작업 기록), [검사 자동화](../ci/check-automation-2026-10-19.md), [포트·Worker 수정](../performance/port-mesh-worker-fixes-2026-10-20.md)의 배포 후속 근거를 이 문서에 모았다. 배포·브랜치 통합·파일 보존·CI 실패는 각각의 증거로 판단한다.

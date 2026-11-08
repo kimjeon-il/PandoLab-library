@@ -4,7 +4,7 @@
 > 조사 기준: main·work/ui `f9197bd6cfdcb2824c4de0799e7308b3efd6a360`, 실제 웹 배포 `432993de`, 웹·Windows 내장 자산 `0.36.0-build-58fd902849e9`
 > 근거: `D:/Codex/evidence/loading-investigation-20261021/`, main의 ignored `.superpowers/sdd/loading-investigation-20261021/probe.mjs` 및 실행 로그
 
-> 구현 상태 후속: [UI-INITIAL-MAP-FIX-20261021](initial-map-continuity-2026-10-21.md). 아래는 수정 전 조사 기록이며, 구현·검증 상태는 후속 보고서가 대체한다.
+> 구현 상태 후속: UI-INITIAL-MAP-FIX-20261021 (정리된 일반 작업 기록). 아래는 수정 전 조사 기록이며, 구현·검증 상태는 후속 보고서가 대체한다.
 
 ## 대상과 방법
 

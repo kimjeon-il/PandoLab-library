@@ -43,6 +43,6 @@ node D:/dev/PandoLab-library-data/reports/.edits/ui/development/rendering/terrai
 
 사용자가 2안을 선택하여 WebGL·Canvas·경량 미리보기의 기본 표현으로 적용했다. 새 모드나 강도 메뉴는 추가하지 않았고 앱의 지형 기능은 계속 비활성 상태다. 고도색 60% 혼합, 고도별 흑백 명도, 경사 2배 및 다방향 조명은 위 2안과 같다. 실제 원본 DEM과 육지 마스크, 좌표, 국경 및 저장 형식은 변경하지 않았다.
 
-실제 구현 범위·검사·미해결 한계·자료 보존·정리는 [구현 기록](implementation.md)에 기록한다. 실제 Canvas [색채](implemented-canvas-selected-physical.png), [흑백](implemented-canvas-selected-political.png), [국경·지명 포함](implemented-canvas-terrain-with-borders-and-labels.png)을 같은 카메라로 확인했다. WebGL 실제 지도는 별도 브라우저 품질 검사로 확인했다.
+실제 구현 범위·검사·미해결 한계·자료 보존·정리는 구현 기록 (정리된 일반 작업 기록)에 기록한다. 실제 Canvas [색채](implemented-canvas-selected-physical.png), [흑백](implemented-canvas-selected-political.png), [국경·지명 포함](implemented-canvas-terrain-with-borders-and-labels.png)을 같은 카메라로 확인했다. WebGL 실제 지도는 별도 브라우저 품질 검사로 확인했다.
 
 미리보기는 LOD 0·1의 8개 타일만 재생성했다. 버전 0.13.3-p2, manifest 포함 4,457,248바이트(32MB 이하), 자료 커밋 473b2babd37f0331af5e096ee4152a15af6a8d0f이며 [원격 바이트 검증](implementation-preview-remote.json)을 마쳤다. 이번 작업은 work/ui 작업 커밋과 선택 자료·보고서 보관만 포함하며 앱 main 통합·배포·EXE/APK 생성은 하지 않는다.

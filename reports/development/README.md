@@ -66,7 +66,6 @@
 | [지형 전환 지연 수정의 main 반영과 웹·앱 게시 검증](releases/terrain-interaction-release-2026-10-21.md) | UI-TERRAIN-RELEASE-20261021 | 2026-10-21 | `pages-live-verified / windows-native-verified` |
 | [웹·앱 분리 배포 및 공개 사이트 검증](releases/web-app-product-release-2026-10-18.md) | UI-PRODUCT-RELEASE-20261018 | 2026-10-18 | `pages-live-verified / native-device-unverified` |
 | [웹 날짜 도구 배포와 상설 작업 브랜치 전파](releases/web-date-tool-release-2026-10-22.md) | UI-DATE-RELEASE-20261022 |  | pages-live-verified / task-propagated / objects-core-prerequisite-blocked · 지도 반영: not-applicable |
-| [하위 객체의 해안 점선 잔존 수정](rendering/child-coast-boundary-2026-10-19.md) | UI-CHILD-COAST-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
 | [해안 점선 재발·수정 유실 여부와 경계 규칙 분기 조사](rendering/child-coast-recurrence-audit-2026-10-19.md) | UI-COAST-RECURRENCE-20261019 | 2026-10-19 | `deployment-parity-confirmed / recurrence-not-reproduced / not-fixed` |
 | [하위 객체의 지형 표시 누락·지연 조사와 수정](rendering/child-terrain-readiness-2026-10-19.md) | UI-CHILD-TERRAIN-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
 | [북중 국경 선 굵기 차이 진단 — 2026-10-22](rendering/north-korea-border-stroke-2026-10-22.md) |  |  | 원문 참조 |
@@ -100,34 +99,19 @@
 | [main 잔여 파일·구형 테스트·생성 자산 목록 정리](storage/branch-residue-cleanup-2026-10-21.md) | DEV-CLEANUP-MAIN-20261021 | 2026-10-21 | `local-focused-verified / uncommitted / unpublished` |
 | [Country lineage storage 실행 기록](storage/country-lineage-storage.md) | DEV-010 | 2026-10-06 | `historical-record` |
 | [통합 저장소 현행 파일 정리 — 비활성 앱 워크플로](storage/current-file-cleanup-2026-10-13.md) | DEV-067 | 2026-10-13 | `historical-record` |
-| [앱 평면 편집 집중과 경위선·지구본 장식 제거](storage/editor-flat-cleanup-2026-10-20.md) | UI-EDITOR-FLAT-20261020 | 2026-10-20 | `local-focused-verified / release-followup-linked` |
-| [앱 편집 집중과 프로젝트 저장 범위 변경 검증](storage/editor-focus-project-storage-2026-10-19.md) | UI-EDITOR-FOCUS-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
 | [Git 대용량 이력 정리 — 격리 검증 및 PR 참조 제약](storage/git-history-readonly-audit-2026-10-13.md) | DEV-069 | 2026-10-13 | `historical-record` |
 | [미사용 세계지도 구버전 대용량 자산 정리 — 의존성 검증](storage/legacy-world-asset-retirement-2026-10-13.md) | DEV-068 | 2026-10-13 | `historical-record` |
 | [판도편집기 조사·검증 보고서](storage/organization-original-indexes/README.md) | DEV-MAIN-20261023 |  | 원문 참조 |
-| [새 프로젝트 생성 통합과 보기 상태 저장 분리](storage/project-creation-storage-2026-10-19.md) | UI-PROJECT-CREATION-20261019 | 2026-10-19 | `focused-verified / baseline-test-failures / android-device-unverified` |
 | [웹·앱 저장소 파일 및 Git 이력 정리 — 1~3단계](storage/repository-cleanup-2026-10-12.md) | DEV-064 | 2026-10-12 | `historical-record` |
-| [공통 지도·열람 구조 정리 구현과 검증](storage/shared-viewing-cleanup-2026-10-19.md) | UI-SHARED-VIEWING-20261019 | 2026-10-19 | `local-validation / native-unverified / unpublished` |
 | [국가 존속기간과 지도 자료 제공 기간 분리](ui/country-lifetime-2026-10-21.md) | OBJ-MAIN-SYNC-20261021 |  | web-app-core-verified |
-| [편집 가능한 라이브러리 구현 현황](ui/editable-library-2026-10-21.md) | UI-LIBRARY-20261021 |  | implementation-partial / app-unverified |
-| [편집기 앱 작업표시줄의 시점 이동 제거](ui/editor-status-timeline-removal-2026-10-19.md) | UI-EDITOR-STATUS-TIME-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
 | [객체가 없는 시점의 육지 소실 원인 조사](ui/empty-time-land-mask-2026-10-19.md) | UI-EMPTY-TIME-LAND-20261019 | 2026-10-19 | `reproduced / cause-confirmed / not-fixed / native-unverified` |
 | [기본 세계 역사 타임라인 검증](ui/historical-world-timeline-validation.md) | DEV-003 | 2026-10-12 | `historical-record` |
 | [웹·앱 독자 규칙 추가 조사](ui/independent-view-policy-audit-2026-10-19.md) | UI-POLICY-AUDIT-20261019 | 2026-10-19 | `historical-audit / follow-up-linked` |
 | [Info tab v9 — implementation and visual verification](ui/info-tab-v9-visual-validation-2026-10-06.md) | DEV-072 | 2026-10-06 | `historical-record` |
 | [초기 지도 요소의 표시 시차와 새 프로젝트의 흰 화면 조사](ui/initial-map-and-project-transition-2026-10-21.md) | UI-INITIAL-MAP-20261021 | 2026-10-21 | `historical-record / follow-up-linked` |
-| [초기 지도 배경과 새 프로젝트 전환의 표시 연속성 수정](ui/initial-map-continuity-2026-10-21.md) | UI-INITIAL-MAP-FIX-20261021 | 2026-10-21 | `local-verified / release-followup-linked` |
 | [지도 배율별 품질과 표시 준비 상태](ui/map-scale-readiness-2026-10-20.md) | UI-MAP-SCALE-20261020 | 2026-10-20 | `focused-verified / native-webview2-verified / unpublished` |
-| [웹·앱 불필요 기능 정리와 공통 소유자 유지 검증](ui/product-pruning-2026-10-19.md) | UI-PRODUCT-PRUNING-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
-| [웹·앱 호버 깃발과 경계 규칙 재점검](ui/shared-map-rule-parity-2026-10-19.md) | UI-MAP-PARITY-20261019 | 2026-10-19 | `focused-verified / published / native-unverified` |
 | [출력 외 전부 공유 기준의 추가 조사·독립 코드 잔존](ui/shared-output-audit-2026-10-18.md) | UI-SHARING-AUDIT-20261018 | 2026-10-18 | `audit-complete / follow-up-linked` |
-| [웹·앱 공통 소유자 통합 및 검증 · 확대/축소 UI 회귀 수정](ui/shared-output-refactor-2026-10-19.md) | UI-SHARING-REFACTOR-20261019 | 2026-10-19 | `focused-verified / published / native-unverified` |
-| [웹·앱 공통 열람 규칙 연결 수정](ui/shared-view-policy-fix-2026-10-19.md) | UI-POLICY-FIX-20261019 | 2026-10-19 | `focused-verified / published / existing-ci-failures` |
-| [보기 메뉴의 내장 자료 구분 제거](ui/source-visibility-menu-2026-10-19.md) | UI-SOURCE-VISIBILITY-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
 | [UI 독자 규칙 통합 P0 — 구조·상태·회귀 기준 조사](ui/ui-convergence-p0-audit-2026-10-20.md) | UI-CONVERGENCE-P0-20261020 | 2026-10-20 | `source-audited / focused-runtime-baseline-not-rerun` |
-| [상위·하위·지방 객체의 표시 규칙 통합](ui/unified-object-display-2026-10-19.md) | UI-OBJECT-DISPLAY-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
-| [웹 열람 UI 공유 누락 조사와 복원](ui/viewing-ui-reuse-repair-2026-10-18.md) | UI-VIEWING-REPAIR-20261018 | 2026-10-18 | `verified-web-release / native-unverified` |
-| [웹 열람·앱 편집 분리와 휴대폰 가로 화면](ui/web-app-product-split-2026-10-18.md) | UI-PRODUCT-SPLIT-20261018 | 2026-10-18 | `focused-verified / native-device-unverified` |
 
 ## 보고서 보관·분류
 

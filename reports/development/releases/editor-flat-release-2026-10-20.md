@@ -4,7 +4,7 @@
 >
 > 원문 최종 수정: 2026-10-20 · 구현 `2e69c790ecdfce190089c78919801642bc168cad` · 최초 게시 원본 `f70c940380eadbbc357f894e82a55d882ee4e52c`
 >
-> [구현 검증](../storage/editor-flat-cleanup-2026-10-20.md) · [게시 검증 근거](editor-flat-release-2026-10-20.evidence.json)
+> 구현 검증 (정리된 일반 작업 기록) · [게시 검증 근거](editor-flat-release-2026-10-20.evidence.json)
 
 ## 대상과 실행 범위
 

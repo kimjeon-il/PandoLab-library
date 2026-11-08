@@ -10,7 +10,7 @@
 - 공통 지도 파생물은 한국 국경이 반영된 GIS 판본을 유지했다. UI 작업트리의 이전 기준 지도에서 만든 파생물과 미참조 생성 파일은 덮어쓰거나 삭제하지 않았다.
 - `tools/build-world-mesh.mjs` 충돌은 고정 좌표 개수를 제거하고 현재 입력의 유효한 좌표 수를 사용하는 UI 구현을 유지해 해결했다. 국가 ID 중복·형상 인덱스 검사는 유지했다.
 - 코드 통합에 필요한 build metadata/import map/immutable Worker 목록만 정본 생성기로 갱신했다. 빌드 식별자 `0.36.0-build-library-korea-merge-20261021`, 자료 판본 `data-7c09e4efc8460540dad6814620d1f2c9`.
-- 새 테스트, lint, stage 검사, 앱 빌드, WebView 실행, 원격 동기화·게시·배포는 수행하지 않았다. 종전 테스트 기록은 [자료 보고서](../../borders/reconstruction/korea-boundaries-2026-10-21.md)와 [편집 기능 체크포인트](../ui/editable-library-2026-10-21.md)를 참조한다. 병합이 검증 완료를 뜻하지 않는다.
+- 새 테스트, lint, stage 검사, 앱 빌드, WebView 실행, 원격 동기화·게시·배포는 수행하지 않았다. 종전 테스트 기록은 [자료 보고서](../../borders/reconstruction/korea-boundaries-2026-10-21.md)와 편집 기능 체크포인트 (정리된 일반 작업 기록)를 참조한다. 병합이 검증 완료를 뜻하지 않는다.
 - 최종 파생물 재현성 검사, full-world stage, 새 앱 빌드·실행, 게시 수정 최종 검토, 비공개 저장소 개설과 최초 원격 게시는 후속 작업으로 남긴다. 북중 과거 형상과 역사적 정밀도 제한도 기존 보고서대로 남는다.
 - 기존 UI 테스트 삭제 873개와 생성 권한 파일 변경, main의 미추적 이미지, 영구 작업트리는 보존했다. 이 작업에서 테스트 삭제를 커밋하지 않았다.
 - 최초 fetch/스테이징의 Git fsync 오류는 해당 명령에 한정한 `core.fsyncObjectFiles=false`로 해결했다. 사용자/저장소 Git 설정은 변경하지 않았다. 원격 main SHA는 별도 ls-remote로 확인했고 병합 전 로컬 main과 같았다.
