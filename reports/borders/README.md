@@ -84,5 +84,8 @@
 | [국가·하위단위 통합 후 함수·API 정리 조사](validation/territorial-integration/function-audit.md) |  |  | selection domain / |
 | [Territorial 함수 정리 구현](validation/territorial-integration/function-cleanup.md) |  |  | 원문 참조 |
 | [Territorial storage access inventory](validation/territorial-integration/storage-access.md) |  |  | 원문 참조 |
+| [양 브랜치 검토 — 중미 협약 발효·남부연합 정부 사건 보완](validation/reviews/scheduled-2026-11-05-2200/README.md) | GEO-REVIEW-20261105-2200 | 2026-11-05 UTC | `reviewed / report-only / runtime-unchanged` |
+| [양 브랜치 검토 — 부에노스아이레스 조약·줄리아나 사건 날짜 정정](validation/reviews/scheduled-2026-11-06-2200/README.md) | GEO-REVIEW-20261106-2200 | 2026-11-06 UTC | `reviewed / report-only / runtime-unchanged` |
+| [양 브랜치 검토 — 사모아 왕제 폐지·리워드 법률·JBC 날짜 보완](validation/reviews/scheduled-2026-11-07-2200/README.md) | GEO-REVIEW-20261107-2200 | 2026-11-07 UTC | `reviewed / report-only / runtime-unchanged` |
 
 GIS 생성기의 원자료는 기존 마운트와 보관 색인에 유지됩니다. [보관 색인](../../archive/index.json)을 참조합니다.
