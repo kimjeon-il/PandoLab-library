@@ -1,0 +1,52 @@
+{
+  "dataRuntimePin": "a963457e578d335fec181f91ad25dfe729e96e1b",
+  "appWorkGis": "aa434900402fd400e3e6e8bed4f24aa6068ec01b",
+  "appMain": "17cff07a101a050e5dcd6fb1d310a566455c3569",
+  "liveBuildMetaVerified": true,
+  "pagesWorkflow": {
+    "id": 40346432707,
+    "conclusion": "success",
+    "liveCodeAndDataBytes": "success"
+  },
+  "nativeGisWorkflow": {
+    "id": 40346368866,
+    "conclusion": "success",
+    "fiveFounderPartition": "success"
+  },
+  "scopedNodeTests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "architectureWorkflow": {
+    "id": 40346432790,
+    "conclusion": "failure",
+    "detail": "native unit tests invoked without required binary in generic suite; 4 additional unrelated fixture/history/classification failures"
+  },
+  "p2Workflow": {
+    "id": 40346368742,
+    "conclusion": "failure",
+    "reason": "P2_LIBRARY_WRITE_TOKEN_REQUIRED (PANDOLAB_LIBRARY_WRITE_TOKEN missing); no storage write token configured"
+  },
+  "reportMainPublication": {
+    "status": "blocked-by-permission-review",
+    "unreferencedCommit": "9fea7e44f7e5b761e6428390207e2a8ae45de0ab",
+    "mainRefNotMoved": true
+  },
+  "preserved": [
+    "Aral water",
+    "Caspian water",
+    "river assets",
+    "country lifetimes",
+    "other geometry periods",
+    "other countries",
+    "previous Europe/Dniester and 3-segment corrections"
+  ],
+  "backupLibraryId": "libfile_e83881b40d148191ac8a624f34c59d84",
+  "nativePrerequisiteFix": {
+    "workGis": "aa434900402fd400e3e6e8bed4f24aa6068ec01b",
+    "main": "blocked-by-permission-review; main remains17cff07",
+    "focusedContractTests": 3,
+    "localNativeBuild": "not-run"
+  },
+  "overallApprovedBordersStatus": "partial: four Central Asia segments applied; Turkey-to-western-Iran approved-modern-border scope under review"
+}

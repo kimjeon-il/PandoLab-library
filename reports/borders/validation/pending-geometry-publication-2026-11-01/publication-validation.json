@@ -1,0 +1,417 @@
+{
+  "dataBase": "2b5c0617f80a9571fde06fe331b8d0022c8932cf",
+  "appBase": "64477e83ec64ace47bb5d3ef859ddbbac497229b",
+  "sourceMetadataReusedFromPreviouslyVerifiedExactBaseline": true,
+  "officialCountryFinalize": true,
+  "wholeCLI": false,
+  "unaffectedDescriptorsPreserved": true,
+  "noTransport": true,
+  "proof": [
+    {
+      "entityId": "state:RUS",
+      "oldNative": "36a903730b9454c2776940a46167e88cff516313592a14a591fb9d6b8ed1ff73",
+      "newNative": "4a6ad266ffb573fcca4b79ef2e7ed8feac04ec988fdb1c4cf04914aa886bcbee",
+      "oldCompiled": "d20640f22d167848d80e48aa10463ad9f350a0f1b251437ea8e9fd9a2df62ad4",
+      "newCompiled": "3fe15496882b9acb5ee6c5b065f2a0822e2c35675143b8562e17ae5594da70dc",
+      "sourceHash": "5f835c91b7c8b62e5478c39bcee6703985fba211cb92f421bf486c3e1cab9800",
+      "lifetime": {
+        "validFrom": "1991-12-25",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "id": "state:RUS:post-soviet-existing-coordinates",
+          "from": "1991-12-25",
+          "to": "2006-01-11"
+        },
+        {
+          "id": "state:RUS:post-soviet-existing-coordinates:rus-kaz-treaty-2006-01-12-abc-r1",
+          "from": "2006-01-12",
+          "to": "2014-03-17"
+        },
+        {
+          "id": "state:RUS:natural-earth-5.1.1",
+          "from": "2014-03-18",
+          "to": null
+        }
+      ],
+      "sourceCompiledBindings": [
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "RUS"
+          },
+          "validFrom": "1991-12-25",
+          "validTo": "2006-01-11",
+          "geometryRef": {
+            "id": "historical-world:1622accbe95fcd708d980b0871b72a2d65dc471541371e1a0af193f44dc985be",
+            "version": 1
+          },
+          "sourceVersionId": "state:RUS:post-soviet-existing-coordinates"
+        },
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "RUS"
+          },
+          "validFrom": "2006-01-12",
+          "validTo": "2014-03-17",
+          "geometryRef": {
+            "id": "historical-world:58632727933fd2b6ad76dd31563328dca306362a9a93cba254bc127eab4e2346",
+            "version": 1
+          },
+          "sourceVersionId": "state:RUS:post-soviet-existing-coordinates:rus-kaz-treaty-2006-01-12-abc-r1"
+        },
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "RUS"
+          },
+          "validFrom": "2014-03-18",
+          "validTo": null,
+          "geometryRef": {
+            "id": "historical-world:e1323c8a19a101ec60ee0436c34d416ff2095ecebf9d4fd7ee5f10a6bc8bbdf9",
+            "version": 1
+          },
+          "sourceVersionId": "state:RUS:natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "entityId": "state:KAZ",
+      "oldNative": "20828bc04a26728102a5fcc72d83b1a214982f3f14043e3af543edc98cc78674",
+      "newNative": "87386588e632923811346efad49e7e1c19cad807658b52ddb3d7467357dbbfee",
+      "oldCompiled": "2b39455f45608f2e3ab23ed5a2557c63a7320b98eef5a9a3ca3c76ba0e3242ee",
+      "newCompiled": "f07f4f81769e41f3d8663328316d6e66b411990fac3a2771171fe844774ddcf6",
+      "sourceHash": "5fbf59232da190dcede263aa8c50bd193d94ae0328382d48b6b933ddac5679b4",
+      "lifetime": {
+        "validFrom": "1991-12-16",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "id": "state:KAZ:post-soviet-existing-coordinates",
+          "from": "1991-12-16",
+          "to": "1995-09-24"
+        },
+        {
+          "id": "state:KAZ:natural-earth-5.1.1:pre-2006-treaty-r1",
+          "from": "1995-09-25",
+          "to": "2006-01-11"
+        },
+        {
+          "id": "state:KAZ:natural-earth-5.1.1",
+          "from": "2006-01-12",
+          "to": null
+        }
+      ],
+      "sourceCompiledBindings": [
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "KAZ"
+          },
+          "validFrom": "1991-12-16",
+          "validTo": "1995-09-24",
+          "geometryRef": {
+            "id": "historical-world:0e22daa74dfe984e57a7cbe6bc2ef4c24b43fb33d6f73018c75154f6cca745c1",
+            "version": 1
+          },
+          "sourceVersionId": "state:KAZ:post-soviet-existing-coordinates"
+        },
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "KAZ"
+          },
+          "validFrom": "1995-09-25",
+          "validTo": "2006-01-11",
+          "geometryRef": {
+            "id": "historical-world:02ce3308bce584ea00619ed51051e1a8d090c67ee33127101ff9aa7b709da853",
+            "version": 1
+          },
+          "sourceVersionId": "state:KAZ:natural-earth-5.1.1:pre-2006-treaty-r1"
+        },
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "KAZ"
+          },
+          "validFrom": "2006-01-12",
+          "validTo": null,
+          "geometryRef": {
+            "id": "historical-world:8ca283716bbfdbcb78b3560e7ed73241a3a7b9bfe314498746eb05689fcebdb8",
+            "version": 1
+          },
+          "sourceVersionId": "state:KAZ:natural-earth-5.1.1"
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "oldNative": "1577f817e3604ea54db09d75d66f32b9af692d359491b469b4254badce170038",
+      "newNative": "e85558028498ee60f401ee6a427736a6aa22103b69de93fb38cf067dc6cfba51",
+      "oldCompiled": "23989a91ae2f10a6c1c340a2c3569d6aac74704a998c6f92baa700022773026e",
+      "newCompiled": "a22a594d61d623d3214d8188c4ed38b99cba762f278e436423d12cd34b906553",
+      "sourceHash": "fce2892414232fd6ea2423413aea98186a790a2e5e346108ba55e20f5c3ae8db",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1991-12-24"
+      },
+      "geometryVersions": [
+        {
+          "id": "state:soviet-union-russian-sfsr:1991-r1",
+          "from": "1991-01-01",
+          "to": "1991-12-24"
+        },
+        {
+          "id": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+          "from": "1922-12-30",
+          "to": "1925-05-12"
+        }
+      ],
+      "sourceCompiledBindings": [
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "state:soviet-union-russian-sfsr"
+          },
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "geometryRef": {
+            "id": "historical-world:0825d59cc554e1b9190681ff4f1e77d6c40cfb5607a264817431093ed6097aae",
+            "version": 1
+          },
+          "sourceVersionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2"
+        },
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "state:soviet-union-russian-sfsr"
+          },
+          "validFrom": "1991-01-01",
+          "validTo": "1991-12-24",
+          "geometryRef": {
+            "id": "historical-world:1622accbe95fcd708d980b0871b72a2d65dc471541371e1a0af193f44dc985be",
+            "version": 1
+          },
+          "sourceVersionId": "state:soviet-union-russian-sfsr:1991-r1"
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-transcaucasian-sfsr",
+      "oldNative": "20d678dad6606eb22bb11a6720a4fa77a530a29c4276b0ee7b67ff638c631e03",
+      "newNative": "0cade58efada311ec7f3c95b2b630f69e258016152474ecb1a032dce662bc45f",
+      "oldCompiled": "55281c9f15c32541b0abfb7162cf1fc1a4962e51abf5c4aee64f002cab96d386",
+      "newCompiled": "0751e0d98826865c20f75f0087491bad742f437da5c962bdc2527c70f7995da8",
+      "sourceHash": "70e2a19ad9537251ef058e78dabe2d57019b550f7936e81ef34f4c7b0f5bdf14",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1936-12-04"
+      },
+      "geometryVersions": [
+        {
+          "id": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2",
+          "from": "1922-12-30",
+          "to": "1925-05-12"
+        }
+      ],
+      "sourceCompiledBindings": [
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "state:soviet-union-transcaucasian-sfsr"
+          },
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "geometryRef": {
+            "id": "historical-world:21003bb5023048d045bbc644e122fa84feff5b3fd8e8c607b6d5ea190a88b941",
+            "version": 1
+          },
+          "sourceVersionId": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2"
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "oldNative": "b32e88321977df991d67f6730bb1a1a06b21bae24dc9c947e2b4a55cc1ebfe30",
+      "newNative": "b58447ab1d1c0983c7a05a5d6459201b1cf942afc008884d7a57e0a8e0c4db6c",
+      "oldCompiled": "f4f82796d9585e7882b6bda5bc4abc066847b9b6e8dda74754280aa4861c1f13",
+      "newCompiled": "548b71f50b97d2657702f4bf87ed75e1403a728346356b87ab8277bb8d0c63ce",
+      "sourceHash": "7f1d2b8ff78632112326db03798a7692d90cb1d77ea6a4a79de0b11d3dd51b8a",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1991-08-23"
+      },
+      "geometryVersions": [
+        {
+          "id": "state:soviet-union-ukrainian-ssr:1991-r1",
+          "from": "1991-01-01",
+          "to": "1991-08-23"
+        },
+        {
+          "id": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+          "from": "1922-12-30",
+          "to": "1925-05-12"
+        }
+      ],
+      "sourceCompiledBindings": [
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "state:soviet-union-ukrainian-ssr"
+          },
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "geometryRef": {
+            "id": "historical-world:7781a81ad406e3fdda2a066cb5affc2d8e9a76f45dacd35e901b530eff19a570",
+            "version": 1
+          },
+          "sourceVersionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2"
+        },
+        {
+          "objectRef": {
+            "domain": "territorial",
+            "id": "state:soviet-union-ukrainian-ssr"
+          },
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-23",
+          "geometryRef": {
+            "id": "historical-world:15e7d73c240c9227b575be073a291960fbe673f1ec689f1a61274948fe7ff78b",
+            "version": 1
+          },
+          "sourceVersionId": "state:soviet-union-ukrainian-ssr:1991-r1"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-RUS.json.gz",
+      "size": 991699,
+      "sha256": "5f835c91b7c8b62e5478c39bcee6703985fba211cb92f421bf486c3e1cab9800",
+      "gitBlobSha": "5d681572dad7b35331f50a470b24aa49f127aec7"
+    },
+    {
+      "path": "objects/4a6ad266ffb573fcca4b79ef2e7ed8feac04ec988fdb1c4cf04914aa886bcbee.json",
+      "size": 2464697,
+      "sha256": "4a6ad266ffb573fcca4b79ef2e7ed8feac04ec988fdb1c4cf04914aa886bcbee",
+      "gitBlobSha": "d6e928b670dc36b17943d35d8771867db5c25876"
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-KAZ.json.gz",
+      "size": 122765,
+      "sha256": "5fbf59232da190dcede263aa8c50bd193d94ae0328382d48b6b933ddac5679b4",
+      "gitBlobSha": "91a052f12639f6540f4318e14fd1662c5c855836"
+    },
+    {
+      "path": "objects/87386588e632923811346efad49e7e1c19cad807658b52ddb3d7467357dbbfee.json",
+      "size": 291850,
+      "sha256": "87386588e632923811346efad49e7e1c19cad807658b52ddb3d7467357dbbfee",
+      "gitBlobSha": "b51e6cd75bf0b248fd5d68cda9191d38aff62335"
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-russian-sfsr.json.gz",
+      "size": 817294,
+      "sha256": "fce2892414232fd6ea2423413aea98186a790a2e5e346108ba55e20f5c3ae8db",
+      "gitBlobSha": "c4bf8cae9debb41f12b91d8c6a24794cd5b05c1c"
+    },
+    {
+      "path": "objects/e85558028498ee60f401ee6a427736a6aa22103b69de93fb38cf067dc6cfba51.json",
+      "size": 1979061,
+      "sha256": "e85558028498ee60f401ee6a427736a6aa22103b69de93fb38cf067dc6cfba51",
+      "gitBlobSha": "7bb9493d48d2a2327dde5e5ec36fe4170618d1e8"
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-transcaucasian-sfsr.json.gz",
+      "size": 27626,
+      "sha256": "70e2a19ad9537251ef058e78dabe2d57019b550f7936e81ef34f4c7b0f5bdf14",
+      "gitBlobSha": "d0776038f999e4583a2b89b663b5eb0bd1d77bb1"
+    },
+    {
+      "path": "objects/0cade58efada311ec7f3c95b2b630f69e258016152474ecb1a032dce662bc45f.json",
+      "size": 61458,
+      "sha256": "0cade58efada311ec7f3c95b2b630f69e258016152474ecb1a032dce662bc45f",
+      "gitBlobSha": "5fda2bc5fd00eec4e004d9ba8d05754d201e50d7"
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-ukrainian-ssr.json.gz",
+      "size": 74772,
+      "sha256": "7f1d2b8ff78632112326db03798a7692d90cb1d77ea6a4a79de0b11d3dd51b8a",
+      "gitBlobSha": "4653b774c28867faaba8df8a6c16d09a628ba939"
+    },
+    {
+      "path": "objects/b58447ab1d1c0983c7a05a5d6459201b1cf942afc008884d7a57e0a8e0c4db6c.json",
+      "size": 174967,
+      "sha256": "b58447ab1d1c0983c7a05a5d6459201b1cf942afc008884d7a57e0a8e0c4db6c",
+      "gitBlobSha": "4b099b6712497493b439e08aba5e76c80b9176a1"
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/index.json",
+      "size": 1043368,
+      "sha256": "019ba62ec99a4427d7b422e3b01a00b8a523977cbcb5c3bde3f1a9003d4a5cae",
+      "gitBlobSha": "3705229fd176e34895da967113c9e6cf786cf95e"
+    },
+    {
+      "path": "objects/019ba62ec99a4427d7b422e3b01a00b8a523977cbcb5c3bde3f1a9003d4a5cae.json",
+      "size": 1043368,
+      "sha256": "019ba62ec99a4427d7b422e3b01a00b8a523977cbcb5c3bde3f1a9003d4a5cae",
+      "gitBlobSha": "3705229fd176e34895da967113c9e6cf786cf95e"
+    },
+    {
+      "path": "library.json",
+      "size": 23198,
+      "sha256": "d393d2246aba75071dde9b135a7c90bdea2e042bec7ef32b3a820a1e8d90379e",
+      "gitBlobSha": "44663fa6d00a9e1512fd2d34f0db954bafb2250f"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KAZ-sha256-f07f4f81769e41f3d8663328316d6e66b411990fac3a2771171fe844774ddcf6.json.gz",
+      "size": 109130,
+      "sha256": "f07f4f81769e41f3d8663328316d6e66b411990fac3a2771171fe844774ddcf6",
+      "gitBlobSha": "51eaf9527ac2442ac0e043fbd9fdf53c371b705d"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-0751e0d98826865c20f75f0087491bad742f437da5c962bdc2527c70f7995da8.json.gz",
+      "size": 24703,
+      "sha256": "0751e0d98826865c20f75f0087491bad742f437da5c962bdc2527c70f7995da8",
+      "gitBlobSha": "af8669867780d21280061513d74118f831e14a19"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-548b71f50b97d2657702f4bf87ed75e1403a728346356b87ab8277bb8d0c63ce.json.gz",
+      "size": 69529,
+      "sha256": "548b71f50b97d2657702f4bf87ed75e1403a728346356b87ab8277bb8d0c63ce",
+      "gitBlobSha": "656b32c054a7fea54df071878b42bd581ea306f4"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/country-parts/sha256-0f167be980d086ea674ce532eaa851ee3e23ed6af58af81b53d02c080ff15ae6.bin",
+      "size": 524288,
+      "sha256": "0f167be980d086ea674ce532eaa851ee3e23ed6af58af81b53d02c080ff15ae6",
+      "gitBlobSha": "5722edfdcc0d94820687f0e4a351bb76ec047082"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/country-parts/sha256-a46ad29752290c00948660595528b1544887b69384172b8748ea0a720f776edb.bin",
+      "size": 378665,
+      "sha256": "a46ad29752290c00948660595528b1544887b69384172b8748ea0a720f776edb",
+      "gitBlobSha": "5bdcd4eb045ee2b73ab710de356247535aa3e688"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/country-parts/sha256-54d5421e4d7f5c6c7a9e9e3d916a6ce7ad0f27e81fbfbe0ea4fdf08dc13cd08f.bin",
+      "size": 524288,
+      "sha256": "54d5421e4d7f5c6c7a9e9e3d916a6ce7ad0f27e81fbfbe0ea4fdf08dc13cd08f",
+      "gitBlobSha": "17547a1d03e394f0dd986c633a87119d61d58be3"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/country-parts/sha256-e33a20f47f5c909ceb0ae9d3931b516ecb2d1c63218a40290a36e8c4945411ed.bin",
+      "size": 224643,
+      "sha256": "e33a20f47f5c909ceb0ae9d3931b516ecb2d1c63218a40290a36e8c4945411ed",
+      "gitBlobSha": "d5086e82bb01447f38d8f174371be732147fe33c"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "size": 147627,
+      "sha256": "0df0d7f6ed635387d2c7231fc8e3ca9ddc7252acbcfe1dd3122e20bf2402416b",
+      "gitBlobSha": "b3ce69aa6e328a878ea179acf90034dacbc4d182"
+    }
+  ]
+}

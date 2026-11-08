@@ -1,0 +1,139 @@
+{
+  "rows": [
+    {
+      "entity": "state-soviet-union",
+      "kind": "source",
+      "input": "research/publication-plan-1415/assembled-four/source/state-soviet-union.json",
+      "inputSha256": "e60e6c7c5acc06d2c9e73dff3740c6373d0f1099240ace2d2ec9664c896a6eea",
+      "outputSha256": "f06399111b7613409453eb18758c237359bd287ea1dfb74318bb50f27ce65e26",
+      "polygon": 0,
+      "ring": 0,
+      "start": 26083,
+      "direction": 1,
+      "oldPoints": 152,
+      "newPoints": 411,
+      "inverseExactCoordinatesAndOrder": true,
+      "metadataAndOtherVersionsPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.6359703314853823,
+      "removeAreaDegrees2": 0.19039868166736032
+    },
+    {
+      "entity": "state-soviet-union",
+      "kind": "compiled",
+      "input": "research/publication-plan-1415/assembled-four/compiled/state-soviet-union.json",
+      "inputSha256": "84752fcce8e6d2c4efcede46a2b1bb4cd179b4216440d938b084cbb8985c455f",
+      "outputSha256": "f403469ef20b27a58de49bea788c9ec78e58fc1f982013b772865e9b252ed04a",
+      "polygon": 6,
+      "ring": 0,
+      "start": 24787,
+      "direction": 1,
+      "oldPoints": 248,
+      "newPoints": 411,
+      "inverseExactCoordinatesAndOrder": true,
+      "metadataAndOtherVersionsPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.6359703314853834,
+      "removeAreaDegrees2": 1.0704411771782649e-16
+    },
+    {
+      "entity": "state-soviet-union-transcaucasian-sfsr",
+      "kind": "source",
+      "input": "research/tsfsr-recovery-1525/tsfsr-source.json",
+      "inputSha256": "68fc26d5e4423410bd99e06cd07ff8036451463b7000818ea11cb2f45d4d4565",
+      "outputSha256": "f4e13069a1b018f36ccedeb2ab3c1654bcbc328f99b430600a056fa7fdff7feb",
+      "polygon": 0,
+      "ring": 0,
+      "start": 540,
+      "direction": 1,
+      "oldPoints": 152,
+      "newPoints": 411,
+      "inverseExactCoordinatesAndOrder": true,
+      "metadataAndOtherVersionsPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.6359703314853823,
+      "removeAreaDegrees2": 0.19039868166736032
+    },
+    {
+      "entity": "state-soviet-union-transcaucasian-sfsr",
+      "kind": "compiled",
+      "input": "research/tsfsr-recovery-1525/tsfsr-compiled.json",
+      "inputSha256": "4725e1cfc49fb2be80ed4ce135a1edcdf2768cdfa815713710112cf482314cef",
+      "outputSha256": "684c2bf9f479a5dd7a9518917eb43fe30f91c031a409b5b910a06df5f94ac379",
+      "polygon": 0,
+      "ring": 0,
+      "start": 457,
+      "direction": 1,
+      "oldPoints": 248,
+      "newPoints": 411,
+      "inverseExactCoordinatesAndOrder": true,
+      "metadataAndOtherVersionsPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.6359703314853834,
+      "removeAreaDegrees2": 1.0704411771782649e-16
+    }
+  ],
+  "deltaChecks": [
+    {
+      "target": [
+        "state-soviet-union",
+        "source"
+      ],
+      "addRemoveSymmetricDifferenceDegrees2": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": [
+        "state-soviet-union",
+        "compiled"
+      ],
+      "addRemoveSymmetricDifferenceDegrees2": [
+        1.1588035291576835e-15,
+        0.1903986816673604
+      ]
+    },
+    {
+      "target": [
+        "state-soviet-union-transcaucasian-sfsr",
+        "source"
+      ],
+      "addRemoveSymmetricDifferenceDegrees2": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": [
+        "state-soviet-union-transcaucasian-sfsr",
+        "compiled"
+      ],
+      "addRemoveSymmetricDifferenceDegrees2": [
+        1.1588035291576835e-15,
+        0.1903986816673604
+      ]
+    }
+  ],
+  "sameSourceDeltaChecks": [
+    {
+      "entity": "state-soviet-union",
+      "sameSourceDeltaAppliedToOriginalCompiledVsExactSpliceSymmetricDifferenceDegrees2": 1.5570535186171415e-15,
+      "interpretation": "source removed area was already excluded from compiled; actual remove changes need not equal"
+    },
+    {
+      "entity": "state-soviet-union-transcaucasian-sfsr",
+      "sameSourceDeltaAppliedToOriginalCompiledVsExactSpliceSymmetricDifferenceDegrees2": 1.5570535186171415e-15,
+      "interpretation": "source removed area was already excluded from compiled; actual remove changes need not equal"
+    }
+  ],
+  "USSR_TSFSR_actualDeltasExactlyEqual": true,
+  "waterAssetsChanged": false,
+  "RSFSRChanged": false,
+  "provenancePathCorrection": {
+    "report": "reports/borders/reconstruction/ussr-caucasus-modern-approved-2026-10-26/README.md",
+    "sourceOnlyMetadataChange": true,
+    "allCoordinatesUnchanged": true,
+    "compiledFilesAndRefsByteUnchanged": true
+  }
+}

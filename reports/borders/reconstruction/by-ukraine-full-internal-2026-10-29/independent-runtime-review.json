@@ -1,0 +1,28 @@
+{
+  "verdict": "PASS actual staging independently matches accepted candidate in source/compiled/native/transport",
+  "owners": [
+    {
+      "owner": "byelorussian-ssr",
+      "source_exact_candidate_splice": true,
+      "only_target_geometry_and_explicit_uncertainty_metadata_changed": true,
+      "compiled_vs_independent_expected_symmetric_difference_deg2": 8.620281777577732e-16
+    },
+    {
+      "owner": "ukrainian-ssr",
+      "source_exact_candidate_splice": true,
+      "only_target_geometry_and_explicit_uncertainty_metadata_changed": true,
+      "compiled_vs_independent_expected_symmetric_difference_deg2": 5.1888289671897514e-15
+    },
+    {
+      "owner": "russian-sfsr",
+      "source_exact_candidate_splice": true,
+      "only_target_geometry_and_explicit_uncertainty_metadata_changed": true,
+      "compiled_vs_independent_expected_symmetric_difference_deg2": 5.582481806433787e-15
+    }
+  ],
+  "shared_vertex_and_midpoint_max_boundary_distance_deg": 7.0491945983325126e-15,
+  "transport_sha256": "1d4a539a4e4c7bc6eabd672fdd699df829b46af12d6bd1282f6a1a6f1171f49d",
+  "transport_payload_equal_compiled": true,
+  "native_equal_source": true,
+  "publication_not_performed": true
+}

@@ -1,0 +1,124 @@
+{
+  "scope": "Engineering endpoint reconciliation under newly approved reverse polygon-pair construction. These are disclosed edit budgets, not source accuracy tolerances or legal endpoint certification. Original files remain immutable.",
+  "as_of": "2026-10-31",
+  "common_rules": [
+    "Fix the newer treaty core endpoints; move only the old engineering candidate endpoint to its corresponding treaty endpoint. Do not displace the full old line or the treaty core to improve apparent agreement.",
+    "Use minimum endpoint-only snap first (replace first/last vertex). If it creates a short artificial kink, a local taper may affect ONLY the last/first short segment and must save all displaced vertices, maximum displacement and affected arclength. Do not invent a long smoothing reach.",
+    "Intersection count zero is not a stop condition: snap semantically matched source endpoints, then polygonize the paired old/new lines. Result is an engineering closed patch, not independently surveyed legal parcel.",
+    "For the country-polygon splice, use exactly the same snapped/shared edge on both countries; validate conservation of their union, no new overlap/gap, valid rings, and unchanged exterior. Source-pair snapping does NOT itself define how the patch attaches to a generalized current baseline.",
+    "Do not extend the new effective date backwards from map publication. Label pre-effective reverse output as conditional historic reconstruction; terrain/publication dates are not legal interval bounds."
+  ],
+  "events": [
+    {
+      "panel": "C",
+      "priority": 1,
+      "new_fixed_anchors": "Treaty59 and62; preserve60/61 and all new core geometry.",
+      "old_adjustment": "Use source-supported old correspondence at both ends. Do not mistake canonical northing clip for a legal anchor; an engineering common-range endpoint is acceptable if labelled as such.",
+      "observed_old_new_endpoint_gaps_m": [
+        1.9242805051817413,
+        14.270645103491916
+      ],
+      "engineering_expected_max_endpoint_move_m": 14.3,
+      "not_blanket_tolerance": true,
+      "recommendation": "Proceed with minimum endpoint snap in a NEW candidate; log exact orientation and snapped coordinates. Small gap supports practical join but does not certify legal coincidence.",
+      "residual_issue": "Documentary70/70ha versus map91.50/51.40ha stays unresolved; never area-fit."
+    },
+    {
+      "panel": "A",
+      "priority": 2,
+      "new_fixed_anchors": "Treaty566 and570/1, in reconstructed-pair.geojson feature role2005_treaty_line; endpoints west/southwest and east/northeast.",
+      "old_adjustment": "Snap old first vertex to new first vertex and old last to new last, preserving internal old path. Existing research polygon has connectors; rebuild rather than relabel existing polygon as legal.",
+      "old_endpoints_lonlat": [
+        [
+          61.03675014343351,
+          53.9588509501707
+        ],
+        [
+          61.07977518435303,
+          53.97072210386711
+        ]
+      ],
+      "new_fixed_endpoints_lonlat": [
+        [
+          61.03766371614554,
+          53.958049636016774
+        ],
+        [
+          61.0797620500841,
+          53.97043576587371
+        ]
+      ],
+      "observed_old_new_endpoint_gaps_m": [
+        107.45418487134158,
+        31.875799836133798
+      ],
+      "engineering_expected_max_endpoint_move_m": 107.5,
+      "not_blanket_tolerance": true,
+      "recommendation": "Proceed as disclosed engineering reconciliation. First endpoint displacement is substantial relative to map fitting residual: retain raw outline and show adjustment separately. No global alignment/area correction."
+    },
+    {
+      "panel": "B",
+      "priority": 3,
+      "new_fixed_anchors": "Treaty614 south and617 north onTogyzak; use v3 treaty119 core.",
+      "old1970s_gaps_m": [
+        35.21452930481762,
+        316.78188626369086
+      ],
+      "north1970s_problem": "Printed endpoint stops on tributary, not demonstrated same main-river point;317m is semantic missing-link issue, not simply measurement error.",
+      "north1990_reinforcement": {
+        "available": true,
+        "source": "rsfsr-boundary-research/post1991/quantification/followup-20261031/compensation1990/printed-grid-lines.json",
+        "evidence": "1990edition shows old SSR boundary crossing road and joining mainTogyzak; independent pixelQA supports topology, detailed junction generalized.",
+        "old1990_endpoints_printed_grid_m": [
+          [
+            11467920.249711944,
+            5976278.083711996
+          ],
+          [
+            11470196.95607156,
+            5978262.218521013
+          ]
+        ],
+        "new2005_endpoints_same_conditional_grid_m": [
+          [
+            11467898.036498226,
+            5976391.627191271
+          ],
+          [
+            11470108.502216922,
+            5978346.783663154
+          ]
+        ],
+        "endpoint_gaps_m": [
+          115.69593143030188,
+          122.37380301953253
+        ],
+        "north_reading_range_source_px": {
+          "x": [
+            1518,
+            1524
+          ],
+          "y": [
+            398,
+            403
+          ]
+        },
+        "datum_gate": "1990datum not printed/confirmed. Same printed-grid assumption is explicit; any projection of this candidate must retain that assumption, not silently claim WGS84 source certification."
+      },
+      "recommendation": "Preferred engineering variant: use entire1990 old line in conditional common sourcegrid, snap its south/north endpoints to614/617, then close against fixed new line. This is cleaner than pretending the1970s missing north link is a tiny snap. Preserve1970s variant separately; if using it, disclose317m inferred completion and do not call it source-traced. Do not graft1990 north silently into1970s core.",
+      "engineering_expected_max_endpoint_move_m_preferred1990": 122.4,
+      "not_blanket_tolerance": true
+    }
+  ],
+  "effective_date_evidence": {
+    "effective": "2006-01-12",
+    "signed": "2005-01-18",
+    "registry_url": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280420e3a",
+    "existing_evidence_file": "rsfsr-boundary-research/post1991/quantification/kazakhstan/prigornoe/literature-sources.json",
+    "existing_evidence_key": "treaty.what_supports explicitly records signature and entry into force",
+    "archived_primary_expected_path": "rsfsr-boundary-research/post1991/kazakhstan/sources/untc-52717.pdf",
+    "archived_primary_current_workspace_status": "not present in restored workspace at time of review; metadata path verified, primary PDF not freshly reread",
+    "corroborating_existing_geometry_metadata": "rsfsr-boundary-research/post1991/quantification/kazakhstan/railway/comparison-lines.geojson kommun-new treaty_effective",
+    "independence_note": "Geometry metadata is derived, not independent treaty evidence."
+  }
+}

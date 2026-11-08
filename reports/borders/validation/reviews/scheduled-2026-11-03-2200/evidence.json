@@ -1,0 +1,180 @@
+{
+  "id": "GEO-REVIEW-20261103-2200",
+  "reviewedAt": "2026-11-03T22:13:00Z",
+  "scope": {
+    "read": [
+      "kimjeon-il/Pando:main",
+      "kimjeon-il/Pando:work/gis",
+      "kimjeon-il/PandoLab-library-data:main",
+      "kimjeon-il/PandoLab-library-data:work/gis"
+    ],
+    "write": "kimjeon-il/PandoLab-library-data:work/gis"
+  },
+  "heads": {
+    "Pando:main": "eb707ab16deb4bbd1ca2d47355560ac6d6edca9d",
+    "Pando:work/gis": "04e2c2080b37b6c142515721087b7009b3947bc1",
+    "PandoLab-library-data:main": "4dfc9729cf6a206db72b2a3140b1cd66cbf7f356",
+    "PandoLab-library-data:work/gis": "526464c099f0136ae8be271ec8c21638847b0ff9"
+  },
+  "baseline": {
+    "workGis": "29493ff457bd40a470abafc233940caf55effae7",
+    "reviewedMainSource": "81593cc21eb644ead44dcb8115bbc73c57c474b9"
+  },
+  "originals": [
+    {
+      "id": "GEO-LIFE-022",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "commit": "77fde2368829962656c97a166d32301ccd8679bb",
+      "path": "reports/borders/history/lifetimes/country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md",
+      "blob": "009f28098cc49b3ce83808b2cfa60be4080382fb",
+      "decision": "supplemental-evidence-correction; runtime-held"
+    },
+    {
+      "id": "GEO-TIME-019",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "commit": "f5c1022138dfd1b99045b01bcae3c35c48c5f423",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-africa-drc-m23-goma-bukavu-2026-11-03.md",
+      "blob": "681f66a2ed136e733ed64629b1359829c3dea917",
+      "decision": "reviewed; outside-sovereign-boundary-application"
+    },
+    {
+      "id": "GEO-LIFE-023",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "commit": "cea99260afa36d43872c77553d5cfe20a72e1071",
+      "path": "reports/borders/history/lifetimes/country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md",
+      "blob": "a0a1cce82835f7018dac02fc05941c9ebddc2909",
+      "decision": "supplemental-evidence-correction; runtime-held"
+    },
+    {
+      "id": "GEO-TIME-020",
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "commit": "f36fb6cf1e45a93f0c2d987c862fe3706116c86e",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-north-america-haiti-mirebalais-saut-deau-2026-11-04.md",
+      "blob": "0a370ff84280ec8a3c319ceaa0beaea8d368ba17",
+      "decision": "reviewed; outside-sovereign-boundary-application"
+    }
+  ],
+  "checks": {
+    "pandoMainAndWorkTreesUntruncated": true,
+    "pandoReportFiles": 0,
+    "mainBordersHistoryTreeUntruncated": true,
+    "historyAddedReports": 4,
+    "historyModifiedProgressFiles": 2,
+    "historyDeletedFiles": 0,
+    "workGisReportChangesSinceBaseline": 0,
+    "geometryValidation": "not-run; no geometry changed",
+    "mainPublication": "not-run; explicitly prohibited",
+    "localExecution": "No usable execution environment is available",
+    "remoteWriteMethod": "GitHub tree/commit/ref; expected-head lease; force=false"
+  },
+  "currentTargets": [
+    {
+      "id": "state:COD",
+      "workObjectHash": "127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0",
+      "mainObjectHash": "74b81deb6780c5e3ecfcf6c6e5b059a01fe5e358ced685b7357722361dc1a985",
+      "workLifetime": {
+        "validFrom": "1960-06-30",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:HTI",
+      "workObjectHash": "8a09bd712588feec63b4a543852657c707e8114011a15c425edeb0dcae44232e",
+      "mainObjectHash": "e678a2eeaea3615f7d45eb1b69a13ee8601afe1ad110283ddb4a39c0b1195d1a",
+      "workLifetime": {
+        "validFrom": "1804-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:RWA",
+      "workObjectHash": "002094a7371434f794e6717670661f13a3995f52abdae535004c3525adb89354",
+      "mainObjectHash": "c3cbbcba79cb294cd82a2ba1af293275b495e910a1651a628c19d5ea0bb20317",
+      "workLifetime": {
+        "validFrom": "1962-07-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:DOM",
+      "workObjectHash": "b71cfd37802d0b2120b75be2606aa64d0e0522e09ecf17d31dee4d02eb195d9c",
+      "mainObjectHash": "306b542f3982152340ae4c5cacd558eb708ce44938cfdeeee96051a1c7b1ab83",
+      "workLifetime": {
+        "validFrom": "1863-09-14",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:ITA",
+      "workObjectHash": "ac91c01d361ab299a0af99a2d7720cec6adb66feef919532fd74d53639e2baeb",
+      "mainObjectHash": "9bd0d652f87a3085d5ba76bf44c3360725ea2e7b7b8e2f83249ebe52c35aa6c3",
+      "workLifetime": {
+        "validFrom": "1861-03-17",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:DEU",
+      "workObjectHash": "d5c8b036496ad2eb439b0e4964de5007531f23689e8f4e5a010d2cd75213102f",
+      "mainObjectHash": "9e6c86f4b99ed367824520a9e01980301ac7af7b25b214604ec2bda0806b8253",
+      "workLifetime": {
+        "validFrom": "1867-07-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:POL",
+      "workObjectHash": "54222aeb51d0e6e46b51802e67e6b63975e3b6ff17e57efa5fd16bc8000ef7a5",
+      "mainObjectHash": "b0a907538203d3f46b4060429014a846694cfd40d71b273d6a1607ac01dd5c48",
+      "workLifetime": {
+        "validFrom": "1917-10-27",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:UZB",
+      "workObjectHash": "1fd6cc8f523570bfd0d7fc8443650d239522b0179d1be15cc4b6bfcb67dd8b1a",
+      "mainObjectHash": "4c52f4d266a54df6e22bb58bbf6e3aa18f0bbcfda98372b260f4951857b919e8",
+      "workLifetime": {
+        "validFrom": "1991-08-31",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:TJK",
+      "workObjectHash": "bfb4c8ccf7c3bea3b2f10c58c051e74fba964a4a28ab6447c230e3e6a4b85880",
+      "mainObjectHash": "0fe37eafad9f07d5e53cbddd0302aa6704760a9809d6769dd884e702ff34d3d8",
+      "workLifetime": {
+        "validFrom": "1991-09-09",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:TKM",
+      "workObjectHash": "e2b9ce6efb39b288dcf90506048d56fe5a1c767acf4150f4ef4e0c61a13d5348",
+      "mainObjectHash": "cf415cd476b26cbce79e29259e6ba527cf95aab54241ee5c70242160f4cf5826",
+      "workLifetime": {
+        "validFrom": "1991-10-27",
+        "validTo": null
+      }
+    }
+  ],
+  "changes": {
+    "runtime": 0,
+    "geometry": 0,
+    "countryLifetime": 0,
+    "appPin": 0,
+    "sourceReportsOnMain": 0
+  },
+  "holds": [
+    "Hanover constitutional application 1866-10-01 (DHM) vs 1867-10-01 (law transcription); original scan not verified",
+    "Historical polity identity and lifecycle not identical to modern country objects",
+    "Bukhara treaty signatures are not established entry-into-force or country dissolution dates",
+    "No dated independently verified control geometry; administrative polygons not substitute",
+    "GEO-LIFE-016 and GEO-TIME-010..013 indexed canonical paths absent; do not invent restoration"
+  ]
+}

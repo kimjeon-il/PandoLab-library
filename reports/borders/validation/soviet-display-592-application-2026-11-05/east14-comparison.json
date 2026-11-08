@@ -1,0 +1,617 @@
+{
+  "status": "read-only derived comparison; no candidate/geometry/mesh/Viewer regeneration",
+  "reference": "Existing current model/compiled CHN context, opaque native version state:CHN:paektu-lsib-11.4; not independently certified pure Natural Earth. Fourteen exact current-CHN comparator arcs total195 point entries were established earlier.",
+  "referenceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+  "referenceDataCommit": "a548d5fa6612a97f998b7bdb326a27eb8b8d9717; same registered target under remote256e833f50616f973b7eef5295d049261438e57c",
+  "method": "Each historical and matched reference line uses its existing local AEQD metric coordinates. Length=sum segment lengths; point density includes endpoints. Turning=absolute normalized heading changes sampled at1/5km, eight phases0..7/8, arithmetic phase mean in degrees/100km. Zero-length edges omitted for interpolation only; stored point counts retained. Cumulative deviation=registered route vertex to corresponding finite final chord in same metric plane, not a surveyed/geodesic accuracy bound. No geometry recalculation here; only merge existing values and compute ratios/rounding.",
+  "measurementCode": [
+    "build-native/territorial-recipe/historical-detail-semantic-selected-measure.py",
+    "build-native/territorial-recipe/historical-detail-east-followup-metrics.py"
+  ],
+  "generationCode": "build-native/territorial-recipe/historical-detail-east-comparison14.mjs",
+  "spaceVersion": "Existing Space study and fourteen followups predate764, and do not include592 comparison.",
+  "rows": [
+    {
+      "feature": 2,
+      "segmentName": "Pamir-22-lower",
+      "shortName": "Pamir-22 하부",
+      "registeredPoints": 74,
+      "baseline764Points": 67,
+      "final592Points": 43,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 43,
+        "km": 31.621918406851286,
+        "points_per_km": 1.3598162972517034,
+        "median_spacing_m": 299.8258923306781,
+        "turn_deg_per100km": {
+          "1000": 2106.9155107212327,
+          "5000": 647.7218735948779
+        }
+      },
+      "referenceMetrics": {
+        "points": 7,
+        "km": 23.327417125542887,
+        "points_per_km": 0.30007608482017456,
+        "median_spacing_m": 3475.7978630443945,
+        "turn_deg_per100km": {
+          "1000": 700.4705462106356,
+          "5000": 581.5747794267073
+        }
+      },
+      "ratios": {
+        "density": 4.5315717114431004,
+        "turn1km": 3.0078573926043006,
+        "turn5km": 1.113737900108694,
+        "length": 1.3555687814329922
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 361.0864325856831,
+      "selectedCap_m": 375,
+      "mainReason": "수문·접촉 보호",
+      "reasonDetail": "수문·고개/빙설 접촉 범위의 현존 정점을 유지한다. 5km 굴곡은 참조에 가깝지만 1km 잔굴곡과 큰 역사 경로 차이는 남는다.",
+      "metricCrs": "+proj=aeqd +lat_0=37.44853738138731 +lon_0=75.0785966087213 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Sparse/short reference: few sampled headings; five-kilometre phase results especially unstable."
+    },
+    {
+      "feature": 4,
+      "segmentName": "Pamir-21-lower",
+      "shortName": "Pamir-21 하부",
+      "registeredPoints": 66,
+      "baseline764Points": 65,
+      "final592Points": 52,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 52,
+        "km": 38.04157267651652,
+        "points_per_km": 1.3669256116769368,
+        "median_spacing_m": 555.6600815907111,
+        "turn_deg_per100km": {
+          "1000": 2668.2222908635968,
+          "5000": 473.5148157637815
+        }
+      },
+      "referenceMetrics": {
+        "points": 16,
+        "km": 37.4660434499619,
+        "points_per_km": 0.427053366907262,
+        "median_spacing_m": 1862.016420965247,
+        "turn_deg_per100km": {
+          "1000": 471.23895530467655,
+          "5000": 296.600433379447
+        }
+      },
+      "ratios": {
+        "density": 3.2008308974971165,
+        "turn1km": 5.662142870040263,
+        "turn5km": 1.5964737824843442,
+        "length": 1.0153613558721053
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 117.75987716889065,
+      "selectedCap_m": 125,
+      "mainReason": "큰굽이·접촉 보호",
+      "reasonDetail": "원문 직접 큰굽이11/25/26 및 여러 수문/접촉 구간을 보존한다. 5km에서도 차이가 남아 전부 미세 oversampling이라고 할 수 없다.",
+      "metricCrs": "+proj=aeqd +lat_0=37.644769145458966 +lon_0=74.94969449527025 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 8,
+      "segmentName": "Pamir-21-upper",
+      "shortName": "Pamir-21 상부",
+      "registeredPoints": 44,
+      "baseline764Points": 40,
+      "final592Points": 33,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 33,
+        "km": 31.734960025907796,
+        "points_per_km": 1.039862661653251,
+        "median_spacing_m": 805.1333553119848,
+        "turn_deg_per100km": {
+          "1000": 2401.757931770737,
+          "5000": 534.4867933520093
+        }
+      },
+      "referenceMetrics": {
+        "points": 16,
+        "km": 28.542379356840698,
+        "points_per_km": 0.5605699440808991,
+        "median_spacing_m": 1006.9582050751804,
+        "turn_deg_per100km": {
+          "1000": 1039.4938327813675,
+          "5000": 504.27102497897306
+        }
+      },
+      "ratios": {
+        "density": 1.8550096604950734,
+        "turn1km": 2.3105071487960323,
+        "turn5km": 1.059919699677958,
+        "length": 1.111854047945794
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 256.4338129091561,
+      "selectedCap_m": 250,
+      "mainReason": "headwater·접촉 보호",
+      "reasonDetail": "직접 큰굽이34/35,headwater 우려24/37과 고개/빙설 접촉 구간을 보존한다. 5km는 가깝지만 1km와 밀도는 높다.",
+      "metricCrs": "+proj=aeqd +lat_0=37.89472727041869 +lon_0=74.95340695239607 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 12,
+      "segmentName": "Pamir-source-10",
+      "shortName": "Pamir-source-10",
+      "registeredPoints": 212,
+      "baseline764Points": 187,
+      "final592Points": 116,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 116,
+        "km": 116.53800674062408,
+        "points_per_km": 0.9953834224930453,
+        "median_spacing_m": 790.6210110887105,
+        "turn_deg_per100km": {
+          "1000": 2555.5180284339376,
+          "5000": 570.1285242002717
+        }
+      },
+      "referenceMetrics": {
+        "points": 30,
+        "km": 93.9788426075136,
+        "points_per_km": 0.31922078595168296,
+        "median_spacing_m": 1992.5155578071867,
+        "turn_deg_per100km": {
+          "1000": 427.4806975559722,
+          "5000": 294.91760366730864
+        }
+      },
+      "ratios": {
+        "density": 3.1181660665534037,
+        "turn1km": 5.978089871763931,
+        "turn5km": 1.9331790205491555,
+        "length": 1.2400451368328183
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 249.67900018743447,
+      "selectedCap_m": 250,
+      "mainReason": "빙설·접촉창 보호",
+      "reasonDetail": "복구hook/cusp와6개 원도 거시 접촉 검토창을 보존한다. 창밖을 육상 안전으로 인증하지 않았고 거시 노선과 표현 세부가 함께 다르다.",
+      "metricCrs": "+proj=aeqd +lat_0=38.43469307947366 +lon_0=74.5404085152193 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 18,
+      "segmentName": "Pamir-source-7",
+      "shortName": "Pamir-source-7",
+      "registeredPoints": 61,
+      "baseline764Points": 38,
+      "final592Points": 38,
+      "unchangedFrom764": true,
+      "finalMetrics": {
+        "points": 38,
+        "km": 26.42439145029808,
+        "points_per_km": 1.4380652841702941,
+        "median_spacing_m": 568.7050816232035,
+        "turn_deg_per100km": {
+          "1000": 2923.674717866245,
+          "5000": 985.2859211149265
+        }
+      },
+      "referenceMetrics": {
+        "points": 12,
+        "km": 18.103065468447795,
+        "points_per_km": 0.6628711596339883,
+        "median_spacing_m": 1493.2449332260678,
+        "turn_deg_per100km": {
+          "1000": 1603.405885691162,
+          "5000": 948.9085799928985
+        }
+      },
+      "ratios": {
+        "density": 2.169449165603068,
+        "turn1km": 1.8234152337578389,
+        "turn5km": 1.0383359808194592,
+        "length": 1.459663916940128
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 245.78477581632131,
+      "selectedCap_m": 250,
+      "mainReason": "원mask·접점 보호",
+      "reasonDetail": "P15-near 인쇄접점/서도곽과 기존 source-mask anchors·계산macro를 유지한다. 5km는 비슷하지만 접촉 주변 세부는 더 조밀하다.",
+      "metricCrs": "+proj=aeqd +lat_0=38.58089736570149 +lon_0=74.06067999210954 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/boundary-semantic-review-2026-11-05/selected-east-ne-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 20,
+      "segmentName": "Pamir-source-6",
+      "shortName": "Pamir-source-6",
+      "registeredPoints": 64,
+      "baseline764Points": 38,
+      "final592Points": 38,
+      "unchangedFrom764": true,
+      "finalMetrics": {
+        "points": 38,
+        "km": 27.022113748871575,
+        "points_per_km": 1.406255645030243,
+        "median_spacing_m": 187.47341922673445,
+        "turn_deg_per100km": {
+          "1000": 1780.0342749463314,
+          "5000": 536.5684326352931
+        }
+      },
+      "referenceMetrics": {
+        "points": 10,
+        "km": 29.508075762121635,
+        "points_per_km": 0.3388902780586123,
+        "median_spacing_m": 2449.4163876101784,
+        "turn_deg_per100km": {
+          "1000": 409.3312788487103,
+          "5000": 327.11360180629697
+        }
+      },
+      "ratios": {
+        "density": 4.149589811446364,
+        "turn1km": 4.348639761791172,
+        "turn5km": 1.6403122024654497,
+        "length": 0.9157531642086539
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 364.44713698987186,
+      "selectedCap_m": 500,
+      "mainReason": "Uz-Bel·원mask 보호",
+      "reasonDetail": "Uz-Bel4651.2 인쇄접점/동도곽과 기존source-mask anchors를 유지한다. 길이는 비슷하지만 큰 굴곡도 더 많아 모두 잔굴곡 차이로 환원할 수 없다.",
+      "metricCrs": "+proj=aeqd +lat_0=38.58767550982904 +lon_0=73.89952435702338 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/boundary-semantic-review-2026-11-05/selected-east-ne-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 23,
+      "segmentName": "Pamir-source-4",
+      "shortName": "Pamir-source-4",
+      "registeredPoints": 89,
+      "baseline764Points": 58,
+      "final592Points": 58,
+      "unchangedFrom764": true,
+      "finalMetrics": {
+        "points": 58,
+        "km": 57.41321643202769,
+        "points_per_km": 1.0102203569916173,
+        "median_spacing_m": 388.26944839872897,
+        "turn_deg_per100km": {
+          "1000": 2390.7907278104294,
+          "5000": 653.3683114435077
+        }
+      },
+      "referenceMetrics": {
+        "points": 20,
+        "km": 48.13403678885277,
+        "points_per_km": 0.41550639286152175,
+        "median_spacing_m": 2017.812077713163,
+        "turn_deg_per100km": {
+          "1000": 711.0660730251502,
+          "5000": 616.517853735241
+        }
+      },
+      "ratios": {
+        "density": 2.431299191414124,
+        "turn1km": 3.3622624092288365,
+        "turn5km": 1.059771923043273,
+        "length": 1.1927779231124838
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 440.0513505386756,
+      "selectedCap_m": 500,
+      "mainReason": "Saar·고개범위 보호",
+      "reasonDetail": "Saar5227 및4개 고개/문자 불확실 범위와 기존 source anchors를 유지한다. 5km는 비슷하고 1km 상세도는 높다.",
+      "metricCrs": "+proj=aeqd +lat_0=38.833323583404436 +lon_0=73.7768585279949 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/boundary-semantic-review-2026-11-05/selected-east-ne-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 25,
+      "segmentName": "Pamir-source-3",
+      "shortName": "Pamir-source-3",
+      "registeredPoints": 129,
+      "baseline764Points": 33,
+      "final592Points": 33,
+      "unchangedFrom764": true,
+      "finalMetrics": {
+        "points": 33,
+        "km": 47.01781921450867,
+        "points_per_km": 0.7018615612401037,
+        "median_spacing_m": 1485.6267364642035,
+        "turn_deg_per100km": {
+          "1000": 2180.96050722821,
+          "5000": 614.301004317937
+        }
+      },
+      "referenceMetrics": {
+        "points": 11,
+        "km": 33.906840187378116,
+        "points_per_km": 0.3244183161630841,
+        "median_spacing_m": 3539.1336044140444,
+        "turn_deg_per100km": {
+          "1000": 400.34896444464994,
+          "5000": 298.3918663901852
+        }
+      },
+      "ratios": {
+        "density": 2.1634461627847177,
+        "turn1km": 5.447648678830885,
+        "turn5km": 2.0587055932505227,
+        "length": 1.3866765217482915
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 493.26170589246175,
+      "selectedCap_m": 500,
+      "mainReason": "Karart·17접촉점",
+      "reasonDetail": "Karart4791.3 접점,별도 기술끝점,17개 가능한 수문/접촉점과계산macro를 유지한다. 역사경로가 참조보다 길고 5km도 달라 과밀만의 지표가 아니다.",
+      "metricCrs": "+proj=aeqd +lat_0=39.12326835398717 +lon_0=73.70477196640908 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/boundary-semantic-review-2026-11-05/selected-east-ne-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 27,
+      "segmentName": "Pamir-source-2",
+      "shortName": "Pamir-source-2",
+      "registeredPoints": 21,
+      "baseline764Points": 19,
+      "final592Points": 14,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 14,
+        "km": 13.921714125868276,
+        "points_per_km": 1.005623292751448,
+        "median_spacing_m": 1207.4865075540517,
+        "turn_deg_per100km": {
+          "1000": 2303.056343810258,
+          "5000": 427.2433811017147
+        }
+      },
+      "referenceMetrics": {
+        "points": 3,
+        "km": 11.570244097794042,
+        "points_per_km": 0.25928580025135106,
+        "median_spacing_m": 5785.122048897021,
+        "turn_deg_per100km": {
+          "1000": 64.98016503212233,
+          "5000": 59.62070593033657
+        }
+      },
+      "ratios": {
+        "density": 3.878435655853884,
+        "turn1km": 35.44245144147855,
+        "turn5km": 7.166023522112007,
+        "length": 1.2032342626654315
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 259.33241770396774,
+      "selectedCap_m": 312.793797,
+      "mainReason": "직접 큰굽이·짧은참조",
+      "reasonDetail": "직접 지정한6개 큰굽이와possible-water17 유지. 현대참조는3점뿐이며 훨씬 직선적이어서 굴곡비35배를 미세 과밀35배로 해석하면 안 된다.",
+      "metricCrs": "+proj=aeqd +lat_0=39.291637985960165 +lon_0=73.6021168212844 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Sparse/short reference: few sampled headings; five-kilometre phase results especially unstable."
+    },
+    {
+      "feature": 35,
+      "segmentName": "W03-light-2",
+      "shortName": "W03/K43-30",
+      "registeredPoints": 60,
+      "baseline764Points": 56,
+      "final592Points": 37,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 37,
+        "km": 57.087185178571445,
+        "points_per_km": 0.6481314481395821,
+        "median_spacing_m": 1340.2018796682669,
+        "turn_deg_per100km": {
+          "1000": 2759.7363403492373,
+          "5000": 487.67931790851844
+        }
+      },
+      "referenceMetrics": {
+        "points": 11,
+        "km": 48.87559607844513,
+        "points_per_km": 0.22506119377746403,
+        "median_spacing_m": 2980.2000824912175,
+        "turn_deg_per100km": {
+          "1000": 264.2995774914265,
+          "5000": 229.34806930321378
+        }
+      },
+      "ratios": {
+        "density": 2.879800987727993,
+        "turn1km": 10.441697888975094,
+        "turn5km": 2.1263720221850795,
+        "length": 1.168010004153131
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 263.78090564472933,
+      "selectedCap_m": 250,
+      "mainReason": "능선·빙설/문자·노선차",
+      "reasonDetail": "넓은 문자/빙설 범위의 끝과 계산macro를 유지한다. 역사능선과 현대정치선이 달라 높은 1km 굴곡비만으로 삭제할 수 없다.",
+      "metricCrs": "+proj=aeqd +lat_0=41.039038748089865 +lon_0=77.73316876961843 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 37,
+      "segmentName": "W03-light-3",
+      "shortName": "W03/K44-25",
+      "registeredPoints": 83,
+      "baseline764Points": 56,
+      "final592Points": 43,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 43,
+        "km": 63.713615516585975,
+        "points_per_km": 0.6748949914607532,
+        "median_spacing_m": 1400.5866999533275,
+        "turn_deg_per100km": {
+          "1000": 2820.999233656896,
+          "5000": 573.9877148565524
+        }
+      },
+      "referenceMetrics": {
+        "points": 15,
+        "km": 46.14463301955644,
+        "points_per_km": 0.32506488877358475,
+        "median_spacing_m": 2102.1715992834415,
+        "turn_deg_per100km": {
+          "1000": 401.63037716495296,
+          "5000": 357.06209902146736
+        }
+      },
+      "ratios": {
+        "density": 2.076185447179542,
+        "turn1km": 7.023869194282304,
+        "turn5km": 1.6075291004830032,
+        "length": 1.3807372894174643
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 339.70844001829136,
+      "selectedCap_m": 375,
+      "mainReason": "Chon-Uzengi 횡단",
+      "reasonDetail": "실제 하천 횡단 접근39/42와 불확실 범위 처리.40/41은 과거 생략으로 분리한다. 횡단·큰경로·표현 차이가 섞인다.",
+      "metricCrs": "+proj=aeqd +lat_0=41.18431380816666 +lon_0=78.20841206419779 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 39,
+      "segmentName": "W03-light-4",
+      "shortName": "W03/K44-085",
+      "registeredPoints": 20,
+      "baseline764Points": 18,
+      "final592Points": 8,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 8,
+        "km": 7.3181522440599815,
+        "points_per_km": 1.0931721195734156,
+        "median_spacing_m": 1120.7170730051246,
+        "turn_deg_per100km": {
+          "1000": 1992.0472258622406,
+          "5000": 262.36683881673656
+        }
+      },
+      "referenceMetrics": {
+        "points": 5,
+        "km": 10.549483773023232,
+        "points_per_km": 0.47395684069260563,
+        "median_spacing_m": 2115.1429376369747,
+        "turn_deg_per100km": {
+          "1000": 708.8577879528248,
+          "5000": 648.4521096217553
+        }
+      },
+      "ratios": {
+        "density": 2.306480307312232,
+        "turn1km": 2.8102212597751883,
+        "turn5km": 0.40460480415396627,
+        "length": 0.6936976634604343
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 246.07054427994845,
+      "selectedCap_m": 250,
+      "mainReason": "직접3굽이·짧은참조",
+      "reasonDetail": "직접 큰굽이2/10/16와P7-near 인쇄접촉/도곽을 유지한다. 참조5점·짧은구간이라 5km 통계가 특히 불안정하며 단순 밀도 동등화 대상이 아니다.",
+      "metricCrs": "+proj=aeqd +lat_0=41.361785277212434 +lon_0=78.39235728598419 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Sparse/short reference: few sampled headings; five-kilometre phase results especially unstable."
+    },
+    {
+      "feature": 44,
+      "segmentName": "KAZ-sary-light",
+      "shortName": "KAZ/Sary",
+      "registeredPoints": 53,
+      "baseline764Points": 35,
+      "final592Points": 35,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 35,
+        "km": 51.629550995004266,
+        "points_per_km": 0.6779063409516507,
+        "median_spacing_m": 1307.3631022582179,
+        "turn_deg_per100km": {
+          "1000": 2296.615825983472,
+          "5000": 594.4746719458208
+        }
+      },
+      "referenceMetrics": {
+        "points": 14,
+        "km": 54.31159389853526,
+        "points_per_km": 0.25777184934315783,
+        "median_spacing_m": 3486.7717107892763,
+        "turn_deg_per100km": {
+          "1000": 514.2105765734727,
+          "5000": 407.38582321128945
+        }
+      },
+      "ratios": {
+        "density": 2.629869563643431,
+        "turn1km": 4.466294414415494,
+        "turn5km": 1.4592424136406392,
+        "length": 0.9506174886242231
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 300.2775921626055,
+      "selectedCap_m": 0,
+      "mainReason": "추가판정 보류",
+      "reasonDetail": "기존35점 유지. 두 양성 능선 범위 밖의 수문·문자 접촉을 point-specific하게 확인하지 못했다.300m 편차는 이전 보수화의 누적값이며 이번 변경0이다.",
+      "metricCrs": "+proj=aeqd +lat_0=45.25110562538341 +lon_0=81.90994007978293 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    },
+    {
+      "feature": 48,
+      "segmentName": "KAZ-chagan-light",
+      "shortName": "KAZ/Chagan",
+      "registeredPoints": 83,
+      "baseline764Points": 54,
+      "final592Points": 44,
+      "unchangedFrom764": false,
+      "finalMetrics": {
+        "points": 44,
+        "km": 81.48858091167479,
+        "points_per_km": 0.5399529542389684,
+        "median_spacing_m": 1333.9559417638022,
+        "turn_deg_per100km": {
+          "1000": 1791.1590678292987,
+          "5000": 669.4243745046001
+        }
+      },
+      "referenceMetrics": {
+        "points": 25,
+        "km": 70.24483000126004,
+        "points_per_km": 0.35589807818670155,
+        "median_spacing_m": 2226.473365244563,
+        "turn_deg_per100km": {
+          "1000": 642.8034655982631,
+          "5000": 496.8297077369376
+        }
+      },
+      "ratios": {
+        "density": 1.5171561391677788,
+        "turn1km": 2.786480104245005,
+        "turn5km": 1.3473920018869892,
+        "length": 1.1600651736250633
+      },
+      "registeredCumulativeProjectedVertexChordMax_m": 479.8772086140067,
+      "selectedCap_m": 500,
+      "mainReason": "U수문·08불확실 보호",
+      "reasonDetail": "07남향U 수문구간과08현존 불확실47–81을 유지한다. 실제08crop에청색수계/고개접근이보여정확한교차대응없이해제하지 않았다. 기술seam/넓은문자범위는별도기록한다.",
+      "metricCrs": "+proj=aeqd +lat_0=46.938519758116115 +lon_0=84.94828002114636 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "sourceMetrics": "build-native/territorial-recipe/east-followup-final-2026-11-05/final-metrics.json",
+      "referenceLimit": "Different geographic extent/route length; normalized rates diagnose shape, not positional or semantic equality."
+    }
+  ]
+}

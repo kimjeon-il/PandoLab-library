@@ -1,0 +1,80 @@
+{
+  "scope": "Focused checks only; no full-suite or benchmark",
+  "checks": [
+    {
+      "group": "synthetic interval/compiler/catalog/form/publication",
+      "passed": 20
+    },
+    {
+      "group": "WASM origin/service/packed loader",
+      "passed": 23
+    },
+    {
+      "group": "selected interval/clipping regressions rerun",
+      "passed": 3,
+      "overlapsEarlierGroup": true
+    },
+    {
+      "group": "LSIB display version and closed Korean selection",
+      "passed": 2
+    },
+    {
+      "group": "LSIB closed-window Python cases",
+      "passed": 2
+    },
+    {
+      "group": "App staging/publication/inspection cases",
+      "passed": 8
+    },
+    {
+      "group": "precision-free editor name/date save browser case",
+      "passed": 1
+    },
+    {
+      "group": "existing303 source geometries and protected five input byte hashes",
+      "status": "passed",
+      "evidence": "coordinate-preservation.json"
+    },
+    {
+      "group": "15 source day-before/day-of transitions and researched RUS/KAZ/lease shape intervals",
+      "passed": 2
+    },
+    {
+      "group": "generated15 transitions, exact-day parent relations, month-end choices and five1922 bindings",
+      "passed": 1
+    },
+    {
+      "group": "actual pre-change modern254 identities/geometryRefs/versions/parents and Crimea points",
+      "passed": 1,
+      "baseline": "tests/fixtures/builtin-modern-interval-baseline.json"
+    },
+    {
+      "group": "final actual Web month change and App web-shell phase",
+      "passed": 2,
+      "evidence": "browser/*.json and *.png",
+      "earlierPartialRun": "Web8second timeout; App passed. Final two-case run passed with standard45second UI wait."
+    },
+    {
+      "group": "Web/App import-map targets and202 active worker file hashes",
+      "status": "passed",
+      "method": "scoped generated artifact reads; both HTML maps had zero missing targets"
+    }
+  ],
+  "notYetRun": [],
+  "earlierFailures": [
+    "initial RED: legacy schema1 and old republic end date",
+    "WASM prerequisite stale before rebuild; no test bodies ran",
+    "temporary LSIB test fixture lacked mandatory sourceInfo; corrected",
+    "canonical storage lock contention/EBUSY interrupted partial application; resumed through scoped writer lease",
+    "generated interval case selected too early by broad name pattern while schema1 index was still being generated; passed after generation",
+    "old frozen modern baseline predates prior border replacements; before-publication independent comparison proves all254 current entries unchanged; replaced current test input without changing the frozen historical evidence",
+    "Playwright grep anchored to full title selected no tests; no checks ran. Final two-case run passed and evidence was archived before cleanup."
+  ],
+  "intentionallyNotRun": [
+    "full suite",
+    "benchmarks",
+    "old full migration audits",
+    "native executable/package build",
+    "main integration and deployment"
+  ]
+}

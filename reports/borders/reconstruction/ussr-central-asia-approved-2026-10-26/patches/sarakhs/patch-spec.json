@@ -1,0 +1,86 @@
+{
+  "status": "local_patch_prepared_not_remote_applied",
+  "source_file": "research/resume-1342/originals/research/east-resume-0827/runtime-iran-reference/current-ussr.json.gz",
+  "source_gzip_sha256": "9b8edfeac8c9c2bf36fbec4287ff1b95fd69a24df18d1772510a80078f957c6f",
+  "source_decompressed_sha256": "86ade15ac529dd3f1864dde18823952a77653897208bb10d61ec16f49dba2498",
+  "geometry_canonical_sha256": "c28fee01d8bd6ff0658aabbb892278da72897c072f4d4d63458324b2fd1bc06e",
+  "target_entity": "state:soviet-union",
+  "target_version": "state:soviet-union:1922-12-30-reviewed-v2",
+  "validFrom": "1922-12-30",
+  "validTo": "1925-05-12",
+  "polygon_index": 0,
+  "ring_index": 0,
+  "start_segment_index": 23242,
+  "end_segment_index": 23247,
+  "start_segment_vertices": [
+    [
+      61.187614,
+      36.565108
+    ],
+    [
+      61.18596,
+      36.577665
+    ]
+  ],
+  "end_segment_vertices": [
+    [
+      61.125188,
+      36.640762
+    ],
+    [
+      61.075476,
+      36.64779
+    ]
+  ],
+  "old_interior_vertices": [
+    [
+      61.18596,
+      36.577665
+    ],
+    [
+      61.182239,
+      36.586915
+    ],
+    [
+      61.173971,
+      36.602315
+    ],
+    [
+      61.165806,
+      36.636318
+    ],
+    [
+      61.125188,
+      36.640762
+    ]
+  ],
+  "cut_start": [
+    61.18627565455434,
+    36.57526858268508
+  ],
+  "cut_end": [
+    61.10544509002121,
+    36.6435531403953
+  ],
+  "selected_file": "research/resume-1342/selected-iran-1409/sarakhs-selected-26.geojson",
+  "selected_sha256": "ee8b68bd983fa9bc69130a00606b28cd88830567ba7a8e1eba9918ac25ca9ee6",
+  "replacement_orientation": "reverse selected north-to-south 26 points to match ring south-to-north",
+  "replacement_point_count": 26,
+  "removed_interior_vertices": 5,
+  "new_ring_point_count": 27578,
+  "old_ring_point_count": 27557,
+  "replacement_instruction": "ring[:start_segment_index+1] + replacement26 + ring[end_segment_index+1:]",
+  "all_other_rings_versions_metadata": "unchanged; worker must apply locally to latest guarded source, not replace country file",
+  "candidate_simple": true,
+  "local_delta_cells": 1,
+  "main_polygon_valid_after_local_patch": true,
+  "add_cells": 1,
+  "remove_cells": 0,
+  "roi_bounds": [
+    61.10544282203024,
+    36.57526858268508,
+    61.18627565455434,
+    36.6435531403953
+  ],
+  "lake_river_geometry_changed": false
+}

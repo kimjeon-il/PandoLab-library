@@ -1,0 +1,63 @@
+{
+  "sourceIds": [
+    "state:soviet-union",
+    "state:soviet-union-russian-sfsr",
+    "state:MNG"
+  ],
+  "from": "1922-12-30",
+  "to": "1925-05-12",
+  "compiled": [
+    {
+      "entityId": "state:MNG",
+      "projectEntityId": "MNG",
+      "sourceVersionId": "state:MNG:natural-earth-5.1.1:china-frontier-1922-reviewed",
+      "oldCompiledHash": "c998c64b10d2bf3d487e8b35dbba3c96260031bcb9c731afa162059f4df94fff",
+      "compiledHash": "688fe9b7761d030af001a10152ff29980d487ea42dc70cf1640b94a140f909f7",
+      "bindings": [
+        {
+          "from": "1922-12-30",
+          "to": "1925-05-12",
+          "ref": "historical-world:b429503a12ea5c2e18b742c03e80e0f933ae7a1d6b94875e5fc3b768cf65e739"
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "projectEntityId": "state:soviet-union",
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "oldCompiledHash": "0c7386ca7d8ace3ca6bef1a64976e71e8020d0c08e3ff1c9d64e90c85eba9c34",
+      "compiledHash": "794cd2492dfe241b51a5cab0c56e1e7c3d8f4e24a298651fdfdc01a5de46a697",
+      "bindings": [
+        {
+          "from": "1922-12-30",
+          "to": "1925-05-12",
+          "ref": "historical-world:7ea7169cb7624c743eedf42d835e455aa8d8cc7e65102db60b433cc025dbd304"
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "projectEntityId": "state:soviet-union-russian-sfsr",
+      "sourceVersionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "oldCompiledHash": "b1ab2ca6fd3d8df87695392c540d3c99e1fd087087c2a3d971cf8cd315a92b44",
+      "compiledHash": "ab10f7fe7d2d66167fec387219e1e79461e78cd9df40218d463d8dfe78949ded",
+      "bindings": [
+        {
+          "from": "1922-12-30",
+          "to": "1925-05-12",
+          "ref": "historical-world:b91bf5b13eb9758db4ce80c1527a3092ac0d01a581a086adc23934d581f2aab9"
+        }
+      ]
+    }
+  ],
+  "transport": {
+    "schemaVersion": 1,
+    "url": "transport/countries-sha256-905eab5542e4e34944abc59fae6cca223ec5dee53ad183b753dc859d85ca77f7.bin",
+    "encoding": "identity",
+    "sha256": "905eab5542e4e34944abc59fae6cca223ec5dee53ad183b753dc859d85ca77f7",
+    "compressedBytes": 12563790,
+    "decodedBytes": 12563790
+  },
+  "sourceIndexHash": "f3c4d8639d64e2957f0a77f39e0b0d8ef9557c24df3618c02c14ce4503776802",
+  "nativeIndexHash": "f3c4d8639d64e2957f0a77f39e0b0d8ef9557c24df3618c02c14ce4503776802"
+}

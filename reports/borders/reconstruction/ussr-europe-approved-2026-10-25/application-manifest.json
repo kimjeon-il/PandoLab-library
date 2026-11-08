@@ -1,0 +1,183 @@
+{
+  "baseline": {
+    "app": "c7549c04d7fa6a22242ebb166474ac19374efd3c",
+    "data": "e6b41735c1f6ebc174a14ecba887093346c8481b"
+  },
+  "scope": "1922 reconstruction European exterior only;local candidates not published",
+  "validFrom": "1922-12-30",
+  "validTo": "1925-05-12",
+  "source_geometry_selection": "display is recommended existing project convention; master retained separately",
+  "simplification": {
+    "tolerance_degrees": 0.0005,
+    "actual_scope": "Latvia confirmed dry-land7to4 only",
+    "before": 1737,
+    "after": 1734,
+    "max_deviation_m": 43.75665,
+    "max_css_px": 0.102025,
+    "river_uncertain_modern_shared_preserved": true,
+    "Finland_Estonia_Poland_additional_simplification": false
+  },
+  "junctions": [
+    [
+      28.232542285657765,
+      55.084309016270765
+    ],
+    [
+      27.68427042715281,
+      51.53585505595419
+    ]
+  ],
+  "entities": [
+    {
+      "entity": "state-soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "source_file_sha256": "f1ada25b4b60f7609dad0cc1cafcc58fa3c289c1a99268ccf8c033a8d8e8da12",
+      "builtin_file_sha256": "347d1d8ceb1713450392fdc4ba9678bde4a50ba5145717806e149995c5cb20f1",
+      "before_source_geometry_sha256": "2349653732db13731c3dea4c9cfe5c893dbe804eb1fcb63779dbf6fd620aa219",
+      "before_compiled_geometry_sha256": "bc2ebb8e2c0e02363a317335c1a4d39e1464bb8545ab81c2f65bc92583fe278b",
+      "builtin_geometry_ref": {
+        "id": "historical-world:bc2ebb8e2c0e02363a317335c1a4d39e1464bb8545ab81c2f65bc92583fe278b",
+        "version": 1
+      },
+      "source_after_master": "research/europe1922/application-prepared-v1/state-soviet-union-source-master-geometry.json",
+      "source_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-source-display-geometry.json",
+      "compiled_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-compiled-display-geometry.json",
+      "add_delta": "research/europe1922/application-prepared-v1/state-soviet-union-add.geojson",
+      "remove_delta": "research/europe1922/application-prepared-v1/state-soviet-union-remove.geojson",
+      "source_after_display_geometry_sha256": "8a8d74230e43a741f728991e930cd92ddab2c69898ec3db57e2e858ccbc06507",
+      "compiled_after_display_geometry_sha256": "ce9bbd8882a7ee2b57d25f45d915e48700153743c4bf84db00be696c8d19d679",
+      "compiled_outside_local_delta_difference_area_deg2": 6.253299711359592e-17,
+      "source_valid": true,
+      "compiled_valid": true,
+      "change_bounds": [
+        26.02897963658172,
+        48.53861965906141,
+        31.58670394136609,
+        68.07454144702436
+      ]
+    },
+    {
+      "entity": "state-soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "source_file_sha256": "6984a6ebd24b55c3457797cd85f8833716055051781a351b2323138958a7bb80",
+      "builtin_file_sha256": "ae507590fd34c69d5a168de26e6223da9dc05514d516a7274366e3e229486e9e",
+      "before_source_geometry_sha256": "4cb9efd719edced4cb937a1549051a78ba71979632b5680bbfe325e7c4a2d4ab",
+      "before_compiled_geometry_sha256": "5d70fe8162c10138bd946236c016abd0372b5d22b495d2ce62e3fb13f005ed83",
+      "builtin_geometry_ref": {
+        "id": "historical-world:5d70fe8162c10138bd946236c016abd0372b5d22b495d2ce62e3fb13f005ed83",
+        "version": 1
+      },
+      "source_after_master": "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-source-master-geometry.json",
+      "source_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-source-display-geometry.json",
+      "compiled_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-compiled-display-geometry.json",
+      "add_delta": "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-add.geojson",
+      "remove_delta": "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-remove.geojson",
+      "source_after_display_geometry_sha256": "57c2d57f48f4d07f03db9c99056dafc7fdb4fc073e0f0da6ec9adc774ef371c1",
+      "compiled_after_display_geometry_sha256": "42220c2ca187c99c2cde5fa414126206041619a0a395b564109b7734fa2e73e6",
+      "compiled_outside_local_delta_difference_area_deg2": 6.253299711359592e-17,
+      "source_valid": true,
+      "compiled_valid": true,
+      "change_bounds": [
+        27.367301966887503,
+        55.080086462518466,
+        31.58670394136609,
+        68.07454144702436
+      ]
+    },
+    {
+      "entity": "state-soviet-union-byelorussian-ssr",
+      "versionId": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "source_file_sha256": "7bf96a9fea95456245cb8fc4a2eb01f72d0777768d2766b5af2a452bdb667442",
+      "builtin_file_sha256": "dfdfd79d3a26d87d79057e5469f4eb6fced7f782cc55fc59e40cad3d570de15b",
+      "before_source_geometry_sha256": "34a0aaef71f114131666261ab627c9a2a90624476eabc60669e81ba08a3c688b",
+      "before_compiled_geometry_sha256": "34a0aaef71f114131666261ab627c9a2a90624476eabc60669e81ba08a3c688b",
+      "builtin_geometry_ref": {
+        "id": "historical-world:34a0aaef71f114131666261ab627c9a2a90624476eabc60669e81ba08a3c688b",
+        "version": 1
+      },
+      "source_after_master": "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-source-master-geometry.json",
+      "source_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-source-display-geometry.json",
+      "compiled_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-compiled-display-geometry.json",
+      "add_delta": "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-add.geojson",
+      "remove_delta": "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-remove.geojson",
+      "source_after_display_geometry_sha256": "44d0ef2aa0efb95b87bbcf9d36bf03a3e17d3d30b983d0824252b9dc27f81f26",
+      "compiled_after_display_geometry_sha256": "068cc964a5e7b19bb93721c2044abb40537dee000b42ae8bd357a39f73f3c53d",
+      "compiled_outside_local_delta_difference_area_deg2": 0.0,
+      "source_valid": true,
+      "compiled_valid": true,
+      "change_bounds": [
+        26.801043662165394,
+        51.53585505595419,
+        28.232799277409534,
+        55.085320811874574
+      ]
+    },
+    {
+      "entity": "state-soviet-union-ukrainian-ssr",
+      "versionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "source_file_sha256": "b16cce28ccc896efbad0d7e4337719e1fa4d2975d146400853f6eb7cc18050f0",
+      "builtin_file_sha256": "d3bab5b6cb8a3cdbeeca91dde381070e33cbf3422018a5d78296c8b2ff4763c2",
+      "before_source_geometry_sha256": "db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+      "before_compiled_geometry_sha256": "db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+      "builtin_geometry_ref": {
+        "id": "historical-world:db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+        "version": 1
+      },
+      "source_after_master": "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-source-master-geometry.json",
+      "source_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-source-display-geometry.json",
+      "compiled_after_display": "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-compiled-display-geometry.json",
+      "add_delta": "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-add.geojson",
+      "remove_delta": "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-remove.geojson",
+      "source_after_display_geometry_sha256": "6049ebe05e41af02b0103d667418f2181a81b7f7c6d692785722258bc3c2d035",
+      "compiled_after_display_geometry_sha256": "e2d945ec5f896365a667fb6929f953ae03224837d1eb40aa288111ee7f3a1f1b",
+      "compiled_outside_local_delta_difference_area_deg2": 0.0,
+      "source_valid": true,
+      "compiled_valid": true,
+      "change_bounds": [
+        26.02897963658172,
+        48.53861965906141,
+        27.727360228981976,
+        51.58205782487617
+      ]
+    }
+  ],
+  "guards": {
+    "USSR_before884": true,
+    "USSR_after2152_suffix": true,
+    "Finland_coast1397through1406_in_new": true,
+    "north_coast2152through2154_in_new": true,
+    "unchanged_other_polygons_USSR": true,
+    "BLR_interior1through126_exact": true,
+    "Poland_original1991nodes_preserved": true
+  },
+  "file_hashes": {
+    "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-source-display-geometry.json": "44d0ef2aa0efb95b87bbcf9d36bf03a3e17d3d30b983d0824252b9dc27f81f26",
+    "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-source-display-geometry.json": "6049ebe05e41af02b0103d667418f2181a81b7f7c6d692785722258bc3c2d035",
+    "research/europe1922/application-prepared-v1/state-soviet-union-compiled-display-geometry.json": "ce9bbd8882a7ee2b57d25f45d915e48700153743c4bf84db00be696c8d19d679",
+    "research/europe1922/application-prepared-v1/state-soviet-union-source-display-geometry.json": "8a8d74230e43a741f728991e930cd92ddab2c69898ec3db57e2e858ccbc06507",
+    "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-source-display-geometry.json": "57c2d57f48f4d07f03db9c99056dafc7fdb4fc073e0f0da6ec9adc774ef371c1",
+    "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-compiled-display-geometry.json": "42220c2ca187c99c2cde5fa414126206041619a0a395b564109b7734fa2e73e6",
+    "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-compiled-display-geometry.json": "068cc964a5e7b19bb93721c2044abb40537dee000b42ae8bd357a39f73f3c53d",
+    "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-source-master-geometry.json": "6049ebe05e41af02b0103d667418f2181a81b7f7c6d692785722258bc3c2d035",
+    "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-compiled-display-geometry.json": "e2d945ec5f896365a667fb6929f953ae03224837d1eb40aa288111ee7f3a1f1b",
+    "research/europe1922/application-prepared-v1/state-soviet-union-source-master-geometry.json": "a7445f5c16a446033e5464ed107fd70a2a1db48ca1ca4e2158ccf290ab2ba65e",
+    "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-source-master-geometry.json": "a2e9dcf2d5971eea06f15c4d7d9efdb952a57dab52ea2dda9bea86e51ef75c7f",
+    "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-source-master-geometry.json": "44d0ef2aa0efb95b87bbcf9d36bf03a3e17d3d30b983d0824252b9dc27f81f26",
+    "research/europe1922/application-prepared-v1/state-soviet-union-remove.geojson": "45668c9c41abc24051190de1e0854e830799a49824291ad0c108094a5b5fb214",
+    "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-remove.geojson": "f2189c5a8d2d1751025b828f795a86f1c2f308ad166fd79a05cecf42064d9038",
+    "research/europe1922/application-prepared-v1/state-soviet-union-ukrainian-ssr-add.geojson": "55f8d5c5365894b3e7bf835acf66b5c3c731791171a65a62af672d5e8e5080b1",
+    "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-add.geojson": "fd75377d6fda16f638dfa6d74bac33c7f494ff7deebd3efef202bd1d164a7381",
+    "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-add.geojson": "3f3f6f131eabebd4e455c66492b6c137d33eee6d68e7ffa0b72cb8679726a9a8",
+    "research/europe1922/application-prepared-v1/state-soviet-union-byelorussian-ssr-remove.geojson": "6d62ac719162972c5e3b49431ab0cb6161ca76ff2c97c6a095a2dea3c713fd30",
+    "research/europe1922/application-prepared-v1/state-soviet-union-russian-sfsr-remove.geojson": "13930178911d28971a93cb97d24fcac1bbf9a458418ee8f4b074d9e50cd9289f",
+    "research/europe1922/application-prepared-v1/state-soviet-union-add.geojson": "f8e63a99e35958d771425c027218cb27619726ca87aa3d17ef2e441ed90bf50c",
+    "research/europe1922/application-prepared-v1/shared-and-locked-guards.json": "482e0f6fa77509970405ae78de021ac4f162cf334b699fa1d0cbb472f4b83c28"
+  },
+  "additional_guards": "research/europe1922/application-prepared-v1/shared-and-locked-guards.json",
+  "coast_preserved_finland_connector": {
+    "metres": 2524.3099229679997,
+    "CSSpx": 8.282696207655441,
+    "interpretation": "C to A explicit cartographic closure; EOX excluded;not withdrawn offshoreB"
+  },
+  "held_supplement": "Ludza detailed supplement not joined;approvedv8 retained"
+}

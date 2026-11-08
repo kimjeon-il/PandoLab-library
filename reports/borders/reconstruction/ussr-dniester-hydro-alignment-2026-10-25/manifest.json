@@ -1,0 +1,105 @@
+{
+  "baseDataCommit": "9d3ca74c",
+  "hydroBinSHA256": "f0832dd2024cbfad8b1662410a4f189fa95bcecb56c3e3f1ad69d36af4a0c36f",
+  "runtimeName": "Dniester/Nistru hydro-system20478829",
+  "classification": "User-selected1922 atlas-correlated modern-watercourse map-scale approximation; not legally-delimited1922thalweg",
+  "upstreamExactExistingBoundaryIntersection": [
+    26.446654170169,
+    48.539583
+  ],
+  "downstreamRuntimeEndpoint": [
+    30.47602,
+    46.068296
+  ],
+  "coastPreservedJoin": [
+    30.48650679891844,
+    46.075337770051036
+  ],
+  "connectorDegreeLength": 0.012631685438117969,
+  "routeVertices": 884,
+  "sameDeltaForBothEntities": true,
+  "results": [
+    {
+      "entityId": "state:soviet-union",
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "sourceGeometrySHA256_compactJSON": "4f44f8eba6c28ba513a1f34cd808d948f22d97db30f635615e091a1cb27d286e",
+      "builtinGeometryRef": {
+        "id": "historical-world:9a64a6e936cd14bd66e0cfecd290144318ed4cfbe616439a172e962a702212a3",
+        "version": 1
+      },
+      "builtinGeometrySHA256_compactJSON": "9a64a6e936cd14bd66e0cfecd290144318ed4cfbe616439a172e962a702212a3",
+      "sourceVertexReplacementIndices": [
+        1,
+        278
+      ],
+      "sourceValid": true,
+      "builtinValid": true,
+      "changeBounds": [
+        26.446616650299898,
+        46.068296,
+        30.501573319069678,
+        48.66771629613196
+      ],
+      "compiledOutsideDeltaArea": 0.0,
+      "builtinSharedRiverMissingLength": 0.0,
+      "sourceSharedRiverMissingLength": 0.0,
+      "sourceNewGeometrySHA256_compactJSON": "b21e14df1844fd199db3169a307aba312f3f8c68f9b68b0ebffb063e5031d970",
+      "builtinNewGeometrySHA256_compactJSON": "16d8f5ebe9cd0880143ba6b4435f67b983354e0250c5d245be398d433d79c87b",
+      "sourceCandidateFileSHA256": "b21e14df1844fd199db3169a307aba312f3f8c68f9b68b0ebffb063e5031d970",
+      "builtinCandidateFileSHA256": "16d8f5ebe9cd0880143ba6b4435f67b983354e0250c5d245be398d433d79c87b"
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "sourceVersionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "sourceGeometrySHA256_compactJSON": "391166c9abe71100dbf5bc162b1d47e98943ab1d5731d19e4975abfa721820ef",
+      "builtinGeometryRef": {
+        "id": "historical-world:391166c9abe71100dbf5bc162b1d47e98943ab1d5731d19e4975abfa721820ef",
+        "version": 1
+      },
+      "builtinGeometrySHA256_compactJSON": "391166c9abe71100dbf5bc162b1d47e98943ab1d5731d19e4975abfa721820ef",
+      "sourceVertexReplacementIndices": [
+        1,
+        278
+      ],
+      "sourceValid": true,
+      "builtinValid": true,
+      "changeBounds": [
+        26.446616650299898,
+        46.068296,
+        30.501573319069678,
+        48.66771629613196
+      ],
+      "compiledOutsideDeltaArea": 0.0,
+      "builtinSharedRiverMissingLength": 0.0,
+      "sourceSharedRiverMissingLength": 0.0,
+      "sourceNewGeometrySHA256_compactJSON": "db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+      "builtinNewGeometrySHA256_compactJSON": "6143728e232e40e0139559b6687cf51f4bc1f68fbc6fafc3278beef97370e79d",
+      "sourceCandidateFileSHA256": "db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+      "builtinCandidateFileSHA256": "6143728e232e40e0139559b6687cf51f4bc1f68fbc6fafc3278beef97370e79d"
+    }
+  ],
+  "validation": {
+    "sameDeltaForSourceAndBuiltin": true,
+    "RomaniaNewOverlapArea": 0,
+    "UkraineOutsideUSSRWithinROI": [
+      0,
+      [
+        26,
+        46,
+        31,
+        49
+      ]
+    ],
+    "mouthExistingUSSRRemovedArea": [
+      0,
+      [
+        30.35,
+        46.04,
+        30.55,
+        46.2
+      ]
+    ],
+    "mouthLandWaterCaveat": "No high-resolution1922water/landmasktested. Existingoutercoast retained; narrowclosure is cartographicjoin nothistoricalsurvey."
+  },
+  "candidateHashEncoding": "NewGeometrySHA256_compactJSON is Python json.dumps(separators=(comma,colon)); CandidateFileSHA256 pins exact candidate bytes; runtime geometry IDs use JavaScript JSON.stringify separately."
+}

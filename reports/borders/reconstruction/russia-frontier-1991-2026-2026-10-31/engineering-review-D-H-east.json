@@ -1,0 +1,241 @@
+{
+  "review_utc": "2026-10-31T11:21:00Z",
+  "scope": "existing D-F grid/datum/holdouts and G-H temporal ledger only; no new broad research",
+  "production_modified": false,
+  "coordinate_arrays_modified": false,
+  "panels": [
+    {
+      "panel": "D",
+      "region": "lokot",
+      "event_id": "KZ-2005-lokot-90ha-exchange",
+      "dates": {
+        "signed": "2005-01-18",
+        "effective": "2006-01-12",
+        "local_handover": null
+      },
+      "date_basis": "2005 framework treaty, not independently dated local parcel handover",
+      "engineering_disposition": "new_treaty_line_reusable_as_research_candidate; old_line_and_reverse_patch_on_hold",
+      "new_line_path": "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/treaty193-selected-export/features.geojson",
+      "new_line_exists": true,
+      "new_line_sha256": "907cb286cf7f57a24e3d956743f5db2a2cd734fcdc91152fc972383404c69129",
+      "new_line_feature_count": 1,
+      "new_line_crs_basis": "Treaty annex SK42 grid; existing reviewed export, no new transform",
+      "old_line_status": "1983 terrain /1987 printed 1:200k map; datum margin absent; candidate identical SK42 zone14 grid assumed, not verified",
+      "bounded_correction_authorized": false,
+      "why_no_bounded_correction": "Three spatially separated terrain-check delta vectors differ in magnitude/direction; only one strongest road/rail control. No reserved local validation establishes a rigid or affine correction at each parcel. Fitting these checks would consume them; boundary-to-boundary snapping would erase the possible territorial change.",
+      "can_apply_now": "Preserve/use existing new treaty open line for comparison or target-line preview; do not displace G or create closed transfer polygon/1991 reverse patch from unapproved old line",
+      "remaining_real_gates": [
+        "old source geodetic basis or independently validated local registration",
+        "old administrative line applicability to1991",
+        "matched endpoint/topology and evidenced closed parcel extent; no arbitrary closure"
+      ],
+      "dates_all_null": false
+    },
+    {
+      "panel": "E",
+      "region": "burkotovo",
+      "event_id": "KZ-2005-burkotovo-90ha-exchange",
+      "dates": {
+        "signed": "2005-01-18",
+        "effective": "2006-01-12",
+        "local_handover": null
+      },
+      "date_basis": "2005 framework treaty, not independently dated local parcel handover",
+      "engineering_disposition": "new_treaty_line_reusable_as_research_candidate; old_line_and_reverse_patch_on_hold",
+      "new_line_path": "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/treaty195-selected-export/features.geojson",
+      "new_line_exists": true,
+      "new_line_sha256": "a7c1d8a95ef3c9e3efa2c39e8f642cb9fad00d5514f26b3672ac3e9ec666d4ac",
+      "new_line_feature_count": 1,
+      "new_line_crs_basis": "Treaty annex SK42 grid; existing reviewed export, no new transform",
+      "old_line_status": "1983 terrain /1987 printed 1:200k map; datum margin absent; candidate identical SK42 zone14 grid assumed, not verified",
+      "bounded_correction_authorized": false,
+      "why_no_bounded_correction": "Three spatially separated terrain-check delta vectors differ in magnitude/direction; only one strongest road/rail control. No reserved local validation establishes a rigid or affine correction at each parcel. Fitting these checks would consume them; boundary-to-boundary snapping would erase the possible territorial change.",
+      "can_apply_now": "Preserve/use existing new treaty open line for comparison or target-line preview; do not displace G or create closed transfer polygon/1991 reverse patch from unapproved old line",
+      "remaining_real_gates": [
+        "old source geodetic basis or independently validated local registration",
+        "old administrative line applicability to1991",
+        "matched endpoint/topology and evidenced closed parcel extent; no arbitrary closure"
+      ],
+      "dates_all_null": false
+    },
+    {
+      "panel": "F",
+      "region": "zhezkent",
+      "event_id": "KZ-2005-lokot-90ha-exchange",
+      "dates": {
+        "signed": "2005-01-18",
+        "effective": "2006-01-12",
+        "local_handover": null
+      },
+      "date_basis": "2005 framework treaty, not independently dated local parcel handover",
+      "engineering_disposition": "new_treaty_line_reusable_as_research_candidate; old_line_and_reverse_patch_on_hold",
+      "new_line_path": "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/treaty194-selected-export/features.geojson",
+      "new_line_exists": true,
+      "new_line_sha256": "13b13f370d03a6973edbb7c3ab3e63fdea86b5e5d4856356e2c52a7c828bd404",
+      "new_line_feature_count": 1,
+      "new_line_crs_basis": "Treaty annex SK42 grid; existing reviewed export, no new transform",
+      "old_line_status": "1983 terrain /1987 printed 1:200k map; datum margin absent; candidate identical SK42 zone14 grid assumed, not verified",
+      "bounded_correction_authorized": false,
+      "why_no_bounded_correction": "Three spatially separated terrain-check delta vectors differ in magnitude/direction; only one strongest road/rail control. No reserved local validation establishes a rigid or affine correction at each parcel. Fitting these checks would consume them; boundary-to-boundary snapping would erase the possible territorial change.",
+      "can_apply_now": "Preserve/use existing new treaty open line for comparison or target-line preview; do not displace G or create closed transfer polygon/1991 reverse patch from unapproved old line",
+      "remaining_real_gates": [
+        "old source geodetic basis or independently validated local registration",
+        "old administrative line applicability to1991",
+        "matched endpoint/topology and evidenced closed parcel extent; no arbitrary closure"
+      ],
+      "dates_all_null": false
+    },
+    {
+      "panel": "G",
+      "event_id": "post1991-east-china-2004-abagaitu",
+      "dates": {
+        "signed": "2004-10-14",
+        "effective": "2005-06-02",
+        "control_handover": "2008-10-14",
+        "implementation_protocol_signed": "2008-07-21"
+      },
+      "implementation_protocol_note": "Implementation/demarcation protocol date recorded in prior research; not a replacement effective date or date of2004 signature",
+      "dates_all_null": false,
+      "engineering_disposition": "event_timing_known; claim_vs_control_geometry_hold",
+      "source_meaning": "G fig5 Russian claim→fig6 agreed schematic; H fig3 Russian claim→fig4 agreed schematic",
+      "coordinate_mutation": false,
+      "G_all_coordinates_preserved": true,
+      "real_gates": [
+        "Russian claim schematic cannot automatically stand in for1991 actual-control line",
+        "No geographically validated pre/post line pair; treaty2004 projected datum and precise annex remain unresolved"
+      ],
+      "legal_time_gate": "Use2005-06-02 for agreement legal effect; use2008-10-14 for observed control handover. Do not activate a geometrically unverified patch solely because timing is known.",
+      "date_sources": [
+        {
+          "url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876873966",
+          "type": "official treaty database",
+          "what_supports": "Signature14October2004; effective2June2005",
+          "independence_group": "China-MFA-treaty2004"
+        },
+        {
+          "url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876873993.pdf",
+          "type": "primary Russian treaty original scan",
+          "what_supports": "Article1twoopen1991sectors7–8/10–11; approximateprojectedwaypoints;Article5frozenboundary",
+          "independence_group": "China-MFA-treaty2004"
+        },
+        {
+          "url": "https://nmgqq.com.cn/shuzishizhi/nianjian/neimengguniajian/nianjianerlingjiu/neimengguzhengfu/2011-4-14/4268.html",
+          "type": "primary regional governmental yearbook report; search-index inspected",
+          "what_supports": "2008foreignaffairsreport:14OctoberjointdefencehandoveratAbagaitu",
+          "independence_group": "InnerMongolia-2008-yearbook"
+        }
+      ]
+    },
+    {
+      "panel": "H",
+      "event_id": "post1991-east-china-2004-khabarovsk",
+      "dates": {
+        "signed": "2004-10-14",
+        "effective": "2005-06-02",
+        "control_handover": "2008-10-14",
+        "implementation_protocol_signed": "2008-07-21"
+      },
+      "implementation_protocol_note": "Implementation/demarcation protocol date recorded in prior research; not a replacement effective date or date of2004 signature",
+      "dates_all_null": false,
+      "engineering_disposition": "event_timing_known; claim_vs_control_geometry_hold",
+      "source_meaning": "G fig5 Russian claim→fig6 agreed schematic; H fig3 Russian claim→fig4 agreed schematic",
+      "coordinate_mutation": false,
+      "G_all_coordinates_preserved": null,
+      "real_gates": [
+        "Russian claim schematic cannot automatically stand in for1991 actual-control line",
+        "No geographically validated pre/post line pair; treaty2004 projected datum and precise annex remain unresolved"
+      ],
+      "legal_time_gate": "Use2005-06-02 for agreement legal effect; use2008-10-14 for observed control handover. Do not activate a geometrically unverified patch solely because timing is known.",
+      "date_sources": [
+        {
+          "url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876873966",
+          "type": "official treaty database",
+          "what_supports": "Signature14October2004; effective2June2005",
+          "independence_group": "China-MFA-treaty2004"
+        },
+        {
+          "url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876873993.pdf",
+          "type": "primary Russian treaty original scan",
+          "what_supports": "Article1twoopen1991sectors7–8/10–11; approximateprojectedwaypoints;Article5frozenboundary",
+          "independence_group": "China-MFA-treaty2004"
+        },
+        {
+          "url": "https://www.mod.gov.cn/gfbw/gfjy_index/4815541.html",
+          "type": "primary Chinese MinistryofDefence account",
+          "what_supports": "14October2008guardoccupation/markerunveiling",
+          "independence_group": "China-MOD2008handover"
+        },
+        {
+          "url": "https://www.interfax-russia.ru/military/news/213819",
+          "type": "contemporary independentpress quotingRussianMFA",
+          "what_supports": "14October2008controlhandover",
+          "independence_group": "Interfax2008"
+        }
+      ]
+    }
+  ],
+  "observed_common_grid_checks": [
+    {
+      "id": "novomikhaylovka-road-rail-crossing",
+      "old_grid_xy": [
+        14514147.623372758,
+        5666931.387555647
+      ],
+      "new_grid_xy": [
+        14514092.271505907,
+        5666942.86203092
+      ],
+      "difference_m": 56.52868958890627,
+      "delta_xy": [
+        -55.35186685062945,
+        11.474475272931159
+      ],
+      "identification": "strong: same branching road northward to the Novomikhaylovka–Removskiy main road crosses diagonal railway"
+    },
+    {
+      "id": "lokot-road-river-bridge",
+      "old_grid_xy": [
+        14513157.92741959,
+        5672267.844329049
+      ],
+      "new_grid_xy": [
+        14513167.945321344,
+        5672545.551509398
+      ],
+      "difference_m": 277.8878125665675,
+      "delta_xy": [
+        10.017901754006743,
+        277.70718034915626
+      ],
+      "identification": "conditional: same river crossing adjoining Lokot; small-scale town/river generalization material, do not treat as survey-level fixed monument"
+    },
+    {
+      "id": "burkotovo-road-river-bridge",
+      "old_grid_xy": [
+        14537419.57030165,
+        5623093.709894388
+      ],
+      "new_grid_xy": [
+        14537810.458774777,
+        5623210.878305755
+      ],
+      "difference_m": 408.07136023711473,
+      "delta_xy": [
+        390.8884731270373,
+        117.16841136664152
+      ],
+      "identification": "strong morphological correspondence, but feature is ROAD/RIVER bridge, not a verified rail/road crossing; changed name accordingly"
+    }
+  ],
+  "observed_check_max_m": 408.07136023711473,
+  "error_bound_m": null,
+  "error_warning": "408.071m is observed maximum among these checks, not a global bound. No subtraction of residual from line displacement. Olddatumunknown is not itself proof of displacement.",
+  "input_paths": [
+    "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/events.json",
+    "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/old200k-registration-condition.json",
+    "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/export-validation.json",
+    "rsfsr-boundary-research/post1991/quantification/kazakhstan/eastern-parcels/registration-independent-checks.json",
+    "rsfsr-boundary-research/post1991/comparison-ledger.json",
+    "rsfsr-boundary-research/post1991/quantification/east/quantification-ledger.json"
+  ]
+}

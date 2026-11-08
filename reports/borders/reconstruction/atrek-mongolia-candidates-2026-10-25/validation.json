@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "GEO-ATREK-MNG-CANDIDATES-20261025",
+  "status": "partial-archive / input-transfer-blocked / runtime-not-applied",
+  "codeRevision": "93b6e1b17477080687e31b3eaa16f2596b9c7010",
+  "runtimePin": "127e51c3457df87786ecf3aa5ad98ded690928df",
+  "writeBase": "c0d5fc6751d1fc9801b16b3fbc62d653ae290147",
+  "branch": "work/gis",
+  "inputs": [
+    {
+      "library_file_id": "libfile_c1ed12baa9a48191ad4447cd78d65b30",
+      "file_name": "atrek-retrace-diagnostic.png",
+      "reported_size_bytes": 312532,
+      "version": 0,
+      "attempts": 2,
+      "transferResult": "failed",
+      "localFileExists": false,
+      "stderr": "library file transfer failed: download failed"
+    },
+    {
+      "library_file_id": "libfile_04853ede2e408191bbed789537bf5de8",
+      "file_name": "B-border-candidate-simplified-20261024.zip",
+      "reported_size_bytes": 475177,
+      "version": 0,
+      "attempts": 2,
+      "transferResult": "failed",
+      "localFileExists": false,
+      "stderr": "library file transfer failed: download failed"
+    },
+    {
+      "library_file_id": "libfile_51958669bdc48191b4fc45d1519744e5",
+      "file_name": "B-simplified-joined-maxzoom.png",
+      "reported_size_bytes": 127592,
+      "version": 0,
+      "attempts": 2,
+      "transferResult": "failed",
+      "localFileExists": false,
+      "stderr": "library file transfer failed: download failed"
+    }
+  ],
+  "transferLimits": {
+    "supportedConsumerMaterialization": true,
+    "currentSkillHelpers": true,
+    "helperImplementationInspected": false,
+    "oneRetryPerAbsentFile": true,
+    "furtherRetries": 0,
+    "permissionDenialReported": false,
+    "httpOrNetworkCauseKnown": false,
+    "rawUrlOrAlternateDownloadUsed": false
+  },
+  "atrek": {
+    "provenance": "trusted complete inline GeoJSON supplied by parent; NOT extracted from inaccessible PNG",
+    "sourceUrl": "https://treaties.un.org/doc/Treaties/1963/01/19630124%2002-41%20AM/Iran-USSR-02.pdf",
+    "sourcePdfRead": "web tool returned URL not accessible; no bypass",
+    "file": "atrek-revised-georef.geojson",
+    "sha256": "24e3d649e1969bac12cc8208218f2a593e8a2ca934cf0e1dbb4026fe0e684b74",
+    "bytes": 8136,
+    "featureCount": 2,
+    "revisedVertices": 72,
+    "unchangedNewBorderVertices": 2,
+    "finiteGeographicBounds": true,
+    "endpointPairsIdentical": true,
+    "inverseBilinearMaxCoordinateDeltaDegrees": 7.105427357601002e-15,
+    "revisedLineValid": true,
+    "revisedLineSimple": true,
+    "sampledSourcePixelHausdorff": 61,
+    "sampleSpacingMaximumRenderPx": 0.5,
+    "sampleCount": 14710,
+    "suppliedHausdorffRenderPx": 61,
+    "suppliedAppCssPxNotReverified": 1.544761699948418,
+    "ambiguousSpans": 2,
+    "pngPixelsInspected": false,
+    "pngMetadataCompared": false,
+    "datumKnown": false,
+    "wgs84TransformationPerformed": false,
+    "sourceFitIsNotGeographicAccuracy": true,
+    "old_trace_source_px": "comparison only; not the correction",
+    "new_1955": "unchanged two-point reference; not a confirmed dated runtime boundary",
+    "legalDates": {
+      "signed": "1954-12-02",
+      "entryIntoForce": "1955-05-20",
+      "handover": null,
+      "provenance": "trusted task handoff; source PDF unavailable in this execution"
+    },
+    "runtimeValidFrom": null,
+    "runtimeApplied": false
+  },
+  "mongolia1976B": {
+    "status": "blocked-missing-local-zip-and-plate",
+    "reportedOriginalVertices": 60,
+    "reportedSimplifiedVertices": 18,
+    "reportedMaxSimplificationErrorCssPx": 0.4175,
+    "reportedMetricsIndependentlyVerified": false,
+    "pairedPolygonsRead": false,
+    "pairedTopologyVerified": false,
+    "originalArchiveStored": false,
+    "reportedCandidateDate": null,
+    "signed": "1976-10-19",
+    "ratificationExchangeReported": "1977-01-26",
+    "handover": null,
+    "runtimeApplied": false
+  },
+  "mongolia1958": {
+    "status": "held; endpoint fit unresolved; not supplied or promoted"
+  },
+  "rejectedPreviousAtrekId": "libfile_35be634fa41c8191a4ba14abe2a6a575",
+  "rejectedPreviousAtrekRead": false,
+  "currentTargets": [
+    "state:soviet-union",
+    "state:IRN",
+    "state:MNG"
+  ],
+  "modernSuccessorNotBackdated": "state:TKM starts 1991-10-27 and is not a 1955 country owner",
+  "stateLifetimesChanged": false,
+  "runtimeOrGeometryVersionsChanged": false,
+  "appOrWebTestsRun": false,
+  "sourceOrSharedCountryPolygonTopologyVerified": false,
+  "storage": {
+    "scope": "reports/borders/reconstruction/atrek-mongolia-candidates-2026-10-25",
+    "mainModified": false,
+    "force": false,
+    "fullOriginalInlineJsonPreserved": true,
+    "allNonReportArchiveEntriesToBePreserved": true,
+    "remoteVerification": "after branch update; exact result in final response"
+  }
+}

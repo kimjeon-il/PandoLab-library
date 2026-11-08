@@ -1,0 +1,136 @@
+{
+  "assembledThreeInputsUnchanged": true,
+  "scope": "four staging files only; no country repo or remote writes",
+  "compiledMethod": "exact local splice at existing two anchors; inverse restores original coordinates and order",
+  "checks": [
+    {
+      "entity": "state-soviet-union",
+      "actualAddEqualsSourceAdd": false,
+      "actualRemoveEqualsSourceRemove": false,
+      "sourceAddAreaDegrees2": 0.3598327948222386,
+      "compiledAddAreaDegrees2": 0.3598327948222388,
+      "sourceRemoveAreaDegrees2": 0.6339776119494916,
+      "compiledRemoveAreaDegrees2": 0.6339776119494914,
+      "compiledAdditionalChangeOutsideSourceDeltaArea": 8.610026342852312e-17,
+      "addSymmetricDifferenceDegrees2": 1.8298172102418615e-16,
+      "removeSymmetricDifferenceDegrees2": 1.3471293921121052e-16
+    },
+    {
+      "entity": "state-soviet-union-russian-sfsr",
+      "actualAddEqualsSourceAdd": false,
+      "actualRemoveEqualsSourceRemove": false,
+      "sourceAddAreaDegrees2": 0.3598327948222386,
+      "compiledAddAreaDegrees2": 0.3598327948222388,
+      "sourceRemoveAreaDegrees2": 0.6339776119494916,
+      "compiledRemoveAreaDegrees2": 0.6339776119494914,
+      "compiledAdditionalChangeOutsideSourceDeltaArea": 8.610026342852312e-17,
+      "addSymmetricDifferenceDegrees2": 1.8298172102418615e-16,
+      "removeSymmetricDifferenceDegrees2": 1.3471293921121052e-16
+    }
+  ],
+  "approved288AndExistingRiverExtensionPreserved": true,
+  "validFrom": "1922-12-30",
+  "validTo": "1925-05-12",
+  "rows": [
+    {
+      "entityId": "state:soviet-union",
+      "kind": "source",
+      "inputFileSha256": "6f4ea66625fe3146e69cb1cf5ee04634da6dacba18da34ef0cfecb0d828f291b",
+      "outputFileSha256": "e60e6c7c5acc06d2c9e73dff3740c6373d0f1099240ace2d2ec9664c896a6eea",
+      "beforeGeometrySha256": "8ed7c814e9fcae503eede22d733e491a0ec9883f02bd5ad5afccc8c24d546781",
+      "afterGeometrySha256": "db1770d70db966c8cae5e08b30a92b680a7e2520d11209e2ca46dc3d6b1376c4",
+      "step": {
+        "polygon": 0,
+        "ring": 0,
+        "start": 22706,
+        "direction": 1,
+        "oldPoints": 131,
+        "newPoints": 295
+      },
+      "inverseSpliceExact": true,
+      "metadataAndOtherPeriodsUnchangedExceptNewProvenanceOrContentRefs": true,
+      "priorThreePatchMetadataPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.3598327948222386,
+      "removeAreaDegrees2": 0.6339776119494916,
+      "contentReferenceUpdateCounts": null
+    },
+    {
+      "entityId": "state:soviet-union",
+      "kind": "compiled",
+      "inputFileSha256": "ef57ceb2efbfa4d7787f7b51f559e50ee2b63e7584e99e3b81fefd3261ff633d",
+      "outputFileSha256": "84752fcce8e6d2c4efcede46a2b1bb4cd179b4216440d938b084cbb8985c455f",
+      "beforeGeometrySha256": "ec05b4627a2d6c11e3754a52eb2a151a4ad35e43d3bdb07a7b1dc8beeb5b411d",
+      "afterGeometrySha256": "1fd6f7a0f0b30a3e644c94203a295eb752328fff809944e37fb996843b0708b1",
+      "step": {
+        "polygon": 6,
+        "ring": 0,
+        "start": 21405,
+        "direction": 1,
+        "oldPoints": 131,
+        "newPoints": 294,
+        "method": "exact compiled local arc splice at existing shared intersection and west anchor; all other coordinates/order preserved"
+      },
+      "inverseSpliceExact": true,
+      "metadataAndOtherPeriodsUnchangedExceptNewProvenanceOrContentRefs": true,
+      "priorThreePatchMetadataPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.3598327948222388,
+      "removeAreaDegrees2": 0.6339776119494914,
+      "contentReferenceUpdateCounts": [
+        1,
+        1
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "kind": "source",
+      "inputFileSha256": "9ba55fb63a38bb803a7aaa1874511399dd169d3baac1959d742279266dbc7e76",
+      "outputFileSha256": "199ac5db253a2aafb53204c6dcf0cfdf645d01df996e1631b6f3391998e5618a",
+      "beforeGeometrySha256": "5dce9aed656652723ae55fa3cf7a4f7ea01fd7d3d6d20e27d9e593305965e2ae",
+      "afterGeometrySha256": "e7c28efe4c09e204d317dded8e14dbd320eb8c814f44a2e06df49cd7c949c72f",
+      "step": {
+        "polygon": 0,
+        "ring": 0,
+        "start": 20972,
+        "direction": 1,
+        "oldPoints": 131,
+        "newPoints": 295
+      },
+      "inverseSpliceExact": true,
+      "metadataAndOtherPeriodsUnchangedExceptNewProvenanceOrContentRefs": true,
+      "priorThreePatchMetadataPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.3598327948222386,
+      "removeAreaDegrees2": 0.6339776119494916,
+      "contentReferenceUpdateCounts": null
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "kind": "compiled",
+      "inputFileSha256": "49b40e586ef71cdbdfa5aec4e0205ccdeb7d225a913285198263b3b55931cd35",
+      "outputFileSha256": "f7df8f5e6babfd1f464ef7078e76e573082872c76cc9d15811eaa64dcb51dbe2",
+      "beforeGeometrySha256": "58f196789306fdfc95943f93f91224b361adf12313aefc4d4378022b8bf80668",
+      "afterGeometrySha256": "e36d7c1f95e218334a568967254e83957d3fda52af231a13f78408ba2562ef9f",
+      "step": {
+        "polygon": 6,
+        "ring": 0,
+        "start": 18151,
+        "direction": 1,
+        "oldPoints": 131,
+        "newPoints": 294,
+        "method": "exact compiled local arc splice at existing shared intersection and west anchor; all other coordinates/order preserved"
+      },
+      "inverseSpliceExact": true,
+      "metadataAndOtherPeriodsUnchangedExceptNewProvenanceOrContentRefs": true,
+      "priorThreePatchMetadataPreserved": true,
+      "valid": true,
+      "addAreaDegrees2": 0.3598327948222388,
+      "removeAreaDegrees2": 0.6339776119494914,
+      "contentReferenceUpdateCounts": [
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "GEO-REVIEW-20261025-2200",
+  "scheduledAt": "2026-10-25T22:00:00Z",
+  "codeHead": "9a53595508e3798e37326803d7545f2e44eca8ad",
+  "runtimePin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+  "writeBase": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+  "previousReviewCommit": "c0d5fc6751d1fc9801b16b3fbc62d653ae290147",
+  "sourceRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+  "sources": [
+    {
+      "id": "GEO-LIFE-014",
+      "path": "reports/borders/history/lifetimes/country-lifetime-south-america-arg-bol-phase2-2026-10-26.md",
+      "originCommit": "f832c248919f9c09036f2446444d9fa637c0f2ed",
+      "blob": "81672ad5597527542e350182bae3fd1713c2c213"
+    },
+    {
+      "id": "GEO-TIME-011",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-oceania-bougainville-cook-islands-2026-10-26.md",
+      "originCommit": "d5a70f52eef6e0482b16ddcc4a7d9b36bb350df4",
+      "correctionCommits": [
+        "834b07527a5cab4f50cf9eecb406068b799d6868",
+        "2529e6f99ff696a24b6148743bf21436068bc6b3"
+      ],
+      "blob": "9b6f366de4faf1cb192c2a3b0acf93c5e0df1e5c"
+    }
+  ],
+  "unchangedPriorSources": [
+    {
+      "id": "GEO-LIFE-009",
+      "path": "reports/borders/history/lifetimes/country-lifetime-oceania-micronesia-tonga-2026-10-21.md",
+      "blob": "27783e6bd740b105599ca585a3f5647dc754e709",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    },
+    {
+      "id": "GEO-LIFE-010",
+      "path": "reports/borders/history/lifetimes/country-lifetime-europe-baltic-2026-10-22.md",
+      "blob": "6354f4a7f11736c1e8e61d1645055d16a9f181d0",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    },
+    {
+      "id": "GEO-LIFE-011",
+      "path": "reports/borders/history/lifetimes/country-lifetime-asia-south-southeast-2026-10-23.md",
+      "blob": "b57b89e4f64e77b9567f4df4288b2a0b2d83bc81",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    },
+    {
+      "id": "GEO-LIFE-012",
+      "path": "reports/borders/history/lifetimes/country-lifetime-africa-cmr-mli-tza-2026-10-24.md",
+      "blob": "b28499d5881853df5a91c64d03bf465d769b6ea3",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    },
+    {
+      "id": "GEO-TIME-009",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md",
+      "blob": "216afa2ae2bbb73fcf01d6a30cf34a198bed7334",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    },
+    {
+      "id": "GEO-LIFE-013",
+      "path": "reports/borders/history/lifetimes/country-lifetime-north-america-slv-usa-2026-10-25.md",
+      "blob": "7339f910abd6dc85cc05ddc87b291478092b82ce",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    },
+    {
+      "id": "GEO-TIME-010",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-africa-western-sahara-status-2026-10-25.md",
+      "blob": "791526090aea1debb58df635c6918b8e216d975a",
+      "checkedRevision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+      "same": true
+    }
+  ],
+  "currentTargets": [
+    {
+      "entityId": "state:ARG",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1831-01-04",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:ARG:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ],
+      "file": "state-ARG.json.gz",
+      "sha256": "9cff1d60060f4934032753e2d57eff87ef6ab1d20957225cf5211222471e1213"
+    },
+    {
+      "entityId": "state:BOL",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1825-08-06",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:BOL:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ],
+      "file": "state-BOL.json.gz",
+      "sha256": "20543afa2ca1b634519efd0c60daa33b3118235c6c03fb883e37b6d5acfe53a1"
+    },
+    {
+      "entityId": "state:COK",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1965-08-04",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:COK:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ],
+      "file": "state-COK.json.gz",
+      "sha256": "50fbbc98e3d7ef8422f2a9a591cd2c17034998a22fc2ea5fb48d1f1ce494bbcd"
+    },
+    {
+      "entityId": "state:EST",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1991-08-20",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:EST:natural-earth-5.1.1",
+          "validFrom": "1991-08-20",
+          "validTo": null,
+          "certainty": "medium",
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "sourceEntityId": "state:soviet-union-estonian-ssr",
+            "sourceGeometryVersionId": "state:soviet-union-estonian-ssr:1991-r1",
+            "evidenceStatus": "provisional",
+            "scope": "Existing Natural Earth-derived macro outline reused after the approved political transition; not an independent survey of every historical border or coast."
+          }
+        }
+      ],
+      "file": "state-EST.json.gz",
+      "sha256": "249303262ba0bf1e375730113b931e03f61bc6742142209866ed97f93b2dbf67"
+    },
+    {
+      "entityId": "state:LTU",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1990-03-11",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:LTU:natural-earth-5.1.1",
+          "validFrom": "1990-03-11",
+          "validTo": null,
+          "certainty": "medium",
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "sourceEntityId": "state:soviet-union-lithuanian-ssr",
+            "sourceGeometryVersionId": "state:soviet-union-lithuanian-ssr:1991-r1",
+            "evidenceStatus": "provisional",
+            "scope": "Existing Natural Earth-derived macro outline reused after the approved political transition; not an independent survey of every historical border or coast."
+          }
+        }
+      ],
+      "file": "state-LTU.json.gz",
+      "sha256": "be4f34299f6bbcbcd2a5974c940ca799b2cd68ce836bc9a9aa30209345012683"
+    },
+    {
+      "entityId": "state:LVA",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1991-08-21",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:LVA:natural-earth-5.1.1",
+          "validFrom": "1991-08-21",
+          "validTo": null,
+          "certainty": "medium",
+          "sourceId": "natural-earth-5.1.1",
+          "historicalProvenance": {
+            "sourceEntityId": "state:soviet-union-latvian-ssr",
+            "sourceGeometryVersionId": "state:soviet-union-latvian-ssr:1991-r1",
+            "evidenceStatus": "provisional",
+            "scope": "Existing Natural Earth-derived macro outline reused after the approved political transition; not an independent survey of every historical border or coast."
+          }
+        }
+      ],
+      "file": "state-LVA.json.gz",
+      "sha256": "80b0a4d37a38144eef2a0b86d68a22e2f650df315f63e832ed5600aeadc2e9a7"
+    },
+    {
+      "entityId": "state:PNG",
+      "entityKind": "general",
+      "parentEntityId": "",
+      "lifetime": {
+        "validFrom": "1975-09-16",
+        "validTo": null
+      },
+      "geometryVersions": [
+        {
+          "versionId": "state:PNG:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "natural-earth-5.1.1"
+        }
+      ],
+      "file": "state-PNG.json.gz",
+      "sha256": "a70a997898906c1596783a6d5c84f111b3c7d70191b1d6f59b2ec1d4d5ff3ec3"
+    }
+  ],
+  "decisions": {
+    "runtimeChanges": 0,
+    "ARG": "hold-current-1831-01-04-no-identity-guess",
+    "BOL": "preserve-current-1825-08-06-not-null",
+    "PNG": "no-2025-sovereignty-change-proven",
+    "COK": "no-free-association-termination-proven",
+    "reports": "refine-edition-and-security-wording-in-review-only",
+    "southernManualCandidates": "not-applied"
+  },
+  "checks": {
+    "remoteTreeDelta": true,
+    "sourceBlobDedup": true,
+    "scopedIndexRead": true,
+    "primaryTextReview": true,
+    "rawSignedOriginals": false,
+    "pdfScreenshots": false,
+    "geometryValidation": false,
+    "runtimeTests": false
+  },
+  "publication": {
+    "branch": "work/gis",
+    "mainPublicationCommand": false,
+    "forcePush": false,
+    "scope": "reports/borders/validation/reviews/scheduled-2026-10-25-2200"
+  }
+}
+

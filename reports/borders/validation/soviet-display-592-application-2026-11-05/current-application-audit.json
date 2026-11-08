@@ -1,0 +1,102 @@
+{
+  "status": "passed bounded approved592 application staging; no live store yet",
+  "gate": {
+    "sources": 6,
+    "countries": 5
+  },
+  "checks": [
+    {
+      "entity": "state:soviet-union",
+      "rawChunkNativeExact": true,
+      "allGeometryExactly592": true,
+      "lifetimeAndPeriodsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "rawChunkNativeExact": true,
+      "allGeometryExactly592": true,
+      "lifetimeAndPeriodsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "rawChunkNativeExact": true,
+      "allGeometryExactly592": true,
+      "lifetimeAndPeriodsPreserved": true
+    },
+    {
+      "entity": "state:IRN",
+      "rawChunkNativeExact": true,
+      "allGeometryExactly592": true,
+      "lifetimeAndPeriodsPreserved": true
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "rawChunkNativeExact": true,
+      "allGeometryExactly592": true,
+      "lifetimeAndPeriodsPreserved": true
+    },
+    {
+      "entity": "waterbody:caspian",
+      "rawChunkNativeExact": true,
+      "allGeometryExactly592": true,
+      "lifetimeAndPeriodsPreserved": true
+    }
+  ],
+  "compiledExact592": 6,
+  "allNonTargetSourceAndCountryDescriptorsPreserved": true,
+  "requiredMeshesDecoded": 11,
+  "meshesReused": 11,
+  "baselineMeshEntriesPreserved": 402,
+  "publishMeshEntries": 411,
+  "trialOnlyDescriptorsNotPublished": 3,
+  "physicalExactly592": true,
+  "waterHoles": 68,
+  "sourceVersionPeriods": 7,
+  "preparedOwner": "7cd224bd198c014d2215e35a93452702227d8314",
+  "prefixes": [
+    "assets/data/territorial-entities/generated/v2/index.json",
+    "assets/data/territorial-entities/generated/v2/state-soviet-union.json.gz",
+    "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+    "assets/data/territorial-entities/generated/v2/state-soviet-union-russian-sfsr.json.gz",
+    "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+    "assets/data/territorial-entities/generated/v2/state-soviet-union-byelorussian-ssr.json.gz",
+    "assets/data/territorial-entities/source/countries/state-soviet-union-byelorussian-ssr.json",
+    "assets/data/territorial-entities/generated/v2/state-IRN.json.gz",
+    "assets/data/territorial-entities/source/countries/state-IRN.json",
+    "assets/data/territorial-entities/generated/v2/state-soviet-union-ukrainian-ssr.json.gz",
+    "assets/data/territorial-entities/source/countries/state-soviet-union-ukrainian-ssr.json",
+    "assets/data/territorial-entities/generated/v2/waterbody-caspian.json.gz",
+    "assets/data/territorial-entities/source/countries/waterbody-caspian.json",
+    "assets/data/builtin-world/generated/v1/index.json",
+    "assets/data/builtin-world/generated/v1/countries/IRN-sha256-787d6baa4e6dd455c2559ad3df17b2a0d017ed9db48f67f43e957e6e98e76400.json.gz",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-9a3910936a2aa0b735d6ec0135c013b5598f7f08c5a076340d23334d0039fcc6.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-3edcaa44e707bdf755202014405dee9380feb7c2e2a001db2eb519ad474abf40.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-db1b74d385d8986d14bdff434ec6ab86ef5d2e1151fb7f66018cc72f273aa8ef.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-e3cfda64fce3b041f01950bb1b9f1b15342a63cf8d820ef71b18a6d7ac5ba4a8.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-1106bf08ef661535c2f61c5d7dbf3816db77190495ad7baa59ac64fb51ca6370.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-fca640b7eec46a43ca8062eb282d28d85318c3c505db4f7a089f450f628b4cfb.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-9728a407cb92c34073c4fb74c1e618b22348ad7918e1f9e8fdd6e327649c63f1.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-82b3f67f05b7d63b82c58c2f544c6d7da87121deb560fe2c0286fa9ab52b800a.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-db698064eaabcb5998597f44fc33973e65b2f674c4009605340415c8e968bca8.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-70efcdae866ae02683e73f336f6ec3bc12276a03919d1779735c7ca55d5a4f71.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-a17a82df62fe38deaa1528f872d760b8f16092c2e4c8ed8e083607ab8eea8f16.bin",
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-25ecebc5c1c13ac1e19a980001c0348fe3c763f23596b137ff3aee5a1cd38ba7.json.gz",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-d80022f06cb5b81f01e1a5e90a4846b3ed069777262066fef5c197f459ed9ef1.bin",
+    "assets/data/builtin-world/generated/v1/country-parts/sha256-7a80592605c69fb42fb798e1eeedf18ab93f2f190917451b4c608b79abe957d2.bin",
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-2f5749324df63d9480826c9782b487cd7c81f74fed7c8704a1bc26e3c0d7dbc6.json.gz",
+    "assets/data/prepared-polygons/generated/v2/manifest.json",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7c82fff64a3eecc235a4640a0d94cbd3af9d8218b8537c6b4274f99fceb96010.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8ee9f00dbc56bdc732dc2636f40500802d6ffe770998e9f0f2989008b4367d92.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-777cfb1d86270f2e830cb6945e0209fa92dfc2781e776765e0fb3d7d19dbcdcc.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0a610f3c200b64297010b0b84c831eef8aa3f6e01b675472e06081413b9c1341.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4d68aa7a9bda5d39faf5435523e05784467bf0804635cb7fffe02688d7be558d.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f8d795de589da851bddfea5eadd6a12f297a7e43f6e855ab74aed274109a308d.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a92aeb4c35b345ea836c4d13080605ce256f69639cb6b3d33053e5868277a380.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cc4fce8e23797c843ae6edc11ab7710f35f8c3ed4a7e67833ebc94485a7f51b6.bin.gz",
+    "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b04dc706adae5039f87f02427b2b242ce2832ba6cb566d04da1124f2d49c8360.bin.gz",
+    "assets/data/physical-land/v1/manifest.json",
+    "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+    "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+    "reports/borders/validation/soviet-display-592-application-2026-11-05"
+  ]
+}

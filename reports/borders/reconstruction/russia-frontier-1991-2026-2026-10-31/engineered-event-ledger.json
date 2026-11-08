@@ -1,0 +1,82 @@
+{
+  "scope": "A-H Russian exterior boundary research, Crimea/Lithuania excluded",
+  "baseline_pin": "c73d3f562d35f92d749458c9890bec02875ff605",
+  "country_dates_unchanged": true,
+  "reverse_event_groups": [
+    {
+      "event": "China border agreement control transfer",
+      "signed": "2004-10-14",
+      "effective": "2005-06-02",
+      "implementation_protocol": "2008-07-21",
+      "control_transfer": "2008-10-14",
+      "panels": [
+        "G",
+        "H"
+      ],
+      "status": "no polygon change; claim/control and geographic registration unresolved; G frozen",
+      "status_is_historical_snapshot": true,
+      "research_status": "retired_research_under_500km2",
+      "research_retired_on": "2026-11-04",
+      "research_retirement": {
+        "reason": "User requested retirement of all previously researched territorial changes below 500 km2. Historical geometry status and existing outputs are preserved; unresolved geometry issues do not remain an active research queue.",
+        "record": "../../history/sub500-research-retirement-2026-11-04.md",
+        "G": {
+          "record_id": "S19",
+          "reference_region_area_km2": 62,
+          "reference_region_area_approximate": true,
+          "area_type": "whole Abagaitu region, not measured transferred area",
+          "actual_transfer_area_km2": null,
+          "cutoff_conclusion": "Transferred part lies within the approximately 62 km2 subject region, so it is below 500 km2; no new measurement is required for retirement.",
+          "source": "https://www.fmprc.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhgjty/ldbjty/202303/P020230320538049906247.pdf",
+          "publication_hold": "Separate user stop remains in force; no automatic resumption, generation, publication, or app pin change."
+        },
+        "H": {
+          "record_id": "S20",
+          "reported_transferred_land_area_km2": 171,
+          "reported_area_approximate": true,
+          "area_type": "land assigned to China on 2008-10-14, not the approximately 335 km2 whole disputed region",
+          "sources": [
+            "https://www.mod.gov.cn/gfbw/gfjy_index/4815541.html",
+            "https://hljfy.gov.cn/fys/c101456/tt.shtml"
+          ]
+        }
+      }
+    },
+    {
+      "event": "Kazakh-Russian border treaty",
+      "signed": "2005-01-18",
+      "effective": "2006-01-12",
+      "announcement": "2006-01-24",
+      "physical_handover": null,
+      "panels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "applied_to_shared_edge_model": true,
+      "before_interval_end_exclusive": "2006-01-12",
+      "before_interval_start": null,
+      "post_interval_start": "2006-01-12",
+      "same_date_undo_order": [
+        "F",
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "ABC_status": "engineering_reconstruction",
+      "DEF_status": "separate_conditional_SK42_scenario",
+      "F_scope": "common traced easting range only; no invented west extension",
+      "date_source": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280420e3a",
+      "freshly_rechecked_utc": "2026-10-31T11:24:00Z",
+      "research_status": "retired_research_under_500km2",
+      "research_retired_on": "2026-11-04",
+      "research_retirement_record": "../../history/sub500-research-retirement-2026-11-04.md",
+      "research_retirement_note": "S01-S04 already retired A-F detailed research; ABC_status and DEF_status remain historical geometry scenario evidence, not an active work queue."
+    }
+  ]
+}

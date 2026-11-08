@@ -1,0 +1,250 @@
+{
+  "status": "pass_engineered_geometry_with_500m_zero_weight_knots",
+  "country_checks": [
+    {
+      "file": "01-post-2006-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "02-reverse-F-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "02-reverse-E-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "02-reverse-D-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "02-reverse-C-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "02-reverse-B-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "02-reverse-A-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    },
+    {
+      "file": "03-pre-2006-RUS-KAZ.geojson",
+      "valid": true,
+      "union_diff_deg2": 0.0,
+      "overlap_deg2": 0.0,
+      "CHN_intersection_change_deg2": {
+        "RUS": 0.0,
+        "KAZ": 0.0
+      }
+    }
+  ],
+  "line_checks": [
+    {
+      "panel": "A",
+      "new_source_vertex_sequence_exact": true,
+      "common_left_collar_exact": true,
+      "common_right_collar_exact": true,
+      "old_interior_vertices_beyond500m_unchanged": true,
+      "actual_affected_segment_extent_from_ends_m": [
+        500.0000828650471,
+        499.8790268023416
+      ],
+      "reverse_arc_exact": true,
+      "shared_sampling": {
+        "new_with_common_collars": {
+          "n": 3482,
+          "max_distance_deg": 4.8320705742443276e-15
+        },
+        "old_with_common_collars": {
+          "n": 2783,
+          "max_distance_deg": 4.79351595640794e-15
+        }
+      },
+      "collar_lengths_geodesic_m": [
+        3297.207321330671,
+        3734.2249771295806
+      ]
+    },
+    {
+      "panel": "B",
+      "new_source_vertex_sequence_exact": true,
+      "common_left_collar_exact": true,
+      "common_right_collar_exact": true,
+      "old_interior_vertices_beyond500m_unchanged": true,
+      "actual_affected_segment_extent_from_ends_m": [
+        499.99841953091465,
+        499.9995311925336
+      ],
+      "reverse_arc_exact": true,
+      "shared_sampling": {
+        "new_with_common_collars": {
+          "n": 2624,
+          "max_distance_deg": 4.899716840581702e-15
+        },
+        "old_with_common_collars": {
+          "n": 3476,
+          "max_distance_deg": 4.818366279125915e-15
+        }
+      },
+      "collar_lengths_geodesic_m": [
+        3737.579622091333,
+        4294.625535276079
+      ]
+    },
+    {
+      "panel": "C",
+      "new_source_vertex_sequence_exact": true,
+      "common_left_collar_exact": true,
+      "common_right_collar_exact": true,
+      "old_interior_vertices_beyond500m_unchanged": true,
+      "actual_affected_segment_extent_from_ends_m": [
+        500.00001537123774,
+        499.9999068758168
+      ],
+      "reverse_arc_exact": true,
+      "shared_sampling": {
+        "new_with_common_collars": {
+          "n": 2263,
+          "max_distance_deg": 4.363322570275709e-15
+        },
+        "old_with_common_collars": {
+          "n": 1989,
+          "max_distance_deg": 4.499805477755689e-15
+        }
+      },
+      "collar_lengths_geodesic_m": [
+        3116.161374179701,
+        2985.1946293213655
+      ]
+    },
+    {
+      "panel": "D",
+      "new_source_vertex_sequence_exact": true,
+      "common_left_collar_exact": true,
+      "common_right_collar_exact": true,
+      "old_interior_vertices_beyond500m_unchanged": true,
+      "actual_affected_segment_extent_from_ends_m": [
+        499.9997175474981,
+        499.9999844923807
+      ],
+      "reverse_arc_exact": true,
+      "shared_sampling": {
+        "new_with_common_collars": {
+          "n": 3806,
+          "max_distance_deg": 7.88052397964053e-15
+        },
+        "old_with_common_collars": {
+          "n": 3535,
+          "max_distance_deg": 7.39227969256866e-15
+        }
+      },
+      "collar_lengths_geodesic_m": [
+        4321.3565062735,
+        3153.028716592294
+      ]
+    },
+    {
+      "panel": "E",
+      "new_source_vertex_sequence_exact": true,
+      "common_left_collar_exact": true,
+      "common_right_collar_exact": true,
+      "old_interior_vertices_beyond500m_unchanged": true,
+      "actual_affected_segment_extent_from_ends_m": [
+        499.9968990793751,
+        499.9987284832402
+      ],
+      "reverse_arc_exact": true,
+      "shared_sampling": {
+        "new_with_common_collars": {
+          "n": 4073,
+          "max_distance_deg": 7.669498962918475e-15
+        },
+        "old_with_common_collars": {
+          "n": 3762,
+          "max_distance_deg": 6.8728160014827156e-15
+        }
+      },
+      "collar_lengths_geodesic_m": [
+        4156.736200739501,
+        3241.433011794615
+      ]
+    },
+    {
+      "panel": "F",
+      "new_source_vertex_sequence_exact": true,
+      "common_left_collar_exact": true,
+      "common_right_collar_exact": true,
+      "old_interior_vertices_beyond500m_unchanged": true,
+      "actual_affected_segment_extent_from_ends_m": [
+        499.9989148545724,
+        499.99977929026505
+      ],
+      "reverse_arc_exact": true,
+      "shared_sampling": {
+        "new_with_common_collars": {
+          "n": 2626,
+          "max_distance_deg": 7.810597320254554e-15
+        },
+        "old_with_common_collars": {
+          "n": 2615,
+          "max_distance_deg": 7.57190124191706e-15
+        }
+      },
+      "collar_lengths_geodesic_m": [
+        3262.7409426549702,
+        4607.148125110412
+      ]
+    }
+  ],
+  "remote_sources_unchanged": {
+    "state:RUS": true,
+    "state:KAZ": true,
+    "state:CHN": true
+  },
+  "G_unchanged": true,
+  "scope": "Engineering reconstruction only. Approvedconnector policy is separatefrom historicalsurvey orfullcountryera validity."
+}

@@ -1,0 +1,77 @@
+{
+  "verdict": "PASS as source-faithful hybrid candidate with explicit retained masks and historical positional/date uncertainty; not claim of entire boundary newly established",
+  "raw_points": 380,
+  "display_points": 369,
+  "display_monotonic_raw_subset": true,
+  "max_raw_to_corresponding_display_segment_m": 91.67491791296986,
+  "max_flatZoom64_width900_csspx": 0.1833023123231363,
+  "bound_reason": "Every raw segment between consecutive selected endpoints lies in convex 100m capsule of corresponding displayed segment in chosen LCC calculation frame. This bounds continuous polyline, not only sparse samples.",
+  "coverage": {
+    "main_baseline_points": 274,
+    "main_baseline_edges": 273,
+    "main_raw_points": 380,
+    "main_display_points": 369,
+    "replaced_chain_ranges": [
+      [
+        3.647249661777064,
+        67.12803307965221
+      ],
+      [
+        89.93137617371625,
+        262.26997786310494
+      ]
+    ],
+    "retraced_baseline_length_km": 1798.3209762459878,
+    "retained_baseline_length_km": 274.4382547309822,
+    "whole_edges_retraced": 235,
+    "whole_edges_retained": 34,
+    "mixed_edges": 4,
+    "crimea_edges_retained": 98,
+    "crimea_water_edges": 95,
+    "crimea_land_edges": 3,
+    "display_max_vertex_to_line_m": 91.67491791295058
+  },
+  "whole_retained_edges_exact": 34,
+  "crimea_all98_edges_exact": true,
+  "locked_endpoints_exact": true,
+  "virtual_three_owner_proof": [
+    {
+      "kind": "source",
+      "valid": [
+        true,
+        true,
+        true
+      ],
+      "pair_overlaps_deg2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "union_change_deg2": 0.0,
+      "unchanged_outside_arc_splices": true
+    },
+    {
+      "kind": "compiled",
+      "valid": [
+        true,
+        true,
+        true
+      ],
+      "pair_overlaps_deg2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "union_change_deg2": 0.0,
+      "unchanged_outside_arc_splices": true
+    }
+  ],
+  "candidate_sha256": "152fa9b3de3f88c0ec97c9e0523bdc9b7b070764b1f136ecedbe6a951b134a43",
+  "raw_source_provenance": {
+    "source_pixels_entries": 392,
+    "all_raw_points_from_transformed_observed_pixels_or_baseline_or_four_actual_intersections": true,
+    "unmatched_raw_indices": [],
+    "intersection_anchor_max_distance_to_baseline_deg": 0.0,
+    "all_four_partial_edge_joins_on_baseline": true
+  }
+}

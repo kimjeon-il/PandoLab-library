@@ -1,0 +1,103 @@
+{
+  "raw_ring_valid": false,
+  "raw_ring_reason": "Self-intersection[117.885516937121 49.5475366364147]",
+  "assembly": "node route crossings and polygonize bounded faces; no buffer0 or guessed closure",
+  "comparison_components": 4,
+  "component_areas_km2": [
+    0.24828751819765568,
+    0.0005123399164676666,
+    0.4255369700250998,
+    33.560100055649784
+  ],
+  "valid": true,
+  "validity_reason": "Valid Geometry",
+  "old_source_route_simple": true,
+  "new_route_simple": true,
+  "shared_start_exact": true,
+  "shared_confluence_exact": true,
+  "area_km2": 34.23443688378901,
+  "perimeter_km": 43.716850705347916,
+  "bounds": [
+    117.87516501523793,
+    49.54253029340418,
+    118.01017023548836,
+    49.62150165561282
+  ],
+  "map_engine_polygon_export": false,
+  "construction": "deterministic geographic assembly from official exported source lines plus explicit approximate treaty coordinates",
+  "runtime_or_country_files_changed": false,
+  "protect_common_scope": "Southern shared loop below source Yfork excluded; no mutation of originalGpixelcommon arrays; no geographic claim ofpixelmaskregistration",
+  "fixes_applied": [
+    {
+      "name": "oldborder_sheet_join",
+      "source_endpoints": [
+        [
+          118.00101663231192,
+          49.59573797216566
+        ],
+        [
+          118.00099264757803,
+          49.59478952315771
+        ]
+      ],
+      "separation_m": 105.501939019742,
+      "shared_candidate_endpoint": [
+        118.00100463994497,
+        49.59526374766168
+      ],
+      "method": "mean of separately georeferenced endpoints of source-identified same stream crossing adjacent1979sheets; NOT a surveyed coordinate",
+      "allowed_for_runtime": false
+    },
+    {
+      "name": "northern_hydro_sheet_join",
+      "source_endpoints": [
+        [
+          118.00110643592743,
+          49.614758808381175
+        ],
+        [
+          118.00082981597596,
+          49.61738447929934
+        ]
+      ],
+      "separation_m": 292.71483922043404,
+      "shared_candidate_endpoint": [
+        118.00096812595169,
+        49.61607164384026
+      ],
+      "method": "mean of separately georeferenced endpoints of source-identified same stream crossing adjacent1979sheets; NOT a surveyed coordinate",
+      "allowed_for_runtime": false
+    },
+    {
+      "name": "treaty71_on_hydro",
+      "source_endpoint": [
+        117.88504943196969,
+        49.54342880979863
+      ],
+      "candidate_endpoint": [
+        117.88504168130932,
+        49.543623900060936
+      ],
+      "distance_m": 21.705238046135065,
+      "interpretation": "2004 approximate XY interpreted asGK20/SK42; independently compared to2022MSK75zone4zoning strip, not an explicit treaty datum statement"
+    },
+    {
+      "name": "treaty72_on_hydro",
+      "source_endpoint": [
+        117.89129714559228,
+        49.59444451593895
+      ],
+      "candidate_endpoint": [
+        117.89121734837852,
+        49.594467585671886
+      ],
+      "distance_m": 6.313960192752545,
+      "interpretation": "same provisional legal-coordinate interpretation"
+    }
+  ],
+  "treaty_datums_explicitly_verified": false,
+  "actual1991_control_polygon_verified": false,
+  "exact2008_transfer_polygon_verified": false,
+  "candidate_direction_not_inferred": "All bounded source difference lobes; not automatically Russia-loss or China-gain",
+  "primary_parameter_source": "https://kerzhenskiy.ru/wp-content/uploads/2020/03/gis-metodichka_final.pdf pages154-156,167"
+}

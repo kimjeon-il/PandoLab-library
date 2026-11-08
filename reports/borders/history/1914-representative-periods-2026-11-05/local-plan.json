@@ -1,0 +1,112 @@
+{
+  "application": "ebc525a87e32808c3bf5f3cb008618a95fb58fba",
+  "dataPin": "b6c3c85bba690244829bdec93c58682d9342bda8",
+  "localOnly": true,
+  "compiledWithoutPeerClipping": true,
+  "dates": [
+    {
+      "id": "state:DEU",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "endEventDate": "1918-11-09",
+      "referenceDate": "1914-07-31"
+    },
+    {
+      "id": "state:austro-hungarian-empire",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "endEventDate": "1918-10-31",
+      "referenceDate": "1914-07-28"
+    },
+    {
+      "id": "state:kingdom-of-serbia",
+      "validFrom": "1882-03-06",
+      "validTo": "1918-11-30",
+      "endEventDate": "1918-12-01",
+      "referenceDate": "1914-07-28"
+    }
+  ],
+  "protectedFiles": 81,
+  "pausedFiles": [
+    "apps/viewer/css/viewer.css",
+    "apps/viewer/js/modules/viewer-composition.js",
+    "apps/viewer/js/modules/viewer-map.js",
+    "apps/viewer/templates/index.html",
+    "shared/frontend/js/modules/builtin-month-clock.js",
+    "shared/frontend/js/modules/builtin-session.js",
+    "shared/frontend/js/modules/builtin-world-loader.js",
+    "tests/unit/builtin-month-clock.test.mjs",
+    "tools/build-builtin-world.mjs",
+    "apps/viewer/js/modules/viewer-reference-view.js",
+    "docs/superpowers/plans/2026-11-05-reference-date-view.md",
+    "docs/superpowers/specs/2026-11-05-reference-date-view-design.md",
+    "tests/browser/viewer-reference-date.spec.mjs",
+    "tests/unit/builtin-reference-view.test.mjs",
+    "tests/unit/reuse-reviewed-geometry.test.mjs",
+    "tests/unit/viewer-reference-controller.test.mjs",
+    "tools/gis/reuse-reviewed-geometry.mjs"
+  ],
+  "files": [
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "bytes": 1028500,
+      "sha256": "218aa4079669bb4a7b2a6aa013c941e6a30318ea99f60924d4db6e862bde15c6"
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-DEU.json.gz",
+      "bytes": 118448,
+      "sha256": "785e1b34b6c9cd1202391504c6b20abc9539511693038e8de0ef831ba0939f7f"
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "bytes": 427474,
+      "sha256": "73a88d6b8ee0341fdf2ad1425714f0d6fa49c2e51fae422f929ce1db73be29a9"
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-austro-hungarian-empire.json.gz",
+      "bytes": 51200,
+      "sha256": "3e11d5cf184e92a1e8d2bd841a66b586635204cd9869d3f0cc2e4cd7f1344110"
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-kingdom-of-serbia.json",
+      "bytes": 99732,
+      "sha256": "99b7c9040d98ec8f4199043690307fcd7ec3c5cca4829f110568e69d144929d0"
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/state-kingdom-of-serbia.json.gz",
+      "bytes": 13202,
+      "sha256": "9ff77321b92312905c6fb870e002e6420c6e4ace5483de68b031dd227f8b313f"
+    },
+    {
+      "logical": "assets/data/territorial-entities/generated/v2/index.json",
+      "bytes": 1790371,
+      "sha256": "21b8ad15b6a3add1a664378de0a3c62851884542c11241e4294d632ca56c6147"
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/DEU-sha256-31917b0441e45c85df5bc8afb89c1330e8e11acb5898e7cf703cfd9a1d9c013a.json.gz",
+      "bytes": 155295,
+      "sha256": "31917b0441e45c85df5bc8afb89c1330e8e11acb5898e7cf703cfd9a1d9c013a"
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-austro-hungarian-empire-sha256-8ba006594c3bc81126f1d9b20499d7a8aa03271deb77d74f3d56e5e0e02e96f7.json.gz",
+      "bytes": 47373,
+      "sha256": "8ba006594c3bc81126f1d9b20499d7a8aa03271deb77d74f3d56e5e0e02e96f7"
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/state-kingdom-of-serbia-sha256-66809d040ce77b3c8f662d0ec1f71475c5873d6c9d2ff9bae65b45d4ef80bc6f.json.gz",
+      "bytes": 11680,
+      "sha256": "66809d040ce77b3c8f662d0ec1f71475c5873d6c9d2ff9bae65b45d4ef80bc6f"
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 148852,
+      "sha256": "2123bddbe2aca538431643147106ab0e7b0d89b0edcce8fece17a45534167433"
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/coverage-report.json",
+      "bytes": 52860,
+      "sha256": "de16a9eb1c8fe690442ecae5a28da90c204f1494ff25c07837b323e607657568"
+    }
+  ],
+  "applied": true
+}

@@ -1,0 +1,85 @@
+{
+  "baseApp": "c7549c04d7fa6a22242ebb166474ac19374efd3c",
+  "baseData": "e6b41735c1f6ebc174a14ecba887093346c8481b",
+  "entities": [
+    {
+      "entityId": "state:soviet-union",
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "sourceBeforeSha256": "2349653732db13731c3dea4c9cfe5c893dbe804eb1fcb63779dbf6fd620aa219",
+      "sourceAfterSha256": "c28fee01d8bd6ff0658aabbb892278da72897c072f4d4d63458324b2fd1bc06e",
+      "builtinBeforeRef": {
+        "id": "historical-world:bc2ebb8e2c0e02363a317335c1a4d39e1464bb8545ab81c2f65bc92583fe278b",
+        "version": 1
+      },
+      "builtinAfterRef": {
+        "id": "historical-world:8f6d0e46b891d05aef353668f818c2f3efede1023a8e3e1a54b035eb9e4a4ec5",
+        "version": 1
+      },
+      "newPreparedMeshDigest": "c3b190407704ffa114e50e8efa698229685cec6aea95433df73b0b601aca6714",
+      "preparedCacheContainsNewGeometry": false,
+      "otherPeriodsUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "sourceVersionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "sourceBeforeSha256": "4cb9efd719edced4cb937a1549051a78ba71979632b5680bbfe325e7c4a2d4ab",
+      "sourceAfterSha256": "ec0c1b42de4deeb4905a425130bfd97147559e269279be03905bd07d2be5b246",
+      "builtinBeforeRef": {
+        "id": "historical-world:5d70fe8162c10138bd946236c016abd0372b5d22b495d2ce62e3fb13f005ed83",
+        "version": 1
+      },
+      "builtinAfterRef": {
+        "id": "historical-world:7a9d34d9f0d7f1fec4231475dbd139e6bba232fef2c27d62731eaa28136c0a21",
+        "version": 1
+      },
+      "newPreparedMeshDigest": "eed33c82292da67e4a200aa0b3576154dc58f8ddb982995180e1e33b744b6a4f",
+      "preparedCacheContainsNewGeometry": false,
+      "otherPeriodsUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "sourceVersionId": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "sourceBeforeSha256": "34a0aaef71f114131666261ab627c9a2a90624476eabc60669e81ba08a3c688b",
+      "sourceAfterSha256": "d416ea63fffb09637c4c6454e865d4465ef122d014551cc5cb875687ccc3a610",
+      "builtinBeforeRef": {
+        "id": "historical-world:34a0aaef71f114131666261ab627c9a2a90624476eabc60669e81ba08a3c688b",
+        "version": 1
+      },
+      "builtinAfterRef": {
+        "id": "historical-world:a940caea28359703beae8bad19b3943b307b9f1da43008374ac59936a9ec477e",
+        "version": 1
+      },
+      "newPreparedMeshDigest": "bd8cce2cc7d8303f014eddb29362b8b7bf499ffefe7dd4303bc73fe7c1ed3a9e",
+      "preparedCacheContainsNewGeometry": false,
+      "otherPeriodsUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "sourceVersionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "sourceBeforeSha256": "db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+      "sourceAfterSha256": "6049ebe05e41af02b0103d667418f2181a81b7f7c6d692785722258bc3c2d035",
+      "builtinBeforeRef": {
+        "id": "historical-world:db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+        "version": 1
+      },
+      "builtinAfterRef": {
+        "id": "historical-world:e2d945ec5f896365a667fb6929f953ae03224837d1eb40aa288111ee7f3a1f1b",
+        "version": 1
+      },
+      "newPreparedMeshDigest": "28bb2ff8f96ddbcecb6f9efd786d43043a2c6b99c58f3765d0780a1ba5ebbf4f",
+      "preparedCacheContainsNewGeometry": false,
+      "otherPeriodsUnchanged": true
+    }
+  ],
+  "romaniaChanged": false,
+  "otherCountriesRecomputed": false,
+  "preparedMeshPolicy": "Keep content-addressed old meshes; new geometry digest uses normal runtime cache-miss generation.",
+  "transport": {
+    "schemaVersion": 1,
+    "url": "transport/countries-sha256-b90bbea8c99e7caee6577069349130a1cdc6ac5848dc0d43ce31bf94e4389502.bin",
+    "encoding": "identity",
+    "sha256": "b90bbea8c99e7caee6577069349130a1cdc6ac5848dc0d43ce31bf94e4389502",
+    "compressedBytes": 11886235,
+    "decodedBytes": 11886235
+  }
+}

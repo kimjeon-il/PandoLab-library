@@ -1,0 +1,51 @@
+{
+  "baseApp": "c4672cac416bfcb481671b2912fc017cdb945c20",
+  "baseData": "9d3ca74c7b81091114a3b23e7cd1394d43623ec2",
+  "entities": [
+    {
+      "entityId": "state:soviet-union",
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "sourceBeforeSha256": "4f44f8eba6c28ba513a1f34cd808d948f22d97db30f635615e091a1cb27d286e",
+      "sourceAfterSha256": "2349653732db13731c3dea4c9cfe5c893dbe804eb1fcb63779dbf6fd620aa219",
+      "builtinBeforeRef": {
+        "id": "historical-world:9a64a6e936cd14bd66e0cfecd290144318ed4cfbe616439a172e962a702212a3",
+        "version": 1
+      },
+      "builtinAfterRef": {
+        "id": "historical-world:971dfc81ba2ff90ba1c29bcad12099c98e580bd33d1a7f944f59d7824646516e",
+        "version": 1
+      },
+      "newPreparedMeshDigest": "725fdd9ca4e704e3fbfcb57bc52a61cfef8a10dc2e6d832af0f8f68c47ec6854",
+      "preparedCacheContainsNewGeometry": false,
+      "otherPeriodsUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "sourceVersionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "sourceBeforeSha256": "391166c9abe71100dbf5bc162b1d47e98943ab1d5731d19e4975abfa721820ef",
+      "sourceAfterSha256": "db0937af3813461ec51227acfd7ddfdfb8df04d345a75a4563d987232d59e5ca",
+      "builtinBeforeRef": {
+        "id": "historical-world:391166c9abe71100dbf5bc162b1d47e98943ab1d5731d19e4975abfa721820ef",
+        "version": 1
+      },
+      "builtinAfterRef": {
+        "id": "historical-world:6143728e232e40e0139559b6687cf51f4bc1f68fbc6fafc3278beef97370e79d",
+        "version": 1
+      },
+      "newPreparedMeshDigest": "5412bde5145956b43c49e96caeff843bea3af483b8aed6c21175f0d954d1c624",
+      "preparedCacheContainsNewGeometry": false,
+      "otherPeriodsUnchanged": true
+    }
+  ],
+  "romaniaChanged": false,
+  "otherCountriesRecomputed": false,
+  "preparedMeshPolicy": "Keep content-addressed old meshes; new geometry digest uses normal runtime cache-miss generation.",
+  "transport": {
+    "schemaVersion": 1,
+    "url": "transport/countries-sha256-84bf0e1f99dd1c7f8ade561cb5f3f859574dcb822c65f819ec9039a879984176.bin",
+    "encoding": "identity",
+    "sha256": "84bf0e1f99dd1c7f8ade561cb5f3f859574dcb822c65f819ec9039a879984176",
+    "compressedBytes": 11792028,
+    "decodedBytes": 11792028
+  }
+}

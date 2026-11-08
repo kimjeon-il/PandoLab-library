@@ -1,0 +1,51 @@
+{
+  "status": "candidate-archive-complete/runtime-not-applied",
+  "recoveryDate": "2026-10-25",
+  "method": "supported Library materialization on user-requested parent environment",
+  "zipCrcPassed": true,
+  "pngPixelsInspected": true,
+  "atrekPngContainsIdenticalCoreGeojsonMetadata": true,
+  "mongolia": {
+    "masterVertices": 60,
+    "simplifiedVertices": 18,
+    "maxMasterVertexDeviationCssPx": 0.41753585225198814,
+    "interiorVerticesUnchangedByJoining": true,
+    "polygonsValid": [
+      true,
+      true
+    ],
+    "unionSymmetricDifferenceDeg2": 0.0,
+    "overlapDeg2": 0.0,
+    "changedAreaOutsideBClipDeg2": 0.0,
+    "baseline": "local original pinned 36210d5f, NOT latest runtime",
+    "latestRuntimeReconciliationPerformed": false
+  },
+  "limits": [
+    "Atrek datum and transition semantics unresolved",
+    "Mongolia pre/post validity dates and source datum unresolved",
+    "1958 Mongolia endpoints still held",
+    "No runtime polygons, dates, lifetimes or pins changed"
+  ],
+  "inputFiles": [
+    {
+      "name": "B-simplified-joined-maxzoom.png",
+      "bytes": 127592,
+      "sha256": "fd7e5fbc09e1565473b3e48fc75fb6f761dd0748b8ec83e887be7ae7f2039cd0"
+    },
+    {
+      "name": "atrek-retrace-diagnostic.png",
+      "bytes": 312532,
+      "sha256": "078efb419b77b51ab49bbbbf2cfae00c28e237cc65dc7ef9d45ede796e5bbce7"
+    },
+    {
+      "name": "B-border-candidate-simplified-20261024.zip",
+      "bytes": 475177,
+      "sha256": "57365f97978370e109d23c1650b14f3068d9e21be1934f854356199851ed1fc7"
+    }
+  ],
+  "atrekRemoteGeojsonComparison": {
+    "featuresIdentical": true,
+    "coreMetadataIdenticalExceptMetricNoteHtmlEscaping": true,
+    "difference": "remote metric_note has &lt;= where PNG/local has <=; numerical values unchanged"
+  }
+}

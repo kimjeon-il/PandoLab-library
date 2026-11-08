@@ -1,0 +1,143 @@
+{
+  "fit_type": "affine",
+  "source": "same observed corrected symbols; no current-border fitting",
+  "matrix": [
+    [
+      224650.68914965843,
+      -34312.75993690177
+    ],
+    [
+      595702.8401628167,
+      -48172.586233129376
+    ],
+    [
+      -42586.15750791633,
+      -606276.5810032265
+    ]
+  ],
+  "input_normalization": {
+    "origin": [
+      1200,
+      600
+    ],
+    "scale": 1000
+  },
+  "control_residuals": [
+    {
+      "name": "Homyel'",
+      "fit_km": 5.499156836046632,
+      "LOO_km": 6.462034003307073
+    },
+    {
+      "name": "Novozybkov",
+      "fit_km": 6.196827029040016,
+      "LOO_km": 7.529754859226035
+    },
+    {
+      "name": "Chernihiv",
+      "fit_km": 1.9902462853740208,
+      "LOO_km": 2.2037384477203856
+    },
+    {
+      "name": "Kyiv",
+      "fit_km": 3.50647437591865,
+      "LOO_km": 4.534415989280116
+    },
+    {
+      "name": "Ovruch",
+      "fit_km": 3.0476721456743734,
+      "LOO_km": 3.9437302395403107
+    },
+    {
+      "name": "Korosten",
+      "fit_km": 2.665561401378248,
+      "LOO_km": 3.7949982744492874
+    },
+    {
+      "name": "Novhorod-Siverskyi",
+      "fit_km": 4.304393105609564,
+      "LOO_km": 5.0136836896208345
+    },
+    {
+      "name": "Konotop",
+      "fit_km": 1.6725576352120672,
+      "LOO_km": 1.801187248390228
+    },
+    {
+      "name": "Hlukhiv",
+      "fit_km": 3.554299813040746,
+      "LOO_km": 4.083982357456626
+    },
+    {
+      "name": "Sumy",
+      "fit_km": 2.7041719813151515,
+      "LOO_km": 2.923592377655343
+    },
+    {
+      "name": "Kharkiv",
+      "fit_km": 0.6127280076651676,
+      "LOO_km": 0.6474056117457923
+    },
+    {
+      "name": "Belgorod",
+      "fit_km": 1.2537758079729557,
+      "LOO_km": 1.4085384093439384
+    },
+    {
+      "name": "Poltava",
+      "fit_km": 3.540308646053898,
+      "LOO_km": 3.861082558403917
+    },
+    {
+      "name": "Bakhmut",
+      "fit_km": 4.267670754960997,
+      "LOO_km": 4.643318694611609
+    },
+    {
+      "name": "Starobilsk",
+      "fit_km": 4.708674978358651,
+      "LOO_km": 5.294235805979736
+    },
+    {
+      "name": "Luhansk",
+      "fit_km": 3.974187471655258,
+      "LOO_km": 4.412073969189432
+    },
+    {
+      "name": "Millerovo",
+      "fit_km": 2.45179342779783,
+      "LOO_km": 2.9756542848976806
+    },
+    {
+      "name": "Taganrog",
+      "fit_km": 3.4717251363955537,
+      "LOO_km": 4.409660524096297
+    },
+    {
+      "name": "Novocherkassk",
+      "fit_km": 5.249637591913546,
+      "LOO_km": 6.253615773828316
+    },
+    {
+      "name": "Shakhty",
+      "fit_km": 2.525092718306733,
+      "LOO_km": 2.9333470113384825
+    },
+    {
+      "name": "Rostov-on-Don",
+      "fit_km": 3.2832548702628532,
+      "LOO_km": 4.014756051490685
+    }
+  ],
+  "fit_rms_km": 3.6253137198344594,
+  "LOO_rms_km": 4.286923881453312,
+  "LOO_max_km": 7.529754859226035,
+  "independent_holdout": [
+    {
+      "name": "Zhytomyr",
+      "residual_km": 1.5838038086106798
+    }
+  ],
+  "status": "Candidate single continuous registration; uncertainty retained; not survey accuracy",
+  "projection_frame": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",50,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",32,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",48,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",52,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]"
+}
