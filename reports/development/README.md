@@ -117,7 +117,6 @@
 | [공통 지도·열람 구조 정리 구현과 검증](storage/shared-viewing-cleanup-2026-10-19.md) | UI-SHARED-VIEWING-20261019 | 2026-10-19 | `local-validation / native-unverified / unpublished` |
 | [국가 존속기간과 지도 자료 제공 기간 분리](ui/country-lifetime-2026-10-21.md) | OBJ-MAIN-SYNC-20261021 |  | web-app-core-verified |
 | [편집 가능한 라이브러리 구현 현황](ui/editable-library-2026-10-21.md) | UI-LIBRARY-20261021 |  | implementation-partial / app-unverified |
-| [편집 상태와 복구 동작 구현 검증](ui/editing-state-recovery-2026-10-18.md) | UI-EDIT-20261018 | 2026-10-18 | `deployed-web-ci-incomplete` |
 | [편집기 앱 작업표시줄의 시점 이동 제거](ui/editor-status-timeline-removal-2026-10-19.md) | UI-EDITOR-STATUS-TIME-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
 | [객체가 없는 시점의 육지 소실 원인 조사](ui/empty-time-land-mask-2026-10-19.md) | UI-EMPTY-TIME-LAND-20261019 | 2026-10-19 | `reproduced / cause-confirmed / not-fixed / native-unverified` |
 | [기본 세계 역사 타임라인 검증](ui/historical-world-timeline-validation.md) | DEV-003 | 2026-10-12 | `historical-record` |
@@ -125,7 +124,6 @@
 | [Info tab v9 — implementation and visual verification](ui/info-tab-v9-visual-validation-2026-10-06.md) | DEV-072 | 2026-10-06 | `historical-record` |
 | [초기 지도 요소의 표시 시차와 새 프로젝트의 흰 화면 조사](ui/initial-map-and-project-transition-2026-10-21.md) | UI-INITIAL-MAP-20261021 | 2026-10-21 | `historical-record / follow-up-linked` |
 | [초기 지도 배경과 새 프로젝트 전환의 표시 연속성 수정](ui/initial-map-continuity-2026-10-21.md) | UI-INITIAL-MAP-FIX-20261021 | 2026-10-21 | `local-verified / release-followup-linked` |
-| [기존 동작을 유지하는 내부 명칭 정리](ui/internal-naming-2026-10-18.md) | DEV-NAMING-20261018 | 2026-10-18 | `verified-naming / baseline-test-failures` |
 | [지도 배율별 품질과 표시 준비 상태](ui/map-scale-readiness-2026-10-20.md) | UI-MAP-SCALE-20261020 | 2026-10-20 | `focused-verified / native-webview2-verified / unpublished` |
 | [웹·앱 불필요 기능 정리와 공통 소유자 유지 검증](ui/product-pruning-2026-10-19.md) | UI-PRODUCT-PRUNING-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
 | [참고 이미지 UI — 최신 work/ui 통합 검증](ui/reference-image-ui-integration-2026-10-19.md) | DEV-REF-UI-SYNC-20261019 | 2026-10-19 | `focused-verified / existing-base-check-failure / native-unverified` |
@@ -135,12 +133,8 @@
 | [웹·앱 공통 소유자 통합 및 검증 · 확대/축소 UI 회귀 수정](ui/shared-output-refactor-2026-10-19.md) | UI-SHARING-REFACTOR-20261019 | 2026-10-19 | `focused-verified / published / native-unverified` |
 | [웹·앱 공통 열람 규칙 연결 수정](ui/shared-view-policy-fix-2026-10-19.md) | UI-POLICY-FIX-20261019 | 2026-10-19 | `focused-verified / published / existing-ci-failures` |
 | [보기 메뉴의 내장 자료 구분 제거](ui/source-visibility-menu-2026-10-19.md) | UI-SOURCE-VISIBILITY-20261019 | 2026-10-19 | `released-in-followup / see UI-CANVAS-GLOBE-20261019` |
-| [시점별 객체 편집과 라이브러리 삽입](ui/temporal-editing-2026-10-16.md) | DEV-077 | 2026-10-16 | `implemented` |
 | [UI 독자 규칙 통합 P0 — 구조·상태·회귀 기준 조사](ui/ui-convergence-p0-audit-2026-10-20.md) | UI-CONVERGENCE-P0-20261020 | 2026-10-20 | `source-audited / focused-runtime-baseline-not-rerun` |
-| [UI 구조 통일 P2 — 검색창 DOM 고정·가로 화면 CSS 분리](ui/ui-convergence-p2-2026-10-20.md) | UI-CONVERGENCE-P2-20261020 | 2026-10-20 | `implemented / focused-browser-verified / native-unverified` |
-| [UI 구조 통일 P4 — 참조 이미지 공통 Surface 통합](ui/ui-convergence-p4-2026-10-21.md) | UI-CONVERGENCE-P4-20261021 | 2026-10-21 | `implemented / focused-browser-verified / staged-app-verified / native-unverified` |
 | [상위·하위·지방 객체의 표시 규칙 통합](ui/unified-object-display-2026-10-19.md) | UI-OBJECT-DISPLAY-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
-| [일반객체·지방객체 통합의 과거 단계별 진행 기록](ui/unified-objects-sdd-progress.md) |  |  | 원문 참조 |
 | [웹 열람 UI 공유 누락 조사와 복원](ui/viewing-ui-reuse-repair-2026-10-18.md) | UI-VIEWING-REPAIR-20261018 | 2026-10-18 | `verified-web-release / native-unverified` |
 | [웹 열람·앱 편집 분리와 휴대폰 가로 화면](ui/web-app-product-split-2026-10-18.md) | UI-PRODUCT-SPLIT-20261018 | 2026-10-18 | `focused-verified / native-device-unverified` |
 
