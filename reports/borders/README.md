@@ -23,6 +23,7 @@
 | [아시아 국가 존속기간 1차 — 필리핀·카타르·동티모르](history/lifetimes/country-lifetime-asia-phl-qat-tls-2026-10-29.md) | GEO-LIFE-017 | 2026-10-29 | `investigating / phase-1 / not-applied` |
 | [아시아 3개국 국가 존속기간 — 파키스탄·말레이시아·네팔](history/lifetimes/country-lifetime-asia-south-southeast-2026-10-23.md) | GEO-LIFE-011 | 2026-10-23 (2026-10-24 복구) | `investigating / phase-1` |
 | [유럽 역사 정치체 1차 — 양시칠리아 왕국·하노버 왕국·크라쿠프 자유시](history/lifetimes/country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md) | GEO-LIFE-022 | 2026-11-03 | `investigating / phase-1 / provisional / not-applied` |
+| [유럽 역사 정치체 1차 — 바이에른 왕국·뷔르템베르크 왕국·바르샤바 공국](history/lifetimes/country-lifetime-europe-historic-bavaria-wurttemberg-warsaw-2026-11-09.md) | GEO-LIFE-028 | 2026-11-09 | `investigating / phase-1 / provisional / not-applied` |
 | [유럽 국가 존속기간 공란 27개 — 1801년 이후 조사](history/lifetimes/country-lifetime-europe-1801-plus-2026-10-15.md) | GEO-LIFE-004 | 2026-10-15 | `investigating` |
 | [유럽 발트 3국 국가 존속기간 — 2차 교차검증](history/lifetimes/country-lifetime-europe-baltic-2026-10-22.md) | GEO-LIFE-010 | 2026-10-22 (2026-10-24 복구) | `investigating / phase-2` |
 | [유럽 역사 정치체 국가 존속기간 — 체코슬로바키아·동독·유고슬라비아](history/lifetimes/country-lifetime-europe-csk-ddr-yug-2026-10-28.md) | GEO-LIFE-016 | 2026-10-28 | `investigating / phase-1 / not-applied` |
