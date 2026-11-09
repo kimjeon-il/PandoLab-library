@@ -1,0 +1,98 @@
+{
+  "status": "source2-island-versions-published-and-exact-remote-verified",
+  "at": "2026-11-09T23:21:19.313Z",
+  "expectedRevision": "4e0811c6c0e1a4f38f99325ac8dc924a28722f1b",
+  "expectedBranch": "main",
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/source/geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+    "assets/data/territorial-entities/source/geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json"
+  ],
+  "removePaths": [],
+  "push": true,
+  "planSha256": "9efe22bbe52bdf5e0c4e06b5b6e861e212efebee36c6de508954d5ce5da6362e",
+  "applicationSha256": "16ea3add5dea56cbebd86830cbf3bdb6eae76efae7d7f0b2c015419b0baea880",
+  "sourceOnlyAuthoring": true,
+  "runtimeAdopted": false,
+  "compiledApproved": false,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "generatedOutputsUpdated": false,
+  "pgaRetirementApplied": false,
+  "currentProducerProofApplicableToNewSources": false,
+  "revision": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+  "remoteBytes": [
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "sha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "bytes": 22186,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "bytes": 68278,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+      "sha256": "a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129",
+      "bytes": 150767,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json",
+      "sha256": "caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50",
+      "bytes": 152956,
+      "exact": true
+    }
+  ],
+  "versions": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "sourceGate": 1,
+      "unchangedVersions": 0
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "sourceGate": 1,
+      "unchangedVersions": 2
+    }
+  ],
+  "counts": {
+    "priorEntities": 272,
+    "priorVersions": 285,
+    "nextEntities": 273,
+    "nextVersions": 287,
+    "addedVersionIds": [
+      {
+        "entityId": "state:austro-hungarian-empire",
+        "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1"
+      },
+      {
+        "entityId": "state:DEU",
+        "versionId": "state:DEU:1914-07-31-display-r1"
+      }
+    ]
+  },
+  "preservation": {
+    "allUnselectedArchiveEntries": true,
+    "original285SelectedVersions": true,
+    "generatedChunksIndexWorldViewPGAAndMeshes": true,
+    "operationalCodeAndWASM": true,
+    "fixedCompilerRootAndMount": true,
+    "gisPin": true,
+    "reportOwnersRefs": true,
+    "mainPinAdvance": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+    "mainAppUncommittedOnly": "config/library-data.json",
+    "autoProductionDisabled": true
+  }
+}

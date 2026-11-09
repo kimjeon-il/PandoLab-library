@@ -1,0 +1,109 @@
+{
+  "status": "source2-authoring-complete-not-stored",
+  "at": "2026-11-09T23:17:12.498Z",
+  "baseline": "4e0811c6c0e1a4f38f99325ac8dc924a28722f1b",
+  "codeCommit": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+  "moduleHashes": {
+    "tools/data/territorial-entity-sources.mjs": "7870ec004689bdcf7d7df8dc1913e3970a323d64ab0c937cff9b103a166c3c98",
+    "tools/data/territorial-source-codec.mjs": "bee34d36cf0b70e8623fc93cebe29df8e0546855306f5a8ccfce971eb5c474e7",
+    "tools/gis/territorial-library.js": "ec0b5cf4e862cd356b7260bc39af33386c14d57e46933e2d967bb9983121dcc7",
+    "tools/gis/historical-display-review.mjs": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563",
+    "tools/data/library-runtime.mjs": "3440bfe3a3c42ac70e48f63a1b25f4953ce9728d886844aaf41ca7134b2c5932",
+    "tools/data/library-context.mjs": "92e506112b712f8602ff87e117b2401170758f56b7ce94ee78c4e1115f45698a",
+    "tools/data/library-store.mjs": "c8edd05e39ddb9f2f5e14bc8b96158f49457fd1549cf27f2bfd6a6855552219a",
+    "config/library-auto-sync.json": "b177db380b9bef4dbb5934b9e862b026a68c7c65c3736c8cb45dbbd40aee286a",
+    "assets/wasm/pandoeditor-core.js": "96c184815104456b0ff78f433aac1048878ea59de98e0f5eb575bdbfb63ee096",
+    "assets/wasm/pandoeditor-core.wasm": "a1a1ff6172e950f670b96f477125761f884006b16491d23bd51026ed373c77f3",
+    "assets/wasm/pandoeditor-core.manifest.json": "ebae0688300a8bbabc5cdff2dfedbe4d33a2500647d8dcf8c67829d5cbea89c2"
+  },
+  "planSha256": "9efe22bbe52bdf5e0c4e06b5b6e861e212efebee36c6de508954d5ce5da6362e",
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/source/geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+    "assets/data/territorial-entities/source/geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json"
+  ],
+  "removePaths": [],
+  "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\0bbfb00bd7c126251c6747ddbad77812d963acd8\\scopes\\d2eed3f8a8631dfd477e029f2b00081515272f3f26d73d8c24032623a89e635c",
+  "sourceOnlyAuthoring": true,
+  "runtimeAdopted": false,
+  "compiledApproved": false,
+  "pgaRetirementApplied": false,
+  "generatedOutputsUpdated": false,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "currentAttempt3SourceRevision": "b539680fd8ee77c7e4c801735e7f31611185457c",
+  "currentAttempt3ProofApplicableToNewSources": false,
+  "applied": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "beforeDescriptorSha256": "6eaf3cb3a1e34e4e19f3833cf497d1e3493c089e864125fbf81090c49a724f37",
+      "beforeEntitySha256": "32e16d02fde00e333623f281882976b81658971d1414da6fe3dde680e179bd7d",
+      "beforeVersionSha256": "e2f5f7eb26cee7c5f3d57ac85446307b997fa7e066a8d242da365d0147bee752",
+      "expectedEntitySha256": "d22ea0a3a3568199322f82d1b742479775aee57a89fecb12538d6a9db4a4caff",
+      "expectedVersionSha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "expectedDescriptorSha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "expectedDescriptorBytes": 22186,
+      "unchangedVersions": [],
+      "sourceGate": 1
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "beforeDescriptorSha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+      "beforeEntitySha256": "704904df6de613d2d512aaf5592b83fab7c09e34541ea7b81535c977afda481a",
+      "beforeVersionSha256": "1f457d3f6e207a3e2f955b7529f695f7df636e699fb73e82fa47ecaf324d4823",
+      "expectedEntitySha256": "34c38a9e956aac7b85d4bf25821a9d1e16e12a3bcee0f017a877caee14cdca65",
+      "expectedVersionSha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "expectedDescriptorSha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "expectedDescriptorBytes": 68278,
+      "unchangedVersions": [
+        {
+          "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+          "sha256": "2c6f609124a48b0f06dfacad3474620f18fc46afb0fd80f2d05f3a5e981bd8d2"
+        },
+        {
+          "versionId": "state:DEU:natural-earth-5.1.1",
+          "sha256": "7abb6979cab1b70ac9d26868217cfb970637f8a1caadf24cac5bbaa863382fce"
+        }
+      ],
+      "sourceGate": 1
+    }
+  ],
+  "sourceGates": 2,
+  "preparation": {
+    "membershipMetadata": 553,
+    "selectedGeometrySources": 2,
+    "reprepare": false,
+    "remount": false,
+    "cacheRetirement": false,
+    "canonicalGitCompactionMayRun": true
+  },
+  "fixedState": {
+    "mount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\3810379b36b8179201971198cfaa560f56d97d101d53b8934aebaac21f0485a9\\assets\\data",
+    "ownerSha256": "8bead2e6c52f134a38a5c2f5930e16c2729d8c40043b152f23da6b66ecd4b941",
+    "pinSha256": "d25671d3d15f97cb96883ad816cb27746b8adbc53bb84f608fc7e33b7dd9ad4e"
+  },
+  "mainPinBefore": "11a5fe6132dc36a13cc81bc0a93f0ba0d9ed9cd5",
+  "lease": {
+    "id": "main-02dc027f-4b90-4405-85ab-3fdc0c124cdb",
+    "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\0bbfb00bd7c126251c6747ddbad77812d963acd8\\scopes\\d2eed3f8a8631dfd477e029f2b00081515272f3f26d73d8c24032623a89e635c",
+    "revision": "4e0811c6c0e1a4f38f99325ac8dc924a28722f1b"
+  },
+  "preservation": {
+    "otherVersionsAndMetadata": true,
+    "original285SelectedVersions": true,
+    "allUnselectedMaterializedEntries": true,
+    "fixedRootMountInputsAndOwner": true,
+    "codeWasm": true,
+    "reportOwnersRefs": true,
+    "gisPin": true,
+    "runtimeAndPGAUnchanged": true
+  }
+}

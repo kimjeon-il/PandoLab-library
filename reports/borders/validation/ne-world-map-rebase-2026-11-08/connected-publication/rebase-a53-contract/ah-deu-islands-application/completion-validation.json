@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "status": "completed-source-only-two-island-version-publication-verified",
+  "at": "2026-11-09T23:23:17.518Z",
+  "revision": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+  "evidenceRevision": "4e0811c6c0e1a4f38f99325ac8dc924a28722f1b",
+  "sourcePublicationResult": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/ah-deu-islands-application/application/publication-result.json",
+    "sha256": "5524a4d2471bf680deb2980b50c13341858076ecf5e5ee72956e3f2336b67802"
+  },
+  "exactPaths": [
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "sha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "bytes": 22186,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "bytes": 68278,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+      "sha256": "a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129",
+      "bytes": 150767,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json",
+      "sha256": "caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50",
+      "bytes": 152956,
+      "exact": true
+    }
+  ],
+  "sourceGates": 2,
+  "actualVersions": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "sourceGate": 1,
+      "unchangedVersions": 0
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "sourceGate": 1,
+      "unchangedVersions": 2
+    }
+  ],
+  "counts": {
+    "selectedEntities": 273,
+    "selectedVersions": 287,
+    "historicalEntities": 30,
+    "historicalVersions": 37,
+    "endedHistoricalVersions": 35,
+    "sourceValidatedOnly": true,
+    "newSourceCompiledViewerActivatedVersions": 0
+  },
+  "preservation": {
+    "original285Versions": true,
+    "unselectedArchiveEntries": 14681,
+    "runtimeGeneratedPGAAndWorldViewUnchanged": true,
+    "allRawReportsUnchangedBySourceCommit": true,
+    "executionCodeAndWasmFilesRehashed": 62,
+    "attempt3ScriptUnchanged": true,
+    "activeComputationNotModified": true,
+    "sourceOnlyApprovalNotAppliedToCurrentProducer": true
+  },
+  "limits": {
+    "wholeCountriesComplete": false,
+    "sourceProvisionalPeriodsUnchanged": true,
+    "fullPeriodDatedCounterpartClosureVerified": false,
+    "compiledApproved": false,
+    "runtimeAdopted": false,
+    "openCoastConnectorsIncluded": false
+  },
+  "localState": {
+    "mainHead": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+    "mainStatus": "M config/library-data.json",
+    "mainPin": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+    "gisHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+    "gisStatus": "",
+    "gisPin": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+    "fixedPin": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+    "publicViewerPinUnchanged": "11a5fe6132dc36a13cc81bc0a93f0ba0d9ed9cd5"
+  }
+}
