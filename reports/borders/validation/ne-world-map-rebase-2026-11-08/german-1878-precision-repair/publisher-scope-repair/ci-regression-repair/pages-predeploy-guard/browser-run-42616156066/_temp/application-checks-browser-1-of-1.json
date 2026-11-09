@@ -1,0 +1,86 @@
+{
+  "status": "executed",
+  "plan": {
+    "schema": "pando-application-check-plan-v1",
+    "changedFiles": [],
+    "unitTests": [],
+    "unitTestPrerequisites": {},
+    "browserSpecs": [
+      "tests/browser/rendering/country-prepared-scene.spec.mjs"
+    ],
+    "browserPrerequisites": [
+      "core",
+      "generated"
+    ],
+    "explicitPrerequisites": [],
+    "externalChecks": [],
+    "commands": [
+      "web-stage"
+    ],
+    "prerequisites": [
+      "core",
+      "generated"
+    ],
+    "reasons": {},
+    "manualTests": [
+      "tests/browser/document/codespaces-live.spec.mjs",
+      "tests/browser/rendering/canvas-globe-performance.spec.mjs",
+      "tests/browser/runtime/p3-remote-preview.spec.mjs",
+      "tests/browser/ui/deferred-builtin-timeline.spec.mjs"
+    ],
+    "inventory": {
+      "unit": 252,
+      "browser": 18
+    },
+    "comparison": {
+      "event": "push",
+      "base": "d783b6a3b035ef87229f1ea6e74aaf2005db6d93",
+      "requestedBase": "d783b6a3b035ef87229f1ea6e74aaf2005db6d93",
+      "head": "d783b6a3b035ef87229f1ea6e74aaf2005db6d93",
+      "workingTree": false,
+      "files": []
+    }
+  },
+  "execution": {
+    "phase": "browser",
+    "shard": "1/1"
+  },
+  "ok": true,
+  "results": [
+    {
+      "id": "core",
+      "argv": [
+        "node",
+        "scripts/check-core-prerequisite.mjs"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "generated",
+      "argv": [
+        "node",
+        "scripts/generate-build-metadata.mjs",
+        "--check"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "browser",
+      "argv": [
+        "node",
+        "node_modules/@playwright/test/cli.js",
+        "test",
+        "tests/browser/rendering/country-prepared-scene.spec.mjs",
+        "--workers=1",
+        "--shard",
+        "1/1"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    }
+  ],
+  "stagingEvidence": null,
+  "externalChecks": []
+}

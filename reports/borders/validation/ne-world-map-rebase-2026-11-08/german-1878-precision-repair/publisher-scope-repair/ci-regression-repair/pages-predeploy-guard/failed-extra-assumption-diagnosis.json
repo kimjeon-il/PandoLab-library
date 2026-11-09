@@ -1,0 +1,10 @@
+{
+  "status": "failed-test-assumption-not-production-proof",
+  "run": "https://github.com/kimjeon-il/Pando/actions/runs/42614768234",
+  "code": "a8a744857856dcc9dac9332c0e47f53c29192af5",
+  "data": "11a5fe6132dc36a13cc81bc0a93f0ba0d9ed9cd5",
+  "failure": "The first new Soviet extra scene/resource/draw predicate timed out. Ordinary Viewer and web-stage passed. No page or console errors occurred.",
+  "evidence": "Trace network contains zero requests for the target packet126172f72171a22341f5e3bb3d187803e93efa2f4b6ca97e6bd86ce9e6a60028; other prepared packets were requested.",
+  "rootCause": "Generator precomputes scope.extent and scope.extra. Shipped territorialScope displayEntities/displayFeature returns canonical entity.geometry; builtin-session/map-content-presentation use that geometry. Only runtime scope() consumer fits extent, never extra. Independent reviewer confirmed the extra packet is not a natural independent displayed overlay.",
+  "correction": "Removed unreachable-target assertions, not production behavior. Final UI gate covers actual1922-12-31 and2024-12 navigation, reload, real WebGL context restoration and document preservation. Exact no-raster asset and GPU fixture proof remains separate; no fabricated draws or injected geometry."
+}
