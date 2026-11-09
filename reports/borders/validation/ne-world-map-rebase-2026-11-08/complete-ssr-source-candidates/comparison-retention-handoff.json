@@ -1,0 +1,30 @@
+{
+  "removedBytes": 4522,
+  "cleanupEvidence": "cleanup-proof.json",
+  "retained": [
+    {
+      "dir": "singlecut",
+      "reason": "Successful39-country production baseline, independent validity and exact comparison reference",
+      "bytes": 23641626
+    },
+    {
+      "dir": "singlecut-bounds-traced",
+      "reason": "Successful39-country candidate outputs plus unique20542-call trace and equivalence evidence",
+      "bytes": 28703627
+    },
+    {
+      "dir": "singlecut-bounds-candidate",
+      "reason": "Unique cancellation/start evidence and exact aborted loader/runner for audit; duplicate input manifest removed",
+      "bytes": 8869
+    },
+    {
+      "dir": "period-plan",
+      "reason": "Current consumer: scoped65-source/41-cut execution preparation and dependency rechecks; screen retained until final execution input is frozen",
+      "bytes": 76262517
+    }
+  ],
+  "equivalenceProofSha256": "231f42bf5721bb6735e55bdde66baefa206098985d958d851ee0a6074cc61e3b",
+  "sourceWrites": false,
+  "productionWrites": false,
+  "largeJobsRunning": false
+}

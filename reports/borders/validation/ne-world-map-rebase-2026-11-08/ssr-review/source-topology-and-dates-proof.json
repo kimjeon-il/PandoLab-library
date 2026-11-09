@@ -1,0 +1,2505 @@
+{
+  "status": "source-stage-only-pending-parent-compiled-review",
+  "runtime": {
+    "gdal": "GDAL 3.13.3 \"Iowa City\", released 2026/08/13",
+    "geos": [
+      3,
+      15,
+      0
+    ]
+  },
+  "scope": [
+    "ARM",
+    "AZE",
+    "BLR",
+    "EST",
+    "GEO",
+    "KGZ",
+    "LVA",
+    "LTU",
+    "MDA",
+    "TJK",
+    "TKM",
+    "UZB"
+  ],
+  "neighborDonorIds": [
+    "AFG",
+    "CHN",
+    "IRN",
+    "KAZ",
+    "POL",
+    "ROU",
+    "RUS",
+    "TUR",
+    "UKR"
+  ],
+  "sourceChecks": [
+    {
+      "entityId": "state:soviet-union-armenian-ssr",
+      "versionId": "state:soviet-union-armenian-ssr:1991-r1",
+      "donorId": "ARM",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-09-22"
+      },
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-09-22"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:ARM",
+        "lifetime": {
+          "validFrom": "1991-09-23",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-09-23",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 2,
+        "holes": 3,
+        "valid": true
+      },
+      "donor": {
+        "components": 2,
+        "holes": 3,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 2,
+        "holes": 2,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            44.84577178233414,
+            40.07249555000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            45.51466436320779,
+            40.62925620000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "AZE",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 970917.6904570503,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "GEO",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 211136.80852922302,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "TUR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 302004.2129287009,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "IRN",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 43420.13693244915,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=40.0704884 +lon_0=45.04088045 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-09-23",
+        "criterion": "Legal independence decision entering into force, not referendum day",
+        "sources": [
+          "https://arlis.am/en/acts/3212/download/act"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-azerbaijan-ssr",
+      "versionId": "state:soviet-union-azerbaijan-ssr:1991-r1",
+      "donorId": "AZE",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-10-17"
+      },
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-10-17"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:AZE",
+        "lifetime": {
+          "validFrom": "1991-10-18",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-10-18",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 7,
+        "holes": 1,
+        "valid": true
+      },
+      "donor": {
+        "components": 7,
+        "holes": 1,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 6,
+        "holes": 1,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            45.52129734133974,
+            39.31583975000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            44.95495134228808,
+            39.789063500000054
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            47.726409595305014,
+            40.150393300000076
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            50.595726687935496,
+            40.31761305000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 4,
+          "point": [
+            50.360839858326855,
+            40.43888990000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 5,
+          "point": [
+            45.209263424886096,
+            40.99481395000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 6,
+          "point": [
+            45.015245306473844,
+            41.06238980000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "ARM",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 970917.4164446869,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "GEO",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 419427.4509334442,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "RUS",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 335345.6883863855,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "IRN",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 673723.8318484683,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "TUR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 16267.649430863123,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=40.1522865 +lon_0=47.69479785 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-10-18",
+        "criterion": "Constitutional independence act",
+        "sources": [
+          "https://president.az/ru/articles/view/53489"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "versionId": "state:soviet-union-byelorussian-ssr:1991-r1",
+      "donorId": "BLR",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-08-24"
+      },
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1991-08-24"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:BLR",
+        "lifetime": {
+          "validFrom": "1991-08-25",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-08-25",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 1,
+        "holes": 1,
+        "valid": true
+      },
+      "donor": {
+        "components": 1,
+        "holes": 1,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 1,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            28.03553589192611,
+            53.71526135000008
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "RUS",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1260195.7820170403,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "UKR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1057806.9809594306,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "POL",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 388922.56777805084,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "LTU",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 604218.8949893418,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "LVA",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 154817.78270522557,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=53.7172009000001 +lon_0=27.9774296000001 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-08-25",
+        "criterion": "Constitutional force for sovereignty declaration",
+        "sources": [
+          "https://archives.gov.by/home/organy-arhivnogo-dela-i-deloproizvodstva-i-sistema-gosudarstvennyh-arhivnyh-uchrezhdenij/respublikanskie-arhivnye-uchrezhdeniya/uchrezhdenie-belorusskij-gosudarstvennyj-arhiv-kinofotofonodokumentov-bgakffd/belorusskij-gosudarstvennyj-arhiv-kinofotofonodokumentov/konstitucziya-vysshaya-yuridicheskaya-sila-gosudarstva-k-30-letiyu-so-dnya-prinyatiya-konstituczii-respubliki-belarus/perechen-fotodokumentov-peralik-fotadakumenta%D1%9E-list-of-photo/08-177"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-estonian-ssr",
+      "versionId": "state:soviet-union-estonian-ssr:1991-r1",
+      "donorId": "EST",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-08-19"
+      },
+      "lifetime": {
+        "validFrom": "1940-08-06",
+        "validTo": "1991-08-19"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:EST",
+        "lifetime": {
+          "validFrom": "1991-08-20",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-08-20",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 122,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 122,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 8,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            22.041730547923372,
+            57.89223615000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            22.04291738181675,
+            57.89647850000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            22.2282909483134,
+            58.077331350000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            22.508888151686705,
+            58.11667755000008
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 4,
+          "point": [
+            22.51009133859434,
+            58.11938620000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 5,
+          "point": [
+            22.47310743691908,
+            58.144221850000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 6,
+          "point": [
+            22.508809682879786,
+            58.15101460000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 7,
+          "point": [
+            22.50749587574004,
+            58.217161350000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 8,
+          "point": [
+            21.999092975470635,
+            58.23629495000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 9,
+          "point": [
+            21.99859750598649,
+            58.23672885000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 10,
+          "point": [
+            21.915492916990218,
+            58.239116350000074
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 11,
+          "point": [
+            21.929178992992924,
+            58.24591140000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 12,
+          "point": [
+            21.92592716741771,
+            58.31338555000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 13,
+          "point": [
+            21.78822380973555,
+            58.317914450000075
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 14,
+          "point": [
+            21.78507107692092,
+            58.33382165000003
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 15,
+          "point": [
+            21.872571302691036,
+            58.35830015000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 16,
+          "point": [
+            21.845816873766324,
+            58.36275235000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 17,
+          "point": [
+            21.93183984001263,
+            58.366279200000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 18,
+          "point": [
+            21.854810156346826,
+            58.369953500000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 19,
+          "point": [
+            21.86445642055896,
+            58.38264150000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 20,
+          "point": [
+            21.830739798498623,
+            58.40019110000003
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 21,
+          "point": [
+            21.87435600081546,
+            58.46698235000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 22,
+          "point": [
+            21.87643229139949,
+            58.46776900000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 23,
+          "point": [
+            21.87977529384445,
+            58.47011235000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 24,
+          "point": [
+            21.88099613139599,
+            58.47104820000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 25,
+          "point": [
+            22.278554918598076,
+            58.52264245000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 26,
+          "point": [
+            22.238137536784997,
+            58.53596980000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 27,
+          "point": [
+            22.23703089912972,
+            58.536628250000064
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 28,
+          "point": [
+            22.13966590634683,
+            58.90247480000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 29,
+          "point": [
+            22.417126752269496,
+            58.95907180000003
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 30,
+          "point": [
+            22.40283353243667,
+            58.978057000000064
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 31,
+          "point": [
+            22.545229956235108,
+            58.141807250000056
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 32,
+          "point": [
+            22.58876843538772,
+            58.203526400000044
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 33,
+          "point": [
+            22.277032569247552,
+            58.27266962500006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 34,
+          "point": [
+            23.170995104834137,
+            58.438062700000046
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 35,
+          "point": [
+            23.158589141867097,
+            58.454454500000054
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 36,
+          "point": [
+            23.16108528628467,
+            58.45686935000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 37,
+          "point": [
+            23.139484216770192,
+            58.53615975000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 38,
+          "point": [
+            23.05239774839025,
+            58.624103200000064
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 39,
+          "point": [
+            23.023310167672296,
+            58.637542989064904
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 40,
+          "point": [
+            22.544434093643194,
+            58.648740350000054
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 41,
+          "point": [
+            23.127400988065368,
+            58.65536240000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 42,
+          "point": [
+            23.134197399718303,
+            58.74142430000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 43,
+          "point": [
+            23.09482217685789,
+            58.75228285000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 44,
+          "point": [
+            22.791573306346812,
+            58.75667820000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 45,
+          "point": [
+            22.79183082393634,
+            58.75696120000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 46,
+          "point": [
+            22.792369800000046,
+            58.757500150000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 47,
+          "point": [
+            23.079059362921438,
+            58.76372510000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 48,
+          "point": [
+            23.046894715066195,
+            58.77185790000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 49,
+          "point": [
+            23.00323828156512,
+            58.80313788772598
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 50,
+          "point": [
+            22.89969096991947,
+            58.80787760000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 51,
+          "point": [
+            23.07128229126389,
+            58.82008650000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 52,
+          "point": [
+            22.975585210818473,
+            58.823242950000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 53,
+          "point": [
+            23.1247605990912,
+            58.83318035000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 54,
+          "point": [
+            22.70511134811086,
+            58.89186595000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 55,
+          "point": [
+            23.065286334433342,
+            58.89931040000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 56,
+          "point": [
+            22.971990661346233,
+            58.952294600000045
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 57,
+          "point": [
+            23.082139288418077,
+            58.97433365000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 58,
+          "point": [
+            22.989975403400297,
+            58.98170590000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 59,
+          "point": [
+            23.00292639858769,
+            58.98281895000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 60,
+          "point": [
+            22.882243119633507,
+            58.984590850000046
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 61,
+          "point": [
+            22.58379297724833,
+            59.092495400000075
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 62,
+          "point": [
+            23.239651289968673,
+            57.805483625000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 63,
+          "point": [
+            23.282055905358444,
+            58.42659805000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 64,
+          "point": [
+            23.270072958213962,
+            58.45307905000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 65,
+          "point": [
+            23.270441196615096,
+            58.45352380000003
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 66,
+          "point": [
+            23.63635542080041,
+            58.46009925000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 67,
+          "point": [
+            23.650261987712717,
+            58.499186500000064
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 68,
+          "point": [
+            23.331657587782686,
+            58.53551090000008
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 69,
+          "point": [
+            23.431131539989163,
+            58.54114025000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 70,
+          "point": [
+            23.52137103344027,
+            58.55545445000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 71,
+          "point": [
+            23.505876506183057,
+            58.594511700000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 72,
+          "point": [
+            23.225276775200904,
+            58.59059572500007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 73,
+          "point": [
+            23.429519534860184,
+            58.63202425000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 74,
+          "point": [
+            23.170323081841147,
+            58.75228850000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 75,
+          "point": [
+            23.34281143647342,
+            58.763101850000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 76,
+          "point": [
+            23.66517089007728,
+            58.768279550000045
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 77,
+          "point": [
+            23.393607512003513,
+            58.838466450000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 78,
+          "point": [
+            23.390290138565213,
+            58.870497500000056
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 79,
+          "point": [
+            23.352062420947142,
+            58.90074540000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 80,
+          "point": [
+            23.28233702782523,
+            58.94207535000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 81,
+          "point": [
+            23.384936911583328,
+            58.94489165000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 82,
+          "point": [
+            23.262614773478997,
+            58.94620550000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 83,
+          "point": [
+            23.545944699184325,
+            58.95086605000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 84,
+          "point": [
+            23.241509582565737,
+            58.95350970000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 85,
+          "point": [
+            23.24214264967056,
+            58.95451280000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 86,
+          "point": [
+            23.565988090189357,
+            58.95726780000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 87,
+          "point": [
+            23.256969329336812,
+            58.96204010000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 88,
+          "point": [
+            23.585989211045693,
+            58.96200790000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 89,
+          "point": [
+            23.24669017045931,
+            59.00697752500005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 90,
+          "point": [
+            23.41752622021589,
+            59.006744000000054
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 91,
+          "point": [
+            23.299707460508706,
+            59.04106710000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 92,
+          "point": [
+            23.386634199447293,
+            59.29250332473763
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 93,
+          "point": [
+            24.472943509571,
+            58.074249500000064
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 94,
+          "point": [
+            23.98397258429452,
+            58.12182497500005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 95,
+          "point": [
+            23.958147318641032,
+            58.171034200000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 96,
+          "point": [
+            24.197557564472937,
+            58.17975375000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 97,
+          "point": [
+            24.125832346798816,
+            58.21742932112289
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 98,
+          "point": [
+            24.005378700240364,
+            58.28348210000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 99,
+          "point": [
+            23.7986394192287,
+            58.33763630000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 100,
+          "point": [
+            23.666825122407257,
+            58.438504900000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 101,
+          "point": [
+            23.666963871653024,
+            58.44680305000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 102,
+          "point": [
+            23.666881506494576,
+            58.512234050000046
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 103,
+          "point": [
+            23.667149223400518,
+            58.51252960000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 104,
+          "point": [
+            23.667418723936336,
+            58.51279910000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 105,
+          "point": [
+            23.668222796002887,
+            58.513832550000046
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 106,
+          "point": [
+            25.50215907130661,
+            58.59144045000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 107,
+          "point": [
+            23.9141374556106,
+            59.32801755752936
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 108,
+          "point": [
+            23.93943434538265,
+            59.33347680000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 109,
+          "point": [
+            23.98261792744708,
+            59.33371417500007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 110,
+          "point": [
+            25.374319962357575,
+            59.51284910000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 111,
+          "point": [
+            25.311732915496897,
+            59.52221670000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 112,
+          "point": [
+            25.138865748561344,
+            59.54077340000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 113,
+          "point": [
+            25.27132511773554,
+            59.54174130000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 114,
+          "point": [
+            24.51429095438328,
+            59.56333730000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 115,
+          "point": [
+            25.22253727687084,
+            59.57301788045743
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 116,
+          "point": [
+            24.784462255054834,
+            59.57495965000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 117,
+          "point": [
+            24.759984801929324,
+            59.58256135000008
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 118,
+          "point": [
+            25.08403570874215,
+            59.60478260000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 119,
+          "point": [
+            25.006064794856165,
+            59.63079627500005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 120,
+          "point": [
+            25.79727442310101,
+            59.68150055000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 121,
+          "point": [
+            26.509687193788,
+            59.680042900000046
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "RUS",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 303981.3888112612,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "LVA",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 325383.3246665383,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=58.5974462000001 +lon_0=24.9904745000001 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-08-20",
+        "criterion": "Restoration of independence",
+        "sources": [
+          "https://www.riigikogu.ee/en/introduction-and-history/history-riigikogu/supreme-soviet-essr-supreme-council-republic-estonia/"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-georgian-ssr",
+      "versionId": "state:soviet-union-georgian-ssr:1991-r1",
+      "donorId": "GEO",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-04-08"
+      },
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-04-08"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:GEO",
+        "lifetime": {
+          "validFrom": "1991-04-09",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-04-09",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 4,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 4,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 1,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            41.63934622494184,
+            42.18090700000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            41.63845646131033,
+            42.19379075000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            41.646985590573806,
+            42.204525450000034
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            43.68625408416408,
+            42.31740400000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "RUS",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 861430.5351247153,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "TUR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 258666.26408050043,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "ARM",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 211134.15404925824,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "AZE",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 419421.85691378283,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=42.3208915500001 +lon_0=43.3725583311855 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-04-09",
+        "criterion": "Restoration of independence",
+        "sources": [
+          "https://matsne.gov.ge/en/document/view/32362"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-kirghiz-ssr",
+      "versionId": "state:soviet-union-kirghiz-ssr:1991-r1",
+      "donorId": "KGZ",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-08-30"
+      },
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-08-30"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:KGZ",
+        "lifetime": {
+          "validFrom": "1991-08-31",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-08-31",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 2,
+        "holes": 6,
+        "valid": true
+      },
+      "donor": {
+        "components": 2,
+        "holes": 6,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 1,
+        "holes": 3,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            74.99248438871177,
+            41.22248840000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            72.76658966314004,
+            40.66793190000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "KAZ",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1180411.3229762325,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "CHN",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1024416.8709304159,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "TJK",
+          "overlapKm2": 2.9802322387695315e-13,
+          "exactSharedBoundaryMetres": 969475.843788955,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 2
+        },
+        {
+          "donorId": "UZB",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1351597.9514060111,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=41.2235787000001 +lon_0=74.7462087000001 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-08-31",
+        "criterion": "State independence declaration",
+        "sources": [
+          "https://cbd.minjust.gov.kg/14-1/edition/283835/ru"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-latvian-ssr",
+      "versionId": "state:soviet-union-latvian-ssr:1991-r1",
+      "donorId": "LVA",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-08-20"
+      },
+      "lifetime": {
+        "validFrom": "1940-08-05",
+        "validTo": "1991-08-20"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:LVA",
+        "lifetime": {
+          "validFrom": "1991-08-21",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-08-21",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 5,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 5,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 1,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            20.977066284770295,
+            56.32772350000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            20.998900903307966,
+            56.45252545000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            25.944612283780817,
+            56.879920800000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            24.103433114718477,
+            57.00379650000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 4,
+          "point": [
+            21.53563301544169,
+            57.40736265000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "EST",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 325387.15674907895,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "RUS",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 261194.88334159425,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "BLR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 154815.8981066787,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "LTU",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 522481.08397191815,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=56.88012875 +lon_0=24.6069157814827 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-08-21",
+        "criterion": "Full restoration of independence",
+        "sources": [
+          "https://likumi.lv/doc.php?id=75539&lang=en"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-lithuanian-ssr",
+      "versionId": "state:soviet-union-lithuanian-ssr:1991-r1",
+      "donorId": "LTU",
+      "sourceDates": {
+        "validFrom": "1990",
+        "validTo": "1990-03-10"
+      },
+      "lifetime": {
+        "validFrom": "1940-08-03",
+        "validTo": "1990-03-10"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:LTU",
+        "lifetime": {
+          "validFrom": "1990-03-11",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1990-03-11",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 6,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 6,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 2,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            24.181297445124272,
+            55.17476040000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            21.288063021216757,
+            55.299628650000045
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            21.312330605528405,
+            55.364790750000054
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            21.312530471611467,
+            55.36547470000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 4,
+          "point": [
+            21.100559991358335,
+            55.50384608625495
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 5,
+          "point": [
+            21.138721463636728,
+            55.659168900000054
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "LVA",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 522500.5827252048,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "BLR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 604220.9739709434,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "POL",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 95609.69221272442,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "RUS",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 233515.40540417196,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=55.1735973000001 +lon_0=23.8947331000001 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1990-03-11",
+        "criterion": "Restoration act, not Soviet recognition in1991",
+        "sources": [
+          "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.50850/"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-moldavian-ssr",
+      "versionId": "state:soviet-union-moldavian-ssr:1991-r1",
+      "donorId": "MDA",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-08-26"
+      },
+      "lifetime": {
+        "validFrom": "1940-08-02",
+        "validTo": "1991-08-26"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:MDA",
+        "lifetime": {
+          "validFrom": "1991-08-27",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-08-27",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 1,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 1,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 1,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            28.84238156854721,
+            46.981946400000055
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "UKR",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1197968.72633951,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "ROU",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 666408.6996563453,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=46.9801292995001 +lon_0=28.3900718 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-08-27",
+        "criterion": "Independence declaration",
+        "sources": [
+          "https://constcourt.md/pageview.php?id=276&idc=11&l=ro"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-tajik-ssr",
+      "versionId": "state:soviet-union-tajik-ssr:1991-r1",
+      "donorId": "TJK",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-09-08"
+      },
+      "lifetime": {
+        "validFrom": "1929-12-05",
+        "validTo": "1991-09-08"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:TJK",
+        "lifetime": {
+          "validFrom": "1991-09-09",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-09-09",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 4,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 4,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 3,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            70.9512346267708,
+            38.85869845000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            70.62582582959409,
+            39.83218570000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            69.54616983406792,
+            40.06916115000004
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            70.62941003214178,
+            40.95446750000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "KGZ",
+          "overlapKm2": 6.92903995513916e-13,
+          "exactSharedBoundaryMetres": 969491.9805402042,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 2
+        },
+        {
+          "donorId": "UZB",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1330694.8302840616,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "CHN",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 468082.8715160563,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "AFG",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1322780.0529293716,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=38.85854955 +lon_0=71.2455764000001 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-09-09",
+        "criterion": "State independence statement and decision",
+        "sources": [
+          "https://www.mvd.tj/1032-declaration-of-state-independence.html"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-turkmen-ssr",
+      "versionId": "state:soviet-union-turkmen-ssr:1991-r1",
+      "donorId": "TKM",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-10-26"
+      },
+      "lifetime": {
+        "validFrom": "1925-05-13",
+        "validTo": "1991-10-26"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:TKM",
+        "lifetime": {
+          "validFrom": "1991-10-27",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-10-27",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 3,
+        "holes": 0,
+        "valid": true
+      },
+      "donor": {
+        "components": 3,
+        "holes": 0,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 3,
+        "holes": 0,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            53.053390576563444,
+            38.93842195000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            59.149539151715416,
+            38.95917175000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            53.501106986277634,
+            39.551743850000065
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "KAZ",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 409235.0783006391,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "UZB",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1797204.8081466947,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "AFG",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 786851.1515638685,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "IRN",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1091885.772261449,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=38.9636773500001 +lon_0=59.5763587 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-10-27",
+        "criterion": "Constitutional independence law",
+        "sources": [
+          "https://mejlis.gov.tm/single-law/338?lang=ru"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    },
+    {
+      "entityId": "state:soviet-union-uzbek-ssr",
+      "versionId": "state:soviet-union-uzbek-ssr:1991-r1",
+      "donorId": "UZB",
+      "sourceDates": {
+        "validFrom": "1991-01-01",
+        "validTo": "1991-08-30"
+      },
+      "lifetime": {
+        "validFrom": "1925-05-13",
+        "validTo": "1991-08-30"
+      },
+      "parentEntityId": "state:soviet-union",
+      "successor": {
+        "entityId": "state:UZB",
+        "lifetime": {
+          "validFrom": "1991-08-31",
+          "validTo": null
+        },
+        "dayAfterSSRVersionEnds": "1991-08-31",
+        "matchesSuccessorStart": true
+      },
+      "otherMetadataAndVersionsPreserved": true,
+      "sourceDonorCoordinateDeepEquality": true,
+      "source": {
+        "components": 5,
+        "holes": 2,
+        "valid": true
+      },
+      "donor": {
+        "components": 5,
+        "holes": 2,
+        "valid": true
+      },
+      "previousSource": {
+        "components": 3,
+        "holes": 1,
+        "valid": true
+      },
+      "previousGeometryRole": "Prior approximate source comparison only, not historical ground truth. Component changes from prior modern source are not treated as automatic losses.",
+      "componentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            71.81351854907541,
+            39.98112005000007
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 1,
+          "point": [
+            71.0758967049149,
+            40.03488090000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 2,
+          "point": [
+            71.66360642726518,
+            40.20471845000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 3,
+          "point": [
+            71.03202307438136,
+            40.24576220000006
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        },
+        {
+          "component": 4,
+          "point": [
+            63.394779949352355,
+            41.38068700000005
+          ],
+          "retainedInSameIndexCandidateComponent": true
+        }
+      ],
+      "projectedPairChecks": [
+        {
+          "donorId": "KAZ",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 2330541.7264757934,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "KGZ",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1351505.6760830274,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "TJK",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1330680.7343928902,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "TKM",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 1797052.3843772048,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        },
+        {
+          "donorId": "AFG",
+          "overlapKm2": 0,
+          "exactSharedBoundaryMetres": 141871.3607333228,
+          "strictIntersectionEmpty": false,
+          "intersectionDimension": 1
+        }
+      ],
+      "pairProjection": "+proj=laea +lat_0=41.3813693091354 +lon_0=64.6085750500001 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+      "originalEvidence": {
+        "date": "1991-08-31",
+        "criterion": "Legal entry into force, not September1 commemoration",
+        "sources": [
+          "https://lex.uz/ru/docs/127879?ONDATE=31.08.1991"
+        ],
+        "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+        "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+      }
+    }
+  ],
+  "parentDependency": {
+    "entityId": "state:soviet-union",
+    "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day",
+    "validFrom": "1930-01-01",
+    "validTo": "1991",
+    "actionNeeded": "Paired new parent union contains all 12 children and existing Baikonur mask at source stage. Apply/review the parent and perform date-specific compilation separately; old parent clips all 12 new children.",
+    "parentGeometryNotChanged": true,
+    "pairedParentSourceChecks": {
+      "candidateReference": "soviet-proxy-parent/modern-successor-union-candidate.geojson",
+      "sha256": "dfb03b1691caf1cdffed2d58933f8b8b91d4531f22671c9e5050e9e3f507814b",
+      "newParentValid": true,
+      "oldParentValid": true,
+      "children": [
+        {
+          "entityId": "state:soviet-union-armenian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 120.59406535924268
+          }
+        },
+        {
+          "entityId": "state:soviet-union-azerbaijan-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 397.42799169599687
+          }
+        },
+        {
+          "entityId": "state:soviet-union-byelorussian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 26.787097612843876
+          }
+        },
+        {
+          "entityId": "state:soviet-union-estonian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 444.86008297492884
+          }
+        },
+        {
+          "entityId": "state:soviet-union-georgian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 65.633430326513
+          }
+        },
+        {
+          "entityId": "state:soviet-union-kirghiz-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 428.0316078113969
+          }
+        },
+        {
+          "entityId": "state:soviet-union-latvian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 64.90775023752781
+          }
+        },
+        {
+          "entityId": "state:soviet-union-lithuanian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 27.659304470597252
+          }
+        },
+        {
+          "entityId": "state:soviet-union-moldavian-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 129.36675515037794
+          }
+        },
+        {
+          "entityId": "state:soviet-union-tajik-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 926.6498001435898
+          }
+        },
+        {
+          "entityId": "state:soviet-union-turkmen-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 1126.5907040879833
+          }
+        },
+        {
+          "entityId": "state:soviet-union-uzbek-ssr",
+          "newParent": {
+            "outsideEmpty": true,
+            "outsideAreaKm2": 0
+          },
+          "oldParent": {
+            "outsideEmpty": false,
+            "outsideAreaKm2": 80.749094200998
+          }
+        }
+      ],
+      "baikonur": {
+        "entityId": "state:KAB",
+        "versionId": "state:KAB:natural-earth-5.1.1",
+        "outsideNewParentEmpty": true,
+        "outsideAreaKm2": 0,
+        "interpretation": "Existing lease-mask geometry tested as geographic containment only; not Soviet-period lease status."
+      }
+    }
+  },
+  "checksSummary": {
+    "all12ExactDonorCopies": true,
+    "all12SourceValid": true,
+    "allOtherMetadataAndVersionsPreserved": true,
+    "allComponentControlsRetained": true,
+    "maximumPairOverlapKm2": 6.92903995513916e-13,
+    "allTransitionDatesMatchSuccessors": true,
+    "connectivity": "All 12 candidate component counts and every component interior control exactly retained from the authorized donor; no candidate-side fragmentation.",
+    "holesIslands": "All 12 candidate component and interior-ring counts equal authorized donors. Prior-source counts reported separately; donor replacement is not historical-accuracy certification.",
+    "allChildrenInsidePairedNewParent": true
+  },
+  "numericPolicy": {
+    "roundingSnappingApplied": false,
+    "toleranceApplied": null,
+    "sharedBoundary": "Exact original-double intersection, then local LAEA metre measurement. No snapped contacts added.",
+    "neighbors": "Modern authorized donors are spatial comparison counterparts only, not assertions of independent-state status in 1990/1991.",
+    "polygonAreaOnly": "Only polygon members contribute area; LineString.GetArea may implicitly close open lines and is never used as overlap area."
+  },
+  "historicalAccuracyVerified": false,
+  "compilerGateRun": false,
+  "writerGateRun": false,
+  "runtimeActivated": false,
+  "limitations": [
+    "No full parent/child compiler test performed.",
+    "Separate approved earlier BLR reconstruction retained exactly.",
+    "Lithuanian year-only start 1990 retained, not silently changed to 1991 or exact Jan 1 source date."
+  ]
+}

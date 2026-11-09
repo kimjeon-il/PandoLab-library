@@ -1,0 +1,29 @@
+{
+  "status": "research-evidence-not-adoption-receipt",
+  "cloudReported": {
+    "sourceGpkgSha256Prefix": "903802ac",
+    "sourceGpkgBytes": 35311616,
+    "UKRSourceWP_ID": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+    "RUSSourceWP_IDs": [
+      "47aaa6b3-b456-4723-9317-e661720b4332",
+      "1d116ea2-5067-4f6b-b34d-057e3ac7da6f"
+    ],
+    "finding": "Original RUS6797 components plus12 already-approved Japan-origin components retained;20 UKR-origin donorRUS components excluded. UKR80 surviving source components rebuilt from106 donor vertex runs;35 unassigned source components totaling50.15375156km2 remain omitted.",
+    "investigator": "classify_historical_replacement_risks",
+    "verificationLocation": "Cloud original GPKG inspection, not Windows",
+    "unassignedComponentLedger": {
+      "file": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/recovered-world-polygons-source/unassigned-ukraine-components-ledger.json",
+      "sha256": "54a445bb21aacb2721d618f2ef48483792ad7fbd7d9682ca5743fc149e6e492b"
+    },
+    "ledgerInterpretation": "Existing missing source components, not new territorial assignment or deletion approval."
+  },
+  "localVerified": {
+    "donorSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "method": "Parameter-only reconstruction from existing local approved donor; exact expected geometry hashes verified.",
+    "originalGpkgInspectedLocally": false,
+    "originalZipInstalledLocally": false,
+    "coordinatesInterpolatedOrRounded": false
+  },
+  "limitation": "Source WP_ID identity and original-component classifications are cloud researcher findings. Local checks verify exact donor replay, not independently reopening the original GPKG. No passed source receipt is copied; canonical provenance will require actual gates.",
+  "priorLocalCandidate": "R_local retained only as failed diagnostic; not adopted"
+}

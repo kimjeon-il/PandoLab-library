@@ -1,0 +1,127 @@
+{
+  "at": "2026-11-09T08:00:30.187Z",
+  "scope": "Existing generated geometry normalization and canonical storage contract only; not source admission or Boolean/full-period rerun",
+  "coreSourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+  "pairedCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+  "indexSha256": "62e321950d4a9dc417b4dda7057930dcfc1724065c941b37b0cbe35fe20911c2",
+  "countries": 65,
+  "geometryReferences": 94,
+  "uniqueGeometries": 81,
+  "sourceBindings": 101,
+  "allExact": false,
+  "failed": [],
+  "differences": [
+    {
+      "digest": "f4cdb1fc6e54ebe30598ff29a5839f390c1db8e33473c5c96cf3ac3bed7405cb",
+      "firstEntity": "state:czechoslovakia",
+      "components": 1,
+      "precisionDiscards": [],
+      "normalizedDigest": "c04b3e2c63649484eeae94041f21c2079358d20357c8088a56fa52ff9c528a38",
+      "normalizedExact": false,
+      "originalSignature": {
+        "points": "b63a54e76a5f9e41033784d89763de5c957302fd4e03cb415ebbec119f91f7db",
+        "edges": "c79119bd53d92469d545456fa2598081c8df65042ca485405a4c9af81da86906",
+        "pointCount": 2151,
+        "edgeCount": 2151
+      },
+      "normalizedSignature": {
+        "points": "b63a54e76a5f9e41033784d89763de5c957302fd4e03cb415ebbec119f91f7db",
+        "edges": "c79119bd53d92469d545456fa2598081c8df65042ca485405a4c9af81da86906",
+        "pointCount": 2151,
+        "edgeCount": 2151
+      },
+      "vertexEdgeMultisetsEqual": true,
+      "storedDigest": "f4cdb1fc6e54ebe30598ff29a5839f390c1db8e33473c5c96cf3ac3bed7405cb",
+      "storageExact": true,
+      "roundtripExact": true,
+      "inputUnchanged": true,
+      "status": "difference",
+      "elapsedMs": 18
+    },
+    {
+      "digest": "50a7509942ecf5794380e92969695c07669bca1a87506fa394fc97a495779d46",
+      "firstEntity": "state:soviet-union-ukrainian-ssr",
+      "components": 80,
+      "precisionDiscards": [],
+      "normalizedDigest": "d17116b054bcbb4315e523625e58cd5c34ce82cd9345fba67d1ccfe33b58e005",
+      "normalizedExact": false,
+      "originalSignature": {
+        "points": "c35c43d394560bebbbf7cf3f9efddebf54ddeacb23517f6f60315164a341666d",
+        "edges": "c1ba34c97cac1d36dd2144eed24d29652c7b802aaa0f5b9a59a65ebd632aad63",
+        "pointCount": 7453,
+        "edgeCount": 7453
+      },
+      "normalizedSignature": {
+        "points": "c35c43d394560bebbbf7cf3f9efddebf54ddeacb23517f6f60315164a341666d",
+        "edges": "c1ba34c97cac1d36dd2144eed24d29652c7b802aaa0f5b9a59a65ebd632aad63",
+        "pointCount": 7453,
+        "edgeCount": 7453
+      },
+      "vertexEdgeMultisetsEqual": true,
+      "storedDigest": "50a7509942ecf5794380e92969695c07669bca1a87506fa394fc97a495779d46",
+      "storageExact": true,
+      "roundtripExact": true,
+      "inputUnchanged": true,
+      "status": "difference",
+      "elapsedMs": 69
+    },
+    {
+      "digest": "25817d25ae5d9bee7ed1da5bc230e2b5be890682ea195c52506f27d63c747630",
+      "firstEntity": "state:yugoslavia",
+      "components": 237,
+      "precisionDiscards": [],
+      "normalizedDigest": "d318440cdd0c0460eb13a2a5a3825906e443533039dcc75413ee9c1d42b18001",
+      "normalizedExact": false,
+      "originalSignature": {
+        "points": "fea7d7d53dc8a25d59d3595a873b51d414a573f619e1a8a86036df578675fcde",
+        "edges": "eb5223f23baa905f744410bb09c6542d7999cb17c6ec0ac617639646de69ad49",
+        "pointCount": 6938,
+        "edgeCount": 6938
+      },
+      "normalizedSignature": {
+        "points": "fea7d7d53dc8a25d59d3595a873b51d414a573f619e1a8a86036df578675fcde",
+        "edges": "eb5223f23baa905f744410bb09c6542d7999cb17c6ec0ac617639646de69ad49",
+        "pointCount": 6938,
+        "edgeCount": 6938
+      },
+      "vertexEdgeMultisetsEqual": true,
+      "storedDigest": "25817d25ae5d9bee7ed1da5bc230e2b5be890682ea195c52506f27d63c747630",
+      "storageExact": true,
+      "roundtripExact": true,
+      "inputUnchanged": true,
+      "status": "difference",
+      "elapsedMs": 60
+    },
+    {
+      "digest": "4b993e2437fb86b0df5e06a0284a967f30cd4d036ab26af4dde42c1cd26063f3",
+      "firstEntity": "state:yugoslavia",
+      "components": 7,
+      "precisionDiscards": [],
+      "normalizedDigest": "f3b807e3488f6da1e3bef4f9ae8e37dc24b5180f312d8b932879c7476ad2ef76",
+      "normalizedExact": false,
+      "originalSignature": {
+        "points": "ce7c67e712ce24cb900ed884de86622a642d1d6db47653e84513725f8e4326d4",
+        "edges": "e1cda33794db51e35b767c79bde63181f3714a8f2d1535c2f68ccba21612eda9",
+        "pointCount": 1776,
+        "edgeCount": 1776
+      },
+      "normalizedSignature": {
+        "points": "ce7c67e712ce24cb900ed884de86622a642d1d6db47653e84513725f8e4326d4",
+        "edges": "e1cda33794db51e35b767c79bde63181f3714a8f2d1535c2f68ccba21612eda9",
+        "pointCount": 1776,
+        "edgeCount": 1776
+      },
+      "vertexEdgeMultisetsEqual": true,
+      "storedDigest": "4b993e2437fb86b0df5e06a0284a967f30cd4d036ab26af4dde42c1cd26063f3",
+      "storageExact": true,
+      "roundtripExact": true,
+      "inputUnchanged": true,
+      "status": "difference",
+      "elapsedMs": 15
+    }
+  ],
+  "precisionDiscardCount": 0,
+  "elapsedMs": 21812,
+  "guardsStable": true,
+  "originalOutputsWritten": false
+}

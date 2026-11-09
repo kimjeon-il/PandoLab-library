@@ -1,0 +1,114 @@
+{
+  "status": "additional-GEOS-component-explained-no-canonical-receipt",
+  "interval": {
+    "validFrom": "1991-09-23",
+    "validTo": "1991-10-17"
+  },
+  "scope": "One surplus component in independently reconstructed GEOS reference, not all Soviet periods or all Boolean output edges.",
+  "finding": "GEOS expected polygon101 is a positive exact-double planar triangle wholly inside the ARM cutter. It must be absent from USSR minus ARM. This extra reference component is not a lost original USSR island. Native6844 versus GEOS6845 must not be interpreted as native losing one source component.",
+  "counts": {
+    "nativeComponents": 6844,
+    "geosReferenceComponents": 6845,
+    "symmetricDifferencePolygonComponents": 24
+  },
+  "triangle": {
+    "exactAreaDegrees2": "87510605327/39614081257132168796771975168",
+    "approximateAreaDegrees2": 2.2090782507102694e-18,
+    "geosGetArea": 0,
+    "origin": "A=ARM polygon0 shell vertex683. B,C are calculated points differing by one binary64 ULP in y; none of the three is a USSR source vertex."
+  },
+  "proof": {
+    "arithmetic": "Fraction(float), exact binary64 planar predicates; no tolerance in boundary/inside proof.",
+    "allArmPolygons": 2,
+    "allArmRings": 5,
+    "properBoundaryCrossings": 0,
+    "armBoundaryVerticesInsideTriangle": 0,
+    "onlyContact": "A",
+    "interiorWitness": "Rational centroid and B,C strictly inside ARM.",
+    "independentMathematicalReview": "Concluded full convex triangle interior containment is established; agreed scope does not establish all24 residuals or spherical/native every-edge exactness."
+  },
+  "core": {
+    "pairedCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+    "sourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+    "actualCompileSourceSha256": "d1cd16694d392c709614a34c6fea7ecc89071a1fea317d32d93491ae454d6969",
+    "rawAndWrappedArmGeometrySha256": "1043bf171e5fe8260df59e9a230117770008099bdc365c70f36c1b213bec49ac",
+    "clippedNormalizer": "Accepted and preserved the positive-area triangle coordinates.",
+    "boundedPrimitive": "triangle minus identical canonical wrapped ARM returned empty.",
+    "limitations": "No historical native operand object capture was added; reference uses saved input ARM pre-unknown-peer source. V original224 hashes verified before and after primitive."
+  },
+  "inputs": {
+    "frozenSources": {
+      "path": "../metadata-frozen-sources.json",
+      "sha256": "6cf0bc027103cdc835e551bfb5c3cd2f9c3953c31481e13dbf81ff0e2b15702b"
+    },
+    "compileInput": {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/fixed-snapshot-period-20261109/input.json",
+      "sha256": "727f5eb2ed001990eea18d25b659e52b59d5425c1dd1110a2a46ddd644dd4c10"
+    },
+    "compiledCountry40": {
+      "sha256": "0e5f3822b130922f27145d8ce6774e1b079709ae0fdd6752568b94146b2fdf33"
+    },
+    "originalResidual": {
+      "path": "derivative-13-stage-residual.wkb",
+      "sha256": "b0b3c79cf604e3b934b4aee8de366e4034051adb56c69eb3f0e636cd3bf86d45",
+      "bytes": 1905
+    }
+  },
+  "remainingLimits": [
+    "The24 polygon symmetric-difference residual is distinct from the1 surplus component. No all-edge exact-equality claim is made.",
+    "Exact arithmetic mean/vertex classification of other residuals is only diagnostic, not complete containment or a tolerance waiver.",
+    "No spherical-set equality, historical truth, source admission or full-period passed receipt is issued here.",
+    "No production code/source/date/policy/budget/data/pin change; no full-period/native build/whole-GIS run."
+  ],
+  "recommendedCodeChange": "None justified by this surplus-component evidence.",
+  "cleanup": {
+    "removedExactDuplicate": "residual-wrapped-arm-f413.json",
+    "sha256": "a71c89f05d84d706995bb817b4061b9cae4cfb7bb30e9153b6fa84e907636af2",
+    "logicalBytes": 38973,
+    "recovery": "Exact same ARM geometry is present in guarded original compile input; proof now reads it directly. Proof bytes remained unchanged after rerun.",
+    "measuredDriveFreeDelta": "not measured"
+  },
+  "archiveStatus": "Task-owned diagnostics complete locally; coordinate exact-file report archival with sole library writer. Do not publish unfinished compiled-binding-review directory wholesale.",
+  "files": [
+    {
+      "path": "residual-component-diagnosis.py",
+      "sha256": "b757e6544b662e0a05e1fa8bf1f1ebd4f39c83064cdb8f3c8bf3c4fe7e5f432c",
+      "bytes": 3611
+    },
+    {
+      "path": "residual-component-diagnosis.json",
+      "sha256": "601915d5b3a0dfb8dcb79ac24d3a8816f8361fd8112ebc8f888d8b869362004b",
+      "bytes": 28307
+    },
+    {
+      "path": "residual-source-edge-diagnosis.py",
+      "sha256": "d1d7cecefea5e1a66acfd043a0d2388e59a2767337a959edceb802826c203d75",
+      "bytes": 3498
+    },
+    {
+      "path": "residual-source-edge-diagnosis.json",
+      "sha256": "d8d6749731bc1cdaab0fbb61abf8aafb49e1b2221af5d01754c87199064c38ab",
+      "bytes": 3699
+    },
+    {
+      "path": "check-residual-cutter-core.mjs",
+      "sha256": "5d1c2ee1e49b5110668ef3ab5b7de55621aee241d91f5daa3aca0b9b36d0d6e5",
+      "bytes": 2917
+    },
+    {
+      "path": "residual-core-diagnosis.json",
+      "sha256": "a5218bdfefc8a4ebae5b248f339244636fcb7f717166664429a15bf5ce8d5160",
+      "bytes": 1327
+    },
+    {
+      "path": "prove-residual-triangle-containment.py",
+      "sha256": "71bc3881d7410d7868363a95ff34e4b84d81696d73e346e0f57b039aab5d83bc",
+      "bytes": 4344
+    },
+    {
+      "path": "residual-exact-containment-proof.json",
+      "sha256": "a45e5377d5c09c7495fcc9e5563eef3d4d70eef17101ffe3a87d1d52db273560",
+      "bytes": 10032
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "at": "2026-11-09T07:43:53.679Z",
+  "status": "compiled",
+  "elapsedMs": 20343104,
+  "starts": 41,
+  "ends": 41,
+  "nativeCalls": 307214,
+  "nativeFailures": 0,
+  "inputObjectUnchanged": true,
+  "codeAndSourceStable": true,
+  "guards": 220,
+  "countries": 65,
+  "allCountryFileHashesMatch": true,
+  "coverageEqual": true,
+  "precisionRows": [],
+  "recoveryRows": [],
+  "coverageKinds": [
+    "unknown-peer-overlap",
+    "explicit-replacement",
+    "empty-after-adjustment",
+    "parent-clipping"
+  ],
+  "artifacts": [
+    {
+      "file": "compile-summary.json",
+      "sha256": "dbe36218769616e80f28f7723e1b86db8e8ca0203b0e679969762abb50d4cc3e"
+    },
+    {
+      "file": "output-index.json",
+      "sha256": "62e321950d4a9dc417b4dda7057930dcfc1724065c941b37b0cbe35fe20911c2"
+    },
+    {
+      "file": "independent-validity-proof.json",
+      "sha256": "e26082b1679ca35a2c042c3e1924594f2851b080cf586eea2c46b74bad13c713"
+    },
+    {
+      "file": "input.json",
+      "sha256": "727f5eb2ed001990eea18d25b659e52b59d5425c1dd1110a2a46ddd644dd4c10"
+    }
+  ],
+  "limits": [
+    "Fixed d1 native/code snapshot only. Not new f413 Core validation.",
+    "No source adoption or writer-bound publication receipt.",
+    "Latest source non-target input comparison is separate."
+  ]
+}

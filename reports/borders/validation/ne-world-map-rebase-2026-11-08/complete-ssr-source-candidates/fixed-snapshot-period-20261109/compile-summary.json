@@ -1,0 +1,1436 @@
+{
+  "status": "compiled",
+  "countries": 65,
+  "coverageReport": {
+    "schemaVersion": 2,
+    "adjustments": [
+      {
+        "entityId": "ARM",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "state:nagorno-karabakh"
+        ],
+        "validFrom": "1991-09-23",
+        "validTo": "2014-03-17"
+      },
+      {
+        "entityId": "AZE",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "state:nagorno-karabakh"
+        ],
+        "validFrom": "1991-10-18",
+        "validTo": "2014-03-17"
+      },
+      {
+        "entityId": "BIH",
+        "kind": "empty-after-adjustment",
+        "relatedIds": [
+          "state:yugoslavia"
+        ],
+        "validFrom": "1992-03-06",
+        "validTo": "1992-04-26"
+      },
+      {
+        "entityId": "DEU",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "state:deutsche-demokratische-republik"
+        ],
+        "validFrom": "1989-04-25",
+        "validTo": "1989-04-25"
+      },
+      {
+        "entityId": "HRV",
+        "kind": "empty-after-adjustment",
+        "relatedIds": [
+          "state:yugoslavia"
+        ],
+        "validFrom": "1991-10-08",
+        "validTo": "1992-04-26"
+      },
+      {
+        "entityId": "IRN",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "state:nagorno-karabakh"
+        ],
+        "validFrom": "1991-09-02",
+        "validTo": "2014-03-17"
+      },
+      {
+        "entityId": "MKD",
+        "kind": "empty-after-adjustment",
+        "relatedIds": [
+          "state:yugoslavia"
+        ],
+        "validFrom": "1991-09-17",
+        "validTo": "1992-04-26"
+      },
+      {
+        "entityId": "POL",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "state:deutsche-demokratische-republik"
+        ],
+        "validFrom": "1989-04-25",
+        "validTo": "1989-04-25"
+      },
+      {
+        "entityId": "state:czechoslovakia",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "state:deutsche-demokratische-republik"
+        ],
+        "validFrom": "1989-04-25",
+        "validTo": "1989-04-25"
+      },
+      {
+        "entityId": "state:deutsche-demokratische-republik",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "DEU",
+          "POL",
+          "state:czechoslovakia"
+        ],
+        "validFrom": "1989-04-25",
+        "validTo": "1989-04-25"
+      },
+      {
+        "entityId": "state:nagorno-karabakh",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "ARM",
+          "IRN"
+        ],
+        "validFrom": "1991-09-23",
+        "validTo": "2014-03-17"
+      },
+      {
+        "entityId": "state:nagorno-karabakh",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "IRN"
+        ],
+        "validFrom": "1991-09-02",
+        "validTo": "1991-09-22"
+      },
+      {
+        "entityId": "state:soviet-union-armenian-ssr",
+        "kind": "parent-clipping",
+        "relatedIds": [
+          "state:soviet-union"
+        ],
+        "validFrom": "1991-09-02",
+        "validTo": "1991-09-22"
+      },
+      {
+        "entityId": "state:soviet-union-azerbaijan-ssr",
+        "kind": "parent-clipping",
+        "relatedIds": [
+          "state:soviet-union"
+        ],
+        "validFrom": "1991-09-02",
+        "validTo": "1991-10-17"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "empty-after-adjustment",
+        "relatedIds": [
+          "UZB"
+        ],
+        "validFrom": "1991-12-25",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "ARM"
+        ],
+        "validFrom": "1991-09-23",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "AZE"
+        ],
+        "validFrom": "1991-10-18",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "BLR"
+        ],
+        "validFrom": "1991-08-25",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "EST"
+        ],
+        "validFrom": "1991-08-20",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "GEO"
+        ],
+        "validFrom": "1991-04-09",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "KAZ"
+        ],
+        "validFrom": "1991-12-16",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "KGZ"
+        ],
+        "validFrom": "1991-08-31",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "LTU"
+        ],
+        "validFrom": "1990-03-11",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "LVA"
+        ],
+        "validFrom": "1991-08-21",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "MDA"
+        ],
+        "validFrom": "1991-08-27",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "RUS"
+        ],
+        "validFrom": "1991-12-25",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "state:nagorno-karabakh"
+        ],
+        "validFrom": "1991-09-02",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "TJK"
+        ],
+        "validFrom": "1991-09-09",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "TKM"
+        ],
+        "validFrom": "1991-10-27",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "UKR"
+        ],
+        "validFrom": "1991-08-24",
+        "validTo": "1991-12-31"
+      },
+      {
+        "entityId": "state:soviet-union",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "UZB"
+        ],
+        "validFrom": "1991-08-31",
+        "validTo": "1991-12-24"
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "state:unmik-kosovo"
+        ],
+        "validFrom": "1999-06-10",
+        "validTo": "2006-06-02"
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "BIH",
+          "HRV",
+          "MKD",
+          "SVN"
+        ],
+        "validFrom": "1992-03-06",
+        "validTo": "1992-04-26"
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "HRV",
+          "MKD",
+          "SVN"
+        ],
+        "validFrom": "1991-10-08",
+        "validTo": "1992-03-05"
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "MKD",
+          "SVN"
+        ],
+        "validFrom": "1991-09-17",
+        "validTo": "1991-10-07"
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "kind": "unknown-peer-overlap",
+        "relatedIds": [
+          "SVN"
+        ],
+        "validFrom": "1991-06-25",
+        "validTo": "1991-09-16"
+      },
+      {
+        "entityId": "SVN",
+        "kind": "empty-after-adjustment",
+        "relatedIds": [
+          "state:yugoslavia"
+        ],
+        "validFrom": "1991-06-25",
+        "validTo": "1992-04-26"
+      }
+    ],
+    "entities": [
+      {
+        "entityId": "AFG",
+        "lifetime": {
+          "validFrom": "1747",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "ALB",
+        "lifetime": {
+          "validFrom": "1912-11-28",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "ARM",
+        "lifetime": {
+          "validFrom": "1991-09-23",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-09-23",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "AUT",
+        "lifetime": {
+          "validFrom": "1945-04-27",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1945-04-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "AZE",
+        "lifetime": {
+          "validFrom": "1991-10-18",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-10-18",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "BGR",
+        "lifetime": {
+          "validFrom": "1878-03-03",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "BIH",
+        "lifetime": {
+          "validFrom": "1992-03-06",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1992-04-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "BLR",
+        "lifetime": {
+          "validFrom": "1991-08-25",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-25",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "CHN",
+        "lifetime": {
+          "validFrom": "1949-10-01",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1949-10-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "d34b00a1-9b13-8000-8000-000000414c44",
+        "lifetime": {
+          "validFrom": "1920-05-07",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "d34b00a1-9b13-8000-8000-000000484b47",
+        "lifetime": {
+          "validFrom": "1843-06-26",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1949-10-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "d34b00a1-9b13-8000-8000-0000004b4142",
+        "lifetime": {
+          "validFrom": "1995-09-25",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1995-09-25",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "d34b00a1-9b13-8000-8000-0000004d4143",
+        "lifetime": {
+          "validFrom": "1844-09-20",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1949-10-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "DEU",
+        "lifetime": {
+          "validFrom": "1867-07-01",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "EST",
+        "lifetime": {
+          "validFrom": "1991-08-20",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-20",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "FIN",
+        "lifetime": {
+          "validFrom": "1917-12-06",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "GEO",
+        "lifetime": {
+          "validFrom": "1991-04-09",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-04-09",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "GRC",
+        "lifetime": {
+          "validFrom": "1822-01-13",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "HRV",
+        "lifetime": {
+          "validFrom": "1991-10-08",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1992-04-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "HUN",
+        "lifetime": {
+          "validFrom": "1000",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "IRN",
+        "lifetime": {
+          "validFrom": "1501",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "ITA",
+        "lifetime": {
+          "validFrom": "1861-03-17",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "KAZ",
+        "lifetime": {
+          "validFrom": "1991-12-16",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-12-16",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "KGZ",
+        "lifetime": {
+          "validFrom": "1991-08-31",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-31",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "KOR",
+        "lifetime": {
+          "validFrom": "1948-08-15",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1948-08-15",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "LTU",
+        "lifetime": {
+          "validFrom": "1990-03-11",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1990-03-11",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "LVA",
+        "lifetime": {
+          "validFrom": "1991-08-21",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-21",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "MDA",
+        "lifetime": {
+          "validFrom": "1991-08-27",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "MKD",
+        "lifetime": {
+          "validFrom": "1991-09-17",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1992-04-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "MNE",
+        "lifetime": {
+          "validFrom": "2006-06-03",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "2006-06-03",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "MNG",
+        "lifetime": {
+          "validFrom": "1921-02-22",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "NOR",
+        "lifetime": {
+          "validFrom": "0872",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "POL",
+        "lifetime": {
+          "validFrom": "1917-10-27",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "PRK",
+        "lifetime": {
+          "validFrom": "1948-09-09",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1948-09-09",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "ROU",
+        "lifetime": {
+          "validFrom": "1859-02-05",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "RUS",
+        "lifetime": {
+          "validFrom": "1991-12-25",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-12-25",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "SRB",
+        "lifetime": {
+          "validFrom": "2006-06-05",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "2006-06-05",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "state:czechoslovakia",
+        "lifetime": {
+          "validFrom": "1918",
+          "validTo": "1992"
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "1992-12-31"
+          }
+        ]
+      },
+      {
+        "entityId": "state:deutsche-demokratische-republik",
+        "lifetime": {
+          "validFrom": "1949-10-07",
+          "validTo": "1990-10-02"
+        },
+        "availability": [
+          {
+            "validFrom": "1989-04-25",
+            "validTo": "1989-04-25"
+          }
+        ]
+      },
+      {
+        "entityId": "state:nagorno-karabakh",
+        "lifetime": {
+          "validFrom": "1991-09-02",
+          "validTo": "2023-09-28"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-09-02",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union",
+        "lifetime": {
+          "validFrom": "1922-12-30",
+          "validTo": "1991"
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "1991-12-24"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-armenian-ssr",
+        "lifetime": {
+          "validFrom": "1936-12-05",
+          "validTo": "1991-09-22"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-09-22"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-azerbaijan-ssr",
+        "lifetime": {
+          "validFrom": "1936-12-05",
+          "validTo": "1991-10-17"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-10-17"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-byelorussian-ssr",
+        "lifetime": {
+          "validFrom": "1922-12-30",
+          "validTo": "1991-08-24"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-24"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-estonian-ssr",
+        "lifetime": {
+          "validFrom": "1940-08-06",
+          "validTo": "1991-08-19"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-19"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-georgian-ssr",
+        "lifetime": {
+          "validFrom": "1936-12-05",
+          "validTo": "1991-04-08"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-04-08"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-kazakh-ssr",
+        "lifetime": {
+          "validFrom": "1936-12-05",
+          "validTo": "1991-12-15"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-12-15"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-kirghiz-ssr",
+        "lifetime": {
+          "validFrom": "1936-12-05",
+          "validTo": "1991-08-30"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-30"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-latvian-ssr",
+        "lifetime": {
+          "validFrom": "1940-08-05",
+          "validTo": "1991-08-20"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-20"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-lithuanian-ssr",
+        "lifetime": {
+          "validFrom": "1940-08-03",
+          "validTo": "1990-03-10"
+        },
+        "availability": [
+          {
+            "validFrom": "1990-01-01",
+            "validTo": "1990-03-10"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-moldavian-ssr",
+        "lifetime": {
+          "validFrom": "1940-08-02",
+          "validTo": "1991-08-26"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-26"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-russian-sfsr",
+        "lifetime": {
+          "validFrom": "1922-12-30",
+          "validTo": "1991-12-24"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-12-24"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-tajik-ssr",
+        "lifetime": {
+          "validFrom": "1929-12-05",
+          "validTo": "1991-09-08"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-09-08"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-turkmen-ssr",
+        "lifetime": {
+          "validFrom": "1925-05-13",
+          "validTo": "1991-10-26"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-10-26"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-ukrainian-ssr",
+        "lifetime": {
+          "validFrom": "1922-12-30",
+          "validTo": "1991-08-23"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-23"
+          }
+        ]
+      },
+      {
+        "entityId": "state:soviet-union-uzbek-ssr",
+        "lifetime": {
+          "validFrom": "1925-05-13",
+          "validTo": "1991-08-30"
+        },
+        "availability": [
+          {
+            "validFrom": "1991-01-01",
+            "validTo": "1991-08-30"
+          }
+        ]
+      },
+      {
+        "entityId": "state:unmik-kosovo",
+        "lifetime": {
+          "validFrom": "1999-06-10",
+          "validTo": "2008-02-16"
+        },
+        "availability": [
+          {
+            "validFrom": "1999-06-10",
+            "validTo": "2008-02-16"
+          }
+        ]
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "lifetime": {
+          "validFrom": "1918-12-01",
+          "validTo": "2006-06-02"
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "1941-04-17"
+          },
+          {
+            "validFrom": "1945-11-29",
+            "validTo": "2006-06-02"
+          }
+        ]
+      },
+      {
+        "entityId": "SVK",
+        "lifetime": {
+          "validFrom": "1993-01-01",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1993-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "SVN",
+        "lifetime": {
+          "validFrom": "1991-06-25",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1992-04-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "TJK",
+        "lifetime": {
+          "validFrom": "1991-09-09",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-09-09",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "TKM",
+        "lifetime": {
+          "validFrom": "1991-10-27",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-10-27",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "TUR",
+        "lifetime": {
+          "validFrom": "1920-04-23",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1930-01-01",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "UKR",
+        "lifetime": {
+          "validFrom": "1991-08-24",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-24",
+            "validTo": "2014-03-17"
+          }
+        ]
+      },
+      {
+        "entityId": "UZB",
+        "lifetime": {
+          "validFrom": "1991-08-31",
+          "validTo": null
+        },
+        "availability": [
+          {
+            "validFrom": "1991-08-31",
+            "validTo": "2014-03-17"
+          }
+        ]
+      }
+    ]
+  },
+  "elapsedMs": 20343104,
+  "starts": 41,
+  "ends": 41,
+  "nativeCalls": 307214,
+  "nativeFailures": 0,
+  "inputObjectUnchanged": true,
+  "inputSha256": "727f5eb2ed001990eea18d25b659e52b59d5425c1dd1110a2a46ddd644dd4c10",
+  "codeAndSourceStable": true,
+  "guardsAfter": {
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/assets/js-vendor/polygon-clipping.min.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/assets/wasm/pandoeditor-core.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/assets/wasm/pandoeditor-core.manifest.json": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/assets/wasm/pandoeditor-core.wasm": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/config/core-source-roots.json": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/config/library-data.json": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/package.json": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/scripts/lib/frontend-layout.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/scripts/lib/product-assets.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/builtin-country-files.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/geopackagegeometry.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/giszip.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/hydroformat.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/losslessjson.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/projectcodec.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/referenceimage.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/include/pandoeditor/webstorage.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/geopackagegeometry.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/giszip.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/hydroformat.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/losslessjson.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/projectcodec.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/referenceimage.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/native/src/webstorage.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/physical-land-patch.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/prepared-mesh-delta.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/runtime-manifest-assets.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/stored-asset-loader.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/data/territorial-source-format.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/builtin-subunits.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/builtin-territory-policy.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/country-feature.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/distribution-model.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/bindings/place-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/bindings/session-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/bindings/timeline-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/commands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/document-session.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/document.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/gisexchange.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/historicalinstantiation.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/historicallibrary.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/hydroviewport.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/jobs.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/objectproperties.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/placenames.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/presentation.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/presentationcommands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/project.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/selection.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/selectionref.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/temporal.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/territorialmutation.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/timeline-edit.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/timeline-records.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/timeline-resolver.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/timeline-storage.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/timeline-view.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/webcommands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/webcontentcommands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/webobjectcommands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/webpresentationcommands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/include/pandoeditor/webterritorialcommands.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/commandbatch.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/commands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/content.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/document-session.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/document.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/documentstate.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/gisexchange.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/historicalinstantiation.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/historicallibrary.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/hydroviewport.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/jobs.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/objectproperties.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/placenames.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/presentation.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/presentationcommands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/project.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/snapshot.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/temporal.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/territorialmutation.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/timeline-edit.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/timeline-records.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/timeline-resolver.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/timeline-storage.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/timeline-view.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/webcommands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/webcontentcommands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/webobjectcommands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/webpresentationcommands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/webterritorialcommands.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/native/src/webterritorialedit.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/project-invariants.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/project-setup.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/project-state.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/source-provenance.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/temporal.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/territorial-units.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/timeline-records.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/timeline-resolver.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/document/timeline-storage.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/coordinate-bounds.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/geometry-version-store.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/map-edit-geometry.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/bindings/boundary-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/bindings/cut-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/bindings/polygon-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/bindings/reference-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/bindings/river-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/boundarychain.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/boundarycontact.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/boundaryoverlap.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/boundarypacket.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/boundaryrefinement.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/boundarysplit.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/countrycontact.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/cutgeometry.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/geometry-types.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/geometrydraft.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/geometryoperations.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/geometrypredicates.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/geometryprovenance.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/planargraph.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/polygonclipping.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/polygonwrapping.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/referenceboundaries.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/referencetracing.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/riverpartition.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/include/pandoeditor/sphericalpolygon.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/boundarychain.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/boundarycontact.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/boundaryoverlap.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/boundarypacket.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/boundaryrefinement.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/boundarysplit.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/countrycontact.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/cutgeometry.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/geometrydraft.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/geometrypredicates.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/geometryprovenance.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/planargraph.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/polygonclipping.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/polygonwrapping.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/referenceboundaries.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/referencetracing.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/riverpartition.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/src/sphericalpolygon.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/native/vendor/earcut/earcut.hpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/geometry/polygon-geometry.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/map/camera-navigation.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/map/camera-pan.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/map/native/include/pandoeditor/mapprojection.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/map/native/src/mapprojection.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/rendering/native/bindings/mesh-bindings.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/rendering/native/include/pandoeditor/polygonmesh.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/rendering/native/src/polygonmesh.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/runtime/core-wasm-loader.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/runtime/native/include/pandoeditor/version.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/runtime/native/src/version.cpp.in": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/runtime/reliability-core.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/src/runtime/version-contract.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/country-contact-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/document-session-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/hydro-timeline-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/project-codec-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/reference-image-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/source-admission-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/temporal-adopt-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/temporal-candidate-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/temporal-editing-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/temporal-source-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/territorial-document-fixture.h": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/web-content-codec-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/web-content-command-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/web-object-command-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/web-storage-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/document/web-territorial-command-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/boundary-chain-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/boundary-interior-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/boundary-overlap-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/boundary-packet-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/boundary-refinement-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/boundary-split-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/cut-geometry-probe.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/geometry-draft-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/polygon-clipping-probe.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/polygon-mesh-tests.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/geometry/river-partition-probe.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tests/native/temporal-parity-probe.cpp": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/builtin-world-compiler.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/load-node-core.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/load-spherical-core.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/native/CMakeLists.txt": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/native/core/CMakeLists.txt": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/native/tests/CMakeLists.txt": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/native/wasm/CMakeLists.txt": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/build/package-shared-core-assets.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-archive.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-content.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-context.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-git.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-report-layout.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-reports.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-runtime-index.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/library-runtime.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/territorial-current-world.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/territorial-entity-sources.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/data/territorial-source-codec.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/builtin-country-classification.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/builtin-display-policy.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/historical-display-review.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/historical-world-territories.mjs": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/project-template-compiler.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/territorial-index-entry.js": true,
+    "D:/dev/worktrees/gis/build-native/territorial-recipe/ssr-validation-snapshot/tools/gis/territorial-library.js": true,
+    "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/fixed-snapshot-period-20261109/input.json": true,
+    "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/fixed-snapshot-period-20261109/display-policy.json": true,
+    "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/fixed-snapshot-period-20261109/available-source-ids.json": true,
+    "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/fixed-snapshot-period-20261109/run-fixed-period.mjs": true
+  },
+  "metadataStatus": "report-only-three-way-reconstructed-65-input-no-final-source-or-compiled-approval",
+  "sourceDatesEdited": false,
+  "sourceWritten": false,
+  "canonicalReceiptIssued": false
+}

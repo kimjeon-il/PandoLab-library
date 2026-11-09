@@ -1,0 +1,851 @@
+{
+  "status": "same-version-source-comparison-reviewed-not-canonical-receipt",
+  "reviewedAt": "2026-11-08T19:50:10.225Z",
+  "reviewer": "classify_historical_replacement_risks",
+  "method": "Direct inspection of all16 rendered PNGs. Each image overlays only the selected original geometry and replacement geometry for the SAME listed version(s), with identical extent/projection. Multiple versions share an image only when both previous and candidate geometry digests are identical.",
+  "projection": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-projection-evidence.json",
+    "sha256": "0fb814168c6917e41c9f88a9a6170cf1e79957603e0bd3b35e5abbb18dd0cb19"
+  },
+  "sourceMetadata": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/metadata-freeze-manifest.json",
+    "sha256": "e918f568d8097e2ec4d30df470be16993a4f5adf4a3ea802493d26a4b90a4af0"
+  },
+  "images": [
+    {
+      "name": "bound-01",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-armenian-ssr",
+          "versionId": "state:soviet-union-armenian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-09-22",
+          "previousGeometrySha256": "5c9c09461545c1b320371b54da2fb3faee0f399436923cd054ac3470f56c5144",
+          "geometrySha256": "36705377611c2ab0c16d2e1f4e8c618e4ce87f424c6ca4cbb156bb0ea1526026"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=45.04088045000003 +lat_0=40.070488400000045 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -184830.1306356032,
+        -185892.29441807378,
+        2064128.2026977304,
+        740149.372248593
+      ],
+      "geographicBoundingExtent": [
+        42.62753196147526,
+        35.99753023241477,
+        71.25528725594053,
+        46.73664586729224
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-01.svg",
+        "sha256": "04c5e473591dc85762009f9a06b54b519d88d7e6541b1db76c54ae144c399c3c"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-01.png",
+        "sha256": "14813eb3c2d216bd54ad667e8f7eb7669f0c43e782b9120666e2fb19fce85948"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-02",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-azerbaijan-ssr",
+          "versionId": "state:soviet-union-azerbaijan-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-10-17",
+          "previousGeometrySha256": "918ac82146fa76f5896785a87fe875078725564aeb96c1857dd09f8756e328be",
+          "geometrySha256": "4128b6d8859ed5da923e02372db5f5543e44e64484339ca9b807b18eb7023616"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=47.69479785000004 +lat_0=40.15228650000003 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -301305.58266020677,
+        -244943.5862000766,
+        1947652.7506731267,
+        681098.0804665901
+      ],
+      "geographicBoundingExtent": [
+        43.79341237716087,
+        35.821307177506036,
+        72.31918407826639,
+        46.286235066135156
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-02.svg",
+        "sha256": "67913ac8b1b1f506be277a630f90fa9f86fd4a514f3c738c2ff87102c79770fb"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-02.png",
+        "sha256": "26083f12266489c3629b62a1e5c5fca1b3822ddab7e90e5b56f18d47bb58a514"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-03",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-byelorussian-ssr",
+          "versionId": "state:soviet-union-byelorussian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-24",
+          "previousGeometrySha256": "9cabffac837a564bfd1e88f81f1379a02b1a13301774a180155c6fe8f7614430",
+          "geometrySha256": "4acbca4dff1b16bb23dc8a3686d168fba37402297c77f7aa50a0fdff5272ac38"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=100 +lat_0=60 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -4183149.080700226,
+        1277394.0487117113,
+        -1934190.7473668926,
+        2203435.715378378
+      ],
+      "geographicBoundingExtent": [
+        18.00024068680985,
+        49.222075667343226,
+        54.94627073386037,
+        70.52973916856011
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-03.svg",
+        "sha256": "252e9188bee3d799c911a9aa6bff505b7e62c53f4abbc89d464de6824b681dba"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-03.png",
+        "sha256": "9b1fdbe9a865bf03cd18ddba6c1604828b4b6c76931e7e9ed8a0baf4af59a34f"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-04",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-estonian-ssr",
+          "versionId": "state:soviet-union-estonian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-19",
+          "previousGeometrySha256": "0e7a6e237ad941988296cec05cd750b35091a46424831287b3349dbf827676d8",
+          "geometrySha256": "b0d919fe0caf474c93af49b909f37ca87437ca8b6dc3821eb24a30cae790574c"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=24.99047450000006 +lat_0=58.597446200000064 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -238476.99482090204,
+        -170014.0664158035,
+        2010481.3385124314,
+        756027.6002508632
+      ],
+      "geographicBoundingExtent": [
+        19.881124256666332,
+        52.87191226030352,
+        63.32125550703202,
+        65.38569899152766
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-04.svg",
+        "sha256": "9b6885c6f858c125e57239016ab464fecfa4c439f6b9f9be397a19bfb99d34be"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-04.png",
+        "sha256": "352cb21c0e9d1088b7fb27c316bca7b8e143f018ced5284c40295f42c95c7c2f"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-05",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-georgian-ssr",
+          "versionId": "state:soviet-union-georgian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-04-08",
+          "previousGeometrySha256": "27282268933b5d9a1fabc577ec64afbea3b3d1ba7c47cee9d2f92ce1762d7877",
+          "geometrySha256": "5aba9c7b28e0396fccf2023b530771699ae0847dc306a0169b6a1222ecfd1ba1"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=43.372558331185466 +lat_0=42.320891550000056 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -324319.30840876285,
+        -187099.10868873986,
+        1924639.0249245707,
+        738942.5579779269
+      ],
+      "geographicBoundingExtent": [
+        38.95457462711553,
+        38.383594126768386,
+        68.8520060779915,
+        48.973550232449135
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-05.svg",
+        "sha256": "c2d919a93fc007720fcf733050b6763f19d0949fdbf66a93fa8f397b624f546b"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-05.png",
+        "sha256": "804f9bc274fd1707ddfc7b85bca0c3b75399dbe38b162f08fab4c243f366fb01"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-06",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-kirghiz-ssr",
+          "versionId": "state:soviet-union-kirghiz-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-30",
+          "previousGeometrySha256": "da46d5855dbb1f250721c73b75b092bdfa604d5b784dd220d1bf6770083ebefe",
+          "geometrySha256": "b295fef6e966d2645f37b3707a20c3c4142eaea08d49e54034b9b3de70932a77"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=74.74620870000007 +lat_0=41.223578700000076 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -522686.5258196402,
+        -273708.7970322169,
+        1726271.8075136933,
+        652332.8696344498
+      ],
+      "geographicBoundingExtent": [
+        67.88490576787223,
+        37.03122838769212,
+        96.98193514275872,
+        47.09725312555215
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-06.svg",
+        "sha256": "00e90ca9241e1514e6afc362796fc6e057642d4af2c8f439ba2a75b6232bbd6f"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-06.png",
+        "sha256": "4f1c7efa303a0eca0e3761fd3e0a63f151b6715921a254ebe2394d7710caeaf9"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-07",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-latvian-ssr",
+          "versionId": "state:soviet-union-latvian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-20",
+          "previousGeometrySha256": "0c368b37617ec040bc8cf0d939fc071078127b96430b423d2605a6ba8abcf84f",
+          "geometrySha256": "39f72c71269053214f212d2e1a09787875e38e9a884d138f1eb8c66871396833"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=24.606915781482694 +lat_0=56.88012875000004 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -275370.4818931128,
+        -183270.89771686672,
+        1973587.8514402206,
+        742770.7689498
+      ],
+      "geographicBoundingExtent": [
+        19.090380584313788,
+        51.42011181146458,
+        60.50698891300454,
+        63.550979617864826
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-07.svg",
+        "sha256": "d75960281368ec43c6904745c0689e6a9f2059979530b6107f631a66953349db"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-07.png",
+        "sha256": "30fa2b98a995781f983f3730fc672b746812e098e0a39f97ed78416d0f5b88cc"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-08",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-lithuanian-ssr",
+          "versionId": "state:soviet-union-lithuanian-ssr:1991-r1",
+          "validFrom": "1990",
+          "validTo": "1990-03-10",
+          "previousGeometrySha256": "1740ed83808bf61f15ec9825c805df09b578146df010294b1ba918f8f019ae18",
+          "geometrySha256": "cd8c8fb44db515cba1e68cc51352698660f25435ca0492136e94989d277a5da5"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=23.894733100000053 +lat_0=55.17359730000007 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -238671.21239152082,
+        -193124.46888109576,
+        2010287.1209418126,
+        732917.197785571
+      ],
+      "geographicBoundingExtent": [
+        19.390085419694568,
+        49.712743078427856,
+        58.686051689751785,
+        61.75763708970111
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-08.svg",
+        "sha256": "238d585680e67d66460aa83c0dd55256a44d53283dea38de4ed34e45de5bb1b3"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-08.png",
+        "sha256": "5cfc64e2d902e85b67ca8bec7877403e25a4f0fc5a7234ec9d28cabc38f3e5b6"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-09",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-moldavian-ssr",
+          "versionId": "state:soviet-union-moldavian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-26",
+          "previousGeometrySha256": "26c14baf04d2260446b92996e70ac7a1bc4897e0e1d7c5a8435902c3de0f7dc6",
+          "geometrySha256": "a1b6f6869367fc1110daab068a51abffea322aa129d99b7c88f60ea104f8f3d3"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=28.390071800000044 +lat_0=46.98012929950008 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -181653.54524684403,
+        -218753.34626538306,
+        2067304.7880864895,
+        707288.3204012837
+      ],
+      "geographicBoundingExtent": [
+        25.668378866481106,
+        42.010546309997025,
+        57.928628317297346,
+        53.34247137155335
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-09.svg",
+        "sha256": "686f99af7815520af281255bd578248583b77c964a11ebac66a4c2f7f61b9176"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-09.png",
+        "sha256": "be15a854839b1e7c5a08c2fb86c44a33d686ce42b9a965ed74e5c6e3febadedc"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-10",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-tajik-ssr",
+          "versionId": "state:soviet-union-tajik-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-09-08",
+          "previousGeometrySha256": "f4cc620a8401522d1675ce702325d6cb21556cb5d8b4c73d55cd2f785652bbf3",
+          "geometrySha256": "c395f35c3c0d74fa073ac0eec07c99e680e4a08df94da8913c57e619306a41f8"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=71.24557640000006 +lat_0=38.85854955000005 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        350
+      ],
+      "imagePixels": [
+        910,
+        520
+      ],
+      "projectedExtentMetres": [
+        -386969.4919544555,
+        -292560.08952151105,
+        1861988.8413788779,
+        633481.5771451558
+      ],
+      "geographicBoundingExtent": [
+        66.38534613357378,
+        34.375892414348726,
+        94.19688786413899,
+        44.564776078139765
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-10.svg",
+        "sha256": "142cb62200a207120b1b0c0bf71ab484c78def34f183b1a02dd487fd3337dfbc"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-10.png",
+        "sha256": "3fa7303ce2fec26123bb79db6d6b1c99e4538207d1ddd3f7c39e03280ee1023f"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-11",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-turkmen-ssr",
+          "versionId": "state:soviet-union-turkmen-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-10-26",
+          "previousGeometrySha256": "5de714161575fabfae8191aba5d7ac7eacdb7d05b387c1cd11b6335cf6eb62e6",
+          "geometrySha256": "9ba9444fbe516c0f4c1c68aca7aa81026b4d710b29b64fcad0ba507397fbd097"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=59.57635870000004 +lat_0=38.96367735000007 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        359
+      ],
+      "imagePixels": [
+        910,
+        529
+      ],
+      "projectedExtentMetres": [
+        -643106.9136059219,
+        -471858.0904901907,
+        1605851.4197274116,
+        477996.076176476
+      ],
+      "geographicBoundingExtent": [
+        51.67901460948921,
+        33.36677775950682,
+        79.07108497002423,
+        43.268957706319426
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-11.svg",
+        "sha256": "d0cf0a5797666a72d1355187960d9c6737e496a451c36f7f45372d1f798d9a40"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-11.png",
+        "sha256": "90e2685a6545eab6755b6da95ff56806c91c676cce5e5f103ee7f66c8786073c"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-12",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-uzbek-ssr",
+          "versionId": "state:soviet-union-uzbek-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-30",
+          "previousGeometrySha256": "d78f9c0b0d61f22641d06440746cc12ba12a78932b5961d67d312f549a862ff6",
+          "geometrySha256": "195f59f49772480ddd8c10119da388b214cd6ccf78b520f9e447ec73dbaa17b1"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=64.60857505000007 +lat_0=41.38136930913544 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        396
+      ],
+      "imagePixels": [
+        910,
+        566
+      ],
+      "projectedExtentMetres": [
+        -770983.0532123699,
+        -512524.2178117887,
+        1477975.2801209637,
+        535225.7821882113
+      ],
+      "geographicBoundingExtent": [
+        54.670460441467355,
+        35.5354536047758,
+        83.45781950788708,
+        46.20017317442267
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-12.svg",
+        "sha256": "a06a8847d7d1a41e6ec6bc6b78b18291311221a208382ec11304d067ea330dd6"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-12.png",
+        "sha256": "bc9c52998feec7d87982963d128dfd8c05aefd67e68955fcfc8aea4534a402f6"
+      },
+      "visualObservation": "Main body and significant detached/coastal components visible; no obvious introduced display spike or missing principal landmass. Small enclaves/islands rely on numerical donor/component evidence."
+    },
+    {
+      "name": "bound-13",
+      "versions": [
+        {
+          "entityId": "state:soviet-union",
+          "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day",
+          "validFrom": "1930-01-01",
+          "validTo": "1991",
+          "previousGeometrySha256": "5616a67213a0b503eb81a022b34c9149786c19d2d72eda00cf3c5a5798852169",
+          "geometrySha256": "1a275509462834cbd7193beb5500004ede40baf4579d7effa1aeee8326339cb8"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=100 +lat_0=60 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        3141,
+        2018
+      ],
+      "imagePixels": [
+        3201,
+        2188
+      ],
+      "projectedExtentMetres": [
+        -4640541.303838557,
+        -2163374.985878036,
+        3670021.1961614443,
+        3175916.680788631
+      ],
+      "geographicBoundingExtent": [
+        -179.96452860980708,
+        25.55223734353329,
+        179.95344074279404,
+        88.76825883799441
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-13.svg",
+        "sha256": "02408a6ed1b9033733af28a180d28eb1fede3f9b379f868df860f7a6b2a1c21b"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-13.png",
+        "sha256": "152c2a227e63ea1dfbc1a098ac362f3aebe42a0497cfe98dbf92811b90247c9e"
+      },
+      "visualObservation": "Existing broad modern-successor parent proxy retains principal landmass/coasts; no new claim about1930 political borders. Antimeridian split edges remain visible in source-based rendering."
+    },
+    {
+      "name": "bound-14",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-russian-sfsr",
+          "versionId": "state:soviet-union-russian-sfsr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-12-24",
+          "previousGeometrySha256": "dce6e1e493b9ea55478f98ba1cc9b34e46aea7de6aa3986fc0b9053771119f58",
+          "geometrySha256": "c3d2570fa2bdc0e585b70b22a6dffae4dfc6fe8b6e083ecace02c6571360e16f"
+        },
+        {
+          "entityId": "state:RUS",
+          "versionId": "state:RUS:post-soviet-existing-coordinates",
+          "validFrom": "1991-12-25",
+          "validTo": "2014-03-17",
+          "previousGeometrySha256": "dce6e1e493b9ea55478f98ba1cc9b34e46aea7de6aa3986fc0b9053771119f58",
+          "geometrySha256": "c3d2570fa2bdc0e585b70b22a6dffae4dfc6fe8b6e083ecace02c6571360e16f"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=100 +lat_0=60 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        3024,
+        1749
+      ],
+      "imagePixels": [
+        3084,
+        1939
+      ],
+      "projectedExtentMetres": [
+        -4330827.68328948,
+        -1451772.9429112754,
+        3670172.3167105196,
+        3175789.5570887243
+      ],
+      "geographicBoundingExtent": [
+        -179.97699726828708,
+        32.53297215314905,
+        179.95191523655103,
+        88.76724416097115
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-14.svg",
+        "sha256": "86750deaa289175c374525a4ddf122261a1f491ad437fc1a6220b3f6639990d2"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-14.png",
+        "sha256": "d2993ef9029cab7ee10aeb65793bee517530d01c012722962942d86cb6f0a725"
+      },
+      "visualObservation": "Crimea remains excluded; Kaliningrad, Arctic islands and approved Far East components remain present. Fine offshore differences require component ledger, not pixel inference."
+    },
+    {
+      "name": "bound-15",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-ukrainian-ssr",
+          "versionId": "state:soviet-union-ukrainian-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-08-23",
+          "previousGeometrySha256": "abc0773dfd8741ca7752d94c63802bf77c08d980ee9e9321a5b3e5bb958ed07c",
+          "geometrySha256": "50a7509942ecf5794380e92969695c07669bca1a87506fa394fc97a495779d46"
+        },
+        {
+          "entityId": "state:UKR",
+          "versionId": "state:ukraine:1991-2014-r1",
+          "validFrom": "1991-08-24",
+          "validTo": "2014-03-17",
+          "previousGeometrySha256": "abc0773dfd8741ca7752d94c63802bf77c08d980ee9e9321a5b3e5bb958ed07c",
+          "geometrySha256": "50a7509942ecf5794380e92969695c07669bca1a87506fa394fc97a495779d46"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=31.18275675000004 +lat_0=48.38317305000004 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        850,
+        374
+      ],
+      "imagePixels": [
+        910,
+        564
+      ],
+      "projectedExtentMetres": [
+        -718192.7486690602,
+        -490923.09304229886,
+        1530765.5846642733,
+        498618.5736243679
+      ],
+      "geographicBoundingExtent": [
+        20.593302491537646,
+        42.30843749458942,
+        53.28533525501753,
+        52.86683997560124
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-15.svg",
+        "sha256": "8184c0291cbeb39465f5e0b2153e4cff2ee6c7246b158cd2fb2a49b74d72fb60"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-15.png",
+        "sha256": "69f4fd43b00aa3ce183e58d607f24f7356bd8ac37a2433b21c52a2d826060407"
+      },
+      "visualObservation": "Crimea-inclusive outline and mainland attachment retained; shoreline differences reflect new prepared source. Unassigned35 source components remain excluded per separate evidence."
+    },
+    {
+      "name": "bound-16",
+      "versions": [
+        {
+          "entityId": "state:soviet-union-kazakh-ssr",
+          "versionId": "state:soviet-union-kazakh-ssr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-12-15",
+          "previousGeometrySha256": "59d9710ffa7e6d4a07b55277fd3913c93f47e6f11a7a46e569f15037c0fa92dc",
+          "geometrySha256": "56a6d550a4c4401e183e6838ca4f3308f93395f2f44a32002728d66a0617ed24"
+        },
+        {
+          "entityId": "state:KAZ",
+          "versionId": "state:KAZ:post-soviet-existing-coordinates",
+          "validFrom": "1991-12-16",
+          "validTo": "1995-09-24",
+          "previousGeometrySha256": "59d9710ffa7e6d4a07b55277fd3913c93f47e6f11a7a46e569f15037c0fa92dc",
+          "geometrySha256": "56a6d550a4c4401e183e6838ca4f3308f93395f2f44a32002728d66a0617ed24"
+        }
+      ],
+      "projection": {
+        "definition": "+proj=laea +lon_0=66.90422150000003 +lat_0=48.00579015000005 +datum=WGS84 +units=m +no_defs",
+        "units": "metre"
+      },
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerCssPixel": 2645.8333333333335,
+      "panelPixels": [
+        1158,
+        663
+      ],
+      "imagePixels": [
+        1218,
+        853
+      ],
+      "projectedExtentMetres": [
+        -1540849.3410806903,
+        -874376.5446497767,
+        1523025.6589193097,
+        879810.9553502233
+      ],
+      "geographicBoundingExtent": [
+        43.12317125078834,
+        38.57673291180661,
+        90.42711816106637,
+        55.919951335561905
+      ],
+      "geometryVertexExtentsIncluded": true,
+      "svg": {
+        "reference": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\ssr-review\\source-bound-19\\bound-16.svg",
+        "sha256": "59cfb595ab84f1c0aa6fe6a00cde7103be6baf2ea42a64327955ba7adaac0ffc"
+      },
+      "png": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-16.png",
+        "sha256": "841f07afd655bd866ba5ff7b9e086e39ace86947d1ea77e162f95a7c5d72737d"
+      },
+      "visualObservation": "Kazakhstan main body and perimeter preserved; source ledger and numerical evidence establish KAB inclusion rather than subpixel visual inference."
+    }
+  ],
+  "overviewPolicy": "The7regional overview images combine different version periods and are REFERENCE ONLY, never canonical pass evidence.",
+  "limitations": [
+    "Source geometry comparison, not app/runtime dated rendering.",
+    "Modern donor source reference is not the historical effective date.",
+    "Pixel inspection does not replace date-specific neighbor/parent topology checks.",
+    "No full-period compiled approval or canonical writer approval is asserted."
+  ],
+  "sourceLocation": {
+    "Gpkg": "Verified in cloud only",
+    "Windows": "Exact replay from existing approved donor; no installed GPKG is claimed"
+  }
+}

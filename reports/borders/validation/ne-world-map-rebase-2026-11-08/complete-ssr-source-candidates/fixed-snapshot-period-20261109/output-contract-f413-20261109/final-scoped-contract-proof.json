@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-09T08:09:55.181Z",
+  "snapshotFilesChecked": 440,
+  "changedPaths": [],
+  "evidence": [
+    {
+      "file": "master16-strict-source-admission-correct-call.json",
+      "sha256": "e02294095d1a9f767a2589b12d15f8c72e105cccb839c597b3fd54890b3a7ac0"
+    },
+    {
+      "file": "all81-d1-f413-normalization.json",
+      "sha256": "74efa8c156f792b2d54ea0a39278d247db9d5db6a07540fe6707b6684f5ebebb"
+    },
+    {
+      "file": "normalization-order-proof.json",
+      "sha256": "9d8b08725ce863c93de44b00907ca470c9f99263f4cb9af96d5a1ec568beaa11"
+    },
+    {
+      "file": "actual-binding-store-roundtrip.json",
+      "sha256": "74b210212efcce20f189f7a230154ab306c500aaa19624f277a46627a8e3ad49"
+    }
+  ],
+  "supersededAttempt": {
+    "file": "master16-strict-source-admission.json",
+    "reason": "First validateGisGeometry call supplied geometry object instead of MultiPolygon coordinates. API argument error, not source validation failure; corrected call is authoritative."
+  },
+  "scope": "Strict source admission, generated normalization/storage only; no f413 Boolean period execution, source/runtime writes or receipt issuance"
+}

@@ -1,0 +1,3117 @@
+{
+  "status": "completed-code-input-identities-recoverable-from-published-app-history",
+  "at": "2026-11-09T09:03:27.693Z",
+  "remoteMain": "13749bcebe6c24a673b451a6636ab4fd7e61da5c",
+  "network": false,
+  "records": [
+    {
+      "manifest": {
+        "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/compiled-binding-review/completed-source19-calculation-evidence-manifest.json",
+        "sha256": "63f98136f0d3c8bb9b6e707ec603916e3a76a4fc43012d21f690617c9a6e2d71"
+      },
+      "commit": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+      "reachableFromFreshlyVerifiedRemoteMain": "13749bcebe6c24a673b451a6636ab4fd7e61da5c",
+      "files": [
+        {
+          "path": "assets/js-vendor/polygon-clipping.min.js",
+          "gitBlob": "66a4e7bb45fb37353ba86e1114f7e9166ef1efad",
+          "sha256": "f408d89afd886cc9a87f828eb5d4699512d685cebc5d4ed663e33615257e65ef",
+          "bytes": 29154,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "assets/wasm/pandoeditor-core.js",
+          "gitBlob": "6f25e9874907faff946c06a3391549a78a609b3a",
+          "sha256": "96c184815104456b0ff78f433aac1048878ea59de98e0f5eb575bdbfb63ee096",
+          "bytes": 55329,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "assets/wasm/pandoeditor-core.manifest.json",
+          "gitBlob": "71f0a5cd6a76d372bbf19e9baca0442f7c9f3064",
+          "sha256": "ebae0688300a8bbabc5cdff2dfedbe4d33a2500647d8dcf8c67829d5cbea89c2",
+          "bytes": 26071,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "assets/wasm/pandoeditor-core.wasm",
+          "gitBlob": "9f183a9fbb34da61bdf4ebb9686867f0805c5d64",
+          "sha256": "a1a1ff6172e950f670b96f477125761f884006b16491d23bd51026ed373c77f3",
+          "bytes": 3441118,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "config/core-source-roots.json",
+          "gitBlob": "0270e19273d4b289ebeae24281d6fbc3c732ff34",
+          "sha256": "771b9a234d35f2e3179f080b4dee0cff8b8e6acc6b86056bc9c5df5a693f3380",
+          "bytes": 274,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "config/library-data.json",
+          "gitBlob": "c346d7a35cd6dc8d38bc4b4b77454c674dab1719",
+          "sha256": "d25671d3d15f97cb96883ad816cb27746b8adbc53bb84f608fc7e33b7dd9ad4e",
+          "bytes": 371,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "package.json",
+          "gitBlob": "2925ed4f9fb3dd9fc6027e0b23907ff392690ef2",
+          "sha256": "797ac09dabc6491d8683818822e590b9595674c47fb0095ca0f6255c2a849423",
+          "bytes": 9128,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "scripts/lib/frontend-layout.mjs",
+          "gitBlob": "35495e2aa51452138d23a6b6fab9b8a9b1e2f9b3",
+          "sha256": "f516c42a6f5707ac9940dda7b62b8444983650272f30015729c977c8fdd17173",
+          "bytes": 8753,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "scripts/lib/product-assets.mjs",
+          "gitBlob": "944fd80e7a668649408207c398f466073e39d22d",
+          "sha256": "1a24230a2bbb80c9329c13b075c972cca12bed2677435b8e506c50fd87f6dede",
+          "bytes": 10394,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/builtin-country-files.js",
+          "gitBlob": "10b31ba8e27e34c2261b051ee445245d503ab03b",
+          "sha256": "16e73e05a9b6cf893ef1b997330aeca1b5c774f2297fd4f590f4045d39fca432",
+          "bytes": 9314,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/geopackagegeometry.h",
+          "gitBlob": "da94f24158bbc83ea82ab92e3c611b0d03edc4b3",
+          "sha256": "a3ee4b9222d13b70339a74d09cc054b412cccd77a0a08c9599160734bfb95f7a",
+          "bytes": 400,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/giszip.h",
+          "gitBlob": "9a41105f4e2fb54044589f7f616c2cf39850455c",
+          "sha256": "b72ad121ca644708c9d8f75f48fa32d5d45daab693f84804788a3f4d733be4eb",
+          "bytes": 664,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/hydroformat.h",
+          "gitBlob": "e73a73a889ea0f2734e8f4b8ffec4ce82fd24c92",
+          "sha256": "dbb5f64d65fc93d5bba735a0952fd5f1e5753613e6a8006e2653223468876cf2",
+          "bytes": 2375,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/losslessjson.h",
+          "gitBlob": "f079f500badc0382cc9873fd42fd9635677ba00b",
+          "sha256": "a71c5aaf4ff4111aa2a0512fb5dcede9e55dfd86e546d96dc8078c478b95acd0",
+          "bytes": 1093,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/projectcodec.h",
+          "gitBlob": "2caa9804a67f9d457416719e2af40dafb0ad8340",
+          "sha256": "454c53ced2a4932d0c31970f98fb763fed3c8a564465df8e476202823d273e13",
+          "bytes": 3103,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/referenceimage.h",
+          "gitBlob": "5e0531faf4292d488baed0d24f815e4a883e2cf4",
+          "sha256": "98869451878b65145948fc5a08929134debbd4a0cebd86dda6d8d53f9ad8fb46",
+          "bytes": 1917,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/webstorage.h",
+          "gitBlob": "7d78fac326a06fea7f8516131cba74f291de4d63",
+          "sha256": "cc8adc5511abccb5e4ccdbd45ccf782ca80f72e1897c57ec2519e5a548240f0f",
+          "bytes": 3296,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/geopackagegeometry.cpp",
+          "gitBlob": "3a775bd3b48c4c5018c402618a454bca4fce5396",
+          "sha256": "26c11fba749c4a3fd30425baf5dee0f065e70b33e27a7cd18f5f74df6ebf7425",
+          "bytes": 6022,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/giszip.cpp",
+          "gitBlob": "584507e0db2b6a0d64400c647ab601f9c45e8e27",
+          "sha256": "e658daf435bb12eacbe117685ef825f95e81b675b096d165f9e4745ef83546a4",
+          "bytes": 10090,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/hydroformat.cpp",
+          "gitBlob": "7d5042d8a8317d87b4e80270facb7775f9c44c52",
+          "sha256": "91f6994a915b77eeef175757d81a8d17be466cd48eb62de73e7fc672e725a536",
+          "bytes": 13535,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/losslessjson.cpp",
+          "gitBlob": "951986768eaddbfd1f42e0ca923159168da95652",
+          "sha256": "f619b388720b4b967151223ed8e2b61b5eb1a0641a2af1a223ccbc3798bb5420",
+          "bytes": 11061,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/projectcodec.cpp",
+          "gitBlob": "67f5e6f8b65b54a1719d5c69aefd4ffa0fdea0fa",
+          "sha256": "dfe8f7ad522190b08ce700a4141f52aa20d49813ee2358886cd9bf0fac86d1e5",
+          "bytes": 107579,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/referenceimage.cpp",
+          "gitBlob": "eb52950ce22b12f874fe859f8e88682d6f4c820c",
+          "sha256": "47131d649eb3fe5aaa0000e0e50cac3a8d37dbbce1238331652ca5c6b6f6b43f",
+          "bytes": 60024,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/native/src/webstorage.cpp",
+          "gitBlob": "53de4da1aafa1ebddef589d354159ab5d75cbd99",
+          "sha256": "fed05e6c5ef70c58cbd0da792f07709e0a38ffa60c14d87462f72e1acdfc8f12",
+          "bytes": 28526,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/physical-land-patch.js",
+          "gitBlob": "ab09f05fdc5a78fe1f32b82733a788e7bed42f79",
+          "sha256": "00095b0b64269a1223563b8d4a86df212531562d1457ae4fe993959b45021f90",
+          "bytes": 4614,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/prepared-mesh-delta.js",
+          "gitBlob": "da7d96a4f63e958a9e2727d4854313151c0dd0d1",
+          "sha256": "f8071cdf110488f236feaf63729d2b743902f1a56c46deebfcafeb6d96496b97",
+          "bytes": 1606,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/runtime-manifest-assets.js",
+          "gitBlob": "6c8bdce18c5121a3f31171b78b0a59851d7de0bf",
+          "sha256": "c339f765133b6d0656cdcbc31a0806454080515ad5908104d21bd0bf054f6c65",
+          "bytes": 4440,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/stored-asset-loader.js",
+          "gitBlob": "13603a17f131d4c4b0338e6d0dd7d003ef743f82",
+          "sha256": "e9cbf555ddbd2a6315d8c35ef8a91e8266f213e0b870e6d1005617863e676399",
+          "bytes": 11088,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/data/territorial-source-format.js",
+          "gitBlob": "10dc1245ae8a580001fccc418e70c7441736b1b7",
+          "sha256": "ed85a3a8d07219057b3c2b43e485deeba1db931829bc1114525685a1e7f4f7b4",
+          "bytes": 892,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/builtin-subunits.js",
+          "gitBlob": "83169c7753227c7044725893f1c3381a5cf6c44a",
+          "sha256": "24a38808ba71f17c1fec3bc158f7d6c1dad31db798de42aec1969a081907c09d",
+          "bytes": 957,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/builtin-territory-policy.js",
+          "gitBlob": "778a129bfbe4d01088d2a5f04097053a84fc7535",
+          "sha256": "aa1a3d4e793f4588039722409d84b648eb70087fc354463f5dcde6673ec913a9",
+          "bytes": 1612,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/country-feature.js",
+          "gitBlob": "a8b118f173fe50632d543f63b5db6f4b3259ddee",
+          "sha256": "5f3d85607620688c208590d0f5b8a6294917210caf09e67124cbcd2d9f4a8f9c",
+          "bytes": 1533,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/distribution-model.js",
+          "gitBlob": "4f503f952f34eecd4f55346d1d8b62c095091cfe",
+          "sha256": "5fa0c47534cac6587d61de12a87674d9631d4f3d4fbc1c2d058f447352bf0dab",
+          "bytes": 8377,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/bindings/place-bindings.cpp",
+          "gitBlob": "ab4ecd947f72f5d99be15ebe20ec7e35b54f4c67",
+          "sha256": "361c56ec7978652051c12ceebdc795079018de3902bc83a9ef012d10ffb8c578",
+          "bytes": 2076,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/bindings/session-bindings.cpp",
+          "gitBlob": "8ad9cf38bc9c07164b74d2d80236d0fbe5d388d6",
+          "sha256": "5902e84e62baf8d9bc6714693c95a5187dd07470e0f6087384184c0dac03d915",
+          "bytes": 80541,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/bindings/timeline-bindings.cpp",
+          "gitBlob": "fd223e7b5a3872cf68435240c31d53195f9f61b4",
+          "sha256": "db1eb579ad93cdbd96e5392c293a7cc860a8d56bd5f5cd5fe72bb62b7eb72328",
+          "bytes": 16986,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/commands.h",
+          "gitBlob": "1f1b19fdd9b56431050ba23c00e487e91b104486",
+          "sha256": "50cb6d935453bcd5afb6d0ccebacba599a6973070a86415658551733802b2b67",
+          "bytes": 10189,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/document-session.h",
+          "gitBlob": "a4fc08924bc09832a6b13eae1c6272651db81a07",
+          "sha256": "ba119811ac9d868b8c080229bbad2b67bf98f4c632ed235faf8bae35cdb83396",
+          "bytes": 11123,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/document.h",
+          "gitBlob": "aa887db4b4edc90fc459f596bffb1b0a00d535dd",
+          "sha256": "a46702e49d66632eafde960e58b72f4b2d01a5db2d2edf578054d441b66e7202",
+          "bytes": 11871,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/gisexchange.h",
+          "gitBlob": "ace883a338a6d5d2c75c71f4457e15a6f0112881",
+          "sha256": "c3f1047bd19dba29ce147a587c1166850aa5083a55d4314bec3ae04d3c1bad80",
+          "bytes": 5020,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/historicalinstantiation.h",
+          "gitBlob": "cab809a75f8d644f7fb5e5b22e9eeb48eaffa155",
+          "sha256": "fcfbb149f70fae8cbae983aae513573bce5a651c1c6182e918b7f7298768417f",
+          "bytes": 3431,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/historicallibrary.h",
+          "gitBlob": "39e06be288e5abcdb91cb390fbe123b494f40be0",
+          "sha256": "82f2b473928ed4966b4ef164adcc155980c4304df2018712e776f678e608cc41",
+          "bytes": 3564,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/hydroviewport.h",
+          "gitBlob": "e01f485e90bab4e167b68d83ff87cb60d36d5ab1",
+          "sha256": "a9c38002c3a0ae1441cf3553e35b1bc975d2825aab17d1642f9de865791587c9",
+          "bytes": 503,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/jobs.h",
+          "gitBlob": "d270d90a6cc575c06b41fc16f770c7735f3a8666",
+          "sha256": "da51c6c9eb9ba8037cf3f35f0b614b7507c87f4c7958b4d251469f042da0e044",
+          "bytes": 3101,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/objectproperties.h",
+          "gitBlob": "170ef5ebded146d8a694054c1fad912a63a249d2",
+          "sha256": "7b650e64e5624be1b7bbb797ebd244c8e3d5b291f7e94de61cff953bfb541511",
+          "bytes": 691,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/placenames.h",
+          "gitBlob": "0c626ecbd6742b3ad2148836a99fe54162cf9d32",
+          "sha256": "c5d188dfcddf701872aaad4c0667cb9db7acaf88985f555effb1571888ce109e",
+          "bytes": 865,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/presentation.h",
+          "gitBlob": "e03755f467a950d06a66f83e9576651519f4b4f5",
+          "sha256": "569ed324d15d1488ea1b15cc162f7b82192db4dc0218c227afe4a4df3653b7ba",
+          "bytes": 5677,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/presentationcommands.h",
+          "gitBlob": "022fa3a79cf23737f87ba83f3918494d8a0d3dce",
+          "sha256": "5e2d6afa24e2a40f99008fc7c1ef353eeef8bfb1f244aca5fb78af5f16495397",
+          "bytes": 2927,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/project.h",
+          "gitBlob": "d03fd57946e23325d735ba26b425227e9a53703d",
+          "sha256": "2d2a752972dc2693dd13637899227cbb2ba7d0b94a162b05cef9bf7f91f8c3b6",
+          "bytes": 6896,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/selection.h",
+          "gitBlob": "c507119dd0d9853381a915a8f1aabcf12e425ee0",
+          "sha256": "1e966cc268467f63b2640cf1c2a210bc4b6028a77d0b82a2702c835122f3ef5b",
+          "bytes": 7124,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/selectionref.h",
+          "gitBlob": "827f776755b4270d3d5db7621538e135d6817592",
+          "sha256": "3ee44497f2b4000669008c41f74cfc29d755f9ee81e449d40d5754190e655868",
+          "bytes": 1861,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/temporal.h",
+          "gitBlob": "5434787842195312f8451ccfb3070867587255a5",
+          "sha256": "221cbf8402080214e28ffb495303064129bba3e30c96dec6812c5b5ea82016c5",
+          "bytes": 2109,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/territorialmutation.h",
+          "gitBlob": "7d0c53d8d87640a04c27e7e31a7d9f61f496fe86",
+          "sha256": "a3cf1385823e5571a83d48955c59e59d97680f48a51069e1c72f47b4fc7d2cbb",
+          "bytes": 6481,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-edit.h",
+          "gitBlob": "fdfa6ea2b15122600d8476a0acb00bd34f979b75",
+          "sha256": "1e8e229056771d5a72c00fe70f572acad63f939d0340a23d87d5d60be142043b",
+          "bytes": 1815,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-records.h",
+          "gitBlob": "deadcc28643bb5009ced0152a39e8ebd52e0b5f1",
+          "sha256": "51540a84601682d6f1ab16a7d458deeb2fdd680b5d8737674fb0e18beae7dd46",
+          "bytes": 2229,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-resolver.h",
+          "gitBlob": "1714003a8dd14db23e9b5e40371fa1d55cf226ae",
+          "sha256": "0198e4e8588ee22f8849fa88bb4ab3c843a90a4c024ac94cda86c688e1f42fcb",
+          "bytes": 2488,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-storage.h",
+          "gitBlob": "66c832a62f5ae935ea0b6fdea5ed500578b80474",
+          "sha256": "66cc8ad161a9e58282753c195e920c1cf596e3f99dd069ce5ecd04c4fddb038a",
+          "bytes": 1189,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-view.h",
+          "gitBlob": "086b1391cdab807b1a7c249441659f69d3e04432",
+          "sha256": "f26d24a0ab4496888e45b188a70ff86ddd700c28af00d8fa0b15dd3607fe6410",
+          "bytes": 1189,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webcommands.h",
+          "gitBlob": "a77893da246878a355da1d87d40b27d6d5e0a964",
+          "sha256": "540c9d4280b4307bc41cbb1a601554717460bf9659d260427b08f10284a53a29",
+          "bytes": 873,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webcontentcommands.h",
+          "gitBlob": "fc7b48c20fe76e94a4df126a6908479f08e1c961",
+          "sha256": "98f950cd146aac96b31db2535b3c6351f4fa2aa0299ce6fc5ce460e209ae223d",
+          "bytes": 412,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webobjectcommands.h",
+          "gitBlob": "9762fded05fd79932f01f08ac764502197660542",
+          "sha256": "8c6204d84fd0273af170aaedc21515e7c2ca915111886a607b87108746aa3acc",
+          "bytes": 656,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webpresentationcommands.h",
+          "gitBlob": "379ffe717b1658e3575617b26348704b44c0f80b",
+          "sha256": "7a44bb77284f3a9094df22b08634bf59304811d7ef2b1b7f1a4a814fa338b497",
+          "bytes": 305,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webterritorialcommands.h",
+          "gitBlob": "399f0a20ff8129e0ac3b1197f01d290741ed5226",
+          "sha256": "3c553b8f80604b033fa40d8eeb557f654b3c700c74a12cdfc47969ea1c561474",
+          "bytes": 1723,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/commandbatch.cpp",
+          "gitBlob": "fc3bd80ce046d9a9ecb8ac04b7d6c39ae897b795",
+          "sha256": "b0a29ff0f25d2de9ed7b76fef1f56db17a9cbc71edee43bcfd5a6077d7a99846",
+          "bytes": 3373,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/commands.cpp",
+          "gitBlob": "533a09fdef45d2179a07f6558fadf5590cd55460",
+          "sha256": "0c3e35d5ba9a4db723e637404d738dd33af5c8efa80789e0555824b5f66dc078",
+          "bytes": 162457,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/content.cpp",
+          "gitBlob": "e5ce14c2a11b2251a90e88b70f537fadd3819ccd",
+          "sha256": "c4325c686e46788f34e63b26a88edcaab5bba7e9c5c93c9d38a3d01df192b994",
+          "bytes": 12920,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/document-session.cpp",
+          "gitBlob": "e8b7a508bf440fefe1576fc4fe03691367a40516",
+          "sha256": "058251768ca94ef3bdd636af51608f05ec533263c8c53e3ca6f2b3f9287118ec",
+          "bytes": 54111,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/document.cpp",
+          "gitBlob": "d59644464cd4ae2099b43740775a8600d16031b5",
+          "sha256": "24f11b084b6a3ea0d53d53ba2c8984d80259077414c48f80f18b9771e8251688",
+          "bytes": 14839,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/documentstate.h",
+          "gitBlob": "8d505fa738696925a99cd846e1ff3c8eda32a3dc",
+          "sha256": "060e2521a7aafb0fe2052b85ffd8afac8051745f1ae0105485bb9e8cd544b713",
+          "bytes": 1902,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/gisexchange.cpp",
+          "gitBlob": "c1f5b89fdc1c8dc2b91aca6a7a0411ef8b60dc6e",
+          "sha256": "850ca95f367b6b50745569edb2e5edc9a5ccddb0433387a01add73ba99131b08",
+          "bytes": 18073,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/historicalinstantiation.cpp",
+          "gitBlob": "7211d591154fd6daca982395407c95cdc0be9a78",
+          "sha256": "bdc38e57ce7995e65590a52f42c126130d97376d8ad4deca003d429e9f1dd443",
+          "bytes": 20823,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/historicallibrary.cpp",
+          "gitBlob": "f9fecdea68fe0a8bd94dd9f2d206d5b9368a3859",
+          "sha256": "e8ddcfe4145cc7795242ed33ddb2dc810fffdf8a8a8709fbe380eca89e0f2061",
+          "bytes": 10855,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/hydroviewport.cpp",
+          "gitBlob": "b0c19806a75d8da56bd88595c2cd342b8cf526cb",
+          "sha256": "698a50798d848af067e29af20a5cbc5effd4191ae23f72c3e1c6afc6c05b29b9",
+          "bytes": 2183,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/jobs.cpp",
+          "gitBlob": "62ae8c7b055d1378fedec0e05c0dbd481eff38b6",
+          "sha256": "403b607414336a47b3b224156c51e218786966ea61b57f088ebfcb9d54f67275",
+          "bytes": 5829,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/objectproperties.cpp",
+          "gitBlob": "e73236301f6286a29de69994110aa7f3b038691c",
+          "sha256": "38ace4fa518ad49ebcc36e68b221e56014c7f748c1a48ea2d62b0664d2d5634e",
+          "bytes": 5364,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/placenames.cpp",
+          "gitBlob": "a173e1f9ada17b9c8fe9adcdd225ea7aa2ad90f5",
+          "sha256": "1867791e1d3aace9bc1bebe9190cc02b5d5b99a7436904e21fade4aeb816ef93",
+          "bytes": 1755,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/presentation.cpp",
+          "gitBlob": "e8102d4036b5a01a2d528483e740070306e6c3aa",
+          "sha256": "25f3ef66e3025b08cc1105b5e72ef7066cb3880cdf4ec277b740cc449691ecab",
+          "bytes": 16272,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/presentationcommands.cpp",
+          "gitBlob": "645dc5cd43221be60a68dab7a59e74e16fd5dc69",
+          "sha256": "fc004b043c082da52174b62549c8865dcc77f321b4eb99e2a5db97559a092a05",
+          "bytes": 10902,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/project.cpp",
+          "gitBlob": "78b592401a7933915ade605768c163fdebb0d0fd",
+          "sha256": "d95b25f4eb25f8b35184d81e53cb952d139493febcd922f0e7b839d78f98e605",
+          "bytes": 37957,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/snapshot.cpp",
+          "gitBlob": "0eae6b135de13970e0a7c803a2f8ae4295e21543",
+          "sha256": "bbd46f65f452945d0a66fe3aca4b81f11faa307e6da75efca5462b16bb72908f",
+          "bytes": 901,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/temporal.cpp",
+          "gitBlob": "e43e86c85539fc226dd14046028f69783fad7f2f",
+          "sha256": "f3a482d7bdd131f25b1f387f5f4775110d43f251cff4610f6fae0ff40682d37a",
+          "bytes": 8942,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/territorialmutation.cpp",
+          "gitBlob": "ebeee2af814e1abe6cff3cce1aa7c275221fcd04",
+          "sha256": "933fbe4e1937f660e825f7410d37ddc050a39fad6be11f7de10d3cd41274d04e",
+          "bytes": 30303,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/timeline-edit.cpp",
+          "gitBlob": "a1bae316f83dfde1daa375fe9b0e789f7cdeb390",
+          "sha256": "0749e713ab3a6daf0a4de28056b8f52a50ebeb9f0244586413acba61cb63ad5a",
+          "bytes": 13411,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/timeline-records.cpp",
+          "gitBlob": "95c0366a7c3ff8aaf1f4a1a1483dbb082b890720",
+          "sha256": "004b926983fdcfec88fbebfc16a09f1a3ec9efbc827bed645f98d04971ff9ca5",
+          "bytes": 17021,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/timeline-resolver.cpp",
+          "gitBlob": "cdfda417b68883576f728c1d1dd0fd4c8d60a225",
+          "sha256": "6a4e22b3aa32be3063e6ff2c3d117f984e75b91f5000e1ace962ec22577eea41",
+          "bytes": 9300,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/timeline-storage.cpp",
+          "gitBlob": "7bb04a150052fea134a8b913c8291a342b5f45eb",
+          "sha256": "3f072ef073d4233687aeff5974f99abcf6dc8568d92c07b3e881999cb3c69c20",
+          "bytes": 2301,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/timeline-view.cpp",
+          "gitBlob": "8cd522225012e56c1211590e9f9ef6208581f272",
+          "sha256": "49e9f400dba2ddc4439be59c15fa08ec7386889beafa0c8dd105cfb4d5db5cb6",
+          "bytes": 14084,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/webcommands.cpp",
+          "gitBlob": "1888d0aa0708fac369d710af1b850a6412a9e99e",
+          "sha256": "5c838033e5429635b49bd112b1bf872975d49ff2cb0bceec51452712b20e7d04",
+          "bytes": 16565,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/webcontentcommands.cpp",
+          "gitBlob": "9d47616cec348b02d09b131cb2998f3218c42e30",
+          "sha256": "1fca7fa637fa0e9cc5272d2972e28d6b06b7fa89e80437e286a620d20c2eb13a",
+          "bytes": 21932,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/webobjectcommands.cpp",
+          "gitBlob": "5555f366ee71a33b48d6f4f00d44ded5395c460e",
+          "sha256": "784d312020bbc3c390fede987c34eebadf328f16aacbdd552081e120108e5d07",
+          "bytes": 10744,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/webpresentationcommands.cpp",
+          "gitBlob": "3091fcebc2699d33a80054e458d6df8af6df74a5",
+          "sha256": "4036ef0ad71883ee9b2253397a65562aa60422a40fd67e245b664f720f42d3a6",
+          "bytes": 7956,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/webterritorialcommands.cpp",
+          "gitBlob": "3946e8aee66f27fb3b847ea1ed300ab607d0d72c",
+          "sha256": "0032e7dffc8b1a9cd30facdc22f7ff213a4922c625fb11b3f03625f74a4813d3",
+          "bytes": 10300,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/native/src/webterritorialedit.cpp",
+          "gitBlob": "6eacde021650f347cc187ccc7fbbb89e4c5737aa",
+          "sha256": "833e33b5143ce9469455cdfe7e922c4fc0e6f6489b02d1bd840404d48c0161a1",
+          "bytes": 19136,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/project-invariants.js",
+          "gitBlob": "fa8511310a27ba359fc786631f46583942ee066b",
+          "sha256": "def59082a1a81d79aecdf8ce96c73cf0211bc687434011a9398510efa5d8e193",
+          "bytes": 10164,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/project-setup.js",
+          "gitBlob": "248958fa6644c7608971fd2242c89228f0d9c092",
+          "sha256": "07ed97702f1d2eb9b253c598d7da8d21373e12da12f2455fa2574eb3d6e33e37",
+          "bytes": 3434,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/project-state.js",
+          "gitBlob": "17952c1a0bab996fcdec5dda2ddf4f687a8f73ab",
+          "sha256": "91b91d5dc9fec6ca873ebbb67ad7b5c35a2cc88e211b9bdc34cc51a7b2218de3",
+          "bytes": 22203,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/source-provenance.js",
+          "gitBlob": "c36a939d63fe99e2646e4fdfffe556622d14dd2f",
+          "sha256": "4245bc5925633ae2c758913c859a304f5f7f8f2dcc49912f7783923517c5e57b",
+          "bytes": 3342,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/temporal.js",
+          "gitBlob": "9238a8dbeff3335a67a47c191aefd34c1b115641",
+          "sha256": "5d934370b078477d95acda0d34c69cbfbc5f7233881d487e15cb2a0d43d12f19",
+          "bytes": 6033,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/territorial-units.js",
+          "gitBlob": "c8bb0dc4f456eb289fc246b6c0fa352aff2cb4ae",
+          "sha256": "2396d40c573855af1630b6f62a65f6e9b199ff9882a74b1332787ad356212db4",
+          "bytes": 8768,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/timeline-records.js",
+          "gitBlob": "cd26b594b926b3c7e81c0155b38e794586f7a29f",
+          "sha256": "995daee7216f6ee8de1ffb1c58cf8aba072d8fa02a3c63d9c1a85b91cc149376",
+          "bytes": 1690,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/timeline-resolver.js",
+          "gitBlob": "8d242a65a5d371334312259327a92742662f0307",
+          "sha256": "333230bf340eeb1f9bb15da5ebb9d9aac01afc6810fc813380ffd73b8eb30ea0",
+          "bytes": 4366,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/document/timeline-storage.js",
+          "gitBlob": "33795e33abfec3e6081a21e68618fc3da56cbf86",
+          "sha256": "7f0bbc8712ffa3b2204eca2e4d40ebd3a6806422f264b547737ceb7803f54d1b",
+          "bytes": 2256,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/coordinate-bounds.js",
+          "gitBlob": "c276945af12c75ffd5faebfc6aafaa370cc5ad68",
+          "sha256": "ece61fdbc173527cc3e0132192904f3f6de56c69fb63f33179444aa0a2b97296",
+          "bytes": 822,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/geometry-version-store.js",
+          "gitBlob": "ddc53dc60df91d92ce5bd040e5eb41e488876f02",
+          "sha256": "721ea9da90c286f5f8c1ae4de75d72e0d40f58144f18e2ee0f19f9fe497f8c3b",
+          "bytes": 4858,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/map-edit-geometry.js",
+          "gitBlob": "7c8e9b52e99a34be4dbd6511cf19ecf6c5a780a7",
+          "sha256": "7e40639251e396ea549c6810aa5f10ed9b51b2c027c35402bbb90ade9b1d558a",
+          "bytes": 1544,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/bindings/boundary-bindings.cpp",
+          "gitBlob": "b4288d45fda8ef71944071396c17671f73a2da79",
+          "sha256": "54176e289ae35161f00b297c9d8ed4778736830c5a958420fd5cd54a54889f18",
+          "bytes": 21252,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/bindings/cut-bindings.cpp",
+          "gitBlob": "21f00e1b5f5bfc431b851fb68b13b4558099a76d",
+          "sha256": "2b2b045d7c5593b6f9d8da204e6862f163bcdd2e9b9cc7c6192200ab44fafb1e",
+          "bytes": 1706,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/bindings/polygon-bindings.cpp",
+          "gitBlob": "1f72d000eccc00ea15c45563c183f9e548b4f150",
+          "sha256": "3ed8f62229ca26d3ca9feeaaeb5132716010afd31f0f3abb05c5754136fec0f9",
+          "bytes": 20650,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/bindings/reference-bindings.cpp",
+          "gitBlob": "b3402800dd09c49770ab2380a92a962a4a198da0",
+          "sha256": "08292235e14fbaa7c04bac78ecdfb0abbc6bebbf56ab423884694d112fc62468",
+          "bytes": 10895,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/bindings/river-bindings.cpp",
+          "gitBlob": "fa62b1f3c17600c32a94580827be3a94ac0c1759",
+          "sha256": "e64b7d55cc9bbe706ae6e4e9c653fcc89a8f4487cf8db88e45a32e98013b8926",
+          "bytes": 591,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarychain.h",
+          "gitBlob": "dd6e30b7c273779db35f4d446dd1f5cdf643ab63",
+          "sha256": "e5e932d141026a054854eba92c682c31c5837ce4f7a78e9d7b8ef75eed8dbecf",
+          "bytes": 620,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarycontact.h",
+          "gitBlob": "a8f4f68d53fccd0fa4065d8c254a929ead23fe01",
+          "sha256": "625a214404bd8c7e2b1ba321d7b9ed6f60fd404aebd320c7426675e0d82e310e",
+          "bytes": 576,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundaryoverlap.h",
+          "gitBlob": "8d22fa97ecbfda5d97cfd15af9e38c742f7ec562",
+          "sha256": "312b658a0a8771dc72f9fff24622261e59d11e37bf22f5caad0ed8d2fec7a27c",
+          "bytes": 721,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarypacket.h",
+          "gitBlob": "c3aac7a3ef8b90a3cc88a17f3324225873c7589d",
+          "sha256": "512c019696742c62f596b7fd3f1a53734fdf3289fdb9782f52783841979b8ed5",
+          "bytes": 1478,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundaryrefinement.h",
+          "gitBlob": "04f366f59477df8ea7dbdc100d31cebc2503a277",
+          "sha256": "5011718cbcc0332a923d09f7f8b50d0eff0942bc474723a918ff396ee2a73298",
+          "bytes": 765,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarysplit.h",
+          "gitBlob": "045e53f09ac15bca1b9f67fff018bcccbcd43a06",
+          "sha256": "a8ce1dd73611fd39c4499b7a132712f4f534377a3e6b369b3cc26ca0fc1acd20",
+          "bytes": 1157,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/countrycontact.h",
+          "gitBlob": "909b2475a376e2f088d9701bdb9053e0384203b4",
+          "sha256": "f0b848e37bf67ccf677f32ef748a1b9f34d5891c5b1e171e17a7ab57e3f5321f",
+          "bytes": 1359,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/cutgeometry.h",
+          "gitBlob": "5cea2a24ff3f495a342dab5b8c4585dd949078e8",
+          "sha256": "57142bcba69aebe175defdbdbeba439f407d1e8253423c1d45fd36b3c5f4d999",
+          "bytes": 893,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometry-types.h",
+          "gitBlob": "7a92b8ed309abfcda645b3c7d75d024a43511444",
+          "sha256": "f69c58c8df6d06cd36fa731fb5f7eb79f67c34842f6ca6c839a16fc8e2286c70",
+          "bytes": 2284,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometrydraft.h",
+          "gitBlob": "2116bd56dadb943793ae02e61c834c8895ab3dc1",
+          "sha256": "04601a7992a873d2c6dca46eb755f9c1dfaaa53c59e18f93cad6c238233ec7ec",
+          "bytes": 4363,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometryoperations.h",
+          "gitBlob": "ff4d3e3e362ee736b48596ae02398aafabea38c6",
+          "sha256": "b17006f774e552c3f7ace377bb2f84bb31cc5735b1d84d70f023aca9a9049c8f",
+          "bytes": 1687,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometrypredicates.h",
+          "gitBlob": "92a39d188bedd694a80979247b60789c2f9fd344",
+          "sha256": "6ae706f2eebad6afb80e5357e947226cb9a3c61de3a1fb13b1025c384df4730f",
+          "bytes": 3425,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometryprovenance.h",
+          "gitBlob": "f7b381582d1212ce3b97131dfa465ed82cd6dd41",
+          "sha256": "7171104a4d2ac2a8e9e6bc27f16738bc4022aa80e46e30e4f78367af5961950b",
+          "bytes": 3394,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/planargraph.h",
+          "gitBlob": "9ab52778ef22c53a047360fcc37e8aa36a817250",
+          "sha256": "cc7895d775fe458e5ae869e81c094baa81b5a080b167f827b2b405e519c921d7",
+          "bytes": 448,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/polygonclipping.h",
+          "gitBlob": "ff6c58ab1a4856ba9ffb8ae394db06fd0e36bba7",
+          "sha256": "59f4d936e99d7d3a348c626d7a23932095968dfe3522ce2e5dca51d308882ed8",
+          "bytes": 590,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/polygonwrapping.h",
+          "gitBlob": "4bc145604090e92867684d7a8ed0768bacb30cf9",
+          "sha256": "ee21f8e25dd093839e712eaa84216178946c29f428331748b776b63af5c619e8",
+          "bytes": 312,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/referenceboundaries.h",
+          "gitBlob": "b6b1802a08e0778fe1744538fb54ee4fb75715e0",
+          "sha256": "c9f2a2e8974b98c0cbbc1c18ae2aaded46c33163b10b3d994a4c640f386bec8d",
+          "bytes": 540,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/referencetracing.h",
+          "gitBlob": "6fc38c6483aae029daa1e80320fbf8754eace131",
+          "sha256": "ce24cbe987579c9e03c7075d3b1e1aa70d4c0811019bbf3aa780747916daabd8",
+          "bytes": 1957,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/riverpartition.h",
+          "gitBlob": "5b1dab1ab984b98bac44cd20af3ef08ada31a2a3",
+          "sha256": "57b7c0e1d364afb16907f58920406ab055405ec016dad79d4ee00e196e4d1b57",
+          "bytes": 444,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/sphericalpolygon.h",
+          "gitBlob": "f86443de885105223cffec4dc38c5fb1a6022cf8",
+          "sha256": "e07457a62b1de4afef25ccf1ca041e17e4e24207ef984068f6d7eab39e7742b1",
+          "bytes": 1351,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/boundarychain.cpp",
+          "gitBlob": "6b18b410eeae65391391f5ac9379e8a3ccb6d33b",
+          "sha256": "3ea90fb2dd0e960630f40bba5bf9a0a5ab9d70e0499e71d5a007c4e3a417fba7",
+          "bytes": 4472,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/boundarycontact.cpp",
+          "gitBlob": "1f31fb22de0efc0dcbd6495933f3542f3a7f22d9",
+          "sha256": "2b467646d4d9e6b7796e4016492dc7ead99ee1a7b69f752b469e2649bae5bcff",
+          "bytes": 2190,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/boundaryoverlap.cpp",
+          "gitBlob": "0c064a12ae623ecebda3e46ba327136c71badf7e",
+          "sha256": "41b29d6566670bf9d959bbfc0f2117df55264294ed17def58c1eb82cf517fcce",
+          "bytes": 2735,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/boundarypacket.cpp",
+          "gitBlob": "8ba4782fd235d159e5cbe4de88fbf2d3fda9c91e",
+          "sha256": "35948114d06deaa93babb6c44b04b18a6d8b7c444879a7e16b4655df5f1c159c",
+          "bytes": 5261,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/boundaryrefinement.cpp",
+          "gitBlob": "f962265fb4369115b7075946aa71450853770ce4",
+          "sha256": "02204398f8c83ec2dce6b6a33c8458ebc0b7794b0a4f0c9e4d7eda2b37510b42",
+          "bytes": 2933,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/boundarysplit.cpp",
+          "gitBlob": "26d8e6431e3bda14938718682605cab39b1a8304",
+          "sha256": "b6069a91593337494064a14e22e36333bc91d6e152e9794aa62f1e94f4f69bf9",
+          "bytes": 5468,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/countrycontact.cpp",
+          "gitBlob": "6b20797d8b2467c4852b88eb9f7589e10e420264",
+          "sha256": "a0ac4705f976bfc1b673643739ad4a8ea028a47a4babc79762b58eb50d96e0fd",
+          "bytes": 9149,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/cutgeometry.cpp",
+          "gitBlob": "5c5c717099736f4aa030fa40aab2b61bcc25339b",
+          "sha256": "658a4d6c857c01a0504f6373886bd0353def0e4002f56ace727f987cd626f6b0",
+          "bytes": 21614,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/geometrydraft.cpp",
+          "gitBlob": "5f2c7c5a2cb8e705b9c338760b2401592c16bb9d",
+          "sha256": "2572ce2c0e58a20b657309467f9069b1dc65a1e40bdc6334c24f35910fba80e1",
+          "bytes": 11638,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/geometrypredicates.cpp",
+          "gitBlob": "14a2d2fc191b88f8a5834047bec95fb690e2ec06",
+          "sha256": "f5497d54bf19ed2f06d3937290ab6b46ac1e51275e0d8e86f05de476e8efe613",
+          "bytes": 38399,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/geometryprovenance.cpp",
+          "gitBlob": "80ae781af3748e957e7d58d8e1c4f2262b02dace",
+          "sha256": "65ac01bda970f5972c374a3f5b4a6481f8b30558fcbcb3c3a3595c5c987189c1",
+          "bytes": 12080,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/planargraph.cpp",
+          "gitBlob": "b3c2c3c2482142c6d06c9119f3d28bdb8791ef16",
+          "sha256": "5b9c629c78c85c43a01b9ece82ba3bfc93fdcfc4e0e71c4c7334f593a6dfe54c",
+          "bytes": 1820,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/polygonclipping.cpp",
+          "gitBlob": "4c1f995b8bf4bb6d496b5e8057490914be90589a",
+          "sha256": "d5a884f910561afaa47cffa08787baa0fbd12dc9a9ac291a437d362973597952",
+          "bytes": 29302,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/polygonwrapping.cpp",
+          "gitBlob": "52fc178df69c8124ddaf0043feb706a49e694da5",
+          "sha256": "9a80d38afece2aa5a2864043e7b593f0432db8929369195704386a1460f73708",
+          "bytes": 3711,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/referenceboundaries.cpp",
+          "gitBlob": "8243ad186f592e49eb508b3accec8a8c9845ea7e",
+          "sha256": "5f7a37327629008b7b83072f0aea29dd4666565f7ce774d0eba5fb46510e988e",
+          "bytes": 27868,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/referencetracing.cpp",
+          "gitBlob": "5772c7200270f0e3b2e82ad334429d0299bfffa9",
+          "sha256": "36f6df6d56a914f9e74fe0f594654e6594e198f397e6a5826d8389b40c2b248b",
+          "bytes": 15407,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/riverpartition.cpp",
+          "gitBlob": "74595019c6f8259389a62172c17b39af40376dde",
+          "sha256": "1b0f4f13306552c089d321cf983a7b37e0aa3ddca100ffcbafc03481286be679",
+          "bytes": 34247,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/src/sphericalpolygon.cpp",
+          "gitBlob": "b88dea23740878554c52465d03882e3b3d548abf",
+          "sha256": "a573ea9c3ef525d14d22a74ddbfd10aaf0edff396176b99762ab0de05534f4e3",
+          "bytes": 14619,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/native/vendor/earcut/earcut.hpp",
+          "gitBlob": "a73ae87c8ee393c65151ee0a8f5fb845776b6dfe",
+          "sha256": "e982d5f5c5b2a2fdb9fbafaf47beaa03e4e909dbcb6c3fb29b80d83e48cc54ba",
+          "bytes": 25840,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/geometry/polygon-geometry.js",
+          "gitBlob": "2d43b37532e1b4903927478208e101eb5d26e0df",
+          "sha256": "097bf3c0e2243f3886ef991edb472be3589fd8bb3ac1b0106eddc377fbf4433b",
+          "bytes": 10261,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/map/camera-navigation.js",
+          "gitBlob": "1d5ec8782c082d6b031d45cac8a3a05fd8df68ac",
+          "sha256": "df113fe778f3976e4434b042015393a733a4eb1cf40ff6397782747aae402a57",
+          "bytes": 14593,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/map/camera-pan.js",
+          "gitBlob": "3757de341c23c61caa3178fdab90fbca3da95bc2",
+          "sha256": "6d33086d859b034b231b9d6ad38cea2dad1d52094db2d3009d56369d81532210",
+          "bytes": 853,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/map/native/include/pandoeditor/mapprojection.h",
+          "gitBlob": "b846779c42297b22403ef76bb4d8592ccf1f2889",
+          "sha256": "994765b17b90708f9ca08aaddda7d5c272f31910fbf80f56ae668c269d917a4c",
+          "bytes": 810,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/map/native/src/mapprojection.cpp",
+          "gitBlob": "4cb29c3b7b0acc502ec13ad230a29cbd3ce9f697",
+          "sha256": "ca3bfa68fdf3777821f7fb98b410fae7277594705527d3f8386c4a89976ea07d",
+          "bytes": 10963,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/rendering/native/bindings/mesh-bindings.cpp",
+          "gitBlob": "2fb1166c6acf9e37ebd62670f308a358a337e7cd",
+          "sha256": "bb51b67df57de4d36e4812606ea867b7b6ebdbb7e6bc8179dba301381abcdb22",
+          "bytes": 4908,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/rendering/native/include/pandoeditor/polygonmesh.h",
+          "gitBlob": "89e2b3f0affa5145aa826361256224f7cd2943da",
+          "sha256": "9f1f54dad4cd8e53e0b3d3b352ec9744b693d7e3b509f492172a0ff67af7a6c9",
+          "bytes": 1513,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/rendering/native/src/polygonmesh.cpp",
+          "gitBlob": "dd4b953ca278ccb08247b086636e7590e595fe5f",
+          "sha256": "e7f15d02bd592e6f0ba5f15d614a58332d3c5d26ce7d93f216d9eb0ff42a446f",
+          "bytes": 13684,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/runtime/core-wasm-loader.js",
+          "gitBlob": "7d014e91a141cd04861df2e7d524801af7831cfa",
+          "sha256": "0cdb20abdb721d65e8795622b3d9b65187793d7d3855fec23c5c7547d31a798d",
+          "bytes": 10315,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/runtime/native/include/pandoeditor/version.h",
+          "gitBlob": "b273d87ddfc9ba2ed5a14f8355a59448b7a0ba2e",
+          "sha256": "2a818faec9482d907fdaa5ccbf39c8fc04a003bcc97c5b55a61d30f093a0e69d",
+          "bytes": 137,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/runtime/native/src/version.cpp.in",
+          "gitBlob": "21a2aa7d32c9887648e11e4cf517ae3392428a68",
+          "sha256": "7c6acdd595bfb0af1ff18a49dc9442e024f5a675108fadd4ea40a72b4c58d547",
+          "bytes": 169,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/runtime/reliability-core.js",
+          "gitBlob": "549d68ac4f5bc7b0eb52ffd95f80085b183d5fef",
+          "sha256": "d93c854d174dcd52270e5f1c997f57dab5284725f72a5aebbaadce8d562dc5cc",
+          "bytes": 11526,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "src/runtime/version-contract.js",
+          "gitBlob": "96cfeaad2a883102063b0f2065b456e2fc540a17",
+          "sha256": "2fb1f7be3ab93b0227320babd545722c776d9fa12bcdd035927e0869605d3834",
+          "bytes": 923,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/country-contact-tests.cpp",
+          "gitBlob": "2ca19ac6fb1b29a9ab54e0374b47a91cfca2234f",
+          "sha256": "4e577c7cae06795773c3cd8720a3b0b0454dda1ba8aba757ab88ef9d0691abde",
+          "bytes": 2933,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/document-session-tests.cpp",
+          "gitBlob": "1359e95f88bae4eeb8a8405b786350c6688611fd",
+          "sha256": "d3108f9f7294724eb393508dc936ec09ee772e0cd8e0545c5639d38b90c2ba2b",
+          "bytes": 34570,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/hydro-timeline-tests.cpp",
+          "gitBlob": "2320ba965e2e9b040f01b6f3a761c98f8ed5eafa",
+          "sha256": "a58a4b7507098126d7a0b81e2fa566b894de9e3774fb3ac58b5eef5f5b2bd945",
+          "bytes": 2881,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/project-codec-tests.cpp",
+          "gitBlob": "854f418c64f5bc24ae1386c7c43120a3379bc112",
+          "sha256": "975578ea2b5f87d74e766f983c36032319efd26c29aab480c29b17f3d7060453",
+          "bytes": 5540,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/reference-image-tests.cpp",
+          "gitBlob": "a59ab814efbbccedc9031855f468721a557f58e6",
+          "sha256": "8628eadac040829c5f10242dcd5018ff713f324127095d4482fb41417ce85def",
+          "bytes": 4832,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/source-admission-tests.cpp",
+          "gitBlob": "1c7caebc74d3423a6c42c889ad404562023f290d",
+          "sha256": "f2be1610b337b6563302cba4d93d390ac9b1e00f51144aeab5238262977122f2",
+          "bytes": 9354,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/temporal-adopt-tests.cpp",
+          "gitBlob": "8ba02930f5f23da215f82497e8faed605c9982a9",
+          "sha256": "2c91ed54dbedbcb17fe8100994d45a5a92bd83ad8d32ce0df70677faeecaaad3",
+          "bytes": 19705,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/temporal-candidate-tests.cpp",
+          "gitBlob": "18afa2c6263ea395d8fe507b1ee801f07f138386",
+          "sha256": "f54280c898d3d452e9702948cc3e30f9b889d708d8eb3f8ad238730c8db27f44",
+          "bytes": 10956,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/temporal-editing-tests.cpp",
+          "gitBlob": "29703f43c175cbe5bf99ea6dddd9b645797a6575",
+          "sha256": "171b1b5f040ffb829d68cb21923ceaddf3643f246920e7b7834ab8390d057ee2",
+          "bytes": 14973,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/temporal-source-tests.cpp",
+          "gitBlob": "9c1d2cec04a8277e25362c16ed9df994521eaf22",
+          "sha256": "1bcf1cc71458b9d4895cac118f1e5fc3a962a908c222425c1270bb8a8e165c49",
+          "bytes": 7858,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/territorial-document-fixture.h",
+          "gitBlob": "53ed89839c9f6e352746c7ac7d9141aa1dfb4b77",
+          "sha256": "7504636f705e896b682fd3eeab16c80cdb10724eb4ddf93e616b8298b87e78d8",
+          "bytes": 995,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/web-content-codec-tests.cpp",
+          "gitBlob": "11c541cc0860884a823ff893423ebfad4dd943b0",
+          "sha256": "2bacc5712a14c38cede39955fed35641b836401954f547c08e80d1833b16ffe3",
+          "bytes": 13701,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/web-content-command-tests.cpp",
+          "gitBlob": "73d77081eaa3cf3f9046559cf76ffaf06b2a4406",
+          "sha256": "9259883f2da073df42ee333c4f4de51ab506b27481b71366fa4daf76b10785e5",
+          "bytes": 14776,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/web-object-command-tests.cpp",
+          "gitBlob": "5bc7d28df3e894adb8a5754c58b01aa079f8b604",
+          "sha256": "287996cfee17eff90111c22600349336d22f0ac5405e8e2fe8e2dd6af8ea5eea",
+          "bytes": 14203,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/web-storage-tests.cpp",
+          "gitBlob": "4965edd176b2474f21ee038127f9a1db9d340ccc",
+          "sha256": "b39ab79b9470b138c24dd659b490ec5ca567c3d9ce27c77ee8f78f3c83d8a6ab",
+          "bytes": 20003,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/document/web-territorial-command-tests.cpp",
+          "gitBlob": "73bacdfc0b96ec4f36ef4d3774d38c74291ad898",
+          "sha256": "14bbf96a9322bbe639a5091fd1c9e478b25c03c4d6a80ec97e213d1e561e1ee7",
+          "bytes": 21451,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/boundary-chain-tests.cpp",
+          "gitBlob": "bbfc036f55a14277d688301176b9d76e8c563af9",
+          "sha256": "24947e33f10e1685b032bd386632f9704afa3688e0ccb59f9bcd449fa839dfcb",
+          "bytes": 1772,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/boundary-interior-tests.cpp",
+          "gitBlob": "f6f762bbc1a3140350b6f80351b29486c3086a80",
+          "sha256": "1dc7d0dfc0161f898836a7c9c52fed0380d758dd9496c8434bbe29c14d909bc7",
+          "bytes": 1629,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/boundary-overlap-tests.cpp",
+          "gitBlob": "c03844d7ac696653f2bee841ee7f02227da4270d",
+          "sha256": "eb2f75b142da62f34e5cb69addda271a3c14d2cfb5b62e34160a62cb79c6fdb7",
+          "bytes": 1364,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/boundary-packet-tests.cpp",
+          "gitBlob": "03338de852c414a3ba148be6b4cde39d7ebe869c",
+          "sha256": "a120a751e53ae29c9b21b5c6c30fe2229aacda6cb5773a011dff1ca52d3a8f3f",
+          "bytes": 1950,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/boundary-refinement-tests.cpp",
+          "gitBlob": "450a24f9949ccc9a3a3aef8f5b6ed175c77a3879",
+          "sha256": "4fbf2623a08bc7d3f860b96b847dc9916396fb853be2083f9848d34839f48063",
+          "bytes": 1243,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/boundary-split-tests.cpp",
+          "gitBlob": "138708c50ec023adb0a80970cf22ec36fa39b79a",
+          "sha256": "229693b8943016b2fd71c2bb772cf25279d34d497b29ad15577575a7c024d11a",
+          "bytes": 2184,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/cut-geometry-probe.cpp",
+          "gitBlob": "77cef52555820540f45a06b118d870338ea34c8e",
+          "sha256": "4c40ee7f8c05ee704baa500c48d86dd970b797099ae03ba310f12c51e34e69d0",
+          "bytes": 1089,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/geometry-draft-tests.cpp",
+          "gitBlob": "9658cf8f70f4ba200c773bd1a7bc7bc358d5d5dd",
+          "sha256": "750f10306f831575d975bcf8d54a4c4d6bf8f5c377c7f1154a2aecdb89e0d23c",
+          "bytes": 9020,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/polygon-clipping-probe.cpp",
+          "gitBlob": "0b3934851f033058d74be7d2af3aec6aac21bde3",
+          "sha256": "29a9f605f328a8d3c592cd72537dbff78afdb2cb774f6ed3a351a287a4928a46",
+          "bytes": 2123,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/polygon-mesh-tests.cpp",
+          "gitBlob": "eb39e20b0b1c409823343347246fd8844fce14bb",
+          "sha256": "3e17b28f0907b1698ccaa2505a6ce3c6afbabcd71b35ab9c89c31cf001cf4cba",
+          "bytes": 3379,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/geometry/river-partition-probe.cpp",
+          "gitBlob": "49c60f80e408b67889b08f4540f8e7dd84d1ba8e",
+          "sha256": "57db4bd2bb5eab2f970dabcd36f586d1a06b50105238901c5b2b25103ac71789",
+          "bytes": 723,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tests/native/temporal-parity-probe.cpp",
+          "gitBlob": "ff9e4bc07fa2885c2ccb03f0ebcac466cdbfb602",
+          "sha256": "cea33c56056e7943dec9b3dd441e7a8aedd40e1117ab094d9ea72e59455c207c",
+          "bytes": 21416,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/builtin-world-compiler.mjs",
+          "gitBlob": "5e668c8af0c04fd7a4527b816ded137a1d19627e",
+          "sha256": "cbd17fbed96444e769083f074b00ffe01081ca10bf8937d9984a1eca4257a2a1",
+          "bytes": 22255,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/load-node-core.mjs",
+          "gitBlob": "ae4cfc7bb408dbe5df3af4a3095340e02cb902e9",
+          "sha256": "726953528f23146246c484ff105de355399f9f801f78705c6772cdd37d040e84",
+          "bytes": 3172,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/load-spherical-core.mjs",
+          "gitBlob": "ca807e60f775f3688073b486a0215d5950c4b103",
+          "sha256": "4278734b12a52dae37fa1d4bdcf8cb6012691afb2f77880dd42c3a92afe1adf4",
+          "bytes": 248,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/native/CMakeLists.txt",
+          "gitBlob": "7bb064349d105278749e1d79b95a5472bc5354ef",
+          "sha256": "cccefb4f5fd22b1c8df21ad6db0f9310429905da1506d0823b0e9ec77155cff7",
+          "bytes": 434,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/native/core/CMakeLists.txt",
+          "gitBlob": "2897d729327aa97768ae86c0a4deff2fb27a2def",
+          "sha256": "95e3e50221ad26fee3e8136af87c51a8ee2240239aedd522db1bcdd059a37c7d",
+          "bytes": 11007,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/native/tests/CMakeLists.txt",
+          "gitBlob": "d8a74808ae2770325e145d7dc0c1e041183bfe07",
+          "sha256": "2fa30445555e4575eee2e22d95e56cb9db1e84289f39780f229450e9c86cf67b",
+          "bytes": 14629,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/native/wasm/CMakeLists.txt",
+          "gitBlob": "5ade11310d8c03f0675dcd39817b99be2b6639c3",
+          "sha256": "b733a2e19e24980abd6ecd1cdf63e7bce1c56a0e44def36ec100a3fcafdc1ad7",
+          "bytes": 2738,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/build/package-shared-core-assets.mjs",
+          "gitBlob": "adaac2092bd610f5e810984790ee9b17c26cbbe4",
+          "sha256": "a1fc07575e5fd7a415d130f71b7d354e50d3ff2ab2014e99ab1bba0e7629a074",
+          "bytes": 5143,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-archive.mjs",
+          "gitBlob": "7adef1b79964c2e5ec69e2324d67467f078c269a",
+          "sha256": "e6e3f0b62e8347b15f2c2616c9f059823515f25ee57da0574529e0d38c149cc8",
+          "bytes": 701,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-content.mjs",
+          "gitBlob": "6247f766489b33c4ad8ab95d2c0b21fc2d7cded1",
+          "sha256": "4995964553586b65b9bd790c2d804deeb70502f429d06cb57cec26996efa2592",
+          "bytes": 8913,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-context.mjs",
+          "gitBlob": "c01da287d33d12f8ca5a8afed713a3c4ac05b374",
+          "sha256": "92e506112b712f8602ff87e117b2401170758f56b7ce94ee78c4e1115f45698a",
+          "bytes": 15716,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-git.mjs",
+          "gitBlob": "90f651d2f2f6370b1a583631b15c0dc47c9b61a5",
+          "sha256": "f2c0782cd32ce7d89ec0661a4fe99883583c3f11daa2db678cf1e907b9eb1be9",
+          "bytes": 13827,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-report-layout.mjs",
+          "gitBlob": "56c9136c86ab3c895de95f86647ee497281a636e",
+          "sha256": "6d0a5893de5330eb6e46de26330e021b38659cf320c40c4258034ba3cb999fe0",
+          "bytes": 11096,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-reports.mjs",
+          "gitBlob": "0bc46696bc0252dc6f8633df68f963fec800aff9",
+          "sha256": "e4bf9cbbfce0ff4a860ff07efc85ca91171a4b57c28c28b6995bf3fd94c83107",
+          "bytes": 25042,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-runtime-index.mjs",
+          "gitBlob": "5fed6899da7f6ea599f5dd53e797cb119acef359",
+          "sha256": "045cd516a0845cd952cb4e0184853bda13efdfddc76611ab0b8aeb53b0f37ab9",
+          "bytes": 3150,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/library-runtime.mjs",
+          "gitBlob": "b322b18f2a4cdf376d78f94f3d04d3063fdb8e9c",
+          "sha256": "3440bfe3a3c42ac70e48f63a1b25f4953ce9728d886844aaf41ca7134b2c5932",
+          "bytes": 36578,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/territorial-current-world.mjs",
+          "gitBlob": "148adc4c6f1d66b44af13e5b52961e4a8544c122",
+          "sha256": "84755688c9a4962804fab5237677ecd90020217c622157fff583176e5e87cc8c",
+          "bytes": 3327,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/territorial-entity-sources.mjs",
+          "gitBlob": "a38546c6144534ab5f2c7721d39c8a8260c95289",
+          "sha256": "7870ec004689bdcf7d7df8dc1913e3970a323d64ab0c937cff9b103a166c3c98",
+          "bytes": 8506,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/data/territorial-source-codec.mjs",
+          "gitBlob": "637d24d1e4423a287ac5ba0bae1baaec5ca89257",
+          "sha256": "bee34d36cf0b70e8623fc93cebe29df8e0546855306f5a8ccfce971eb5c474e7",
+          "bytes": 2893,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/gis/builtin-country-classification.mjs",
+          "gitBlob": "37f03088f85dbaab9d8915db16c61a22f7ac24ad",
+          "sha256": "aea0cb118f98c080907ebd00decb14a30973ee910140b9db46f6da93efedce42",
+          "bytes": 2897,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/gis/builtin-display-policy.mjs",
+          "gitBlob": "eb95eaa2520de69553598bf9e2c50de053848de4",
+          "sha256": "03f82aa8e116f274f4d2a1f1319ec53bf9c1a47c2aed61a28c5355f6e2836775",
+          "bytes": 1832,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/gis/historical-display-review.mjs",
+          "gitBlob": "c6a54efe189a3734a5f53bad11fac7e7b3d42fe4",
+          "sha256": "7613be2613d04b1553d839e9758f7c33e60dc9a8448ec72c21fed3b639dc58b1",
+          "bytes": 6323,
+          "representation": "git-text-exact-recorded-newline-map",
+          "crlfLineNumbers": [
+            44,
+            46
+          ]
+        },
+        {
+          "path": "tools/gis/historical-world-territories.mjs",
+          "gitBlob": "497d7c7d57947d4e4d8b63d7409da33e7437ccd8",
+          "sha256": "c537ab47981161e49c082a51779af97df153f21e755b37d41e4269f3b0aec7cb",
+          "bytes": 22156,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/gis/project-template-compiler.js",
+          "gitBlob": "4751cbd99790d5f5d16626d4418cdc2193917afb",
+          "sha256": "4e9b538626b41d766554f932ed167dd3e1e3fca1555bd6944d1a06d8f12950c1",
+          "bytes": 3287,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/gis/territorial-index-entry.js",
+          "gitBlob": "2309b5b975789125eddb38421a2b64f3298adea9",
+          "sha256": "6f2bc9c769dd2b6dbd52c1cb573bd73111ff280bb041244b830ff9d0a130361a",
+          "bytes": 1767,
+          "representation": "git-text-LF-to-CRLF-only"
+        },
+        {
+          "path": "tools/gis/territorial-library.js",
+          "gitBlob": "eca76a6eb02566121ea672f65aa664b3107a1289",
+          "sha256": "ec0b5cf4e862cd356b7260bc39af33386c14d57e46933e2d967bb9983121dcc7",
+          "bytes": 13768,
+          "representation": "git-text-LF-to-CRLF-only"
+        }
+      ],
+      "exact": 3,
+      "crlfOnly": 213
+    },
+    {
+      "manifest": {
+        "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/compiled-binding-review/completed-source19-f413-identity-supplement.json",
+        "sha256": "334e7405b1003008a99900cb37df89df207201a5f562c5fbac4436212494bec2"
+      },
+      "commit": "5eb58c250ef68b1236b154643410e8d986169152",
+      "reachableFromFreshlyVerifiedRemoteMain": "13749bcebe6c24a673b451a6636ab4fd7e61da5c",
+      "files": [
+        {
+          "path": "assets/js-vendor/polygon-clipping.min.js",
+          "gitBlob": "66a4e7bb45fb37353ba86e1114f7e9166ef1efad",
+          "sha256": "8c1ed56df8b1f97b047f82d91b910aacdaff67d8d9a55f2495eb26e8369186f7",
+          "bytes": 29130,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "assets/wasm/pandoeditor-core.js",
+          "gitBlob": "e2e926ef9622072e531de1b9bffc71bf013ff5ce",
+          "sha256": "8ecbed2d64a9fa3bea6d5f6c59982a78958a5a073d2134ea67fd314809db9d0d",
+          "bytes": 55329,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "assets/wasm/pandoeditor-core.manifest.json",
+          "gitBlob": "30b2db2391a95cf7e0f1a881a4bef5f2d018d822",
+          "sha256": "7f5a0b5c57d3ea082943d931c89f4401ad419195a35d67c7db1ece68e2ea9b59",
+          "bytes": 26407,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "assets/wasm/pandoeditor-core.wasm",
+          "gitBlob": "4a48668d310c5f726b952b10111b32740718c909",
+          "sha256": "68eabd47e6cce3d9d8a4ba7b941a6ffb8425786abee0985dd34c51dcad0ebd69",
+          "bytes": 3454259,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "config/core-source-roots.json",
+          "gitBlob": "0270e19273d4b289ebeae24281d6fbc3c732ff34",
+          "sha256": "886613a632ba2e5023aabb4bf2072f7d4e03ec80ae14f8c2fc0fb1c4a9deeb48",
+          "bytes": 261,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "package.json",
+          "gitBlob": "2925ed4f9fb3dd9fc6027e0b23907ff392690ef2",
+          "sha256": "d17ff1a5176ed2ce98f4c2b707c3e1db95f13115ca429da1cd6956972a70b87a",
+          "bytes": 9044,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "scripts/lib/frontend-layout.mjs",
+          "gitBlob": "35495e2aa51452138d23a6b6fab9b8a9b1e2f9b3",
+          "sha256": "99b42b29c651535fc4194fed1330cacd7ab129b2284fbcf92a22bd800795d90d",
+          "bytes": 8620,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "scripts/lib/product-assets.mjs",
+          "gitBlob": "944fd80e7a668649408207c398f466073e39d22d",
+          "sha256": "df04f813bda3e89fd12b02d936ccd257d2aece446b771099064d4f895f5b7093",
+          "bytes": 10255,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/app/product-mode-policy.js",
+          "gitBlob": "4f7357d01cbb31fba8d6f374b7184bea946a80c7",
+          "sha256": "9024b4361549d946f7953294bdbe3b359bc363b1dd3d004c990a60e561535cd1",
+          "bytes": 2574,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/builtin-country-files.js",
+          "gitBlob": "10b31ba8e27e34c2261b051ee445245d503ab03b",
+          "sha256": "ab01f1fcc32f69a2d54bf23b4d8aeb42af1b6ed42d6717e785c60814106c4822",
+          "bytes": 9180,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/geopackagegeometry.h",
+          "gitBlob": "da94f24158bbc83ea82ab92e3c611b0d03edc4b3",
+          "sha256": "ed4ce3c163ef788c8a04a35f50060c38149b1f44129e55cd7139b4cdfd12fb8e",
+          "bytes": 389,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/giszip.h",
+          "gitBlob": "9a41105f4e2fb54044589f7f616c2cf39850455c",
+          "sha256": "6af78c2a1fde3e60f07b18ed6ac6e8612a1715306e5a581e08adc44f663134ac",
+          "bytes": 643,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/hydroformat.h",
+          "gitBlob": "e73a73a889ea0f2734e8f4b8ffec4ce82fd24c92",
+          "sha256": "6adfe8c7eb551302cc1aae539a1efbfbb8b4117a438b58216878d179faeb20e9",
+          "bytes": 2304,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/losslessjson.h",
+          "gitBlob": "f079f500badc0382cc9873fd42fd9635677ba00b",
+          "sha256": "602008117e54b5d47fff61c7b2a684ca74a31e772f0586f6fca7aae21a2b99af",
+          "bytes": 1065,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/projectcodec.h",
+          "gitBlob": "2caa9804a67f9d457416719e2af40dafb0ad8340",
+          "sha256": "1e1a473205df448c7a8dbee0ca70500e6ec7f98e012a1929be39f127aa1638aa",
+          "bytes": 3053,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/referenceimage.h",
+          "gitBlob": "5e0531faf4292d488baed0d24f815e4a883e2cf4",
+          "sha256": "d2fc2de76f820c70d63c6440cb63256019ec11f610a1af72df12a102a325ade6",
+          "bytes": 1874,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/include/pandoeditor/webstorage.h",
+          "gitBlob": "7d78fac326a06fea7f8516131cba74f291de4d63",
+          "sha256": "5c6d6972a5a56eb2dc41da4e2073138cc770d660b109e7c030ea4c8beb276c66",
+          "bytes": 3244,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/geopackagegeometry.cpp",
+          "gitBlob": "3a775bd3b48c4c5018c402618a454bca4fce5396",
+          "sha256": "5a74cbc0b490c0f0e21835167a90980126f65f1fe16c2c8b6d0fc4c05eafdfd3",
+          "bytes": 5891,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/giszip.cpp",
+          "gitBlob": "584507e0db2b6a0d64400c647ab601f9c45e8e27",
+          "sha256": "057bc5bea545ecc63db3cae7facdb01d1421f8349dfd66f46573b443fbe7e7c2",
+          "bytes": 9887,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/hydroformat.cpp",
+          "gitBlob": "7d5042d8a8317d87b4e80270facb7775f9c44c52",
+          "sha256": "d17885fc7104c42a3c11d6c11bea4ddbf3d6cda1b6ad0d67921d1125b6e5347f",
+          "bytes": 13274,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/losslessjson.cpp",
+          "gitBlob": "951986768eaddbfd1f42e0ca923159168da95652",
+          "sha256": "a6881128724334b407ddf36f8c52710abe1023d6677a69cdb0ed0e58978ebf28",
+          "bytes": 10876,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/projectcodec.cpp",
+          "gitBlob": "67f5e6f8b65b54a1719d5c69aefd4ffa0fdea0fa",
+          "sha256": "3a0f8a15fbc5aac8e894f198aa236e7d0e33d64d763ad95e41bc43eeae915799",
+          "bytes": 106330,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/referenceimage.cpp",
+          "gitBlob": "eb52950ce22b12f874fe859f8e88682d6f4c820c",
+          "sha256": "b6ef91d5d92adad29b92095f83bde3fed853772c07d76d0a4f0d9e91a4221823",
+          "bytes": 59402,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/native/src/webstorage.cpp",
+          "gitBlob": "53de4da1aafa1ebddef589d354159ab5d75cbd99",
+          "sha256": "038ea5448b8d6938754a165f8a3a3ef1d771572c063e33458813875007a7dc8d",
+          "bytes": 28157,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/physical-land-patch.js",
+          "gitBlob": "ab09f05fdc5a78fe1f32b82733a788e7bed42f79",
+          "sha256": "0a3cec0c94af6c6b60b5f45288fb87e8bd5a14f78cf1f2fbe7383779b933cc99",
+          "bytes": 4545,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/prepared-mesh-delta.js",
+          "gitBlob": "da7d96a4f63e958a9e2727d4854313151c0dd0d1",
+          "sha256": "9e706fc8a63be6638e7bcb5523d17cb34e790e7d4da42867b369c63b72b7f26a",
+          "bytes": 1581,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/runtime-manifest-assets.js",
+          "gitBlob": "6c8bdce18c5121a3f31171b78b0a59851d7de0bf",
+          "sha256": "ba567490e1487639718b249ed4793725264f13c3ff20882b77bf502d86ff5084",
+          "bytes": 4357,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/stored-asset-loader.js",
+          "gitBlob": "13603a17f131d4c4b0338e6d0dd7d003ef743f82",
+          "sha256": "c7df39e37fe5faadc135ee0784b5b5cc7ffe685c26f48b43387758d85436ddfc",
+          "bytes": 10862,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/data/territorial-source-format.js",
+          "gitBlob": "10dc1245ae8a580001fccc418e70c7441736b1b7",
+          "sha256": "350a901094af685c45ba94d8437489d0db5377f7a0ecf5dd4c97c9da77e8fa05",
+          "bytes": 879,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/builtin-subunits.js",
+          "gitBlob": "83169c7753227c7044725893f1c3381a5cf6c44a",
+          "sha256": "436c214cb243af8ec4cb2ff05ba87c254b544be164f898e8f863dc617e89ca5f",
+          "bytes": 941,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/builtin-territory-policy.js",
+          "gitBlob": "778a129bfbe4d01088d2a5f04097053a84fc7535",
+          "sha256": "3592389c469cbbaaa7ebfa7039990fc797718bdf900860075f02d5d147429eb3",
+          "bytes": 1582,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/core-document-client.js",
+          "gitBlob": "e366aa4eb2208bbae37ccf26d64b7efbd954a636",
+          "sha256": "6294f78d86948a84f1b2288da5665294772c3dab97204bf2a873f1b952d2058a",
+          "bytes": 12417,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/country-feature.js",
+          "gitBlob": "a8b118f173fe50632d543f63b5db6f4b3259ddee",
+          "sha256": "1466519da967492da510aa1aba565f2e9cc6c983a3436bcf8942c4deb45c0d24",
+          "bytes": 1515,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/distribution-model.js",
+          "gitBlob": "4f503f952f34eecd4f55346d1d8b62c095091cfe",
+          "sha256": "467f803d561207e21e4502b09cdd3d80c7ecc7233ec9d914a9b2e246ec22a7d3",
+          "bytes": 8195,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/bindings/place-bindings.cpp",
+          "gitBlob": "ab4ecd947f72f5d99be15ebe20ec7e35b54f4c67",
+          "sha256": "47b5a76771b92008f6db168ca6c5310807ca70457e9bacad13d0c84ce7743d92",
+          "bytes": 2045,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/bindings/session-bindings.cpp",
+          "gitBlob": "25487051c9f7cd696375bb4e6c984ffd01aeb4b6",
+          "sha256": "ad63ef2f9600662bc396f9e93c73a04a729dabac094bc1afbb87a72efa75a7dd",
+          "bytes": 80214,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/bindings/timeline-bindings.cpp",
+          "gitBlob": "fd223e7b5a3872cf68435240c31d53195f9f61b4",
+          "sha256": "c984791c3fbde9797b95edf9173683f9501f108baa3a52b8161a425cbeeb7e51",
+          "bytes": 16674,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/commands.h",
+          "gitBlob": "1f1b19fdd9b56431050ba23c00e487e91b104486",
+          "sha256": "6256040acbcfbd3fe3c20d41e157364f74d92472cbd76e69212704174bc3e91a",
+          "bytes": 10011,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/document-session.h",
+          "gitBlob": "a4fc08924bc09832a6b13eae1c6272651db81a07",
+          "sha256": "8cedbf0000d031f3c3234fe47b5a071b27116400d154c9d9b4dacc3debb2bcef",
+          "bytes": 10934,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/document.h",
+          "gitBlob": "aa887db4b4edc90fc459f596bffb1b0a00d535dd",
+          "sha256": "91708aaab148cfcf97bc6771585fb4e15e918ab5e05d5f6d6ae41863c91521d1",
+          "bytes": 11627,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/gisexchange.h",
+          "gitBlob": "ace883a338a6d5d2c75c71f4457e15a6f0112881",
+          "sha256": "9c6f487e7d4353f80d94f15264d91c9b042cd1cf4036fe44ee254179f265279b",
+          "bytes": 4910,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/historicalinstantiation.h",
+          "gitBlob": "cab809a75f8d644f7fb5e5b22e9eeb48eaffa155",
+          "sha256": "4c6a39cabcf63d6cd608307d6ffcda53fc2ee9b42c00c66bb00caed8798984ca",
+          "bytes": 3364,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/historicallibrary.h",
+          "gitBlob": "39e06be288e5abcdb91cb390fbe123b494f40be0",
+          "sha256": "7e5a0839310e893a9d245fe4c800a7cb76b4b4165b649680b77effd3a5667b85",
+          "bytes": 3480,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/hydroviewport.h",
+          "gitBlob": "e01f485e90bab4e167b68d83ff87cb60d36d5ab1",
+          "sha256": "b4268bb7ee887eea6994eaf3ac604cd0f322a655fe0ce32990a6f3fec57cfd87",
+          "bytes": 490,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/jobs.h",
+          "gitBlob": "d270d90a6cc575c06b41fc16f770c7735f3a8666",
+          "sha256": "161d3205c0021a0ade40142f06b9704f117ffcc3355d88c9e35b0c522214bac3",
+          "bytes": 3025,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/objectproperties.h",
+          "gitBlob": "170ef5ebded146d8a694054c1fad912a63a249d2",
+          "sha256": "7b6317fb7eb9cd1c4d9209cbdcc6abf47ced7a8c4573c938aceff71c4a250a16",
+          "bytes": 679,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/placenames.h",
+          "gitBlob": "0c626ecbd6742b3ad2148836a99fe54162cf9d32",
+          "sha256": "f302207cf7f7b92df7bbead8f2b2c68a54f7695d59b5f7e20a852c890bdc6539",
+          "bytes": 840,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/presentation.h",
+          "gitBlob": "e03755f467a950d06a66f83e9576651519f4b4f5",
+          "sha256": "d79f996f998a2128b345187b19f3f63b196e5bc5cd8288f0abc8a2e381701b99",
+          "bytes": 5571,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/presentationcommands.h",
+          "gitBlob": "022fa3a79cf23737f87ba83f3918494d8a0d3dce",
+          "sha256": "920bbef554a66e58e016afdd93f423d21a128d241f32d24b4838f560bfbb154e",
+          "bytes": 2880,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/project.h",
+          "gitBlob": "d03fd57946e23325d735ba26b425227e9a53703d",
+          "sha256": "643c33b6b9a8ce37dea616af8687624063df4a38aaf86d0c16db54fa1368d12a",
+          "bytes": 6769,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/selection.h",
+          "gitBlob": "c507119dd0d9853381a915a8f1aabcf12e425ee0",
+          "sha256": "1f254f84039f9a5212dd8b21486d68bf267bbc5c644f2a225f61de80ac75d261",
+          "bytes": 6980,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/selectionref.h",
+          "gitBlob": "827f776755b4270d3d5db7621538e135d6817592",
+          "sha256": "7a7b5d79a856c51b3d6a7168523a104d3a156a5d1607ce6c8212389c12761791",
+          "bytes": 1827,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/temporal.h",
+          "gitBlob": "5434787842195312f8451ccfb3070867587255a5",
+          "sha256": "183a9a82f5aadd34f25528f2918615cf9980326c4ff8d0d6a2542862f8cc009f",
+          "bytes": 2062,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/territorialmutation.h",
+          "gitBlob": "7d0c53d8d87640a04c27e7e31a7d9f61f496fe86",
+          "sha256": "1eacd4887f093dad2d7b86e4c73818cbb8e03d4d393dc66ad173720e213318f8",
+          "bytes": 6401,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-edit.h",
+          "gitBlob": "fdfa6ea2b15122600d8476a0acb00bd34f979b75",
+          "sha256": "4fd8e37ea3214ce1175bad81ac9d89995bb9d5d77c85f210ff11ba271b626c5e",
+          "bytes": 1789,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-records.h",
+          "gitBlob": "deadcc28643bb5009ced0152a39e8ebd52e0b5f1",
+          "sha256": "7a8ebe75bfb6d3b172d375ddc74f75221dfe0d2793deff6b24d8777f3363ae2f",
+          "bytes": 2168,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-resolver.h",
+          "gitBlob": "1714003a8dd14db23e9b5e40371fa1d55cf226ae",
+          "sha256": "7f2ba931ec65564a034dd344de87a4791bed31c848fede350c85d07e979d34cc",
+          "bytes": 2434,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-storage.h",
+          "gitBlob": "66c832a62f5ae935ea0b6fdea5ed500578b80474",
+          "sha256": "f6c00b218d1e102fdc47097bcfd987b6c8783a87d7fae7ed2d316e260e801c77",
+          "bytes": 1160,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/timeline-view.h",
+          "gitBlob": "086b1391cdab807b1a7c249441659f69d3e04432",
+          "sha256": "d9eee70955ff2c0fed835c3a1b28e24c7593d2be3b117e7b0bb6cf5f7dd8ef4c",
+          "bytes": 1165,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webcommands.h",
+          "gitBlob": "a77893da246878a355da1d87d40b27d6d5e0a964",
+          "sha256": "aac4febd8ffcad81bf85a8dd53652c27c9d215194af97098201de479781e5742",
+          "bytes": 858,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webcontentcommands.h",
+          "gitBlob": "fc7b48c20fe76e94a4df126a6908479f08e1c961",
+          "sha256": "e46a049b56529eaba634bfc2931cbe8c7a787ede133448e666e4e7982cd52d38",
+          "bytes": 403,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webobjectcommands.h",
+          "gitBlob": "9762fded05fd79932f01f08ac764502197660542",
+          "sha256": "5e46dbec6d05c4f5ca7f1a6820901036fa8e582067d11556b80fcee214270706",
+          "bytes": 641,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webpresentationcommands.h",
+          "gitBlob": "379ffe717b1658e3575617b26348704b44c0f80b",
+          "sha256": "6a3b97ac35854f671951f789d585ceb4cea6c1c2e62c03c83f69f4a3464c5619",
+          "bytes": 298,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/include/pandoeditor/webterritorialcommands.h",
+          "gitBlob": "399f0a20ff8129e0ac3b1197f01d290741ed5226",
+          "sha256": "5bbce7ecd67ac5fa1884c1c65b82c66ff1dbf977c5161f03dfd8915e90a09079",
+          "bytes": 1686,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/commandbatch.cpp",
+          "gitBlob": "fc3bd80ce046d9a9ecb8ac04b7d6c39ae897b795",
+          "sha256": "279cce2def5c8f0ce6b2af734d2529f09510e4d8ab860046b3bc9fa64efb5fda",
+          "bytes": 3326,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/commands.cpp",
+          "gitBlob": "90f40310c0d4e72b799e70adc63d9ca4ebef6b6b",
+          "sha256": "8911f1ce28aaa1f2f9a0ad510efdaaf994829830e34d1cdd7dee81ed3fdc8c45",
+          "bytes": 160526,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/content.cpp",
+          "gitBlob": "e5ce14c2a11b2251a90e88b70f537fadd3819ccd",
+          "sha256": "67df4c64f8c30b048610934b9dd942334eccf72da416e563d8e46e14e555a82a",
+          "bytes": 12722,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/document-session.cpp",
+          "gitBlob": "0cfc304b046080ac136bfd0b90b55532620d1599",
+          "sha256": "f4ac1280b1c91ae966c581d7e87306808a3810f74f9103e3fee6ae70cc5b5773",
+          "bytes": 53425,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/document.cpp",
+          "gitBlob": "d0858207fb970a529a22aea51990d31d3a74958e",
+          "sha256": "1777b98e6a919282626758317f9ace450a457894c13e6671669681f8ddc02ed6",
+          "bytes": 15403,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/documentstate.h",
+          "gitBlob": "8d505fa738696925a99cd846e1ff3c8eda32a3dc",
+          "sha256": "b3bc5cc543a99325c9dcd036748515aef3a0eaeb3b25019a963ccf3f9dba914a",
+          "bytes": 1861,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/gisexchange.cpp",
+          "gitBlob": "c1f5b89fdc1c8dc2b91aca6a7a0411ef8b60dc6e",
+          "sha256": "d65f2039dadfa57f537bfb6287673690569aea712eaa52f83762a913c626f5eb",
+          "bytes": 17766,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/historicalinstantiation.cpp",
+          "gitBlob": "60d78162d497a6325f920ba2a35ab1809685e356",
+          "sha256": "2a8365427c7e92e15d861ac1eb919dedd63fafe5498b2bf3195632bceff8a4db",
+          "bytes": 20559,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/historicallibrary.cpp",
+          "gitBlob": "f9fecdea68fe0a8bd94dd9f2d206d5b9368a3859",
+          "sha256": "5ae6295bfaa01a44c5831bccb909af7de06d317a5ae9f8fe761a880f2ced59c1",
+          "bytes": 10662,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/hydroviewport.cpp",
+          "gitBlob": "b0c19806a75d8da56bd88595c2cd342b8cf526cb",
+          "sha256": "f58b6fd775fbbc0ae5b8918930052b7c692a9c802a90f852cdfd6f5a54fc830e",
+          "bytes": 2136,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/jobs.cpp",
+          "gitBlob": "62ae8c7b055d1378fedec0e05c0dbd481eff38b6",
+          "sha256": "afdb3f69694a4efa806fecde0ba5b311d0ddbdba254f7baa81a4afe727552fdb",
+          "bytes": 5715,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/objectproperties.cpp",
+          "gitBlob": "e73236301f6286a29de69994110aa7f3b038691c",
+          "sha256": "f5be329fccff7c59de16192083ba047af8cb93e3aa8d5707643e8266d1ba69ee",
+          "bytes": 5282,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/placenames.cpp",
+          "gitBlob": "a173e1f9ada17b9c8fe9adcdd225ea7aa2ad90f5",
+          "sha256": "8f7cac6be3b802819fec98ab018aadd362147fcb1b8ec62609642b1f40f3bc80",
+          "bytes": 1723,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/presentation.cpp",
+          "gitBlob": "e8102d4036b5a01a2d528483e740070306e6c3aa",
+          "sha256": "9ce0269b411363e7e18c7dd7fc2658a54c58b3eb2d4b029dd6335fb2cf30ebde",
+          "bytes": 16069,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/presentationcommands.cpp",
+          "gitBlob": "645dc5cd43221be60a68dab7a59e74e16fd5dc69",
+          "sha256": "9b8ef2ae23ffc916887863a155385b2eb5581ef5ffe7f173da89bd2fb6fbf3b5",
+          "bytes": 10769,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/project.cpp",
+          "gitBlob": "78b592401a7933915ade605768c163fdebb0d0fd",
+          "sha256": "6b63df09c059a2d276613b08b7c0f1091cb42fdcd8f3fc7df9b48cf9dd436b9f",
+          "bytes": 37429,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/snapshot.cpp",
+          "gitBlob": "0eae6b135de13970e0a7c803a2f8ae4295e21543",
+          "sha256": "04a6ee1f2b1ec5e9cbf379535dae9097a9bd6be4582c0324129558718c96d045",
+          "bytes": 886,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/temporal.cpp",
+          "gitBlob": "e43e86c85539fc226dd14046028f69783fad7f2f",
+          "sha256": "bfb72391ef530c6d96ff1436f36ec394b4d52172067f0297e09f38b3881ce56b",
+          "bytes": 8771,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/territorialmutation.cpp",
+          "gitBlob": "ebeee2af814e1abe6cff3cce1aa7c275221fcd04",
+          "sha256": "ccac531e7b5bd3262b481b66795308cb2eb6a082cf908a2ce99eb48101742d0e",
+          "bytes": 29954,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/timeline-edit.cpp",
+          "gitBlob": "a1bae316f83dfde1daa375fe9b0e789f7cdeb390",
+          "sha256": "b2e4eecf65f0a2a0b433fa052d364df82e22d1c1e0251b0c3e820e0007fe2e79",
+          "bytes": 13210,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/timeline-records.cpp",
+          "gitBlob": "95c0366a7c3ff8aaf1f4a1a1483dbb082b890720",
+          "sha256": "204393a9deeeef31794b529bb19efc3f2da04ba70243a95a5259755e6c869412",
+          "bytes": 16754,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/timeline-resolver.cpp",
+          "gitBlob": "cdfda417b68883576f728c1d1dd0fd4c8d60a225",
+          "sha256": "99b0ffa63d7802e9593978ad01db6a7d3572ae29fa3176f1e42bbda7740e1787",
+          "bytes": 9129,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/timeline-storage.cpp",
+          "gitBlob": "583beef27ece82ddc40de8281b6937b8dfb181ea",
+          "sha256": "9c42b73f841ae86bf1990a620a7ff780bcf7c2648345d7ac21cbcc08c7dc0643",
+          "bytes": 2269,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/timeline-view.cpp",
+          "gitBlob": "8cd522225012e56c1211590e9f9ef6208581f272",
+          "sha256": "1d381e539300a306b71ecaf38363a77f3b8f4232b40e4cbd575a65eed5b26963",
+          "bytes": 13875,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/webcommands.cpp",
+          "gitBlob": "1888d0aa0708fac369d710af1b850a6412a9e99e",
+          "sha256": "443540b4c5cd82412ecc1d1793de00c33d2ec1bc0dc05b5137cb2ad382366269",
+          "bytes": 16338,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/webcontentcommands.cpp",
+          "gitBlob": "9d47616cec348b02d09b131cb2998f3218c42e30",
+          "sha256": "d12083e0be4126d314bdb8c33bb343590ad6fdc642bdcc084984332cc55ccf59",
+          "bytes": 21651,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/webobjectcommands.cpp",
+          "gitBlob": "5555f366ee71a33b48d6f4f00d44ded5395c460e",
+          "sha256": "8fd5d23982d883f9f037691d6de7d52f2cb7cbd313af431bc7bae39db6cff294",
+          "bytes": 10594,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/webpresentationcommands.cpp",
+          "gitBlob": "3091fcebc2699d33a80054e458d6df8af6df74a5",
+          "sha256": "cf2b77c8df087c540e0ee6e406ce25e7b89bf41a77a3a5263302e44268fcab83",
+          "bytes": 7853,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/webterritorialcommands.cpp",
+          "gitBlob": "3946e8aee66f27fb3b847ea1ed300ab607d0d72c",
+          "sha256": "b1ac2c4dc1bf6c5323756b754fecabc8c951d7a9bba5da12ed3473f2cd8be9fe",
+          "bytes": 10155,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/native/src/webterritorialedit.cpp",
+          "gitBlob": "6eacde021650f347cc187ccc7fbbb89e4c5737aa",
+          "sha256": "26733c73a2352c384332226428ee740e5efb2a076fc60efa34928cfb0f1bafc2",
+          "bytes": 18894,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/project-invariants.js",
+          "gitBlob": "fa8511310a27ba359fc786631f46583942ee066b",
+          "sha256": "8d284330198b5c796131f8eb4311487556122df5181a16c57ae3b9fe9b9e487d",
+          "bytes": 9971,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/project-setup.js",
+          "gitBlob": "248958fa6644c7608971fd2242c89228f0d9c092",
+          "sha256": "1cf3eb0d57bb0b816da0f0c22e1ebea95026c631fc561a382fef77a87e24e4f9",
+          "bytes": 3398,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/project-state.js",
+          "gitBlob": "fdd3873d5739c2ffcc140714a4f45f7dd1d317a4",
+          "sha256": "1bc7e68846f226e0760199338a81018ed9cd39cf2e1ebf838ad26fefbef87a40",
+          "bytes": 21912,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/source-provenance.js",
+          "gitBlob": "c36a939d63fe99e2646e4fdfffe556622d14dd2f",
+          "sha256": "ad30bdb1be52a1692a210c53ac71be85c29a365609f6a89a0036d95162e131e4",
+          "bytes": 3261,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/temporal.js",
+          "gitBlob": "9238a8dbeff3335a67a47c191aefd34c1b115641",
+          "sha256": "64bc1395a502c8403031bbd04d9cb69387f5c798b86131a6051f2b1073a4571e",
+          "bytes": 5901,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/territorial-units.js",
+          "gitBlob": "c8bb0dc4f456eb289fc246b6c0fa352aff2cb4ae",
+          "sha256": "48dd60bcd0fe413cbca739dde4a939c6c437986c76b798e384d6c41d4333de6e",
+          "bytes": 8570,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/timeline-records.js",
+          "gitBlob": "cd26b594b926b3c7e81c0155b38e794586f7a29f",
+          "sha256": "02684db1173f4df06de334393038a8625fd79779893f418836953c489f386d88",
+          "bytes": 1656,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/timeline-resolver.js",
+          "gitBlob": "8d242a65a5d371334312259327a92742662f0307",
+          "sha256": "38af819f75143ee8c8627eb444b7ef94ff727733d154de993e9eee09720d563d",
+          "bytes": 4279,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/document/timeline-storage.js",
+          "gitBlob": "a90c338f66aa64075e13b3b7deaeb43aa7da0002",
+          "sha256": "59cbeed705f5499dc2188f3237400f5152b63a41aeb06422a09022e3e4568984",
+          "bytes": 2256,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/coordinate-bounds.js",
+          "gitBlob": "c276945af12c75ffd5faebfc6aafaa370cc5ad68",
+          "sha256": "67e2598e59d6e5ff98d871566332286dc83d7e4f9fbc3dc1236c9cc9d08665e0",
+          "bytes": 802,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/geometry-version-store.js",
+          "gitBlob": "59be3a4daf1311235b3a60d21e01f74496335235",
+          "sha256": "d3d93e78ff1588e690732586e98c239a44e93c50a30ec46b7a2fbc107f1353f9",
+          "bytes": 6092,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/map-edit-geometry.js",
+          "gitBlob": "ccb3d37106fc1d628a61591c6b2c7a73de029aa6",
+          "sha256": "01a51792ffbd890ac66ce7628cbe661309a6bf409e1f91b07411499d398e88ea",
+          "bytes": 1581,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/bindings/boundary-bindings.cpp",
+          "gitBlob": "b4288d45fda8ef71944071396c17671f73a2da79",
+          "sha256": "2da0bfadccb7862b8a63a4971a554c7ce780bc5397a9d24708a2568ce4006fc5",
+          "bytes": 20806,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/bindings/cut-bindings.cpp",
+          "gitBlob": "21f00e1b5f5bfc431b851fb68b13b4558099a76d",
+          "sha256": "84d1a2852b791e159b41851a3ee65b749acbec5076c17ef52407f587cc5ad258",
+          "bytes": 1669,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/bindings/polygon-bindings.cpp",
+          "gitBlob": "4ef6f8c0f65eb8d3d3ab0be04923755004fdf4ec",
+          "sha256": "ff8c00911ca8d68e203a085cef5cd2384202f7b46a77a775536c5add90b3101d",
+          "bytes": 20483,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/bindings/reference-bindings.cpp",
+          "gitBlob": "b3402800dd09c49770ab2380a92a962a4a198da0",
+          "sha256": "e6f8936269131002135a4dd65fc75fdb4d091d9a9700961673f94aaaab091a56",
+          "bytes": 10757,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/bindings/river-bindings.cpp",
+          "gitBlob": "fa62b1f3c17600c32a94580827be3a94ac0c1759",
+          "sha256": "03119017cb4ee7945cddb9a88cf97445b09706a023ddddeff4d680b6203f3cd0",
+          "bytes": 584,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarychain.h",
+          "gitBlob": "dd6e30b7c273779db35f4d446dd1f5cdf643ab63",
+          "sha256": "ae5c0a9c7602850ffafeeed543e2e899d49c481774f6fc70b773d4d614a42822",
+          "bytes": 606,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarycontact.h",
+          "gitBlob": "a8f4f68d53fccd0fa4065d8c254a929ead23fe01",
+          "sha256": "6a5d439981cedd34e103e43913c89554fd88343fec2253c0af65ce23c7126f94",
+          "bytes": 561,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundaryoverlap.h",
+          "gitBlob": "8d22fa97ecbfda5d97cfd15af9e38c742f7ec562",
+          "sha256": "13bd4c1bd602ec784a79510864b77f8b2868125f16b777dfda1e30f337783979",
+          "bytes": 704,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarypacket.h",
+          "gitBlob": "c3aac7a3ef8b90a3cc88a17f3324225873c7589d",
+          "sha256": "cadd33450f2938aefc67e3b7b85a88c96c3633d6d93f6cf34de6b11ff4d1845e",
+          "bytes": 1438,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundaryrefinement.h",
+          "gitBlob": "04f366f59477df8ea7dbdc100d31cebc2503a277",
+          "sha256": "9a4e73679ae095a2eaaf8a8eb170cca33c4b947fe8b6986a2466343b3ba6c8dd",
+          "bytes": 749,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/boundarysplit.h",
+          "gitBlob": "045e53f09ac15bca1b9f67fff018bcccbcd43a06",
+          "sha256": "506383b9f4ed5998822ae0c7eaec84882b4d1c1da0e5e8f3786ee4dd166d9e99",
+          "bytes": 1131,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/countrycontact.h",
+          "gitBlob": "909b2475a376e2f088d9701bdb9053e0384203b4",
+          "sha256": "32e70e8985ae12b63357e8485885584319041668b11755cb6f849e234f8734ca",
+          "bytes": 1324,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/cutgeometry.h",
+          "gitBlob": "5cea2a24ff3f495a342dab5b8c4585dd949078e8",
+          "sha256": "31678a8a1165ac3e58d7209c8eb7473f90b3d1aa4e2c01a48e41c564879f3844",
+          "bytes": 872,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/exactplanar.h",
+          "gitBlob": "816624223c489f8721209850328a26c5b123ed6e",
+          "sha256": "183a6496fe246c0ec3e5e171db9d75cb3216a0123cdfbbc1d0b9d73c0bc6f7e5",
+          "bytes": 6064,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometry-types.h",
+          "gitBlob": "482111dd92a7ae5528aedaaba6ff183bbf96c2e6",
+          "sha256": "8cda90d6569a21fef91e96930d1d44512f35be25fffee13a4fbb4bae2d9c08cc",
+          "bytes": 2437,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometrydraft.h",
+          "gitBlob": "2116bd56dadb943793ae02e61c834c8895ab3dc1",
+          "sha256": "bedfda9781be656f7ff9411e525e9a439a5f57ea9b5a22de87ce2ae8687ac8a1",
+          "bytes": 4270,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometryoperations.h",
+          "gitBlob": "ff4d3e3e362ee736b48596ae02398aafabea38c6",
+          "sha256": "6c39608827bb242eb9796d8560ee8e6b653224d9a1959559cbddbe07155304d0",
+          "bytes": 1647,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometrypredicates.h",
+          "gitBlob": "9084196bc39d65e2e1bebfd055dd2505216021b5",
+          "sha256": "1da2c6d4a42625b488f8fe38455487b86aa6b68e69fa10e95fbf9835066d9dd8",
+          "bytes": 3498,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/geometryprovenance.h",
+          "gitBlob": "f7b381582d1212ce3b97131dfa465ed82cd6dd41",
+          "sha256": "6b3e2ab4d109f80c85f36cae743de8bca7405686525f5bbbab45ddc7a6614b0a",
+          "bytes": 3330,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/planargraph.h",
+          "gitBlob": "9ab52778ef22c53a047360fcc37e8aa36a817250",
+          "sha256": "c3aac495a68c9fc9927f3596616229eab016074820d2220adcb38caa481c733d",
+          "bytes": 438,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/polygonclipping.h",
+          "gitBlob": "ff6c58ab1a4856ba9ffb8ae394db06fd0e36bba7",
+          "sha256": "c901fd80b5c8e67a3e6b43b117a2aa60058fcc5bc624428c18ac5eea989f3adb",
+          "bytes": 578,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/polygonwrapping.h",
+          "gitBlob": "4bc145604090e92867684d7a8ed0768bacb30cf9",
+          "sha256": "3c509f6e0d0fe92696e72d7d9fd859b90421eccbfb3a7087168685a10b8b2a68",
+          "bytes": 305,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/referenceboundaries.h",
+          "gitBlob": "b6b1802a08e0778fe1744538fb54ee4fb75715e0",
+          "sha256": "5957918b1fa24cb6a9cf832be4c7266edf80cf5ada19d523da59d3f0583df9b5",
+          "bytes": 530,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/referencetracing.h",
+          "gitBlob": "6fc38c6483aae029daa1e80320fbf8754eace131",
+          "sha256": "436b543c95a49d5428c04d12547852a938da57de2f0f80fc380059c2231d4057",
+          "bytes": 1924,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/riverpartition.h",
+          "gitBlob": "5b1dab1ab984b98bac44cd20af3ef08ada31a2a3",
+          "sha256": "a3a41d4d0b0a6ff40e92a9d2b3af39512a604abd6b3e8152bac51f25b40b157e",
+          "bytes": 436,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/include/pandoeditor/sphericalpolygon.h",
+          "gitBlob": "c4856b256da3277d4d3e8ffdaf783e76da85946b",
+          "sha256": "bead9636f19e4fd0cde313fdfc946e96fda5b33b825080b2acac126d74dc26c7",
+          "bytes": 1366,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/boundarychain.cpp",
+          "gitBlob": "6b18b410eeae65391391f5ac9379e8a3ccb6d33b",
+          "sha256": "870a3019db3ec6a45245cb550f884f9daf63fd80830639c2936656392e35f0e1",
+          "bytes": 4373,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/boundarycontact.cpp",
+          "gitBlob": "1f31fb22de0efc0dcbd6495933f3542f3a7f22d9",
+          "sha256": "5f7a8c04a813bbbd2647c0c9a788f3f269704e82d217d5d1be0a5fd461ff9dd1",
+          "bytes": 2138,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/boundaryoverlap.cpp",
+          "gitBlob": "0c064a12ae623ecebda3e46ba327136c71badf7e",
+          "sha256": "64c5a209c186fc2ad046be705454dc1332b7e2b5076b94e5ee957105882814ce",
+          "bytes": 2671,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/boundarypacket.cpp",
+          "gitBlob": "8ba4782fd235d159e5cbe4de88fbf2d3fda9c91e",
+          "sha256": "4cbc408e8c6e183c62273bc5f34f34a097ffba9dc9b37611b065006d4704af5d",
+          "bytes": 5136,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/boundaryrefinement.cpp",
+          "gitBlob": "f962265fb4369115b7075946aa71450853770ce4",
+          "sha256": "d2c9a2083d504d3de8213a0a3f1c4bc59e092c1e86e9979750fd15ea88db12f4",
+          "bytes": 2866,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/boundarysplit.cpp",
+          "gitBlob": "26d8e6431e3bda14938718682605cab39b1a8304",
+          "sha256": "028bbbba7f924fb18aa6991a6392fb4669038d919928cd48fa9101aa153bc14c",
+          "bytes": 5348,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/countrycontact.cpp",
+          "gitBlob": "6b20797d8b2467c4852b88eb9f7589e10e420264",
+          "sha256": "30d31476a2874943d4780f1e4ca6234a18f2456f36772d9fc00cacd1363a0847",
+          "bytes": 8936,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/cutgeometry.cpp",
+          "gitBlob": "5c5c717099736f4aa030fa40aab2b61bcc25339b",
+          "sha256": "ad48300f06b7da124be2cc308e9fa9d58cffaa41d4be243d87d83f7337b26324",
+          "bytes": 21391,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/geometrydraft.cpp",
+          "gitBlob": "5f2c7c5a2cb8e705b9c338760b2401592c16bb9d",
+          "sha256": "a464fe1231ad79ea7ae18dfbed687f7e16dd2bdbf15ea2f8546693afa31178ff",
+          "bytes": 11519,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/geometrypredicates.cpp",
+          "gitBlob": "6ceb6ca6cf355904564531cbcc612815bf035b39",
+          "sha256": "5dcc0344fe5861ef9bb13f9e7f668b9f2ae31c4b144a79ac5de377eeb5a37509",
+          "bytes": 39046,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/geometryprovenance.cpp",
+          "gitBlob": "80ae781af3748e957e7d58d8e1c4f2262b02dace",
+          "sha256": "d63d111bdd2e11aa6f3ee8158932c02cca5fe18669d02ce75e5447fd5c3e9f92",
+          "bytes": 11863,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/planargraph.cpp",
+          "gitBlob": "b3c2c3c2482142c6d06c9119f3d28bdb8791ef16",
+          "sha256": "e8a23100ce6be57b2bb30bb19277f64cae6fa879161f943ee345f5fd41568a71",
+          "bytes": 1799,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/polygonclipping.cpp",
+          "gitBlob": "4c1f995b8bf4bb6d496b5e8057490914be90589a",
+          "sha256": "7a1464a0f7aa6d7b0b28b42102987095e035b53c920065d3305c6ac5585aeb25",
+          "bytes": 28790,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/polygonwrapping.cpp",
+          "gitBlob": "52fc178df69c8124ddaf0043feb706a49e694da5",
+          "sha256": "291a44e5ebe087bf2e87ca4b4624b1378581c5a2991f0da9aa7f7d9ccd3008dd",
+          "bytes": 3660,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/referenceboundaries.cpp",
+          "gitBlob": "8243ad186f592e49eb508b3accec8a8c9845ea7e",
+          "sha256": "969ea33dcda012907cdefe450ab81a25ad5e0967d26fe4ab58715fe8f4fe7f3d",
+          "bytes": 27597,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/referencetracing.cpp",
+          "gitBlob": "5772c7200270f0e3b2e82ad334429d0299bfffa9",
+          "sha256": "727140a6a0e7f362d43176679b5f44ac7b7950572e601a873546255124efdecb",
+          "bytes": 15340,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/riverpartition.cpp",
+          "gitBlob": "74595019c6f8259389a62172c17b39af40376dde",
+          "sha256": "d4102e9881211705777bdece6ee853a057438d9c286a798c583b65ff0e5eff5c",
+          "bytes": 34085,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/src/sphericalpolygon.cpp",
+          "gitBlob": "341fdf4d8c11d203a8cef0f60495ab89ad09381f",
+          "sha256": "35fb1cf4ddb1e2b25ca9dca51817c0b1b30c019b47e9174a2adae3c4d21536cb",
+          "bytes": 15632,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/native/vendor/earcut/earcut.hpp",
+          "gitBlob": "a73ae87c8ee393c65151ee0a8f5fb845776b6dfe",
+          "sha256": "3b838bc3f643d34ced850b6d53b19e2d9abdf6c2c067425b02868d131379b3cc",
+          "bytes": 25024,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/geometry/polygon-geometry.js",
+          "gitBlob": "92a75c3ba38d8d3fa73f152e98b7027387223296",
+          "sha256": "462d09631ed28ab48efb227405143e159d17cd0f9dd764511a0a636c67b90d74",
+          "bytes": 10416,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/map/camera-navigation.js",
+          "gitBlob": "1d5ec8782c082d6b031d45cac8a3a05fd8df68ac",
+          "sha256": "ed1d1241478929dd828509177c63f337b4d0107fb89e53fc85490413fc6a63ac",
+          "bytes": 14338,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/map/camera-pan.js",
+          "gitBlob": "3757de341c23c61caa3178fdab90fbca3da95bc2",
+          "sha256": "8f662e5d369343e2ec8814aca44f4e34af67c055ee706857a41a96cda79b8e19",
+          "bytes": 837,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/map/native/include/pandoeditor/mapprojection.h",
+          "gitBlob": "b846779c42297b22403ef76bb4d8592ccf1f2889",
+          "sha256": "c5a2c3e1cb0d7528c8f6c41242700ecbbecadd99170ee2fe5b031d3d6375b234",
+          "bytes": 792,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/map/native/src/mapprojection.cpp",
+          "gitBlob": "4cb29c3b7b0acc502ec13ad230a29cbd3ce9f697",
+          "sha256": "a7bdd9889c84269b0f728e96ff834a7a344f49dacd62cb8c8674c5a938517d5d",
+          "bytes": 10816,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/rendering/native/bindings/mesh-bindings.cpp",
+          "gitBlob": "2fb1166c6acf9e37ebd62670f308a358a337e7cd",
+          "sha256": "7f22844de0d10d2afa47d98f61313b9d87bcd533913ff5175eb4aad27859a06e",
+          "bytes": 4825,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/rendering/native/include/pandoeditor/polygonmesh.h",
+          "gitBlob": "f5a3f13b03cc76401c07cf22f63854a6cb056108",
+          "sha256": "d2b3997b7af04e0629b8009abf309f9d75063f936288be6c3b9444f4b72c9551",
+          "bytes": 1476,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/rendering/native/src/polygonmesh.cpp",
+          "gitBlob": "cdb4fc945e729252d79a579c2adec94234fe8cca",
+          "sha256": "f95ab2dff880e3b9c4377b05a954ad6f327f457edfdd068cf423ccdb9c0b8653",
+          "bytes": 15118,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/core-wasm-loader.js",
+          "gitBlob": "7d014e91a141cd04861df2e7d524801af7831cfa",
+          "sha256": "cc4655e58f1ed0d68928d98399c963b7d4a3494549d7b218da35e8abce90177a",
+          "bytes": 10158,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/native/include/pandoeditor/version.h",
+          "gitBlob": "b273d87ddfc9ba2ed5a14f8355a59448b7a0ba2e",
+          "sha256": "7d029f120971bf0613b3387e221d81a2a5300c9cdb2163e89c978024756095c6",
+          "bytes": 128,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/native/src/version.cpp.in",
+          "gitBlob": "21a2aa7d32c9887648e11e4cf517ae3392428a68",
+          "sha256": "0f6aac7ad1f877af5ce83cf04617fefa7465a40fb3c8044e123d5ebf13929fbb",
+          "bytes": 159,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/reliability-core.js",
+          "gitBlob": "549d68ac4f5bc7b0eb52ffd95f80085b183d5fef",
+          "sha256": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "bytes": 11237,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/version-contract.js",
+          "gitBlob": "96cfeaad2a883102063b0f2065b456e2fc540a17",
+          "sha256": "34c05a5bac9627531c170191952ac81489ba320059a0359033db6b8c0d943e02",
+          "bytes": 896,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/worker-asset-url.js",
+          "gitBlob": "ebec37f8866564278baf4a608d240a6c4d9614ec",
+          "sha256": "7d1c6cf9781e3df0fa3e561c00dc373f3a04a5cb0390268170ffac5590d9a9b4",
+          "bytes": 2172,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "src/runtime/worker-rpc.js",
+          "gitBlob": "124a44bc3b744c8da21150479283b734efb365ff",
+          "sha256": "1f6db9acf3778e8ff9a5ba9950678ecd4f4a751bf780cdbd8ac8976bbbc1eae2",
+          "bytes": 15736,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/fixtures/clipped-positive-current-rings.json",
+          "gitBlob": "435c734c3c11efba37184059013aa641ed95599d",
+          "sha256": "c22a78c457597b24cebf38bf2a9451c67864e2f838a9f34d9bab691dcac98996",
+          "bytes": 8598,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/fixtures/clipped-positive-ring.json",
+          "gitBlob": "cefff5b94c41c8c457db44c834c0d02727164467",
+          "sha256": "2eb6cd9d9dbb4ed08a4c983617e58018d4f098a8d0cdd8c124d2ca7391e4b2f5",
+          "bytes": 2745,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/helpers/core-session.mjs",
+          "gitBlob": "27de54b9a7d8b1ba3bd24da2cbcf7a8ab82667e6",
+          "sha256": "45a7f7435d05d8a0a0025d1fc7516ee531ea2d4a678345fb0e8c3a8a385e2bde",
+          "bytes": 867,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/country-contact-tests.cpp",
+          "gitBlob": "2ca19ac6fb1b29a9ab54e0374b47a91cfca2234f",
+          "sha256": "843428283c097cb0a8c68f20562629649016611a4a69a8a5a3c583a3c0ace4cb",
+          "bytes": 2883,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/document-session-tests.cpp",
+          "gitBlob": "b059e925ee3ea733e6da0ef7f75e4e68e93d9559",
+          "sha256": "4d4a79d278e88347a9bbd3625f33c9798c64cbaacf2e5e1c0c30056ebf68923f",
+          "bytes": 47319,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/hydro-timeline-tests.cpp",
+          "gitBlob": "2320ba965e2e9b040f01b6f3a761c98f8ed5eafa",
+          "sha256": "aec44cc1d758a596e5cad3a3828efbb76f9b38a1e510e5f1b6e0d7aaee944081",
+          "bytes": 2843,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/project-codec-tests.cpp",
+          "gitBlob": "854f418c64f5bc24ae1386c7c43120a3379bc112",
+          "sha256": "419049dc6cd25a5284d249a5a5e7b4e11727fd47aeb12584bcdd95fba9f29867",
+          "bytes": 5463,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/reference-image-tests.cpp",
+          "gitBlob": "a59ab814efbbccedc9031855f468721a557f58e6",
+          "sha256": "42dbc1fe289860ee74b2dd0d1ab453ab743dc6b3457b83f32e90c4b57099191a",
+          "bytes": 4783,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/source-admission-tests.cpp",
+          "gitBlob": "1c7caebc74d3423a6c42c889ad404562023f290d",
+          "sha256": "828659df1bef692364982d87dd75edfdd40eec83d7ccac3df2d065a6445ca2c1",
+          "bytes": 9260,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/temporal-adopt-tests.cpp",
+          "gitBlob": "8ba02930f5f23da215f82497e8faed605c9982a9",
+          "sha256": "dcfadc47bee0a8fa2944c96b7bbe44aa5f742938907e78b44157c41cdc3084d9",
+          "bytes": 19403,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/temporal-candidate-tests.cpp",
+          "gitBlob": "18afa2c6263ea395d8fe507b1ee801f07f138386",
+          "sha256": "d4809918414cedbeb89be99e9f706a69bf2fdeb9fd44f33f73c3656b540ba787",
+          "bytes": 10774,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/temporal-editing-tests.cpp",
+          "gitBlob": "29703f43c175cbe5bf99ea6dddd9b645797a6575",
+          "sha256": "8e363828f5348704e2367459b157fe4e4bb816eb0608954ad2fc4b813aca73df",
+          "bytes": 14798,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/temporal-source-tests.cpp",
+          "gitBlob": "9c1d2cec04a8277e25362c16ed9df994521eaf22",
+          "sha256": "130978d0918f00b583f586479e98c7feb6c70cc2d734f2bd8ce209e15187a6e1",
+          "bytes": 7728,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/territorial-document-fixture.h",
+          "gitBlob": "53ed89839c9f6e352746c7ac7d9141aa1dfb4b77",
+          "sha256": "2115e83f165ae1f646790affe2d1f6457b7c248112159397c19003c26cafba98",
+          "bytes": 970,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/web-content-codec-tests.cpp",
+          "gitBlob": "11c541cc0860884a823ff893423ebfad4dd943b0",
+          "sha256": "4464b326edad7841baa1e65410a363928d4438c3180f4813d465eef37e316824",
+          "bytes": 13504,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/web-content-command-tests.cpp",
+          "gitBlob": "73d77081eaa3cf3f9046559cf76ffaf06b2a4406",
+          "sha256": "765f06420cbb343a445de745f58b9bd08b20ff75426a01841bbd3bd0c3ba6b39",
+          "bytes": 14606,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/web-object-command-tests.cpp",
+          "gitBlob": "5bc7d28df3e894adb8a5754c58b01aa079f8b604",
+          "sha256": "b6d6f42f7367ce5629780904b1082e974a094eadbc2a4585a8b7ed49ff78f1d7",
+          "bytes": 14035,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/web-storage-tests.cpp",
+          "gitBlob": "4965edd176b2474f21ee038127f9a1db9d340ccc",
+          "sha256": "36366465acf396698125d8ec5ccae78367a78d10fdc1e315a5afe207c0999c23",
+          "bytes": 19808,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/document/web-territorial-command-tests.cpp",
+          "gitBlob": "73bacdfc0b96ec4f36ef4d3774d38c74291ad898",
+          "sha256": "f12d91d6e93b987457512dd7cfe4a809beef28c4a9032f80576176b2e833c562",
+          "bytes": 21234,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/boundary-chain-tests.cpp",
+          "gitBlob": "bbfc036f55a14277d688301176b9d76e8c563af9",
+          "sha256": "5a0626e933eda5b1786d14e9d0e2d8a94f7039532beb9a91ad419a4a16ed3c43",
+          "bytes": 1727,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/boundary-interior-tests.cpp",
+          "gitBlob": "f6f762bbc1a3140350b6f80351b29486c3086a80",
+          "sha256": "978c4eab7c26ba030d97909ffac4ee3ca3e6bc9b152964e5f8b56f1c0e34e43c",
+          "bytes": 1595,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/boundary-overlap-tests.cpp",
+          "gitBlob": "c03844d7ac696653f2bee841ee7f02227da4270d",
+          "sha256": "fcb023abaf6ac180a9f9fb3c8aaf0efa1adb551b60e4c26541b4a2ffb1d977c8",
+          "bytes": 1327,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/boundary-packet-tests.cpp",
+          "gitBlob": "03338de852c414a3ba148be6b4cde39d7ebe869c",
+          "sha256": "d20855b51df75b38a30062888b031f49c500c4e9773590c70a9120aa6b8c1189",
+          "bytes": 1902,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/boundary-refinement-tests.cpp",
+          "gitBlob": "450a24f9949ccc9a3a3aef8f5b6ed175c77a3879",
+          "sha256": "bdecb94bb95be2f406be607cce9e7594130e626c4b8bdff3cf312da21cc3b057",
+          "bytes": 1215,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/boundary-split-tests.cpp",
+          "gitBlob": "138708c50ec023adb0a80970cf22ec36fa39b79a",
+          "sha256": "5fed06bcf628c51ba0e0b2e06d010d41da25a1613e88295db6975758c44aab4b",
+          "bytes": 2138,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/cut-geometry-probe.cpp",
+          "gitBlob": "77cef52555820540f45a06b118d870338ea34c8e",
+          "sha256": "2222e9a20b9ac77a8ceb9aff93debe050f9315a5c69cf3ae53c4cf1c0e8638f8",
+          "bytes": 1073,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/fixtures/clipped-positive-rings.h",
+          "gitBlob": "cb4a5bbb8e92439e0af65aeb9b29c317b5746579",
+          "sha256": "804cecc7762ffd8f7487ceceff59286231795aff278e83c31f9425ba9d1287a7",
+          "bytes": 6349,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/geometry-draft-tests.cpp",
+          "gitBlob": "9658cf8f70f4ba200c773bd1a7bc7bc358d5d5dd",
+          "sha256": "08e73d24edc54cb3529764c7b416ecaedc90a4886deaca76cd33e95d33f7d13d",
+          "bytes": 8937,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/polygon-clipping-probe.cpp",
+          "gitBlob": "0b3934851f033058d74be7d2af3aec6aac21bde3",
+          "sha256": "c860a9929e4d82e5f5fa59ac0900c6fd980a72a9e66ddcdf3811411a88869a09",
+          "bytes": 2092,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/polygon-mesh-tests.cpp",
+          "gitBlob": "5fdcdd1658bcd7e2564788370ea6da3b05790e3a",
+          "sha256": "48330d06d52c9d92d48fb3bca74fb3e114afcb9907e55796aa463ddbf9365a8a",
+          "bytes": 5105,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/geometry/river-partition-probe.cpp",
+          "gitBlob": "49c60f80e408b67889b08f4540f8e7dd84d1ba8e",
+          "sha256": "74ce06068e38d1edec6a5ee842a8b59f89d6acede7fdcdddf2ffdd94380e5ab8",
+          "bytes": 713,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tests/native/temporal-parity-probe.cpp",
+          "gitBlob": "ff9e4bc07fa2885c2ccb03f0ebcac466cdbfb602",
+          "sha256": "b349c6d54fd6e786d7619d19089f046fafdfdc836083574514f4bcf1c5cd3cb7",
+          "bytes": 21015,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/builtin-world-compiler.mjs",
+          "gitBlob": "191c08e59aa9bc795014452d5e92d1eb53d0fe8b",
+          "sha256": "2727ab0574f0c86a6db124a2e19d42af0171d12b36a9907098c592ab88a90f8e",
+          "bytes": 21973,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/load-node-core.mjs",
+          "gitBlob": "ae4cfc7bb408dbe5df3af4a3095340e02cb902e9",
+          "sha256": "7cc3013d53fde9b2ae6b629eba9a2ae1bc2aff51dd0e15ecd497eed6a8862737",
+          "bytes": 3122,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/load-spherical-core.mjs",
+          "gitBlob": "ca807e60f775f3688073b486a0215d5950c4b103",
+          "sha256": "997fb2500ca3e82c1adc8aafb3e9e912a5826d3963af8eb80ce43fb99ced2747",
+          "bytes": 242,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/native/CMakeLists.txt",
+          "gitBlob": "7bb064349d105278749e1d79b95a5472bc5354ef",
+          "sha256": "145f172cbd99e4d56b71989a629b09d76b622b259252da5e6b9ff595c8e1c37a",
+          "bytes": 421,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/native/core/CMakeLists.txt",
+          "gitBlob": "2897d729327aa97768ae86c0a4deff2fb27a2def",
+          "sha256": "c7366c3376fac63c4293cf9b9548a3be499d05959302bc2403032f0982d2a9b3",
+          "bytes": 10854,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/native/tests/CMakeLists.txt",
+          "gitBlob": "d8a74808ae2770325e145d7dc0c1e041183bfe07",
+          "sha256": "0ae54a105196e49342fe3d6ee75786d4aa86c6263f9e144cbd00aadd1ed50533",
+          "bytes": 14370,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/native/wasm/CMakeLists.txt",
+          "gitBlob": "5ade11310d8c03f0675dcd39817b99be2b6639c3",
+          "sha256": "d559033429ea9b0c58c34d9de3fbfbf2007a89afc4a5e7b5e861fb68c3d823fa",
+          "bytes": 2705,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/build/package-shared-core-assets.mjs",
+          "gitBlob": "adaac2092bd610f5e810984790ee9b17c26cbbe4",
+          "sha256": "41cec08543e2b5d760c7f0441455c74079ef0553b86505f34569ae899d8697e7",
+          "bytes": 5064,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-archive.mjs",
+          "gitBlob": "7adef1b79964c2e5ec69e2324d67467f078c269a",
+          "sha256": "497d7007265f97ee092c51ed47d6f8ebd17d44c2f4efc5e0b17c338cf5be1fde",
+          "bytes": 691,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-content.mjs",
+          "gitBlob": "6247f766489b33c4ad8ab95d2c0b21fc2d7cded1",
+          "sha256": "c3bf93190a3c580a50e93849e032ca84f6980f2a828a7d0343fd63dc9191c44f",
+          "bytes": 8775,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-context.mjs",
+          "gitBlob": "c01da287d33d12f8ca5a8afed713a3c4ac05b374",
+          "sha256": "7c57aea8e774f5a61f04f524d3cb4b12372ddd87b0c8b8b1d75739cd943eaf82",
+          "bytes": 15456,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-git.mjs",
+          "gitBlob": "90f651d2f2f6370b1a583631b15c0dc47c9b61a5",
+          "sha256": "6007a467dcb925df4d3cd8dd19a26630ea12517c0d060467f04e42880548f279",
+          "bytes": 13660,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-report-layout.mjs",
+          "gitBlob": "56c9136c86ab3c895de95f86647ee497281a636e",
+          "sha256": "b1f31576bfce42379d1972518d9698467a26e2b743c7277775b5454242fef324",
+          "bytes": 10968,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-reports.mjs",
+          "gitBlob": "0bc46696bc0252dc6f8633df68f963fec800aff9",
+          "sha256": "d4b1b3ad79f790866075d2b7591bce0f2d9933f3ac9c122a9984f15d818141cc",
+          "bytes": 24687,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-runtime-index.mjs",
+          "gitBlob": "5fed6899da7f6ea599f5dd53e797cb119acef359",
+          "sha256": "a19315b78c1c108e258884ab9f31d82585068d9f4925505718fc4af077978631",
+          "bytes": 3102,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/library-runtime.mjs",
+          "gitBlob": "b322b18f2a4cdf376d78f94f3d04d3063fdb8e9c",
+          "sha256": "acfe82280a1c8c23d28a8afd898f64da905473b5020454a3623b8c7e880ce30f",
+          "bytes": 36040,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/territorial-current-world.mjs",
+          "gitBlob": "148adc4c6f1d66b44af13e5b52961e4a8544c122",
+          "sha256": "ee9c4ea72d40b628da7bb56ce1e02bf6450d6a77399d594908042b3f587cbd59",
+          "bytes": 3282,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/territorial-entity-sources.mjs",
+          "gitBlob": "a38546c6144534ab5f2c7721d39c8a8260c95289",
+          "sha256": "7117c4505fd2bb457981b3e8f10b8224cb7a22edf6b8096dd8362fae19246730",
+          "bytes": 8373,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/data/territorial-source-codec.mjs",
+          "gitBlob": "637d24d1e4423a287ac5ba0bae1baaec5ca89257",
+          "sha256": "3c964a30d7fb29f3d7d22463353a742c15cb2345a49dea92a932e67f6e0474e9",
+          "bytes": 2849,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/builtin-country-classification.mjs",
+          "gitBlob": "37f03088f85dbaab9d8915db16c61a22f7ac24ad",
+          "sha256": "ee12d826c6a9accbdc05a773e1b9d64b334a3482e5e5c9a0c581a1cb755b3fcc",
+          "bytes": 2849,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/builtin-display-policy.mjs",
+          "gitBlob": "eb95eaa2520de69553598bf9e2c50de053848de4",
+          "sha256": "b1781ada4481192df7c5f88a846dc855dcc5ab323733d7512a95e74a634b2a72",
+          "bytes": 1800,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/historical-display-review.mjs",
+          "gitBlob": "c6a54efe189a3734a5f53bad11fac7e7b3d42fe4",
+          "sha256": "fc1d357f360ed013c4bf25dfe3deef3fa85c68024172ae4ebb32c51ead4df7f0",
+          "bytes": 6321,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/historical-world-territories.mjs",
+          "gitBlob": "497d7c7d57947d4e4d8b63d7409da33e7437ccd8",
+          "sha256": "66f98447995b7d3e387b21225a7e08e53f6bce6125c7f02c5e2e9be46307bc10",
+          "bytes": 21795,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/project-template-compiler.js",
+          "gitBlob": "4751cbd99790d5f5d16626d4418cdc2193917afb",
+          "sha256": "9c0073d09b6f115a0cdac5330aa192066afef478d99513d3f2c3c5a937ee04a7",
+          "bytes": 3244,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/territorial-index-entry.js",
+          "gitBlob": "2309b5b975789125eddb38421a2b64f3298adea9",
+          "sha256": "1298e7286f2deefb8d03fb5bf36a44e4b21c94a0ca555b893a606d79e41ce54e",
+          "bytes": 1741,
+          "representation": "exact-git-blob"
+        },
+        {
+          "path": "tools/gis/territorial-library.js",
+          "gitBlob": "eca76a6eb02566121ea672f65aa664b3107a1289",
+          "sha256": "b96a62a145490ec9ba3e1f081e80db43cf9493debf1a3ae97c2ed34b177df70f",
+          "bytes": 13583,
+          "representation": "exact-git-blob"
+        }
+      ],
+      "exact": 224,
+      "crlfOnly": 0
+    }
+  ],
+  "scope": "Exact code/WASM used for frozen d1 period computation and separate f413 source/generated/store checks. Code files are not copied into data reports; each original byte is reconstructible from a reachable Git blob with the recorded exact line-ending rule. No geometry or source receipt semantics are changed."
+}

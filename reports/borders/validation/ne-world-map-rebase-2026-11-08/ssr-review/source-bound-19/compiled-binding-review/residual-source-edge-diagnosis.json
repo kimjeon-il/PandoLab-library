@@ -1,0 +1,174 @@
+{
+  "status": "exact-rational-point-witness-not-receipt",
+  "triangle": [
+    [
+      45.97826820000006,
+      40.18841960000003
+    ],
+    [
+      45.97889000024923,
+      40.19813859226101
+    ],
+    [
+      45.97889000024923,
+      40.198138592261
+    ],
+    [
+      45.97826820000006,
+      40.18841960000003
+    ]
+  ],
+  "centroid": [
+    "9706386488698811/211106232532992",
+    "16970787359542429/422212465065984"
+  ],
+  "sources": {
+    "USSR-source": {
+      "vertexMatches": [],
+      "nearEdgesExactEvaluated": [],
+      "pointLocations": {
+        "centroid": {
+          "location": "inside",
+          "polygons": [
+            78
+          ],
+          "boundary": []
+        },
+        "0": {
+          "location": "inside",
+          "polygons": [
+            78
+          ],
+          "boundary": []
+        },
+        "1": {
+          "location": "inside",
+          "polygons": [
+            78
+          ],
+          "boundary": []
+        },
+        "2": {
+          "location": "inside",
+          "polygons": [
+            78
+          ],
+          "boundary": []
+        }
+      }
+    },
+    "ARM-raw": {
+      "vertexMatches": [
+        {
+          "triangleVertex": 0,
+          "polygon": 0,
+          "ring": 0,
+          "vertex": 683,
+          "role": "shell"
+        }
+      ],
+      "nearEdgesExactEvaluated": [
+        {
+          "polygon": 0,
+          "ring": 0,
+          "edge": 682,
+          "a": [
+            45.97911400000004,
+            40.201639800000066
+          ],
+          "b": [
+            45.97826820000006,
+            40.18841960000003
+          ],
+          "centroidExactCross": "-54347629687/3713820117856140824697372672",
+          "vertexExactCrosses": [
+            "-54347629687/3713820117856140824697372672",
+            "0",
+            "-61787365165/2475880078570760549798248448",
+            "-46907894209/2475880078570760549798248448"
+          ]
+        }
+      ],
+      "pointLocations": {
+        "centroid": {
+          "location": "inside",
+          "polygons": [
+            0
+          ],
+          "boundary": []
+        },
+        "0": {
+          "location": "boundary",
+          "polygons": [],
+          "boundary": [
+            [
+              0,
+              0,
+              [
+                682,
+                683
+              ]
+            ]
+          ]
+        },
+        "1": {
+          "location": "inside",
+          "polygons": [
+            0
+          ],
+          "boundary": []
+        },
+        "2": {
+          "location": "inside",
+          "polygons": [
+            0
+          ],
+          "boundary": []
+        }
+      }
+    },
+    "USSR-native": {
+      "vertexMatches": [
+        {
+          "triangleVertex": 2,
+          "polygon": 79,
+          "ring": 0,
+          "vertex": 59263,
+          "role": "shell"
+        }
+      ],
+      "nearEdgesExactEvaluated": [],
+      "pointLocations": {
+        "centroid": {
+          "location": "outside",
+          "polygons": [],
+          "boundary": []
+        },
+        "0": {
+          "location": "outside",
+          "polygons": [],
+          "boundary": []
+        },
+        "1": {
+          "location": "outside",
+          "polygons": [],
+          "boundary": []
+        },
+        "2": {
+          "location": "boundary",
+          "polygons": [],
+          "boundary": [
+            [
+              79,
+              0,
+              [
+                59262,
+                59263
+              ]
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

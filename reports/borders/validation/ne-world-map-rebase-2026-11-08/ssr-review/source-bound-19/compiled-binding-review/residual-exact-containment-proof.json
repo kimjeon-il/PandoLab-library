@@ -1,0 +1,362 @@
+{
+  "status": "extra-component-classified-as-GEOS-reference-artifact-not-canonical-receipt",
+  "triangle": [
+    [
+      45.97826820000006,
+      40.18841960000003
+    ],
+    [
+      45.97889000024923,
+      40.19813859226101
+    ],
+    [
+      45.97889000024923,
+      40.198138592261
+    ],
+    [
+      45.97826820000006,
+      40.18841960000003
+    ]
+  ],
+  "exactPlanarAreaDegrees2": "87510605327/39614081257132168796771975168",
+  "floatExactAreaDegrees2": 2.2090782507102694e-18,
+  "armGeometrySha256": "1043bf171e5fe8260df59e9a230117770008099bdc365c70f36c1b213bec49ac",
+  "armPolygons": 2,
+  "armRings": 5,
+  "properBoundaryCrossings": [],
+  "armVerticesInsideTriangle": [],
+  "boundaryContacts": [
+    {
+      "arm": [
+        0,
+        0,
+        682
+      ],
+      "triangleEdge": 0,
+      "exactPoints": [
+        [
+          "808858248174457/17592186044416",
+          "707002154434255/17592186044416"
+        ]
+      ]
+    },
+    {
+      "arm": [
+        0,
+        0,
+        682
+      ],
+      "triangleEdge": 2,
+      "exactPoints": [
+        [
+          "808858248174457/17592186044416",
+          "707002154434255/17592186044416"
+        ]
+      ]
+    },
+    {
+      "arm": [
+        0,
+        0,
+        683
+      ],
+      "triangleEdge": 0,
+      "exactPoints": [
+        [
+          "808858248174457/17592186044416",
+          "707002154434255/17592186044416"
+        ]
+      ]
+    },
+    {
+      "arm": [
+        0,
+        0,
+        683
+      ],
+      "triangleEdge": 2,
+      "exactPoints": [
+        [
+          "808858248174457/17592186044416",
+          "707002154434255/17592186044416"
+        ]
+      ]
+    }
+  ],
+  "triangleCentroidLocation": "inside",
+  "triangleOtherVertices": [
+    "inside",
+    "inside"
+  ],
+  "proof": "The convex triangle has positive exact binary64 planar area. Its boundary meets the complete ARM boundary only at A. No ARM boundary vertex is inside the triangle, so no ARM boundary component/hole is enclosed. A rational interior point and B,C lie strictly in ARM. Hence the triangle interior is wholly in the excluded cutter, not an island that USSR difference should retain. This proof is for planar Boolean semantics, not a claim that every native output edge is exact.",
+  "residual24PointDiagnostics": [
+    {
+      "index": 0,
+      "exactDoublePlanarArea": "11369157135/2475880078570760549798248448",
+      "floatExactArea": 4.591965997627405e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "outside",
+        "outside",
+        "outside"
+      ]
+    },
+    {
+      "index": 1,
+      "exactDoublePlanarArea": "41894168239/9903520314283042199192993792",
+      "floatExactArea": 4.2302299495038595e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "inside",
+        "outside",
+        "inside",
+        "boundary"
+      ]
+    },
+    {
+      "index": 2,
+      "exactDoublePlanarArea": "45868411845/4951760157141521099596496896",
+      "floatExactArea": 9.263052003608801e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "outside",
+        "outside",
+        "outside"
+      ]
+    },
+    {
+      "index": 3,
+      "exactDoublePlanarArea": "86881577691/4951760157141521099596496896",
+      "floatExactArea": 1.7545594886234093e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 4,
+      "exactDoublePlanarArea": "5993252153/618970019642690137449562112",
+      "floatExactArea": 9.682621068561117e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 5,
+      "exactDoublePlanarArea": "327946495357/39614081257132168796771975168",
+      "floatExactArea": 8.278533414124204e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "inside",
+        "outside",
+        "inside"
+      ]
+    },
+    {
+      "index": 6,
+      "exactDoublePlanarArea": "436279601/38685626227668133590597632",
+      "floatExactArea": 1.1277563362486578e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 7,
+      "exactDoublePlanarArea": "9587976071/4951760157141521099596496896",
+      "floatExactArea": 1.9362763475472538e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 8,
+      "exactDoublePlanarArea": "14310465615/1237940039285380274899124224",
+      "floatExactArea": 1.1559902063803457e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 9,
+      "exactDoublePlanarArea": "45388758677/9903520314283042199192993792",
+      "floatExactArea": 4.583093408869923e-18,
+      "arithmeticMeanLocationInArm": "inside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "outside",
+        "inside"
+      ]
+    },
+    {
+      "index": 10,
+      "exactDoublePlanarArea": "12293953913/1237940039285380274899124224",
+      "floatExactArea": 9.93097688325589e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "outside",
+        "outside",
+        "boundary",
+        "inside"
+      ]
+    },
+    {
+      "index": 11,
+      "exactDoublePlanarArea": "2094361809701/39614081257132168796771975168",
+      "floatExactArea": 5.2869124897953514e-17,
+      "arithmeticMeanLocationInArm": "inside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "outside",
+        "inside"
+      ]
+    },
+    {
+      "index": 12,
+      "exactDoublePlanarArea": "1018775999291/39614081257132168796771975168",
+      "floatExactArea": 2.5717521824580453e-17,
+      "arithmeticMeanLocationInArm": "inside",
+      "vertexLocationsInArm": [
+        "outside",
+        "boundary",
+        "inside"
+      ]
+    },
+    {
+      "index": 13,
+      "exactDoublePlanarArea": "81088902811/9903520314283042199192993792",
+      "floatExactArea": 8.187886755182606e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "outside",
+        "outside",
+        "outside"
+      ]
+    },
+    {
+      "index": 14,
+      "exactDoublePlanarArea": "51276998217/4951760157141521099596496896",
+      "floatExactArea": 1.035530732300258e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 15,
+      "exactDoublePlanarArea": "244870837/77371252455336267181195264",
+      "floatExactArea": 3.1648813897817593e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 16,
+      "exactDoublePlanarArea": "17981879651/4951760157141521099596496896",
+      "floatExactArea": 3.631411675920167e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 17,
+      "exactDoublePlanarArea": "3020515519/618970019642690137449562112",
+      "floatExactArea": 4.879906010219426e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 18,
+      "exactDoublePlanarArea": "54241343713/1237940039285380274899124224",
+      "floatExactArea": 4.3815808513885407e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 19,
+      "exactDoublePlanarArea": "33416810637/4951760157141521099596496896",
+      "floatExactArea": 6.748471165107957e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 20,
+      "exactDoublePlanarArea": "853119494609/39614081257132168796771975168",
+      "floatExactArea": 2.153576373692633e-17,
+      "arithmeticMeanLocationInArm": "inside",
+      "vertexLocationsInArm": [
+        "outside",
+        "boundary",
+        "inside"
+      ]
+    },
+    {
+      "index": 21,
+      "exactDoublePlanarArea": "106612047949/4951760157141521099596496896",
+      "floatExactArea": 2.1530131623043598e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 22,
+      "exactDoublePlanarArea": "37371016845/4951760157141521099596496896",
+      "floatExactArea": 7.547016749408353e-18,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    },
+    {
+      "index": 23,
+      "exactDoublePlanarArea": "33268240291/2475880078570760549798248448",
+      "floatExactArea": 1.343693524534702e-17,
+      "arithmeticMeanLocationInArm": "outside",
+      "vertexLocationsInArm": [
+        "boundary",
+        "boundary",
+        "outside"
+      ]
+    }
+  ],
+  "residual24PointDiagnosticLimit": "Arithmetic-mean/vertex classifications do not by themselves prove full residual polygon containment, and are not an area tolerance."
+}
