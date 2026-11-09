@@ -1,0 +1,16 @@
+{
+  "status": "blocked-official-materialization-windows-metadata",
+  "libraryFileId": "libfile_2c333ee9a7588191a7e870c5ae42c89a",
+  "fileId": "file_0000000040f0821298a9e04b4a5b226c",
+  "fileName": "country-territory-small-hole-update-review.zip",
+  "expectedZipSha256": "8f551d2663bd9466099f4cc86470f7980fd265e6390e40c22b2de4cbf78b9ffd",
+  "expectedGpkgSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+  "expectedGpkgBytes": 35311616,
+  "preparation": "Official prepare_materialize succeeded and returned signed transfer metadata.",
+  "transferAttempt": "Current official Library helper materialize failed applying metadata: AttributeError module os has no attribute setxattr on installed Windows Python312.",
+  "postFailureInspection": "No file remained in destination source directory; only helper subdirectory exists. No ZIP hash or GPKG component validation claimed.",
+  "policyDenied": false,
+  "retriedOrBypassed": false,
+  "independentOriginal10ComponentCheck": "pending supported official materialization route",
+  "existingEvidence": "Approved allocation and exact current geometry binding remain supported. Prior zero missing-area observations are not a new independent original-component check."
+}

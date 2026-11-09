@@ -1,0 +1,149 @@
+{
+  "status": "bounded-canonical-recipient-and-wake-intersections-complete",
+  "sourceRevision": "1f2f20ae8ef3c5824ccef47309d154329d4bca4a",
+  "inputSha256": "29941bab70dfaafdd79a761133709896f95d43f3b26c0ab635b7e8626a0cd64d",
+  "engine": {
+    "shapely": "2.1.2",
+    "geos": "3.13.1"
+  },
+  "recipientPairs": [
+    {
+      "a": "VNM",
+      "b": "PHL",
+      "type": "Polygon",
+      "empty": true,
+      "valid": true,
+      "polygonAreaDegrees2": 0,
+      "polygonParts": 0
+    },
+    {
+      "a": "VNM",
+      "b": "CHN",
+      "type": "MultiLineString",
+      "empty": false,
+      "valid": true,
+      "polygonAreaDegrees2": 0,
+      "polygonParts": 0
+    },
+    {
+      "a": "VNM",
+      "b": "TWN",
+      "type": "Polygon",
+      "empty": true,
+      "valid": true,
+      "polygonAreaDegrees2": 0,
+      "polygonParts": 0
+    },
+    {
+      "a": "PHL",
+      "b": "CHN",
+      "type": "Polygon",
+      "empty": true,
+      "valid": true,
+      "polygonAreaDegrees2": 0,
+      "polygonParts": 0
+    },
+    {
+      "a": "PHL",
+      "b": "TWN",
+      "type": "Polygon",
+      "empty": true,
+      "valid": true,
+      "polygonAreaDegrees2": 0,
+      "polygonParts": 0
+    },
+    {
+      "a": "CHN",
+      "b": "TWN",
+      "type": "Polygon",
+      "empty": true,
+      "valid": true,
+      "polygonAreaDegrees2": 0,
+      "polygonParts": 0
+    }
+  ],
+  "actualWakeUMI": {
+    "envelope": [
+      166,
+      19,
+      167,
+      20
+    ],
+    "components": [
+      {
+        "componentIndex": 11,
+        "bbox": [
+          166.60044470000003,
+          19.270440300000075,
+          166.65720180000005,
+          19.309653800000035
+        ],
+        "areaDegrees2": 0.00050526816412096,
+        "geometrySha256": "baae6db18e3df4f0a407b1b8b41e25b813fd80272be31130d0de51ed99901535"
+      },
+      {
+        "componentIndex": 12,
+        "bbox": [
+          166.6149494000001,
+          19.304568500000073,
+          166.63265260000003,
+          19.317608000000064
+        ],
+        "areaDegrees2": 5.939456534960068e-05,
+        "geometrySha256": "2ecd7596d89fe923c67ff876fd7ab9a7d52e1eaec13da9e6b1571d701c645abb"
+      }
+    ],
+    "remainsInRetiredView": true,
+    "basis": "UMI selection and whole canonical geometry exactly rebound in companion canonical-binding proof"
+  },
+  "retiredPGA": {
+    "components": 12,
+    "bbox": [
+      114.02768,
+      9.679511,
+      115.848806,
+      11.117987
+    ],
+    "touchesActualWake": false,
+    "recipientIntersections": [
+      {
+        "recipient": "VNM",
+        "type": "Polygon",
+        "empty": false,
+        "valid": true,
+        "polygonAreaDegrees2": 1.2369618341762491e-06,
+        "polygonParts": 1
+      },
+      {
+        "recipient": "PHL",
+        "type": "Polygon",
+        "empty": true,
+        "valid": true,
+        "polygonAreaDegrees2": 0,
+        "polygonParts": 0
+      },
+      {
+        "recipient": "CHN",
+        "type": "Polygon",
+        "empty": true,
+        "valid": true,
+        "polygonAreaDegrees2": 0,
+        "polygonParts": 0
+      },
+      {
+        "recipient": "TWN",
+        "type": "Polygon",
+        "empty": false,
+        "valid": true,
+        "polygonAreaDegrees2": 3.7545880196427886e-06,
+        "polygonParts": 1
+      }
+    ]
+  },
+  "scopeLimits": [
+    "Polygonal intersection area only; line intersections do not contribute polygon area.",
+    "No coordinate rounding, simplification, snap, make-valid, ownership change, or source writes.",
+    "Approved original10 World Polygons components are distinct from12 old PGA parts. Independent original10 coverage not rerun here.",
+    "This is prospective retirement evidence; current authoring and runtime still require coherent retirement."
+  ]
+}

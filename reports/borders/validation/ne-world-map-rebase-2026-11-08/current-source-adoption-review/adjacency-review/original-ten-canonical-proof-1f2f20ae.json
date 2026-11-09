@@ -1,0 +1,456 @@
+{
+  "status": "pass",
+  "sourceRevision": "1f2f20ae8ef3c5824ccef47309d154329d4bca4a",
+  "originalSource": {
+    "verifiedBy": "/root/list_historical_ne/verify_original_island_components",
+    "libraryFileId": "libfile_2c333ee9a7588191a7e870c5ae42c89a",
+    "zipSha256": "8f551d2663bd9466099f4cc86470f7980fd265e6390e40c22b2de4cbf78b9ffd",
+    "gpkgSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+    "gpkgBytes": 35311616,
+    "fid": 270,
+    "WP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+    "transfer": "Exact original10 coordinates and independent binary64 hashes delivered from verified cloud source, not successful Windows materialization."
+  },
+  "inputHashes": {
+    "original-ten-exact.geojson": "010504ee436d8d990981e06d7e6f70fc849ad74c4f60a2aecd59aaeabfcc3362",
+    "scoped-island-input.json": "29941bab70dfaafdd79a761133709896f95d43f3b26c0ab635b7e8626a0cd64d",
+    "canonical-binding-1f2f20ae.json": "cba4adde9e80118324c7e03d973a5325ce8132a99c43e9da80931245498d061e",
+    "check-original-ten.py": "a5889405c0515b9032b355378131d9ebeb5d84cbc37af1bb02507043586bb7d2"
+  },
+  "canonicalSourceRefs": [
+    {
+      "entityId": "state:CHN",
+      "versionId": "state:CHN:paektu-lsib-11.4",
+      "descriptorSha256": "1ee4e5d258f93caad53d6bb0ea333566d84c417b30421ef2cdf519a355879d72",
+      "geometryResourceSha256": "f7f4671e898e00dc58ba4b5791bd5acc77d6b4a0cea7555feac008b7bd31cf6c",
+      "canonicalGeometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6",
+      "priorMeasuredGeometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6",
+      "exactMatch": true,
+      "selectedCurrent250": true,
+      "validFrom": null,
+      "validTo": null
+    },
+    {
+      "entityId": "state:VNM",
+      "versionId": "state:VNM:natural-earth-5.1.1",
+      "descriptorSha256": "ae0914a90e2f050c4677cec41e642ee9298034ca732baa8cf0d6d3f7aa5887af",
+      "geometryResourceSha256": "b5d51e68cd007d1839469960970aeebed6d9c856a022b6923087d84503e64515",
+      "canonicalGeometrySha256": "8bdac7d231c796d87cf0afa2f1245396018e2fdf4d84aa520bf77b44fe5123d3",
+      "priorMeasuredGeometrySha256": "8bdac7d231c796d87cf0afa2f1245396018e2fdf4d84aa520bf77b44fe5123d3",
+      "exactMatch": true,
+      "selectedCurrent250": true,
+      "validFrom": null,
+      "validTo": null
+    },
+    {
+      "entityId": "state:PHL",
+      "versionId": "state:PHL:natural-earth-5.1.1",
+      "descriptorSha256": "bd0fd0fedd09294e01dc942a8c7ee79897ad33cf2eaa5dab45f30da029d00eed",
+      "geometryResourceSha256": "fe4e15f279d05cb7ea2a5336ff1d7c44554e46faf8a2cacc851ed97e3277bbb4",
+      "canonicalGeometrySha256": "90a1c2083f540bdccc5b3a7baa843831dc58f91e8e994d1abb9a22a4a4612468",
+      "priorMeasuredGeometrySha256": "90a1c2083f540bdccc5b3a7baa843831dc58f91e8e994d1abb9a22a4a4612468",
+      "exactMatch": true,
+      "selectedCurrent250": true,
+      "validFrom": null,
+      "validTo": null
+    },
+    {
+      "entityId": "state:TWN",
+      "versionId": "state:TWN:natural-earth-5.1.1",
+      "descriptorSha256": "3f785a77d3ad6af7407301d560eb0d06d983a5fbc1ce893c8b989dc5b1b192c2",
+      "geometryResourceSha256": "e869ecdc6cf508173ccfcde2baa48c46f5eb30bc5a3148680b7214ae596b53e8",
+      "canonicalGeometrySha256": "fcb7a16f7c495abc473df8f678d9d457ef53e0307eec25750dc96da78a1a1b5a",
+      "priorMeasuredGeometrySha256": "fcb7a16f7c495abc473df8f678d9d457ef53e0307eec25750dc96da78a1a1b5a",
+      "exactMatch": true,
+      "selectedCurrent250": true,
+      "validFrom": null,
+      "validTo": null
+    }
+  ],
+  "algorithm": "POLY64v1: big-endian IEEE754 double XY; rotation/orientation-invariant closed-ring encoding, length framing, sorted holes, SHA256. No rounding, tolerance, snap or geometry repair.",
+  "rows": [
+    {
+      "originalComponentIndex": 0,
+      "approvedRecipient": "VNM",
+      "originalPOLY64v1Sha256": "06fe4cdf5e3c9f6750e645616e2991d91e1ca3007000b347b1d74a0481e9eb6f",
+      "exactMatches": [
+        {
+          "recipient": "VNM",
+          "componentIndex": 624
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 5.824343434948881e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 5.824343434948881e-06,
+          "covers": true
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 5.824343434948881e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 5.824343434948881e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 1,
+      "approvedRecipient": "VNM",
+      "originalPOLY64v1Sha256": "b244a5af57b2e37f3d22fb66072f41c36f10b38acd486401712169c88f2b4887",
+      "exactMatches": [
+        {
+          "recipient": "VNM",
+          "componentIndex": 625
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 4.243484080009513e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 4.243484080009513e-06,
+          "covers": true
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 4.243484080009513e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 4.243484080009513e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 2,
+      "approvedRecipient": "VNM",
+      "originalPOLY64v1Sha256": "9423117d04581ed45cd1ae4e1aa139cb6d76ca866356e01b2db4a2479fc60279",
+      "exactMatches": [
+        {
+          "recipient": "VNM",
+          "componentIndex": 626
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 1.2372323248904274e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 1.2372323248904274e-06,
+          "covers": true
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 1.2372323248904274e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 1.2372323248904274e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 3,
+      "approvedRecipient": "PHL",
+      "originalPOLY64v1Sha256": "3853871252d3d781575cce1a0964f533e8a1ca32dbc0dc5d2dc153d4d3149b7a",
+      "exactMatches": [
+        {
+          "recipient": "PHL",
+          "componentIndex": 112
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 3.217222372969708e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 3.217222372969708e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 3.217222372969708e-05,
+          "covers": true
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 3.217222372969708e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 4,
+      "approvedRecipient": "VNM",
+      "originalPOLY64v1Sha256": "4481f70bfda3982f24e9ddf4960f7e30950c5f2c2477a2275e89fc11635c2429",
+      "exactMatches": [
+        {
+          "recipient": "VNM",
+          "componentIndex": 630
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 1.2466619180043367e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 1.2466619180043367e-05,
+          "covers": true
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 1.2466619180043367e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 1.2466619180043367e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 5,
+      "approvedRecipient": "PHL",
+      "originalPOLY64v1Sha256": "4c5308f0608acfdbad7bb80574431e6c3d91b61dd38e1e1d517d4b9744ed44be",
+      "exactMatches": [
+        {
+          "recipient": "PHL",
+          "componentIndex": 129
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 4.891375034946479e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 4.891375034946479e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 4.891375034946479e-06,
+          "covers": true
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 4.891375034946479e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 6,
+      "approvedRecipient": "PHL",
+      "originalPOLY64v1Sha256": "c3885c2d4d5f3754b5bfb3e30de4847ee8e33be24bfbec6aff1e9f9889537d64",
+      "exactMatches": [
+        {
+          "recipient": "PHL",
+          "componentIndex": 43
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 5.0665999455201655e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 5.0665999455201655e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 5.0665999455201655e-05,
+          "covers": true
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 5.0665999455201655e-05,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 7,
+      "approvedRecipient": "CHN",
+      "originalPOLY64v1Sha256": "1ef7a6d62833668fe83c15a84b007a10db7a8201f3cf230f4fa1c22f66f20358",
+      "exactMatches": [
+        {
+          "recipient": "CHN",
+          "componentIndex": 854
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 9.484693599916221e-06,
+          "covers": true
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 9.484693599916221e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 9.484693599916221e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 9.484693599916221e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 8,
+      "approvedRecipient": "TWN",
+      "originalPOLY64v1Sha256": "7ca124bdddeef270965377f74dcaf3cbf333dfaaacb7e20b6edefd5cc0e6677f",
+      "exactMatches": [
+        {
+          "recipient": "TWN",
+          "componentIndex": 0
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 9.488483440096485e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 9.488483440096485e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 9.488483440096485e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 9.488483440096485e-06,
+          "covers": true
+        }
+      ]
+    },
+    {
+      "originalComponentIndex": 9,
+      "approvedRecipient": "PHL",
+      "originalPOLY64v1Sha256": "a3f674f98d519640626b96f6da57b27e1ef24912217067eaf2cac167c3ccf062",
+      "exactMatches": [
+        {
+          "recipient": "PHL",
+          "componentIndex": 114
+        }
+      ],
+      "assignedExactlyOnceAndNoOtherRecipient": true,
+      "geometryRelations": [
+        {
+          "recipient": "CHN",
+          "missingAreaDegrees2": 9.469882080177277e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "VNM",
+          "missingAreaDegrees2": 9.469882080177277e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        },
+        {
+          "recipient": "PHL",
+          "missingAreaDegrees2": 0.0,
+          "intersectionAreaDegrees2": 9.469882080177277e-06,
+          "covers": true
+        },
+        {
+          "recipient": "TWN",
+          "missingAreaDegrees2": 9.469882080177277e-06,
+          "intersectionAreaDegrees2": 0.0,
+          "covers": false
+        }
+      ]
+    }
+  ],
+  "historicalOrSovereigntyClaimsAdded": false,
+  "currentEffectiveControlOnly": true,
+  "runtimeRetirementApproved": false
+}

@@ -1,0 +1,81 @@
+{
+  "status": "completed-exact-report-scope-for-single-writer-archival",
+  "revision": "b539680fd8ee77c7e4c801735e7f31611185457c",
+  "files": [
+    {
+      "file": "bind-canonical.mjs",
+      "sha256": "c889850f2ae11c67b17aa4d9c51d201f818e9cf80ab8a133c36ffb364a1fe79e",
+      "bytes": 5050
+    },
+    {
+      "file": "check-current-contacts.py",
+      "sha256": "d39d08c77787b34dd7b1e9596539a8fe26e7744fe0083c01c0e58278dac880a8",
+      "bytes": 2541
+    },
+    {
+      "file": "check-islands.py",
+      "sha256": "d961f407101661f6fd87bfee4bd576048430582ee7e7c2693b88e04baa59aca3",
+      "bytes": 2634
+    },
+    {
+      "file": "check-original-ten.py",
+      "sha256": "a5889405c0515b9032b355378131d9ebeb5d84cbc37af1bb02507043586bb7d2",
+      "bytes": 4152
+    },
+    {
+      "file": "finalize-rebind.mjs",
+      "sha256": "f03dde3da63cea080c22f3c0a67dc1ebb3539363a81f33271a2a695a2510c8aa",
+      "bytes": 2980
+    },
+    {
+      "file": "canonical-binding-1f2f20ae.json",
+      "sha256": "cba4adde9e80118324c7e03d973a5325ce8132a99c43e9da80931245498d061e",
+      "bytes": 160606
+    },
+    {
+      "file": "canonical-binding-b539680f.json",
+      "sha256": "fe491cc0fbd6a2529d4f3751baf670d86ae1db34b19a787ae66b8844a1e57864",
+      "bytes": 160606
+    },
+    {
+      "file": "fresh-current-contacts.json",
+      "sha256": "98ec0384f745696eae1627c9fb28982b9b0dec5d9af004b949a1e4edb3c3c8a5",
+      "bytes": 74198
+    },
+    {
+      "file": "island-intersections.json",
+      "sha256": "32c7f016d0fa753e8a087d58cfcfb358d4996b94dc1b4b1632cb84cd9563c690",
+      "bytes": 3860
+    },
+    {
+      "file": "original-ten-canonical-proof-1f2f20ae.json",
+      "sha256": "0187afb5cf61cfc6dda368b7462efa9843ec8cd76e0669909bbd7d66b7fa5e2d",
+      "bytes": 15255
+    },
+    {
+      "file": "original-ten-canonical-proof.json",
+      "sha256": "f6b11aa2831f306a124c33a57190f06b9f3a5f6e3b0ddc04a6b65db87f4ed079",
+      "bytes": 15255
+    },
+    {
+      "file": "original-ten-exact.geojson",
+      "sha256": "010504ee436d8d990981e06d7e6f70fc849ad74c4f60a2aecd59aaeabfcc3362",
+      "bytes": 1880
+    },
+    {
+      "file": "original-ten-materialization-blocker.json",
+      "sha256": "5b440ff66ea7855b9fe4250ada82a68e2e34df188701fc920076f851040f0ebf",
+      "bytes": 1238
+    },
+    {
+      "file": "final-b539-rebind.json",
+      "sha256": "b2c328aa9390aedf265ec80dd885469d22fdba760a703d58941c5c4c4f984a5e",
+      "bytes": 1331
+    }
+  ],
+  "exclude": [
+    "scoped-island-input.json",
+    "source/helpers/**"
+  ],
+  "externalSourceVerification": "Original exact ten coordinates and independent POLY64v1 hashes supplied by verify_original_island_components after cloud ZIP/GPKG verification; source attribution retained in original-ten-canonical-proof.json."
+}

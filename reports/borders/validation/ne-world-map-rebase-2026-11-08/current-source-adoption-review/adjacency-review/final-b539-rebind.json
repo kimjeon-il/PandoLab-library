@@ -1,0 +1,29 @@
+{
+  "status": "passed-final-source19-current257-and-original10-rebind",
+  "revision": "b539680fd8ee77c7e4c801735e7f31611185457c",
+  "priorRevision": "1f2f20ae8ef3c5824ccef47309d154329d4bca4a",
+  "selectedVersions": 257,
+  "current250Targets": 250,
+  "allSelectedVersionIdsAndGeometryResourcesUnchanged": true,
+  "originalTenExactAllocation": "pass",
+  "originalTenProofSha256": "f6b11aa2831f306a124c33a57190f06b9f3a5f6e3b0ddc04a6b65db87f4ed079",
+  "canonicalBindingSha256": "fe491cc0fbd6a2529d4f3751baf670d86ae1db34b19a787ae66b8844a1e57864",
+  "priorContactProof": {
+    "file": "fresh-current-contacts.json",
+    "sha256": "98ec0384f745696eae1627c9fb28982b9b0dec5d9af004b949a1e4edb3c3c8a5",
+    "contacts": 346,
+    "reusedBecauseAll257ExactCoordinatesUnchanged": true
+  },
+  "wakeProof": {
+    "file": "island-intersections.json",
+    "sha256": "32c7f016d0fa753e8a087d58cfcfb358d4996b94dc1b4b1632cb84cd9563c690",
+    "umiComponents": [
+      11,
+      12
+    ],
+    "wakePreservationReusedBecauseUMIExactGeometryUnchanged": true
+  },
+  "operationalWrites": 0,
+  "scopeLimit": "Current257 selected inputs only. No broader historical/topology catalog validation. Authoring view still contains PGA; retirement is prospective and compiled/runtime/live gates remain with writer.",
+  "originalWindowsMaterializationSucceeded": false
+}
