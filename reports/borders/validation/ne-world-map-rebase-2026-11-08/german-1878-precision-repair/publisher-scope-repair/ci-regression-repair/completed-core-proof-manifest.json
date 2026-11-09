@@ -27,8 +27,8 @@
     },
     {
       "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/core-milestone.md",
-      "bytes": 3076,
-      "sha256": "946834439b797fc1e29275efd17b7aa0449a784dc9d4654a9ada840e33fd0a39"
+      "bytes": 3716,
+      "sha256": "9e437f9fed8f01e541c3c906ba34843078ddac079db84e5d92a974137d99cd9b"
     },
     {
       "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/final-1878-comparison-proof.json",
@@ -47,8 +47,8 @@
     },
     {
       "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/final-handoff.json",
-      "bytes": 5284,
-      "sha256": "823e9e8705374a733cde40d26594d05fbda339c4b7c3306246fce7ab9a61e819"
+      "bytes": 6211,
+      "sha256": "0fb9352cf2fcbafeda384e8b38601ecf6a3b31a5d0e48f16087555cc51704b97"
     },
     {
       "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/final-pair-verification.json",
@@ -91,15 +91,26 @@
       "sha256": "bd2ea6f6059efc42187c092ceab6a0d2f5e78ca6a54b5884150d4da2affc1760"
     }
   ],
-  "totalBytes": 110845,
+  "totalBytes": 112412,
   "excluded": [
-    "raw original operands/maps",
-    "generated full coordinate payloads",
+    "other raw maps/originals",
+    "duplicate generated coordinate payloads",
     "WASM/source verification copies",
     "unfinished candidate/research folders"
   ],
   "preservation": [
     "No runtime data/source publication",
     "No application main or pin change"
-  ]
+  ],
+  "requiredUniqueInput": {
+    "revision": "bd1ba4cd14689b67b0d445e52b8372a9bd9619db",
+    "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/paired-source-adoption/publication-resume-swiss-fix-activation-1/failed-generation-operands.json",
+    "storedPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/paired-source-adoption/publication-resume-swiss-fix-activation-1/failed-generation-operands.json",
+    "bytes": 2844186,
+    "sha256": "1218acdd6fd18492616dd63db7d54b08dee5dfc355de5be09095dea29c917b66",
+    "remoteBytesVerified": true,
+    "localOriginalRetained": true,
+    "activeConsumer": "Next bounded1878 full-interval source/version comparison and peer-selection compile preflight",
+    "priorStatus": "No matching current archive entry, exact-path Git history, or local blob object existed before explicit one-file publication."
+  }
 }
