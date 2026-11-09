@@ -1,0 +1,58 @@
+{
+  "status": "passed canonical source mapping/emission and direct dependency check",
+  "helperPublic": "assets/js/workers/polygon-raster-contract.js",
+  "outputs": [
+    {
+      "file": "src/rendering/polygon-mesh-codec.js",
+      "publicPath": "assets/js/modules/polygon-mesh-codec.js",
+      "imports": [
+        "../workers/polygon-raster-contract.js"
+      ]
+    },
+    {
+      "file": "src/rendering/render-scene.js",
+      "publicPath": "assets/js/modules/render-scene.js",
+      "imports": [
+        "../workers/polygon-raster-contract.js",
+        "./selection-stroke-geometry.js",
+        "./render-lod.js",
+        "../workers/gpu-mesh-core.js",
+        "./temporal.js",
+        "./geometry-versions.js",
+        "./geometry-version-store.js"
+      ]
+    },
+    {
+      "file": "src/rendering/gpu-polygon-overlay-pass.js",
+      "publicPath": "assets/js/modules/gpu-polygon-overlay-pass.js",
+      "imports": [
+        "./polygon-mesh-codec.js",
+        "./render-device.js",
+        "./gpu-resource-budget.js",
+        "./gpu-blend-utils.js",
+        "./gpu-shader-utils.js",
+        "./gpu-view-uniforms.js"
+      ]
+    },
+    {
+      "file": "src/rendering/workers/gpu-mesh-worker.js",
+      "publicPath": "assets/js/workers/gpu-mesh-worker.js",
+      "imports": [
+        "../modules/temporal.js",
+        "../modules/country-stroke-preparation.js",
+        "../modules/mesh-spatial-blocks.js",
+        "../modules/country-mesh-transfer.js",
+        "../modules/prepared-polygon-mesh.js",
+        "../modules/stored-asset-loader.js",
+        "../modules/worker-asset-url.js",
+        "../modules/country-mesh-preparation.js"
+      ]
+    }
+  ],
+  "preparedMeshInputs": [
+    "src/rendering/workers/gpu-mesh-core.js",
+    "src/rendering/workers/polygon-raster-contract.js",
+    "src/rendering/polygon-mesh-codec.js"
+  ],
+  "limit": "No staged full Viewer bundle or live browser run in this diagnostic."
+}

@@ -1,0 +1,34 @@
+{
+  "headSha": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+  "requestId": "thin-render-599a5e81-d765-45da-9071-1cc80886a109",
+  "selection": {
+    "unitTests": [
+      "tests/unit/rendering/render-scene.test.mjs",
+      "tests/unit/rendering/selection-emphasis.test.mjs",
+      "tests/unit/rendering/gpu-base-scene-order.test.mjs",
+      "tests/unit/rendering/prepared-polygon-mesh.test.mjs"
+    ],
+    "browserSpecs": [],
+    "commands": [],
+    "prerequisites": []
+  },
+  "status": "completed",
+  "conclusion": "success",
+  "runId": 42604818271,
+  "url": "https://github.com/kimjeon-il/Pando/actions/runs/42604818271",
+  "verifiedHeadSha": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+  "tests": {
+    "tests": 75,
+    "passed": 75,
+    "failed": 0
+  },
+  "nativeRequirements": [],
+  "additionalBytes": 0,
+  "nativeGisInstall": "skipped",
+  "browser": "skipped",
+  "verification": [
+    "gh run view 42604818271 --repo kimjeon-il/Pando --json databaseId,headSha,status,conclusion,url,jobs",
+    "gh run view 42604818271 --repo kimjeon-il/Pando --log"
+  ],
+  "verifiedAt": "2026-11-09T11:02:42.846Z"
+}

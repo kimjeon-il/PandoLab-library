@@ -1,0 +1,40 @@
+{
+  "status": "guarded three-file execution-copy application and direct official-loader replay passed",
+  "commit": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+  "patchSha256": "76aafddef409a9d9a92d8a6c1081f33435eb68bc9d08594d3e9f65983d8fff4d",
+  "files": [
+    {
+      "file": "src/rendering/workers/gpu-mesh-core.js",
+      "before": "5e668bfa9dc810f95fedb7ba34be9ef35bc8fab77ebf5ddf46c64427faebbe4a",
+      "after": "97463d0dc334c6e93187a4af998c4d13fbed93ef96c3e3de32108acce3270fe2"
+    },
+    {
+      "file": "src/rendering/polygon-mesh-codec.js",
+      "before": "ce7ebccdee3a289c5d5f6bc2c7b24f05cf77257bbd9fd5c683265f3327bc6e70",
+      "after": "2f4681ad8f8c20a056ecdb84545e7eea02d4790bfc481c4bf4bb28e4a88daf4a"
+    },
+    {
+      "file": "src/rendering/workers/polygon-raster-contract.js",
+      "before": null,
+      "after": "c6cf8183f68dd73898655718f842bd2170afe57bbf4269c2166bb16dbcd35d61"
+    }
+  ],
+  "sourceSha256": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "manifestSha256": "7d12ecbb21aef9847f760b8caaf24530708461f610250bfaac93d2609cbcb2f8",
+  "wasmSha256": "48cefabaeab52e1c560a1f3db58c768a18ba3b3e4e1026c7826c1e5e5d92c6bc",
+  "inputSha256": "c94f4cbbf3199f28e9ec91d8f696f081a67dd85b2690b432390cb1dfa1d9f05d",
+  "geometryDigest": "ab190310f2a1809494f81b531507f2a5412e4c93f4e3293b09bfa190b82034ca",
+  "packetSha256": "3aa80bc558f135b0d6a2bf082c59a998e0162415480d70bd4665e12176e5566a",
+  "packetBytes": 160,
+  "rasterState": "grid-collapsed",
+  "triangleCount": 0,
+  "segmentCount": 0,
+  "rawCoordinatesAndRefDigestUnchanged": true,
+  "strictSourceRejectionUnchanged": true,
+  "ordinaryPacketBytesUnchanged": true,
+  "preservation": {
+    "files": 287,
+    "bytes": 197428060
+  },
+  "scope": "Only generator-required rendering3 are updated. Native160/WASM/data/operational checkout/pins/immutableV unchanged; no generation retry or live Viewer claim."
+}

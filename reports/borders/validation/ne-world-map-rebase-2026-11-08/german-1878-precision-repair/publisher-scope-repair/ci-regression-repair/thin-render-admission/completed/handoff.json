@@ -1,0 +1,140 @@
+{
+  "status": "Rendering contract repair committed, independently reviewed, scoped CI passed, and fixed execution copy directly replayed. Runtime generation and live Viewer deployment are separate downstream milestones.",
+  "sourceCommit": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+  "baseCommit": "bfa37841d9ce9c34c28caf56060dd8d029042e34",
+  "patchSha256": "76aafddef409a9d9a92d8a6c1081f33435eb68bc9d08594d3e9f65983d8fff4d",
+  "canonicalNativeFingerprint": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "scope": {
+    "productionFiles": 11,
+    "testFiles": 1,
+    "nativeChanged": false,
+    "sourceOrRuntimeDataChanged": false,
+    "meshAlgorithmRevision": 6,
+    "meshFormatVersion": 2
+  },
+  "cause": "Exact-positive generated source ring has a native triangle, but two distinct binary64 vertices pack to one point on the existing 1e-6 render grid. Empty raster indices were incorrectly classified as empty source geometry.",
+  "contract": "Original Float64 rings, coordinates, offsets, geometry reference and digest remain unchanged. A no-raster packet is accepted only for exact packed-grid collapse plus existing native generated-ring validation; absent Core fails closed. Producer retains canonical full-polygon native triangulation. Decoder does not claim full polygon topology certification. GPU resources become ready with zero allocation/upload/draw and separate gridCollapsedKeys; no rendered coverage is fabricated.",
+  "preserved": [
+    "Strict source admission",
+    "Precision discard count and area limits",
+    "Native/WASM source identity",
+    "Existing binary format and algorithm revision",
+    "Original historical dates, ownership, boundaries, holes and components",
+    "Operational worktree 70bffe76, local main and data pins, immutable V",
+    "All 287 pre-existing generated files (197428060 bytes)"
+  ],
+  "verification": {
+    "localAndIndependentTests": {
+      "passed": 75,
+      "failed": 0
+    },
+    "ci": {
+      "runId": 42604818271,
+      "headSha": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+      "passed": 75,
+      "failed": 0,
+      "nativeRequirements": [],
+      "additionalBytes": 0
+    },
+    "actualInput": {
+      "bytes": 193,
+      "digest": "ab190310f2a1809494f81b531507f2a5412e4c93f4e3293b09bfa190b82034ca",
+      "packetBytes": 160,
+      "triangles": 0,
+      "segments": 0,
+      "rasterState": "grid-collapsed",
+      "coordinatesAndRefDigestUnchanged": true
+    },
+    "actualRegeneration": {
+      "comparedPackets": 275,
+      "compressedBytes": 99841928,
+      "withHoles": 27,
+      "multipart": 183,
+      "allBytesEqual": true
+    },
+    "contextRecovery": {
+      "fakeGlCycles": 3,
+      "uploads": 0,
+      "draws": 0
+    }
+  },
+  "limits": [
+    "Focused fake-GL/context and source-module checks do not establish live browser/GPU Viewer behavior.",
+    "No full GIS/catalog, full test matrix or native rebuild was run for this JS-only change.",
+    "This does not establish every native Boolean output edge is mathematically exact.",
+    "The decoder native guard checks the existing generated ring contract; full shell/hole topology remains the canonical native producer responsibility.",
+    "Partial-output preservation and actual regeneration equality are separate evidence.",
+    "Main integration, final runtime publication and live Viewer verification are owned by the downstream deployment task."
+  ],
+  "recovery": {
+    "source": "All changed sources and tests are recoverable from the verified source commit; no source copies or WASM binaries are included in this report scope.",
+    "uniqueInput": "The 193-byte original failure capture is included here because it is the exact active regression input. No raw world dataset or duplicate WASM is included."
+  },
+  "evidence": [
+    {
+      "file": "source-publication.json",
+      "bytes": 1321,
+      "sha256": "05332b21533cc5f0489f2245d2f6b3de1db3cf69e3dca84534545fb1aa7fbace"
+    },
+    {
+      "file": "ci-dispatch.json",
+      "bytes": 1102,
+      "sha256": "4fb607031666eea9f70f41013d21e183c89cac1d23187b432f9f7b3a2f950d79"
+    },
+    {
+      "file": "execution-application-proof.json",
+      "bytes": 1897,
+      "sha256": "bc2a606ce7a8bdcbf65a76ad558ecff3f02f6388ab1674e3388c1af212239e2b"
+    },
+    {
+      "file": "actual-input-proof.json",
+      "bytes": 2016,
+      "sha256": "a3c258601aac6ea288f29ce2ce39ffaa15a478289ae1d43a624140fd7be7b75b"
+    },
+    {
+      "file": "frontend-contract-proof.json",
+      "bytes": 1918,
+      "sha256": "4231d66cb626c22cd3b256d9ba73afd125874b3e3eb953d4e1f12ed316d58ba4"
+    },
+    {
+      "file": "reader-readiness-proof.json",
+      "bytes": 511,
+      "sha256": "f3edd117a0e39b8626e776cbcad86feb9dbc163c44f9af98a8e5bef145c2ee08"
+    },
+    {
+      "file": "mesh6-empty-polygon-input.json",
+      "bytes": 193,
+      "sha256": "c94f4cbbf3199f28e9ec91d8f696f081a67dd85b2690b432390cb1dfa1d9f05d"
+    },
+    {
+      "file": "mesh6-thin-renderer-proof.json",
+      "bytes": 775,
+      "sha256": "f2013024a0a8febe9c0b39b19ca7987978ce511b05106d5fbed201430f3c38a7"
+    },
+    {
+      "file": "mesh6-thin-polygon-provenance.json",
+      "bytes": 197,
+      "sha256": "e263d39335b2b76e0da6ef6a74f344c65cb026df4bd2ed7644ab12d4a1e86f30"
+    },
+    {
+      "file": "mesh6-thin-final76-tests.stdout.log",
+      "bytes": 7933,
+      "sha256": "d6b905a9354ab6f158c5f7edf233673c0dd1a2dc59bc65887b9acb18e0f866f8"
+    },
+    {
+      "file": "mesh6-thin-final76-tests.result.json",
+      "bytes": 734,
+      "sha256": "33cdaddb4cf6398b0656712d2cc82008a62ecffba670c433caba4570a85ec4a6"
+    },
+    {
+      "file": "mesh6-thin-context-cycle-review.json",
+      "bytes": 772,
+      "sha256": "3f84710bbb7ee245c21cc94988d45c41d1ae50f8f4e373729cd13b38df5f8787"
+    },
+    {
+      "file": "mesh6-thin-regeneration-compatibility76.json",
+      "bytes": 86032,
+      "sha256": "c4958fe66bfd050ff270ba50ff3569f2cdb9110183c0cc4a421d91145f3b8d63"
+    }
+  ]
+}

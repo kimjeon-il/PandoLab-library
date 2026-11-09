@@ -1,0 +1,37 @@
+{
+  "coreSource": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "clippedRingIssues": [],
+  "sourceRingIssues": [
+    {
+      "kind": "duplicate-vertex",
+      "coordinate": [
+        48.844450748794124,
+        38.793252790239706
+      ],
+      "vertexIndex": 1
+    }
+  ],
+  "positions": [
+    48844451,
+    38793253,
+    48844451,
+    38793253,
+    48812024,
+    38844431
+  ],
+  "triangles": [],
+  "lineIndices": [],
+  "stats": {
+    "algorithmRevision": 6,
+    "polygonCount": 1,
+    "polarPolygonCount": 0,
+    "maxEdgeDegrees": 0,
+    "removedDegenerateTriangleCount": 1
+  },
+  "packetSucceeded": false,
+  "packetError": {
+    "code": "PL-MESH-TRIANGULATION",
+    "message": "GPU 삼각분할 실패: empty polygon"
+  },
+  "inputUnchanged": true
+}

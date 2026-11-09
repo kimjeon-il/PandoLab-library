@@ -1,0 +1,75 @@
+{
+  "status": "candidate actual-input replay passed; not yet committed/CI/deployed",
+  "base": "bfa37841d9ce9c34c28caf56060dd8d029042e34",
+  "sourceSha256": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "sourceInputCount": 160,
+  "input": {
+    "path": "D:/dev/worktrees/gis/build-native/wasm/mesh6-empty-polygon-input.json",
+    "sha256": "c94f4cbbf3199f28e9ec91d8f696f081a67dd85b2690b432390cb1dfa1d9f05d",
+    "bytes": 193,
+    "geometryDigest": "ab190310f2a1809494f81b531507f2a5412e4c93f4e3293b09bfa190b82034ca",
+    "provenance": "scope:state:soviet-union:1922-12:extra"
+  },
+  "native": {
+    "triangles": 1,
+    "geographic": 3,
+    "clippedIssues": [],
+    "sourceIssues": [
+      {
+        "kind": "duplicate-vertex",
+        "coordinate": [
+          48.844450748794124,
+          38.793252790239706
+        ],
+        "vertexIndex": 1
+      }
+    ]
+  },
+  "rawGpu": {
+    "positions": [
+      48844451,
+      38793253,
+      48844451,
+      38793253,
+      48812024,
+      38844431
+    ],
+    "triangleCount": 0,
+    "lineCount": 0,
+    "stats": {
+      "algorithmRevision": 6,
+      "polygonCount": 1,
+      "polarPolygonCount": 0,
+      "maxEdgeDegrees": 0,
+      "removedDegenerateTriangleCount": 1
+    }
+  },
+  "packet": {
+    "rasterState": "grid-collapsed",
+    "sha256": "3aa80bc558f135b0d6a2bf082c59a998e0162415480d70bd4665e12176e5566a",
+    "bytes": 160,
+    "triangleCount": 0,
+    "segmentCount": 0,
+    "ringOffsets": [
+      0,
+      4
+    ],
+    "polygonOffsets": [
+      0,
+      1
+    ],
+    "sourceRingsExactlyPreserved": true,
+    "sourceJsonRefDigestUnchanged": true,
+    "canvasSourceRingsExactlyPreserved": true
+  },
+  "preservation": {
+    "files": 287,
+    "bytes": 197428060,
+    "matched": true
+  },
+  "limitations": [
+    "JS candidate overlay only, official matching Core unchanged.",
+    "This proves render-grid collapse, not source loss or complete native Boolean edge exactness.",
+    "No bootstrap/full-generation rerun or live browser claim."
+  ]
+}

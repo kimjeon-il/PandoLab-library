@@ -1,0 +1,28 @@
+{
+  "base": "bfa37841d9ce9c34c28caf56060dd8d029042e34",
+  "commit": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+  "tree": "e644f9f16fd13f598b185082feb5312161cc47d5",
+  "patchSha256": "76aafddef409a9d9a92d8a6c1081f33435eb68bc9d08594d3e9f65983d8fff4d",
+  "files": [
+    "config/generated-artifacts.json",
+    "scripts/p2-validate-artifacts.mjs",
+    "src/rendering/gpu-base-scene-pass.js",
+    "src/rendering/gpu-polygon-overlay-pass.js",
+    "src/rendering/gpu-scene-preparation.js",
+    "src/rendering/polygon-mesh-codec.js",
+    "src/rendering/render-scene.js",
+    "src/rendering/workers/gpu-mesh-core.js",
+    "src/rendering/workers/gpu-mesh-worker.js",
+    "src/rendering/workers/polygon-raster-contract.js",
+    "tests/unit/rendering/prepared-polygon-mesh.test.mjs",
+    "tools/checks/verify-render-mesh-assets-p4.mjs"
+  ],
+  "nativeSourceSha256": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "nativeClosureUnchanged": true,
+  "status": "pushed and exact remote branch verified",
+  "operationalHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+  "remoteWorkGis": "45fbb668505ca40623a6ebd24001a6be0461b34e",
+  "remoteMain": "13749bcebe6c24a673b451a6636ab4fd7e61da5c",
+  "verification": "git ls-remote origin refs/heads/work/gis refs/heads/main",
+  "verifiedAt": "2026-11-09T11:02:42.843Z"
+}

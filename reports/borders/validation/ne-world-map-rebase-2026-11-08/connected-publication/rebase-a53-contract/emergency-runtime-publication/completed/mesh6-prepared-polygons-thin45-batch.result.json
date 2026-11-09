@@ -1,0 +1,19 @@
+{
+  "stage": "prepared-polygons-thin45-batch",
+  "stderr": "D:\\dev\\worktrees\\gis\\build-native\\wasm\\mesh6-prepared-polygons-thin45-batch.stderr.log",
+  "script": "D:/dev/worktrees/gis/tools/data/library-data.mjs",
+  "stdout": "D:\\dev\\worktrees\\gis\\build-native\\wasm\\mesh6-prepared-polygons-thin45-batch.stdout.log",
+  "peakWorkingSetBytes": 159121408,
+  "endedAt": "2026-11-09T11:02:04.0365828Z",
+  "startedAt": "2026-11-09T10:58:36.9733366Z",
+  "root": "D:\\dev\\worktrees\\gis\\build-native\\wasm",
+  "args": [
+    "--with-write",
+    "--root=D:/dev/worktrees/gis/build-native/wasm",
+    "--include-prefix=assets/data/prepared-polygons/generated/v2",
+    "--",
+    "node",
+    "tools/build/build-prepared-polygon-mesh.mjs"
+  ],
+  "exitCode": 0
+}

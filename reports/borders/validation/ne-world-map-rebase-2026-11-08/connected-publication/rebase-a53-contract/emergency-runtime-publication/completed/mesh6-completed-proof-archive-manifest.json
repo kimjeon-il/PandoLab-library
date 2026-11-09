@@ -1,0 +1,104 @@
+{
+  "status": "completed-generation-proof-archive-selection",
+  "files": [
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-final-derived-handoff-v2.json",
+      "canonicalName": "mesh6-final-derived-handoff-v2.json",
+      "bytes": 126044,
+      "sha256": "cd21ea7c46dfa816012ef7b67fa96c217e5ead709564dfec0c8f56dce4e9b745"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-output-contract-proof.json",
+      "canonicalName": "mesh6-output-contract-proof.json",
+      "bytes": 118363,
+      "sha256": "380e57428d3701fd0e03b733c8e6da532d4981a54e4c14d712f42679db327e1a"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-verify-outputs.mjs",
+      "canonicalName": "mesh6-verify-outputs.mjs",
+      "bytes": 4770,
+      "sha256": "71cd71ba42f1d8d194ece030484c893f5406fe9573bdf198ba4418508c45cc2f"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-output-contract-thin45.result.json",
+      "canonicalName": "mesh6-output-contract-thin45.result.json",
+      "bytes": 508,
+      "sha256": "13ff1cfe6833973b4ae01bce88830b4c72ee1666e3519fc9dd7920ad7de53dc3"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-world-mesh.result.json",
+      "canonicalName": "mesh6-world-mesh.result.json",
+      "bytes": 480,
+      "sha256": "3da9291232b5b81da469b510ca1a474532c63c0a6a17d86fd64592afe883722f"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-world-preview.result.json",
+      "canonicalName": "mesh6-world-preview.result.json",
+      "bytes": 492,
+      "sha256": "327e8b1d6a08bb5a5ba1feb216145844ac8d65714998e1a05795d576eea520ef"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-world-bundle.result.json",
+      "canonicalName": "mesh6-world-bundle.result.json",
+      "bytes": 488,
+      "sha256": "1d0cbf63d2d1d4e0b5c8974ae6d2ad75618480f045ce6331727810f4f8893fa7"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-prepared-scene-zero-edge.result.json",
+      "canonicalName": "mesh6-prepared-scene-zero-edge.result.json",
+      "bytes": 562,
+      "sha256": "719bcaae499999acc7bbe6a2fa44b7d6a4bf903ccf6fb28afe0b9a1319eac3cf"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-prepared-polygons-thin45-batch.result.json",
+      "canonicalName": "mesh6-prepared-polygons-thin45-batch.result.json",
+      "bytes": 778,
+      "sha256": "a3f2055f625f1e826684257bfdb5a54c548ff921319ad560e7e450ba705d9594"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-prepared-polygons-thin45-child-memory.json",
+      "canonicalName": "mesh6-prepared-polygons-thin45-child-memory.json",
+      "bytes": 208,
+      "sha256": "9169c3efb98e5c8a8d922dcb30098976b1d366a5b3026b3e909e89f69d0b8307"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-input-preparation.json",
+      "canonicalName": "mesh6-input-preparation.json",
+      "bytes": 2642,
+      "sha256": "4ed4fef0b0c75139dd011bbba920bcae00a2f775e1fe0851c85fc7bbfd96911b"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-input-plan.json",
+      "canonicalName": "mesh6-input-plan.json",
+      "bytes": 418089,
+      "sha256": "baf851240048bd8390ea7cf05659b41c21dca84616956d2753fc3cc545f320ec"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/mesh6-source-proof.json",
+      "canonicalName": "mesh6-source-proof.json",
+      "bytes": 42915,
+      "sha256": "f0d3bd94e364da6e194ae15b13a5bcf7e3bddc5b2f627f79a9af9e3e96eb2371"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/zero-edge-pair-proof.json",
+      "canonicalName": "zero-edge-pair-proof.json",
+      "bytes": 1916,
+      "sha256": "3c2c38ec59b49b8a2f058d430400825125985bf32c5bc79a82b0a53022dad1d0"
+    },
+    {
+      "source": "D:/dev/worktrees/gis/build-native/wasm/thin-render-application-proof.json",
+      "canonicalName": "thin-render-application-proof.json",
+      "bytes": 1897,
+      "sha256": "bc2a606ce7a8bdcbf65a76ad558ecff3f02f6388ab1674e3388c1af212239e2b"
+    }
+  ],
+  "bytes": 720152,
+  "runtimePublication": {
+    "revision": "11a5fe6132dc36a13cc81bc0a93f0ba0d9ed9cd5",
+    "evidenceOwner": "apply_connected_library_outputs",
+    "note": "Writer reported434 remote exact bytes and full45 deployment collector1062 PASS; attach its own publication proof."
+  },
+  "limits": "Generation and transfer/codec contracts only. No live Viewer thin-scope reachability assertion. The 1922 UI is not established to naturally request scope.extra packet; actual browser outcome belongs separately to deployment owner.",
+  "excluded": "Raw meshes already archived, failed run logs, unfinished folders, reproducible source/WASM copies, superseded432 handoff, duplicate275 evidence already in completed thin-render set.",
+  "deduplicate": "If source/pair/application receipts already exist in the completed thin-render14 archive, retain one canonical copy and reference it."
+}

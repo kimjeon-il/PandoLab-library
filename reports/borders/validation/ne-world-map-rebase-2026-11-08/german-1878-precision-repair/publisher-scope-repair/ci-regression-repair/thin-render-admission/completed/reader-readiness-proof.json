@@ -1,0 +1,11 @@
+{
+  "status": "passed cold reader then existing official readiness owner",
+  "source": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "beforeReady": "fail-closed",
+  "afterReady": "actual positive geometry admitted",
+  "engine": "single official load-spherical-core/loadNodeCore",
+  "limitations": [
+    "The broad asset validators were not run against an unfinished runtime bundle.",
+    "Worker/main ordering checked by exact source import chain; live browser check is separate."
+  ]
+}
