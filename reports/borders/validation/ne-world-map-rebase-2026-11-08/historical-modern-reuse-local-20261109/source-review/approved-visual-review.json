@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "status": "visually-reviewed-source-display-delta-only",
+  "reviewedAt": "2026-11-09T22:59:58.460Z",
+  "scope": "Four rendered images opened and inspected. Same-extent EPSG:3035 main panels use 1:10M at 96 dpi. Enlarged group diagnostics do not establish positional accuracy.",
+  "observations": {
+    "AH": [
+      "Recognizable overall imperial outline and all mainland land-boundary shape remain visually unchanged.",
+      "Changed islands remain in their previous Adriatic group locations. Two old pairs are represented by two exact whole current donor components; this 16-to-14 component substitution is explicit modern-proxy topology, not historical channel restoration.",
+      "Small donor angularities are visible in enlarged panels but do not justify automatic smoothing. No newly constructed mainland junction is present."
+    ],
+    "DEU": [
+      "Recognizable overall 1914 representative outline and mainland land boundaries remain visually unchanged.",
+      "Ten old NE island components are replaced by eighteen exact current donor components; smaller fragments are present in the current donor and remain within their former whole-island support where required by the frozen selection rule.",
+      "The whole-country comparison does not establish historic German-Danish ownership or coastline chronology."
+    ]
+  },
+  "images": [
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/AH-source-scale-review.png",
+      "sha256": "d7e734c62748750b610dfbad155cea5a025e9207e6e8b5bdaa636b6d0ca25c4b"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/DEU-source-scale-review.png",
+      "sha256": "4b26016686545b65404bae6ff599d610beb4e7f6782c141a6d010f6df25ec1aa"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/AH-island-overlay-diagnostic.png",
+      "sha256": "81bba1890b23c0e60d9e410ab57cef9b57720461c1dc8337c6f9c11dd955c4ee"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/DEU-island-overlay-diagnostic.png",
+      "sha256": "b57dcc0070d0844a5d7db0d7307450d0cad3647997439319194006f42c961e06"
+    }
+  ],
+  "notClaimed": [
+    "No independent historical positional accuracy.",
+    "No comparison against compiled/runtime/Viewer output.",
+    "No whole-period dated counterpart coverage inferred.",
+    "No density threshold or new simplification tolerance."
+  ]
+}

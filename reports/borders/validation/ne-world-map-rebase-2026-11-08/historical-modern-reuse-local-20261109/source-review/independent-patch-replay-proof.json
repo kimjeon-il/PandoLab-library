@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-09T23:07:49.989Z",
+  "status": "passed-independent-version-patch-replay",
+  "sourceRevision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+  "evidenceFilesVerified": 14,
+  "referencedEvidenceChecks": 61,
+  "results": [
+    {
+      "tag": "AH",
+      "sourceGate": 1,
+      "descriptorExpectedSha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "versionExpectedSha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "actualPatchReplay": "passed",
+      "sourceInfoOperation": "set",
+      "sourceInfoExistingEntries": 0
+    },
+    {
+      "tag": "DEU",
+      "sourceGate": 1,
+      "descriptorExpectedSha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "versionExpectedSha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "actualPatchReplay": "passed",
+      "sourceInfoOperation": "append",
+      "sourceInfoExistingEntries": 1
+    }
+  ],
+  "noOperationalWrites": true,
+  "noRuntimeOrCompilation": true
+}

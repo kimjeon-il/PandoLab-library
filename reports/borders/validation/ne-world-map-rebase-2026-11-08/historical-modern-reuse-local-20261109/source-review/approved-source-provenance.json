@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "status": "source-lineage-and-inputs-verified",
+  "sourceRevision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+  "archiveInputs": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/approved-archive-inputs.json",
+    "sha256": "ce3bb2f51e9b5b3945b27dd89167d66e0987a06681d2ad70cebb46f72325f8ed"
+  },
+  "canonicalRead": "decodeArchiveEntry(fetch:false), decodeTerritorialSource with byte/hash verified resources, normalizeTerritorialLibraryEntity",
+  "originalHistoricalSources": [
+    {
+      "id": "austro-hungarian-empire",
+      "role": "master",
+      "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+      "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148",
+      "bytes": 703289,
+      "verified": true,
+      "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168"
+    },
+    {
+      "id": "austro-hungarian-empire",
+      "role": "source",
+      "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+      "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148",
+      "bytes": 703289,
+      "verified": true,
+      "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168"
+    },
+    {
+      "id": "DEU",
+      "role": "master",
+      "reference": "tools/historical-library/working/german-empire-1914-base.geojson",
+      "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb",
+      "bytes": 687500,
+      "verified": true,
+      "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168"
+    },
+    {
+      "id": "DEU",
+      "role": "source",
+      "reference": "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson",
+      "sha256": "0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9",
+      "bytes": 301148,
+      "verified": true,
+      "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168"
+    }
+  ],
+  "approvedModernDonor": {
+    "repository": "kimjeon-il/PandoLab-library-data",
+    "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "bytes": 83264304,
+    "stored": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "encoding": "identity",
+    "verification": "Exact bytes read locally through canonical decodeArchiveEntry(fetch:false). Remote re-verification belongs to publication owner."
+  },
+  "donors": [
+    {
+      "entityId": "state:HRV",
+      "versionId": "state:HRV:natural-earth-5.1.1",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-HRV.json",
+      "sourceBytesSha256": "82ac1394e9c36b1e24e69fa2ed243f5566a498079a669d8ee1fe11333e3bf5da",
+      "geometrySha256": "b2f026910c1a8114147f3ae2b6ea039e7652667e10597c464db3fac54ab372c1",
+      "fullGeometryEqualsApprovedOriginal": true,
+      "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+      "attribution": null,
+      "limitations": "Approved composite modern donor; not an assertion that every edge is LSIB, nor a new historical ownership or shoreline claim."
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:natural-earth-5.1.1",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sourceBytesSha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+      "geometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+      "fullGeometryEqualsApprovedOriginal": true,
+      "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+      "attribution": null,
+      "limitations": "Approved composite modern donor; not an assertion that every edge is LSIB, nor a new historical ownership or shoreline claim."
+    }
+  ],
+  "targets": {
+    "AH": {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "sourceBytesSha256": "6eaf3cb3a1e34e4e19f3833cf497d1e3493c089e864125fbf81090c49a724f37",
+      "preimageGeometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681",
+      "candidateGeometrySha256": "e67a68940d1d6278aaea810e0317ad1b4f9eb670c8e97940d96e45da6a7d2a18",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sourceIdUnchanged": true,
+      "certainty": "provisional",
+      "representativeReferenceDate": "1914-07-28",
+      "periodEvidence": {
+        "calendar": "gregorian",
+        "precision": "date",
+        "validFrom": "1867-02-17",
+        "lastValidDate": "1918-10-30",
+        "endEventDate": "1918-10-31",
+        "endEventBoundary": "exclusive",
+        "storedValidityBounds": "inclusive",
+        "startEvent": "Formation of the dual government selected as the registration event. The 1867 settlement had several constitutional and legislative stages; this date is a documented modeling choice, not the date of every stage.",
+        "endEvent": "Dissolution of the dual union; treated as the first date outside the old identity.",
+        "sourceUrls": [
+          "https://universitaetsverlage.eu/bucher-e-books/titel/die-protokolle-des-cisleithanischen-ministerrates-1867-1918-band-i-1867/",
+          "https://encyclopedia.1914-1918-online.net/article/post-war-turmoil-and-violence-hungary-1-1/"
+        ]
+      }
+    },
+    "DEU": {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "sourceBytesSha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+      "preimageGeometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62",
+      "candidateGeometrySha256": "7c798ea61d7bbaa792995c93da842da81bb62079fef09e0f571418f131d43c4f",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sourceIdUnchanged": true,
+      "certainty": "provisional",
+      "representativeReferenceDate": "1914-07-31",
+      "periodEvidence": {
+        "calendar": "gregorian",
+        "precision": "date",
+        "validFrom": "1871-01-01",
+        "lastValidDate": "1918-11-08",
+        "endEventDate": "1918-11-09",
+        "endEventBoundary": "exclusive",
+        "storedValidityBounds": "inclusive",
+        "startEvent": "German imperial constitution effective; January 18 was the subsequent symbolic proclamation.",
+        "endEvent": "Republic proclaimed; the imperial regime ends at the start of this model date.",
+        "sourceUrls": [
+          "https://www.bundestag.de/dokumente/textarchiv/2021/kw11-kalenderblatt-150jahre-reichstag-828278",
+          "https://www.bundestag.de/en/parliament/history/parliamentarism/empire/empire-200352"
+        ]
+      }
+    }
+  },
+  "scope": "Only whole current-donor coast-proxy islands replace selected whole pre-existing NE island proxies. Existing provisional representative period, identity and political ownership semantics are retained. No historical event or new ownership assignment is introduced."
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-for-two-exact-source-display-deltas-only",
+  "checkedAt": "2026-11-09T23:05:57.901Z",
+  "sourceRevision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+  "appRevision": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+  "patches": {
+    "AH": {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/AH-canonical-version-only-patch.json",
+      "sha256": "140d467f01bfe9e15a004fd8a2ca63625fedb0da2a4c8172a27b3b55d90e2fe5"
+    },
+    "DEU": {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/DEU-canonical-version-only-patch.json",
+      "sha256": "de3355061640356d43165ec628b574bca2a1b6132b4f51aa9a01d7a9ba99f520"
+    }
+  },
+  "results": [
+    {
+      "tag": "AH",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "candidateGeometrySha256": "e67a68940d1d6278aaea810e0317ad1b4f9eb670c8e97940d96e45da6a7d2a18",
+      "sourceDescriptorPreimageSha256": "6eaf3cb3a1e34e4e19f3833cf497d1e3493c089e864125fbf81090c49a724f37",
+      "normalizedVersionPreimageSha256": "e2f5f7eb26cee7c5f3d57ac85446307b997fa7e066a8d242da365d0147bee752",
+      "normalizedVersionExpectedSha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "encodedDescriptorExpectedSha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "changedHistoricalVersionsReviewed": 1,
+      "result": "passed-for-this-change-only",
+      "canonicalNormalization": true,
+      "codecRoundtripExact": true,
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:austro-hungarian-empire:state:austro-hungarian-empire:1914-07-28-display-r1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+        "sha256": "a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129",
+        "bytes": 150767
+      },
+      "compiledDerivatives": 0,
+      "fullPeriodDatedCounterpartClosureVerified": false,
+      "compiledApproval": false,
+      "runtimeApproval": false,
+      "inheritedReviewRejected": "Historical display review required: state:austro-hungarian-empire/state:austro-hungarian-empire:1914-07-28-display-r1: stale geometry, identity or period",
+      "unresolvedReviewRejected": "Historical display review required: state:austro-hungarian-empire/state:austro-hungarian-empire:1914-07-28-display-r1: missing or unresolved review"
+    },
+    {
+      "tag": "DEU",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "candidateGeometrySha256": "7c798ea61d7bbaa792995c93da842da81bb62079fef09e0f571418f131d43c4f",
+      "sourceDescriptorPreimageSha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+      "normalizedVersionPreimageSha256": "1f457d3f6e207a3e2f955b7529f695f7df636e699fb73e82fa47ecaf324d4823",
+      "normalizedVersionExpectedSha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "encodedDescriptorExpectedSha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "changedHistoricalVersionsReviewed": 1,
+      "result": "passed-for-this-change-only",
+      "canonicalNormalization": true,
+      "codecRoundtripExact": true,
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:DEU:state:DEU:1914-07-31-display-r1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json",
+        "sha256": "caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50",
+        "bytes": 152956
+      },
+      "compiledDerivatives": 0,
+      "fullPeriodDatedCounterpartClosureVerified": false,
+      "compiledApproval": false,
+      "runtimeApproval": false,
+      "inheritedReviewRejected": "Historical display review required: state:DEU/state:DEU:1914-07-31-display-r1: stale geometry, identity or period",
+      "unresolvedReviewRejected": "Historical display review required: state:DEU/state:DEU:1914-07-31-display-r1: missing or unresolved review"
+    }
+  ],
+  "sourceDisposition": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/approved-source-disposition.json",
+    "sha256": "033488d27effcf870b5d85d227010467b6fe7aba018ed4baed298ad953b9db84"
+  },
+  "operationalSourceWrites": false,
+  "sourceIndexWrites": false,
+  "runtimeOrPinWrites": false,
+  "networkUsed": false,
+  "compilationOrNativeWork": false
+}

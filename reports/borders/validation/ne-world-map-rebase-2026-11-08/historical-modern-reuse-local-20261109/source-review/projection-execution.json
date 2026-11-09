@@ -1,0 +1,71 @@
+{
+  "status": "executed",
+  "crs": "EPSG:3035",
+  "inputCrs": "EPSG:4326",
+  "axisOrder": "always_xy; input longitude,latitude",
+  "definition": "PROJCRS[\"ETRS89-extended / LAEA Europe (with axis order normalized for visualization)\",BASEGEOGCRS[\"ETRS89\",ENSEMBLE[\"European Terrestrial Reference System 1989 ensemble\",MEMBER[\"European Terrestrial Reference Frame 1989\"],MEMBER[\"European Terrestrial Reference Frame 1990\"],MEMBER[\"European Terrestrial Reference Frame 1991\"],MEMBER[\"European Terrestrial Reference Frame 1992\"],MEMBER[\"European Terrestrial Reference Frame 1993\"],MEMBER[\"European Terrestrial Reference Frame 1994\"],MEMBER[\"European Terrestrial Reference Frame 1996\"],MEMBER[\"European Terrestrial Reference Frame 1997\"],MEMBER[\"European Terrestrial Reference Frame 2000\"],MEMBER[\"European Terrestrial Reference Frame 2005\"],MEMBER[\"European Terrestrial Reference Frame 2014\"],MEMBER[\"European Terrestrial Reference Frame 2020\"],ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[0.1]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4258]],CONVERSION[\"Europe Equal Area 2001\",METHOD[\"Lambert Azimuthal Equal Area\",ID[\"EPSG\",9820]],PARAMETER[\"Latitude of natural origin\",52,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",10,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",4321000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",3210000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]],ID[\"EPSG\",19986]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],USAGE[SCOPE[\"Statistical analysis.\"],AREA[\"Europe - European Union (EU) countries and candidates. Europe - onshore and offshore: Albania; Andorra; Austria; Belgium; Bosnia and Herzegovina; Bulgaria; Croatia; Cyprus; Czechia; Denmark; Estonia; Faroe Islands; Finland; France; Germany; Gibraltar; Greece; Hungary; Iceland; Ireland; Italy; Kosovo; Latvia; Liechtenstein; Lithuania; Luxembourg; Malta; Monaco; Montenegro; Netherlands; North Macedonia; Norway including Svalbard and Jan Mayen; Poland; Portugal including Madeira and Azores; Romania; San Marino; Serbia; Slovakia; Slovenia; Spain including Canary Islands; Sweden; Switzerland; Türkiye (Turkey); United Kingdom (UK) including Channel Islands and Isle of Man; Vatican City State.\"],BBOX[24.6,-35.58,84.73,44.83]],REMARK[\"Axis order reversed compared to EPSG:3035\"]]",
+  "units": "metre",
+  "pyproj": "3.7.2",
+  "proj": "9.5.1",
+  "shapely": "2.1.2",
+  "geos": "3.13.1",
+  "renderScaleDenominator": 10000000,
+  "renderDpi": 96,
+  "metresPerPixel": 2645.8333333333335,
+  "records": {
+    "AH": {
+      "candidateGeometrySha256": "e67a68940d1d6278aaea810e0317ad1b4f9eb670c8e97940d96e45da6a7d2a18",
+      "projectedBoundsMetres": [
+        4285330.665502694,
+        2161674.5906202416,
+        5596662.25407799,
+        3155899.7233313257
+      ],
+      "projectedExtentMetres": [
+        4205454.793123675,
+        2042307.9903091167,
+        5676538.1264570085,
+        3275266.3236424504
+      ],
+      "framePixels": [
+        556,
+        466
+      ],
+      "masterVertices": 7898,
+      "inputCoordinateCounts": {
+        "polygons": 22,
+        "holes": 0,
+        "vertices": 5374
+      },
+      "projectedBoundsFinite": true,
+      "visual": "AH-source-scale-review.png"
+    },
+    "DEU": {
+      "candidateGeometrySha256": "7c798ea61d7bbaa792995c93da842da81bb62079fef09e0f571418f131d43c4f",
+      "projectedBoundsMetres": [
+        4023454.0999741834,
+        2684118.8585571945,
+        5156926.148380037,
+        3696490.2965417905
+      ],
+      "projectedExtentMetres": [
+        3943283.8741771104,
+        2564564.994216159,
+        5237096.37417711,
+        3816044.160882826
+      ],
+      "framePixels": [
+        489,
+        473
+      ],
+      "masterVertices": 7198,
+      "inputCoordinateCounts": {
+        "polygons": 30,
+        "holes": 0,
+        "vertices": 5546
+      },
+      "projectedBoundsFinite": true,
+      "visual": "DEU-source-scale-review.png"
+    }
+  }
+}

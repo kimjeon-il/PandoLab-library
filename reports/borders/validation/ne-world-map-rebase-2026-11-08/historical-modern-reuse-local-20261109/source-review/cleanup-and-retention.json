@@ -1,0 +1,166 @@
+{
+  "preserved": "Only final receipt dependencies, version-only adoption patches, independent replay proof and its read-only verification script are retained. Original/master bytes stay in the verified archive. No operational source, mount, producer input or parent candidate files touched.",
+  "status": "scoped-cleanup-completed",
+  "freeSpaceChangeCaveat": "Other concurrent activity can affect drive free space.",
+  "removed": [
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "6c2bbca14c99a26f42c33bc15bb2499427735c1bc4d9ada9a7073cfed1b5917e",
+      "bytes": 8290441,
+      "name": "review-inputs.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "9ee5b78fd8b38bde3f98bf7e3fa337dc324f979547d8a49a3817927e81a56496",
+      "bytes": 1875462,
+      "name": "DEU-reviewed-source-candidate.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "5f604ea1e397320a125d548f45f9fceb10bdedc9be2f7a280d8424ce0616e712",
+      "bytes": 1833660,
+      "name": "DEU-before-source.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "28c6937cfb65e04048b71c66dc98706e787f49626fac6c0ee7681761848e1ed7",
+      "bytes": 870541,
+      "name": "historical-peer-inputs.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "82858f28b8791ce9bc5c8a8cf15029e9884a5179c6de56739623b1679f41c5aa",
+      "bytes": 515476,
+      "name": "AH-reviewed-source-candidate.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "73a88d6b8ee0341fdf2ad1425714f0d6fa49c2e51fae422f929ce1db73be29a9",
+      "bytes": 427474,
+      "name": "AH-before-source.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "a0438590a3f2aa6b14e4066dd57bfbe70be4b85108dd91ca7f1148da0dd1d081",
+      "bytes": 421777,
+      "name": "original-masters.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "3f3948e4eb948dd10f2c5e41be18bb28bd4524288d32b30419e7be4824fa9da8",
+      "bytes": 31122,
+      "name": "source-topology-and-dates.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "de836700fa9cc330f78dca3a26196e4d9cbb4ec91ff736911e1218567c0e4c36",
+      "bytes": 30821,
+      "name": "source-topology-and-dates-final.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "c08e33d5367725a24836284d512a8eca535f11a209ef20e1230e17901fae44c8",
+      "bytes": 16855,
+      "name": "final-source-review-receipts.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "4ed8aaa6274ee762e354288ee05b9ba83403d25a5f6d8ed029b5027518581dad",
+      "bytes": 16454,
+      "name": "prepared-source-review-receipts.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "e50bae15aa5d763580e3b6642c3dab087b2382e0a53e852b1e8ef423a0ee2521",
+      "bytes": 15564,
+      "name": "source-provenance.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "b6db70b990580821b78142644b93e6df423e6167e5999d4fd13538371823adf9",
+      "bytes": 5544,
+      "name": "source-identity-evidence.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "6400418f93194a4741de55fd0e06e5d4ea8541793550aa3663fcbc055b96abe8",
+      "bytes": 4773,
+      "name": "source-gate-proof.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "febc98e639abc79608a8f095d6588cf024b31e2a2e9c2aee27d8e716914d7781",
+      "bytes": 2939,
+      "name": "source-review-disposition.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "856580d0a38e857b3a92c3fa17d104f9216549e1f9c88fe2ed5290008915e37b",
+      "bytes": 2838,
+      "name": "visual-review.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "58669762fc95b3f580b655911f3b49508dc14010abd7e0fd367c595149f2fe8c",
+      "bytes": 7079,
+      "name": "historical-peer-proof.json"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "fa15ff328934880155880024eb5077c61393945d57d0245b5ca7e4c9ef3ac8af",
+      "bytes": 4831,
+      "name": "prepare-review.mjs"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "446b0d139ede088f6902639524997ab8d92d7f80f6295994095ac3fb34526274",
+      "bytes": 984,
+      "name": "prepare-masters.mjs"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "34751f33374ed05b831f075817eb98cfdaa6998393485b1b982c0c22f06e9785",
+      "bytes": 13175,
+      "name": "review-source-delta.py"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "b08f756cbe25ace895a5f9c9539597ef8edffd30ea551f74893c1f2eb46d21dd",
+      "bytes": 7812,
+      "name": "prepare-receipts.mjs"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "465149a9b6b2671b6b5c6e616ef5141823092c60d0feed02f0b768747f475766",
+      "bytes": 10077,
+      "name": "finalize-source-review.mjs"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "ed8e9754050bcda309e4b7170e7a2acc6096e9c0d6afe3dce7aa8b3d928df166",
+      "bytes": 1694,
+      "name": "prepare-historical-peers.mjs"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "50fd4e6d3f6b67bf58ac34efdb7408a3ad3cbe1c6507de385ce42e71c5a7325c",
+      "bytes": 2696,
+      "name": "check-historical-peers.py"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "35b012d85c8e2f184a287c5245274f58a6f90ccfbed517ff2ac68c3802862553",
+      "bytes": 16929,
+      "name": "finalize-canonical-delivery.mjs"
+    },
+    {
+      "reason": "Task-owned intermediate or canonical archive duplicate; final evidence and guarded version-only patches replace its consumer. Original input bytes remain in verified d01b02 archive.",
+      "sha256": "f7db2244019e09cbc042ef569f7a1ececdfd6180e66e9e972610166d46d79e9c",
+      "bytes": 1447,
+      "name": "finalize-reference-boundaries.mjs"
+    }
+  ],
+  "schemaVersion": 1,
+  "measuredDriveFreeSpaceChangeBytes": 14483456,
+  "logicalBytesRemoved": 14428465.0
+}

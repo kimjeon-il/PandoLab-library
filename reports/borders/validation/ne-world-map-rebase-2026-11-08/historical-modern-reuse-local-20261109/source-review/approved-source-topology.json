@@ -1,0 +1,1204 @@
+{
+  "schemaVersion": 1,
+  "runAt": "2026-11-09T22:57:55.208944+00:00",
+  "tools": {
+    "pyproj": "3.7.2",
+    "proj": "9.5.1",
+    "shapely": "2.1.2",
+    "geos": "3.13.1"
+  },
+  "scope": "Two frozen whole-island source-display deltas, preservation of all unchanged geometry/metadata, and listed representative/current/historical source counterparts only. Date checks preserve existing source periods. No full-period historical closure or compiled check.",
+  "results": {
+    "AH": {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "sourceCommit": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+      "candidateGeometrySha256": "e67a68940d1d6278aaea810e0317ad1b4f9eb670c8e97940d96e45da6a7d2a18",
+      "candidateFileSha256": "563dd19364cce889e046bd0e3537c51af7bc65f67592793d18c04096138b4c5d",
+      "sourceGeometrySha256": "948af61c4c69b0e18775f7a6a2692576739d27313ca575eaab6aec737260d681",
+      "sourceBytesSha256": "6eaf3cb3a1e34e4e19f3833cf497d1e3493c089e864125fbf81090c49a724f37",
+      "scope": "Only selected whole-island replacements and exact preservation of the remainder. Source-level checks do not establish full-period historical ownership or compiled peer clipping.",
+      "validity": {
+        "before": true,
+        "candidate": true,
+        "candidateReason": "Valid Geometry",
+        "added": true
+      },
+      "coordinatePreservation": {
+        "exactExpectedCandidate": true,
+        "remainderExact": true,
+        "modernDonorExact": true,
+        "fullModernDonorEqualsOriginalApprovedDonor": true
+      },
+      "union": {
+        "expectedUnionEqualsCandidate": true,
+        "symmetricChangeEqualsSelectedChange": true
+      },
+      "gapsOverlaps": {
+        "addedRemainderOverlapDegreesSquared": 0,
+        "addedRemainderBoundaryIntersectionEmpty": true,
+        "unaffectedRemainderExact": true,
+        "scope": "No snapping or closing sea channels. Offshore source components were substituted; no shared land boundary was edited."
+      },
+      "holesIslands": {
+        "before": {
+          "polygons": 24,
+          "holes": 0,
+          "vertices": 4640
+        },
+        "candidate": {
+          "polygons": 22,
+          "holes": 0,
+          "vertices": 5374
+        },
+        "remainder": {
+          "polygons": 8,
+          "holes": 0,
+          "vertices": 4089
+        },
+        "added": {
+          "polygons": 14,
+          "holes": 0,
+          "vertices": 1285
+        }
+      },
+      "connectivity": {
+        "remainderUntouched": true,
+        "addedComponentsAreDisjointFromRemainder": true,
+        "oldSelectedBoundaryDisjointFromRemainder": true,
+        "componentChangeIsExplicitDonorGrouping": true
+      },
+      "dates": {
+        "validFrom": "1867-02-17",
+        "validTo": "1918-10-30",
+        "boundsInclusive": true,
+        "sameAsPatch": true,
+        "sourceIdUnchanged": true,
+        "referenceDate": "1914-07-28",
+        "existingRepresentativeReuse": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-28",
+          "displayPeriod": {
+            "validFrom": "1867-02-17",
+            "validTo": "1918-10-30"
+          },
+          "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+          "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+          "periodEvidence": {
+            "calendar": "gregorian",
+            "precision": "date",
+            "validFrom": "1867-02-17",
+            "lastValidDate": "1918-10-30",
+            "endEventDate": "1918-10-31",
+            "endEventBoundary": "exclusive",
+            "storedValidityBounds": "inclusive",
+            "startEvent": "Formation of the dual government selected as the registration event. The 1867 settlement had several constitutional and legislative stages; this date is a documented modeling choice, not the date of every stage.",
+            "endEvent": "Dissolution of the dual union; treated as the first date outside the old identity.",
+            "sourceUrls": [
+              "https://universitaetsverlage.eu/bucher-e-books/titel/die-protokolle-des-cisleithanischen-ministerrates-1867-1918-band-i-1867/",
+              "https://encyclopedia.1914-1918-online.net/article/post-war-turmoil-and-violence-hungary-1-1/"
+            ]
+          },
+          "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+          "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+        },
+        "historicalOwnershipReverifiedAcrossWholePeriod": false,
+        "fullPeriodDatedCounterpartClosureVerified": false,
+        "scope": "Date/identity preservation checked, not a new chronology or independent historical ownership verification."
+      },
+      "groups": [
+        {
+          "oldIndices": [
+            2,
+            3
+          ],
+          "donorIndices": [
+            31
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              18
+            ],
+            [
+              16
+            ]
+          ],
+          "oldBounds": [
+            14.27768,
+            44.482245,
+            14.534353,
+            45.175849
+          ],
+          "newBounds": [
+            14.272477600000059,
+            44.47387960000003,
+            14.545059600000059,
+            45.17586730000005
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 482.1239475447184,
+          "areaAfterKm2": 483.82315229516905
+        },
+        {
+          "oldIndices": [
+            10,
+            11
+          ],
+          "donorIndices": [
+            66
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              13
+            ],
+            [
+              14
+            ]
+          ],
+          "oldBounds": [
+            14.819835,
+            43.872626,
+            15.220225,
+            44.1765
+          ],
+          "newBounds": [
+            14.819032200000038,
+            43.86512370000003,
+            15.227260057716773,
+            44.17734430000007
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 120.4618541920977,
+          "areaAfterKm2": 116.41782743781931
+        },
+        {
+          "oldIndices": [
+            13
+          ],
+          "donorIndices": [
+            117
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              10
+            ]
+          ],
+          "oldBounds": [
+            15.227794,
+            43.772406,
+            15.395681,
+            43.880764
+          ],
+          "newBounds": [
+            15.221090900000036,
+            43.73523490000008,
+            15.461339300000077,
+            43.877194700000075
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 26.300078347810075,
+          "areaAfterKm2": 32.53114526016865
+        },
+        {
+          "oldIndices": [
+            1
+          ],
+          "donorIndices": [
+            22
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              24
+            ]
+          ],
+          "oldBounds": [
+            14.232595,
+            44.611558,
+            14.280447,
+            44.679511
+          ],
+          "newBounds": [
+            14.232110300000045,
+            44.604890100000034,
+            14.288711198476856,
+            44.68998280000005
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 13.395884681529079,
+          "areaAfterKm2": 16.38048138146375
+        },
+        {
+          "oldIndices": [
+            5
+          ],
+          "donorIndices": [
+            5
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              22
+            ]
+          ],
+          "oldBounds": [
+            14.595063,
+            44.305243,
+            14.661388,
+            44.347113
+          ],
+          "newBounds": [
+            14.582657900000072,
+            44.30167590000008,
+            14.669398800000067,
+            44.35741600000006
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 6.34947869705076,
+          "areaAfterKm2": 8.655550622744501
+        },
+        {
+          "oldIndices": [
+            6
+          ],
+          "donorIndices": [
+            28
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              17
+            ]
+          ],
+          "oldBounds": [
+            14.657888,
+            44.703192,
+            14.85906,
+            44.854641
+          ],
+          "newBounds": [
+            14.654945100000077,
+            44.698911200000055,
+            14.869296600000041,
+            44.85438240000008
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 78.91468443675268,
+          "areaAfterKm2": 86.98212739590517
+        },
+        {
+          "oldIndices": [
+            7
+          ],
+          "donorIndices": [
+            89
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              15
+            ]
+          ],
+          "oldBounds": [
+            14.733653,
+            44.29914,
+            15.254405,
+            44.703192
+          ],
+          "newBounds": [
+            14.73257730000006,
+            44.28903500000007,
+            15.259550500000046,
+            44.704260100000056
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 276.00210586531153,
+          "areaAfterKm2": 288.0610234142998
+        },
+        {
+          "oldIndices": [
+            8
+          ],
+          "donorIndices": [
+            2
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              21
+            ]
+          ],
+          "oldBounds": [
+            14.738129,
+            44.259833,
+            14.791677,
+            44.29206
+          ],
+          "newBounds": [
+            14.735543200000052,
+            44.25581706868261,
+            14.799739100000068,
+            44.29432790000004
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 8.699611754988762,
+          "areaAfterKm2": 9.546630222139473
+        },
+        {
+          "oldIndices": [
+            9
+          ],
+          "donorIndices": [
+            11
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              23
+            ]
+          ],
+          "oldBounds": [
+            14.756196,
+            44.343085,
+            14.811209,
+            44.418931
+          ],
+          "newBounds": [
+            14.744122000000061,
+            44.340503900000044,
+            14.82194080000005,
+            44.42192154659734
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 23.89174621621359,
+          "areaAfterKm2": 26.328564517537917
+        },
+        {
+          "oldIndices": [
+            16
+          ],
+          "donorIndices": [
+            146
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              5
+            ]
+          ],
+          "oldBounds": [
+            16.048839,
+            43.011461,
+            16.254893,
+            43.088446
+          ],
+          "newBounds": [
+            16.048981900000058,
+            43.00593138754746,
+            16.258262400000035,
+            43.08194170000007
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 91.6621282326992,
+          "areaAfterKm2": 90.23455009980074
+        },
+        {
+          "oldIndices": [
+            17
+          ],
+          "donorIndices": [
+            153
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              8
+            ]
+          ],
+          "oldBounds": [
+            16.20045,
+            43.333441,
+            16.391449,
+            43.415229
+          ],
+          "newBounds": [
+            16.20015090000004,
+            43.32422630000008,
+            16.399563100000023,
+            43.41475260000004
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 54.918660714457495,
+          "areaAfterKm2": 57.95939255193302
+        },
+        {
+          "oldIndices": [
+            18
+          ],
+          "donorIndices": [
+            161
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              20
+            ]
+          ],
+          "oldBounds": [
+            16.211436,
+            43.481391,
+            16.375255,
+            43.512885
+          ],
+          "newBounds": [
+            16.203081100000077,
+            43.478913900000066,
+            16.392291100000023,
+            43.51602200000008
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 26.879179884461834,
+          "areaAfterKm2": 28.639719340557008
+        },
+        {
+          "oldIndices": [
+            20
+          ],
+          "donorIndices": [
+            232
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              7
+            ]
+          ],
+          "oldBounds": [
+            16.405772,
+            43.263739,
+            16.892345,
+            43.394843
+          ],
+          "newBounds": [
+            16.409056400000054,
+            43.25556000000006,
+            16.899640900000065,
+            43.3924814058382
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 385.2474517561918,
+          "areaAfterKm2": 394.6300702185756
+        },
+        {
+          "oldIndices": [
+            22
+          ],
+          "donorIndices": [
+            199
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              2
+            ]
+          ],
+          "oldBounds": [
+            16.802989,
+            42.729397,
+            16.936371,
+            42.784003
+          ],
+          "newBounds": [
+            16.797876511339705,
+            42.72270710000004,
+            16.94255190000007,
+            42.777851500000054
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 47.71337497675996,
+          "areaAfterKm2": 44.708727313163095
+        }
+      ],
+      "counterparts": [
+        {
+          "entityId": "state:DEU",
+          "versionId": "state:DEU:1914-07-31-display-r1",
+          "validFrom": "1871-01-01",
+          "validTo": "1918-11-08",
+          "geometrySha256": "7c798ea61d7bbaa792995c93da842da81bb62079fef09e0f571418f131d43c4f",
+          "candidateOrCurrentSource": "frozen island candidate",
+          "selectedOldIntersectsPeer": false,
+          "selectedNewIntersectsPeer": false,
+          "sharedBoundaryUnchanged": true,
+          "dateScope": "Both representative source versions examined. No compiled effective-interval or absent earlier-counterpart coverage inferred."
+        },
+        {
+          "entityId": "state:kingdom-of-serbia",
+          "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+          "validFrom": "1882-03-06",
+          "validTo": "1918-11-30",
+          "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d",
+          "candidateOrCurrentSource": "current raw source",
+          "selectedOldIntersectsPeer": false,
+          "selectedNewIntersectsPeer": false,
+          "sharedBoundaryUnchanged": true,
+          "dateScope": "Both representative source versions examined. No compiled effective-interval or absent earlier-counterpart coverage inferred."
+        }
+      ],
+      "fixedAnchors": [
+        {
+          "coordinate": [
+            10.452726,
+            46.530948
+          ],
+          "exactRetainedVertex": true,
+          "beforeBoundaryDistanceDegrees": 0,
+          "afterBoundaryDistanceDegrees": 0
+        },
+        {
+          "coordinate": [
+            19.226442,
+            43.527993
+          ],
+          "exactRetainedVertex": true,
+          "beforeBoundaryDistanceDegrees": 0,
+          "afterBoundaryDistanceDegrees": 0
+        },
+        {
+          "coordinate": [
+            22.472058,
+            44.71405
+          ],
+          "exactRetainedVertex": true,
+          "beforeBoundaryDistanceDegrees": 0,
+          "afterBoundaryDistanceDegrees": 0
+        }
+      ],
+      "technicalSourceDeltaStatus": "passed",
+      "compiledApprovalStatus": "not-run"
+    },
+    "DEU": {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "sourceCommit": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+      "candidateGeometrySha256": "7c798ea61d7bbaa792995c93da842da81bb62079fef09e0f571418f131d43c4f",
+      "candidateFileSha256": "f11c9379985a61915efb2e9f01280dc54839758711033eccf3f358f664aa3aa2",
+      "sourceGeometrySha256": "2648d24b34778f80cd7ff952b38d2d94d67b9297d0dbae90966ad03f3c7d9b62",
+      "sourceBytesSha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+      "scope": "Only selected whole-island replacements and exact preservation of the remainder. Source-level checks do not establish full-period historical ownership or compiled peer clipping.",
+      "validity": {
+        "before": true,
+        "candidate": true,
+        "candidateReason": "Valid Geometry",
+        "added": true
+      },
+      "coordinatePreservation": {
+        "exactExpectedCandidate": true,
+        "remainderExact": true,
+        "modernDonorExact": true,
+        "fullModernDonorEqualsOriginalApprovedDonor": true
+      },
+      "union": {
+        "expectedUnionEqualsCandidate": true,
+        "symmetricChangeEqualsSelectedChange": true
+      },
+      "gapsOverlaps": {
+        "addedRemainderOverlapDegreesSquared": 0,
+        "addedRemainderBoundaryIntersectionEmpty": true,
+        "unaffectedRemainderExact": true,
+        "scope": "No snapping or closing sea channels. Offshore source components were substituted; no shared land boundary was edited."
+      },
+      "holesIslands": {
+        "before": {
+          "polygons": 22,
+          "holes": 0,
+          "vertices": 5261
+        },
+        "candidate": {
+          "polygons": 30,
+          "holes": 0,
+          "vertices": 5546
+        },
+        "remainder": {
+          "polygons": 12,
+          "holes": 0,
+          "vertices": 4846
+        },
+        "added": {
+          "polygons": 18,
+          "holes": 0,
+          "vertices": 700
+        }
+      },
+      "connectivity": {
+        "remainderUntouched": true,
+        "addedComponentsAreDisjointFromRemainder": true,
+        "oldSelectedBoundaryDisjointFromRemainder": true,
+        "componentChangeIsExplicitDonorGrouping": true
+      },
+      "dates": {
+        "validFrom": "1871-01-01",
+        "validTo": "1918-11-08",
+        "boundsInclusive": true,
+        "sameAsPatch": true,
+        "sourceIdUnchanged": true,
+        "referenceDate": "1914-07-31",
+        "existingRepresentativeReuse": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-31",
+          "displayPeriod": {
+            "validFrom": "1871-01-01",
+            "validTo": "1918-11-08"
+          },
+          "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+          "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+          "periodEvidence": {
+            "calendar": "gregorian",
+            "precision": "date",
+            "validFrom": "1871-01-01",
+            "lastValidDate": "1918-11-08",
+            "endEventDate": "1918-11-09",
+            "endEventBoundary": "exclusive",
+            "storedValidityBounds": "inclusive",
+            "startEvent": "German imperial constitution effective; January 18 was the subsequent symbolic proclamation.",
+            "endEvent": "Republic proclaimed; the imperial regime ends at the start of this model date.",
+            "sourceUrls": [
+              "https://www.bundestag.de/dokumente/textarchiv/2021/kw11-kalenderblatt-150jahre-reichstag-828278",
+              "https://www.bundestag.de/en/parliament/history/parliamentarism/empire/empire-200352"
+            ]
+          },
+          "reviewScope": "Existing displayDetailReview remains unmodified and refers only to its original reviewed geometry and reference interval.",
+          "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+        },
+        "historicalOwnershipReverifiedAcrossWholePeriod": false,
+        "fullPeriodDatedCounterpartClosureVerified": false,
+        "scope": "Date/identity preservation checked, not a new chronology or independent historical ownership verification."
+      },
+      "groups": [
+        {
+          "oldIndices": [
+            1
+          ],
+          "donorIndices": [
+            8
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              2
+            ]
+          ],
+          "oldBounds": [
+            6.659516,
+            53.562893,
+            6.798106,
+            53.620063
+          ],
+          "newBounds": [
+            6.635024800000053,
+            53.55429220000008,
+            6.818723600000055,
+            53.61811770000003
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 26.661021890307957,
+          "areaAfterKm2": 38.120400633654924
+        },
+        {
+          "oldIndices": [
+            12
+          ],
+          "donorIndices": [
+            84
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              16
+            ]
+          ],
+          "oldBounds": [
+            8.291515,
+            54.618964,
+            8.401378,
+            54.71483
+          ],
+          "newBounds": [
+            8.295136200000059,
+            54.61899020000004,
+            8.401781200000073,
+            54.71155120000003
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 29.783997441507093,
+          "areaAfterKm2": 26.78594642897332
+        },
+        {
+          "oldIndices": [
+            17
+          ],
+          "donorIndices": [
+            170
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              13
+            ]
+          ],
+          "oldBounds": [
+            11.005707,
+            54.412665,
+            11.31422,
+            54.535956
+          ],
+          "newBounds": [
+            11.006262200000037,
+            54.40103856239323,
+            11.312841200000037,
+            54.53570140000005
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 164.74445250671928,
+          "areaAfterKm2": 183.02992164102164
+        },
+        {
+          "oldIndices": [
+            20
+          ],
+          "donorIndices": [
+            172
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              14
+            ]
+          ],
+          "oldBounds": [
+            13.061371,
+            54.468451,
+            13.157237,
+            54.606024
+          ],
+          "newBounds": [
+            13.060330994810933,
+            54.45733390000004,
+            13.15728880000006,
+            54.603346600000066
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 20.057403674568196,
+          "areaAfterKm2": 18.03902022254988
+        },
+        {
+          "oldIndices": [
+            3
+          ],
+          "donorIndices": [
+            21,
+            23
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              4
+            ]
+          ],
+          "oldBounds": [
+            7.133149,
+            53.701402,
+            7.34669,
+            53.729438
+          ],
+          "newBounds": [
+            7.135995700000024,
+            53.6975496258357,
+            7.346735900000056,
+            53.72648031842445
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 26.64055847429353,
+          "areaAfterKm2": 27.196990540938465
+        },
+        {
+          "oldIndices": [
+            4
+          ],
+          "donorIndices": [
+            25,
+            26
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              5
+            ]
+          ],
+          "oldBounds": [
+            7.366547,
+            53.721137,
+            7.435557,
+            53.736721
+          ],
+          "newBounds": [
+            7.358852900000045,
+            53.71728579792819,
+            7.438322500000027,
+            53.73562570017378
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 4.350260726778054,
+          "areaAfterKm2": 6.912374841497704
+        },
+        {
+          "oldIndices": [
+            5
+          ],
+          "donorIndices": [
+            38,
+            41,
+            40
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              7
+            ]
+          ],
+          "oldBounds": [
+            7.469574,
+            53.727118,
+            7.627208,
+            53.7626
+          ],
+          "newBounds": [
+            7.458576200000039,
+            53.72134040000003,
+            7.641807000000028,
+            53.760421000000065
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 20.2811768388751,
+          "areaAfterKm2": 23.03505695073252
+        },
+        {
+          "oldIndices": [
+            13
+          ],
+          "donorIndices": [
+            89,
+            90
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              17
+            ]
+          ],
+          "oldBounds": [
+            8.394542,
+            54.685004,
+            8.593761,
+            54.756415
+          ],
+          "newBounds": [
+            8.396249800000021,
+            54.677773285478146,
+            8.596032129479354,
+            54.76178290000007
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 75.07463581823727,
+          "areaAfterKm2": 87.61154015766533
+        },
+        {
+          "oldIndices": [
+            14
+          ],
+          "donorIndices": [
+            131,
+            133,
+            132
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              19
+            ]
+          ],
+          "oldBounds": [
+            8.595876,
+            54.492377,
+            8.700938,
+            54.55858
+          ],
+          "newBounds": [
+            8.587491539748372,
+            54.487227000000075,
+            8.710923100000059,
+            54.55888530000004
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 31.33873161349053,
+          "areaAfterKm2": 39.182248063789295
+        },
+        {
+          "oldIndices": [
+            21
+          ],
+          "donorIndices": [
+            168,
+            175
+          ],
+          "oldWholeNaturalEarthMatches": [
+            [
+              15
+            ]
+          ],
+          "oldBounds": [
+            13.115489,
+            54.228217,
+            13.766449,
+            54.688422
+          ],
+          "newBounds": [
+            13.11415041818898,
+            54.220726400000046,
+            13.766280400000028,
+            54.68475900000004
+          ],
+          "oldHoles": 0,
+          "newHoles": 0,
+          "areaBeforeKm2": 952.5291254802247,
+          "areaAfterKm2": 976.2571594535899
+        }
+      ],
+      "counterparts": [
+        {
+          "entityId": "state:austro-hungarian-empire",
+          "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+          "validFrom": "1867-02-17",
+          "validTo": "1918-10-30",
+          "geometrySha256": "e67a68940d1d6278aaea810e0317ad1b4f9eb670c8e97940d96e45da6a7d2a18",
+          "candidateOrCurrentSource": "frozen island candidate",
+          "selectedOldIntersectsPeer": false,
+          "selectedNewIntersectsPeer": false,
+          "sharedBoundaryUnchanged": true,
+          "dateScope": "Both representative source versions examined. No compiled effective-interval or absent earlier-counterpart coverage inferred."
+        },
+        {
+          "entityId": "state:kingdom-of-serbia",
+          "versionId": "state:kingdom-of-serbia:1914-07-28-display-r1",
+          "validFrom": "1882-03-06",
+          "validTo": "1918-11-30",
+          "geometrySha256": "765d9acc348e83b5784da3c615c43c850f618aca72780280ff8f4c2ba209c64d",
+          "candidateOrCurrentSource": "current raw source",
+          "selectedOldIntersectsPeer": false,
+          "selectedNewIntersectsPeer": false,
+          "sharedBoundaryUnchanged": true,
+          "dateScope": "Both representative source versions examined. No compiled effective-interval or absent earlier-counterpart coverage inferred."
+        }
+      ],
+      "fixedAnchors": [
+        {
+          "coordinate": [
+            19.1577366,
+            50.2293859
+          ],
+          "exactRetainedVertex": true,
+          "beforeBoundaryDistanceDegrees": 0,
+          "afterBoundaryDistanceDegrees": 0
+        },
+        {
+          "coordinate": [
+            9.547482,
+            47.534547
+          ],
+          "exactRetainedVertex": true,
+          "beforeBoundaryDistanceDegrees": 0,
+          "afterBoundaryDistanceDegrees": 0
+        }
+      ],
+      "currentDenmarkContext": {
+        "role": "Current coastal proxy context only, not German-Danish 1871-1918 historical border evidence",
+        "selectedNewIntersects": false,
+        "selectedOldIntersects": false,
+        "minimumDistanceMetres": 17786.81811626009
+      },
+      "technicalSourceDeltaStatus": "passed",
+      "compiledApprovalStatus": "not-run"
+    }
+  },
+  "status": "source-display-delta-checks-passed",
+  "historicalPeerChecks": {
+    "status": "passed-for-listed-source-delta-relations-only",
+    "sourceCommit": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168",
+    "results": [
+      {
+        "target": "AH",
+        "entityId": "state:north-schleswig",
+        "versionId": "north-schleswig-1900-r3",
+        "validFrom": "1900-01-01",
+        "validTo": "1900-01-01",
+        "geometrySha256": "8647261fd22bc128c2b4cc5dca1f607964484a50b5cd4ce1c508fd81173ff81a",
+        "sourcePath": "assets/data/territorial-entities/source/countries/state-north-schleswig.json",
+        "sourceBytesSha256": "dbfbdeaf0b909210e3c396f635e3b7b8a7b30bb8b68fa0dffb467dce83d269ee",
+        "bounds": [
+          8.458832,
+          54.801617,
+          10.065115,
+          55.4249686566465
+        ],
+        "sourcePeriodIntersection": [
+          "1900-01-01",
+          "1900-01-01"
+        ],
+        "oldSelectedIntersects": false,
+        "newSelectedIntersects": false,
+        "minimumNewDistanceMetres": 1120343.9402581118,
+        "wholeTargetSharedBoundaryUnchanged": true,
+        "wholeTargetOverlapUnchanged": true,
+        "scope": "Exact source geometry relations only at actual overlapping source periods. The North Schleswig one-day record is not expanded to other dates."
+      },
+      {
+        "target": "AH",
+        "entityId": "state:east-prussia",
+        "versionId": "ostpreussen-1878-1920-r3",
+        "validFrom": "1878-04-01",
+        "validTo": "1920-01-10",
+        "geometrySha256": "845421dd00d73b03e6106ad1578559e11b80b28b271c3c470fa8ba8876174205",
+        "sourcePath": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+        "sourceBytesSha256": "7d4009f24f549e532fbfd49c4a4ebe50d425bde1bf75fff29aba7567084df886",
+        "bounds": [
+          19.306593,
+          53.139569,
+          22.848352,
+          55.897496192252326
+        ],
+        "sourcePeriodIntersection": [
+          "1878-04-01",
+          "1918-10-30"
+        ],
+        "oldSelectedIntersects": false,
+        "newSelectedIntersects": false,
+        "minimumNewDistanceMetres": 982771.3995701273,
+        "wholeTargetSharedBoundaryUnchanged": true,
+        "wholeTargetOverlapUnchanged": true,
+        "scope": "Exact source geometry relations only at actual overlapping source periods. The North Schleswig one-day record is not expanded to other dates."
+      },
+      {
+        "target": "AH",
+        "entityId": "state:west-prussia",
+        "versionId": "state:west-prussia:1900-01-01-r1",
+        "validFrom": "1878-04-01",
+        "validTo": "1919-12-31",
+        "geometrySha256": "f82768d351c9739413e4f2037b79798047a2b334da78c66fa91cfddafb58de79",
+        "sourcePath": "assets/data/territorial-entities/source/countries/state-west-prussia.json",
+        "sourceBytesSha256": "a84ff856375c69867b5291548979d9fba2b298c31729f40ed471fefabd601bdd",
+        "bounds": [
+          15.97351150789861,
+          52.8458661199028,
+          19.99039274230751,
+          54.838324
+        ],
+        "sourcePeriodIntersection": [
+          "1878-04-01",
+          "1918-10-30"
+        ],
+        "oldSelectedIntersects": false,
+        "newSelectedIntersects": false,
+        "minimumNewDistanceMetres": 881644.4007449249,
+        "wholeTargetSharedBoundaryUnchanged": true,
+        "wholeTargetOverlapUnchanged": true,
+        "scope": "Exact source geometry relations only at actual overlapping source periods. The North Schleswig one-day record is not expanded to other dates."
+      },
+      {
+        "target": "DEU",
+        "entityId": "state:north-schleswig",
+        "versionId": "north-schleswig-1900-r3",
+        "validFrom": "1900-01-01",
+        "validTo": "1900-01-01",
+        "geometrySha256": "8647261fd22bc128c2b4cc5dca1f607964484a50b5cd4ce1c508fd81173ff81a",
+        "sourcePath": "assets/data/territorial-entities/source/countries/state-north-schleswig.json",
+        "sourceBytesSha256": "dbfbdeaf0b909210e3c396f635e3b7b8a7b30bb8b68fa0dffb467dce83d269ee",
+        "bounds": [
+          8.458832,
+          54.801617,
+          10.065115,
+          55.4249686566465
+        ],
+        "sourcePeriodIntersection": [
+          "1900-01-01",
+          "1900-01-01"
+        ],
+        "oldSelectedIntersects": false,
+        "newSelectedIntersects": false,
+        "minimumNewDistanceMetres": 16900.397319701096,
+        "wholeTargetSharedBoundaryUnchanged": true,
+        "wholeTargetOverlapUnchanged": true,
+        "scope": "Exact source geometry relations only at actual overlapping source periods. The North Schleswig one-day record is not expanded to other dates."
+      },
+      {
+        "target": "DEU",
+        "entityId": "state:east-prussia",
+        "versionId": "ostpreussen-1878-1920-r3",
+        "validFrom": "1878-04-01",
+        "validTo": "1920-01-10",
+        "geometrySha256": "845421dd00d73b03e6106ad1578559e11b80b28b271c3c470fa8ba8876174205",
+        "sourcePath": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+        "sourceBytesSha256": "7d4009f24f549e532fbfd49c4a4ebe50d425bde1bf75fff29aba7567084df886",
+        "bounds": [
+          19.306593,
+          53.139569,
+          22.848352,
+          55.897496192252326
+        ],
+        "sourcePeriodIntersection": [
+          "1878-04-01",
+          "1918-11-08"
+        ],
+        "oldSelectedIntersects": false,
+        "newSelectedIntersects": false,
+        "minimumNewDistanceMetres": 366115.87754361425,
+        "wholeTargetSharedBoundaryUnchanged": true,
+        "wholeTargetOverlapUnchanged": true,
+        "scope": "Exact source geometry relations only at actual overlapping source periods. The North Schleswig one-day record is not expanded to other dates."
+      },
+      {
+        "target": "DEU",
+        "entityId": "state:west-prussia",
+        "versionId": "state:west-prussia:1900-01-01-r1",
+        "validFrom": "1878-04-01",
+        "validTo": "1919-12-31",
+        "geometrySha256": "f82768d351c9739413e4f2037b79798047a2b334da78c66fa91cfddafb58de79",
+        "sourcePath": "assets/data/territorial-entities/source/countries/state-west-prussia.json",
+        "sourceBytesSha256": "a84ff856375c69867b5291548979d9fba2b298c31729f40ed471fefabd601bdd",
+        "bounds": [
+          15.97351150789861,
+          52.8458661199028,
+          19.99039274230751,
+          54.838324
+        ],
+        "sourcePeriodIntersection": [
+          "1878-04-01",
+          "1918-11-08"
+        ],
+        "oldSelectedIntersects": false,
+        "newSelectedIntersects": false,
+        "minimumNewDistanceMetres": 179283.94905415774,
+        "wholeTargetSharedBoundaryUnchanged": true,
+        "wholeTargetOverlapUnchanged": true,
+        "scope": "Exact source geometry relations only at actual overlapping source periods. The North Schleswig one-day record is not expanded to other dates."
+      }
+    ],
+    "fullPeriodDatedCounterpartClosureVerified": false
+  },
+  "inputIdentity": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/approved-archive-inputs.json",
+    "sha256": "ce3bb2f51e9b5b3945b27dd89167d66e0987a06681d2ad70cebb46f72325f8ed"
+  }
+}
