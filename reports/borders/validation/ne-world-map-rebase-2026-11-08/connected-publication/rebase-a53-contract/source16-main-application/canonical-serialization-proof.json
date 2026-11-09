@@ -1,0 +1,228 @@
+{
+  "status": "canonical-serialization-difference-proven-not-reapplied",
+  "at": "2026-11-09T03:36:57.141Z",
+  "rows": [
+    {
+      "entityId": "state:IDN",
+      "state": "applied-canonical-exact",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "b708532a8bc929bb435b7f7ed4e6a26286e753f95dd35e4edcc6ebd2dbc67988",
+      "canonicalDescriptorSha256": "b708532a8bc929bb435b7f7ed4e6a26286e753f95dd35e4edcc6ebd2dbc67988",
+      "oldPlannedEntitySha256": "c8f0ca8f7a0a0aaf51fea6fec370a6c4bcc97c0081ff51dadb8edc740754581b",
+      "canonicalEntitySha256": "c8f0ca8f7a0a0aaf51fea6fec370a6c4bcc97c0081ff51dadb8edc740754581b",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:MNG",
+      "state": "applied-canonical-exact",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "294e2b73982d9f835017f4a80438430dd05507214896b0c1841b443aaa666a09",
+      "canonicalDescriptorSha256": "294e2b73982d9f835017f4a80438430dd05507214896b0c1841b443aaa666a09",
+      "oldPlannedEntitySha256": "ddb2b7ba3dc2583853c2669de7dda1e9df44effc634a963a21c258dbb8070fcc",
+      "canonicalEntitySha256": "ddb2b7ba3dc2583853c2669de7dda1e9df44effc634a963a21c258dbb8070fcc",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:DEU",
+      "state": "applied-canonical-exact",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "a3df05ac0e172eb0a714eec5858e1601686f1d1efce20ff727ddfdf9271bc0ed",
+      "canonicalDescriptorSha256": "a3df05ac0e172eb0a714eec5858e1601686f1d1efce20ff727ddfdf9271bc0ed",
+      "oldPlannedEntitySha256": "89c7ab7c4401849d72c2ee21f2b5bcfcaab3e45db3af2621ec0a570c3d520e88",
+      "canonicalEntitySha256": "89c7ab7c4401849d72c2ee21f2b5bcfcaab3e45db3af2621ec0a570c3d520e88",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:IRN",
+      "state": "applied-canonical-exact",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "7220d21643d89bfe710f2495069b5b9bd50412fb33826aad8bcc193092ca92d3",
+      "canonicalDescriptorSha256": "7220d21643d89bfe710f2495069b5b9bd50412fb33826aad8bcc193092ca92d3",
+      "oldPlannedEntitySha256": "e7bcdf78ecd744e5b359d4ccca6900b1bcffea1a336b9dcc3ef54b455c25f798",
+      "canonicalEntitySha256": "e7bcdf78ecd744e5b359d4ccca6900b1bcffea1a336b9dcc3ef54b455c25f798",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:czechoslovakia",
+      "state": "applied-canonical-exact",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "27000480f058aeb2a0c59f6f9f6380c71a9ee682fbdac34c8aca1eb683ec0023",
+      "canonicalDescriptorSha256": "27000480f058aeb2a0c59f6f9f6380c71a9ee682fbdac34c8aca1eb683ec0023",
+      "oldPlannedEntitySha256": "6dd1bea99d32895ddb2fa86ead580c0e33b9489135b657dc2cbef41073733926",
+      "canonicalEntitySha256": "6dd1bea99d32895ddb2fa86ead580c0e33b9489135b657dc2cbef41073733926",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "state": "applied-canonical-exact",
+      "selectedVersions": 4,
+      "oldPlannedDescriptorSha256": "2f104fc140d7d09403b0a5250e28aeee483e5a6fbb3b0edda143a453855e636d",
+      "canonicalDescriptorSha256": "76536a7417635a6eda563b5e45d96192e951ab4d2a7dfaa142b80c436e18f8bb",
+      "oldPlannedEntitySha256": "c7977fa8a1acbe7af09223ef95034b8d81846383befbd80f9b1a41508191bdff",
+      "canonicalEntitySha256": "85a50ba540849594058b288e2d622184c8341132a5c4c082d9c397ed84827e79",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [
+        {
+          "path": "$",
+          "before": [
+            "schemaVersion",
+            "entityId",
+            "entityKind",
+            "lineageId",
+            "names",
+            "alternateNames",
+            "lifetime",
+            "parentEntityId",
+            "geometryVersions",
+            "instantiation",
+            "metadata",
+            "sourceInfo",
+            "nameVersions",
+            "storageLayout"
+          ],
+          "canonical": [
+            "schemaVersion",
+            "entityId",
+            "entityKind",
+            "lineageId",
+            "names",
+            "alternateNames",
+            "nameVersions",
+            "lifetime",
+            "parentEntityId",
+            "geometryVersions",
+            "instantiation",
+            "metadata",
+            "sourceInfo",
+            "storageLayout"
+          ]
+        },
+        {
+          "path": "$.nameVersions.0",
+          "before": [
+            "validFrom",
+            "validTo",
+            "names"
+          ],
+          "canonical": [
+            "names",
+            "validFrom",
+            "validTo"
+          ]
+        },
+        {
+          "path": "$.nameVersions.0.names",
+          "before": [
+            "ko",
+            "en"
+          ],
+          "canonical": [
+            "en",
+            "ko"
+          ]
+        },
+        {
+          "path": "$.nameVersions.1",
+          "before": [
+            "validFrom",
+            "validTo",
+            "names"
+          ],
+          "canonical": [
+            "names",
+            "validFrom",
+            "validTo"
+          ]
+        },
+        {
+          "path": "$.nameVersions.1.names",
+          "before": [
+            "ko",
+            "en"
+          ],
+          "canonical": [
+            "en",
+            "ko"
+          ]
+        }
+      ],
+      "sourceGateChecks": 4
+    },
+    {
+      "entityId": "state:untaet-east-timor",
+      "state": "unchanged-preimage",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "bd110ecf6674f7b221573c1e13eac6e260ca0a144274f5b27a840003f6b72e2e",
+      "canonicalDescriptorSha256": "bd110ecf6674f7b221573c1e13eac6e260ca0a144274f5b27a840003f6b72e2e",
+      "oldPlannedEntitySha256": "899390283cf71ba3d29bd13e29b11e3ac4b68b9cbe79aa0385bcac575390b28d",
+      "canonicalEntitySha256": "899390283cf71ba3d29bd13e29b11e3ac4b68b9cbe79aa0385bcac575390b28d",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:unmik-kosovo",
+      "state": "unchanged-preimage",
+      "selectedVersions": 1,
+      "oldPlannedDescriptorSha256": "76330b6fc9963d8bb688fd431d50bc72326d8ee3d1e35d259fcc0300ff51db1d",
+      "canonicalDescriptorSha256": "76330b6fc9963d8bb688fd431d50bc72326d8ee3d1e35d259fcc0300ff51db1d",
+      "oldPlannedEntitySha256": "1e072155d6a5e03f699152bdc3420ca4c69f0a251f78f73dd98a1d31ddb91579",
+      "canonicalEntitySha256": "1e072155d6a5e03f699152bdc3420ca4c69f0a251f78f73dd98a1d31ddb91579",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 1
+    },
+    {
+      "entityId": "state:KOR",
+      "state": "unchanged-preimage",
+      "selectedVersions": 2,
+      "oldPlannedDescriptorSha256": "0864b45d68dde9f5506007d126361e7ab70ab28e273f1411375d5f1b3928778a",
+      "canonicalDescriptorSha256": "0864b45d68dde9f5506007d126361e7ab70ab28e273f1411375d5f1b3928778a",
+      "oldPlannedEntitySha256": "c2635665d7e7fb3b76cb9dc09f5e79208cf28a87b93bebf0022ada6d8fa6323c",
+      "canonicalEntitySha256": "c2635665d7e7fb3b76cb9dc09f5e79208cf28a87b93bebf0022ada6d8fa6323c",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 2
+    },
+    {
+      "entityId": "state:PRK",
+      "state": "unchanged-preimage",
+      "selectedVersions": 3,
+      "oldPlannedDescriptorSha256": "ac71fba7299f48ff58ea0ce85792dea00eeefee7b5b5d2cdd676b99d2b547105",
+      "canonicalDescriptorSha256": "ac71fba7299f48ff58ea0ce85792dea00eeefee7b5b5d2cdd676b99d2b547105",
+      "oldPlannedEntitySha256": "c4ac0a83b416030def8ecfa8b498afc63ff179d7ac1bbdd3361f5238a3c8e17d",
+      "canonicalEntitySha256": "c4ac0a83b416030def8ecfa8b498afc63ff179d7ac1bbdd3361f5238a3c8e17d",
+      "logicalSourceDeepEqual": true,
+      "allGeometryResourceBytesEqual": true,
+      "keyOrderDifferences": [],
+      "sourceGateChecks": 3
+    }
+  ],
+  "appliedEntities": 6,
+  "appliedVersions": 9,
+  "unchangedEntities": 4,
+  "explanation": "The source writer reads through normalizeTerritorialLibraryEntity before updating. The old report plan used direct decoded property order. Values and all immutable geometry bytes match; only the recorded object property order differs for the listed paths. No review receipt, geometry, date, identity, or sourceInfo value is changed.",
+  "codeChanges": false,
+  "sourceWrites": false,
+  "store": false,
+  "push": false
+}

@@ -1,0 +1,674 @@
+{
+  "status": "source16-canonical-authoring-complete-not-stored",
+  "at": "2026-11-09T03:31:57.993Z",
+  "baseline": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+  "codeCommit": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+  "moduleHashes": {
+    "tools/data/library-runtime.mjs": "3440bfe3a3c42ac70e48f63a1b25f4953ce9728d886844aaf41ca7134b2c5932",
+    "tools/data/library-runtime-index.mjs": "045cd516a0845cd952cb4e0184853bda13efdfddc76611ab0b8aeb53b0f37ab9",
+    "tools/data/territorial-entity-sources.mjs": "7870ec004689bdcf7d7df8dc1913e3970a323d64ab0c937cff9b103a166c3c98",
+    "tools/data/territorial-source-codec.mjs": "bee34d36cf0b70e8623fc93cebe29df8e0546855306f5a8ccfce971eb5c474e7",
+    "tools/data/library-store.mjs": "c8edd05e39ddb9f2f5e14bc8b96158f49457fd1549cf27f2bfd6a6855552219a",
+    "tools/gis/historical-display-review.mjs": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563"
+  },
+  "scope": {
+    "entities": 10,
+    "versions": 16,
+    "descriptors": 10,
+    "newResources": 13,
+    "storePaths": [
+      "assets/data/territorial-entities/source/countries/state-IDN.json",
+      "assets/data/territorial-entities/source/countries/state-MNG.json",
+      "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "assets/data/territorial-entities/source/countries/state-IRN.json",
+      "assets/data/territorial-entities/source/countries/state-czechoslovakia.json",
+      "assets/data/territorial-entities/source/countries/state-yugoslavia.json",
+      "assets/data/territorial-entities/source/countries/state-untaet-east-timor.json",
+      "assets/data/territorial-entities/source/countries/state-unmik-kosovo.json",
+      "assets/data/territorial-entities/source/countries/state-KOR.json",
+      "assets/data/territorial-entities/source/countries/state-PRK.json",
+      "assets/data/territorial-entities/source/geometries/sha256-c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4.json",
+      "assets/data/territorial-entities/source/geometries/sha256-cf8d8945dfc821f2fee173354cbaf53f02c53f92e566bff6691e45d647f598a3.json",
+      "assets/data/territorial-entities/source/geometries/sha256-282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433.json",
+      "assets/data/territorial-entities/source/geometries/sha256-2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2.json",
+      "assets/data/territorial-entities/source/geometries/sha256-bc11d520629ddf0eed914d2c0e0c61a1f58b679c40cdfc34a90994c70a312caf.json",
+      "assets/data/territorial-entities/source/geometries/sha256-4fb2bad3c696d686de706922867b76f8f91379ce239e0df3a116bea2868b7b18.json",
+      "assets/data/territorial-entities/source/geometries/sha256-8e9609acc6a56b21799aafb96d89bf38b9b44ba89aea8dc64d9f9c3728197e9b.json",
+      "assets/data/territorial-entities/source/geometries/sha256-374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673.json",
+      "assets/data/territorial-entities/source/geometries/sha256-6ad5a4c194ffe22add3466dda208c26178331901f5d10fb5823c9fbac218ab54.json",
+      "assets/data/territorial-entities/source/geometries/sha256-b8226f120936e80b93b8448210ff6af32885bcc58bd51e557010f8ad424fd4be.json",
+      "assets/data/territorial-entities/source/geometries/sha256-52a49c930a3c433cc25fbda4a94f186b6bd1b1f6cbc8eaee371500d785ddd195.json",
+      "assets/data/territorial-entities/source/geometries/sha256-5e04c8d0c655e3b8ae746e68a92ce0da5ad9cd5ee63fa88f0e69080755d48a33.json",
+      "assets/data/territorial-entities/source/geometries/sha256-83b2d7f2f119d2693adc486ff94368823d63717a5e9894e5acf4d2253dfbb1ad.json"
+    ]
+  },
+  "recovery": {
+    "oldMainPinSha256": "d25671d3d15f97cb96883ad816cb27746b8adbc53bb84f608fc7e33b7dd9ad4e",
+    "oldMainPinPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/source16-main-application/main-pin.before.json",
+    "oldMainView": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\5a910333a91c4c815298b009e4f553d3bb55f20a56aeb7e9b286ccdacaf90f47",
+    "oldMounts": {
+      "assets/data": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\5a910333a91c4c815298b009e4f553d3bb55f20a56aeb7e9b286ccdacaf90f47\\assets\\data",
+      "reports": "D:\\dev\\PandoLab-library-data\\reports",
+      "tools/historical-library/sources": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\5a910333a91c4c815298b009e4f553d3bb55f20a56aeb7e9b286ccdacaf90f47\\tools\\historical-library\\sources",
+      "tools/historical-library/working": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\5a910333a91c4c815298b009e4f553d3bb55f20a56aeb7e9b286ccdacaf90f47\\tools\\historical-library\\working",
+      "tools/historical-library/review-output": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\5a910333a91c4c815298b009e4f553d3bb55f20a56aeb7e9b286ccdacaf90f47\\tools\\historical-library\\review-output",
+      "tools/historical-library/land-borders": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\a53f9b319b23678e82c4b9ffdb9f824a040ca5f3\\scopes\\5a910333a91c4c815298b009e4f553d3bb55f20a56aeb7e9b286ccdacaf90f47\\tools\\historical-library\\land-borders"
+    },
+    "beforeDescriptorDirectory": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/source16-main-application/before-descriptors",
+    "beforeVersions": {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/source16-main-application/before-selected-versions.json",
+      "sha256": "adb99bb5a53547924bccfd9130d88276883a5ee15c6a78c935b31de599400abc"
+    },
+    "oldResourcesRetainedByRevision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d"
+  },
+  "resolvedEvidence": [
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/original-reference.geojson",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/original-reference.geojson",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "813f1d7457334deeecb7499c853e91b56ec8c2e50740391a45fc62d81315263a",
+      "bytes": 440885,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+      "bytes": 83264304,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/visual-review.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/visual-review.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "bc1f7c0790ecea5155a1d50b35c477f6812f5d482c7f637b9622e9022770c1c4",
+      "bytes": 4272,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/display-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/display-review.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "2996a5c661c52ae07c19c47c70c421b8a5585ab22b6d04387c848de82ca3fd50",
+      "bytes": 1001224,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/topology-and-dates-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/topology-and-dates-proof.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "cb2ae097034f4cff0dcad4b73f31cdb397fbc499f9db8ed484318f64a8e91765",
+      "bytes": 4512404,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/source-input.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/source-input.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "4e2738953e16716959d1d7fbb3722934f4cfb4227350c30bae08837c3b1c9dff",
+      "bytes": 17586659,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/reference-arcs.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/reference-arcs.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "8194bc1a535acdf4aa7a6a82a0ac4ba46d8360a914187bdac3742d5adf26052d",
+      "bytes": 4361122,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/visual-review.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/visual-review.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "28006c165bf54895008d664db573b9ba5b88bf73e09b4e295cb02ec40cb6042b",
+      "bytes": 8770,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/MNG-1922-12-29.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/MNG-1922-12-29.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "5d09fdde98fd7c26aae5db5a156cb0009fea960907ed84a85b5c70ca684cc288",
+      "bytes": 116106,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/topology-and-dates-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/topology-and-dates-proof.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "6436cb8696059ee76d8063c58739397c8d6e24d5feb0df99aca5170fc869cdec",
+      "bytes": 170362,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/DEU-1870-12-31.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/DEU-1870-12-31.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "ff2dd70402e41c046e4a0da6b52dbc51a4b8829d4251230b40ab1e6e0865a4b5",
+      "bytes": 91626,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/IRN-1921-12-31.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/IRN-1921-12-31.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "481a7f443529e6ae5e074178a3b0945d4dfa41105fb524700f28faf415c84c9a",
+      "bytes": 116744,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/czechoslovakia-1992.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/czechoslovakia-1992.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "9187d08733f14d7c7f7161d21c8e1df643d8bb3d640c40c86eb5dd2ea46afa84",
+      "bytes": 58148,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/yugoslavia-1941-04-17.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/yugoslavia-1941-04-17.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "984127a07c2bf2b1821d8e7c9bb67223c5cb9f18e87a94965e6c2cc41eb290de",
+      "bytes": 107923,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/yugoslavia-1992-04-26.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/yugoslavia-1992-04-26.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "271565da84cbc74758473ba20d527245718a1feab8241f2b843c0e77496da6da",
+      "bytes": 108542,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "Pinned library a1bc7a5229b252c5b8d9612026cd0ae3e82d7327: assets/data/territorial-entities/source/countries/state-yugoslavia.json",
+      "path": "assets/data/territorial-entities/source/countries/state-yugoslavia.json",
+      "revision": "a1bc7a5229b252c5b8d9612026cd0ae3e82d7327",
+      "sha256": "5f972b1efe057d2a29cbdf9ec3a964924bd30083abce438a80aa766b527ec704",
+      "bytes": 669793,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/ne-reference-arcs.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/ne-reference-arcs.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "e709e87b0f18cc9ce1438d25ba55b089a676717e13c58f789a8b953cda69cb6c",
+      "bytes": 202068,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/visual-review.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/visual-review.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "11fe97349080bca3a1df8c323867a0bf657ef85452e58311c3e10380341c6a8e",
+      "bytes": 4450,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/display-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/display-review.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "f183ff3c26ee3178f99fe4f360cad0e11146e72aa86d80c1c2a083d7753b423d",
+      "bytes": 127268,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/topology-and-dates-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/unmik-review/topology-and-dates-proof.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "fd7e6f36af0ac9211d2b50ab7a656cbe4884963dd2b8da38987022d65889fac2",
+      "bytes": 52361,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "Pinned library a1bc7a5229b252c5b8d9612026cd0ae3e82d7327: assets/data/territorial-entities/source/countries/state-untaet-east-timor.json",
+      "path": "assets/data/territorial-entities/source/countries/state-untaet-east-timor.json",
+      "revision": "a1bc7a5229b252c5b8d9612026cd0ae3e82d7327",
+      "sha256": "0ae53cb3e89ebee43253fc1b163790dddc1887afd470de1244dd1ff2054e94da",
+      "bytes": 26566,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/untaet-review/ne-reference-arcs.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/untaet-review/ne-reference-arcs.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "26aa10a7b59f0adb88268746aeb2ba852b204f8fd5ddf1fccc83d0eadfcc1a15",
+      "bytes": 7132,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/untaet-review/topology-and-dates-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/untaet-review/topology-and-dates-proof.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "c2c564eaa56aa0e4caaf871a728951d2ec07770bb4b0c691a6b4bbba15904fda",
+      "bytes": 4146,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/untaet-review/display-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/untaet-review/display-review.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "ce988440bdf167122f22619da81071669fbd31c1a9b3baec6c715daa44866493",
+      "bytes": 115594,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "Pinned library a1bc7a5229b252c5b8d9612026cd0ae3e82d7327: assets/data/territorial-entities/source/countries/state-unmik-kosovo.json",
+      "path": "assets/data/territorial-entities/source/countries/state-unmik-kosovo.json",
+      "revision": "a1bc7a5229b252c5b8d9612026cd0ae3e82d7327",
+      "sha256": "4455845acd490c864f5bbccedf626b4e2e4831854024b3fa29a1f2d2fe2b54b4",
+      "bytes": 23138,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+      "path": "tools/historical-library/sources/korea/lsib-11.4-korean-boundaries.geojson",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "0c9716ee3c9e5bf40b1d625fc11d50961f2a2dd481195815632e8e2138f2eb84",
+      "bytes": 2446006,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "tools/historical-library/sources/korea/provenance.json",
+      "path": "tools/historical-library/sources/korea/provenance.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "b6067b59a2aed56300d793da667d29fe2ff53343b7d79ee6fb62029d554ea71b",
+      "bytes": 3576,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/ne-reference.geojson",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/ne-reference.geojson",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "0b743516f276bb5886b723baa7bbe2e8b9541636761c488a60d11c9e3a7efc0b",
+      "bytes": 110796,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/projection-execution.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/projection-execution.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "faebe8bde10b9e4088d0233dcfc5d8171c14eca0ed3085f5e1cc23e2edd4532e",
+      "bytes": 819,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/display-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/display-review.png",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "da54ef5e2ce4c4c755fc1f72daa16f3ae8cd1a5e5a08fa7bd5523dbbd2c95bd1",
+      "bytes": 94385,
+      "fromCanonicalArchiveOnly": true
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/topology-and-dates-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-review/topology-and-dates-proof.json",
+      "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+      "sha256": "72f25448a6c8268b71aa6f5ded236d19570264f3f57c4260f6c9f030a6619643",
+      "bytes": 10137,
+      "fromCanonicalArchiveOnly": true
+    }
+  ],
+  "versions": [
+    {
+      "entityId": "state:IDN",
+      "versionId": "state:IDN:1963-1975-before-east-timor-r1",
+      "validFrom": "1963-05-01",
+      "validTo": "1975-12-06",
+      "beforeSha256": "4cab1b89a1574d01663d447b0f24bec8b0dfe5392bd7548ca1fddeca50dc7945",
+      "afterSha256": "5990400108bd22dcf47639a9efae0ca7e4652ab119b96cdc0764e753c19299b5"
+    },
+    {
+      "entityId": "state:MNG",
+      "versionId": "state:MNG:natural-earth-5.1.1:before-china-frontier-1922",
+      "validFrom": null,
+      "validTo": "1922-12-29",
+      "beforeSha256": "57089747f9a4e8d1a867954326cb1d9b9b6f4beedfaba5926554f292149c89a0",
+      "afterSha256": "1e5de4fb4dd0b77a2b6c049aff8e5def385c190d6f1bb49a50b6bdcca9c8c71d"
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+      "validFrom": null,
+      "validTo": "1870-12-31",
+      "beforeSha256": "03c2bcbffe354f1f7cfef7c678ad96632953af0b1571c896f1c4fd8b37c3d7c7",
+      "afterSha256": "2c6f609124a48b0f06dfacad3474620f18fc46afb0fd80f2d05f3a5e981bd8d2"
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-before",
+      "validFrom": null,
+      "validTo": "1921-12-31",
+      "beforeSha256": "98cf27ab7f2c5ac4891ba58fbc207302ce813100e15434c35ecb2b7c65307a5b",
+      "afterSha256": "6970fde6b05dac4d98be0551d22c767da404ac6cb2035b90de7ca1da8fdd5eb4"
+    },
+    {
+      "entityId": "state:czechoslovakia",
+      "versionId": "state:czechoslovakia:pilot-successor-union",
+      "validFrom": "1918",
+      "validTo": "1992",
+      "beforeSha256": "374c6c8672787ab9fc31f74b4207bd5a63ba37c6b6e19f1f457d48aac1afbb45",
+      "afterSha256": "f5a2b86099dcff2c0a3d420c5a613548ac1dee177c881f0d26a391f53ea52909"
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "versionId": "state:kingdom-of-yugoslavia:1918-1941-r1",
+      "validFrom": "1918-12-01",
+      "validTo": "1941-04-17",
+      "beforeSha256": "d2fdcfdc74fae77cbb27c2f3d8eb2e17678c673c2bd423daf09a29a335f3fee6",
+      "afterSha256": "afe899dca6b250dcf73bd6306e05d0be127466270b61ae28b2d2b7c64a21e613"
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "versionId": "state:sfr-yugoslavia:1945-1992-r1",
+      "validFrom": "1945-11-29",
+      "validTo": "1992-04-26",
+      "beforeSha256": "7362edfc2689d73d411302b3c28af74bb53977708ff4f3a952c8a2456e2ca90d",
+      "afterSha256": "1f744fd0f04a438a39008efa96c72d834e7822ec16ed5a596ed528ea9344518b"
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "versionId": "state:federal-republic-of-yugoslavia:1992-2003-r1",
+      "validFrom": "1992-04-27",
+      "validTo": "2003-02-03",
+      "beforeSha256": "32571a442c4aed4506c862ae05ea82b9ac9d0f58c4b8b3066aa97eb33ce9fd6e",
+      "afterSha256": "96b4c9e10d5bbc2133af3d48cde95a508e3058ae6284cdddcf323629a61d3d8a"
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "versionId": "state:serbia-montenegro:2003-2006-r1",
+      "validFrom": "2003-02-04",
+      "validTo": "2006-06-02",
+      "beforeSha256": "8ea68884afebef5361c4d67d076907603ec90773d21e8823d238ab1dcc060322",
+      "afterSha256": "75c717ec7617c4d898cf8b62cd7e668cdf9066a672cd2976e57dc9af8e5cf00b"
+    },
+    {
+      "entityId": "state:untaet-east-timor",
+      "versionId": "state:untaet-east-timor:existing-outline-proxy",
+      "validFrom": "1999-10-25",
+      "validTo": "2002-05-19",
+      "beforeSha256": "7499f34b154a043de9b750f98c71a383652104016b5d5f2d82c54ff27fba5fda",
+      "afterSha256": "26e4dd5de1800ddab11c3b069e6cc09858bdd5c884902e4c3229194204aeaff2"
+    },
+    {
+      "entityId": "state:unmik-kosovo",
+      "versionId": "state:unmik-kosovo:existing-outline-proxy",
+      "validFrom": "1999-06-10",
+      "validTo": "2008-02-16",
+      "beforeSha256": "3813d7d9e212a02bebcb20351894069bca2d0e78c0686e28ff2f96d1551c4c0c",
+      "afterSha256": "032f43977a2cc112d6139c2d8f96bb383722da8083da13b9e79932d926cb65c2"
+    },
+    {
+      "entityId": "state:KOR",
+      "versionId": "state:KOR:38th-parallel-1948",
+      "validFrom": "1948-08-15",
+      "validTo": "1953-07-26",
+      "beforeSha256": "858ca049fd13ea3d2d3e9ced84fc63bc8480ff13a25b1635228a3dce0f2516fb",
+      "afterSha256": "2ad7d542d8a171d43ecf39cc14a92651277141c697463166384420185d5ab1c6"
+    },
+    {
+      "entityId": "state:KOR",
+      "versionId": "state:KOR:armistice-1953",
+      "validFrom": "1953-07-27",
+      "validTo": null,
+      "beforeSha256": "db8fa8734724c260ee474b3a225540babd47723f4192952682ec880bd753a33a",
+      "afterSha256": "33ae5b4855f4c8fdca4fadbc041ff4eaaf7177ef12a47a3a6ac22c6b8b55ee33"
+    },
+    {
+      "entityId": "state:PRK",
+      "versionId": "state:PRK:38th-parallel-1948",
+      "validFrom": "1948-09-09",
+      "validTo": "1953-07-26",
+      "beforeSha256": "2b923848df26fee798c4ddfc6d5bb5c9f2f6854f037fb54e874cb4e706808eab",
+      "afterSha256": "1ce73d4236a7d5f6005b4abde27230c8202d9bd9f597110eea24402161e1b1b1"
+    },
+    {
+      "entityId": "state:PRK",
+      "versionId": "state:PRK:armistice-1953",
+      "validFrom": "1953-07-27",
+      "validTo": "1964-03-19",
+      "beforeSha256": "77a5b96597a5b62b54e7cdf48e98d464adf89907de077e300a1f910c87921b4a",
+      "afterSha256": "e223b77a855ad5a303d6143316994833eaa95e63c124e57d39d4700f0526a976"
+    },
+    {
+      "entityId": "state:PRK",
+      "versionId": "state:PRK:sino-korean-protocol-1964",
+      "validFrom": "1964-03-20",
+      "validTo": null,
+      "beforeSha256": "63df0705c8a7b085d173f793a318dbc2532564f1b476379762baf26df6e1576b",
+      "afterSha256": "3dc0a6ad618dc6b31f4fed94df37eb0beda4c8b7f06f64125274c53eafb4eebb"
+    }
+  ],
+  "applied": [
+    {
+      "entityId": "state:IDN",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-IDN.json",
+      "descriptorSha256": "b708532a8bc929bb435b7f7ed4e6a26286e753f95dd35e4edcc6ebd2dbc67988",
+      "entitySha256": "c8f0ca8f7a0a0aaf51fea6fec370a6c4bcc97c0081ff51dadb8edc740754581b",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:MNG",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-MNG.json",
+      "descriptorSha256": "294e2b73982d9f835017f4a80438430dd05507214896b0c1841b443aaa666a09",
+      "entitySha256": "ddb2b7ba3dc2583853c2669de7dda1e9df44effc634a963a21c258dbb8070fcc",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:DEU",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "descriptorSha256": "a3df05ac0e172eb0a714eec5858e1601686f1d1efce20ff727ddfdf9271bc0ed",
+      "entitySha256": "89c7ab7c4401849d72c2ee21f2b5bcfcaab3e45db3af2621ec0a570c3d520e88",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:IRN",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-IRN.json",
+      "descriptorSha256": "7220d21643d89bfe710f2495069b5b9bd50412fb33826aad8bcc193092ca92d3",
+      "entitySha256": "e7bcdf78ecd744e5b359d4ccca6900b1bcffea1a336b9dcc3ef54b455c25f798",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:czechoslovakia",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-czechoslovakia.json",
+      "descriptorSha256": "27000480f058aeb2a0c59f6f9f6380c71a9ee682fbdac34c8aca1eb683ec0023",
+      "entitySha256": "6dd1bea99d32895ddb2fa86ead580c0e33b9489135b657dc2cbef41073733926",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "versions": 4,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-yugoslavia.json",
+      "descriptorSha256": "76536a7417635a6eda563b5e45d96192e951ab4d2a7dfaa142b80c436e18f8bb",
+      "entitySha256": "85a50ba540849594058b288e2d622184c8341132a5c4c082d9c397ed84827e79",
+      "sourceGateChecks": 4,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:untaet-east-timor",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-untaet-east-timor.json",
+      "descriptorSha256": "bd110ecf6674f7b221573c1e13eac6e260ca0a144274f5b27a840003f6b72e2e",
+      "entitySha256": "899390283cf71ba3d29bd13e29b11e3ac4b68b9cbe79aa0385bcac575390b28d",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:unmik-kosovo",
+      "versions": 1,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-unmik-kosovo.json",
+      "descriptorSha256": "76330b6fc9963d8bb688fd431d50bc72326d8ee3d1e35d259fcc0300ff51db1d",
+      "entitySha256": "1e072155d6a5e03f699152bdc3420ca4c69f0a251f78f73dd98a1d31ddb91579",
+      "sourceGateChecks": 1,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:KOR",
+      "versions": 2,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-KOR.json",
+      "descriptorSha256": "0864b45d68dde9f5506007d126361e7ab70ab28e273f1411375d5f1b3928778a",
+      "entitySha256": "c2635665d7e7fb3b76cb9dc09f5e79208cf28a87b93bebf0022ada6d8fa6323c",
+      "sourceGateChecks": 2,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    },
+    {
+      "entityId": "state:PRK",
+      "versions": 3,
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-PRK.json",
+      "descriptorSha256": "ac71fba7299f48ff58ea0ce85792dea00eeefee7b5b5d2cdd676b99d2b547105",
+      "entitySha256": "c4ac0a83b416030def8ecfa8b498afc63ff179d7ac1bbdd3361f5238a3c8e17d",
+      "sourceGateChecks": 3,
+      "untouchedVersionsAndMetadataPreserved": true,
+      "reapplied": false
+    }
+  ],
+  "runtimeActivated": false,
+  "stored": false,
+  "pushed": false,
+  "preparedMainPinSha256": "29c6b5dd49192adfdf3c91a22168adc6f0bfcc4026218e9508ddcc6762e26a30",
+  "preparation": {
+    "materialized": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\7fdd27d40bb62fb1f6d21738819e184ad1ff816d\\scopes\\0916a4578f4112b56ea2c20d922a5e5bc47e62bcedba2f6f82e21723108eb010",
+    "preparation": {
+      "purpose": "gis",
+      "prefixes": [
+        "assets/data/territorial-entities/source/countries",
+        "assets/data/territorial-entities/source/lineages"
+      ],
+      "scopeId": "0916a4578f4112b56ea2c20d922a5e5bc47e62bcedba2f6f82e21723108eb010"
+    },
+    "fileCount": 844,
+    "geometryResources": 291,
+    "geometryPreparationIsByteIntegrityOnly": true,
+    "compaction": {
+      "checkout": "D:\\dev\\PandoLab-library-data",
+      "status": "compacted",
+      "eligibleBytes": 0,
+      "deletedBytes": 0,
+      "files": 0
+    }
+  },
+  "lease": {
+    "id": "main-f6b9a702-8f79-41db-9f44-9d27d07bdb17",
+    "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\7fdd27d40bb62fb1f6d21738819e184ad1ff816d\\scopes\\0916a4578f4112b56ea2c20d922a5e5bc47e62bcedba2f6f82e21723108eb010",
+    "owner": "main",
+    "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d"
+  },
+  "executionPlan": {
+    "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/source16-main-application/canonical-execution-plan.json",
+    "sha256": "b4fc1f365c9a2015fa9f1acefd7fe42ca5d5098eaeff8a8003aff5192541e5ce"
+  },
+  "previousStop": {
+    "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '76536a7417635a6eda563b5e45d96192e951ab4d2a7dfaa142b80c436e18f8bb'\n- '2f104fc140d7d09403b0a5250e28aeee483e5a6fbb3b0edda143a453855e636d'\n",
+    "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '76536a7417635a6eda563b5e45d96192e951ab4d2a7dfaa142b80c436e18f8bb'\n- '2f104fc140d7d09403b0a5250e28aeee483e5a6fbb3b0edda143a453855e636d'\n\n    at file:///D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/apply-source16-on-main.mjs:31:63\n    at withLibraryWrite (file:///D:/dev/PandoLab/tools/data/library-runtime.mjs:458:18)\n    at file:///D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/apply-source16-on-main.mjs:28:2"
+  },
+  "resumeLease": {
+    "id": "main-7d364b37-e758-4b68-bbee-7d4cd29116c4",
+    "revision": "7fdd27d40bb62fb1f6d21738819e184ad1ff816d",
+    "owner": "main"
+  },
+  "resumeApplied": [
+    "state:untaet-east-timor",
+    "state:unmik-kosovo",
+    "state:KOR",
+    "state:PRK"
+  ],
+  "sourceGateChecks": 16,
+  "newResources": [
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4.json",
+      "sha256": "c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4",
+      "bytes": 4324426
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-cf8d8945dfc821f2fee173354cbaf53f02c53f92e566bff6691e45d647f598a3.json",
+      "sha256": "cf8d8945dfc821f2fee173354cbaf53f02c53f92e566bff6691e45d647f598a3",
+      "bytes": 110941
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433.json",
+      "sha256": "282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433",
+      "bytes": 242010
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2.json",
+      "sha256": "2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2",
+      "bytes": 328609
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-bc11d520629ddf0eed914d2c0e0c61a1f58b679c40cdfc34a90994c70a312caf.json",
+      "sha256": "bc11d520629ddf0eed914d2c0e0c61a1f58b679c40cdfc34a90994c70a312caf",
+      "bytes": 84021
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-4fb2bad3c696d686de706922867b76f8f91379ce239e0df3a116bea2868b7b18.json",
+      "sha256": "4fb2bad3c696d686de706922867b76f8f91379ce239e0df3a116bea2868b7b18",
+      "bytes": 280901
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-8e9609acc6a56b21799aafb96d89bf38b9b44ba89aea8dc64d9f9c3728197e9b.json",
+      "sha256": "8e9609acc6a56b21799aafb96d89bf38b9b44ba89aea8dc64d9f9c3728197e9b",
+      "bytes": 69496
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673.json",
+      "sha256": "374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673",
+      "bytes": 21362
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-6ad5a4c194ffe22add3466dda208c26178331901f5d10fb5823c9fbac218ab54.json",
+      "sha256": "6ad5a4c194ffe22add3466dda208c26178331901f5d10fb5823c9fbac218ab54",
+      "bytes": 17118
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-b8226f120936e80b93b8448210ff6af32885bcc58bd51e557010f8ad424fd4be.json",
+      "sha256": "b8226f120936e80b93b8448210ff6af32885bcc58bd51e557010f8ad424fd4be",
+      "bytes": 588695
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-52a49c930a3c433cc25fbda4a94f186b6bd1b1f6cbc8eaee371500d785ddd195.json",
+      "sha256": "52a49c930a3c433cc25fbda4a94f186b6bd1b1f6cbc8eaee371500d785ddd195",
+      "bytes": 529603
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-5e04c8d0c655e3b8ae746e68a92ce0da5ad9cd5ee63fa88f0e69080755d48a33.json",
+      "sha256": "5e04c8d0c655e3b8ae746e68a92ce0da5ad9cd5ee63fa88f0e69080755d48a33",
+      "bytes": 164041
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-83b2d7f2f119d2693adc486ff94368823d63717a5e9894e5acf4d2253dfbb1ad.json",
+      "sha256": "83b2d7f2f119d2693adc486ff94368823d63717a5e9894e5acf4d2253dfbb1ad",
+      "bytes": 233337
+    }
+  ],
+  "preservation": {
+    "workGisPinUnchanged": true,
+    "onlyMainPinAppDiff": true,
+    "sourceInfoAndUntouchedVersions": true,
+    "unselectedCacheManifestEntries": true,
+    "libraryHeadAndArchiveUnchanged": true,
+    "reportOwnersRefsUnchanged": true,
+    "oldLeasesUnchanged": true,
+    "codeUnchanged": true
+  }
+}
