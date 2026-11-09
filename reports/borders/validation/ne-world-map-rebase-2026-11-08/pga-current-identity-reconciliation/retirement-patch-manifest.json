@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "status": "ready-for-guarded-coherent-retirement-implementation; not applied",
+  "canonicalWriter": "/root/list_historical_ne/apply_connected_library_outputs",
+  "retiredSourceId": "state:PGA",
+  "retiredProjectId": "d34b00a1-9b13-8000-8000-000000504741",
+  "guards": [
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-PGA.json",
+      "sha256": "bd8eed2b71772cac82360c8073907e2bb315cc43437fba12831693313a69ba05"
+    },
+    {
+      "path": "assets/data/territorial-entities/source/lineages/pga.json",
+      "sha256": "e7af6df1dd5e1ed4fd81447f8aa7a5a267349664ce957b5dfe18d2e937dc7379"
+    },
+    {
+      "path": "assets/data/territorial-entities/source/views/world.json",
+      "sha256": "2ded24105c2fddb73c0e051b86eef450f3a35b3e8e7295dd5c0ba6fa216836ff"
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/index.json",
+      "sha256": "d8487880d23ec03b48cbfc3d2e458b9f9b666c511c0069e9f2568c47a83a7586"
+    },
+    {
+      "path": "assets/data/builtin-world/display-policy-v1.json",
+      "sha256": "dfec7060d54eb459fea1643093421b78216129e184454103aa67e9a867cf8b9a"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "sha256": "2123bddbe2aca538431643147106ab0e7b0d89b0edcce8fece17a45534167433"
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/coverage-report.json",
+      "sha256": "de16a9eb1c8fe690442ecae5a28da90c204f1494ff25c07837b323e607657568"
+    }
+  ],
+  "sourceOwnershipChanges": [
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-PGA.json",
+      "operation": "Remove from active country-source directory only after recovery archive verification; preserve state-PGA.before.json and existing Git blob."
+    },
+    {
+      "path": "assets/data/territorial-entities/source/lineages/pga.json",
+      "operation": "Remove sole-member false-identity lineage from active lineages; preserve pga.before.json."
+    },
+    {
+      "path": "assets/data/territorial-entities/source/views/world.json",
+      "operation": "Remove exactly state:PGA selection; candidate world-view.candidate.json."
+    },
+    {
+      "path": "assets/data/builtin-world/display-policy-v1.json",
+      "operation": "Remove exactly PGA->USA subunit. Retain policy revision to avoid unrelated subunit metadata churn; candidate display-policy.candidate.json. No KAB change."
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/index.json",
+      "operation": "Remove state:PGA entity and pga lineage; replace matching world view with paired revised view; preserve snapshots and all unrelated descriptors."
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-PGA.json.gz",
+      "operation": "Retire active source chunk with source index; retain recoverable archive original."
+    }
+  ],
+  "compiledChanges": [
+    {
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "operation": "Retire PGA compiled entity descriptor and sourceIdentities row; remove state:PGA inputHashes.sourceRevisions entry and recompute sorted source revision digest and revised view digest using recordBuiltinWorldInputs. Other identities/descriptors remain as generated for their approved scopes."
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/coverage-report.json",
+      "operation": "Remove only PGA entity coverage. No PGA adjustments exist."
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000504741-sha256-f763a2c2dd5c5bb7053dcc901bc7776e9b4958a1d391a238dfc6ad4bda069389.json.gz",
+      "operation": "Stop referencing retired payload. Preserve old content-addressed payload while any pin/recovery consumer remains."
+    }
+  ],
+  "generationConstraints": [
+    "The normal partial builder rejects view changes and cannot delete identities. Do not fabricate a new previous hash to bypass that guard. Implement an explicit scoped identity-retirement publication step with before/after proof, or extend the canonical partial generator with a reviewed explicit retirement contract.",
+    "Use existing finalizeBuiltinWorldFiles with previousIndex to retain unchanged country descriptors/bytes in the explicit identity-retirement publication. Paired source/index/view changes must be coherent before normal donor regeneration resumes.",
+    "Keep raw assets/data/countries-ne-5.1.1.geojson as historical/source evidence. It has non-runtime terrain/hydro/reconstruction consumers and is not the active country-source registry.",
+    "App docs/builtin-territory-policy.md contains the stale PGA->Wake assertion and config path. Coordinate its small correction; do not change unrelated flags/geometry fixtures or run whole-catalog tests.",
+    "No allocation to a country may be inferred from twelve stale polygon locations. Ten new-map components must be linked to saved approved allocation.",
+    "tools/library-data.mjs assertTerritorialStorageScope rejects source and lineage removals in scoped publication. Extend that canonical validator with an explicit, input-bound retirement contract; do not widen to the whole territorial prefix merely to bypass the guard. The native library.json and objects/<indexHash>.json must be produced from the revised paired index by the existing store owner, never patched independently.",
+    "tools/build-territorial-entity-chunks.mjs --entities=<ids> cannot remove identities or update lineages/views. A coherent retirement needs explicit scoped handling at the canonical source/chunk/index owner, not an independently edited index that a later build reintroduces."
+  ],
+  "checks": {
+    "noChildSourceReferences": true,
+    "noSnapshotReferences": true,
+    "noHistoricalPolicyPgaRules": true,
+    "noCoverageAdjustmentDependents": true,
+    "sourceGeometryPreservedInRecovery": true,
+    "kabPolicyUnchanged": true,
+    "viewOnlyGhostReproduced": "compiler-retirement-proof.json",
+    "approvedTenIslandAllocation": {
+      "status": "saved-evidence-verified-and-bound-to-exact-donor",
+      "file": "approved-ten-island-allocation.json",
+      "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81",
+      "independentOriginalComponentCoverageRerun": false
+    },
+    "originalRawNeIdentity": {
+      "file": "raw-ne-pga-metadata.json",
+      "sha256": "7c2988771dd629a5702014695dc937cf43ed231fa952bdafedbeb5c1d2b5d707",
+      "name": "Spratly Islands",
+      "type": "Indeterminate"
+    }
+  },
+  "affectedTests": [
+    {
+      "path": "tests/unit/builtin-subunits.test.mjs",
+      "issue": "Three hardcoded47 assertions and a source read from preserved raw NE. Update active interpretation fixture so retiring PGA does not turn the raw PGA evidence into a sovereign country. Keep raw-source preservation test separate. Use synthetic fixture for focused execution."
+    },
+    {
+      "path": "tests/unit/territorial-chunks.test.mjs",
+      "issue": "Hardcoded258 world selections and source/index checks need aligned257 expectation for this retirement. Do not run the whole real catalog just to check one removal."
+    },
+    {
+      "path": "tests/fixtures/territorial-entity-baseline.json",
+      "issue": "Separate preserved raw NE inventory assertions from active source identity assertions; PGA may remain only in raw-source oracle."
+    },
+    {
+      "path": "tests/fixtures/country-lineage-baseline.json",
+      "issue": "Active state:PGA/pga expectation must not silently restore false identity."
+    },
+    {
+      "path": "tests/fixtures/country-lineage-pinned-sources.json",
+      "issue": "Pinned historical original may remain as evidence; active false identity must not be recreated."
+    }
+  ],
+  "readiness": {
+    "geographicIdentityResolved": true,
+    "approvedCurrentDonorAllocationEvidenceResolved": true,
+    "politicalAttributionInferred": false,
+    "operationalWrites": 0,
+    "blockedOn": "Canonical scoped retirement code/data writer integration; no supported existing source deletion API.",
+    "rawComponentRerunUnavailable": true
+  },
+  "recipientAttribution": {
+    "file": "saved-recipient-effective-control-attribution.json",
+    "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a",
+    "sourceEntities": [
+      "state:VNM",
+      "state:PHL",
+      "state:CHN",
+      "state:TWN"
+    ],
+    "operation": "Coordinate with current-source adoption owner so each selected current donor retains its exact component attribution and saved coverage proof. Do not change other versions or invent control-start dates."
+  }
+}

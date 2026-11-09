@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-08T15:34:03.511Z",
+  "scope": "69 additional current selected source targets only; no new historical review gate imposed",
+  "projectionEvidence": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-closure-execution.json",
+    "sha256": "9e34ce22c647da3eba3b09c60a8665b52d89295a8b91b3af4d7eb153133aab9f"
+  },
+  "sourceInput": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+  },
+  "nominalScale": 10000000,
+  "physicalDisplayCalibrated": false,
+  "readiness": "Visual inspection alone does not clear outstanding source topology blockers",
+  "rows": [
+    {
+      "region": "closure-africa-west",
+      "targets": [
+        "SAH",
+        "MLI",
+        "NGA",
+        "NER",
+        "MRT",
+        "SEN",
+        "CIV",
+        "GIN",
+        "BEN",
+        "BFA",
+        "GHA",
+        "TGO",
+        "LBR",
+        "SLE",
+        "GNB",
+        "GMB",
+        "CMR",
+        "GAB",
+        "GNQ"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-west.png",
+        "sha256": "8b5ee43970fed7d737c973c4eb7871df3d9dbf24ffc29b7ee1bdace8c7cda4fe"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-west.svg",
+        "sha256": "77f25096ec9384a216c6f44c31b3b0482eff0ca6cf2b3207aeb2688778ecff72"
+      },
+      "finding": "Inspected West African/West-Central mainland outlines, the retained Western Sahara partition, Gulf of Guinea coasts and Gambia corridor. No new visible mainland tear. Existing political conventions, source islands and delta detail remain unchanged from the approved donor.",
+      "historicalAccuracyVerified": false
+    },
+    {
+      "region": "closure-africa-south",
+      "targets": [
+        "TZA",
+        "COG",
+        "ZMB",
+        "AGO",
+        "BDI",
+        "RWA",
+        "MWI",
+        "MOZ",
+        "BWA",
+        "ZWE",
+        "NAM",
+        "ZAF",
+        "SWZ",
+        "LSO"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-south.png",
+        "sha256": "2e7185cc36a445fc5cc9db40926bf6f7e469f7f4fd0e39d4f20295c3001545d8"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-south.svg",
+        "sha256": "55569a828c9059f496712477b0efc7a8bcb0525ced84bcfa0c0c185656e48707"
+      },
+      "finding": "Inspected central/southern Africa, Angola/Cabinda component, Great Lakes neighbors, Mozambique coast, Lesotho and Eswatini. Macro joins are coherent. The old NAM/ZWE point contact is separately reconciled by exact four-country junction coverage proof, not inferred from screen pixels.",
+      "historicalAccuracyVerified": false
+    },
+    {
+      "region": "closure-africa-horn",
+      "targets": [
+        "SOM",
+        "SOL",
+        "DJI"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-horn.png",
+        "sha256": "7e8aca79c4739e36483235797eeb5a5635488ed8910bd3346f9d8fe74d2d6c1e"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-horn.svg",
+        "sha256": "1f2fd790432ad2915b32003f4053ff347dd08983c99ed8d89871a3d4042552bf"
+      },
+      "finding": "Inspected Djibouti and the existing Somalia/Somaliland partition with Ethiopia/Kenya context. Coast and shared sides are coherent; this preserves existing political interpretation without a new sovereignty finding.",
+      "historicalAccuracyVerified": false
+    },
+    {
+      "region": "closure-middle-east",
+      "targets": [
+        "ISR",
+        "PSX",
+        "LBN",
+        "JOR",
+        "YEM"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-middle-east.png",
+        "sha256": "caec0326f014b325b963a2bd4d2dadfc2b5e84dcc4dd51267d33ca9fddaabae3"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-middle-east.svg",
+        "sha256": "64624c9569b054af1a5d5bacaf703a2e85bcebc7b9e66dc0731c6e25558f5076"
+      },
+      "finding": "Inspected Israel/Palestine, Lebanon, Jordan and Yemen with adjoining approved sources. Yemen/Socotra components and existing Palestine divisions are retained. At this nominal scale narrow shapes and labels are crowded; numerical topology and coordinate preservation, not labels, establish their retention.",
+      "historicalAccuracyVerified": false
+    },
+    {
+      "region": "closure-asia-neighbors",
+      "targets": [
+        "BTN",
+        "VNM",
+        "KHM",
+        "LAO",
+        "MMR",
+        "BGD",
+        "NPL"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-asia-neighbors.png",
+        "sha256": "e04166fa0503870258ee3b460789f8c3c186c6ec1ebc513f0456e412f51cb51f"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-asia-neighbors.svg",
+        "sha256": "25674a287d51604afef51a7f7d510b5680145ce5aa3ae3659f69599224ba8451"
+      },
+      "finding": "Inspected Nepal/Bhutan/Bangladesh, Myanmar, Laos, Cambodia and Vietnam mainland/coastal structure. Macro joins are coherent. Offshore VNM/PGA overlap is too small for this regional image and remains an explicitly unresolved topology/identity issue; this inspection does not clear it.",
+      "historicalAccuracyVerified": false
+    },
+    {
+      "region": "closure-south-america",
+      "targets": [
+        "BRA",
+        "SUR",
+        "ARG",
+        "BOL",
+        "PER",
+        "COL",
+        "GUY",
+        "PRY",
+        "URY",
+        "VEN",
+        "CHL",
+        "ECU",
+        "BRI"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-south-america.png",
+        "sha256": "01511c8854e82089bc0a10b79c729db2a1c1960f33287730cd5f444ffd80b8cd"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-south-america.svg",
+        "sha256": "636026fd1c0c979fa14faa4f355501054da98f3a72320189bf6efba7936b8bff"
+      },
+      "finding": "Inspected full South American macro coverage from Colombia/Venezuela through Patagonia, Guianas/Brazil borders, the BRI tripoint feature and the retained Chilean archipelago. No new disconnected mainland or visibly missing major component. Tiny islands remain exact donor coordinates, not independently surveyed.",
+      "historicalAccuracyVerified": false
+    },
+    {
+      "region": "closure-central-america",
+      "targets": [
+        "MEX",
+        "BLZ",
+        "GTM",
+        "HND",
+        "PAN",
+        "SLV",
+        "CRI",
+        "NIC"
+      ],
+      "status": "visually-inspected-macro-source-preservation",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-central-america.png",
+        "sha256": "9d404e1e253f33bf1dfa1febdea709b6348bcf7a05e8e8923e9ea0c938d37413"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-central-america.svg",
+        "sha256": "583b6f9c3817e7ea5ae866d3cb28f4c57ba2a96d664fb80c5ddebfbd6ecbb0d7"
+      },
+      "finding": "Inspected Mexico/Baja California through Panama, Belize and Central American joins with USA/Colombia context. Mainland continuity and major coast/peninsula forms are coherent. Unrelated Caribbean sources are not part of this closure.",
+      "historicalAccuracyVerified": false
+    }
+  ],
+  "previousSourceInput": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+    "sha256": "891315c94ba6b66844fcea8cb0c9b7e776c2d1a38cee644144405b13133423ec"
+  },
+  "requiredCoordinatedRetirement": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/retirement-patch-manifest.json",
+    "sha256": "5adf7588faf7f379c7d58c7105433030fcabd035b3ce2a63d45edf7bf78603b1",
+    "entityId": "state:PGA",
+    "status": "ready-for-guarded-coherent-retirement-implementation; not applied",
+    "sourceAndRuntimeRetirementApplied": false,
+    "requiredBeforeFinalPublication": true,
+    "condition": "These source receipts assume the explicitly authorized coherent PGA retirement is applied in the same coordinated source/output transition. Keeping PGA active is not covered by this adjacency approval.",
+    "allocation": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+      "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81"
+    },
+    "recipientAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+      "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a"
+    }
+  },
+  "reuseEvidenceScope": "Previously inspected unchanged region images only; this does not claim new visual inspection of the 34 disconnected additions.",
+  "resolvedSinceInspection": "The previously noted VNM/PGA issue is resolved only by the bound coherent PGA retirement, not clipping or moving donor geometry. Numerical checks use that final input state."
+}

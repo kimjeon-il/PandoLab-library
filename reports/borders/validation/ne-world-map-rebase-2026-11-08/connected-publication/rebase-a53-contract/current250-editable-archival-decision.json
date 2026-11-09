@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "status": "approved-editable-source-archival-only",
+  "at": "2026-11-09T04:14:30.407Z",
+  "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/current250-editable-archival-decision.json",
+  "approval": "The project coordinator explicitly approved this narrow phase under the user request to publish worktree edits to library main first, before Soviet19. This stage decision does not amend any original review receipt.",
+  "authority": "The 250 version-targeted edits become canonical editable authoring source authority. They are not inert backup and are not promoted to current-world/generated runtime.",
+  "runtimeAdopted": false,
+  "generatedOutputsUpdated": false,
+  "pgaRetirementApplied": false,
+  "combinedActiveSourceAdjacencyApproved": false,
+  "originalConditionsStillRequiredForLaterPromotion": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/retirement-patch-manifest.json",
+    "sha256": "5adf7588faf7f379c7d58c7105433030fcabd035b3ce2a63d45edf7bf78603b1",
+    "entityId": "state:PGA",
+    "status": "ready-for-guarded-coherent-retirement-implementation; not applied",
+    "sourceAndRuntimeRetirementApplied": false,
+    "requiredBeforeFinalPublication": true,
+    "condition": "These source receipts assume the explicitly authorized coherent PGA retirement is applied in the same coordinated source/output transition. Keeping PGA active is not covered by this adjacency approval.",
+    "allocation": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+      "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81"
+    },
+    "recipientAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+      "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a"
+    }
+  },
+  "originalReadyScope": "Source candidates only. Actual write/publication requires the bound coherent PGA retirement plus separately checked generated outputs.",
+  "plan": {
+    "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/current250-on-0ee-readonly-plan.json",
+    "sha256": "73142d7d7da98c45cdb856fd85efb47c38bcf40f60eb4d3eba4f93163208b57e"
+  },
+  "candidate": {
+    "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/version-adoption-candidates.json",
+    "sha256": "bb22578e1583311c032df3e7c919d60ffffeb8fccdea8b0f0fa8b24c5090816b"
+  },
+  "originalHandoff": {
+    "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/handoff-manifest.json",
+    "sha256": "ccafa4c1e223d8bad2477dfc3387fb0e98ab1103c1bf8815e7310f46a2d59e73"
+  },
+  "originalSourceGateProof": {
+    "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-gate-proof.json",
+    "sha256": "c3aa8b164e07d992c3bc74a135d0e2d02e150223b6a1a6ab344f847cc03ad58b"
+  },
+  "consumerReviewRecord": {
+    "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/current250-consumer-boundary-record.json",
+    "sha256": "f5254b87279c2fcd0914edea34c25ff3d8691e7d5d6e64e76ffe4dd14b37c0fd",
+    "content": {
+      "status": "verified-consumer-boundary-record",
+      "at": "2026-11-09T04:14:30.244Z",
+      "author": "Archival coordinator, recording the independent read-only reviewer findings and verifying the cited canonical files. The reviewer returned text, not an artifact; this record is not attributed as a reviewer-authored file.",
+      "appCode": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+      "dataHead": "29dd968edbaf6bc3cef98a5d9b4c67854d5996ad",
+      "sourceBaseline": "0ee39a46d827f21a698d5cb68038d913932dc50c",
+      "freshRemoteChecks": {
+        "method": "Formal require_escalated git ls-remote --exit-code origin refs/heads/main on each existing origin",
+        "appMain": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+        "dataMain": "29dd968edbaf6bc3cef98a5d9b4c67854d5996ad",
+        "networkOutcome": "success"
+      },
+      "files": [
+        {
+          "path": "tools/data/library-store.mjs",
+          "sha256": "c8edd05e39ddb9f2f5e14bc8b96158f49457fd1549cf27f2bfd6a6855552219a"
+        },
+        {
+          "path": "src/data/runtime-manifest-assets.js",
+          "sha256": "c339f765133b6d0656cdcbc31a0806454080515ad5908104d21bd0bf054f6c65"
+        },
+        {
+          "path": "tools/data/territorial-entity-sources.mjs",
+          "sha256": "7870ec004689bdcf7d7df8dc1913e3970a323d64ab0c937cff9b103a166c3c98"
+        },
+        {
+          "path": "src/ui/inspector/viewer-review-panel.js",
+          "sha256": "9ad0cf6f281310a7c0905dab66d6c0207c21d5b4c03d38b2a31c97dc33f27f1f"
+        },
+        {
+          "path": "scripts/lib/library-auto-inputs.mjs",
+          "sha256": "154fa68221489814be487252f1918340fccfd4809c4da0df1d30ca63e4a2c0a0"
+        },
+        {
+          "path": "scripts/library-auto-sync.mjs",
+          "sha256": "3a8c910dd9c1b0aa3eed6f716aacace1dd24f35e7922ad01847035de8a199012"
+        },
+        {
+          "path": ".github/workflows/library-data-auto-sync.yml",
+          "sha256": "8815f8e58c4ee18f65dcebd1e5b9af8d2b4ad6a3af1251b4bf1f93c38331a3bd"
+        },
+        {
+          "path": "config/library-auto-sync.json",
+          "sha256": "b177db380b9bef4dbb5934b9e862b026a68c7c65c3736c8cb45dbbd40aee286a"
+        }
+      ],
+      "findings": [
+        {
+          "path": "tools/data/library-store.mjs",
+          "lines": "199-215, 221, 236, 347-349",
+          "finding": "Editable raw sources may be archived before derived chunks. Exact source-only scopes do not choose generated/builtin publication. A successful non-report store advances the local app pin; that is authorized for this phase, not a runtime activation claim."
+        },
+        {
+          "path": "src/data/runtime-manifest-assets.js",
+          "lines": "34-69",
+          "finding": "Current runtime manifests own dependency paths. Source/provenance fields do not activate original GIS inputs. The selected 494 paths are absent from this actual runtime dependency set."
+        },
+        {
+          "path": "tools/data/territorial-entity-sources.mjs",
+          "lines": "83-109, 135-146",
+          "finding": "Raw sources are editable authoring authority and inputs to explicit GIS work. Indexed reads require actual chunk bytes, source equality and index metadata, so stale pairing remains fail-closed."
+        },
+        {
+          "path": "src/ui/inspector/viewer-review-panel.js",
+          "lines": "21-89",
+          "finding": "E3 geometry preview consumes immutable revision/hash-bound source objects for review, not active map runtime."
+        },
+        {
+          "path": "scripts/lib/library-auto-inputs.mjs",
+          "lines": "24-40",
+          "finding": "Automatic reconciliation treats raw archive sources as authoring authority, not inert backup."
+        },
+        {
+          "path": "scripts/library-auto-sync.mjs",
+          "lines": "24-35, 56-59",
+          "finding": "Main execution rejects MAIN_PRODUCTION_DISABLED when productionEnabled is false."
+        },
+        {
+          "path": ".github/workflows/library-data-auto-sync.yml",
+          "lines": "24-29, 91-100",
+          "finding": "Scheduled or workflow_run main jobs are stopped by the production policy. No request or dispatch is created in this task."
+        }
+      ],
+      "productionEnabled": false,
+      "autoSyncRequested": false,
+      "workflowDispatched": false,
+      "runtimeDependencyProof": {
+        "method": "Canonical runtimeArchiveIndex viewer traversal reads manifest JSON only; dependency identities come from the current archive. No runtime geometry payload audit or regeneration.",
+        "manifestReads": [
+          {
+            "path": "assets/data/world/current.json",
+            "sha256": "df83715119da49df963132e6edfd852edc2a953d0a618de378016587fb24be8b",
+            "bytes": 87492
+          },
+          {
+            "path": "assets/data/builtin-world/generated/v1/index.json",
+            "sha256": "e26aff18bc65538e7a2bbafafd407a497cd891e1f7ec83e926fd0151aed426de",
+            "bytes": 2013521
+          },
+          {
+            "path": "assets/data/prepared-polygons/generated/v2/manifest.json",
+            "sha256": "8ba53694b1288f4214eb3800558172623219a78dfc0f5381b20f2b108aa62d96",
+            "bytes": 270072
+          },
+          {
+            "path": "assets/data/hydro/v0.13.4/manifest.json",
+            "sha256": "3ce36ed3ec3a711af62fff39bcbd05a4f7d7b21ffb3107258d2b9453dd172afc",
+            "bytes": 54842
+          },
+          {
+            "path": "assets/data/places/manifest.json",
+            "sha256": "b9ad0bb6733a46a83a9c295eeceef79b626b21f213cb4e18ffd1205895a54829",
+            "bytes": 129505
+          },
+          {
+            "path": "assets/data/terrain-preview/v0.13.3-p2/manifest.json",
+            "sha256": "def32b86bebf84a24ceecaf68caac7a8d711b4bb355115f983d5d98e3d87a870",
+            "bytes": 2316
+          },
+          {
+            "path": "assets/data/physical-land/v1/manifest.json",
+            "sha256": "404881d11ecd629a22fb2715e0ab095b74b77b25c3ffdb1c4ec0b2cdec9e27fd",
+            "bytes": 7363
+          }
+        ],
+        "entries": 1049,
+        "logicalIdentitySha256": "32a651c34f72e95e6a2e8297605f756f612ccda390c452a6c190951310843032",
+        "all494SourcePathsExcluded": true
+      },
+      "preparation": {
+        "purpose": "gis",
+        "files": 850,
+        "geometryResources": 297,
+        "logicalBytes": 28527754,
+        "existingPoolEntries": 827,
+        "additionalImmutablePoolBytes": 7261704,
+        "newAuthoredResourceBytes": 77462934,
+        "freeBytes": 45611159552,
+        "method": "Necessary membership descriptors/lineages and their resource dependency decode/hash/hardlink only; no whole GIS or historical/topology validation."
+      }
+    },
+    "contentSerialization": "UTF-8 JSON.stringify(content,null,2) plus LF; hash equals the bound record bytes."
+  },
+  "evidence": [
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+      "bytes": 83264304,
+      "statusAtSourceBaseline": "exact-current-archive"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+      "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b",
+      "bytes": 375591,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+      "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c",
+      "bytes": 381417,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f",
+      "bytes": 253794,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+      "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54",
+      "bytes": 86590584,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+      "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8",
+      "bytes": 10564,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+      "sha256": "25e71b18d03ede72a0b3a2ad9a1f75a1ab237d089e17fd44ccee245ab2776be6",
+      "bytes": 14741,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.png",
+      "sha256": "8630894383087815020c9968c9dbc6f9b2d8a4fe9f9c38f657a20dfe20eb6288",
+      "bytes": 373350,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/simplified-northern-replacement.geojson",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/simplified-northern-replacement.geojson",
+      "sha256": "f3b6a220e90380d4962cdae0e684b34d08b17e0a7835877590c9a6f213f86d42",
+      "bytes": 2000738,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+      "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a",
+      "bytes": 3048,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+      "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81",
+      "bytes": 3188,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/canonical-simplified-northern-validation.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/canonical-simplified-northern-validation.json",
+      "sha256": "510bfaf831187dd64aef53a6e9714a72683ec9e4ab56860e23ce3dfe7ec4c0ae",
+      "bytes": 475,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-final-topology-and-residue-proof.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-final-topology-and-residue-proof.json",
+      "sha256": "fc24b7e49cc8b20b27233c145d7fef035c7ffe90a953097b31e32c648ff6145c",
+      "bytes": 1698,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-island-preservation-proof.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-island-preservation-proof.json",
+      "sha256": "44f798663a0ecb0465f5dada9f87d4bd96640a18dbe1de3a01ed2bca17a10bfa",
+      "bytes": 1636,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/uniform-simplification-source-evidence.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/uniform-simplification-source-evidence.json",
+      "sha256": "7f45bd2395ab019bd3c8b5e4260f7f02949b0b6529b9745adec83e887a6dd748",
+      "bytes": 3184,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/east-asia.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/east-asia.png",
+      "sha256": "69601a7df33ba90efb7123feb0f4073a4ce5823956ca146ef6b89aa8f07f55b4",
+      "bytes": 365782,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/sudan.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/sudan.png",
+      "sha256": "c168daacbc6c1b7876ef461a4298d41c6a0db94c4027605d8e6488cd6f2abdb3",
+      "bytes": 140657,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-west.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-west.png",
+      "sha256": "3d429d968882cf46bd6096029711da1f07f094a29f89a9ba53001fe4007e36cd",
+      "bytes": 246463,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/france-guiana.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/france-guiana.png",
+      "sha256": "634555d59fa71ee7002e103705f8150c648d0675598e30edef49ddab7d79c127",
+      "bytes": 73016,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-east.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-east.png",
+      "sha256": "fdfbec05f3fc87abf3783a0aed8d5a1f7c6fbbd15f2d256c8d5266595bd0726e",
+      "bytes": 260490,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/central-asia.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/central-asia.png",
+      "sha256": "59808f40e19a62ad6f1e10a1093b34478f0fa313e83df2d0113b1906695947d4",
+      "bytes": 209349,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/russia.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/russia.png",
+      "sha256": "9b7b86b4b6245cc672b9387f8559f42f017c8ed097de0358d9cfe781022303c1",
+      "bytes": 693812,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/caucasus.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/caucasus.png",
+      "sha256": "234d1d26c1aa4cbf6242bdc67f6a8bf680607ca2e637069a1fdaf449269f04d4",
+      "bytes": 64415,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/iran.png",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/iran.png",
+      "sha256": "ab68c47394ccb737ab070e828067e50a55bb22017334bf11addcc81c285fccb5",
+      "bytes": 108966,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/normalization-proof.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/normalization-proof.json",
+      "sha256": "984751a647a2cde5e7a4d129249eef6d06ee65962b76581c0e5da77b20bb9f4f",
+      "bytes": 66355,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/tha-cnm-existing-work.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/tha-cnm-existing-work.json",
+      "sha256": "c665311fd749c4df0a571e3a26c2c7a16eeb9c97234f59c230523e0b0a14f727",
+      "bytes": 952,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-chunk-index-guards.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-chunk-index-guards.json",
+      "sha256": "47930c7b87d115c4e18da509fc0a881cd1971736a862db6b568a88a2d5c0b603",
+      "bytes": 259782,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/new-target-existing-work.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/new-target-existing-work.json",
+      "sha256": "bb34f234d8677e9e290222c4472ab9b23cd1e354655821eab4645dacb663e103",
+      "bytes": 29852,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/adjacency-closure.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/adjacency-closure.json",
+      "sha256": "f8a51a4c0e1a42e41013a375b3961f5a2c7b756c0eea8e9697ac438e985a9200",
+      "bytes": 22524,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/old-new-adjacency-comparison.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/old-new-adjacency-comparison.json",
+      "sha256": "9a615fc7de0cb6c49ad5e41c742d7569695f1610d0f3f4464e02217bb616dc9e",
+      "bytes": 73169,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/kazungula-adjacency.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/kazungula-adjacency.json",
+      "sha256": "efe05955496018f86076ca61ff39f9887f2d49fba0b4b4c4b6b585f06f340279",
+      "bytes": 4352,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-closure-review.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-closure-review.json",
+      "sha256": "e4fa049205278daaefb3c6563403239fa1e9945921fadd6b506f755a21c699eb",
+      "bytes": 11361,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-closure-execution.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-closure-execution.json",
+      "sha256": "9e34ce22c647da3eba3b09c60a8665b52d89295a8b91b3af4d7eb153133aab9f",
+      "bytes": 7827,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/outside-target-existing-work.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/outside-target-existing-work.json",
+      "sha256": "0c06d78e5ef8fb323a7c788a7af2a133871a6ef46eff4eb33834c97917985d8c",
+      "bytes": 14815,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/retained-current-input-guards.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/retained-current-input-guards.json",
+      "sha256": "f61cf3cebb09a7eaef38b35509f6fdab5b08a9b3d93a3fb245ae3f55f4c2ca50",
+      "bytes": 8970,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/complete-current-donor-pairing.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/complete-current-donor-pairing.json",
+      "sha256": "dcb5d8ba54d42fa3091a9ec30998ed582c4691158c4b0e3f3a8063ad751c9696",
+      "bytes": 81520,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/final-visual-reuse-and-scope.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/final-visual-reuse-and-scope.json",
+      "sha256": "d5a10faa1d52f055d94990d17c5504ffc30bea400da934ff139648f5fcec6f8e",
+      "bytes": 19040,
+      "statusAtSourceBaseline": "not-currently-archived"
+    },
+    {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/retirement-patch-manifest.json",
+      "logicalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/retirement-patch-manifest.json",
+      "sha256": "5adf7588faf7f379c7d58c7105433030fcabd035b3ce2a63d45edf7bf78603b1",
+      "bytes": 8591,
+      "statusAtSourceBaseline": "not-currently-archived"
+    }
+  ],
+  "scope": {
+    "entities": 250,
+    "versions": 250,
+    "descriptors": 250,
+    "newImmutableGeometryResources": 244,
+    "exactSourcePaths": 494,
+    "removals": 0,
+    "preservedPublishedVersions": 16,
+    "sourceGateChecks": 34,
+    "ungatedUndatedVersions": 216,
+    "sourceBaseline": "0ee39a46d827f21a698d5cb68038d913932dc50c"
+  },
+  "executionConditions": [
+    "Use only the canonical main-root version-targeted source writer under its exclusive scoped lease; preserve all non-target versions and sourceInfo fields.",
+    "Publish the exact 37 missing bound evidence files and this decision first, then verify them through the canonical archive resolver.",
+    "Keep original source, geometry, topology and handoff receipt bytes unchanged. Conditional adjacency evidence certifies the reviewed donor/PGA-retired scenario, not the still-active combined source selection.",
+    "Keep strict source/index/chunk equality and producer/compiled gates unchanged. No fake generated index, ordinary world filter, runtime write, or PGA retirement is included.",
+    "Verify app remote main code and productionEnabled=false before publication. No auto-sync request, workflow dispatch, app code commit, deployment or WASM change.",
+    "Official source store may advance only the local app main data pin after successful publication; all runtime-manifest dependency bytes must remain unchanged. Work/gis pin remains unchanged.",
+    "Use exact scoped storage with expectedRevision, expectedBranch main, push true and remote byte readback. Stop on drift, denial, unknown write outcome or semantic mismatch."
+  ],
+  "remaining": [
+    "Coherent authorized PGA retirement and matching worldview/display metadata.",
+    "Source chunks/index regeneration and strict source-derived runtime compilation.",
+    "Actual changed-country compiled/runtime review and atomic runtime promotion.",
+    "Soviet19 is separate and excluded from this phase."
+  ]
+}

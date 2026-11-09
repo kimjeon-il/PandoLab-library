@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "status": "verified-saved-evidence-bound-to-exact-local-donor",
+  "inventory": {
+    "provider": "World Polygons",
+    "sourceWP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+    "sourceFile": "country-territory-review-small-holes-updated.gpkg",
+    "sourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+    "componentCount": 10,
+    "notEquivalentTo": "Natural Earth PGA twelve polygon indices"
+  },
+  "components": [
+    {
+      "componentIndex": 0,
+      "controller": "VNM",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 1,
+      "controller": "VNM",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 2,
+      "controller": "VNM",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 3,
+      "controller": "PHL",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 4,
+      "controller": "VNM",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 5,
+      "controller": "PHL",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 6,
+      "controller": "PHL",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 7,
+      "controller": "CHN",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 8,
+      "controller": "TWN",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    },
+    {
+      "componentIndex": 9,
+      "controller": "PHL",
+      "missingAreaDeg2": 0,
+      "fullyCovered": true
+    }
+  ],
+  "recipientCounts": {
+    "VNM": 4,
+    "PHL": 4,
+    "CHN": 1,
+    "TWN": 1
+  },
+  "donor": {
+    "file": "../display-review-final-authorized-candidate.geojson",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "localBytesHashVerified": true
+  },
+  "evidence": [
+    {
+      "file": "saved-current-snapshot-retirement-and-island-qa.json",
+      "sha256": "9da4ac48959bfcf082bfc335af7fcc14aa1445363091dccdfe81326c2bb6374c",
+      "exactSavedReportBytesVerified": true
+    },
+    {
+      "file": "saved-spratly-topology-extract.json",
+      "sha256": "7b7b19695c2d92bb04879c472b09908d31e73ebcf7d28806a183f2e6eac03f22",
+      "fullReportSha256": "9417ac421869aae5075d89c48344327dfe3f50ff5f88be41d523501e40fb4d3c"
+    }
+  ],
+  "limitations": [
+    "Original GPKG, original ten component geometries and individual component hashes are not present in the restored handoff. Independent source-component coverage rerun was not possible.",
+    "All-ten-covered and zero missing area are saved prior observations tied to the exact approved donor, not new measurements.",
+    "Old twelve-component PGA cannot be allocated using these ten component indices. No old polygon was guessed, clipped or reassigned.",
+    "The saved QA also documents earlier KAB/BJN/SER retirement. Those are outside this PGA correction. KAB remains an intentional KAZ subunit unchanged.",
+    "No historical attribution epochs or legal sovereignty decision were introduced."
+  ]
+}

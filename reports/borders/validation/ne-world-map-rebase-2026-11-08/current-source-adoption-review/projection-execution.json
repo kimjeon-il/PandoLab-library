@@ -1,0 +1,422 @@
+{
+  "gdal": "3130300",
+  "method": "Executed GDAL/PROJ LAEA projection of exact current donors and preserved prior source references; nominal scale, physical display not calibrated.",
+  "regions": [
+    {
+      "region": "europe-west",
+      "targets": [
+        "FRA",
+        "DEU",
+        "LUX",
+        "BEL",
+        "DNK",
+        "ITA",
+        "CHE",
+        "NLD"
+      ],
+      "neighborContext": [
+        "ESP",
+        "PRT",
+        "AUT",
+        "CZE",
+        "POL",
+        "SVN",
+        "HRV",
+        "GBR",
+        "NOR",
+        "SWE"
+      ],
+      "projection": "+proj=laea +lat_0=49 +lon_0=7 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -1653645.8333333335,
+        -1389062.5,
+        1653645.8333333335,
+        1389062.5
+      ],
+      "geographicBoundingExtent": [
+        -22.17173993300207,
+        34.771716621957914,
+        36.17173993300207,
+        61.50368998675527
+      ],
+      "imagePixels": [
+        1310,
+        1180
+      ],
+      "svgSha256": "2ae9d5f17cb5404d94557e880bca4d98d561d25aed1a3d16dcef55a7d4168f2d",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "europe-east",
+      "targets": [
+        "UKR",
+        "BLR",
+        "LTU",
+        "EST",
+        "LVA",
+        "ALB",
+        "ROU",
+        "GRC",
+        "BGR",
+        "MDA"
+      ],
+      "neighborContext": [
+        "DEU",
+        "POL",
+        "CZE",
+        "SVK",
+        "HUN",
+        "SRB",
+        "MNE",
+        "KOS",
+        "MKD",
+        "BIH",
+        "HRV",
+        "TUR",
+        "FIN",
+        "RUS"
+      ],
+      "projection": "+proj=laea +lat_0=50 +lon_0=28 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -1719791.6666666667,
+        -1587500.0,
+        1719791.6666666667,
+        1587500.0
+      ],
+      "geographicBoundingExtent": [
+        -4.669155962681163,
+        33.836483399363644,
+        60.66915596268117,
+        64.2945915115307
+      ],
+      "imagePixels": [
+        1360,
+        1330
+      ],
+      "svgSha256": "2bedcc16b01142edb2cfe639b29fb78b407c21b8885f0eee6abe0ec785f26d68",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "caucasus",
+      "targets": [
+        "GEO",
+        "AZE",
+        "ARM"
+      ],
+      "neighborContext": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "projection": "+proj=laea +lat_0=42 +lon_0=45 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -859895.8333333334,
+        -727604.1666666667,
+        859895.8333333334,
+        727604.1666666667
+      ],
+      "geographicBoundingExtent": [
+        33.44251168765983,
+        35.030117947756835,
+        56.55748831234017,
+        48.550888393368005
+      ],
+      "imagePixels": [
+        710,
+        680
+      ],
+      "svgSha256": "4b9d7bc6744ce55e40214cad18c37d44175d5c2e88aa9ebcf6de521d7c89b39a",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "central-asia",
+      "targets": [
+        "UZB",
+        "KAZ",
+        "TJK",
+        "KGZ",
+        "TKM"
+      ],
+      "neighborContext": [
+        "RUS",
+        "CHN",
+        "AFG",
+        "IRN"
+      ],
+      "projection": "+proj=laea +lat_0=43 +lon_0=65 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2248958.3333333335,
+        -1719791.6666666667,
+        2248958.3333333335,
+        1719791.6666666667
+      ],
+      "geographicBoundingExtent": [
+        29.451045845380524,
+        24.945343512249572,
+        100.54895415461948,
+        58.509577208620854
+      ],
+      "imagePixels": [
+        1760,
+        1430
+      ],
+      "svgSha256": "cfc3d2c174d515e63091b72d4ca4c6bbd874d34f1f51093470578e77408c0a5c",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "east-asia",
+      "targets": [
+        "CHN",
+        "MNG"
+      ],
+      "neighborContext": [
+        "PRK",
+        "KOR",
+        "RUS",
+        "KAZ",
+        "KGZ",
+        "TJK",
+        "AFG",
+        "PAK",
+        "IND",
+        "NPL",
+        "BTN",
+        "MMR",
+        "VNM",
+        "LAO"
+      ],
+      "projection": "+proj=laea +lat_0=36 +lon_0=105 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2910416.666666667,
+        -2248958.3333333335,
+        2910416.666666667,
+        2248958.3333333335
+      ],
+      "geographicBoundingExtent": [
+        62.50571145943582,
+        12.432967672015838,
+        147.49428854056418,
+        56.34344135482215
+      ],
+      "imagePixels": [
+        2260,
+        1830
+      ],
+      "svgSha256": "d4ee659d1a3ffae73e8173ac4edeb80c8aa793dedf2e5cb2c0ac13039c7efef8",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "russia",
+      "targets": [
+        "RUS"
+      ],
+      "neighborContext": [
+        "NOR",
+        "FIN",
+        "EST",
+        "LVA",
+        "LTU",
+        "BLR",
+        "UKR",
+        "GEO",
+        "AZE",
+        "KAZ",
+        "CHN",
+        "MNG",
+        "PRK"
+      ],
+      "projection": "+proj=laea +lat_0=67 +lon_0=95 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -4365625.0,
+        -2645833.3333333335,
+        4365625.0,
+        2645833.3333333335
+      ],
+      "geographicBoundingExtent": [
+        -179.58317891808682,
+        28.490661488031996,
+        179.72050047842103,
+        89.12325162438061
+      ],
+      "imagePixels": [
+        3360,
+        2130
+      ],
+      "svgSha256": "35f8d159e5cd80ef28293f5c65d68731559c19abd379cf655c6d18ae0dcc91d5",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "sudan",
+      "targets": [
+        "SDS",
+        "SDN"
+      ],
+      "neighborContext": [
+        "EGY",
+        "LBY",
+        "TCD",
+        "CAF",
+        "COD",
+        "UGA",
+        "KEN",
+        "ETH",
+        "ERI"
+      ],
+      "projection": "+proj=laea +lat_0=11 +lon_0=29 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -1653645.8333333335,
+        -1719791.6666666667,
+        1653645.8333333335,
+        1719791.6666666667
+      ],
+      "geographicBoundingExtent": [
+        12.548484249914056,
+        -4.837329824888394,
+        45.45151575008595,
+        26.585222264105514
+      ],
+      "imagePixels": [
+        1310,
+        1430
+      ],
+      "svgSha256": "bc6c8e39e7fb8d73edd2e04d3afd594c8f75ae9f786043d65e9a4693f92d0977",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "indonesia",
+      "targets": [
+        "IDN",
+        "TLS"
+      ],
+      "neighborContext": [
+        "MYS",
+        "PNG",
+        "BRN"
+      ],
+      "projection": "+proj=laea +lat_0=-4 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -3042708.3333333335,
+        -1389062.5,
+        3042708.3333333335,
+        1389062.5
+      ],
+      "geographicBoundingExtent": [
+        89.43803721775336,
+        -16.583251630952283,
+        146.56196278224664,
+        8.67848654515732
+      ],
+      "imagePixels": [
+        2360,
+        1180
+      ],
+      "svgSha256": "758f2c016e14573a860da4832678de79579fe4f5872304979c1107befe7634c7",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "iran",
+      "targets": [
+        "IRN"
+      ],
+      "neighborContext": [
+        "TUR",
+        "IRQ",
+        "KWT",
+        "SAU",
+        "AFG",
+        "PAK",
+        "TKM",
+        "AZE",
+        "ARM"
+      ],
+      "projection": "+proj=laea +lat_0=32 +lon_0=54 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -1322916.6666666667,
+        -1256770.8333333335,
+        1322916.6666666667,
+        1256770.8333333335
+      ],
+      "geographicBoundingExtent": [
+        37.89273408793134,
+        19.998413913235986,
+        70.10726591206866,
+        43.34280997153505
+      ],
+      "imagePixels": [
+        1060,
+        1080
+      ],
+      "svgSha256": "640c65b8b627727428291f2b6e814c192f090f4f5cc98f916da0617be9c8a545",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "france-guiana",
+      "targets": [
+        "FRA"
+      ],
+      "neighborContext": [
+        "BRA",
+        "SUR"
+      ],
+      "projection": "+proj=laea +lat_0=4 +lon_0=-53 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -727604.1666666667,
+        -727604.1666666667,
+        727604.1666666667,
+        727604.1666666667
+      ],
+      "geographicBoundingExtent": [
+        -59.64066082432604,
+        -2.5990278819423276,
+        -46.359339175673945,
+        10.582774213682052
+      ],
+      "imagePixels": [
+        610,
+        680
+      ],
+      "svgSha256": "28ce3e740ebd4270e946bf85962ca3aa35b1b6aed8f9b1af559ad7b0c539ae77",
+      "visualStatus": "awaiting-direct-image-inspection"
+    }
+  ]
+}

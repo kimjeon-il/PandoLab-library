@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-08T15:14:15.405Z",
+  "scope": "34 existing-gated selected versions only; regional 1:10M comparison against preserved prior-source references",
+  "projectionEvidence": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+    "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8"
+  },
+  "rendering": "Exact source coordinates transformed with GDAL/PROJ. SVG coordinate rounding affects rendered pixels only. Final images use direct QPainterPath parsing to avoid QtSvg long-path truncation.",
+  "scaleCaveat": "Nominal 1:10M at 96 dpi. The physical screen size is not calibrated. Fine parcels and individual tiny islands were not independently surveyed.",
+  "historicalAccuracyVerified": false,
+  "rows": [
+    {
+      "region": "europe-west",
+      "targets": [
+        "FRA",
+        "DEU",
+        "LUX",
+        "BEL",
+        "DNK",
+        "ITA",
+        "CHE",
+        "NLD"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-west.png",
+        "sha256": "3d429d968882cf46bd6096029711da1f07f094a29f89a9ba53001fe4007e36cd"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-west.svg",
+        "sha256": "2ae9d5f17cb5404d94557e880bca4d98d561d25aed1a3d16dcef55a7d4168f2d"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected complete mainland outlines, Denmark islands, Italian peninsula, Corsica/Sardinia/Sicily and shared borders. No visible new gap or detached mainland. Small enclaves cannot be assessed individually at this scale.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "europe-east",
+      "targets": [
+        "UKR",
+        "BLR",
+        "LTU",
+        "EST",
+        "LVA",
+        "ALB",
+        "ROU",
+        "GRC",
+        "BGR",
+        "MDA"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-east.png",
+        "sha256": "fdfbec05f3fc87abf3783a0aed8d5a1f7c6fbbd15f2d256c8d5266595bd0726e"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-east.svg",
+        "sha256": "2bedcc16b01142edb2cfe639b29fb78b407c21b8885f0eee6abe0ec785f26d68"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected Baltic states, Belarus, Ukraine, Romania/Moldova, Bulgaria and Albania/Greece. Existing political coverage is retained; no independent claim about wartime control or sovereign title. No visible new gap between displayed peers.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "caucasus",
+      "targets": [
+        "GEO",
+        "AZE",
+        "ARM"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/caucasus.png",
+        "sha256": "234d1d26c1aa4cbf6242bdc67f6a8bf680607ca2e637069a1fdaf449269f04d4"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/caucasus.svg",
+        "sha256": "4b9d7bc6744ce55e40214cad18c37d44175d5c2e88aa9ebcf6de521d7c89b39a"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected Georgia, Armenia and Azerbaijan, including the separate Azerbaijan component. Macro connectivity and neighboring edges are coherent; tiny enclaves are checked by exact donor preservation rather than visual inference.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "central-asia",
+      "targets": [
+        "UZB",
+        "KAZ",
+        "TJK",
+        "KGZ",
+        "TKM"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/central-asia.png",
+        "sha256": "59808f40e19a62ad6f1e10a1093b34478f0fa313e83df2d0113b1906695947d4"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/central-asia.svg",
+        "sha256": "cfc3d2c174d515e63091b72d4ca4c6bbd874d34f1f51093470578e77408c0a5c"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan and Turkmenistan. Existing KAB parent/subunit is not a peer gap and KAZ is not cut to the prior hole. Macro outlines and shared joins are coherent.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "east-asia",
+      "targets": [
+        "CHN",
+        "MNG"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/east-asia.png",
+        "sha256": "69601a7df33ba90efb7123feb0f4073a4ce5823956ca146ef6b89aa8f07f55b4"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/east-asia.svg",
+        "sha256": "d4ee659d1a3ffae73e8173ac4edeb80c8aa793dedf2e5cb2c0ac13039c7efef8"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Reinspected exact unchanged China/Mongolia donor with the newly adopted neighboring Nepal, Bhutan, Myanmar, Laos and Vietnam context. Mainland, Hainan and Korean adjacency remain coherent. No visible seam at these shared borders. This is not new disputed-area or historical accuracy evidence.",
+      "previousInspectedImageSha256": "0e106dd0fbb1a9a6824b3d15ea4fddf7de38aa36955bb1593631a0b45090cb2e",
+      "reviewedAt": "2026-11-08T15:34:02.641Z"
+    },
+    {
+      "region": "russia",
+      "targets": [
+        "RUS"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/russia.png",
+        "sha256": "9b7b86b4b6245cc672b9387f8559f42f017c8ed097de0358d9cfe781022303c1"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/russia.svg",
+        "sha256": "35f8d159e5cd80ef28293f5c65d68731559c19abd379cf655c6d18ae0dcc91d5"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected rendered mainland, Arctic islands, Far East and Kaliningrad context. The antimeridian seam is a representation boundary, not a new political border. No visibly missing main component in the direct-path render.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "sudan",
+      "targets": [
+        "SDS",
+        "SDN"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/sudan.png",
+        "sha256": "c168daacbc6c1b7876ef461a4298d41c6a0db94c4027605d8e6488cd6f2abdb3"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/sudan.svg",
+        "sha256": "bc6c8e39e7fb8d73edd2e04d3afd594c8f75ae9f786043d65e9a4693f92d0977"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected Sudan/South Sudan split and neighboring context, including the existing northern notch and southern shared outline. This accepts the approved proxy; it does not establish disputed-area or event-date accuracy.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "indonesia",
+      "targets": [
+        "IDN",
+        "TLS"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.png",
+        "sha256": "8630894383087815020c9968c9dbc6f9b2d8a4fe9f9c38f657a20dfe20eb6288"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.svg",
+        "sha256": "758f2c016e14573a860da4832678de79579fe4f5872304979c1107befe7634c7"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected Sumatra, Java, Kalimantan, Sulawesi, Papua and Timor macro coverage. Inland water/coastal channels and islands from the donor are retained. No extra simplification or invented straight closure was applied.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "iran",
+      "targets": [
+        "IRN"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/iran.png",
+        "sha256": "ab68c47394ccb737ab070e828067e50a55bb22017334bf11addcc81c285fccb5"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/iran.svg",
+        "sha256": "640c65b8b627727428291f2b6e814c192f090f4f5cc98f916da0617be9c8a545"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Inspected mainland, Caspian and southern coasts and adjacent borders. Macro outline is coherent, with existing donor islands retained. No survey-level accuracy claim.",
+      "reusedWithoutPixelChange": true
+    },
+    {
+      "region": "france-guiana",
+      "targets": [
+        "FRA"
+      ],
+      "status": "inspected",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/france-guiana.png",
+        "sha256": "634555d59fa71ee7002e103705f8150c648d0675598e30edef49ddab7d79c127"
+      },
+      "svg": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/france-guiana.svg",
+        "sha256": "28ce3e740ebd4270e946bf85962ca3aa35b1b6aed8f9b1af559ad7b0c539ae77"
+      },
+      "method": "Direct image inspection of final QPainterPath rendering of the executed projected SVG coordinates. No image-generation model used.",
+      "finding": "Reinspected the exact unchanged French Guiana donor with the newly adopted Brazil/Suriname context. Shared sides are visually coherent and the component is intact. Fine islands and parcels are not independently surveyed.",
+      "previousInspectedImageSha256": "bf58995c4ed27d786a4e585546168af5a3047e1d3e1aa4b94535dbba235292b4",
+      "reviewedAt": "2026-11-08T15:34:02.647Z"
+    }
+  ],
+  "sourceInput": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+  },
+  "reboundScope": "34 existing source-gated versions; original unchanged images reused by exact PNG hash, China and French Guiana re-inspected with expanded neighbors.",
+  "previousSourceInput": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+    "sha256": "891315c94ba6b66844fcea8cb0c9b7e776c2d1a38cee644144405b13133423ec"
+  },
+  "requiredCoordinatedRetirement": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/retirement-patch-manifest.json",
+    "sha256": "5adf7588faf7f379c7d58c7105433030fcabd035b3ce2a63d45edf7bf78603b1",
+    "entityId": "state:PGA",
+    "status": "ready-for-guarded-coherent-retirement-implementation; not applied",
+    "sourceAndRuntimeRetirementApplied": false,
+    "requiredBeforeFinalPublication": true,
+    "condition": "These source receipts assume the explicitly authorized coherent PGA retirement is applied in the same coordinated source/output transition. Keeping PGA active is not covered by this adjacency approval.",
+    "allocation": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+      "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81"
+    },
+    "recipientAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+      "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a"
+    }
+  },
+  "reuseEvidenceScope": "Previously inspected unchanged region images only; this does not claim new visual inspection of the 34 disconnected additions."
+}

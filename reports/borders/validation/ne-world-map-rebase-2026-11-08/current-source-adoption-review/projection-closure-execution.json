@@ -1,0 +1,319 @@
+{
+  "gdal": "3130300",
+  "method": "Executed GDAL/PROJ LAEA projection of exact current donors and preserved prior source references; nominal scale, physical display not calibrated.",
+  "regions": [
+    {
+      "region": "closure-africa-west",
+      "targets": [
+        "SAH",
+        "MLI",
+        "NGA",
+        "NER",
+        "MRT",
+        "SEN",
+        "CIV",
+        "GIN",
+        "BEN",
+        "BFA",
+        "GHA",
+        "TGO",
+        "LBR",
+        "SLE",
+        "GNB",
+        "GMB",
+        "CMR",
+        "GAB",
+        "GNQ"
+      ],
+      "neighborContext": [
+        "MAR",
+        "DZA",
+        "LBY",
+        "TCD",
+        "CAF",
+        "COD",
+        "COG"
+      ],
+      "projection": "+proj=laea +lat_0=12 +lon_0=3 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2248958.3333333335,
+        -2381250.0,
+        2248958.3333333335,
+        2381250.0
+      ],
+      "geographicBoundingExtent": [
+        -20.757849383800192,
+        -10.07013193893362,
+        26.757849383800195,
+        33.63121813318576
+      ],
+      "imagePixels": [
+        1760,
+        1930
+      ],
+      "svgSha256": "77f25096ec9384a216c6f44c31b3b0482eff0ca6cf2b3207aeb2688778ecff72",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "closure-africa-south",
+      "targets": [
+        "TZA",
+        "COG",
+        "ZMB",
+        "AGO",
+        "BDI",
+        "RWA",
+        "MWI",
+        "MOZ",
+        "BWA",
+        "ZWE",
+        "NAM",
+        "ZAF",
+        "SWZ",
+        "LSO"
+      ],
+      "neighborContext": [
+        "COD",
+        "UGA",
+        "KEN",
+        "CAF",
+        "GAB",
+        "GNQ"
+      ],
+      "projection": "+proj=laea +lat_0=-15 +lon_0=24 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2248958.3333333335,
+        -2778125.0,
+        2248958.3333333335,
+        2778125.0
+      ],
+      "geographicBoundingExtent": [
+        -1.6105083887444125,
+        -40.27576539308898,
+        49.61050838874442,
+        10.863918062337342
+      ],
+      "imagePixels": [
+        1760,
+        2230
+      ],
+      "svgSha256": "55569a828c9059f496712477b0efc7a8bcb0525ced84bcfa0c0c185656e48707",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "closure-africa-horn",
+      "targets": [
+        "SOM",
+        "SOL",
+        "DJI"
+      ],
+      "neighborContext": [
+        "ETH",
+        "KEN",
+        "ERI",
+        "SDS",
+        "SDN",
+        "YEM"
+      ],
+      "projection": "+proj=laea +lat_0=7 +lon_0=43 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -1322916.6666666667,
+        -1719791.6666666667,
+        1322916.6666666667,
+        1719791.6666666667
+      ],
+      "geographicBoundingExtent": [
+        30.24243868679376,
+        -8.666778103182107,
+        55.757561313206246,
+        22.590903217860465
+      ],
+      "imagePixels": [
+        1060,
+        1430
+      ],
+      "svgSha256": "1f2fd790432ad2915b32003f4053ff347dd08983c99ed8d89871a3d4042552bf",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "closure-middle-east",
+      "targets": [
+        "ISR",
+        "PSX",
+        "LBN",
+        "JOR",
+        "YEM"
+      ],
+      "neighborContext": [
+        "EGY",
+        "SYR",
+        "IRQ",
+        "SAU",
+        "OMN",
+        "ARE"
+      ],
+      "projection": "+proj=laea +lat_0=24 +lon_0=40 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -1984375.0,
+        -1984375.0,
+        1984375.0,
+        1984375.0
+      ],
+      "geographicBoundingExtent": [
+        16.625728501819985,
+        5.06457318081612,
+        63.37427149818002,
+        41.968046721570886
+      ],
+      "imagePixels": [
+        1560,
+        1630
+      ],
+      "svgSha256": "64624c9569b054af1a5d5bacaf703a2e85bcebc7b9e66dc0731c6e25558f5076",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "closure-asia-neighbors",
+      "targets": [
+        "BTN",
+        "VNM",
+        "KHM",
+        "LAO",
+        "MMR",
+        "BGD",
+        "NPL"
+      ],
+      "neighborContext": [
+        "CHN",
+        "IND",
+        "THA",
+        "MYS"
+      ],
+      "projection": "+proj=laea +lat_0=22 +lon_0=97 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2116666.666666667,
+        -2381250.0,
+        2116666.666666667,
+        2381250.0
+      ],
+      "geographicBoundingExtent": [
+        71.59195189412226,
+        -0.5511154936892094,
+        122.40804810587773,
+        43.60184271266127
+      ],
+      "imagePixels": [
+        1660,
+        1930
+      ],
+      "svgSha256": "25674a287d51604afef51a7f7d510b5680145ce5aa3ae3659f69599224ba8451",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "closure-south-america",
+      "targets": [
+        "BRA",
+        "SUR",
+        "ARG",
+        "BOL",
+        "PER",
+        "COL",
+        "GUY",
+        "PRY",
+        "URY",
+        "VEN",
+        "CHL",
+        "ECU",
+        "BRI"
+      ],
+      "neighborContext": [
+        "FRA",
+        "PAN"
+      ],
+      "projection": "+proj=laea +lat_0=-20 +lon_0=-60 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2778125.0,
+        -4233333.333333334,
+        2778125.0,
+        4233333.333333334
+      ],
+      "geographicBoundingExtent": [
+        -102.57378874867526,
+        -58.88007587264215,
+        -17.426211251324737,
+        20.008690983269787
+      ],
+      "imagePixels": [
+        2160,
+        3330
+      ],
+      "svgSha256": "636026fd1c0c979fa14faa4f355501054da98f3a72320189bf6efba7936b8bff",
+      "visualStatus": "awaiting-direct-image-inspection"
+    },
+    {
+      "region": "closure-central-america",
+      "targets": [
+        "MEX",
+        "BLZ",
+        "GTM",
+        "HND",
+        "PAN",
+        "SLV",
+        "CRI",
+        "NIC"
+      ],
+      "neighborContext": [
+        "USA",
+        "CAN",
+        "COL"
+      ],
+      "projection": "+proj=laea +lat_0=20 +lon_0=-98 +datum=WGS84 +units=m +no_defs",
+      "units": "metre",
+      "scaleDenominator": 10000000,
+      "renderDpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "projectedExtentMetres": [
+        -2778125.0,
+        -2248958.3333333335,
+        2778125.0,
+        2248958.3333333335
+      ],
+      "geographicBoundingExtent": [
+        -129.71117272537305,
+        -1.8305638310313448,
+        -66.28882727462694,
+        40.396429928011706
+      ],
+      "imagePixels": [
+        2160,
+        1830
+      ],
+      "svgSha256": "583b6f9c3817e7ea5ae866d3cb28f4c57ba2a96d664fb80c5ddebfbd6ecbb0d7",
+      "visualStatus": "awaiting-direct-image-inspection"
+    }
+  ]
+}

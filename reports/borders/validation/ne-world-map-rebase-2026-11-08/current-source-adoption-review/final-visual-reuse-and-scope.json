@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "sourceInput": {
+    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+  },
+  "reusedActualInspections": [
+    {
+      "region": "europe-west",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-west.png",
+        "sha256": "3d429d968882cf46bd6096029711da1f07f094a29f89a9ba53001fe4007e36cd"
+      },
+      "targets": [
+        "FRA",
+        "DEU",
+        "LUX",
+        "BEL",
+        "DNK",
+        "ITA",
+        "CHE",
+        "NLD"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "europe-east",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/europe-east.png",
+        "sha256": "fdfbec05f3fc87abf3783a0aed8d5a1f7c6fbbd15f2d256c8d5266595bd0726e"
+      },
+      "targets": [
+        "UKR",
+        "BLR",
+        "LTU",
+        "EST",
+        "LVA",
+        "ALB",
+        "ROU",
+        "GRC",
+        "BGR",
+        "MDA"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "caucasus",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/caucasus.png",
+        "sha256": "234d1d26c1aa4cbf6242bdc67f6a8bf680607ca2e637069a1fdaf449269f04d4"
+      },
+      "targets": [
+        "GEO",
+        "AZE",
+        "ARM"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "central-asia",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/central-asia.png",
+        "sha256": "59808f40e19a62ad6f1e10a1093b34478f0fa313e83df2d0113b1906695947d4"
+      },
+      "targets": [
+        "UZB",
+        "KAZ",
+        "TJK",
+        "KGZ",
+        "TKM"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "east-asia",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/east-asia.png",
+        "sha256": "69601a7df33ba90efb7123feb0f4073a4ce5823956ca146ef6b89aa8f07f55b4"
+      },
+      "targets": [
+        "CHN",
+        "MNG"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "russia",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/russia.png",
+        "sha256": "9b7b86b4b6245cc672b9387f8559f42f017c8ed097de0358d9cfe781022303c1"
+      },
+      "targets": [
+        "RUS"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "sudan",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/sudan.png",
+        "sha256": "c168daacbc6c1b7876ef461a4298d41c6a0db94c4027605d8e6488cd6f2abdb3"
+      },
+      "targets": [
+        "SDS",
+        "SDN"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "indonesia",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.png",
+        "sha256": "8630894383087815020c9968c9dbc6f9b2d8a4fe9f9c38f657a20dfe20eb6288"
+      },
+      "targets": [
+        "IDN",
+        "TLS"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "iran",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/iran.png",
+        "sha256": "ab68c47394ccb737ab070e828067e50a55bb22017334bf11addcc81c285fccb5"
+      },
+      "targets": [
+        "IRN"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "france-guiana",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/france-guiana.png",
+        "sha256": "634555d59fa71ee7002e103705f8150c648d0675598e30edef49ddab7d79c127"
+      },
+      "targets": [
+        "FRA"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-africa-west",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-west.png",
+        "sha256": "8b5ee43970fed7d737c973c4eb7871df3d9dbf24ffc29b7ee1bdace8c7cda4fe"
+      },
+      "targets": [
+        "SAH",
+        "MLI",
+        "NGA",
+        "NER",
+        "MRT",
+        "SEN",
+        "CIV",
+        "GIN",
+        "BEN",
+        "BFA",
+        "GHA",
+        "TGO",
+        "LBR",
+        "SLE",
+        "GNB",
+        "GMB",
+        "CMR",
+        "GAB",
+        "GNQ"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-africa-south",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-south.png",
+        "sha256": "2e7185cc36a445fc5cc9db40926bf6f7e469f7f4fd0e39d4f20295c3001545d8"
+      },
+      "targets": [
+        "TZA",
+        "COG",
+        "ZMB",
+        "AGO",
+        "BDI",
+        "RWA",
+        "MWI",
+        "MOZ",
+        "BWA",
+        "ZWE",
+        "NAM",
+        "ZAF",
+        "SWZ",
+        "LSO"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-africa-horn",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-africa-horn.png",
+        "sha256": "7e8aca79c4739e36483235797eeb5a5635488ed8910bd3346f9d8fe74d2d6c1e"
+      },
+      "targets": [
+        "SOM",
+        "SOL",
+        "DJI"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-middle-east",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-middle-east.png",
+        "sha256": "caec0326f014b325b963a2bd4d2dadfc2b5e84dcc4dd51267d33ca9fddaabae3"
+      },
+      "targets": [
+        "ISR",
+        "PSX",
+        "LBN",
+        "JOR",
+        "YEM"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-asia-neighbors",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-asia-neighbors.png",
+        "sha256": "e04166fa0503870258ee3b460789f8c3c186c6ec1ebc513f0456e412f51cb51f"
+      },
+      "targets": [
+        "BTN",
+        "VNM",
+        "KHM",
+        "LAO",
+        "MMR",
+        "BGD",
+        "NPL"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-south-america",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-south-america.png",
+        "sha256": "01511c8854e82089bc0a10b79c729db2a1c1960f33287730cd5f444ffd80b8cd"
+      },
+      "targets": [
+        "BRA",
+        "SUR",
+        "ARG",
+        "BOL",
+        "PER",
+        "COL",
+        "GUY",
+        "PRY",
+        "URY",
+        "VEN",
+        "CHL",
+        "ECU",
+        "BRI"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    },
+    {
+      "region": "closure-central-america",
+      "image": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/closure-central-america.png",
+        "sha256": "9d404e1e253f33bf1dfa1febdea709b6348bcf7a05e8e8923e9ea0c938d37413"
+      },
+      "targets": [
+        "MEX",
+        "BLZ",
+        "GTM",
+        "HND",
+        "PAN",
+        "SLV",
+        "CRI",
+        "NIC"
+      ],
+      "status": "prior-actual-inspection-reused",
+      "reason": "Exact target and context geometries unchanged. Added disconnected inputs and retired PGA were absent from this rendered region."
+    }
+  ],
+  "new34": [
+    {
+      "entityId": "state:HTI",
+      "versionId": "state:HTI:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "ce6f4c437e5d826d7b93f5d9e4cc226bf33a72e6e3383741239aa064da9be808"
+    },
+    {
+      "entityId": "state:DOM",
+      "versionId": "state:DOM:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "15657d08eb431e5d26a0880241acb8f9af6d90558b34542ec5f34b6a3e673e66"
+    },
+    {
+      "entityId": "state:USG",
+      "versionId": "state:USG:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "f25322e4ecc9f1fac7be89d76b6421804280340e6d93f06ba8bfb2e5f1fa3e14"
+    },
+    {
+      "entityId": "state:CUB",
+      "versionId": "state:CUB:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "31d6e6eddf03c55c90c83726a122d44510a173432028e8e52dde51222ce22c15"
+    },
+    {
+      "entityId": "state:ATA",
+      "versionId": "state:ATA:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "91216624ef49ba06f429dc861921f377fc3a758290f1a92a2342007724d21b34"
+    },
+    {
+      "entityId": "state:FJI",
+      "versionId": "state:FJI:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "98addbcc2ae0a4c18ba0b7fcc0df919210a74f943bbb4476fdf560520624e851"
+    },
+    {
+      "entityId": "state:MDG",
+      "versionId": "state:MDG:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "822a7f035bd8caab3d30b525836b763fe38c6bf09149570f7cce4a9b12b7d5cc"
+    },
+    {
+      "entityId": "state:LKA",
+      "versionId": "state:LKA:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "93db24e96f621e486417672dc38797b6a1b0fa5c9109e2bfef79e42d577adb3b"
+    },
+    {
+      "entityId": "state:BHS",
+      "versionId": "state:BHS:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "fb44304d119d149c13272ab12482bcfee160efdddae9ec98d27e4ffb5c779595"
+    },
+    {
+      "entityId": "state:TWN",
+      "versionId": "state:TWN:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "fcb7a16f7c495abc473df8f678d9d457ef53e0307eec25750dc96da78a1a1b5a"
+    },
+    {
+      "entityId": "state:SYC",
+      "versionId": "state:SYC:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "1ef937adfd6de466cbc869f8d9a76ad4db10622a327908a598996d70295d73be"
+    },
+    {
+      "entityId": "state:MHL",
+      "versionId": "state:MHL:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "31b05e48edb88876f923d671c4dc47eb5f166d34993588537a56aa32a388758c"
+    },
+    {
+      "entityId": "state:TTO",
+      "versionId": "state:TTO:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "0b5b4b68b6e7849c000e5ff425724af43fba8beda692570c897525ad5eaf56fe"
+    },
+    {
+      "entityId": "state:GRD",
+      "versionId": "state:GRD:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "f3261509fd495e2d7c6a907dc667b9fad50c95c6d960452aa93b80d558624d16"
+    },
+    {
+      "entityId": "state:VCT",
+      "versionId": "state:VCT:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "6eb404979e7dfcc5c8848e7bad7ccb2d01b8eb06eec9e4b2c3a4ad7b8be85b1c"
+    },
+    {
+      "entityId": "state:BRB",
+      "versionId": "state:BRB:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "eea756e9452c4e32473cea326494a66d88b52e0089d1fdf36956e0a035097198"
+    },
+    {
+      "entityId": "state:LCA",
+      "versionId": "state:LCA:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "89fb37976961c7b5cdf8a71cc533e470382d62ff21783945bb4877239ba13c42"
+    },
+    {
+      "entityId": "state:DMA",
+      "versionId": "state:DMA:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "2c1ea7c3a4a7a93a9709ef75aeccbbd74a0e49d4c4433d3d6fbe2c4a411f08e6"
+    },
+    {
+      "entityId": "state:ATG",
+      "versionId": "state:ATG:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "7777ea1b77b0b43a9bacbeba24e2044c68f170f066dc655a48a2b09da0f7726a"
+    },
+    {
+      "entityId": "state:KNA",
+      "versionId": "state:KNA:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "8411d6424cd937722a200ff66dedf689795a051736601211dbb57775ebe64d55"
+    },
+    {
+      "entityId": "state:JAM",
+      "versionId": "state:JAM:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "0f5ba9827b2a65c2c4d67896ff7cfc0ab3021560a29a5f799b959cc655cc6881"
+    },
+    {
+      "entityId": "state:MUS",
+      "versionId": "state:MUS:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "c0b7249e821889c6aaed943a8a168717d43ae63ca7a47bd66f8d390ace7edca7"
+    },
+    {
+      "entityId": "state:COM",
+      "versionId": "state:COM:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "f9d7b3a7d59750fffa644556ca9af0f5b0135bb998ba1ebf14d0a28696df745e"
+    },
+    {
+      "entityId": "state:STP",
+      "versionId": "state:STP:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "898fd05f19b013d235399e40cb71bb7462069cf029ae7dc7459345fe4bc0989c"
+    },
+    {
+      "entityId": "state:CPV",
+      "versionId": "state:CPV:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "e16e3422da58b65b6e5cf0383370d918603546753612e09c31088fe5281863d5"
+    },
+    {
+      "entityId": "state:COK",
+      "versionId": "state:COK:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "f3e7443097ed5fb22f7f41e9b38d806e100e07f55a8d9e1780bbb51590f29a44"
+    },
+    {
+      "entityId": "state:TON",
+      "versionId": "state:TON:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "167a3defe4b533b9380d8e6a1502795fe07d278a2980ec829afd63844d90b1b3"
+    },
+    {
+      "entityId": "state:WSM",
+      "versionId": "state:WSM:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "d408bc46cb8c30f211ee842b51fecd6175806af3e9920f1429c617ff4816c75c"
+    },
+    {
+      "entityId": "state:SLB",
+      "versionId": "state:SLB:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "effc512061d3c4ebb99f3acaecf6a4fa74daaf2075dc8c05563ee4e6fd24eaba"
+    },
+    {
+      "entityId": "state:TUV",
+      "versionId": "state:TUV:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "f47151b6d5af732c59543dee68ed7bf19d0d0612c9363403dfd9f455caaa3c5b"
+    },
+    {
+      "entityId": "state:MDV",
+      "versionId": "state:MDV:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "9f2e80311726959a7eaab02bd8e2c04054781daa693a8972ca16c351b8498cdc"
+    },
+    {
+      "entityId": "state:NRU",
+      "versionId": "state:NRU:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "7f6b0b64b43f0da7a97e92e724af48b156a8fd7bc46c07c0c2b7b3930c251729"
+    },
+    {
+      "entityId": "state:VUT",
+      "versionId": "state:VUT:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "e4bbf8738ca2d1b3a461c6da398acb017334aaa898faef0fde795f8d91abfa88"
+    },
+    {
+      "entityId": "state:NIU",
+      "versionId": "state:NIU:natural-earth-5.1.1",
+      "gateRequired": false,
+      "geometrySha256": "7e0de45fcdaf3fc08ca3d8070554b7cf42d827404255e00ca34181afa0fb706b"
+    }
+  ],
+  "new34AdditionalVisualInspectionPerformed": false,
+  "reason": "No source historical gate applies to these undated current donor imports. Exact approved donor coordinates are adopted without new geometric operations; validity and current adjacency are measured in the final topology proof. This is not an independent new visual or historical survey.",
+  "historicalAccuracyVerified": false
+}

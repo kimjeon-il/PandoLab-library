@@ -1,0 +1,45 @@
+{
+  "reference": {
+    "library_file_id": "libfile_fbb4237dc0648191828e02642e1b4ed5",
+    "file_id": "file_000000001bb881fd8e3b2de46155dace",
+    "name": "README(2).md",
+    "created_at": "2026-11-05T22:33:24.450320Z"
+  },
+  "methodQuotedVerbatim": "Method: exact `dp` and `errors` function definitions loaded from the verified prior `east/method.py` using Python AST. Feature parts use WGS84 local AEQD metre coordinates. Endpoints and every coordinate repeated anywhere in the dataset are protected. Between these protected coordinates, a 2000m DP skeleton is protected, then 250m DP is applied. Output exclusively selects original WGS84 coordinate indices; no new/moved/rounded points. The 250m value is a conservative working setting already used in the earlier study, not a globally mandated value in METHOD.md. No fixed vertex-reduction ratio was imposed.",
+  "sourceStatus": "This README describes the method used for a later-invalidated initial candidate. Its method specification is evidence, but the initial failed candidate must not be adopted.",
+  "replacementCandidate": {
+    "library_file_id": "libfile_a58d0665b5108191b488549de0a2acf2",
+    "file_id": "file_000000008aa481fdbacf68e1d20cb465",
+    "name": "lsib-repaired-candidate-data.zip",
+    "sizeBytes": 1853056,
+    "sha256": "ccdf9fb75413363b1429c122d31750404b1e66ba1e033ee67da4c88103fb3c3e"
+  },
+  "recoveryStatus": "Recovered original repaired ZIP on cloud with official materialization. Exact saved-method/east/method.py and repair.py inspected; existing completed Korean line indices replayed against locally preserved LSIB source. No new guessed projection center or recomputed simplification.",
+  "verifiedMethodSha256": "bc04fbea35101ae387d2ed95286206eec873fe7c2d7406160055be36346c270c",
+  "wholeRepairedGeometrySha256": "51c253b6d7c62190a7cf2ac0dd7aeac2d7e88c41ef23ad95f46299576dc4e447",
+  "reusedParts": [
+    {
+      "id": "121eb8f6-5a86-46be-beb2-451c9a558382",
+      "sourcePoints": 4448,
+      "retainedPoints": 138,
+      "toleranceM": 250,
+      "reportedMaxChordErrorM": 244.05308433850456,
+      "extraProtectedPoints": 0,
+      "indexArraySha256": "efe66c452cafd4fe22e0874cf86dff1f6927e0a6be794ff8c6e667a197439a10"
+    },
+    {
+      "id": "8ea0154a-8bae-42a1-abdc-af310aeca0cc",
+      "sourcePoints": 19341,
+      "retainedPoints": 821,
+      "toleranceM": 250,
+      "reportedMaxChordErrorM": 249.9945454593801,
+      "extraProtectedPoints": 0,
+      "indexArraySha256": "cf7be24fd09d2d570fd89e3f37b49010e8b44c0abbba6d9bb2d5f6a25906ceaa"
+    }
+  ],
+  "limitations": [
+    "Global projection-center generation and original anchor_manifest were not in the ZIP. Exact existing line indices are replayed instead of guessing these missing inputs.",
+    "Repaired ZIP README tolerance counts conflict with summary.json and independent audit. Actual JSON: 475 parts at250m and55 lower-tolerance parts. Both reused Korean parts are250m, so neither is a relaxed exception.",
+    "Local source arrays differ from the prior global source by floating-point representation below1e-13degrees. Output keeps local original source coordinates exactly, not claimed byte-identical to old global GeoJSON."
+  ]
+}
