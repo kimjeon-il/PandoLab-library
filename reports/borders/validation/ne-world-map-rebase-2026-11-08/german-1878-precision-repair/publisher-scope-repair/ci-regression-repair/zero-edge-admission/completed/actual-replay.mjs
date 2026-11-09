@@ -1,0 +1,31 @@
+import fs from 'node:fs';import {gunzipSync} from 'node:zlib';import {pathToFileURL} from 'node:url';import crypto from 'node:crypto';import assert from 'node:assert/strict';
+const root='D:/dev/worktrees/gis/build-native/wasm',expected='124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc';
+if(process.env.PANDOEDITOR_WASM_MODULE)throw Error('Official default loader only');
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const {sharedSourceManifest}=await import(pathToFileURL(root+'/tools/build/package-shared-core-assets.mjs'));
+const source=sharedSourceManifest(root);assert.equal(source.sourceSha256,expected);
+const manifest=JSON.parse(fs.readFileSync(root+'/assets/wasm/pandoeditor-core.manifest.json'));assert.equal(manifest.sourceSha256,expected);
+const {sphericalCore:core}=await import(pathToFileURL(root+'/tools/build/load-spherical-core.mjs'));assert.equal(core.coreSourceSha256,expected);
+const {createCanonicalGeometryVersionStore,geometryReferenceFor}=await import(pathToFileURL(root+'/src/geometry/geometry-version-store.js'));
+await import(pathToFileURL(root+'/src/rendering/workers/gpu-mesh-core.js'));
+const {encodePolygonMesh,decodePolygonMesh}=await import(pathToFileURL(root+'/src/rendering/polygon-mesh-codec.js'));
+const file=root+'/assets/data/builtin-world/generated/v1/geometries/sha256-c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc.json.gz';
+const compressed=fs.readFileSync(file),decoded=gunzipSync(compressed),g=JSON.parse(decoded),before=JSON.stringify(g),ref={id:'historical-world:05e9e4a0359fd1bb223363556a16de5d72369f4f908885f44e863daa513c6be6',version:1};
+assert.equal(sha(compressed),'c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc');assert.equal(sha(decoded),'ba639361212d6a89f4749e33db05de4f9d41d60f2e2fc64026b695fcfac0400b');
+const originalKey=sha(JSON.stringify([g.type,g.coordinates]));
+const store=createCanonicalGeometryVersionStore([{...ref,geojson:g}]),stored=store.get(ref),restored=createCanonicalGeometryVersionStore(JSON.parse(JSON.stringify(store.snapshot())));
+assert.equal(JSON.stringify(stored),before);assert.equal(JSON.stringify(restored.get(ref)),before);assert.deepEqual(geometryReferenceFor(stored),ref);assert.deepEqual(geometryReferenceFor(restored.get(ref)),ref);assert.equal(sha(JSON.stringify([stored.type,stored.coordinates])),originalKey);
+const normalized=core.normalizePolygonGeometry(stored,true),eq=(a,b)=>a[0]===b[0]&&a[1]===b[1];
+const vertices=r=>r.slice(0,-1).map(p=>JSON.stringify(p)).sort(),edges=r=>r.slice(1).flatMap((b,i)=>eq(r[i],b)?[]:[JSON.stringify([r[i],b].map(p=>JSON.stringify(p)).sort())]).sort();
+assert.equal(normalized.type,g.type);assert.deepEqual(normalized.coordinates.map(p=>p.length),g.coordinates.map(p=>p.length));
+for(let p=0;p<g.coordinates.length;p++)for(let r=0;r<g.coordinates[p].length;r++){assert.deepEqual(core.validateClippedTerritorialRing(g.coordinates[p][r]),[]);assert.deepEqual(vertices(normalized.coordinates[p][r]),vertices(g.coordinates[p][r]));assert.deepEqual(edges(normalized.coordinates[p][r]),edges(g.coordinates[p][r]));}
+assert.equal(core.validateClippedGisGeometry(g.coordinates),true);assert.ok(core.validateTerritorialRing(g.coordinates[0][0]).some(i=>i.kind==='duplicate-vertex'));
+const engine=globalThis.PandoLabGpuMeshCore;engine.setSharedCore(core);const packet=engine.buildPolygonGeometryPacket(stored),encoded=encodePolygonMesh(packet),reopened=decodePolygonMesh(encoded,{algorithmVersion:6});assert.deepEqual(Array.from(reopened.ringCoordinates),g.coordinates.flat(2).flat());
+const collapsed={...g,coordinates:g.coordinates.map(p=>p.map(r=>r.filter((v,i)=>!i||!eq(v,r[i-1]))))};const control=engine.buildPolygonGeometryPacket(collapsed);
+for(const key of Object.keys(packet).filter(k=>!['ringCoordinates','ringOffsets','polygonOffsets'].includes(k)))assert.deepEqual(packet[key],control[key],key);
+const baseline=JSON.parse(fs.readFileSync(root+'/zero-edge-baseline-proof.json'));assert.equal(sha(Buffer.from(encoded)),baseline.mesh.packetSha256);
+assert.equal(sha(Buffer.from(encodePolygonMesh(engine.buildPolygonGeometryPacket({type:'Polygon',coordinates:[[[0,0],[0,2],[2,2],[2,0],[0,0]]]})))),baseline.mesh.ordinaryPacketSha256);
+assert.equal(JSON.stringify(g),before);assert.equal(JSON.stringify(store.get(ref)),before);assert.equal(sharedSourceManifest(root).sourceSha256,expected);
+const result={status:'passed actual preserved UkrainianSSR admission/normalization/store/mesh replay',sourceSha256:expected,sourceInputs:source.inputs.length,wasmSha256:manifest.assets.wasm.sha256,jsSha256:manifest.assets.js.sha256,geometryRef:ref,compressedSha256:sha(compressed),decodedSha256:sha(decoded),geometryJsonSha256:sha(before),meshInputKey:originalKey,ringCoordinateCounts:g.coordinates.map(p=>p.map(r=>r.length)),normalizedRingCoordinateCounts:normalized.coordinates.map(p=>p.map(r=>r.length)),normalizedJSONIdentical:JSON.stringify(normalized)===before,allOriginalNonzeroEdgesAndVertexMultiplicitiesPreserved:true,storeAndReferenceUnchanged:true,strictSourceDuplicateRejectionUnchanged:true,meshRevision:packet.algorithmVersion,packetSha256:sha(Buffer.from(encoded)),packetRingCoordinatesExactlyOriginal:true,renderFieldsEqualExactDuplicateControl:true,rawAndOrdinaryPacketsByteIdenticalToF413:true,originalInputUnchanged:true,scope:'One preserved inactive 1922-12-30..1925-05-12 record only; no timeline, ownership, runtime publication or wider regeneration.'};
+fs.writeFileSync(root+'/zero-edge-actual-replay.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));
+

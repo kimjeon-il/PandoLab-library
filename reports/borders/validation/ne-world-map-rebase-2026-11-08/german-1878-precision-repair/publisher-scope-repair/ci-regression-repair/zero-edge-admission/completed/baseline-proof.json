@@ -1,0 +1,167 @@
+{
+  "input": {
+    "file": "D:/dev/worktrees/gis/build-native/wasm/assets/data/builtin-world/generated/v1/geometries/sha256-c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc.json.gz",
+    "compressedSha": "c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc",
+    "bytes": 24069,
+    "decodedSha": "ba639361212d6a89f4749e33db05de4f9d41d60f2e2fc64026b695fcfac0400b",
+    "decodedBytes": 65860
+  },
+  "duplicates": [
+    {
+      "polygon": 0,
+      "ring": 0,
+      "index": 1887,
+      "point": [
+        26.329587174280242,
+        48.608031653853
+      ]
+    },
+    {
+      "polygon": 0,
+      "ring": 0,
+      "index": 1928,
+      "point": [
+        26.23715307091098,
+        48.82603901853353
+      ]
+    }
+  ],
+  "ringCounts": [
+    [
+      2342
+    ],
+    [
+      16
+    ],
+    [
+      19
+    ]
+  ],
+  "nonzeroEdgesPreserved": true,
+  "sourceIssues": [
+    {
+      "kind": "duplicate-vertex",
+      "coordinate": [
+        26.329587174280242,
+        48.608031653853
+      ],
+      "vertexIndex": 1887
+    },
+    {
+      "kind": "duplicate-vertex",
+      "coordinate": [
+        26.23715307091098,
+        48.82603901853353
+      ],
+      "vertexIndex": 1928
+    }
+  ],
+  "clippedIssues": [
+    {
+      "kind": "duplicate-vertex",
+      "coordinate": [
+        26.329587174280242,
+        48.608031653853
+      ],
+      "vertexIndex": 1887
+    }
+  ],
+  "exactDuplicateOnlyIssues": [
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ]
+  ],
+  "rawGeneratedNormalizer": {
+    "passed": false,
+    "error": "INVALID_POLYGON: component 0 ring 0: INVALID_POLYGON_RING: duplicate-vertex"
+  },
+  "rawCanonicalStore": {
+    "passed": false,
+    "error": "INVALID_GEOMETRY: Invalid canonical ring."
+  },
+  "exactDuplicateOnlyNormalization": {
+    "equal": false,
+    "counts": [
+      [
+        2340
+      ],
+      [
+        16
+      ],
+      [
+        19
+      ]
+    ],
+    "uniquePointRetained": true
+  },
+  "mesh": {
+    "keys": [
+      "positions",
+      "indices",
+      "boundaryIndices",
+      "startsEnds",
+      "segmentCount",
+      "featureIds",
+      "vertexCount",
+      "triangleCount",
+      "ringCoordinates",
+      "ringOffsets",
+      "polygonOffsets",
+      "algorithmVersion",
+      "maxEdgeDegrees"
+    ],
+    "sameNonRingFields": [
+      {
+        "key": "positions",
+        "equal": true
+      },
+      {
+        "key": "indices",
+        "equal": true
+      },
+      {
+        "key": "boundaryIndices",
+        "equal": true
+      },
+      {
+        "key": "startsEnds",
+        "equal": true
+      },
+      {
+        "key": "segmentCount",
+        "equal": true
+      },
+      {
+        "key": "featureIds",
+        "equal": true
+      },
+      {
+        "key": "vertexCount",
+        "equal": true
+      },
+      {
+        "key": "triangleCount",
+        "equal": true
+      },
+      {
+        "key": "algorithmVersion",
+        "equal": true
+      },
+      {
+        "key": "maxEdgeDegrees",
+        "equal": true
+      }
+    ],
+    "ringCoordinatesPreserved": true,
+    "rawRingCount": 2377,
+    "packetSha256": "1759542d985dc9972ad760aacafc2057590687b824f594ad3ff4102d3d7e06e4",
+    "ordinaryPacketSha256": "fa3e54a7c21b1c9e2944de7c6e06c74a96ab8e155e6dd6bfbe003888ef565ac1"
+  },
+  "inputUnchanged": true
+}

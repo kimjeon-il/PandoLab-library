@@ -1,0 +1,55 @@
+{
+  "status": "static-review-no-blocker-pending-native-CI",
+  "patchSha256": "f72a3f0b6531b5d167423b419712e6360474faa764fa11119d29ffa35ac28fcf",
+  "base": "70aba044fb4223e2f0cecb6100eedb0976458981",
+  "verifiedFiles": [
+    "src/geometry/native/include/pandoeditor/exactplanar.h",
+    "tools/cpp/spherical-polygon-tests.cpp",
+    "tests/native/geometry/polygon-mesh-tests.cpp",
+    "tests/native/document/document-session-tests.cpp",
+    "tests/unit/geometry/polygon-clipped-positive-ring.test.mjs",
+    "tests/unit/geometry/polygon-canonical-storage.test.mjs"
+  ],
+  "input": {
+    "asset": "assets/data/builtin-world/generated/v1/geometries/sha256-c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc.json.gz",
+    "sha256": "c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc",
+    "decodedSha256": "ba639361212d6a89f4749e33db05de4f9d41d60f2e2fc64026b695fcfac0400b"
+  },
+  "duplicates": [
+    {
+      "polygon": 0,
+      "ring": 0,
+      "indices": [
+        1886,
+        1887
+      ],
+      "coordinate": [
+        26.329587174280242,
+        48.608031653853
+      ]
+    },
+    {
+      "polygon": 0,
+      "ring": 0,
+      "indices": [
+        1927,
+        1928
+      ],
+      "coordinate": [
+        26.23715307091098,
+        48.82603901853353
+      ]
+    }
+  ],
+  "nonzeroEdgeSequenceIdentical": true,
+  "correction": "Earlier source-mode unique-location deletion claim was incorrect: a multiplicity reduction at both coordinates removes one occurrence of each adjacent duplicate, not a distinct location. Prior diagnostic files retained unchanged; this addendum supersedes that interpretation.",
+  "review": {
+    "strictSource": "Unchanged separate validateTerritorialRing and source cleanRing branches.",
+    "exactEquality": "Uses binary64 == on both coordinates, no epsilon, snapping, or coordinate writes.",
+    "cyclicAdjacency": "Outgoing nonzero-edge original-index view includes last run endpoint; next view vertex equals endpoint of current nonzero edge, including closure runs.",
+    "invalidCases": "n<3 rejected before modulo; zero area, adjacent retrace and nonadjacent touch/intersection checks retained.",
+    "validInput": "Without zero edges vertices[i]=i, predicates, order and diagnostics are unchanged.",
+    "memory": "Adds reserved size_t vector up to original ring.size()-1: 4 bytes/vertex on WASM32,8 on native64; additional O(n) scan; existing active-set worst-case O(n^2) unchanged.",
+    "limits": "No new native code built or executed locally. Existing f413 rejects raw admission; independent mesh success is baseline evidence only. New native3+JS2 and real input admission remain required."
+  }
+}

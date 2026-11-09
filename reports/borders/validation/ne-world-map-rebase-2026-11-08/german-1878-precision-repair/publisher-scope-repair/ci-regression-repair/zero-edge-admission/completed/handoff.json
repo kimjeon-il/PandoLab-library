@@ -1,0 +1,87 @@
+{
+  "status": "canonical zero-length-edge repair and scoped verification complete; main deployment and overall mesh regeneration are separate",
+  "base": "70aba044fb4223e2f0cecb6100eedb0976458981",
+  "sourceCommit": "a13d8c435f7ec4b1b2389edf3d70b481814727a5",
+  "pairedCommit": "83cb4085063e4ab2ed44f035f3c67f774405c1ee",
+  "finalCommit": "bfa37841d9ce9c34c28caf56060dd8d029042e34",
+  "coreSourceSha256": "124e8a38ce8f67bf6062ef07f2ae6b1c8588c97f1e64e060a9c774f05dcd2abc",
+  "wasmSha256": "48cefabaeab52e1c560a1f3db58c768a18ba3b3e4e1026c7826c1e5e5d92c6bc",
+  "manifestSha256": "7d12ecbb21aef9847f760b8caaf24530708461f610250bfaac93d2609cbcb2f8",
+  "productionChanges": [
+    "src/geometry/native/include/pandoeditor/exactplanar.h"
+  ],
+  "patches": [
+    {
+      "sha256": "f72a3f0b6531b5d167423b419712e6360474faa764fa11119d29ffa35ac28fcf",
+      "files": 6
+    },
+    {
+      "sha256": "51158e697db974b348b3b3c6e66d996ee5ecaceb1d70e439aa13aa6997c4e047",
+      "files": 1,
+      "testOnly": true
+    }
+  ],
+  "input": {
+    "libraryCommit": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+    "path": "assets/data/builtin-world/generated/v1/geometries/sha256-c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc.json.gz",
+    "compressedBytes": 24069,
+    "compressedSha256": "c9d645236d9c51df74464ebe3bcefaef79a5f2b022ca501a1bfc47b9f8a2fccc",
+    "decodedSha256": "ba639361212d6a89f4749e33db05de4f9d41d60f2e2fc64026b695fcfac0400b",
+    "entity": "state:soviet-union-ukrainian-ssr",
+    "period": [
+      "1922-12-30",
+      "1925-05-12"
+    ],
+    "duplicatePairs": [
+      [
+        1886,
+        1887
+      ],
+      [
+        1927,
+        1928
+      ]
+    ],
+    "sourceAndMetadataUnchanged": true
+  },
+  "contract": "Check topology against original-index nonzero edges. Retain original coordinates, rings, stored JSON, geometryRef, digest and mesh input key. No epsilon, source admission change, precision-budget change, repair engine, runtime skip or mesh relabel.",
+  "checks": {
+    "p2": {
+      "run": 42591287702,
+      "result": "success",
+      "scope": "wasm/minimal/skip_preview"
+    },
+    "initialSelected": {
+      "run": 42592283234,
+      "result": "failed spherical target link; other checks passed",
+      "nativeDocument": "1/1 passed",
+      "nativeMesh": "1/1 passed",
+      "unit": "67/67 passed",
+      "failure": "Test called geometrypredicates wrappers not linked by the pure spherical target."
+    },
+    "correctedSelected": {
+      "run": 42593506047,
+      "result": "success",
+      "nativeSpherical": "1/1 passed",
+      "scope": "registered spherical target only"
+    },
+    "unchangedFingerprintProof": "Final test-only change is outside all160 source inputs; manifest and WASM bytes unchanged from83cb.",
+    "actualInput": "raw store, strict validator diagnostics, generated normalization, mesh/codec round-trip passed; all nonzero edges and vertex multiplicities retained; raw and ordinary packets byte-identical to f413."
+  },
+  "strictSourceLimit": "Source winding is not source admission. Actual validateTerritorialRing duplicate-vertex rejection and tiny-ring source-admission negatives remain tested. Source normalizer/store have their unchanged pre-existing structural contracts; not all source APIs reject a redundant raw step.",
+  "preservation": {
+    "priorOutputs": 11,
+    "priorOutputBytes": 44776277,
+    "criticalInputs": 4,
+    "allBeforeAfterHashesEqual": true,
+    "operationalHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+    "operationalCheckoutUnchanged": true,
+    "immutableVUnchanged": true,
+    "mainAndDataPinUnchanged": true
+  },
+  "limits": [
+    "No full-GIS or timeline recomputation.",
+    "This does not establish every native Boolean edge is exact.",
+    "Main deployment and complete prepared-mesh regeneration belong to their separate owners."
+  ]
+}
