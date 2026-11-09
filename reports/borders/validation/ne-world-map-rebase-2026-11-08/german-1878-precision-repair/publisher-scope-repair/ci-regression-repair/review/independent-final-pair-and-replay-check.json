@@ -1,0 +1,50 @@
+{
+  "reviewedAt": "2026-11-09T06:02:03.562Z",
+  "disposition": "PASS for the stored evidence and bounded replay claims; no engine rerun",
+  "sourceCommit": "6dd607962173cce251aef13c40b38028490f72d9",
+  "pairedCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+  "sourceFingerprint": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+  "exactSnapshotFilesVerified": 224,
+  "nativeInputsVerified": 160,
+  "pairAssetsInternallyConsistent": true,
+  "publisherAndPublishedGitAssetsEqual": true,
+  "pin": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+  "expectedFlagsVerified": true,
+  "outputByteIdenticalToPriorCore97": true,
+  "preservation": {
+    "isolated": {
+      "components": 124,
+      "exactVerticesAndUndirectedEdges": true
+    },
+    "full": {
+      "components": 185,
+      "exactVerticesAndUndirectedEdges": true
+    }
+  },
+  "sourceRejectionsPerCase": 14,
+  "precisionDiscards": 0,
+  "canonicalRoundtrips": 2,
+  "twoRowHistoricalGuard": true,
+  "originalFivePointExpectedResults": true,
+  "scriptVerifierGapClosed": true,
+  "operationalHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+  "operationalClean": true,
+  "artifacts": {
+    "final-pair-verification.json": "3816a3a2be6894c08855aaf6339076f9f22cee7809fef1e26a12f8e31bf7f78c",
+    "final-verification-source-proof.json": "a4d26e3481037b2862fdca967b0045fad51a0fe8c6f2bc8532fa9de4d83d24c0",
+    "actual-1878-fixture-result.json": "028249e78aa3a8f7012e029d2fb56f2e5ed548146686cea2520d1ae45effc69d",
+    "actual-1878-fixture-geometries.json": "26bdb46abc93d739e6d3cb120cdca19b92517bb466ef3e1619c815f8ac3dbcc3",
+    "final-1878-comparison-proof.json": "8f4b081c74816c9f6b24e3e0e68a2ff1c819c929e9cf9723fc0b37616d0db34b",
+    "verify-final-pair.mjs": "67e072218ddd1baed16abde87b67e243d3290f025a9907e46bd24d2ebc480d21",
+    "prepare-final-verification.mjs": "332c85c9d3039386647abbd7f8b73f9ad64c7b55b648a742aef4538ab8f2257e",
+    "replay-final-1878-fixture.mjs": "590f34182c1b5e45d99f272dce385e44fe4e5f3b046b1193476fa99dae29deaf",
+    "check-final-replay.mjs": "44035c1afc7f516c87b545c42e57e54963eee301f6b3748e716e378d91977cb7"
+  },
+  "limits": [
+    "Evidence-only review. Did not rerun WASM/native geometry or tests.",
+    "Saved 22/604 operands plus isolated 0/589 and diagnostic two-row guard; not full interval/source-peer compilation.",
+    "Coordinate and undirected-edge preservation through normalization is not proof of mathematically exact Boolean output edges.",
+    "Registered CI 42570344615 is separately pending in supplied evidence; no full CI success claim.",
+    "No connected generation, Viewer validation, activation, source/runtime/Git/network writes."
+  ]
+}

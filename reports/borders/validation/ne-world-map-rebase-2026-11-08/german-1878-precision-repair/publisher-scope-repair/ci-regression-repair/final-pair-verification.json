@@ -1,0 +1,64 @@
+{
+  "at": "2026-11-09T05:58:41.724Z",
+  "sourceCommit": "6dd607962173cce251aef13c40b38028490f72d9",
+  "pairedCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+  "officialRunId": 42569328420,
+  "sourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+  "nativeInputCount": 160,
+  "nativeInputsMatchGit": true,
+  "inputsNotNarrowed": true,
+  "downloadedAssetsEqualPublishedGit": true,
+  "changedGeneratedPaths": [
+    "assets/wasm/pandoeditor-core.manifest.json",
+    "assets/wasm/pandoeditor-core.wasm"
+  ],
+  "assets": [
+    {
+      "file": "pandoeditor-core.js",
+      "bytes": 55329,
+      "sha256": "8ecbed2d64a9fa3bea6d5f6c59982a78958a5a073d2134ea67fd314809db9d0d"
+    },
+    {
+      "file": "pandoeditor-core.manifest.json",
+      "bytes": 26407,
+      "sha256": "7f5a0b5c57d3ea082943d931c89f4401ad419195a35d67c7db1ece68e2ea9b59"
+    },
+    {
+      "file": "pandoeditor-core.wasm",
+      "bytes": 3454259,
+      "sha256": "68eabd47e6cce3d9d8a4ba7b941a6ffb8425786abee0985dd34c51dcad0ebd69"
+    }
+  ],
+  "publisherEvidence": {
+    "schema": "pandolab-p2-result-evidence",
+    "schemaVersion": 1,
+    "sourceSha": "6dd607962173cce251aef13c40b38028490f72d9",
+    "resultSha": "5eb58c250ef68b1236b154643410e8d986169152",
+    "libraryRevision": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+    "verifiedScope": [
+      "wasm"
+    ],
+    "wasm": {
+      "manifestSha256": "7f5a0b5c57d3ea082943d931c89f4401ad419195a35d67c7db1ece68e2ea9b59",
+      "sourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+      "assets": {
+        "js": {
+          "sha256": "8ecbed2d64a9fa3bea6d5f6c59982a78958a5a073d2134ea67fd314809db9d0d",
+          "bytes": 55329
+        },
+        "wasm": {
+          "sha256": "68eabd47e6cce3d9d8a4ba7b941a6ffb8425786abee0985dd34c51dcad0ebd69",
+          "bytes": 3454259
+        }
+      }
+    },
+    "intermediateSourceShas": [],
+    "families": {}
+  },
+  "operationalHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+  "operationalUnchangedClean": true,
+  "dataPinUnchanged": true,
+  "scopedChecks": "pending final registered CI",
+  "actual1878Replay": "pending final paired snapshot",
+  "viewer": "not validated or activated"
+}

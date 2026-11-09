@@ -1,0 +1,118 @@
+{
+  "at": "2026-11-09T06:04:36.303Z",
+  "sourceCommit": "6dd607962173cce251aef13c40b38028490f72d9",
+  "pairedCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+  "operationalHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+  "coreSourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+  "p2": {
+    "runId": 42569328420,
+    "finalAttempt": 2,
+    "status": "success",
+    "firstAttempt": "CMake HTTP504 before build; same failed-job rerun only"
+  },
+  "selectedChecks": {
+    "runId": 42570344615,
+    "url": "https://github.com/kimjeon-il/Pando/actions/runs/42570344615",
+    "status": "success",
+    "unitFiles": 13,
+    "nativeTargets": 3,
+    "wasmDomainTests": 13,
+    "plainJsTests": 76,
+    "wasmBoundUnitTests": 210,
+    "allFailures": 0,
+    "selection": [
+      "document-session-native",
+      "polygon-mesh-native",
+      "spherical-polygon-native",
+      "wasm-domain-geometry"
+    ],
+    "allResultsPassed": true,
+    "browserRun": false
+  },
+  "actual1878": {
+    "at": "2026-11-09T06:00:12.345Z",
+    "sourceCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+    "coreSourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+    "nativeCasesPassed": 2,
+    "normalizedComponents": [
+      124,
+      185
+    ],
+    "precisionDiscards": 0,
+    "canonicalStoreRoundTripsPassed": 2,
+    "sourceRejectedPerCase": 14,
+    "originalFivePointNativeAndClippedPassSourceRejected": true,
+    "twoRowHistoricalGuardPassed": true,
+    "inputAndSnapshotAndLivePreserved": true,
+    "geometryOutputsByteIdenticalToPriorVerifiedCore97": true,
+    "outputSha256": "26bdb46abc93d739e6d3cb120cdca19b92517bb466ef3e1619c815f8ac3dbcc3",
+    "coordinateProofSha256": "b5587f4302a86247e7a29b96a891e0b9fd672fa516eece19b68726607334c3f0",
+    "exactVertexAndUndirectedEdgePreservationInheritedByIdenticalBytes": true,
+    "resultSha256": "028249e78aa3a8f7012e029d2fb56f2e5ed548146686cea2520d1ae45effc69d",
+    "scope": "Saved operands and diagnostic two-row guard only, not full interval/source peer compilation, connected generation or Viewer.",
+    "limits": "No proof that every native output edge equals the mathematical exact Boolean edge. No data/runtime activation or source/precision relaxation."
+  },
+  "testCorrectionScope": "Five test files only over45e64ef; strict source normalization negatives replace incorrect winding proxy; current/current compiler control and genuine historical subtraction preserved; canonical persisted provenance; moved worker path; current builtin ARG reader. No production engine edits in6dd.",
+  "argFixture": "Retired current-world is absent in mounted/Git tree but retained in archive/index as12.44MB. Test now uses existing canonical runtime metadata+ARG descriptor691B+geometry39446B. Source/ARG-only projection/runtime Float64 values exactly equal; no wholeworld restoration/generation.",
+  "preserved": {
+    "liveCheckout": true,
+    "mainCode": true,
+    "dataPin": true,
+    "librarySourceAndRuntime": true,
+    "precisionLimits": true,
+    "sourceAdmission": true
+  },
+  "limits": [
+    "No full interval or connected catalog compilation in this verification.",
+    "No Viewer, app main commit/deployment, runtime6 activation, data pin integration or full GIS generation.",
+    "Every native output edge is not proven to equal an exact mathematical Boolean edge.",
+    "Only the exact completed proof list is eligible for report-only publication; publication status is verified separately."
+  ],
+  "evidence": [
+    {
+      "file": "candidate.patch",
+      "sha256": "ef940fc59ee0c40e588310f0685a359d6cba96ababd5c0060eebd0fcfbd70e90"
+    },
+    {
+      "file": "review/independent-ci-regression-review.md",
+      "sha256": "bde9efa538373e24569d3bcff77be462af4b2cadb3ba9d78c4a7c5d42826e140"
+    },
+    {
+      "file": "staged-test-correction.json",
+      "sha256": "bd2ea6f6059efc42187c092ceab6a0d2f5e78ca6a54b5884150d4da2affc1760"
+    },
+    {
+      "file": "final-pair-verification.json",
+      "sha256": "3816a3a2be6894c08855aaf6339076f9f22cee7809fef1e26a12f8e31bf7f78c"
+    },
+    {
+      "file": "final-verification-source-proof.json",
+      "sha256": "a4d26e3481037b2862fdca967b0045fad51a0fe8c6f2bc8532fa9de4d83d24c0"
+    },
+    {
+      "file": "actual-1878-fixture-result.json",
+      "sha256": "028249e78aa3a8f7012e029d2fb56f2e5ed548146686cea2520d1ae45effc69d"
+    },
+    {
+      "file": "final-1878-comparison-proof.json",
+      "sha256": "8f4b081c74816c9f6b24e3e0e68a2ff1c819c929e9cf9723fc0b37616d0db34b"
+    },
+    {
+      "file": "review/independent-final-pair-and-replay-check.json",
+      "sha256": "21e3f8915782af2b135d7a98bc56bd8b0c019df75d3b554626e73d40426effe5"
+    },
+    {
+      "file": "final-checks-run-complete.json",
+      "sha256": "4729b0d8f059e765ea17d2afc3d496c5125613309535513c70748839f6165480"
+    },
+    {
+      "file": "final-checks-evidence/application-checks-non-browser.json",
+      "sha256": "965ecabd6f58e8327b546525135c420eeb65c9d88cab173a72fecd0406255f58"
+    }
+  ],
+  "snapshotRetention": {
+    "files": 224,
+    "bytes": 5686693,
+    "purpose": "Parent-authorized next bounded full1878 interval peer-selection/connected compile preflight, after comparing current canonical source revisions to saved fixture inputs. No run has started."
+  }
+}

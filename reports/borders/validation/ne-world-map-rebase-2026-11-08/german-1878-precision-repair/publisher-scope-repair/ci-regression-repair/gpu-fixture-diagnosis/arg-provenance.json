@@ -1,0 +1,153 @@
+{
+  "sourceCommit": "45e64efaa706cb4085cfd4fe305b123bf5d1c793",
+  "libraryRevision": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+  "archiveIndexSha256": "b9da10072249f42b7f9635aefaf41c1375a3d23605b763001b2f18d621e5429e",
+  "sourceSelection": [
+    {
+      "entityId": "state:ARG",
+      "geometryVersionId": "state:ARG:natural-earth-5.1.1"
+    }
+  ],
+  "sourceDescriptorSha256": "523646a71ff8eafbeec76a378aac28ff3e907dff7720bf5b18c7a1ec91fc2b53",
+  "canonicalGeometryResource": {
+    "logicalRef": {
+      "id": "state:ARG:state:ARG:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f.json",
+    "sha256": "3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f",
+    "bytes": 111171
+  },
+  "geometryJsonSha256": "23c21a0d9b56dafc6ed561e850d5a6c9034ff5a4bdbdb9eecfeb9bbe10194a41",
+  "polygonCount": 8,
+  "pointCount": 4674,
+  "builtinEntry": {
+    "entityId": "ARG",
+    "coverage": [
+      {
+        "validFrom": "1831-01-04",
+        "validTo": null
+      }
+    ],
+    "file": "countries/ARG-sha256-edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c.json.gz",
+    "encoding": "gzip",
+    "sha256": "edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c",
+    "compressedBytes": 691,
+    "decodedBytes": 2210,
+    "geometryRefs": [
+      {
+        "id": "historical-world:23c21a0d9b56dafc6ed561e850d5a6c9034ff5a4bdbdb9eecfeb9bbe10194a41",
+        "version": 1
+      }
+    ]
+  },
+  "builtinGeometryAsset": {
+    "id": "historical-world:23c21a0d9b56dafc6ed561e850d5a6c9034ff5a4bdbdb9eecfeb9bbe10194a41",
+    "version": 1,
+    "file": "geometries/sha256-38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072.json.gz",
+    "encoding": "gzip",
+    "sha256": "38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072",
+    "contentSha256": "3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f",
+    "compressedBytes": 39446,
+    "decodedBytes": 111171,
+    "type": "MultiPolygon"
+  },
+  "builtinGeometryBytesEqualCanonicalSource": true,
+  "legacyPath": "assets/data/territorial-entities/generated/current-world.geojson",
+  "legacyArchiveEntry": {
+    "stored": "archive/blobs/58850555a92dbf50a4f4cdc63fa272bd58d96e560fd1aca925084cf2e8caeee9.gz",
+    "encoding": "gzip",
+    "sha256": "58850555a92dbf50a4f4cdc63fa272bd58d96e560fd1aca925084cf2e8caeee9",
+    "bytes": 12444385
+  },
+  "legacyProjectionPayloadRead": false,
+  "sourceReads": [
+    {
+      "logical": "assets/data/territorial-entities/source/countries/state-ARG.json",
+      "stored": "archive/blobs/523646a71ff8eafbeec76a378aac28ff3e907dff7720bf5b18c7a1ec91fc2b53.gz",
+      "encoding": "gzip",
+      "storedSha256": "21da889d1e14e1f2715500ad85a173bbdec8928b0a4cfd831be5ef7357d225cf",
+      "sha256": "523646a71ff8eafbeec76a378aac28ff3e907dff7720bf5b18c7a1ec91fc2b53",
+      "bytes": 2428
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/geometries/sha256-3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f.json",
+      "stored": "archive/blobs/3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f.gz",
+      "encoding": "gzip",
+      "storedSha256": "9384aaa408ff76120c36d859592411a64b7a0b68cfe8ab7581584eeea3abfd47",
+      "sha256": "3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f",
+      "bytes": 111171
+    },
+    {
+      "logical": "assets/data/territorial-entities/source/views/world.json",
+      "stored": "archive/blobs/2ded24105c2fddb73c0e051b86eef450f3a35b3e8e7295dd5c0ba6fa216836ff.gz",
+      "encoding": "gzip",
+      "storedSha256": "43e154ad9959af084a0df651c27dfa4ca2269312ee7ad47662df419d77c74f4b",
+      "sha256": "2ded24105c2fddb73c0e051b86eef450f3a35b3e8e7295dd5c0ba6fa216836ff",
+      "bytes": 27218
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/index.json",
+      "stored": "assets/data/builtin-world/generated/v1/index.json",
+      "encoding": "identity",
+      "storedSha256": "e26aff18bc65538e7a2bbafafd407a497cd891e1f7ec83e926fd0151aed426de",
+      "sha256": "e26aff18bc65538e7a2bbafafd407a497cd891e1f7ec83e926fd0151aed426de",
+      "bytes": 2013521
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/countries/ARG-sha256-edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c.json.gz",
+      "stored": "assets/data/builtin-world/generated/v1/countries/ARG-sha256-edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c.json.gz",
+      "encoding": "identity",
+      "storedSha256": "edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c",
+      "sha256": "edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c",
+      "bytes": 691
+    },
+    {
+      "logical": "assets/data/builtin-world/generated/v1/geometries/sha256-38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072.json.gz",
+      "stored": "archive/blobs/38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072.bin",
+      "encoding": "identity",
+      "storedSha256": "38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072",
+      "sha256": "38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072",
+      "bytes": 39446
+    }
+  ],
+  "reportOnlyWrites": [
+    {
+      "path": "input-source/countries/state-ARG.json",
+      "bytes": 2428,
+      "sha256": "523646a71ff8eafbeec76a378aac28ff3e907dff7720bf5b18c7a1ec91fc2b53"
+    },
+    {
+      "path": "input-source/geometries/sha256-3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f.json",
+      "bytes": 111171,
+      "sha256": "3042caf5d55bc6ce2776bf32214f7b82f8962a01fd8db2645e57aa7404c7282f"
+    },
+    {
+      "path": "input-source/views/world.json",
+      "bytes": 27218,
+      "sha256": "2ded24105c2fddb73c0e051b86eef450f3a35b3e8e7295dd5c0ba6fa216836ff"
+    },
+    {
+      "path": "verification/assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 2013521,
+      "sha256": "e26aff18bc65538e7a2bbafafd407a497cd891e1f7ec83e926fd0151aed426de"
+    },
+    {
+      "path": "verification/assets/data/builtin-world/generated/v1/countries/ARG-sha256-edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c.json.gz",
+      "bytes": 691,
+      "sha256": "edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c"
+    },
+    {
+      "path": "verification/assets/data/builtin-world/generated/v1/geometries/sha256-38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072.json.gz",
+      "bytes": 39446,
+      "sha256": "38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072"
+    },
+    {
+      "path": "verification/src/rendering/workers/gpu-mesh-core.js",
+      "bytes": 21215,
+      "sha256": "5e668bfa9dc810f95fedb7ba34be9ef35bc8fab77ebf5ddf46c64427faebbe4a"
+    }
+  ]
+}

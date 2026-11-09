@@ -1,0 +1,178 @@
+{
+  "at": "2026-11-09T06:00:11.248Z",
+  "sourceCommit": "5eb58c250ef68b1236b154643410e8d986169152",
+  "core": {
+    "sourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+    "abi": 1,
+    "compiler": "6.0.3",
+    "meshRevision": 6
+  },
+  "input": {
+    "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08/connected-publication/paired-source-adoption/publication-resume-swiss-fix-activation-1/failed-generation-operands.json",
+    "sha256": "1218acdd6fd18492616dd63db7d54b08dee5dfc355de5be09095dea29c917b66",
+    "interval": {
+      "validFrom": "1878-04-01",
+      "validTo": "1878-12-17"
+    },
+    "operation": "difference DEU / intermediate",
+    "operandComponents": [
+      22,
+      604
+    ]
+  },
+  "scope": "Original saved1878 difference operands, isolated component0/cutter589 and full22/604 native operation. Diagnostic two-row historical guard only, not complete interval/source-peer compilation. No runtime generation or data activation.",
+  "cases": {
+    "isolated": {
+      "native": {
+        "ok": true,
+        "ms": 49,
+        "components": 124,
+        "sha256": "389754ba4bd89892e91fa228e26ddaa9a0a83b489416bc7827fcb7c0254bb84f"
+      },
+      "sourceStrictRejected": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        9,
+        19,
+        23,
+        24,
+        26,
+        39,
+        40,
+        52,
+        53
+      ],
+      "normalizer": {
+        "ok": true,
+        "ms": 29,
+        "components": 124,
+        "sha256": "8047251cefab43c248b681a61c3e0dc40e2f163f785259c571adcc8e6a24185c",
+        "exactCoordinatesAndRingOrder": false
+      },
+      "precisionRecords": [],
+      "precisionDiscardCount": 0,
+      "precisionDiscardAreaM2": 0,
+      "storage": {
+        "ok": true,
+        "value": {
+          "roundtrip": true,
+          "versions": 1,
+          "geometrySha256": "8047251cefab43c248b681a61c3e0dc40e2f163f785259c571adcc8e6a24185c"
+        },
+        "ms": 44
+      },
+      "twoRowGuard": {
+        "ok": true,
+        "ms": 228,
+        "candidates": 2,
+        "adjustments": [
+          {
+            "entityId": "DEU",
+            "kind": "explicit-replacement",
+            "relatedIds": [
+              "intermediate"
+            ]
+          }
+        ]
+      },
+      "rawMatchesPriorC9": true,
+      "priorC9Rejected": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        9,
+        19,
+        23,
+        24,
+        26,
+        39,
+        40,
+        52,
+        53
+      ]
+    },
+    "full": {
+      "native": {
+        "ok": true,
+        "ms": 112,
+        "components": 185,
+        "sha256": "29bf64a8d7a16f556ca7e0cf662ef9da1693062c24de62cef6f46c36108c8ad8"
+      },
+      "sourceStrictRejected": [
+        62,
+        64,
+        67,
+        68,
+        69,
+        70,
+        80,
+        84,
+        85,
+        87,
+        100,
+        101,
+        113,
+        114
+      ],
+      "normalizer": {
+        "ok": true,
+        "ms": 33,
+        "components": 185,
+        "sha256": "47e6de98ce6dea52b3aae50ee0ee337af6ec70d3a0daa1b5e8b35364238a7c7d",
+        "exactCoordinatesAndRingOrder": false
+      },
+      "precisionRecords": [],
+      "precisionDiscardCount": 0,
+      "precisionDiscardAreaM2": 0,
+      "storage": {
+        "ok": true,
+        "value": {
+          "roundtrip": true,
+          "versions": 1,
+          "geometrySha256": "47e6de98ce6dea52b3aae50ee0ee337af6ec70d3a0daa1b5e8b35364238a7c7d"
+        },
+        "ms": 39
+      }
+    }
+  },
+  "originalFivePoint": {
+    "raw": {
+      "ok": true,
+      "value": {
+        "components": 4,
+        "exactTargetPresent": true,
+        "sha256": "7cd77c7f027495a3d527a845130264504006cd0229460fd722196a96aa93756b"
+      },
+      "ms": 1
+    },
+    "clipped": {
+      "ok": true,
+      "ms": 0,
+      "geometrySha256": "05ce0e0fd466e9c457fd1150898a51fb53df7acbbe53ee32bec76659dcfce5df"
+    },
+    "source": {
+      "ok": false,
+      "error": {
+        "code": "INVALID_POLYGON",
+        "message": "INVALID_POLYGON: component 0 ring 0: INVALID_POLYGON_RING: degenerate shell or hole"
+      },
+      "ms": 0
+    }
+  },
+  "preservation": {
+    "inputUnchanged": true,
+    "verificationFilesUnchanged": true,
+    "liveHeadUnchanged": true,
+    "liveClean": true
+  },
+  "limitations": [
+    "This does not prove every native output edge is the exact Boolean edge.",
+    "Strict source admission and canonical precision budgets are unmodified.",
+    "Not a full1878 period, connected publication or Viewer validation."
+  ]
+}

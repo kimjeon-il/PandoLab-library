@@ -1,0 +1,227 @@
+{
+  "status": "executed",
+  "plan": {
+    "schema": "pando-application-check-plan-v1",
+    "changedFiles": [],
+    "unitTests": [
+      "tests/unit/build/p2-artifact-plan.test.mjs",
+      "tests/unit/build/viewer-build-cli-roots.test.mjs",
+      "tests/unit/data/world-bundle-runtime.test.mjs",
+      "tests/unit/document/core-geometry-resources-wasm.test.mjs",
+      "tests/unit/document/historical-world-territories.test.mjs",
+      "tests/unit/geometry/gpu-mesh-country-strokes.test.mjs",
+      "tests/unit/geometry/map-geometry-validation.test.mjs",
+      "tests/unit/geometry/polygon-canonical-storage.test.mjs",
+      "tests/unit/geometry/polygon-clipped-positive-ring.test.mjs",
+      "tests/unit/geometry/polygon-geometry.test.mjs",
+      "tests/unit/rendering/country-mesh-preparation.test.mjs",
+      "tests/unit/rendering/prepared-country-scene.test.mjs",
+      "tests/unit/runtime/check-runner.test.mjs"
+    ],
+    "unitTestPrerequisites": {
+      "tests/unit/document/core-geometry-resources-wasm.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/document/historical-world-territories.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/geometry/gpu-mesh-country-strokes.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/geometry/map-geometry-validation.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/geometry/polygon-canonical-storage.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/geometry/polygon-clipped-positive-ring.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/geometry/polygon-geometry.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/rendering/country-mesh-preparation.test.mjs": [
+        "core-assets"
+      ],
+      "tests/unit/rendering/prepared-country-scene.test.mjs": [
+        "core-assets"
+      ]
+    },
+    "browserSpecs": [],
+    "browserPrerequisites": [],
+    "explicitPrerequisites": [],
+    "externalChecks": [],
+    "commands": [
+      "document-session-native",
+      "polygon-mesh-native",
+      "spherical-polygon-native",
+      "wasm-domain-geometry"
+    ],
+    "prerequisites": [
+      "core-assets",
+      "native-document-session-tests",
+      "native-polygon-mesh-tests",
+      "native-spherical-polygon-tests"
+    ],
+    "reasons": {},
+    "manualTests": [
+      "tests/browser/document/codespaces-live.spec.mjs",
+      "tests/browser/rendering/canvas-globe-performance.spec.mjs",
+      "tests/browser/runtime/p3-remote-preview.spec.mjs",
+      "tests/browser/ui/deferred-builtin-timeline.spec.mjs"
+    ],
+    "inventory": {
+      "unit": 249,
+      "browser": 18
+    },
+    "comparison": {
+      "event": "push",
+      "base": "5eb58c250ef68b1236b154643410e8d986169152",
+      "requestedBase": "5eb58c250ef68b1236b154643410e8d986169152",
+      "head": "5eb58c250ef68b1236b154643410e8d986169152",
+      "workingTree": false,
+      "files": []
+    }
+  },
+  "execution": {
+    "phase": "non-browser",
+    "shard": null
+  },
+  "ok": true,
+  "results": [
+    {
+      "id": "core-assets",
+      "argv": [
+        "node",
+        "scripts/check-core-prerequisite.mjs"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "native-document-session-tests",
+      "argv": [
+        "node",
+        "scripts/prepare-native-test-tools.mjs",
+        "document-session-tests"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "native-polygon-mesh-tests",
+      "argv": [
+        "node",
+        "scripts/prepare-native-test-tools.mjs",
+        "polygon-mesh-tests"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "native-spherical-polygon-tests",
+      "argv": [
+        "node",
+        "scripts/prepare-native-test-tools.mjs",
+        "spherical-polygon-tests"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "document-session-native",
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "build-native/geometry-core",
+        "-C",
+        "Release",
+        "--output-on-failure",
+        "--no-tests=error",
+        "-R",
+        "^document_session_tests$"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "polygon-mesh-native",
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "build-native/geometry-core",
+        "-C",
+        "Release",
+        "--output-on-failure",
+        "--no-tests=error",
+        "-R",
+        "^polygon_mesh_tests$"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "spherical-polygon-native",
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "build-native/p1/pando-gis-tools",
+        "-C",
+        "Release",
+        "--output-on-failure",
+        "--no-tests=error",
+        "-R",
+        "^spherical-polygon-normalization$"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "wasm-domain-geometry",
+      "argv": [
+        "node",
+        "--test",
+        "tests/native/document/p5-country-contact-wasm.test.mjs",
+        "tests/native/document/p5-boundary-split-wasm.test.mjs",
+        "tests/native/document/p5-polygon-mesh-wasm.test.mjs"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "unit",
+      "argv": [
+        "node",
+        "--test",
+        "--test-concurrency=2",
+        "tests/unit/build/p2-artifact-plan.test.mjs",
+        "tests/unit/build/viewer-build-cli-roots.test.mjs",
+        "tests/unit/data/world-bundle-runtime.test.mjs",
+        "tests/unit/runtime/check-runner.test.mjs"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "id": "unit",
+      "argv": [
+        "node",
+        "--test",
+        "--test-concurrency=2",
+        "tests/unit/document/core-geometry-resources-wasm.test.mjs",
+        "tests/unit/document/historical-world-territories.test.mjs",
+        "tests/unit/geometry/gpu-mesh-country-strokes.test.mjs",
+        "tests/unit/geometry/map-geometry-validation.test.mjs",
+        "tests/unit/geometry/polygon-canonical-storage.test.mjs",
+        "tests/unit/geometry/polygon-clipped-positive-ring.test.mjs",
+        "tests/unit/geometry/polygon-geometry.test.mjs",
+        "tests/unit/rendering/country-mesh-preparation.test.mjs",
+        "tests/unit/rendering/prepared-country-scene.test.mjs"
+      ],
+      "status": "passed",
+      "exitCode": 0
+    }
+  ],
+  "stagingEvidence": null,
+  "externalChecks": []
+}

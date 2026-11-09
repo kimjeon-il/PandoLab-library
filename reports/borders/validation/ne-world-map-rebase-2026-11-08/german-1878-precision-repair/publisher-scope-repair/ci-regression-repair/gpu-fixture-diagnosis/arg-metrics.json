@@ -1,0 +1,36 @@
+{
+  "sourceCommit": "45e64efaa706cb4085cfd4fe305b123bf5d1c793",
+  "libraryRevision": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+  "coreSourceSha256": "97f9077a623983f7a63375ba663da9699db106f15bc9c3678acb431c2c2d2906",
+  "canonicalProjection": {
+    "explicitEntities": [
+      "state:ARG"
+    ],
+    "selections": [
+      {
+        "entityId": "state:ARG",
+        "geometryVersionId": "state:ARG:natural-earth-5.1.1"
+      }
+    ],
+    "outputFeatureIds": [
+      "ARG"
+    ],
+    "geometryMatchesRuntimeExactly": true
+  },
+  "runtimePayloadReads": [
+    "countries/ARG-sha256-edd5900c7e7637c95e06a955a8c2fee0f77a706cc3171009de52ca72fff2c81c.json.gz",
+    "geometries/sha256-38e06ec464df129ea3b9addd23778d47d7d49f93e163a169877de7a52415e072.json.gz"
+  ],
+  "geometrySha256": "23c21a0d9b56dafc6ed561e850d5a6c9034ff5a4bdbdb9eecfeb9bbe10194a41",
+  "polygonCount": 8,
+  "pointCount": 4674,
+  "removedDegenerateTriangleCount": 2,
+  "survivingTriangleCount": 21124,
+  "outlineSegmentCount": 4666,
+  "allOutlineEdgesBelongToSurvivingFill": true,
+  "strokeCoordinatesMatchPackedBoundary": true,
+  "nearBorderSegmentCount": 2,
+  "nearBorderCoverageDegrees": 0.6289529999999957,
+  "requiredBorderCoverageExclusiveMinimum": 0.62,
+  "geometryUnchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "sourceCommit": "45e64efaa706cb4085cfd4fe305b123bf5d1c793",
+  "verificationRoot": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/current-clipped-contract-candidate/store-contract-extension/scene-revision-pair/verification",
+  "fixtureHeader": "tests/native/geometry/fixtures/clipped-positive-rings.h",
+  "fixtureHeaderSha256": "804cecc7762ffd8f7487ceceff59286231795aff278e83c31f9425ba9d1287a7",
+  "wasmManifestSha256": "338e10474eb27b9f4cd7edb614ef78f4b1bf937573a2702f76631cffe6c97f80",
+  "coreSourceSha256": "97f9077a623983f7a63375ba663da9699db106f15bc9c3678acb431c2c2d2906",
+  "node": "v24.21.0",
+  "execution": "Independent official loadNodeCore via temporal adapter. Existing source-matched WASM only; native executable not run.",
+  "methods": {
+    "sourceAdmission": "sharedCalculationCore.normalizePolygonGeometry(geometry,false)",
+    "clippedNormalization": "sharedCalculationCore.normalizePolygonGeometry(geometry,true)",
+    "sourceWinding": "sharedCalculationCore.hasCanonicalPolygonWinding(normalized)",
+    "clippedWinding": "sharedCalculationCore.hasCanonicalClippedPolygonWinding(normalized)"
+  },
+  "observed": {
+    "ringsFromActualNativeHeader": 25,
+    "rawSourceRejections": 25,
+    "clippedNormalizedSourceRejections": 25,
+    "clippedWindingAccepted": 25,
+    "sourceModeWindingTrue": 8,
+    "inputsUnchanged": 25,
+    "retracedCollinearError": "INVALID_POLYGON_RING: self-intersection"
+  },
+  "fixtureParsing": "Each of the 25 numeric Ring initializer lines from the exact Git header was parsed without changing decimal literals; no duplicate coordinate fixture was written.",
+  "reproduction": "For every captured ring, construct Polygon, require source normalization throws, normalize with clipped=true, require clipped winding true, require source normalization of clipped result throws, count source-mode winding, and assert original JSON unchanged. Separately check the existing collinear 0,0→1,1→2,2→3,3→0,0 negative."
+}

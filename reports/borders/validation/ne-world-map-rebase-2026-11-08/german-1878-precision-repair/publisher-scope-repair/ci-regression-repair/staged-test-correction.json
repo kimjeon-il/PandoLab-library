@@ -1,0 +1,52 @@
+{
+  "createdUtc": "2026-11-09T05:47:19.010Z",
+  "parent": "45e64efaa706cb4085cfd4fe305b123bf5d1c793",
+  "sourceCommit": "6dd607962173cce251aef13c40b38028490f72d9",
+  "tree": "d85ddd01f41b1cd6f13c123424f683a615730096",
+  "patchSha256": "ef940fc59ee0c40e588310f0685a359d6cba96ababd5c0060eebd0fcfbd70e90",
+  "reviewPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/review/independent-ci-regression-review.md",
+  "reviewSha256": "bde9efa538373e24569d3bcff77be462af4b2cadb3ba9d78c4a7c5d42826e140",
+  "files": [
+    {
+      "path": "tests/native/document/document-session-tests.cpp",
+      "beforeSha256": "99c018d5110b74373a676f4471d06ac2c72f18b0e30651fba1923219d22093ef",
+      "candidateSha256": "4d4a79d278e88347a9bbd3625f33c9798c64cbaacf2e5e1c0c30056ebf68923f"
+    },
+    {
+      "path": "tests/unit/document/historical-world-territories.test.mjs",
+      "beforeSha256": "fe141594d6842465a331ba30cef6950da23e7c8be5217c8f3e3b5769c2d40d72",
+      "candidateSha256": "d86aad433fada2ba1cd56dc94d39862c92405572302f52527b8aca0f0d19f84a"
+    },
+    {
+      "path": "tests/unit/geometry/gpu-mesh-country-strokes.test.mjs",
+      "beforeSha256": "f973526ab7d8a456a896f6a0c5ed3fb5f1ff912c3bafdbfdac774a5bc7979bbc",
+      "candidateSha256": "b0431aa067d7eafb11e460f6de0fdc68574ecc80a15422a1042435da2f9b9bac"
+    },
+    {
+      "path": "tests/unit/geometry/polygon-canonical-storage.test.mjs",
+      "beforeSha256": "a03d33fa926a787efd783b844bda48f5b7d7d7d8b73d472b8c8a760035ef66b2",
+      "candidateSha256": "f93ef5265c2fd49f6bc647deb4e82a2a091183450e806cb4ddeca9dbc2b2f42b"
+    },
+    {
+      "path": "tools/cpp/spherical-polygon-tests.cpp",
+      "beforeSha256": "4dceaf68634f7f81c299ac9bc4035c663869a58136cb4283bc5f3f7a4f64c2ed",
+      "candidateSha256": "da1783e0c9c74c84b4fca1569f01968559360b773d5f17d1fcfcddfa6ce460c1"
+    }
+  ],
+  "previousCoreSourceSha256": "97f9077a623983f7a63375ba663da9699db106f15bc9c3678acb431c2c2d2906",
+  "predictedCoreSourceSha256": "f4138927ea2044814f11cf60daadfb7a0a7b8ef11860ddaab57f081ed365a16c",
+  "changedNativeInputs": [
+    {
+      "path": "tests/native/document/document-session-tests.cpp",
+      "sha256": "4d4a79d278e88347a9bbd3625f33c9798c64cbaacf2e5e1c0c30056ebf68923f"
+    }
+  ],
+  "sourceInputCount": 160,
+  "pinUnchanged": true,
+  "previousWasmAssetsUnchanged": true,
+  "operationalHead": "70bffe76dba3b060c85d6dfcfe157ab046ec5e98",
+  "operationalClean": true,
+  "operationalIndexUnchanged": true,
+  "pushStatus": "not attempted",
+  "matchingWasm": "requires official P2 build, not operationally installed"
+}
