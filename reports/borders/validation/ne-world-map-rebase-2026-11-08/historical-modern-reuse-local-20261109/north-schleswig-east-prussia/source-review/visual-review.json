@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "visually-reviewed-final-composed-source-display-only",
+  "reviewedAt": "2026-11-09T23:48:31.166Z",
+  "actualImagesOpened": 6,
+  "projection": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/projection-execution.json",
+    "sha256": "363f3b0e18b2c9cdcefcf314741388babef448272a7445099fcf9ff7b6f5a527"
+  },
+  "scope": "Three main source panels and three enlarged arc diagnostics actually opened and inspected. Main panels compare preserved working master (EP: preserved reconstruction, not KML), current source and candidate at same extent, EPSG:3035, 1:10M and96dpi. The red arcs were independently verified to consist only of archived NE reference edges; blue is candidate. Enlarged panels are diagnostics, not accuracy measurement.",
+  "observations": {
+    "AH": [
+      "Recognizable imperial outline and historical mainland boundaries remain unchanged; selected Adriatic coast follows same broad route.",
+      "Current donor bays/peninsulas are denser than the old NE proxy but remain legible at1:10M. Adopted islands remain separate and unchanged."
+    ],
+    "DEU": [
+      "Overall representative imperial outline and all nonselected coastal/land routes remain unchanged.",
+      "Two Baltic sections include different current donor coastal detail; these are display-proxy differences, not newly verified historical shoreline or reclaimed-land events.",
+      "Shared Sambian section is the same as East Prussia, including the two computed intersections and retained original endpoints."
+    ],
+    "EP": [
+      "Preserved canonical reconstruction and candidate retain the same recognizable province outline, lagoon closure, northern partition and eastern route.",
+      "Sambian coast change is bounded by actual intersections; no independent reconstruction of the original LKI KML was performed."
+    ]
+  },
+  "images": [
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-source-scale-review.png",
+      "sha256": "72811b03287ec389f160a89d0530e04965272a27103500c107fee5c8269c76f1"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-arc-diagnostic.png",
+      "sha256": "94564a183158381f4c3b5fb4c6d9c94614b58203f3107ad85ae822c5654ed3c6"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-source-scale-review.png",
+      "sha256": "c7e654fc4b67b04efdb25319a05354578c84790424daf0513ed29ded21453cc0"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-arc-diagnostic.png",
+      "sha256": "f4eca9acbf9e3a2edcc9c3d371f5613d39f80cd163e9e7f33526feb9aea222cb"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-source-scale-review.png",
+      "sha256": "87221298a4d69fcda33ef3931f95743c44c4ba74a9ed1a90be39aeffe159ce17"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-arc-diagnostic.png",
+      "sha256": "2fa7cac30c36f787766b22c9b4899cc08e0fce1ef00311366e1e9f38eeeab550"
+    }
+  ],
+  "notClaimed": [
+    "No historical positional accuracy or original EP KML recovery.",
+    "No full-period ownership/dated counterpart closure.",
+    "No compiled/runtime/Viewer approval.",
+    "No uniform scale-derived distance tolerance, simplification or smoothing."
+  ]
+}

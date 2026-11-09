@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "status": "source-display-delta-approved-only",
+  "sourceRevision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+  "reviewedAt": "2026-11-09T23:48:31.166Z",
+  "subjects": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "geometrySha256": "3072e51f7a126d2d21c152fbca1e6e6cca1e9f5fee96af4bf7c6dfd7efbe02eb"
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "geometrySha256": "719dcc1d8cd2657f77a3b68184f9c6eac34290ea33961a295c2340dfdc67a77e"
+    },
+    {
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "geometrySha256": "62920e3c115f7f136969ef08714c69994b134823e9c9211b700eea356b05423a"
+    }
+  ],
+  "reason": "Fresh direct canonical reads, exact operation replay, rational intersection verification, same-scale visual inspection and seven scoped topology/date checks support only the limited display-proxy coast substitution. Original historical status, sources, dates, metadata, working/provisional uncertainty and licensing limitations are unchanged. EP reconstruction is preserved without pretending to reopen its primary KML.",
+  "gate": {
+    "reference": "tools/gis/historical-display-review.mjs",
+    "sha256": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563"
+  },
+  "source": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-provenance.json",
+    "sha256": "76d351071e33ed3d0c557ea3280d3c0eb95b0d4e68097b602487590a5e0e7cde"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-topology-measurements.json",
+    "sha256": "240e5dea453024810ce6f3e26e5431deb57670c71266318728a13f9fc52679f4"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/visual-review.json",
+    "sha256": "34cef216c72a70269095173b275f034ab0b99f890074bccc3a61ba76c1a07ffd"
+  },
+  "mustAdoptTogether": [
+    "state:DEU",
+    "state:east-prussia"
+  ],
+  "existingEastPrussiaOutsideParentKm2": 25.870499421098636,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "historicalOwnershipReverifiedAcrossWholePeriod": false,
+  "compiledDerivatives": [],
+  "compiledApproval": false,
+  "runtimeApproval": false
+}

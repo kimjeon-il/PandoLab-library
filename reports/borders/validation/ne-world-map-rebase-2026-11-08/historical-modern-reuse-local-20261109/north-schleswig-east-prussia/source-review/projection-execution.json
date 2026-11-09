@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "status": "executed",
+  "inputCrs": "EPSG:4326",
+  "crs": "EPSG:3035",
+  "definition": null,
+  "axisOrder": "always_xy longitude,latitude",
+  "units": "metre",
+  "pyproj": "3.7.2",
+  "proj": "9.5.1",
+  "shapely": "2.1.2",
+  "geos": "3.13.1",
+  "renderScaleDenominator": 10000000,
+  "dpi": 96,
+  "metresPerPixel": 2645.8333333333335,
+  "records": [
+    {
+      "tag": "AH",
+      "candidateGeometrySha256": "3072e51f7a126d2d21c152fbca1e6e6cca1e9f5fee96af4bf7c6dfd7efbe02eb",
+      "projectedBoundsMetres": [
+        4285330.665502694,
+        2161711.53414462,
+        5596662.25407799,
+        3155899.7233313257
+      ],
+      "projectedExtentMetres": [
+        4216038.1264570085,
+        2092578.8236424502,
+        5665954.7931236755,
+        3224995.490309117
+      ],
+      "framePixels": [
+        548,
+        428
+      ],
+      "sourceScaleImage": "AH-source-scale-review.png",
+      "finite": true
+    },
+    {
+      "tag": "DEU",
+      "candidateGeometrySha256": "719dcc1d8cd2657f77a3b68184f9c6eac34290ea33961a295c2340dfdc67a77e",
+      "projectedBoundsMetres": [
+        4023454.0999741834,
+        2684118.859885895,
+        5156926.148380037,
+        3696490.2965417905
+      ],
+      "projectedExtentMetres": [
+        3953867.2075104434,
+        2614835.8275494925,
+        5226513.040843777,
+        3765773.3275494925
+      ],
+      "framePixels": [
+        481,
+        435
+      ],
+      "sourceScaleImage": "DEU-source-scale-review.png",
+      "finite": true
+    },
+    {
+      "tag": "EP",
+      "candidateGeometrySha256": "62920e3c115f7f136969ef08714c69994b134823e9c9211b700eea356b05423a",
+      "projectedBoundsMetres": [
+        4931437.524002783,
+        3385293.3321311926,
+        5156826.659986178,
+        3696709.852063893
+      ],
+      "projectedExtentMetres": [
+        4647257.091994481,
+        3249959.9254308757,
+        5441007.091994481,
+        3832043.258764209
+      ],
+      "framePixels": [
+        300,
+        220
+      ],
+      "sourceScaleImage": "EP-source-scale-review.png",
+      "finite": true
+    }
+  ]
+}

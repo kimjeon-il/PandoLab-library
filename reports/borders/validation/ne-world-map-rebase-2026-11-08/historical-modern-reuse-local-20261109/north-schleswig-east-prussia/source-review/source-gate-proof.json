@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-actual-canonical-source-change-gate-only",
+  "sourceRevision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+  "checkedAt": "2026-11-09T23:48:31.166Z",
+  "appRevision": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+  "canonicalGate": {
+    "reference": "tools/gis/historical-display-review.mjs",
+    "sha256": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563"
+  },
+  "gateUnmodified": true,
+  "results": [
+    {
+      "tag": "AH",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "actualSourceGateCount": 1,
+      "codecRoundtrip": true,
+      "otherVersionsAndEntityMetadataUnchanged": true,
+      "expected": {
+        "normalizedEntitySha256": "3af5dae02419147b9121d09012774419a375882bf62468c42be3fe10cba6b558",
+        "normalizedVersionSha256": "53b90935e9f6436dca6f00046f822119b79d4e960793f9a52bce11f0ada22910",
+        "geometrySha256": "3072e51f7a126d2d21c152fbca1e6e6cca1e9f5fee96af4bf7c6dfd7efbe02eb",
+        "encodedDescriptorSha256": "97636642c80ba463fd9161a1ab344a068ea8d5c61f2f4d71747d1559d4159d88",
+        "encodedDescriptorBytes": 24051,
+        "geometryResources": [
+          {
+            "file": "geometries/sha256-5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43.json",
+            "sha256": "5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43",
+            "bytes": 184118
+          }
+        ]
+      }
+    },
+    {
+      "tag": "DEU",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "actualSourceGateCount": 1,
+      "codecRoundtrip": true,
+      "otherVersionsAndEntityMetadataUnchanged": true,
+      "expected": {
+        "normalizedEntitySha256": "ff21348c0dcfdf8105e1397220163d8951cbccd89076d3515180f57deb72d30c",
+        "normalizedVersionSha256": "bdb62b2ecfc156ab1e414b06f67cccb9e7dcc7d060d4fc3a9759ca9d9b3b7328",
+        "geometrySha256": "719dcc1d8cd2657f77a3b68184f9c6eac34290ea33961a295c2340dfdc67a77e",
+        "encodedDescriptorSha256": "d13d349840a5f20484f072afcb5ca1c7b39a2b3d3f9cac1c9eae28f96dc2b992",
+        "encodedDescriptorBytes": 69519,
+        "geometryResources": [
+          {
+            "file": "geometries/sha256-282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433.json",
+            "sha256": "282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433",
+            "bytes": 242010
+          },
+          {
+            "file": "geometries/sha256-6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67.json",
+            "sha256": "6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67",
+            "bytes": 171519
+          }
+        ]
+      }
+    },
+    {
+      "tag": "EP",
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "actualSourceGateCount": 1,
+      "codecRoundtrip": true,
+      "otherVersionsAndEntityMetadataUnchanged": true,
+      "expected": {
+        "normalizedEntitySha256": "bc767d7a2734a21b3851bcca3ce36931f15234b6d0c55ed770fbf978ea24a205",
+        "normalizedVersionSha256": "d724335a734c9a43cf23429b9e58b3158f9ca1babaa3aba8a126f64ca9f66365",
+        "geometrySha256": "62920e3c115f7f136969ef08714c69994b134823e9c9211b700eea356b05423a",
+        "encodedDescriptorSha256": "de6ee8282f5f5986dcdbc628eefe38eb75fb11ea517ec500239eee05bcf82053",
+        "encodedDescriptorBytes": 16498,
+        "geometryResources": [
+          {
+            "file": "geometries/sha256-bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f.json",
+            "sha256": "bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f",
+            "bytes": 147783
+          }
+        ]
+      }
+    }
+  ],
+  "compiledApproval": false,
+  "runtimeApproval": false,
+  "sourceOnly": true
+}

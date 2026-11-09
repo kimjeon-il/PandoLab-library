@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "status": "fresh-source-lineage-and-coastal-inputs-verified-with-declared-limits",
+  "sourceRevision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+  "canonicalRead": "decodeArchiveEntry(fetch:false), decodeTerritorialSource, normalizeTerritorialLibraryEntity",
+  "archiveInputs": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/archive-inputs.json",
+    "sha256": "5268a718bd44315b8ea2914390ce5315f3fe63a04e8f5e1a02669c1b60f99ff2"
+  },
+  "coastalOperations": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/reviewed-coast-operations.json",
+    "sha256": "2f058269476f9ce150ac9cc87be6adcd952a57302537145be19866be6a95e09e"
+  },
+  "independentReplay": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/independent-operation-replay.json",
+    "sha256": "c3998ddc4a7fa63e7b478ae3151d66bb746ce20ee6940f4142879c2f11c5b588"
+  },
+  "donors": [
+    {
+      "entityId": "state:HRV",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-HRV.json",
+      "descriptorSha256": "82ac1394e9c36b1e24e69fa2ed243f5566a498079a669d8ee1fe11333e3bf5da",
+      "versionId": "state:HRV:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "geometrySha256": "b2f026910c1a8114147f3ae2b6ea039e7652667e10597c464db3fac54ab372c1",
+      "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+      "fullGeometryEqualsApprovedOriginal": true
+    },
+    {
+      "entityId": "state:DEU",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "descriptorSha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "versionId": "state:DEU:natural-earth-5.1.1",
+      "validFrom": "1918-11-09",
+      "validTo": null,
+      "geometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+      "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+      "fullGeometryEqualsApprovedOriginal": true
+    },
+    {
+      "entityId": "state:RUS",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-RUS.json",
+      "descriptorSha256": "c6589a67398da9e1bf0b92069e39b518d65454d20758d02acacd0642962cf2bf",
+      "versionId": "state:RUS:natural-earth-5.1.1",
+      "validFrom": "2014-03-18",
+      "validTo": null,
+      "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+      "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+      "fullGeometryEqualsApprovedOriginal": true
+    }
+  ],
+  "originalApprovedDonor": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+  },
+  "targets": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "certainty": "provisional",
+      "sourceId": "histogis-modern-coast-policy-1914",
+      "referenceDate": "1914-07-28",
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+        "sha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      },
+      "preservedReconstructionGeometry": {
+        "reference": "assets/data/territorial-entities/source/geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+        "sha256": "a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      },
+      "fullVersionPreimageSha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "normalizedEntityPreimageSha256": "d22ea0a3a3568199322f82d1b742479775aee57a89fecb12538d6a9db4a4caff",
+      "resultGeometrySha256": "3072e51f7a126d2d21c152fbca1e6e6cca1e9f5fee96af4bf7c6dfd7efbe02eb",
+      "originalWorkingMaster": {
+        "reference": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+        "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      }
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "certainty": "provisional",
+      "sourceId": "histogis-modern-coast-policy-1914",
+      "referenceDate": "1914-07-31",
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+        "sha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      },
+      "preservedReconstructionGeometry": {
+        "reference": "assets/data/territorial-entities/source/geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json",
+        "sha256": "caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      },
+      "fullVersionPreimageSha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "normalizedEntityPreimageSha256": "34c38a9e956aac7b85d4bf25821a9d1e16e12a3bcee0f017a877caee14cdca65",
+      "resultGeometrySha256": "719dcc1d8cd2657f77a3b68184f9c6eac34290ea33961a295c2340dfdc67a77e",
+      "originalWorkingMaster": {
+        "reference": "tools/historical-library/working/german-empire-1914-base.geojson",
+        "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      }
+    },
+    {
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "validFrom": "1878-04-01",
+      "validTo": "1920-01-10",
+      "certainty": "medium",
+      "sourceId": "lki-east-prussia-iv-2018+pandolab-canonical-0.33.0",
+      "referenceDate": "1900-01-01",
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+        "sha256": "7d4009f24f549e532fbfd49c4a4ebe50d425bde1bf75fff29aba7567084df886",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      },
+      "preservedReconstructionGeometry": {
+        "reference": "assets/data/territorial-entities/source/geometries/sha256-1874b7bcaca86ff22fb38cb13b355b4a2446715ae58a1c820510520c6963a575.json",
+        "sha256": "1874b7bcaca86ff22fb38cb13b355b4a2446715ae58a1c820510520c6963a575",
+        "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159"
+      },
+      "fullVersionPreimageSha256": "175bd8ccb99942c5c5bc8c0e739cc38c5258191a63c0932ada7186690b111417",
+      "normalizedEntityPreimageSha256": "4cfb0a1c96dcc15ee700bef74342ea52483c3290a176c909dd8ce7abd3764629",
+      "resultGeometrySha256": "62920e3c115f7f136969ef08714c69994b134823e9c9211b700eea356b05423a",
+      "originalWorkingMaster": null
+    }
+  ],
+  "eastPrussiaOriginalSource": {
+    "recordedTitle": "Interaktive Karte Ostpreußens IV (2018), LKI / Goethe-Universität / Latvijas Universitāte; PandoLab canonical alignment",
+    "recordedUrl": "https://prusija.lki.lt/DE.html",
+    "recordedKmlSha256": "8ebd8b85678359b6702a97f7f19e87ba731d86fcfbeb2ae1beb1193f0ab2345b",
+    "originalKmlBytesReread": false,
+    "originalKmlRecoverabilityEstablished": false,
+    "masterRole": "The immutable existing normalized reconstruction base is preserved and was read. It is NOT the original KML or an independently reverified primary historical master.",
+    "existingApproximateGeometry": true,
+    "existingProduction": false,
+    "existingValidationStatus": "map-aligned-historical-review-pending",
+    "existingRedistributionPermission": "unconfirmed",
+    "existingLicense": "LKI project derivative redistribution permission unconfirmed; Natural Earth public domain",
+    "limits": "The LKI 1893 boundary reused for a 1900 representative reconstruction, source explanation 1905-1918, unresolved independent 1900 comparison, 2.36% statistical-area difference, and public redistribution uncertainty remain inherited and unresolved. No public redistribution authorization is granted by this technical review."
+  },
+  "temporalScope": "Modern donors and current technical spatial comparators do not establish historical ownership. LTU starts1990-03-11 and RUS starts2014-03-18; neither is asserted as an undated historical fallback.",
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "compiledDerivatives": [],
+  "runtimeApproval": false
+}

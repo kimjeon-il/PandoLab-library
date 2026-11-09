@@ -1,0 +1,47 @@
+{
+  "measuredDriveFreeBytesAfter": 43571130368,
+  "status": "completed-task-owned-preparation-cleanup",
+  "retainedReason": "Completed source-display evidence, version-only patches and standalone canonical replay are current consumers for parent source adoption and immutable report archival. No original source/master/candidate or another owner file removed.",
+  "measuredDriveFreeBytesChange": 12079104,
+  "measuredDriveFreeBytesBefore": 43559051264,
+  "measurementLimit": "Drive-wide free-space difference can include concurrent work and is not attributed solely to this cleanup.",
+  "schemaVersion": 1,
+  "removed": [
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 6402,
+      "name": "prepare-review.mjs"
+    },
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 9618,
+      "name": "prepare-final-review.mjs"
+    },
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 16999,
+      "name": "finalize-reviewed-patches.mjs"
+    },
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 11384,
+      "name": "measure-render-final.py"
+    },
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 12011667,
+      "name": "review-input.json"
+    },
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 5578,
+      "name": "ne-comparison-arcs.json"
+    },
+    {
+      "reason": "Task-owned reproducible preparation/measurement helper or consumed temporary decoded input. Final unique evidence and independent replay are preserved; canonical originals remain in verified immutable Git.",
+      "bytes": 1894,
+      "name": "make-allowlist.mjs"
+    }
+  ],
+  "logicalBytesRemoved": 12063542.0
+}
