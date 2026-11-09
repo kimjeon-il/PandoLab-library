@@ -3471,7 +3471,25 @@
       "sha256": "cc4fce8e23797c843ae6edc11ab7710f35f8c3ed4a7e67833ebc94485a7f51b6",
       "encoding": "gzip",
       "compressedBytes": 19352611,
-      "decodedBytes": 43350288
+      "decodedBytes": 43350288,
+      "storageLayout": "prepared-mesh-delta-v1",
+      "baseGeometryDigest": "49c953d056fae96917f4b57d8d4f8cf657b4a33dcdaa3bb8d331dbb1156e5f17",
+      "base": {
+        "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3.bin.gz",
+        "sha256": "04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3",
+        "encoding": "gzip",
+        "compressedBytes": 19388644,
+        "decodedBytes": 43498236
+      },
+      "replacement": {
+        "url": "assets/data/prepared-polygons/generated/v2/deltas/sha256-2a7b9ceff9c59a82c2b45792101eab369c755945a921fd6fe14562a778311316.bin.gz",
+        "encoding": "gzip",
+        "sha256": "2a7b9ceff9c59a82c2b45792101eab369c755945a921fd6fe14562a778311316",
+        "compressedBytes": 6213292,
+        "decodedBytes": 16706180
+      },
+      "baseContentSha256": "09a65fad58c647041d72fb7ff4917252b080c4465f186d8b779dd979ec4948e7",
+      "contentSha256": "741f5ec2bacc997f37f9cde270937e349042ef31a502e5cb042de02c1295d2f2"
     },
     "311f12f80b298d3bf032e4eca2bf3f6c03a45666514409d22bf3bbaf2b28aff0": {
       "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b04dc706adae5039f87f02427b2b242ce2832ba6cb566d04da1124f2d49c8360.bin.gz",
