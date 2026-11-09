@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "status": "visually-reviewed-scoped-proxy-display",
+  "targets": [
+    "state:unmik-kosovo:existing-outline-proxy",
+    "state:federal-republic-of-yugoslavia:1992-2003-r1",
+    "state:serbia-montenegro:2003-2006-r1"
+  ],
+  "projection": {
+    "definition": "+proj=laea +lat_0=43 +lon_0=21 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "axisOrder": "traditional GIS longitude,latitude",
+    "operationExecuted": true
+  },
+  "scaleDenominator": 10000000,
+  "renderDpi": 96,
+  "metresPerCssPixel": 2645.8333333333335,
+  "panelPixels": [
+    430,
+    420
+  ],
+  "projectedExtentMetres": [
+    -568854.1666666667,
+    -555625,
+    568854.1666666667,
+    555625
+  ],
+  "comparison": {
+    "candidate": "Scoped canonical compiler after-with-new-current-world.json",
+    "donors": "Authorized complete SRB, MNE, KOS donor outlines; dashed blue",
+    "reference": "Existing source outlines for the same three version IDs; dashed magenta",
+    "furtherSimplification": false
+  },
+  "rendering": {
+    "engine": "Existing headless Chromium through @playwright/test",
+    "imagePixels": [
+      940,
+      1060
+    ],
+    "deviceScaleFactor": 1,
+    "physicalDisplayScaleCalibrated": false
+  },
+  "panels": [
+    {
+      "date": "1999-06-09",
+      "observed": "FRY union contains Kosovo; successor-country donor seams are diagnostic dashed lines, not separate political entities."
+    },
+    {
+      "date": "1999-06-10",
+      "observed": "UNMIK separated in orange; remainder retains contiguous FRY outline and Montenegro coast."
+    },
+    {
+      "date": "2003-02-04",
+      "observed": "Same territorial division under Serbia and Montenegro identity; no artificial territorial discontinuity from the naming/phase change."
+    },
+    {
+      "date": "2006-06-05",
+      "observed": "Serbia and Montenegro displayed separately; Kosovo remains UN-administered. Gross adjacent outlines meet without visible macro gaps or overlaps."
+    }
+  ],
+  "visualInspection": {
+    "performed": true,
+    "method": "Direct inspection of rendered PNG using view_image",
+    "findings": [
+      "All three target gross outlines are recognizable at nominal 1:10M.",
+      "Original-source and authorized-donor overlays remain legible enough to assess gross outline preservation; individual small vertices are not certified.",
+      "UNMIK is visibly distinct from the enclosing pre-1999 union and from Serbia after dissolution.",
+      "Montenegro coastline and Albania/Macedonia connections remain present.",
+      "No visible macro-scale sliver, dropped principal territory or unintended territorial transfer detected."
+    ],
+    "auxiliaryZoomUsed": false
+  },
+  "dateChecks": {
+    "reference": "topology-and-dates-proof.json",
+    "notes": [
+      "1992-04-27 and 1999/2003/2006/2008 before-and-after dates measured separately in topology proof.",
+      "Existing 2006-06-03/04 Serbia lifetime gap retained.",
+      "2008-02-17 successor transition tested numerically, not drawn as an additional panel."
+    ]
+  },
+  "evidence": {
+    "svg": {
+      "reference": "display-review.svg",
+      "sha256": "980b252a91b0ad58104148b0d5de548dc8fd0c2f3e14e70965d46d35ed52af76"
+    },
+    "png": {
+      "reference": "display-review.png",
+      "sha256": "f183ff3c26ee3178f99fe4f360cad0e11146e72aa86d80c1c2a083d7753b423d"
+    },
+    "topology": {
+      "reference": "topology-and-dates-proof.json",
+      "sha256": "fd7e6f36af0ac9211d2b50ab7a656cbe4884963dd2b8da38987022d65889fac2"
+    },
+    "compiled": {
+      "reference": "after-with-new-current-world.json",
+      "sha256": "0a13cc068a9f43602ad1aef7afb9a4c1ab500730d9040e65910c4ccedb895d6f"
+    },
+    "sources": {
+      "reference": "candidate-sources.json",
+      "sha256": "558cfdaeac24359cadfe1ef389525d443ab00af0e5fa54bfd5ec845e0987870e"
+    }
+  },
+  "historicalAccuracyVerified": false,
+  "limitations": [
+    "No historical positional accuracy or cadastral precision claimed.",
+    "Visual review is distinct from measured overlay geometry checks.",
+    "No canonical display receipt was inserted; parent owns exact source/compiled receipt bindings.",
+    "Requires paired authorized current-world input and reviewed union candidates.",
+    "Before mixed-source compiler failed; no successful before-compiled rendering asserted."
+  ],
+  "runtimeActivated": false
+}

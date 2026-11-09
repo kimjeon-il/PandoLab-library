@@ -1,0 +1,145 @@
+{
+  "status": "passed-for-scoped-proxy-rebase",
+  "runtime": {
+    "gdal": "GDAL 3.13.3 \"Iowa City\", released 2026/08/13",
+    "geos": [
+      3,
+      15,
+      0
+    ]
+  },
+  "projection": {
+    "definition": "+proj=laea +lat_0=-9 +lon_0=126 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "axisOrder": "traditional GIS longitude,latitude",
+    "operationExecuted": true
+  },
+  "scaleDenominator": 10000000,
+  "sourceDates": {
+    "entityId": "state:untaet-east-timor",
+    "versionId": "state:untaet-east-timor:existing-outline-proxy",
+    "validFrom": "1999-10-25",
+    "validTo": "2002-05-19"
+  },
+  "checks": {
+    "validity": "source, donor, both compiled geometries and union valid",
+    "shared-boundary": {
+      "connectedLandBoundaries": 2,
+      "lengthMetres": 244044.15362417029
+    },
+    "union": "compiled union equals authorized IDN+TLS donor union",
+    "gaps-overlaps": {
+      "afterOverlapKm2": 0,
+      "afterGapToDonorUnionKm2": 0,
+      "oldMixedSourceGapToNewDonorUnionKm2": 628.0857225159406
+    },
+    "connectivity": "same four authorized donor components; two join IDN boundaries",
+    "holes-islands": {
+      "newComponents": [
+        {
+          "component": 0,
+          "areaKm2": 814.5112646491749,
+          "pointOnSurface": [
+            124.23650242712041,
+            -9.33518319549308
+          ],
+          "intersectsIDNBoundary": true,
+          "holes": 0
+        },
+        {
+          "component": 1,
+          "areaKm2": 13945.505056714297,
+          "pointOnSurface": [
+            125.76211598895355,
+            -8.881581139062458
+          ],
+          "intersectsIDNBoundary": true,
+          "holes": 0
+        },
+        {
+          "component": 2,
+          "areaKm2": 11.615181356134281,
+          "pointOnSurface": [
+            127.32544691921382,
+            -8.433663274999958
+          ],
+          "intersectsIDNBoundary": false,
+          "holes": 0
+        },
+        {
+          "component": 3,
+          "areaKm2": 141.22762784261064,
+          "pointOnSurface": [
+            125.57967849253794,
+            -8.220099924999957
+          ],
+          "intersectsIDNBoundary": false,
+          "holes": 0
+        }
+      ],
+      "oldComponentInteriorControls": [
+        {
+          "component": 0,
+          "point": [
+            124.21591331950393,
+            -9.339491500000001
+          ],
+          "retainedInNewDonor": true
+        },
+        {
+          "component": 1,
+          "point": [
+            125.76397869670151,
+            -8.8810765
+          ],
+          "retainedInNewDonor": true
+        },
+        {
+          "component": 2,
+          "point": [
+            125.58342573206238,
+            -8.2224665
+          ],
+          "retainedInNewDonor": true
+        }
+      ]
+    },
+    "dates": [
+      {
+        "date": "1999-10-24",
+        "untaetPresent": false,
+        "tlsPresent": false,
+        "idnPresent": true,
+        "untaetEqualsAuthorizedDonor": null
+      },
+      {
+        "date": "1999-10-25",
+        "untaetPresent": true,
+        "tlsPresent": false,
+        "idnPresent": true,
+        "untaetEqualsAuthorizedDonor": true
+      },
+      {
+        "date": "2002-05-19",
+        "untaetPresent": true,
+        "tlsPresent": false,
+        "idnPresent": true,
+        "untaetEqualsAuthorizedDonor": true
+      },
+      {
+        "date": "2002-05-20",
+        "untaetPresent": false,
+        "tlsPresent": true,
+        "idnPresent": true,
+        "untaetEqualsAuthorizedDonor": null
+      }
+    ]
+  },
+  "nonSovereignPoliticalMetadataPreserved": true,
+  "historicalAccuracyVerified": false,
+  "limitations": [
+    "Modern-outline proxy replacement only; independent historical boundary reconstruction not performed.",
+    "Current IDN/TLS donor injection is a required paired compiler input. This evidence does not authorize activation against the old current world.",
+    "Unchanged earlier Indonesian periods were preserved; no complete worldwide validation was run."
+  ]
+}

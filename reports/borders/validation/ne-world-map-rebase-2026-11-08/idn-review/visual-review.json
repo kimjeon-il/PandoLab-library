@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "status": "visually-reviewed-scoped-proxy-display",
+  "entityId": "state:IDN",
+  "versionId": "state:IDN:1963-1975-before-east-timor-r1",
+  "projection": {
+    "definition": "+proj=laea +lat_0=-2 +lon_0=119 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "axisOrder": "traditional GIS longitude,latitude",
+    "operationExecuted": true
+  },
+  "scaleDenominator": 10000000,
+  "renderDpi": 96,
+  "metresPerCssPixel": 2645.8333333333335,
+  "panelPixels": [
+    2200,
+    900
+  ],
+  "projectedExtentMetres": [
+    -2910416.666666667,
+    -1190625.0,
+    2910416.666666667,
+    1190625.0
+  ],
+  "geographicBoundingExtent": [
+    92.09715467277425,
+    -12.781533230844131,
+    145.90284532722575,
+    8.782782104570327
+  ],
+  "geographicExtentMethod": "Inverse projection of all four actual clipped panel edges at 1000 equal steps per edge; this is the geographic bounding box of a projected rectangle, not a rectangular geographic crop.",
+  "panels": [
+    "1963-05-01",
+    "1963-09-16",
+    "1975-09-16"
+  ],
+  "rendering": {
+    "engine": "existing headless Chromium",
+    "deviceScaleFactor": 1,
+    "imagePixels": [
+      2260,
+      2940
+    ],
+    "physicalDisplayScaleCalibrated": false
+  },
+  "visualInspection": {
+    "performed": true,
+    "method": "Direct view_image inspection of final PNG after repairing clipping/spacing",
+    "observations": [
+      "All principal Indonesian island groups and West New Guinea are visible.",
+      "East Timor remains outside Indonesia during target period; its gray context is not an independent-state activation.",
+      "Malaysia changes from inactive gray context to active green on its source start date.",
+      "PNG changes from inactive gray context to active green on its source start date.",
+      "Major land-boundary junctions and archipelago connections remain recognizable; no visible macro gap, overlap, or principal island loss.",
+      "All 4128 component interior points and 0 holes verified numerically; tiny components are not individually visually certified."
+    ],
+    "auxiliaryZoomUsed": false
+  },
+  "comparison": {
+    "candidate": "after-with-new-current-world.json target source-version slices",
+    "donor": "authorized complete IDN donor blue dashed",
+    "reference": "same-period original source outline magenta dashed",
+    "furtherSimplification": false
+  },
+  "evidence": {
+    "display-review.svg": {
+      "reference": "display-review.svg",
+      "sha256": "f212efec3d45de65f6990b70e02014839d4bcf0508e01e5eb2ea78af91dbd98d"
+    },
+    "display-review.png": {
+      "reference": "display-review.png",
+      "sha256": "2996a5c661c52ae07c19c47c70c421b8a5585ab22b6d04387c848de82ca3fd50"
+    },
+    "topology-and-dates-proof.json": {
+      "reference": "topology-and-dates-proof.json",
+      "sha256": "cb2ae097034f4cff0dcad4b73f31cdb397fbc499f9db8ed484318f64a8e91765"
+    },
+    "after-with-new-current-world.json": {
+      "reference": "after-with-new-current-world.json",
+      "sha256": "74f5791e816d79ddbea8bce2efb7f52f8528aaba83fc00e1659ebb1095830148"
+    },
+    "candidate-sources.json": {
+      "reference": "candidate-sources.json",
+      "sha256": "51cc123f53366bf3e22feffff6cc3b785bbfd5d3489c3d6923024c1827da4146"
+    },
+    "compile-context.json": {
+      "reference": "compile-context.json",
+      "sha256": "de8fd8fd11abe31018df1054eec221ca67261abf59d80bcc4e9128b2a87e2ea2"
+    }
+  },
+  "historicalAccuracyVerified": false,
+  "runtimeActivated": false,
+  "limitations": [
+    "Unchanged IDN outside-target historical periods excluded only from scoped compiler input after full-period Boolean failure.",
+    "Boundary-day source intervals preserved and inspected; no compiled claim for excluded 1963-04-30 or 1975-12-07.",
+    "MYS/PNG missing before their source lifetimes is existing catalog coverage, not a claim that adjacent land had no administration.",
+    "Current source chosen versions use authorized current donor geometry.",
+    "No whole-world validation or runtime activation.",
+    "Initial layout overflow corrected before final visual review.",
+    "Canonical source/compiled receipt binding remains the parent task."
+  ]
+}

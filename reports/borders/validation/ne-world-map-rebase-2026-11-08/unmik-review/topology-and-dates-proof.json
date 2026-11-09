@@ -1,0 +1,1787 @@
+{
+  "status": "passed-scoped-overlay-area-and-date-preservation-not-activation-approval",
+  "runtime": {
+    "gdal": "GDAL 3.13.3 \"Iowa City\", released 2026/08/13",
+    "geos": [
+      3,
+      15,
+      0
+    ]
+  },
+  "projection": {
+    "definition": "+proj=laea +lat_0=43 +lon_0=21 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "axisOrder": "traditional GIS longitude,latitude"
+  },
+  "scope": "Three selected versions and compiled neighboring countries only; no geometry modified",
+  "inputFilesSha256": {
+    "after-with-new-current-world.json": "0a13cc068a9f43602ad1aef7afb9a4c1ab500730d9040e65910c4ccedb895d6f",
+    "candidate-sources.json": "558cfdaeac24359cadfe1ef389525d443ab00af0e5fa54bfd5ec845e0987870e",
+    "compile-context.json": "5d8ff177bd1d574b491bc367f0d878dacef4df601c02cef5b0942f7560bce9bf"
+  },
+  "sourceChecks": [
+    {
+      "entityId": "state:yugoslavia",
+      "versionId": "state:federal-republic-of-yugoslavia:1992-2003-r1",
+      "validFrom": "1992-04-27",
+      "validTo": "2003-02-03",
+      "donors": [
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "geometryValid": true,
+      "strictDonorUnionEquals": false,
+      "donorSymmetricDifferenceKm2": 0,
+      "datesPreserved": true,
+      "identityLifetimePoliticalMetadataPreserved": true
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "versionId": "state:serbia-montenegro:2003-2006-r1",
+      "validFrom": "2003-02-04",
+      "validTo": "2006-06-02",
+      "donors": [
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "geometryValid": true,
+      "strictDonorUnionEquals": false,
+      "donorSymmetricDifferenceKm2": 0,
+      "datesPreserved": true,
+      "identityLifetimePoliticalMetadataPreserved": true
+    },
+    {
+      "entityId": "state:unmik-kosovo",
+      "versionId": "state:unmik-kosovo:existing-outline-proxy",
+      "validFrom": "1999-06-10",
+      "validTo": "2008-02-16",
+      "donors": [
+        "KOS"
+      ],
+      "geometryValid": true,
+      "strictDonorUnionEquals": true,
+      "donorSymmetricDifferenceKm2": 0,
+      "datesPreserved": true,
+      "identityLifetimePoliticalMetadataPreserved": true
+    }
+  ],
+  "dates": [
+    {
+      "date": "1992-04-27",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:yugoslavia": "state:federal-republic-of-yugoslavia:1992-2003-r1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "ROU": true,
+        "state:yugoslavia": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 227254.34349556727,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BGR",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 339008.98388864635,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BIH",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 586254.2715435784,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HRV",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 333165.5774193546,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HUN",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 162165.16470623697,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 245350.69686735736,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ROU",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 526213.2410237093,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": false,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "1999-06-09",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:yugoslavia": "state:federal-republic-of-yugoslavia:1992-2003-r1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "ROU": true,
+        "state:yugoslavia": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 227254.34349556727,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BGR",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 339008.98388864635,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BIH",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 586254.2715435784,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HRV",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 333165.5774193546,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HUN",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 162165.16470623697,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 245350.69686735736,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ROU",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 526213.2410237093,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": false,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "1999-06-10",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy",
+        "state:yugoslavia": "state:federal-republic-of-yugoslavia:1992-2003-r1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "ROU": true,
+        "state:unmik-kosovo": true,
+        "state:yugoslavia": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ALB",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 119189.21437809062,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BGR",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 339008.98388864635,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BIH",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 586254.2715435784,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HRV",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 333165.5774193546,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HUN",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 162165.16470623697,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 94585.06803881742,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ROU",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 526213.2410237093,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "state:unmik-kosovo",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 418266.6004200965,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": false,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "2003-02-03",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy",
+        "state:yugoslavia": "state:federal-republic-of-yugoslavia:1992-2003-r1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "ROU": true,
+        "state:unmik-kosovo": true,
+        "state:yugoslavia": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ALB",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 119189.21437809062,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BGR",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 339008.98388864635,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BIH",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 586254.2715435784,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HRV",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 333165.5774193546,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HUN",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 162165.16470623697,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 94585.06803881742,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ROU",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 526213.2410237093,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "state:unmik-kosovo",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 418266.6004200965,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": false,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "2003-02-04",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy",
+        "state:yugoslavia": "state:serbia-montenegro:2003-2006-r1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "ROU": true,
+        "state:unmik-kosovo": true,
+        "state:yugoslavia": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ALB",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 119189.21437809062,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BGR",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 339008.98388864635,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BIH",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 586254.2715435784,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HRV",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 333165.5774193546,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HUN",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 162165.16470623697,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 94585.06803881742,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ROU",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 526213.2410237093,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "state:unmik-kosovo",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 418266.6004200965,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": false,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "2006-06-02",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy",
+        "state:yugoslavia": "state:serbia-montenegro:2003-2006-r1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "ROU": true,
+        "state:unmik-kosovo": true,
+        "state:yugoslavia": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ALB",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 119189.21437809062,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BGR",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 339008.98388864635,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "BIH",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 586254.2715435784,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HRV",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 333165.5774193546,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "HUN",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 162165.16470623697,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 94585.06803881742,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "ROU",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 526213.2410237093,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "state:unmik-kosovo",
+          "b": "state:yugoslavia",
+          "strictSharedBoundaryMetres": 418266.6004200965,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": false,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "2006-06-03",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "MNE": "state:MNE:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "MNE": true,
+        "ROU": true,
+        "state:unmik-kosovo": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MNE",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 73153.74097623382,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": true,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": true
+    },
+    {
+      "date": "2006-06-04",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "MNE": "state:MNE:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "MNE": true,
+        "ROU": true,
+        "state:unmik-kosovo": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MNE",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 73153.74097623382,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": true,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": true
+    },
+    {
+      "date": "2006-06-05",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "MNE": "state:MNE:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "SRB": "state:SRB:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "MNE": true,
+        "ROU": true,
+        "SRB": true,
+        "state:unmik-kosovo": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MNE",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 73153.74097623382,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "SRB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 345112.8594438629,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": true,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "2008-02-16",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "MNE": "state:MNE:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "SRB": "state:SRB:natural-earth-5.1.1",
+        "state:unmik-kosovo": "state:unmik-kosovo:existing-outline-proxy"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "MKD": true,
+        "MNE": true,
+        "ROU": true,
+        "SRB": true,
+        "state:unmik-kosovo": true
+      },
+      "pairs": [
+        {
+          "a": "ALB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 108065.12911747671,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MKD",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 150765.62882854,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "MNE",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 73153.74097623382,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        },
+        {
+          "a": "SRB",
+          "b": "state:unmik-kosovo",
+          "strictSharedBoundaryMetres": 345112.8594438629,
+          "overlapKm2": 0,
+          "strictOverlapEmpty": false
+        }
+      ],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": true,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    },
+    {
+      "date": "2008-02-17",
+      "activeSourceVersions": {
+        "ALB": "state:ALB:natural-earth-5.1.1",
+        "BGR": "state:BGR:natural-earth-5.1.1",
+        "BIH": "state:BIH:natural-earth-5.1.1",
+        "HRV": "state:HRV:natural-earth-5.1.1",
+        "HUN": "state:HUN:natural-earth-5.1.1",
+        "KOS": "state:KOS:natural-earth-5.1.1",
+        "MKD": "state:MKD:natural-earth-5.1.1",
+        "MNE": "state:MNE:natural-earth-5.1.1",
+        "ROU": "state:ROU:natural-earth-5.1.1",
+        "SRB": "state:SRB:natural-earth-5.1.1"
+      },
+      "validGeometries": {
+        "ALB": true,
+        "BGR": true,
+        "BIH": true,
+        "HRV": true,
+        "HUN": true,
+        "KOS": true,
+        "MKD": true,
+        "MNE": true,
+        "ROU": true,
+        "SRB": true
+      },
+      "pairs": [],
+      "expectedDonors": [
+        "ALB",
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU",
+        "SRB"
+      ],
+      "unionValid": true,
+      "strictUnionEquals": true,
+      "gapKm2": 0,
+      "excessKm2": 0,
+      "strictGapEmpty": true,
+      "strictExcessEmpty": true,
+      "serbiaAbsentByExistingLifetime": false
+    }
+  ],
+  "ownershipPolicy": {
+    "schemaVersion": 1,
+    "unknownPeerOverlap": "exclude-from-all",
+    "replacements": [
+      {
+        "targetEntityId": "state:yugoslavia",
+        "priorityEntityId": "state:unmik-kosovo",
+        "validFrom": "1999-06-10",
+        "validTo": "2006-06-02",
+        "basis": {
+          "sourceEntityId": "state:unmik-kosovo",
+          "scope": "Interim administration, not a sovereignty transfer"
+        }
+      }
+    ],
+    "parentRelations": []
+  },
+  "beforeCompile": {
+    "name": "before-with-new-current-world",
+    "status": "failed",
+    "error": "HISTORICAL_CLIP_BOOLEAN_FAILED: difference BIH / intermediate: operandComponents=1,56: Unable to complete output ring"
+  },
+  "afterCompile": {
+    "name": "after-with-new-current-world",
+    "status": "passed",
+    "countries": [
+      "ALB",
+      "BGR",
+      "BIH",
+      "HRV",
+      "HUN",
+      "KOS",
+      "MKD",
+      "MNE",
+      "ROU",
+      "SRB",
+      "state:unmik-kosovo",
+      "state:yugoslavia"
+    ],
+    "adjustments": [
+      {
+        "entityId": "state:yugoslavia",
+        "kind": "explicit-replacement",
+        "relatedIds": [
+          "state:unmik-kosovo"
+        ],
+        "validFrom": "1999-06-10",
+        "validTo": "2006-06-02"
+      }
+    ]
+  },
+  "historicalAccuracyVerified": false,
+  "numericPolicy": {
+    "strict": "OGR Geometry.Equals is reported as strict geometry equality, not a substitute for GEOS overlay set equivalence; both directional Difference emptiness is separately reported. Shared boundaries use unsnapped original-double boundary intersection.",
+    "roundingOrSnappingApplied": false,
+    "areaInterpretation": "Projected diagnostic area is not historical accuracy. Both strictGapEmpty and strictExcessEmpty establish empty overlay difference for each measured compiled union, independently of Equals.",
+    "passThresholdApplied": null,
+    "intersectionInterpretation": "strictOverlapEmpty=false includes legitimate line/point contact. overlapKm2 measures polygon area; shared line contact is not areal overlap."
+  },
+  "limitations": [
+    "No source/runtime activation or gate approval performed.",
+    "Before compilation failed; no before/after improvement metric asserted.",
+    "2006-06-03/04 absent Serbia is inherited lifetime gap, not repaired.",
+    "New current-world counterparts are required; proof does not apply against old current-world input."
+  ],
+  "checksSummary": {
+    "datesMeasured": 11,
+    "allActiveGeometriesValid": true,
+    "allCompiledUnionsValid": true,
+    "allCompiledDonorDifferenceEmpty": true,
+    "maximumTargetPeerOverlapKm2": 0,
+    "allSourceDatesAndPoliticalMetadataPreserved": true,
+    "roundingSnappingOrToleranceApplied": false,
+    "connectivity": "passed",
+    "holes-islands": "passed"
+  },
+  "connectivityAndHolesIslands": {
+    "method": "GEOS polygon component/ring counts, per-component PointOnSurface controls and exact unsnapped directional overlay difference. All components, including small islands, checked.",
+    "checks": [
+      {
+        "entityId": "state:yugoslavia",
+        "versionId": "state:federal-republic-of-yugoslavia:1992-2003-r1",
+        "donor": {
+          "components": 7,
+          "holes": 0,
+          "valid": true
+        },
+        "candidateSource": {
+          "components": 7,
+          "holes": 0,
+          "valid": true
+        },
+        "sourceDonorDifferenceEmpty": true,
+        "donorComponentInteriorControls": [
+          {
+            "component": 0,
+            "point": [
+              21.050012356849972,
+              44.01842965000006
+            ],
+            "retained": true
+          },
+          {
+            "component": 1,
+            "point": [
+              19.337255644860825,
+              42.100005700000054
+            ],
+            "retained": true
+          },
+          {
+            "component": 2,
+            "point": [
+              19.254979501068192,
+              42.142326000000054
+            ],
+            "retained": true
+          },
+          {
+            "component": 3,
+            "point": [
+              19.229733305338613,
+              42.16493270000004
+            ],
+            "retained": true
+          },
+          {
+            "component": 4,
+            "point": [
+              18.854717049574575,
+              42.26282845000006
+            ],
+            "retained": true
+          },
+          {
+            "component": 5,
+            "point": [
+              18.690039384539165,
+              42.41060765000006
+            ],
+            "retained": true
+          },
+          {
+            "component": 6,
+            "point": [
+              18.65240298399279,
+              42.44809755000006
+            ],
+            "retained": true
+          }
+        ],
+        "compiled": [
+          {
+            "date": "1992-04-27",
+            "actual": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "complete donor union or exact KOS donor",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  21.050012356849972,
+                  44.01842965000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 1,
+                "point": [
+                  19.337255644860825,
+                  42.100005700000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 2,
+                "point": [
+                  19.254979501068192,
+                  42.142326000000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 3,
+                "point": [
+                  19.229733305338613,
+                  42.16493270000004
+                ],
+                "retained": true
+              },
+              {
+                "component": 4,
+                "point": [
+                  18.854717049574575,
+                  42.26282845000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 5,
+                "point": [
+                  18.690039384539165,
+                  42.41060765000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 6,
+                "point": [
+                  18.65240298399279,
+                  42.44809755000006
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          },
+          {
+            "date": "1999-06-10",
+            "actual": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "SRB+MNE+KOS donor union minus UNMIK KOS priority",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  21.050012356849972,
+                  44.01842965000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 1,
+                "point": [
+                  19.337255644860825,
+                  42.100005700000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 2,
+                "point": [
+                  19.254979501068192,
+                  42.142326000000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 3,
+                "point": [
+                  19.229733305338613,
+                  42.16493270000004
+                ],
+                "retained": true
+              },
+              {
+                "component": 4,
+                "point": [
+                  18.854717049574575,
+                  42.26282845000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 5,
+                "point": [
+                  18.690039384539165,
+                  42.41060765000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 6,
+                "point": [
+                  18.65240298399279,
+                  42.44809755000006
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          },
+          {
+            "date": "2003-02-03",
+            "actual": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "SRB+MNE+KOS donor union minus UNMIK KOS priority",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  21.050012356849972,
+                  44.01842965000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 1,
+                "point": [
+                  19.337255644860825,
+                  42.100005700000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 2,
+                "point": [
+                  19.254979501068192,
+                  42.142326000000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 3,
+                "point": [
+                  19.229733305338613,
+                  42.16493270000004
+                ],
+                "retained": true
+              },
+              {
+                "component": 4,
+                "point": [
+                  18.854717049574575,
+                  42.26282845000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 5,
+                "point": [
+                  18.690039384539165,
+                  42.41060765000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 6,
+                "point": [
+                  18.65240298399279,
+                  42.44809755000006
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          }
+        ]
+      },
+      {
+        "entityId": "state:yugoslavia",
+        "versionId": "state:serbia-montenegro:2003-2006-r1",
+        "donor": {
+          "components": 7,
+          "holes": 0,
+          "valid": true
+        },
+        "candidateSource": {
+          "components": 7,
+          "holes": 0,
+          "valid": true
+        },
+        "sourceDonorDifferenceEmpty": true,
+        "donorComponentInteriorControls": [
+          {
+            "component": 0,
+            "point": [
+              21.050012356849972,
+              44.01842965000006
+            ],
+            "retained": true
+          },
+          {
+            "component": 1,
+            "point": [
+              19.337255644860825,
+              42.100005700000054
+            ],
+            "retained": true
+          },
+          {
+            "component": 2,
+            "point": [
+              19.254979501068192,
+              42.142326000000054
+            ],
+            "retained": true
+          },
+          {
+            "component": 3,
+            "point": [
+              19.229733305338613,
+              42.16493270000004
+            ],
+            "retained": true
+          },
+          {
+            "component": 4,
+            "point": [
+              18.854717049574575,
+              42.26282845000006
+            ],
+            "retained": true
+          },
+          {
+            "component": 5,
+            "point": [
+              18.690039384539165,
+              42.41060765000006
+            ],
+            "retained": true
+          },
+          {
+            "component": 6,
+            "point": [
+              18.65240298399279,
+              42.44809755000006
+            ],
+            "retained": true
+          }
+        ],
+        "compiled": [
+          {
+            "date": "2003-02-04",
+            "actual": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "SRB+MNE+KOS donor union minus UNMIK KOS priority",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  21.050012356849972,
+                  44.01842965000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 1,
+                "point": [
+                  19.337255644860825,
+                  42.100005700000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 2,
+                "point": [
+                  19.254979501068192,
+                  42.142326000000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 3,
+                "point": [
+                  19.229733305338613,
+                  42.16493270000004
+                ],
+                "retained": true
+              },
+              {
+                "component": 4,
+                "point": [
+                  18.854717049574575,
+                  42.26282845000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 5,
+                "point": [
+                  18.690039384539165,
+                  42.41060765000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 6,
+                "point": [
+                  18.65240298399279,
+                  42.44809755000006
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          },
+          {
+            "date": "2006-06-02",
+            "actual": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 7,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "SRB+MNE+KOS donor union minus UNMIK KOS priority",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  21.050012356849972,
+                  44.01842965000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 1,
+                "point": [
+                  19.337255644860825,
+                  42.100005700000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 2,
+                "point": [
+                  19.254979501068192,
+                  42.142326000000054
+                ],
+                "retained": true
+              },
+              {
+                "component": 3,
+                "point": [
+                  19.229733305338613,
+                  42.16493270000004
+                ],
+                "retained": true
+              },
+              {
+                "component": 4,
+                "point": [
+                  18.854717049574575,
+                  42.26282845000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 5,
+                "point": [
+                  18.690039384539165,
+                  42.41060765000006
+                ],
+                "retained": true
+              },
+              {
+                "component": 6,
+                "point": [
+                  18.65240298399279,
+                  42.44809755000006
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          }
+        ]
+      },
+      {
+        "entityId": "state:unmik-kosovo",
+        "versionId": "state:unmik-kosovo:existing-outline-proxy",
+        "donor": {
+          "components": 1,
+          "holes": 0,
+          "valid": true
+        },
+        "candidateSource": {
+          "components": 1,
+          "holes": 0,
+          "valid": true
+        },
+        "sourceDonorDifferenceEmpty": true,
+        "donorComponentInteriorControls": [
+          {
+            "component": 0,
+            "point": [
+              20.916002920561397,
+              42.568283000000065
+            ],
+            "retained": true
+          }
+        ],
+        "compiled": [
+          {
+            "date": "1999-06-10",
+            "actual": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "complete donor union or exact KOS donor",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  20.916002920561397,
+                  42.568283000000065
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          },
+          {
+            "date": "2003-02-04",
+            "actual": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "complete donor union or exact KOS donor",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  20.916002920561397,
+                  42.568283000000065
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          },
+          {
+            "date": "2006-06-05",
+            "actual": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "complete donor union or exact KOS donor",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  20.916002920561397,
+                  42.568283000000065
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          },
+          {
+            "date": "2008-02-16",
+            "actual": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expected": {
+              "components": 1,
+              "holes": 0,
+              "valid": true
+            },
+            "expectedOperation": "complete donor union or exact KOS donor",
+            "bidirectionalDifferenceEmpty": true,
+            "expectedComponentInteriorControls": [
+              {
+                "component": 0,
+                "point": [
+                  20.916002920561397,
+                  42.568283000000065
+                ],
+                "retained": true
+              }
+            ],
+            "componentAndHoleCountsMatchExpected": true
+          }
+        ]
+      }
+    ],
+    "politicalPartition": "UNMIK priority subtraction is expected from 1999-06-10 through 2006-06-02; source union remains complete. Component/hole counts compared to date-correct expected operation, not blindly to unpartitioned union.",
+    "scope": "Authorized donor to candidate source and date-correct compiled output; modernization changes from prior original source are not classified as accidental losses."
+  }
+}
