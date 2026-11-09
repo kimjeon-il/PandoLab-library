@@ -19,6 +19,7 @@
 | [아프리카 역사 정치체 1차 — 잔지바르·마다가스카르 왕국·다호메이 왕국](history/lifetimes/country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md) | GEO-LIFE-024 | 2026-11-05 | `investigating / phase-1 / provisional / not-applied` |
 | [아프리카 국가 존속기간 — 에리트레아·기니비사우·세네갈](history/lifetimes/country-lifetime-africa-eri-gnb-sen-2026-10-18.md) | GEO-LIFE-006 | 2026-10-18 / 검토 10-19 | `investigating` |
 | [아시아 역사 정치체 국가 존속기간 1차 — 코칸트·히바·부하라](history/lifetimes/country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md) | GEO-LIFE-023 | 2026-11-04 | `investigating / phase-1 / provisional / not-applied` |
+| [아시아 역사 정치체 1차 — 시킴 왕국·예멘 아랍 공화국·남예멘 인민공화국/인민민주공화국](history/lifetimes/country-lifetime-asia-historic-sikkim-north-south-yemen-2026-11-10.md) | GEO-LIFE-029 | 2026-11-10 | `investigating / phase-1 / source-crosschecked / provisional / not-applied` |
 | [아시아 국가 존속기간 — 이라크·요르단·레바논](history/lifetimes/country-lifetime-asia-middle-east-2026-10-17.md) | GEO-LIFE-005 | 2026-10-17 | `investigating` |
 | [아시아 국가 존속기간 1차 — 필리핀·카타르·동티모르](history/lifetimes/country-lifetime-asia-phl-qat-tls-2026-10-29.md) | GEO-LIFE-017 | 2026-10-29 | `investigating / phase-1 / not-applied` |
 | [아시아 3개국 국가 존속기간 — 파키스탄·말레이시아·네팔](history/lifetimes/country-lifetime-asia-south-southeast-2026-10-23.md) | GEO-LIFE-011 | 2026-10-23 (2026-10-24 복구) | `investigating / phase-1` |
