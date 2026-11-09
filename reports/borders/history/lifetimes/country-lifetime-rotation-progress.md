@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-09 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-10 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 유럽**
-- **lastCompletedRun: 2026-11-09** (바이에른 왕국·뷔르템베르크 왕국·바르샤바 공국 3건 1차; 왕정 종료와 국가 법적 계속성·종속지위·공국 조약 효력 유보)
-- **nextRegion: 아시아**
-- **nextPhase: 아시아 미조사 역사 정치체 국가별 1차 조사(1차 소진 시 2차 교차검증)**
-- **nextAction: 아시아 GEO-LIFE-001/005/011/017/023 및 현행 색인 대조 후 미조사 국가·역사 정치체 2~4건 1차 조사. 유럽 GEO-LIFE-010/016/022/028의 2차 검증(왕정 종료일·국가 동일성·바르샤바 공국 조약 효력)은 유럽 다음 순환으로 인계. 기타 지역 미완료 항목도 유지.**
+- **lastProcessedRegion: 아시아**
+- **lastCompletedRun: 2026-11-10** (시킴·예멘 아랍 공화국·남예멘 인민공화국/인민민주공화국 3건 1차; 보호국/주 편입 효력·북예멘 국가 법적 연속성·1990 통합 승계 2차 유보)
+- **nextRegion: 아프리카**
+- **nextPhase: 아프리카 미조사 역사 정치체 국가별 1차 조사(1차 소진 시 2차 교차검증)**
+- **nextAction: 아프리카 GEO-LIFE-001/006/012/018/024 및 현행 색인을 대조한 뒤 미조사 국가·역사 정치체 2~4건 1차 조사. 아시아 GEO-LIFE-029의 2차 검증(시킴 헌법 개정 효력일·북예멘 정부체제/국가 연속성·남예멘 1970 국호 공포일·1990 통일국 승계)과 기존 GEO-LIFE-023 중앙아시아 2차 과제는 아시아 다음 차례로 인계. 나머지 지역 미완료 항목도 유지.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -28,7 +28,7 @@
 | 지역 | 현재까지 확인한 조사 기록 | 지역 전체 1차 | 지역 2차 | 비고 |
 | --- | --- | --- | --- | --- |
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md), [GEO-LIFE-022: 양시칠리아·하노버·크라쿠프](country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md), [GEO-LIFE-028: 바이에른·뷔르템베르크·바르샤바](country-lifetime-europe-historic-bavaria-wurttemberg-warsaw-2026-11-09.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 배치(총 9건) 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
-| 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보 |
+| 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), [GEO-LIFE-029: 시킴·예멘 아랍 공화국·남예멘](country-lifetime-asia-historic-sikkim-north-south-yemen-2026-11-10.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보; 시킴 1950 보호조약/1975 편입, 북예멘 1962 체제변경/1990 통합, 남예멘 1967 독립/1970 개칭/1990 통합의 법적 동일성 2차 유보 |
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
 | 남아메리카 | [GEO-LIFE-026: 부에노스아이레스국·아크레·줄리아나](country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) 1차 추가, [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
@@ -229,3 +229,12 @@
 - **유보:** 바이에른·뷔르템베르크 1918 왕정 종료의 정확한 법적 기준 및 공화정 후 국가 동일성, 독일제국 구성국의 국제적 주권 변화; 바르샤바 조약 비준일, 1813 실효 통치 종료일 및 1815 해체·영토 이관 실제 법률 효력, 공국과 폴란드 왕국 간 법적 동일성. **최종 lifetime 확정 0건**.
 - **검증:** 웹 문헌·공식 기록원 목록 열람, 원 법령 텍스트 전사 확인. 원 PDF·스캔 전체 판독, GIS/위상/지도·웹/앱 검사 및 로컬 `publish-reports`·`check-reports` 명령 **미실행**. 국가 lifetime·형상·정본 타임라인·Pando 코드 및 `work/gis`/`main`·배포 변경 **0건**. 외부 라이브러리 보고서·순환기록·색인 3파일만 갱신.
 - **커서:** `lastProcessedRegion=유럽`, `nextRegion=아시아`, `nextPhase=미조사 국가별 1차 2~4건(소진 시 2차)`. 횡단국 유럽 고정, 1801년 이전 제외.
+
+## 2026-11-10 — 아시아 역사 정치체 3건 1차 인계 (GEO-LIFE-029)
+
+- **선정/단계:** 직전 유럽 GEO-LIFE-028 → **아시아**, 별도 1차 보고서가 없는 **시킴 왕국, 예멘 아랍 공화국(북예멘), 남예멘 인민공화국→예멘 인민민주공화국** 3개 정치체 1차. 남예멘의 1970년 국호 변동은 새 국가로 중복 집계하지 않음. 앞선 GEO-LIFE-001/005/011/017/023 및 GEO-023 중복 제외. 1801년 이전 정치체 성립 조사 없음.
+- **기준:** Pando/work/gis AGENTS.md, docs/branch-policy.md, config/library-data.json 확인. 핀 revision **11a5fe6132dc36a13cc81bc0a93f0ba0d9ed9cd5**, 국가 색인 blob **d982119a3478199a499aeb8a4058b116a7a83b04**에서 **288 entities 직접 JSON 파싱**. state:YEM 기존 시작일 **1990-05-22** 유지. 세 역사 정치체 각각의 별도 ID를 해당 색인에서 찾지 못함.
+- **확인:** 시킴 **1950-12-05** 인도 보호조약(고등법원 박물관 전사, 원 서명 스캔 미확인), **1975-04-10** 의회 결의·**04-14** 주민투표·**05-16** 인도 헌법 제36차 개정법/대통령 재가(인도 공식 PDF 페이지 화면 대조·동시대 미국 외교기록). 북예멘 **1962-09-26 혁명/공화정 선포**, 미 국무부 11월 문서의 **09-27 신정부 성립** 표현 차이, **1990-05-22** 남북 통합(유엔·미 국무부). 남예멘 **1967-11-30** 독립, **12-14** 유엔 신규 회원국 가입, **1970년** 개칭, **1990-05-22** 통합(유엔 원 결의 색인·미 외교문서). 상세 출처 URL은 [GEO-LIFE-029](country-lifetime-asia-historic-sikkim-north-south-yemen-2026-11-10.md) 참조.
+- **2차 유보:** 시킴 헌법 개정법 제1조 제2항의 소급효력/연방상원 통과일·1950 원조약, 보호국의 국제법상 성격; 북예멘 1962 정권변경 vs 기존 국제법상 주권국 연속성·왕당파 실효 지배; 남예멘 1970 국호 시행 정확일(11/30 대 12/01)·1990 통일 원조약·회원권 승계. 최종 lifetime 입력 확정 **0건**.
+- **검사/제한:** 인도 법령 PDF 앞 두 페이지 화면 확인. 다른 조약 및 원본 전체 스캔, GIS·위상·화면·웹/앱·로컬 publish-reports/check-reports **미실행**. 국가 lifetime·역사 형상·정본 타임라인·Pando work/gis/main·배포 **0건 변경**. 외부 자료 저장소의 이 보고서/진행기록/색인만 작성.
+- **커서:** lastProcessedRegion=아시아, nextRegion=아프리카, nextPhase=미조사 국가별 1차 2~4건(소진 시 2차). **전 세계 6지역 1·2차 전수 미완료**.
