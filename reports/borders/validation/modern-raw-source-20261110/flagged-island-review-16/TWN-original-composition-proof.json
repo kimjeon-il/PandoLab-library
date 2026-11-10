@@ -1,0 +1,43 @@
+{
+  "status": "candidate-only-verified-original-component-composition",
+  "sourceWP_IDs": [
+    "08e48e28-8cb9-4b00-97c8-2821b95f7598",
+    "4ac4f563-db48-4b0a-a528-e45d1dc047d4"
+  ],
+  "baseWP_ID": "08e48e28-8cb9-4b00-97c8-2821b95f7598",
+  "baseRawBlobSha256": "36cea30a0dc8344a861b19ec0b07bfcdb7a25486d501bc86a3eef0a7a4ac4f8b",
+  "spratlyWP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+  "spratlyRawBlobSha256": "d91ff39c3054b702071448b0ce0648d4f8f23e1ebfa415fe924c3578a6b06609",
+  "approvedPreparedComponentIndices": [
+    8
+  ],
+  "selectedRawComponentIndices": [
+    16
+  ],
+  "selectedComponents": [
+    {
+      "rawComponentIndex": 16,
+      "rawComponentWkbSha256": "62bed14fa6a4162f457fc9b75060a6fea958127a0cb8e001773416b8a9515eb5",
+      "rawBounds": [
+        114.36000640000009,
+        114.37133540000002,
+        10.374282100000073,
+        10.379905800000074
+      ],
+      "rawAreaDegrees2": 3.350167034992142e-05,
+      "oldComponentIndices": [
+        0
+      ],
+      "oldContainsRawInteriorPoint": true,
+      "intersectionRawFraction": 0.27073512407989914
+    }
+  ],
+  "allBaseOriginalComponentsPreserved": true,
+  "rawCoordinatesUnmodified": true,
+  "roundTripWkbEqual": true,
+  "candidateSha256": "5e66a1fddebc94aee0129fefb83f3219bb0a270aca17bb2371949b335e64d956",
+  "candidatePolygonCount": 320,
+  "rawOutsidePeerContacts": [],
+  "approvedDonorOutsidePeerContacts": [],
+  "preservationRule": "Keep every existing modernBoundarySupplement key including spratlyEffectiveControl and spratlyAllocationEvidence. Add this mapping as separate raw-source composition evidence; prepared index 8 and raw index 16 are not interchangeable."
+}

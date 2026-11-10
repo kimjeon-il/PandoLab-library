@@ -1,0 +1,93 @@
+{
+  "status": "complete-four-reviewed-lossless-candidates-ready",
+  "reviewedAt": "2026-11-10",
+  "initialRevision": "cc7ddfaf8a70ec7fb159bb8f03a333ef4ab7fdc8",
+  "latestPreimageVerifiedRevision": "21dec8f4133a5fc12203086164874ab09b0a3fce",
+  "rows": [
+    {
+      "code": "IOT",
+      "decision": "ready-for-parent-canonical-application",
+      "existingComponentsAllMatched": 28,
+      "candidateComponents": 64,
+      "rawExtraComponentGroups": {
+        "Other Chagos archipelago islets and coastal detail": 25,
+        "Diego Garcia southern/coastal detail": 11
+      },
+      "rawExtraClassificationScope": "Broad geographic grouping from component coordinates and official source named territory/archipelago scope, not individually gazetteered names for every tiny rock. All components retained.",
+      "proof": "IOT-raw-proof.json",
+      "proofSha256": "cea89feeb0885abc6c8f4c49a9236897b543f731b984016e27623cedf02cb290",
+      "sourceCandidate": "IOT-existing-source-candidate.json",
+      "candidateGeoJson": "IOT-raw-candidate.geojson",
+      "canonicalAppliedByThisWorker": false
+    },
+    {
+      "code": "SGS",
+      "decision": "ready-for-parent-canonical-application",
+      "existingComponentsAllMatched": 48,
+      "candidateComponents": 338,
+      "rawExtraComponentGroups": {
+        "South Georgia satellite islands/rocks": 280,
+        "Black Rock": 1,
+        "South Sandwich islands/rocks": 5
+      },
+      "rawExtraClassificationScope": "Broad geographic grouping from component coordinates and official source named territory/archipelago scope, not individually gazetteered names for every tiny rock. All components retained.",
+      "proof": "SGS-raw-proof.json",
+      "proofSha256": "86daef5aebc64ad240cecfd1f91fed6eefb5bed5faf7e6de9132f3eda80e6e1a",
+      "sourceCandidate": "SGS-existing-source-candidate.json",
+      "candidateGeoJson": "SGS-raw-candidate.geojson",
+      "canonicalAppliedByThisWorker": false
+    },
+    {
+      "code": "FLK",
+      "decision": "ready-for-parent-canonical-application",
+      "existingComponentsAllMatched": 296,
+      "candidateComponents": 861,
+      "rawExtraComponentGroups": {
+        "Falkland archipelago satellite islets/coastal detail": 552
+      },
+      "rawExtraClassificationScope": "Broad geographic grouping from component coordinates and official source named territory/archipelago scope, not individually gazetteered names for every tiny rock. All components retained.",
+      "proof": "FLK-raw-proof.json",
+      "proofSha256": "c32f5fc01320014898ed1561ddf8cc854dd14506db8192f792383e7871577df6",
+      "sourceCandidate": "FLK-existing-source-candidate.json",
+      "candidateGeoJson": "FLK-raw-candidate.geojson",
+      "canonicalAppliedByThisWorker": false
+    },
+    {
+      "code": "TWN",
+      "decision": "ready-for-parent-canonical-application",
+      "existingComponentsAllMatched": 79,
+      "candidateComponents": 320,
+      "rawExtraComponentGroups": {
+        "Dongsha/Pratas": 1,
+        "Kinmen-area islands/rocks": 62,
+        "Penghu-area islands/rocks": 95,
+        "Taiwan main/coastal and northern/eastern/southern outliers": 47,
+        "Matsu-area islands/rocks": 28
+      },
+      "rawExtraClassificationScope": "Broad geographic grouping from component coordinates and official source named territory/archipelago scope, not individually gazetteered names for every tiny rock. All components retained.",
+      "proof": "TWN-raw-proof.json",
+      "proofSha256": "df3f31c612240f4f177163cce030b6c361c7d067adb13ab0a1b80f31f8c475f3",
+      "sourceCandidate": "TWN-existing-source-candidate.json",
+      "candidateGeoJson": "TWN-raw-candidate.geojson",
+      "canonicalAppliedByThisWorker": false
+    }
+  ],
+  "held": [],
+  "scope": "Precision/source restoration within existing entity identity, hierarchy, dates and control interpretation. No new sovereignty or historical-control-start decision. Prior omissions alone are not treated as an instruction to omit original source islands.",
+  "TWNComposition": {
+    "base": "Entire original TWN feature, all 319 polygons including Dongsha",
+    "supplement": "Only original Spratly component 16; maps to previously approved prepared component 8 via current TWN component 0",
+    "preserveKeys": [
+      "spratlyEffectiveControl",
+      "spratlyAllocationEvidence"
+    ],
+    "compositionProof": "TWN-original-composition-proof.json",
+    "compositionProofSha256": "b5eb8c8be983c8e159bac93511ad8af1e10c2ae273d94d54a4cc7c22f86de739"
+  },
+  "geographicScopeEvidence": "official-geographic-scope-evidence.json",
+  "receiptHashVerification": "receipt-verification.json",
+  "sourceWrites": false,
+  "appWrites": false,
+  "runtimeGenerated": false,
+  "retention": "Four raw candidate files are retained only for the parent pending canonical application/readback, after which they are reproducible cleanup candidates."
+}
