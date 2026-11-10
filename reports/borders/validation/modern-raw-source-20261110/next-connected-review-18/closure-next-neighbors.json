@@ -1,0 +1,103 @@
+[
+  {
+    "entityId": "state:MYS",
+    "neighbors": [
+      {
+        "code": "BRN",
+        "name": "Brunei",
+        "id": "83fab229-a749-4b63-acc4-a2e48345d271",
+        "entityId": "state:BRN",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 4.71719370438083
+      },
+      {
+        "code": "IDN",
+        "name": "Indonesia",
+        "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+        "entityId": "state:IDN",
+        "class": "source-display-contract-review",
+        "area": 0.0,
+        "length": 18.115096761635648
+      },
+      {
+        "code": "THA",
+        "name": "Thailand",
+        "id": "bae87b99-b91f-48ca-84eb-e061056f548e",
+        "entityId": "state:THA",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 5.7791667654006496
+      }
+    ]
+  },
+  {
+    "entityId": "state:THA",
+    "neighbors": [
+      {
+        "code": "MYS",
+        "name": "Malaysia",
+        "id": "0a5cca76-0164-4fb9-bd31-2439df440882",
+        "entityId": "state:MYS",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 5.779166765400664
+      },
+      {
+        "code": "MMR",
+        "name": "Burma",
+        "id": "c95e80fe-e1c8-4db4-866d-315abb67baf1",
+        "entityId": "state:MMR",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 22.199026252323367
+      },
+      {
+        "code": "LAO",
+        "name": "Laos",
+        "id": "28ca6d68-ef25-4567-ae37-81647849455d",
+        "entityId": "state:LAO",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 17.185908929060993
+      },
+      {
+        "code": "KHM",
+        "name": "Cambodia",
+        "id": "ee1a5616-4c18-4325-8011-a2533b7df777",
+        "entityId": "state:KHM",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 8.24205946969859
+      }
+    ]
+  },
+  {
+    "entityId": "state:BRN",
+    "neighbors": [
+      {
+        "code": "MYS",
+        "name": "Malaysia",
+        "id": "0a5cca76-0164-4fb9-bd31-2439df440882",
+        "entityId": "state:MYS",
+        "class": "unreviewed-one-to-one-modern",
+        "area": 0.0,
+        "length": 4.717193704380842
+      }
+    ]
+  },
+  {
+    "entityId": "state:PNG",
+    "neighbors": [
+      {
+        "code": "IDN",
+        "name": "Indonesia",
+        "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+        "entityId": "state:IDN",
+        "class": "source-display-contract-review",
+        "area": 0.0,
+        "length": 7.436269615584362
+      }
+    ]
+  }
+]

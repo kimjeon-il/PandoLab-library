@@ -1,0 +1,3088 @@
+{
+  "pinRevision": "b60a708808386fdf7e26ca46e9a5e174a7dcb504",
+  "rows": [
+    {
+      "code": "PNG",
+      "path": "assets/data/territorial-entities/source/countries/state-PNG.json",
+      "descriptorSha256": "182608fbbb9df3f6455dbde322ae56755496fed9caf48995288e6726d51f836c",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:PNG",
+        "entityKind": "general",
+        "lineageId": "png",
+        "names": {
+          "ko": "파푸아뉴기니"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1975-09-16",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:PNG:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:PNG:state:PNG:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-25ea9dea2d85ee206a7b038cf4ef34f919ac5df504ace64f08a7f866ce72223c.json",
+              "sha256": "25ea9dea2d85ee206a7b038cf4ef34f919ac5df504ace64f08a7f866ce72223c",
+              "bytes": 912800
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "PNG",
+              "geometrySha256": "b1d002c278e3d6620db97789e2454ca613b953f3257638ed1df995c5658956c8",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "PNG",
+          "defaultFlagDataUrl": "assets/vendor/flag-icons/7.5.0/flags/4x3/pg.svg",
+          "representativeGeometryVersionId": "state:PNG:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "PNG",
+          "featureProperties": {
+            "name": "파푸아뉴기니"
+          },
+          "geometrySha256": "3a6ac7ac89a60d88547fd3bf45dd499f63c78b6fbe3732c2908aab25ee12b075",
+          "geometryVersionId": "state:PNG:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:PNG",
+            "versionId": "state:PNG:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "b497d26e89222f78daeaffae935cf7b57eaaf4bff138e4e30272a20f4f0faa43",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "PNG",
+              "geometryVersionId": "state:PNG:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "IDN",
+      "path": "assets/data/territorial-entities/source/countries/state-IDN.json",
+      "descriptorSha256": "d2cbe845538f3fe4be36d99a5e5cb52aacb3facbeac9e4ac945dcb7b4e0fac1c",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:IDN",
+        "entityKind": "general",
+        "lineageId": "indonesia",
+        "names": {
+          "ko": "인도네시아"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1945-08-17",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+            "validFrom": "1945-08-17",
+            "validTo": "1963-04-30",
+            "certainty": "low",
+            "sourceId": "natural-earth-5.1.1-admin1-papua-island-mask",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:IDN:state:IDN:1945-1963-before-west-new-guinea-r1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-301521f2b924be40f9d8e07e2107b0ffeaf97348b48316bca58db7f3f5e4e51b.json",
+              "sha256": "301521f2b924be40f9d8e07e2107b0ffeaf97348b48316bca58db7f3f5e4e51b",
+              "bytes": 2089876
+            },
+            "notes": "1945~1963년 서뉴기니 행정권 이전 전. 현행 인도네시아 264개 폴리곤 가운데 같은 Natural Earth 5.1.1 파푸아·서파푸아 행정구역과 일치하는 25개 섬 구성요소를 제외한 근사 형상. 1945~1949 독립전쟁 기간의 실제 통제경계까지 복원한 자료는 아님.\nDisplay correction 2026-11-10: all 450 explicitly omitted approved modern IDN components are restored with exact donor coordinates. Existing pre-1963 West New Guinea exclusion and other coordinates remain unchanged; complete modern-scope equivalence is not yet claimed.\nPartial display update prepared 2026-11-10: Kelang, Obilatu, Saparua, Makian, Tidore and Tufure use six exact whole approved modern components, identified by official names and complete connected landmass correspondence. All other 811 current components, including all existing 618 modern components and 450 restored omissions, are preserved. The other 188 broad candidate groups remain pending and unchanged. West New Guinea membership for all 2,962 modern components lacking NE correspondence is not settled; complete modern-minus-Papua scope is not claimed.\nFurther partial display update prepared 2026-11-10: 20 independently reviewed retained NE islands use exact whole approved modern components. All other 797 components, existing 624 modern components, restored 450, and six earlier reviewed replacements are preserved. Six questioned groups NE235/238/239/240/242/243 remain unchanged. Full West New Guinea membership for 2962 unmatched components remains unresolved; no complete-modern-scope claim.",
+            "instantiation": {
+              "mode": "territory-replacement",
+              "countryUpdates": {}
+            },
+            "historicalProvenance": {
+              "physicalBoundarySource": "Natural Earth 5.1.1 present-day canonical geometry",
+              "sourceReferenceDate": "2026-10-06",
+              "verifiedHistoricalGeometry": false,
+              "provinceMaskSource": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.1/geojson/ne_10m_admin_1_states_provinces.geojson",
+              "politicalTerritoryBasis": "effective-administration or de-facto proxy, not legal title",
+              "eventDate": "1963-05-01",
+              "event": "West New Guinea administrative transfer UNTEA to Indonesia",
+              "maskSelectedComponents": [
+                3,
+                17,
+                32,
+                130,
+                137,
+                154,
+                169,
+                171,
+                172,
+                177,
+                178,
+                180,
+                182,
+                186,
+                187,
+                188,
+                189,
+                190,
+                192,
+                202,
+                244,
+                245,
+                246,
+                255,
+                258
+              ],
+              "evidence": [
+                "https://peacekeeping.un.org/sites/default/files/past/unsfbackgr.html"
+              ],
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:IDN",
+                "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+                "validFrom": "1945-08-17",
+                "validTo": "1963-04-30",
+                "geometrySha256": "eda03a0a25066f249cb230b647b9b2e7d095b05d3388f9fde51752ec55a9fca0",
+                "master": {
+                  "reference": "assets/data/territorial-entities/source/geometries/sha256-093db2993ab6a18e8a302949109c2fd6875f6c6981fd94abaaa7ea2763ae0e8f.json",
+                  "revision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+                  "sha256": "093db2993ab6a18e8a302949109c2fd6875f6c6981fd94abaaa7ea2763ae0e8f"
+                },
+                "source": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/source-provenance.json",
+                  "sha256": "486c9d2337416593ac90f4949c44954ec65d6c9afd3636d9f896dcd41eaaf008"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "assets/data/countries-ne-5.1.1.geojson",
+                    "revision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+                    "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+                  },
+                  "arcSha256": "0aed7e1fcc5a6577feac05f028d0097059e0696e11b733a6ab8f7b61db456a8c",
+                  "extent": [
+                    95,
+                    -11,
+                    142,
+                    6
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=-2 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/topology-proof.json",
+                      "sha256": "6d68fec9bfcbbdfae855bee8aa59c8a07fbac6735821011da2543a86f3b9f8e3"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Replace 20 complete independent retained islands after full connected-landmass closure and individual visual review; preserve all other source coordinates.",
+                "parameters": {
+                  "replacedOldNEComponents": 20,
+                  "addedExactModernComponents": 20,
+                  "oldComponents": 817,
+                  "resultComponents": 817,
+                  "existingModernComponentsPreserved": 624,
+                  "explicitRestoredComponentsPreserved": 450,
+                  "untouchedCurrentComponents": 797,
+                  "newOmissions": 0,
+                  "oldNEClipping": false,
+                  "snapTolerance": null,
+                  "coordinateRounding": null,
+                  "resimplification": null
+                },
+                "visual": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/individual-visual-review.json",
+                  "sha256": "c1c12fe9832fb2de185a25fec9e09258d87b62ceb4e8af9103bf663fa097db5a"
+                },
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/topology-proof.json",
+                    "sha256": "6d68fec9bfcbbdfae855bee8aa59c8a07fbac6735821011da2543a86f3b9f8e3"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Valid complete candidate; 20 detached whole-island donors and complete preservation of all other 797 components. Fresh 4128-component connected-landmass closure, no other donor even touches the respective official land polygon. No changed island contacts six neighboring spatial references; unchanged shared political edges and dates."
+                },
+                "counterpartVersions": [],
+                "noSharedBoundaryReason": "Changed components are independent islands; Sebatik, Timor and Borneo remain exactly unchanged. Neighbor references are spatial checks only, not dated counterpart closure.",
+                "fixedAnchors": [],
+                "reviewedAt": "2026-11-10T06:27:55.159Z",
+                "compiledDerivatives": [],
+                "fullPeriodDatedCounterpartClosureVerified": false,
+                "runtimeApproval": false
+              },
+              "modernIndependentIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-independent-islands-20261110/source-provenance.json",
+                  "sha256": "80fb56c7aae821d3d6ea63923e1c01739379544f5c5121821f6f26cdcc2d1a89"
+                },
+                "bindings": [
+                  {
+                    "name": "Sumatra",
+                    "oldIndices": [
+                      43,
+                      55,
+                      179
+                    ],
+                    "donorIndices": [
+                      146,
+                      148,
+                      291,
+                      296,
+                      309,
+                      362,
+                      393,
+                      396,
+                      400,
+                      401,
+                      402,
+                      404,
+                      405,
+                      406,
+                      407,
+                      408,
+                      409,
+                      592,
+                      833,
+                      838,
+                      840,
+                      841,
+                      843,
+                      847,
+                      849
+                    ]
+                  },
+                  {
+                    "name": "Java",
+                    "oldIndices": [
+                      21,
+                      66
+                    ],
+                    "donorIndices": [
+                      1190
+                    ]
+                  }
+                ],
+                "originalPolygonCount": 239,
+                "candidatePolygonCount": 260,
+                "sourceOnly": true,
+                "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+              },
+              "modernAdditionalIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-next-islands-20261110/source-provenance.json",
+                  "sha256": "918e7e18e5bdd7adcf64a9cb936bc5de0815b44209601a9d00ec1fad629acc6e"
+                },
+                "bindings": [
+                  {
+                    "name": "Sulawesi",
+                    "oldIndices": [
+                      76
+                    ],
+                    "donorIndices": [
+                      2159,
+                      2262,
+                      2284,
+                      2687
+                    ]
+                  },
+                  {
+                    "name": "Bali",
+                    "oldIndices": [
+                      88
+                    ],
+                    "donorIndices": [
+                      1402,
+                      1413
+                    ]
+                  },
+                  {
+                    "name": "Lombok",
+                    "oldIndices": [
+                      84
+                    ],
+                    "donorIndices": [
+                      1384,
+                      1396,
+                      1409
+                    ]
+                  },
+                  {
+                    "name": "Sumbawa",
+                    "oldIndices": [
+                      86
+                    ],
+                    "donorIndices": [
+                      1785
+                    ]
+                  },
+                  {
+                    "name": "Flores",
+                    "oldIndices": [
+                      81,
+                      83,
+                      87
+                    ],
+                    "donorIndices": [
+                      1980,
+                      2031,
+                      2171,
+                      2173,
+                      2389
+                    ]
+                  },
+                  {
+                    "name": "Sumba",
+                    "oldIndices": [
+                      79
+                    ],
+                    "donorIndices": [
+                      1972
+                    ]
+                  }
+                ],
+                "originalPolygonCount": 260,
+                "candidatePolygonCount": 268,
+                "sourceOnly": true,
+                "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+              },
+              "modernRemainingLargeIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-remaining-large-islands-20261110/source-provenance.json",
+                  "sha256": "0a49d26ad113bb31f7a829baa6a261ec2a6ae46b9692298e729d2f9b3985a3a6"
+                },
+                "bindings": [
+                  {
+                    "name": "Bangka",
+                    "oldIndices": [
+                      199
+                    ],
+                    "donorIndices": [
+                      850
+                    ]
+                  },
+                  {
+                    "name": "Belitung",
+                    "oldIndices": [
+                      193
+                    ],
+                    "donorIndices": [
+                      1023,
+                      1046
+                    ]
+                  },
+                  {
+                    "name": "Madura",
+                    "oldIndices": [
+                      166
+                    ],
+                    "donorIndices": [
+                      1465
+                    ]
+                  },
+                  {
+                    "name": "Buru",
+                    "oldIndices": [
+                      188
+                    ],
+                    "donorIndices": [
+                      2608,
+                      2609
+                    ]
+                  },
+                  {
+                    "name": "Seram",
+                    "oldIndices": [
+                      192
+                    ],
+                    "donorIndices": [
+                      2991
+                    ]
+                  },
+                  {
+                    "name": "Halmahera",
+                    "oldIndices": [
+                      226
+                    ],
+                    "donorIndices": [
+                      2902
+                    ]
+                  },
+                  {
+                    "name": "Obi",
+                    "oldIndices": [
+                      200
+                    ],
+                    "donorIndices": [
+                      2801,
+                      2803
+                    ]
+                  },
+                  {
+                    "name": "Taliabu",
+                    "oldIndices": [
+                      198
+                    ],
+                    "donorIndices": [
+                      2658
+                    ]
+                  },
+                  {
+                    "name": "Morotai",
+                    "oldIndices": [
+                      228
+                    ],
+                    "donorIndices": [
+                      3151
+                    ]
+                  }
+                ],
+                "originalPolygonCount": 268,
+                "candidatePolygonCount": 271,
+                "sourceOnly": true,
+                "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+              },
+              "modernResidualLargeIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-residual-islands-20261110/source-provenance.json",
+                  "sha256": "992fda0009db91cd4ac37a7cb2052682d19df3ca21daa4d73d169d6106b9ee9d"
+                },
+                "bindings": [
+                  {
+                    "name": "Buton",
+                    "oldIndices": [
+                      176,
+                      178
+                    ],
+                    "donorIndices": [
+                      2400,
+                      2401,
+                      2412
+                    ]
+                  },
+                  {
+                    "name": "Nias",
+                    "oldIndices": [
+                      227
+                    ],
+                    "donorIndices": [
+                      47
+                    ]
+                  },
+                  {
+                    "name": "Aru-north",
+                    "oldIndices": [
+                      18,
+                      20,
+                      168,
+                      172
+                    ],
+                    "donorIndices": [
+                      3550,
+                      3558,
+                      3559,
+                      3780,
+                      3798,
+                      3815,
+                      3822,
+                      3833,
+                      3835,
+                      3843,
+                      3850
+                    ]
+                  },
+                  {
+                    "name": "Siberut",
+                    "oldIndices": [
+                      109
+                    ],
+                    "donorIndices": [
+                      264,
+                      274
+                    ]
+                  },
+                  {
+                    "name": "Yamdena",
+                    "oldIndices": [
+                      163,
+                      164
+                    ],
+                    "donorIndices": [
+                      3383,
+                      3403
+                    ]
+                  },
+                  {
+                    "name": "Wetar",
+                    "oldIndices": [
+                      161
+                    ],
+                    "donorIndices": [
+                      2582
+                    ]
+                  },
+                  {
+                    "name": "Peleng",
+                    "oldIndices": [
+                      205
+                    ],
+                    "donorIndices": [
+                      2529
+                    ]
+                  },
+                  {
+                    "name": "Alor",
+                    "oldIndices": [
+                      157
+                    ],
+                    "donorIndices": [
+                      2571
+                    ]
+                  },
+                  {
+                    "name": "Laut",
+                    "oldIndices": [
+                      102
+                    ],
+                    "donorIndices": [
+                      1521
+                    ]
+                  },
+                  {
+                    "name": "Bacan",
+                    "oldIndices": [
+                      210
+                    ],
+                    "donorIndices": [
+                      2841,
+                      2847
+                    ]
+                  }
+                ],
+                "originalPolygonCount": 271,
+                "candidatePolygonCount": 281,
+                "sourceOnly": true,
+                "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+              },
+              "modernBorneoCoastAndIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-borneo-coast-20261110/source-provenance.json",
+                  "sha256": "0016d8792cca67db44ca16a327054b2d6d6eb3a0da4217bc5ad694edc0788274"
+                },
+                "bindings": {
+                  "oldIndices": [
+                    2,
+                    117,
+                    154,
+                    155
+                  ],
+                  "donorIndices": [
+                    1263,
+                    1311,
+                    1314,
+                    1315,
+                    1316,
+                    1317,
+                    1318,
+                    1319,
+                    1320,
+                    1321,
+                    1324,
+                    1326,
+                    1332,
+                    1529,
+                    1531,
+                    1538,
+                    1545,
+                    1549,
+                    1550,
+                    1559,
+                    1560,
+                    1597,
+                    1598,
+                    1600,
+                    1601,
+                    1602,
+                    1603,
+                    1608,
+                    1609,
+                    1612,
+                    1613,
+                    1616,
+                    1618,
+                    1619,
+                    1621,
+                    1626,
+                    1629,
+                    1635,
+                    1636,
+                    1637,
+                    1640,
+                    1647,
+                    1651,
+                    1655,
+                    1662,
+                    1664,
+                    1675,
+                    1676,
+                    1679,
+                    1687,
+                    1689,
+                    1692,
+                    1694,
+                    1695,
+                    1697,
+                    1699,
+                    1709,
+                    1717,
+                    1731,
+                    1737,
+                    1748,
+                    1749,
+                    1753,
+                    1763,
+                    1765,
+                    1874,
+                    1877,
+                    1893,
+                    1897,
+                    1898,
+                    1899,
+                    1904,
+                    1908,
+                    1912,
+                    1913,
+                    1914,
+                    1916,
+                    1919,
+                    1932,
+                    1936,
+                    1938,
+                    1940,
+                    1941,
+                    1944,
+                    1945,
+                    1947,
+                    1960,
+                    1965,
+                    1966
+                  ],
+                  "oldCoastSpan": [
+                    5,
+                    1393
+                  ],
+                  "protectedSharedEdges": 442
+                },
+                "originalPolygonCount": 281,
+                "candidatePolygonCount": 367,
+                "sourceOnly": true,
+                "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+              },
+              "modernEarlyWestTimorCoastReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-west-timor-coast-20261110/source-provenance.json",
+                  "sha256": "c050903d480b18b8b7c71f609599f507ee32084b9ff435f13fd6d9bd74f001e3"
+                },
+                "originalPolygonCount": 367,
+                "candidatePolygonCount": 367,
+                "sourceOnly": true
+              },
+              "explicitModernOmissionRestoration": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/source-provenance.json",
+                  "sha256": "224c2f3ae95f9c262f30b1c95ec135f8519b56c0de8e4f3028b18694a1cd803c"
+                },
+                "originalPolygonCount": 367,
+                "candidatePolygonCount": 817,
+                "sourceOnly": true
+              },
+              "modernNamedIndependentIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-source-provenance.json",
+                  "sha256": "b297d49f412d1b68ce57919ca70fc9bc5df1f1624f4b31c1a93a304fb293a9a8"
+                },
+                "bindings": [
+                  {
+                    "names": [
+                      "Pulau Kelang"
+                    ],
+                    "originalNEIndex": 35,
+                    "currentIndex": 130,
+                    "modernIndex": 2789
+                  },
+                  {
+                    "names": [
+                      "Pulau Obilatu"
+                    ],
+                    "originalNEIndex": 42,
+                    "currentIndex": 137,
+                    "modernIndex": 2808
+                  },
+                  {
+                    "names": [
+                      "Pulau Saparua"
+                    ],
+                    "originalNEIndex": 163,
+                    "currentIndex": 282,
+                    "modernIndex": 2990
+                  },
+                  {
+                    "names": [
+                      "Pulau Makian"
+                    ],
+                    "originalNEIndex": 209,
+                    "currentIndex": 317,
+                    "modernIndex": 2891
+                  },
+                  {
+                    "names": [
+                      "Pulau Tidore"
+                    ],
+                    "originalNEIndex": 211,
+                    "currentIndex": 319,
+                    "modernIndex": 2903
+                  },
+                  {
+                    "names": [
+                      "Tufure"
+                    ],
+                    "originalNEIndex": 247,
+                    "currentIndex": 352,
+                    "modernIndex": 2696
+                  }
+                ],
+                "originalPolygonCount": 817,
+                "candidatePolygonCount": 817,
+                "remainingOriginalNEComponents": 191,
+                "unchangedModifiedSharedMainlands": 2,
+                "completeModernMinusPapuaCertified": false,
+                "sourceOnly": true
+              },
+              "modernConnectedIndependentIslandsReuse": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/source-provenance.json",
+                  "sha256": "486c9d2337416593ac90f4949c44954ec65d6c9afd3636d9f896dcd41eaaf008"
+                },
+                "bindings": [
+                  {
+                    "originalNEIndex": 6,
+                    "currentIndex": 94,
+                    "modernIndex": 2758
+                  },
+                  {
+                    "originalNEIndex": 8,
+                    "currentIndex": 96,
+                    "modernIndex": 2759
+                  },
+                  {
+                    "originalNEIndex": 10,
+                    "currentIndex": 98,
+                    "modernIndex": 2761
+                  },
+                  {
+                    "originalNEIndex": 19,
+                    "currentIndex": 106,
+                    "modernIndex": 3760
+                  },
+                  {
+                    "originalNEIndex": 26,
+                    "currentIndex": 122,
+                    "modernIndex": 3603
+                  },
+                  {
+                    "originalNEIndex": 29,
+                    "currentIndex": 125,
+                    "modernIndex": 2982
+                  },
+                  {
+                    "originalNEIndex": 30,
+                    "currentIndex": 126,
+                    "modernIndex": 2775
+                  },
+                  {
+                    "originalNEIndex": 132,
+                    "currentIndex": 252,
+                    "modernIndex": 2760
+                  },
+                  {
+                    "originalNEIndex": 134,
+                    "currentIndex": 254,
+                    "modernIndex": 2965
+                  },
+                  {
+                    "originalNEIndex": 136,
+                    "currentIndex": 256,
+                    "modernIndex": 2764
+                  },
+                  {
+                    "originalNEIndex": 150,
+                    "currentIndex": 267,
+                    "modernIndex": 3419
+                  },
+                  {
+                    "originalNEIndex": 155,
+                    "currentIndex": 272,
+                    "modernIndex": 3426
+                  },
+                  {
+                    "originalNEIndex": 158,
+                    "currentIndex": 275,
+                    "modernIndex": 3428
+                  },
+                  {
+                    "originalNEIndex": 162,
+                    "currentIndex": 279,
+                    "modernIndex": 2780
+                  },
+                  {
+                    "originalNEIndex": 232,
+                    "currentIndex": 335,
+                    "modernIndex": 3152
+                  },
+                  {
+                    "originalNEIndex": 233,
+                    "currentIndex": 336,
+                    "modernIndex": 2967
+                  },
+                  {
+                    "originalNEIndex": 234,
+                    "currentIndex": 337,
+                    "modernIndex": 2968
+                  },
+                  {
+                    "originalNEIndex": 236,
+                    "currentIndex": 339,
+                    "modernIndex": 2976
+                  },
+                  {
+                    "originalNEIndex": 237,
+                    "currentIndex": 340,
+                    "modernIndex": 2978
+                  },
+                  {
+                    "originalNEIndex": 254,
+                    "currentIndex": 353,
+                    "modernIndex": 3570
+                  }
+                ],
+                "originalPolygonCount": 817,
+                "candidatePolygonCount": 817,
+                "remainingOriginalNECount": 171,
+                "pendingNEIndices": [
+                  235,
+                  238,
+                  239,
+                  240,
+                  242,
+                  243
+                ],
+                "fullModernScopeCertified": false,
+                "sourceOnly": true
+              }
+            }
+          },
+          {
+            "versionId": "state:IDN:1963-1975-before-east-timor-r1",
+            "validFrom": "1963-05-01",
+            "validTo": "1975-12-06",
+            "certainty": "low",
+            "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m-temporal-proxy",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:IDN:state:IDN:1963-1975-before-east-timor-r1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4.json",
+              "sha256": "c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4",
+              "bytes": 4324426
+            },
+            "notes": "1963년 5월 1일 유엔 임시행정부의 서뉴기니 행정권 이전 후. 2026년 현재 인도네시아 정식 국경을 1963~1975년의 근사 형상으로 재사용하므로 당대 세부 경계 검증 자료는 아님. Existing modern-outline proxy rebased to the authorized November 2026 world-map donor. Dates, attribution and approximation are retained; historical accuracy is not newly verified.",
+            "instantiation": {
+              "mode": "territory-replacement",
+              "countryUpdates": {}
+            },
+            "historicalProvenance": {
+              "physicalBoundarySource": "Natural Earth 5.1.1 present-day canonical geometry",
+              "sourceReferenceDate": "2026-10-06",
+              "verifiedHistoricalGeometry": false,
+              "provinceMaskSource": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.1/geojson/ne_10m_admin_1_states_provinces.geojson",
+              "politicalTerritoryBasis": "effective-administration or de-facto proxy, not legal title",
+              "eventDate": "1963-05-01",
+              "event": "West New Guinea transfer of administration",
+              "evidence": [
+                "https://peacekeeping.un.org/sites/default/files/past/unsfbackgr.html"
+              ],
+              "worldMapRebase": {
+                "status": "candidate-pending-display-review",
+                "sourceFile": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                "donorFeatureId": "IDN",
+                "originalDonorEntityId": "state:IDN",
+                "originalDonorVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+                "oldGeometrySha256": "c7bff85d5889318b02fc47b65b7b7f0dfcc274fd76e4ef0b4ce1e39f887e4a43",
+                "newGeometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+                "previousSourceId": "natural-earth-5.1.1-post-west-new-guinea-temporal-proxy",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "geometryOperation": "exact-authorized-donor-copy",
+                "previousDisplayReview": null
+              },
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:IDN",
+                "versionId": "state:IDN:1963-1975-before-east-timor-r1",
+                "validFrom": "1963-05-01",
+                "validTo": "1975-12-06",
+                "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+                "master": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/original-reference.geojson",
+                  "sha256": "813f1d7457334deeecb7499c853e91b56ec8c2e50740391a45fc62d81315263a"
+                },
+                "source": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                  "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/original-reference.geojson",
+                    "sha256": "813f1d7457334deeecb7499c853e91b56ec8c2e50740391a45fc62d81315263a"
+                  },
+                  "arcSha256": "d545c641b23ad976ac8598c9f44bc40fd716838e0d5d8a8e4cc8cb7f4366d64c",
+                  "arcReference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/projected-reference-arcs.json",
+                  "extent": [
+                    92.09715467277425,
+                    -12.781533230844131,
+                    145.90284532722575,
+                    8.782782104570327
+                  ],
+                  "extentMeaning": "Inverse projection of all four actual clipped panel edges at 1000 equal steps per edge; this is the geographic bounding box of a projected rectangle, not a rectangular geographic crop.",
+                  "projectedExtentMetres": [
+                    -2910416.666666667,
+                    -1190625,
+                    2910416.666666667,
+                    1190625
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=-2 +lon_0=119 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/visual-review.json",
+                      "sha256": "bc1f7c0790ecea5155a1d50b35c477f6812f5d482c7f637b9622e9022770c1c4"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Exact adoption of authorized modern donor for the existing 1963–1975 approximate outline. Existing administration dates and other source versions remain unchanged; no independent historical-boundary accuracy is asserted.",
+                "parameters": {
+                  "geometryOperation": "exact-authorized-donor-copy",
+                  "coordinateRounding": null,
+                  "simplificationApplied": false,
+                  "requiredCurrentWorldSha256": "47ee5265c9f2832a2cb1ec7b8cd802243dc32e6bb9d3748118758ffe7b322314",
+                  "compileContext": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/compile-context.json",
+                    "sha256": "de8fd8fd11abe31018df1054eec221ca67261abf59d80bcc4e9128b2a87e2ea2"
+                  },
+                  "historicalAccuracyVerified": false,
+                  "effectiveDateEstablished": false,
+                  "activationCondition": "Only target historical version reviewed; current 1999+ injection and excluded historical versions require separate integration review. Selected-binding gate is not whole IDN runtime approval."
+                },
+                "visual": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/display-review.png",
+                  "sha256": "2996a5c661c52ae07c19c47c70c421b8a5585ab22b6d04387c848de82ca3fd50"
+                },
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/topology-and-dates-proof.json",
+                    "sha256": "cb2ae097034f4cff0dcad4b73f31cdb397fbc499f9db8ed484318f64a8e91765"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Six actual target-period dates and source transition intervals; authorized donor identity, 4128 components, zero holes; MYS and PNG only from catalog start dates."
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:MYS",
+                    "versionId": "state:MYS:natural-earth-5.1.1",
+                    "geometrySha256": "92e866895f0ff7d99a0f12125c8041e236aa70f24f40df82ae7c5a6b167b2b6f",
+                    "validFrom": "1963-09-16",
+                    "validTo": null,
+                    "role": "active land-boundary counterpart"
+                  },
+                  {
+                    "entityId": "state:PNG",
+                    "versionId": "state:PNG:natural-earth-5.1.1",
+                    "geometrySha256": "b1d002c278e3d6620db97789e2454ca613b953f3257638ed1df995c5658956c8",
+                    "validFrom": "1975-09-16",
+                    "validTo": null,
+                    "role": "active land-boundary counterpart"
+                  },
+                  {
+                    "entityId": "state:BRN",
+                    "versionId": "state:BRN:natural-earth-5.1.1",
+                    "geometrySha256": "f2f3fd67ae28e1f2d7b7c9a302693ae9dfd48c8a358a66ac642f41e4c8ee6ff1",
+                    "validFrom": "1368-01-01",
+                    "validTo": null,
+                    "role": "active regional counterpart; no shared IDN land boundary"
+                  }
+                ],
+                "fixedAnchors": [],
+                "compiledDerivatives": [
+                  {
+                    "schemaVersion": 1,
+                    "status": "passed",
+                    "entityId": "IDN",
+                    "versionId": "state:IDN:1963-1975-before-east-timor-r1",
+                    "validFrom": "1963-05-01",
+                    "validTo": "1975-12-06",
+                    "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+                    "master": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/original-reference.geojson",
+                      "sha256": "813f1d7457334deeecb7499c853e91b56ec8c2e50740391a45fc62d81315263a"
+                    },
+                    "source": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+                    },
+                    "comparison": {
+                      "reference": {
+                        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/original-reference.geojson",
+                        "sha256": "813f1d7457334deeecb7499c853e91b56ec8c2e50740391a45fc62d81315263a"
+                      },
+                      "arcSha256": "d545c641b23ad976ac8598c9f44bc40fd716838e0d5d8a8e4cc8cb7f4366d64c",
+                      "arcReference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/projected-reference-arcs.json",
+                      "extent": [
+                        92.09715467277425,
+                        -12.781533230844131,
+                        145.90284532722575,
+                        8.782782104570327
+                      ],
+                      "extentMeaning": "Inverse projection of all four actual clipped panel edges at 1000 equal steps per edge; this is the geographic bounding box of a projected rectangle, not a rectangular geographic crop.",
+                      "projectedExtentMetres": [
+                        -2910416.666666667,
+                        -1190625,
+                        2910416.666666667,
+                        1190625
+                      ],
+                      "scaleDenominator": 10000000,
+                      "projection": {
+                        "definition": "+proj=laea +lat_0=-2 +lon_0=119 +datum=WGS84 +units=m +no_defs",
+                        "units": "metre",
+                        "evidence": {
+                          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/visual-review.json",
+                          "sha256": "bc1f7c0790ecea5155a1d50b35c477f6812f5d482c7f637b9622e9022770c1c4"
+                        }
+                      }
+                    },
+                    "method": "preserved-modern-source",
+                    "reason": "Exact adoption of authorized modern donor for the existing 1963–1975 approximate outline. Existing administration dates and other source versions remain unchanged; no independent historical-boundary accuracy is asserted.",
+                    "parameters": {
+                      "geometryOperation": "exact-authorized-donor-copy",
+                      "coordinateRounding": null,
+                      "simplificationApplied": false,
+                      "requiredCurrentWorldSha256": "47ee5265c9f2832a2cb1ec7b8cd802243dc32e6bb9d3748118758ffe7b322314",
+                      "compileContext": {
+                        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/compile-context.json",
+                        "sha256": "de8fd8fd11abe31018df1054eec221ca67261abf59d80bcc4e9128b2a87e2ea2"
+                      },
+                      "historicalAccuracyVerified": false,
+                      "effectiveDateEstablished": false,
+                      "activationCondition": "Only target historical version reviewed; current 1999+ injection and excluded historical versions require separate integration review. Selected-binding gate is not whole IDN runtime approval."
+                    },
+                    "visual": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/display-review.png",
+                      "sha256": "2996a5c661c52ae07c19c47c70c421b8a5585ab22b6d04387c848de82ca3fd50"
+                    },
+                    "topology": {
+                      "status": "passed",
+                      "evidence": {
+                        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/idn-review/topology-and-dates-proof.json",
+                        "sha256": "cb2ae097034f4cff0dcad4b73f31cdb397fbc499f9db8ed484318f64a8e91765"
+                      },
+                      "checks": [
+                        "validity",
+                        "shared-boundary",
+                        "union",
+                        "gaps-overlaps",
+                        "connectivity",
+                        "holes-islands",
+                        "dates"
+                      ],
+                      "scope": "Six actual target-period dates and source transition intervals; authorized donor identity, 4128 components, zero holes; MYS and PNG only from catalog start dates."
+                    },
+                    "counterpartVersions": [
+                      {
+                        "entityId": "state:MYS",
+                        "versionId": "state:MYS:natural-earth-5.1.1",
+                        "geometrySha256": "92e866895f0ff7d99a0f12125c8041e236aa70f24f40df82ae7c5a6b167b2b6f",
+                        "validFrom": "1963-09-16",
+                        "validTo": null,
+                        "role": "active land-boundary counterpart"
+                      },
+                      {
+                        "entityId": "state:PNG",
+                        "versionId": "state:PNG:natural-earth-5.1.1",
+                        "geometrySha256": "b1d002c278e3d6620db97789e2454ca613b953f3257638ed1df995c5658956c8",
+                        "validFrom": "1975-09-16",
+                        "validTo": null,
+                        "role": "active land-boundary counterpart"
+                      },
+                      {
+                        "entityId": "state:BRN",
+                        "versionId": "state:BRN:natural-earth-5.1.1",
+                        "geometrySha256": "f2f3fd67ae28e1f2d7b7c9a302693ae9dfd48c8a358a66ac642f41e4c8ee6ff1",
+                        "validFrom": "1368-01-01",
+                        "validTo": null,
+                        "role": "active regional counterpart; no shared IDN land boundary"
+                      }
+                    ],
+                    "fixedAnchors": []
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "versionId": "state:indonesia:1945-2002-r1",
+            "validFrom": "1975-12-07",
+            "validTo": "1999-10-24",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:IDN:state:indonesia:1945-2002-r1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-eea6604bc23dc2e27be6c08b85e96da38d1bc35c4b99b4a8dfc52ea1b7b077af.json",
+              "sha256": "eea6604bc23dc2e27be6c08b85e96da38d1bc35c4b99b4a8dfc52ea1b7b077af",
+              "bytes": 4332150
+            },
+            "certainty": "low",
+            "sourceId": "approved-current-world-idn-tls-union-temporal-proxy-20261110",
+            "notes": "동티모르 점령기 실효 지배 범위의 근사 형상. 1975-12-07 침공 개시일부터 동티모르 전체를 한 번에 포함하는 월별 단순화이며, 당시 모든 지역의 점령 완료 또는 합법적인 병합을 뜻하지 않는다. 1976년 정식 편입 주장은 유엔이 인정하지 않았다. 1999-10-25 유엔 과도행정부 출범과 함께 제외.\nDisplay correction 2026-11-10: complete approved current IDN and TLS geometry union, with zero component omissions or resimplification. Original historical occupation and recognition caveats above remain unchanged.",
+            "instantiation": {
+              "mode": "territory-replacement",
+              "countryUpdates": {}
+            },
+            "historicalProvenance": {
+              "originalEntityId": "state:indonesia",
+              "sourceInfo": {
+                "title": "Natural Earth 5.1.1 Admin 0 with historical territory adjustment",
+                "license": "Natural Earth public domain",
+                "sources": [
+                  {
+                    "title": "Natural Earth 5.1.1 Admin 0 Countries",
+                    "license": "Public domain"
+                  }
+                ],
+                "notes": "현재 IDN과 TLS를 합쳐 동티모르 독립 전 인도네시아의 참고 경계를 재구성했습니다.",
+                "geometryRecipes": [
+                  {
+                    "id": "historical-country:indonesia:1945-2002-r1",
+                    "validFrom": "1945-08-17",
+                    "validTo": "2002-05-19",
+                    "memberCountryIds": [
+                      "IDN",
+                      "TLS"
+                    ],
+                    "certainty": "medium",
+                    "sourceId": "natural-earth-5.1.1-historical-successor-union",
+                    "notes": "현재 IDN과 TLS를 합쳐 동티모르 독립 전 인도네시아의 참고 경계를 재구성했습니다."
+                  }
+                ],
+                "importProvenance": {
+                  "baseSha": "2091ee2c294df237d844e32f9b926449677c45e4",
+                  "entityId": "historical-country:indonesia",
+                  "versionIds": {
+                    "state:indonesia:1945-2002-r1": "historical-country:indonesia:1945-2002-r1"
+                  }
+                }
+              },
+              "metadata": {
+                "geographicRegion": "Asia",
+                "pilot": true,
+                "approximateGeometry": true,
+                "referenceDate": "2001",
+                "defaultFlagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiIGlkPSJmbGFnLWluZG9uZXNpYSI+PHBhdGggZmlsbD0iI2NlMTEyNiIgZD0iTTAgMGgzdjFIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAxaDN2MUgweiIvPjwvc3ZnPg=="
+              },
+              "originalGeometryVersionId": "state:indonesia:1945-2002-r1",
+              "originalInterval": {
+                "validFrom": "1945-08-17",
+                "validTo": "2002-05-19"
+              },
+              "correctedIntervalReason": "Existing union erroneously assigned East Timor throughout 1945-2002; now scoped to 1975 military occupation through 1999 UN transition.",
+              "eventDates": {
+                "begin": "1975-12-07",
+                "end": "1999-10-25"
+              },
+              "evidence": [
+                "https://peacekeeping.un.org/sites/default/files/past/etimor/Untaetchrono.html",
+                "https://peacekeeping.un.org/sites/default/files/past/unmiset/background.html"
+              ],
+              "verifiedHistoricalGeometry": false,
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:IDN",
+                "versionId": "state:indonesia:1945-2002-r1",
+                "validFrom": "1975-12-07",
+                "validTo": "1999-10-24",
+                "geometrySha256": "f62539f6688efb4365d3d0f0972702252f42975db0d6e8f9f8ef4e9d6963ac78",
+                "master": {
+                  "reference": "assets/data/territorial-entities/source/geometries/sha256-0844dd07553ddddea31ca0f1db8292498275983ebadb8b8e043ff1b28a64f741.json",
+                  "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+                  "sha256": "0844dd07553ddddea31ca0f1db8292498275983ebadb8b8e043ff1b28a64f741"
+                },
+                "source": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/source-provenance.json",
+                  "sha256": "855fc57aff259d3e31c53c41ff3a861a9d32b8dee4e23569d0195fbdc6c77e63"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "assets/data/countries-ne-5.1.1.geojson",
+                    "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+                    "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+                  },
+                  "arcSha256": "9e80b375fe6679863ad96bae8f50d6214df8a9f6e2432b1524680778059ceaa7",
+                  "extent": [
+                    95,
+                    -11,
+                    142,
+                    6
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=-2 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/topology-proof.json",
+                      "sha256": "5daecc55110703d21687c7b07b93746f628f7bed49de5ed21877d1cb7b084734"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Correct the entire 1975-1999 geometry to the complete approved modern IDN plus TLS union without any arbitrary omissions.",
+                "parameters": {
+                  "modernIDNComponents": 4128,
+                  "modernTLSComponents": 4,
+                  "resultComponents": 4130,
+                  "omittedComponents": 0,
+                  "oldNEClipping": false,
+                  "snapTolerance": null,
+                  "coordinateRounding": null,
+                  "resimplification": null
+                },
+                "visual": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/visual-review.json",
+                  "sha256": "e2fb9cbe14684931782e92a29e2366a853092461d0b111193a8e764fa7c3a351"
+                },
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/topology-proof.json",
+                    "sha256": "5daecc55110703d21687c7b07b93746f628f7bed49de5ed21877d1cb7b084734"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Exact whole current IDN/TLS union coverage and zero extra area; all 104018 output boundary edges are exact approved donor edges; zero-area overlap with five adjacent countries; all other historical versions unchanged."
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:MYS",
+                    "versionId": "state:MYS:natural-earth-5.1.1",
+                    "validFrom": null,
+                    "validTo": null,
+                    "geometrySha256": "92e866895f0ff7d99a0f12125c8041e236aa70f24f40df82ae7c5a6b167b2b6f",
+                    "sourcePath": "assets/data/territorial-entities/source/countries/state-MYS.json",
+                    "sourceDescriptorSha256": "24ea0a673eeb14dd91679fb59b88cd91c03b39d6c43129ac10c853da288fda98"
+                  },
+                  {
+                    "entityId": "state:PNG",
+                    "versionId": "state:PNG:natural-earth-5.1.1",
+                    "validFrom": null,
+                    "validTo": null,
+                    "geometrySha256": "b1d002c278e3d6620db97789e2454ca613b953f3257638ed1df995c5658956c8",
+                    "sourcePath": "assets/data/territorial-entities/source/countries/state-PNG.json",
+                    "sourceDescriptorSha256": "182608fbbb9df3f6455dbde322ae56755496fed9caf48995288e6726d51f836c"
+                  }
+                ],
+                "fixedAnchors": [],
+                "reviewedAt": "2026-11-10T05:17:08.857Z",
+                "compiledDerivatives": [],
+                "fullPeriodDatedCounterpartClosureVerified": false,
+                "runtimeApproval": false
+              },
+              "completeModernIDNTLSUnionCorrection": {
+                "sourceReview": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/source-provenance.json",
+                  "sha256": "855fc57aff259d3e31c53c41ff3a861a9d32b8dee4e23569d0195fbdc6c77e63"
+                },
+                "originalPolygonCount": 472,
+                "candidatePolygonCount": 4130,
+                "sourceOnly": true
+              },
+              "supersededPartialModernDisplayReviews": [
+                {
+                  "key": "modernIndependentIslandsReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-independent-islands-20261110/source-provenance.json",
+                      "sha256": "80fb56c7aae821d3d6ea63923e1c01739379544f5c5121821f6f26cdcc2d1a89"
+                    },
+                    "bindings": [
+                      {
+                        "name": "Sumatra",
+                        "oldIndices": [
+                          24,
+                          2,
+                          32
+                        ],
+                        "donorIndices": [
+                          146,
+                          148,
+                          291,
+                          296,
+                          309,
+                          362,
+                          393,
+                          396,
+                          400,
+                          401,
+                          402,
+                          404,
+                          405,
+                          406,
+                          407,
+                          408,
+                          409,
+                          592,
+                          833,
+                          838,
+                          840,
+                          841,
+                          843,
+                          847,
+                          849
+                        ]
+                      },
+                      {
+                        "name": "Java",
+                        "oldIndices": [
+                          56,
+                          72
+                        ],
+                        "donorIndices": [
+                          1190
+                        ]
+                      }
+                    ],
+                    "originalPolygonCount": 265,
+                    "candidatePolygonCount": 286,
+                    "sourceOnly": true,
+                    "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+                  }
+                },
+                {
+                  "key": "modernAdditionalIslandsReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-next-islands-20261110/source-provenance.json",
+                      "sha256": "918e7e18e5bdd7adcf64a9cb936bc5de0815b44209601a9d00ec1fad629acc6e"
+                    },
+                    "bindings": [
+                      {
+                        "name": "Sulawesi",
+                        "oldIndices": [
+                          123
+                        ],
+                        "donorIndices": [
+                          2159,
+                          2262,
+                          2284,
+                          2687
+                        ]
+                      },
+                      {
+                        "name": "Bali",
+                        "oldIndices": [
+                          104
+                        ],
+                        "donorIndices": [
+                          1402,
+                          1413
+                        ]
+                      },
+                      {
+                        "name": "Lombok",
+                        "oldIndices": [
+                          110
+                        ],
+                        "donorIndices": [
+                          1384,
+                          1396,
+                          1409
+                        ]
+                      },
+                      {
+                        "name": "Sumbawa",
+                        "oldIndices": [
+                          113
+                        ],
+                        "donorIndices": [
+                          1785
+                        ]
+                      },
+                      {
+                        "name": "Flores",
+                        "oldIndices": [
+                          127,
+                          154,
+                          128
+                        ],
+                        "donorIndices": [
+                          1980,
+                          2031,
+                          2171,
+                          2173,
+                          2389
+                        ]
+                      },
+                      {
+                        "name": "Sumba",
+                        "oldIndices": [
+                          124
+                        ],
+                        "donorIndices": [
+                          1972
+                        ]
+                      }
+                    ],
+                    "originalPolygonCount": 286,
+                    "candidatePolygonCount": 294,
+                    "sourceOnly": true,
+                    "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+                  }
+                },
+                {
+                  "key": "modernRemainingLargeIslandsReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-remaining-large-islands-20261110/source-provenance.json",
+                      "sha256": "0a49d26ad113bb31f7a829baa6a261ec2a6ae46b9692298e729d2f9b3985a3a6"
+                    },
+                    "bindings": [
+                      {
+                        "name": "Bangka",
+                        "oldIndices": [
+                          77
+                        ],
+                        "donorIndices": [
+                          850
+                        ]
+                      },
+                      {
+                        "name": "Belitung",
+                        "oldIndices": [
+                          87
+                        ],
+                        "donorIndices": [
+                          1023,
+                          1046
+                        ]
+                      },
+                      {
+                        "name": "Madura",
+                        "oldIndices": [
+                          101
+                        ],
+                        "donorIndices": [
+                          1465
+                        ]
+                      },
+                      {
+                        "name": "Buru",
+                        "oldIndices": [
+                          191
+                        ],
+                        "donorIndices": [
+                          2608,
+                          2609
+                        ]
+                      },
+                      {
+                        "name": "Seram",
+                        "oldIndices": [
+                          222
+                        ],
+                        "donorIndices": [
+                          2991
+                        ]
+                      },
+                      {
+                        "name": "Halmahera",
+                        "oldIndices": [
+                          210
+                        ],
+                        "donorIndices": [
+                          2902
+                        ]
+                      },
+                      {
+                        "name": "Obi",
+                        "oldIndices": [
+                          208
+                        ],
+                        "donorIndices": [
+                          2801,
+                          2803
+                        ]
+                      },
+                      {
+                        "name": "Taliabu",
+                        "oldIndices": [
+                          179
+                        ],
+                        "donorIndices": [
+                          2658
+                        ]
+                      },
+                      {
+                        "name": "Morotai",
+                        "oldIndices": [
+                          226
+                        ],
+                        "donorIndices": [
+                          3151
+                        ]
+                      }
+                    ],
+                    "originalPolygonCount": 294,
+                    "candidatePolygonCount": 297,
+                    "sourceOnly": true,
+                    "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+                  }
+                },
+                {
+                  "key": "modernResidualLargeIslandsReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-residual-islands-20261110/source-provenance.json",
+                      "sha256": "992fda0009db91cd4ac37a7cb2052682d19df3ca21daa4d73d169d6106b9ee9d"
+                    },
+                    "bindings": [
+                      {
+                        "name": "Buton",
+                        "oldIndices": [
+                          155,
+                          159
+                        ],
+                        "donorIndices": [
+                          2400,
+                          2401,
+                          2412
+                        ]
+                      },
+                      {
+                        "name": "Nias",
+                        "oldIndices": [
+                          30
+                        ],
+                        "donorIndices": [
+                          47
+                        ]
+                      },
+                      {
+                        "name": "Aru-north",
+                        "oldIndices": [
+                          285,
+                          279,
+                          278,
+                          282
+                        ],
+                        "donorIndices": [
+                          3550,
+                          3558,
+                          3559,
+                          3780,
+                          3798,
+                          3815,
+                          3822,
+                          3833,
+                          3835,
+                          3843,
+                          3850
+                        ]
+                      },
+                      {
+                        "name": "Siberut",
+                        "oldIndices": [
+                          37
+                        ],
+                        "donorIndices": [
+                          264,
+                          274
+                        ]
+                      },
+                      {
+                        "name": "Yamdena",
+                        "oldIndices": [
+                          258,
+                          269
+                        ],
+                        "donorIndices": [
+                          3383,
+                          3403
+                        ]
+                      },
+                      {
+                        "name": "Wetar",
+                        "oldIndices": [
+                          190
+                        ],
+                        "donorIndices": [
+                          2582
+                        ]
+                      },
+                      {
+                        "name": "Peleng",
+                        "oldIndices": [
+                          160
+                        ],
+                        "donorIndices": [
+                          2529
+                        ]
+                      },
+                      {
+                        "name": "Alor",
+                        "oldIndices": [
+                          181
+                        ],
+                        "donorIndices": [
+                          2571
+                        ]
+                      },
+                      {
+                        "name": "Laut",
+                        "oldIndices": [
+                          115
+                        ],
+                        "donorIndices": [
+                          1521
+                        ]
+                      },
+                      {
+                        "name": "Bacan",
+                        "oldIndices": [
+                          206
+                        ],
+                        "donorIndices": [
+                          2841,
+                          2847
+                        ]
+                      }
+                    ],
+                    "originalPolygonCount": 297,
+                    "candidatePolygonCount": 307,
+                    "sourceOnly": true,
+                    "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+                  }
+                },
+                {
+                  "key": "modernBorneoCoastAndIslandsReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-borneo-coast-20261110/source-provenance.json",
+                      "sha256": "0016d8792cca67db44ca16a327054b2d6d6eb3a0da4217bc5ad694edc0788274"
+                    },
+                    "bindings": {
+                      "oldIndices": [
+                        96,
+                        100,
+                        119,
+                        125
+                      ],
+                      "donorIndices": [
+                        1263,
+                        1311,
+                        1314,
+                        1315,
+                        1316,
+                        1317,
+                        1318,
+                        1319,
+                        1320,
+                        1321,
+                        1324,
+                        1326,
+                        1332,
+                        1529,
+                        1531,
+                        1538,
+                        1545,
+                        1549,
+                        1550,
+                        1559,
+                        1560,
+                        1597,
+                        1598,
+                        1600,
+                        1601,
+                        1602,
+                        1603,
+                        1608,
+                        1609,
+                        1612,
+                        1613,
+                        1616,
+                        1618,
+                        1619,
+                        1621,
+                        1626,
+                        1629,
+                        1635,
+                        1636,
+                        1637,
+                        1640,
+                        1647,
+                        1651,
+                        1655,
+                        1662,
+                        1664,
+                        1675,
+                        1676,
+                        1679,
+                        1687,
+                        1689,
+                        1692,
+                        1694,
+                        1695,
+                        1697,
+                        1699,
+                        1709,
+                        1717,
+                        1731,
+                        1737,
+                        1748,
+                        1749,
+                        1753,
+                        1763,
+                        1765,
+                        1874,
+                        1877,
+                        1893,
+                        1897,
+                        1898,
+                        1899,
+                        1904,
+                        1908,
+                        1912,
+                        1913,
+                        1914,
+                        1916,
+                        1919,
+                        1932,
+                        1936,
+                        1938,
+                        1940,
+                        1941,
+                        1944,
+                        1945,
+                        1947,
+                        1960,
+                        1965,
+                        1966
+                      ],
+                      "oldCoastSpan": [
+                        5,
+                        1393
+                      ],
+                      "protectedSharedEdges": 442
+                    },
+                    "originalPolygonCount": 307,
+                    "candidatePolygonCount": 393,
+                    "sourceOnly": true,
+                    "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+                  }
+                },
+                {
+                  "key": "modernTimorOccupationDisplayReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-timor-coast-20261110/source-provenance.json",
+                      "sha256": "6ad3b399cbb41cc11fc2c8a374581112e77ad49dfc202182a2f44ad18640cac2"
+                    },
+                    "originalPolygonCount": 393,
+                    "candidatePolygonCount": 394,
+                    "sourceOnly": true
+                  }
+                },
+                {
+                  "key": "modernWestNewGuineaCoastAndIslandsReuse",
+                  "review": {
+                    "sourceReview": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-west-new-guinea-coast-20261110/source-provenance.json",
+                      "sha256": "0047177064f6d9fbaf8d58dbbf5520c07c335dc27249fe676aa0529c8a966266"
+                    },
+                    "bindings": {
+                      "oldIndices": [
+                        345,
+                        379
+                      ],
+                      "donorIndices": [
+                        3449,
+                        3453,
+                        3474,
+                        3633,
+                        3644,
+                        3645,
+                        3664,
+                        3666,
+                        3673,
+                        3674,
+                        3675,
+                        3677,
+                        3680,
+                        3681,
+                        3683,
+                        3684,
+                        3686,
+                        3698,
+                        3699,
+                        3701,
+                        3702,
+                        3704,
+                        3705,
+                        3706,
+                        3709,
+                        3710,
+                        3713,
+                        3714,
+                        3715,
+                        3717,
+                        3718,
+                        3726,
+                        3731,
+                        3732,
+                        3737,
+                        3874,
+                        3883,
+                        3885,
+                        3892,
+                        3949,
+                        3953,
+                        3955,
+                        3958,
+                        3959,
+                        3961,
+                        3965,
+                        3969,
+                        3970,
+                        3971,
+                        3973,
+                        3975,
+                        3977,
+                        3980,
+                        3982,
+                        3983,
+                        3993,
+                        3994,
+                        3995,
+                        3996,
+                        3997,
+                        4001,
+                        4002,
+                        4006,
+                        4010,
+                        4012,
+                        4018,
+                        4022,
+                        4025,
+                        4027,
+                        4029,
+                        4036,
+                        4037,
+                        4084,
+                        4088,
+                        4091,
+                        4093,
+                        4094,
+                        4096,
+                        4102
+                      ],
+                      "oldCoastSpan": [
+                        [
+                          1,
+                          537
+                        ],
+                        [
+                          628,
+                          1966
+                        ]
+                      ],
+                      "protectedSharedEdges": 82
+                    },
+                    "originalPolygonCount": 394,
+                    "candidatePolygonCount": 472,
+                    "sourceOnly": true,
+                    "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+            "validFrom": "1999-10-25",
+            "validTo": null,
+            "certainty": "low",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:IDN:state:IDN:1999-2026-after-east-timor-r1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4.json",
+              "sha256": "c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4",
+              "bytes": 4324426
+            },
+            "notes": "1999-10-25 UNTAET 설치 이후 동티모르 제외. 승인된 현대 지도 대용 인도네시아 폴리곤을 1999~2026년 기간에 재사용한 잠정 형상으로, 이후의 세부 경계 변화 미검증.",
+            "instantiation": {
+              "mode": "territory-replacement",
+              "countryUpdates": {}
+            },
+            "historicalProvenance": {
+              "verifiedHistoricalGeometry": false,
+              "politicalTerritoryBasis": "effective-administration or de-facto proxy, not legal title",
+              "eventDate": "1999-10-25",
+              "event": "United Nations Transitional Administration in East Timor established",
+              "evidence": [
+                "https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm"
+              ],
+              "currentGeometrySource": {
+                "sourceId": "approved-current-world-display-20261107",
+                "status": "approved-prepared-current-source-adoption",
+                "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                "featureId": "IDN",
+                "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+                "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+                "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+                "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+                "upstream": {
+                  "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                  "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                  "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                  "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "sourceFileBytesLocallyVerified": false,
+                  "sourceWP_IDs": [
+                    "4026e6ac-83c9-423f-9114-decf7461c75f"
+                  ],
+                  "sourceWP_IDsEvidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                    "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                  }
+                },
+                "sourceReview": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                  "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                }
+              },
+              "previousGeometryProvenance": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+                "entityId": "state:IDN",
+                "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+                "priorVersionSha256": "bad42865a152711277a120fd09f324c58ae7591a7d6874fda1419ad4800ed2fc",
+                "role": "Retired geometry attribution/reviews only. Political/date evidence remains preserved; old reviews do not certify the adopted geometry.",
+                "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+              },
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:IDN",
+                "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+                "validFrom": "1999-10-25",
+                "validTo": null,
+                "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+                "master": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                  "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                  "role": "Approved prepared current-display donor master. Original upstream survey/GPKG master is not revalidated by this receipt."
+                },
+                "source": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                  "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                  },
+                  "arcSha256": "c7bff85d5889318b02fc47b65b7b7f0dfcc274fd76e4ef0b4ce1e39f887e4a43",
+                  "arcDigestDefinition": "sha256(JSON.stringify([type, coordinates])) of this version original geometry, present at rows[entityId,versionId].original.geometry in reference",
+                  "extent": [
+                    89.43803721775336,
+                    -16.583251630952283,
+                    146.56196278224664,
+                    8.67848654515732
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=-4 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+                      "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Adopt the exact approved modern display-source geometry in this existing version and preserve its dates, political interpretation and uncertainty. Current-source visual/topology preservation is checked; boundary accuracy at validFrom is not newly asserted.",
+                "parameters": {
+                  "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                  "additionalSimplificationMetres": 0,
+                  "coordinateRounding": null,
+                  "upstreamSourceSkeletonMetres": 2000,
+                  "upstreamSourceSubordinateRuleMetres": 250,
+                  "upstreamParametersRole": "Recorded prepared donor parameters; not a new generalization run",
+                  "preserveLocalPoliticalExceptions": true,
+                  "historicalSourceAccuracyAsserted": false,
+                  "compiled": false
+                },
+                "visual": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+                  "sha256": "25e71b18d03ede72a0b3a2ad9a1f75a1ab237d089e17fd44ccee245ab2776be6"
+                },
+                "visualImages": [
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.png",
+                    "sha256": "8630894383087815020c9968c9dbc6f9b2d8a4fe9f9c38f657a20dfe20eb6288"
+                  }
+                ],
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                    "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Validity and measured scoped neighbor intersections. Union, gaps, connectivity, holes and islands preserve the exact approved donor. Existing KAZ/KAB legal parent/subunit overlap and documented floating-point residuals are explicit exceptions, not clipped. Dates and all unselected versions are preserved, not historically re-established."
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:MYS",
+                    "versionId": "state:MYS:natural-earth-5.1.1",
+                    "geometrySha256": "92e866895f0ff7d99a0f12125c8041e236aa70f24f40df82ae7c5a6b167b2b6f"
+                  },
+                  {
+                    "entityId": "state:TLS",
+                    "versionId": "state:TLS:2002-2026-independence-r1",
+                    "geometrySha256": "e1030b5d8309167c06e41f5f16fc134812da370248e690f03f27d618d2694524"
+                  },
+                  {
+                    "entityId": "state:PNG",
+                    "versionId": "state:PNG:natural-earth-5.1.1",
+                    "geometrySha256": "b1d002c278e3d6620db97789e2454ca613b953f3257638ed1df995c5658956c8"
+                  }
+                ],
+                "fixedAnchors": []
+              }
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "IDN",
+              "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [
+                  "4026e6ac-83c9-423f-9114-decf7461c75f"
+                ],
+                "sourceWP_IDsEvidence": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                  "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                }
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "IDN",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/id.svg",
+          "representativeGeometryVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+          "sourceOutlineReferenceDate": "2026-10-06"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "IDN",
+          "featureProperties": {
+            "name": "인도네시아"
+          },
+          "geometrySha256": "18f9e664611b33a7734ecf126c30911b50785394c324c9f6e891bff5aa3f7edf",
+          "temporalBoundaryCorrection": {
+            "kind": "source-reference-date-not-geopolitical-event",
+            "referenceDate": "2026-10-06",
+            "retiredVersionId": "state:IDN:natural-earth-5.1.1",
+            "retiredSourceId": "natural-earth-5.1.1",
+            "retiredReferenceCertainty": "high",
+            "retainedVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+            "retainedEventDate": "1999-10-25",
+            "geometrySha256": "003396bbc0865e9414592eece15f68fef1453d26426766f37bb575bf8257b4bd",
+            "verifiedHistoricalGeometry": false,
+            "note": "The 2026-10-06 boundary was a source snapshot reference, not a territorial event. Identical outline coordinates are now represented by one open-ended low-certainty historical proxy. The former canonical source edition is preserved by its version ID and geometry digest in metadata and immutable archive."
+          },
+          "geometryVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:IDN",
+            "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "003396bbc0865e9414592eece15f68fef1453d26426766f37bb575bf8257b4bd",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "IDN",
+              "geometryVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            },
+            {
+              "sourceId": "idn-independent-sumatra-java-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-independent-islands-20261110/source-provenance.json",
+                "sha256": "80fb56c7aae821d3d6ea63923e1c01739379544f5c5121821f6f26cdcc2d1a89"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-independent-sumatra-java-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-independent-islands-20261110/source-provenance.json",
+                "sha256": "80fb56c7aae821d3d6ea63923e1c01739379544f5c5121821f6f26cdcc2d1a89"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-additional-six-islands-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-next-islands-20261110/source-provenance.json",
+                "sha256": "918e7e18e5bdd7adcf64a9cb936bc5de0815b44209601a9d00ec1fad629acc6e"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-additional-six-islands-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-next-islands-20261110/source-provenance.json",
+                "sha256": "918e7e18e5bdd7adcf64a9cb936bc5de0815b44209601a9d00ec1fad629acc6e"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-additional-nine-islands-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-remaining-large-islands-20261110/source-provenance.json",
+                "sha256": "0a49d26ad113bb31f7a829baa6a261ec2a6ae46b9692298e729d2f9b3985a3a6"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-additional-nine-islands-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-remaining-large-islands-20261110/source-provenance.json",
+                "sha256": "0a49d26ad113bb31f7a829baa6a261ec2a6ae46b9692298e729d2f9b3985a3a6"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-residual-ten-island-groups-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-residual-islands-20261110/source-provenance.json",
+                "sha256": "992fda0009db91cd4ac37a7cb2052682d19df3ca21daa4d73d169d6106b9ee9d"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-residual-ten-island-groups-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-residual-islands-20261110/source-provenance.json",
+                "sha256": "992fda0009db91cd4ac37a7cb2052682d19df3ca21daa4d73d169d6106b9ee9d"
+              },
+              "role": "Partial modern closed-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-borneo-coast-connected-islands-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-borneo-coast-20261110/source-provenance.json",
+                "sha256": "0016d8792cca67db44ca16a327054b2d6d6eb3a0da4217bc5ad694edc0788274"
+              },
+              "role": "Partial modern coast and connected-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-borneo-coast-connected-islands-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-borneo-coast-20261110/source-provenance.json",
+                "sha256": "0016d8792cca67db44ca16a327054b2d6d6eb3a0da4217bc5ad694edc0788274"
+              },
+              "role": "Partial modern coast and connected-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-timor-1975-modern-union-display-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-timor-coast-20261110/source-provenance.json",
+                "sha256": "6ad3b399cbb41cc11fc2c8a374581112e77ad49dfc202182a2f44ad18640cac2"
+              },
+              "role": "Partial modern display coastline; unchanged historical occupation approximation and original rights."
+            },
+            {
+              "sourceId": "idn-west-timor-1945-modern-coast-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-west-timor-coast-20261110/source-provenance.json",
+                "sha256": "c050903d480b18b8b7c71f609599f507ee32084b9ff435f13fd6d9bd74f001e3"
+              },
+              "role": "Partial modern display coastline; unchanged original historical approximation and original rights."
+            },
+            {
+              "sourceId": "idn-west-new-guinea-coast-connected-islands-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-west-new-guinea-coast-20261110/source-provenance.json",
+                "sha256": "0047177064f6d9fbaf8d58dbbf5520c07c335dc27249fe676aa0529c8a966266"
+              },
+              "role": "Partial modern coast and connected-island display reuse; original historical reconstruction and rights retained."
+            },
+            {
+              "sourceId": "idn-complete-modern-idn-tls-union-correction-20261110",
+              "geometryVersionId": "state:indonesia:1945-2002-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/source-provenance.json",
+                "sha256": "855fc57aff259d3e31c53c41ff3a861a9d32b8dee4e23569d0195fbdc6c77e63"
+              },
+              "role": "Complete approved modern IDN plus TLS display union; unchanged historical occupation approximation and original rights."
+            },
+            {
+              "sourceId": "idn-pre1963-explicit-modern-component-restoration-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/source-provenance.json",
+                "sha256": "224c2f3ae95f9c262f30b1c95ec135f8519b56c0de8e4f3028b18694a1cd803c"
+              },
+              "role": "Restore 450 previously omitted approved current IDN components; retain original historical scope, other geometry and rights."
+            },
+            {
+              "sourceId": "idn-pre1963-six-independent-island-reuse-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-source-provenance.json",
+                "sha256": "b297d49f412d1b68ce57919ca70fc9bc5df1f1624f4b31c1a93a304fb293a9a8"
+              },
+              "role": "Six named independent retained islands copied as complete approved modern components. Existing historical scope, all other coordinates and original rights remain unchanged."
+            },
+            {
+              "sourceId": "idn-pre1963-20-connected-independent-islands-20261110",
+              "geometryVersionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+              "sourceReview": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/source-provenance.json",
+                "sha256": "486c9d2337416593ac90f4949c44954ec65d6c9afd3636d9f896dcd41eaaf008"
+              },
+              "role": "20 exact complete modern components with independently reviewed physical island identity. Original historical scope and rights retained; all other coordinates unchanged."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "TLS",
+      "path": "assets/data/territorial-entities/source/countries/state-TLS.json",
+      "descriptorSha256": "65b29b0bd21ce66ec4710641d76e5aa6d28602c6d9aa87178783709cad8978d5",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:TLS",
+        "entityKind": "general",
+        "lineageId": "tls",
+        "names": {
+          "ko": "동티모르"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "2002-05-20",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:TLS:2002-2026-independence-r1",
+            "validFrom": "2002-05-20",
+            "validTo": null,
+            "certainty": "low",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:TLS:state:TLS:2002-2026-independence-r1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673.json",
+              "sha256": "374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673",
+              "bytes": 21362
+            },
+            "notes": "2002-05-20 동티모르 독립 이후 승인된 현대 지도 대용 국경을 임시 적용한 형상. 1999-10-25~2002-05-19 UNTAET 통치기는 독립국 존속기간에 자동 포함하지 않으며 별도의 통치 객체가 필요함.",
+            "instantiation": {
+              "mode": "territory-replacement",
+              "countryUpdates": {}
+            },
+            "historicalProvenance": {
+              "verifiedHistoricalGeometry": false,
+              "politicalTerritoryBasis": "effective-administration or de-facto proxy, not legal title",
+              "eventDate": "2002-05-20",
+              "event": "Timor-Leste independence",
+              "evidence": [
+                "https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm"
+              ],
+              "currentGeometrySource": {
+                "sourceId": "approved-current-world-display-20261107",
+                "status": "approved-prepared-current-source-adoption",
+                "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                "featureId": "TLS",
+                "geometrySha256": "e1030b5d8309167c06e41f5f16fc134812da370248e690f03f27d618d2694524",
+                "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+                "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+                "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+                "upstream": {
+                  "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                  "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                  "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                  "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "sourceFileBytesLocallyVerified": false,
+                  "sourceWP_IDs": [
+                    "88cb3d29-f783-4135-a3fb-d28e3fa45cfb"
+                  ],
+                  "sourceWP_IDsEvidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                    "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                  }
+                },
+                "sourceReview": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                  "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                }
+              },
+              "previousGeometryProvenance": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+                "entityId": "state:TLS",
+                "versionId": "state:TLS:2002-2026-independence-r1",
+                "priorVersionSha256": "30b8fdcee2977c67fad71c5feed7f48f2622ed00b58d85e5d8980f5196c97461",
+                "role": "Retired geometry attribution/reviews only. Political/date evidence remains preserved; old reviews do not certify the adopted geometry.",
+                "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+              },
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:TLS",
+                "versionId": "state:TLS:2002-2026-independence-r1",
+                "validFrom": "2002-05-20",
+                "validTo": null,
+                "geometrySha256": "e1030b5d8309167c06e41f5f16fc134812da370248e690f03f27d618d2694524",
+                "master": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                  "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                  "role": "Approved prepared current-display donor master. Original upstream survey/GPKG master is not revalidated by this receipt."
+                },
+                "source": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                  "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                  },
+                  "arcSha256": "5d2de3299401a2b50c8af57d689a7d0ea6175f84d7b04241cc6064f75dd860db",
+                  "arcDigestDefinition": "sha256(JSON.stringify([type, coordinates])) of this version original geometry, present at rows[entityId,versionId].original.geometry in reference",
+                  "extent": [
+                    89.43803721775336,
+                    -16.583251630952283,
+                    146.56196278224664,
+                    8.67848654515732
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=-4 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+                      "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Adopt the exact approved modern display-source geometry in this existing version and preserve its dates, political interpretation and uncertainty. Current-source visual/topology preservation is checked; boundary accuracy at validFrom is not newly asserted.",
+                "parameters": {
+                  "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                  "additionalSimplificationMetres": 0,
+                  "coordinateRounding": null,
+                  "upstreamSourceSkeletonMetres": 2000,
+                  "upstreamSourceSubordinateRuleMetres": 250,
+                  "upstreamParametersRole": "Recorded prepared donor parameters; not a new generalization run",
+                  "preserveLocalPoliticalExceptions": true,
+                  "historicalSourceAccuracyAsserted": false,
+                  "compiled": false
+                },
+                "visual": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+                  "sha256": "25e71b18d03ede72a0b3a2ad9a1f75a1ab237d089e17fd44ccee245ab2776be6"
+                },
+                "visualImages": [
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/indonesia.png",
+                    "sha256": "8630894383087815020c9968c9dbc6f9b2d8a4fe9f9c38f657a20dfe20eb6288"
+                  }
+                ],
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                    "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Validity and measured scoped neighbor intersections. Union, gaps, connectivity, holes and islands preserve the exact approved donor. Existing KAZ/KAB legal parent/subunit overlap and documented floating-point residuals are explicit exceptions, not clipped. Dates and all unselected versions are preserved, not historically re-established."
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:IDN",
+                    "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+                    "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623"
+                  }
+                ],
+                "fixedAnchors": []
+              }
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "TLS",
+              "geometrySha256": "e1030b5d8309167c06e41f5f16fc134812da370248e690f03f27d618d2694524",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [
+                  "88cb3d29-f783-4135-a3fb-d28e3fa45cfb"
+                ],
+                "sourceWP_IDsEvidence": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                  "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                }
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "TLS",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tl.svg",
+          "representativeGeometryVersionId": "state:TLS:2002-2026-independence-r1",
+          "sourceOutlineReferenceDate": "2026-10-06"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "TLS",
+          "featureProperties": {
+            "name": "동티모르"
+          },
+          "geometrySha256": "48a3b647637422f294f472ba5c9d3e5924facf2b53b2c10a29e6ed53a33dc7dd",
+          "temporalBoundaryCorrection": {
+            "kind": "source-reference-date-not-geopolitical-event",
+            "referenceDate": "2026-10-06",
+            "retiredVersionId": "state:TLS:natural-earth-5.1.1",
+            "retiredSourceId": "natural-earth-5.1.1",
+            "retiredReferenceCertainty": "high",
+            "retainedVersionId": "state:TLS:2002-2026-independence-r1",
+            "retainedEventDate": "2002-05-20",
+            "geometrySha256": "63b893f27d4384481279d7c74ccfb75dc548d0a3448e82f87cb4d366c530caa9",
+            "verifiedHistoricalGeometry": false,
+            "note": "The 2026-10-06 boundary was a source snapshot reference, not a territorial event. Identical outline coordinates are now represented by one open-ended low-certainty historical proxy. The former canonical source edition is preserved by its version ID and geometry digest in metadata and immutable archive."
+          },
+          "geometryVersionId": "state:TLS:2002-2026-independence-r1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:TLS",
+            "versionId": "state:TLS:2002-2026-independence-r1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "63b893f27d4384481279d7c74ccfb75dc548d0a3448e82f87cb4d366c530caa9",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "TLS",
+              "geometryVersionId": "state:TLS:2002-2026-independence-r1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "MYS",
+      "path": "assets/data/territorial-entities/source/countries/state-MYS.json",
+      "descriptorSha256": "24ea0a673eeb14dd91679fb59b88cd91c03b39d6c43129ac10c853da288fda98",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:MYS",
+        "entityKind": "general",
+        "lineageId": "mys",
+        "names": {
+          "ko": "말레이시아"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1963-09-16",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:MYS:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:MYS:state:MYS:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-e2a64870a0d8e60ad43a9bf981f0772d6f93f8de91104e47de2cfa805a43e1aa.json",
+              "sha256": "e2a64870a0d8e60ad43a9bf981f0772d6f93f8de91104e47de2cfa805a43e1aa",
+              "bytes": 631293
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "MYS",
+              "geometrySha256": "92e866895f0ff7d99a0f12125c8041e236aa70f24f40df82ae7c5a6b167b2b6f",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "MYS",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/my.svg",
+          "representativeGeometryVersionId": "state:MYS:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "MYS",
+          "featureProperties": {
+            "name": "말레이시아"
+          },
+          "geometrySha256": "c882b1a2f905416f941fca4442600f03b152ac5e9059e49867a6c2fe614feec5",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-EXTANT-20261025",
+            "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+            "researchedAt": "2026-10-26",
+            "calendar": "proleptic-gregorian",
+            "precision": "date",
+            "criterion": "말라야를 별도 전신으로 하는 사용자 선택",
+            "sourceUrls": [
+              "https://pustakailmu.arkib.gov.my/index.php/ms/pustaka-ilmu/jendela-sejarah/penubuhan-malaysia-16-september-1963"
+            ],
+            "sourceNotes": [
+              {
+                "url": "https://pustakailmu.arkib.gov.my/index.php/ms/pustaka-ilmu/jendela-sejarah/penubuhan-malaysia-16-september-1963",
+                "supports": "말레이시아 성립 1963-09-16. 당초 예정 8월31일과 구별.",
+                "access": "search-only"
+              }
+            ],
+            "userSelected": true
+          },
+          "geometryVersionId": "state:MYS:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:MYS",
+            "versionId": "state:MYS:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "77169b58676a7475bb73e42edb2cd854415708c6c1f0b4f8850e240916fb0f28",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "MYS",
+              "geometryVersionId": "state:MYS:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "BRN",
+      "path": "assets/data/territorial-entities/source/countries/state-BRN.json",
+      "descriptorSha256": "0113250938e6da4c84341b6c5944161d4d51af06968ae5dd8c31c61e12ef1d8b",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:BRN",
+        "entityKind": "general",
+        "lineageId": "brn",
+        "names": {
+          "ko": "브루나이"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1368",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:BRN:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:BRN:state:BRN:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-3ac0c498c2c746af157127c67869535ce5e70646215669f65ebc84c5380e383c.json",
+              "sha256": "3ac0c498c2c746af157127c67869535ce5e70646215669f65ebc84c5380e383c",
+              "bytes": 26618
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "BRN",
+              "geometrySha256": "f2f3fd67ae28e1f2d7b7c9a302693ae9dfd48c8a358a66ac642f41e4c8ee6ff1",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "BRN",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bn.svg",
+          "representativeGeometryVersionId": "state:BRN:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "BRN",
+          "featureProperties": {
+            "name": "브루나이"
+          },
+          "geometrySha256": "ef14788eb0a4165e4c9e19216ba3de73d6d82f68c6a70d83179d79c92c7f1692",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-REMAINING-20261027",
+            "reportPath": "reports/borders/history/lifetimes/remaining-2026-10-27",
+            "researchedAt": "2026-10-27",
+            "calendar": "proleptic-gregorian",
+            "precision": "year",
+            "criterion": "User-approved Islamic conversion/sultanate benchmark associated with Awang Alak Betatar, Sultan Muhammad Shah, in 1368. This is not a verified first formation year of the earlier Brunei polity. Government accounts also give 1363 for the beginning of the first sultan reign; the user selected 1368 specifically. Later British protection and 1984 full independence do not restart this adopted identity.",
+            "userApproved": true,
+            "sources": [
+              {
+                "url": "https://www.pelitabrunei.gov.bn/Arkib%20Dokumen/2018/Ogos/pelitabrunei_080818.pdf",
+                "title": "Pelita Brunei, 8 August 2018, page 20",
+                "supports": "Associates Awang Alak Betatar conversion to Islam and the fourteenth-century Islamic government with 1368."
+              },
+              {
+                "url": "https://www.pelitabrunei.gov.bn/Arkib%20Dokumen/2016/November/pelitabrunei_161116.pdf",
+                "title": "Pelita Brunei, 16 November 2016",
+                "supports": "Distinguishes 1363 government foundation under Sultan Muhammad Shah from adoption of the Malay Islamic Monarchy framework in 1368."
+              }
+            ]
+          },
+          "geometryVersionId": "state:BRN:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:BRN",
+            "versionId": "state:BRN:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "c3680f0089e48034966e15ba9d9e15bf06b8411991d88356bb13986a1e944a8d",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "BRN",
+              "geometryVersionId": "state:BRN:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "THA",
+      "path": "assets/data/territorial-entities/source/countries/state-THA.json",
+      "descriptorSha256": "43202dc615fd90579ec7beb5fbd84cc2bd9eb3ccb5f0bdadd0ee8b3c40b119c8",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:THA",
+        "entityKind": "general",
+        "lineageId": "tha",
+        "names": {
+          "ko": "태국"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1767",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:THA:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:THA:state:THA:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-167d78088aa4b1efb76ceddaaae82fe4aa057ec897e660c7b2ba73b567abbd85.json",
+              "sha256": "167d78088aa4b1efb76ceddaaae82fe4aa057ec897e660c7b2ba73b567abbd85",
+              "bytes": 456856
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "THA",
+              "geometrySha256": "d0330d6aff42e2a41497d9e554a7de6c49be9bfab122bb064abc6f2888e3fce1",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "THA",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/th.svg",
+          "representativeGeometryVersionId": "state:THA:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "THA",
+          "featureProperties": {
+            "name": "태국"
+          },
+          "geometrySha256": "b49504a0abc764e477a328d787a232c175e6bf0cab45a40a7739921805695efc",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-REMAINING-20261027",
+            "reportPath": "reports/borders/history/lifetimes/remaining-2026-10-27",
+            "researchedAt": "2026-10-27",
+            "calendar": "proleptic-gregorian",
+            "precision": "year",
+            "criterion": "User-approved Thonburi restoration year for the present Thai polity. Exact month/day unresolved; no invented January 1 or commemorative day. Earlier Thai kingdoms are not claimed absent.",
+            "userApproved": true,
+            "sources": [
+              {
+                "url": "https://image.mfa.go.th/mfa/0/jgapjwQOLy/MFA_outreach_%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5-%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2/A_Diplomatic_History_of_Thailand.pdf",
+                "title": "Thailand Ministry of Foreign Affairs: A Diplomatic History of Thailand",
+                "supports": "Thonburi period begins in 1767; year only."
+              }
+            ]
+          },
+          "geometryVersionId": "state:THA:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:THA",
+            "versionId": "state:THA:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "8fdafea565b52fb1ed773ee662c8dd2d4cb5ecf55981f1c7b944f2b30fd8b073",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "THA",
+              "geometryVersionId": "state:THA:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    }
+  ]
+}
