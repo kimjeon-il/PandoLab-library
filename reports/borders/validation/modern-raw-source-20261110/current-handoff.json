@@ -34,5 +34,20 @@
   "remotePush": false,
   "mainMerge": false,
   "deployment": false,
-  "temporaryWorkspace": "Keep approved gis-raw-modern until verified main merge; never automatically delete before integration. Remove temporary owner support when integrating reviewed data pin."
+  "temporaryWorkspace": "Keep approved gis-raw-modern until verified main merge; never automatically delete before integration. Remove temporary owner support when integrating reviewed data pin.",
+  "sourceStorageContract": {
+    "appCommit": "3355bdf91a13f98cd05f2a3203c203b666e4cac8",
+    "tests": "13 source admission checks including actual archived store integration passed; 11 prior codec checks passed",
+    "scope": "single undated modern authoring source only, previously archived input-bound proof; compiled/display guards unchanged",
+    "runtimeApproved": false
+  },
+  "connectedAudit": {
+    "dataCommit": "333101fa0e1e6755ef4c253cd18416b4bdd6e8c5",
+    "files": 12,
+    "readback": true,
+    "count": 111,
+    "groups": 14,
+    "safeClosedGroups": 0
+  },
+  "next": "Reconcile PHL approved Spratly allocation against original raw components; date-bearing and multi-version connected dependencies remain pending."
 }
