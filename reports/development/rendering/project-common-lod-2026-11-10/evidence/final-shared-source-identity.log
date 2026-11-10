@@ -1,0 +1,58 @@
+▶ country-mesh-preparation
+  ✔ prepared country parts keep exact engine output and reuse only unchanged shapes (54.8441ms)
+  ✔ cache budget and cancellation stay bounded between geometry jobs (20.2352ms)
+  ✔ empty country slots retain their ranges and full-world bounds (9.2545ms)
+  ✔ spatial BVH packs large country meshes without boxed intermediate arrays or lost primitives (11.9714ms)
+  ✔ spatial range coalescing retains the exact minimum-gap and earliest-tie semantics (13.2861ms)
+✔ country-mesh-preparation (111.1632ms)
+▶ country-mesh-codec-runtime
+  ✔ the same v2 mesh decoder accepts the current shared fill revision 6 (0.4115ms)
+  ✔ unknown future algorithm revisions fail closed before buffer interpretation (0.2722ms)
+✔ country-mesh-codec-runtime (0.9046ms)
+▶ country-mesh-content-key
+  ✔ P3-2 a structurally identical new country geometry object reuses one content identity (3.5934ms)
+  ✔ P3-2 different coordinates, topology, country ID or ordering never share a canonical key (1.2307ms)
+  ✔ P3-2 live mutable geometry changes never reuse an earlier digest (0.6404ms)
+  ✔ P3-2 superseded canonical fingerprint can never be admitted (0.4551ms)
+  ✔ P3-2 GPU context changes still require upload even if prepared geometry matches (0.7093ms)
+  ✔ verified immutable country geometries reuse their digest while mutable inputs are rechecked (1.7589ms)
+  ✔ immutable digest failures are retried and stale requests cannot admit a key (0.8267ms)
+✔ country-mesh-content-key (9.7855ms)
+▶ country-mesh-quality-gate
+  ✔ preview base queues country patches instead of mixing a canonical override into the frame (0.2619ms)
+  ✔ canonical and non-WebGL renderers install country patches immediately (0.1577ms)
+✔ country-mesh-quality-gate (0.5362ms)
+▶ country-mesh-transfer
+  ✔ presentation transfer preserves doubles, holes, polygon order and IDs without detaching source geometry (0.7083ms)
+  ✔ packing yields within a large ring and stops an obsolete request before dispatch (7.4062ms)
+✔ country-mesh-transfer (8.2422ms)
+▶ country-mesh-zoom-policy
+  ✔ prepared country geometry stays hidden until its background frame is presented (0.1965ms)
+  ✔ scale, selection and focus cannot activate independent preview geometry (0.1677ms)
+  ✔ one surface decision withholds both country and land preview at high scale while precise data is pending (0.0888ms)
+  ✔ a prepared formal surface remains the sole source at low scale (0.0931ms)
+  ✔ selection and missing or invalid derivatives cannot silently admit a simplified surface (0.116ms)
+✔ country-mesh-zoom-policy (0.8554ms)
+▶ country-mesh-zoom-runtime
+  ✔ failed boundary preparation exposes a retry through the real rebuild contract (5.8379ms)
+  ✔ camera scale cannot publish an unprepared source mesh (1.2633ms)
+  ✔ unchanged country geometry skips complete preparation across a project generation (4.7542ms)
+  ✔ non-WebGL dated admission reuses canonical content across new geometry objects (7.3702ms)
+  ✔ an unchanged boundary request shares the current in-flight preparation (1.3524ms)
+  ✔ reusing a completed mesh invalidates an older rebuild delivery token (1.0614ms)
+  ✔ scale changes retain the admitted formal display source (1.4618ms)
+  ✔ project replacement keeps unprepared surfaces pending across projections (0.947ms)
+✔ country-mesh-zoom-runtime (24.4507ms)
+✔ a real accepted map frame settles generation-scoped waiters once (2.0918ms)
+✔ dated frames require source admission, content and matching frame identity (1.3405ms)
+✔ project replacement rejects old waiters and cannot admit superseded work (0.9407ms)
+✔ failed or stale temporal tickets never publish (0.2827ms)
+✔ accepted dated content can prepare its LOD before its completion frame (0.2615ms)
+ℹ tests 36
+ℹ suites 7
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 712.3064

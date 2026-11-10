@@ -1,0 +1,48 @@
+✖ actual LOD Worker retains one full-source topology index while visibility changes (425.9774ms)
+✖ capped LOD failure is an explicit error, never a successful canonical fallback (132.1916ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 697.0714
+
+✖ failing tests:
+
+test at tests\unit\rendering\project-lod-worker.test.mjs:42:1
+✖ actual LOD Worker retains one full-source topology index while visibility changes (425.9774ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - false
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/project-lod-worker.test.mjs:53:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\project-lod-worker.test.mjs:67:1
+✖ capped LOD failure is an explicit error, never a successful canonical fallback (132.1916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/project-lod-worker.test.mjs:72:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

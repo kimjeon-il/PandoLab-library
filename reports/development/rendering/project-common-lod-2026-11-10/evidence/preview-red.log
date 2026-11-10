@@ -1,0 +1,48 @@
+✖ one source build emits only the Viewer runtime shared with Windows reviewer (220.6037ms)
+✔ a stylesheet edit changes the frontend input identity without native compilation or data preparation (109.2282ms)
+✔ clean LF and CRLF checkouts share identical immutable frontend bytes while binary files stay exact (111.4309ms)
+✔ changing project content changes the selected Viewer data closure without changing engine code (64.9996ms)
+✔ a separately selected project owns the complete published map and place resource closure (154.3286ms)
+✔ selected Hydro source version and land/terrain pairing are validated before publication (127.7701ms)
+✔ obsolete prepared meshes are cache misses, not a source change or deployment failure (156.3223ms)
+✔ changing default-world geography, terrain and mesh catalogs requires no Viewer source changes (68.3382ms)
+✖ bundled world manifest admits canonical assets without any preview descriptor (3.8014ms)
+✔ worker manifest validation rejects versioned, tampered and traversal paths (4.2566ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 8
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1555.3691
+
+✖ failing tests:
+
+test at tests\unit\build\frontend-build.test.mjs:9:1
+✖ one source build emits only the Viewer runtime shared with Windows reviewer (220.6037ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/build/frontend-build.test.mjs:26:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\data\world-bundle-runtime.test.mjs:40:1
+✖ bundled world manifest admits canonical assets without any preview descriptor (3.8014ms)
+  Error: 세계지도 정본·생성 정보가 올바르지 않습니다.
+      at validateWorldBundle (file:///D:/dev/worktrees/gis/src/data/world-bundle-manifest.js:31:11)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/data/world-bundle-runtime.test.mjs:46:22)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)

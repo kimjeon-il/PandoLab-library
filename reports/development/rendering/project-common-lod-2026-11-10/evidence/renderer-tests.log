@@ -1,0 +1,96 @@
+▶ canvas-country-geometry
+  ✔ Canvas country data identity ignores presentation wrappers but follows geometry and membership (1.0444ms)
+✔ canvas-country-geometry (2.0486ms)
+▶ canvas-coupled-land
+  ✔ Canvas land uses the admitted physical packet independently from countries (2.4893ms)
+  ✔ Canvas pending surface suppresses regional fills as well as country fills (1.2867ms)
+✔ canvas-coupled-land (4.0422ms)
+▶ canvas-stroke-preparation
+  ✔ Canvas reuses prepared shared coordinates across pan/style paints while projecting each frame (0.6779ms)
+  ✔ Canvas owner selection uses only current ranges and reuses a restored selection (0.3278ms)
+  ✔ Canvas invalidates prepared strokes on changed revision, buffer identity or actual range layout (0.3103ms)
+✔ canvas-stroke-preparation (1.6273ms)
+▶ canvas-globe-viewport
+  ✔ Canvas terrain preserves exact horizon triangles with real globe projection across repeated calls (123.866ms)
+  ✔ zoomed Canvas globe clips projected land and mask paths to the frame without losing viewport crossings (15.1518ms)
+  ✔ Canvas reuses exact projected paths across land, terrain and paint-only frames, and invalidates view or geometry changes (7.0782ms)
+  ✔ Canvas river paints reuse projected segments without changing per-segment widths or water colors (5.2353ms)
+  ✔ cached Canvas paths preserve D3 polygon holes, disjoint islands, globe clipping and point arcs exactly (15.4832ms)
+  ✔ Canvas globe retains strokes whose centers sit outside the viewport but whose ink overlaps its edge (5.0228ms)
+✔ canvas-globe-viewport (172.4041ms)
+▶ canvas-worker-background-admission
+  ✔ a genuine current Canvas Worker bitmap admits an initial canonical country surface even while terrain tiles continue (0.3725ms)
+  ✔ unpainted, wrong-backend and temporal replacements never authorize partial background admission (0.1342ms)
+  ✔ only a bitmap containing current physical land and water may certify a Canvas Worker country frame (0.1882ms)
+  ✔ a submitted physical WebGL base frame publishes countries without certifying unfinished terrain LOD (0.1615ms)
+  ✔ Canvas bitmap picture identity survives only GPU-only frameId churn (0.3323ms)
+  ✔ transport accepts a visually identical older scheduled frame but rejects wrong physical data and rotations (0.9287ms)
+  ✔ Canvas requires admitted physical land and preserves source and water identities (0.2185ms)
+  ✔ background picture identity ignores coordinator churn but rejects changed physical view (0.3074ms)
+✔ canvas-worker-background-admission (3.1202ms)
+▶ canvas-terrain-dem-core
+  ✔ Canvas converts flat plains and plateaus to the selected elevation colors and grayscale (1.6723ms)
+  ✔ Canvas numerical colors ignore former tint pixels (0.334ms)
+  ✔ Canvas uses precomputed shade identically at all latitudes (0.4211ms)
+  ✔ Canvas triangle projection maps every source corner without checkerboard seams (0.2738ms)
+  ✔ flat terrain tiles keep positive dimensions through a dateline-centered camera (0.1623ms)
+  ✔ triangle clips cover shared antialiased edges in either winding without moving texture coordinates (0.2656ms)
+  ✔ Canvas DEM uses the highest complete viewport LOD that fits its decoded 96MiB budget (0.3507ms)
+✔ canvas-terrain-dem-core (3.8125ms)
+▶ country-mesh-preparation
+  ✔ prepared country parts keep exact engine output and reuse only unchanged shapes (56.2669ms)
+  ✔ cache budget and cancellation stay bounded between geometry jobs (20.7256ms)
+  ✔ empty country slots retain their ranges and full-world bounds (8.5709ms)
+  ✔ spatial BVH packs large country meshes without boxed intermediate arrays or lost primitives (12.0459ms)
+  ✔ spatial range coalescing retains the exact minimum-gap and earliest-tie semantics (14.2195ms)
+✔ country-mesh-preparation (113.7785ms)
+▶ country-mesh-codec-runtime
+  ✔ the same v2 mesh decoder accepts the current shared fill revision 6 (0.3771ms)
+  ✔ unknown future algorithm revisions fail closed before buffer interpretation (0.2606ms)
+✔ country-mesh-codec-runtime (0.8467ms)
+▶ country-mesh-content-key
+  ✔ P3-2 a structurally identical new country geometry object reuses one content identity (3.0265ms)
+  ✔ P3-2 different coordinates, topology, country ID or ordering never share a canonical key (1.0094ms)
+  ✔ P3-2 live mutable geometry changes never reuse an earlier digest (0.7142ms)
+  ✔ P3-2 superseded canonical fingerprint can never be admitted (0.5711ms)
+  ✔ P3-2 GPU context changes still require upload even if prepared geometry matches (0.6761ms)
+  ✔ verified immutable country geometries reuse their digest while mutable inputs are rechecked (1.8769ms)
+  ✔ immutable digest failures are retried and stale requests cannot admit a key (0.9495ms)
+✔ country-mesh-content-key (9.5656ms)
+▶ country-mesh-quality-gate
+  ✔ preview base queues country patches instead of mixing a canonical override into the frame (0.3107ms)
+  ✔ canonical and non-WebGL renderers install country patches immediately (0.1559ms)
+✔ country-mesh-quality-gate (0.5963ms)
+▶ country-mesh-transfer
+  ✔ presentation transfer preserves doubles, holes, polygon order and IDs without detaching source geometry (0.8093ms)
+  ✔ packing yields within a large ring and stops an obsolete request before dispatch (5.4382ms)
+✔ country-mesh-transfer (6.3883ms)
+▶ country-mesh-zoom-policy
+  ✔ prepared country geometry stays hidden until its background frame is presented (0.1986ms)
+  ✔ scale, selection and focus cannot activate independent preview geometry (0.1766ms)
+  ✔ one surface decision withholds both country and land preview at high scale while precise data is pending (0.0954ms)
+  ✔ a prepared formal surface remains the sole source at low scale (0.099ms)
+  ✔ selection and missing or invalid derivatives cannot silently admit a simplified surface (0.1241ms)
+✔ country-mesh-zoom-policy (0.9044ms)
+▶ country-mesh-zoom-runtime
+  ✔ failed boundary preparation exposes a retry through the real rebuild contract (6.0266ms)
+  ✔ pending precise resources cannot change the requested CSS scale band (1.3355ms)
+  ✔ unchanged country geometry skips complete preparation across a project generation (4.5447ms)
+  ✔ an unchanged boundary request shares the current in-flight preparation (1.2065ms)
+  ✔ reusing a completed mesh invalidates an older rebuild delivery token (1.4144ms)
+  ✔ focus does not change the formal display source (1.4411ms)
+  ✔ project replacement resets focus while projection retains the formal surface (0.8393ms)
+✔ country-mesh-zoom-runtime (17.1364ms)
+✔ only accepted formal geometry admits map surfaces at every scale (2.3012ms)
+✔ Canvas land source cannot use a separate certified preview before actual land admission (0.2624ms)
+✔ a normal map without a presented background keeps its country surface pending (0.9038ms)
+✔ a restored GPU can redraw the accepted canonical source before the new frame commits (0.1955ms)
+✔ a normal frame with an accepted background still selects canonical quality (0.1349ms)
+ℹ tests 62
+ℹ suites 13
+ℹ pass 62
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 776.8209

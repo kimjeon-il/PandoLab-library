@@ -1,0 +1,23 @@
+▶ physical-layer-service
+  ▶ physical-layer-service
+    ✔ terrain service preserves manifest retry policy and lifecycle callbacks (2.4356ms)
+    ✔ physical terrain controller publishes the selected numerical manifest to the renderer (1.1188ms)
+  ✔ physical-layer-service (4.8247ms)
+  ▶ physical-land-mask
+    ✔ physical mask preserves the pinned terrain source geometry and excludes political metadata (1.6186ms)
+  ✔ physical-land-mask (1.9532ms)
+✔ physical-layer-service (7.5354ms)
+▶ terrain-manifest
+  ✔ strict numerical DEM is the only rendering representation (1.055ms)
+  ✔ a tint-only data release uses the same strict DEM representation contract (0.3723ms)
+  ✔ relative and absolute data URLs resolve from the manifest without coupling DEM to app revision (0.2603ms)
+  ✔ DEM CDN assets use the manifest hash without applying it to unrelated origins (0.2284ms)
+✔ terrain-manifest (2.2552ms)
+ℹ tests 7
+ℹ suites 4
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 357.6613

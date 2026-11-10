@@ -1,0 +1,195 @@
+▶ map-input-controller
+  ✔ project replacement blocks wheel, pinch and an already started drag until released (2.6358ms)
+  ✔ middle button navigates when ordinary navigation is disabled (0.3743ms)
+  ✔ a second touch on an interactive target starts pinch (0.2761ms)
+  ✔ a simple pointer click keeps its original overlay target (0.2092ms)
+  ✔ native browser gestures are prevented only on the map surface (0.2344ms)
+  ✔ pointer capture begins only after navigation crosses the drag threshold (0.241ms)
+  ✔ pointer drag forwards left and upward surface deltas without sign conversion (0.2154ms)
+  ✔ interactive labels do not begin map panning (0.2472ms)
+  ✔ wheel zoom uses the pointer as a stable focal point (0.3094ms)
+  ✔ viewer pinch navigates through the real presentation (2.7686ms)
+✔ map-input-controller (9.1245ms)
+▶ camera-navigation
+  ▶ camera-navigation
+    ✔ continuous zoom can defer Worker settle until the gesture ends (0.7308ms)
+    ✔ world reset restores relative zoom before settling the current view (0.2289ms)
+    ✔ wheel changes camera zoom only for a valid transform (0.8931ms)
+    ✔ pinch changes camera zoom only for a valid transform (0.1896ms)
+    ✔ pinch translation moves the center without changing zoom (0.2334ms)
+    ✔ pointer pan before host readiness moves the camera only for finite movement (0.5116ms)
+    ✔ pointer pan through ready host moves the camera only for finite movement (0.2239ms)
+    ✔ invalid and clamped zoom attempts preserve the camera (0.2051ms)
+    ✔ object focus fits the feature and aligns its geographic anchor (6.855ms)
+    ✔ clamped latitude-only pans preserve the camera in flat and globe views (0.4048ms)
+  ✔ camera-navigation (11.0499ms)
+  ▶ camera-pan
+    ✔ both hosts share globe sensitivity, flat longitude wrapping and latitude clamps (0.1981ms)
+  ✔ camera-pan (0.3529ms)
+✔ camera-navigation (12.1672ms)
+▶ map-layout-metrics
+  ✔ layout snapshot derives stable projection metrics without accessors (0.4774ms)
+  ✔ flat equirectangular anchor center is solved exactly in one step (0.2359ms)
+  ✔ flat anchor keeps periodic longitude and latitude safety bounds (0.1881ms)
+  ✔ render and anchor paths consume cached layout while event paths refresh it (765.3805ms)
+✔ map-layout-metrics (766.4977ms)
+▶ map-interaction-style
+  ✔ interaction style resolves theme accents and derives hover from the effective selection color (0.5548ms)
+  ✔ interaction style keeps custom colors across themes and limits hover fill strength (0.1806ms)
+  ✔ disabled selection outlines leave selection fills intact without disabling hover outlines (0.425ms)
+  ✔ interaction outlines recede together at map minimum zoom without changing normal-scale widths (0.4946ms)
+  ✔ interaction anti-aliasing is explicit style state instead of a DOM lookup (0.4017ms)
+  ✔ hover and selection request union coverage while preserving their ink and anti-aliasing (1.2572ms)
+✔ map-interaction-style (3.7267ms)
+✔ Canvas chooses software backing only when hardware acceleration is unavailable (1.698ms)
+✔ DEM manifest completion schedules visible detail immediately without another view paint (8.6344ms)
+✔ actual country frame paints before optional Canvas DEM, then accepts full detail (160.3444ms)
+✔ replacement numerical DEM invalidates cached substrate while reusing the current camera (172.9429ms)
+✔ Canvas reuses terrain substrate across generations only for the same certified physical source (9.2528ms)
+✔ Canvas prepares numerical tiles without tessellating an uncertified zero-land frame (343.0454ms)
+✔ cooperative globe painting yields, cancels superseded views and publishes only the latest complete bitmap (145.1615ms)
+✔ Canvas globe terrain reuses shared grid vertices while preserving exact triangles (14.149ms)
+✔ Canvas Worker echoes the revisions of the physical packets it actually paints (12.2572ms)
+✔ terrain keeps the physical mask when political objects are hidden or absent at the current time (3.1263ms)
+✔ Canvas terrain skips wholly offscreen triangles while keeping crossing and antialiased edge triangles (1.7525ms)
+✔ Canvas reuses immutable terrain images for repeated projection (99.8402ms)
+✖ Canvas terrain demand ignores country LOD and backing DPR, but follows source DPR (1702.4066ms)
+✔ Canvas retains ready world tiles across zoom thresholds while target detail is pending (296.0561ms)
+✔ temporal Canvas transitions request missing tiles without painting discarded incomplete terrain (1348.9817ms)
+✔ temporal frames without physical land retain the completed terrain for the next frame (146.0471ms)
+✔ physical terrain recomposites cached numerical tiles when the land mask changes (253.005ms)
+✔ Canvas paints prepared physical terrain while country geometry is pending (210.3271ms)
+✔ Canvas terrain acknowledges prepared coverage and its source limit in the actual frame (149.537ms)
+✔ Canvas cannot acknowledge terrain while the selected numerical DEM is pending (0.6375ms)
+✔ Canvas starts terrain requests while the country surface is pending (137.5335ms)
+✔ Canvas keeps world coverage and the physical mask independently of political geometry and visibility (352.5071ms)
+✔ Canvas reuses physical terrain through political changes and invalidates it for camera, physical mask and tile changes (229.3293ms)
+✖ an offscreen cached numerical tile does not redraw the ready viewport terrain (1129.0886ms)
+✔ P7 Canvas resource redraws coalesce and an explicit newer view cancels the obsolete scheduled paint (1.5349ms)
+✔ P7 accepted Canvas style and physical-style messages redraw the current Worker view (1.0259ms)
+✔ failed synchronous Canvas submission does not strand a busy renderer or a pick promise (2.6002ms)
+✔ bitmapless Canvas acknowledgment does not enter picture-admission callback (0.1903ms)
+✔ Canvas send error may retire its worker synchronously without restoring a closed pending frame (0.2292ms)
+✔ project replacement retains a ready worker and rejects old completion without releasing the new frame (0.8663ms)
+✔ canceled same-generation Canvas paint resubmits the newest view after style/physical updates (0.2933ms)
+✔ Canvas owner coalesces busy frames and closes stale bitmaps before notifying the presenter (0.3269ms)
+✔ Canvas owner ignores delayed ready/error and settles picks on termination (0.2788ms)
+✔ unsolicited older-view bitmap does not release another view submission (0.3203ms)
+✔ unsolicited same-view bitmap does not release another view submission (0.1949ms)
+✔ each actual submission gets a distinct completion identity even when its visual frame is reused (7.021ms)
+✔ a matching stale-style completion releases its slot independently of bitmap acceptance (0.3439ms)
+✔ another project generation cannot acknowledge a matching request number (0.2006ms)
+✔ a replacement channel rejects cached old-project views before readiness without poisoning revisions (0.2275ms)
+✔ a replacement channel rejects cached old-project views after readiness without poisoning revisions (0.1256ms)
+✔ termination drops queued views and late completions cannot release a replacement channel (0.1909ms)
+✔ render errors reach the owner and termination clears its outstanding work (0.3208ms)
+✔ native errors reach the owner and termination clears its outstanding work (0.1449ms)
+✔ the real Canvas Worker reuses unchanged projected country geometry across replace-data (531.6315ms)
+✔ real Canvas Worker generation reset retires old physical packets before new land and water (29.2366ms)
+✔ Canvas data acknowledgements identify their project and obsolete data cannot acknowledge a new project (34.7387ms)
+✔ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (24.5972ms)
+✔ a Worker-skipped older view acknowledges completion without rendering a bitmap (24.2045ms)
+✔ the Worker reports direct and spontaneous render failures through its existing error boundary (16.0973ms)
+✔ pick failures reject their own request and keep the Canvas worker alive (0.4256ms)
+✔ rejected unsolicited Canvas paint reports staleness without acknowledging obsolete pixels (0.2438ms)
+✔ only a renderer-authorized current physical background can bypass an older requested view revision (0.2869ms)
+✔ Worker coalesces resource redraw only after a project view has been rendered (38.1892ms)
+✔ new-generation country and resource packets cannot paint a fills-only scene before its view (34.0757ms)
+▶ physical-layer-service
+  ▶ physical-layer-service
+    ✔ terrain service preserves manifest retry policy and lifecycle callbacks (2.0582ms)
+    ✔ physical terrain controller publishes the selected numerical manifest to the renderer (1.2344ms)
+    ✔ physical services skip duplicate loads and report invalid manifests without throwing (0.6411ms)
+    ✔ hydro service waits for renderer worker acceptance (0.3393ms)
+    ✔ invalid numerical DEM fails explicitly without loading another source (0.413ms)
+    ✔ hydro consumers join initial loading through worker readiness without duplicate fetches (4.6523ms)
+    ✔ hydro shared failure clears pending state and permits a later explicit retry (0.6813ms)
+    ✔ hydro admission joins the replacement renderer generation after its old Worker is retired (1.5254ms)
+  ✔ physical-layer-service (13.3328ms)
+  ▶ physical-water-catalog
+    ✔ physical source date lookup has one canonical C++ selector and keeps the catalog immutable (45.2034ms)
+    ✔ physical catalog derives its dates only from independent lake library versions (4.4134ms)
+  ✔ physical-water-catalog (49.873ms)
+  ▶ physical-water-context-p4-5
+    ✔ P4-5 physical context excludes political time but includes all actual land/water identities (0.4195ms)
+    ✔ P4-5 unchanged historical lake versions reuse the exact physical result while other country years change (18.7464ms)
+  ✔ physical-water-context-p4-5 (19.5013ms)
+  ▶ physical-water-admission-race
+    ✔ leaving the historical window during first lake admission cannot overwrite the modern second lake (23.4125ms)
+    ✔ changing only the timeline cursor prevents stale second lake admission before the next frame (5.0563ms)
+  ✔ physical-water-admission-race (29.3155ms)
+  ▶ physical-land-mask
+    ✔ physical mask preserves the pinned terrain source geometry and excludes political metadata (2.1999ms)
+    ✔ physical mask bytes and manifest are identical across gzip host OS headers (1.8583ms)
+  ✔ physical-land-mask (8.0401ms)
+✔ physical-layer-service (120.7824ms)
+▶ terrain-manifest
+  ✔ strict numerical DEM is the only rendering representation (0.6542ms)
+  ✔ a tint-only data release uses the same strict DEM representation contract (0.3241ms)
+  ✔ relative and absolute data URLs resolve from the manifest without coupling DEM to app revision (0.178ms)
+  ✔ DEM CDN assets use the manifest hash without applying it to unrelated origins (0.141ms)
+✔ terrain-manifest (1.4809ms)
+✔ shared admission uses the same visible footprint limit, including explicit overflow (1.5899ms)
+✔ GPU preparation and Canvas plan admit identical tile lists at mixed levels and DPRs (99.2104ms)
+✔ both rendering backends share source-resolution LOD decisions (0.1658ms)
+✖ shared ready draw selection retains numerical coverage until each target is ready (12.3952ms)
+✔ per-backend visibility cache reuses identical views and invalidates changes (13.0687ms)
+✔ flat visible scan matches the exhaustive wrapped predicate with partial edge tiles (2.0076ms)
+ℹ tests 111
+ℹ suites 13
+ℹ pass 108
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7325.2794
+
+✖ failing tests:
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:395:1
+✖ Canvas terrain demand ignores country LOD and backing DPR, but follows source DPR (1702.4066ms)
+  AssertionError [ERR_ASSERTION]: a lower source DPR selects a lower terrain level
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:407:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:615:1
+✖ an offscreen cached numerical tile does not redraw the ready viewport terrain (1129.0886ms)
+  Error: oldest[1].land.close is not a function
+      at send (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:155:46)
+      at Object.render (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:166:22)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:623:46)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\terrain-tile-selection-shared.test.mjs:68:1
+✖ shared ready draw selection retains numerical coverage until each target is ready (12.3952ms)
+  AssertionError [ERR_ASSERTION]: Values have same structure but are not reference-equal:
+  
+  [
+    '0/0-0',
+    '0/1-0',
+    '1/0-0'
+  ]
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/terrain-tile-selection-shared.test.mjs:79:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ '0/0-0', '0/1-0', '1/0-0' ],
+    expected: [ '0/0-0', '0/1-0', '1/0-0' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

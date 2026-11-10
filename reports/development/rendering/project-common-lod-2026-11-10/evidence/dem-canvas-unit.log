@@ -1,0 +1,31 @@
+file:///D:/dev/worktrees/gis/tools/build/load-node-core.mjs:48
+    throw Object.assign(new Error(`Shared C++ core prerequisite failed: ${cause.message}`, { cause }), { code });
+                        ^
+
+Error: Shared C++ core prerequisite failed: Compiled core source identity is stale for this checkout
+    at loadNodeCore (file:///D:/dev/worktrees/gis/tools/build/load-node-core.mjs:48:25)
+    at async file:///D:/dev/worktrees/gis/src/document/temporal.js:8:14 {
+  code: 'PL-CORE-PREREQUISITE-STALE',
+  [cause]: Error: Compiled core source identity is stale for this checkout
+      at loadNodeCore (file:///D:/dev/worktrees/gis/tools/build/load-node-core.mjs:27:27)
+      at async file:///D:/dev/worktrees/gis/src/document/temporal.js:8:14 {
+    code: 'PL-CORE-PREREQUISITE-STALE'
+  }
+}
+
+Node.js v24.21.0
+✖ tests\unit\rendering\canvas-country-geometry.test.mjs (340.09ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 349.2333
+
+✖ failing tests:
+
+test at tests\unit\rendering\canvas-country-geometry.test.mjs:1:1
+✖ tests\unit\rendering\canvas-country-geometry.test.mjs (340.09ms)
+  'test failed'

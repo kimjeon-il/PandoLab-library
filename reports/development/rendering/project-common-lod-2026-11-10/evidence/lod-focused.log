@@ -1,0 +1,33 @@
+✔ initial bounds fit both viewport dimensions including wide desktop and dateline (2.2694ms)
+✔ valid settings preserve future and BCE month ranges and date-line bounds (5.2549ms)
+✔ builtin map setup has exactly one project-shaped source for each month (0.4394ms)
+✔ project reference bounds fit at relative one for both projections and window shapes (2.5803ms)
+✔ camera commands clamp both projections to relative 1..32 and retain fractional zoom (0.5409ms)
+✔ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (1.715ms)
+✔ actual LOD Worker retains one full-source topology index while visibility changes (527.6205ms)
+✔ capped LOD failure is an explicit error, never a successful canonical fallback (132.7768ms)
+✔ sub-decimal distinct source vertices are never conflated into a shared node (22.8088ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (0.9044ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.2204ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (4.7525ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (1.4808ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.2336ms)
+✔ selected source keeps all vertices on its neighbor shared boundary (1.1532ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.5753ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.2552ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (0.8925ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (4.1396ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (1.2842ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.2898ms)
+✔ small island is preserved without rejecting the other country LOD (0.59ms)
+✔ a protected offscreen neighbor constrains the same shared arc (0.7885ms)
+✔ display hierarchy never adds a contact with an isolated island across a concave coast (1.0117ms)
+✔ derived geometry retains explicit original coordinate indices for every displayed ring (1.3082ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 895.3768

@@ -1,0 +1,41 @@
+▶ viewer-initial-composition
+  ✔ composition ends only initial presentation while search hydration is still pending (18.9079ms)
+  ✔ completed loading without a ready renderer frame remains initial (2.4732ms)
+  ✔ each accepted file/date opens one scene and waits once for its committed generation (3.8164ms)
+  ✔ normal year change and later source failure never restore initial mode (2.5676ms)
+  ✔ failed first open and lifecycle retry keep one page-scoped presentation owner (1.837ms)
+  ✔ P2-3 failed search hydration cannot reject an accepted map or reset readiness (12.2931ms)
+✔ viewer-initial-composition (43.6683ms)
+✔ one source build emits only the Viewer runtime shared with Windows reviewer (221.5689ms)
+✔ a stylesheet edit changes the frontend input identity without native compilation or data preparation (120.9404ms)
+✔ clean LF and CRLF checkouts share identical immutable frontend bytes while binary files stay exact (134.5621ms)
+✔ changing project content changes the selected Viewer data closure without changing engine code (77.5212ms)
+✔ a separately selected project owns the complete published map and place resource closure (168.7632ms)
+✔ selected Hydro and numerical terrain contracts are validated before publication (154.7252ms)
+✔ obsolete prepared meshes are cache misses, not a source change or deployment failure (161.8648ms)
+✔ changing default-world geography, terrain and mesh catalogs requires no Viewer source changes (80.8833ms)
+✔ generation input receipts are private source selectors, not Viewer publication data (4.5712ms)
+✔ alternate projects use their own generation inputs and output catalog roles (3.4318ms)
+✔ project Viewer closure excludes private authoring inputs and retains pinned derivative catalogs (3.125ms)
+✔ world generators select the same project source recipe and reject cross-project output aliases (6.0812ms)
+✔ P2 generation graph fingerprints the selected project input mapping and catalog identity (0.5917ms)
+✔ Viewer-only world checks verify pinned bytes without private GIS generation recipes (55.6314ms)
+✔ existing numerical DEM receives local addresses and verified tile receipts without tint copying (24.9408ms)
+✔ country packet generation emits canonical assets without reading or producing preview geometry (8.4484ms)
+✔ selected GIS source prepares its coordinate dependencies without materializing unrelated sources (3.2793ms)
+✔ runtime closure selects current payloads without reading provenance, reports or unused editions (1.2717ms)
+✔ different preparation scopes never reuse a completed view or copy excluded original inputs (116.0497ms)
+✔ runtime closure rejects missing and escaping resources before preparing a view (0.4853ms)
+✔ Viewer preparation uses the same manifest closure and validates stored payload identities (0.5348ms)
+✔ GIS scope identity includes private edits and new outputs and preserves the pinned archive (190.0532ms)
+✔ Hydro byte ranges preserve whole-container identity and reject ranges outside the container (0.9014ms)
+✔ pinned Viewer materialization follows selected project catalog roles without leaking the default place collection (2.4303ms)
+✔ retired world preview assets are not part of the immutable runtime closure (0.291ms)
+ℹ tests 31
+ℹ suites 1
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1808.6048

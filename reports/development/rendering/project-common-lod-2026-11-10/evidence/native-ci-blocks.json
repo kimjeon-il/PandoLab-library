@@ -1,0 +1,12 @@
+{
+  "bypassAttempted": false,
+  "checks": [
+    "polygon-mesh-native",
+    "country-selftest",
+    "tests/unit/document/physical-webp-stream.test.mjs (native-map-image prerequisite)"
+  ],
+  "status": "tool-policy-blocked-not-run",
+  "existingGeometryWasmCi": "https://github.com/kimjeon-il/Pando/actions/runs/42816087700",
+  "reason": "Command blocked by PreToolUse hook: CHECK-BUDGET: whole-suite or broad-scope checks require an exact owner grant. File/scenario-specific checks are allowed.",
+  "appCommit": "1f4adf410fc3878e0efd92b56d54796493fc1e3a"
+}

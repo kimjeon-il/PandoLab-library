@@ -1,0 +1,159 @@
+35:import { validateMapSurfacePreview } from "../document/project-preview-policy.js";
+36:import { inspectTopologyPreviewFeatures } from "../document/project-preview-topology.js";
+120:    getInitialLandPreview,
+122:    prepareCanvasPhysicalPreview,
+265:    // Readiness and displayed quality are independent. Keep one preview and
+267:    let qualityPhase = 'startup-preview';
+268:    let previewAllowed = true;
+269:    let desiredCountryMeshQuality = 'preview';
+271:    let previewSurfaceFeatures = null, previewDisplayCertificate = null, previewCertificateRevision = '';
+272:    const previewLandPackets = new Map();
+283:    let previewActivationCount = 0;
+284:    let previewActivationAfterCanonical = 0;
+309:      if (canonicalMeshReady && previewSurfaceFeatures && previewCertificateRevision !== certificateRevision) {
+310:        previewCertificateRevision = certificateRevision;
+311:        previewLandPackets.clear();
+312:        const { landGeometries, ...certificate } = validateMapSurfacePreview(canonicalCountryFeatures(), previewSurfaceFeatures,
+314:            inspectCandidate: features => inspectTopologyPreviewFeatures(features, { validateGeometry, clipper: globalThis.polygonClipping }),
+316:        previewDisplayCertificate = certificate;
+319:          previewLandPackets.set(packet.sourceKey, Object.freeze({ ...packet, ...geometry,
+320:            key: `${packet.key}:preview:${certificateRevision}`, sourceKey: `${packet.sourceKey}:preview:${certificateRevision}`,
+321:            geometryRevision: certificateRevision, lod: 'preview',
+325:      const verified = previewCertificateRevision === certificateRevision && previewDisplayCertificate?.valid === true;
+326:      if (verified && scaleQuality === 'preview' && isWebGlRenderer())
+327:        for (const packet of previewLandPackets.values()) polygonOverlayPass.ensureResource(packet);
+329:        || [...previewLandPackets.values()].every(packet => polygonOverlayPass.hasPreparedResource(packet)));
+336:        previewReady: previewAllowed && (isWebGlRenderer() ? meshVariants.has('preview') : !!previewSurfaceFeatures?.length),
+337:        previewVerified: landReady,
+374:      return surfacePresentation.quality === 'preview' ? previewSurfaceFeatures || [] : canonicalCountryFeatures();
+379:        : surfacePresentation.geometryQuality === 'preview' ? previewSurfaceFeatures || [] : canonicalCountryFeatures();
+387:      return (renderScene?.polygons || []).map(packet => surfacePresentation.geometryQuality === 'preview'
+388:        ? previewLandPackets.get(packet.sourceKey) || packet : packet);
+394:      return { ...canvasTerrainStats, terrainReady: canvasPreviewAdequate(lastVisualFrame),
+395:        terrainFailed: !!canvasPreviewError,
+396:        terrainResolutionLimited: !!canvasPreviewAtlas && canvasPreviewAtlas.physical.width < 2 * Math.PI * (lastVisualFrame?.cssScale || 1) * Math.min(isMobile() ? 2 : 3, window.devicePixelRatio || 1) * 1.12 };
+445:        band: scaleQuality === 'preview' ? 'low' : 'high' });
+516:      else if (rendererMode === 'canvas2d') { canvasPreviewError = ''; canvasPreviewLoad = null; }
+600:    // IDs changed while the 50m startup preview is painted. They are retained
+617:    let terrainSource = 'raster';
+633:        if (terrainManifest.representation === TERRAIN_DEM_FORMAT) { void fallbackTerrainToRaster(reason); }
+867:      preview: { mesh: null, countryIds: null, revision: '', resource: null },
+874:    let meshQuality = 'preview';
+875:    let activeMeshQuality = 'preview';
+934:    let previewFramePresented = false;
+935:    const previewFrameWaiters = new Set();
+936:    function markPreviewFramePresented() {
+937:      if (surfacePresentation.quality !== 'preview' || previewFramePresented || !previewAllowed || canonicalMeshReady
+939:      previewFramePresented = true;
+940:      for (const resolve of previewFrameWaiters) resolve(true);
+941:      previewFrameWaiters.clear();
+943:    function waitForPreviewFrame() {
+944:      if (surfacePresentation.quality !== 'preview') return Promise.resolve(false);
+945:      if (previewFramePresented) return Promise.resolve(true);
+946:      return new Promise(resolve => previewFrameWaiters.add(resolve));
+1459:        console.warn('DEM shader unavailable; raster terrain will be used', error);
+1551:        : surfacePresentation.quality === 'preview' ? '저배율 표시' : '정밀 경계 준비 중';
+1608:        queueMicrotask(() => { void fallbackTerrainToRaster('DEM 셰이더 정밀도가 부족합니다.'); });
+2219:      previewAllowed = false;
+2366:      const requestedQuality = quality === 'preview' ? 'preview' : quality === 'lod' ? 'lod' : 'canonical';
+2367:      if (requestedQuality === 'preview') {
+2368:        previewActivationCount += 1;
+2369:        if (!previewAllowed) {
+2372:        if (canonicalMeshReady) previewActivationAfterCanonical += 1;
+2404:      const variantQuality = quality === 'preview' ? 'preview' : quality === 'lod' ? 'lod' : 'canonical';
+2405:      if (variantQuality === 'preview' && !previewAllowed) {
+2406:        previewActivationAfterCanonical += 1;
+2673:          else if (entry.quality === 'preview') previewAllowed = false;
+2758:        invalidateGpuFrame('country-patch-preview');
+2788:      invalidateGpuFrame('country-patch-preview');
+2820:      // pending IDs together so a rapid second addition cannot leave a preview.
+2865:      // Retained preview still needs exact override masks. Compacting away the
+2867:      if (previewAllowed && meshVariants.has('preview')) return;
+2903:      if (renderPending) invalidateGpuFrame('country-patch-preview');
+2908:    function invalidateCountryPreview() {
+2909:      previewAllowed = false;
+2910:      previewSurfaceFeatures = null; previewDisplayCertificate = null; previewCertificateRevision = ''; previewLandPackets.clear();
+2917:      sceneColorCache.invalidate('timeline-preview');
+2918:      for (const resolve of previewFrameWaiters) resolve(false);
+2919:      previewFrameWaiters.clear();
+2920:      invalidateGpuFrame('timeline-preview');
+2934:      previewSurfaceFeatures = null; previewDisplayCertificate = null; previewCertificateRevision = ''; previewLandPackets.clear();
+2936:      desiredCountryMeshQuality = 'preview';
+2941:      previewAllowed = false;
+2944:      previewFramePresented = false;
+2945:      for (const resolve of previewFrameWaiters) resolve(false);
+2946:      previewFrameWaiters.clear();
+2989:        qualityPhase = previewAllowed ? 'startup-preview' : 'canonical-loading';
+2990:        activeMeshQuality = previewAllowed ? 'preview' : 'canonical';
+2991:        meshQuality = previewAllowed ? 'preview' : 'canonical';
+3162:          // the retained preview. Fall back to exact display until regenerated.
+3163:          previewAllowed = false;
+4055:        if (dem) void fallbackTerrainToRaster('DEM 셰이더 정밀도가 부족합니다.');
+4536:      if (mesh && baseResult && !baseSubmissionFailed) markPreviewFramePresented();
+4616:    let canvasPreviewAtlas = null;
+4617:    let canvasPreviewLoad = null;
+4618:    let canvasPreviewError = '';
+4619:    function canvasPreviewAdequate(frame) {
+4620:      if (!canvasPreviewAtlas || !frame) return false;
+4622:      return canvasPreviewAtlas.physical.width >= Math.min(needed, canvasPreviewAtlas.maxWidth);
+4624:    async function loadCanvasPreview() {
+4625:      if (canvasPreviewLoad) return canvasPreviewLoad;
+4626:      canvasPreviewLoad = (async () => {
+4668:          canvasPreviewAtlas = { physical, political, maxWidth: manifest.levels.at(-1).width };
+4669:          canvasTerrainStats = { terrainSource: 'dem-preview', terrainDatasetVersion: manifest.version,
+4672:          invalidateGpuFrame('canvas-preview-ready');
+4675:        canvasPreviewError = String(error?.message || error);
+4678:      }).finally(() => { canvasPreviewLoad = null; });
+4679:      return canvasPreviewLoad;
+4681:    function drawCanvasPreview(frame, style, canvasPath) {
+4683:      if (!canvasPreviewAtlas) { void loadCanvasPreview(); return; }
+4684:      if (!canvasPreviewAdequate(frame)) { void loadCanvasPreview(); return; }
+4685:      const image = canvasPreviewAtlas[style];
+4772:      drawCanvasPreview(frame, state.physicalSettings.terrainStyle === 'physical' ? 'physical' : 'political', canvasPath);
+4832:      markPreviewFramePresented();
+4846:      // Recovery and standalone renderer fixtures may omit optional preview
+4851:        preview:typeof getInitialLandPreview === 'function' ? getInitialLandPreview() : null,
+4879:      // source-certified physical preview from being shown.
+5054:      const styleSignature = [physical.ready, physical.preview === true, physical.landRevision, physical.waterRevision,
+5281:        // Show that preview but never certify country geometry, retire document
+5301:          markPreviewFramePresented();
+5424:          if (typeof prepareCanvasPhysicalPreview === 'function') {
+5425:            void Promise.resolve().then(() => prepareCanvasPhysicalPreview()).then(() => {
+5428:              if (!requestPreparedCanvasFrame()) invalidateGpuFrame('canvas-preview-physical-ready');
+5429:            }).catch(error => { console.warn('Canvas physical preview unavailable', error); });
+5587:    async function initialize({ allowPreview = true, preview = null } = {}) {
+5588:      previewSurfaceFeatures = preview?.collection?.features || renderCountryFeatures?.() || [];
+5589:      previewDisplayCertificate = null; previewCertificateRevision = '';
+5591:      if (!allowPreview) {
+5592:        previewAllowed = false;
+5610:          if (!previewAllowed && !meshVariants.has('canonical')) {
+5614:          if ((!previewAllowed || canonicalMeshReady) && meshVariants.has('canonical')) {
+5652:          if (!previewAllowed || canonicalMeshReady) throw new Error('canonical mesh unavailable after startup preview');
+5653:          if (!decoded) decoded = preview?.mesh && preview?.countryIds
+5654:            ? { mesh: preview.mesh, ids: preview.countryIds }
+5657:          setMesh(decoded.mesh, decoded.ids, { quality: 'preview', preserveOtherVariants: false,
+5658:            boundaryCacheKind: preview?.mesh ? 'none' : 'built-in' });
+5659:          meshQuality = 'preview';
+5711:          activate: quality !== 'canonical' || !meshVariants.has('preview'),
+5714:          preserveOtherVariants: quality === 'canonical' && meshVariants.has('preview'),
+5742:        const admitted = meshVariants.get(quality === 'preview' ? 'preview' : 'canonical');
+5885:        ...[...previewLandPackets.values()].map(packet => packet.key),
+5919:        scene.revisions?.editPreview,
+5991:    async function fallbackTerrainToRaster(reason) {
+6000:        if(!response.ok)throw new Error(`Raster terrain HTTP ${response.status}`);
+6010:          console.warn('Raster terrain fallback failed',error);
+6019:      { source = 'raster', fallbackReason = null } = {}) {
+6031:        void fallbackTerrainToRaster('DEM 셰이더 정밀도가 부족합니다.');
+6058:      target.terrainSource = rendererMode === 'canvas-worker' || rendererMode === 'canvas2d' ? 'raster' : terrainSource;
+6096:        scaleBand: scaleQuality === 'preview' ? 'low' : 'high',
+6097:        previewAdmission: 'validated-scale-bound', surfacePresentation, previewDisplayCertificate,
+6106:        previewAllowed,
+6116:        terrainSource: rendererMode === 'canvas-worker' || rendererMode === 'canvas2d' ? 'raster' : terrainSource,
+6141:        scaleBand: scaleQuality === 'preview' ? 'low' : 'high',
+6142:        previewAdmission: 'validated-scale-bound', surfacePresentation, previewDisplayCertificate,
+6157:        terrainSource: rendererMode === 'canvas-worker' || rendererMode === 'canvas2d' ? 'raster' : terrainSource,
+6191:        previewAllowed,
+6192:        previewActivationCount,
+6195:        previewActivationAfterCanonical,
+6347:      finishTemporalViewTransition, loadBuiltinMeshForScene, activateBuiltinMeshBaseline, invalidateCountryPreview,
+6356:      waitForPreviewFrame, waitForTemporalPresentation, waitForMapPresentation,

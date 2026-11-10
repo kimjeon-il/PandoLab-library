@@ -1,0 +1,21 @@
+D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:1467
+  let error = new Error(text);
+              ^
+
+Error: Build failed with 1 error:
+../../../build/cache/pandolab/pnpm/store/v11/links/@/esbuild/0.25.10/f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b/node_modules/esbuild/lib/main.js:1267:27: ERROR: [plugin: viewer-product-closure] Uncatalogued dynamic import in assets/js/workers/canvas-render-core.js: validationUrl.href
+    at failureErrorWithLog (D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:1467:15)
+    at D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:926:25
+    at runOnEndCallbacks (D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:1307:45)
+    at buildResponseToResult (D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:924:7)
+    at D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:951:16
+    at responseCallbacks.<computed> (D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:603:9)
+    at handleIncomingPacket (D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:658:12)
+    at Socket.readFromStdout (D:\build\cache\pandolab\pnpm\store\v11\links\@\esbuild\0.25.10\f1ad122921a354987922b11bbc2f8c2812699fc58201f718f1c12e7e45192c2b\node_modules\esbuild\lib\main.js:581:7)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:568:12) {
+  errors: [Getter/Setter],
+  warnings: [Getter/Setter]
+}
+
+Node.js v24.21.0

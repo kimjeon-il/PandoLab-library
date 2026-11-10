@@ -1,0 +1,11 @@
+
+Running 2 tests using 1 worker
+
+(node:1780) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\rendering\project-common-lod-regions.spec.mjs:107:3 › project-common-lod region DEU webgl2: actual GeoPackage bounds and relative zoom (2.7m)
+  ok 2 tests\browser\rendering\project-common-lod-regions.spec.mjs:107:3 › project-common-lod region KOR webgl2: actual GeoPackage bounds and relative zoom (2.9m)
+
+  Slow test file: tests\browser\rendering\project-common-lod-regions.spec.mjs (5.6m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  2 passed (5.6m)

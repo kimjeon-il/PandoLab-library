@@ -1,0 +1,76 @@
+✔ initial bounds fit both viewport dimensions including wide desktop and dateline (1.4866ms)
+✔ valid settings preserve future and BCE month ranges and date-line bounds (5.7856ms)
+✔ builtin map setup has exactly one project-shaped source for each month (0.4156ms)
+▶ map-input-controller
+  ✔ project replacement blocks wheel, pinch and an already started drag until released (2.6046ms)
+  ✔ middle button navigates when ordinary navigation is disabled (0.4371ms)
+  ✔ a second touch on an interactive target starts pinch (0.2911ms)
+  ✔ a simple pointer click keeps its original overlay target (0.2394ms)
+  ✔ native browser gestures are prevented only on the map surface (0.2797ms)
+  ✔ pointer capture begins only after navigation crosses the drag threshold (0.2382ms)
+  ✔ pointer drag forwards left and upward surface deltas without sign conversion (0.2082ms)
+  ✔ interactive labels do not begin map panning (0.2387ms)
+  ✔ wheel zoom uses the pointer as a stable focal point (0.3125ms)
+  ✔ viewer pinch navigates through the real presentation (2.5363ms)
+✔ map-input-controller (8.9835ms)
+▶ camera-navigation
+  ▶ camera-navigation
+    ✔ continuous zoom can defer Worker settle until the gesture ends (0.5589ms)
+    ✔ world reset cancels an outstanding focus before settling the current view (0.2401ms)
+    ✔ wheel cancels focus only after a valid user camera change (0.7781ms)
+    ✔ pinch cancels focus only after a valid user camera change (0.1379ms)
+    ✔ pinch translation cancels focus without a zoom change (0.1506ms)
+    ✔ pointer pan before host readiness cancels focus only for finite movement (0.3572ms)
+    ✔ pointer pan through ready host cancels focus only for finite movement (0.1693ms)
+    ✔ invalid and clamped zoom attempts preserve the focus session and camera (0.199ms)
+    ✔ object focus internal fitting and anchor alignment preserve their new focus session (0.3552ms)
+    ✔ clamped latitude-only pans preserve focus in flat and globe views (0.279ms)
+  ✔ camera-navigation (3.6246ms)
+  ▶ camera-pan
+    ✔ both hosts share globe sensitivity, flat longitude wrapping and latitude clamps (0.1794ms)
+  ✔ camera-pan (0.2643ms)
+✔ camera-navigation (4.0723ms)
+▶ map-layout-metrics
+  ✔ layout snapshot derives stable projection metrics without accessors (0.5472ms)
+  ✔ flat equirectangular anchor center is solved exactly in one step (0.1574ms)
+  ✔ flat anchor keeps periodic longitude and latitude safety bounds (0.103ms)
+  ✔ render and anchor paths consume cached layout while event paths refresh it (328.4889ms)
+✔ map-layout-metrics (329.5646ms)
+▶ map-interaction-style
+  ✔ interaction style resolves theme accents and derives hover from the effective selection color (0.6627ms)
+  ✔ interaction style keeps custom colors across themes and limits hover fill strength (0.1709ms)
+  ✔ disabled selection outlines leave selection fills intact without disabling hover outlines (0.1933ms)
+  ✔ interaction outlines recede together at map minimum zoom without changing normal-scale widths (0.2788ms)
+  ✔ interaction anti-aliasing is explicit style state instead of a DOM lookup (0.4831ms)
+  ✔ hover and selection request union coverage while preserving their ink and anti-aliasing (0.6532ms)
+✔ map-interaction-style (2.8754ms)
+✔ project reference bounds fit at relative one for both projections and window shapes (1.5099ms)
+✔ world reference flat view fits both axes in a wide window (0.4422ms)
+✔ projection refresh preserves relative zoom and geographic center across date and resize (2.2863ms)
+✔ camera commands clamp both projections to relative 1..32 and retain fractional zoom (0.3805ms)
+✔ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (2.9153ms)
+✔ sub-decimal distinct source vertices are never conflated into a shared node (19.9568ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (0.9599ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.245ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (3.5261ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (3.0114ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.2637ms)
+✔ object selection is outside the LOD contract and cannot restore source detail (1.1364ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.5928ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.3004ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (1.0094ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (1.3099ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (1.3146ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.3227ms)
+✔ small island is preserved without rejecting the other country LOD (0.6501ms)
+✔ a protected offscreen neighbor constrains the same shared arc (0.8831ms)
+✔ display hierarchy never adds a contact with an isolated island across a concave coast (1.1389ms)
+✔ derived geometry retains explicit original coordinate indices for every displayed ring (2.3548ms)
+ℹ tests 56
+ℹ suites 6
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1177.0832

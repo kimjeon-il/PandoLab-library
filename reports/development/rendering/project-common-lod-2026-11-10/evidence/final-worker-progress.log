@@ -1,0 +1,25 @@
+▶ gpu-mesh-transfer
+  ✔ actual mesh Worker transfers every output buffer and detaches its originals (377.5988ms)
+✔ gpu-mesh-transfer (378.8551ms)
+▶ gpu-mesh-worker-jobs
+  ✔ polygon preparation accepts finite progress across a long batch but still times out a stalled batch (4.794ms)
+  ✔ LOD progress extends only advancing work and a stalled phase still times out (1.0703ms)
+  ✔ full rebuild owner settles replaced, stale and disposed requests and preserves payload (1.0798ms)
+  ✔ newer polygon preparation terminates busy refinement and adopts only its reply (1.3204ms)
+  ✔ patch worker owner preserves payload shape and ignores late replies after cancellation (0.578ms)
+✔ gpu-mesh-worker-jobs (9.5036ms)
+▶ screen-lod-worker-transport
+  ✔ screen LOD transfers canonical geometry once, reuses source, and resets after cancellation (1.2366ms)
+  ✔ a stale viewport reply may cache its source but cannot publish its old frame (0.6205ms)
+✔ screen-lod-worker-transport (2.1862ms)
+✔ actual LOD Worker retains one full-source topology index while visibility changes (401.2447ms)
+✔ capped LOD failure is an explicit error, never a successful canonical fallback (115.4167ms)
+✔ physical masks share country topology but never become country mesh slots (333.0017ms)
+ℹ tests 11
+ℹ suites 3
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1000.5455

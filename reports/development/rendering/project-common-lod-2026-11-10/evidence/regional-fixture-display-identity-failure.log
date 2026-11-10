@@ -1,0 +1,90 @@
+
+Running 2 tests using 1 worker
+
+(node:15084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\rendering\project-common-lod-regions.spec.mjs:103:3 › project-common-lod region DEU webgl2: actual GeoPackage bounds and relative zoom (1.5m)
+(node:19172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 tests\browser\rendering\project-common-lod-regions.spec.mjs:103:3 › project-common-lod region KOR webgl2: actual GeoPackage bounds and relative zoom (1.5m)
+
+
+  1) tests\browser\rendering\project-common-lod-regions.spec.mjs:103:3 › project-common-lod region DEU webgl2: actual GeoPackage bounds and relative zoom 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 4
+    + Received  + 0
+
+    @@ -728,14 +728,10 @@
+            "nameDetails": Object {
+              "ko": Object {
+                "common": "독일",
+              },
+            },
+    -       "nameSource": Object {
+    -         "baseName": "",
+    -         "nameExplicit": true,
+    -       },
+            "representativeGeometryReuse": Object {
+              "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+              "displayPeriod": Object {
+                "validFrom": "1871-01-01",
+                "validTo": "1918-11-08",
+
+      137 |           currentGeometryJson: JSON.stringify(viewer.resolvedWorld().entities.find(row => row.id === id)?.geometry) };
+      138 |       }, { id: region.id, geometryId: fixture.geometryId });
+    > 139 |       expect(stored.identity).toEqual(fixture.sourceIdentity);
+          |                               ^
+      140 |       expect(hash(stored.geometryJson)).toBe(packageEvidence.sourceGeometrySha256);
+      141 |       expect(hash(stored.currentGeometryJson)).toBe(packageEvidence.sourceGeometrySha256);
+      142 |       observations.push({ stage: 'opened', ...opened });
+        at D:\dev\worktrees\gis\tests\browser\rendering\project-common-lod-regions.spec.mjs:139:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\project-common-lod-regions\project-common-lod-regions-d9579-ge-bounds-and-relative-zoom\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\project-common-lod-regions\project-common-lod-regions-d9579-ge-bounds-and-relative-zoom\error-context.md
+
+  2) tests\browser\rendering\project-common-lod-regions.spec.mjs:103:3 › project-common-lod region KOR webgl2: actual GeoPackage bounds and relative zoom 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 4
+    + Received  + 0
+
+    @@ -113,14 +113,10 @@
+            "nameDetails": Object {
+              "ko": Object {
+                "common": "대한민국",
+              },
+            },
+    -       "nameSource": Object {
+    -         "baseName": "",
+    -         "nameExplicit": true,
+    -       },
+            "sourceProperties": Object {
+              "metadata": Object {
+                "flagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kr.svg",
+              },
+              "name": "대한민국",
+
+      137 |           currentGeometryJson: JSON.stringify(viewer.resolvedWorld().entities.find(row => row.id === id)?.geometry) };
+      138 |       }, { id: region.id, geometryId: fixture.geometryId });
+    > 139 |       expect(stored.identity).toEqual(fixture.sourceIdentity);
+          |                               ^
+      140 |       expect(hash(stored.geometryJson)).toBe(packageEvidence.sourceGeometrySha256);
+      141 |       expect(hash(stored.currentGeometryJson)).toBe(packageEvidence.sourceGeometrySha256);
+      142 |       observations.push({ stage: 'opened', ...opened });
+        at D:\dev\worktrees\gis\tests\browser\rendering\project-common-lod-regions.spec.mjs:139:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\project-common-lod-regions\project-common-lod-regions-f7ea1-ge-bounds-and-relative-zoom\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\project-common-lod-regions\project-common-lod-regions-f7ea1-ge-bounds-and-relative-zoom\error-context.md
+
+  2 failed
+    tests\browser\rendering\project-common-lod-regions.spec.mjs:103:3 › project-common-lod region DEU webgl2: actual GeoPackage bounds and relative zoom 
+    tests\browser\rendering\project-common-lod-regions.spec.mjs:103:3 › project-common-lod region KOR webgl2: actual GeoPackage bounds and relative zoom 

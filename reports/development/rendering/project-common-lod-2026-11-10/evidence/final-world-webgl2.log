@@ -1,0 +1,40 @@
+
+Running 1 test using 1 worker
+
+(node:12080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\rendering\project-common-lod.spec.mjs:85:3 › project-common-lod world webgl2: accepted meshes, camera, selection and recovery (3.8m)
+
+
+  1) tests\browser\rendering\project-common-lod.spec.mjs:85:3 › project-common-lod world webgl2: accepted meshes, camera, selection and recovery 
+
+    Error: An accepted webgl2 LOD frame must reach the visible map
+
+    An accepted webgl2 LOD frame must reach the visible map
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+    Call Log:
+    - Timeout 90000ms exceeded while waiting on the predicate
+
+      29 |       && !s.screenLodLatest?.fallback && !s.screenLodPreparingKey && !s.screenLodFailure
+      30 |       && (!projection || c?.projection === projection) && (zoom == null || Math.abs(c?.zoom - zoom) < 1e-8));
+    > 31 |   }, { timeout: 90_000, message: `An accepted ${backend} LOD frame must reach the visible map` }).toBe(true);
+         |                                                                                                   ^
+      32 |   return snapshot(page);
+      33 | }
+      34 |
+        at acceptedLod (D:\dev\worktrees\gis\tests\browser\rendering\project-common-lod.spec.mjs:31:99)
+        at D:\dev\worktrees\gis\tests\browser\rendering\project-common-lod.spec.mjs:121:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\project-common-lod\project-common-lod-project-25282-mera-selection-and-recovery\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\project-common-lod\project-common-lod-project-25282-mera-selection-and-recovery\error-context.md
+
+  1 failed
+    tests\browser\rendering\project-common-lod.spec.mjs:85:3 › project-common-lod world webgl2: accepted meshes, camera, selection and recovery 

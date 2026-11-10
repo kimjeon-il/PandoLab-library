@@ -1,0 +1,60 @@
+✖ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (2.3374ms)
+✖ actual LOD Worker retains one full-source topology index while visibility changes (115.3425ms)
+✖ capped LOD failure is an explicit error, never a successful canonical fallback (102.1293ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 395.3724
+
+✖ failing tests:
+
+test at tests\unit\rendering\project-lod-frame.test.mjs:5:1
+✖ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (2.3374ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 300
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/project-lod-frame.test.mjs:10:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 300,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\project-lod-worker.test.mjs:41:1
+✖ actual LOD Worker retains one full-source topology index while visibility changes (115.3425ms)
+  Error: Missing frontend source: assets/js/country-stroke-preparation.js
+      at frontendAsset (file:///D:/dev/worktrees/gis/scripts/lib/frontend-layout.mjs:51:18)
+      at asset (file:///D:/dev/worktrees/gis/tests/helpers/source-worker-transport.mjs:19:25)
+      at Object.sourceUrl (file:///D:/dev/worktrees/gis/tests/helpers/source-worker-transport.mjs:22:51)
+      at importModuleDynamically ([worker eval]:13:62)
+      at importModuleDynamicallyWrapper (node:internal/vm/module:525:21)
+      at importModuleDynamicallyCallback (node:internal/modules/esm/utils:274:14)
+      at https://worker.test/assets/js/workers/gpu-mesh-worker.js?v=project-lod-test&dataRevision=synthetic-lod:23:72
+      at Script.runInThisContext (node:vm:137:12)
+      at Object.runInThisContext (node:vm:317:38)
+      at [worker eval]:12:8
+
+test at tests\unit\rendering\project-lod-worker.test.mjs:66:1
+✖ capped LOD failure is an explicit error, never a successful canonical fallback (102.1293ms)
+  Error: Missing frontend source: assets/js/country-stroke-preparation.js
+      at frontendAsset (file:///D:/dev/worktrees/gis/scripts/lib/frontend-layout.mjs:51:18)
+      at asset (file:///D:/dev/worktrees/gis/tests/helpers/source-worker-transport.mjs:19:25)
+      at Object.sourceUrl (file:///D:/dev/worktrees/gis/tests/helpers/source-worker-transport.mjs:22:51)
+      at importModuleDynamically ([worker eval]:13:62)
+      at importModuleDynamicallyWrapper (node:internal/vm/module:525:21)
+      at importModuleDynamicallyCallback (node:internal/modules/esm/utils:274:14)
+      at https://worker.test/assets/js/workers/gpu-mesh-worker.js?v=project-lod-test&dataRevision=synthetic-lod:23:72
+      at Script.runInThisContext (node:vm:137:12)
+      at Object.runInThisContext (node:vm:317:38)
+      at [worker eval]:12:8

@@ -1,0 +1,45 @@
+✔ sub-decimal distinct source vertices are never conflated into a shared node (16.0278ms)
+✖ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (5.5411ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.4931ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (1.1221ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (0.8096ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.1828ms)
+✔ selected source keeps all vertices on its neighbor shared boundary (0.4607ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.333ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.3609ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (0.5311ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (0.451ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (0.5427ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.2449ms)
+✔ small island is preserved without rejecting the other country LOD (0.3553ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 13
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 157.003
+
+✖ failing tests:
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:30:1
+✖ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (5.5411ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(regional.errorPx > MAX_MAP_GEOMETRY_ERROR_PX)
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:40:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,50 @@
+✔ generation input receipts are private source selectors, not Viewer publication data (3.5115ms)
+✔ alternate projects use their own generation inputs and output catalog roles (2.3095ms)
+✔ project Viewer closure excludes private authoring inputs and retains pinned derivative catalogs (2.1846ms)
+✔ world generators select the same project source recipe and reject cross-project output aliases (2.4059ms)
+✔ P2 generation graph fingerprints the selected project input mapping and catalog identity (1.4508ms)
+✔ Viewer-only world checks verify pinned bytes without private GIS generation recipes (35.8239ms)
+{"code":"DIRTY_APP_CHECKOUT","operation":"reconcile","phase":"deriveAndStore","name":"Error","message":"DIRTY_APP_CHECKOUT","stderr":"","frames":["    at fail (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:22:41)","    at deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:118:69)","    at async Object.deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:55)","    at async reconcileLibraryData (file:///D:/dev/worktrees/gis/scripts/lib/library-auto-publication.mjs:82:4)"]}
+{"code":"HEAD_MOVED","operation":"reconcile","phase":"deriveAndStore","name":"Error","message":"HEAD_MOVED","stderr":"","frames":["    at fail (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:22:41)","    at assertCurrent (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:112:73)","    at deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:125:9)","    at async Object.deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:55)","    at async reconcileLibraryData (file:///D:/dev/worktrees/gis/scripts/lib/library-auto-publication.mjs:82:4)"]}
+{"code":"AUTOMATIC_SYNC_FAILED","operation":"reconcile","phase":"inspect","name":"Error","message":"missing ffffffffffffffffffffffffffffffffffffffff:archive/index.json","stderr":"","frames":["    at git (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:55:56)","    at blob (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:60:22)","    at json (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:61:33)","    at archive (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:63:21)","    at inspect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:76:73)"]}
+{"code":"UNVERIFIED_RUNTIME_EDITS","operation":"reconcile","phase":"deriveAndStore","name":"Error","message":"UNVERIFIED_RUNTIME_EDITS","stderr":"","frames":["    at fail (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:22:41)","    at deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:128:18)","    at async Object.deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:55)","    at async reconcileLibraryData (file:///D:/dev/worktrees/gis/scripts/lib/library-auto-publication.mjs:82:4)"]}
+{"phase":"store-start","inputDataSha":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}
+{"phase":"store-complete","dataSha":"cccccccccccccccccccccccccccccccccccccccc"}
+{"code":"AUTOMATIC_SYNC_FAILED","operation":"reconcile","phase":"connect","name":"Error","message":"pin failed","stderr":"","frames":["    at git (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:55:56)","    at text (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:56:25)","    at connect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:163:3)","    at async Object.connect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:55)","    at async reconcileLibraryData (file:///D:/dev/worktrees/gis/scripts/lib/library-auto-publication.mjs:82:4)"]}
+{"phase":"store-start","inputDataSha":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}
+{"phase":"store-complete","dataSha":"cccccccccccccccccccccccccccccccccccccccc"}
+{"phase":"store-start","inputDataSha":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}
+{"phase":"store-complete","dataSha":"cccccccccccccccccccccccccccccccccccccccc"}
+{"code":"AUTOMATIC_SYNC_FAILED","operation":"reconcile","phase":"connect","name":"Error","message":"pin failed","stderr":"","frames":["    at git (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:55:56)","    at text (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:56:25)","    at connect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:163:3)","    at async Object.connect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:55)","    at async reconcileLibraryData (file:///D:/dev/worktrees/gis/scripts/lib/library-auto-publication.mjs:82:4)"]}
+{"code":"CANDIDATE_OUTPUT_MISMATCH","operation":"reconcile","phase":"deriveAndStore","name":"Error","message":"CANDIDATE_OUTPUT_MISMATCH","stderr":"","frames":["    at fail (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:22:41)","    at compareCandidateOutputs (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:43:116)","    at deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:132:4)","    at async Object.deriveAndStore (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:55)","    at async reconcileLibraryData (file:///D:/dev/worktrees/gis/scripts/lib/library-auto-publication.mjs:82:4)"]}
+{"code":"REQUEST_DATA_HEAD_MOVED","operation":"reconcile","phase":"inspect","name":"Error","message":"REQUEST_DATA_HEAD_MOVED","stderr":"","frames":["    at fail (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:22:41)","    at inspect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:70:85)","    at Object.inspect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:61)","    at runAutomaticSync (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:177:31)"]}
+{"phase":"store-start","inputDataSha":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}
+{"phase":"store-complete","dataSha":"cccccccccccccccccccccccccccccccccccccccc"}
+{"code":"REQUEST_DATA_HEAD_MOVED","operation":"reconcile","phase":"inspect","name":"Error","message":"REQUEST_DATA_HEAD_MOVED","stderr":"","frames":["    at fail (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:22:41)","    at inspect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:70:85)","    at Object.inspect (file:///D:/dev/worktrees/gis/scripts/library-auto-sync.mjs:167:61)"]}
+✔ check mode needs no credentials/network (3.7763ms)
+✔ actual runs require Actions and exact allowlisted SHA branch (0.6566ms)
+✔ main activation is false by default (0.2268ms)
+✔ paired app commit paths reject unrelated files and deletions (0.2813ms)
+✔ candidate whole output comparison rejects missing/additional/tampered output (0.3358ms)
+✔ old unchanged baseline (11.7786ms)
+✔ dirty owned checkout (11.2091ms)
+✔ remote moves before store (15.3608ms)
+✔ unknown runtime edits (8.5944ms)
+✔ store succeeds pin fails (12.5405ms)
+✔ real executor orchestration stores complete data before guarded app connection (13.3201ms)
+✔ fresh job retries pin failure by official full rederivation and reuses durable data SHA (18.4792ms)
+✔ dedicated mutation context rejects foreign repositories, workflows, jobs and branch refs (6.8795ms)
+✔ source-unchanged complete runtime candidate gets independent full regeneration proof and reuses data SHA (11.5749ms)
+✔ source-unchanged runtime candidate differing from official regeneration fails without store or pin (7.4445ms)
+✔ push execution requires exact requested revision and rejects moved data before derivation (6.1331ms)
+✔ exact push request still permits own generated output connection in same execution (11.9057ms)
+✔ request rejects third-party head movement on later inspect, not only startup (6.1542ms)
+✔ failure diagnostics redact credentials and URLs without dumping environment or stdout (0.4758ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 547.0649

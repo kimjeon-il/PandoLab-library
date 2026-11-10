@@ -1,0 +1,94 @@
+▶ map-hover-async-boundary
+  ▶ map-hover-async-boundary
+    ✔ retired country lookup and duplicate hover state are not exposed (1.2467ms)
+    ✔ ground hover uses the same ordered object lookup for a generic feature (1.5004ms)
+    ✔ a delayed geographic lookup cannot enter Core after the project or pointer changes (0.4144ms)
+    ✔ ground hover keeps the 50 ms pick and publishes its hit only after Core acknowledges (0.369ms)
+    ✔ ground cancellation clears an in-flight enter even before the first accepted hover (0.6958ms)
+    ✔ newer ground picks, cancellation, camera and project changes discard delayed display hits (0.8575ms)
+    ✔ ground stale rejections are contained and unexpected picking or Core errors retain diagnostics (1.3922ms)
+    ✔ GPU object hover publishes accepted geometry only after the Core acknowledgement (0.5973ms)
+    ✔ GPU stale leave preserves another hover and uses the original public expected key (0.2637ms)
+    ✔ GPU delayed hover results cannot replace newer display ownership or cross project and movement boundaries (0.3764ms)
+    ✔ GPU obsolete hover failures are contained and unexpected failures reach the operation reporter (0.2732ms)
+    ✔ missing Core hover dependencies fail through the responsible operation and do not publish display ownership (0.27ms)
+    ✔ renderer label enter and guarded leave await the required current Core selection port (2.3014ms)
+    ✔ renderer label hover catches obsolete failures and reports the original unexpected error (1.6647ms)
+  ✔ map-hover-async-boundary (13.9858ms)
+  ▶ map-hover-topology
+    ✔ label hover in the sibling interaction SVG reaches the canonical tooltip and not the ground picker (386.9146ms)
+    ✔ ground hover shares the map owner and uses actual map-local D3 pointer coordinates (265.3207ms)
+    ✔ rebinding and disposing remove the shared-map hover listeners without duplicating picks (269.3115ms)
+    ✔ shared-map mouseleave clears hover without a stale map pick (286.2283ms)
+    ✔ shared hover preserves city labels and cancels stale queued country picks (move=false) (389.8475ms)
+    ✔ shared hover preserves city labels and cancels stale queued country picks (move=true) (257.4727ms)
+    ✔ shared hover preserves label labels and cancels stale queued country picks (move=false) (359.5143ms)
+    ✔ shared hover preserves label labels and cancels stale queued country picks (move=true) (268.3495ms)
+  ✔ map-hover-topology (2484.0477ms)
+✔ map-hover-async-boundary (2498.5693ms)
+▶ app-spatial-canonical-picking
+  ✖ territorial spatial candidates and display follow canonical store hydration (310.121ms)
+✖ app-spatial-canonical-picking (310.9988ms)
+▶ territorial-fill-style
+  ✔ disabled territorial paint reveals the map substrate without changing stored colors (368.2702ms)
+  ✔ country palette and territorial fills can resolve an absent color channel (0.8494ms)
+  ✔ map modes own unpainted land; explicit gray is still object paint (310.2778ms)
+  ✔ children inherit only assigned colors and retain their opacity and blend (281.7236ms)
+  ✔ pending no-terrain country patches use the map substrate without assigning a color (271.319ms)
+  ✔ an independent region uses common object settings without inheriting its parent overrides (363.1754ms)
+  ✔ a direct child inherits the actual parent material, including per-object opacity and blend (254.4052ms)
+  ✔ intrinsic country paint is inherited, explicit edits override it, and clearing restores it (365.0814ms)
+  ✔ unassigned territories and new objects remain unpainted, while historical identities keep their own defaults (268.8377ms)
+✔ territorial-fill-style (2487.5482ms)
+▶ territorial-display-picking
+  ✔ territorial hits use the displayed geometry and withhold pending surfaces (292.2904ms)
+✔ territorial-display-picking (292.6073ms)
+▶ territorial-display-projection
+  ✔ display projection follows canonical identity, metadata and geometry without mutation (238.6253ms)
+✔ territorial-display-projection (238.8887ms)
+▶ territorial-highlight-boundary
+  ✔ child keeps its internal edge while its highlighted country supplies the outer edge (4.9465ms)
+  ✔ partial reversed and subdivided overlaps are removed without losing unrelated edges (0.4463ms)
+  ✔ near-coincident shared lines are suppressed but nearby distinct boundaries remain (0.3767ms)
+  ✔ highlight preparation removes the same parent perimeter for wrapped and continuous dateline coordinates (1.2635ms)
+  ✔ partial overlaps across the dateline leave only two short non-overlapping segments (0.3549ms)
+  ✔ polar and seam closure edges never become selection highlight strokes (3.3307ms)
+✔ territorial-highlight-boundary (11.0119ms)
+▶ land-relations-presentation
+  ✔ dependent geometry planning reads immutable proposal views and preserves the existing split calculation (266.6004ms)
+  ✔ one split candidate cleans authored child appearance and preserves independent viewing through Undo (280.321ms)
+  ✔ reassignment calculates changed distribution references without mutating accepted rows or unrelated entries (1.8472ms)
+✔ land-relations-presentation (549.0529ms)
+ℹ tests 43
+ℹ suites 9
+ℹ pass 42
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4170.7063
+
+✖ failing tests:
+
+test at tests\unit\document\map-hover-async-boundary.test.mjs:428:1
+✖ territorial spatial candidates and display follow canonical store hydration (310.121ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   'A'
+  - ]
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/document/map-hover-async-boundary.test.mjs:456:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Promise.all (index 0)
+      at async Suite.run (node:internal/test_runner/test:1905:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ 'A' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

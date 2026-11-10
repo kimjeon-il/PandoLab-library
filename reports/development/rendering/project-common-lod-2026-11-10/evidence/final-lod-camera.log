@@ -1,0 +1,190 @@
+▶ viewer-initial-presentation
+  ▶ viewer-initial-presentation
+    ✔ first page stays initial until an accepted project has a ready map frame (1.2183ms)
+    ✔ the initial Viewer reveals a committed map while optional DEM is still loading (0.2538ms)
+    ✔ a frame displayed before project acceptance is remembered without accepting an empty substrate (0.1939ms)
+    ✔ accepted frame ends initial mode before search hydration settles (0.2115ms)
+    ✔ failed first request and its rollback stay initial; a retry can complete (0.2153ms)
+    ✔ superseded request and stale generation cannot finish initial mode (0.1755ms)
+    ✔ a newer tracked request invalidates an older handle even before the next open begins (0.1913ms)
+    ✔ losing readiness before acceptance does not count as a successful first presentation (0.1715ms)
+    ✔ year changes, search delays and foreground retries never reset first presentation (0.6295ms)
+    ✔ a new page instance starts initial without resetting the existing page (0.3424ms)
+    ✔ disposal makes late ready signals and late acceptance inert (0.1893ms)
+    ✔ invalid request predicates and generations fail visibly (0.5963ms)
+    ✔ resolution-limited but fully presented country frame ends only the first-page preview (0.1601ms)
+    ✔ resolution-limited frame before acceptance is observed only for its own generation (0.1413ms)
+  ✔ viewer-initial-presentation (6.5719ms)
+  ▶ viewer-post-presentation
+    ✔ post work starts after map open, never owns map readiness and waits only for search hydration (10.0058ms)
+    ✔ old hydration resolution never refreshes a newer project or republishes an old search (1.6868ms)
+    ✔ a failed post-hydration stage reports independently without rejecting the next map (0.625ms)
+    ✔ optional surface and resource work failures are isolated from subsequent search rendering (0.8688ms)
+    ✔ no late refresh or error after disposal or supersession (0.6326ms)
+    ✔ stale caller predicate blocks pending work before any layer mutation (0.4798ms)
+  ✔ viewer-post-presentation (14.8918ms)
+  ▶ viewer-load-status
+    ✔ viewer status stays accessible without covering the displayed map (2.2524ms)
+    ✔ first real map frame publishes once independently of status labels and optional terrain (0.1743ms)
+    ✔ quiet completion preserves accessibility without declaring the renderer ready (3.7161ms)
+  ✔ viewer-load-status (6.436ms)
+✔ viewer-initial-presentation (28.4371ms)
+▶ viewer-projections
+  ✔ viewer enforces its supported projection set (0.7229ms)
+  ✔ viewer atomic camera restore preserves supported projection and geographic center (2.5219ms)
+  ✔ editor enforces its supported projection set (0.1388ms)
+  ✔ editor atomic camera restore preserves supported projection and geographic center (0.5578ms)
+  ✔ globe initial bounds fit across the dateline on desktop and mobile (0.3985ms)
+  ✔ world bounds keep a complete globe and editor bounds keep a flat fit (0.1591ms)
+  ✔ flat review keeps editor projection but never creates edit-draft or save state (0.8579ms)
+✔ viewer-projections (6.3835ms)
+▶ map-input-controller
+  ✔ project replacement blocks wheel, pinch and an already started drag until released (2.8135ms)
+  ✔ middle button navigates when ordinary navigation is disabled (0.322ms)
+  ✔ a second touch on an interactive target starts pinch (0.2498ms)
+  ✔ a simple pointer click keeps its original overlay target (0.198ms)
+  ✔ native browser gestures are prevented only on the map surface (0.2288ms)
+  ✔ pointer capture begins only after navigation crosses the drag threshold (0.2232ms)
+  ✔ pointer drag forwards left and upward surface deltas without sign conversion (0.2099ms)
+  ✔ interactive labels do not begin map panning (0.235ms)
+  ✔ wheel zoom uses the pointer as a stable focal point (0.287ms)
+  ✔ viewer pinch navigates through the real presentation (2.4024ms)
+✔ map-input-controller (8.7542ms)
+▶ camera-navigation
+  ▶ camera-navigation
+    ✔ continuous zoom can defer Worker settle until the gesture ends (0.5483ms)
+    ✔ world reset cancels an outstanding focus before settling the current view (0.2218ms)
+    ✔ wheel cancels focus only after a valid user camera change (0.7575ms)
+    ✔ pinch cancels focus only after a valid user camera change (0.1378ms)
+    ✔ pinch translation cancels focus without a zoom change (0.149ms)
+    ✔ pointer pan before host readiness cancels focus only for finite movement (0.4121ms)
+    ✔ pointer pan through ready host cancels focus only for finite movement (0.2025ms)
+    ✔ invalid and clamped zoom attempts preserve the focus session and camera (0.3606ms)
+    ✔ object focus internal fitting and anchor alignment preserve their new focus session (0.4065ms)
+    ✔ clamped latitude-only pans preserve focus in flat and globe views (0.2333ms)
+  ✔ camera-navigation (3.9412ms)
+  ▶ camera-pan
+    ✔ both hosts share globe sensitivity, flat longitude wrapping and latitude clamps (0.1569ms)
+  ✔ camera-pan (0.2381ms)
+✔ camera-navigation (4.3556ms)
+▶ map-layout-metrics
+  ✔ layout snapshot derives stable projection metrics without accessors (0.554ms)
+  ✔ flat equirectangular anchor center is solved exactly in one step (0.1549ms)
+  ✔ flat anchor keeps periodic longitude and latitude safety bounds (0.1028ms)
+  ✔ render and anchor paths consume cached layout while event paths refresh it (347.742ms)
+✔ map-layout-metrics (348.771ms)
+▶ map-interaction-style
+  ✔ interaction style resolves theme accents and derives hover from the effective selection color (0.5837ms)
+  ✔ interaction style keeps custom colors across themes and limits hover fill strength (0.1796ms)
+  ✔ disabled selection outlines leave selection fills intact without disabling hover outlines (0.1974ms)
+  ✔ interaction outlines recede together at map minimum zoom without changing normal-scale widths (0.2862ms)
+  ✔ interaction anti-aliasing is explicit style state instead of a DOM lookup (0.2964ms)
+  ✔ hover and selection request union coverage while preserving their ink and anti-aliasing (0.6362ms)
+✔ map-interaction-style (2.4358ms)
+✔ project reference bounds fit at relative one for both projections and window shapes (2.3645ms)
+✔ world reference flat view fits both axes in a wide window (0.4418ms)
+✔ projection refresh preserves relative zoom and geographic center across date and resize (2.8474ms)
+✔ camera commands clamp both projections to relative 1..32 and retain fractional zoom (0.4495ms)
+▶ gpu-mesh-transfer
+  ✔ actual mesh Worker transfers every output buffer and detaches its originals (570.6307ms)
+✔ gpu-mesh-transfer (572.1088ms)
+▶ gpu-mesh-worker-jobs
+  ✔ polygon preparation accepts finite progress across a long batch but still times out a stalled batch (4.3489ms)
+  ✔ LOD progress extends only advancing work and a stalled phase still times out (1.0736ms)
+  ✔ full rebuild owner settles replaced, stale and disposed requests and preserves payload (1.6084ms)
+  ✔ newer polygon preparation terminates busy refinement and adopts only its reply (1.356ms)
+  ✔ patch worker owner preserves payload shape and ignores late replies after cancellation (0.5971ms)
+✔ gpu-mesh-worker-jobs (9.6444ms)
+▶ screen-lod-worker-transport
+  ✔ screen LOD transfers canonical geometry once, reuses source, and resets after cancellation (0.9876ms)
+  ✔ a stale viewport reply may cache its source but cannot publish its old frame (0.5029ms)
+✔ screen-lod-worker-transport (1.76ms)
+▶ map-presentation-readiness
+  ✔ publication keys exclude optional terrain completion but include authoritative source and camera (3.2153ms)
+  ✔ only an accepted frame with its own source/camera identity certifies a ready map (0.5212ms)
+  ✔ optional terrain cannot hide an accepted country frame or report false completion (0.3195ms)
+  ✔ a resolution-limited frame is explicitly complete but never claims additional DEM data (0.4188ms)
+✔ map-presentation-readiness (5.9351ms)
+▶ map-visual-frame
+  ✔ globe visual frame derives CSS and GPU values from one immutable snapshot (0.7714ms)
+  ✔ flat visual frame keeps visible wrapped worlds in the shared frame (0.4115ms)
+✔ map-visual-frame (1.4252ms)
+▶ map-visual-order
+  ✔ one policy orders paint, claim, selection and SVG roles without changing overlay object order (1.9419ms)
+  ✔ selection submits the actual strokes in policy order regardless of input channel order (5.3155ms)
+✔ map-visual-order (7.6392ms)
+▶ map-content-presentation
+  ✔ the canonical content owner produces generic fill and boundary packets without modifying model geometry (4.1308ms)
+  ✔ presenting a GPU frame cannot change the scene after that frame was drawn (0.6832ms)
+  ✔ a normal GPU content frame still updates scene domains before drawing (0.2053ms)
+✔ map-content-presentation (5.2911ms)
+▶ map-render-coordinator
+  ✔ a preserved temporal frame holds labels and publishes them with its successful successor (2.2723ms)
+  ✔ temporal publication also holds label-only and selection-only invalidations (1.1086ms)
+  ✔ resource completion can draw the pending temporal frame before publishing deferred labels (0.3722ms)
+  ✔ project preparation invalidated while replacement is blocked is replayed before publication (0.3608ms)
+  ✔ blocked Canvas startup submits only a physical background frame, keeping country presentation deferred (1.1088ms)
+  ✔ generation reset stages one Canvas background frame before the blocked RAF (0.2669ms)
+  ✔ scheduled view and full renders merge into one full frame (0.5204ms)
+  ✔ camera settle refreshes viewport-culled objects once before drawing their land mask (0.3903ms)
+  ✔ selection data and view invalidations use independent render paths (0.2938ms)
+  ✔ domain geometry patches do not rebuild unrelated overlay domains (0.2486ms)
+  ✔ invalid masks throw in strict mode without queuing or widening a frame (0.4465ms)
+  ✔ invalid masks are safely reported in production mode (0.1991ms)
+  ✔ merged work bits never become a project frame without the project trigger (0.292ms)
+  ✔ resize and projection triggers reproject visible domains without becoming project frames (0.3557ms)
+  ✔ selection-only frames do not draw the base scene or rebuild geometry (0.2154ms)
+✔ map-render-coordinator (9.1582ms)
+✔ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (2.9674ms)
+✖ actual LOD Worker retains one full-source topology index while visibility changes (382.7044ms)
+✔ capped LOD failure is an explicit error, never a successful canonical fallback (128.2973ms)
+✔ physical masks share country topology but never become country mesh slots (342.531ms)
+✔ sub-decimal distinct source vertices are never conflated into a shared node (18.9065ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (0.8496ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.2185ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (3.7739ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (1.6227ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.2371ms)
+✔ object selection is outside the LOD contract and cannot restore source detail (1.2149ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.3695ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (4.8111ms)
+✔ polar rings and date-line rings retain source identity at every fractional scale (1.1544ms)
+✔ differently split coincident boundaries are protected without snapping source coordinates (0.8272ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (0.9434ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (1.0731ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (1.4901ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.3063ms)
+✔ small island is preserved without rejecting the other country LOD (0.8204ms)
+✔ a protected offscreen neighbor constrains the same shared arc (1.5154ms)
+✔ display hierarchy never adds a contact with an isolated island across a concave coast (0.8184ms)
+✔ derived geometry retains explicit original coordinate indices for every displayed ring (0.8075ms)
+✔ dense immutable physical rings do not allocate a mutable contraction graph (15.5599ms)
+ℹ tests 123
+ℹ suites 19
+ℹ pass 122
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1582.9544
+
+✖ failing tests:
+
+test at tests\unit\rendering\project-lod-worker.test.mjs:52:1
+✖ actual LOD Worker retains one full-source topology index while visibility changes (382.7044ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 2000002
+  - 3000003
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/project-lod-worker.test.mjs:66:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2000002,
+    expected: 3000003,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

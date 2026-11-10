@@ -1,0 +1,42 @@
+▶ gpu-mesh-transfer
+  ✔ actual mesh Worker transfers every output buffer and detaches its originals (457.2338ms)
+✔ gpu-mesh-transfer (462.604ms)
+▶ gpu-mesh-worker-jobs
+  ✔ polygon preparation accepts finite progress across a long batch but still times out a stalled batch (4.0907ms)
+  ✔ full rebuild owner settles replaced, stale and disposed requests and preserves payload (1.1831ms)
+  ✔ newer polygon preparation terminates busy refinement and adopts only its reply (10.211ms)
+  ✔ patch worker owner preserves payload shape and ignores late replies after cancellation (0.8954ms)
+✔ gpu-mesh-worker-jobs (18.4822ms)
+▶ screen-lod-worker-transport
+  ✔ screen LOD transfers canonical geometry once, reuses source, and resets after cancellation (4.1044ms)
+  ✔ a stale viewport reply may cache its source but cannot publish its old frame (0.6548ms)
+✔ screen-lod-worker-transport (5.008ms)
+✔ actual LOD Worker retains one full-source topology index while visibility changes (549.7867ms)
+✔ capped LOD failure is an explicit error, never a successful canonical fallback (136.6653ms)
+✔ sub-decimal distinct source vertices are never conflated into a shared node (17.7865ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (1.1747ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.2562ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (3.5217ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (1.4847ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.2312ms)
+✔ object selection is outside the LOD contract and cannot restore source detail (1.059ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.6007ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.2715ms)
+✔ polar rings and date-line rings retain source identity at every fractional scale (0.8716ms)
+✔ differently split coincident boundaries are protected without snapping source coordinates (0.8656ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (1.0992ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (1.4833ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (1.4074ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.3041ms)
+✔ small island is preserved without rejecting the other country LOD (0.6273ms)
+✔ a protected offscreen neighbor constrains the same shared arc (0.6506ms)
+✔ display hierarchy never adds a contact with an isolated island across a concave coast (1.0299ms)
+✔ derived geometry retains explicit original coordinate indices for every displayed ring (0.7427ms)
+ℹ tests 28
+ℹ suites 3
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 879.9284

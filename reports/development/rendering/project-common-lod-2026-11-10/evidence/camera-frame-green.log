@@ -1,0 +1,52 @@
+✔ initial bounds fit both viewport dimensions including wide desktop and dateline (1.1891ms)
+✔ valid settings preserve future and BCE month ranges and date-line bounds (6.3103ms)
+✔ builtin map setup has exactly one project-shaped source for each month (0.4177ms)
+✔ project reference bounds fit at relative one for both projections and window shapes (1.533ms)
+✔ world reference flat view fits both axes in a wide window (0.1781ms)
+✔ projection refresh preserves relative zoom and geographic center across date and resize (3.4594ms)
+✔ camera commands clamp both projections to relative 1..32 and retain fractional zoom (0.8779ms)
+▶ map-presentation-readiness
+  ✔ publication keys exclude optional terrain completion but include authoritative source and camera (2.3292ms)
+  ✔ only an accepted frame with its own source/camera identity certifies a ready map (0.5865ms)
+  ✔ optional terrain cannot hide an accepted country frame or report false completion (0.455ms)
+  ✔ a resolution-limited frame is explicitly complete but never claims additional DEM data (0.4336ms)
+✔ map-presentation-readiness (5.3173ms)
+▶ map-visual-frame
+  ✔ globe visual frame derives CSS and GPU values from one immutable snapshot (0.7005ms)
+  ✔ flat visual frame keeps visible wrapped worlds in the shared frame (0.3492ms)
+✔ map-visual-frame (1.2451ms)
+▶ map-visual-order
+  ✔ one policy orders paint, claim, selection and SVG roles without changing overlay object order (0.7932ms)
+  ✔ selection submits the actual strokes in policy order regardless of input channel order (4.3008ms)
+✔ map-visual-order (5.3439ms)
+▶ map-content-presentation
+  ✔ the canonical content owner produces generic fill and boundary packets without modifying model geometry (2.208ms)
+  ✔ presenting a GPU frame cannot change the scene after that frame was drawn (0.7245ms)
+  ✔ a normal GPU content frame still updates scene domains before drawing (0.1884ms)
+✔ map-content-presentation (3.3987ms)
+▶ map-render-coordinator
+  ✔ a preserved temporal frame holds labels and publishes them with its successful successor (1.0867ms)
+  ✔ temporal publication also holds label-only and selection-only invalidations (0.3133ms)
+  ✔ resource completion can draw the pending temporal frame before publishing deferred labels (0.2691ms)
+  ✔ project preparation invalidated while replacement is blocked is replayed before publication (0.3099ms)
+  ✔ blocked Canvas startup submits only a physical background frame, keeping country presentation deferred (0.2891ms)
+  ✔ generation reset stages one Canvas background frame before the blocked RAF (0.193ms)
+  ✔ scheduled view and full renders merge into one full frame (0.4357ms)
+  ✔ camera settle refreshes viewport-culled objects once before drawing their land mask (0.3333ms)
+  ✔ selection data and view invalidations use independent render paths (0.1931ms)
+  ✔ domain geometry patches do not rebuild unrelated overlay domains (0.2254ms)
+  ✔ invalid masks throw in strict mode without queuing or widening a frame (0.3825ms)
+  ✔ invalid masks are safely reported in production mode (0.1592ms)
+  ✔ merged work bits never become a project frame without the project trigger (0.1918ms)
+  ✔ resize and projection triggers reproject visible domains without becoming project frames (0.3102ms)
+  ✔ selection-only frames do not draw the base scene or rebuild geometry (0.1747ms)
+✔ map-render-coordinator (5.4238ms)
+✔ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (4.0098ms)
+ℹ tests 34
+ℹ suites 5
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 501.5621

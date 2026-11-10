@@ -1,0 +1,26 @@
+✔ terrain level assembly ignores source gutters and numeric tiles wrap and clamp edges (2.024ms)
+✔ terrain level assembly rejects missing, duplicate or incorrectly sized tiles (0.6425ms)
+✔ numeric verification checks adjoining, antimeridian and polar gutter pixels (1.5664ms)
+▶ gis-source-launcher
+  ✔ GIS launcher uses an allowlist and dry-run never launches source commands (2.2495ms)
+  ✔ GIS source tools use their canonical Node entrypoints (6.0303ms)
+  ✔ GIS raw subprocess launch requires explicit --execute and keeps forwarded args (0.6628ms)
+  ✔ retired and arbitrary Python entrypoints cannot be dispatched (0.4713ms)
+  ✔ mapped scripts cannot follow linked directories outside an explicit repository root (7.4449ms)
+  ✔ retired terrain preview cannot be dispatched (0.2643ms)
+  ✔ DEM generation requires source-bound native elevation reading, encoding and tint filling (412.1324ms)
+  ✔ tint-only DEM reuse does not require unrelated DEM reader or gutter binaries (198.6015ms)
+  ✔ historical-border dispatches the migrated Node recipe owner without restoring Python (5.4324ms)
+✔ gis-source-launcher (635.122ms)
+▶ gis-source-isolation
+  ✔ retired P1 and P3 workflows cannot be selected instead of the shared Core owner (2.045ms)
+  ✔ unrelated GIS JavaScript edits do not trigger a native or WASM build (0.6558ms)
+✔ gis-source-isolation (2.9162ms)
+ℹ tests 14
+ℹ suites 2
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 797.774

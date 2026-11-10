@@ -1,0 +1,788 @@
+▶ map-input-controller
+  ✔ project replacement blocks wheel, pinch and an already started drag until released (2.4074ms)
+  ✔ middle button navigates when ordinary navigation is disabled (0.3442ms)
+  ✔ a second touch on an interactive target starts pinch (0.2584ms)
+  ✔ a simple pointer click keeps its original overlay target (0.2195ms)
+  ✔ native browser gestures are prevented only on the map surface (0.2427ms)
+  ✔ pointer capture begins only after navigation crosses the drag threshold (0.2334ms)
+  ✔ pointer drag forwards left and upward surface deltas without sign conversion (0.2051ms)
+  ✔ interactive labels do not begin map panning (0.2459ms)
+  ✔ wheel zoom uses the pointer as a stable focal point (0.3196ms)
+  ✔ viewer pinch navigates through the real presentation (2.7094ms)
+✔ map-input-controller (8.7529ms)
+▶ camera-navigation
+  ▶ camera-navigation
+    ✔ continuous zoom can defer Worker settle until the gesture ends (0.6072ms)
+    ✔ world reset restores relative zoom before settling the current view (0.2472ms)
+    ✔ wheel changes camera zoom only for a valid transform (0.8689ms)
+    ✔ pinch changes camera zoom only for a valid transform (0.1774ms)
+    ✔ pinch translation moves the center without changing zoom (0.2335ms)
+    ✔ pointer pan before host readiness moves the camera only for finite movement (0.4457ms)
+    ✔ pointer pan through ready host moves the camera only for finite movement (0.2109ms)
+    ✔ invalid and clamped zoom attempts preserve the camera (0.205ms)
+    ✔ object focus fits the feature and aligns its geographic anchor (0.4036ms)
+    ✖ clamped latitude-only pans preserve the camera in flat and globe views (1.8365ms)
+  ✖ camera-navigation (5.8055ms)
+  ▶ camera-pan
+    ✔ both hosts share globe sensitivity, flat longitude wrapping and latitude clamps (0.1705ms)
+  ✔ camera-pan (0.2636ms)
+✖ camera-navigation (6.2988ms)
+▶ map-layout-metrics
+  ✔ layout snapshot derives stable projection metrics without accessors (0.6463ms)
+  ✔ flat equirectangular anchor center is solved exactly in one step (0.1816ms)
+  ✔ flat anchor keeps periodic longitude and latitude safety bounds (0.1257ms)
+  ✔ render and anchor paths consume cached layout while event paths refresh it (330.2172ms)
+✔ map-layout-metrics (331.4069ms)
+▶ map-interaction-style
+  ✔ interaction style resolves theme accents and derives hover from the effective selection color (0.8169ms)
+  ✔ interaction style keeps custom colors across themes and limits hover fill strength (0.1779ms)
+  ✔ disabled selection outlines leave selection fills intact without disabling hover outlines (0.2083ms)
+  ✔ interaction outlines recede together at map minimum zoom without changing normal-scale widths (0.2928ms)
+  ✔ interaction anti-aliasing is explicit style state instead of a DOM lookup (0.306ms)
+  ✔ hover and selection request union coverage while preserving their ink and anti-aliasing (0.652ms)
+✔ map-interaction-style (2.7135ms)
+✔ project reference bounds fit at relative one for both projections and window shapes (1.8139ms)
+✔ world reference flat view fits both axes in a wide window (0.3516ms)
+✔ projection refresh preserves relative zoom and geographic center across date and resize (2.3981ms)
+✔ camera commands clamp both projections to relative 1..32 and retain fractional zoom (0.4993ms)
+✖ Canvas chooses software backing only when hardware acceleration is unavailable (11.7075ms)
+✖ DEM manifest completion schedules visible detail immediately without another view paint (2.4944ms)
+✖ actual country frame paints before optional Canvas DEM, then accepts full detail (1.2163ms)
+✖ ready DEM tiles reuse a camera-stable raster substrate without repainting globe triangles (2.1195ms)
+✖ Canvas reuses terrain substrate across generations only for the same certified physical source (2.368ms)
+✖ Canvas prepares raster tiles without tessellating an uncertified zero-land frame (0.5982ms)
+✖ cooperative globe painting yields, cancels superseded views and publishes only the latest complete bitmap (0.5312ms)
+✖ Canvas globe terrain reuses shared grid vertices while preserving exact triangles (0.3226ms)
+✖ Canvas Worker echoes the revisions of the physical packets it actually paints (0.5895ms)
+✖ terrain keeps the physical mask when political objects are hidden or absent at the current time (0.557ms)
+✖ Canvas terrain skips wholly offscreen triangles while keeping crossing and antialiased edge triangles (0.4175ms)
+✖ Canvas reuses immutable terrain images for repeated projection (0.3879ms)
+✖ Canvas terrain demand ignores country LOD and backing DPR, but follows source DPR (0.3339ms)
+✖ Canvas retains ready world tiles across zoom thresholds while target detail is pending (0.4062ms)
+✖ temporal Canvas transitions request missing tiles without painting discarded incomplete terrain (0.3504ms)
+✖ temporal frames without physical land retain the completed terrain for the next frame (0.3072ms)
+✖ physical terrain reuses its projected base when only the land mask changes (0.3238ms)
+✖ Canvas paints prepared physical terrain while country geometry is pending (0.372ms)
+✖ Canvas terrain acknowledges prepared coverage and its source limit in the actual frame (0.3479ms)
+✖ Canvas cannot acknowledge raster coverage while requested DEM and tint are pending (0.3705ms)
+✖ Canvas starts terrain requests while the country surface is pending (0.3302ms)
+✖ Canvas keeps world coverage and the physical mask independently of political geometry and visibility (0.5554ms)
+✖ Canvas reuses physical terrain through political changes and invalidates it for camera, physical mask and tile changes (0.3882ms)
+✖ Canvas neighbour prefetch does not redraw the ready viewport terrain (0.3299ms)
+✖ P7 Canvas resource redraws coalesce and an explicit newer view cancels the obsolete scheduled paint (0.8486ms)
+✖ P7 accepted Canvas style and physical-style messages redraw the current Worker view (0.447ms)
+▶ country-mesh-preparation
+  ✔ prepared country parts keep exact engine output and reuse only unchanged shapes (63.2478ms)
+  ✔ cache budget and cancellation stay bounded between geometry jobs (20.4577ms)
+  ✔ empty country slots retain their ranges and full-world bounds (8.5503ms)
+  ✔ spatial BVH packs large country meshes without boxed intermediate arrays or lost primitives (15.4072ms)
+  ✔ spatial range coalescing retains the exact minimum-gap and earliest-tie semantics (18.6101ms)
+✔ country-mesh-preparation (128.136ms)
+▶ country-mesh-codec-runtime
+  ✔ the same v2 mesh decoder accepts the current shared fill revision 6 (0.4157ms)
+  ✔ unknown future algorithm revisions fail closed before buffer interpretation (0.5346ms)
+✔ country-mesh-codec-runtime (1.2018ms)
+▶ country-mesh-content-key
+  ✔ P3-2 a structurally identical new country geometry object reuses one content identity (8.2758ms)
+  ✔ P3-2 different coordinates, topology, country ID or ordering never share a canonical key (4.4951ms)
+  ✔ P3-2 live mutable geometry changes never reuse an earlier digest (0.841ms)
+  ✔ P3-2 superseded canonical fingerprint can never be admitted (0.5787ms)
+  ✔ P3-2 GPU context changes still require upload even if prepared geometry matches (0.7061ms)
+  ✔ verified immutable country geometries reuse their digest while mutable inputs are rechecked (2.4221ms)
+  ✔ immutable digest failures are retried and stale requests cannot admit a key (1.0908ms)
+✔ country-mesh-content-key (19.1807ms)
+▶ country-mesh-quality-gate
+  ✔ preview base queues country patches instead of mixing a canonical override into the frame (0.3567ms)
+  ✔ canonical and non-WebGL renderers install country patches immediately (0.1971ms)
+✔ country-mesh-quality-gate (0.7499ms)
+▶ country-mesh-transfer
+  ✔ presentation transfer preserves doubles, holes, polygon order and IDs without detaching source geometry (1.1415ms)
+  ✔ packing yields within a large ring and stops an obsolete request before dispatch (5.6949ms)
+✔ country-mesh-transfer (7.0312ms)
+▶ country-mesh-zoom-policy
+  ✔ prepared country geometry stays hidden until its background frame is presented (0.2299ms)
+  ✔ scale, selection and focus cannot activate independent preview geometry (0.1871ms)
+  ✔ one surface decision withholds both country and land preview at high scale while precise data is pending (0.1058ms)
+  ✔ a prepared formal surface remains the sole source at low scale (0.0905ms)
+  ✔ selection and missing or invalid derivatives cannot silently admit a simplified surface (0.1274ms)
+✔ country-mesh-zoom-policy (0.9583ms)
+▶ country-mesh-zoom-runtime
+  ✔ failed boundary preparation exposes a retry through the real rebuild contract (9.4793ms)
+  ✔ camera scale cannot publish an unprepared source mesh (2.0985ms)
+  ✔ unchanged country geometry skips complete preparation across a project generation (7.7861ms)
+  ✔ an unchanged boundary request shares the current in-flight preparation (1.8746ms)
+  ✔ reusing a completed mesh invalidates an older rebuild delivery token (1.9004ms)
+  ✔ scale changes retain the admitted formal display source (2.6745ms)
+  ✔ project replacement keeps unprepared surfaces pending across projections (1.7306ms)
+✔ country-mesh-zoom-runtime (28.1158ms)
+✔ only accepted formal geometry admits map surfaces at every scale (0.9024ms)
+✔ Canvas land source requires matching admitted physical revisions (0.2453ms)
+✔ failed synchronous Canvas submission does not strand a busy renderer or a pick promise (2.8268ms)
+✔ bitmapless Canvas acknowledgment does not enter picture-admission callback (0.2694ms)
+✔ Canvas send error may retire its worker synchronously without restoring a closed pending frame (0.246ms)
+✔ project replacement retains a ready worker and rejects old completion without releasing the new frame (0.9527ms)
+✔ canceled same-generation Canvas paint resubmits the newest view after style/physical updates (0.4067ms)
+✔ Canvas owner coalesces busy frames and closes stale bitmaps before notifying the presenter (0.3598ms)
+✔ Canvas owner ignores delayed ready/error and settles picks on termination (0.2897ms)
+✔ unsolicited older-view bitmap does not release another view submission (0.3179ms)
+✔ unsolicited same-view bitmap does not release another view submission (0.1909ms)
+✔ each actual submission gets a distinct completion identity even when its visual frame is reused (0.3221ms)
+✔ a matching stale-style completion releases its slot independently of bitmap acceptance (0.3535ms)
+✔ another project generation cannot acknowledge a matching request number (0.2926ms)
+✔ a replacement channel rejects cached old-project views before readiness without poisoning revisions (0.2727ms)
+✔ a replacement channel rejects cached old-project views after readiness without poisoning revisions (0.1318ms)
+✔ termination drops queued views and late completions cannot release a replacement channel (0.1979ms)
+✔ render errors reach the owner and termination clears its outstanding work (0.3362ms)
+✔ native errors reach the owner and termination clears its outstanding work (0.1688ms)
+✖ the real Canvas Worker reuses unchanged projected country geometry across replace-data (333.1299ms)
+✖ real Canvas Worker generation reset retires old physical packets before new land and water (11.7194ms)
+✖ Canvas data acknowledgements identify their project and obsolete data cannot acknowledge a new project (9.7352ms)
+✖ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (16.4344ms)
+✖ a Worker-skipped older view acknowledges completion without rendering a bitmap (14.5784ms)
+✖ the Worker reports direct and spontaneous render failures through its existing error boundary (18.8534ms)
+✔ pick failures reject their own request and keep the Canvas worker alive (0.4658ms)
+✔ rejected unsolicited Canvas paint reports staleness without acknowledging obsolete pixels (0.3017ms)
+✔ only a renderer-authorized current physical background can bypass an older requested view revision (0.4139ms)
+✖ Worker coalesces resource redraw only after a project view has been rendered (10.6217ms)
+✖ new-generation country and resource packets cannot paint a fills-only scene before its view (11.644ms)
+▶ gpu-country-mesh-variants
+  ▶ gpu-country-mesh-variants
+    ✔ country mesh variants retire replaced resources once and keep the other quality when requested (1.98ms)
+  ✔ gpu-country-mesh-variants (9.4695ms)
+  ▶ gpu-country-patch-presentation
+    ✔ country patch scene is held only for the current staged geometry while terrain is pending (0.5885ms)
+    ✔ country patch preservation rejects stale work and unrelated scene changes (0.3087ms)
+  ✔ gpu-country-patch-presentation (1.1631ms)
+  ▶ gpu-country-culling
+    ✔ country draw culling merges adjacent visible canonical ranges (1.2765ms)
+    ✔ country draw culling keeps date-line bounds visible around a 180 degree center (0.2673ms)
+    ✔ globe culling rejects a country wholly behind the current hemisphere (0.4484ms)
+    ✔ world view and legacy meshes retain one full draw range (0.2277ms)
+    ✔ range merge keeps gaps and combines overlap or adjacency (0.1945ms)
+    ✔ selection range map is materialized from metadata without reading triangle indices (0.3403ms)
+  ✔ gpu-country-culling (3.2691ms)
+✔ gpu-country-mesh-variants (14.6395ms)
+▶ gpu-country-pick-slot-guard
+  ✔ canonical picking eligibility for canonical A,B and active B,A (0.4941ms)
+  ✔ canonical picking eligibility for canonical A,B and active A (0.0839ms)
+  ✔ canonical picking eligibility for canonical A and active A,B (0.1021ms)
+  ✔ canonical picking eligibility for canonical A,B and active A,B (0.1292ms)
+  ✔ pending surfaces cannot allocate a country picking target (0.1902ms)
+✔ gpu-country-pick-slot-guard (1.2457ms)
+✔ a stroke domain retains A while every replacement resource in B is prepared (13.6787ms)
+✔ failed and stale presentation cannot release A or promote a prepared B (0.7805ms)
+✔ an aggregate visibility scope change rejects the old boundary archive while replacement uploads wait (0.5602ms)
+✔ adding a visible object preserves the still-valid old aggregate during its replacement upload (0.3182ms)
+✔ same-key revisions get independent GPU resource identities (0.5073ms)
+✔ deleting a distribution sibling sharing an objectKey removes that exact visual while another upload waits (0.4343ms)
+✔ a superseded ready B cannot replace the current desired C or an A return (0.3238ms)
+✔ independent domains can promote while another retains its old strokes (0.2784ms)
+✔ empty domains, removed objects and disabled strokes do not leave old geometry (0.3033ms)
+✔ a new project can reuse the exact requested resource but cannot display previous project fallback (0.3895ms)
+✔ a failed prepared B draw redraws eligible A before publication and cannot promote B (2.0629ms)
+✔ failure of both B and eligible A is a failed presentation with no promotion (0.6089ms)
+▶ gpu-scene-worker-presentation
+  ✔ failed polygon preparation clears pending identity and retries the current input (2.8422ms)
+  ✔ resource completion classifies country boundaries, scene packets and selection fills (0.3678ms)
+  ✔ Canvas transport retains only the latest queued view after an in-flight completion (1.7895ms)
+  ✔ Canvas picture classifier rejects superseded geometry, style and physical sources (0.3157ms)
+✔ gpu-scene-worker-presentation (6.123ms)
+▶ gpu-scene-presentation-ownership
+  ✔ presentation-only country pass cannot replace scene after GPU draw but retains coverage (1.2451ms)
+  ✔ normal country pass still synchronizes geometry and draws before presenting (0.1682ms)
+✔ gpu-scene-presentation-ownership (1.5392ms)
+✔ unchanged renderer inputs do not rebuild scene packets or resource object indexes (2.6211ms)
+✔ Canvas Worker packets omit equivalent immutable geometry but resend changed identities (0.6201ms)
+✔ GPU upload completion classifies an indexed immutable scene without rescanning packets (0.1559ms)
+✔ Canvas physical packets refresh mutated in-place land when its admitted revision advances (0.4462ms)
+✔ a real accepted map frame settles generation-scoped waiters once (3.3821ms)
+✔ dated frames require source admission, content and matching frame identity (1.5062ms)
+✔ project replacement rejects old waiters and cannot admit superseded work (0.9676ms)
+✔ failed or stale temporal tickets never publish (0.2821ms)
+✔ accepted dated content can prepare its LOD before its completion frame (0.2695ms)
+▶ physical-layer-service
+  ▶ physical-layer-service
+    ✔ terrain service preserves manifest retry policy and lifecycle callbacks (3.5181ms)
+    ✔ physical terrain controller publishes the selected numerical manifest to the renderer (1.5675ms)
+    ✔ physical services skip duplicate loads and report invalid manifests without throwing (0.6745ms)
+    ✔ hydro service waits for renderer worker acceptance (0.5276ms)
+    ✔ invalid numerical DEM fails explicitly without loading another source (0.4218ms)
+    ✔ hydro consumers join initial loading through worker readiness without duplicate fetches (5.809ms)
+    ✔ hydro shared failure clears pending state and permits a later explicit retry (0.539ms)
+    ✔ hydro admission joins the replacement renderer generation after its old Worker is retired (1.5511ms)
+  ✔ physical-layer-service (16.7579ms)
+  ▶ physical-water-catalog
+    ✔ physical source date lookup has one canonical C++ selector and keeps the catalog immutable (22.8056ms)
+    ✔ physical catalog derives its dates only from independent lake library versions (4.9866ms)
+  ✔ physical-water-catalog (28.0717ms)
+  ▶ physical-water-context-p4-5
+    ✔ P4-5 physical context excludes political time but includes all actual land/water identities (0.45ms)
+    ✔ P4-5 unchanged historical lake versions reuse the exact physical result while other country years change (13.6614ms)
+  ✔ physical-water-context-p4-5 (14.4095ms)
+  ▶ physical-water-admission-race
+    ✖ leaving the historical window during first lake admission cannot overwrite the modern second lake (5013.2767ms)
+    ✖ changing only the timeline cursor prevents stale second lake admission before the next frame (5008.0661ms)
+  ✖ physical-water-admission-race (10022.0347ms)
+  ▶ physical-land-mask
+    ✔ physical mask preserves the pinned terrain source geometry and excludes political metadata (1.3701ms)
+    ✔ physical mask bytes and manifest are identical across gzip host OS headers (1.1892ms)
+  ✔ physical-land-mask (2.7069ms)
+✖ physical-layer-service (10084.891ms)
+▶ terrain-manifest
+  ✔ strict numerical DEM is the only rendering representation (0.7223ms)
+  ✔ a tint-only data release uses the same strict DEM representation contract (0.352ms)
+  ✔ relative and absolute data URLs resolve from the manifest without coupling DEM to app revision (0.1836ms)
+  ✔ DEM CDN assets use the manifest hash without applying it to unrelated origins (0.1547ms)
+✔ terrain-manifest (1.5988ms)
+▶ startup-performance
+  ✔ mobile DPR is capped at two while desktop retains the existing cap (0.6724ms)
+  ✔ flat world copies are limited to intervals intersecting the viewport (1.0567ms)
+✔ startup-performance (2.8732ms)
+▶ adaptive-render-quality
+  ✔ device hints choose a conservative initial quality without relying on user agent strings (0.3103ms)
+  ✔ interaction quality keeps canonical geometry while lowering only work budgets (0.301ms)
+  ✔ measured expensive frames downgrade the runtime tier with hysteresis (0.8608ms)
+  ✔ phase changes are explicit and revisioned (0.2901ms)
+  ✔ mobile sharpness uses DPR two at normal tiers while preserving a low-memory tier (0.2584ms)
+✔ adaptive-render-quality (2.4524ms)
+ℹ tests 189
+ℹ suites 29
+ℹ pass 152
+ℹ fail 35
+ℹ cancelled 2
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11525.6928
+
+✖ failing tests:
+
+test at tests\unit\map\map-input-controller.test.mjs:424:1
+✖ clamped latitude-only pans preserve the camera in flat and globe views (1.8365ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      flatCenter: [
+        0,
+        0
+      ],
+      flatZoom: 1.25,
+      globeRotation: [
+  +     0,
+  -     -0,
+        -89,
+        0
+      ],
+      globeZoom: 1.25
+    }
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/map/map-input-controller.test.mjs:431:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { flatZoom: 1.25, globeZoom: 1.25, flatCenter: [ 0, 0 ], globeRotation: [ 0, -89, 0 ] },
+    expected: { flatZoom: 1.25, globeZoom: 1.25, flatCenter: [ 0, 0 ], globeRotation: [ -0, -89, 0 ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:18:1
+✖ Canvas chooses software backing only when hardware acceleration is unavailable (11.7075ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(start>=0&&end>start)
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:22:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:170:1
+✖ DEM manifest completion schedules visible detail immediately without another view paint (2.4944ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:171:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:182:1
+✖ actual country frame paints before optional Canvas DEM, then accepts full detail (1.2163ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:183:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:206:1
+✖ ready DEM tiles reuse a camera-stable raster substrate without repainting globe triangles (2.1195ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:207:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:226:1
+✖ Canvas reuses terrain substrate across generations only for the same certified physical source (2.368ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:227:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:246:1
+✖ Canvas prepares raster tiles without tessellating an uncertified zero-land frame (0.5982ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:247:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:264:1
+✖ cooperative globe painting yields, cancels superseded views and publishes only the latest complete bitmap (0.5312ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:269:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:297:1
+✖ Canvas globe terrain reuses shared grid vertices while preserving exact triangles (0.3226ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:298:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:309:1
+✖ Canvas Worker echoes the revisions of the physical packets it actually paints (0.5895ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:317:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:345:1
+✖ terrain keeps the physical mask when political objects are hidden or absent at the current time (0.557ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:346:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:353:1
+✖ Canvas terrain skips wholly offscreen triangles while keeping crossing and antialiased edge triangles (0.4175ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:354:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:371:1
+✖ Canvas reuses immutable terrain images for repeated projection (0.3879ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:372:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:382:1
+✖ Canvas terrain demand ignores country LOD and backing DPR, but follows source DPR (0.3339ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:383:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:397:1
+✖ Canvas retains ready world tiles across zoom thresholds while target detail is pending (0.4062ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:398:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:423:1
+✖ temporal Canvas transitions request missing tiles without painting discarded incomplete terrain (0.3504ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:424:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:443:1
+✖ temporal frames without physical land retain the completed terrain for the next frame (0.3072ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:444:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:458:1
+✖ physical terrain reuses its projected base when only the land mask changes (0.3238ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:459:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:475:1
+✖ Canvas paints prepared physical terrain while country geometry is pending (0.372ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:476:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:500:1
+✖ Canvas terrain acknowledges prepared coverage and its source limit in the actual frame (0.3479ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:501:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:516:1
+✖ Canvas cannot acknowledge raster coverage while requested DEM and tint are pending (0.3705ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:517:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:524:1
+✖ Canvas starts terrain requests while the country surface is pending (0.3302ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:525:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:539:1
+✖ Canvas keeps world coverage and the physical mask independently of political geometry and visibility (0.5554ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:540:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:575:1
+✖ Canvas reuses physical terrain through political changes and invalidates it for camera, physical mask and tile changes (0.3882ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:576:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:601:1
+✖ Canvas neighbour prefetch does not redraw the ready viewport terrain (0.3299ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:602:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:613:1
+✖ P7 Canvas resource redraws coalesce and an explicit newer view cancels the obsolete scheduled paint (0.8486ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:616:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\canvas-terrain-independence.test.mjs:638:1
+✖ P7 accepted Canvas style and physical-style messages redraw the current Worker view (0.447ms)
+  TypeError: Cannot read properties of undefined (reading 'install')
+      at eval (eval at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:100:3), <anonymous>:7:29)
+      at canvasTerrainRuntime (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:122:37)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/canvas-terrain-independence.test.mjs:641:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:353:1
+✖ the real Canvas Worker reuses unchanged projected country geometry across replace-data (333.1299ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:376:1
+✖ real Canvas Worker generation reset retires old physical packets before new land and water (11.7194ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:420:1
+✖ Canvas data acknowledgements identify their project and obsolete data cannot acknowledge a new project (9.7352ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:430:1
+✖ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (16.4344ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:449:1
+✖ a Worker-skipped older view acknowledges completion without rendering a bitmap (14.5784ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:462:1
+✖ the Worker reports direct and spontaneous render failures through its existing error boundary (18.8534ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:541:1
+✖ Worker coalesces resource redraw only after a project view has been rendered (10.6217ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\gpu-canvas-worker.test.mjs:557:1
+✖ new-generation country and resource packets cannot paint a fills-only scene before its view (11.644ms)
+  evalmachine.<anonymous>:24
+    var import_resource_dependency_policy = require("../runtime/resource-dependency-policy.js");
+                                            ^
+  
+  ReferenceError: require is not defined
+      at evalmachine.<anonymous>:24:43
+      at evalmachine.<anonymous>:26:3
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+      at file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:61
+      at Array.forEach (<anonymous>)
+      at scope.importScripts (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-canvas-worker.test.mjs:327:43)
+      at evalmachine.<anonymous>:3:1
+      at Script.runInContext (node:vm:149:12)
+      at Object.runInContext (node:vm:301:6)
+
+test at tests\unit\rendering\physical-layer-service.test.mjs:378:41
+✖ leaving the historical window during first lake admission cannot overwrite the modern second lake (5013.2767ms)
+  'test timed out after 5000ms'
+
+test at tests\unit\rendering\physical-layer-service.test.mjs:378:41
+✖ changing only the timeline cursor prevents stale second lake admission before the next frame (5008.0661ms)
+  'test timed out after 5000ms'

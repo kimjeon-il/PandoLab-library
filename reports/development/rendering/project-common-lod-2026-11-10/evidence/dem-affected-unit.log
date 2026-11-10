@@ -1,0 +1,118 @@
+file:///D:/dev/worktrees/gis/tests/unit/data/physical-source-project.test.mjs:4
+import {readFileSync} from 'node:fs';
+        ^^^^^^^^^^^^
+
+SyntaxError: Identifier 'readFileSync' has already been declared
+    at compileSourceTextModule (node:internal/modules/esm/utils:319:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:89:18)
+    at #translate (node:internal/modules/esm/loader:438:20)
+    at afterLoad (node:internal/modules/esm/loader:506:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:511:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:564:36)
+    at afterResolve (node:internal/modules/esm/loader:611:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:617:12)
+    at node:internal/modules/esm/loader:636:32
+    at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+
+Node.js v24.21.0
+✖ tests\unit\data\physical-source-project.test.mjs (114.6925ms)
+file:///D:/dev/worktrees/gis/src/rendering/gpu-map-renderer.js:34
+import { resolveMapSurfacePresentation, canAdmitCanvasWorkerPartialBackground, canAdmitWebGlPartialBackground, canvasWorkerFrameMatchesPhysical, canvasWorkerPresentationKey, canvasWorkerBackgroundPresentationKey, selectCanvasPhysicalSource } from "./country-mesh-zoom-policy.js";
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: The requested module './country-mesh-zoom-policy.js' does not provide an export named 'canAdmitCanvasWorkerPartialBackground'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:455:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:553:5)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.21.0
+✖ tests\unit\rendering\canvas-country-geometry.test.mjs (313.116ms)
+▶ physical-layer-service
+  ▶ physical-layer-service
+    ✖ terrain service preserves manifest retry policy and lifecycle callbacks (2.6155ms)
+    ✔ physical services skip duplicate loads and report invalid manifests without throwing (1.3325ms)
+    ✔ hydro service waits for renderer worker acceptance (0.4004ms)
+    ✖ invalid optional DEM manifest falls back to the complete raster source (0.4876ms)
+    ✔ hydro consumers join initial loading through worker readiness without duplicate fetches (13.4861ms)
+    ✔ hydro shared failure clears pending state and permits a later explicit retry (0.6401ms)
+    ✔ hydro admission joins the replacement renderer generation after its old Worker is retired (4.3048ms)
+  ✖ physical-layer-service (25.0546ms)
+  ▶ physical-water-catalog
+    ✔ physical source date lookup has one canonical C++ selector and keeps the catalog immutable (22.1615ms)
+    ✔ physical catalog derives its dates only from independent lake library versions (5.5154ms)
+  ✔ physical-water-catalog (27.9542ms)
+  ▶ physical-water-context-p4-5
+    ✔ P4-5 physical context excludes political time but includes all actual land/water identities (0.6396ms)
+    ✔ P4-5 unchanged historical lake versions reuse the exact physical result while other country years change (19.0478ms)
+  ✔ physical-water-context-p4-5 (20.0081ms)
+  ▶ physical-water-admission-race
+    ✖ leaving the historical window during first lake admission cannot overwrite the modern second lake (5012.9634ms)
+    ✖ changing only the timeline cursor prevents stale second lake admission before the next frame (5003.8475ms)
+  ✖ physical-water-admission-race (10017.2943ms)
+  ▶ physical-land-mask
+    ✔ physical mask preserves the pinned terrain source geometry and excludes political metadata (1.3603ms)
+    ✔ physical mask bytes and manifest are identical across gzip host OS headers (1.0544ms)
+  ✔ physical-land-mask (2.5395ms)
+✖ physical-layer-service (10093.7055ms)
+▶ terrain-manifest
+  ✔ strict numerical DEM is the only rendering representation (0.6566ms)
+  ✔ a tint-only data release uses the same strict DEM representation contract (0.3021ms)
+  ✔ relative and absolute data URLs resolve from the manifest without coupling DEM to app revision (0.1692ms)
+  ✔ DEM CDN assets use the manifest hash without applying it to unrelated origins (0.1382ms)
+✔ terrain-manifest (1.4466ms)
+ℹ tests 21
+ℹ suites 7
+ℹ pass 15
+ℹ fail 4
+ℹ cancelled 2
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10743.274
+
+✖ failing tests:
+
+test at tests\unit\data\physical-source-project.test.mjs:1:1
+✖ tests\unit\data\physical-source-project.test.mjs (114.6925ms)
+  'test failed'
+
+test at tests\unit\rendering\canvas-country-geometry.test.mjs:1:1
+✖ tests\unit\rendering\canvas-country-geometry.test.mjs (313.116ms)
+  'test failed'
+
+test at tests\unit\rendering\physical-layer-service.test.mjs:47:1
+✖ terrain service preserves manifest retry policy and lifecycle callbacks (2.6155ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/physical-layer-service.test.mjs:62:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Promise.all (index 0)
+      at async Suite.run (node:internal/test_runner/test:1905:7)
+      at async Promise.all (index 0)
+      at async Suite.run (node:internal/test_runner/test:1905:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\physical-layer-service.test.mjs:111:1
+✖ invalid optional DEM manifest falls back to the complete raster source (0.4876ms)
+  Error: 지원하지 않는 지형 표현 형식: raster-rgba-v1
+      at validateTerrainManifest (file:///D:/dev/worktrees/gis/src/data/terrain-manifest.js?v=:16:11)
+      at Object.load (file:///D:/dev/worktrees/gis/src/data/physical-layer-service.js:42:20)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/physical-layer-service.test.mjs:126:22)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\rendering\physical-layer-service.test.mjs:346:41
+✖ leaving the historical window during first lake admission cannot overwrite the modern second lake (5012.9634ms)
+  'test timed out after 5000ms'
+
+test at tests\unit\rendering\physical-layer-service.test.mjs:346:41
+✖ changing only the timeline cursor prevents stale second lake admission before the next frame (5003.8475ms)
+  'test timed out after 5000ms'

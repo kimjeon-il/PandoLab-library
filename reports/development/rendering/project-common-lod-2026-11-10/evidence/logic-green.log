@@ -1,0 +1,27 @@
+✔ initial bounds fit both viewport dimensions including wide desktop and dateline (1.7405ms)
+✔ valid settings preserve future and BCE month ranges and date-line bounds (5.2162ms)
+✔ builtin map setup has exactly one project-shaped source for each month (0.5755ms)
+✔ project reference bounds fit at relative one for both projections and window shapes (1.4671ms)
+✔ camera commands clamp both projections to relative 1..32 and retain fractional zoom (0.4848ms)
+✔ sub-decimal distinct source vertices are never conflated into a shared node (16.7625ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (0.9267ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.2271ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (1.3977ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (2.2622ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.3108ms)
+✔ selected source keeps all vertices on its neighbor shared boundary (1.0396ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.4343ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.2959ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (0.7429ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (0.4459ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (0.6754ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.4618ms)
+✔ small island is preserved without rejecting the other country LOD (0.5705ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 398.2384

@@ -1,0 +1,50 @@
+▶ builtin-country-publication
+  ✖ independent finalization requires new bytes and rejects corrupt or unreferenced output (956.4706ms)
+✖ builtin-country-publication (957.6584ms)
+▶ project-opening
+  ✔ common project opening keeps the last request and validates through the readonly Core boundary (562.6022ms)
+✔ project-opening (566.4021ms)
+ℹ tests 2
+ℹ suites 2
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1963.4384
+
+✖ failing tests:
+
+test at tests\unit\data\builtin-country-publication.test.mjs:127:1
+✖ independent finalization requires new bytes and rejects corrupt or unreferenced output (956.4706ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Missing exact country bytes/. Input:
+  
+  'Error: Missing exact descriptor for builtin read index: AUS'
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/data/builtin-country-publication.test.mjs:139:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at node:internal/test_runner/test:1903:71
+      at node:internal/per_context/primordials:504:82
+      at new Promise (<anonymous>)
+      at new SafePromise (node:internal/per_context/primordials:478:3)
+      at node:internal/per_context/primordials:504:9
+      at Array.map (<anonymous>) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Missing exact descriptor for builtin read index: AUS
+        at compileBuiltinReadIndex (file:///D:/dev/worktrees/gis/src/data/builtin-country-files.js:104:87)
+        at Module.finalizeBuiltinWorldFiles (file:///D:/dev/worktrees/gis/tools/data/builtin-country-bytes.mjs:95:18)
+        at file:///D:/dev/worktrees/gis/tests/unit/data/builtin-country-publication.test.mjs:139:32
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/data/builtin-country-publication.test.mjs:139:9)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.start (node:internal/test_runner/test:1262:17)
+        at node:internal/test_runner/test:1903:71,
+    expected: /Missing exact country bytes/,
+    operator: 'throws',
+    diff: 'simple'
+  }

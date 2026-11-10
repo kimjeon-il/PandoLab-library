@@ -1,0 +1,25 @@
+✔ sub-decimal distinct source vertices are never conflated into a shared node (17.2799ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (0.8305ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.2035ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (3.0513ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (1.3629ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.1986ms)
+✔ selected source keeps all vertices on its neighbor shared boundary (1.3543ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.7663ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.325ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (1.2503ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (0.7543ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (1.1831ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.2602ms)
+✔ small island is preserved without rejecting the other country LOD (0.5803ms)
+✔ a protected offscreen neighbor constrains the same shared arc (0.6357ms)
+✔ display hierarchy never adds a contact with an isolated island across a concave coast (0.8084ms)
+✔ derived geometry retains explicit original coordinate indices for every displayed ring (1.1516ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 168.3118

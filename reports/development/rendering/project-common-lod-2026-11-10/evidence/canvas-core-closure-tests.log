@@ -1,0 +1,26 @@
+✔ one source build emits only the Viewer runtime shared with Windows reviewer (392.3142ms)
+✔ a stylesheet edit changes the frontend input identity without native compilation or data preparation (152.9876ms)
+✔ clean LF and CRLF checkouts share identical immutable frontend bytes while binary files stay exact (119.4428ms)
+✔ changing project content changes the selected Viewer data closure without changing engine code (73.7116ms)
+✔ a separately selected project owns the complete published map and place resource closure (172.4775ms)
+✔ selected Hydro and numerical terrain contracts are validated before publication (179.7544ms)
+✔ obsolete prepared meshes are cache misses, not a source change or deployment failure (175.9981ms)
+✔ changing default-world geography, terrain and mesh catalogs requires no Viewer source changes (86.1947ms)
+✔ library preparation can read product dependency metadata without a bundler installation (260.8579ms)
+✔ version checks and staging share the distinction between common viewing and editor assets (0.5572ms)
+✔ viewer closure includes static and query-versioned dynamic imports but excludes editor and repository sources (169.3743ms)
+✔ viewer publication excludes offline reference OCR and AI runtime assets (52.5085ms)
+✔ custom project flag URLs retain access to bundled 4:3 icons (46.2212ms)
+✔ viewer data closure follows current manifest references and excludes source, old versions and orphan assets (70.0369ms)
+✔ viewer closure retains historical physical land and water as required manifest dependencies (53.7123ms)
+✔ viewer closure rejects missing, editor-only and unresolved dynamic dependencies (265.0509ms)
+✔ runtime worker catalog includes classic Worker imports and rejects a missing worker dependency (155.6145ms)
+✔ inline Canvas core keeps its dynamic numerical manifest dependency in the Viewer closure (151.2516ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2711.8733

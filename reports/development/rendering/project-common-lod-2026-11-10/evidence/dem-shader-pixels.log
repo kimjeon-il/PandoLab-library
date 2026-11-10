@@ -1,0 +1,21 @@
+
+Running 14 tests using 1 worker
+
+(node:19024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\rendering\terrain-dem-shader.spec.mjs:94:3 › DEM slope colors match Canvas cell centers in WebGL2 (1.2s)
+  ok  2 tests\browser\rendering\terrain-dem-shader.spec.mjs:109:3 › DEM selected elevation palette and height grayscale in WebGL2 (305ms)
+  ok  3 tests\browser\rendering\terrain-dem-shader.spec.mjs:119:3 › DEM curved slopes remain continuous across cell and half-cell boundaries in WebGL2 (152ms)
+  ok  4 tests\browser\rendering\terrain-dem-shader.spec.mjs:132:3 › DEM flat surfaces preserve selected colors, dark theme and stored shade at all latitudes in WebGL2 (165ms)
+  ok  5 tests\browser\rendering\terrain-dem-shader.spec.mjs:148:3 › DEM constant slopes survive RG carry and one-pixel tile gutters in WebGL2 (185ms)
+  ok  6 tests\browser\rendering\terrain-dem-shader.spec.mjs:159:3 › DEM stored shade remains independent of curved-surface direction and latitude in WebGL2 (146ms)
+  ok  7 tests\browser\rendering\terrain-dem-shader.spec.mjs:173:3 › DEM neighboring tiles agree at edges and four-tile corners in WebGL2 (265ms)
+  ok  8 tests\browser\rendering\terrain-dem-shader.spec.mjs:94:3 › DEM slope colors match Canvas cell centers in WebGL1 (453ms)
+  ok  9 tests\browser\rendering\terrain-dem-shader.spec.mjs:109:3 › DEM selected elevation palette and height grayscale in WebGL1 (314ms)
+  ok 10 tests\browser\rendering\terrain-dem-shader.spec.mjs:119:3 › DEM curved slopes remain continuous across cell and half-cell boundaries in WebGL1 (168ms)
+  ok 11 tests\browser\rendering\terrain-dem-shader.spec.mjs:132:3 › DEM flat surfaces preserve selected colors, dark theme and stored shade at all latitudes in WebGL1 (166ms)
+  ok 12 tests\browser\rendering\terrain-dem-shader.spec.mjs:148:3 › DEM constant slopes survive RG carry and one-pixel tile gutters in WebGL1 (222ms)
+  ok 13 tests\browser\rendering\terrain-dem-shader.spec.mjs:159:3 › DEM stored shade remains independent of curved-surface direction and latitude in WebGL1 (203ms)
+  ok 14 tests\browser\rendering\terrain-dem-shader.spec.mjs:173:3 › DEM neighboring tiles agree at edges and four-tile corners in WebGL1 (315ms)
+
+  14 passed (5.6s)

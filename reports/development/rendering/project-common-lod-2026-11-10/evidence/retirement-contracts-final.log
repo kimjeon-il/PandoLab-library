@@ -1,0 +1,218 @@
+▶ viewer-initial-presentation
+  ▶ viewer-initial-presentation
+    ✔ first page stays initial until an accepted project has a ready map frame (1.1682ms)
+    ✔ the initial Viewer reveals a committed map while optional DEM is still loading (0.241ms)
+    ✔ a frame displayed before project acceptance is remembered without accepting an empty substrate (0.196ms)
+    ✔ accepted frame ends initial mode before search hydration settles (0.2006ms)
+    ✔ failed first request and its rollback stay initial; a retry can complete (0.2139ms)
+    ✔ superseded request and stale generation cannot finish initial mode (0.1695ms)
+    ✔ a newer tracked request invalidates an older handle even before the next open begins (0.1773ms)
+    ✔ losing readiness before acceptance does not count as a successful first presentation (0.2323ms)
+    ✔ year changes, search delays and foreground retries never reset first presentation (0.2451ms)
+    ✔ a new page instance starts initial without resetting the existing page (0.2189ms)
+    ✔ disposal makes late ready signals and late acceptance inert (0.1743ms)
+    ✔ invalid request predicates and generations fail visibly (0.7427ms)
+    ✔ resolution-limited but fully presented country frame ends only the first-page preview (0.3585ms)
+    ✔ resolution-limited frame before acceptance is observed only for its own generation (0.1226ms)
+  ✔ viewer-initial-presentation (6.1415ms)
+  ▶ viewer-post-presentation
+    ✔ post work starts after map open, never owns map readiness and waits only for search hydration (7.5527ms)
+    ✔ old hydration resolution never refreshes a newer project or republishes an old search (5.4516ms)
+    ✔ a failed post-hydration stage reports independently without rejecting the next map (0.9707ms)
+    ✔ optional surface and resource work failures are isolated from subsequent search rendering (1.6706ms)
+    ✔ no late refresh or error after disposal or supersession (1.288ms)
+    ✔ stale caller predicate blocks pending work before any layer mutation (0.5457ms)
+  ✔ viewer-post-presentation (18.0937ms)
+  ▶ viewer-load-status
+    ✔ viewer status stays accessible without covering the displayed map (2.7698ms)
+    ✔ first real map frame publishes once independently of status labels and optional terrain (0.1833ms)
+    ✔ quiet completion preserves accessibility without declaring the renderer ready (0.1993ms)
+  ✔ viewer-load-status (3.3203ms)
+✔ viewer-initial-presentation (28.0604ms)
+▶ viewer-projections
+  ✔ viewer enforces its supported projection set (0.4689ms)
+  ✔ viewer atomic camera restore preserves supported projection and geographic center (1.835ms)
+  ✔ editor enforces its supported projection set (0.1453ms)
+  ✔ editor atomic camera restore preserves supported projection and geographic center (0.4512ms)
+  ✔ globe initial bounds fit across the dateline on desktop and mobile (0.3215ms)
+  ✔ world bounds keep a complete globe and editor bounds keep a flat fit (0.1505ms)
+  ✔ flat review keeps editor projection but never creates edit-draft or save state (0.503ms)
+✔ viewer-projections (4.2594ms)
+✔ build-world-mesh.mjs reads app-root world/build-input.json from cwd . (482.33ms)
+✔ build-world-mesh.mjs reads app-root world/build-input.json from cwd tools (325.7866ms)
+✔ build-world-country-packet.mjs reads app-root world/build-input.json from cwd . (217.8336ms)
+✔ build-world-country-packet.mjs reads app-root world/build-input.json from cwd tools (251.719ms)
+✔ build-world-bundle.mjs reads app-root world/build-input.json from cwd . (353.6601ms)
+✔ build-world-bundle.mjs reads app-root world/build-input.json from cwd tools (295.9757ms)
+✔ build-country-shared-boundaries.mjs reads app-root world/current.json from cwd . (404.7827ms)
+✔ build-country-shared-boundaries.mjs reads app-root world/current.json from cwd tools (278.3915ms)
+✔ country packet generation emits canonical assets without reading or producing preview geometry (8.0355ms)
+▶ builtin-country-publication
+  ✔ full publication emits independent hashed countries, not a recombined transport (2293.1084ms)
+  ✔ partial geometry publication never reads or rewrites unrelated country payloads (2724.3238ms)
+  ✔ name-only publication reads one country and preserves every other descriptor (1161.7094ms)
+  ✔ a no-op name publication emits no country bytes (851.932ms)
+  ✖ independent finalization requires new bytes and rejects corrupt or unreferenced output (807.9454ms)
+  ✔ finalizing a selected publication drops old transport metadata without mutating its baseline (728.1583ms)
+✖ builtin-country-publication (8569.3231ms)
+▶ builtin-country-deployment
+  ✔ Viewer closure selects exactly the referenced independent country files and no transport (92.4467ms)
+  ✔ missing referenced country blocks Web publication rather than falling back to a packed file (0.7807ms)
+  ✔ Viewer closure rejects retired transport, offsets and unsafe country descriptors (1.9538ms)
+✔ builtin-country-deployment (95.6685ms)
+▶ builtin-country-residuals
+  ✔ water preparation cannot migrate or regenerate all builtin countries as a side effect (0.7104ms)
+✔ builtin-country-residuals (0.85ms)
+✔ bundled world manifest admits canonical assets without any preview descriptor (5.5729ms)
+✔ worker manifest validation rejects versioned, tampered and traversal paths (4.1549ms)
+file:///D:/dev/worktrees/gis/tests/helpers/web-oracle.mjs:15
+      throw new Error(`Frozen Web Git blob changed: ${row.path}`);
+            ^
+
+Error: Frozen Web Git blob changed: assets/js/modules/country-default-colors.js
+    at verify (file:///D:/dev/worktrees/gis/tests/helpers/web-oracle.mjs:15:13)
+    at async loadWebOracle (file:///D:/dev/worktrees/gis/tests/helpers/web-oracle.mjs:22:17)
+    at async file:///D:/dev/worktrees/gis/tests/helpers/timeline-project.mjs:14:43
+
+Node.js v24.21.0
+✖ tests\unit\document\map-hover-async-boundary.test.mjs (1041.6884ms)
+✔ stages committed viewer assets while excluding editor and repository source (10670.8368ms)
+✔ final evidence describes the staged files and their current hashes (7464.851ms)
+✔ storage HEAD and a stale publication channel cannot replace the committed data pin (7414.0581ms)
+✔ required Worker cannot publish with a missing WASM pair member (3224.3033ms)
+✔ rejects a modified Web file before creating a site (3398.3989ms)
+✔ stages committed LF bytes from an equivalent Windows CRLF checkout (6921.2293ms)
+✔ stages committed bytes when checkout line endings are mixed (7220.8613ms)
+✔ refuses to stage inside the repository or overwrite a prior artifact (9525.3402ms)
+✔ refuses obsolete prepared polygon manifest before publication, even with optional checks skipped (4255.2019ms)
+✔ refuses obsolete canonical mesh before publication, even with optional checks skipped (7013.4216ms)
+✔ refuses obsolete packet behind current descriptors before publication, even with optional checks skipped (6916.0206ms)
+✔ refuses obsolete descriptors around current packets before publication, even with optional checks skipped (7067.3573ms)
+✔ obsolete optional prepared country scene is a cache miss, not a failed canonical publication (8382.3705ms)
+✔ retired preview descriptors are neither validated nor staged (6880.1869ms)
+▶ project-lifecycle
+  ✔ load/new publish one event, render and autosave after Core replacement and remain clean (1139.0635ms)
+  ✔ failed platform replacement restores the canonical full project and history without success effects (986.7881ms)
+  ✔ new project retains its replacement boundary until the prepared visual swap acknowledges (745.6829ms)
+  ✔ whole Core undo/redo emit one lifecycle sequence and empty history has no effects (664.3945ms)
+  ✔ undo and redo retain the Core saved checkpoint of the complete document (550.0194ms)
+  ✔ invalid file preparation changes no live model, history, generation or platform effects (377.3115ms)
+  ✔ file save owns I/O status and detached Core output without history/render/autosave effects (473.9692ms)
+  ✔ new edits during a held device write stay dirty and duplicate saves do not dispatch (490.9787ms)
+  ✔ unsupported autosaves allow creation without clearing the protected slots; conflicts block creation (1463.2099ms)
+  ✔ createProject exposes selected month first and persists canonical setup without slicing records (441.4632ms)
+  ✔ creation rejects invalid settings without replacing the project; empty source has no content (330.3794ms)
+  ✔ creation period rejects out-of-range navigation and keeps project records intact (389.2376ms)
+✔ project-lifecycle (8055.6846ms)
+▶ project-opening
+  ✖ common project opening keeps the last request and validates through the readonly Core boundary (352.1821ms)
+  ✔ common opening rolls back failed or superseded presentation before accepting another project (322.7081ms)
+✖ project-opening (675.4651ms)
+file:///D:/dev/worktrees/gis/tests/helpers/web-oracle.mjs:15
+      throw new Error(`Frozen Web Git blob changed: ${row.path}`);
+            ^
+
+Error: Frozen Web Git blob changed: assets/js/modules/country-default-colors.js
+    at verify (file:///D:/dev/worktrees/gis/tests/helpers/web-oracle.mjs:15:13)
+    at async loadWebOracle (file:///D:/dev/worktrees/gis/tests/helpers/web-oracle.mjs:22:17)
+    at async file:///D:/dev/worktrees/gis/tests/helpers/timeline-project.mjs:14:43
+
+Node.js v24.21.0
+✖ tests\unit\document\territorial-fill-style.test.mjs (1119.2582ms)
+✔ world bundle identity does not depend on program version (5.6125ms)
+✔ unsafe paths, modified asset bytes and stale canonical sources fail closed (12.4373ms)
+✔ publisher validates source, is idempotent and rejects corrupted immutable copies (113.8735ms)
+▶ gis-source-launcher
+  ✔ GIS launcher uses an allowlist and dry-run never launches source commands (2.4556ms)
+  ✔ GIS source tools use their canonical Node entrypoints (19.0167ms)
+  ✔ GIS raw subprocess launch requires explicit --execute and keeps forwarded args (0.8964ms)
+  ✔ retired and arbitrary Python entrypoints cannot be dispatched (0.5303ms)
+  ✔ mapped scripts cannot follow linked directories outside an explicit repository root (7.8208ms)
+  ✔ retired terrain preview cannot be dispatched (0.2736ms)
+  ✔ DEM generation requires source-bound native elevation reading, encoding and tint filling (900.2227ms)
+  ✔ tint-only DEM reuse does not require unrelated DEM reader or gutter binaries (422.5933ms)
+  ✔ historical-border dispatches the migrated Node recipe owner without restoring Python (6.5534ms)
+✔ gis-source-launcher (1362.2163ms)
+▶ gis-source-isolation
+  ✔ retired P1 and P3 workflows cannot be selected instead of the shared Core owner (2.5833ms)
+  ✔ unrelated GIS JavaScript edits do not trigger a native or WASM build (0.8704ms)
+✔ gis-source-isolation (3.6831ms)
+✔ packed country slots are extracted with exact vertices, indices and owner remapping (2.8014ms)
+✔ scene identity is order independent but includes exact geometry and hierarchy (0.6208ms)
+✔ prepared scene roundtrip retains slot order, binary stroke data and spatial trees (4.8826ms)
+✔ prepared scene rejects spatial/slot corruption and never silently rebuilds it (1.1467ms)
+✔ scene artifact identity rejects empty owners and preserves hierarchy in the key (0.3126ms)
+✔ boundary coordinates and repeated ownership are binary without changing exact native rows (10.2882ms)
+✔ prepared scene fill identity equals canonical mesh content key (816.559ms)
+✔ world manifest and real prepared scene packet accept the same current mesh revision (3.554ms)
+✔ obsolete prepared scene revisions are optional cache misses, but invalid descriptors and mixed payloads fail closed (5.6742ms)
+✔ library preparation can read product dependency metadata without a bundler installation (230.1723ms)
+✔ version checks and staging share the distinction between common viewing and editor assets (0.8399ms)
+✔ viewer closure includes static and query-versioned dynamic imports but excludes editor and repository sources (168.7307ms)
+✔ viewer publication excludes offline reference OCR and AI runtime assets (61.7477ms)
+✔ custom project flag URLs retain access to bundled 4:3 icons (198.4704ms)
+✔ viewer data closure follows current manifest references and excludes source, old versions and orphan assets (98.1696ms)
+✔ viewer closure retains historical physical land and water as required manifest dependencies (135.7645ms)
+✔ viewer closure rejects missing, editor-only and unresolved dynamic dependencies (182.5939ms)
+✔ runtime worker catalog includes classic Worker imports and rejects a missing worker dependency (77.4372ms)
+✔ inline Canvas core keeps its dynamic numerical manifest dependency in the Viewer closure (95.6005ms)
+ℹ tests 114
+ℹ suites 12
+ℹ pass 110
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97866.0361
+
+✖ failing tests:
+
+test at tests\unit\data\builtin-country-publication.test.mjs:127:1
+✖ independent finalization requires new bytes and rejects corrupt or unreferenced output (807.9454ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Missing exact country bytes/. Input:
+  
+  'Error: Missing exact descriptor for builtin read index: AUS'
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/data/builtin-country-publication.test.mjs:131:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Missing exact descriptor for builtin read index: AUS
+        at compileBuiltinReadIndex (file:///D:/dev/worktrees/gis/src/data/builtin-country-files.js:104:87)
+        at Module.finalizeBuiltinWorldFiles (file:///D:/dev/worktrees/gis/tools/data/builtin-country-bytes.mjs:95:18)
+        at file:///D:/dev/worktrees/gis/tests/unit/data/builtin-country-publication.test.mjs:131:32
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/data/builtin-country-publication.test.mjs:131:9)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19),
+    expected: /Missing exact country bytes/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests\unit\document\map-hover-async-boundary.test.mjs:1:1
+✖ tests\unit\document\map-hover-async-boundary.test.mjs (1041.6884ms)
+  'test failed'
+
+test at tests\unit\document\project-lifecycle.test.mjs:160:1
+✖ common project opening keeps the last request and validates through the readonly Core boundary (352.1821ms)
+  TypeError: Project reader must return a project document or accepted source candidate.
+      at Object.prepare (file:///D:/dev/worktrees/gis/src/document/project-open-adapter.js:19:15)
+      at async Object.open (file:///D:/dev/worktrees/gis/src/document/project-domain.js:561:59)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/document/project-lifecycle.test.mjs:171:16)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Promise.all (index 0)
+      at async Suite.run (node:internal/test_runner/test:1905:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\document\territorial-fill-style.test.mjs:1:1
+✖ tests\unit\document\territorial-fill-style.test.mjs (1119.2582ms)
+  'test failed'

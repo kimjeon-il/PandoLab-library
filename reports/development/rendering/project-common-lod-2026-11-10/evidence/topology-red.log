@@ -1,0 +1,80 @@
+✔ sub-decimal distinct source vertices are never conflated into a shared node (16.2412ms)
+✔ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (0.823ms)
+✔ invalid calibration is rejected rather than silently using full source geometry (0.2172ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (1.2516ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (1.8321ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.2301ms)
+✔ selected source keeps all vertices on its neighbor shared boundary (0.5194ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.3149ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.2206ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (0.4902ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (0.4034ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (0.5574ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.2467ms)
+✔ small island is preserved without rejecting the other country LOD (0.3358ms)
+✖ a protected offscreen neighbor constrains the same shared arc (4.7702ms)
+✖ display hierarchy never adds a contact with an isolated island across a concave coast (1.05ms)
+✖ derived geometry retains explicit original coordinate indices for every displayed ring (0.5418ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 14
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 160.5158
+
+✖ failing tests:
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:217:1
+✖ a protected offscreen neighbor constrains the same shared arc (4.7702ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result.features[0].geometry.coordinates[0]
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:222:34)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:227:1
+✖ display hierarchy never adds a contact with an isolated island across a concave coast (1.05ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(ring.some(p=>p[0]===point[0]&&p[1]===point[1]))
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:244:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:249:1
+✖ derived geometry retains explicit original coordinate indices for every displayed ring (0.5418ms)
+  TypeError: Cannot read properties of undefined (reading '0')
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:252:39)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

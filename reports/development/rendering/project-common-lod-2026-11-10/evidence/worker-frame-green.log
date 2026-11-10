@@ -1,0 +1,20 @@
+✔ visual frame carries CSS project scale, relative zoom and common LOD identity independent of DPR (3.9683ms)
+✖ actual LOD Worker retains one full-source topology index while visibility changes (479.0695ms)
+✔ capped LOD failure is an explicit error, never a successful canonical fallback (134.3988ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 815.1871
+
+✖ failing tests:
+
+test at tests\unit\rendering\project-lod-worker.test.mjs:42:1
+✖ actual LOD Worker retains one full-source topology index while visibility changes (479.0695ms)
+  TypeError: Cannot read properties of undefined (reading '0')
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/project-lod-worker.test.mjs:64:45)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)

@@ -1,0 +1,80 @@
+✔ project terrain catalog is the authoritative source and has no cross-project fallback (4.5165ms)
+✔ only an explicit development override can use a non-project terrain manifest (0.4593ms)
+✔ terrain requires an explicit project catalog instead of a public default (0.4679ms)
+✔ inline Canvas uses the shared worker protocol and isolates submitted scene data (5.3844ms)
+✔ terminating inline Canvas aborts pending manifest work and queued delivery (1.7824ms)
+✔ project catalog replacement aborts an older pending numerical source (1.9843ms)
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: malformed Error: DEM tile dimensions differ from manifest: malformed
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:131:25 {
+  demDecodeFailure: true
+}
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:116:33
+지형 타일을 불러오지 못했습니다: malformed Error: DEM tile dimensions differ from manifest: malformed
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:131:25 {
+  demDecodeFailure: true
+}
+지형 타일을 불러오지 못했습니다: dem Error: options unsupported
+    at globalThis.createImageBitmap (file:///D:/dev/worktrees/gis/tests/unit/rendering/gpu-terrain-preparation.test.mjs:533:72)
+    at file:///D:/dev/worktrees/gis/src/rendering/gpu-terrain-preparation.js:119:30 {
+  demDecodeFailure: true
+}
+✔ GPU and Canvas share one tile geometry, neighbours and viewport selection algorithm (2.994ms)
+✔ dem-relief-v1 publishes current detail without downloading the offscreen world reserve (22.3644ms)
+✔ raster-rgba-v1 publishes current detail without downloading the offscreen world reserve (1.8438ms)
+✔ visible DEM uploads take precedence over optional strokes without exceeding the shared upload scheduler (1.9741ms)
+✔ late DEM decode shares one upload owner and rearms after settlement (1.5967ms)
+✔ country preview cannot cap terrain detail requested by a high-DPR camera (1.7922ms)
+✔ terrain camera LOD uses the visual frame DPR when the backing canvas lowers its DPR (1.8673ms)
+✔ terrain readiness requires uploaded world reserve and reports the source resolution limit (2.6158ms)
+✔ exhausted target failures preserve usable tiles and report detail failure until retry (10.3012ms)
+✔ exhausted target and reserve failures preserve usable tiles and report detail failure until retry (9.8733ms)
+✔ after world base the camera requests target terrain directly without intermediate detail levels (0.9525ms)
+✔ complete world base stays protected while GPU-ready detail replaces visible regions (2.8843ms)
+✔ rotating the mobile globe drops queued tiles from the old view (2.0458ms)
+✔ a new viewport starts its requests without waiting for obsolete in-flight downloads (1.1646ms)
+✔ a request batch starts center tiles before viewport-edge tiles (0.7458ms)
+✔ desktop starts six visible downloads while missing current tiles; mobile remains at two (1.2071ms)
+✔ in-flight neighbouring prefetch cannot block queued tiles in the current viewport (1.7596ms)
+✔ zoom transition 1 to 2 keeps coverage while replacement uploads at every scale (9.3812ms)
+✔ zoom transition 2 to 1 keeps coverage while replacement uploads at every scale (6.6513ms)
+✔ an already queued tile gains current-view priority instead of keeping its prefetch priority (0.6948ms)
+✔ project reset rejects old terrain failures without retry or replacement request corruption (0.2997ms)
+✔ context loss closes a late decoded bitmap and never queues it for upload (0.4361ms)
+✔ terrain upload measures the decoded bitmap before close and deduplicates requests (0.4275ms)
+✔ terrain cache evicts the least recently used unretained tile when the byte budget is exceeded (0.5401ms)
+✔ DEM decoding never retries with color-managed bitmap defaults (0.7112ms)
+✔ numerical DEM never fetches tint and ready height tiles suffice for physical style (0.9757ms)
+✔ numeric DEM creates separate land and ocean colors without a tint or geographic image (1.9161ms)
+✔ stored DEM shade changes the resulting color at every latitude (0.2615ms)
+✔ numeric terrain color ignores unrelated precolored imagery (1.287ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 294.6378

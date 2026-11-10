@@ -1,0 +1,43 @@
+
+Running 1 test using 1 worker
+
+(node:3628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+LOD_HTTP_ERROR 404 http://127.0.0.1:4187/assets/js/workers/canvas-render-worker.js
+LOD_CONSOLE_ERROR Failed to load resource: the server responded with a status of 404 (Not Found)
+LOD_CONSOLE_ERROR [PL-VIEWER-START] TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4187/assets/js/modules/viewer-composition.js?v=0.36.0-build-aa4965479536
+LOD_CONSOLE_ERROR [PL-VIEWER-START] TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4187/assets/js/modules/viewer-composition.js?v=0.36.0-build-aa4965479536
+  x  1 tests\browser\rendering\map-lod-baseline.benchmark.mjs:20:3 › record actual canonical and screen LOD performance (globe/desktop) (1.5m)
+
+
+  1) tests\browser\rendering\map-lod-baseline.benchmark.mjs:20:3 › record actual canonical and screen LOD performance (globe/desktop) 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#viewerStatus')
+    Expected: "true"
+    Received: "false"
+    Timeout:  90000ms
+
+    Call log:
+      - Expect "toHaveAttribute" with timeout 90000ms
+      - waiting for locator('#viewerStatus')
+        4 × locator resolved to <span role="status" id="viewerStatus" aria-live="polite" aria-atomic="true" data-ready="false" class="ui-visually-hidden">지도 불러오는 중…</span>
+          - unexpected value "false"
+        176 × locator resolved to <span role="alert" id="viewerStatus" aria-atomic="true" data-ready="false" aria-live="assertive" class="ui-floating-surface viewer-map-error">…</span>
+            - unexpected value "false"
+
+
+      31 |     for (const cacheState of ['cold', 'warm']) {
+      32 |       await page.goto(url.href, { waitUntil: 'domcontentloaded' });
+    > 33 |       await expect(page.locator('#viewerStatus')).toHaveAttribute('data-ready', 'true',
+         |                                                   ^
+      34 |         { timeout: 90_000 });
+      35 |       await expect.poll(() => page.evaluate(() => {
+      36 |         const stats = window.__PANDOLAB_VIEWER__?.rendererStats?.();
+        at D:\dev\worktrees\gis\tests\browser\rendering\map-lod-baseline.benchmark.mjs:33:51
+
+    Error Context: test-results\map-lod-p0\map-lod-baseline.benchmark-cf649--performance-globe-desktop-\error-context.md
+
+  1 failed
+    tests\browser\rendering\map-lod-baseline.benchmark.mjs:20:3 › record actual canonical and screen LOD performance (globe/desktop) 

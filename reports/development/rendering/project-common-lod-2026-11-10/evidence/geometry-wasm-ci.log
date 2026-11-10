@@ -1,0 +1,813 @@
+geometry-wasm	Set up job	﻿2026-11-10T12:28:50.3654400Z Current runner version: '2.338.2'
+geometry-wasm	Set up job	2026-11-10T12:28:50.3680325Z ##[group]Runner Image Provisioner
+geometry-wasm	Set up job	2026-11-10T12:28:50.3681366Z Hosted Compute Agent
+geometry-wasm	Set up job	2026-11-10T12:28:50.3682271Z Version: 20261028.624
+geometry-wasm	Set up job	2026-11-10T12:28:50.3683049Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+geometry-wasm	Set up job	2026-11-10T12:28:50.3683814Z Build Date: 2026-10-28T21:51:42Z
+geometry-wasm	Set up job	2026-11-10T12:28:50.3684522Z Worker ID: {8be0fe2e-dccf-418e-8e5e-ce4016a36e6e}
+geometry-wasm	Set up job	2026-11-10T12:28:50.3685354Z Region: westus
+geometry-wasm	Set up job	2026-11-10T12:28:50.3685904Z Cloud: Azure
+geometry-wasm	Set up job	2026-11-10T12:28:50.3686511Z ##[endgroup]
+geometry-wasm	Set up job	2026-11-10T12:28:50.3688009Z ##[group]Operating System
+geometry-wasm	Set up job	2026-11-10T12:28:50.3688672Z Ubuntu
+geometry-wasm	Set up job	2026-11-10T12:28:50.3689342Z 24.04.5
+geometry-wasm	Set up job	2026-11-10T12:28:50.3689869Z LTS
+geometry-wasm	Set up job	2026-11-10T12:28:50.3690398Z ##[endgroup]
+geometry-wasm	Set up job	2026-11-10T12:28:50.3691030Z ##[group]Runner Image
+geometry-wasm	Set up job	2026-11-10T12:28:50.3691632Z Image: ubuntu-24.04
+geometry-wasm	Set up job	2026-11-10T12:28:50.3692943Z Version: 20261101.360.1
+geometry-wasm	Set up job	2026-11-10T12:28:50.3694067Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+geometry-wasm	Set up job	2026-11-10T12:28:50.3695911Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+geometry-wasm	Set up job	2026-11-10T12:28:50.3696917Z ##[endgroup]
+geometry-wasm	Set up job	2026-11-10T12:28:50.3698096Z ##[group]GITHUB_TOKEN Permissions
+geometry-wasm	Set up job	2026-11-10T12:28:50.3700270Z Contents: read
+geometry-wasm	Set up job	2026-11-10T12:28:50.3701021Z Metadata: read
+geometry-wasm	Set up job	2026-11-10T12:28:50.3701601Z ##[endgroup]
+geometry-wasm	Set up job	2026-11-10T12:28:50.3704044Z Secret source: Actions
+geometry-wasm	Set up job	2026-11-10T12:28:50.3705211Z Cache mode: write
+geometry-wasm	Set up job	2026-11-10T12:28:50.3705975Z Prepare workflow directory
+geometry-wasm	Set up job	2026-11-10T12:28:50.4119717Z Prepare all required actions
+geometry-wasm	Set up job	2026-11-10T12:28:50.4171265Z Getting action download info
+geometry-wasm	Set up job	2026-11-10T12:28:50.8331087Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+geometry-wasm	Set up job	2026-11-10T12:28:50.9579008Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+geometry-wasm	Set up job	2026-11-10T12:28:51.0492325Z Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+geometry-wasm	Set up job	2026-11-10T12:28:51.4598077Z Download action repository 'jwlawson/actions-setup-cmake@v2' (SHA:0d6a7d60b009d01c9e7523be22153ff8f19460d3)
+geometry-wasm	Set up job	2026-11-10T12:28:51.7282968Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+geometry-wasm	Set up job	2026-11-10T12:28:51.9953487Z Complete job name: geometry-wasm
+geometry-wasm	Run actions/checkout@v4	﻿2026-11-10T12:28:52.1071578Z ##[group]Run actions/checkout@v4
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1073457Z with:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1074432Z   persist-credentials: false
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1075528Z   repository: kimjeon-il/Pando
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1084055Z   token: ***
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1084958Z   ssh-strict: true
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1085889Z   ssh-user: git
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1086761Z   clean: true
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1087673Z   sparse-checkout-cone-mode: true
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1088757Z   fetch-depth: 1
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1089665Z   fetch-tags: false
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1090584Z   show-progress: true
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1091556Z   lfs: false
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1092555Z   submodules: false
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1093518Z   set-safe-directory: true
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1094566Z   allow-unsafe-pr-checkout: false
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1095919Z env:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1096785Z   EMCC_CORES: 1
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1097684Z   BINARYEN_CORES: 1
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1098687Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.1099820Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4395927Z Syncing repository: kimjeon-il/Pando
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4400387Z ##[group]Getting Git version info
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4403037Z Working directory is '/home/runner/work/Pando/Pando'
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4406709Z [command]/usr/bin/git version
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4408721Z git version 2.56.0
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4425774Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4446367Z Temporarily overriding HOME='/home/runner/work/_temp/016be9bd-8c38-43af-b69d-9625a780457b' before making global git config changes
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4452198Z Adding repository directory to the temporary git global config as a safe directory
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4465873Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4572185Z Deleting the contents of '/home/runner/work/Pando/Pando'
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4580290Z ##[group]Initializing the repository
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4597154Z [command]/usr/bin/git init /home/runner/work/Pando/Pando
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4747028Z hint: Using 'master' as the name for the initial branch. This default branch name
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4750914Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4756301Z hint: to use in all of your new repositories, which will suppress this warning,
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4759195Z hint: call:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4760745Z hint:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4762866Z hint: 	git config --global init.defaultBranch <name>
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4765220Z hint:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4767401Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4770872Z hint: 'development'. The just-created branch can be renamed via this command:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4774103Z hint:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4775685Z hint: 	git branch -m <name>
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4778663Z hint:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4781165Z hint: Disable this message with "git config set advice.defaultBranchName false"
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4785357Z Initialized empty Git repository in /home/runner/work/Pando/Pando/.git/
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4815281Z [command]/usr/bin/git remote add origin https://github.com/kimjeon-il/Pando
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4877301Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4880423Z ##[group]Disabling automatic garbage collection
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4883469Z [command]/usr/bin/git config --local gc.auto 0
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4921309Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4924587Z ##[group]Setting up auth
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4930886Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.4992186Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.5448881Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.5496244Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.5743998Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.5790096Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.6036109Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.6083780Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.6085353Z ##[group]Fetching the repository
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:52.6098278Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +22c61c54e21a96f158a9f2f0779d2604be63a7d4:refs/remotes/origin/work/gis
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.6977492Z From https://github.com/kimjeon-il/Pando
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.6978770Z  * [new ref]         22c61c54e21a96f158a9f2f0779d2604be63a7d4 -> origin/work/gis
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.6984417Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.6985113Z ##[group]Determining the checkout info
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.6986130Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.6992337Z [command]/usr/bin/git sparse-checkout disable
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.7054770Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.7094229Z ##[group]Checking out the ref
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.7099294Z [command]/usr/bin/git checkout --progress --force -B work/gis refs/remotes/origin/work/gis
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9240240Z Switched to a new branch 'work/gis'
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9245917Z branch 'work/gis' set up to track 'origin/work/gis'.
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9257847Z ##[endgroup]
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9316053Z [command]/usr/bin/git log -1 --format=%H
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9350046Z 22c61c54e21a96f158a9f2f0779d2604be63a7d4
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9363071Z ##[group]Removing auth
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9364331Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9405713Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9654279Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9690699Z http.https://github.com/.extraheader
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9699921Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9743435Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:53.9988513Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:54.0030351Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+geometry-wasm	Run actions/checkout@v4	2026-11-10T12:28:54.0270901Z ##[endgroup]
+geometry-wasm	Run actions/setup-node@v4	﻿2026-11-10T12:28:54.0539110Z ##[group]Run actions/setup-node@v4
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0539436Z with:
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0539658Z   node-version-file: .nvmrc
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0539905Z   always-auth: false
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0540163Z   check-latest: false
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0542983Z   token: ***
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0543235Z env:
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0543421Z   EMCC_CORES: 1
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0543624Z   BINARYEN_CORES: 1
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0543857Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.0544138Z ##[endgroup]
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.2018320Z Resolved .nvmrc as 24
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.2087638Z (node:2448) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.2088907Z (Use `node --trace-deprecation ...` to show where the warning was created)
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.2097605Z Found in cache @ /opt/hostedtoolcache/node/24.22.2/x64
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.2098577Z ##[group]Environment details
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.6828060Z node: v24.22.2
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.6828725Z npm: 11.19.1
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.6829095Z yarn: 1.22.22
+geometry-wasm	Run actions/setup-node@v4	2026-11-10T12:28:54.6830091Z ##[endgroup]
+geometry-wasm	Run pnpm/action-setup@v4	﻿2026-11-10T12:28:54.7012826Z ##[group]Run pnpm/action-setup@v4
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7013123Z with:
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7013324Z   dest: ~/setup-pnpm
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7013534Z   run_install: null
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7013728Z   cache: false
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7013940Z   cache_dependency_path: pnpm-lock.yaml
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7014227Z   package_json_file: package.json
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7014474Z   standalone: false
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7014668Z env:
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7014838Z   EMCC_CORES: 1
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7015042Z   BINARYEN_CORES: 1
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7015262Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.7015523Z ##[endgroup]
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:54.8556035Z ##[group]Running self-installer...
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.3109025Z (node:2491) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.3111372Z (Use `node --trace-deprecation ...` to show where the warning was created)
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.4363603Z Progress: resolved 1, reused 0, downloaded 0, added 0
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.4619140Z Packages: +1
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.4619747Z +
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.9384539Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.9712105Z 
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.9712783Z dependencies:
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.9716612Z + pnpm 11.19.0 (12.18.0 is available)
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.9716981Z 
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:55.9741274Z Done in 931ms
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:56.0604887Z ##[endgroup]
+geometry-wasm	Run pnpm/action-setup@v4	2026-11-10T12:28:56.0605670Z Installation Completed!
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	﻿2026-11-10T12:28:56.0742371Z ##[group]Run pnpm install --frozen-lockfile --ignore-scripts
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0742946Z ^[[36;1mpnpm install --frozen-lockfile --ignore-scripts^[[0m
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0773306Z shell: /usr/bin/bash -e {0}
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0773596Z env:
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0773804Z   EMCC_CORES: 1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0774030Z   BINARYEN_CORES: 1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0774284Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0774654Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.0774998Z ##[endgroup]
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.8168999Z ? Verifying lockfile against supply-chain policies (115 entries)...
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:56.9118034Z Lockfile is up to date, resolution step is skipped
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.1043345Z Progress: resolved 1, reused 0, downloaded 0, added 0
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.1258407Z Packages: +89
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.1259793Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.7053586Z Packages are copied from the content-addressable store to the virtual store.
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.7058632Z   Content-addressable store is at: /home/runner/setup-pnpm/node_modules/.bin/store/v11
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.7065471Z   Virtual store is at:             node_modules/.pnpm
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:57.9219053Z Progress: resolved 89, reused 0, downloaded 89, added 89, done
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0284413Z 
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0285120Z devDependencies:
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0285740Z + @eslint/js 10.0.1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0286385Z + @modelcontextprotocol/server 2.4.0
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0287082Z + @playwright/test 1.62.1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0287623Z + esbuild 0.25.10
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0288051Z + eslint 10.9.1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0288514Z + postcss 8.5.30
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0289137Z + topojson-client 3.1.0
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0289688Z + topojson-server 3.0.1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0290195Z + topojson-simplify 3.0.3
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0290714Z + yaml 2.9.1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0291192Z + yazl 3.3.1
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0291642Z + zod 4.6.7
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.0292220Z 
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.2563027Z ✓ Lockfile passes supply-chain policies (115 entries in 1.4s)
+geometry-wasm	Run pnpm install --frozen-lockfile --ignore-scripts	2026-11-10T12:28:58.2724245Z Done in 2.1s using pnpm v11.19.0
+geometry-wasm	Install the WASM preset build dependency	﻿2026-11-10T12:28:58.3286867Z ##[group]Run sudo apt-get update && sudo apt-get install -y ninja-build
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3287452Z ^[[36;1msudo apt-get update && sudo apt-get install -y ninja-build^[[0m
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3307835Z shell: /usr/bin/bash -e {0}
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3308085Z env:
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3308274Z   EMCC_CORES: 1
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3308481Z   BINARYEN_CORES: 1
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3308717Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3309054Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.3309366Z ##[endgroup]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.4127415Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.4486908Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.4492031Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.4506698Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.4537050Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.4573590Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.5911043Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [748 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6072023Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [679 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6442253Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1442 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6530146Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [314 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6533906Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1711 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6618466Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [344 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6642134Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1879 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6743596Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [429 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6767873Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [50.7 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.6781172Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [14.3 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.7621076Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1161 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.7676996Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [234 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.8105186Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1228 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.8155339Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [248 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.8174543Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1729 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.8247626Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [396 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.8269812Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [45.4 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:28:58.8277246Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse Translation-en [12.4 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:02.1182220Z Fetched 13.0 MB in 1s (9900 kB/s)
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.2908608Z Reading package lists...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.3314835Z Reading package lists...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.5435522Z Building dependency tree...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.5444428Z Reading state information...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7028411Z The following NEW packages will be installed:
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7029236Z   ninja-build
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7225551Z 0 upgraded, 1 newly installed, 0 to remove and 36 not upgraded.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7226096Z Need to get 129 kB of archives.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7226539Z After this operation, 364 kB of additional disk space will be used.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7227355Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:03.7980350Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 ninja-build amd64 1.11.1-2 [129 kB]
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.0705544Z Fetched 129 kB in 0s (1399 kB/s)
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.0943902Z Selecting previously unselected package ninja-build.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1253164Z (Reading database ... 
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1253575Z (Reading database ... 5%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1253918Z (Reading database ... 10%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1254287Z (Reading database ... 15%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1254562Z (Reading database ... 20%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1254869Z (Reading database ... 25%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1255143Z (Reading database ... 30%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1255728Z (Reading database ... 35%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1256355Z (Reading database ... 40%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1256901Z (Reading database ... 45%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1257299Z (Reading database ... 50%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.1308800Z (Reading database ... 55%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.2866425Z (Reading database ... 60%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.4538224Z (Reading database ... 65%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.6808899Z (Reading database ... 70%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.8570220Z (Reading database ... 75%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:04.9877215Z (Reading database ... 80%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.2387982Z (Reading database ... 85%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.4483333Z (Reading database ... 90%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.5973031Z (Reading database ... 95%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.5973600Z (Reading database ... 100%
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.5974377Z (Reading database ... 215960 files and directories currently installed.)
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.6018711Z Preparing to unpack .../ninja-build_1.11.1-2_amd64.deb ...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.6046057Z Unpacking ninja-build (1.11.1-2) ...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.6578582Z Setting up ninja-build (1.11.1-2) ...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.6606472Z Processing triggers for man-db (2.12.0-4build2) ...
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:05.6629028Z Not building database; man-db/auto-update is not 'true'.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3586484Z 
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3587224Z Running kernel seems to be up-to-date.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3587849Z 
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3588200Z No services need to be restarted.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3588627Z 
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3589012Z No containers need to be restarted.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3590214Z 
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3590743Z No user sessions are running outdated binaries.
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3591375Z 
+geometry-wasm	Install the WASM preset build dependency	2026-11-10T12:29:06.3592404Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	﻿2026-11-10T12:29:07.2867749Z ##[group]Run node --input-type=module <<'NODE'
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2868156Z ^[[36;1mnode --input-type=module <<'NODE'^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2868487Z ^[[36;1mimport { appendFileSync } from 'node:fs';^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2868924Z ^[[36;1mimport { pinnedToolchain } from './scripts/lib/check-changes.mjs';^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2869373Z ^[[36;1mconst pin = pinnedToolchain();^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2869727Z ^[[36;1mappendFileSync(process.env.GITHUB_OUTPUT, [^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2870072Z ^[[36;1m  'cmake_version=' + pin.cmake,^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2870384Z ^[[36;1m  'emscripten_version=' + pin.emscripten,^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2870710Z ^[[36;1m  'emsdk_ref=' + pin.emsdkCommit,^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2870990Z ^[[36;1m].join('\n') + '\n');^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2871214Z ^[[36;1mNODE^[[0m
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2891315Z shell: /usr/bin/bash -e {0}
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2891566Z env:
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2892105Z   EMCC_CORES: 1
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2892323Z   BINARYEN_CORES: 1
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2892568Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2892939Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Read the same pinned build toolchain as the artifact producer	2026-11-10T12:29:07.2893242Z ##[endgroup]
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	﻿2026-11-10T12:29:07.3345048Z ##[group]Run jwlawson/actions-setup-cmake@v2
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3345394Z with:
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3345592Z   cmake-version: 3.31.6
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3347953Z   github-api-token: ***
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3348182Z   use-32bit: false
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3348376Z env:
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3348553Z   EMCC_CORES: 1
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3348746Z   BINARYEN_CORES: 1
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3348979Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3349306Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.3349613Z ##[endgroup]
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.4357932Z (node:2956) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:07.4360764Z (Use `node --trace-deprecation ...` to show where the warning was created)
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:17.4174950Z Using cmake version 3.31.6
+geometry-wasm	Run jwlawson/actions-setup-cmake@v2	2026-11-10T12:29:17.8869799Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/1e3feb6d-7ce7-41ed-854f-282298a9db17 -f /home/runner/work/_temp/0d7bc815-bc77-47ba-b32c-343147f1e5c5
+geometry-wasm	Get the pinned official Emscripten SDK	﻿2026-11-10T12:29:21.5131333Z ##[group]Run actions/checkout@v4
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5131625Z with:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5132191Z   repository: emscripten-core/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5132511Z   ref: db04e88298d9916fc51fcd3743045ca3eb695127
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5132813Z   path: build-native/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5133057Z   persist-credentials: false
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5135378Z   token: ***
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5135591Z   ssh-strict: true
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5135795Z   ssh-user: git
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5135993Z   clean: true
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5136204Z   sparse-checkout-cone-mode: true
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5136462Z   fetch-depth: 1
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5136662Z   fetch-tags: false
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5136871Z   show-progress: true
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5137090Z   lfs: false
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5137277Z   submodules: false
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5137489Z   set-safe-directory: true
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5137734Z   allow-unsafe-pr-checkout: false
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5138181Z env:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5138361Z   EMCC_CORES: 1
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5138596Z   BINARYEN_CORES: 1
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5138822Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5139161Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.5139469Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6086194Z Syncing repository: emscripten-core/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6087783Z ##[group]Getting Git version info
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6089408Z Working directory is '/home/runner/work/Pando/Pando/build-native/emsdk'
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6152603Z [command]/usr/bin/git version
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6210669Z git version 2.56.0
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6235751Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6262075Z Temporarily overriding HOME='/home/runner/work/_temp/b7bbec29-c3ca-4299-8e04-b166c9b9ad1c' before making global git config changes
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6264358Z Adding repository directory to the temporary git global config as a safe directory
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6265935Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando/build-native/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6346260Z ##[group]Initializing the repository
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6347658Z [command]/usr/bin/git init /home/runner/work/Pando/Pando/build-native/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6413186Z hint: Using 'master' as the name for the initial branch. This default branch name
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6426213Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6427451Z hint: to use in all of your new repositories, which will suppress this warning,
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6428391Z hint: call:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6428995Z hint:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6429721Z hint: 	git config --global init.defaultBranch <name>
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6430383Z hint:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6431179Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6432570Z hint: 'development'. The just-created branch can be renamed via this command:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6434100Z hint:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6434682Z hint: 	git branch -m <name>
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6435232Z hint:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6436109Z hint: Disable this message with "git config set advice.defaultBranchName false"
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6437559Z Initialized empty Git repository in /home/runner/work/Pando/Pando/build-native/emsdk/.git/
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6449341Z [command]/usr/bin/git remote add origin https://github.com/emscripten-core/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6507578Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6508500Z ##[group]Disabling automatic garbage collection
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6513562Z [command]/usr/bin/git config --local gc.auto 0
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6558913Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6559686Z ##[group]Setting up auth
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6568629Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6617031Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.6997517Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7056168Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7399874Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7448349Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7695610Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7745470Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7746170Z ##[group]Fetching the repository
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:21.7756768Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin db04e88298d9916fc51fcd3743045ca3eb695127
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.1973200Z From https://github.com/emscripten-core/emsdk
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.1974465Z  * branch            db04e88298d9916fc51fcd3743045ca3eb695127 -> FETCH_HEAD
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.1979627Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.1980386Z ##[group]Determining the checkout info
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.1982466Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.1989268Z [command]/usr/bin/git sparse-checkout disable
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2042636Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2083352Z ##[group]Checking out the ref
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2087676Z [command]/usr/bin/git checkout --progress --force db04e88298d9916fc51fcd3743045ca3eb695127
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2200840Z Note: switching to 'db04e88298d9916fc51fcd3743045ca3eb695127'.
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2201895Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2202828Z You are in 'detached HEAD' state. You can look around, make experimental
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2203894Z changes and commit them, and you can discard any commits you make in this
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2204888Z state without impacting any branches by switching back to a branch.
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2205423Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2205892Z If you want to create a new branch to retain commits you create, you may
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2206830Z do so (now or later) by using -c with the switch command. Example:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2207284Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2207516Z   git switch -c <new-branch-name>
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2207821Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2208037Z Or undo this operation with:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2208330Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2208480Z   git switch -
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2208694Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2209206Z Turn off this advice by setting config variable advice.detachedHead to false
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2209750Z 
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2210047Z HEAD is now at db04e88 Release 6.0.3 (#1730)
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2223025Z ##[endgroup]
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2281002Z [command]/usr/bin/git log -1 --format=%H
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2317301Z db04e88298d9916fc51fcd3743045ca3eb695127
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2330083Z ##[group]Removing auth
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2336516Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2386937Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2657109Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2690689Z http.https://github.com/.extraheader
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2700716Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2744094Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.2988239Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.3029972Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+geometry-wasm	Get the pinned official Emscripten SDK	2026-11-10T12:29:22.3270333Z ##[endgroup]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	﻿2026-11-10T12:29:22.3401458Z ##[group]Run set -euo pipefail
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3402134Z ^[[36;1mset -euo pipefail^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3402518Z ^[[36;1m# emsdk_env.sh may clear EMSDK_VERSION; preserve the pinned value.^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3402933Z ^[[36;1mrequired_version="$EMSDK_VERSION"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3403280Z ^[[36;1mbuild-native/emsdk/emsdk install "$required_version"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3403690Z ^[[36;1mbuild-native/emsdk/emsdk activate "$required_version"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3404052Z ^[[36;1msource build-native/emsdk/emsdk_env.sh^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3404422Z ^[[36;1memcc --version | sed -n '1p' | grep -F "$required_version"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3404876Z ^[[36;1m# GitHub's /archive/ endpoint has intermittently returned HTTP 404^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3405543Z ^[[36;1m# for the pinned zlib 1.3.2 tag. Use its canonical codeload host,^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3406036Z ^[[36;1m# which serves the identical bytes; Emscripten's SHA-512 validation^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3406522Z ^[[36;1m# remains unchanged. Refuse an unrecognized SDK port definition.^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3407066Z ^[[36;1mport_file=build-native/emsdk/upstream/emscripten/tools/ports/zlib.py^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3407636Z ^[[36;1moriginal='https://github.com/madler/zlib/archive/refs/tags/v{VERSION}.tar.gz'^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3408256Z ^[[36;1mcanonical='https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v{VERSION}'^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3408722Z ^[[36;1mgrep -Fq "$original" "$port_file"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3409054Z ^[[36;1msed -i "s|$original|$canonical|" "$port_file"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3409398Z ^[[36;1mgrep -Fq "$canonical" "$port_file"^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3409781Z ^[[36;1m# Emscripten 6.0.3 derives the archive suffix from the last^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3410239Z ^[[36;1m# URL component. Codeload ends in v1.3.2, not .tar.gz, although its^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3410728Z ^[[36;1m# content is the same SHA-512 verified gzip archive. Fix only zlib's^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3411201Z ^[[36;1m# suffix inference; do not weaken fetch or integrity verification.^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3411595Z ^[[36;1mnode --input-type=module <<'NODE'^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3412283Z ^[[36;1mimport {readFileSync,writeFileSync} from 'node:fs';^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3412789Z ^[[36;1mconst file='build-native/emsdk/upstream/emscripten/tools/ports/__init__.py';^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3413254Z ^[[36;1mconst input=readFileSync(file,'utf8');^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3413608Z ^[[36;1mconst old="    ext = url_filename.split('.', 1)[1]";^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3414107Z ^[[36;1mif(input.split(old).length!==2)throw Error('Unexpected pinned Emscripten port loader');^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3414968Z ^[[36;1mconst next="    ext = 'tar.gz' if name == 'zlib' and url.startswith('https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v') else url_filename.split('.', 1)[1]";^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3415702Z ^[[36;1mwriteFileSync(file,input.replace(old,next));^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3416002Z ^[[36;1mNODE^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3416226Z ^[[36;1memcmake cmake --preset pando-wasm^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3416536Z ^[[36;1mcmake --build --preset pando-wasm^[[0m
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3439277Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3439620Z env:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3439807Z   EMCC_CORES: 1
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3440003Z   BINARYEN_CORES: 1
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3440227Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3440550Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3440852Z   EMSDK_VERSION: 6.0.3
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.3441065Z ##[endgroup]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.5794956Z Resolving SDK version '6.0.3' to 'sdk-releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit'
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.5796028Z Installing SDK 'sdk-releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit'..
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.5796845Z Installing tool 'node-22.16.0-64bit'..
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.5798624Z Downloading: /home/runner/work/Pando/Pando/build-native/emsdk/downloads/node-v22.16.0-linux-x64.tar.xz from https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/node-v22.16.0-linux-x64.tar.xz, 30425588 Bytes
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:22.7389077Z  [----------------------------------------------------------------------------]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:25.0102053Z Unpacking '/home/runner/work/Pando/Pando/build-native/emsdk/downloads/node-v22.16.0-linux-x64.tar.xz' to '/home/runner/work/Pando/Pando/build-native/emsdk/node/22.16.0_64bit'
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:25.0103398Z Done installing tool 'node-22.16.0-64bit'.
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:25.0104110Z Installing tool 'releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit'..
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:25.0106481Z Downloading: /home/runner/work/Pando/Pando/build-native/emsdk/downloads/9074aa513b501925adb1361e208932ad32a29a5f-wasm-binaries.tar.xz from https://storage.googleapis.com/webassembly/emscripten-releases-builds/linux/9074aa513b501925adb1361e208932ad32a29a5f/wasm-binaries.tar.xz, 292035244 Bytes
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:26.5108603Z  [----------------------------------------------------------------------------]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.0339669Z Unpacking '/home/runner/work/Pando/Pando/build-native/emsdk/downloads/9074aa513b501925adb1361e208932ad32a29a5f-wasm-binaries.tar.xz' to '/home/runner/work/Pando/Pando/build-native/emsdk/upstream'
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.0341505Z Done installing tool 'releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit'.
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.0342767Z Done installing SDK 'sdk-releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit'.
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1543625Z Resolving SDK version '6.0.3' to 'sdk-releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit'
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1544595Z Setting the following tools as active:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1545044Z    node-22.16.0-64bit
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1545590Z    releases-9074aa513b501925adb1361e208932ad32a29a5f-64bit
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1546036Z 
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1546177Z Next steps:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1546726Z - To conveniently access emsdk tools from the command line,
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1547406Z   consider adding the following directories to your PATH:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1548041Z     /home/runner/work/Pando/Pando/build-native/emsdk
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1548760Z     /home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1549562Z - This can be done for the current shell by running:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1550275Z     source "/home/runner/work/Pando/Pando/build-native/emsdk/emsdk_env.sh"
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1551080Z - Configure emsdk in your shell startup scripts by running:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.1552266Z     echo 'source "/home/runner/work/Pando/Pando/build-native/emsdk/emsdk_env.sh"' >> $HOME/.bash_profile
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2734078Z Setting up EMSDK environment (suppress these messages with EMSDK_QUIET=1)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2735168Z Adding directories to PATH:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2735789Z PATH += /home/runner/work/Pando/Pando/build-native/emsdk
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2736747Z PATH += /home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2737262Z 
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2737521Z Setting environment variables:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2741576Z PATH = /home/runner/work/Pando/Pando/build-native/emsdk:/home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten:/opt/hostedtoolcache/cmake/3.31.6/x64/cmake-3.31.6-linux-x86_64/bin:/home/runner/setup-pnpm/node_modules/.bin:/opt/hostedtoolcache/node/24.22.2/x64/bin:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2745180Z EMSDK = /home/runner/work/Pando/Pando/build-native/emsdk
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2746071Z EMSDK_NODE = /home/runner/work/Pando/Pando/build-native/emsdk/node/22.16.0_64bit/bin/node
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.2746941Z Clearing existing environment variable: EMSDK_VERSION
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.5020915Z shared:INFO: (Emscripten: Running sanity checks)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.5490927Z emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.3 (283e2d130132859fde6a4e4c87fd254b38127651)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:46.6345458Z emcmake: cmake --preset pando-wasm -DCMAKE_TOOLCHAIN_FILE=/home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DCMAKE_CROSSCOMPILING_EMULATOR=/home/runner/work/Pando/Pando/build-native/emsdk/node/22.16.0_64bit/bin/node in directory /home/runner/work/Pando/Pando
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1322989Z Preset CMake variables:
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1323362Z 
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1323531Z   BUILD_TESTING="OFF"
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1323957Z   CMAKE_BUILD_TYPE="Release"
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1324408Z   PANDO_BUILD_VARIANT="wasm"
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1324681Z 
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1324890Z -- Configuring done (0.5s)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1425903Z -- Generating done (0.0s)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1429530Z -- Build files have been written to: /home/runner/work/Pando/Pando/build-native/p1/pando-wasm
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:47.1485972Z [0/2] Re-checking globbed directories...
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:52.8413252Z [1/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/hydroformat.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:52.8415412Z ports:INFO: retrieving port: zlib from https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.2
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:52.8416709Z ports:INFO: unpacking port: zlib
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:52.8419474Z cache:INFO: generating port: sysroot/lib/wasm32-emscripten/libz.a... (this will be cached in "/home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libz.a" for subsequent builds)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:52.8421103Z system_libs:INFO: compiled 15 inputs in 3.04s
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:52.8421539Z cache:INFO:  - ok
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:29:54.0905879Z [2/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/hydroviewport.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:02.1782924Z [3/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/project.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:06.3073074Z [4/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/presentation.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:10.2175464Z [5/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/presentationcommands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:13.0105365Z [6/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/document.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:15.4341225Z [7/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/geometryprovenance.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:17.8959612Z [8/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/temporal.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:18.8279510Z [9/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/placenames.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:21.5088079Z [10/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/timeline-records.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:24.2066684Z [11/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/timeline-resolver.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7894155Z [12/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/timeline-view.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7896346Z /home/runner/work/Pando/Pando/src/document/native/src/timeline-view.cpp:46:121: warning: captured structured bindings are a C++20 extension [-Wc++20-extensions]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7898181Z    46 |             auto found=std::find_if(document.hydro.begin(),document.hydro.end(),[&](const auto& water){return water.id==ref.id;});
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7899003Z       |                                                                                                                         ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7899815Z /home/runner/work/Pando/Pando/src/document/native/src/timeline-view.cpp:43:22: note: 'ref' declared here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7900484Z    43 |     for(const auto& [ref,properties]:world.activeProperties)
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7901193Z       |                      ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:28.7901466Z 1 warning generated.
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:31.4912049Z [13/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/timeline-edit.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:32.9039205Z [14/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/timeline-storage.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:34.0958291Z [15/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/losslessjson.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:44.2230489Z [16/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/projectcodec.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:49.5058640Z [17/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/webstorage.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:57.0810505Z [18/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/document-session.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:30:58.6493730Z [19/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/geometrydraft.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:00.5853750Z [20/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/historicallibrary.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:05.2017107Z [21/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/historicalinstantiation.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:09.0610071Z [22/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/gisexchange.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:10.5420565Z [23/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/geopackagegeometry.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:11.6245260Z [24/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/giszip.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:14.0080460Z [25/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/content.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:15.5719253Z [26/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/objectproperties.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:19.2945716Z [27/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/geometrypredicates.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:21.0047679Z [28/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/polygonwrapping.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:24.1484116Z [29/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/polygonclipping.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:25.6120996Z [30/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/planargraph.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:32.0820339Z [31/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/riverpartition.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:36.7473545Z [32/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/cutgeometry.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:41.3949834Z [33/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/data/native/src/referenceimage.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:42.7361240Z [34/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/map/native/src/mapprojection.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:44.2226360Z [35/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/referencetracing.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:48.1866174Z [36/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/referenceboundaries.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:50.1512700Z [37/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/sphericalpolygon.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:51.5204683Z [38/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/boundarychain.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:52.9320830Z [39/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/boundarypacket.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:53.9198356Z [40/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/boundarycontact.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2064164Z [41/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/boundaryoverlap.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2066572Z /home/runner/work/Pando/Pando/src/geometry/native/src/boundaryoverlap.cpp:34:42: warning: captured structured bindings are a C++20 extension [-Wc++20-extensions]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2068720Z    34 |                 return std::abs((point.x-start.x)*dy-(point.y-start.y)*dx)<=threshold;
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2069417Z       |                                          ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2070241Z /home/runner/work/Pando/Pando/src/geometry/native/src/boundaryoverlap.cpp:23:21: note: 'start' declared here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2070965Z    23 |         const auto [start,end]=request.source;
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2071326Z       |                     ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2072640Z /home/runner/work/Pando/Pando/src/geometry/native/src/boundaryoverlap.cpp:41:34: warning: captured structured bindings are a C++20 extension [-Wc++20-extensions]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2073687Z    41 |                 return ((point.x-start.x)*dx+(point.y-start.y)*dy)/length2;
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2074166Z       |                                  ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2074898Z /home/runner/work/Pando/Pando/src/geometry/native/src/boundaryoverlap.cpp:23:21: note: 'start' declared here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2075590Z    23 |         const auto [start,end]=request.source;
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2075926Z       |                     ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2076878Z /home/runner/work/Pando/Pando/src/geometry/native/src/boundaryoverlap.cpp:52:26: warning: captured structured bindings are a C++20 extension [-Wc++20-extensions]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2077791Z    52 |             return Point{start.x+dx*t,start.y+dy*t};
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2078158Z       |                          ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2078846Z /home/runner/work/Pando/Pando/src/geometry/native/src/boundaryoverlap.cpp:23:21: note: 'start' declared here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2079502Z    23 |         const auto [start,end]=request.source;
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2079865Z       |                     ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:55.2080143Z 3 warnings generated.
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:57.6731446Z [42/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/rendering/native/src/polygonmesh.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:31:58.7549407Z [43/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/boundaryrefinement.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:00.1964897Z [44/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/boundarysplit.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:02.3430474Z [45/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/geometry/native/src/countrycontact.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:05.9935725Z [46/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/territorialmutation.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:19.6368992Z [47/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/commands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:23.8605821Z [48/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/commandbatch.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:28.7283288Z [49/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/webcommands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:33.5020444Z [50/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/webcontentcommands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:35.6294763Z [51/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/webpresentationcommands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:38.8975762Z [52/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/webterritorialcommands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:43.3702492Z [53/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/webterritorialedit.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:48.1823192Z [54/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/webobjectcommands.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:49.8384647Z [55/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/jobs.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:51.4271336Z [56/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/__/__/__/__/src/document/native/src/snapshot.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:51.9154240Z [57/69] Building CXX object shared/core/CMakeFiles/pandoeditor_core.dir/generated/version.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:32:52.0383581Z [58/69] Linking CXX static library shared/core/libpandoeditor_core.a
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6217320Z [59/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/document/native/bindings/session-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6218962Z /home/runner/work/Pando/Pando/src/document/native/bindings/session-bindings.cpp:1044:47: warning: macro '__EMSCRIPTEN_major__' has been marked as deprecated: Use __EMSCRIPTEN_MAJOR__ instead [-Wdeprecated-pragma]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6220177Z  1044 |     const auto compilerVersion=std::to_string(__EMSCRIPTEN_major__)+"."
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6220648Z       |                                               ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6221581Z /home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h:10:82: note: macro marked 'deprecated' here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6222832Z    10 | #pragma clang deprecated(__EMSCRIPTEN_major__, "Use __EMSCRIPTEN_MAJOR__ instead")
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6223409Z       |                                                                                  ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6225158Z /home/runner/work/Pando/Pando/src/document/native/bindings/session-bindings.cpp:1045:25: warning: macro '__EMSCRIPTEN_minor__' has been marked as deprecated: Use __EMSCRIPTEN_MINOR__ instead [-Wdeprecated-pragma]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6227067Z  1045 |         +std::to_string(__EMSCRIPTEN_minor__)+"."+std::to_string(__EMSCRIPTEN_tiny__);
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6227983Z       |                         ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6229495Z /home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h:11:82: note: macro marked 'deprecated' here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6231103Z    11 | #pragma clang deprecated(__EMSCRIPTEN_minor__, "Use __EMSCRIPTEN_MINOR__ instead")
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6232365Z       |                                                                                  ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6233887Z /home/runner/work/Pando/Pando/src/document/native/bindings/session-bindings.cpp:1045:66: warning: macro '__EMSCRIPTEN_tiny__' has been marked as deprecated: Use __EMSCRIPTEN_TINY__ instead [-Wdeprecated-pragma]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6235627Z  1045 |         +std::to_string(__EMSCRIPTEN_minor__)+"."+std::to_string(__EMSCRIPTEN_tiny__);
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6236322Z       |                                                                  ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6237244Z /home/runner/work/Pando/Pando/build-native/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h:12:80: note: macro marked 'deprecated' here
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6238139Z    12 | #pragma clang deprecated(__EMSCRIPTEN_tiny__, "Use __EMSCRIPTEN_TINY__ instead")
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6238646Z       |                                                                                ^
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:00.6238985Z 3 warnings generated.
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:02.8057559Z [60/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/document/native/bindings/timeline-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:04.9395664Z [61/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/geometry/native/bindings/boundary-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:07.9068403Z [62/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/geometry/native/bindings/polygon-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:09.4694252Z [63/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/rendering/native/bindings/mesh-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:11.1338633Z [64/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/geometry/native/bindings/cut-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:12.4012705Z [65/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/geometry/native/bindings/river-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:13.9370889Z [66/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/geometry/native/bindings/reference-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:33:15.0760841Z [67/69] Building CXX object shared/wasm/CMakeFiles/pandoeditor_wasm.dir/__/__/__/__/src/document/native/bindings/place-bindings.cpp.o
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:34:02.3318167Z [68/69] Linking CXX executable shared/wasm/pandoeditor-core.js
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:34:02.3319175Z em++: warning: invalid entry in INCOMING_MODULE_JS_API: buffer [-Wunused-command-line-argument]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:34:02.3320269Z em++: warning: invalid entry in INCOMING_MODULE_JS_API: mem [-Wunused-command-line-argument]
+geometry-wasm	Rebuild with the artifact producer's exact WASM preset and SDK	2026-11-10T12:34:02.3321435Z em++: warning: invalid entry in INCOMING_MODULE_JS_API: onCustomMessage [-Wunused-command-line-argument]
+geometry-wasm	Package the newly compiled source-matched runtime	﻿2026-11-10T12:34:02.3369520Z ##[group]Run node tools/build/package-shared-core-assets.mjs --build-dir build-native/p1/pando-wasm/shared/wasm
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3370413Z ^[[36;1mnode tools/build/package-shared-core-assets.mjs --build-dir build-native/p1/pando-wasm/shared/wasm^[[0m
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3390949Z shell: /usr/bin/bash -e {0}
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3391202Z env:
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3391389Z   EMCC_CORES: 1
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3391589Z   BINARYEN_CORES: 1
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3392335Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3392681Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.3392997Z ##[endgroup]
+geometry-wasm	Package the newly compiled source-matched runtime	2026-11-10T12:34:02.4277987Z {"sourceSha256":"c7ebf2a5c59a911c1f45ddda9b848b307a45b7baa6c2d4b426919c415f3d9ba3","assets":{"js":{"file":"pandoeditor-core.js","sha256":"8ecbed2d64a9fa3bea6d5f6c59982a78958a5a073d2134ea67fd314809db9d0d"},"wasm":{"file":"pandoeditor-core.wasm","sha256":"8d0537523c5acc83920b671b40e520854a5bf0407e07e8c495530222a5948474"}},"mode":"package"}
+geometry-wasm	Run only registered geometry WASM contracts	﻿2026-11-10T12:34:02.4434617Z ##[group]Run node scripts/run-application-checks.mjs
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4435277Z ^[[36;1mnode scripts/run-application-checks.mjs^[[0m
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4461236Z shell: /usr/bin/bash -e {0}
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4461847Z env:
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4462161Z   EMCC_CORES: 1
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4462497Z   BINARYEN_CORES: 1
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4462898Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4463439Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4464234Z   PANDOEDITOR_WASM_MODULE: /home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4465296Z   CHECK_SELECTION: {"unitTests":[],"browserSpecs":[],"commands":["wasm-domain-geometry"],"prerequisites":[]}
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.4466062Z ##[endgroup]
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7027253Z {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7028280Z   "schema": "pando-application-check-plan-v1",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7029378Z   "changedFiles": [],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7030102Z   "unitTests": [],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7030757Z   "unitTestPrerequisites": {},
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7031548Z   "browserSpecs": [],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7032476Z   "browserPrerequisites": [],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7033287Z   "explicitPrerequisites": [],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7034047Z   "externalChecks": [],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7034712Z   "commands": [
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7035357Z     "wasm-domain-geometry"
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7036047Z   ],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7036759Z   "prerequisites": [
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7037417Z     "core-assets"
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7038013Z   ],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7038606Z   "reasons": {},
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7039179Z   "manualTests": [
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7039918Z     "tests/browser/document/codespaces-live.spec.mjs",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7040916Z     "tests/browser/rendering/canvas-globe-performance.spec.mjs",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7042192Z     "tests/browser/runtime/p3-remote-preview.spec.mjs",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7043380Z     "tests/browser/ui/deferred-builtin-timeline.spec.mjs"
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7044327Z   ],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7045971Z   "inventory": {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7046579Z     "unit": 278,
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7047102Z     "browser": 22
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7048042Z   },
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7048610Z   "comparison": {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7049156Z     "event": "push",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7049852Z     "base": "22c61c54e21a96f158a9f2f0779d2604be63a7d4",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7050578Z     "requestedBase": "HEAD",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7057132Z     "head": "22c61c54e21a96f158a9f2f0779d2604be63a7d4",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7057896Z     "workingTree": false,
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7058537Z     "files": []
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7059073Z   }
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.7059598Z }
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:02.8433304Z Shared C++ core prerequisite passed: ABI 1, source c7ebf2a5c59a911c1f45ddda9b848b307a45b7baa6c2d4b426919c415f3d9ba3
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.1921047Z ✔ shared topology split candidate ABI is compiled in C++ (3.565576ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.1922392Z ✔ dateline split uses connected longitude and excludes Greenwich nodes (8.800244ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.1923806Z ✔ explicit geographic corrections replace the historical planar dateline results (4.798004ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.1925341Z ✔ C++ returns exactly the historical bucket, projected vertex and stable split order (125.408626ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.1931233Z ✔ invalid split input cannot fall back to JavaScript (7.448654ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2083537Z ✔ C++ country candidate and shared-contact source ABI is callable (1.493173ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2085108Z ✔ country contact topology keeps ordered source refs for split and reversed edges (12.904935ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2086663Z ✔ distant and polar contacts have no visible shared segments (0.814468ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2088005Z ✔ dateline crossings cannot create a shared boundary at Greenwich (1.19662ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2089426Z ✔ real dateline shared boundaries retain split geometry and original rows (1.659564ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2090709Z ✔ malformed row and pair schemas fail explicitly (2.555043ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2092699Z ✔ shared C++ fill mesh preserves holes, dateline and both polar projections (120.398356ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2095148Z ✔ degenerate rings and outside holes fail visibly; cancellation crosses WASM unchanged (2.849932ms)
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2096210Z ℹ tests 13
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2096813Z ℹ suites 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2097502Z ℹ pass 13
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2097961Z ℹ fail 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2098392Z ℹ cancelled 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2098834Z ℹ skipped 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2099250Z ℹ todo 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2099733Z ℹ duration_ms 313.434716
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2160138Z {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2160650Z   "applicationChecksPassed": true,
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2161179Z   "execution": {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2161544Z     "phase": "all",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2162170Z     "shard": null
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2162514Z   },
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2162828Z   "results": [
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2163143Z     {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2163456Z       "id": "core-assets",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2163816Z       "argv": [
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2164124Z         "node",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2164566Z         "scripts/check-core-prerequisite.mjs"
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2165004Z       ],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2165324Z       "status": "passed",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2165692Z       "exitCode": 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2166020Z     },
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2166312Z     {
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2166675Z       "id": "wasm-domain-geometry",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2167098Z       "argv": [
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2167409Z         "node",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2167716Z         "--test",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2168269Z         "tests/native/document/p5-country-contact-wasm.test.mjs",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2169124Z         "tests/native/document/p5-boundary-split-wasm.test.mjs",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2169814Z         "tests/native/document/p5-polygon-mesh-wasm.test.mjs"
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2170317Z       ],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2170775Z       "status": "passed",
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2171194Z       "exitCode": 0
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2171566Z     }
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2172119Z   ],
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2172433Z   "externalChecks": []
+geometry-wasm	Run only registered geometry WASM contracts	2026-11-10T12:34:03.2172809Z }
+geometry-wasm	Retain the verified immutable runtime pair	﻿2026-11-10T12:34:03.2377408Z ##[group]Run actions/upload-artifact@v4
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2378342Z with:
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2378947Z   name: geometry-wasm-22c61c54e21a96f158a9f2f0779d2604be63a7d4-42816087700-1
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2380202Z   path: assets/wasm/pandoeditor-core.js
+geometry-wasm	Retain the verified immutable runtime pair	assets/wasm/pandoeditor-core.wasm
+geometry-wasm	Retain the verified immutable runtime pair	assets/wasm/pandoeditor-core.manifest.json
+geometry-wasm	Retain the verified immutable runtime pair	
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2381234Z   if-no-files-found: error
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2382058Z   retention-days: 14
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2382526Z   compression-level: 6
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2382985Z   overwrite: false
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2383402Z   include-hidden-files: false
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2383835Z env:
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2384159Z   EMCC_CORES: 1
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2384525Z   BINARYEN_CORES: 1
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2384885Z   NODE_OPTIONS: --max-old-space-size=512
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2385458Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.2386015Z ##[endgroup]
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4309799Z (node:3747) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4311398Z (Use `node --trace-deprecation ...` to show where the warning was created)
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4370691Z Multiple search paths detected. Calculating the least common ancestor of all paths
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4379720Z The least common ancestor is /home/runner/work/Pando/Pando/assets/wasm. This will be the root directory of the artifact
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4381038Z With the provided path, there will be 3 files uploaded
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4382181Z Artifact name is valid!
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.4382948Z Root directory input is valid!
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.8563923Z Beginning upload of artifact content to blob storage
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:03.9970295Z (node:3747) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:04.7511116Z Uploaded bytes 1243891
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:04.8369707Z Finished uploading artifact content to blob storage!
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:04.8371427Z SHA256 digest of uploaded artifact zip is 33ec51d84367e879be12fea2ca0e24af902fefb4fce69acbfa0c5cbd34d25eb0
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:04.8372910Z Finalizing artifact upload
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:05.3083603Z Artifact geometry-wasm-22c61c54e21a96f158a9f2f0779d2604be63a7d4-42816087700-1.zip successfully finalized. Artifact ID 13764621945
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:05.3086187Z Artifact geometry-wasm-22c61c54e21a96f158a9f2f0779d2604be63a7d4-42816087700-1 has been successfully uploaded! Final size is 1243891 bytes. Artifact ID is 13764621945
+geometry-wasm	Retain the verified immutable runtime pair	2026-11-10T12:34:05.3088462Z Artifact download URL: https://github.com/kimjeon-il/Pando/actions/runs/42816087700/artifacts/13764621945
+geometry-wasm	Post Get the pinned official Emscripten SDK	﻿2026-11-10T12:34:05.3288930Z Post job cleanup.
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4209629Z [command]/usr/bin/git version
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4293371Z git version 2.56.0
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4340219Z Temporarily overriding HOME='/home/runner/work/_temp/b104c610-02be-4acd-b96e-ccaae2bf09e2' before making global git config changes
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4342445Z Adding repository directory to the temporary git global config as a safe directory
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4345923Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando/build-native/emsdk
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4390955Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4434342Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4706050Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.4762961Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.5054889Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+geometry-wasm	Post Get the pinned official Emscripten SDK	2026-11-10T12:34:05.5112623Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+geometry-wasm	Post Run pnpm/action-setup@v4	﻿2026-11-10T12:34:05.5611201Z Post job cleanup.
+geometry-wasm	Post Run pnpm/action-setup@v4	2026-11-10T12:34:05.7170739Z Pruning is unnecessary.
+geometry-wasm	Post Run actions/setup-node@v4	﻿2026-11-10T12:34:05.7335866Z Post job cleanup.
+geometry-wasm	Post Run actions/setup-node@v4	2026-11-10T12:34:05.8691518Z (node:3863) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+geometry-wasm	Post Run actions/setup-node@v4	2026-11-10T12:34:05.8693205Z (Use `node --trace-deprecation ...` to show where the warning was created)
+geometry-wasm	Post Run actions/checkout@v4	﻿2026-11-10T12:34:05.8869833Z Post job cleanup.
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:05.9826668Z [command]/usr/bin/git version
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:05.9872463Z git version 2.56.0
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:05.9945560Z Temporarily overriding HOME='/home/runner/work/_temp/d6bccf99-483d-4295-8d27-4d36b1336487' before making global git config changes
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:05.9947111Z Adding repository directory to the temporary git global config as a safe directory
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:05.9951212Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Pando/Pando
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:06.0006469Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:06.0045423Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:06.0320243Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:06.0384854Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:06.0673790Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+geometry-wasm	Post Run actions/checkout@v4	2026-11-10T12:34:06.0721891Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+geometry-wasm	Complete job	﻿2026-11-10T12:34:06.1146492Z Cleaning up orphan processes
+geometry-wasm	Complete job	2026-11-10T12:34:06.1511533Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/upload-artifact@v4, pnpm/action-setup@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

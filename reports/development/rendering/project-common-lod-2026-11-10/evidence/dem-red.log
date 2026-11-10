@@ -1,0 +1,74 @@
+✖ numeric DEM creates separate land and ocean colors without a tint or geographic image (1.5945ms)
+✖ stored DEM shade changes the resulting color at every latitude (6.7101ms)
+✖ numeric terrain color ignores unrelated precolored imagery (1.5597ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 151.9596
+
+✖ failing tests:
+
+test at tests\unit\rendering\terrain-numeric-color.test.mjs:11:1
+✖ numeric DEM creates separate land and ocean colors without a tint or geographic image (1.5945ms)
+  TypeError: bounds is not iterable
+      at convertTile (file:///D:/dev/worktrees/gis/src/rendering/workers/canvas-terrain-dem-core.js:35:40)
+      at sample (file:///D:/dev/worktrees/gis/tests/unit/rendering/terrain-numeric-color.test.mjs:8:10)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/terrain-numeric-color.test.mjs:12:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tests\unit\rendering\terrain-numeric-color.test.mjs:19:1
+✖ stored DEM shade changes the resulting color at every latitude (6.7101ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(sample(1000,212,common).land[0]>sample(1000,128,common).land[0])
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/terrain-numeric-color.test.mjs:22:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\terrain-numeric-color.test.mjs:26:1
+✖ numeric terrain color ignores unrelated precolored imagery (1.5597ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Uint8ClampedArray(4) [
+  +   168,
+  -   66,
+      95,
+  +   60,
+  -   162,
+      255
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/terrain-numeric-color.test.mjs:31:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Uint8ClampedArray(4) [ 168, 95, 60, 255 ],
+    expected: Uint8ClampedArray(4) [ 66, 95, 162, 255 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

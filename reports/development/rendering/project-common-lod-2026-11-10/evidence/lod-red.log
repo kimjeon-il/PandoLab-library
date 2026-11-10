@@ -1,0 +1,77 @@
+✖ sub-decimal distinct source vertices are never conflated into a shared node (2.8821ms)
+✖ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (1.1044ms)
+✖ invalid calibration is rejected rather than silently using full source geometry (0.355ms)
+✔ shared boundary uses exactly the same derivative with opposite winding (15.9704ms)
+✔ zoomed-in views retain vertices and screen deviation stays below the budget (1.8638ms)
+✔ LOD buckets always bound CSS scale, avoiding visible downgrade jitter (0.2389ms)
+✔ selected source keeps all vertices on its neighbor shared boundary (0.6001ms)
+✔ hole-bearing and dateline-crossing polygons remain exact and unchanged (0.3232ms)
+✔ invalid scale or unclosed rings cannot become an accepted derivative (0.4883ms)
+✔ viewport scoping excludes nonvisible polygons without renumbering country slots (0.6031ms)
+✔ screen LOD rejects invalid screen tolerances in both scoped and global paths (0.4881ms)
+✔ ring start offset and reverse winding do not create a mismatched shared arc (0.6322ms)
+✔ spherical mesh edge subdivision gets finer with zoom and stays under the CSS error budget (0.2735ms)
+✔ small island is preserved without rejecting the other country LOD (0.3136ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 11
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 156.0235
+
+✖ failing tests:
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:21:1
+✖ sub-decimal distinct source vertices are never conflated into a shared node (2.8821ms)
+  TypeError: Invalid polygon ring.
+      at file:///D:/dev/worktrees/gis/src/rendering/render-lod.js:221:41
+      at Array.map (<anonymous>)
+      at file:///D:/dev/worktrees/gis/src/rendering/render-lod.js:215:60
+      at Array.map (<anonymous>)
+      at file:///D:/dev/worktrees/gis/src/rendering/render-lod.js:215:21
+      at Array.map (<anonymous>)
+      at createSharedPolygonLodIndex (file:///D:/dev/worktrees/gis/src/rendering/render-lod.js:210:30)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:25:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:30:1
+✖ calibrated source tolerance respects the detail cap instead of forcing pixel accuracy (1.1044ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  undefined !== 250
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:37:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 250,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\rendering\screen-geometry-lod.test.mjs:46:1
+✖ invalid calibration is rejected rather than silently using full source geometry (0.355ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/rendering/screen-geometry-lod.test.mjs:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /tolerance|policy/i,
+    operator: 'throws',
+    diff: 'simple'
+  }
