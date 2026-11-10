@@ -1,0 +1,1324 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:IRN",
+  "entityKind": "general",
+  "lineageId": "irn",
+  "names": {
+    "ko": "이란"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1501",
+    "validTo": null
+  },
+  "parentEntityId": "",
+  "geometryVersions": [
+    {
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-before",
+      "validFrom": null,
+      "validTo": "1921-12-31",
+      "certainty": "high",
+      "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m-temporal-proxy",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:IRN:state:IRN:natural-earth-5.1.1:caspian-before",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2.json",
+        "sha256": "2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2",
+        "bytes": 328609
+      },
+      "notes": "Existing modern-outline proxy rebased to the authorized November 2026 world-map donor. Dates, attribution and approximation are retained; historical accuracy is not newly verified.",
+      "historicalProvenance": {
+        "verifiedHistoricalGeometry": false,
+        "worldMapRebase": {
+          "status": "candidate-pending-display-review",
+          "sourceFile": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+          "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+          "donorFeatureId": "IRN",
+          "originalDonorEntityId": "state:IRN",
+          "originalDonorVersionId": "state:IRN:natural-earth-5.1.1",
+          "oldGeometrySha256": "35a2cbe36881862786edd4d7480bfcf44a6e9a80f130828c847e55c4df70a92d",
+          "newGeometrySha256": "269f85adc99c34ddba1aa69ec47e8d5bc63384531ee266bfde4ebbc7ec8e2ac4",
+          "previousSourceId": "natural-earth-5.1.1",
+          "historicalAccuracyVerified": false,
+          "effectiveDateEstablished": false,
+          "geometryOperation": "exact-authorized-donor-copy",
+          "previousDisplayReview": null
+        },
+        "displayDetailReview": {
+          "schemaVersion": 1,
+          "status": "passed",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1:caspian-before",
+          "validFrom": null,
+          "validTo": "1921-12-31",
+          "geometrySha256": "269f85adc99c34ddba1aa69ec47e8d5bc63384531ee266bfde4ebbc7ec8e2ac4",
+          "master": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/source-input.json",
+            "sha256": "4e2738953e16716959d1d7fbb3722934f4cfb4227350c30bae08837c3b1c9dff"
+          },
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+          },
+          "comparison": {
+            "reference": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/reference-arcs.json",
+              "sha256": "8194bc1a535acdf4aa7a6a82a0ac4ba46d8360a914187bdac3742d5adf26052d"
+            },
+            "arcSha256": "8194bc1a535acdf4aa7a6a82a0ac4ba46d8360a914187bdac3742d5adf26052d",
+            "extent": [
+              30.997567840552556,
+              17.61374932008525,
+              77.00243215944745,
+              45.13930146842443
+            ],
+            "scaleDenominator": 10000000,
+            "projection": {
+              "definition": "+proj=laea +lat_0=32 +lon_0=54 +datum=WGS84 +units=m +no_defs",
+              "units": "metre",
+              "evidence": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/visual-review.json",
+                "sha256": "28006c165bf54895008d664db573b9ba5b88bf73e09b4e295cb02ec40cb6042b"
+              }
+            }
+          },
+          "method": "preserved-modern-source",
+          "reason": "Exact authorized-donor copy or same modern-successor union replacing an existing approximate temporal proxy. Original dates and political attribution retained; no new historical-accuracy claim.",
+          "parameters": {
+            "simplificationApplied": false,
+            "coordinateRounding": null,
+            "donorIds": [
+              "IRN"
+            ],
+            "geometryOperation": "exact-donor-copy",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "compiled": false,
+            "counterpartRole": "Proposed new-current-world donor versions for source adjacency, not assertions that modern states existed during the historical interval.",
+            "activationCondition": "Current donor/parent corrections and dated compiler failures remain separate blockers; source receipt alone does not authorize runtime activation."
+          },
+          "visual": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/IRN-1921-12-31.png",
+            "sha256": "481a7f443529e6ae5e074178a3b0945d4dfa41105fb524700f28faf415c84c9a"
+          },
+          "topology": {
+            "status": "passed",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/remaining-historical-review/topology-and-dates-proof.json",
+              "sha256": "6436cb8696059ee76d8063c58739397c8d6e24d5feb0df99aca5170fc869cdec"
+            },
+            "checks": [
+              "validity",
+              "shared-boundary",
+              "union",
+              "gaps-overlaps",
+              "connectivity",
+              "holes-islands",
+              "dates"
+            ],
+            "scope": "Source-only exact donor/union coverage, components/holes/interior controls, unchanged dates and metadata. Maximum source neighbor areal residual is explicitly reported, not rounded to zero."
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:ARM",
+              "versionId": "state:ARM:natural-earth-5.1.1",
+              "geometrySha256": "36705377611c2ab0c16d2e1f4e8c618e4ce87f424c6ca4cbb156bb0ea1526026"
+            },
+            {
+              "entityId": "state:AZE",
+              "versionId": "state:AZE:natural-earth-5.1.1",
+              "geometrySha256": "4128b6d8859ed5da923e02372db5f5543e44e64484339ca9b807b18eb7023616"
+            },
+            {
+              "entityId": "state:TKM",
+              "versionId": "state:TKM:natural-earth-5.1.1",
+              "geometrySha256": "9ba9444fbe516c0f4c1c68aca7aa81026b4d710b29b64fcad0ba507397fbd097"
+            },
+            {
+              "entityId": "state:AFG",
+              "versionId": "state:AFG:natural-earth-5.1.1",
+              "geometrySha256": "f41df58c39c49e0e8e94620c55258568c26b1bd878f7e0704a525ae2c329c0b9"
+            },
+            {
+              "entityId": "state:PAK",
+              "versionId": "state:PAK:natural-earth-5.1.1",
+              "geometrySha256": "21df8b422a67c0fb062381790fa11e9a16a90db8d852d7b2e802fc0011650da6"
+            },
+            {
+              "entityId": "state:IRQ",
+              "versionId": "state:IRQ:natural-earth-5.1.1",
+              "geometrySha256": "e5a1f44a7d394206ab270b35721cbe472c2cad793ff83728f9bb7c6db0ec6302"
+            },
+            {
+              "entityId": "state:TUR",
+              "versionId": "state:TUR:natural-earth-5.1.1",
+              "geometrySha256": "dad7c28a1b9b9c7aceeba9015e8fced7572ab3598f97253dde5caaeb470fbe6f"
+            }
+          ],
+          "fixedAnchors": []
+        }
+      }
+    },
+    {
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-01-01",
+      "validFrom": "1922-01-01",
+      "validTo": "1922-12-29",
+      "certainty": "high",
+      "sourceId": "natural-earth-5.1.1",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:IRN:state:IRN:natural-earth-5.1.1:caspian-1922-01-01",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464.json",
+        "sha256": "982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464",
+        "bytes": 251855
+      },
+      "historicalProvenance": {
+        "displayDetailReview": {
+          "schemaVersion": 1,
+          "status": "passed",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-01-01",
+          "validFrom": "1922-01-01",
+          "validTo": "1922-12-29",
+          "geometrySha256": "44b1b21ca4e9579eb88d1670fb56a9b91a1160051938c7ed5a9fdf01aae85b2d",
+          "master": {
+            "reference": "assets/data/territorial-entities/source/geometries/sha256-0fd522b0149d77fbfe271398d5189cdde91a40a4813b57ac489e8f574ba387bf.json",
+            "sha256": "0fd522b0149d77fbfe271398d5189cdde91a40a4813b57ac489e8f574ba387bf",
+            "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+          },
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+            "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+          },
+          "comparison": {
+            "reference": {
+              "reference": "assets/data/countries-ne-5.1.1.geojson",
+              "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+              "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+            },
+            "arcSha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a",
+            "arcDigestDefinition": "SHA256 of complete reviewed-operations file containing exact original arc, donor replacement, all retained originals and two rational intersection certificates.",
+            "extent": [
+              48,
+              24.8,
+              62,
+              31
+            ],
+            "scaleDenominator": 10000000,
+            "projection": {
+              "definition": "+proj=laea +lat_0=32 +lon_0=54 +datum=WGS84 +units=m +no_defs",
+              "units": "metre",
+              "evidence": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/projection-execution.json",
+                "sha256": "fea5d2272e251133aef66c1230bc6e00efbad96cc0a474ea1e220f982e2a7efd"
+              }
+            }
+          },
+          "method": "preserved-modern-source",
+          "reason": "Substitute only the safe Gulf/Oman coast at two in-segment intersections and complete approved donor littoral components. Existing political boundaries, contacts, Abu Musa geometry and absent-island membership remain unchanged; no new historical sovereignty decision.",
+          "parameters": {
+            "compiled": false,
+            "coordinateRounding": null,
+            "simplificationTolerance": null,
+            "snapTolerance": null,
+            "arbitraryStraightConnectors": 0,
+            "intersectionCount": 2,
+            "completeDetachedDonorCount": 184,
+            "preservedOriginalPolygonIndices": [
+              5,
+              6,
+              9
+            ],
+            "heldModernDonorIndices": [
+              85,
+              114,
+              117,
+              118
+            ],
+            "sourceVersionSourceIdPreserved": true,
+            "sourceOperations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+              "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+            },
+            "politicalMembershipPreservation": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/political-exception-preservation.json",
+              "sha256": "cee9e09a428f90b178bb100bf76ed7b6654bf8e636264bcd8d695f2da790b3fd"
+            },
+            "historicalOwnershipReverifiedAcrossWholePeriod": false,
+            "fullPeriodDatedCounterpartClosureVerified": false
+          },
+          "visual": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/visual-review.json",
+            "sha256": "31b1a2b7bd62d1820b10dfdb243e20bf48773a954a84ba1cc9c3e64874515bf8"
+          },
+          "topology": {
+            "status": "passed",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-topology-measurements.json",
+              "sha256": "83092e28d25cf8282e0745acfbb465050c811c2c32e0dd20e145eb73c8db162d"
+            },
+            "checks": [
+              "validity",
+              "shared-boundary",
+              "union",
+              "gaps-overlaps",
+              "connectivity",
+              "holes-islands",
+              "dates"
+            ],
+            "scope": "Only this source-display delta and unchanged source relationships, with missing historic eastern counterpart explicitly recorded. Existing overlaps are preserved, not certified absent."
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:IRQ",
+              "versionId": "state:IRQ:natural-earth-5.1.1",
+              "geometrySha256": "e5a1f44a7d394206ab270b35721cbe472c2cad793ff83728f9bb7c6db0ec6302",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:AFG",
+              "versionId": "state:AFG:natural-earth-5.1.1",
+              "geometrySha256": "f41df58c39c49e0e8e94620c55258568c26b1bd878f7e0704a525ae2c329c0b9",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:TUR",
+              "versionId": "state:TUR:natural-earth-5.1.1",
+              "geometrySha256": "dad7c28a1b9b9c7aceeba9015e8fced7572ab3598f97253dde5caaeb470fbe6f",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "waterbody:caspian",
+              "versionId": "caspian-near1922-approved",
+              "geometrySha256": "6719bd380c1a5d96b4369232a22078b056881766159af6e9761f87a4efb9dc4a",
+              "role": "date-effective historical Caspian water; unchanged relation"
+            }
+          ],
+          "fixedAnchors": [
+            [
+              48.531016,
+              29.96133
+            ],
+            [
+              61.588227,
+              25.202094
+            ],
+            [
+              48.56736271884503,
+              29.960584658535165
+            ],
+            [
+              61.586142441783736,
+              25.206890979587786
+            ]
+          ],
+          "reviewScope": "Prepared technical source-only gate; no source application, legal historical certification, compiled or runtime approval.",
+          "fullPeriodDatedCounterpartClosureVerified": false,
+          "compiledDerivatives": [],
+          "runtimeApproval": false
+        },
+        "safeGulfCoastReuse": {
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+            "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+          },
+          "operations": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+            "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+          },
+          "sourceOnly": true,
+          "oldGeometrySha256": "ece0875078ae236907151a4a0b3fec6724d7b0ca5104a81a3ceafa0ca202eb1c",
+          "newGeometrySha256": "44b1b21ca4e9579eb88d1670fb56a9b91a1160051938c7ed5a9fdf01aae85b2d",
+          "politicalMembershipChanged": false,
+          "wholeDonorCount": 184,
+          "heldModernDonorIndices": [
+            85,
+            114,
+            117,
+            118
+          ],
+          "preservedHistoricalPolygonIndices": [
+            5,
+            6,
+            9
+          ],
+          "compiled": false
+        }
+      }
+    },
+    {
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "certainty": "high",
+      "sourceId": "natural-earth-5.1.1",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:IRN:state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e.json",
+        "sha256": "f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e",
+        "bytes": 252264
+      },
+      "historicalProvenance": {
+        "sarakhsSmallEventRetirement": {
+          "date": "2026-11-04",
+          "record": "S15",
+          "eventAreaKm2": 25.9,
+          "scope": "Remove only the UNTS451 Sarakhs26 display patch; restore its five prior interior vertices. Atrek, Khiva, Bukhara, all other coordinates and periods preserved.",
+          "removedArcSha256": "6b90985c1f12f9eb0572611dc9aafda07ae54847327d84d9d10252e7015f50ff",
+          "restoredArcSha256": "13375fdd39e02a7f7b4963f86b860dbf39e36935610341051f46d4267eb3c76a"
+        },
+        "priorDisplayDetailReviewEvidence": {
+          "schemaVersion": 1,
+          "status": "passed",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "geometrySha256": "edd0f60799e29f9fd303277666fba7934edb066b70cd8ad2f73cd0ebf59a5168",
+          "master": {
+            "reference": "kimjeon-il/PandoLab-library-data@c1d25c3f4e2b139fd043a919e411f4a7825f2ecc:objects/4fd1217e1e2b412187582449ffc56a57875a0631fb9b86926c88019723b9ae79.json; preserved adopted input, original master ZIP/provenance unchanged",
+            "sha256": "4fd1217e1e2b412187582449ffc56a57875a0631fb9b86926c88019723b9ae79"
+          },
+          "source": {
+            "reference": "pinned raw source assets/data/territorial-entities/source/countries/state-IRN.json",
+            "sha256": "bfedee51d65a95be3cc5665d045ed620250c043d55445746c5352e5434b9b792"
+          },
+          "comparison": {
+            "reference": {
+              "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-final-metrics.json",
+              "sha256": "855a39665060f34c3d674ff870615cf6ff02dacce2ba1df9dc257d76f5bd4ec1"
+            },
+            "arcSha256": "73946cf87ed9c5976f505249170a90d4be33d1d89710d1a4d32aa7d3ab70a7b6",
+            "extent": [
+              54.08531501065625,
+              37.32589645768979,
+              54.541362810083875,
+              37.44086291083094
+            ],
+            "scaleDenominator": 10000000,
+            "projection": {
+              "definition": "Per-arc local WGS84 AEQD; actual executed definitions retained in fixed measurement inputs; Darja local center53.7E39.4N",
+              "units": "metre",
+              "evidence": {
+                "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-final-metric-input.json",
+                "sha256": "4a81168cc0fc2d7eecc19ba93b62ecfb97dbe4eb4888e96ddc7129cfc9a01006"
+              }
+            }
+          },
+          "method": "reviewed-display-generalization",
+          "reason": "Separate local Darja-inclusive display candidate. Shared original-coordinate subsets, required anchors, outside coordinates, historical periods, islands and connectivity preserved. No production activation or source-master replacement.",
+          "parameters": {
+            "sourceRevision": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+            "localRules": "Eastern per-feature modern comparison q25; western bounded50/100m windows; Atrek400m protected interior; Darja400m between geometric locks. No global tolerance or fixed vertex ratio.",
+            "arcs": [
+              "atrek-shared-interior-400m"
+            ],
+            "evidenceLayer": "Local candidate validation only; external publication not approved",
+            "physicalDarjaEvidence": null
+          },
+          "visual": {
+            "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-final-comparison.png",
+            "sha256": "2670f5a512d3a1aa122e35704eb9fe6a210ffd8d64cb5b3b61836a5f8d5e202e"
+          },
+          "topology": {
+            "status": "passed",
+            "evidence": {
+              "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-integrated-topology.json",
+              "sha256": "43b846cc37f1d17778ca7cc0cd5e0e694ab5343c4a45387d0d0ee4867f41db68"
+            },
+            "checks": [
+              "validity",
+              "shared-boundary",
+              "union",
+              "gaps-overlaps",
+              "connectivity",
+              "holes-islands",
+              "dates"
+            ],
+            "physicalSurfaceEvidence": {
+              "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-physical-final-exact-proof.json",
+              "sha256": "4137e4244042126972a109918cfa8d2a179eae9937b8b19837328cf17ab72407"
+            },
+            "exactOutsideEvidence": {
+              "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-integrated-exact-outside.json",
+              "sha256": "a707ab52ae520d034a594bdf20b38f5f8d9531ac301841b0cf0028b9928e8ed6"
+            }
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:soviet-union",
+              "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+              "geometrySha256": "2d0734f946edb554b5c77eedba982f557a8ca68fb2cf64300bb595f33951f97c"
+            },
+            {
+              "entityId": "state:soviet-union-russian-sfsr",
+              "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+              "geometrySha256": "0d7df4440a8aa0380bf364537d03aa87774df35082d3998d7538732744e92074"
+            }
+          ],
+          "fixedAnchors": [
+            [
+              54.08531501065625,
+              37.32589645768979
+            ],
+            [
+              54.541362810083875,
+              37.44086291083094
+            ]
+          ],
+          "compiledDerivatives": [
+            {
+              "schemaVersion": 1,
+              "status": "passed",
+              "entityId": "IRN",
+              "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+              "validFrom": "1922-12-30",
+              "validTo": "1925-05-12",
+              "geometrySha256": "bc9b10118b8f453df7c432cc70d0b6cff1cf8a3c7ab2b5d26d5126b5ed820629",
+              "master": {
+                "reference": "kimjeon-il/PandoLab-library-data@c1d25c3f4e2b139fd043a919e411f4a7825f2ecc:objects/4fd1217e1e2b412187582449ffc56a57875a0631fb9b86926c88019723b9ae79.json; preserved adopted input, original master ZIP/provenance unchanged",
+                "sha256": "4fd1217e1e2b412187582449ffc56a57875a0631fb9b86926c88019723b9ae79"
+              },
+              "source": {
+                "reference": "pinned raw source assets/data/territorial-entities/source/countries/state-IRN.json",
+                "sha256": "bfedee51d65a95be3cc5665d045ed620250c043d55445746c5352e5434b9b792"
+              },
+              "comparison": {
+                "reference": {
+                  "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-final-metrics.json",
+                  "sha256": "855a39665060f34c3d674ff870615cf6ff02dacce2ba1df9dc257d76f5bd4ec1"
+                },
+                "arcSha256": "73946cf87ed9c5976f505249170a90d4be33d1d89710d1a4d32aa7d3ab70a7b6",
+                "extent": [
+                  54.08531501065625,
+                  37.32589645768979,
+                  54.541362810083875,
+                  37.44086291083094
+                ],
+                "scaleDenominator": 10000000,
+                "projection": {
+                  "definition": "Per-arc local WGS84 AEQD; actual executed definitions retained in fixed measurement inputs; Darja local center53.7E39.4N",
+                  "units": "metre",
+                  "evidence": {
+                    "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-final-metric-input.json",
+                    "sha256": "4a81168cc0fc2d7eecc19ba93b62ecfb97dbe4eb4888e96ddc7129cfc9a01006"
+                  }
+                }
+              },
+              "method": "reviewed-display-generalization",
+              "reason": "Separate local Darja-inclusive display candidate. Shared original-coordinate subsets, required anchors, outside coordinates, historical periods, islands and connectivity preserved. No production activation or source-master replacement.",
+              "parameters": {
+                "sourceRevision": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+                "localRules": "Eastern per-feature modern comparison q25; western bounded50/100m windows; Atrek400m protected interior; Darja400m between geometric locks. No global tolerance or fixed vertex ratio.",
+                "arcs": [
+                  "atrek-shared-interior-400m"
+                ],
+                "evidenceLayer": "Local candidate validation only; external publication not approved",
+                "physicalDarjaEvidence": null
+              },
+              "visual": {
+                "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-final-comparison.png",
+                "sha256": "2670f5a512d3a1aa122e35704eb9fe6a210ffd8d64cb5b3b61836a5f8d5e202e"
+              },
+              "topology": {
+                "status": "passed",
+                "evidence": {
+                  "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-integrated-topology.json",
+                  "sha256": "43b846cc37f1d17778ca7cc0cd5e0e694ab5343c4a45387d0d0ee4867f41db68"
+                },
+                "checks": [
+                  "validity",
+                  "shared-boundary",
+                  "union",
+                  "gaps-overlaps",
+                  "connectivity",
+                  "holes-islands",
+                  "dates"
+                ],
+                "physicalSurfaceEvidence": {
+                  "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-physical-final-exact-proof.json",
+                  "sha256": "4137e4244042126972a109918cfa8d2a179eae9937b8b19837328cf17ab72407"
+                },
+                "exactOutsideEvidence": {
+                  "reference": "local:D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-integrated-exact-outside.json",
+                  "sha256": "a707ab52ae520d034a594bdf20b38f5f8d9531ac301841b0cf0028b9928e8ed6"
+                }
+              },
+              "counterpartVersions": [
+                {
+                  "entityId": "state:soviet-union",
+                  "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+                  "geometrySha256": "2d0734f946edb554b5c77eedba982f557a8ca68fb2cf64300bb595f33951f97c"
+                },
+                {
+                  "entityId": "state:soviet-union-russian-sfsr",
+                  "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+                  "geometrySha256": "0d7df4440a8aa0380bf364537d03aa87774df35082d3998d7538732744e92074"
+                }
+              ],
+              "fixedAnchors": [
+                [
+                  54.08531501065625,
+                  37.32589645768979
+                ],
+                [
+                  54.541362810083875,
+                  37.44086291083094
+                ]
+              ]
+            }
+          ]
+        },
+        "priorDisplayDetailResearchReviewEvidence": {
+          "status": "provisional",
+          "adoptionApproved": false,
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "geometrySha256": "edd0f60799e29f9fd303277666fba7934edb066b70cd8ad2f73cd0ebf59a5168",
+          "preservedRegisteredMaster": {
+            "sha256": "4fd1217e1e2b412187582449ffc56a57875a0631fb9b86926c88019723b9ae79",
+            "reference": "immutable registered input, raw originals retained"
+          },
+          "comparisonAndParameters": {
+            "reference": "build-native/territorial-recipe/east-followup-final-2026-11-05/selected/../trials.json",
+            "sha256": "94eaf969535f668c56fe219ccca26eccafa2a7081546c68ab6f66bc5f6a0b281",
+            "method": "per-feature constrained exact-subset DP; source-derived hard/contact windows; research-only broad uncertainty handling"
+          },
+          "executedGeometryEvidence": {
+            "reference": "build-native/territorial-recipe/east-followup-final-2026-11-05/selected/topology-checks.json",
+            "sha256": "308b2870bea05a6ea4faad7b5d04298b5f21a1b282da79f6de3a651077118bd0",
+            "scope": "new East incremental topology/parity/foreign proof; prior West/Atrek/Darja proofs reused by unchanged coordinates"
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:soviet-union",
+              "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+              "geometrySha256": "2953e5b3baf11b4b6713a6118af61bc3ab2941bce1b328fda75852d859eca584"
+            },
+            {
+              "entityId": "state:soviet-union",
+              "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+              "geometrySha256": "9a566c5578c79ff795e84d04a8abb35bb3d5bfb283316b6f0c71d8af35226db0"
+            },
+            {
+              "entityId": "state:soviet-union-russian-sfsr",
+              "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+              "geometrySha256": "ed21887713b80d3815cb02dfec4ddf93152404fc4c3f1a784fcf648fec081943"
+            },
+            {
+              "entityId": "state:soviet-union-byelorussian-ssr",
+              "versionId": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+              "geometrySha256": "105d390e738687c7ad5b849d7c96e6ac97e47b5b7c33bc876e7a722ced782bc6"
+            },
+            {
+              "entityId": "state:soviet-union-ukrainian-ssr",
+              "versionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+              "geometrySha256": "aeaf1cf13b4b8206d7cbce4c1ffda5f32cc3232c9fb6dfc4d3d1da12e6c00241"
+            },
+            {
+              "entityId": "waterbody:caspian",
+              "versionId": "caspian-near1922-approved",
+              "geometrySha256": "6719bd380c1a5d96b4369232a22078b056881766159af6e9761f87a4efb9dc4a"
+            }
+          ],
+          "meaningLimit": "Bounded source context and specified anchors only; historical legal accuracy and complete NE parity not certified. No passed gate receipt generated."
+        },
+        "displayDetailReview": {
+          "schemaVersion": 1,
+          "status": "passed",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "geometrySha256": "82daed21b11ec08d32e2148caf2b884ea4c66b118a678f7d2fdfa23f7ee5d337",
+          "master": {
+            "reference": "assets/data/territorial-entities/source/geometries/sha256-3cfe320c7013d32c1af4e2dea10a6efce53f322920854d4155e4e590c13af6e8.json",
+            "sha256": "3cfe320c7013d32c1af4e2dea10a6efce53f322920854d4155e4e590c13af6e8",
+            "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+          },
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+            "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+          },
+          "comparison": {
+            "reference": {
+              "reference": "assets/data/countries-ne-5.1.1.geojson",
+              "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+              "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+            },
+            "arcSha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a",
+            "arcDigestDefinition": "SHA256 of complete reviewed-operations file containing exact original arc, donor replacement, all retained originals and two rational intersection certificates.",
+            "extent": [
+              48,
+              24.8,
+              62,
+              31
+            ],
+            "scaleDenominator": 10000000,
+            "projection": {
+              "definition": "+proj=laea +lat_0=32 +lon_0=54 +datum=WGS84 +units=m +no_defs",
+              "units": "metre",
+              "evidence": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/projection-execution.json",
+                "sha256": "fea5d2272e251133aef66c1230bc6e00efbad96cc0a474ea1e220f982e2a7efd"
+              }
+            }
+          },
+          "method": "preserved-modern-source",
+          "reason": "Substitute only the safe Gulf/Oman coast at two in-segment intersections and complete approved donor littoral components. Existing political boundaries, contacts, Abu Musa geometry and absent-island membership remain unchanged; no new historical sovereignty decision.",
+          "parameters": {
+            "compiled": false,
+            "coordinateRounding": null,
+            "simplificationTolerance": null,
+            "snapTolerance": null,
+            "arbitraryStraightConnectors": 0,
+            "intersectionCount": 2,
+            "completeDetachedDonorCount": 184,
+            "preservedOriginalPolygonIndices": [
+              5,
+              6,
+              9
+            ],
+            "heldModernDonorIndices": [
+              85,
+              114,
+              117,
+              118
+            ],
+            "sourceVersionSourceIdPreserved": true,
+            "sourceOperations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+              "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+            },
+            "politicalMembershipPreservation": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/political-exception-preservation.json",
+              "sha256": "cee9e09a428f90b178bb100bf76ed7b6654bf8e636264bcd8d695f2da790b3fd"
+            },
+            "historicalOwnershipReverifiedAcrossWholePeriod": false,
+            "fullPeriodDatedCounterpartClosureVerified": false
+          },
+          "visual": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/visual-review.json",
+            "sha256": "31b1a2b7bd62d1820b10dfdb243e20bf48773a954a84ba1cc9c3e64874515bf8"
+          },
+          "topology": {
+            "status": "passed",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-topology-measurements.json",
+              "sha256": "83092e28d25cf8282e0745acfbb465050c811c2c32e0dd20e145eb73c8db162d"
+            },
+            "checks": [
+              "validity",
+              "shared-boundary",
+              "union",
+              "gaps-overlaps",
+              "connectivity",
+              "holes-islands",
+              "dates"
+            ],
+            "scope": "Only this source-display delta and unchanged source relationships, with missing historic eastern counterpart explicitly recorded. Existing overlaps are preserved, not certified absent."
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:IRQ",
+              "versionId": "state:IRQ:natural-earth-5.1.1",
+              "geometrySha256": "e5a1f44a7d394206ab270b35721cbe472c2cad793ff83728f9bb7c6db0ec6302",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:AFG",
+              "versionId": "state:AFG:natural-earth-5.1.1",
+              "geometrySha256": "f41df58c39c49e0e8e94620c55258568c26b1bd878f7e0704a525ae2c329c0b9",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:TUR",
+              "versionId": "state:TUR:natural-earth-5.1.1",
+              "geometrySha256": "dad7c28a1b9b9c7aceeba9015e8fced7572ab3598f97253dde5caaeb470fbe6f",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:soviet-union",
+              "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+              "geometrySha256": "9a566c5578c79ff795e84d04a8abb35bb3d5bfb283316b6f0c71d8af35226db0",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:soviet-union-russian-sfsr",
+              "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+              "geometrySha256": "ed21887713b80d3815cb02dfec4ddf93152404fc4c3f1a784fcf648fec081943",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:soviet-union-transcaucasian-sfsr",
+              "versionId": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2",
+              "geometrySha256": "e3ad36c993c6b5e89ed74b452148e4139d79b404f1f261cac2b11b2430c1a21b",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "waterbody:caspian",
+              "versionId": "caspian-near1922-approved",
+              "geometrySha256": "6719bd380c1a5d96b4369232a22078b056881766159af6e9761f87a4efb9dc4a",
+              "role": "date-effective historical Caspian water; unchanged relation"
+            }
+          ],
+          "fixedAnchors": [
+            [
+              48.531016,
+              29.96133
+            ],
+            [
+              61.588227,
+              25.202094
+            ],
+            [
+              48.56736271884503,
+              29.960584658535165
+            ],
+            [
+              61.586142441783736,
+              25.206890979587786
+            ]
+          ],
+          "reviewScope": "Prepared technical source-only gate; no source application, legal historical certification, compiled or runtime approval.",
+          "fullPeriodDatedCounterpartClosureVerified": false,
+          "compiledDerivatives": [],
+          "runtimeApproval": false
+        },
+        "safeGulfCoastReuse": {
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+            "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+          },
+          "operations": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+            "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+          },
+          "sourceOnly": true,
+          "oldGeometrySha256": "edd0f60799e29f9fd303277666fba7934edb066b70cd8ad2f73cd0ebf59a5168",
+          "newGeometrySha256": "82daed21b11ec08d32e2148caf2b884ea4c66b118a678f7d2fdfa23f7ee5d337",
+          "politicalMembershipChanged": false,
+          "wholeDonorCount": 184,
+          "heldModernDonorIndices": [
+            85,
+            114,
+            117,
+            118
+          ],
+          "preservedHistoricalPolygonIndices": [
+            5,
+            6,
+            9
+          ],
+          "compiled": false
+        }
+      }
+    },
+    {
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "certainty": "high",
+      "sourceId": "natural-earth-5.1.1",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:IRN:state:IRN:natural-earth-5.1.1:caspian-1925-05-13",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464.json",
+        "sha256": "982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464",
+        "bytes": 251855
+      },
+      "historicalProvenance": {
+        "displayDetailReview": {
+          "schemaVersion": 1,
+          "status": "passed",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1:caspian-1925-05-13",
+          "validFrom": "1925-05-13",
+          "validTo": "1929-12-31",
+          "geometrySha256": "44b1b21ca4e9579eb88d1670fb56a9b91a1160051938c7ed5a9fdf01aae85b2d",
+          "master": {
+            "reference": "assets/data/territorial-entities/source/geometries/sha256-0fd522b0149d77fbfe271398d5189cdde91a40a4813b57ac489e8f574ba387bf.json",
+            "sha256": "0fd522b0149d77fbfe271398d5189cdde91a40a4813b57ac489e8f574ba387bf",
+            "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+          },
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+            "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+          },
+          "comparison": {
+            "reference": {
+              "reference": "assets/data/countries-ne-5.1.1.geojson",
+              "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+              "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+            },
+            "arcSha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a",
+            "arcDigestDefinition": "SHA256 of complete reviewed-operations file containing exact original arc, donor replacement, all retained originals and two rational intersection certificates.",
+            "extent": [
+              48,
+              24.8,
+              62,
+              31
+            ],
+            "scaleDenominator": 10000000,
+            "projection": {
+              "definition": "+proj=laea +lat_0=32 +lon_0=54 +datum=WGS84 +units=m +no_defs",
+              "units": "metre",
+              "evidence": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/projection-execution.json",
+                "sha256": "fea5d2272e251133aef66c1230bc6e00efbad96cc0a474ea1e220f982e2a7efd"
+              }
+            }
+          },
+          "method": "preserved-modern-source",
+          "reason": "Substitute only the safe Gulf/Oman coast at two in-segment intersections and complete approved donor littoral components. Existing political boundaries, contacts, Abu Musa geometry and absent-island membership remain unchanged; no new historical sovereignty decision.",
+          "parameters": {
+            "compiled": false,
+            "coordinateRounding": null,
+            "simplificationTolerance": null,
+            "snapTolerance": null,
+            "arbitraryStraightConnectors": 0,
+            "intersectionCount": 2,
+            "completeDetachedDonorCount": 184,
+            "preservedOriginalPolygonIndices": [
+              5,
+              6,
+              9
+            ],
+            "heldModernDonorIndices": [
+              85,
+              114,
+              117,
+              118
+            ],
+            "sourceVersionSourceIdPreserved": true,
+            "sourceOperations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+              "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+            },
+            "politicalMembershipPreservation": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/political-exception-preservation.json",
+              "sha256": "cee9e09a428f90b178bb100bf76ed7b6654bf8e636264bcd8d695f2da790b3fd"
+            },
+            "historicalOwnershipReverifiedAcrossWholePeriod": false,
+            "fullPeriodDatedCounterpartClosureVerified": false
+          },
+          "visual": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/visual-review.json",
+            "sha256": "31b1a2b7bd62d1820b10dfdb243e20bf48773a954a84ba1cc9c3e64874515bf8"
+          },
+          "topology": {
+            "status": "passed",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-topology-measurements.json",
+              "sha256": "83092e28d25cf8282e0745acfbb465050c811c2c32e0dd20e145eb73c8db162d"
+            },
+            "checks": [
+              "validity",
+              "shared-boundary",
+              "union",
+              "gaps-overlaps",
+              "connectivity",
+              "holes-islands",
+              "dates"
+            ],
+            "scope": "Only this source-display delta and unchanged source relationships, with missing historic eastern counterpart explicitly recorded. Existing overlaps are preserved, not certified absent."
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:IRQ",
+              "versionId": "state:IRQ:natural-earth-5.1.1",
+              "geometrySha256": "e5a1f44a7d394206ab270b35721cbe472c2cad793ff83728f9bb7c6db0ec6302",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:AFG",
+              "versionId": "state:AFG:natural-earth-5.1.1",
+              "geometrySha256": "f41df58c39c49e0e8e94620c55258568c26b1bd878f7e0704a525ae2c329c0b9",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:TUR",
+              "versionId": "state:TUR:natural-earth-5.1.1",
+              "geometrySha256": "dad7c28a1b9b9c7aceeba9015e8fced7572ab3598f97253dde5caaeb470fbe6f",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "state:soviet-union",
+              "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+              "geometrySha256": "2953e5b3baf11b4b6713a6118af61bc3ab2941bce1b328fda75852d859eca584",
+              "role": "date-effective stored source counterpart/context"
+            },
+            {
+              "entityId": "waterbody:caspian",
+              "versionId": "caspian-near1922-approved",
+              "geometrySha256": "6719bd380c1a5d96b4369232a22078b056881766159af6e9761f87a4efb9dc4a",
+              "role": "date-effective historical Caspian water; unchanged relation"
+            }
+          ],
+          "fixedAnchors": [
+            [
+              48.531016,
+              29.96133
+            ],
+            [
+              61.588227,
+              25.202094
+            ],
+            [
+              48.56736271884503,
+              29.960584658535165
+            ],
+            [
+              61.586142441783736,
+              25.206890979587786
+            ]
+          ],
+          "reviewScope": "Prepared technical source-only gate; no source application, legal historical certification, compiled or runtime approval.",
+          "fullPeriodDatedCounterpartClosureVerified": false,
+          "compiledDerivatives": [],
+          "runtimeApproval": false
+        },
+        "safeGulfCoastReuse": {
+          "source": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+            "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+          },
+          "operations": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+            "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+          },
+          "sourceOnly": true,
+          "oldGeometrySha256": "ece0875078ae236907151a4a0b3fec6724d7b0ca5104a81a3ceafa0ca202eb1c",
+          "newGeometrySha256": "44b1b21ca4e9579eb88d1670fb56a9b91a1160051938c7ed5a9fdf01aae85b2d",
+          "politicalMembershipChanged": false,
+          "wholeDonorCount": 184,
+          "heldModernDonorIndices": [
+            85,
+            114,
+            117,
+            118
+          ],
+          "preservedHistoricalPolygonIndices": [
+            5,
+            6,
+            9
+          ],
+          "compiled": false
+        }
+      }
+    },
+    {
+      "versionId": "state:IRN:natural-earth-5.1.1",
+      "validFrom": "1930-01-01",
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "approved-current-world-display-20261107",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:IRN:state:IRN:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2.json",
+        "sha256": "2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2",
+        "bytes": 328609
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "approved-current-world-display-20261107",
+        "status": "approved-prepared-current-source-adoption",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "IRN",
+        "geometrySha256": "269f85adc99c34ddba1aa69ec47e8d5bc63384531ee266bfde4ebbc7ec8e2ac4",
+        "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+        "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+        "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+        "upstream": {
+          "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+          "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+          "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+          "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+          "sourceFileBytesLocallyVerified": false,
+          "sourceWP_IDs": [
+            "9c11e0fc-6619-4236-bff0-8c0390b760f4"
+          ],
+          "sourceWP_IDsEvidence": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+            "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+          }
+        },
+        "sourceReview": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+          "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+        }
+      },
+      "historicalProvenance": {
+        "verifiedHistoricalGeometry": false,
+        "currentGeometrySource": {
+          "sourceId": "approved-current-world-display-20261107",
+          "status": "approved-prepared-current-source-adoption",
+          "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+          "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+          "featureId": "IRN",
+          "geometrySha256": "269f85adc99c34ddba1aa69ec47e8d5bc63384531ee266bfde4ebbc7ec8e2ac4",
+          "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+          "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+          "historicalAccuracyVerified": false,
+          "effectiveDateEstablished": false,
+          "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+          "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+          "upstream": {
+            "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+            "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+            "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+            "sourceFileBytesLocallyVerified": false,
+            "sourceWP_IDs": [
+              "9c11e0fc-6619-4236-bff0-8c0390b760f4"
+            ],
+            "sourceWP_IDsEvidence": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+              "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+            }
+          },
+          "sourceReview": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+            "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+          }
+        },
+        "previousGeometryProvenance": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1",
+          "priorVersionSha256": "6aa5d98d1641f87f0fcc564a08b88f7f0f527b1a3c2ebba33e469deba81dbaeb",
+          "role": "Retired geometry attribution/reviews only. Political/date evidence remains preserved; old reviews do not certify the adopted geometry.",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "displayDetailReview": {
+          "schemaVersion": 1,
+          "status": "passed",
+          "entityId": "state:IRN",
+          "versionId": "state:IRN:natural-earth-5.1.1",
+          "validFrom": "1930-01-01",
+          "validTo": null,
+          "geometrySha256": "269f85adc99c34ddba1aa69ec47e8d5bc63384531ee266bfde4ebbc7ec8e2ac4",
+          "master": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "role": "Approved prepared current-display donor master. Original upstream survey/GPKG master is not revalidated by this receipt."
+          },
+          "source": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+            "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+          },
+          "comparison": {
+            "reference": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+              "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+            },
+            "arcSha256": "35a2cbe36881862786edd4d7480bfcf44a6e9a80f130828c847e55c4df70a92d",
+            "arcDigestDefinition": "sha256(JSON.stringify([type, coordinates])) of this version original geometry, present at rows[entityId,versionId].original.geometry in reference",
+            "extent": [
+              37.89273408793134,
+              19.998413913235986,
+              70.10726591206866,
+              43.34280997153505
+            ],
+            "scaleDenominator": 10000000,
+            "projection": {
+              "definition": "+proj=laea +lat_0=32 +lon_0=54 +datum=WGS84 +units=m +no_defs",
+              "units": "metre",
+              "evidence": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+                "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8"
+              }
+            }
+          },
+          "method": "preserved-modern-source",
+          "reason": "Adopt the exact approved modern display-source geometry in this existing version and preserve its dates, political interpretation and uncertainty. Current-source visual/topology preservation is checked; boundary accuracy at validFrom is not newly asserted.",
+          "parameters": {
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "additionalSimplificationMetres": 0,
+            "coordinateRounding": null,
+            "upstreamSourceSkeletonMetres": 2000,
+            "upstreamSourceSubordinateRuleMetres": 250,
+            "upstreamParametersRole": "Recorded prepared donor parameters; not a new generalization run",
+            "preserveLocalPoliticalExceptions": true,
+            "historicalSourceAccuracyAsserted": false,
+            "compiled": false
+          },
+          "visual": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+            "sha256": "25e71b18d03ede72a0b3a2ad9a1f75a1ab237d089e17fd44ccee245ab2776be6"
+          },
+          "visualImages": [
+            {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/iran.png",
+              "sha256": "ab68c47394ccb737ab070e828067e50a55bb22017334bf11addcc81c285fccb5"
+            }
+          ],
+          "topology": {
+            "status": "passed",
+            "evidence": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            },
+            "checks": [
+              "validity",
+              "shared-boundary",
+              "union",
+              "gaps-overlaps",
+              "connectivity",
+              "holes-islands",
+              "dates"
+            ],
+            "scope": "Validity and measured scoped neighbor intersections. Union, gaps, connectivity, holes and islands preserve the exact approved donor. Existing KAZ/KAB legal parent/subunit overlap and documented floating-point residuals are explicit exceptions, not clipped. Dates and all unselected versions are preserved, not historically re-established."
+          },
+          "counterpartVersions": [
+            {
+              "entityId": "state:AZE",
+              "versionId": "state:AZE:natural-earth-5.1.1",
+              "geometrySha256": "4128b6d8859ed5da923e02372db5f5543e44e64484339ca9b807b18eb7023616"
+            },
+            {
+              "entityId": "state:TUR",
+              "versionId": "state:TUR:natural-earth-5.1.1",
+              "geometrySha256": "dad7c28a1b9b9c7aceeba9015e8fced7572ab3598f97253dde5caaeb470fbe6f"
+            },
+            {
+              "entityId": "state:ARM",
+              "versionId": "state:ARM:natural-earth-5.1.1",
+              "geometrySha256": "36705377611c2ab0c16d2e1f4e8c618e4ce87f424c6ca4cbb156bb0ea1526026"
+            },
+            {
+              "entityId": "state:IRQ",
+              "versionId": "state:IRQ:natural-earth-5.1.1",
+              "geometrySha256": "e5a1f44a7d394206ab270b35721cbe472c2cad793ff83728f9bb7c6db0ec6302"
+            },
+            {
+              "entityId": "state:PAK",
+              "versionId": "state:PAK:natural-earth-5.1.1",
+              "geometrySha256": "21df8b422a67c0fb062381790fa11e9a16a90db8d852d7b2e802fc0011650da6"
+            },
+            {
+              "entityId": "state:AFG",
+              "versionId": "state:AFG:natural-earth-5.1.1",
+              "geometrySha256": "f41df58c39c49e0e8e94620c55258568c26b1bd878f7e0704a525ae2c329c0b9"
+            },
+            {
+              "entityId": "state:TKM",
+              "versionId": "state:TKM:natural-earth-5.1.1",
+              "geometrySha256": "9ba9444fbe516c0f4c1c68aca7aa81026b4d710b29b64fcad0ba507397fbd097"
+            }
+          ],
+          "fixedAnchors": []
+        }
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "IRN",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ir.svg",
+    "representativeGeometryVersionId": "state:IRN:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "approved-current-world-display-20261107",
+    "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "IRN",
+    "featureProperties": {
+      "name": "이란"
+    },
+    "geometrySha256": "071303c0b3c80a775c245cfd329a5650ffc8b460197b54c09f9ddc87b2f62b95",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-25",
+      "calendar": "proleptic-gregorian",
+      "precision": "year",
+      "criterion": "User explicitly selected Safavid reunification in 1501 as the current polity origin; do not merge earlier interrupted Persian empires or restart for the 1979 regime.",
+      "sourceUrls": [
+        "https://tile.loc.gov/storage-services/master/frd/copr/Iran.pdf",
+        "https://history.state.gov/countries/iran"
+      ],
+      "userSelected": true
+    },
+    "caspianTerritoryAdjustment": {
+      "referenceWaterVersion": "caspian-near1922-approved",
+      "validFrom": "1922-01-01",
+      "validTo": "1929-12-31",
+      "inputSha256": "a1c7f5b0a585bb5e1a1033102928e02ac6c17c26dc8be5d176ead7e486791bff",
+      "scope": "Subtract historical water and add uniquely shore-adjacent exposed land; existing historical version coverage is not extended.",
+      "candidateStatus": "Seven eastern exposed components use existing modern TKM/later-USSR coast attribution; one 20 m source mismatch. Original omitted island bodies remain outside this delta-only correction."
+    },
+    "geometryVersionId": "state:IRN:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "5a618b5f7b556aa39177a2b2ec48da0618c2fa2c56a9fa2ad55560ad1ca87082",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "IRN",
+        "geometryVersionId": "state:IRN:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      },
+      {
+        "sourceId": "approved-current-world-display-safe-irn-gulf-coast-20261110",
+        "geometryVersionIds": [
+          "state:IRN:natural-earth-5.1.1:caspian-1922-01-01",
+          "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+          "state:IRN:natural-earth-5.1.1:caspian-1925-05-13"
+        ],
+        "role": "Only safe Gulf/Oman coastal display proxy arcs and 184 whole donor components. Existing source IDs, original Abu Musa and absent islands preserved; no legal attribution change.",
+        "sourceProvenance": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-provenance.json",
+          "sha256": "138ef3d81761aa6cfa5f20aff7c60fa342d4eef564702695be6aecffac4a639b"
+        },
+        "operations": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+          "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+        },
+        "licenseNotice": "Preserve all inherited source and composite modern donor rights; no new redistribution permission."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

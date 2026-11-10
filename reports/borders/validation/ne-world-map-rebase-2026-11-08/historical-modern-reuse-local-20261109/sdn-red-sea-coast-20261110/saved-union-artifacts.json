@@ -1,0 +1,246 @@
+{
+  "verifiedAt": "2026-11-10T06:05:54.525Z",
+  "headAtFinish": "e889e5acceb96f8d7180707f1d2d0a2078393d78",
+  "sourceApplied": true,
+  "sourceOnly": true,
+  "fullUnionApplied": false,
+  "localEvidenceReferencesVerified": 12,
+  "artifactCount": 39,
+  "artifactBytes": 3938451,
+  "artifacts": [
+    {
+      "path": "apply-safe-source.mjs",
+      "bytes": 5079,
+      "sha256": "0f6feaa9f3589037047ce5633af2a2c786fe3bc14de9f0f672b98d00bf9f8d72",
+      "readBackVerified": true
+    },
+    {
+      "path": "build-source-patches.mjs",
+      "bytes": 13504,
+      "sha256": "525db13788f92856198c0d91ccac02f91205052b0d0808801fde7d5912e64f6d",
+      "readBackVerified": true
+    },
+    {
+      "path": "finalize-local-application.mjs",
+      "bytes": 4673,
+      "sha256": "84dc4e46c5b04899541c5a23e2701528a0b842e70f1adf2edbf4a751f5cfc6b2",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-modern-union-candidate.geojson",
+      "bytes": 146053,
+      "sha256": "48f0ae157eca6eb0c53a57b461f6a70a13d71b3e0cdde42af4ec85fcfeb88665",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-caf-floating-diagnostic.json",
+      "bytes": 668,
+      "sha256": "14598dab42b91469371cb7c0b15e5b13488a8f9af3a189476ef900fb931e55d3",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-canonical-source-patch.json",
+      "bytes": 400569,
+      "sha256": "197e6fe8fd71096243c8923a5ca810940ed23e4ffb57e935a3d93a02acb4f081",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-investigation.json",
+      "bytes": 47467,
+      "sha256": "4682a90e48562027929e0c2adb1559e59bd8126fe7f9b2de848bd483df8f0129",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-projected-candidate-boundary.wkb",
+      "bytes": 168866,
+      "sha256": "2947cd96db59ffd42def4b47b105215b8d009f48756e85dcdf263e4aab81a8e8",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-source-gate-proof.json",
+      "bytes": 1605,
+      "sha256": "4aa8f8262098189c599fb0c6cf6991b29c9a6624b873a8ff7f1340c73a195da2",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-source-provenance.json",
+      "bytes": 9221,
+      "sha256": "9cf0cde3fc1aff95da6e199b28379e5208f83c9751c03488e330bef0a7244864",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-source-scale.png",
+      "bytes": 45668,
+      "sha256": "ffad78b4206b0d55df1ba3c9822aab1f06d9d12c24b0efba3813f893e8bb6d6f",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-topology-and-projection.json",
+      "bytes": 15237,
+      "sha256": "7fcbc950bf2a0101730f5a4e91658ba44be0f09be8ad190bfcd8f9de27c442bc",
+      "readBackVerified": true
+    },
+    {
+      "path": "full-union-visual-review.json",
+      "bytes": 1200,
+      "sha256": "53072c5b47e144ed293ef91f74bfb7cd24070fdfc59356e5b94a0118071b4385",
+      "readBackVerified": true
+    },
+    {
+      "path": "local-application-result.md",
+      "bytes": 2385,
+      "sha256": "2cd6a193b9353d7f0e095baa815849a4810c872a4f0bb0cef5139da42f1008f4",
+      "readBackVerified": true
+    },
+    {
+      "path": "local-archive-commit.json",
+      "bytes": 2990,
+      "sha256": "1ea18637859f2e914058ab052bbf8bd7c3c7e1995093aee9333214fc804635bb",
+      "readBackVerified": true
+    },
+    {
+      "path": "local-source-application.json",
+      "bytes": 1996,
+      "sha256": "cfabf4b570b29809d465c4b10b4b6a0959be9dd2189ce309120c5dce10867eed",
+      "readBackVerified": true
+    },
+    {
+      "path": "modern-donor-attribution-evidence.json",
+      "bytes": 4286,
+      "sha256": "93a1ca6be587a60b74df367dabf8a103b4b9282024a7811d25112f2137688d4b",
+      "readBackVerified": true
+    },
+    {
+      "path": "modern-union-inputs.json",
+      "bytes": 1094933,
+      "sha256": "3e806dfa4d1dc0dfaa202d4ed5dcd6540e417221ca9e467af8606a11bae9e4bc",
+      "readBackVerified": true
+    },
+    {
+      "path": "natural-earth-peer-geometries.json",
+      "bytes": 259415,
+      "sha256": "ea0522efe175554b43c695ebdbf3e25426605739a9f4ffad1c59c133a334d3ba",
+      "readBackVerified": true
+    },
+    {
+      "path": "political-inclusion-comparison.json",
+      "bytes": 6361,
+      "sha256": "bc07a9523b40f84c5abcb7da7e1fefb7611cb95e6f739760c86cfc1b10705e67",
+      "readBackVerified": true
+    },
+    {
+      "path": "political-model-review.md",
+      "bytes": 18171,
+      "sha256": "279f923f857d2eabb04a80d99d5d1d6d8db7bf2a469206124af961d9cca85d60",
+      "readBackVerified": true
+    },
+    {
+      "path": "preapplication-saved-artifacts.json",
+      "bytes": 6230,
+      "sha256": "7ec0059e495056bfd2f186d1766c4e1c34dde3ce16b5c517cd1f87a35dd65861",
+      "readBackVerified": true
+    },
+    {
+      "path": "prepare-full-union-review.py",
+      "bytes": 12947,
+      "sha256": "d7782728eadb47c6179c6e31d54cf459fc0f94e78d08aeed9b5d3fc87b51395b",
+      "readBackVerified": true
+    },
+    {
+      "path": "prepared-source-patches-summary.json",
+      "bytes": 1383,
+      "sha256": "8f068cadf4dfe522fae15cc806000f0da0c5d577906f7ee45bdba0be60b58896",
+      "readBackVerified": true
+    },
+    {
+      "path": "projected-candidate-boundary.wkb",
+      "bytes": 168866,
+      "sha256": "2947cd96db59ffd42def4b47b105215b8d009f48756e85dcdf263e4aab81a8e8",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-all-sdn-components-candidate.geojson",
+      "bytes": 71431,
+      "sha256": "b27e33e26b91293c5eb4f374bea1e8df306833949618e941282154148f1c7584",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-canonical-source-patch.json",
+      "bytes": 247250,
+      "sha256": "cd551b4b4929aa12e36393ecdf50e937d019a8fe78c3ba03d14e8b5b1ba8112a",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-projected-candidate-boundary.wkb",
+      "bytes": 149575,
+      "sha256": "8877d8954630bed7ea4a8b555b14f5cb7bafcca9e96c045a7d5e92989ff18a97",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-source-gate-proof.json",
+      "bytes": 1492,
+      "sha256": "d44599450d5578f44524e4b89dc83363cebfd8c901696f722c9cf865c755a69f",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-source-provenance.json",
+      "bytes": 9714,
+      "sha256": "ac561ea332d9366f0179e441f402dd2ee0745a8a9f777fb11a69962c04ada716",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-source-scale.png",
+      "bytes": 45008,
+      "sha256": "bf39cbdadec7eb5b47411aa9e3c93741105511ac92d5815d584b00380b337e84",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-topology-and-projection.json",
+      "bytes": 17043,
+      "sha256": "aea53483e2461771a6efe13a64191df1633aa8cfd10b0d689ab6a52eed0659b3",
+      "readBackVerified": true
+    },
+    {
+      "path": "safe-coast-visual-review.json",
+      "bytes": 1266,
+      "sha256": "a4365ce0215831534c7269e84ca961b1b103f8bab8ecfa2956f2e3a824c503a8",
+      "readBackVerified": true
+    },
+    {
+      "path": "saved-input-replay-verification.json",
+      "bytes": 430,
+      "sha256": "ba916f64d1fb2130afc5c02c75c3b31a86226122d1c0001b0a3747ed5b98e0f8",
+      "readBackVerified": true
+    },
+    {
+      "path": "scoped-peer-geometries.json",
+      "bytes": 892798,
+      "sha256": "7a32a7cb13c29327a646ea12f5090d0078654afba7db0cbda52cf46d6ba9de12",
+      "readBackVerified": true
+    },
+    {
+      "path": "source-preparation.json",
+      "bytes": 51438,
+      "sha256": "d2230fb0a3ba382940305887044d893eed486f90a829e5f77e9a80c56667d32b",
+      "readBackVerified": true
+    },
+    {
+      "path": "store-command-result.json",
+      "bytes": 592,
+      "sha256": "18f541b355e7f3f48dd36bdb462fc13d6258611b81c847e3258ee38ac35f28df",
+      "readBackVerified": true
+    },
+    {
+      "path": "store-safe-source.mjs",
+      "bytes": 2541,
+      "sha256": "31edaaddff99771cd8be954a7301de05007e679185fc3b3b32a424d5f9bfed80",
+      "readBackVerified": true
+    },
+    {
+      "path": "verify-stored-safe-source.mjs",
+      "bytes": 8100,
+      "sha256": "264995278cee8ae7efff4e5bd72c6a3ea9fb10f3906d6cd705f970ca715dca39",
+      "readBackVerified": true
+    }
+  ]
+}

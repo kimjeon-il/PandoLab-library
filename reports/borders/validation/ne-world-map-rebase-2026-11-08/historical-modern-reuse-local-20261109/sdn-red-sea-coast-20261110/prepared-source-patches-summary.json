@@ -1,0 +1,31 @@
+{
+  "createdAt": "2026-11-10T06:01:47.747Z",
+  "sourceRevision": "46e6d5c9451fb137717987483428c441051c19a5",
+  "sourceApplied": false,
+  "results": [
+    {
+      "prefix": "safe-coast",
+      "status": "passed-for-scoped-source-change",
+      "checked": 1,
+      "gateError": null,
+      "codecRoundtrip": true,
+      "geometrySha256": "0256dbb71d3ea1e9581d0d630282394186bf2637062ffeffc7894ebc7285a1bb",
+      "patch": {
+        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/safe-coast-canonical-source-patch.json",
+        "sha256": "cd551b4b4929aa12e36393ecdf50e937d019a8fe78c3ba03d14e8b5b1ba8112a"
+      }
+    },
+    {
+      "prefix": "full-union",
+      "status": "expected-rejection-for-unresolved-full-review",
+      "checked": 0,
+      "gateError": "Historical display review required: state:SDN/state:sudan:1956-2011-r1: missing or unresolved review",
+      "codecRoundtrip": true,
+      "geometrySha256": "40739d91159df176657541905f7a5a2b9c9c8561196e20d3b9285fa31406cacf",
+      "patch": {
+        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/full-union-canonical-source-patch.json",
+        "sha256": "197e6fe8fd71096243c8923a5ca810940ed23e4ffb57e935a3d93a02acb4f081"
+      }
+    }
+  ]
+}

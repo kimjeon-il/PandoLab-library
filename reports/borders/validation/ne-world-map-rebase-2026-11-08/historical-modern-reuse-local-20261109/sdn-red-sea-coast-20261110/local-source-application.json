@@ -1,0 +1,40 @@
+{
+  "status": "safe-source-applied-locally-archive-pending",
+  "checkedAt": "2026-11-10T06:03:54.945Z",
+  "headBefore": "46e6d5c9451fb137717987483428c441051c19a5",
+  "pinBefore": "46e6d5c9451fb137717987483428c441051c19a5",
+  "appConfigBeforeSha256": "893dab26296a2ac8e7db83f947fd69bffe031a2fce10dad008d05d77f4349140",
+  "reportRefsBefore": "refs/pando/reports/gis ae4a7ec429e03ff2338c7e58a052933a441d591d\nrefs/pando/reports/main 3e15d3e89bcdda89c54ec0d5ab61488b7bf12689\nrefs/pando/reports/map-toolkit 8f2b22120930278c166a75eed49488e0be668734\nrefs/pando/reports/objects 1c315b4c7b15a3bebe32f444ed78f45a0e9d5b09\nrefs/pando/reports/places a340a0005afc0d1fe8154c547baf51ac948510d7\nrefs/pando/reports/ui 8763eefd05bdf23cd163e15d58067417d7a4676e\n",
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-SDN.json",
+    "assets/data/territorial-entities/source/geometries/sha256-d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f.json"
+  ],
+  "result": {
+    "descriptorWrites": 1,
+    "geometryWrites": 1
+  },
+  "expected": {
+    "entitySha256": "9030864af9e3a7d84ed272457bda42752566bd5deee2ac1239e46aef7a62e628",
+    "descriptorSha256": "1a7837c91c1c89c6be63ec90251908675f029dc358ec5c8faf9d0129419ae562",
+    "geometrySha256": "0256dbb71d3ea1e9581d0d630282394186bf2637062ffeffc7894ebc7285a1bb",
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:SDN:state:sudan:1956-2011-r1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f.json",
+      "sha256": "d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f",
+      "bytes": 70667
+    }
+  },
+  "patchSha256": "cd551b4b4929aa12e36393ecdf50e937d019a8fe78c3ba03d14e8b5b1ba8112a",
+  "independentReplay": true,
+  "all45DonorComponentsExact": true,
+  "sourceGateCount": 1,
+  "sourceOnly": true,
+  "compiled": false,
+  "pushed": false,
+  "deployed": false
+}

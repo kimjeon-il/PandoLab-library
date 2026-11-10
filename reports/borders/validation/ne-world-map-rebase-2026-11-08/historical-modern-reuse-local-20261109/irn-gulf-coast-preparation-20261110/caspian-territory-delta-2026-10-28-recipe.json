@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "baseApplicationRevision": "c55fc510e109c682be3b7af91ae1316dde22e9d1",
+  "baseDataRevision": "c22c85ce9fbff291f8886d8e226b9853a7b821db",
+  "sourceInputs": [
+    {
+      "entityId": "state:soviet-union",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+      "sha256": "f06399111b7613409453eb18758c237359bd287ea1dfb74318bb50f27ce65e26"
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+      "sha256": "199ac5db253a2aafb53204c6dcf0cfdf645d01df996e1631b6f3391998e5618a"
+    },
+    {
+      "entityId": "state:soviet-union-transcaucasian-sfsr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-transcaucasian-sfsr.json",
+      "sha256": "f4e13069a1b018f36ccedeb2ab3c1654bcbc328f99b430600a056fa7fdff7feb"
+    },
+    {
+      "entityId": "state:IRN",
+      "path": "assets/data/territorial-entities/source/countries/state-IRN.json",
+      "sha256": "a1c7f5b0a585bb5e1a1033102928e02ac6c17c26dc8be5d176ead7e486791bff"
+    }
+  ],
+  "waterInput": {
+    "path": "assets/data/territorial-entities/source/countries/waterbody-caspian.json",
+    "versionId": "caspian-near1922-approved",
+    "validFrom": "1922-01-01",
+    "validTo": "1929-12-31"
+  },
+  "additions": {
+    "state:soviet-union-russian-sfsr": "candidate-additions-r.geojson",
+    "state:soviet-union-transcaucasian-sfsr": "candidate-additions-t.geojson",
+    "state:IRN": "candidate-additions-i.geojson",
+    "state:soviet-union": "union of Russian SFSR and Transcaucasian SFSR additions"
+  },
+  "iranBorderCorrection": {
+    "sourceEntityId": "state:soviet-union",
+    "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+    "validFrom": "1922-12-30",
+    "validTo": "1925-05-12",
+    "clipBoxes": [
+      [
+        54.08,
+        37.26,
+        54.55,
+        37.45
+      ],
+      [
+        61.1,
+        36.56,
+        61.19,
+        36.65
+      ]
+    ],
+    "operation": "Subtract original reviewed USSR geometry restricted to these two boxes from Iran only."
+  },
+  "operations": {
+    "source": "adjustGeometry and splitVersion in tools/gis/caspian-territory-delta.mjs",
+    "compiled": "regenerateGeometry(originalSource, correctedSource, pinnedCompiledGeometry, polygonClipping). Preserve prior compiled exclusions; split bindings and remap sourceVersionId/metadata. Repack using existing packBuiltinWorldFiles and rebuild native library objects with storeNativeLibraryObjects."
+  },
+  "limitation": "Seven eastern additions use existing modern TKM/later-USSR coast attribution, not independent historical sovereignty research. Original missing island bodies remain outside delta-only scope.",
+  "verification": "Independent accepted final source/runtime candidates; 5 synthetic tests and 25 compiled bindings."
+}

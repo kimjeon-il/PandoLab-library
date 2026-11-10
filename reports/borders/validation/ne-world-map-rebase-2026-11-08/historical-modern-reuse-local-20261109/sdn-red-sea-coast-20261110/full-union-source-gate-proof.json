@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "expected-rejection-for-unresolved-full-review",
+  "sourceRevision": "46e6d5c9451fb137717987483428c441051c19a5",
+  "sourceGateModuleSha256": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563",
+  "gateMethod": "preserved-modern-source",
+  "changedHistoricalVersionsChecked": 0,
+  "gateError": "Historical display review required: state:SDN/state:sudan:1956-2011-r1: missing or unresolved review",
+  "codecRoundtrip": true,
+  "otherVersionExact": true,
+  "allExistingVersionMetadataExactExceptDocumentedAdditions": true,
+  "datesAndLifetimeExact": true,
+  "existingNotesAndCertaintyExact": true,
+  "sourceInfoChange": "One explicit attribution appended only",
+  "expected": {
+    "entitySha256": "aaeb64cc017c8e421eeb7cb33a59c883d3512ed9ca359d3c01b390971f561d57",
+    "descriptorSha256": "c12a5bf3d2d93ed550cab1d6521901bdfe44862d684e79814889f7bbabb1d4b6",
+    "geometrySha256": "40739d91159df176657541905f7a5a2b9c9c8561196e20d3b9285fa31406cacf",
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:SDN:state:sudan:1956-2011-r1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-dd3a0ffa74a2058cc04bae40957440367fa200cd2030984230211a51401bccd8.json",
+      "sha256": "dd3a0ffa74a2058cc04bae40957440367fa200cd2030984230211a51401bccd8",
+      "bytes": 145549
+    }
+  },
+  "scopeWarning": "The gate checks input-bound review receipt structure and identity. It does not independently prove historical correctness or authorize source application.",
+  "sourceApplied": false
+}

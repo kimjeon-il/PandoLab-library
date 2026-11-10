@@ -1,0 +1,248 @@
+{
+  "scope": "Spatial model comparison only, not reconstruction of legal disputed-area polygons. Named broad/interior boxes are explicit diagnostics.",
+  "sourceRevision": "0e49cfeeb54ee83afb7671e9d56f11d5f400f380",
+  "regions": {
+    "halaibNorth22BroadEnvelope": {
+      "bounds": [
+        34,
+        22,
+        38,
+        24
+      ],
+      "maskAreaKm2": 90825.49034899088,
+      "oldIncludedKm2": 0,
+      "newIncludedKm2": 0.12805432509444362,
+      "symmetricDifferenceKm2": 0.12805432509429696,
+      "identicalInsideMask": false,
+      "oldCoversFullMask": false,
+      "newCoversFullMask": false,
+      "largestDifferenceProbe": {
+        "coordinate": [
+          34.780569624989724,
+          22.000004000000047
+        ],
+        "oldIncluded": false,
+        "newIncluded": true,
+        "componentAreaKm2": 0.12805432509429696
+      }
+    },
+    "birTawilCurrentGeometry": {
+      "bounds": [
+        33.17240820000006,
+        21.724883200000022,
+        34.08062140000004,
+        22.000008000000037
+      ],
+      "maskAreaKm2": 2002.2470609307475,
+      "oldIncludedKm2": 1.9145424320873634,
+      "newIncludedKm2": 0,
+      "symmetricDifferenceKm2": 1.9145424296570273,
+      "identicalInsideMask": false,
+      "oldCoversFullMask": false,
+      "newCoversFullMask": false,
+      "largestDifferenceProbe": {
+        "coordinate": [
+          34.01595769213206,
+          21.81056474018073
+        ],
+        "oldIncluded": true,
+        "newIncluded": false,
+        "componentAreaKm2": 1.3672985903781287
+      }
+    },
+    "birTawilNaturalEarthGeometry": {
+      "bounds": [
+        33.181136,
+        21.710957,
+        34.084179,
+        21.995454
+      ],
+      "maskAreaKm2": 2019.4014219200499,
+      "oldIncludedKm2": 0,
+      "newIncludedKm2": 66.17262131236933,
+      "symmetricDifferenceKm2": 66.17262131236906,
+      "identicalInsideMask": false,
+      "oldCoversFullMask": false,
+      "newCoversFullMask": false,
+      "largestDifferenceProbe": {
+        "coordinate": [
+          33.37465443560258,
+          21.851796
+        ],
+        "oldIncluded": false,
+        "newIncluded": true,
+        "componentAreaKm2": 61.979871663222184
+      }
+    },
+    "abyeiBroadEnvelope": {
+      "bounds": [
+        27.5,
+        8.8,
+        30,
+        10.7
+      ],
+      "maskAreaKm2": 57643.13671011747,
+      "oldIncludedKm2": 57643.1367101174,
+      "newIncludedKm2": 57643.1367101174,
+      "symmetricDifferenceKm2": 0,
+      "identicalInsideMask": true,
+      "oldCoversFullMask": true,
+      "newCoversFullMask": true
+    },
+    "kafiaKingiInteriorEnvelope": {
+      "bounds": [
+        24.3,
+        9,
+        25.2,
+        10
+      ],
+      "maskAreaKm2": 10930.085172294563,
+      "oldIncludedKm2": 10930.08517229456,
+      "newIncludedKm2": 10930.08517229456,
+      "symmetricDifferenceKm2": 0,
+      "identicalInsideMask": true,
+      "oldCoversFullMask": true,
+      "newCoversFullMask": true
+    },
+    "kafiaKingiBroadEnvelope": {
+      "bounds": [
+        23.4,
+        8.2,
+        25.5,
+        10.5
+      ],
+      "maskAreaKm2": 58679.83765567008,
+      "oldIncludedKm2": 50526.67791651278,
+      "newIncludedKm2": 49791.244038126664,
+      "symmetricDifferenceKm2": 766.7887004787328,
+      "identicalInsideMask": false,
+      "oldCoversFullMask": false,
+      "newCoversFullMask": false,
+      "differenceOutsideOldOrModernCARGeometryKm2": 0,
+      "largestDifferenceProbe": {
+        "coordinate": [
+          23.671611115087074,
+          9.776704
+        ],
+        "oldIncluded": true,
+        "newIncluded": false,
+        "componentAreaKm2": 331.7286683205652
+      }
+    },
+    "ilemiCoreDiagnosticEnvelope": {
+      "bounds": [
+        34.6,
+        4.6,
+        35.1,
+        4.9
+      ],
+      "maskAreaKm2": 1840.1863834419873,
+      "oldIncludedKm2": 425.1459512917997,
+      "newIncludedKm2": 427.25966312879365,
+      "symmetricDifferenceKm2": 2.1137105644966505,
+      "identicalInsideMask": false,
+      "oldCoversFullMask": false,
+      "newCoversFullMask": false,
+      "largestDifferenceProbe": {
+        "coordinate": [
+          34.804426025721035,
+          4.8156305
+        ],
+        "oldIncluded": false,
+        "newIncluded": true,
+        "componentAreaKm2": 2.1137105644966505
+      }
+    },
+    "alFashagaDiagnosticEnvelope": {
+      "bounds": [
+        35.6,
+        12.7,
+        37.1,
+        14.5
+      ],
+      "maskAreaKm2": 32325.257596670428,
+      "oldIncludedKm2": 15786.327692645586,
+      "newIncludedKm2": 16403.353599563867,
+      "symmetricDifferenceKm2": 641.2981969114722,
+      "identicalInsideMask": false,
+      "oldCoversFullMask": false,
+      "newCoversFullMask": false,
+      "largestDifferenceProbe": {
+        "coordinate": [
+          36.39843403537919,
+          13.627645000000001
+        ],
+        "oldIncluded": false,
+        "newIncluded": true,
+        "componentAreaKm2": 629.0411275002369
+      }
+    }
+  },
+  "probes": {
+    "halaibInterior": {
+      "coordinate": [
+        36.5,
+        22.4
+      ],
+      "oldIncluded": false,
+      "newIncluded": false
+    },
+    "birTawilInterior": {
+      "coordinate": [
+        33.75,
+        21.85
+      ],
+      "oldIncluded": false,
+      "newIncluded": false
+    },
+    "abyeiInterior": {
+      "coordinate": [
+        28.43,
+        9.6
+      ],
+      "oldIncluded": true,
+      "newIncluded": true
+    },
+    "kafiaKingiInterior": {
+      "coordinate": [
+        24.8,
+        9.3
+      ],
+      "oldIncluded": true,
+      "newIncluded": true
+    },
+    "hegligInterior": {
+      "coordinate": [
+        29.4,
+        10
+      ],
+      "oldIncluded": true,
+      "newIncluded": true
+    },
+    "ilemiInterior": {
+      "coordinate": [
+        35,
+        4.7
+      ],
+      "oldIncluded": false,
+      "newIncluded": false
+    },
+    "alFashagaWestInterior": {
+      "coordinate": [
+        36,
+        14
+      ],
+      "oldIncluded": true,
+      "newIncluded": true
+    },
+    "alFashagaEastProbe": {
+      "coordinate": [
+        36.3,
+        14
+      ],
+      "oldIncluded": true,
+      "newIncluded": true
+    }
+  },
+  "interpretation": "Halaib/Bir Tawil main inclusion convention and Abyei/Kafia interior inclusion are unchanged. Boundary-rim coordinate differences are separately quantified; no inference of a sovereign transfer or verification of every disputed contour follows."
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "status": "source-only-coast-delta-prepared-not-applied",
+  "sourceRevision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "currentMainRead": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "entityId": "state:IRN",
+  "sourceDescriptor": {
+    "reference": "assets/data/territorial-entities/source/countries/state-IRN.json",
+    "sha256": "1a06ee94aa17b457b1cb4567d69931a8bf7cce04c00e61649241e59dc5f40e7d",
+    "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa"
+  },
+  "sourceDescriptorSha256": "1a06ee94aa17b457b1cb4567d69931a8bf7cce04c00e61649241e59dc5f40e7d",
+  "normalizedEntityPreimageSha256": "37de576c98775612f1821c9d10a836bfdb361bbe88d90d8b81013eea9ee6d955",
+  "donor": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "recordedWholeFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "geometrySha256": "269f85adc99c34ddba1aa69ec47e8d5bc63384531ee266bfde4ebbc7ec8e2ac4",
+    "scope": "Approved prepared modern display source; inherited licenses and political exceptions retained. Not dated historical ownership evidence."
+  },
+  "operations": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/reviewed-operations.json",
+    "sha256": "417d72ddf86a83b9f90d4f0a5914e7786a597478fe5752edb2845154a1d4158a"
+  },
+  "intersections": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/intersection-certificates.json",
+    "sha256": "aba029eabd75dcac8deb71ff5038496a6b97e25a6211f7195a7e53d575da02dc"
+  },
+  "politicalPreservation": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/political-exception-preservation.json",
+    "sha256": "cee9e09a428f90b178bb100bf76ed7b6654bf8e636264bcd8d695f2da790b3fd"
+  },
+  "counterparts": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/counterpart-bindings.json",
+    "sha256": "1514124637f2927aaed4bcca7246d0afee8711b74d9fc0c57fca4caf528f9e0c"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/source-topology-measurements.json",
+    "sha256": "83092e28d25cf8282e0745acfbb465050c811c2c32e0dd20e145eb73c8db162d"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/visual-review.json",
+    "sha256": "31b1a2b7bd62d1820b10dfdb243e20bf48773a954a84ba1cc9c3e64874515bf8"
+  },
+  "preservation": {
+    "originalAbuMusa": "Full original polygon retained exactly, area unchanged. Modern donor114 not substituted.",
+    "originallyAbsentExceptions": "Farsi85 and Tunbs117/118 remain absent; no positive new ownership decision.",
+    "entireEligibleDetachedDonors": 184,
+    "donorSizeCutoff": null,
+    "Caspian": "All old coordinates and both components retained.",
+    "AtrekAndSarakhsRetirement": "All current northern non-NE edges and metadata retained.",
+    "landPoliticalBoundaries": "Every existing mainland political coordinate and contact retained."
+  },
+  "limits": [
+    "No historical legal or precise physical-shoreline accuracy certification.",
+    "Source-only delta; compiled-only western correction must remain intact in any later compilation.",
+    "No complete historical eastern counterpart available; PAK and IND are not date-effective.",
+    "Whole-donor/full-mainland rebase remains a separate paired task."
+  ],
+  "compiledApproval": false,
+  "runtimeApproval": false,
+  "sourceApplicationApproved": false
+}

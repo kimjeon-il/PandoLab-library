@@ -1,0 +1,69 @@
+{
+  "sourceRevision": "0e49cfeeb54ee83afb7671e9d56f11d5f400f380",
+  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+  "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b",
+  "rows": [
+    {
+      "featureId": "SDS",
+      "selectedVersionId": "state:SDS:2011-07-09-independence-r1",
+      "candidateGeometrySha256": "cf9b0dfb58f91b4f0b97a56df3363a6b03f8c39186bf5330f256297191512595",
+      "baseDonorStillCurrent": true,
+      "originalArtifact": {
+        "commit": "b782dd46f8028ab70b4b6e853c276b9b668bfeef",
+        "blobPath": [
+          "archive/blobs/d17eef999a3596f958939ad715274731c04c02a12f151e247aace92cd1935d13.bin"
+        ],
+        "storedSha256": "d17eef999a3596f958939ad715274731c04c02a12f151e247aace92cd1935d13",
+        "encoding": "gzip-bytes"
+      },
+      "notes": "2011-07-09 독립한 남수단. 현대 Natural Earth 외곽선을 초기 독립국의 잠정 경계로 재사용. 아비에이·미획정 경계의 당대 확정 형상은 아님.",
+      "sourceId": "natural-earth-5.1.1-current-outline-temporal-proxy+dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+      "worldMapDisplayReplacement": {
+        "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+        "sourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+        "sourceWP_IDs": [
+          "65f20b50-a947-4f2c-86c6-f221b5539314",
+          "d44c9409-93c4-4645-b6ce-7bf0aa5b7b34"
+        ],
+        "report": "reports/borders/validation/world-map-integration-20261107",
+        "policy": "Replace ordinary land boundaries and coastlines; preserve existing local political exceptions and all object/temporal metadata.",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "localAttributionPreservation": "Preserve existing SDN Kafia Kingi attribution using the exact localized prior-ownership intersection; ordinary new LSIB boundaries elsewhere retained."
+      },
+      "verifiedHistoricalGeometry": false
+    },
+    {
+      "featureId": "SDN",
+      "selectedVersionId": "state:SDN:2011-07-09-post-secession-r1",
+      "candidateGeometrySha256": "7b6477fd3621c2524fdf93c25f31c8d7280b6fd806e37ea4993199f3293710a5",
+      "baseDonorStillCurrent": true,
+      "originalArtifact": {
+        "commit": "b782dd46f8028ab70b4b6e853c276b9b668bfeef",
+        "blobPath": [
+          "archive/blobs/f71e6824d1c5cee4a02854956f25fb4c03da67c90a14ab0cefcdc706dc30b636.bin"
+        ],
+        "storedSha256": "f71e6824d1c5cee4a02854956f25fb4c03da67c90a14ab0cefcdc706dc30b636",
+        "encoding": "gzip-bytes"
+      },
+      "notes": "2011-07-09 남수단 독립 뒤 수단 형상 잠정값. 2026-10-06 Natural Earth 외곽선을 2011~2026 구간의 대리 자료로 사용. 아비에이(Abyei) 분쟁지역과 경계 변경을 해당 연도별로 검증한 도형이 아님.",
+      "sourceId": "natural-earth-5.1.1-current-outline-temporal-proxy+dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+      "worldMapDisplayReplacement": {
+        "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+        "sourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+        "sourceWP_IDs": [
+          "5e5abf17-541f-465d-869e-4db3d1dc0f21",
+          "d5c9432a-112b-42c3-be6e-284f08bbcd74"
+        ],
+        "report": "reports/borders/validation/world-map-integration-20261107",
+        "policy": "Replace ordinary land boundaries and coastlines; preserve existing local political exceptions and all object/temporal metadata.",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "localAttributionPreservation": "Preserve existing SDN Kafia Kingi attribution using the exact localized prior-ownership intersection; ordinary new LSIB boundaries elsewhere retained."
+      },
+      "verifiedHistoricalGeometry": false
+    }
+  ]
+}

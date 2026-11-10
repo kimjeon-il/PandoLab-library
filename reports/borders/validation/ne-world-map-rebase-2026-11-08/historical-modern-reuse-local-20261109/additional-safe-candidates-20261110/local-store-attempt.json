@@ -1,0 +1,20 @@
+{
+  "status": "store-returned-success",
+  "baseRevision": "e889e5acceb96f8d7180707f1d2d0a2078393d78",
+  "args": [
+    "tools/data/library-data.mjs",
+    "--store",
+    "--include-prefix=assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+    "--include-prefix=assets/data/territorial-entities/source/countries/state-soviet-union.json",
+    "--include-prefix=assets/data/territorial-entities/source/geometries/sha256-116a18083207461686836242c978fe87f70f27dd40bd42ba573e2688bc040e6f.json",
+    "--include-prefix=assets/data/territorial-entities/source/geometries/sha256-bca6829530ae7b98b80ed25547f3220c6d298e5c2ce9b0aa6b17627bb2668432.json",
+    "--include-prefix=assets/data/territorial-entities/source/geometries/sha256-d49ca626d683b2cfb7c29befd0e492de74ba236f1a92c1de7159298ec8db1bc5.json"
+  ],
+  "push": false,
+  "fetch": false,
+  "transportGuard": "process-only protocol.allow=never",
+  "compiled": false,
+  "sourceOnly": true,
+  "stdout": "Library stored: 7c9425bfbf5ab7326b806505183bffdda0cd6677\n",
+  "revision": "7c9425bfbf5ab7326b806505183bffdda0cd6677"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "status": "viewed-final-source-scale-and-both-intersection-diagnostics",
+  "viewedAt": "2026-11-10T05:50:40.484Z",
+  "sourceScale": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/IRN-safe-coast-10m.png",
+    "sha256": "cfb9304beb35fe26a0056d0b4f856904df861393b9511ae6ba36f6a3d4de4cfb"
+  },
+  "diagnostics": [
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/IRN-west-join-diagnostic.png",
+      "sha256": "29ee0a2c19d5c6fb4e5aa0dcc28e27f5504d363bccfbf4672cf8dea0763995ae"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/IRN-east-join-diagnostic.png",
+      "sha256": "d14f999b6c1f5c516db4c544c6511a7f76530ed7c1216e6731ff5504b5664bc8"
+    }
+  ],
+  "projection": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/projection-execution.json",
+    "sha256": "fea5d2272e251133aef66c1230bc6e00efbad96cc0a474ea1e220f982e2a7efd"
+  },
+  "observations": [
+    "The final candidate retains recognizable Iran outline at common nominal 1:10M output scale.",
+    "All three versions use the same southern coastal operation; existing northern differences remain coordinate-exact.",
+    "Abu Musa retains its complete old source polygon. No old political exception was deleted or newly assigned.",
+    "Both new join points lie on original source and modern donor coastal segments. Source political endpoints and their adjacent old coastal runs remain unchanged.",
+    "PAK gray outline is modern donor-only context, not a 1922 neighbor; original source endpoint geometry is the preservation authority."
+  ],
+  "scope": "Technical source display delta only; not historical legal/shoreline accuracy, full-period neighbor closure, compiled or runtime approval."
+}

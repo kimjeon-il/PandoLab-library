@@ -1,0 +1,47 @@
+import fs from 'node:fs';
+import {pathToFileURL} from 'node:url';
+import {isDeepStrictEqual as eq} from 'node:util';
+import * as m from '../deu-c1-c2-c3-combined/source-review/review-inputs.mjs';
+const O=new URL('./',import.meta.url),read=n=>JSON.parse(fs.readFileSync(new URL(n,O)));
+const p=read('safe-coast-canonical-source-patch.json'),head=m.git('rev-parse','HEAD').toString().trim();
+const approvedHead='46e6d5c9451fb137717987483428c441051c19a5',approvedPatch='cd551b4b4929aa12e36393ecdf50e937d019a8fe78c3ba03d14e8b5b1ba8112a';
+const s=await import(pathToFileURL(m.A+'/tools/data/territorial-entity-sources.mjs'));
+const rt=await import(pathToFileURL(m.A+'/tools/data/library-runtime.mjs'));
+if(!process.argv.includes('--apply'))throw Error('Explicit --apply required');
+if(fs.existsSync(new URL('local-source-application.json',O)))throw Error('Application outcome recorded; inspect before retry');
+if(head!==approvedHead||head!==p.sourceRevision||m.git('status','--porcelain').toString().trim())throw Error('Archive head/clean state changed');
+if(m.sha(fs.readFileSync(new URL('safe-coast-canonical-source-patch.json',O)))!==approvedPatch)throw Error('Approved patch changed');
+const configBytes=fs.readFileSync(m.A+'/config/library-data.json'),config=JSON.parse(configBytes);
+if(config.revision!==head)throw Error('Pin differs from approved latest main');
+const before=s.readTerritorialSource(p.entityId),archivedBefore=m.entity('SDN',head);
+if(!eq(before,archivedBefore.entity)||m.h(before)!==p.normalizedEntityPreimageSha256||m.sha(fs.readFileSync(m.A+'/'+p.sourcePath))!==p.sourceDescriptorPreimageSha256)throw Error('Materialized source preimage mismatch');
+const next=structuredClone(before);
+if(p.replacementVersions.length!==1||m.h(before.geometryVersions[0])!==p.sourceVersionPreimageSha256)throw Error('Unexpected version patch');
+next.geometryVersions[0]=p.replacementVersions[0];
+next.sourceInfo.sourceAttributions??=[];
+next.sourceInfo.sourceAttributions.push(...p.sourceAttributionsAppend);
+const n=m.normalize(next),enc=m.encodeTerritorialSource(n);
+if(m.h(n)!==p.expected.entitySha256||m.assertHistoricalDisplayChanges(n,before)!==1)throw Error('Final source gate/hash');
+if(!eq(m.normalize(m.decodeTerritorialSource(enc.descriptor,f=>enc.geometries.get(f))),n))throw Error('Final codec');
+if(m.sha(Buffer.from(JSON.stringify(enc.descriptor,null,2)+'\n'))!==p.expected.descriptorSha256)throw Error('Descriptor hash');
+const old=before.geometryVersions[0].geometry.coordinates[0][0],donor=before.geometryVersions[1].geometry.coordinates;
+const replay={type:'MultiPolygon',coordinates:[[old.slice(0,223).concat([[36.863862678223406,21.972785132487843]],donor[0][0].slice(940,1647),[[38.541078477188215,18.08494491870742]],old.slice(421)),...before.geometryVersions[0].geometry.coordinates[0].slice(1)],...donor.slice(1)]};
+if(!eq(replay,n.geometryVersions[0].geometry)||replay.coordinates.length!==46||donor.slice(1).length!==45)throw Error('Independent coast/component replay failed');
+if(!eq(n.geometryVersions[1],before.geometryVersions[1]))throw Error('Post-2011 donor changed');
+const prefixes=[p.sourcePath,...[...enc.geometries.keys()].filter(f=>!fs.existsSync(m.A+'/assets/data/territorial-entities/source/'+f)).map(f=>'assets/data/territorial-entities/source/'+f)];
+if(prefixes.length!==2||prefixes[1]!=='assets/data/territorial-entities/source/'+p.expected.geometryResource.file)throw Error('Expected exact descriptor plus one new resource');
+const refs=m.git('for-each-ref','--format=%(refname) %(objectname)','refs/pando/reports/').toString();
+let result;
+rt.withLibraryWrite({root:m.A,prefixes},lease=>{
+ const prior=process.env.PANDOLAB_LIBRARY_WRITE_LEASE;process.env.PANDOLAB_LIBRARY_WRITE_LEASE=lease.id;
+ try{
+  if(m.git('rev-parse','HEAD').toString().trim()!==head||m.h(s.readTerritorialSource(p.entityId))!==p.normalizedEntityPreimageSha256)throw Error('Concurrent source change');
+  if(!fs.realpathSync(m.A+'/'+p.sourcePath).toLowerCase().startsWith(lease.view.toLowerCase()))throw Error('Canonical view mismatch');
+  result=s.writeTerritorialSource(n);
+  if(m.h(s.readTerritorialSource(p.entityId))!==p.expected.entitySha256||m.sha(fs.readFileSync(m.A+'/'+p.sourcePath))!==p.expected.descriptorSha256)throw Error('Post-write readback mismatch');
+ }finally{if(prior===undefined)delete process.env.PANDOLAB_LIBRARY_WRITE_LEASE;else process.env.PANDOLAB_LIBRARY_WRITE_LEASE=prior;}
+});
+const report={status:'safe-source-applied-locally-archive-pending',checkedAt:new Date().toISOString(),headBefore:head,pinBefore:config.revision,appConfigBeforeSha256:m.sha(configBytes),reportRefsBefore:refs,prefixes,result,expected:p.expected,patchSha256:approvedPatch,independentReplay:true,all45DonorComponentsExact:true,sourceGateCount:1,sourceOnly:true,compiled:false,pushed:false,deployed:false};
+fs.writeFileSync(new URL('local-source-application.json',O),JSON.stringify(report,null,2)+'\n',{flag:'wx'});
+if(!eq(read('local-source-application.json'),report))throw Error('Application receipt readback');
+console.log(JSON.stringify(report,null,2));

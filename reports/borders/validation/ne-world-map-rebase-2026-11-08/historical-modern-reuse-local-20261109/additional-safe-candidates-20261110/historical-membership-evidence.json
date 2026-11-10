@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-10",
+  "status": "Kolguyev state-level membership supported; historical coastline not surveyed",
+  "sources": [
+    {
+      "id": "gaao-administrative-history-1997",
+      "title": "Gundakova, Khrushkaya and Shumilov: Administrative-territorial division of Arkhangelsk governorate and oblast in the eighteenth-twentieth centuries (1997), State Archive of Arkhangelsk Oblast",
+      "url": "https://gaao29.ru/fondy/Административно-территориальное%20деление%2018-20%20вв.pdf",
+      "pdfPagesOneBased": [85, 87, 88],
+      "observed": "Read public PDF text through web tool; source is an archive-issued retrospective reference with primary archival and law citations, not a newly inspected original decree.",
+      "findings": [
+        "July 24, 1920 administration explicitly included Kolguyev, Novaya Zemlya, Vaygach and other governorate islands (GAOO R-211/1/1, folio 115 verso).",
+        "March 25, 1922 regulation specifically covered Novaya Zemlya, Vaygach and Kolguyev (R-211/1/41, folios 22 verso and 46).",
+        "June 30, 1924 VTsIK regulation again named Kolguyev (RSFSR laws 1924 no. 59, article 582). September 1924 created the Kolguyev island council at Bugrino.",
+        "March 28, 1927 regulation retained Kolguyev among Arkhangelsk islands (RSFSR laws no. 41, article 261). July and November 1929 administrative changes retained Kolguyev under Soviet regional administration."
+      ],
+      "supports": "Continuous named-island membership within RSFSR/USSR throughout the three selected source intervals. No international transfer or political partition of Kolguyev is indicated."
+    },
+    {
+      "id": "dartmouth-arctica-plischke-1950",
+      "title": "Elmer Plischke, Territorial Sovereignty in the Arctic, January 1, 1950, Encyclopedia Arctica, Dartmouth collection",
+      "url": "https://collections.dartmouth.edu/archive/text/arctica/diplomatic/EA11-03-diplomatic.html",
+      "section": "Russian Pretentions, 1916; manuscript page 026; text lines 732-753",
+      "findings": "Distinguishes established Russian territory including Novaya Zemlya, Kolguyev and Vaygach from the newly asserted Asian Arctic islands. It explains their omission from the 1916 notification by generally recognized Russian sovereignty. Wrangel and Franz Josef Land are discussed separately.",
+      "supports": "Independent contextual support for named European Arctic island membership, not modern boundary coordinates or every individual islet's historical title."
+    }
+  ],
+  "localOriginalEvidence": {
+    "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+    "reference": "tools/historical-library/sources/ussr-1922-approved/ussr-1922-v2-reviewed-master-20261023.zip",
+    "sha256": "53d5889738d995e76c0f8da7f00fcc36fdb0baaa98f471bfdad41384061ceb8a",
+    "entriesRead": ["geometry-v2/assembly/README.md", "geometry-v2/assembly/ussr-four-founders.normalized-provisional.geojson", "geometry-v2/assembly/ussr-four-founders.display-10m-provisional.geojson", "qa-v2/final-region-qa.json"],
+    "verification": "Archive decoded locally with fetch:false, hash verified. All five old Kolguyev components equal the original master and display groups in both parent and RSFSR.",
+    "inheritedExceptions": "Franz Josef Land/Victoria excluded in the 1922 reconstruction; Wrangel retained as a disputed Russian claim; north Sakhalin included as Russian juridical territory under Japanese occupation; south Sakhalin and Kurils excluded. Do not alter these independent scopes.",
+    "inheritedLimitation": "The original reconstruction explicitly did not establish the individual 1922 title of every tiny Arctic island. This limitation remains; the proposed change reuses the complete approved modern physical coast within the documented Kolguyev group, not a new title adjudication."
+  },
+  "selectionRationale": "Documentary membership establishes the political scope. The water-separated review window only enumerates exact whole geometry components. Every intersecting modern component is retained; there is no area, distance, visibility, or exact-NE-match cutoff.",
+  "historicalAccuracyUpgrade": false,
+  "sourceApplicationAuthorizedByThisReport": false,
+  "runtimeApproval": false
+}

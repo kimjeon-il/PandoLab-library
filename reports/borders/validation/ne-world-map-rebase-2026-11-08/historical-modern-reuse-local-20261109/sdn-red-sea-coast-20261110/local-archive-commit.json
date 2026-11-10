@@ -1,0 +1,68 @@
+{
+  "status": "passed-independent-archive-readback",
+  "checkedAt": "2026-11-10T06:05:05.666Z",
+  "commit": "e889e5acceb96f8d7180707f1d2d0a2078393d78",
+  "parent": "46e6d5c9451fb137717987483428c441051c19a5",
+  "branch": "main",
+  "changedLogicalPaths": [
+    "assets/data/territorial-entities/source/countries/state-SDN.json",
+    "assets/data/territorial-entities/source/geometries/sha256-d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f.json"
+  ],
+  "changedGitPaths": [
+    "archive/blobs/1a7837c91c1c89c6be63ec90251908675f029dc358ec5c8faf9d0129419ae562.gz",
+    "archive/blobs/d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f.gz",
+    "archive/index.json"
+  ],
+  "sourceDescriptorSha256": "1a7837c91c1c89c6be63ec90251908675f029dc358ec5c8faf9d0129419ae562",
+  "normalizedEntitySha256": "9030864af9e3a7d84ed272457bda42752566bd5deee2ac1239e46aef7a62e628",
+  "geometrySha256": "0256dbb71d3ea1e9581d0d630282394186bf2637062ffeffc7894ebc7285a1bb",
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:SDN:state:sudan:1956-2011-r1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f.json",
+    "sha256": "d6c9d52c96abb4b1ec4e90655c53859fac91db1a01e98009fd32376c22a7193f",
+    "bytes": 70667
+  },
+  "sourceGateCount": 1,
+  "independentExactOperationReplay": true,
+  "all45DonorComponentsExact": true,
+  "politicalEdgesAndJunctionsExact": true,
+  "currentNeighborIntersectionAndSharedBoundarySetsUnchanged": 10,
+  "originalNENeighborIntersectionAndSharedBoundarySetsUnchanged": 10,
+  "allUnselectedLogicalEntriesUnchanged": true,
+  "unselectedLogicalDiffCount": 0,
+  "iranSourceEntryUnchanged": true,
+  "reportEntryCountPreserved": 11034,
+  "reportOwnerProtectionRefsUnchanged": true,
+  "appConfigOnlyAdvancedRevision": true,
+  "appSourceEqualsArchivedSource": true,
+  "codecRoundtrip": true,
+  "datesNotesCertaintyAndOriginalProvenancePreserved": true,
+  "currentPost2011VersionExact": true,
+  "localEvidenceRefsRehashed": [
+    "political-inclusion-comparison.json",
+    "political-model-review.md",
+    "safe-coast-all-sdn-components-candidate.geojson",
+    "safe-coast-source-provenance.json",
+    "safe-coast-source-scale.png",
+    "safe-coast-topology-and-projection.json",
+    "safe-coast-visual-review.json"
+  ],
+  "dataWorkingTreeClean": true,
+  "sourceOnly": true,
+  "compiled": false,
+  "runtimeApproval": false,
+  "pushed": false,
+  "deployed": false,
+  "networkProtocolsDisabledDuringStore": true,
+  "limitations": [
+    "Partial Red Sea coast update, not full modern SDN+SDS union equivalence.",
+    "Existing political-border geometry and old-to-current neighbor overlaps remain unchanged; historical accuracy was not upgraded.",
+    "Full-union alternative remains held and unapplied.",
+    "Source references identify preparation evidence; local application and archive outcome are recorded separately here."
+  ]
+}

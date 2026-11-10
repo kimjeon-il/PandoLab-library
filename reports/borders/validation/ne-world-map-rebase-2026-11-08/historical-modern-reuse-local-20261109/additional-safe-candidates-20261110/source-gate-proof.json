@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-for-prepared-source-patch-only",
+  "sourceRevision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "entityCount": 2,
+  "historicalVersionsChecked": 3,
+  "all18OriginalDonorPolygonsExact": true,
+  "sameGroupAcrossAll3Versions": true,
+  "proofs": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "historicalVersionsChecked": 1,
+      "codecRoundtrip": true,
+      "otherVersionsExact": true,
+      "originalMetadataExactExceptAppendedNotesAndScopedReview": true,
+      "inheritedCaspianAralArcticProvenanceExact": true,
+      "expected": {
+        "entitySha256": "471c8934b9f6ca12d599d35a16be2e019da3b667de648af04080745f98d61907",
+        "descriptorSha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b",
+        "versions": [
+          {
+            "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+            "versionSha256": "9b75cfd14118307192eb47584badde34ffa1821366d26637c203f0ba476cd684",
+            "geometrySha256": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4"
+          }
+        ]
+      }
+    },
+    {
+      "entityId": "state:soviet-union",
+      "historicalVersionsChecked": 2,
+      "codecRoundtrip": true,
+      "otherVersionsExact": true,
+      "originalMetadataExactExceptAppendedNotesAndScopedReview": true,
+      "inheritedCaspianAralArcticProvenanceExact": true,
+      "expected": {
+        "entitySha256": "40d6e444a4814bb43fe30f345e82da235639ed93f19c6f036b45d5316f1ed891",
+        "descriptorSha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+        "versions": [
+          {
+            "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+            "versionSha256": "6cf3c651a74c0d00d263915f3ab4c75bb9cc34297e18d953a2fe93cd6da9f7db",
+            "geometrySha256": "4129e255ea57e030ff03faa0324b2b79523453d287959b56da88ccdd2ce130a7"
+          },
+          {
+            "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+            "versionSha256": "9b47238bf97d835544080b8bfb0baf23c4aca80f43c371b91ce12d035a76a976",
+            "geometrySha256": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceWritten": false,
+  "committed": false,
+  "runtimeApproval": false
+}

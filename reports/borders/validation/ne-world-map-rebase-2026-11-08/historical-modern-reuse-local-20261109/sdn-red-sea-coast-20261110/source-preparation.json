@@ -1,0 +1,1370 @@
+{
+  "schemaVersion": 1,
+  "status": "read-only-source-preparation; not adopted or reviewed for final display",
+  "createdAt": "2026-11-10T05:07:43.521Z",
+  "sourceRevision": "9be2367b126949890345b76830dcc53f255f0dbf",
+  "headAtFinish": "9be2367b126949890345b76830dcc53f255f0dbf",
+  "scope": {
+    "entityId": "state:SDN",
+    "versionId": "state:sudan:1956-2011-r1",
+    "validFrom": "1956-01-01",
+    "validTo": "2011-07-08",
+    "sourceFile": "assets/data/territorial-entities/source/countries/state-SDN.json",
+    "descriptorSha256": "c21d6e358c9419af4022e65ffeacda467343ce8a59b7d90121f326435284468e",
+    "normalizedEntitySha256": "4c58aebdf597ffbbc1b445c3e866914bd3e977ae7817fdc839f23c20e0496ec3",
+    "versionSha256": "a50936ea8fca23f0353eb7d0aadd0e2812a570d474987394c311d60e967eb124",
+    "geometrySha256": "3cc5cdeaccd01c4ce7a1ba67db1f060c2ceb8dfd1ff44fde8f36ef31f8ebce9a",
+    "unchangedSinceResidualScreening": true,
+    "certainty": "medium",
+    "sourceId": "natural-earth-5.1.1-historical-successor-union"
+  },
+  "donor": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "archiveSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "versionId": "state:SDN:2011-07-09-post-secession-r1",
+    "geometrySha256": "7b6477fd3621c2524fdf93c25f31c8d7280b6fd806e37ea4993199f3293710a5",
+    "currentEqualsApprovedOriginal": true,
+    "sourceId": "approved-current-world-display-20261107",
+    "upstream": {
+      "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+      "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+      "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+      "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+      "sourceFileBytesLocallyVerified": false,
+      "sourceWP_IDs": [
+        "5e5abf17-541f-465d-869e-4db3d1dc0f21",
+        "d5c9432a-112b-42c3-be6e-284f08bbcd74"
+      ],
+      "sourceWP_IDsEvidence": {
+        "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+        "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+      }
+    },
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved."
+  },
+  "inventoryInterpretation": {
+    "screenedSingleOwnerEdges": 223,
+    "mainlandCoast": {
+      "polygon": 0,
+      "ring": 0,
+      "edgeSpan": [
+        219,
+        429
+      ],
+      "count": 211
+    },
+    "offshoreIsland": {
+      "polygon": 1,
+      "ring": 0,
+      "edgeSpan": [
+        0,
+        9
+      ],
+      "count": 10,
+      "status": "Unchanged in coast-only exploratory splice. This is not a decision to omit any donor island; see donorComponentInventory for all 45 preservation targets."
+    },
+    "birTawil": {
+      "polygon": 0,
+      "ring": 0,
+      "edgeSpan": [
+        206,
+        207
+      ],
+      "count": 2,
+      "status": "Political/disputed area, not coast. Excluded and unchanged."
+    }
+  },
+  "candidate": {
+    "kind": "Intersection-clipped exact donor mainland subarc; source-only proposal",
+    "polygon": 0,
+    "ring": 0,
+    "oldVertexSpanInclusive": [
+      222,
+      421
+    ],
+    "oldCoordinatesSha256": "cf974ca399c544dccf2f387cefb7f408c964d3b09e3a0e387366d74d3500a616",
+    "oldCoordinateCount": 200,
+    "affectedOldEdgesInclusive": [
+      222,
+      420
+    ],
+    "fullyReplacedOldEdgesInclusive": [
+      223,
+      419
+    ],
+    "exactDonorVertexSpanInclusive": [
+      940,
+      1646
+    ],
+    "exactDonorCoordinatesSha256": "749a77768c3f25b2c7d4235e6dcc79e99b54dfcb84cc8d28e94f81253382bda4",
+    "exactDonorCoordinateCount": 707,
+    "replacementCoordinatesSha256": "afbf09ff59f4d13ccbcf54eb4689a2563ae49f43c2dc8c450c6d63377c56fd98",
+    "replacementCoordinateCount": 711,
+    "north": {
+      "sourceEdge": 222,
+      "donorEdge": 939,
+      "coordinate": [
+        36.863862678223406,
+        21.972785132487843
+      ]
+    },
+    "south": {
+      "sourceEdge": 420,
+      "donorEdge": 1646,
+      "coordinate": [
+        38.541078477188215,
+        18.08494491870742
+      ]
+    },
+    "replay": "Replace unique source ring.slice(222,422) with [old[222], northIntersection, ...donor.slice(940,1647), southIntersection, old[421]]. No coordinate rounding, simplification, union, clipping of political borders or source writes.",
+    "expectedGeometrySha256": "1c22783928cf154a2a9a6091cfd3b4412db5ad25e2105cc3d3222cc28644c8a0",
+    "preservedOriginalNorthCoastEdges": [
+      219,
+      221
+    ],
+    "preservedOriginalSouthCoastEdges": [
+      421,
+      429
+    ],
+    "originalEgyptJunction": [
+      36.883637,
+      21.995714
+    ],
+    "originalEritreaJunction": [
+      38.601573,
+      18.004828
+    ],
+    "allNonCoastEdgesPreserved": true,
+    "offshoreIslandByteEquivalent": true
+  },
+  "sourceSequencePairing": {
+    "lineage": {
+      "schemaVersion": 2,
+      "lineageId": "sudan",
+      "names": {
+        "ko": "수단"
+      },
+      "entityRefs": [
+        "state:SDN"
+      ],
+      "relations": []
+    },
+    "relatedEntityChecks": [
+      {
+        "id": "EGY",
+        "lifetime": {
+          "validFrom": "1805",
+          "validTo": null
+        },
+        "descriptorSha256": "f1925f819361a0256b83a2b9b81ea1a5ecd846fc03d00c06fc86825a5fe9ca0c",
+        "versions": [
+          {
+            "versionId": "state:EGY:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "geometryDigest": "b01fa1e0bbdb1391987a9847c2a7d2664bef47dd193625703b9b9bd7ab788b59",
+            "matchingCandidateEdges": 0,
+            "wholeOldSourceSequenceMatches": []
+          }
+        ]
+      },
+      {
+        "id": "ERI",
+        "lifetime": {
+          "validFrom": "1993-05-24",
+          "validTo": null
+        },
+        "descriptorSha256": "e425280361acede188566cde2299d2e8fd72372dd38c760885f7fb681f441a03",
+        "versions": [
+          {
+            "versionId": "state:ERI:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "geometryDigest": "891e56b92b5e1eea565fb1478c4b8a92a39a9817a6a0480d3b9d9d52c76bae25",
+            "matchingCandidateEdges": 0,
+            "wholeOldSourceSequenceMatches": []
+          }
+        ]
+      },
+      {
+        "id": "ETH",
+        "lifetime": {
+          "validFrom": "1270",
+          "validTo": null
+        },
+        "descriptorSha256": "7b074d7b897cc5fbeb7dbbba6a557541794550638b0c2e437a6e01a04dac33a6",
+        "versions": [
+          {
+            "versionId": "state:ETH:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "geometryDigest": "ee2d6cbe538f535264bbc63e4344db6ed6233a64d8f6969955056ca32280c1a7",
+            "matchingCandidateEdges": 0,
+            "wholeOldSourceSequenceMatches": []
+          }
+        ]
+      },
+      {
+        "id": "SDS",
+        "lifetime": {
+          "validFrom": "2011-07-09",
+          "validTo": null
+        },
+        "descriptorSha256": "0d135ee64f2df2e804f6a141ef53fc8d1da1a1a59c8c5ee0528c7bbd3027afbd",
+        "versions": [
+          {
+            "versionId": "state:SDS:2011-07-09-independence-r1",
+            "validFrom": "2011-07-09",
+            "validTo": null,
+            "geometryDigest": "cf9b0dfb58f91b4f0b97a56df3363a6b03f8c39186bf5330f256297191512595",
+            "matchingCandidateEdges": 0,
+            "wholeOldSourceSequenceMatches": []
+          }
+        ]
+      },
+      {
+        "id": "BRT",
+        "lifetime": {
+          "validFrom": "1902",
+          "validTo": null
+        },
+        "descriptorSha256": "f87c8112c2d6429528718c48ff4dc17ea29e9a359b0f82800e63afaedbd5fa87",
+        "versions": [
+          {
+            "versionId": "state:BRT:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "geometryDigest": "7e9db94fa8da1e406fe339806721704af244d8d8838bc90d5b8a0dde8e77a6a5",
+            "matchingCandidateEdges": 0,
+            "wholeOldSourceSequenceMatches": []
+          }
+        ]
+      }
+    ],
+    "neReferenceOwnership": [
+      {
+        "id": "ETH",
+        "candidateEdges": 0
+      },
+      {
+        "id": "SDS",
+        "candidateEdges": 0
+      },
+      {
+        "id": "SDN",
+        "candidateEdges": 199
+      },
+      {
+        "id": "ERI",
+        "candidateEdges": 0
+      },
+      {
+        "id": "EGY",
+        "candidateEdges": 0
+      },
+      {
+        "id": "BRT",
+        "candidateEdges": 0
+      }
+    ],
+    "conclusion": "No paired historical source update identified in SDN lineage or scoped EGY/ERI/ETH/SDS/BRT entities. All 199 affected original edge slots are NE SDN-only. No broad world geometry scan was run; metadata inventory contains no separate Sudan/Egypt/Anglo-Egyptian/Ottoman historical entity."
+  },
+  "topologyMeasurements": {
+    "projection": "+proj=laea +lat_0=20 +lon_0=37 +datum=WGS84 +units=m +no_defs",
+    "north": [
+      36.863862678223406,
+      21.972785132487843
+    ],
+    "south": [
+      38.541078477188215,
+      18.08494491870742
+    ],
+    "oldValid": true,
+    "candidateValid": true,
+    "validity": "Valid Geometry",
+    "oldMainlandVertices": 1729,
+    "candidateMainlandVertices": 2240,
+    "deltaBounds": [
+      36.840099,
+      18.052900300000033,
+      38.541677,
+      21.972785132487843
+    ],
+    "deltaAreaKm2": 536.8365454306524,
+    "northJunctionStraightDistanceKm": 3.25824107848167,
+    "southJunctionStraightDistanceKm": 10.936487422648124,
+    "neighborIntersections": [
+      {
+        "id": "EGY",
+        "versions": [
+          {
+            "versionId": "state:EGY:natural-earth-5.1.1",
+            "deltaIntersectionAreaKm2": 0,
+            "sourceOverlapAreaKm2": 168.53259741823388,
+            "candidateOverlapAreaKm2": 168.53259741823388
+          }
+        ]
+      },
+      {
+        "id": "ERI",
+        "versions": [
+          {
+            "versionId": "state:ERI:natural-earth-5.1.1",
+            "deltaIntersectionAreaKm2": 0,
+            "sourceOverlapAreaKm2": 519.7053387433554,
+            "candidateOverlapAreaKm2": 519.7053387433554
+          }
+        ]
+      },
+      {
+        "id": "ETH",
+        "versions": [
+          {
+            "versionId": "state:ETH:natural-earth-5.1.1",
+            "deltaIntersectionAreaKm2": 0,
+            "sourceOverlapAreaKm2": 526.8171228346598,
+            "candidateOverlapAreaKm2": 526.8171228346598
+          }
+        ]
+      },
+      {
+        "id": "SDS",
+        "versions": [
+          {
+            "versionId": "state:SDS:2011-07-09-independence-r1",
+            "deltaIntersectionAreaKm2": 0,
+            "sourceOverlapAreaKm2": 626303.7813906356,
+            "candidateOverlapAreaKm2": 626303.7813906356
+          }
+        ]
+      },
+      {
+        "id": "BRT",
+        "versions": [
+          {
+            "versionId": "state:BRT:natural-earth-5.1.1",
+            "deltaIntersectionAreaKm2": 0,
+            "sourceOverlapAreaKm2": 1.9146789731380922,
+            "candidateOverlapAreaKm2": 1.9146789731380922
+          }
+        ]
+      }
+    ],
+    "caveat": "Focused analytical in-memory proposal only, not a final historical-display gate. Pre-existing source/modern-neighbor overlap is retained exactly, not repaired. Aggregate coast delta area is not a territorial event or positional-accuracy claim."
+  },
+  "historicalCaveats": [
+    "Retain 1956-01-01..2011-07-08 and pre-secession southern territory. Existing source is a medium-certainty modern SDN+SDS successor union, not a period-surveyed border.",
+    "The post-2011 approved donor is a low-certainty composite modern outline; its 2011 start is a political event date, not proof that every donor coordinate existed then.",
+    "Keep Egypt/Halaib/Bir Tawil political attribution, old 22nd-parallel junction and source boundary untouched. Do not resolve disputed control histories with this coast refresh.",
+    "Retain the original southern coast/Eritrea junction. Eritrea independence is 1993-05-24 in existing entity metadata; before that the adjacent entity history differs, but the coast-only delta avoids both modern ERI and ETH.",
+    "Abyei and Sudan/South Sudan border or post-2011 conflict chronology are outside scope.",
+    "No period-specific evidence of Port Sudan/Suakin shoreline or reclamation was newly checked. Describe this as provisional modern display-coast reuse, not historically verified geometry."
+  ],
+  "existingDateEvidence": {
+    "localReport": "reports/borders/reconstruction/sudan-ukraine-post-transition-2026-10-13.md",
+    "sha256": "af9bd52a4054c3fe244b05b8112f421a4d9facc50d71a0f8cd086d918c3dde6e",
+    "links": [
+      "https://www.un.org/en/node/122910",
+      "https://unmis.unmissions.org/en/unmis-0/more-borderline"
+    ],
+    "verification": "Local archived report and source metadata read; external links not accessed. The old report source-reference-date split is superseded by latest open-ended post-2011 source metadata."
+  },
+  "notPerformed": [
+    "Network access or fetching",
+    "Source/territorial/runtime modifications",
+    "Full-world hydration, GIS regeneration or broad scans",
+    "Independent historical coastal reconstruction",
+    "Visual/display final review",
+    "Commit, push, publication or portable packaging"
+  ],
+  "archiveInputs": [
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/countries/state-SDN.json",
+      "sha256": "c21d6e358c9419af4022e65ffeacda467343ce8a59b7d90121f326435284468e",
+      "bytes": 21044,
+      "stored": "archive/blobs/c21d6e358c9419af4022e65ffeacda467343ce8a59b7d90121f326435284468e.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2.json",
+      "sha256": "a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2",
+      "bytes": 36993,
+      "stored": "archive/blobs/a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-b3f6e1b59cf62585ba72e92ea698a43a48d22833a1ca075bca3465a15ec79ddd.json",
+      "sha256": "b3f6e1b59cf62585ba72e92ea698a43a48d22833a1ca075bca3465a15ec79ddd",
+      "bytes": 93376,
+      "stored": "archive/blobs/b3f6e1b59cf62585ba72e92ea698a43a48d22833a1ca075bca3465a15ec79ddd.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "f155202698569771dde7af626342ade4801b6364",
+      "reference": "assets/data/territorial-entities/source/countries/state-SDN.json",
+      "sha256": "c21d6e358c9419af4022e65ffeacda467343ce8a59b7d90121f326435284468e",
+      "bytes": 21044,
+      "stored": "archive/blobs/c21d6e358c9419af4022e65ffeacda467343ce8a59b7d90121f326435284468e.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "f155202698569771dde7af626342ade4801b6364",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2.json",
+      "sha256": "a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2",
+      "bytes": 36993,
+      "stored": "archive/blobs/a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "f155202698569771dde7af626342ade4801b6364",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-b3f6e1b59cf62585ba72e92ea698a43a48d22833a1ca075bca3465a15ec79ddd.json",
+      "sha256": "b3f6e1b59cf62585ba72e92ea698a43a48d22833a1ca075bca3465a15ec79ddd",
+      "bytes": 93376,
+      "stored": "archive/blobs/b3f6e1b59cf62585ba72e92ea698a43a48d22833a1ca075bca3465a15ec79ddd.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+      "bytes": 83264304,
+      "stored": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "encoding": "identity",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/countries-ne-5.1.1.geojson",
+      "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+      "bytes": 12415778,
+      "stored": "archive/blobs/52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/countries/state-EGY.json",
+      "sha256": "f1925f819361a0256b83a2b9b81ea1a5ecd846fc03d00c06fc86825a5fe9ca0c",
+      "bytes": 6667,
+      "stored": "archive/blobs/f1925f819361a0256b83a2b9b81ea1a5ecd846fc03d00c06fc86825a5fe9ca0c.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-cf2595e75c9576b42bebc40e450e6e27f3481e964fb1b1d218ca41a0251dad00.json",
+      "sha256": "cf2595e75c9576b42bebc40e450e6e27f3481e964fb1b1d218ca41a0251dad00",
+      "bytes": 110935,
+      "stored": "archive/blobs/cf2595e75c9576b42bebc40e450e6e27f3481e964fb1b1d218ca41a0251dad00.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/countries/state-ERI.json",
+      "sha256": "e425280361acede188566cde2299d2e8fd72372dd38c760885f7fb681f441a03",
+      "bytes": 6577,
+      "stored": "archive/blobs/e425280361acede188566cde2299d2e8fd72372dd38c760885f7fb681f441a03.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-d60054b3e26b4eee4b686cbb8b964454266bc07cef03b2b50b38b69750d4397c.json",
+      "sha256": "d60054b3e26b4eee4b686cbb8b964454266bc07cef03b2b50b38b69750d4397c",
+      "bytes": 136060,
+      "stored": "archive/blobs/d60054b3e26b4eee4b686cbb8b964454266bc07cef03b2b50b38b69750d4397c.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/countries/state-ETH.json",
+      "sha256": "7b074d7b897cc5fbeb7dbbba6a557541794550638b0c2e437a6e01a04dac33a6",
+      "bytes": 8927,
+      "stored": "archive/blobs/7b074d7b897cc5fbeb7dbbba6a557541794550638b0c2e437a6e01a04dac33a6.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-2d1a27c9aef16aa25d7f3ed15bc083c9e36ed27b5c345f9305587e7c536e615d.json",
+      "sha256": "2d1a27c9aef16aa25d7f3ed15bc083c9e36ed27b5c345f9305587e7c536e615d",
+      "bytes": 78323,
+      "stored": "archive/blobs/2d1a27c9aef16aa25d7f3ed15bc083c9e36ed27b5c345f9305587e7c536e615d.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/countries/state-SDS.json",
+      "sha256": "0d135ee64f2df2e804f6a141ef53fc8d1da1a1a59c8c5ee0528c7bbd3027afbd",
+      "bytes": 17733,
+      "stored": "archive/blobs/0d135ee64f2df2e804f6a141ef53fc8d1da1a1a59c8c5ee0528c7bbd3027afbd.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-cfd8e9bc4e950c6cc8f2ea4e28a3502eaa3e1ecb28c82dbeb5af4a25e9103345.json",
+      "sha256": "cfd8e9bc4e950c6cc8f2ea4e28a3502eaa3e1ecb28c82dbeb5af4a25e9103345",
+      "bytes": 90351,
+      "stored": "archive/blobs/cfd8e9bc4e950c6cc8f2ea4e28a3502eaa3e1ecb28c82dbeb5af4a25e9103345.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/countries/state-BRT.json",
+      "sha256": "f87c8112c2d6429528718c48ff4dc17ea29e9a359b0f82800e63afaedbd5fa87",
+      "bytes": 7498,
+      "stored": "archive/blobs/f87c8112c2d6429528718c48ff4dc17ea29e9a359b0f82800e63afaedbd5fa87.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-b401b786ec0f4fc378ccb27c76a14bcd895924cb520992fb8f1ba0805408fe8f.json",
+      "sha256": "b401b786ec0f4fc378ccb27c76a14bcd895924cb520992fb8f1ba0805408fe8f",
+      "bytes": 233,
+      "stored": "archive/blobs/b401b786ec0f4fc378ccb27c76a14bcd895924cb520992fb8f1ba0805408fe8f.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "assets/data/territorial-entities/source/lineages/sudan.json",
+      "sha256": "957970aeed84548bd2796e6e040e59bd3a23b7f4dc2843e7d7e980dbad8955c7",
+      "bytes": 144,
+      "stored": "archive/blobs/957970aeed84548bd2796e6e040e59bd3a23b7f4dc2843e7d7e980dbad8955c7.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "reference": "reports/borders/reconstruction/sudan-ukraine-post-transition-2026-10-13.md",
+      "sha256": "af9bd52a4054c3fe244b05b8112f421a4d9facc50d71a0f8cd086d918c3dde6e",
+      "bytes": 7073,
+      "stored": "reports/borders/reconstruction/sudan-ukraine-post-transition-2026-10-13.md",
+      "encoding": "identity",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    }
+  ],
+  "donorComponentInventory": {
+    "status": "All modern donor components retained as preservation targets; no omission or minimum-size criterion introduced.",
+    "historicalPolygonCount": 2,
+    "modernDonorPolygonCount": 46,
+    "modernDonorOffshoreCount": 45,
+    "coastOnlyProposalIsIncompleteModernComponentReuse": true,
+    "noWholeDonorIslandExactlyEqualsOldIsland": true,
+    "rows": [
+      {
+        "donorPolygon": 1,
+        "bounds": [
+          37.406517000000065,
+          18.992331000000036,
+          37.409823000000074,
+          18.999148000000048
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.10055340256834318,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "7e9fe8222c080319e0ea831aa8c304ecde12577857309580fbfa0084ac0fc289"
+      },
+      {
+        "donorPolygon": 2,
+        "bounds": [
+          37.39564000000007,
+          19.01272800000004,
+          37.40123700000004,
+          19.02388600000006
+        ],
+        "rings": 1,
+        "vertices": 8,
+        "areaKm2": 0.31529202834160114,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "eab5a013b7b8571e98f09fafe75a16bfb4eda803a601f0cdb698a5d163789ac8"
+      },
+      {
+        "donorPolygon": 3,
+        "bounds": [
+          37.33378270000003,
+          19.11324110000004,
+          37.33735040000005,
+          19.11568040000003
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.048349562185927855,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "dcfe71edf51b925876ae11515681cf9392d1583af9d2e5e2be5fc96abdf37131"
+      },
+      {
+        "donorPolygon": 4,
+        "bounds": [
+          37.322497800000065,
+          19.305970500000058,
+          37.325909300000035,
+          19.313739700000042
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.15107261695612118,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "edd80479f1d63de60160435c6723d7a75852b5dd06698fc972011401a509519f"
+      },
+      {
+        "donorPolygon": 5,
+        "bounds": [
+          37.29689870000004,
+          19.443059600000026,
+          37.29723830000006,
+          19.44339780000007
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.0006140935209911524,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": true,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "7ab96740ed5ce7bf470b8176675785f09ed70938b78ee5872b09962bf1e99ac2"
+      },
+      {
+        "donorPolygon": 6,
+        "bounds": [
+          37.19945870000004,
+          20.433622800000023,
+          37.20514010000005,
+          20.445425200000045
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.1538350258414878,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "94d7f9f428ff5be813eb1b340e60301e0f1ebc25be7fb1bfba4b3ee496828124"
+      },
+      {
+        "donorPolygon": 7,
+        "bounds": [
+          37.33640420000006,
+          20.781958900000063,
+          37.33909090000003,
+          20.789574000000073
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.11169756217878557,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "a7be4e5e855a29a7caae9e607f41b96356478802240441949937c934676acae9"
+      },
+      {
+        "donorPolygon": 8,
+        "bounds": [
+          37.248491200000046,
+          20.745847500000025,
+          37.28955490000004,
+          20.85566170000004
+        ],
+        "rings": 1,
+        "vertices": 12,
+        "areaKm2": 30.184871461412797,
+        "intersectsOldIsland": true,
+        "oldIslandIntersectionAreaKm2": 27.91241320491638,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "f4d3fba0bda253ff94342f4d1f95ad8fe287633400db4b57b70f9ac44082ec6b"
+      },
+      {
+        "donorPolygon": 9,
+        "bounds": [
+          37.323968000000036,
+          20.799905000000024,
+          37.327874000000065,
+          20.806560000000047
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.06011092096814112,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "a62bf6ab5b38697a24405649a5e1262c4b41944bf14499b1e6f3c2aa5a1a0c33"
+      },
+      {
+        "donorPolygon": 10,
+        "bounds": [
+          37.17577800000004,
+          20.93705600000004,
+          37.19372200000004,
+          20.947889000000032
+        ],
+        "rings": 1,
+        "vertices": 7,
+        "areaKm2": 0.8619278501268821,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "87ee619b37d6c49c0ab728c523a04970843ffd0270ae15caee550d7537534b47"
+      },
+      {
+        "donorPolygon": 11,
+        "bounds": [
+          37.21791700000006,
+          20.948694000000046,
+          37.220361000000025,
+          20.953333000000043
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.06328101901769768,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "164c473715c746b1373b8c108d7c15c30247a3819b8d784d9f5052a0fa1c1552"
+      },
+      {
+        "donorPolygon": 12,
+        "bounds": [
+          37.186216400000035,
+          21.12300220000003,
+          37.19153330000006,
+          21.131534200000033
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.13808869422007647,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "c2d1e5751293aa6f1813ee4b89f9bb1bd802422fbd5cb1e87ebb1d95163edbc5"
+      },
+      {
+        "donorPolygon": 13,
+        "bounds": [
+          37.14029590000007,
+          21.206483800000058,
+          37.14624210000005,
+          21.209303900000066
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.16733793220605794,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "8d5562fed5560591c3037c806c53c1ce8e452651c3d996a1b94d2ae9d7ed8f30"
+      },
+      {
+        "donorPolygon": 14,
+        "bounds": [
+          36.915393900000026,
+          21.606687700000066,
+          36.91778970000007,
+          21.611738700000046
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.029029606622102407,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "10230aaf3f246b6c5fefa0905a3a003af89545aaabab084d3fd268446994b9b2"
+      },
+      {
+        "donorPolygon": 15,
+        "bounds": [
+          38.184848500000044,
+          18.247771900000032,
+          38.18909770000005,
+          18.255395700000065
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.2043814537449321,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "f44aee78623b3d34e8b6154f2c4f91beb9a12a6d9833d52de01b0dbf11db0336"
+      },
+      {
+        "donorPolygon": 16,
+        "bounds": [
+          38.30155950000005,
+          18.282344700000067,
+          38.307479700000044,
+          18.291248800000062
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.3772551356275424,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "8564c01c15a17fc506e7e3df48287e033bca5bccf95ff758563781ff43f9e985"
+      },
+      {
+        "donorPolygon": 17,
+        "bounds": [
+          38.22598160000007,
+          18.304002900000057,
+          38.242926200000056,
+          18.313406100000066
+        ],
+        "rings": 1,
+        "vertices": 9,
+        "areaKm2": 0.7498758044163573,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "81ea5a6899aff5dbed50ed150b958a9abd487a3692a7bd3d0ed1de4ada0e145a"
+      },
+      {
+        "donorPolygon": 18,
+        "bounds": [
+          38.11301630000003,
+          18.403545800000074,
+          38.11335530000008,
+          18.403885600000024
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.0006193101798551288,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": true,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "90611c517940ef707ec7edecd26c0ca64c114d65f4bf6570495a7bf71dfc22af"
+      },
+      {
+        "donorPolygon": 19,
+        "bounds": [
+          38.22929760000005,
+          18.61234520000005,
+          38.233690000000024,
+          18.62045070000005
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.2002567742818597,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "3f48675cf16784574a1012ee598285eb4a134fe84d95f0633943565128ce353b"
+      },
+      {
+        "donorPolygon": 20,
+        "bounds": [
+          37.75211070000006,
+          18.676386200000024,
+          37.75501850000006,
+          18.682903500000066
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.10437939955833278,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": true,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "f0ecc7d65ac9395db9900db259e74c482e78027f037c45420e93458691e28c63"
+      },
+      {
+        "donorPolygon": 21,
+        "bounds": [
+          37.66473990000003,
+          18.73194280000007,
+          37.66536080000003,
+          18.732595700000047
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.002088119514134145,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": true,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "b78254ccbeb151d90c83cd6a4b38e5005d556219aabcd1b4bc2016f1ece4b1c9"
+      },
+      {
+        "donorPolygon": 22,
+        "bounds": [
+          37.49182650000006,
+          18.758728700000063,
+          37.50376230000006,
+          18.764564300000075
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.3122638428887073,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "64c57bf02060934c81a8e267ceca1039f85f0ca363261b5f16dae5cf57eff732"
+      },
+      {
+        "donorPolygon": 23,
+        "bounds": [
+          37.992867800000056,
+          18.765553900000043,
+          38.03019450000005,
+          18.790688600000067
+        ],
+        "rings": 1,
+        "vertices": 8,
+        "areaKm2": 7.251341552594175,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "89e86e9792652041e3205ffb62cf3a566aabaf4837372f78332ba89215a920ee"
+      },
+      {
+        "donorPolygon": 24,
+        "bounds": [
+          37.65877660000007,
+          18.774705400000073,
+          37.66720110000006,
+          18.782752300000027
+        ],
+        "rings": 1,
+        "vertices": 9,
+        "areaKm2": 0.3575322931833159,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "420e848d7821b61fcc5e6adeff169bed7234a668fd00a78a779ffff9f98a3260"
+      },
+      {
+        "donorPolygon": 25,
+        "bounds": [
+          38.15333780000003,
+          18.81799570000004,
+          38.17660190000004,
+          18.83940860000007
+        ],
+        "rings": 1,
+        "vertices": 10,
+        "areaKm2": 2.956968416824597,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "78d30cc59a40a79b54e34b0b812143f626692358f9a2ab4d2ebe654035bdb52c"
+      },
+      {
+        "donorPolygon": 26,
+        "bounds": [
+          38.14655830000004,
+          18.82752270000003,
+          38.15317720000007,
+          18.831363800000076
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.14657463593678555,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "f6fc046a52f50903674513a900ce32f5cd428d1a8601627dd23a2f122f33037b"
+      },
+      {
+        "donorPolygon": 27,
+        "bounds": [
+          37.76017500000006,
+          18.891242800000043,
+          37.76518800000008,
+          18.894009700000026
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.08027654146370489,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "641212de9e92de74618ed60350bc2cd845836e808db2f95946540191486fcf4c"
+      },
+      {
+        "donorPolygon": 28,
+        "bounds": [
+          38.20775500000008,
+          19.054775000000063,
+          38.212221000000056,
+          19.05903600000005
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.0978457161778407,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "7c379a3e2c61c703f7b0e2c1f61bee415f46a7a26de2c3e6b7ab7dbba3ed59f2"
+      },
+      {
+        "donorPolygon": 29,
+        "bounds": [
+          38.18596700000006,
+          19.21385300000003,
+          38.19206400000007,
+          19.217993000000035
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.13286327076549956,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "1d294e2996c394b20c5e9cde87e89d963084689e2abbded2c77c0ef84665135c"
+      },
+      {
+        "donorPolygon": 30,
+        "bounds": [
+          37.816463000000056,
+          19.215823000000057,
+          37.81857100000008,
+          19.224206000000038
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.04841964931340321,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "57becc83dea7d46c5791394fcaa32e544636174fe476636b1d271fa5fa7f6ca3"
+      },
+      {
+        "donorPolygon": 31,
+        "bounds": [
+          38.51057990000004,
+          18.06277170000004,
+          38.51091880000007,
+          18.063109000000054
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.000616793757040702,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": true,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "504761b0c1677f115b7599626a2f04154dcc44dba8cf1f16070f2a4a8be5536c"
+      },
+      {
+        "donorPolygon": 32,
+        "bounds": [
+          38.493227700000034,
+          18.070027500000037,
+          38.50059760000005,
+          18.07623190000004
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.17133411980930005,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "dee1d147672d92b53f383c70fb287522dc7d839fbdcb44e42da486e03ef53e5b"
+      },
+      {
+        "donorPolygon": 33,
+        "bounds": [
+          38.49100110000006,
+          18.125548700000024,
+          38.50550640000006,
+          18.140436000000022
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 1.2527429882931358,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "0f36bee095195ec12ff9610724e0b204ed2751b0b8c09bc363ab08396bb69b22"
+      },
+      {
+        "donorPolygon": 34,
+        "bounds": [
+          38.488635600000066,
+          18.146660000000054,
+          38.493969900000025,
+          18.156501700000035
+        ],
+        "rings": 1,
+        "vertices": 6,
+        "areaKm2": 0.22677291307480885,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "5ef45a9d8686c77228d4cdbe9f5c568f4440a8170f491ce21116c691ab22351a"
+      },
+      {
+        "donorPolygon": 35,
+        "bounds": [
+          38.42238080000004,
+          18.129993200000058,
+          38.48182570000006,
+          18.19825110000005
+        ],
+        "rings": 1,
+        "vertices": 30,
+        "areaKm2": 11.344111936142793,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "78c1ea850dde6f66c16e947388c9efee2cb7967631b72e12620a15ecb5af643b"
+      },
+      {
+        "donorPolygon": 36,
+        "bounds": [
+          38.30244490000007,
+          18.208605000000034,
+          38.345709200000044,
+          18.22822320000006
+        ],
+        "rings": 1,
+        "vertices": 9,
+        "areaKm2": 5.851334862403624,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "35d389fcd143f7c465c468b788162ffd0a8fed89549b9e1747323dc125f27c86"
+      },
+      {
+        "donorPolygon": 37,
+        "bounds": [
+          38.337566700000025,
+          18.217493900000022,
+          38.38469820000006,
+          18.251791100000048
+        ],
+        "rings": 1,
+        "vertices": 12,
+        "areaKm2": 5.880876014253879,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "f0cf81e4fb862e4b74c0e175fd52797900e4b45f537ad75f9746c76176b703dc"
+      },
+      {
+        "donorPolygon": 38,
+        "bounds": [
+          38.324163800000065,
+          18.251105300000063,
+          38.330474700000025,
+          18.254864000000055
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.12956058531029813,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "50c37f1f4e21b750539674fedb6d2fe7a2a2f1b201cd95d96c099ddb47204f0b"
+      },
+      {
+        "donorPolygon": 39,
+        "bounds": [
+          38.72265660000005,
+          18.457903800000054,
+          38.732656700000064,
+          18.470126100000073
+        ],
+        "rings": 1,
+        "vertices": 6,
+        "areaKm2": 0.6112463022003205,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "071a45b3834d79c6f735e4d0f4f4a04fc4eec85e2f72321ead7fd1001dfb6eb9"
+      },
+      {
+        "donorPolygon": 40,
+        "bounds": [
+          38.65532970000004,
+          18.53444090000005,
+          38.664748200000076,
+          18.542583300000047
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.143622315532466,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "c784166d9f97e9d464aa459237b5753360f4e6806af56e3cbd911d8c393ea1e4"
+      },
+      {
+        "donorPolygon": 41,
+        "bounds": [
+          38.79100790000007,
+          18.549996600000043,
+          38.79530480000005,
+          18.556515700000034
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.1491357130578413,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "53956c2efc32a2726708bc3f9ecaae08be8bf28d201e4553f379e4c1fc79adf5"
+      },
+      {
+        "donorPolygon": 42,
+        "bounds": [
+          38.730725300000074,
+          18.566272800000036,
+          38.74321670000006,
+          18.572156000000064
+        ],
+        "rings": 1,
+        "vertices": 4,
+        "areaKm2": 0.09040505209889874,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "5d386e60d46b9477f3742d13392c3f9d0212d19dceae0780ba42b8bb411357b0"
+      },
+      {
+        "donorPolygon": 43,
+        "bounds": [
+          38.75494420000007,
+          18.825144200000068,
+          38.76015690000003,
+          18.837416400000052
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.3518281282560536,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "8fbf156b0d2aac80f021ebcdb8f68670c36a74d4e5e02008134f7f99371f4aa9"
+      },
+      {
+        "donorPolygon": 44,
+        "bounds": [
+          38.64822890000005,
+          18.839443300000028,
+          38.65347200000008,
+          18.84716480000003
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.24436592389487266,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "25d213b1a36957a4bb580d2d815ea62798407b4782e6078879f78c999b143061"
+      },
+      {
+        "donorPolygon": 45,
+        "bounds": [
+          38.590789200000074,
+          18.899919100000034,
+          38.59542470000008,
+          18.903449900000055
+        ],
+        "rings": 1,
+        "vertices": 5,
+        "areaKm2": 0.13337537421117468,
+        "intersectsOldIsland": false,
+        "oldIslandIntersectionAreaKm2": 0,
+        "intersectsProposedMainland": false,
+        "proposedMainlandIntersectionAreaKm2": 0,
+        "coordinatesSha256": "ce862f72b585ca54ed6fbc5ee3843ef36ac1924cffa08540e7cfe149a91eaacd"
+      }
+    ],
+    "hypotheticalFullDonorIslandsValidity": true,
+    "validity": "Valid Geometry",
+    "originalIslandBounds": [
+      37.243419,
+      20.749823,
+      37.283539,
+      20.855048
+    ],
+    "originalIslandAreaKm2": 33.281921994555,
+    "originalIslandMatchedDonorPolygons": [
+      8
+    ],
+    "interpretation": "Original source has one offshore island that overlaps the indicated donor polygon. All 45 donor offshore polygons remain preservation targets, including those with no old island intersection. The interior-coast proposal alone is not a complete donor-component update. The all-donor-island geometry was tested only in memory for technical feasibility, not adopted, historically verified or approved for final display."
+  }
+}

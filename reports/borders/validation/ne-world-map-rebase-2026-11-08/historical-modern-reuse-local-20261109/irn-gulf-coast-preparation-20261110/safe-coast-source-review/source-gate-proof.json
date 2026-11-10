@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-canonical-source-change-gate-preparation-only",
+  "gatePath": "tools/gis/historical-display-review.mjs",
+  "gateSha256": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563",
+  "sourceRevision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "currentMainRead": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "actualSourceGateCount": 3,
+  "codecRoundtrip": true,
+  "allCodecOutputBytesSavedAndReread": true,
+  "expected": {
+    "normalizedEntitySha256": "92f39f664b39033506b4aa1dc9e753d0466f196afc93f8e659c8dc9829500fb4",
+    "encodedDescriptorSha256": "b732efa94b164e83d17f88b7dd47de36655ddd70ad987d05469735cbca2c96aa",
+    "encodedDescriptorBytes": 70080,
+    "changedVersions": [
+      {
+        "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-01-01",
+        "geometrySha256": "44b1b21ca4e9579eb88d1670fb56a9b91a1160051938c7ed5a9fdf01aae85b2d",
+        "normalizedVersionSha256": "516f1887dc7e2ab35b1be83e9aed9dbaa29d239e83b5f58263f7d9a8bc7dc044"
+      },
+      {
+        "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+        "geometrySha256": "82daed21b11ec08d32e2148caf2b884ea4c66b118a678f7d2fdfa23f7ee5d337",
+        "normalizedVersionSha256": "1171a7e6d2a479c3f72417fa7b3557631ad60a8c2603c28b32417fafe76c8032"
+      },
+      {
+        "versionId": "state:IRN:natural-earth-5.1.1:caspian-1925-05-13",
+        "geometrySha256": "44b1b21ca4e9579eb88d1670fb56a9b91a1160051938c7ed5a9fdf01aae85b2d",
+        "normalizedVersionSha256": "2d4b767854326566490dfa5f729c7f30e6dc5d561d39deae777d3ede68050fcd"
+      }
+    ],
+    "geometryResources": [
+      {
+        "file": "geometries/sha256-2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2.json",
+        "sha256": "2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2",
+        "bytes": 328609
+      },
+      {
+        "file": "geometries/sha256-982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464.json",
+        "sha256": "982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464",
+        "bytes": 251855
+      },
+      {
+        "file": "geometries/sha256-f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e.json",
+        "sha256": "f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e",
+        "bytes": 252264
+      }
+    ]
+  },
+  "compiledApproval": false,
+  "runtimeApproval": false,
+  "sourceApplicationApproved": false,
+  "noCanonicalSourceWrites": true
+}

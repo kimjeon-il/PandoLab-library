@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "46e6d5c9451fb137717987483428c441051c19a5",
+  "status": "prepared-safe-partial-source-patch",
+  "sourceEntity": {
+    "reference": "assets/data/territorial-entities/source/countries/state-SDN.json",
+    "revision": "46e6d5c9451fb137717987483428c441051c19a5",
+    "sha256": "c21d6e358c9419af4022e65ffeacda467343ce8a59b7d90121f326435284468e"
+  },
+  "originalVersionSha256": "a50936ea8fca23f0353eb7d0aadd0e2812a570d474987394c311d60e967eb124",
+  "originalGeometrySha256": "3cc5cdeaccd01c4ce7a1ba67db1f060c2ceb8dfd1ff44fde8f36ef31f8ebce9a",
+  "originalGeometry": {
+    "reference": "assets/data/territorial-entities/source/geometries/sha256-a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2.json",
+    "revision": "46e6d5c9451fb137717987483428c441051c19a5",
+    "sha256": "a9fcf2996a86c27b11dc6b7b23450c652e2f7f791b7af0d9c7b1b9f60fb0a7a2"
+  },
+  "originalSourceInfo": {
+    "sourceId": "approved-current-world-display-20261107",
+    "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "SDN",
+    "featureProperties": {
+      "name": "수단"
+    },
+    "geometrySha256": "7c7c1a3b311128a9f0f48f1a998fc34314f675bb48be09eb0f1f54a7e28508ba",
+    "temporalBoundaryCorrection": {
+      "kind": "source-reference-date-not-geopolitical-event",
+      "referenceDate": "2026-10-06",
+      "retiredVersionId": "state:SDN:natural-earth-5.1.1",
+      "retiredSourceId": "natural-earth-5.1.1",
+      "retiredReferenceCertainty": "high",
+      "retainedVersionId": "state:SDN:2011-07-09-post-secession-r1",
+      "retainedEventDate": "2011-07-09",
+      "geometrySha256": "de29435e599aef2e934ad59e706fff00f0ba01f81deb8dd4de771692113e7b8b",
+      "verifiedHistoricalGeometry": false,
+      "note": "The 2026-10-06 boundary was a source snapshot reference, not a territorial event. Identical outline coordinates are now represented by one open-ended low-certainty historical proxy. The former canonical source edition is preserved by its version ID and geometry digest in metadata and immutable archive."
+    },
+    "geometryVersionId": "state:SDN:2011-07-09-post-secession-r1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:SDN",
+      "versionId": "state:SDN:2011-07-09-post-secession-r1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "de29435e599aef2e934ad59e706fff00f0ba01f81deb8dd4de771692113e7b8b",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "SDN",
+        "geometryVersionId": "state:SDN:2011-07-09-post-secession-r1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "originalHistoricalProvenance": {
+    "originalEntityId": "state:sudan",
+    "sourceInfo": {
+      "title": "Natural Earth 5.1.1 Admin 0 with historical territory adjustment",
+      "license": "Natural Earth public domain",
+      "sources": [
+        {
+          "title": "Natural Earth 5.1.1 Admin 0 Countries",
+          "license": "Public domain"
+        }
+      ],
+      "notes": "현재 SDN과 SDS를 합쳐 남수단 독립 전 수단의 외곽선을 재구성한 참고 경계입니다.",
+      "geometryRecipes": [
+        {
+          "id": "historical-country:sudan:1956-2011-r1",
+          "validFrom": "1956-01-01",
+          "validTo": "2011-07-08",
+          "memberCountryIds": [
+            "SDN",
+            "SDS"
+          ],
+          "certainty": "medium",
+          "sourceId": "natural-earth-5.1.1-historical-successor-union",
+          "notes": "현재 SDN과 SDS를 합쳐 남수단 독립 전 수단의 외곽선을 재구성한 참고 경계입니다."
+        }
+      ],
+      "importProvenance": {
+        "baseSha": "2091ee2c294df237d844e32f9b926449677c45e4",
+        "entityId": "historical-country:sudan",
+        "versionIds": {
+          "state:sudan:1956-2011-r1": "historical-country:sudan:1956-2011-r1"
+        }
+      }
+    },
+    "metadata": {
+      "geographicRegion": "Africa",
+      "pilot": true,
+      "approximateGeometry": true,
+      "referenceDate": "2010",
+      "defaultFlagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyIDEiIGlkPSJmbGFnLXN1ZGFuIj48cGF0aCBmaWxsPSIjZDIxMDM0IiBkPSJNMCAwaDJ2LjMzM0gweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIC4zMzNoMnYuMzM0SDB6Ii8+PHBhdGggZD0iTTAgLjY2N2gyVjFIMHoiLz48cGF0aCBmaWxsPSIjMDA3MjI5IiBkPSJNMCAwdjFsLjctLjV6Ii8+PC9zdmc+"
+    }
+  },
+  "approvedDonor": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "revision": "46e6d5c9451fb137717987483428c441051c19a5",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+  },
+  "donorVersions": [
+    {
+      "entityId": "state:SDN",
+      "versionId": "state:SDN:2011-07-09-post-secession-r1",
+      "geometrySha256": "7b6477fd3621c2524fdf93c25f31c8d7280b6fd806e37ea4993199f3293710a5"
+    },
+    {
+      "entityId": "state:SDS",
+      "versionId": "state:SDS:2011-07-09-independence-r1",
+      "geometrySha256": "cf9b0dfb58f91b4f0b97a56df3363a6b03f8c39186bf5330f256297191512595"
+    }
+  ],
+  "candidate": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/safe-coast-all-sdn-components-candidate.geojson",
+    "sha256": "b27e33e26b91293c5eb4f374bea1e8df306833949618e941282154148f1c7584"
+  },
+  "basis": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/political-model-review.md",
+    "sha256": "279f923f857d2eabb04a80d99d5d1d6d8db7bf2a469206124af961d9cca85d60"
+  },
+  "politicalComparison": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/political-inclusion-comparison.json",
+    "sha256": "bc07a9523b40f84c5abcb7da7e1fefb7611cb95e6f739760c86cfc1b10705e67"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/safe-coast-topology-and-projection.json",
+    "sha256": "aea53483e2461771a6efe13a64191df1633aa8cfd10b0d689ab6a52eed0659b3"
+  },
+  "limits": [
+    "The existing historical version is exactly a modern NE SDN+SDS successor union, not an independently reconstructed historical boundary.",
+    "An approved-modern source update does not prove historical control or title across 1956-01-01..2011-07-08.",
+    "Halaib/Bir Tawil, al-Fashaga, Wadi Halfa and Ilemi limitations remain explicit. Matching inclusion conventions does not establish identical historical boundary routes.",
+    "No whole-world or runtime/compiled historical validation was performed. Source application requires a fresh parent review and preimage check.",
+    "Partial improvement only: verified interior Red Sea donor subarc plus every one of the 45 modern SDN non-mainland components; not the full modern SDN+SDS union.",
+    "Original NE political edges, both coastline junctions and all ten old peer intersections/shared boundaries remain unchanged, including pre-existing mismatches with modern neighboring references.",
+    "Historical political attribution and dates are not re-established by coast reuse. Al-Fashaga, CAF and other land-border changes from the full-union alternative are not applied.",
+    "All 45 detached components come from the approved SDN donor and are retained without an omission threshold; donor attribution is not a new period-specific island sovereignty finding.",
+    "No final source application or runtime approval is implied."
+  ],
+  "scope": "Replace source mainland vertices 222..421 using two source/donor intersections and exact donor vertices 940..1646; replace the single old offshore component with all 45 approved SDN components. All political edges and both coastline junctions remain exact. This is not the full SDN+SDS union.",
+  "sourceApplied": false,
+  "rights": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved."
+}

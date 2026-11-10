@@ -1,0 +1,54 @@
+{
+  "status": "passed-independent-archive-readback",
+  "checkedAt": "2026-11-10T05:59:21.597Z",
+  "commit": "46e6d5c9451fb137717987483428c441051c19a5",
+  "parent": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "branch": "main",
+  "changedLogicalPaths": [
+    "assets/data/territorial-entities/source/countries/state-IRN.json",
+    "assets/data/territorial-entities/source/geometries/sha256-982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464.json",
+    "assets/data/territorial-entities/source/geometries/sha256-f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e.json"
+  ],
+  "changedGitPaths": [
+    "archive/blobs/982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464.gz",
+    "archive/blobs/b732efa94b164e83d17f88b7dd47de36655ddd70ad987d05469735cbca2c96aa.gz",
+    "archive/blobs/f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e.gz",
+    "archive/index.json"
+  ],
+  "sourceDescriptorSha256": "b732efa94b164e83d17f88b7dd47de36655ddd70ad987d05469735cbca2c96aa",
+  "normalizedEntitySha256": "92f39f664b39033506b4aa1dc9e753d0466f196afc93f8e659c8dc9829500fb4",
+  "sourceGateCount": 3,
+  "independentUniqueArcReplays": 3,
+  "originalAbuMusaCoordinatesPreserved": true,
+  "previouslyAbsentExceptionsRemainAbsent": true,
+  "allUnselectedLogicalEntriesUnchanged": true,
+  "reportEntryCountPreserved": 11034,
+  "reportOwnerProtectionRefsUnchanged": true,
+  "appConfigOnlyAdvancedRevision": true,
+  "appSourceEqualsArchivedSource": true,
+  "codecRoundtrip": true,
+  "geometryResources": [
+    {
+      "file": "geometries/sha256-2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2.json",
+      "sha256": "2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2",
+      "bytes": 328609
+    },
+    {
+      "file": "geometries/sha256-982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464.json",
+      "sha256": "982d1a5a90f6174d713ecf37783d20e31d98ce9c54c3052cf9f009da62807464",
+      "bytes": 251855
+    },
+    {
+      "file": "geometries/sha256-f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e.json",
+      "sha256": "f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e",
+      "bytes": 252264
+    }
+  ],
+  "dataWorkingTreeClean": true,
+  "sourceOnly": true,
+  "compiled": false,
+  "runtimeApproval": false,
+  "pushed": false,
+  "deployed": false,
+  "networkProtocolsDisabledDuringStore": true
+}

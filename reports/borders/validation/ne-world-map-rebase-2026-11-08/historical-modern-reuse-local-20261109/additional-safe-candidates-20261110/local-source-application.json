@@ -1,0 +1,78 @@
+{
+  "status": "both-local-sources-applied-archive-pending",
+  "reviewRevision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "sourceRevision": "e889e5acceb96f8d7180707f1d2d0a2078393d78",
+  "applicationBaseRevision": "e889e5acceb96f8d7180707f1d2d0a2078393d78",
+  "root": "D:/dev/PandoLab",
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+    "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+    "assets/data/territorial-entities/source/geometries/sha256-116a18083207461686836242c978fe87f70f27dd40bd42ba573e2688bc040e6f.json",
+    "assets/data/territorial-entities/source/geometries/sha256-bca6829530ae7b98b80ed25547f3220c6d298e5c2ce9b0aa6b17627bb2668432.json",
+    "assets/data/territorial-entities/source/geometries/sha256-d49ca626d683b2cfb7c29befd0e492de74ba236f1a92c1de7159298ec8db1bc5.json"
+  ],
+  "configBefore": {
+    "schemaVersion": 1,
+    "repository": "kimjeon-il/PandoLab-library-data",
+    "revision": "e889e5acceb96f8d7180707f1d2d0a2078393d78",
+    "mounts": [
+      "assets/data",
+      "reports",
+      "tools/historical-library/sources",
+      "tools/historical-library/working",
+      "tools/historical-library/review-output",
+      "tools/historical-library/land-borders"
+    ]
+  },
+  "gisConfigSha256": "d25671d3d15f97cb96883ad816cb27746b8adbc53bb84f608fc7e33b7dd9ad4e",
+  "appHeadBefore": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+  "results": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "result": {
+        "descriptorWrites": 1,
+        "geometryWrites": 1
+      },
+      "expected": {
+        "entitySha256": "471c8934b9f6ca12d599d35a16be2e019da3b667de648af04080745f98d61907",
+        "descriptorSha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b",
+        "versions": [
+          {
+            "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+            "versionSha256": "9b75cfd14118307192eb47584badde34ffa1821366d26637c203f0ba476cd684",
+            "geometrySha256": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4"
+          }
+        ]
+      },
+      "sourceReadbackPassed": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "result": {
+        "descriptorWrites": 1,
+        "geometryWrites": 2
+      },
+      "expected": {
+        "entitySha256": "40d6e444a4814bb43fe30f345e82da235639ed93f19c6f036b45d5316f1ed891",
+        "descriptorSha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+        "versions": [
+          {
+            "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+            "versionSha256": "6cf3c651a74c0d00d263915f3ab4c75bb9cc34297e18d953a2fe93cd6da9f7db",
+            "geometrySha256": "4129e255ea57e030ff03faa0324b2b79523453d287959b56da88ccdd2ce130a7"
+          },
+          {
+            "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+            "versionSha256": "9b47238bf97d835544080b8bfb0baf23c4aca80f43c371b91ce12d035a76a976",
+            "geometrySha256": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f"
+          }
+        ]
+      },
+      "sourceReadbackPassed": true
+    }
+  ],
+  "sourceOnly": true,
+  "compiled": false,
+  "push": false,
+  "deployed": false
+}

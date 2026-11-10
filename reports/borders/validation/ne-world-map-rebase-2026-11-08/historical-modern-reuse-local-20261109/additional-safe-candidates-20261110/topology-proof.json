@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+  "status": "passed-for-three-source-candidates-only",
+  "donorGroupValid": true,
+  "scopeContainsAllIntersectingDonorComponents": true,
+  "donorIndices": [
+    738,
+    739,
+    740,
+    741,
+    742,
+    744,
+    794,
+    795,
+    796,
+    797,
+    804,
+    806,
+    807,
+    808,
+    809,
+    810,
+    811,
+    812
+  ],
+  "sizeThreshold": null,
+  "omittedDonorComponents": 0,
+  "sameOldGroupAll3Versions": true,
+  "sameNewGroupAll3Versions": true,
+  "originalApproved1922MasterAndDisplayLineage": [
+    {
+      "entry": "geometry-v2/assembly/ussr-four-founders.normalized-provisional.geojson",
+      "entityId": "state:soviet-union",
+      "components": 5,
+      "equalsCurrentOldGroup": true
+    },
+    {
+      "entry": "geometry-v2/assembly/ussr-four-founders.normalized-provisional.geojson",
+      "entityId": "state:soviet-union-russian-sfsr",
+      "components": 5,
+      "equalsCurrentOldGroup": true
+    },
+    {
+      "entry": "geometry-v2/assembly/ussr-four-founders.display-10m-provisional.geojson",
+      "entityId": "state:soviet-union",
+      "components": 5,
+      "equalsCurrentOldGroup": true
+    },
+    {
+      "entry": "geometry-v2/assembly/ussr-four-founders.display-10m-provisional.geojson",
+      "entityId": "state:soviet-union-russian-sfsr",
+      "components": 5,
+      "equalsCurrentOldGroup": true
+    }
+  ],
+  "targets": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "beforeValid": true,
+      "candidateValid": true,
+      "oldIndices": [
+        47,
+        51,
+        54,
+        55,
+        56
+      ],
+      "donorCount": 18,
+      "retainedCoordinateArraysExact": true,
+      "all18WholeDonorPolygonsAndAllRingsExact": true,
+      "scopeCrossingPolygons": 0,
+      "newVsRetainedIntersectionAreaDegrees2": 0.0,
+      "newVsRetainedTouches": false,
+      "candidateEqualsRetainedUnionCompleteDonorGroup": true,
+      "parentConstituentSelectedGroupIdentical": true,
+      "unchangedMainlandAndOtherIslands": true,
+      "oldComponents": 5,
+      "newComponents": 18,
+      "oldHoles": 0,
+      "newHoles": 0
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "beforeValid": true,
+      "candidateValid": true,
+      "oldIndices": [
+        64,
+        68,
+        74,
+        76,
+        77
+      ],
+      "donorCount": 18,
+      "retainedCoordinateArraysExact": true,
+      "all18WholeDonorPolygonsAndAllRingsExact": true,
+      "scopeCrossingPolygons": 0,
+      "newVsRetainedIntersectionAreaDegrees2": 0.0,
+      "newVsRetainedTouches": false,
+      "candidateEqualsRetainedUnionCompleteDonorGroup": true,
+      "parentConstituentSelectedGroupIdentical": true,
+      "unchangedMainlandAndOtherIslands": true,
+      "oldComponents": 5,
+      "newComponents": 18,
+      "oldHoles": 0,
+      "newHoles": 0
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "beforeValid": true,
+      "candidateValid": true,
+      "oldIndices": [
+        48,
+        52,
+        58,
+        59,
+        60
+      ],
+      "donorCount": 18,
+      "retainedCoordinateArraysExact": true,
+      "all18WholeDonorPolygonsAndAllRingsExact": true,
+      "scopeCrossingPolygons": 0,
+      "newVsRetainedIntersectionAreaDegrees2": 0.0,
+      "newVsRetainedTouches": false,
+      "candidateEqualsRetainedUnionCompleteDonorGroup": true,
+      "parentConstituentSelectedGroupIdentical": true,
+      "unchangedMainlandAndOtherIslands": true,
+      "oldComponents": 5,
+      "newComponents": 18,
+      "oldHoles": 0,
+      "newHoles": 0
+    }
+  ],
+  "limits": [
+    "This does not certify the entire historical USSR reconstruction or runtime.",
+    "Original Caspian, Aral, Arctic claim exceptions and mainland coordinates are untouched.",
+    "Modern physical coast is reused at display scope; exact coast location in 1922 is not established.",
+    "Inherited small-island title caveat remains; state-level membership of the named Kolguyev group is independently supported by documentary administration evidence."
+  ]
+}

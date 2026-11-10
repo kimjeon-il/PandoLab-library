@@ -1,0 +1,29 @@
+import fs from 'node:fs';
+import {pathToFileURL} from 'node:url';
+import {isDeepStrictEqual as eq} from 'node:util';
+import {spawnSync} from 'node:child_process';
+const dir=new URL('.',import.meta.url);
+const root='D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109';
+const m=await import(pathToFileURL(root+'/deu-c1-c2-c3-combined/source-review/review-inputs.mjs'));
+const rev=m.git('rev-parse','HEAD').toString().trim();
+const old='f155202698569771dde7af626342ade4801b6364';
+const write=(n,x)=>fs.writeFileSync(new URL(n,dir),JSON.stringify(x,null,2)+'\n');
+const donorPath='reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson';
+const approved=JSON.parse(m.archived(donorPath,rev)).features.find(f=>f.id==='RUS');
+const rus=m.entity('RUS',rev);const dv=rus.entity.geometryVersions.find(v=>v.versionId==='state:RUS:natural-earth-5.1.1');
+if(!eq(approved.geometry,dv.geometry))throw Error('Approved donor differs');
+const box=[47.5,68.4,50.7,69.8],bbox=p=>p.flat().reduce((b,[x,y])=>[Math.min(b[0],x),Math.min(b[1],y),Math.max(b[2],x),Math.max(b[3],y)],[Infinity,Infinity,-Infinity,-Infinity]);
+const inside=p=>{const b=bbox(p);return b[0]>=box[0]&&b[1]>=box[1]&&b[2]<=box[2]&&b[3]<=box[3]};
+const dix=dv.geometry.coordinates.map((p,i)=>inside(p)?i:-1).filter(i=>i>=0),donors=dix.map(i=>dv.geometry.coordinates[i]);
+const expected=[738,739,740,741,742,744,794,795,796,797,804,806,807,808,809,810,811,812];if(!eq(dix,expected))throw Error('Group changed');
+const recs=['soviet-union-russian-sfsr','soviet-union'].map(id=>m.entity(id,rev));const selected=[];const alreadyModern=[];
+for(const r of recs){const oldRec=m.entity(r.entity.entityId.replace('state:',''),old);for(const v of r.entity.geometryVersions){const indices=v.geometry.coordinates.map((p,i)=>inside(p)?i:-1).filter(i=>i>=0);const polys=indices.map(i=>v.geometry.coordinates[i]);if(v.versionId.includes('1922-12-30-reviewed')||v.versionId.includes('caspian-1925')){const remove=new Set(indices),candidate={type:'MultiPolygon',coordinates:[...v.geometry.coordinates.filter((p,i)=>!remove.has(i)),...donors]};selected.push({r,v,indices,polys,candidate,unchangedSinceScreening:eq(v,oldRec.entity.geometryVersions.find(x=>x.versionId===v.versionId))});}else alreadyModern.push({entityId:r.entity.entityId,versionId:v.versionId,validFrom:v.validFrom,validTo:v.validTo,indices,groupHasExactlyAll18Donors:eq(polys.map(m.h).sort(),donors.map(m.h).sort())});}}
+if(selected.length!==3||!selected.every(s=>eq(s.polys.map(m.h).sort(),selected[0].polys.map(m.h).sort())))throw Error('Historical group mismatch');
+const ledger={schemaVersion:1,status:'candidate-selected-not-applied',sourceRevision:rev,screeningRevision:old,donor:{entityId:'state:RUS',versionId:dv.versionId,sourceId:dv.sourceId,geometrySha256:m.gh(dv.geometry),approvedOriginal:{reference:donorPath,sha256:m.index(rev).files[donorPath].sha256},currentSourceEqualsApprovedOriginal:true},scope:{name:'Kolguyev island and complete local coastal/islet group',extent:box,selectionRole:'Whole-component retrieval inside a water-separated island review window, not proof of historical sovereignty or a clipping operation.',sizeThreshold:null,discardedModernComponents:0,donorComponents:18},donorComponents:dix.map(i=>({index:i,sha256:m.h(dv.geometry.coordinates[i]),bbox:bbox(dv.geometry.coordinates[i]),rings:dv.geometry.coordinates[i].length,vertices:dv.geometry.coordinates[i].flat().length})),targets:selected.map(s=>({entityId:s.r.entity.entityId,versionId:s.v.versionId,validFrom:s.v.validFrom,validTo:s.v.validTo,sourcePath:s.r.path,sourceDescriptorSha256:s.r.descriptorSha256,normalizedEntitySha256:m.h(s.r.entity),versionSha256:m.h(s.v),geometrySha256:m.gh(s.v.geometry),sourceId:s.v.sourceId,unchangedSinceScreening:s.unchangedSinceScreening,oldComponents:s.indices.map(i=>({index:i,sha256:m.h(s.v.geometry.coordinates[i]),bbox:bbox(s.v.geometry.coordinates[i])})),candidateGeometrySha256:m.gh(s.candidate),beforePolygonCount:s.v.geometry.coordinates.length,afterPolygonCount:s.candidate.coordinates.length})),sameHistoricalGroupAcrossAll3Versions:true,alreadyModern,sourceOnly:true,runtimeApproval:false};
+write('candidate-ledger.json',ledger);
+const zipPath='tools/historical-library/sources/ussr-1922-approved/ussr-1922-v2-reviewed-master-20261023.zip';const originalZip=m.archived(zipPath,rev);
+const py=spawnSync('C:/Users/taeeu/AppData/Local/Programs/Python/Python312/python.exe',['-X','utf8',new URL('verify-and-render.py',dir).pathname.replace(/^\/(.:)/,'$1')],{input:JSON.stringify({sourceRevision:rev,scope:box,originalZipBase64:originalZip.toString('base64'),donorGeometry:dv.geometry,donorIndices:dix,selected:selected.map(s=>({entityId:s.r.entity.entityId,versionId:s.v.versionId,validFrom:s.v.validFrom,validTo:s.v.validTo,geometry:s.v.geometry,oldIndices:s.indices,candidate:s.candidate})),out:new URL('.',dir).pathname.replace(/^\/(.:)/,'$1')}),encoding:'utf8',maxBuffer:100000});if(py.status!==0)throw Error(py.stderr||py.error||'Python failed');console.log(py.stdout);
+write('archive-inputs.json',{sourceRevision:rev,entries:m.archiveEntries()});
+write('read-only-status.json',{sourceRevision:rev,headAtFinish:m.git('rev-parse','HEAD').toString().trim(),sourceWritten:false,committed:false,networkGitUsed:false,archiveDecodeFetch:false,reportRemoteArchival:'not attempted; inherited remote Git denial respected',retention:'Research ledger, proofs, source-bound patch and source-scale review image retained for parent review and the subsequent authorized source application.'});
+console.log(JSON.stringify({sourceRevision:rev,targets:ledger.targets.map(x=>({entityId:x.entityId,versionId:x.versionId,old:x.oldComponents.map(c=>c.index),before:x.beforePolygonCount,after:x.afterPolygonCount})),donors:dix,alreadyModern}));
+

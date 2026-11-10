@@ -1,0 +1,13 @@
+{
+  "definition": "+proj=laea +lat_0=69.1 +lon_0=49.2 +datum=WGS84 +units=m +no_defs",
+  "units": "metre",
+  "scaleDenominator": 10000000,
+  "dpi": 300,
+  "metresPerPixel": 846.6666666666666,
+  "actualExecution": "pyproj Transformer.from_crs(EPSG:4326, definition, always_xy=True); shapely.ops.transform",
+  "oldProjectedAreaKm2": 4972.141612769124,
+  "donorProjectedAreaKm2": 5117.313114191817,
+  "symmetricDifferenceAreaKm2": 504.3618198981131,
+  "screenPhysicalScaleCalibrated": false,
+  "purpose": "Nominal source-scale comparison. Modern display-coast update, not measured historical positional accuracy."
+}
