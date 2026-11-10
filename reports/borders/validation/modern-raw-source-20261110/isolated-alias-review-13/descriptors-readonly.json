@@ -1,0 +1,2235 @@
+[
+  {
+    "code": "CLP",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:CLP",
+      "entityKind": "general",
+      "lineageId": "clp",
+      "names": {
+        "ko": "클리퍼턴섬"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1858-11-17",
+        "validTo": null
+      },
+      "parentEntityId": "state:FRA",
+      "geometryVersions": [
+        {
+          "versionId": "state:CLP:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:CLP:state:CLP:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "Polygon",
+            "file": "geometries/sha256-fb38c61229eae93db2f80d6a710da8072b27513fa8a9d5ed1c4c4edaa38dd86e.json",
+            "sha256": "fb38c61229eae93db2f80d6a710da8072b27513fa8a9d5ed1c4c4edaa38dd86e",
+            "bytes": 364
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CLP",
+            "geometrySha256": "4dc8b0e7a14dcd19943951966802c57e63434adbeafe83745d96f4db02082720",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "CLP",
+        "representativeGeometryVersionId": "state:CLP:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "CLP",
+        "featureProperties": {
+          "name": "클리퍼턴섬"
+        },
+        "geometrySha256": "7dc04ef8bb47bb24d87801b0eb5379b818dadffb5b846ab2e3b8e461a78d35af",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "As a separately listed dependency rather than sovereign country, use verified continuing French territorial jurisdiction. Discovery1711, Mexican occupation and1931 adjudication are not new polity founding dates. Award specifically distinguishes lack of local administration from loss of territorial title.",
+          "sources": [
+            {
+              "url": "https://legal.un.org/riaa/cases/vol_II/1105-1111.pdf",
+              "title": "Clipperton Island arbitral award1931, RIAA II1105-1111",
+              "access": "opened",
+              "supports": "pp1108 and1110-1111 read:1858-11-17 acquisition and continuing title; final operative sentence confirms date."
+            }
+          ]
+        },
+        "geometryVersionId": "state:CLP:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:CLP",
+          "versionId": "state:CLP:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "d99ad616d0a840a55539e7f8da453bd336e11cd3dc14bbe028b79c89cdb97dc0",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CLP",
+            "geometryVersionId": "state:CLP:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "8c95789bd2a1c840b1f4f5479f6d5a1f32d996a96dfbdfbabf90f40d74e7570d",
+    "preimageDescriptorBytes": 6689
+  },
+  {
+    "code": "CSI",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:CSI",
+      "entityKind": "general",
+      "lineageId": "csi",
+      "names": {
+        "ko": "산호해제도"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1969-09-30",
+        "validTo": null
+      },
+      "parentEntityId": "state:AUS",
+      "geometryVersions": [
+        {
+          "versionId": "state:CSI:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:CSI:state:CSI:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-4c151f496ef6dc4ae0641c8e31885695851da0ca4aa399a93edd8e9dc5124e31.json",
+            "sha256": "4c151f496ef6dc4ae0641c8e31885695851da0ca4aa399a93edd8e9dc5124e31",
+            "bytes": 31412
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CSI",
+            "geometrySha256": "30816c287c65807fe0917a971b0480e462888dcfb31928a65840fde1d78b0e2f",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "CSI",
+        "representativeGeometryVersionId": "state:CSI:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "CSI",
+        "featureProperties": {
+          "name": "산호해제도"
+        },
+        "geometrySha256": "867c2cab689218eddf5e98fdf3d206c5db5d0dbfe702ee936e996190350ad2b5",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Act3explicitlyformsoneterritory;earlierclaims/stationsnotpolitybirth.1997extensionnotrestart.",
+          "sources": [
+            {
+              "url": "https://www.legislation.gov.au/C1969A00058/2022-06-02/2022-06-02/text/original/epub/OEBPS/document_1/document_1.html",
+              "title": "CoralSeaIslandsAct1969",
+              "supports": "Preamble/section3;assentSep2,effectSep30.",
+              "access": "opened"
+            },
+            {
+              "url": "https://www.infrastructure.gov.au/territories-regions/territories/coral-sea-islands",
+              "title": "AustraliaGovernment CoralSeaIslands",
+              "supports": "1969-09-30territory,1997extension;notBritishtransfer/mandate.",
+              "access": "opened"
+            }
+          ]
+        },
+        "geometryVersionId": "state:CSI:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:CSI",
+          "versionId": "state:CSI:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "d7426535e915f3b3c7f1b98e694bf9f63fdd4520c1166108198cf2376f0005d9",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CSI",
+            "geometryVersionId": "state:CSI:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "458029ff513d8db64759c9da1ade0b6691cf28eddf06fdfb8833d8b96064d16c",
+    "preimageDescriptorBytes": 6747
+  },
+  {
+    "code": "ATC",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:ATC",
+      "entityKind": "general",
+      "lineageId": "atc",
+      "names": {
+        "ko": "애시모어카르티에제도"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1934-05-10",
+        "validTo": null
+      },
+      "parentEntityId": "state:AUS",
+      "geometryVersions": [
+        {
+          "versionId": "state:ATC:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:ATC:state:ATC:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-0fcd0068a4faae8f68e6c4cc431dd3aac6858466a0a04b8268811f0b0dd10207.json",
+            "sha256": "0fcd0068a4faae8f68e6c4cc431dd3aac6858466a0a04b8268811f0b0dd10207",
+            "bytes": 625
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "ATC",
+            "geometrySha256": "1006dca99c7f7553a0bc74357e15d9412a955d83bdbae04000ce72b08626827b",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "ATC",
+        "representativeGeometryVersionId": "state:ATC:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "ATC",
+        "featureProperties": {
+          "name": "애시모어카르티에제도"
+        },
+        "geometrySha256": "010e3d9f91f98016a53df4298f594879d6884843a52b85def395451caba276cb",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Exactcombinedterritoryacceptance,notearlierseparateislandclaimsorActMay3.1978administrationnotrestart.",
+          "sources": [
+            {
+              "url": "https://www.legislation.gov.au/C1933A00060/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html",
+              "title": "AshmoreCartierAcceptanceAct1933",
+              "supports": "Sections4-5andnotes:May3Act/May10Ordereffect.",
+              "access": "opened"
+            },
+            {
+              "url": "https://www.infrastructure.gov.au/territories-regions/territories/ashmore-and-cartier-islands",
+              "title": "AustraliaGovernment AshmoreCartier",
+              "supports": "Earlierclaimsand1934-05-10territoryacquisition.",
+              "access": "opened"
+            }
+          ]
+        },
+        "geometryVersionId": "state:ATC:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:ATC",
+          "versionId": "state:ATC:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "19354f70609b55d13e93fc068d65698aa3f66ebd86826abfd9ff9bb3dfcf3d42",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "ATC",
+            "geometryVersionId": "state:ATC:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "81b3de0e3e45d0450bc12bab138269caa2fccfbedc1fc81a7c7bdec367e9f308",
+    "preimageDescriptorBytes": 6792
+  },
+  {
+    "code": "CUW",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:CUW",
+      "entityKind": "general",
+      "lineageId": "cuw",
+      "names": {
+        "ko": "퀴라소"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "2010-10-10",
+        "validTo": null
+      },
+      "parentEntityId": "state:NLD",
+      "geometryVersions": [
+        {
+          "versionId": "state:CUW:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:CUW:state:CUW:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-592096ed52fad7931c08e5a89da62ed19add3fcb7ebebf8b58ac8b77f29f3dd0.json",
+            "sha256": "592096ed52fad7931c08e5a89da62ed19add3fcb7ebebf8b58ac8b77f29f3dd0",
+            "bytes": 7940
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CUW",
+            "geometrySha256": "c85410576ca7fa87e0f60aed41c067930e778c2c79e99dd77cc5558e19b4866f",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "CUW",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cw.svg",
+        "representativeGeometryVersionId": "state:CUW:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "CUW",
+        "featureProperties": {
+          "name": "퀴라소"
+        },
+        "geometrySha256": "8012445b45d6a829751ef0cfbe1e6fd4684fc2dc6e69c600fe7ee374d504d3b0",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Separate constituent country after dissolution of the Netherlands Antilles, rather than earlier island administration within the superior colony.",
+          "sourceUrls": [
+            "https://rac.cw/nl/sectors/telecommunicatie/beleid/nieuwe-iso-landencode-cw-voor-curacao/"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://rac.cw/nl/sectors/telecommunicatie/beleid/nieuwe-iso-landencode-cw-voor-curacao/",
+              "supports": "Curacao's new country status on 10 October 2010.",
+              "access": "official public regulator"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:CUW:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:CUW",
+          "versionId": "state:CUW:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "519a66e052c63b9850bc4b563059e58f855ea87646ad93e0a4247cfdaa175797",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CUW",
+            "geometryVersionId": "state:CUW:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "1867490d15b843e80bf84551de4388afe2198660a6a008a2ff4bc39bd4889e09",
+    "preimageDescriptorBytes": 6712
+  },
+  {
+    "code": "ABW",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:ABW",
+      "entityKind": "general",
+      "lineageId": "abw",
+      "names": {
+        "ko": "아루바"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1986-01-01",
+        "validTo": null
+      },
+      "parentEntityId": "state:NLD",
+      "geometryVersions": [
+        {
+          "versionId": "state:ABW:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:ABW:state:ABW:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-5cc9b30fd94e12a85c41caf56963cd1c3b225e1890e1ba069452bf196e58d902.json",
+            "sha256": "5cc9b30fd94e12a85c41caf56963cd1c3b225e1890e1ba069452bf196e58d902",
+            "bytes": 2117
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "ABW",
+            "geometrySha256": "11ce849e4a8a44ca0c5a5c8ed433ed9e07c1736bbe9753ab8a5414ba2b40c918",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "ABW",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/aw.svg",
+        "representativeGeometryVersionId": "state:ABW:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "ABW",
+        "featureProperties": {
+          "name": "아루바"
+        },
+        "geometrySha256": "bf6997516c66921a7d63c61e23d85b6dfba7847d866b5311cd6982bf048c38d3",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Separate constituent polity after departure from the Netherlands Antilles, following the user's superior-colony rule.",
+          "sourceUrls": [
+            "https://www.gobierno.aw/nl/historie-van-het-koninkrijk-en-aruba"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://www.gobierno.aw/nl/historie-van-het-koninkrijk-en-aruba",
+              "supports": "Status aparte began on 1 January 1986.",
+              "access": "official government history"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:ABW:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:ABW",
+          "versionId": "state:ABW:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "36b36ab2688b4d4205fc1a2d17056662240e1fa76043d805bed91142a139d852",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "ABW",
+            "geometryVersionId": "state:ABW:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "19525339308197109066b4aca512965898ab63c7b86f2ea279f1582e7680f884",
+    "preimageDescriptorBytes": 6626
+  },
+  {
+    "code": "TCA",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:TCA",
+      "entityKind": "general",
+      "lineageId": "tca",
+      "names": {
+        "ko": "터크스케이커스제도"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1962-08-06",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:TCA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:TCA:state:TCA:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-eb6f5c2a0d3e9b8a88aeac2ac55127276ca61e1505a63ce48387c1df4e05e568.json",
+            "sha256": "eb6f5c2a0d3e9b8a88aeac2ac55127276ca61e1505a63ce48387c1df4e05e568",
+            "bytes": 35610
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "TCA",
+            "geometrySha256": "42510cfe0c7927a3d264aebd363072edf8b7c497514ff651e3bc6e142b5a13d7",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "TCA",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tc.svg",
+        "representativeGeometryVersionId": "state:TCA:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "TCA",
+        "featureProperties": {
+          "name": "터크스케이커스제도"
+        },
+        "geometrySha256": "577dbd9180b5892608324346c5d76e838e1c0c6621d0de3a306c36058269dee5",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "자메이카 종속 이후 최신 별도 식민지 구간",
+          "sourceUrls": [
+            "https://www.legislation.gov.uk/uksi/1962/1649/pdfs/uksi_19621649_en.pdf"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://www.legislation.gov.uk/uksi/1962/1649/pdfs/uksi_19621649_en.pdf",
+              "supports": "명령 시행 1962-08-06. 1965 명령은 같은 날짜부터 효력을 재확인. 1973은 상주 총독 배치, 최초 별도 식민지 구성이 아님.",
+              "access": "search-only"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:TCA:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:TCA",
+          "versionId": "state:TCA:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "1497d70f4fe5297c4a74372521023723af832226ec8ed40abf27a005184cf904",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "TCA",
+            "geometryVersionId": "state:TCA:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "caa34b5461c4d4937d1f5cdcbb8765a6629c2fa2861beaf947f186fb79ecfe24",
+    "preimageDescriptorBytes": 6718
+  },
+  {
+    "code": "MSR",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:MSR",
+      "entityKind": "general",
+      "lineageId": "msr",
+      "names": {
+        "ko": "몬트세랫"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1632",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:MSR:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:MSR:state:MSR:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "Polygon",
+            "file": "geometries/sha256-775d5909144b31f818651ba6f66d1d9942746f5bcfd558682a4e60dd56a6f8e8.json",
+            "sha256": "775d5909144b31f818651ba6f66d1d9942746f5bcfd558682a4e60dd56a6f8e8",
+            "bytes": 1069
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "MSR",
+            "geometrySha256": "1f155886a725c17f8eb627112686e4b1617e0d1fb3618822346b35bc71c69b9b",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "MSR",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ms.svg",
+        "representativeGeometryVersionId": "state:MSR:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "MSR",
+        "featureProperties": {
+          "name": "몬트세랫"
+        },
+        "geometrySha256": "66eb028acf3b053f9ef5d1141dbee40a0109e852beb7061bb46c67c7b9dbc718",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "year",
+          "criterion": "White Paper says colony established1632, not merely settlement; occupation/constitutional reform no automatic restart.",
+          "sources": [
+            {
+              "url": "https://assets.publishing.service.gov.uk/media/5a75afa4ed915d506ee80b87/ot-wp-0612.pdf",
+              "title": "UK Overseas Territories White Paper2012",
+              "supports": "Printedp105:1632 colony,brief French occupations,1783 return,2011 constitution.",
+              "access": "opened"
+            }
+          ]
+        },
+        "geometryVersionId": "state:MSR:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:MSR",
+          "versionId": "state:MSR:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "666aee1e9ac80f9485b302e996568f98548fdf3876f007211eab9fc6980f2c3c",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "MSR",
+            "geometryVersionId": "state:MSR:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "188e0e3fa539eecfa0b3bab9b2268de940be3cb52e0749874726f86bdd8ee012",
+    "preimageDescriptorBytes": 6589
+  },
+  {
+    "code": "VIR",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:VIR",
+      "entityKind": "general",
+      "lineageId": "vir",
+      "names": {
+        "ko": "미국령 버진아일랜드"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1672",
+        "validTo": null
+      },
+      "parentEntityId": "state:USA",
+      "geometryVersions": [
+        {
+          "versionId": "state:VIR:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:VIR:state:VIR:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-61583d3898ade4485a3f331df48dfe34f79f863a99ce6599748413a113ebe0a5.json",
+            "sha256": "61583d3898ade4485a3f331df48dfe34f79f863a99ce6599748413a113ebe0a5",
+            "bytes": 15773
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "VIR",
+            "geometrySha256": "92dbdc15bc943d518d0955a971ea4886708205651b39ea21bdd93591b56b280a",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "VIR",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vi.svg",
+        "representativeGeometryVersionId": "state:VIR:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "VIR",
+        "featureProperties": {
+          "name": "미국령 버진아일랜드"
+        },
+        "geometrySha256": "dd2cacf8ccc69b6167478fc05af7e34362ebe5faa097b1bfd9a9af8c74f5b949",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "year",
+          "criterion": "NARA explicitly connects1672 company government to current territorial predecessor/successor administrations. Exact first operating day unconfirmed.",
+          "sources": [
+            {
+              "url": "https://www.archives.gov/research/guide-fed-records/groups/055.html",
+              "title": "NARA RG55 Virgin Islands Government",
+              "supports": "Company1672-1754,Crown1754-1917 predecessor agencies;orders since1672.",
+              "access": "opened"
+            },
+            {
+              "url": "https://www.nps.gov/viis/learn/timeline.htm",
+              "title": "NPS St John timeline",
+              "supports": "Charter1671-03-11,StThomasarrival/flag1672-05-26,laterislands.",
+              "access": "opened"
+            },
+            {
+              "url": "https://www.archives.gov/philadelphia/finding-aids/us-virgin-islands",
+              "title": "NARA US Virgin Islands records",
+              "supports": "1917-03-31 actual flag transfer,administrative succession.",
+              "access": "opened"
+            }
+          ]
+        },
+        "geometryVersionId": "state:VIR:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:VIR",
+          "versionId": "state:VIR:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "d61bdc11c5e44913b4790a610cdd2a3b41a84772101adafeb5d18f616e39a02b",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "VIR",
+            "geometryVersionId": "state:VIR:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "3c1bfc97894a24b21c66ce77f36ae008ac73c27d05b3fa75660a7accdd020d99",
+    "preimageDescriptorBytes": 7146
+  },
+  {
+    "code": "BLM",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:BLM",
+      "entityKind": "general",
+      "lineageId": "blm",
+      "names": {
+        "ko": "생바르텔레미"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "2007-07-15",
+        "validTo": null
+      },
+      "parentEntityId": "state:FRA",
+      "geometryVersions": [
+        {
+          "versionId": "state:BLM:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:BLM:state:BLM:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-f1e95ad648973f61c98f1f34010852c9da03a24bba17709c27a4f536cc344879.json",
+            "sha256": "f1e95ad648973f61c98f1f34010852c9da03a24bba17709c27a4f536cc344879",
+            "bytes": 1968
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "BLM",
+            "geometrySha256": "0007c7734def9843d83cc5d5765eec6c636adf8223a8f296f251884d6d4332fb",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "BLM",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bl.svg",
+        "representativeGeometryVersionId": "state:BLM:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "BLM",
+        "featureProperties": {
+          "name": "생바르텔레미"
+        },
+        "geometrySha256": "071151487fd10bda53052b04b611dce969f75f58eb297ad4db985a1382198570",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Separate overseas collectivity after leaving Guadeloupe. Earlier Swedish colonial edition was followed by reintegration into a superior administration.",
+          "sourceUrls": [
+            "https://www.assemblee-nationale.fr/13/rapports/r3993.asp"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://www.assemblee-nationale.fr/13/rapports/r3993.asp",
+              "supports": "Installation of the new collectivity on 15 July 2007. The document's early Swedish-period typo is not used.",
+              "access": "French National Assembly report"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:BLM:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:BLM",
+          "versionId": "state:BLM:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "b40619b0c86684bafd17a47b427cf361fcc0f743690c0abbd478e5846eb74b0a",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "BLM",
+            "geometryVersionId": "state:BLM:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "920e04bb5ac7c1da1e312200d4d18e4430409a36166e484667f46bbfc6be1da4",
+    "preimageDescriptorBytes": 6737
+  },
+  {
+    "code": "PRI",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:PRI",
+      "entityKind": "general",
+      "lineageId": "pri",
+      "names": {
+        "ko": "푸에르토리코"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1509-08-24",
+        "validTo": null
+      },
+      "parentEntityId": "state:USA",
+      "geometryVersions": [
+        {
+          "versionId": "state:PRI:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:PRI:state:PRI:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-800e9ace602eaae168ec428af351e626b657ef7084122f78f497bc4cfc996568.json",
+            "sha256": "800e9ace602eaae168ec428af351e626b657ef7084122f78f497bc4cfc996568",
+            "bytes": 35448
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "PRI",
+            "geometrySha256": "ad6357d2d65fcd4f10b1b4ecd67e3613af8974308a5702d271f8704148c38b9c",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "PRI",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pr.svg",
+        "representativeGeometryVersionId": "state:PRI:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "PRI",
+        "featureProperties": {
+          "name": "푸에르토리코"
+        },
+        "geometrySha256": "74cd6043a63d49fe02bbcafac32a710003a83dbb9a8e027fe97abb8136a852f1",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Separate Crown island government appointment, not the governor of Hispaniola's 1508 private deputy. Gregorian equivalent of the original Julian 14 August 1509.",
+          "sourceUrls": [
+            "https://bd.bnphu.gob.do/server/api/core/bitstreams/ecbd65d0-2357-4ce6-aa02-e3dc1eaaad43/content",
+            "https://bibliotecahistorica.usal.es/reforma-del-calendario-en-1582/"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/ecbd65d0-2357-4ce6-aa02-e3dc1eaaad43/content",
+              "supports": "CDIAO volume 31, printed pp.459-460: royal grant of island gobernacion and juzgado, dated 14 August 1509 in the original closing clause.",
+              "access": "1879 transcription of original royal letter"
+            },
+            {
+              "url": "https://bibliotecahistorica.usal.es/reforma-del-calendario-en-1582/",
+              "supports": "Spanish calendar reform was in 1582; original 1509 date is Julian. Julian 1509-08-14 and Gregorian 1509-08-24 have the same JDN 2272446.",
+              "access": "university historical calendar material and calendar calculation"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:PRI:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:PRI",
+          "versionId": "state:PRI:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "ede5aa479c6a1b42196cc0de648a9b65d834d40f93c9bdff696d330c07620a27",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "PRI",
+            "geometryVersionId": "state:PRI:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "4120dd61eed6aae36b98fbe735284f49e107faf1055beca81453ffa596dd07fa",
+    "preimageDescriptorBytes": 7302
+  },
+  {
+    "code": "AIA",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:AIA",
+      "entityKind": "general",
+      "lineageId": "aia",
+      "names": {
+        "ko": "앵귈라"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1980-12-19",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:AIA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:AIA:state:AIA:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-9bf14281d7cccf8ac7928a78bba163b1b8be0ea15ee13dcd0bbcb1293db9806c.json",
+            "sha256": "9bf14281d7cccf8ac7928a78bba163b1b8be0ea15ee13dcd0bbcb1293db9806c",
+            "bytes": 3623
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "AIA",
+            "geometrySha256": "d9ab63080680cc850a6a92071e5af6944f22a40e4f91325c7e10b399d4555c9b",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "AIA",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ai.svg",
+        "representativeGeometryVersionId": "state:AIA:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "AIA",
+        "featureProperties": {
+          "name": "앵귈라"
+        },
+        "geometrySha256": "f47d7bacf82861204b3920da054638fac87155afedd18d7bbacd1a98bf90c0d3",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "별도 영토의 법적 분리",
+          "sourceUrls": [
+            "https://digitallibrary.un.org/record/71405/files/A_AC-109_799-EN.pdf"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://digitallibrary.un.org/record/71405/files/A_AC-109_799-EN.pdf",
+              "supports": "영국과의 법적 분리 조치가 1980-12-19 발효. 1967 실효 분리와 구별.",
+              "access": "search-only"
+            }
+          ],
+          "userSelected": true
+        },
+        "geometryVersionId": "state:AIA:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:AIA",
+          "versionId": "state:AIA:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "bf2a7409ead98136a3bfba810396d0dcbc7cfa8569f51b462a1ca1b5ba7d3a63",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "AIA",
+            "geometryVersionId": "state:AIA:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "4e303feabcd2f6c37351d7885b5f2fd35e54bbe1bb6993f8e00b20ae7d20e536",
+    "preimageDescriptorBytes": 6579
+  },
+  {
+    "code": "VGB",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:VGB",
+      "entityKind": "general",
+      "lineageId": "vgb",
+      "names": {
+        "ko": "영국령 버진아일랜드"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1956-07-01",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:VGB:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:VGB:state:VGB:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-1421c5379131e63eba4054367efe40a70cd1e99850073cac2e42f104d20b9665.json",
+            "sha256": "1421c5379131e63eba4054367efe40a70cd1e99850073cac2e42f104d20b9665",
+            "bytes": 13997
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "VGB",
+            "geometrySha256": "b266c8cc281cdef12a78c4aa308438580a992ca9a8d9a39693352a86fb641fb6",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "VGB",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vg.svg",
+        "representativeGeometryVersionId": "state:VGB:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "VGB",
+        "featureProperties": {
+          "name": "영국령 버진아일랜드"
+        },
+        "geometrySha256": "029e7764c9533165fbc9a3dc352565a43473257cabaacbfa5098186b3492073d",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Separate colony following abolition of the Leeward Islands federation; 1960 termination of the common governorship is later.",
+          "sourceUrls": [
+            "https://bvi.org.uk/message-by-dr-the-honourable-natalio-d-wheatley-virgin-islands-day-celebration/"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://bvi.org.uk/message-by-dr-the-honourable-natalio-d-wheatley-virgin-islands-day-celebration/",
+              "supports": "Official account of separate colonial status from 1 July 1956.",
+              "access": "government office statement"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:VGB:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:VGB",
+          "versionId": "state:VGB:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "0c70d7eba5c810148cd7ca2eddea9a0e4421f78a835c9bea7fcbd98fc212cab0",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "VGB",
+            "geometryVersionId": "state:VGB:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "cf5961858169d7436de623e4c81f37863243cbb2a2756aa14c6875f5b434f2d2",
+    "preimageDescriptorBytes": 6766
+  },
+  {
+    "code": "CYM",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:CYM",
+      "entityKind": "general",
+      "lineageId": "cym",
+      "names": {
+        "ko": "케이맨제도"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1959-07-04",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:CYM:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:CYM:state:CYM:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-018c1fb02ad2db1f25293d5e4e43a708fcb0e43aae4a321e91fb4dc463e2f854.json",
+            "sha256": "018c1fb02ad2db1f25293d5e4e43a708fcb0e43aae4a321e91fb4dc463e2f854",
+            "bytes": 5609
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CYM",
+            "geometrySha256": "6683e194aabd59023df1a07e084d55439d748e6e04b9924dd1255f9793b38d84",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "CYM",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ky.svg",
+        "representativeGeometryVersionId": "state:CYM:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "CYM",
+        "featureProperties": {
+          "name": "케이맨제도"
+        },
+        "geometrySha256": "fe0a8141d473d3235bb9270ce485709f254cd1443bc0a07d82f505d05eb499a5",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-26",
+          "calendar": "proleptic-gregorian",
+          "precision": "date",
+          "criterion": "Distinct constitutional territory outside Jamaica; a shared governor until 1962 does not postpone its existence.",
+          "sourceUrls": [
+            "https://www.legislation.gov.uk/uksi/1959/863/pdfs/uksi_19590863_en.pdf",
+            "https://api.parliament.uk/historic-hansard/written-answers/1977/jun/23/cayman-islands"
+          ],
+          "sourceNotes": [
+            {
+              "url": "https://www.legislation.gov.uk/uksi/1959/863/pdfs/uksi_19590863_en.pdf",
+              "supports": "Cayman Islands Constitution Order 1959 commencement on 4 July 1959.",
+              "access": "official original legislation"
+            },
+            {
+              "url": "https://api.parliament.uk/historic-hansard/written-answers/1977/jun/23/cayman-islands",
+              "supports": "UK government explanation that Cayman separated from Jamaica in 1959.",
+              "access": "original parliamentary answer"
+            }
+          ],
+          "userSelected": false
+        },
+        "geometryVersionId": "state:CYM:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:CYM",
+          "versionId": "state:CYM:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "a09513a7cb0a4aac8ff66f0812e395d9349a9a763ac72511980f5a9db6cf2c37",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "CYM",
+            "geometryVersionId": "state:CYM:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "dc2bb5dc80083409d9547cde775554e02f73e3a4b0db048a9618bf065e4d4449",
+    "preimageDescriptorBytes": 7049
+  },
+  {
+    "code": "BMU",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:BMU",
+      "entityKind": "general",
+      "lineageId": "bmu",
+      "names": {
+        "ko": "버뮤다"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1612",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:BMU:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:BMU:state:BMU:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-9d968f6733172dd0e49a3b3bca56be042b47b9242c5593a6bfbf1bcecf612f28.json",
+            "sha256": "9d968f6733172dd0e49a3b3bca56be042b47b9242c5593a6bfbf1bcecf612f28",
+            "bytes": 6469
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "BMU",
+            "geometrySha256": "8e89a9c088cce2d0bf3f64484629bec7127770d25838d7008891248da44abb85",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "BMU",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bm.svg",
+        "representativeGeometryVersionId": "state:BMU:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "BMU",
+        "featureProperties": {
+          "name": "버뮤다"
+        },
+        "geometrySha256": "af2df98c25e1b9c80497c260cbec8a09c35e9c0f31af348874025fc5b7df319e",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "year",
+          "criterion": "Official governor succession begins1612, distinct from1609 shipwreck; Company/Crown transition does not restart.",
+          "sources": [
+            {
+              "url": "https://www.gov.bm/previous-governors-bermuda",
+              "title": "Bermuda Government Previous Governors",
+              "supports": "Governors since1612;Company thenCrown appointment.",
+              "access": "opened"
+            }
+          ]
+        },
+        "geometryVersionId": "state:BMU:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:BMU",
+          "versionId": "state:BMU:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "6399b7112b4d8b947fa0a0548038f7416d14771c7d6620b74554816dac2abf70",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "BMU",
+            "geometryVersionId": "state:BMU:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "f5a19dd725afe15398578fc6d3313f253204d3e5509c8ee7067bee83b9b5a4d6",
+    "preimageDescriptorBytes": 6510
+  },
+  {
+    "code": "JEY",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:JEY",
+      "entityKind": "general",
+      "lineageId": "jey",
+      "names": {
+        "ko": "저지섬"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1204",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:JEY:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:JEY:state:JEY:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-0874f580c8b173e731dc6731b2cc7bae244958115ca364d9fbaa8028c986dc48.json",
+            "sha256": "0874f580c8b173e731dc6731b2cc7bae244958115ca364d9fbaa8028c986dc48",
+            "bytes": 2948
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "JEY",
+            "geometrySha256": "8a47566d9cdc08a8ec5e960092e7444084d0d0b5fbbdbe7b7fe5c2ee7b3220d3",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "JEY",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/je.svg",
+        "representativeGeometryVersionId": "state:JEY:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "JEY",
+        "featureProperties": {
+          "name": "저지섬"
+        },
+        "geometrySha256": "22e64cd8b625b2a02fb44a0a1868dac22a4db69b2c6f02e3d0348053dea9abae",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "year",
+          "criterion": "저지 정부는 1204년에 부여된 자체 법에 따른 통치와 왕실 관계를 오늘날 헌정의 기초로 제시한다. 별도 자치 행정·법체계에 대한 공식 법률정보기관 설명과 일치한다. 1856·1948 의회 구성 변경은 정체 재성립으로 취급하지 않는다. 일·월은 근거가 없으므로 연도만 보존한다.",
+          "sources": [
+            {
+              "url": "https://www.gov.je/Leisure/Jersey/pages/history.aspx",
+              "title": "Government of Jersey — Jersey's history",
+              "access": "opened",
+              "supports": "1204년 자체 법·Jurats·Royal Court와 현재 헌정의 기초, 후대 의회 구성 변경."
+            },
+            {
+              "url": "https://www.jerseylaw.je/publications/jglr/Pages/About.aspx",
+              "title": "About the Jersey and Guernsey Law Review",
+              "access": "opened",
+              "supports": "1204년에 시작된 두 Bailiwick의 정치자치·사법독립과 별도 행정·자체 법체계."
+            }
+          ]
+        },
+        "geometryVersionId": "state:JEY:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:JEY",
+          "versionId": "state:JEY:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "77c6d06fa524d84ef373853e1cc6a553556e1b87ede06c1a71ae1225442e9c02",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "JEY",
+            "geometryVersionId": "state:JEY:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "d73efada9cae0b48b85d0f1fb8cd403602248c2d8d97267ea6988d7872d09ec7",
+    "preimageDescriptorBytes": 7136
+  },
+  {
+    "code": "GGY",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:GGY",
+      "entityKind": "general",
+      "lineageId": "ggy",
+      "names": {
+        "ko": "건지섬"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1204",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:GGY:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:GGY:state:GGY:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-84152f492eaa336b77911420cfabfa5e7a10e24f4fd767e6edd3c6cab2b1bb5f.json",
+            "sha256": "84152f492eaa336b77911420cfabfa5e7a10e24f4fd767e6edd3c6cab2b1bb5f",
+            "bytes": 6097
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "GGY",
+            "geometrySha256": "6ecc8886cc572c4971df753ab5558328049fb38c6bdf907c3ac246693e4071dc",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "GGY",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gg.svg",
+        "representativeGeometryVersionId": "state:GGY:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "GGY",
+        "featureProperties": {
+          "name": "건지섬"
+        },
+        "geometrySha256": "eecb2791b133225bcb42f2b4a05b34eae8f461c5cf55dbbdc4b0b8d5718eb7bb",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-EXTANT-20261025",
+          "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+          "researchedAt": "2026-10-25",
+          "calendar": "proleptic-gregorian",
+          "precision": "year",
+          "criterion": "건지 정부의 헌정 설명과 Jersey Legal Information Board의 설명이 모두 1204년을 현재 자치·사법독립 관계의 출발로 제시한다. 1066년은 노르망디 공작의 잉글랜드 왕위 취득이므로 건지의 신설일로 사용하지 않는다. 근거는 연도 정밀도이며 일·월을 만들어 붙이지 않는다.",
+          "sources": [
+            {
+              "url": "https://committees.parliament.uk/writtenevidence/125181/html/",
+              "title": "Written evidence submitted by the government of Guernsey (TTC 41)",
+              "access": "opened",
+              "supports": "2.1–2.3항: 1204년을 왕실 관계의 기초로 명시하고 자체 법·관습·사법·입법·집행기관의 연속성을 설명한다."
+            },
+            {
+              "url": "https://www.jerseylaw.je/publications/jglr/Pages/About.aspx",
+              "title": "About the Jersey and Guernsey Law Review",
+              "access": "opened",
+              "supports": "두 Bailiwick의 정치자치·사법독립이 1204년에 시작되었고 별도 행정과 자체 법체계가 마련되었다는 설명."
+            }
+          ]
+        },
+        "geometryVersionId": "state:GGY:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:GGY",
+          "versionId": "state:GGY:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "e92c80bedec266e75457e0d9b8662f655787704be0d52d5f269f5de5c9dfcf3a",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "GGY",
+            "geometryVersionId": "state:GGY:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "4f4a3c0eff7a9a11800495fbfb00d1cbe6b994477a07dabab78ce694b19b2cdf",
+    "preimageDescriptorBytes": 7241
+  },
+  {
+    "code": "IMN",
+    "descriptor": {
+      "schemaVersion": 2,
+      "entityId": "state:IMN",
+      "entityKind": "general",
+      "lineageId": "imn",
+      "names": {
+        "ko": "맨섬"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": "1765",
+        "validTo": null
+      },
+      "parentEntityId": "state:GBR",
+      "geometryVersions": [
+        {
+          "versionId": "state:IMN:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:IMN:state:IMN:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-d3164426533d9efcc42d8f6a4c81a481a6e28157899056b3af0b096ea1e02c17.json",
+            "sha256": "d3164426533d9efcc42d8f6a4c81a481a6e28157899056b3af0b096ea1e02c17",
+            "bytes": 4763
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "IMN",
+            "geometrySha256": "23f95df628553b5c3acfa5075f69406075e1709d7f497e55fdd7dc03d732b75f",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "sourceFeatureId": "IMN",
+        "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/im.svg",
+        "representativeGeometryVersionId": "state:IMN:natural-earth-5.1.1"
+      },
+      "sourceInfo": {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "featureId": "IMN",
+        "featureProperties": {
+          "name": "맨섬"
+        },
+        "geometrySha256": "9c2fca793b181a732de18bba81f30dd2b92632b670b3f00b66e6208fff5f5b53",
+        "lifetimeEvidence": {
+          "reportId": "GEO-LIFE-REMAINING-20261027",
+          "reportPath": "reports/borders/history/lifetimes/remaining-2026-10-27",
+          "researchedAt": "2026-10-27",
+          "calendar": "proleptic-gregorian",
+          "precision": "year",
+          "criterion": "User-approved Crown revestment benchmark: in 1765 the rights held by the Lords Proprietors were purchased and revested in the British Crown. This is not a founding date for the earlier Manx community or Tynwald, nor an independence declaration. Earlier institutions and political existence are not denied; no unverified day or month is supplied.",
+          "userApproved": true,
+          "sources": [
+            {
+              "url": "https://tynwald.org.im/history/revestment",
+              "title": "Tynwald: The Story of Revestment and Popular Elections",
+              "supports": "Purchase of the Duke of Atholl rights, interests and privileges in 1765."
+            },
+            {
+              "url": "https://tynwald.im/history",
+              "title": "Tynwald: History",
+              "supports": "Revestment in the Crown in 1765; the traditional 979 origin of the assembly is not confirmed by contemporary documentary evidence."
+            }
+          ]
+        },
+        "geometryVersionId": "state:IMN:natural-earth-5.1.1",
+        "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+        "priorSourceAttribution": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+          "entityId": "state:IMN",
+          "versionId": "state:IMN:natural-earth-5.1.1",
+          "originalSourceId": "natural-earth-5.1.1",
+          "originalSourceGeometrySha256": "16fa987ed3373f2d9dd22121cf047a01485b981eee0cfea58297814d12d88e10",
+          "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+        },
+        "sourceAttributions": [
+          {
+            "sourceId": "approved-current-world-display-20261107",
+            "title": "User-approved composite prepared current display donor",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "IMN",
+            "geometryVersionId": "state:IMN:natural-earth-5.1.1",
+            "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+            "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+          }
+        ]
+      },
+      "storageLayout": "geometry-resources-v1"
+    },
+    "revision": "cd770e953393d38fee8ecd144e66d0bc0077507b",
+    "preimageDescriptorSha256": "8ed201ac2778e5d5c8b5a43a9eff58982983fc5e411fc71999b6e849a019deec",
+    "preimageDescriptorBytes": 7038
+  }
+]
