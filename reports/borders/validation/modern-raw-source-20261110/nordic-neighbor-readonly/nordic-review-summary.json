@@ -1,0 +1,122 @@
+{
+  "status": "complete-readonly-blocked-for-direct-adoption",
+  "pinRevision": "f3c7857a23f0e68f962d0c9a02d66a0087b56329",
+  "decision": "Neither Nordic-only complete raw replacements with existing RUS nor whole-country raw RUS replacement is safe under preservation requirements.",
+  "findings": [
+    "FIN/raw plus existing RUS and NOR/raw plus existing RUS each introduce measured corridor overlaps and gaps; old-old and raw-raw pairs have zero overlap.",
+    "Raw RUS alone excludes existing RUS Crimea and approved Japan-origin island components, demonstrated by three interior-point checks.",
+    "RUS has separate 1991-12-25..2014-03-17 and 2014-03-18..present versions. Exact Nordic-window component sets are identical in both, so a shared northern-boundary migration review must account for both periods.",
+    "Existing RUS display receipts explicitly name FIN/NOR counterparts and geometry hashes. They cannot certify changed geometry by copying old receipts."
+  ],
+  "smallestActionableNextReview": {
+    "objects": [
+      "FIN",
+      "NOR",
+      "SWE"
+    ],
+    "neighborVersions": [
+      "state:RUS:post-soviet-existing-coordinates",
+      "state:RUS:natural-earth-5.1.1"
+    ],
+    "scope": "Review original-coordinate shared northern boundary alignment and source-bound review evidence for Nordic objects plus the two RUS versions; preserve Crimea convention, 12 Japan-origin components, dates and all unrelated RUS boundaries. This identifies review scope, not an approved recipe or permission to rewrite RUS.",
+    "readyToApply": false
+  },
+  "filesAndHashes": [
+    {
+      "code": "FIN",
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-FIN.json",
+      "descriptorSha256": "5f9f828ea81cb615f6c20927e95c9b39e498a716617d1b65f229045141beb270",
+      "versions": [
+        {
+          "versionId": "state:FIN:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "geometryFile": "assets/data/territorial-entities/source/geometries/sha256-26beb477d4e93e601b37279f663534b96d426ba32501d9c1140a66e6a30a5d58.json",
+          "geometryPayloadSha256": "26beb477d4e93e601b37279f663534b96d426ba32501d9c1140a66e6a30a5d58"
+        }
+      ]
+    },
+    {
+      "code": "NOR",
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-NOR.json",
+      "descriptorSha256": "b23c601cbcc54725770ef6c6e34e41256e6973d1bdd5d3b3909e1a6cd3745477",
+      "versions": [
+        {
+          "versionId": "state:NOR:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "geometryFile": "assets/data/territorial-entities/source/geometries/sha256-26df07e6a6157c23be2613620c0f3302a72927d4e320800ad1635a956cd25174.json",
+          "geometryPayloadSha256": "26df07e6a6157c23be2613620c0f3302a72927d4e320800ad1635a956cd25174"
+        }
+      ]
+    },
+    {
+      "code": "SWE",
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-SWE.json",
+      "descriptorSha256": "fc1996f1acdd3fec990be1ca79c86054bf832802a810a1fabb5ad73cd6c35518",
+      "versions": [
+        {
+          "versionId": "state:SWE:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "geometryFile": "assets/data/territorial-entities/source/geometries/sha256-ab903bc712ea860bd31c198a4151003e2090276a40d6595e7b553b8754f075f6.json",
+          "geometryPayloadSha256": "ab903bc712ea860bd31c198a4151003e2090276a40d6595e7b553b8754f075f6"
+        }
+      ]
+    },
+    {
+      "code": "RUS",
+      "descriptorPath": "assets/data/territorial-entities/source/countries/state-RUS.json",
+      "descriptorSha256": "c6589a67398da9e1bf0b92069e39b518d65454d20758d02acacd0642962cf2bf",
+      "versions": [
+        {
+          "versionId": "state:RUS:post-soviet-existing-coordinates",
+          "validFrom": "1991-12-25",
+          "validTo": "2014-03-17",
+          "geometryFile": "assets/data/territorial-entities/source/geometries/sha256-dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5.json",
+          "geometryPayloadSha256": "dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5"
+        },
+        {
+          "versionId": "state:RUS:natural-earth-5.1.1",
+          "validFrom": "2014-03-18",
+          "validTo": null,
+          "geometryFile": "assets/data/territorial-entities/source/geometries/sha256-81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44.json",
+          "geometryPayloadSha256": "81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44"
+        }
+      ]
+    }
+  ],
+  "neighborEvidence": [
+    {
+      "code": "FIN",
+      "scope": "Raw shared land-border corridor 0.01 geographic degree buffer; external clipping edges excluded",
+      "rawSharedBoundaryLengthDegrees": 18.32052524844461,
+      "rawPairOverlapDegrees2": 0.0,
+      "existingPairOverlapDegrees2": 0.0,
+      "mixedPairCorridorOverlapDegrees2": 0.004356154356899632,
+      "mixedPairCorridorGapVersusRawUnionDegrees2": 0.00452157772596765,
+      "rawBoundaryNotCoincidentWithExistingRussiaBoundaryDegrees": 17.07216384973247
+    },
+    {
+      "code": "NOR",
+      "scope": "Raw shared land-border corridor 0.01 geographic degree buffer; external clipping edges excluded",
+      "rawSharedBoundaryLengthDegrees": 3.353325762790985,
+      "rawPairOverlapDegrees2": 0.0,
+      "existingPairOverlapDegrees2": 0.0,
+      "mixedPairCorridorOverlapDegrees2": 0.0010551216055393507,
+      "mixedPairCorridorGapVersusRawUnionDegrees2": 0.001381903518542631,
+      "rawBoundaryNotCoincidentWithExistingRussiaBoundaryDegrees": 3.241081988060155
+    }
+  ],
+  "politicalScopeEvidence": "russia-political-scope-samples.json",
+  "periodLineageEvidence": "russia-period-nordic-lineage.json",
+  "limitations": [
+    "Geographic-degree areas and lengths, not metric estimates.",
+    "Gap/overlap results are restricted to a 0.01-degree raw shared-border corridor, not whole-country union comparison.",
+    "Interior samples demonstrate attribution differences but do not exhaust disputed territory or establish sovereignty."
+  ],
+  "sourceChanges": false,
+  "appChanges": false,
+  "network": false,
+  "largeGeometryExports": false
+}
