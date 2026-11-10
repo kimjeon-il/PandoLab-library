@@ -1,0 +1,99 @@
+{
+  "status": "passed-for-three-geometry-candidates-only",
+  "projection": "+proj=laea +lat_0=69.7 +lon_0=60.65 +datum=WGS84 +units=m +no_defs",
+  "targets": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "oldIslandIndices": [
+        98
+      ],
+      "oldMainlandIndex": 6,
+      "oldVertexSpanInclusive": [
+        22928,
+        22969
+      ],
+      "candidateValid": true,
+      "candidateValidity": "Valid Geometry",
+      "retainedCoordinatesAndAllOtherPolygonRingsExact": true,
+      "all52DonorComponentsAndRingsExact": true,
+      "donor1552And1554PointContactPreserved": true,
+      "newDonorVsMainlandIntersectionArea": 0.0,
+      "newDonorVsRestIntersects": false,
+      "prior1554MainlandOverlapM2": 181922.91094215066,
+      "new1554MainlandGapM": 558.6409679980177,
+      "newMainlandSymmetricDifferenceKm2": 147.73181594620277,
+      "beforePolygonCount": 231,
+      "afterPolygonCount": 282
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "oldIslandIndices": [
+        138
+      ],
+      "oldMainlandIndex": 6,
+      "oldVertexSpanInclusive": [
+        24185,
+        24226
+      ],
+      "candidateValid": true,
+      "candidateValidity": "Valid Geometry",
+      "retainedCoordinatesAndAllOtherPolygonRingsExact": true,
+      "all52DonorComponentsAndRingsExact": true,
+      "donor1552And1554PointContactPreserved": true,
+      "newDonorVsMainlandIntersectionArea": 0.0,
+      "newDonorVsRestIntersects": false,
+      "prior1554MainlandOverlapM2": 181922.91094215066,
+      "new1554MainlandGapM": 558.6409679980177,
+      "newMainlandSymmetricDifferenceKm2": 147.73181594620277,
+      "beforePolygonCount": 299,
+      "afterPolygonCount": 350
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "oldIslandIndices": [
+        102
+      ],
+      "oldMainlandIndex": 6,
+      "oldVertexSpanInclusive": [
+        25156,
+        25197
+      ],
+      "candidateValid": true,
+      "candidateValidity": "Valid Geometry",
+      "retainedCoordinatesAndAllOtherPolygonRingsExact": true,
+      "all52DonorComponentsAndRingsExact": true,
+      "donor1552And1554PointContactPreserved": true,
+      "newDonorVsMainlandIntersectionArea": 0.0,
+      "newDonorVsRestIntersects": false,
+      "prior1554MainlandOverlapM2": 181922.91094215066,
+      "new1554MainlandGapM": 558.6409679980177,
+      "newMainlandSymmetricDifferenceKm2": 147.73181594620277,
+      "beforePolygonCount": 235,
+      "afterPolygonCount": 286
+    }
+  ],
+  "sameMainlandArcAcrossAllThree": true,
+  "sameCompleteDonorGroupAcrossAllThree": true,
+  "all52WholeDonorsValid": true,
+  "donor1552And1554PointContact": {
+    "type": "Point",
+    "coordinates": [
+      60.635473200000035,
+      69.69992360000003
+    ]
+  },
+  "modernGroupValidity": "Valid Geometry",
+  "exactHistoricalEffectiveDatesUnchanged": true,
+  "historicalMetadataNotModified": true,
+  "sourceGateAndCodecPendingStructuredProvenance": true,
+  "noSourceWrite": true
+}

@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "status": "prepared-not-applied",
+  "reviewRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "latestHeadRechecked": "44fcddf4140cf49b72238da86575a95de9ef2876",
+  "scope": "Combined Novaya Zemlya 757-component group and Vaygach/Yugorsky 52-component group with linked mainland shoreline; 809 total exact whole donor components. Kolguyev administrative-document status clarification only.",
+  "priorSources": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "source": {
+        "reference": "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+        "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+        "sha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b"
+      },
+      "versionSha256": "9b75cfd14118307192eb47584badde34ffa1821366d26637c203f0ba476cd684",
+      "geometrySha256": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4",
+      "priorDisplayDetailReview": {
+        "schemaVersion": 1,
+        "status": "passed",
+        "entityId": "state:soviet-union-russian-sfsr",
+        "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+        "validFrom": "1922-12-30",
+        "validTo": "1925-05-12",
+        "geometrySha256": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4",
+        "master": {
+          "reference": "assets/data/territorial-entities/source/geometries/sha256-2484e6a2460e31332cd02a0fff4296c1f27f60f9961af0aef1a356b56fad0fcf.json",
+          "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+          "sha256": "2484e6a2460e31332cd02a0fff4296c1f27f60f9961af0aef1a356b56fad0fcf"
+        },
+        "source": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/source-provenance.json",
+          "sha256": "0a20b098f33196e5dcd2717761224b980a62acbb6f095f6ee263ce83653c9314"
+        },
+        "comparison": {
+          "reference": {
+            "reference": "assets/data/countries-ne-5.1.1.geojson",
+            "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+            "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+          },
+          "arcSha256": "a856c8681e61c6f9f5679c7b7fa3e8323d58180940befd46a58046e6017c1ed0",
+          "extent": [
+            47.5,
+            68.4,
+            50.7,
+            69.8
+          ],
+          "scaleDenominator": 10000000,
+          "projection": {
+            "definition": "+proj=laea +lat_0=69.1 +lon_0=49.2 +datum=WGS84 +units=m +no_defs",
+            "units": "metre",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/projection-evidence.json",
+              "sha256": "d423e144c855ebe0369a9d796f87181d147c8151c9be8373451ceec3aedbc068"
+            }
+          }
+        },
+        "method": "preserved-modern-source",
+        "reason": "Replace the complete legacy Kolguyev group with every whole polygon of the approved modern physical-coast donor group; documented historical state membership and existing date coverage are preserved.",
+        "parameters": {
+          "oldComponents": 5,
+          "donorComponents": 18,
+          "donorIndices": [
+            738,
+            739,
+            740,
+            741,
+            742,
+            744,
+            794,
+            795,
+            796,
+            797,
+            804,
+            806,
+            807,
+            808,
+            809,
+            810,
+            811,
+            812
+          ],
+          "approvedDonorGroupSha256": "a856c8681e61c6f9f5679c7b7fa3e8323d58180940befd46a58046e6017c1ed0",
+          "unselectedCoordinateArraysPreserved": true,
+          "allDonorRingsPreserved": true,
+          "omittedDonorComponents": 0,
+          "coordinateRounding": null,
+          "snapTolerance": null,
+          "resimplification": null,
+          "areaThreshold": null,
+          "oldNEClipping": false
+        },
+        "visual": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/visual-review.json",
+          "sha256": "fd863095a3120997dadf53446d550c6757667f94961c566f3f246e1131d84e3b"
+        },
+        "topology": {
+          "status": "passed",
+          "evidence": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/topology-proof.json",
+            "sha256": "cfdb4e5a4c28d403b322dbd24479a9e93bf85c51f848f0d4ab632e60b31a1801"
+          },
+          "checks": [
+            "validity",
+            "shared-boundary",
+            "union",
+            "gaps-overlaps",
+            "connectivity",
+            "holes-islands",
+            "dates"
+          ],
+          "scope": "Three full candidates are valid. All unselected polygon coordinate arrays are byte-exact in JSON, the entire eighteen-polygon donor group is exact, candidate union is exactly retained geometry plus the donor group, and the donor group neither overlaps nor touches retained geometry. Paired 1922 parent and constituent use identical island groups with identical coverage dates; 1925-1929 parent also uses the identical group. No full worldwide historical topology certification."
+        },
+        "counterpartVersions": [
+          {
+            "entityId": "state:soviet-union",
+            "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+            "geometrySha256": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f"
+          }
+        ],
+        "fixedAnchors": [],
+        "reviewedAt": "2026-11-10T05:54:39.584Z",
+        "compiledDerivatives": [],
+        "fullPeriodDatedCounterpartClosureVerified": false,
+        "selectedScopeParentConstituentCompatibilityVerified": true,
+        "runtimeApproval": false
+      },
+      "priorNotes": "Approved source-backed provisional1922-12-30 snapshot. Mixed source dates, claim/occupation distinction and registrations retained in immutable ZIP. Other non-Caspian/Aral/Arctic coastline context is NE5.1.1; not2026 surveyed coast. Selection through1925-05-12 by user instruction; the source remains a1922-12-30 reconstruction. European exterior revised from user-approved Finland/Estonia/Latvia/Poland reconstruction; existing sea coastline and Dniester retained. Modern river/shared sections preserved; only confirmed Latvia dry-land detail lightly simplified. Original ZIP hashes identify baseline evidence, not this adjusted geometry. North Caucasus shared boundary uses the selected BSE33-based western reconstruction and modern NE elsewhere as approved display-scale approximations; precise historical coordinate identity is not established.\nDisplay-only coast update 2026-11-10: the complete Kolguyev group uses all 18 approved modern donor polygons in place of the five legacy polygons. Historical dates, political membership, mainland geometry, other islands, Caspian/Aral changes and Arctic claim exceptions remain unchanged. The original tiny-island title and historical positional-accuracy limitations remain; modern coordinates are not a new historical survey."
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "source": {
+        "reference": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+        "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+        "sha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5"
+      },
+      "versionSha256": "9b47238bf97d835544080b8bfb0baf23c4aca80f43c371b91ce12d035a76a976",
+      "geometrySha256": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f",
+      "priorDisplayDetailReview": {
+        "schemaVersion": 1,
+        "status": "passed",
+        "entityId": "state:soviet-union",
+        "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+        "validFrom": "1922-12-30",
+        "validTo": "1925-05-12",
+        "geometrySha256": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f",
+        "master": {
+          "reference": "assets/data/territorial-entities/source/geometries/sha256-178d61970902abb7e07947944534a95db963164c3eb0f657bb033c65c53e8c35.json",
+          "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+          "sha256": "178d61970902abb7e07947944534a95db963164c3eb0f657bb033c65c53e8c35"
+        },
+        "source": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/source-provenance.json",
+          "sha256": "0a20b098f33196e5dcd2717761224b980a62acbb6f095f6ee263ce83653c9314"
+        },
+        "comparison": {
+          "reference": {
+            "reference": "assets/data/countries-ne-5.1.1.geojson",
+            "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+            "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+          },
+          "arcSha256": "a856c8681e61c6f9f5679c7b7fa3e8323d58180940befd46a58046e6017c1ed0",
+          "extent": [
+            47.5,
+            68.4,
+            50.7,
+            69.8
+          ],
+          "scaleDenominator": 10000000,
+          "projection": {
+            "definition": "+proj=laea +lat_0=69.1 +lon_0=49.2 +datum=WGS84 +units=m +no_defs",
+            "units": "metre",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/projection-evidence.json",
+              "sha256": "d423e144c855ebe0369a9d796f87181d147c8151c9be8373451ceec3aedbc068"
+            }
+          }
+        },
+        "method": "preserved-modern-source",
+        "reason": "Replace the complete legacy Kolguyev group with every whole polygon of the approved modern physical-coast donor group; documented historical state membership and existing date coverage are preserved.",
+        "parameters": {
+          "oldComponents": 5,
+          "donorComponents": 18,
+          "donorIndices": [
+            738,
+            739,
+            740,
+            741,
+            742,
+            744,
+            794,
+            795,
+            796,
+            797,
+            804,
+            806,
+            807,
+            808,
+            809,
+            810,
+            811,
+            812
+          ],
+          "approvedDonorGroupSha256": "a856c8681e61c6f9f5679c7b7fa3e8323d58180940befd46a58046e6017c1ed0",
+          "unselectedCoordinateArraysPreserved": true,
+          "allDonorRingsPreserved": true,
+          "omittedDonorComponents": 0,
+          "coordinateRounding": null,
+          "snapTolerance": null,
+          "resimplification": null,
+          "areaThreshold": null,
+          "oldNEClipping": false
+        },
+        "visual": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/visual-review.json",
+          "sha256": "fd863095a3120997dadf53446d550c6757667f94961c566f3f246e1131d84e3b"
+        },
+        "topology": {
+          "status": "passed",
+          "evidence": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/topology-proof.json",
+            "sha256": "cfdb4e5a4c28d403b322dbd24479a9e93bf85c51f848f0d4ab632e60b31a1801"
+          },
+          "checks": [
+            "validity",
+            "shared-boundary",
+            "union",
+            "gaps-overlaps",
+            "connectivity",
+            "holes-islands",
+            "dates"
+          ],
+          "scope": "Three full candidates are valid. All unselected polygon coordinate arrays are byte-exact in JSON, the entire eighteen-polygon donor group is exact, candidate union is exactly retained geometry plus the donor group, and the donor group neither overlaps nor touches retained geometry. Paired 1922 parent and constituent use identical island groups with identical coverage dates; 1925-1929 parent also uses the identical group. No full worldwide historical topology certification."
+        },
+        "counterpartVersions": [
+          {
+            "entityId": "state:soviet-union-russian-sfsr",
+            "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+            "geometrySha256": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4"
+          }
+        ],
+        "fixedAnchors": [],
+        "reviewedAt": "2026-11-10T05:54:41.434Z",
+        "compiledDerivatives": [],
+        "fullPeriodDatedCounterpartClosureVerified": false,
+        "selectedScopeParentConstituentCompatibilityVerified": true,
+        "runtimeApproval": false
+      },
+      "priorNotes": "Approved source-backed provisional1922-12-30 snapshot. Mixed source dates, claim/occupation distinction and registrations retained in immutable ZIP. Other non-Caspian/Aral/Arctic coastline context is NE5.1.1; not2026 surveyed coast. Selection through1925-05-12 by user instruction; the source remains a1922-12-30 reconstruction. Local Dniester boundary follows the built-in modern watercourse by user approval (2026-10-25); not a surveyed or legally delimited 1922 thalweg. Baseline ZIP hashes remain evidence identifiers, not hashes of this locally adjusted geometry. The approximately 1 km river-to-preserved-coast closure (2.87 CSS pixels at app maximum zoom) is geometric inference, not independently established historical boundary. European exterior revised from user-approved Finland/Estonia/Latvia/Poland reconstruction; existing sea coastline and Dniester retained. Modern river/shared sections preserved; only confirmed Latvia dry-land detail lightly simplified. Original ZIP hashes identify baseline evidence, not this adjusted geometry.\nDisplay-only coast update 2026-11-10: the complete Kolguyev group uses all 18 approved modern donor polygons in place of the five legacy polygons. Historical dates, political membership, mainland geometry, other islands, Caspian/Aral changes and Arctic claim exceptions remain unchanged. The original tiny-island title and historical positional-accuracy limitations remain; modern coordinates are not a new historical survey."
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "source": {
+        "reference": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+        "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+        "sha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5"
+      },
+      "versionSha256": "6cf3c651a74c0d00d263915f3ab4c75bb9cc34297e18d953a2fe93cd6da9f7db",
+      "geometrySha256": "4129e255ea57e030ff03faa0324b2b79523453d287959b56da88ccdd2ce130a7",
+      "priorDisplayDetailReview": {
+        "schemaVersion": 1,
+        "status": "passed",
+        "entityId": "state:soviet-union",
+        "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+        "validFrom": "1925-05-13",
+        "validTo": "1929-12-31",
+        "geometrySha256": "4129e255ea57e030ff03faa0324b2b79523453d287959b56da88ccdd2ce130a7",
+        "master": {
+          "reference": "assets/data/territorial-entities/source/geometries/sha256-10896eff4e77b481d25dd0b519db7d933b66439f80346abc0841d251150cb269.json",
+          "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+          "sha256": "10896eff4e77b481d25dd0b519db7d933b66439f80346abc0841d251150cb269"
+        },
+        "source": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/source-provenance.json",
+          "sha256": "0a20b098f33196e5dcd2717761224b980a62acbb6f095f6ee263ce83653c9314"
+        },
+        "comparison": {
+          "reference": {
+            "reference": "assets/data/countries-ne-5.1.1.geojson",
+            "revision": "7a307819c680fdb221d19cf18d49e12daebefdfa",
+            "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+          },
+          "arcSha256": "a856c8681e61c6f9f5679c7b7fa3e8323d58180940befd46a58046e6017c1ed0",
+          "extent": [
+            47.5,
+            68.4,
+            50.7,
+            69.8
+          ],
+          "scaleDenominator": 10000000,
+          "projection": {
+            "definition": "+proj=laea +lat_0=69.1 +lon_0=49.2 +datum=WGS84 +units=m +no_defs",
+            "units": "metre",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/projection-evidence.json",
+              "sha256": "d423e144c855ebe0369a9d796f87181d147c8151c9be8373451ceec3aedbc068"
+            }
+          }
+        },
+        "method": "preserved-modern-source",
+        "reason": "Replace the complete legacy Kolguyev group with every whole polygon of the approved modern physical-coast donor group; documented historical state membership and existing date coverage are preserved.",
+        "parameters": {
+          "oldComponents": 5,
+          "donorComponents": 18,
+          "donorIndices": [
+            738,
+            739,
+            740,
+            741,
+            742,
+            744,
+            794,
+            795,
+            796,
+            797,
+            804,
+            806,
+            807,
+            808,
+            809,
+            810,
+            811,
+            812
+          ],
+          "approvedDonorGroupSha256": "a856c8681e61c6f9f5679c7b7fa3e8323d58180940befd46a58046e6017c1ed0",
+          "unselectedCoordinateArraysPreserved": true,
+          "allDonorRingsPreserved": true,
+          "omittedDonorComponents": 0,
+          "coordinateRounding": null,
+          "snapTolerance": null,
+          "resimplification": null,
+          "areaThreshold": null,
+          "oldNEClipping": false
+        },
+        "visual": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/visual-review.json",
+          "sha256": "fd863095a3120997dadf53446d550c6757667f94961c566f3f246e1131d84e3b"
+        },
+        "topology": {
+          "status": "passed",
+          "evidence": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/topology-proof.json",
+            "sha256": "cfdb4e5a4c28d403b322dbd24479a9e93bf85c51f848f0d4ab632e60b31a1801"
+          },
+          "checks": [
+            "validity",
+            "shared-boundary",
+            "union",
+            "gaps-overlaps",
+            "connectivity",
+            "holes-islands",
+            "dates"
+          ],
+          "scope": "Three full candidates are valid. All unselected polygon coordinate arrays are byte-exact in JSON, the entire eighteen-polygon donor group is exact, candidate union is exactly retained geometry plus the donor group, and the donor group neither overlaps nor touches retained geometry. Paired 1922 parent and constituent use identical island groups with identical coverage dates; 1925-1929 parent also uses the identical group. No full worldwide historical topology certification."
+        },
+        "counterpartVersions": [],
+        "noSharedBoundaryReason": "Detached Kolguyev group has no shared political boundary or contact with retained historical geometry. No separately active RSFSR geometry version exists for this stored 1925-1929 interval; no new one is invented.",
+        "fixedAnchors": [],
+        "reviewedAt": "2026-11-10T05:54:41.346Z",
+        "compiledDerivatives": [],
+        "fullPeriodDatedCounterpartClosureVerified": false,
+        "selectedScopeParentConstituentCompatibilityVerified": true,
+        "runtimeApproval": false
+      },
+      "priorNotes": "현대 후계국 외곽선 합집으로 만든 기능 시험용 근사 경계이며, canonical KAZ에서 임대구역으로 빠진 바이코누르를 소련 영토에 다시 포함했습니다. Selection coverage split around a reviewed snapshot, not a newly discovered border-change date.\nDisplay-only coast update 2026-11-10: the complete Kolguyev group uses all 18 approved modern donor polygons in place of the five legacy polygons. Historical dates, political membership, mainland geometry, other islands, Caspian/Aral changes and Arctic claim exceptions remain unchanged. The original tiny-island title and historical positional-accuracy limitations remain; modern coordinates are not a new historical survey."
+    }
+  ],
+  "donor": {
+    "entityId": "state:RUS",
+    "versionId": "state:RUS:natural-earth-5.1.1",
+    "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+    "approvedOriginal": {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+    }
+  },
+  "operations": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/combined-operation-ledger.json",
+    "sha256": "c31bb325a8f11ee01bb9a4463323a3ca8040dcd581f71b63445d7f16f263fe3a"
+  },
+  "novaHistory": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/novaya-zemlya-candidate-20261110/historical-membership-evidence.json",
+    "sha256": "4dd963fedacf006236850589775fafd45d67bb9d8cf7a8b916d1bbae8fa02acd"
+  },
+  "vayHistory": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/vaygach-mainland-contact-review-20261110/historical-and-physical-evidence.json",
+    "sha256": "d0640cc35aa6134b53dd0d324e3639d0c6f0a1c588262741501bd581c290adfe"
+  },
+  "kolguyevClarification": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/kolguyev-provenance-clarification-20261110/corrected-historical-membership-evidence.json",
+    "sha256": "007a48b15235138cdf088fca93ef8781c61d8e8b9bc79e3b0076b8a91204c68a"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/geometry-proof.json",
+    "sha256": "d19389b78577bc09f7cf780e398492dd465341a006632deba2a8b12d23dffbe9"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/visual-review.json",
+    "sha256": "c2304979cd2cfd435c9b26872382705b704cf4538fd359e3b5345fa2f18aa701"
+  },
+  "temporal": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/temporal-review.json",
+    "sha256": "49a564d69527ba6b8691f42d7f7fb5e6173c8b76c9d5b0bcea15fb3c89a8a2d4"
+  },
+  "limits": [
+    "State-level named-group and coastal-region membership is documentary evidence, not inferred from size, proximity or modern geometry.",
+    "Individual tiny-islet historical title and historical survey positions are not newly certified; inherited caveats and Arctic/political exceptions remain.",
+    "Modern 1552 and1554 are point-touching approved components, not a newly proved physical isthmus. Both remain exact.",
+    "Only two actual coastline intersections split endpoint segments; every interior donor vertex remains. No old land clipping or arbitrary component omission."
+  ],
+  "sourceOnly": true,
+  "runtimeApproval": false
+}

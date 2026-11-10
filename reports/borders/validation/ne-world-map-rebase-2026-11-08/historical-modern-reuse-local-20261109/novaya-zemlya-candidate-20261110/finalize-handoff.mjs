@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const O=new URL('.',import.meta.url),sha=b=>createHash('sha256').update(b).digest('hex');
+const names=fs.readdirSync(O).filter(n=>n!=='handoff-manifest.json').sort();
+const entries=names.map(name=>{const b=fs.readFileSync(new URL(name,O));if(name.endsWith('.json'))JSON.parse(b);return {file:name,sha256:sha(b),bytes:b.length};});
+const m={schemaVersion:1,status:'stable-geometry-and-evidence-handoff-for-parent-owned-combined-patch',sourceRevision:'2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1',entries,totalBytes:entries.reduce((n,e)=>n+e.bytes,0),readBack:'All JSON artifacts parsed and all listed bytes rehashed; PNGs separately opened for visual inspection.',standaloneSourcePatchGenerated:false,canonicalGateOrCodecClaimed:false,sourceWritten:false,remoteGitInvoked:false,portablePackageBuilt:false,retentionReason:'Current parent-owned combined Novaya/Vaygach source-patch preparation and exact review/replay evidence.'};
+fs.writeFileSync(new URL('handoff-manifest.json',O),JSON.stringify(m,null,2)+'\n');const b=fs.readFileSync(new URL('handoff-manifest.json',O)),r=JSON.parse(b);for(const e of r.entries)if(sha(fs.readFileSync(new URL(e.file,O)))!==e.sha256)throw Error('Readback digest mismatch '+e.file);
+console.log(JSON.stringify({manifestSha256:sha(b),manifestBytes:b.length,totalRetainedBytes:m.totalBytes+b.length,artifacts:entries.length,mainArtifacts:entries.filter(e=>['candidate-ledger.json','whole-group-operation.json','operation-replay-proof.json','topology-proof.json','historical-membership-evidence.json','replay-novaya-zemlya.mjs','nominal-source-scale.png','visual-review.json'].includes(e.file)),readBack:'passed'}));

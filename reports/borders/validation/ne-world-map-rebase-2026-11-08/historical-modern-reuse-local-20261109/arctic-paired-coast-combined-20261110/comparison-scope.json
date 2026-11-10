@@ -1,0 +1,29 @@
+{
+  "reviewRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "approvedDonor": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+  },
+  "rawNaturalEarthReference": {
+    "reference": "assets/data/countries-ne-5.1.1.geojson",
+    "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+    "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+  },
+  "wholeDonorGeometrySha256": "4b8d1bab230d96f98dbe5f41b12460b8d8961e4ef47b916243dd8b7946be0318",
+  "mainlandArcOperation": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/vaygach-mainland-contact-review-20261110/paired-coast-operation.json",
+    "sha256": "ddf26ebf37eddaef7f2b161cfd00c03e4449884f541ea8027a7aa7cc3bc09ad1"
+  },
+  "scopeSha256": "a167cc4b5bff4f6270f9f83985ba2c9255bce5e21a7c41ee0365d19e74db8d85",
+  "digestDefinition": "sha256(JSON.stringify({donorGeometry:{type:MultiPolygon,coordinates:809 whole donor polygons},mainlandArc:exact replacement coordinate sequence}))",
+  "projection": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/projection-evidence.json",
+    "sha256": "f80e7c077622335f111a43338c2c2bc8f41f4aad8ce964a519cd025212924a86"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/visual-review.json",
+    "sha256": "c2304979cd2cfd435c9b26872382705b704cf4538fd359e3b5345fa2f18aa701"
+  },
+  "historicalPositionalAccuracyCertified": false
+}

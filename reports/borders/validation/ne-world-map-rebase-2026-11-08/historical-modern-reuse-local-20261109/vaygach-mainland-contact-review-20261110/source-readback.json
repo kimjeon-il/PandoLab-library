@@ -1,0 +1,159 @@
+{
+  "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "headAtFinish": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+  "donor": {
+    "entityId": "state:RUS",
+    "versionId": "state:RUS:natural-earth-5.1.1",
+    "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+    "approvedOriginalPath": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "approvedOriginalSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "currentExactlyEqualsApprovedOriginal": true
+  },
+  "targets": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "descriptorSha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b",
+      "entitySha256": "471c8934b9f6ca12d599d35a16be2e019da3b667de648af04080745f98d61907",
+      "versionSha256": "9b75cfd14118307192eb47584badde34ffa1821366d26637c203f0ba476cd684",
+      "geometrySha256": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4"
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "descriptorSha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+      "entitySha256": "40d6e444a4814bb43fe30f345e82da235639ed93f19c6f036b45d5316f1ed891",
+      "versionSha256": "6cf3c651a74c0d00d263915f3ab4c75bb9cc34297e18d953a2fe93cd6da9f7db",
+      "geometrySha256": "4129e255ea57e030ff03faa0324b2b79523453d287959b56da88ccdd2ce130a7"
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "descriptorSha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+      "entitySha256": "40d6e444a4814bb43fe30f345e82da235639ed93f19c6f036b45d5316f1ed891",
+      "versionSha256": "9b47238bf97d835544080b8bfb0baf23c4aca80f43c371b91ce12d035a76a976",
+      "geometrySha256": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f"
+    }
+  ],
+  "archiveInputs": [
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/countries/state-RUS.json",
+      "sha256": "c6589a67398da9e1bf0b92069e39b518d65454d20758d02acacd0642962cf2bf",
+      "bytes": 31867,
+      "stored": "archive/blobs/c6589a67398da9e1bf0b92069e39b518d65454d20758d02acacd0642962cf2bf.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5.json",
+      "sha256": "dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5",
+      "bytes": 5986032,
+      "stored": "archive/blobs/dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44.json",
+      "sha256": "81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44",
+      "bytes": 6033489,
+      "stored": "archive/blobs/81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+      "bytes": 83264304,
+      "stored": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "encoding": "identity",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+      "sha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b",
+      "bytes": 83752,
+      "stored": "archive/blobs/65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-bca6829530ae7b98b80ed25547f3220c6d298e5c2ce9b0aa6b17627bb2668432.json",
+      "sha256": "bca6829530ae7b98b80ed25547f3220c6d298e5c2ce9b0aa6b17627bb2668432",
+      "bytes": 1054011,
+      "stored": "archive/blobs/bca6829530ae7b98b80ed25547f3220c6d298e5c2ce9b0aa6b17627bb2668432.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+      "sha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+      "bytes": 68632,
+      "stored": "archive/blobs/9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-116a18083207461686836242c978fe87f70f27dd40bd42ba573e2688bc040e6f.json",
+      "sha256": "116a18083207461686836242c978fe87f70f27dd40bd42ba573e2688bc040e6f",
+      "bytes": 1076195,
+      "stored": "archive/blobs/116a18083207461686836242c978fe87f70f27dd40bd42ba573e2688bc040e6f.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-f2df5d413c0e47e20357cf27aa34603d347a490b723fd30555ec79ca50d8e209.json",
+      "sha256": "f2df5d413c0e47e20357cf27aa34603d347a490b723fd30555ec79ca50d8e209",
+      "bytes": 6195756,
+      "stored": "archive/blobs/f2df5d413c0e47e20357cf27aa34603d347a490b723fd30555ec79ca50d8e209.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-d49ca626d683b2cfb7c29befd0e492de74ba236f1a92c1de7159298ec8db1bc5.json",
+      "sha256": "d49ca626d683b2cfb7c29befd0e492de74ba236f1a92c1de7159298ec8db1bc5",
+      "bytes": 1067415,
+      "stored": "archive/blobs/d49ca626d683b2cfb7c29befd0e492de74ba236f1a92c1de7159298ec8db1bc5.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+      "reference": "assets/data/countries-ne-5.1.1.geojson",
+      "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+      "bytes": 12415778,
+      "stored": "archive/blobs/52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb.gz",
+      "encoding": "gzip",
+      "verification": "Actual local immutable bytes decoded through decodeArchiveEntry(fetch:false); no network."
+    }
+  ],
+  "sourceWritten": false,
+  "fetch": false,
+  "push": false
+}

@@ -1,0 +1,382 @@
+{
+  "sourceRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "reviewWindow": [
+    58.1,
+    69.5,
+    60.9,
+    70.65
+  ],
+  "donorGroupIndices": [
+    1272,
+    1273,
+    1274,
+    1275,
+    1276,
+    1277,
+    1278,
+    1279,
+    1280,
+    1281,
+    1282,
+    1283,
+    1284,
+    1285,
+    1286,
+    1287,
+    1288,
+    1289,
+    1290,
+    1291,
+    1292,
+    1293,
+    1294,
+    1295,
+    1296,
+    1297,
+    1298,
+    1299,
+    1300,
+    1301,
+    1302,
+    1303,
+    1304,
+    1305,
+    1306,
+    1307,
+    1549,
+    1550,
+    1551,
+    1552,
+    1553,
+    1554,
+    1555,
+    1556,
+    1557,
+    1558,
+    1559,
+    1560,
+    1561,
+    1563,
+    1564
+  ],
+  "donorGroupCount": 51,
+  "scopeCrossingDonorIndices": [
+    3289
+  ],
+  "modernMainlandIndex": 3289,
+  "modern1554Coordinates": [
+    [
+      [
+        60.654596550000036,
+        69.70528575935398
+      ],
+      [
+        60.66093180000007,
+        69.71039140000005
+      ],
+      [
+        60.67356520000004,
+        69.70959180000006
+      ],
+      [
+        60.654596550000036,
+        69.70422804567563
+      ],
+      [
+        60.635473200000035,
+        69.69992360000003
+      ],
+      [
+        60.654596550000036,
+        69.70528575935398
+      ]
+    ]
+  ],
+  "modern1554Bounds": [
+    60.635473200000035,
+    69.69992360000003,
+    60.67356520000004,
+    69.71039140000005
+  ],
+  "modern1554AreaM2": 237264.10286704722,
+  "modern1554DistanceToModernMainlandM": 558.6409679980177,
+  "modern1554IntersectsMainland": false,
+  "modern1554TouchesAnyOtherComponent": [
+    1552
+  ],
+  "focusModernComponents": [
+    {
+      "index": 1549,
+      "bbox": [
+        60.613402300000075,
+        69.68295240000003,
+        60.64186780000006,
+        69.69147140000007
+      ],
+      "distanceTo1554m": 1207.0909660581588
+    },
+    {
+      "index": 1551,
+      "bbox": [
+        60.62729100000007,
+        69.69580770000005,
+        60.63763990000007,
+        69.69936880000006
+      ],
+      "distanceTo1554m": 83.78624052894529
+    },
+    {
+      "index": 1552,
+      "bbox": [
+        60.63475130000006,
+        69.69966210000007,
+        60.635473200000035,
+        69.69992360000003
+      ],
+      "distanceTo1554m": 0.0
+    },
+    {
+      "index": 1554,
+      "bbox": [
+        60.635473200000035,
+        69.69992360000003,
+        60.67356520000004,
+        69.71039140000005
+      ],
+      "distanceTo1554m": 0.0
+    },
+    {
+      "index": 1555,
+      "bbox": [
+        60.50111190000007,
+        69.71344480000005,
+        60.51817550000004,
+        69.72359250000005
+      ],
+      "distanceTo1554m": 4936.950967230083
+    },
+    {
+      "index": 1564,
+      "bbox": [
+        58.40489270000006,
+        69.65628710000004,
+        60.563397200000054,
+        70.45387640000007
+      ],
+      "distanceTo1554m": 5399.722125296062
+    },
+    {
+      "index": 3289,
+      "bbox": [
+        27.317408800000067,
+        41.18578435358486,
+        179.9999885000001,
+        77.72321590000007
+      ],
+      "distanceTo1554m": 558.6409679980177
+    }
+  ],
+  "oldModernMainlandBoundaryIntersections": {
+    "type": "Point",
+    "coordinates": []
+  },
+  "oldNELocalProof": {
+    "historicalLocalMainlandBoundaryEqualsNE": false,
+    "neLocalSymmetricDifferenceDegrees2": 0.0016649026264524862
+  },
+  "targets": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "oldIndices": [
+        98
+      ],
+      "conflicts": [
+        {
+          "donorIndex": 1554,
+          "historicalIndex": 6,
+          "intersectionAreaDegrees2": 4.211944222205031e-05,
+          "projectedAreaM2": 181922.91094215066,
+          "intersection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  60.66093180000007,
+                  69.71039140000005
+                ],
+                [
+                  60.67356520000004,
+                  69.70959180000006
+                ],
+                [
+                  60.65705412360495,
+                  69.70492297235998
+                ],
+                [
+                  60.65578815588883,
+                  69.70624608632764
+                ],
+                [
+                  60.66093180000007,
+                  69.71039140000005
+                ]
+              ]
+            ]
+          },
+          "historicalBounds": [
+            27.367301966887503,
+            35.140647,
+            180.0,
+            77.737535
+          ]
+        }
+      ],
+      "focusHistoricalComponents": [
+        {
+          "index": 6,
+          "rings": 1,
+          "vertices": 27220,
+          "intersectionsWithDonorMainland": null
+        },
+        {
+          "index": 98,
+          "rings": 1,
+          "vertices": 182,
+          "intersectionsWithDonorMainland": null
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "oldIndices": [
+        138
+      ],
+      "conflicts": [
+        {
+          "donorIndex": 1554,
+          "historicalIndex": 6,
+          "intersectionAreaDegrees2": 4.211944222205031e-05,
+          "projectedAreaM2": 181922.91094215066,
+          "intersection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  60.66093180000007,
+                  69.71039140000005
+                ],
+                [
+                  60.67356520000004,
+                  69.70959180000006
+                ],
+                [
+                  60.65705412360495,
+                  69.70492297235998
+                ],
+                [
+                  60.65578815588883,
+                  69.70624608632764
+                ],
+                [
+                  60.66093180000007,
+                  69.71039140000005
+                ]
+              ]
+            ]
+          },
+          "historicalBounds": [
+            19.609548,
+            35.140647,
+            180.0,
+            77.737535
+          ]
+        }
+      ],
+      "focusHistoricalComponents": [
+        {
+          "index": 6,
+          "rings": 1,
+          "vertices": 27980,
+          "intersectionsWithDonorMainland": null
+        },
+        {
+          "index": 138,
+          "rings": 1,
+          "vertices": 182,
+          "intersectionsWithDonorMainland": null
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "oldIndices": [
+        102
+      ],
+      "conflicts": [
+        {
+          "donorIndex": 1554,
+          "historicalIndex": 6,
+          "intersectionAreaDegrees2": 4.211944222205031e-05,
+          "projectedAreaM2": 181922.91094215066,
+          "intersection": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  60.66093180000007,
+                  69.71039140000005
+                ],
+                [
+                  60.67356520000004,
+                  69.70959180000006
+                ],
+                [
+                  60.65705412360495,
+                  69.70492297235998
+                ],
+                [
+                  60.65578815588883,
+                  69.70624608632764
+                ],
+                [
+                  60.66093180000007,
+                  69.71039140000005
+                ]
+              ]
+            ]
+          },
+          "historicalBounds": [
+            26.13454584092981,
+            35.140647,
+            180.0,
+            77.737535
+          ]
+        }
+      ],
+      "focusHistoricalComponents": [
+        {
+          "index": 6,
+          "rings": 1,
+          "vertices": 28783,
+          "intersectionsWithDonorMainland": null
+        },
+        {
+          "index": 102,
+          "rings": 1,
+          "vertices": 182,
+          "intersectionsWithDonorMainland": null
+        }
+      ]
+    }
+  ],
+  "sourceWritten": false
+}

@@ -1,0 +1,90 @@
+{
+  "status": "passed-three-combined-candidates",
+  "reviewRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "projection": {
+    "definition": "+proj=laea +lat_0=74 +lon_0=60 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "executedWith": "pyproj Transformer.from_crs EPSG:4326 to LAEA, always_xy=True; shapely transform",
+    "geographicExtent": [
+      50,
+      69.45,
+      70,
+      77.4
+    ],
+    "scaleDenominator": 10000000,
+    "dpi": 300,
+    "metresPerPixel": 846.6666666666666,
+    "physicalScreenScaleCalibrated": false,
+    "purpose": "Nominal NE 1:10M display comparison only, not historical survey accuracy."
+  },
+  "targets": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "fullBeforeValid": true,
+      "fullCandidateValid": true,
+      "fullCandidateValidity": "Valid Geometry",
+      "oldComponentsRemoved": 7,
+      "allWholeDonorComponents": 809,
+      "allRingsAndCoordinateArraysExact": true,
+      "newGroupVsRetainedIntersectionArea": 0.0,
+      "newGroupVsRetainedAnyContact": false,
+      "candidateEqualsRetainedUnionWholeDonorGroup": true,
+      "novaVsVayGroupsAnyContact": false,
+      "modernWithinGroupPointContactsRetained": true,
+      "beforePolygonCount": 231,
+      "afterPolygonCount": 1033
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "fullBeforeValid": true,
+      "fullCandidateValid": true,
+      "fullCandidateValidity": "Valid Geometry",
+      "oldComponentsRemoved": 7,
+      "allWholeDonorComponents": 809,
+      "allRingsAndCoordinateArraysExact": true,
+      "newGroupVsRetainedIntersectionArea": 0.0,
+      "newGroupVsRetainedAnyContact": false,
+      "candidateEqualsRetainedUnionWholeDonorGroup": true,
+      "novaVsVayGroupsAnyContact": false,
+      "modernWithinGroupPointContactsRetained": true,
+      "beforePolygonCount": 235,
+      "afterPolygonCount": 1037
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "fullBeforeValid": true,
+      "fullCandidateValid": true,
+      "fullCandidateValidity": "Valid Geometry",
+      "oldComponentsRemoved": 7,
+      "allWholeDonorComponents": 809,
+      "allRingsAndCoordinateArraysExact": true,
+      "newGroupVsRetainedIntersectionArea": 0.0,
+      "newGroupVsRetainedAnyContact": false,
+      "candidateEqualsRetainedUnionWholeDonorGroup": true,
+      "novaVsVayGroupsAnyContact": false,
+      "modernWithinGroupPointContactsRetained": true,
+      "beforePolygonCount": 299,
+      "afterPolygonCount": 1101
+    }
+  ],
+  "novaDonorCount": 757,
+  "vayDonorCount": 52,
+  "combinedDonorCount": 809,
+  "donorIndexOverlap": [],
+  "combinedDonorValid": true,
+  "sourceWritten": false,
+  "limits": [
+    "No full catalog or worldwide historical topology validation performed.",
+    "Full candidate validity and exact coordinate preservation are checked only for the three selected source versions.",
+    "Original historical dates, territorial interpretations and unproven tiny-islet title caveats remain."
+  ]
+}

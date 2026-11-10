@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "status": "stable-geometry-and-evidence-handoff-for-parent-owned-combined-patch",
+  "sourceRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "entries": [
+    {
+      "file": "README.md",
+      "sha256": "c7d915aded891a895156a5b987bdbd4f28e12a43d00991fe4243252b0eebb35a",
+      "bytes": 8905
+    },
+    {
+      "file": "archive-inputs.json",
+      "sha256": "ba965ffcb8a0d7cbf43ad882d41278c1f73f785179468610f5c0ecfa2ccd042f",
+      "bytes": 7590
+    },
+    {
+      "file": "build-source-patch.mjs",
+      "sha256": "e00277ff5464898d7fcf50c326ec075d6c58e1b294dec77d4b03a542ce74c4fe",
+      "bytes": 13210
+    },
+    {
+      "file": "candidate-ledger.json",
+      "sha256": "6b4a2413c795be1bc4034d48d366cad45075e704ded32070f57d14b9bb7bfa0e",
+      "bytes": 318933
+    },
+    {
+      "file": "check-geometry.py",
+      "sha256": "561312700bf70d47dac28545ef9ffa93ac38f58c447908297158c920200f219f",
+      "bytes": 10524
+    },
+    {
+      "file": "finalize-handoff.mjs",
+      "sha256": "cf1820a565223b53c612d8b85a2b1ae75e816a12381da489f3e2607c40cd4bb6",
+      "bytes": 1709
+    },
+    {
+      "file": "geometry-evidence.json",
+      "sha256": "2a37add65b3d4b3cfdf104b77d9ac9e7f3917d0edb03b4f37870a01e50eb5959",
+      "bytes": 38246
+    },
+    {
+      "file": "historical-membership-evidence.json",
+      "sha256": "4dd963fedacf006236850589775fafd45d67bb9d8cf7a8b916d1bbae8fa02acd",
+      "bytes": 6836
+    },
+    {
+      "file": "make-review-evidence.mjs",
+      "sha256": "d034652499c1f86f46b576fe095be50491872195110f21138ab38a027cd04c0c",
+      "bytes": 4140
+    },
+    {
+      "file": "nominal-source-scale.png",
+      "sha256": "63167926650dd482d62a3bed5ae117433536312c0bc395b7d96f6ab54bd354ec",
+      "bytes": 52619
+    },
+    {
+      "file": "operation-replay-proof.json",
+      "sha256": "388653edf58c3d05cdbb5db51ddab35876c2c86c05817e711e4e8fedf23984dc",
+      "bytes": 1556
+    },
+    {
+      "file": "projection-evidence.json",
+      "sha256": "9343be7c1758b50829d32bbce274178eca8f6fd9e0aef26c7789fefef9288381",
+      "bytes": 1052
+    },
+    {
+      "file": "replay-novaya-zemlya.mjs",
+      "sha256": "1ece6db8a0103005feced6cfe7986880a36e09b58747ded45281fcf3b60c9134",
+      "bytes": 4582
+    },
+    {
+      "file": "research-candidate.mjs",
+      "sha256": "9ef1231e33c92b5498e63d3739678ed49d004b2dcc53d1544363e8e9842d2b08",
+      "bytes": 6787
+    },
+    {
+      "file": "topology-proof.json",
+      "sha256": "8321c04e2f1a30fc22ddd5f5335c927eeff04a5346a5b6d07dc9c2dfab55c192",
+      "bytes": 11799
+    },
+    {
+      "file": "visual-review.json",
+      "sha256": "7969158b4216423f68970929d0ae4664214f6502cd57995b1eeb068fd8cb46d8",
+      "bytes": 1467
+    },
+    {
+      "file": "whole-group-operation.json",
+      "sha256": "e3e2829f852a8118a72586c5a93964fc79833bf6d8f11abc52ebfbba0f92c4c9",
+      "bytes": 19403
+    },
+    {
+      "file": "whole-group-overlay.png",
+      "sha256": "f8eff569f029356f9e184e97506a1a4b717f7a599702bc9f0363bb3664ff67bb",
+      "bytes": 70764
+    }
+  ],
+  "totalBytes": 580122,
+  "readBack": "All JSON artifacts parsed and all listed bytes rehashed; PNGs separately opened for visual inspection.",
+  "standaloneSourcePatchGenerated": false,
+  "canonicalGateOrCodecClaimed": false,
+  "sourceWritten": false,
+  "remoteGitInvoked": false,
+  "portablePackageBuilt": false,
+  "retentionReason": "Current parent-owned combined Novaya/Vaygach source-patch preparation and exact review/replay evidence."
+}

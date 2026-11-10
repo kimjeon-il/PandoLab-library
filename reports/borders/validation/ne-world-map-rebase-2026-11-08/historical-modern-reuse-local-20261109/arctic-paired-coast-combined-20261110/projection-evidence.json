@@ -1,0 +1,16 @@
+{
+  "definition": "+proj=laea +lat_0=74 +lon_0=60 +datum=WGS84 +units=m +no_defs",
+  "units": "metre",
+  "executedWith": "pyproj Transformer.from_crs EPSG:4326 to LAEA, always_xy=True; shapely transform",
+  "geographicExtent": [
+    50,
+    69.45,
+    70,
+    77.4
+  ],
+  "scaleDenominator": 10000000,
+  "dpi": 300,
+  "metresPerPixel": 846.6666666666666,
+  "physicalScreenScaleCalibrated": false,
+  "purpose": "Nominal NE 1:10M display comparison only, not historical survey accuracy."
+}

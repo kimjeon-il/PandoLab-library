@@ -1,0 +1,76 @@
+{
+  "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "status": "ambiguity-in-cited-report-not-direct-central-ratification-claim-in-source",
+  "oldReport": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+    "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+  },
+  "wordingChanges": [
+    {
+      "path": "/sources/0/findings/0",
+      "old": "July 24, 1920 administration explicitly included Kolguyev, Novaya Zemlya, Vaygach and other governorate islands (GAOO R-211/1/1, folio 115 verso).",
+      "replacement": "On 24 July 1920 the provincial executive committee approved a draft island-administration regulation naming Kolguyev, Novaya Zemlya, Vaygach and Yugorsky Shar (GAOO R-211/1/1, folio 115 verso). This is provincial administrative evidence, not final VTsIK approval."
+    },
+    {
+      "path": "/sources/0/findings/1",
+      "old": "March 25, 1922 regulation specifically covered Novaya Zemlya, Vaygach and Kolguyev (R-211/1/41, folios 22 verso and 46).",
+      "replacement": "On 25 March 1922 the provincial executive committee approved a draft regulation covering Novaya Zemlya, Vaygach and Kolguyev (R-211/1/41, folios 22 verso and 46). It was returned from Moscow for revision; this date is not final central ratification."
+    },
+    {
+      "path": "/sources/0/findings/2",
+      "old": "June 30, 1924 VTsIK regulation again named Kolguyev (RSFSR laws 1924 no. 59, article 582). September 1924 created the Kolguyev island council at Bugrino.",
+      "replacement": "On 30 June 1924 the VTsIK presidium finally approved the island-administration regulation, expressly including Kolguyev (RSFSR laws 1924 no. 59, article 582). The provincial committee approved a Kolguyev council at Bugrino in September 1924."
+    }
+  ],
+  "sourceAudit": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "directRelevantClaims": [],
+      "evidenceReference": {
+        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+        "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+      }
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "directRelevantClaims": [],
+      "evidenceReference": {
+        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+        "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+      }
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "directRelevantClaims": [],
+      "evidenceReference": {
+        "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+        "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "selectedVersions": 1,
+      "codecRoundtrip": true,
+      "geometryChanges": 0,
+      "newGeometryResources": 0,
+      "allDatesOtherMetadataCoordinatesAndResourcesExact": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "selectedVersions": 2,
+      "codecRoundtrip": true,
+      "geometryChanges": 0,
+      "newGeometryResources": 0,
+      "allDatesOtherMetadataCoordinatesAndResourcesExact": true
+    }
+  ],
+  "oldHashBoundReportRetained": true,
+  "sourceWritten": false,
+  "whyClarify": "The original report omitted the distinction between provincially approved drafts and final central ratification. Clarify explicitly rather than letting a reader infer that 1920/1922 was final VTsIK approval.",
+  "geometryMembershipAndDatesUnchanged": true
+}

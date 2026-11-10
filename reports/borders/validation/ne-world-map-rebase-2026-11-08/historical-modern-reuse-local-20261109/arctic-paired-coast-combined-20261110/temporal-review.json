@@ -1,0 +1,72 @@
+{
+  "reviewRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "selectedVersions": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12"
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12"
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31"
+    }
+  ],
+  "existingVersions": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versions": [
+        {
+          "versionId": "state:soviet-union-russian-sfsr:1991-r1",
+          "validFrom": "1991-01-01",
+          "validTo": "1991-12-24",
+          "selected": false
+        },
+        {
+          "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versions": [
+        {
+          "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+          "validFrom": "1925-05-13",
+          "validTo": "1929-12-31",
+          "selected": true
+        },
+        {
+          "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day",
+          "validFrom": "1930-01-01",
+          "validTo": "1991",
+          "selected": false
+        },
+        {
+          "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12",
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "paired1922GroupAndMainlandArcIdentical": true,
+  "paired1922CoverageDatesIdentical": true,
+  "interval1925to1929": "Existing USSR stored version only. No separately active RSFSR geometry exists for these dates; no new version is invented.",
+  "inheritedPoliticalExceptionsAndDatesPreserved": true,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "historicalPositionalAccuracyUpgrade": false,
+  "sourceWritten": false
+}

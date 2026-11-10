@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-10",
+  "status": "Named archipelago membership supported for selected dates; no claim of independently surveyed historical coastline",
+  "sources": [
+    {
+      "id": "gaao-administrative-history-1997",
+      "title": "Gundakova, Khrushkaya and Shumilov, Administrative-territorial division of Arkhangelsk governorate and oblast, 1997",
+      "url": "https://gaao29.ru/fondy/Административно-территориальное%20деление%2018-20%20вв.pdf",
+      "pdfPagesOneBased": [85, 87, 88],
+      "role": "Archive-issued retrospective reference, freshly read through web tool, citing archival and statutory originals not independently inspected here.",
+      "findings": [
+        "The named archipelago comprises North and South islands plus surrounding small islands and skerries; Vaigach is separately identified across Kara Gates.",
+        "13 April 1920 provincial action established island administration; its locally approved 24 July draft included Novaya Zemlya (R-352/1/69, folio 69; R-211/1/1, folio 115 verso). This supports proposed scope and actual administration, not final central approval.",
+        "25 March 1922 provincial administration proposal named the archipelago (R-211/1/41, folios 22 verso, 46). This was a locally approved draft, returned for revision by VTsIK, not a final all-Russian regulation.",
+        "30 June 1924 VTsIK approval named Novaya Zemlya (RSFSR laws 59/582); 16 September 1924 established its island council (R-352/1/362, folio 3 verso).",
+        "28 March 1927 regulation retained the archipelago in Arkhangelsk administration (RSFSR laws 41/261).",
+        "15 July and 10 November 1929 placed the archipelago under Northern regional administration (RSFSR laws 83/814)."
+      ],
+      "supports": "Named-group administrative continuity covering the selected intervals, not exact modern coordinates or each tiny islet's title."
+    },
+    {
+      "id": "dartmouth-arctica-plischke-1950",
+      "title": "Elmer Plischke, Territorial Sovereignty in the Arctic, Encyclopedia Arctica, 1950",
+      "url": "https://collections.dartmouth.edu/archive/text/arctica/diplomatic/EA11-03-diplomatic.html",
+      "section": "Russian Pretentions, 1916; manuscript page 026; lines 732-753",
+      "findings": "Novaya Zemlya, Kolguyev and Vaigach were omitted from the 1916 new-island notification because Russian sovereignty was already generally recognized. Franz Josef Land and Wrangel are discussed separately.",
+      "supports": "Independent state-level membership context. The 1926 sector decree is not used retroactively to establish 1922 title."
+    },
+    {
+      "id": "brockhaus-efron-1897",
+      "title": "Brockhaus and Efron Encyclopedic Dictionary, volume XXI (1897), pages 224-228: Novaya Zemlya",
+      "url": "https://ru.wikisource.org/wiki/ЭСБЕ/Новая_Земля",
+      "role": "Public-domain historical reference transcribed on Wikisource; scan provenance linked by the page, not independently inspected here.",
+      "findings": "Identifies Novaya Zemlya as an island group belonging to Arkhangelsk governorate, with two principal islands divided by Matochkin Shar and many smaller islands. Names Mezhdusharsky and Kusova Zemlya, describes dense southern islands, and distinguishes Vaigach across Kara Gates.",
+      "supports": "Whole-group interpretation rather than a two-island-only political scope. Historical approximate bounds are not used as clipping lines."
+    },
+    {
+      "id": "narfu-library-group-description",
+      "title": "Northern Arctic Federal University scientific library: Chronicles of lost lands, Novaya Zemlya",
+      "url": "https://library.narfu.ru/index.php?Itemid=101&id=218:khroniki-zateryannykh-zemel&lang=ru&option=com_content&view=article",
+      "findings": "Describes North and South islands plus numerous small islands. Gives group extrema as eastern Bolshiye Oranskiye island, Pyniny islands of the Petukhov group, western Gusinaya Zemlya and Cape Flissingsky.",
+      "supports": "Independent geographic group coverage; not historical title evidence for an individual new modern fragment."
+    },
+    {
+      "id": "1929-consolidated-statute-caution",
+      "title": "Chronological RSFSR laws collection, volume 2, 1959, item 18",
+      "url": "https://djvu.online/file/4whK4r8xoggSg",
+      "findings": "Prints a 10 November 1929 island-administration act, but its island list is explicitly in a 2 March 1933 revision. It is corroborative only and is not treated as an unamended 1929 original or a basis for altering Franz Josef Land/Victoria exceptions."
+    }
+  ],
+  "datedAssessment": [
+    {
+      "versions": ["state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2", "state:soviet-union:1922-12-30-reviewed-v2"],
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "conclusion": "Continuous group-level Russian/RSFSR attribution, within USSR after its formation. Pre-1916 established title, 1920/1922 provincial administration and 1924 formal administration support the complete named group."
+    },
+    {
+      "versions": ["state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13"],
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "conclusion": "Named-group Soviet administration continues across the 1927 and 1929 reorganizations. These internal changes do not call for a new USSR island ownership event."
+    }
+  ],
+  "selectionMeaning": "Political scope comes from named-group documentary attribution. The water-separated polygon retrieves every intersecting modern component without clipping, simplification, area cutoffs, proximity-based title assignment, or exact-Natural-Earth-match ownership inference.",
+  "inheritedLimitations": [
+    "The original 1922 master explicitly uses a macro Natural Earth physical-coast baseline and does not establish individual 1922 title for every tiny Arctic island. This remains an approximation, not a new title adjudication.",
+    "Historical glacier fronts, emerging islets, erosion and fine coastline changes were not independently reconstructed. The display candidate does not establish that every modern coastal fragment existed in identical form throughout 1922-1929.",
+    "Franz Josef Land/Victoria exclusions, disputed Wrangel, north Sakhalin's juridical inclusion under Japanese occupation, south Sakhalin/Kuril exclusions, all mainland boundary choices, dates and metadata remain unchanged.",
+    "All eighteen previously modernized Kolguyev components remain exact. Mixed historical source rights and original provisional qualifications remain attached; the composite is not relicensed as unrestricted."
+  ],
+  "historicalAccuracyUpgrade": false,
+  "sourceApplicationAuthorizedByThisReport": false,
+  "runtimeApproval": false
+}

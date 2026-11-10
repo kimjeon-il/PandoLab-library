@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-for-novaya-operation-and-donor-disjointness-only",
+  "sourceRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "proofs": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "oldIndices": [
+        61,
+        62,
+        70,
+        77,
+        97,
+        99
+      ],
+      "candidateGeometrySha256": "befefd5fc72251a257f377ff849a34e1f6359751013147e1a7581c7bdef47d84",
+      "exactReplay": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "oldIndices": [
+        65,
+        66,
+        74,
+        81,
+        101,
+        103
+      ],
+      "candidateGeometrySha256": "8ae323f7c6adb38e849295b59f6f1594b22d7f878952b13e045256a4aa2697b4",
+      "exactReplay": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "oldIndices": [
+        84,
+        86,
+        90,
+        97,
+        130,
+        140
+      ],
+      "candidateGeometrySha256": "55e587ec4e02481f3fba4c93e6e2f41e75c0bff9a358594a6b296b02b604a640",
+      "exactReplay": true
+    }
+  ],
+  "donor757Count": 757,
+  "vaygach52Count": 52,
+  "donorIndexIntersection": [],
+  "combinedDistinctDonors": 809,
+  "vaygachOperationSha256": "ddf26ebf37eddaef7f2b161cfd00c03e4449884f541ea8027a7aa7cc3bc09ad1",
+  "combinedGeometryValidated": false,
+  "sourceWritten": false
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "status": "prepared-not-applied-parent-review-required",
+  "baseRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "patches": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+      "baseDescriptorSha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b",
+      "baseEntitySha256": "471c8934b9f6ca12d599d35a16be2e019da3b667de648af04080745f98d61907",
+      "operations": [
+        {
+          "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+          "field": "historicalProvenance.kolguyevModernCoastReuse",
+          "expectedPriorHistoricalMembership": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+            "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+          },
+          "preserveHistoricalMembership": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+            "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+          },
+          "addHistoricalMembershipClarification": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/kolguyev-provenance-clarification-20261110/corrected-historical-membership-evidence.json",
+            "sha256": "007a48b15235138cdf088fca93ef8781c61d8e8b9bc79e3b0076b8a91204c68a",
+            "note": "The 24 July 1920 and 25 March 1922 administrative texts were provincially approved drafts, not final VTsIK ratification. Final VTsIK approval followed on 30 June 1924. This correction clarifies document status without changing historical membership, effective dates, geometry, or the continuing-administration evidence.",
+            "supersedesDocumentStatusWordingIn": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+              "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+            },
+            "priorEvidencePreserved": true,
+            "newHistoricalAccuracyClaim": false
+          },
+          "geometrySha256Unchanged": "c1f413328c84c4f1250a8383e56bc0419a06dcec3098bdb35f6105d1d27f55a4",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12"
+        }
+      ],
+      "expectedEntitySha256": "200add09e2cd8e0aa6cfdf4f0a3b99248e25513b8b238ebb26ebb34eb9d4735e",
+      "expectedDescriptorSha256": "97d447e8bdb515fa00631ffa0db33b73faad9814d65a423b2a3ac6aae774ccb0"
+    },
+    {
+      "entityId": "state:soviet-union",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+      "baseDescriptorSha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+      "baseEntitySha256": "40d6e444a4814bb43fe30f345e82da235639ed93f19c6f036b45d5316f1ed891",
+      "operations": [
+        {
+          "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+          "field": "historicalProvenance.kolguyevModernCoastReuse",
+          "expectedPriorHistoricalMembership": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+            "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+          },
+          "preserveHistoricalMembership": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+            "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+          },
+          "addHistoricalMembershipClarification": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/kolguyev-provenance-clarification-20261110/corrected-historical-membership-evidence.json",
+            "sha256": "007a48b15235138cdf088fca93ef8781c61d8e8b9bc79e3b0076b8a91204c68a",
+            "note": "The 24 July 1920 and 25 March 1922 administrative texts were provincially approved drafts, not final VTsIK ratification. Final VTsIK approval followed on 30 June 1924. This correction clarifies document status without changing historical membership, effective dates, geometry, or the continuing-administration evidence.",
+            "supersedesDocumentStatusWordingIn": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+              "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+            },
+            "priorEvidencePreserved": true,
+            "newHistoricalAccuracyClaim": false
+          },
+          "geometrySha256Unchanged": "4129e255ea57e030ff03faa0324b2b79523453d287959b56da88ccdd2ce130a7",
+          "validFrom": "1925-05-13",
+          "validTo": "1929-12-31"
+        },
+        {
+          "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+          "field": "historicalProvenance.kolguyevModernCoastReuse",
+          "expectedPriorHistoricalMembership": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+            "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+          },
+          "preserveHistoricalMembership": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+            "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+          },
+          "addHistoricalMembershipClarification": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/kolguyev-provenance-clarification-20261110/corrected-historical-membership-evidence.json",
+            "sha256": "007a48b15235138cdf088fca93ef8781c61d8e8b9bc79e3b0076b8a91204c68a",
+            "note": "The 24 July 1920 and 25 March 1922 administrative texts were provincially approved drafts, not final VTsIK ratification. Final VTsIK approval followed on 30 June 1924. This correction clarifies document status without changing historical membership, effective dates, geometry, or the continuing-administration evidence.",
+            "supersedesDocumentStatusWordingIn": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/historical-membership-evidence.json",
+              "sha256": "7efc022c5354f1e9d1b20434f8dad6732f984c8d7d69d1f77251cee75e434397"
+            },
+            "priorEvidencePreserved": true,
+            "newHistoricalAccuracyClaim": false
+          },
+          "geometrySha256Unchanged": "c58fb8755b845574e2f4b87416a9c9128aa17dc82e7b94b2f6f9ad9aad13b57f",
+          "validFrom": "1922-12-30",
+          "validTo": "1925-05-12"
+        }
+      ],
+      "expectedEntitySha256": "654e249d61cc1b62df7815c918ad292838b6815e883b64e1c016c68d0d49532b",
+      "expectedDescriptorSha256": "172e700aea748823cac3a784a2c19d3910e20f468f089766f729c374c0a5e313"
+    }
+  ],
+  "sourceWritten": false,
+  "applicationRule": "Recheck current source. Apply only these nested metadata operations by expected previous evidence reference, retaining all newer geometry/provenance. Never overwrite a newer Novaya Zemlya or Vaygach source from this old full-entity preimage.",
+  "expectedLogicalSourcePaths": [
+    "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+    "assets/data/territorial-entities/source/countries/state-soviet-union.json"
+  ],
+  "geometryResourcesToWrite": [],
+  "runtimeApproval": false
+}

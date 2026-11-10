@@ -1,0 +1,72 @@
+{
+  "status": "complete-preparation-verified-source-not-written",
+  "reviewRevision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+  "latestRevision": "44fcddf4140cf49b72238da86575a95de9ef2876",
+  "mainPin": "44fcddf4140cf49b72238da86575a95de9ef2876",
+  "gisPin": "a53f9b319b23678e82c4b9ffdb9f824a040ca5f3",
+  "wholeRUSSourceUnchanged": true,
+  "wholeUSSRAndRSFSRSourcePreimagesUnchanged": true,
+  "checks": [
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "fullSourcePreimageAtLatestIdentical": true,
+      "descriptorSha256": "65907d1c3fbcab9a260ffaaf7038e499c05df8d47a34cb084f15a219707b5d0b",
+      "normalizedEntitySha256": "471c8934b9f6ca12d599d35a16be2e019da3b667de648af04080745f98d61907",
+      "allUnselectedVersionsPreserved": true,
+      "gatePassCount": 1,
+      "codec": true,
+      "expected": {
+        "entitySha256": "1904be0b8fd97524d15c9a20c74c7fb714b02e26cfaef813bc50a4aea5394d15",
+        "descriptorSha256": "97914c99b673e6312f100b395ffe2257f8cfcb1d94a5dda1d821dd51b9702ff8",
+        "versions": [
+          {
+            "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+            "versionSha256": "e2ce936625b100a565934600b6725c6ff8acf9a0cffc8a675cba8e5b8bd271f7",
+            "geometrySha256": "914de6c58fba83085bbac9e4d0205f5287c921ac179401de350ea3664f3fd233"
+          }
+        ]
+      }
+    },
+    {
+      "entityId": "state:soviet-union",
+      "fullSourcePreimageAtLatestIdentical": true,
+      "descriptorSha256": "9702638f0d41e01811fbb78abb939f0de4cf6830b920eef78740746a63e58fc5",
+      "normalizedEntitySha256": "40d6e444a4814bb43fe30f345e82da235639ed93f19c6f036b45d5316f1ed891",
+      "allUnselectedVersionsPreserved": true,
+      "gatePassCount": 2,
+      "codec": true,
+      "expected": {
+        "entitySha256": "9cee9a3b21c625ca5b4588a0e5ec8f2372bdcc970edb3442069e862ce712d80c",
+        "descriptorSha256": "fdcd0710e54cc369ba9d09a1bf3b6f7ca539972f8d6a3007f42a0c0c44690fc4",
+        "versions": [
+          {
+            "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+            "versionSha256": "a62f88a7f08ae63c8d380332416600785db9e4a25d2188c7012de22c9df686dc",
+            "geometrySha256": "c35a778d8ad79fa867f6187827144e0c4c0f13bc1390b5814ead65be8ca06474"
+          },
+          {
+            "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+            "versionSha256": "f7b9ff8ad7350be14cee26a494c7ca91c25159918b41d2a1c0a532bb980a2e84",
+            "geometrySha256": "1573e811560c5269bfea8575ae86e36d4e5745d19d31d41b35487c33e78c8ba3"
+          }
+        ]
+      }
+    }
+  ],
+  "totalGatePassCount": 3,
+  "uniquePlannedSourcePaths": [
+    "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+    "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+    "assets/data/territorial-entities/source/geometries/sha256-4b3738cf4e6f0a6f32b52d7997b5b3fb0d229c0b3c450917edd0a1f7c8259e42.json",
+    "assets/data/territorial-entities/source/geometries/sha256-72a7dba92731bfe0030ecc867e6ba6c8ec32377a70a75ce62589c00803772671.json",
+    "assets/data/territorial-entities/source/geometries/sha256-dea1fa768510a3475abb90da80aa929cb9cb92815ae2b6e19b964425199d2544.json"
+  ],
+  "patchSha256": "bae345c8b68e94c70e94d0be36a90bfb7f60d945908997c773141a13af3d31eb",
+  "patchBytes": 18100350,
+  "originalKolguyevReportUnchanged": true,
+  "sourceWritten": false,
+  "committed": false,
+  "fetch": false,
+  "push": false,
+  "compiled": false
+}

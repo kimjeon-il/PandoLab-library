@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "status": "group-level-state-membership-supported-individual-historical-islet-title-not-newly-adjudicated",
+  "sources": [
+    {
+      "title": "State Archive of Arkhangelsk Oblast administrative history, Gundakova/Khrushkaya/Shumilov, 1997",
+      "url": "https://gaao29.ru/fondy/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE-%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%2018-20%20%D0%B2%D0%B2.pdf",
+      "pdfPagesOneBased": [
+        82,
+        85,
+        86,
+        87,
+        88
+      ],
+      "evidence": "The 1920 provincial draft names Vaygach and Yugorsky Shar. The published May 1922 settlement list records both together. March 1922 was provincial draft approval, returned for revision, not final central ratification. VTsIK approved the island administration in June 1924. Subsequent 1927 and 1929 administration remains Soviet. The 1929 Nenets mainland northern limit explicitly includes Yugorsky Shar and the Kara coast.",
+      "role": "Named island, strait and mainland administrative continuity; no modern-coordinate ownership inference. Archive-issued retrospective reference, not newly read original decrees."
+    },
+    {
+      "title": "NGA Sailing Directions 183, North Coast of Russia, 12th edition 2017, corrected to November 2019",
+      "url": "https://sailing-yacht.de/wp-content/uploads/2020/11/Pub183bk.pdf",
+      "pdfPagesOneBased": [
+        83,
+        84
+      ],
+      "paragraphs": "3.23–3.26",
+      "evidence": "The strait separates Vaygach from the mainland. The south/east shore and offshore islands are described separately. Named Storozhevoy and Sokoliy coordinates do not establish a name for donor 1554 or 1562.",
+      "role": "Physical geography and a check against incorrectly treating every near-shore polygon as Vaygach proper. Modern navigational reference, not historical title proof."
+    },
+    {
+      "title": "Elmer Plischke, Territorial Sovereignty in the Arctic, Encyclopedia Arctica, 1950",
+      "url": "https://collections.dartmouth.edu/archive/text/arctica/diplomatic/EA11-03-diplomatic.html",
+      "section": "Russian Pretentions, 1916; manuscript page 026",
+      "evidence": "Distinguishes recognized Russian Vaygach/Novaya Zemlya/Kolguyev from newly asserted Asian Arctic claims.",
+      "role": "Independent state-level membership context; not independent title evidence for every tiny islet."
+    }
+  ],
+  "canonicalDonor": {
+    "entityId": "state:RUS",
+    "versionId": "state:RUS:natural-earth-5.1.1",
+    "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+    "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+    "approvedOriginal": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "approvedOriginalSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+    "currentExactlyEqualsApprovedOriginal": true,
+    "upstreamRecordedProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+    "limitation": "Approved composite display is the canonical donor actually verified. Recorded upstream GPKG and literal physical-island identity of every point-touching component were not independently revalidated."
+  },
+  "physicalFinding": {
+    "donor1554Bounds": [
+      60.635473200000035,
+      69.69992360000003,
+      60.67356520000004,
+      69.71039140000005
+    ],
+    "modernMainlandPolygon": 3289,
+    "mainlandDistanceMetres": 558.6409679980177,
+    "mainlandIntersection": false,
+    "otherContact": {
+      "donorIndex": 1552,
+      "type": "Point",
+      "coordinates": [
+        60.635473200000035,
+        69.69992360000003
+      ],
+      "interpretation": "The approved display represents two polygons touching at one point. Preserve both exactly; do not infer a surveyed isthmus or force a single polygon."
+    },
+    "correction": "An early conversational summary incorrectly said 1554 had no contact with another component. The detailed result is point contact with 1552 and no mainland contact. This is explicitly corrected here."
+  },
+  "scope": {
+    "originalWholeDonorComponents": 51,
+    "additionalLinkedShoreComponents": [
+      1562
+    ],
+    "totalWholeDonorComponents": 52,
+    "oldIslandComponentsPerTarget": 1,
+    "oldMainlandArcVertices": 42,
+    "joinMethod": "Actual old/modern coastline intersections; endpoint segments split, no invented bridge. All 75 intervening modern mainland vertices kept exactly.",
+    "oldNEClipping": false,
+    "componentOmissions": 0
+  },
+  "limitations": [
+    "Named group and regional state membership are supported, but individual tiny-islet historical title and survey positions are not newly proved.",
+    "All inherited Franz Josef/Victoria, Wrangel, Sakhalin/Kurils, Caspian/Aral and other political exceptions remain unchanged.",
+    "Candidate geometry only. Structured combined-source gate and codec are a later preparation step; source writes remain unauthorized."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "definition": "+proj=laea +lat_0=74 +lon_0=60 +datum=WGS84 +units=m +no_defs",
+  "units": "metre",
+  "scaleDenominator": 10000000,
+  "dpi": 300,
+  "metresPerPixel": 846.6666666666666,
+  "geographicComparisonExtent": [
+    51.401378,
+    70.44486000000006,
+    69.08941930000003,
+    77.04674150000005
+  ],
+  "actualExecution": "pyproj Transformer.from_crs(EPSG:4326, definition, always_xy=True); shapely.ops.transform",
+  "oldProjectedAreaKm2": 80777.70812297626,
+  "donorProjectedAreaKm2": 79323.52389047896,
+  "rawNaturalEarthGroupIndices": [
+    17,
+    27,
+    76,
+    80,
+    156,
+    186
+  ],
+  "rawNaturalEarthGroupEqualsOld": false,
+  "screenPhysicalScaleCalibrated": false,
+  "purpose": "Nominal 1:10M display reference comparison, not historical accuracy or territorial change measurement.",
+  "image": {
+    "file": "nominal-source-scale.png",
+    "sha256": "63167926650dd482d62a3bed5ae117433536312c0bc395b7d96f6ab54bd354ec",
+    "bytes": 52619,
+    "dimensions": [
+      2076,
+      1064
+    ]
+  }
+}
