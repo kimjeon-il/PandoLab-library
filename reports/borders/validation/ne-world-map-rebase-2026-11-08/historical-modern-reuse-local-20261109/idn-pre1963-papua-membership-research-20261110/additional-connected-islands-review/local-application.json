@@ -1,0 +1,28 @@
+{
+  "status": "local source applied; archive pending",
+  "sourceRevision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+  "previousRuntimePin": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+  "pinNonReportDiff": [],
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-IDN.json",
+    "assets/data/territorial-entities/source/geometries/sha256-301521f2b924be40f9d8e07e2107b0ffeaf97348b48316bca58db7f3f5e4e51b.json"
+  ],
+  "result": {
+    "descriptorWrites": 1,
+    "geometryWrites": 1
+  },
+  "expected": {
+    "entitySha256": "86f5f5eedf8900ed41b7eed83e249798186fc635ca9d6a78f79fc4a9221a3d3c",
+    "descriptorSha256": "d2cbe845538f3fe4be36d99a5e5cb52aacb3facbeac9e4ac945dcb7b4e0fac1c",
+    "versions": [
+      {
+        "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "geometrySha256": "eda03a0a25066f249cb230b647b9b2e7d095b05d3388f9fde51752ec55a9fca0"
+      }
+    ]
+  },
+  "sourceOnly": true,
+  "compiled": false,
+  "push": false,
+  "deployed": false
+}

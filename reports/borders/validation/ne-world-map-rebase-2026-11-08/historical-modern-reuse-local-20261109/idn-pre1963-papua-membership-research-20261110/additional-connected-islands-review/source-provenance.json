@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+  "status": "prepared, not applied: 20 independent retained islands",
+  "source": {
+    "reference": "assets/data/territorial-entities/source/countries/state-IDN.json",
+    "revision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+    "sha256": "9fde231398fc0cbb840f40839609f54cd4066e562a2674bda08919a57a2df88e"
+  },
+  "originalVersion": {
+    "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+    "validFrom": "1945-08-17",
+    "validTo": "1963-04-30",
+    "sourceId": "natural-earth-5.1.1-admin1-papua-island-mask",
+    "certainty": "low",
+    "notes": "1945~1963년 서뉴기니 행정권 이전 전. 현행 인도네시아 264개 폴리곤 가운데 같은 Natural Earth 5.1.1 파푸아·서파푸아 행정구역과 일치하는 25개 섬 구성요소를 제외한 근사 형상. 1945~1949 독립전쟁 기간의 실제 통제경계까지 복원한 자료는 아님.\nDisplay correction 2026-11-10: all 450 explicitly omitted approved modern IDN components are restored with exact donor coordinates. Existing pre-1963 West New Guinea exclusion and other coordinates remain unchanged; complete modern-scope equivalence is not yet claimed.\nPartial display update prepared 2026-11-10: Kelang, Obilatu, Saparua, Makian, Tidore and Tufure use six exact whole approved modern components, identified by official names and complete connected landmass correspondence. All other 811 current components, including all existing 618 modern components and 450 restored omissions, are preserved. The other 188 broad candidate groups remain pending and unchanged. West New Guinea membership for all 2,962 modern components lacking NE correspondence is not settled; complete modern-minus-Papua scope is not claimed.",
+    "historicalProvenance": {
+      "physicalBoundarySource": "Natural Earth 5.1.1 present-day canonical geometry",
+      "sourceReferenceDate": "2026-10-06",
+      "verifiedHistoricalGeometry": false,
+      "provinceMaskSource": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.1/geojson/ne_10m_admin_1_states_provinces.geojson",
+      "politicalTerritoryBasis": "effective-administration or de-facto proxy, not legal title",
+      "eventDate": "1963-05-01",
+      "event": "West New Guinea administrative transfer UNTEA to Indonesia",
+      "maskSelectedComponents": [
+        3,
+        17,
+        32,
+        130,
+        137,
+        154,
+        169,
+        171,
+        172,
+        177,
+        178,
+        180,
+        182,
+        186,
+        187,
+        188,
+        189,
+        190,
+        192,
+        202,
+        244,
+        245,
+        246,
+        255,
+        258
+      ],
+      "evidence": [
+        "https://peacekeeping.un.org/sites/default/files/past/unsfbackgr.html"
+      ],
+      "displayDetailReview": {
+        "schemaVersion": 1,
+        "status": "passed",
+        "entityId": "state:IDN",
+        "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "validFrom": "1945-08-17",
+        "validTo": "1963-04-30",
+        "geometrySha256": "00f1d2aee3a7f37aaf6288f06af69d8c4861156f0f783f490428c672e41523d1",
+        "master": {
+          "reference": "assets/data/territorial-entities/source/geometries/sha256-1fe0e1881b0718061104721d682635ee63701aee987d924d1509ccdfcf8d1858.json",
+          "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+          "sha256": "1fe0e1881b0718061104721d682635ee63701aee987d924d1509ccdfcf8d1858"
+        },
+        "source": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-source-provenance.json",
+          "sha256": "b297d49f412d1b68ce57919ca70fc9bc5df1f1624f4b31c1a93a304fb293a9a8"
+        },
+        "comparison": {
+          "reference": {
+            "reference": "assets/data/countries-ne-5.1.1.geojson",
+            "revision": "2af6c0834ac2987a7ffdfe3cde0db1827b04d4e1",
+            "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+          },
+          "arcSha256": "32d669ad46bfd416a0de366cde9a13c55629a574e5b35f3802a90b770e20a6b2",
+          "extent": [
+            95,
+            -11,
+            142,
+            6
+          ],
+          "scaleDenominator": 10000000,
+          "projection": {
+            "definition": "+proj=laea +lat_0=-2 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+            "units": "metre",
+            "evidence": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-projection-evidence.json",
+              "sha256": "406b868805065ec764f89fe49806185da91c7a27139a990c65eae77cede1e14b"
+            }
+          }
+        },
+        "method": "preserved-modern-source",
+        "reason": "Replace six independently identified retained islands with exact complete approved modern components, preserving the remaining historical source and every restored component.",
+        "parameters": {
+          "replacedOldNEComponents": 6,
+          "addedExactModernComponents": 6,
+          "oldComponents": 817,
+          "resultComponents": 817,
+          "existingModernComponentsPreserved": 618,
+          "explicitRestoredComponentsPreserved": 450,
+          "newOmissions": 0,
+          "untouchedCurrentComponents": 811,
+          "oldNEClipping": false,
+          "snapTolerance": null,
+          "coordinateRounding": null,
+          "resimplification": null
+        },
+        "visual": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-visual-review.json",
+          "sha256": "2fb7d40934d9a7261103dc75fe59acc52eddd29e40015c425d32427b6f1e27e8"
+        },
+        "topology": {
+          "status": "passed",
+          "evidence": {
+            "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-topology-proof.json",
+            "sha256": "a84f2025648d867152f9a82acec3215f8d6ec17ddb32c945f5d07c6aea64a90c"
+          },
+          "checks": [
+            "validity",
+            "shared-boundary",
+            "union",
+            "gaps-overlaps",
+            "connectivity",
+            "holes-islands",
+            "dates"
+          ],
+          "scope": "Six complete detached island components only; valid complete candidate, exact replay and preservation of all 811 untouched components including existing 618 modern components and restored 450. No changed component intersects six neighboring spatial references. Existing shared political boundaries and period remain unchanged."
+        },
+        "counterpartVersions": [],
+        "noSharedBoundaryReason": "All six changed components are independent islands. Existing Sebatik, Timor and Borneo coordinates remain exactly unchanged. Six modern neighboring references are spatial checks only, not full-period historical counterparts.",
+        "fixedAnchors": [],
+        "reviewedAt": "2026-11-10T06:13:01.854Z",
+        "compiledDerivatives": [],
+        "fullPeriodDatedCounterpartClosureVerified": false,
+        "runtimeApproval": false
+      },
+      "modernIndependentIslandsReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-independent-islands-20261110/source-provenance.json",
+          "sha256": "80fb56c7aae821d3d6ea63923e1c01739379544f5c5121821f6f26cdcc2d1a89"
+        },
+        "bindings": [
+          {
+            "name": "Sumatra",
+            "oldIndices": [
+              43,
+              55,
+              179
+            ],
+            "donorIndices": [
+              146,
+              148,
+              291,
+              296,
+              309,
+              362,
+              393,
+              396,
+              400,
+              401,
+              402,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              592,
+              833,
+              838,
+              840,
+              841,
+              843,
+              847,
+              849
+            ]
+          },
+          {
+            "name": "Java",
+            "oldIndices": [
+              21,
+              66
+            ],
+            "donorIndices": [
+              1190
+            ]
+          }
+        ],
+        "originalPolygonCount": 239,
+        "candidatePolygonCount": 260,
+        "sourceOnly": true,
+        "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+      },
+      "modernAdditionalIslandsReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-next-islands-20261110/source-provenance.json",
+          "sha256": "918e7e18e5bdd7adcf64a9cb936bc5de0815b44209601a9d00ec1fad629acc6e"
+        },
+        "bindings": [
+          {
+            "name": "Sulawesi",
+            "oldIndices": [
+              76
+            ],
+            "donorIndices": [
+              2159,
+              2262,
+              2284,
+              2687
+            ]
+          },
+          {
+            "name": "Bali",
+            "oldIndices": [
+              88
+            ],
+            "donorIndices": [
+              1402,
+              1413
+            ]
+          },
+          {
+            "name": "Lombok",
+            "oldIndices": [
+              84
+            ],
+            "donorIndices": [
+              1384,
+              1396,
+              1409
+            ]
+          },
+          {
+            "name": "Sumbawa",
+            "oldIndices": [
+              86
+            ],
+            "donorIndices": [
+              1785
+            ]
+          },
+          {
+            "name": "Flores",
+            "oldIndices": [
+              81,
+              83,
+              87
+            ],
+            "donorIndices": [
+              1980,
+              2031,
+              2171,
+              2173,
+              2389
+            ]
+          },
+          {
+            "name": "Sumba",
+            "oldIndices": [
+              79
+            ],
+            "donorIndices": [
+              1972
+            ]
+          }
+        ],
+        "originalPolygonCount": 260,
+        "candidatePolygonCount": 268,
+        "sourceOnly": true,
+        "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+      },
+      "modernRemainingLargeIslandsReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-remaining-large-islands-20261110/source-provenance.json",
+          "sha256": "0a49d26ad113bb31f7a829baa6a261ec2a6ae46b9692298e729d2f9b3985a3a6"
+        },
+        "bindings": [
+          {
+            "name": "Bangka",
+            "oldIndices": [
+              199
+            ],
+            "donorIndices": [
+              850
+            ]
+          },
+          {
+            "name": "Belitung",
+            "oldIndices": [
+              193
+            ],
+            "donorIndices": [
+              1023,
+              1046
+            ]
+          },
+          {
+            "name": "Madura",
+            "oldIndices": [
+              166
+            ],
+            "donorIndices": [
+              1465
+            ]
+          },
+          {
+            "name": "Buru",
+            "oldIndices": [
+              188
+            ],
+            "donorIndices": [
+              2608,
+              2609
+            ]
+          },
+          {
+            "name": "Seram",
+            "oldIndices": [
+              192
+            ],
+            "donorIndices": [
+              2991
+            ]
+          },
+          {
+            "name": "Halmahera",
+            "oldIndices": [
+              226
+            ],
+            "donorIndices": [
+              2902
+            ]
+          },
+          {
+            "name": "Obi",
+            "oldIndices": [
+              200
+            ],
+            "donorIndices": [
+              2801,
+              2803
+            ]
+          },
+          {
+            "name": "Taliabu",
+            "oldIndices": [
+              198
+            ],
+            "donorIndices": [
+              2658
+            ]
+          },
+          {
+            "name": "Morotai",
+            "oldIndices": [
+              228
+            ],
+            "donorIndices": [
+              3151
+            ]
+          }
+        ],
+        "originalPolygonCount": 268,
+        "candidatePolygonCount": 271,
+        "sourceOnly": true,
+        "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+      },
+      "modernResidualLargeIslandsReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-residual-islands-20261110/source-provenance.json",
+          "sha256": "992fda0009db91cd4ac37a7cb2052682d19df3ca21daa4d73d169d6106b9ee9d"
+        },
+        "bindings": [
+          {
+            "name": "Buton",
+            "oldIndices": [
+              176,
+              178
+            ],
+            "donorIndices": [
+              2400,
+              2401,
+              2412
+            ]
+          },
+          {
+            "name": "Nias",
+            "oldIndices": [
+              227
+            ],
+            "donorIndices": [
+              47
+            ]
+          },
+          {
+            "name": "Aru-north",
+            "oldIndices": [
+              18,
+              20,
+              168,
+              172
+            ],
+            "donorIndices": [
+              3550,
+              3558,
+              3559,
+              3780,
+              3798,
+              3815,
+              3822,
+              3833,
+              3835,
+              3843,
+              3850
+            ]
+          },
+          {
+            "name": "Siberut",
+            "oldIndices": [
+              109
+            ],
+            "donorIndices": [
+              264,
+              274
+            ]
+          },
+          {
+            "name": "Yamdena",
+            "oldIndices": [
+              163,
+              164
+            ],
+            "donorIndices": [
+              3383,
+              3403
+            ]
+          },
+          {
+            "name": "Wetar",
+            "oldIndices": [
+              161
+            ],
+            "donorIndices": [
+              2582
+            ]
+          },
+          {
+            "name": "Peleng",
+            "oldIndices": [
+              205
+            ],
+            "donorIndices": [
+              2529
+            ]
+          },
+          {
+            "name": "Alor",
+            "oldIndices": [
+              157
+            ],
+            "donorIndices": [
+              2571
+            ]
+          },
+          {
+            "name": "Laut",
+            "oldIndices": [
+              102
+            ],
+            "donorIndices": [
+              1521
+            ]
+          },
+          {
+            "name": "Bacan",
+            "oldIndices": [
+              210
+            ],
+            "donorIndices": [
+              2841,
+              2847
+            ]
+          }
+        ],
+        "originalPolygonCount": 271,
+        "candidatePolygonCount": 281,
+        "sourceOnly": true,
+        "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+      },
+      "modernBorneoCoastAndIslandsReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-borneo-coast-20261110/source-provenance.json",
+          "sha256": "0016d8792cca67db44ca16a327054b2d6d6eb3a0da4217bc5ad694edc0788274"
+        },
+        "bindings": {
+          "oldIndices": [
+            2,
+            117,
+            154,
+            155
+          ],
+          "donorIndices": [
+            1263,
+            1311,
+            1314,
+            1315,
+            1316,
+            1317,
+            1318,
+            1319,
+            1320,
+            1321,
+            1324,
+            1326,
+            1332,
+            1529,
+            1531,
+            1538,
+            1545,
+            1549,
+            1550,
+            1559,
+            1560,
+            1597,
+            1598,
+            1600,
+            1601,
+            1602,
+            1603,
+            1608,
+            1609,
+            1612,
+            1613,
+            1616,
+            1618,
+            1619,
+            1621,
+            1626,
+            1629,
+            1635,
+            1636,
+            1637,
+            1640,
+            1647,
+            1651,
+            1655,
+            1662,
+            1664,
+            1675,
+            1676,
+            1679,
+            1687,
+            1689,
+            1692,
+            1694,
+            1695,
+            1697,
+            1699,
+            1709,
+            1717,
+            1731,
+            1737,
+            1748,
+            1749,
+            1753,
+            1763,
+            1765,
+            1874,
+            1877,
+            1893,
+            1897,
+            1898,
+            1899,
+            1904,
+            1908,
+            1912,
+            1913,
+            1914,
+            1916,
+            1919,
+            1932,
+            1936,
+            1938,
+            1940,
+            1941,
+            1944,
+            1945,
+            1947,
+            1960,
+            1965,
+            1966
+          ],
+          "oldCoastSpan": [
+            5,
+            1393
+          ],
+          "protectedSharedEdges": 442
+        },
+        "originalPolygonCount": 281,
+        "candidatePolygonCount": 367,
+        "sourceOnly": true,
+        "note": "Original source notes describe the inherited reconstruction before this partial display update; original dates, certainty and historical caveats remain unchanged."
+      },
+      "modernEarlyWestTimorCoastReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-west-timor-coast-20261110/source-provenance.json",
+          "sha256": "c050903d480b18b8b7c71f609599f507ee32084b9ff435f13fd6d9bd74f001e3"
+        },
+        "originalPolygonCount": 367,
+        "candidatePolygonCount": 367,
+        "sourceOnly": true
+      },
+      "explicitModernOmissionRestoration": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/source-provenance.json",
+          "sha256": "224c2f3ae95f9c262f30b1c95ec135f8519b56c0de8e4f3028b18694a1cd803c"
+        },
+        "originalPolygonCount": 367,
+        "candidatePolygonCount": 817,
+        "sourceOnly": true
+      },
+      "modernNamedIndependentIslandsReuse": {
+        "sourceReview": {
+          "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-source-provenance.json",
+          "sha256": "b297d49f412d1b68ce57919ca70fc9bc5df1f1624f4b31c1a93a304fb293a9a8"
+        },
+        "bindings": [
+          {
+            "names": [
+              "Pulau Kelang"
+            ],
+            "originalNEIndex": 35,
+            "currentIndex": 130,
+            "modernIndex": 2789
+          },
+          {
+            "names": [
+              "Pulau Obilatu"
+            ],
+            "originalNEIndex": 42,
+            "currentIndex": 137,
+            "modernIndex": 2808
+          },
+          {
+            "names": [
+              "Pulau Saparua"
+            ],
+            "originalNEIndex": 163,
+            "currentIndex": 282,
+            "modernIndex": 2990
+          },
+          {
+            "names": [
+              "Pulau Makian"
+            ],
+            "originalNEIndex": 209,
+            "currentIndex": 317,
+            "modernIndex": 2891
+          },
+          {
+            "names": [
+              "Pulau Tidore"
+            ],
+            "originalNEIndex": 211,
+            "currentIndex": 319,
+            "modernIndex": 2903
+          },
+          {
+            "names": [
+              "Tufure"
+            ],
+            "originalNEIndex": 247,
+            "currentIndex": 352,
+            "modernIndex": 2696
+          }
+        ],
+        "originalPolygonCount": 817,
+        "candidatePolygonCount": 817,
+        "remainingOriginalNEComponents": 191,
+        "unchangedModifiedSharedMainlands": 2,
+        "completeModernMinusPapuaCertified": false,
+        "sourceOnly": true
+      }
+    }
+  },
+  "donor": {
+    "source": {
+      "reference": "assets/data/territorial-entities/source/countries/state-IDN.json",
+      "revision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+      "sha256": "9fde231398fc0cbb840f40839609f54cd4066e562a2674bda08919a57a2df88e"
+    },
+    "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+    "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623"
+  },
+  "approvedOriginal": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "revision": "9f59df3a2144d2e76b5d8bbad8df7f7ebe8ab8f6",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+  },
+  "basis": "Existing approved retained NE components are matched one-to-one to entire current BIG connected land polygons and whole approved modern donor components. All 4128 donors were rechecked for any contact, including boundary-only contact, with each entire official land polygon. Individual visual review establishes whole-island physical identity without requiring a name point. BIG current administration does not assign historical membership.",
+  "closure": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/closure-recheck.json",
+    "sha256": "e5c15d397ee7372d6280c1e1681be020b8b99146906823e95d0c8ae84a26a725"
+  },
+  "replay": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/independent-replay-proof.json",
+    "sha256": "49ae3f9c1d8287c3bb797506e9703a677e887ef1bb8a68b077516c2e8bdc2379"
+  },
+  "candidate": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/reviewed-candidate.json",
+    "sha256": "0aed7e1fcc5a6577feac05f028d0097059e0696e11b733a6ab8f7b61db456a8c"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/individual-visual-review.json",
+    "sha256": "c1c12fe9832fb2de185a25fec9e09258d87b62ceb4e8af9103bf663fa097db5a"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/topology-proof.json",
+    "sha256": "6d68fec9bfcbbdfae855bee8aa59c8a07fbac6735821011da2543a86f3b9f8e3"
+  },
+  "newOmissions": 0,
+  "existing624Preserved": true,
+  "restored450Preserved": true,
+  "untouched797Preserved": true,
+  "pendingOriginalNEIndices": [
+    235,
+    238,
+    239,
+    240,
+    242,
+    243
+  ],
+  "remainingOriginalNECount": 171,
+  "unmatched2962": "No new decision; existing source state preserved.",
+  "limits": [
+    "Original low-certainty proxy and 1945-1949 actual-control limitation retained.",
+    "No decision about all 2962 unmatched donor components, disputed Sain/Piyai/Kiyas or full Papua inventory.",
+    "Current neighboring proxies are spatial screens, not full-period dated counterparts.",
+    "No clipping, rounding, snapping, resimplification, added boundary coordinates or arbitrary omission.",
+    "Six questioned groups remain unchanged; no donor is discarded because of size or shape."
+  ],
+  "rights": "Original NE and approved modern donor attributions retained. Raw BIG inputs stay local; no redistribution or blanket report publication authorized.",
+  "runtimeApproval": false
+}

@@ -1,0 +1,105 @@
+{
+  "status": "passed, source-only narrow candidate not applied",
+  "valid": true,
+  "validityReason": "Valid Geometry",
+  "projection": {
+    "definition": "+proj=laea +lat_0=-2 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "executed": true,
+    "projectedCandidateValid": true
+  },
+  "period": {
+    "validFrom": "1945-08-17",
+    "validTo": "1963-04-30",
+    "unchanged": true
+  },
+  "originalComponents": 817,
+  "removedOldNEComponents": 6,
+  "newExactModernComponents": 6,
+  "candidateComponents": 817,
+  "allExisting618ExactDonorsPreserved": true,
+  "allOther811CurrentComponentsExact": true,
+  "allExplicit450RestoredComponentsPreserved": true,
+  "sharedSebatikTimorBorneoIndices": [
+    0,
+    1,
+    2
+  ],
+  "sharedIslandCoordinatesPreserved": true,
+  "noNewPapuaOrUnresolvedDonors": true,
+  "oldRetainedIslandCount": 6,
+  "officialConnectedLandmassCount": 6,
+  "completeModernClosureCount": 6,
+  "other188BroadCandidateGroupsUnchanged": true,
+  "originalNEResidualUnreplaced": 191,
+  "removedAreaM2": 548777930.0809894,
+  "addedAreaM2": 594078926.933893,
+  "symmetricDifferenceM2": 198278134.10008657,
+  "addedAreaOutsideOldNEIsNotClippedM2": 121789565.47649534,
+  "oldCoarseAreaSupersededM2": 76488568.6235913,
+  "neighborChecks": [
+    {
+      "entityId": "state:MYS",
+      "versionId": "state:MYS:natural-earth-5.1.1",
+      "from": null,
+      "to": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:PNG",
+      "versionId": "state:PNG:natural-earth-5.1.1",
+      "from": null,
+      "to": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:TLS",
+      "versionId": "state:TLS:2002-2026-independence-r1",
+      "from": "2002-05-20",
+      "to": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:SGP",
+      "versionId": "state:SGP:natural-earth-5.1.1",
+      "from": null,
+      "to": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:AUS",
+      "versionId": "state:AUS:natural-earth-5.1.1",
+      "from": null,
+      "to": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:BRN",
+      "versionId": "state:BRN:natural-earth-5.1.1",
+      "from": null,
+      "to": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    }
+  ],
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "limits": [
+    "Partial display modernization of six individually identified retained islands only.",
+    "The 194-group broad diagnostic proposal is not approved; 188 other groups remain unchanged.",
+    "2962 donor components without NE correspondence remain unresolved as a set. The 539 current-Papua matches and 14 connected-landmass anchors are research evidence, not applied decisions.",
+    "Undated modern neighboring proxies and the post-2002 TLS reference are spatial screening inputs, not proof of 1945-1963 counterpart political status. No changed island touches their land or boundary.",
+    "Original low-certainty de-facto administration proxy is retained; actual 1945-1949 control is not reconstructed.",
+    "No new coastline coordinates, clipping, simplification, buffer, size cutoff, omitted donor subset, or nearest-neighbor assignment."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "status": "passed, candidate not applied",
+  "valid": true,
+  "validityReason": "Valid Geometry",
+  "projectedCandidateValid": true,
+  "projection": {
+    "definition": "+proj=laea +lat_0=-2 +lon_0=118 +datum=WGS84 +units=m +no_defs",
+    "units": "metre",
+    "executed": true
+  },
+  "replacedComponents": 20,
+  "addedExactDonorComponents": 20,
+  "originalPolygonCount": 817,
+  "candidatePolygonCount": 817,
+  "allCurrent624ModernComponentsPreserved": true,
+  "allRestored450Preserved": true,
+  "allOther797CurrentComponentsPreserved": true,
+  "earlierSixAppliedComponentsPreserved": true,
+  "pendingSixCurrentCoordinatesPreserved": true,
+  "remainingOriginalNECount": 171,
+  "modifiedSharedMainlandsUnchanged": 2,
+  "resultExactModernCount": 644,
+  "noNewPapuaOrUnmatchedDonors": true,
+  "periodUnchanged": true,
+  "sharedSebatikTimorBorneoPreserved": true,
+  "addedAreaKm2": 2767.692314186907,
+  "removedAreaKm2": 2702.540497944218,
+  "symmetricDifferenceKm2": 697.9573905630655,
+  "neighborChecks": [
+    {
+      "entityId": "state:MYS",
+      "versionId": "state:MYS:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:PNG",
+      "versionId": "state:PNG:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:TLS",
+      "versionId": "state:TLS:2002-2026-independence-r1",
+      "validFrom": "2002-05-20",
+      "validTo": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:SGP",
+      "versionId": "state:SGP:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:AUS",
+      "versionId": "state:AUS:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    },
+    {
+      "entityId": "state:BRN",
+      "versionId": "state:BRN:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "addedIntersects": false,
+      "overlapAreaM2": 0.0,
+      "sharedBoundaryLengthM": 0.0
+    }
+  ],
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "completeModernMinusPapuaCertified": false,
+  "limits": [
+    "Original low-certainty proxy and 1945-1949 actual-control limitation retained.",
+    "No decision about all 2962 unmatched donor components, disputed Sain/Piyai/Kiyas or full Papua inventory.",
+    "Current neighboring proxies are spatial screens, not full-period dated counterparts.",
+    "No clipping, rounding, snapping, resimplification, added boundary coordinates or arbitrary omission.",
+    "Six questioned groups remain unchanged; no donor is discarded because of size or shape."
+  ]
+}
