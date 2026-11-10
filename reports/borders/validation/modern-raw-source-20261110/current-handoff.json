@@ -1,13 +1,38 @@
 {
   "scope": "Modern raw source adoption only. Runtime/LOD generation and historical unique boundaries are not completed.",
-  "localSourceRevision": "0afdf404436868c0f4170dddcc6b787109ee3375",
-  "localAppPinCommit": "1a7cefae8",
-  "appliedModernObjects": 41,
-  "latestCompleted": ["COK","NIU","TTO","SGP","BHR","HTI","DOM","GBR","IRL"],
-  "remainingInventory": {"unreviewedOneToOneModern":114,"sourceDisplayContractReview":36,"specialGeographicScopeReview":26,"ownershipReview":37},
-  "specificHolds": ["BEL/LUX source-only update rejected by geometry-bound display gate; no gate modification allowed", "AND/LIE/MCO need neighboring country source changes together", "SMR/VAT raw source has positive-area overlap with Italy; preserve original and resolve ownership composition separately", "CUB must be reviewed together with Guantanamo source/ownership"],
+  "localSourceRevision": "21eec58615cfe5c731d5ee2f8af36aad85b34f57",
+  "localAppPinCommit": "a6cc7145d",
+  "appliedModernObjects": 44,
+  "latestCompleted": [
+    "COK",
+    "NIU",
+    "TTO",
+    "SGP",
+    "BHR",
+    "HTI",
+    "DOM",
+    "GBR",
+    "IRL",
+    "CUB",
+    "USG",
+    "JPN"
+  ],
+  "remainingInventory": {
+    "unreviewedOneToOneModern": 112,
+    "sourceDisplayContractReview": 36,
+    "specialGeographicScopeReview": 25,
+    "ownershipReview": 37
+  },
+  "specificHolds": [
+    "BEL/LUX source-only update rejected by geometry-bound display gate; no gate modification allowed",
+    "AND/LIE/MCO need neighboring country source changes together",
+    "SMR/VAT raw source has positive-area overlap with Italy; preserve original and resolve ownership composition separately",
+    "PHL raw primary feature lacks approved four Spratly components; preserve effective-control allocation before adopting."
+  ],
   "remainingNotAllBlocked": true,
-  "simultaneousLOD": "Existing gis pin advanced to 5dc14820019f78f1322258a752f4b6e248c30c4c independently; read-only comparison against f26d089 found zero changed country source descriptors. No existing gis files, junction, pin or LOD code changed by this worker.",
-  "remotePush":false,"mainMerge":false,"deployment":false,
+  "simultaneousLOD": "Existing gis independently advanced to c40af6d237f5db4c8f3688deb4c96e5da00295f4; country source descriptors unchanged from our baseline. Our workspace only changed its own pin.",
+  "remotePush": false,
+  "mainMerge": false,
+  "deployment": false,
   "temporaryWorkspace": "Keep approved gis-raw-modern until verified main merge; never automatically delete before integration. Remove temporary owner support when integrating reviewed data pin."
 }
