@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "status": "source-only-exact-three-coast-version-plan",
+  "at": "2026-11-09T23:52:43.104Z",
+  "baseline": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+  "sourceFiles": [
+    {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-canonical-version-only-patch.json",
+      "sha256": "c5b511294c63af0970f87edd0798ab8757b1fbfd1574f0a0726fd65118bdf906"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-canonical-version-only-patch.json",
+      "sha256": "275e7d0b1add17975c42fd00fc945af07a72b7b471bb87b98e12702e676b969c"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-canonical-version-only-patch.json",
+      "sha256": "4622d244d9d64ddc3f99d1dfd2b612fe1226cf3b87ac26d1947176fba08a61bc"
+    }
+  ],
+  "rows": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "beforeDescriptorSha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "beforeEntitySha256": "d22ea0a3a3568199322f82d1b742479775aee57a89fecb12538d6a9db4a4caff",
+      "beforeVersionSha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b",
+      "expectedEntitySha256": "3af5dae02419147b9121d09012774419a375882bf62468c42be3fe10cba6b558",
+      "expectedVersionSha256": "53b90935e9f6436dca6f00046f822119b79d4e960793f9a52bce11f0ada22910",
+      "expectedDescriptorSha256": "97636642c80ba463fd9161a1ab344a068ea8d5c61f2f4d71747d1559d4159d88",
+      "expectedDescriptorBytes": 24051,
+      "unchangedVersions": []
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "beforeDescriptorSha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "beforeEntitySha256": "34c38a9e956aac7b85d4bf25821a9d1e16e12a3bcee0f017a877caee14cdca65",
+      "beforeVersionSha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620",
+      "expectedEntitySha256": "ff21348c0dcfdf8105e1397220163d8951cbccd89076d3515180f57deb72d30c",
+      "expectedVersionSha256": "bdb62b2ecfc156ab1e414b06f67cccb9e7dcc7d060d4fc3a9759ca9d9b3b7328",
+      "expectedDescriptorSha256": "d13d349840a5f20484f072afcb5ca1c7b39a2b3d3f9cac1c9eae28f96dc2b992",
+      "expectedDescriptorBytes": 69519,
+      "unchangedVersions": [
+        {
+          "versionId": "state:DEU:natural-earth-5.1.1-before-1914-snapshot",
+          "sha256": "2c6f609124a48b0f06dfacad3474620f18fc46afb0fd80f2d05f3a5e981bd8d2"
+        },
+        {
+          "versionId": "state:DEU:natural-earth-5.1.1",
+          "sha256": "7abb6979cab1b70ac9d26868217cfb970637f8a1caadf24cac5bbaa863382fce"
+        }
+      ]
+    },
+    {
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "validFrom": "1878-04-01",
+      "validTo": "1920-01-10",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+      "beforeDescriptorSha256": "7d4009f24f549e532fbfd49c4a4ebe50d425bde1bf75fff29aba7567084df886",
+      "beforeEntitySha256": "4cfb0a1c96dcc15ee700bef74342ea52483c3290a176c909dd8ce7abd3764629",
+      "beforeVersionSha256": "175bd8ccb99942c5c5bc8c0e739cc38c5258191a63c0932ada7186690b111417",
+      "expectedEntitySha256": "bc767d7a2734a21b3851bcca3ce36931f15234b6d0c55ed770fbf978ea24a205",
+      "expectedVersionSha256": "d724335a734c9a43cf23429b9e58b3158f9ca1babaa3aba8a126f64ca9f66365",
+      "expectedDescriptorSha256": "de6ee8282f5f5986dcdbc628eefe38eb75fb11ea517ec500239eee05bcf82053",
+      "expectedDescriptorBytes": 16498,
+      "unchangedVersions": []
+    }
+  ],
+  "newResources": [
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43.json",
+      "sha256": "5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43",
+      "bytes": 184118
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67.json",
+      "sha256": "6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67",
+      "bytes": 171519
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f.json",
+      "sha256": "bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f",
+      "bytes": 147783
+    }
+  ],
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+    "assets/data/territorial-entities/source/geometries/sha256-5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43.json",
+    "assets/data/territorial-entities/source/geometries/sha256-6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67.json",
+    "assets/data/territorial-entities/source/geometries/sha256-bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f.json"
+  ],
+  "removePaths": [],
+  "evidence": [
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/archive-inputs.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/archive-inputs.json",
+      "sha256": "5268a718bd44315b8ea2914390ce5315f3fe63a04e8f5e1a02669c1b60f99ff2",
+      "bytes": 18282
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/reviewed-coast-operations.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/reviewed-coast-operations.json",
+      "sha256": "2f058269476f9ce150ac9cc87be6adcd952a57302537145be19866be6a95e09e",
+      "bytes": 444389
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/independent-operation-replay.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/independent-operation-replay.json",
+      "sha256": "c3998ddc4a7fa63e7b478ae3151d66bb746ce20ee6940f4142879c2f11c5b588",
+      "bytes": 917
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-topology-measurements.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-topology-measurements.json",
+      "sha256": "240e5dea453024810ce6f3e26e5431deb57670c71266318728a13f9fc52679f4",
+      "bytes": 267714
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/projection-execution.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/projection-execution.json",
+      "sha256": "363f3b0e18b2c9cdcefcf314741388babef448272a7445099fcf9ff7b6f5a527",
+      "bytes": 2169
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-provenance.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-provenance.json",
+      "sha256": "76d351071e33ed3d0c557ea3280d3c0eb95b0d4e68097b602487590a5e0e7cde",
+      "bytes": 9536
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/visual-review.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/visual-review.json",
+      "sha256": "34cef216c72a70269095173b275f034ab0b99f890074bccc3a61ba76c1a07ffd",
+      "bytes": 3959
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-disposition.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-disposition.json",
+      "sha256": "20adbcb446da64a7f3aa180bd61214280a3b5a0e96c7ae48968a613e30415652",
+      "bytes": 2595
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-gate-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-gate-proof.json",
+      "sha256": "250ff8517acc7ad057cc0dec9ff8f00a0e63e0aa741b8f5d1efaaa77f0164cf6",
+      "bytes": 3847
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/verify-final-patch-replay.mjs",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/verify-final-patch-replay.mjs",
+      "sha256": "2857ba1dd945e9cb73f22df42d3de4a8082f8735956351e3bf580517c04fa80b",
+      "bytes": 7724
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-canonical-version-only-patch.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-canonical-version-only-patch.json",
+      "sha256": "c5b511294c63af0970f87edd0798ab8757b1fbfd1574f0a0726fd65118bdf906",
+      "bytes": 542739
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-source-scale-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-source-scale-review.png",
+      "sha256": "72811b03287ec389f160a89d0530e04965272a27103500c107fee5c8269c76f1",
+      "bytes": 25146
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-arc-diagnostic.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/AH-arc-diagnostic.png",
+      "sha256": "94564a183158381f4c3b5fb4c6d9c94614b58203f3107ad85ae822c5654ed3c6",
+      "bytes": 9473
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-canonical-version-only-patch.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-canonical-version-only-patch.json",
+      "sha256": "275e7d0b1add17975c42fd00fc945af07a72b7b471bb87b98e12702e676b969c",
+      "bytes": 521722
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-source-scale-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-source-scale-review.png",
+      "sha256": "c7e654fc4b67b04efdb25319a05354578c84790424daf0513ed29ded21453cc0",
+      "bytes": 23604
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-arc-diagnostic.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/DEU-arc-diagnostic.png",
+      "sha256": "f4eca9acbf9e3a2edcc9c3d371f5613d39f80cd163e9e7f33526feb9aea222cb",
+      "bytes": 22224
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-canonical-version-only-patch.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-canonical-version-only-patch.json",
+      "sha256": "4622d244d9d64ddc3f99d1dfd2b612fe1226cf3b87ac26d1947176fba08a61bc",
+      "bytes": 540370
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-source-scale-review.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-source-scale-review.png",
+      "sha256": "87221298a4d69fcda33ef3931f95743c44c4ba74a9ed1a90be39aeffe159ce17",
+      "bytes": 12337
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-arc-diagnostic.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/EP-arc-diagnostic.png",
+      "sha256": "2fa7cac30c36f787766b22c9b4899cc08e0fce1ef00311366e1e9f38eeeab550",
+      "bytes": 7168
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/independent-patch-replay-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/independent-patch-replay-proof.json",
+      "sha256": "3d8ba564717e7fa4afcabeb5e24cde0a168ccb04f3b8a485060ba9e175c1632a",
+      "bytes": 1988
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/cleanup-and-retention.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/cleanup-and-retention.json",
+      "sha256": "f88e1df7e82a0998cf86ffe5dd855aefe45eab9edcd8e58a7ed8d3b608e0a237",
+      "bytes": 2801
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/completed-evidence-allowlist.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/completed-evidence-allowlist.json",
+      "sha256": "140570a281cca28e1c68576c27b1e76b3b84671358f512e35ace1282a2be1b96",
+      "bytes": 12252
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/README.md",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/README.md",
+      "sha256": "8b39b2f72c900bd24d7c7d89c8cb1d80ed1ae7e0b79fa29dccfbb3822bb02b60",
+      "bytes": 5123,
+      "scope": "Independent evidence-only ARG/CHL/SPI review; no source adoption"
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/source-and-preservation-evidence.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/source-and-preservation-evidence.json",
+      "sha256": "52884973cb854b6b33cbc03711ef7fa617ef7eb697147f450b51354aa64675c2",
+      "bytes": 22364,
+      "scope": "Independent evidence-only ARG/CHL/SPI review; no source adoption"
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/focused-topology-proof.json",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/focused-topology-proof.json",
+      "sha256": "c5772adf6b69cc291ae83f3696692283d0e1fbf5573ab9786202b886783d46f1",
+      "bytes": 6533,
+      "scope": "Independent evidence-only ARG/CHL/SPI review; no source adoption"
+    },
+    {
+      "localPath": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/arg-chl-spi-evidence.png",
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/argentina-chile-exact-reuse-20261109/arg-chl-spi-evidence.png",
+      "sha256": "0551653071fe2e6c6602e5c5b316ec1b3bdd1498dd36bdf77e4213aa3761feda",
+      "bytes": 199249,
+      "scope": "Independent evidence-only ARG/CHL/SPI review; no source adoption"
+    }
+  ],
+  "inputReceipts": [
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "7d4009f24f549e532fbfd49c4a4ebe50d425bde1bf75fff29aba7567084df886",
+      "bytes": 5073,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-1874b7bcaca86ff22fb38cb13b355b4a2446715ae58a1c820510520c6963a575.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "1874b7bcaca86ff22fb38cb13b355b4a2446715ae58a1c820510520c6963a575",
+      "bytes": 147351,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+      "bytes": 68278,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433",
+      "bytes": 242010,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "caa3e64ea1e361d6db78f51d2938e9a2210a3330345c8ae9ee370b0b0f927d50",
+      "bytes": 152956,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-RUS.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "c6589a67398da9e1bf0b92069e39b518d65454d20758d02acacd0642962cf2bf",
+      "bytes": 31867,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5",
+      "bytes": 5986032,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44",
+      "bytes": 6033489,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-HRV.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "82ac1394e9c36b1e24e69fa2ed243f5566a498079a669d8ee1fe11333e3bf5da",
+      "bytes": 6482,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-8ac047ce1118375cc3a8fcc4d0a127a0cde3a33f0b8fd3f4b91360cb0930a77c.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "8ac047ce1118375cc3a8fcc4d0a127a0cde3a33f0b8fd3f4b91360cb0930a77c",
+      "bytes": 258987,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-POL.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "4c9eb8430e8b2a36ebc221212f3bcb423f5b33ba3fc98dd6dcc1ee52f57203b2",
+      "bytes": 6564,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-3a66c8c14430a86433886be36748ca50f8a164cbce0595c124b67f6869b64959.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "3a66c8c14430a86433886be36748ca50f8a164cbce0595c124b67f6869b64959",
+      "bytes": 104801,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-LTU.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "164f2b914d95a60a62a478e5a6833d18f11bbacdd32ae71fe6d0d17986b71381",
+      "bytes": 16251,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-cb4a0a1af36e27842fe01938117119070ca1cb538b70f0a9d7ff369e4f184c9f.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "cb4a0a1af36e27842fe01938117119070ca1cb538b70f0a9d7ff369e4f184c9f",
+      "bytes": 43782,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-DNK.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "c79f5bf8bbc50d893a67f322b3df611f682afa03c7a9fa24a2bd042ebb9361cf",
+      "bytes": 16140,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-8e7fe3765288fd660697197aa403a832a9f77a7e7f02128bc5dfa85227026a47.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "8e7fe3765288fd660697197aa403a832a9f77a7e7f02128bc5dfa85227026a47",
+      "bytes": 215826,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-north-schleswig.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "dbfbdeaf0b909210e3c396f635e3b7b8a7b30bb8b68fa0dffb467dce83d269ee",
+      "bytes": 3184,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-dc29a3f87b9fbcf1515fe31f1afa72c3f57453c10d447b76c15fc4fde35986ec.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "dc29a3f87b9fbcf1515fe31f1afa72c3f57453c10d447b76c15fc4fde35986ec",
+      "bytes": 8016,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-west-prussia.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "a84ff856375c69867b5291548979d9fba2b298c31729f40ed471fefabd601bdd",
+      "bytes": 4785,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-454af2af4e5b9def5a2e5827f4052063ac925c6e5db3d9dbd371936cbefd826b.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "454af2af4e5b9def5a2e5827f4052063ac925c6e5db3d9dbd371936cbefd826b",
+      "bytes": 22194,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+      "bytes": 22186,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "a1edcc1440a8183f27cf651ecd2149b7bb0b0f9b8e320bb9a402b01875311129",
+      "bytes": 150767,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-kingdom-of-serbia.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "b498e45e8613511542d78e65730ba4251d99411c071c43e6fcc8d9167503b623",
+      "bytes": 16252,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-f07dabf5ba9b5d87cc75ecb76a252088340aa2cd42c81d72ca8e194f3b7ce6fd.json",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "f07dabf5ba9b5d87cc75ecb76a252088340aa2cd42c81d72ca8e194f3b7ce6fd",
+      "bytes": 21607,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+      "bytes": 83264304,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "assets/data/countries-ne-5.1.1.geojson",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+      "bytes": 12415778,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "tools/historical-library/working/german-empire-1914-base.geojson",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb",
+      "bytes": 687500,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "tools/historical-library/working/austro-hungarian-empire-1914-base.geojson",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "f5099311e89632b9047588a6a3c4bcfdedc075922015ee6a0e3ad273ff787148",
+      "bytes": 703289,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    },
+    {
+      "path": "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson",
+      "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+      "sha256": "0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9",
+      "bytes": 301148,
+      "currentHashMatches": true,
+      "reachableAncestor": true
+    }
+  ],
+  "counts": {
+    "priorEntities": 273,
+    "priorVersions": 287,
+    "nextEntities": 274,
+    "nextVersions": 288,
+    "addedVersionIds": [
+      {
+        "entityId": "state:east-prussia",
+        "versionId": "ostpreussen-1878-1920-r3"
+      }
+    ]
+  },
+  "scope": "Composed AH/DEU/EP four unique coasts; eight explicitly computed segment intersections; no arbitrary straight connector; adopted islands preserved",
+  "mustAdoptTogether": [
+    "state:DEU",
+    "state:east-prussia"
+  ],
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "compiledDerivatives": 0,
+  "runtimeAdopted": false,
+  "generatedOutputsUpdated": false,
+  "pgaRetirementApplied": false,
+  "currentProducerSourceRevision": "b539680fd8ee77c7e4c801735e7f31611185457c",
+  "currentProducerProofReusableForChangedSources": false
+}

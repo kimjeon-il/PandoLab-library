@@ -1,0 +1,117 @@
+{
+  "status": "source3-composed-coast-versions-published-and-exact-remote-verified",
+  "at": "2026-11-09T23:58:46.327Z",
+  "expectedRevision": "6c1e60607d6d0cc055143d1ef26d89f31ce63209",
+  "expectedBranch": "main",
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+    "assets/data/territorial-entities/source/geometries/sha256-5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43.json",
+    "assets/data/territorial-entities/source/geometries/sha256-6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67.json",
+    "assets/data/territorial-entities/source/geometries/sha256-bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f.json"
+  ],
+  "removePaths": [],
+  "push": true,
+  "planSha256": "712e510f0c6e5ca1f45e0ed638dea1fee83055105897811b255948676aaeea43",
+  "applicationSha256": "7ff5faea4d19cdcdf5622c80413f925af18f8c1e76e03a0dca883bde6a5ca46e",
+  "sourceOnlyAuthoring": true,
+  "runtimeAdopted": false,
+  "compiledApproved": false,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "generatedOutputsUpdated": false,
+  "pgaRetirementApplied": false,
+  "currentProducerProofApplicableToNewSources": false,
+  "revision": "ebb886a223b2c30b978b9536f2da016f1e822186",
+  "remoteBytes": [
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "sha256": "97636642c80ba463fd9161a1ab344a068ea8d5c61f2f4d71747d1559d4159d88",
+      "bytes": 24051,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "d13d349840a5f20484f072afcb5ca1c7b39a2b3d3f9cac1c9eae28f96dc2b992",
+      "bytes": 69519,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+      "sha256": "de6ee8282f5f5986dcdbc628eefe38eb75fb11ea517ec500239eee05bcf82053",
+      "bytes": 16498,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43.json",
+      "sha256": "5973e8aaf1f53667c5cab3e38e1e6ee56c2959c2caeaf6514c293aea928dea43",
+      "bytes": 184118,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67.json",
+      "sha256": "6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67",
+      "bytes": 171519,
+      "exact": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/geometries/sha256-bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f.json",
+      "sha256": "bcf141f0e55b4832d572517464e28f7af9a45d6e4f598ebb24a6491ad7b6557f",
+      "bytes": 147783,
+      "exact": true
+    }
+  ],
+  "versions": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sha256": "53b90935e9f6436dca6f00046f822119b79d4e960793f9a52bce11f0ada22910",
+      "sourceGate": 1,
+      "unchangedVersions": 0
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sha256": "bdb62b2ecfc156ab1e414b06f67cccb9e7dcc7d060d4fc3a9759ca9d9b3b7328",
+      "sourceGate": 1,
+      "unchangedVersions": 2
+    },
+    {
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "validFrom": "1878-04-01",
+      "validTo": "1920-01-10",
+      "sha256": "d724335a734c9a43cf23429b9e58b3158f9ca1babaa3aba8a126f64ca9f66365",
+      "sourceGate": 1,
+      "unchangedVersions": 0
+    }
+  ],
+  "counts": {
+    "priorEntities": 273,
+    "priorVersions": 287,
+    "nextEntities": 274,
+    "nextVersions": 288,
+    "addedVersionIds": [
+      {
+        "entityId": "state:east-prussia",
+        "versionId": "ostpreussen-1878-1920-r3"
+      }
+    ]
+  },
+  "preservation": {
+    "allUnselectedArchiveEntries": true,
+    "original285SelectedVersions": true,
+    "generatedChunksIndexWorldViewPGAAndMeshes": true,
+    "operationalCodeAndWASM": true,
+    "fixedCompilerRootAndMount": true,
+    "gisPin": true,
+    "reportOwnersRefs": true,
+    "mainPinAdvance": "ebb886a223b2c30b978b9536f2da016f1e822186",
+    "mainAppUncommittedOnly": "config/library-data.json",
+    "autoProductionDisabled": true
+  }
+}
