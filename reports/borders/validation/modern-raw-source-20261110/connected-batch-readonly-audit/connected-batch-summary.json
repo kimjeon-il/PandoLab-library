@@ -1,0 +1,2679 @@
+{
+  "status": "complete",
+  "scope": "111 raw originals from initial 114 unreviewed inventory; CUB/JPN/PHL excluded as parallel work. This is a targeted adjacency audit, not complete catalog validation.",
+  "currentInventorySummary": {
+    "source-display-contract-review": 36,
+    "unreviewed-one-to-one-modern": 112,
+    "special-geographic-scope-review": 25,
+    "ownership-review": 37,
+    "raw-original-applied": 44
+  },
+  "method": "Original GPKG opened SQLite mode=ro&immutable=1; R-tree bbox candidate lookup; original OGR Intersects/Intersection. No simplification, repair, source modification, network or runtime work.",
+  "limitations": [
+    "Exact contacts only; this does not detect near gaps or prove mixed old/new source seam safety.",
+    "Areas are square degrees, not metric area. Tiny positive overlaps are recorded without asserting material geographic error.",
+    "unmapped means no matching WP_ID in inventory rawCandidates, not necessarily absent app entity. XKS is Kosovo; null-code Spain is Spain mainland.",
+    "Geometry validity and geopolitical correctness were not exhaustively revalidated. No source application approved by this audit."
+  ],
+  "reviewedCount": 111,
+  "componentCount": 14,
+  "safeClosedComponents": [],
+  "positiveAreaPairCount": 11,
+  "positiveAreaPairs": [
+    {
+      "entity": "state:CYP",
+      "code": "XXD",
+      "name": "Dhekelia",
+      "id": "965739d4-314c-4533-bd51-c763f4b331a2",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0003512550975004105,
+      "length": 1.071924410231262
+    },
+    {
+      "entity": "state:IND",
+      "code": "NPL",
+      "name": "Nepal",
+      "id": "3dbece3a-5fef-47dd-8f9e-606f4cc57766",
+      "entityId": "state:NPL",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 1.2278813164974273e-05,
+      "length": 18.44818085243261
+    },
+    {
+      "entity": "state:IND",
+      "code": "BGD",
+      "name": "Bangladesh",
+      "id": "385b5557-6565-47f6-be6d-307a1e1a4151",
+      "entityId": "state:BGD",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 0.0017177377289256189,
+      "length": 37.763018145448804
+    },
+    {
+      "entity": "state:MWI",
+      "code": "MOZ",
+      "name": "Mozambique",
+      "id": "f40e9a9e-c573-4c57-88a1-deca9c8b091d",
+      "entityId": "state:MOZ",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 0.01916053997824952,
+      "length": 15.92397438192888
+    },
+    {
+      "entity": "state:COD",
+      "code": "UGA",
+      "name": "Uganda",
+      "id": "6c945c1e-2775-4d6f-88c5-fd7b70112546",
+      "entityId": "state:UGA",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 5.934827000224081e-08,
+      "length": 8.114573619594324
+    },
+    {
+      "entity": "state:ZAF",
+      "code": "LSO",
+      "name": "Lesotho",
+      "id": "d425f095-8cd2-4255-b565-7d84cb999a59",
+      "entityId": "state:LSO",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 2.8455910736555228,
+      "length": 10.712898065089565
+    },
+    {
+      "entity": "state:OMN",
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "id": "550c8da0-6129-4633-9c23-077cbaf13d9b",
+      "entityId": "state:ARE",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 0.007736706808801461,
+      "length": 5.659924065811406
+    },
+    {
+      "entity": "state:AUT",
+      "code": "DEU",
+      "name": "Germany",
+      "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+      "entityId": "state:DEU",
+      "class": "source-display-contract-review",
+      "area": 0.0008437921747153096,
+      "length": 9.456853518303813
+    },
+    {
+      "entity": "state:HRV",
+      "code": "SVN",
+      "name": "Slovenia",
+      "id": "ac0ab494-4523-4065-9fdd-75da3fb17cf4",
+      "entityId": "state:SVN",
+      "class": "unreviewed-one-to-one-modern",
+      "area": 9.500360800001164e-06,
+      "length": 7.358444933612613
+    },
+    {
+      "entity": "state:SMR",
+      "code": "ITA",
+      "name": "Italy",
+      "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+      "entityId": "state:ITA",
+      "class": "source-display-contract-review",
+      "area": 0.006861144639459179,
+      "length": 0.4266038513402392
+    },
+    {
+      "entity": "state:VAT",
+      "code": "ITA",
+      "name": "Italy",
+      "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+      "entityId": "state:ITA",
+      "class": "source-display-contract-review",
+      "area": 5.391783507005933e-05,
+      "length": 0.03820599638940824
+    }
+  ],
+  "gateContacts": [
+    {
+      "entity": "state:MYS",
+      "code": "IDN",
+      "name": "Indonesia",
+      "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+      "entityId": "state:IDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 18.115096761635648
+    },
+    {
+      "entity": "state:IND",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 18.536053876389524
+    },
+    {
+      "entity": "state:LBN",
+      "code": "ISR",
+      "name": "Israel",
+      "id": "2c8445cf-bb86-4b62-b2f8-67a6b1d155ec",
+      "entityId": "state:ISR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 1.0699655982018461
+    },
+    {
+      "entity": "state:LBN",
+      "code": "SYR",
+      "name": "UNDOF Zone - Syria Sovereignty",
+      "id": "f0399608-9767-4a07-b94c-d3ea9c98252a",
+      "entityId": "state:SYR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 0.15984778116185375
+    },
+    {
+      "entity": "state:LBN",
+      "code": "SYR",
+      "name": "Syria",
+      "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+      "entityId": "state:SYR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 3.761258258683015
+    },
+    {
+      "entity": "state:ETH",
+      "code": "SDN",
+      "name": "Sudan",
+      "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 6.801572861131231
+    },
+    {
+      "entity": "state:ETH",
+      "code": "KEN",
+      "name": "Kenya",
+      "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+      "entityId": "state:KEN",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 7.887439424993603
+    },
+    {
+      "entity": "state:ETH",
+      "code": "SSD",
+      "name": "South Sudan",
+      "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+      "entityId": "state:SDS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 11.809148254614218
+    },
+    {
+      "entity": "state:SOM",
+      "code": "KEN",
+      "name": "Kenya",
+      "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+      "entityId": "state:KEN",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 6.154062337117096
+    },
+    {
+      "entity": "state:TZA",
+      "code": "KEN",
+      "name": "Kenya",
+      "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+      "entityId": "state:KEN",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 6.974327786634393
+    },
+    {
+      "entity": "state:SUR",
+      "code": "GUF",
+      "name": "French Guiana",
+      "id": "7e3d1982-f6bf-4be2-abd9-1ef7f9da1f71",
+      "entityId": "state:FRA",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.343319880982075
+    },
+    {
+      "entity": "state:MAR",
+      "code": "ESP",
+      "name": "Spain (Plazas de Soberania)",
+      "id": "c5ed6e87-a683-4b82-8df8-eae20762c2b4",
+      "entityId": "state:ESP",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 0.17978666797504744
+    },
+    {
+      "entity": "state:COD",
+      "code": "SSD",
+      "name": "South Sudan",
+      "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+      "entityId": "state:SDS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 6.542829758319009
+    },
+    {
+      "entity": "state:BTN",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.546146537401903
+    },
+    {
+      "entity": "state:BRA",
+      "code": "GUF",
+      "name": "French Guiana",
+      "id": "7e3d1982-f6bf-4be2-abd9-1ef7f9da1f71",
+      "entityId": "state:FRA",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 6.2430849272250555
+    },
+    {
+      "entity": "state:CZE",
+      "code": "DEU",
+      "name": "Germany",
+      "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+      "entityId": "state:DEU",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 9.57152217619083
+    },
+    {
+      "entity": "state:NOR",
+      "code": "RUS",
+      "name": "Russia",
+      "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+      "entityId": "state:RUS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 3.353325762790985
+    },
+    {
+      "entity": "state:FIN",
+      "code": "RUS",
+      "name": "Russia",
+      "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+      "entityId": "state:RUS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 18.32052524844461
+    },
+    {
+      "entity": "state:VNM",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 13.463673292366735
+    },
+    {
+      "entity": "state:MKD",
+      "code": "GRC",
+      "name": "Greece",
+      "id": "641a3f33-1f3b-41f9-87fd-a08df910fd0e",
+      "entityId": "state:GRC",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 2.693138141325725
+    },
+    {
+      "entity": "state:MKD",
+      "code": "ALB",
+      "name": "Albania",
+      "id": "d3c75ebd-96fb-4248-934d-45e963d53d0f",
+      "entityId": "state:ALB",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.9303230985903588
+    },
+    {
+      "entity": "state:MKD",
+      "code": "BGR",
+      "name": "Bulgaria",
+      "id": "db5db294-e98a-4ef1-bf89-62600164189d",
+      "entityId": "state:BGR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.7852167220551765
+    },
+    {
+      "entity": "state:TUR",
+      "code": "GEO",
+      "name": "Georgia",
+      "id": "d4be9cd5-7bfc-4b15-bbc9-9b20141fb693",
+      "entityId": "state:GEO",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 2.959238185768243
+    },
+    {
+      "entity": "state:TUR",
+      "code": "ARM",
+      "name": "Armenia",
+      "id": "f69829e1-5512-4fc3-87d6-5144e4dad363",
+      "entityId": "state:ARM",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 3.41719588285991
+    },
+    {
+      "entity": "state:TUR",
+      "code": "IRN",
+      "name": "Iran",
+      "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+      "entityId": "state:IRN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 5.807997198181446
+    },
+    {
+      "entity": "state:TUR",
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "id": "4aeb6821-a913-436a-a695-35686ac02655",
+      "entityId": "state:AZE",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 0.17927419400555983
+    },
+    {
+      "entity": "state:TUR",
+      "code": "SYR",
+      "name": "Syria",
+      "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+      "entityId": "state:SYR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 9.518577404814403
+    },
+    {
+      "entity": "state:TUR",
+      "code": "GRC",
+      "name": "Greece",
+      "id": "641a3f33-1f3b-41f9-87fd-a08df910fd0e",
+      "entityId": "state:GRC",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 2.2292060150226836
+    },
+    {
+      "entity": "state:TUR",
+      "code": "BGR",
+      "name": "Bulgaria",
+      "id": "db5db294-e98a-4ef1-bf89-62600164189d",
+      "entityId": "state:BGR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 2.943504332956956
+    },
+    {
+      "entity": "state:LAO",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.691416700982038
+    },
+    {
+      "entity": "state:LBY",
+      "code": "SDN",
+      "name": "Sudan",
+      "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 3.5
+    },
+    {
+      "entity": "state:HUN",
+      "code": "ROU",
+      "name": "Romania",
+      "id": "2c6696e3-17b7-4dec-b599-50901cccf1ed",
+      "entityId": "state:ROU",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.92761418580659
+    },
+    {
+      "entity": "state:HUN",
+      "code": "UKR",
+      "name": "Ukraine",
+      "id": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+      "entityId": "state:UKR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.558355018901513
+    },
+    {
+      "entity": "state:SVK",
+      "code": "UKR",
+      "name": "Ukraine",
+      "id": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+      "entityId": "state:UKR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.022759926793107
+    },
+    {
+      "entity": "state:POL",
+      "code": "DEU",
+      "name": "Germany",
+      "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+      "entityId": "state:DEU",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 5.032603571430282
+    },
+    {
+      "entity": "state:POL",
+      "code": "BLR",
+      "name": "Belarus",
+      "id": "d794a6fa-0959-41a3-a22c-ed4dbe086730",
+      "entityId": "state:BLR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.746897065683515
+    },
+    {
+      "entity": "state:POL",
+      "code": "LTU",
+      "name": "Lithuania",
+      "id": "3b6aea39-594e-4579-af06-d5af962cca8d",
+      "entityId": "state:LTU",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.2930691587585077
+    },
+    {
+      "entity": "state:POL",
+      "code": "RUS",
+      "name": "Russia",
+      "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+      "entityId": "state:RUS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 3.0273086750998535
+    },
+    {
+      "entity": "state:POL",
+      "code": "UKR",
+      "name": "Ukraine",
+      "id": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+      "entityId": "state:UKR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 6.19894800493372
+    },
+    {
+      "entity": "state:CAF",
+      "code": "SDN",
+      "name": "Sudan",
+      "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.5771361355261653
+    },
+    {
+      "entity": "state:CAF",
+      "code": "SSD",
+      "name": "South Sudan",
+      "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+      "entityId": "state:SDS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 9.61376296448772
+    },
+    {
+      "entity": "state:ERI",
+      "code": "SDN",
+      "name": "Sudan",
+      "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 6.255805104372948
+    },
+    {
+      "entity": "state:AUT",
+      "code": "ITA",
+      "name": "Italy",
+      "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+      "entityId": "state:ITA",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.956127351812762
+    },
+    {
+      "entity": "state:AUT",
+      "code": "DEU",
+      "name": "Germany",
+      "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+      "entityId": "state:DEU",
+      "class": "source-display-contract-review",
+      "area": 0.0008437921747153096,
+      "length": 9.456853518303813
+    },
+    {
+      "entity": "state:AUT",
+      "code": "CHE",
+      "name": "Switzerland",
+      "id": "0fd4c1c2-709b-4b65-89a8-9e42e7096ea3",
+      "entityId": "state:CHE",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.9683560106360953
+    },
+    {
+      "entity": "state:IRQ",
+      "code": "IRN",
+      "name": "Iran",
+      "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+      "entityId": "state:IRN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 15.424815720938811
+    },
+    {
+      "entity": "state:IRQ",
+      "code": "SYR",
+      "name": "Syria",
+      "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+      "entityId": "state:SYR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 5.948535090112336
+    },
+    {
+      "entity": "state:LIE",
+      "code": "CHE",
+      "name": "Switzerland",
+      "id": "0fd4c1c2-709b-4b65-89a8-9e42e7096ea3",
+      "entityId": "state:CHE",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 0.43154563777978444
+    },
+    {
+      "entity": "state:SRB",
+      "code": "BGR",
+      "name": "Bulgaria",
+      "id": "db5db294-e98a-4ef1-bf89-62600164189d",
+      "entityId": "state:BGR",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 3.80496475185103
+    },
+    {
+      "entity": "state:SRB",
+      "code": "ROU",
+      "name": "Romania",
+      "id": "2c6696e3-17b7-4dec-b599-50901cccf1ed",
+      "entityId": "state:ROU",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 5.998813670588164
+    },
+    {
+      "entity": "state:SVN",
+      "code": "ITA",
+      "name": "Italy",
+      "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+      "entityId": "state:ITA",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 2.5737583395714543
+    },
+    {
+      "entity": "state:PAK",
+      "code": "IRN",
+      "name": "Iran",
+      "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+      "entityId": "state:IRN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 9.754420171890025
+    },
+    {
+      "entity": "state:PAK",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.507480299982217
+    },
+    {
+      "entity": "state:SMR",
+      "code": "ITA",
+      "name": "Italy",
+      "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+      "entityId": "state:ITA",
+      "class": "source-display-contract-review",
+      "area": 0.006861144639459179,
+      "length": 0.4266038513402392
+    },
+    {
+      "entity": "state:TCD",
+      "code": "SDN",
+      "name": "Sudan",
+      "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 12.850121375213439
+    },
+    {
+      "entity": "state:MCO",
+      "code": "FRA",
+      "name": "France",
+      "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+      "entityId": "state:FRA",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 0.0582152432543731
+    },
+    {
+      "entity": "state:MMR",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 21.04790651989916
+    },
+    {
+      "entity": "state:AND",
+      "code": "FRA",
+      "name": "France",
+      "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+      "entityId": "state:FRA",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 0.6408884002157571
+    },
+    {
+      "entity": "state:AFG",
+      "code": "IRN",
+      "name": "Iran",
+      "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+      "entityId": "state:IRN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 9.022580088917646
+    },
+    {
+      "entity": "state:AFG",
+      "code": "TJK",
+      "name": "Tajikistan",
+      "id": "aab14af8-1a9c-4323-97dd-d766b63c4512",
+      "entityId": "state:TJK",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 14.014788180628848
+    },
+    {
+      "entity": "state:AFG",
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "id": "297a7849-9477-4b08-9488-6a2b21f54657",
+      "entityId": "state:TKM",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 8.341714829234304
+    },
+    {
+      "entity": "state:AFG",
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "id": "1acee1ce-f991-445b-a1a2-1a62afc4ca9a",
+      "entityId": "state:UZB",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.5223112271493546
+    },
+    {
+      "entity": "state:AFG",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 0.9556452032905313
+    },
+    {
+      "entity": "state:MNE",
+      "code": "ALB",
+      "name": "Albania",
+      "id": "d3c75ebd-96fb-4248-934d-45e963d53d0f",
+      "entityId": "state:ALB",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 1.3292428780687244
+    },
+    {
+      "entity": "state:UGA",
+      "code": "KEN",
+      "name": "Kenya",
+      "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+      "entityId": "state:KEN",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 7.915505821048374
+    },
+    {
+      "entity": "state:UGA",
+      "code": "SSD",
+      "name": "South Sudan",
+      "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+      "entityId": "state:SDS",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 4.4756708464365085
+    },
+    {
+      "entity": "state:JOR",
+      "code": "ISR",
+      "name": "Israel",
+      "id": "2c8445cf-bb86-4b62-b2f8-67a6b1d155ec",
+      "entityId": "state:ISR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 3.1727837167244566
+    },
+    {
+      "entity": "state:JOR",
+      "code": "SYR",
+      "name": "UNDOF Zone - Syria Sovereignty",
+      "id": "f0399608-9767-4a07-b94c-d3ea9c98252a",
+      "entityId": "state:SYR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 0.00554236575707964
+    },
+    {
+      "entity": "state:JOR",
+      "code": "SYR",
+      "name": "Syria",
+      "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+      "entityId": "state:SYR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 3.6757393743121627
+    },
+    {
+      "entity": "state:NPL",
+      "code": "CHN",
+      "name": "China",
+      "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+      "entityId": "state:CHN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 13.814966193259465
+    },
+    {
+      "entity": "state:PNG",
+      "code": "IDN",
+      "name": "Indonesia",
+      "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+      "entityId": "state:IDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 7.436269615584362
+    },
+    {
+      "entity": "state:EGY",
+      "code": "SDN",
+      "name": "Hala'ib Triangle",
+      "id": "5e5abf17-541f-465d-869e-4db3d1dc0f21",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 2.196276036057703
+    },
+    {
+      "entity": "state:EGY",
+      "code": "ISR",
+      "name": "Israel",
+      "id": "2c8445cf-bb86-4b62-b2f8-67a6b1d155ec",
+      "entityId": "state:ISR",
+      "class": "special-geographic-scope-review",
+      "area": 0.0,
+      "length": 1.8986584233248351
+    },
+    {
+      "entity": "state:EGY",
+      "code": "SDN",
+      "name": "Sudan",
+      "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+      "entityId": "state:SDN",
+      "class": "source-display-contract-review",
+      "area": 0.0,
+      "length": 8.64500122065376
+    },
+    {
+      "entity": "state:VAT",
+      "code": "ITA",
+      "name": "Italy",
+      "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+      "entityId": "state:ITA",
+      "class": "source-display-contract-review",
+      "area": 5.391783507005933e-05,
+      "length": 0.03820599638940824
+    }
+  ],
+  "unmappedInventoryContacts": [
+    {
+      "entity": "state:ARG",
+      "code": "XQP",
+      "name": "Brazilian Island",
+      "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.05682443483523434
+    },
+    {
+      "entity": "state:CYP",
+      "code": "XQZ",
+      "name": "Akrotiri\u00a0",
+      "id": "f3bdd501-ba5d-4942-b406-c6a84e1f3130",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.482543073944157
+    },
+    {
+      "entity": "state:CYP",
+      "code": "XXD",
+      "name": "Dhekelia",
+      "id": "965739d4-314c-4533-bd51-c763f4b331a2",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0003512550975004105,
+      "length": 1.071924410231262
+    },
+    {
+      "entity": "state:IND",
+      "code": "XSQ",
+      "name": "Siachen",
+      "id": "7f08d88d-abc1-4a94-ae71-6895422833f8",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.9603453031823485
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Aksai Chin",
+      "id": "573ad1ed-a61c-4004-86a1-f334ac55a46d",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 4.466394371283135
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Kauirik",
+      "id": "447093f7-cd28-480a-bb37-73a00d4d206b",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.6784383113790756
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Chumar",
+      "id": "c3e5f845-2f6f-439c-af7c-774dbacad58c",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.08941638775227752
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Shipki Pass",
+      "id": "2faa5f5c-fcc0-4968-b5ba-96faf4b74ed6",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.20153648564794374
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Chumar East",
+      "id": "9b4d529b-ea2c-4add-838e-9ee902f6269c",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.12736352236420034
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Jadh-Nelang",
+      "id": "e7c5a4b5-5e50-4e9b-9fde-3c3e8828d1ff",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.9944591596853687
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Demchok",
+      "id": "ee95cb5f-e3de-413c-bbc4-d6640a089c10",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.9030190271894649
+    },
+    {
+      "entity": "state:IND",
+      "code": "XQO",
+      "name": "Lapthal-Bara Hoti",
+      "id": "1af9c748-c4e3-4588-b764-4b289ae66a1f",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.785812314592149
+    },
+    {
+      "entity": "state:IND",
+      "code": "XXO",
+      "name": "Kalapani",
+      "id": "a413f9a9-46d3-4465-af0b-d21fa68097a9",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.1313675981182166
+    },
+    {
+      "entity": "state:COG",
+      "code": "XQR",
+      "name": "Congo River Islands",
+      "id": "ecdb70a9-d439-4942-9e35-757412c78537",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 3.4413285268252003
+    },
+    {
+      "entity": "state:COD",
+      "code": "XQR",
+      "name": "Congo River Islands",
+      "id": "ecdb70a9-d439-4942-9e35-757412c78537",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 3.337641381852536
+    },
+    {
+      "entity": "state:BTN",
+      "code": "XQY",
+      "name": "Dramana and Shakhatoe",
+      "id": "ba87a790-a838-4186-806a-a59a1163ceb0",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.25602046880328344
+    },
+    {
+      "entity": "state:BRA",
+      "code": "XQP",
+      "name": "Brazilian Island",
+      "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.013275523567670361
+    },
+    {
+      "entity": "state:URY",
+      "code": "XQP",
+      "name": "Brazilian Island",
+      "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.03723604036324825
+    },
+    {
+      "entity": "state:MKD",
+      "code": "XKS",
+      "name": "Kosovo",
+      "id": "2cbbfcc8-094d-458c-ac11-e3d97dc44581",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 1.7904123347747518
+    },
+    {
+      "entity": "state:SRB",
+      "code": "XKS",
+      "name": "Kosovo",
+      "id": "2cbbfcc8-094d-458c-ac11-e3d97dc44581",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 4.0624970810431655
+    },
+    {
+      "entity": "state:BEN",
+      "code": "XXX",
+      "name": "Koalou / Kourou",
+      "id": "ab39dd29-4ebe-4487-82e5-c9760ae37e06",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.09380576726514675
+    },
+    {
+      "entity": "state:PAK",
+      "code": "XSQ",
+      "name": "Siachen",
+      "id": "7f08d88d-abc1-4a94-ae71-6895422833f8",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.6938346600611224
+    },
+    {
+      "entity": "state:AND",
+      "code": null,
+      "name": "Spain",
+      "id": "804cb3c1-195d-48d8-97e5-0439f624b231",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.6916555848286787
+    },
+    {
+      "entity": "state:MNE",
+      "code": "XKS",
+      "name": "Kosovo",
+      "id": "2cbbfcc8-094d-458c-ac11-e3d97dc44581",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.8311773969437855
+    },
+    {
+      "entity": "state:JOR",
+      "code": "XWB",
+      "name": "West Bank",
+      "id": "78a503d5-8806-4e88-b28d-0a37c6648b06",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 1.5337677305214035
+    },
+    {
+      "entity": "state:NPL",
+      "code": "XXO",
+      "name": "Kalapani",
+      "id": "a413f9a9-46d3-4465-af0b-d21fa68097a9",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.19299102435753002
+    },
+    {
+      "entity": "state:BFA",
+      "code": "XXX",
+      "name": "Koalou / Kourou",
+      "id": "ab39dd29-4ebe-4487-82e5-c9760ae37e06",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.037791106307852346
+    },
+    {
+      "entity": "state:TGO",
+      "code": "XXX",
+      "name": "Koalou / Kourou",
+      "id": "ab39dd29-4ebe-4487-82e5-c9760ae37e06",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.0
+    },
+    {
+      "entity": "state:EGY",
+      "code": "QX2",
+      "name": "Bir Tawil",
+      "id": "dffff183-4f74-4043-91ab-335c32ec4cc0",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.9082132000344165
+    },
+    {
+      "entity": "state:EGY",
+      "code": "XGZ",
+      "name": "Gaza Strip",
+      "id": "7abdd7db-fe64-4143-93b6-64a7af99b24b",
+      "entityId": null,
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.11842289606737129
+    }
+  ],
+  "components": [
+    {
+      "members": [
+        "state:AND"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:AND",
+          "code": "FRA",
+          "name": "France",
+          "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+          "entityId": "state:FRA",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 0.6408884002157571
+        },
+        {
+          "entity": "state:AND",
+          "code": null,
+          "name": "Spain",
+          "id": "804cb3c1-195d-48d8-97e5-0439f624b231",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.6916555848286787
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:CYP"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:CYP",
+          "code": "XQZ",
+          "name": "Akrotiri\u00a0",
+          "id": "f3bdd501-ba5d-4942-b406-c6a84e1f3130",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.482543073944157
+        },
+        {
+          "entity": "state:CYP",
+          "code": "XXD",
+          "name": "Dhekelia",
+          "id": "965739d4-314c-4533-bd51-c763f4b331a2",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0003512550975004105,
+          "length": 1.071924410231262
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:CYP",
+          "code": "XXD",
+          "name": "Dhekelia",
+          "id": "965739d4-314c-4533-bd51-c763f4b331a2",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0003512550975004105,
+          "length": 1.071924410231262
+        }
+      ],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:LBN"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:LBN",
+          "code": "ISR",
+          "name": "Israel",
+          "id": "2c8445cf-bb86-4b62-b2f8-67a6b1d155ec",
+          "entityId": "state:ISR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 1.0699655982018461
+        },
+        {
+          "entity": "state:LBN",
+          "code": "SYR",
+          "name": "UNDOF Zone - Syria Sovereignty",
+          "id": "f0399608-9767-4a07-b94c-d3ea9c98252a",
+          "entityId": "state:SYR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 0.15984778116185375
+        },
+        {
+          "entity": "state:LBN",
+          "code": "SYR",
+          "name": "Syria",
+          "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+          "entityId": "state:SYR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 3.761258258683015
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:MCO"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:MCO",
+          "code": "FRA",
+          "name": "France",
+          "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+          "entityId": "state:FRA",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 0.0582152432543731
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:PNG"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:PNG",
+          "code": "IDN",
+          "name": "Indonesia",
+          "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+          "entityId": "state:IDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 7.436269615584362
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:SMR"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:SMR",
+          "code": "ITA",
+          "name": "Italy",
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "entityId": "state:ITA",
+          "class": "source-display-contract-review",
+          "area": 0.006861144639459179,
+          "length": 0.4266038513402392
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:SMR",
+          "code": "ITA",
+          "name": "Italy",
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "entityId": "state:ITA",
+          "class": "source-display-contract-review",
+          "area": 0.006861144639459179,
+          "length": 0.4266038513402392
+        }
+      ],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:VAT"
+      ],
+      "memberCount": 1,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:VAT",
+          "code": "ITA",
+          "name": "Italy",
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "entityId": "state:ITA",
+          "class": "source-display-contract-review",
+          "area": 5.391783507005933e-05,
+          "length": 0.03820599638940824
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:VAT",
+          "code": "ITA",
+          "name": "Italy",
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "entityId": "state:ITA",
+          "class": "source-display-contract-review",
+          "area": 5.391783507005933e-05,
+          "length": 0.03820599638940824
+        }
+      ],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:FIN",
+        "state:NOR",
+        "state:SWE"
+      ],
+      "memberCount": 3,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:NOR",
+          "code": "RUS",
+          "name": "Russia",
+          "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+          "entityId": "state:RUS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 3.353325762790985
+        },
+        {
+          "entity": "state:FIN",
+          "code": "RUS",
+          "name": "Russia",
+          "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+          "entityId": "state:RUS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 18.32052524844461
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:DJI",
+        "state:ERI",
+        "state:ETH",
+        "state:SOM"
+      ],
+      "memberCount": 4,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:ETH",
+          "code": "SDN",
+          "name": "Sudan",
+          "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 6.801572861131231
+        },
+        {
+          "entity": "state:ETH",
+          "code": "KEN",
+          "name": "Kenya",
+          "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+          "entityId": "state:KEN",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 7.887439424993603
+        },
+        {
+          "entity": "state:ETH",
+          "code": "SSD",
+          "name": "South Sudan",
+          "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+          "entityId": "state:SDS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 11.809148254614218
+        },
+        {
+          "entity": "state:SOM",
+          "code": "KEN",
+          "name": "Kenya",
+          "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+          "entityId": "state:KEN",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 6.154062337117096
+        },
+        {
+          "entity": "state:ERI",
+          "code": "SDN",
+          "name": "Sudan",
+          "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 6.255805104372948
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:ARE",
+        "state:IRQ",
+        "state:JOR",
+        "state:KWT",
+        "state:OMN",
+        "state:QAT",
+        "state:SAU",
+        "state:TUR",
+        "state:YEM"
+      ],
+      "memberCount": 9,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:TUR",
+          "code": "GEO",
+          "name": "Georgia",
+          "id": "d4be9cd5-7bfc-4b15-bbc9-9b20141fb693",
+          "entityId": "state:GEO",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 2.959238185768243
+        },
+        {
+          "entity": "state:TUR",
+          "code": "ARM",
+          "name": "Armenia",
+          "id": "f69829e1-5512-4fc3-87d6-5144e4dad363",
+          "entityId": "state:ARM",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 3.41719588285991
+        },
+        {
+          "entity": "state:TUR",
+          "code": "IRN",
+          "name": "Iran",
+          "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+          "entityId": "state:IRN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 5.807997198181446
+        },
+        {
+          "entity": "state:TUR",
+          "code": "AZE",
+          "name": "Azerbaijan",
+          "id": "4aeb6821-a913-436a-a695-35686ac02655",
+          "entityId": "state:AZE",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 0.17927419400555983
+        },
+        {
+          "entity": "state:TUR",
+          "code": "SYR",
+          "name": "Syria",
+          "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+          "entityId": "state:SYR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 9.518577404814403
+        },
+        {
+          "entity": "state:TUR",
+          "code": "GRC",
+          "name": "Greece",
+          "id": "641a3f33-1f3b-41f9-87fd-a08df910fd0e",
+          "entityId": "state:GRC",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 2.2292060150226836
+        },
+        {
+          "entity": "state:TUR",
+          "code": "BGR",
+          "name": "Bulgaria",
+          "id": "db5db294-e98a-4ef1-bf89-62600164189d",
+          "entityId": "state:BGR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 2.943504332956956
+        },
+        {
+          "entity": "state:IRQ",
+          "code": "IRN",
+          "name": "Iran",
+          "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+          "entityId": "state:IRN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 15.424815720938811
+        },
+        {
+          "entity": "state:IRQ",
+          "code": "SYR",
+          "name": "Syria",
+          "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+          "entityId": "state:SYR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 5.948535090112336
+        },
+        {
+          "entity": "state:JOR",
+          "code": "ISR",
+          "name": "Israel",
+          "id": "2c8445cf-bb86-4b62-b2f8-67a6b1d155ec",
+          "entityId": "state:ISR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 3.1727837167244566
+        },
+        {
+          "entity": "state:JOR",
+          "code": "SYR",
+          "name": "UNDOF Zone - Syria Sovereignty",
+          "id": "f0399608-9767-4a07-b94c-d3ea9c98252a",
+          "entityId": "state:SYR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 0.00554236575707964
+        },
+        {
+          "entity": "state:JOR",
+          "code": "XWB",
+          "name": "West Bank",
+          "id": "78a503d5-8806-4e88-b28d-0a37c6648b06",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 1.5337677305214035
+        },
+        {
+          "entity": "state:JOR",
+          "code": "SYR",
+          "name": "Syria",
+          "id": "19f9e88a-bbe5-40fc-80b9-b5532543a831",
+          "entityId": "state:SYR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 3.6757393743121627
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:OMN",
+          "code": "ARE",
+          "name": "United Arab Emirates",
+          "id": "550c8da0-6129-4633-9c23-077cbaf13d9b",
+          "entityId": "state:ARE",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 0.007736706808801461,
+          "length": 5.659924065811406
+        },
+        {
+          "entity": "state:ARE",
+          "code": "OMN",
+          "name": "Oman",
+          "id": "bb808814-c4fe-48b8-bf07-f440e9249f20",
+          "entityId": "state:OMN",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 0.007736706808803381,
+          "length": 5.659924065811404
+        }
+      ],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:AUT",
+        "state:BIH",
+        "state:CZE",
+        "state:HRV",
+        "state:HUN",
+        "state:LIE",
+        "state:MKD",
+        "state:MNE",
+        "state:POL",
+        "state:SRB",
+        "state:SVK",
+        "state:SVN"
+      ],
+      "memberCount": 12,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:CZE",
+          "code": "DEU",
+          "name": "Germany",
+          "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+          "entityId": "state:DEU",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 9.57152217619083
+        },
+        {
+          "entity": "state:MKD",
+          "code": "GRC",
+          "name": "Greece",
+          "id": "641a3f33-1f3b-41f9-87fd-a08df910fd0e",
+          "entityId": "state:GRC",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 2.693138141325725
+        },
+        {
+          "entity": "state:MKD",
+          "code": "ALB",
+          "name": "Albania",
+          "id": "d3c75ebd-96fb-4248-934d-45e963d53d0f",
+          "entityId": "state:ALB",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.9303230985903588
+        },
+        {
+          "entity": "state:MKD",
+          "code": "BGR",
+          "name": "Bulgaria",
+          "id": "db5db294-e98a-4ef1-bf89-62600164189d",
+          "entityId": "state:BGR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.7852167220551765
+        },
+        {
+          "entity": "state:MKD",
+          "code": "XKS",
+          "name": "Kosovo",
+          "id": "2cbbfcc8-094d-458c-ac11-e3d97dc44581",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 1.7904123347747518
+        },
+        {
+          "entity": "state:HUN",
+          "code": "ROU",
+          "name": "Romania",
+          "id": "2c6696e3-17b7-4dec-b599-50901cccf1ed",
+          "entityId": "state:ROU",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.92761418580659
+        },
+        {
+          "entity": "state:HUN",
+          "code": "UKR",
+          "name": "Ukraine",
+          "id": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+          "entityId": "state:UKR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.558355018901513
+        },
+        {
+          "entity": "state:SVK",
+          "code": "UKR",
+          "name": "Ukraine",
+          "id": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+          "entityId": "state:UKR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.022759926793107
+        },
+        {
+          "entity": "state:POL",
+          "code": "DEU",
+          "name": "Germany",
+          "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+          "entityId": "state:DEU",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 5.032603571430282
+        },
+        {
+          "entity": "state:POL",
+          "code": "BLR",
+          "name": "Belarus",
+          "id": "d794a6fa-0959-41a3-a22c-ed4dbe086730",
+          "entityId": "state:BLR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.746897065683515
+        },
+        {
+          "entity": "state:POL",
+          "code": "LTU",
+          "name": "Lithuania",
+          "id": "3b6aea39-594e-4579-af06-d5af962cca8d",
+          "entityId": "state:LTU",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.2930691587585077
+        },
+        {
+          "entity": "state:POL",
+          "code": "RUS",
+          "name": "Russia",
+          "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+          "entityId": "state:RUS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 3.0273086750998535
+        },
+        {
+          "entity": "state:POL",
+          "code": "UKR",
+          "name": "Ukraine",
+          "id": "a9ac4059-30dd-404d-a35a-ca7b9c2761ee",
+          "entityId": "state:UKR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 6.19894800493372
+        },
+        {
+          "entity": "state:AUT",
+          "code": "ITA",
+          "name": "Italy",
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "entityId": "state:ITA",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.956127351812762
+        },
+        {
+          "entity": "state:AUT",
+          "code": "DEU",
+          "name": "Germany",
+          "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+          "entityId": "state:DEU",
+          "class": "source-display-contract-review",
+          "area": 0.0008437921747153096,
+          "length": 9.456853518303813
+        },
+        {
+          "entity": "state:AUT",
+          "code": "CHE",
+          "name": "Switzerland",
+          "id": "0fd4c1c2-709b-4b65-89a8-9e42e7096ea3",
+          "entityId": "state:CHE",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.9683560106360953
+        },
+        {
+          "entity": "state:LIE",
+          "code": "CHE",
+          "name": "Switzerland",
+          "id": "0fd4c1c2-709b-4b65-89a8-9e42e7096ea3",
+          "entityId": "state:CHE",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 0.43154563777978444
+        },
+        {
+          "entity": "state:SRB",
+          "code": "BGR",
+          "name": "Bulgaria",
+          "id": "db5db294-e98a-4ef1-bf89-62600164189d",
+          "entityId": "state:BGR",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 3.80496475185103
+        },
+        {
+          "entity": "state:SRB",
+          "code": "XKS",
+          "name": "Kosovo",
+          "id": "2cbbfcc8-094d-458c-ac11-e3d97dc44581",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 4.0624970810431655
+        },
+        {
+          "entity": "state:SRB",
+          "code": "ROU",
+          "name": "Romania",
+          "id": "2c6696e3-17b7-4dec-b599-50901cccf1ed",
+          "entityId": "state:ROU",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 5.998813670588164
+        },
+        {
+          "entity": "state:SVN",
+          "code": "ITA",
+          "name": "Italy",
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "entityId": "state:ITA",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 2.5737583395714543
+        },
+        {
+          "entity": "state:MNE",
+          "code": "ALB",
+          "name": "Albania",
+          "id": "d3c75ebd-96fb-4248-934d-45e963d53d0f",
+          "entityId": "state:ALB",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.3292428780687244
+        },
+        {
+          "entity": "state:MNE",
+          "code": "XKS",
+          "name": "Kosovo",
+          "id": "2cbbfcc8-094d-458c-ac11-e3d97dc44581",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.8311773969437855
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:AUT",
+          "code": "DEU",
+          "name": "Germany",
+          "id": "c2f31eef-d048-4452-8096-a81d6dbd90c7",
+          "entityId": "state:DEU",
+          "class": "source-display-contract-review",
+          "area": 0.0008437921747153096,
+          "length": 9.456853518303813
+        },
+        {
+          "entity": "state:HRV",
+          "code": "SVN",
+          "name": "Slovenia",
+          "id": "ac0ab494-4523-4065-9fdd-75da3fb17cf4",
+          "entityId": "state:SVN",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 9.500360800001164e-06,
+          "length": 7.358444933612613
+        },
+        {
+          "entity": "state:SVN",
+          "code": "HRV",
+          "name": "Croatia",
+          "id": "03a801f3-d51c-4453-b2d2-28b1dee09187",
+          "entityId": "state:HRV",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 9.500360800002275e-06,
+          "length": 7.358444933612612
+        }
+      ],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:AFG",
+        "state:BGD",
+        "state:BRN",
+        "state:BTN",
+        "state:IND",
+        "state:KHM",
+        "state:LAO",
+        "state:MMR",
+        "state:MYS",
+        "state:NPL",
+        "state:PAK",
+        "state:THA",
+        "state:VNM"
+      ],
+      "memberCount": 13,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:MYS",
+          "code": "IDN",
+          "name": "Indonesia",
+          "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+          "entityId": "state:IDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 18.115096761635648
+        },
+        {
+          "entity": "state:IND",
+          "code": "XSQ",
+          "name": "Siachen",
+          "id": "7f08d88d-abc1-4a94-ae71-6895422833f8",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.9603453031823485
+        },
+        {
+          "entity": "state:IND",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 18.536053876389524
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Aksai Chin",
+          "id": "573ad1ed-a61c-4004-86a1-f334ac55a46d",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 4.466394371283135
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Kauirik",
+          "id": "447093f7-cd28-480a-bb37-73a00d4d206b",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.6784383113790756
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Chumar",
+          "id": "c3e5f845-2f6f-439c-af7c-774dbacad58c",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.08941638775227752
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Shipki Pass",
+          "id": "2faa5f5c-fcc0-4968-b5ba-96faf4b74ed6",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.20153648564794374
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Chumar East",
+          "id": "9b4d529b-ea2c-4add-838e-9ee902f6269c",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.12736352236420034
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Jadh-Nelang",
+          "id": "e7c5a4b5-5e50-4e9b-9fde-3c3e8828d1ff",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.9944591596853687
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Demchok",
+          "id": "ee95cb5f-e3de-413c-bbc4-d6640a089c10",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.9030190271894649
+        },
+        {
+          "entity": "state:IND",
+          "code": "XQO",
+          "name": "Lapthal-Bara Hoti",
+          "id": "1af9c748-c4e3-4588-b764-4b289ae66a1f",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.785812314592149
+        },
+        {
+          "entity": "state:IND",
+          "code": "XXO",
+          "name": "Kalapani",
+          "id": "a413f9a9-46d3-4465-af0b-d21fa68097a9",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.1313675981182166
+        },
+        {
+          "entity": "state:BTN",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.546146537401903
+        },
+        {
+          "entity": "state:BTN",
+          "code": "XQY",
+          "name": "Dramana and Shakhatoe",
+          "id": "ba87a790-a838-4186-806a-a59a1163ceb0",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.25602046880328344
+        },
+        {
+          "entity": "state:VNM",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 13.463673292366735
+        },
+        {
+          "entity": "state:LAO",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.691416700982038
+        },
+        {
+          "entity": "state:PAK",
+          "code": "IRN",
+          "name": "Iran",
+          "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+          "entityId": "state:IRN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 9.754420171890025
+        },
+        {
+          "entity": "state:PAK",
+          "code": "XSQ",
+          "name": "Siachen",
+          "id": "7f08d88d-abc1-4a94-ae71-6895422833f8",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.6938346600611224
+        },
+        {
+          "entity": "state:PAK",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.507480299982217
+        },
+        {
+          "entity": "state:MMR",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 21.04790651989916
+        },
+        {
+          "entity": "state:AFG",
+          "code": "IRN",
+          "name": "Iran",
+          "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+          "entityId": "state:IRN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 9.022580088917646
+        },
+        {
+          "entity": "state:AFG",
+          "code": "TJK",
+          "name": "Tajikistan",
+          "id": "aab14af8-1a9c-4323-97dd-d766b63c4512",
+          "entityId": "state:TJK",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 14.014788180628848
+        },
+        {
+          "entity": "state:AFG",
+          "code": "TKM",
+          "name": "Turkmenistan",
+          "id": "297a7849-9477-4b08-9488-6a2b21f54657",
+          "entityId": "state:TKM",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 8.341714829234304
+        },
+        {
+          "entity": "state:AFG",
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "id": "1acee1ce-f991-445b-a1a2-1a62afc4ca9a",
+          "entityId": "state:UZB",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.5223112271493546
+        },
+        {
+          "entity": "state:AFG",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 0.9556452032905313
+        },
+        {
+          "entity": "state:NPL",
+          "code": "CHN",
+          "name": "China",
+          "id": "422131df-82bc-4f1b-9a1f-ee89cc970e19",
+          "entityId": "state:CHN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 13.814966193259465
+        },
+        {
+          "entity": "state:NPL",
+          "code": "XXO",
+          "name": "Kalapani",
+          "id": "a413f9a9-46d3-4465-af0b-d21fa68097a9",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.19299102435753002
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:IND",
+          "code": "NPL",
+          "name": "Nepal",
+          "id": "3dbece3a-5fef-47dd-8f9e-606f4cc57766",
+          "entityId": "state:NPL",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 1.2278813164974273e-05,
+          "length": 18.44818085243261
+        },
+        {
+          "entity": "state:IND",
+          "code": "BGD",
+          "name": "Bangladesh",
+          "id": "385b5557-6565-47f6-be6d-307a1e1a4151",
+          "entityId": "state:BGD",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 0.0017177377289256189,
+          "length": 37.763018145448804
+        },
+        {
+          "entity": "state:BGD",
+          "code": "IND",
+          "name": "India",
+          "id": "d1fab3b1-73a8-4492-8513-6ef4298a134c",
+          "entityId": "state:IND",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 0.001717737728924128,
+          "length": 37.76301814544933
+        },
+        {
+          "entity": "state:NPL",
+          "code": "IND",
+          "name": "India",
+          "id": "d1fab3b1-73a8-4492-8513-6ef4298a134c",
+          "entityId": "state:IND",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 1.2278813165028483e-05,
+          "length": 18.448180852432266
+        }
+      ],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:ARG",
+        "state:BLZ",
+        "state:BOL",
+        "state:BRA",
+        "state:CAN",
+        "state:CHL",
+        "state:COL",
+        "state:CRI",
+        "state:ECU",
+        "state:GTM",
+        "state:GUY",
+        "state:HND",
+        "state:MEX",
+        "state:NIC",
+        "state:PAN",
+        "state:PER",
+        "state:PRY",
+        "state:SLV",
+        "state:SUR",
+        "state:URY",
+        "state:USA",
+        "state:VEN"
+      ],
+      "memberCount": 22,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:ARG",
+          "code": "XQP",
+          "name": "Brazilian Island",
+          "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.05682443483523434
+        },
+        {
+          "entity": "state:SUR",
+          "code": "GUF",
+          "name": "French Guiana",
+          "id": "7e3d1982-f6bf-4be2-abd9-1ef7f9da1f71",
+          "entityId": "state:FRA",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.343319880982075
+        },
+        {
+          "entity": "state:BRA",
+          "code": "XQP",
+          "name": "Brazilian Island",
+          "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.013275523567670361
+        },
+        {
+          "entity": "state:BRA",
+          "code": "GUF",
+          "name": "French Guiana",
+          "id": "7e3d1982-f6bf-4be2-abd9-1ef7f9da1f71",
+          "entityId": "state:FRA",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 6.2430849272250555
+        },
+        {
+          "entity": "state:URY",
+          "code": "XQP",
+          "name": "Brazilian Island",
+          "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.03723604036324825
+        }
+      ],
+      "overlapObservations": [],
+      "pointContacts": [],
+      "safeForClosedRawBatch": false
+    },
+    {
+      "members": [
+        "state:AGO",
+        "state:BDI",
+        "state:BEN",
+        "state:BFA",
+        "state:BWA",
+        "state:CAF",
+        "state:CIV",
+        "state:CMR",
+        "state:COD",
+        "state:COG",
+        "state:DZA",
+        "state:EGY",
+        "state:GAB",
+        "state:GHA",
+        "state:GIN",
+        "state:GMB",
+        "state:GNB",
+        "state:GNQ",
+        "state:LBR",
+        "state:LBY",
+        "state:LSO",
+        "state:MAR",
+        "state:MLI",
+        "state:MOZ",
+        "state:MRT",
+        "state:MWI",
+        "state:NAM",
+        "state:NER",
+        "state:NGA",
+        "state:RWA",
+        "state:SEN",
+        "state:SLE",
+        "state:SWZ",
+        "state:TCD",
+        "state:TGO",
+        "state:TUN",
+        "state:TZA",
+        "state:UGA",
+        "state:ZAF",
+        "state:ZMB",
+        "state:ZWE"
+      ],
+      "memberCount": 41,
+      "blockingExternalContacts": [
+        {
+          "entity": "state:TZA",
+          "code": "KEN",
+          "name": "Kenya",
+          "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+          "entityId": "state:KEN",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 6.974327786634393
+        },
+        {
+          "entity": "state:MAR",
+          "code": "ESP",
+          "name": "Spain (Plazas de Soberania)",
+          "id": "c5ed6e87-a683-4b82-8df8-eae20762c2b4",
+          "entityId": "state:ESP",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 0.17978666797504744
+        },
+        {
+          "entity": "state:COG",
+          "code": "XQR",
+          "name": "Congo River Islands",
+          "id": "ecdb70a9-d439-4942-9e35-757412c78537",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 3.4413285268252003
+        },
+        {
+          "entity": "state:COD",
+          "code": "XQR",
+          "name": "Congo River Islands",
+          "id": "ecdb70a9-d439-4942-9e35-757412c78537",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 3.337641381852536
+        },
+        {
+          "entity": "state:COD",
+          "code": "SSD",
+          "name": "South Sudan",
+          "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+          "entityId": "state:SDS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 6.542829758319009
+        },
+        {
+          "entity": "state:LBY",
+          "code": "SDN",
+          "name": "Sudan",
+          "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 3.5
+        },
+        {
+          "entity": "state:CAF",
+          "code": "SDN",
+          "name": "Sudan",
+          "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 1.5771361355261653
+        },
+        {
+          "entity": "state:CAF",
+          "code": "SSD",
+          "name": "South Sudan",
+          "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+          "entityId": "state:SDS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 9.61376296448772
+        },
+        {
+          "entity": "state:BEN",
+          "code": "XXX",
+          "name": "Koalou / Kourou",
+          "id": "ab39dd29-4ebe-4487-82e5-c9760ae37e06",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.09380576726514675
+        },
+        {
+          "entity": "state:TCD",
+          "code": "SDN",
+          "name": "Sudan",
+          "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 12.850121375213439
+        },
+        {
+          "entity": "state:UGA",
+          "code": "KEN",
+          "name": "Kenya",
+          "id": "63733769-9289-45dc-ad3e-39fdfd92988a",
+          "entityId": "state:KEN",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 7.915505821048374
+        },
+        {
+          "entity": "state:UGA",
+          "code": "SSD",
+          "name": "South Sudan",
+          "id": "65f20b50-a947-4f2c-86c6-f221b5539314",
+          "entityId": "state:SDS",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 4.4756708464365085
+        },
+        {
+          "entity": "state:BFA",
+          "code": "XXX",
+          "name": "Koalou / Kourou",
+          "id": "ab39dd29-4ebe-4487-82e5-c9760ae37e06",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.037791106307852346
+        },
+        {
+          "entity": "state:EGY",
+          "code": "QX2",
+          "name": "Bir Tawil",
+          "id": "dffff183-4f74-4043-91ab-335c32ec4cc0",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.9082132000344165
+        },
+        {
+          "entity": "state:EGY",
+          "code": "SDN",
+          "name": "Hala'ib Triangle",
+          "id": "5e5abf17-541f-465d-869e-4db3d1dc0f21",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 2.196276036057703
+        },
+        {
+          "entity": "state:EGY",
+          "code": "ISR",
+          "name": "Israel",
+          "id": "2c8445cf-bb86-4b62-b2f8-67a6b1d155ec",
+          "entityId": "state:ISR",
+          "class": "special-geographic-scope-review",
+          "area": 0.0,
+          "length": 1.8986584233248351
+        },
+        {
+          "entity": "state:EGY",
+          "code": "XGZ",
+          "name": "Gaza Strip",
+          "id": "7abdd7db-fe64-4143-93b6-64a7af99b24b",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.11842289606737129
+        },
+        {
+          "entity": "state:EGY",
+          "code": "SDN",
+          "name": "Sudan",
+          "id": "d5c9432a-112b-42c3-be6e-284f08bbcd74",
+          "entityId": "state:SDN",
+          "class": "source-display-contract-review",
+          "area": 0.0,
+          "length": 8.64500122065376
+        }
+      ],
+      "overlapObservations": [
+        {
+          "entity": "state:MWI",
+          "code": "MOZ",
+          "name": "Mozambique",
+          "id": "f40e9a9e-c573-4c57-88a1-deca9c8b091d",
+          "entityId": "state:MOZ",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 0.01916053997824952,
+          "length": 15.92397438192888
+        },
+        {
+          "entity": "state:COD",
+          "code": "UGA",
+          "name": "Uganda",
+          "id": "6c945c1e-2775-4d6f-88c5-fd7b70112546",
+          "entityId": "state:UGA",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 5.934827000224081e-08,
+          "length": 8.114573619594324
+        },
+        {
+          "entity": "state:ZAF",
+          "code": "LSO",
+          "name": "Lesotho",
+          "id": "d425f095-8cd2-4255-b565-7d84cb999a59",
+          "entityId": "state:LSO",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 2.8455910736555228,
+          "length": 10.712898065089565
+        },
+        {
+          "entity": "state:MOZ",
+          "code": "MWI",
+          "name": "Malawi",
+          "id": "6620ab6c-3afa-4a9f-a367-ac1e1298bde8",
+          "entityId": "state:MWI",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 0.01916053997825002,
+          "length": 15.92397438192879
+        },
+        {
+          "entity": "state:UGA",
+          "code": "COD",
+          "name": "Congo (Kinshasa)",
+          "id": "e20469ad-00d6-4bd8-a47f-98d45cc0d0dd",
+          "entityId": "state:COD",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 5.9348270001251474e-08,
+          "length": 8.114573619594317
+        },
+        {
+          "entity": "state:LSO",
+          "code": "ZAF",
+          "name": "South Africa",
+          "id": "028649a9-8250-4c25-9cff-d1a08f4a5f44",
+          "entityId": "state:ZAF",
+          "class": "unreviewed-one-to-one-modern",
+          "area": 2.8455910736554832,
+          "length": 10.71289806508942
+        }
+      ],
+      "pointContacts": [
+        {
+          "entity": "state:TGO",
+          "code": "XXX",
+          "name": "Koalou / Kourou",
+          "id": "ab39dd29-4ebe-4487-82e5-c9760ae37e06",
+          "entityId": null,
+          "class": "unmapped",
+          "area": 0.0,
+          "length": 0.0
+        }
+      ],
+      "safeForClosedRawBatch": false
+    }
+  ]
+}

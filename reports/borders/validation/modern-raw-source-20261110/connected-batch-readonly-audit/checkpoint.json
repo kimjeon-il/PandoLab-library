@@ -1,0 +1,223 @@
+{
+  "observedOwnershipContacts": [
+    {
+      "feature": "XQP Brazilian Island",
+      "touches": [
+        "ARG",
+        "BRA",
+        "URY"
+      ],
+      "Map_Disp": "BRA,URY"
+    },
+    {
+      "feature": "XQR Congo River Islands",
+      "touches": [
+        "COG",
+        "COD"
+      ],
+      "Map_Disp": "COD,COG"
+    },
+    {
+      "feature": "XQZ Akrotiri",
+      "touches": [
+        "CYP"
+      ]
+    },
+    {
+      "note": "Positive-area overlap",
+      "feature": "XXD Dhekelia",
+      "touches": [
+        "CYP"
+      ]
+    }
+  ],
+  "method": "Read-only SQLite original GPKG; OGR exact Intersects and Intersection. Areas square degrees, not metric area. No repair, simplification or source edits.",
+  "observedOverlaps": [
+    {
+      "pair": [
+        "CYP",
+        "XXD"
+      ],
+      "area": 0.0003512550975004105
+    },
+    {
+      "pair": [
+        "IND",
+        "NPL"
+      ],
+      "area": 1.2278813164974273e-05
+    },
+    {
+      "pair": [
+        "IND",
+        "BGD"
+      ],
+      "area": 0.0017177377289256189
+    },
+    {
+      "pair": [
+        "MWI",
+        "MOZ"
+      ],
+      "area": 0.01916053997824952
+    },
+    {
+      "pair": [
+        "COD",
+        "UGA"
+      ],
+      "area": 5.934827000224081e-08
+    },
+    {
+      "pair": [
+        "ZAF",
+        "LSO"
+      ],
+      "area": 2.8455910736555228
+    },
+    {
+      "pair": [
+        "OMN",
+        "ARE"
+      ],
+      "area": 0.007736706808801461
+    }
+  ],
+  "scope": "111 original unreviewed one-to-one records, excluding parallel CUB/JPN/PHL work",
+  "latestParentState": "44 applied; 112 unreviewed; PHL held due to four Spratly raw features absent in rawCountry",
+  "lastObservedEntity": "state:VAT",
+  "lastObservedCompletedCount": 111,
+  "knownGateContacts": [
+    {
+      "pair": [
+        "SUR",
+        "GUF"
+      ],
+      "gate": "state:FRA source-display-contract-review"
+    },
+    {
+      "pair": [
+        "BRA",
+        "GUF"
+      ],
+      "gate": "state:FRA source-display-contract-review"
+    }
+  ],
+  "sourceChanged": false,
+  "status": "complete",
+  "completedCodes": [
+    "MYS",
+    "CHL",
+    "BOL",
+    "PER",
+    "ARG",
+    "CYP",
+    "IND",
+    "LBN",
+    "ETH",
+    "SOM",
+    "MWI",
+    "TZA",
+    "SUR",
+    "GUY",
+    "MAR",
+    "CRI",
+    "NIC",
+    "COG",
+    "COD",
+    "BTN",
+    "NAM",
+    "ZAF",
+    "OMN",
+    "BRA",
+    "URY",
+    "CZE",
+    "NOR",
+    "SWE",
+    "FIN",
+    "VNM",
+    "KHM",
+    "ARE",
+    "MKD",
+    "TUR",
+    "LAO",
+    "LBY",
+    "TUN",
+    "HUN",
+    "SVK",
+    "POL",
+    "ZMB",
+    "SLE",
+    "GIN",
+    "LBR",
+    "CAF",
+    "DJI",
+    "ERI",
+    "AUT",
+    "IRQ",
+    "LIE",
+    "CIV",
+    "SRB",
+    "MLI",
+    "SEN",
+    "NGA",
+    "BEN",
+    "AGO",
+    "HRV",
+    "SVN",
+    "QAT",
+    "SAU",
+    "BWA",
+    "ZWE",
+    "PAK",
+    "THA",
+    "SMR",
+    "TCD",
+    "KWT",
+    "SLV",
+    "GTM",
+    "BRN",
+    "MCO",
+    "DZA",
+    "MOZ",
+    "SWZ",
+    "BDI",
+    "RWA",
+    "MMR",
+    "BGD",
+    "AND",
+    "AFG",
+    "MNE",
+    "BIH",
+    "UGA",
+    "HND",
+    "ECU",
+    "COL",
+    "PRY",
+    "JOR",
+    "NPL",
+    "LSO",
+    "CMR",
+    "GAB",
+    "NER",
+    "BFA",
+    "TGO",
+    "GHA",
+    "GNB",
+    "USA",
+    "CAN",
+    "MEX",
+    "BLZ",
+    "PAN",
+    "VEN",
+    "PNG",
+    "EGY",
+    "YEM",
+    "MRT",
+    "GNQ",
+    "GMB",
+    "VAT"
+  ],
+  "finalSummary": "connected-batch-summary.json",
+  "observedOverlapsNote": "Early checkpoint observations only; final complete overlap list contains 11 pairs in finalSummary."
+}
