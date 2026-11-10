@@ -1,0 +1,94 @@
+{
+  "codes": [
+    "AND",
+    "SMR",
+    "VAT",
+    "LIE",
+    "MCO"
+  ],
+  "reason": "Shared land boundaries require neighbor source migration as a consistent group; San Marino and Vatican raw source also intersects Italy with positive area. No arbitrary subtraction or original coordinate change authorized.",
+  "intersections": [
+    {
+      "code": "AND",
+      "contacts": [
+        {
+          "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+          "name": "France",
+          "code": "FRA",
+          "intersects": true,
+          "intersectionArea": 0,
+          "sharedBoundaryLengthDegrees": 0.6408884002157571
+        },
+        {
+          "id": "804cb3c1-195d-48d8-97e5-0439f624b231",
+          "name": "Spain",
+          "code": null,
+          "intersects": true,
+          "intersectionArea": 0,
+          "sharedBoundaryLengthDegrees": 0.6916555848286787
+        }
+      ]
+    },
+    {
+      "code": "SMR",
+      "contacts": [
+        {
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "name": "Italy",
+          "code": "ITA",
+          "intersects": true,
+          "intersectionArea": 0.006861144639459179,
+          "sharedBoundaryLengthDegrees": 0.4266038513402392
+        }
+      ]
+    },
+    {
+      "code": "VAT",
+      "contacts": [
+        {
+          "id": "b5f3567b-7a08-4772-86f7-1001cae39ddd",
+          "name": "Italy",
+          "code": "ITA",
+          "intersects": true,
+          "intersectionArea": 0.00005391783507005933,
+          "sharedBoundaryLengthDegrees": 0.03820599638940824
+        }
+      ]
+    },
+    {
+      "code": "LIE",
+      "contacts": [
+        {
+          "id": "d49b2770-9efe-412c-a780-084efa3bc595",
+          "name": "Austria",
+          "code": "AUT",
+          "intersects": true,
+          "intersectionArea": 0,
+          "sharedBoundaryLengthDegrees": 0.39798372443765334
+        },
+        {
+          "id": "0fd4c1c2-709b-4b65-89a8-9e42e7096ea3",
+          "name": "Switzerland",
+          "code": "CHE",
+          "intersects": true,
+          "intersectionArea": 0,
+          "sharedBoundaryLengthDegrees": 0.43154563777978444
+        }
+      ]
+    },
+    {
+      "code": "MCO",
+      "contacts": [
+        {
+          "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+          "name": "France",
+          "code": "FRA",
+          "intersects": true,
+          "intersectionArea": 0,
+          "sharedBoundaryLengthDegrees": 0.0582152432543731
+        }
+      ]
+    }
+  ],
+  "applied": false
+}

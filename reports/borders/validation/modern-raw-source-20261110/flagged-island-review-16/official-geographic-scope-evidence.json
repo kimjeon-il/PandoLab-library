@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-11-10",
+  "method": "Read-only connected web search/open of public official geographic sources. Used for location, geographic scope and observed administration only; not to establish legal sovereignty, treaty entry into force or historical control dates.",
+  "sources": [
+    {
+      "codes": [
+        "TWN"
+      ],
+      "url": "https://www.marine.gov.tw/en/explore/ds/dongshainfo",
+      "publisher": "Marine National Park Headquarters, Ministry of the Interior",
+      "access": "opened",
+      "evidence": "Dongsha Atoll lies at 20 degrees 35-47 minutes N and 116 degrees 42-55 minutes E; Dongsha Island is the emergent island on its western side. The page identifies Kaohsiung government as its administrative authority.",
+      "rawMatch": "TWN raw component 0 bounds 116.71062..116.73471 E,20.69763..20.71009 N fall in that atoll; no approved outside-peer intersection."
+    },
+    {
+      "codes": [
+        "TWN"
+      ],
+      "url": "https://www.cga.gov.tw/GipOpen/wSite/ct?ctNode=13399&mp=eng&xItem=167566",
+      "publisher": "Taiwan Coast Guard Administration",
+      "access": "opened",
+      "evidence": "The March 18, 2025 Dongsha report describes Taiwan Coast Guard vessels conducting patrols and enforcement at Dongsha/Pratas. This supports observed administration; sovereignty language on the source page is not adopted as a new project decision."
+    },
+    {
+      "codes": [
+        "SGS"
+      ],
+      "url": "https://www.gov.gs/wp-content/uploads/2023/10/Description-of-the-protected-features.pdf",
+      "publisher": "Government of South Georgia and South Sandwich Islands",
+      "access": "opened; page 1, geography",
+      "evidence": "The government geographic description includes Shag Rocks and Black Rock among the outer land associated with South Georgia, and describes surrounding satellite islands and rock stacks plus the South Sandwich chain.",
+      "rawMatch": "SGS raw component 56 at approximately 41.8001 W,53.6500 S is the Black Rock location; the official document supports its existing territory scope, not a change to the competing claim."
+    },
+    {
+      "codes": [
+        "IOT"
+      ],
+      "url": "https://www.biot.gov.io/about/",
+      "publisher": "British Indian Ocean Territory Administration",
+      "access": "opened",
+      "evidence": "Identifies Diego Garcia as the largest island of the territory, approximately 44 square kilometres, hosting the joint UK/US facility. Existing project treaty/decolonisation caveats are retained, without re-dating or transferring the entity."
+    },
+    {
+      "codes": [
+        "IOT"
+      ],
+      "url": "https://tidesandcurrents.noaa.gov/benchmarks/2431000.html",
+      "publisher": "NOAA National Ocean Service",
+      "access": "opened",
+      "evidence": "Station 2431000 is named DIEGO GARCIA, INDIAN OCEAN. The station is listed near 7.2900 S,72.3933 E and its primary benchmark near 7.2700 S,72.3967 E. This independently locates Diego Garcia within the restored southern IOT extent."
+    },
+    {
+      "codes": [
+        "IOT"
+      ],
+      "url": "https://www.biot.gov.io/environment/terrestrial-protected-areas/",
+      "publisher": "British Indian Ocean Territory Administration",
+      "access": "opened",
+      "evidence": "Describes the Diego Garcia restricted area and Ramsar site, as well as named outer Chagos island reserves. Used to establish that detailed southern-island/coastal parts belong to the existing geographic scope."
+    }
+  ],
+  "preserveExistingCaveats": [
+    "TWN ROC identity/lifetime and no parent assignment; current-effective-control Spratly receipt retained; no legal sovereignty or historical start date inference.",
+    "SGS and FLK existing GBR parent and all dispute-related source metadata retained despite raw Map_Disp ARG,GBR.",
+    "IOT existing GBR parent and existing sourceInfo.lifetimeEvidence caveat about treaty signing versus entry into force retained."
+  ]
+}

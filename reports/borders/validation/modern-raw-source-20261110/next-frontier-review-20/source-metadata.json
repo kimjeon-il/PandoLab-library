@@ -1,0 +1,1132 @@
+{
+  "pinRevision": "85464e0ba06fe43a0e67c9095807d260e5c5ecef",
+  "rows": [
+    {
+      "code": "MMR",
+      "path": "assets/data/territorial-entities/source/countries/state-MMR.json",
+      "descriptorSha256": "14e3054a66bb0f3d1d0b7cc8540729e962c45d029ac081b1fcbab0a5473027f7",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:MMR",
+        "entityKind": "general",
+        "lineageId": "mmr",
+        "names": {
+          "ko": "미얀마",
+          "en": "Myanmar"
+        },
+        "alternateNames": [
+          "미얀마",
+          "미얀마 연방",
+          "Myanmar",
+          "Union of Myanmar",
+          "미얀마 연방공화국",
+          "Republic of the Union of Myanmar"
+        ],
+        "nameVersions": [
+          {
+            "names": {
+              "en": {
+                "common": "Myanmar"
+              },
+              "ko": {
+                "common": "미얀마"
+              }
+            },
+            "validFrom": null,
+            "validTo": "1999-12-31"
+          },
+          {
+            "names": {
+              "en": {
+                "common": "Myanmar",
+                "formal": "Union of Myanmar"
+              },
+              "ko": {
+                "common": "미얀마",
+                "formal": "미얀마 연방"
+              }
+            },
+            "validFrom": "2000-01-01",
+            "validTo": "2010-10-20"
+          },
+          {
+            "names": {
+              "en": {
+                "common": "Myanmar",
+                "formal": "Republic of the Union of Myanmar"
+              },
+              "ko": {
+                "common": "미얀마",
+                "formal": "미얀마 연방공화국"
+              }
+            },
+            "validFrom": "2010-10-21",
+            "validTo": null
+          }
+        ],
+        "lifetime": {
+          "validFrom": "1948-01-04",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:MMR:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:MMR:state:MMR:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-813d5a71659e04fea15ba57799fe4f03a308ce15e60d6a6f1b769679c71f95f3.json",
+              "sha256": "813d5a71659e04fea15ba57799fe4f03a308ce15e60d6a6f1b769679c71f95f3",
+              "bytes": 1325135
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "MMR",
+              "geometrySha256": "9ca2c3a2198319586b20e365c5bfd9b294f33fdb8377ba114363ee27c88336ed",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "MMR",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mm.svg",
+          "representativeGeometryVersionId": "state:MMR:natural-earth-5.1.1",
+          "flagHistory": [
+            {
+              "validFrom": "2000-01-01",
+              "validTo": "2010-10-20",
+              "policy": "embedded",
+              "flagDataUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogPHBhdGggZD0ibTAgMGg5MDB2NTAwaC05MDB6IiBmaWxsPSIjZGEyZDFjIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KIDxwYXRoIGQ9Im0wIDBoNDAwdjI1MGgtNDAweiIgZmlsbD0iIzIwNDJhMSIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiA8ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogIDxwYXRoIGQ9Im0xODQuMTYgNjUuMDgyYzEuNjk0MyAxMC4zMTMgNi40MDg5IDkuMjgxOCA2LjQwODkgOS4yODE4LTAuNzM2NjYtMC4wNzM3LTIuMDYyNy0yLjcyNTYtMi4wNjI3LTIuNzI1NmwyLjk0NjUgMS44NDE4LTEuNzY3OS0yLjk0NjcgMy4zMTQ4IDEuOTg5Yy0wLjQ0Mi00LjA1MTYtOC44Mzk4LTcuNDQwMi04LjgzOTgtNy40NDAyem05LjUzNjEgMy4wNTI4Yy0xLjY2NDkgNy40NzkzIDMuMjYyOCAxMC4xODMgMy4yNjI4IDEwLjE4M2wtMS4xNTkyLTMuNTUwNSAxLjYwODYgMS43NTQ4LTAuNTExODItMy4zNjM1IDEuOTc0MiAzLjE0NDFjLTAuMzY1Ni01LjE5MTUtNS4xNzQ3LTguMTY4NC01LjE3NDctOC4xNjg0em0tNC40NDMgNi45NDAyYzIuNDMyNiA5LjA3NjIgNi43MjE3IDkuMDg0NyA2LjcyMTcgOS4wODQ3bC0yLjIxNDgtMi44NzkzIDIuNjU3NyAxLjU1MDQtMS45OTMyLTIuNzMxNSAzLjc2NSAxLjg0NTZjLTEuNDAyNy01LjE2NzgtOC45MzYzLTYuODY5OS04LjkzNjMtNi44Njk5em0xMi43OTkgMC4yNzQ5N2MtMy45OTgzIDYuNzc2OC0xLjIxOTggMTAuNjM5LTEuMjE5OCAxMC42MzlsMC42MjQxMy00LjEzNzQgMS40MDg5IDQuNjExNyAwLjMzODg1LTQuMzM3MSAxLjI4NzYgNC42MDgyYzIuMzcxOS02LjU3MzQtMi40Mzk2LTExLjM4NS0yLjQzOTYtMTEuMzg1em0xMS4xOTYgNS45MjYzcy0yLjM4MyA1LjYyMzMgMi40NzE1IDEwLjA0MWwtMC41NDUzNi0yLjc4MTggMS4zMzY0IDEuMzkwOSAwLjEzNjM4LTIuMDQ1NiAxLjExODIgMS42OTFjLTAuOTgxOC03LjU4MTgtNC41MTctOC4yOTU5LTQuNTE3LTguMjk1OXptLTUuMDI4OSAzLjYyOXMtNS4xNTAzIDIuNzEwNy0zLjkzMDUgMTEuMjQ5bDEuODI5Ny00LjIwMTYgMC4xMzU1MyAzLjY1OTQgMS42OTQyLTQuNDcyNyAwLjU0MjEzIDMuNzI3MmMxLjQ5MDktNi4wMzEzLTAuMjcxMDctOS45NjE4LTAuMjcxMDctOS45NjE4em0tMTIuNzcxIDAuNzU2OTVjLTAuMzAzODMgM2UtMyAtMC40ODQwMyAwLjAzODEtMC40ODQwMyAwLjAzODEtMS4xOTIyIDQuMzg2NyAzLjU2NDEgOC4zNTM1IDMuNTY0MSA4LjM1MzVsLTAuNjc3NjctMy4xMTczIDIuNDM5NiAzLjI1MjgtMC43NDU0NC0zLjMyMDYgMi4yMzYzIDIuMDMzYy0xLjM3NjUtNi42NjI0LTUuMDE2My03LjI1MjUtNi4zMzI5LTcuMjM5NnptMjQuMTY5IDMuNTE5MmMtMy44NDg3IDguNjI0IDAuOTk3NzEgMTIuNDAxIDAuOTk3NzEgMTIuNDAxbC0wLjQyNzYyLTQuMzQ3NiAxLjc4MTggMy4yMDczLTAuMDcxMi0zLjU2MzUgMS4zNTQyIDMuMDY0NmMxLjM1NDItNy42MjYyLTMuNjM0OS0xMC43NjItMy42MzQ5LTEwLjc2MnptLTcuMTc5MSAxLjQwODdjLTEuNDg3NiA3LjI4ODIgMi42NDMxIDkuNTgxMyAyLjY0MzEgOS41ODEzbC0wLjY5MzI2LTMuNTQzNCAxLjYxNzYgMi41NDItMC4zODUyNS0zLjU0MzQgMS41NDA3IDEuNTQwN2MwLjQ2MjE3LTQuMTU5Ni00LjcyMjktNi41NzcyLTQuNzIyOS02LjU3NzJ6bTExLjkwMyAxMS4zODhzMi44MjkxIDUuOTEyOS0xLjY1OTIgMTAuNTEzbDAuMTIxNTYtMy4zMTMxLTEuMjcwOSAxLjY1MDYgMC4xMjExMi0zLjAwNDItMS40NDY4IDIuMTQyOGMwLjA2NTQtNC44OTg5IDQuMTM0Mi03Ljk4OTQgNC4xMzQyLTcuOTg5NHptLTMyLjYxNiA3Ni40NTJjMC4wNDEyIDAuNjExODggMC4xNTYzMyAxLjcyNTUgMC4yNTU2NyAyLjQ3NDcgMC4wOTk0IDAuNzQ4NjggMC4xNDcwNCAxLjQxNzYgMC4xMDU4OCAxLjQ4Ni0wLjA0MTIgMC4wNjc5IDAuMDQwMSAwLjMzNTQ3IDAuMTc5ODYgMC41OTQ0NyAwLjE0MDMyIDAuMjU4NDkgMC4yODIyMyAwLjg2MTIgMC4zMTU3IDEuMzM4NSAwLjAzMzUgMC40Nzc4NyAwLjEzNDYzIDEuMDM5NCAwLjIyNTgxIDEuMjQ4NiAwLjE5Njc4IDAuNDUzNDcgMC41NTQ1MyAyLjYzMjggMC41Mzg2MiAzLjI4MTgtMC4wMTYyIDAuNjM2MiAwLjI3NTg1IDIuODA5IDAuMjc1ODUgMi44MDloMi4xNjYxbDAuMDcyMy0xLjMxNjRjMC4xODE4LTIuNzEzMy0wLjYyMDczLTExLjE5LTEuMjk1LTEzLjY3Ny0wLjA3OTYtMC4yOTM1Ny0wLjMwNTE1LTEuMjE5OS0wLjUwMTU4LTIuMDU4NC0wLjM4ODUtMS42NjAyLTAuOTU1MDItMy41MjAzLTEuOTcyLTYuNDc0Ni0wLjcyODk1LTIuMTE4Mi0wLjk4ODQ2LTIuOTc0Ni0xLjkyOTQtNi4zODA0LTEuODA3Mi02LjUzNjItMS40OTQ2LTYuMDgwNC01LjQ1NTgtNy45NTg3bS0xMi42NDQtNjUuNjMxYy00LjEzMjEgMS43Mjc4LTYuNTI1OCAzLjYwOC05LjE1NTcgNy4xOTE0LTEuMDg3OCAxLjQ4MjYtMi43NDg2IDMuNTY0My0zLjY5MDMgNC42MjY1LTIuMDAwOSAyLjY1OTYtMy42NTg3IDUuNzkwMy0yLjAzNzMgNC40MDQyIDAuMzE0MDItMC4yNjgzOSAxLjIxMjctMS4yNzM4IDIuMjQ2LTEuOTAyOSAxLjAzMzgtMC42MjkwNyAyLjgyMjgtMS43OTEyIDMuOTc2Ni0yLjU4MjcgMS4xNTM4LTAuNzkxNTMgMi44NTQ3LTEuOTU5IDMuNzc5Mi0yLjU5NDEgMC45MjUwOC0wLjYzNTA4IDIuMjEzNi0xLjUwMTYgMi44NjQ1LTEuOTI1NSAxLjMxMjQtMC44NTU2MiAxLjM2MzUtMC45Nzc3NiAwLjc2MjQxLTEuODI2bC0wLjQxODYzLTAuNTkwODggMC4zNDUxNC0wLjI4NTE4YzAuNDY4MTgtMC4zODc1IDAuNTM1MzMtMC4zNzE2OCAxLjEyNiAwLjI2MDk4IDAuMjgzMDIgMC4zMDI3NSAwLjk5NTYgMS4wMzI1IDEuNTgzNSAxLjYyMTQgMC41ODg0NiAwLjU4ODg0IDEuNDY3MSAxLjU0NjYgMS45NTMgMi4xMjgzIDAuNDg1OTMgMC41ODE3MSAxLjIxNzMgMS4zOTc0IDEuNjI1IDEuODEyIDAuNjg1ODQgMC42OTc1MyAyLjk3ODkgMy44MzEgMy4zMjA1IDQuNTM3MyAwLjIyODQ3IDAuNDcyODggMC41MzU0MSAwLjk2MDkgMC43ODg5NSAxLjI1MzQgMC4zMDIyNiAwLjM0OTM2IDEuNDAwNCAyLjEwMDQgMS40MDI0IDIuMjM2NiAxZS0zIDAuMDU4NiAwLjEzNTA3IDAuMjg3MTIgMC4yOTc5NyAwLjUwODA0IDAuNDUyNDIgMC42MTI4MiAyLjMzMzUgNC4wNzQzIDMuMTA2MiA1LjcxNTUgMC43Nzg1MiAxLjY1MjkgMS4zMjU5IDMuMDY0OSAxLjc3MDEgNC41NjQyIDAuMTQ5MTUgMC41MDMxNSAwLjM3NTcgMS4yMjI0IDAuNTAyODcgMS41OTk0IDAuMjE0NDQgMC42MzMyMyAxLjA3NDIgNC40MjE3IDEuMDc0MiA0LjQyMTdzMy4wNDkzLTUuNTQyOSAyLjU4MS03LjE1NDZjLTAuMTUxNzMtMC41MDI1OS0wLjQwNzEzLTEuNDI4NC0wLjU2NzQ1LTIuMDU3NC0xLjA2NDgtNC4xNzUtNC4yODQ0LTEyLjc1OC01LjMwODYtMTQuMTUxLTAuMTUzNDYtMC4yMDg4Mi0wLjYzNzMyLTEuMDk3MS0xLjA3NTctMS45NzQzLTMuMjg2LTYuNTc5My0zLjIzNzktNi40OTQzLTQuMjM0NC03LjQxNDYtMi4wNzAyLTEuOTEwMy02LjcxNzYtMy4yMTY4LTguNjE3Ni0yLjQyMTdtNjUuMzg0IDguNjJjLTAuNTY1MDkgMC4yMDc5MS0yLjA3MjQgMS43ODkxLTIuNzE0NiAyLjg0NzMtMS4yNzY4IDIuMTI1NS0yLjE5OTYgMy4yNjk3LTMuNDI2MiA1Ljg1NzdsLTAuODcwMTUgMS44NDk2LTAuMDMzMSAzLjkwMjktMC4wMzM2IDMuOTAyOSAwLjM3MDU1LTAuNDQ0NjdjMC4yMDQyNC0wLjI0NDMgMC42NzM4OS0xLjA0MzQgMS4wNDQ3LTEuNzc1MiAxLjMyNTMtMi42MTkzIDEuNTY4MS0zLjA3MTMgMi4wMDk0LTMuNzQwOSAwLjI0NjAzLTAuMzcyOTMgMC40OTI4LTAuODAwOTUgMC41NDgxNi0wLjk1MDcgMC4wNTU0LTAuMTQ5NzQgMC4zNjg2LTAuNjc2MTcgMC42OTYxOC0xLjE3MDIgMC4zMjc2LTAuNDkzNDkgMC43Mzc1NS0xLjE1NyAwLjkxMDgzLTEuNDc0MyAwLjE3MzgtMC4zMTY3NiAwLjQyMzE0LTAuNzQ0ODIgMC41NTQ4Ny0wLjk1MDI5IDAuMjM1MzEtMC4zNjc2Ny0wLjEwMjQxLTAuNjc5NzktMC43MjUwNi0wLjY3MDQxLTAuMjkxMjUgNGUtMyAtMC4zMTgzMS0wLjMyMTYtMC4wNjM1LTAuNzY0MDIgMC4zMTc0Ny0wLjU1MDk3IDAuNzQ0OTMtMC42MDE3OCAxLjQ3NS0wLjE3NTcxIDAuMjgwNDEgMC4xNjM1NSAwLjU5MDcyIDAuMjk2NTggMC42ODg1IDAuMjk1NjIgNy4xNTEyIDAuMzY1NTcgMTIuNTAzIDEzLjIzOCAxMi41MDMgMTMuMjM4LTEuMzYwNC02LjEyMDEtMy41NDQ4LTE1LjUyMi0xMC44NTUtMTkuODIzLTEuMjQ4NC0wLjE4NDY5LTEuNDY3NS0wLjE4MDM2LTIuMDc5NyAwLjA0NTFtLTcwLjIyNiAyNS41ODZjLTEuODEwMiAwLjY0MTc4LTIuNDk2NCAxLjE4MjUtNC43NDYgMy43NDM4LTMuNjc2NCA0LjE4NjItNC42ODEyIDUuNzQzNS02Ljk3MDYgMTAuODA5LTAuNTMyODggMS4xNzktMC44MTIyIDIuMTA3Ny0wLjk0OTE2IDMuMTU4OC0wLjA0OTggMC4zNzk2Ni0wLjA5MzMgMS4xMTY3LTAuMTM3NzYgMS4zMDcxLTAuMTg2MiAwLjc5MDIxIDAuNjQ5NDMtMC4zMTcyMSAwLjk2OTk5LTEuMTA1NCAyLjkxNDEtNC45NTI5IDYuNDY3Ny05LjcyMTMgMTEuODY2LTEyLjY3NyAwLjI5NTItMC4xNTE4NCAwLjc0MjY2LTAuNDExNTIgMC45OTU0My0wLjU3NzUgMS41NjA0LTEuMDI3MSA0LjgyNTgtMi4zMTEgNC45NTQzLTEuOTQ4MyAwLjAzODIgMC4xMDkwNyAwLjIxNjAyIDAuMzI5NzcgMC4zOTQ5OCAwLjQ4OTc2IDAuMTc4NDQgMC4xNiAwLjI5NTU3IDAuMzE0OCAwLjI1OTQ1IDAuMzQzOS0wLjAzNTYgMC4wMjg2LTAuNjAzODkgMC4zOTc3LTEuMjYyNSAwLjgyMDE5LTAuNjU5MSAwLjQyMTk4LTEuMjMgMC44MjA3Mi0xLjI2OTcgMC44ODYwOS0wLjA2NzMgMC4xMTE2OCAxLjE5NTYgMi44MTc1IDEuNTQ0OCAzLjMxIDAuMTg2MTggMC4yNjIzOSAxLjE2NzkgMi4yNDU3IDEuOTkyNiA0LjAyNTQgMC4xNTQ4NCAwLjMzNDI1IDAuNDQ4NDggMC44NjIyNSAwLjY1MjM3IDEuMTczMyAwLjIwMzg5IDAuMzEwNTcgMC4zNzE0MiAwLjYzMzQxIDAuMzcyNjkgMC43MTcwMyAxZS0zIDAuMDgzNiAwLjUyNTU0IDAuOTIwNzYgMS4xNjU2IDEuODYwMiAwLjYzOTU2IDAuOTM5NDQgMS4yNzgzIDEuOTIzOCAxLjQxOTIgMi4xODY4IDAuMTQxNDIgMC4yNjM1NyAwLjM1MTQzIDAuNTcwNDggMC40NjY4NiAwLjY4MTk2czAuMzQ3MzkgMC40MDYzMyAwLjUxNTM0IDAuNjU1MjJjMC4yNzI3MyAwLjQwMzg3IDIuMDA1OCAyLjc5MSAzLjE3OTIgNC4zNzkzIDAuMjQwNjYgMC4zMjU4MyAwLjU4MDkgMC44Mzc4MiAwLjc1NTI4IDEuMTM3MSAwLjMxNzU4IDAuNTQ1NDkgMC41OTYwMyAwLjg4NTAzIDEuMzQ4NyAxLjY0NDMgMC4yMjE2MiAwLjIyNDEyIDAuNDg0ODMgMC41NDM0OSAwLjU4NTE1IDAuNzEwMjYgMC4xMjk4OSAwLjIxNjgzIDAuMTgzMjMgMC4yMzc5NiAwLjE4NzQzIDAuMDczNyAzZS0zIC0wLjEyNjAyIDAuMTQxOTgtMS4xOTU1IDAuMzA5MzktMi4zNzY2IDAuMjM0ODUtMS42NTc0IDAuMjk1MTEtMi44NDQ1IDAuMjY0NTEtNS4yMDY4bC0wLjAzOTYtMy4wNjAzLTEuMjYxOS0yLjc3NzdjLTAuNzA2LTEuNTU0LTEuODUxMi0zLjcyNzYtMi41OTkyLTQuOTM0Mi0wLjczNTQzLTEuMTg2NC0xLjYzMDMtMi42MzQ1LTEuOTg3Ni0zLjIxODEtMS43ODc0LTIuOTE3Mi0zLjkyOTctNS4yNzQyLTUuNTE2Mi02LjA2ODQtMS40MDgtMC43MDQ1LTUuNjY4LTAuNzk3OTUtNy40NTk0LTAuMTYzMDdtNzAuMzE0IDIuMjQxNGMtMy40NjIxIDEuODUwMy0xMC4zNCA4LjMxMTMtMTQuODg5IDEzLjk4Ny0wLjY0ODYyIDAuODA5NDItMS44NjM1IDIuMjIzLTIuNjk5OSAzLjE0MTMtMS45OTc4IDIuMTkzOS0xLjk5NTggMi4xOTA4LTIuMjgyNiAzLjQzNzUtMC41MzA3OCAyLjMwNDQtMC43MDAwOSAyLjgxNjUtMS40MjY5IDQuMzA2NC0wLjQxMzMzIDAuODQ4MTktMC44MTQ1NSAxLjY0NjItMC44OTA4NiAxLjc3MzRsLTIuMDk5MSA0Ljc4NTZjLTAuMTI4ODQgMC4yOTM3My0wLjIxNDk5IDEuNjA4Ni0wLjIxNDk5IDEuNjA4Ni0wLjI3MTkxIDEuMjQ4LTAuMTYzNSAxLjQ0MDYgMC4yNTc1NyAwLjQ1NzE1IDAuMTcyLTAuNDAxOSAwLjY2NTQ1LTEuMTYgMS4wOTYtMS42ODUyIDAuNDMxMDctMC41MjU2NSAwLjk4NDk4LTEuMjMzNyAxLjIzMi0xLjU3NCAwLjI0NjUzLTAuMzQwMyAwLjU0Mjk0LTAuNzE4MDYgMC42NTg0Ny0wLjgzOTE0IDAuMjI5NTEtMC4yNDA1OSA0LjYwNzItNi4wMDgxIDUuNDE0Mi03LjEzMzUgMS43Nzc4LTIuNDc4OCAxMS45OTYtMTMuMDk2IDE0Ljg1NC0xNS40MzMgMC44MTgwMy0wLjY2OTE3IDEuNDg2Ni0xLjI0NjggMS40ODYxLTEuMjgzLTFlLTMgLTAuMDM2Ny0wLjE4MDYxLTAuNDcyNTgtMC40MDA2OS0wLjk2OTA1LTAuNDk5MzUtMS4xMjgyLTAuNDk4NzEtMS4xNTQyIDAuMDM0Ny0xLjM0NzQgMC41MzM5LTAuMTkzNjcgMC42MzQ2OC0wLjEzMTQ0IDEuMDM2IDAuNjQyMjggMC4xNzMzNyAwLjMzMzk4IDAuMzk4MyAwLjcwOTUxIDAuNDk5NTMgMC44MzQ0NiAwLjEwMTc0IDAuMTI0NDMgMC41ODYxMiAxLjAxMjcgMS4wNzY4IDEuOTczMiAwLjQ5MDEyIDAuOTYwNTUgMC45OTQwNyAxLjkxNjggMS4xMTkyIDIuMTI1NiAwLjg2Mjc2IDEuNDM3NCAxLjQ5OTcgMi44MTU1IDEuNzkxMSAzLjg3NTQgMC4wNDYzIDAuMTY3NTkgMC4yMjA1MyAwLjU5NDM3IDAuMzg2OTkgMC45NDg4NiAwLjE2Njk4IDAuMzUzOTUgMC4zMDQ1NyAwLjczOTQ3IDAuMzA2MzQgMC44NTY3MyAyZS0zIDAuMTE2NzYgMC4xMTk5NCAwLjQ3NzA3IDAuMjYyNzcgMC44MDA3OSAwLjE0MjMyIDAuMzIzNzQgMC4yODY4NyAwLjc5NDgzIDAuMzIwNTUgMS4wNDY4IDAuMTUwMTkgMS4xMTYxIDAuNjUzOSAyLjY2ODYgMC44NjU0IDIuNjY1NCAwLjIwNjMyLTNlLTMgMC42MzAyNC0zLjAxMDIgMC43MDI3Ny00Ljk4NDQgMC4xNTIyLTQuMTU5Ny0wLjUzNDI4LTEwLjAzNS0xLjQ3NjQtMTIuNjM1bC0wLjM0Njk3LTAuOTU3MS0xLjYyNzgtMC4zOTUyYy0yLjYzNzItMC42NDA2MS0zLjg4OC0wLjY0Nzc5LTUuMDQ0NC0wLjAyOTZtLTI4LjMxOCA0MC43NzRjLTEuMTUzNyAwLjczMDMyLTIuOTQ4MSAxLjQ2NDctMy42MDMyIDEuNDc0Ni0wLjgyMTc4IDAuMDEyNC0xLjAyNzUgMS41ODYyLTEuMjQ5IDkuNTcxMy0wLjAzMjcgMS4xNzE5LTAuMDg5NSAyLjE4MS0wLjEyNjYzIDIuMjQyOC0wLjA1MzcgMC4wODktMC4xODA4OSA0LjQwNjQtMC4xNjg1NiA1LjczMTIgNGUtMyAwLjQyMTY5LTAuMjM4NzYgMS44NzQ3LTAuNDI3NTkgMi41NTg5LTAuMTI1MzcgMC40NTU3Ni0wLjEwMTcyIDAuNjkzMDYgMC4xMjA5MiAxLjIyMjEgMC4yMTAzMyAwLjQ5ODE1IDAuMjU2MjYgMC44ODA5NiAwLjE5MDI5IDEuNTg4OC0wLjEzODA0IDEuNDg5Ny0wLjAxMTEgMS45MDE1IDAuODQ5MjIgMS44ODU1IDEuMTYwOC0wLjAyMSAxLjQwNTEtMC42MjcxMSAxLjM3MzctMi43MDIzLTAuMDEwNS0wLjY5MzkyIDAuMDM4Ni0xLjk3NTcgMC4xMDg3My0yLjg0ODQgMC4wNzA3LTAuODcyNjEgMC4xOTI1Mi0yLjM3OTQgMC4yNzA1LTMuMzQ4NSAwLjE0ODY5LTEuODQwNyAwLjM1MTU0LTMuMTI4NCAwLjg1NjM4LTUuNDQ1NyAwLjQzODQ4LTIuMDA5OCAxLjExNjYtNC43NDU0IDEuNTgwOS02LjM3NDYgMC40NTIwNy0xLjU4NzggMC44NDM5NC0zLjEwNTIgMC45NTI0OS0zLjY4NzIgMC4wNTQ3LTAuMjk1NiAwLjE1MDg5LTAuNjA2NjEgMC4yMTI5MS0wLjY5MTY3IDAuMTA1MzktMC4xNDM4OSAwLjMzNDczLTEuOTI2MSAwLjI0NTk0LTEuOTEtMC4wMjE1IDRlLTMgLTAuNTU1OTcgMC4zMzM3NC0xLjE4NzEgMC43MzMzOG0tNy4yMjc5IDEyLjg4NWMtMC4yMDI3OCAwLjI3MjgzLTAuNDUxNTEgMC42MzgxNi0wLjU1MTgzIDAuODExNTQtMC4yMjQ3MSAwLjM4NzktMC4yMDQ4MyAzLjk4MDQgMC4wMjc4IDUuMTA2IDAuMTI0MzYgMC41OTg4OSAwLjExMjM2IDAuODk0ODQtMC4wNTE2IDEuMjg0NC0wLjIwNTE5IDAuNDg4MDgtMC4yMTM4NyAwLjQ1NzYyLTAuMjQwNjgtMC44NzEtMC4wNjA0LTIuOTY5Mi0wLjE2MjktMy4zODM4LTAuOTQ2NzMtMy44MjM0LTAuMzc5OTktMC4yMTMwNS0wLjcxMTY2LTAuMzYzNi0wLjczNzQ4LTAuMzM0NjUtMC4xMzYxNSAwLjE1MTk3LTAuMjk2IDMuMzk3OS0wLjE4ODk4IDMuODM2OSAwLjA2OTEgMC4yODMwMSAwLjA2NjkgMC42Nzg3OS01ZS0zIDAuODc5MjgtMC4wNzggMC4yMTk0NS0wLjA1NjQgMC44MjkwNiAwLjA1NDQgMS41MjMgMC4xMDEyNCAwLjYzNjQ1IDAuMjExMTkgMi4wMTc5IDAuMjQ0MDkgMy4wNjk1bDAuMDU5MyAxLjkwOGgxLjQ1OHMwLjEzNDkzLTEuNzY3IDAuMTI4MzYtMi4zMzcyYy0wLjAxOTItMS4yNzMxIDAuMTgyNzEtMS44MDMgMC4zOTE1OC0xLjAyNzkgMC4wNjIyIDAuMjMxNjIgMC4xMjUzNiAwLjgzNjAyIDAuMTQwNzUgMS4zNDMyIDAuMDE0OSAwLjUwNzIgMC4wODA1IDEuMDAxNCAwLjE0NTgxIDEuMDk3OC0yZS0zIDAuMDk2OSAwLjA3ODQgMC43ODkyMSAwLjAyODUgMC45MjQwOWgxLjM2OTRsLTAuMTc5MjYtNS41OTZjLTAuMjkyMzMtOC42MzcyLTAuMzI5NjUtOC44OTMyLTEuMTQ2OC03Ljc5MzZtLTUuMjMxMiAyLjE1MDhjMC4wNjE4IDExLjU5NyA4ZS0zIDExLjI1NSAxLjEwMjggMTEuMjM5IDEuMDIwOS0wLjAxNTQgMC45NjMyMyAwLjEyMzU4IDAuOTAxOTctNS40NTU3LTAuMDY5LTYuMjkzNy0wLjEwMTctNi41MjAxLTEuMDU0Ni03LjM3OTQtMC45OTMtMC44OTUzNi0wLjk2Mzg5LTAuOTQ0MjUtMC45NTAxNSAxLjU5NjNtLTAuODA5MzEtODYuNzA1cy0yLjE1NjQgNi44MDQ2IDMuMDE4OSAxMi45ODZsLTAuOTMxNzktNS4xNDE3IDIuMzY5MyA0LjMyNy0wLjQzMTMyLTQuMzEyNyAyLjA2MDYgMy43Mzc3YzAuNDc5MTktNy42MTkxLTYuMDg1Ny0xMS41OTYtNi4wODU3LTExLjU5NnptMTQuNjE1IDIuNjgzNHMtNy43NjI5IDQuNzQ0LTYuNTE3IDEwLjY4NmwyLjM5NTktMy45MjkzLTAuNjcwOSA0LjA3MzIgMi4xNTY0LTMuNTkzOS0wLjc2NjYzIDQuNTUyM2M0LjQ1NjUtNi40NjkgMy40MDIzLTExLjc4OCAzLjQwMjMtMTEuNzg4em0yLjkyMyA0LjM2MDdzLTEuNzI1IDUuOTQyIDMuMTYyNyA5LjUzNTlsLTAuNjIyOTQtMy4wNjY4IDEuNDM3NSAxLjM0MTYtMC41NzUwMi0yLjc3OTEgMS42NzcxIDEuNzczYy0wLjgxNDYzLTQuNTUyMy01LjA3OTQtNi44MDQ1LTUuMDc5NC02LjgwNDV6bS0xOC4wNzcgNS4wMTUxYy0yLjQzOTYgMTEuMDQ2IDIuNjQyOSAxNC4xNjMgMi42NDI5IDE0LjE2M2wtMC44ODA5OC01LjE1MDMgMi41MDc0IDQuMDY2LTAuNDA2Ni00LjU0MDQgMi43Nzg1IDQuNDcyNmMwLjQ3NDU0LTguMTMyMS02LjY0MS0xMy4wMTEtNi42NDEtMTMuMDExem0xNS43OSAxLjYyNjRzLTUuNjI0NyAyLjAzMy02Ljg0NDUgOS40ODc0bDMuMjUyOC0zLjU5MTctMC4yMDMzIDMuNzI3MiAyLjQzOTYtMi43MTA3djIuOTgxOGMzLjcyNzItNi4yMzQ2IDEuMzU1NC05Ljg5NDEgMS4zNTU0LTkuODk0MXptMy4zMjA2IDIuNzEwN3MtMi45ODE4IDQuOTQ3IDAuNjc3NjcgMTAuMjMzbC0wLjEzNTUyLTMuNzk1IDEuNjk0MiAzLjM4ODQgMC43NDU0NC0zLjA0OTUgMS42OTQyIDIuMTY4NmMwLjk0ODc0LTQuOTQ3LTQuNjc2LTguOTQ1My00LjY3Ni04Ljk0NTN6bTExLjY3MSA0LjQ4NzFjLTcuNTk1NiAyLjA0My02LjQ0MDEgMTAuNjEtNi40NDAxIDEwLjYxbDIuMTk4OS0zLjcxMTMgMC4yMTg3MiAzLjYzNjYgMS45NzE3LTIuODkzMiAwLjIwMzMxIDMuNTcwNWMzLjMwMTEtMy43NTg2IDEuODQ3Ny0xMS4yMTMgMS44NDc3LTExLjIxM3ptLTMzLjAxNyAxLjg4MzFjLTIuNzc4NSA0LjIwMTYgMS4yMTk4IDEwLjc3NSAxLjIxOTggMTAuNzc1bDAuNTQyMTQtMy42NTk1IDEuMzU1MyAyLjg0NjIgMC4wNjc4LTIuNzEwNyAxLjY5NDIgMS44Mjk3YzEuMDg0My00LjI2OTQtNC44NzkzLTkuMDgwOC00Ljg3OTMtOS4wODA4em0xOC41NjEgMS4zMTQ3cy0xLjI4IDYuODg1MiAwLjc1MzA4IDExLjM1OGwwLjY3NzY2LTIuODQ2MiAxLjQyMzEgMi4xNjg2IDAuMjAzMjktMi42NDI5IDEuNjk0MiAyLjMwNDFjMC4zMzg4Mi0zLjg2MjctNC43NTE0LTEwLjM0MS00Ljc1MTQtMTAuMzQxem0tMy44ODM1IDAuNjE3OGMtNS41NTU0IDIuMTYxNC03LjA3NDEgOC4zNDE5LTcuMDc0MSA4LjM0MTlsMy43NzQ4LTIuNjYxNC0wLjkxMjcyIDMuMzMzNCAyLjE1MjQtMi4xNTUtMC4xNjE5NiAzLjU4MDNjMy40MzkyLTMuODM2MSAyLjIyMTgtMTAuNDM5IDIuMjIxOC0xMC40Mzl6bS0xNy4wNDkgNi42MDYycy0zLjE4NTEgNi41MDU3IDAuMzM4ODMgMTEuNTg4bDAuMDY3OC0zLjkzMDUgMS44Mjk3IDMuNTkxNyAwLjA2NzgtMy45MzA1IDIuMDMzIDQuNjc2czEuMTUyLTkuNTU1Mi00LjMzNzEtMTEuOTk1em01NC4wOSAyMy42NzFjMmUtMyAwLjA3MjEgNWUtMyAwLjE3MDc4IDVlLTMgMC4xNzA3OC0xZS0zIC0wLjA1NjYtM2UtMyAtMC4xMTM2Ni01ZS0zIC0wLjE3MDc4em0tMzUuNzYtMjIuNTY4Yy0yLjMzOTIgMi43Mjk3IDAuMzA2MTQgMTAuOTU5IDAuMzA2MTQgMTAuOTU5bDAuNjA5OTEtMy45OTgzIDEuMTUyIDIuODQ2MiAwLjA2NzgtMi45MTQgMS4yOTIgMy4wMTc4YzEuMjkxOS00LjkxMS0zLjQyNzgtOS45MTEyLTMuNDI3OC05LjkxMTJ6bS03LjI4MzggMi40MjA2Yy01LjY5MjUgMy40NTYxLTQuMjY5NCA5LjY5MDgtNC4yNjk0IDkuNjkwOGwxLjg5NzUtNC4yNjk0IDAuNjc3NjcgMy40NTYxIDEuMTUyMS0yLjg0NjIgMC4yNzEwNiAzLjc5NWMyLjM3MTktNC4xMzM4IDAuMjcxMDctOS44MjYzIDAuMjcxMDctOS44MjYzem0yMS4yMTEgMC4yNzEwN2MtOC45NDUzIDEuODk3NS05LjAxMzEgOC44MDk4LTkuMDEzMSA4LjgwOThsMy4zMjA2LTIuOTgxOC0xLjA4NDMgMy45MzA1IDIuNjQyOS0zLjU5MTctMC44ODA5OCA0Ljg3OTNjMi42NDI5LTEuNDIzMSA1LjAxNDgtMTEuMDQ2IDUuMDE0OC0xMS4wNDZ6bS0xNi41MzUgMy4zODg0Yy01Ljc2MDIgNi40Mzc5LTIuNDM5NiAxMS43OTItMi40Mzk2IDExLjc5MmwwLjY3NzY4LTQuNjA4MiAwLjg4MDk5IDIuNzc4NSAxLjA4NDMtMi45MTQgMS4xNTIgNC4yNjk0YzIuMzcxOS0zLjUyMzktMS4zNTU0LTExLjMxNy0xLjM1NTQtMTEuMzE3em0tMTkuNTU1IDMuNTcwNXMtMS43MjM1IDUuNDQyNiAzLjIyMzUgOS45MTUybC0wLjgxMzIxLTMuOTk4MyAyLjE2ODYgMy4wNDk1LTAuNDA2NjEtMi45ODE4IDIuNTc1MiAyLjkxNHMwLjMyOTYxLTYuOTU0NS02Ljc0NzQtOC44OTg3em0xMi44NDcgMy42ODA2cy01LjE1MDMgMy42NTk0LTMuMDQ5NSA5LjE0ODZsMS44Mjk3LTMuNTkxNyAwLjYwOTkgMi45ODE4IDEuMTUyLTMuNDU2MSAxLjQ5MDkgMy43OTVjMC45NDg3NS01LjA4MjYtMi4wMzMtOC44Nzc1LTIuMDMzLTguODc3NXptMTYuMzMyIDIuMTkxOGMtNi41MDU3IDAuNjc3NjctNi45OCA4LjYwNjUtNi45OCA4LjYwNjVsMi45MTQtMi40Mzk2LTEuMTUyIDIuOTE0IDIuNTA3NC0yLjk4MTgtMC4wNjc4IDMuMzIwNmMyLjAzMy0yLjc3ODUgMi43Nzg1LTkuNDE5NyAyLjc3ODUtOS40MTk3em0tMTAuMjMzIDIuODkwOHMtNC4xMzM4IDIuODQ2Mi0xLjYyNjQgOS41NTUybDAuNDA2NjEtMy4zMjA2IDEuMTUyIDMuODYyNyAwLjQ3NDM3LTMuNzk1IDEuMjg3NiAyLjk4MThjMS4wODQzLTQuMjAxNi0xLjY5NDItOS4yODQyLTEuNjk0Mi05LjI4NDJ6bS0xOC4yMjkgMC44MTMyMXMtMS45NjUzIDQuMjY5NCAyLjAzMyA5Ljc1ODVsMC4zMzg4NS0zLjUyMzkgMS44Mjk3IDIuMTY4Ni0wLjgxMzIxLTIuODQ2MiAzLjQ1NjIgMi42NDI5cy0yLjcxMDctNi41NzM0LTYuODQ0NS04LjE5OTl6bTEyLjYzOSA0LjI2OTRzLTQuNTQwNCA0LjY3Ni0xLjI4NzYgMTEuNTg4YzAuMzcyNzMtMS4yODc2IDAuNzExNTYtNS4xODQyIDAuNzExNTYtNS4xODQyIDAuMjAzMyAwLjAzMzkgMC44NDcwOSAyLjk4MTggMC44NDcwOSAyLjk4MTggMC4yMDMzMS0wLjAzMzkgMC41NzYwMy0yLjg4MDEgMC41NzYwMy0yLjg4MDEgMC40MDY2IDAuMzM4ODQgMS40OTA5IDQuNzc3NiAxLjQ5MDkgNC43Nzc2IDEuNTI0OC04LjI2NzYtMi4zMzgtMTEuMjgzLTIuMzM4LTExLjI4M3ptMTAuODE1IDQuMzM3NWMtNS40NDg0IDEuMDk0OS02LjA1MDQgOC41MTc5LTYuMDUwNCA4LjUxNzlsMi43MjQ5LTIuMzc0OS0wLjgwNTI2IDMuMDQ3OCAyLjUwNzctMy4xNjE3LTAuNzUwMzYgNC4wNzJjNC41NjQ1LTIuODU5MyAyLjM3MzQtMTAuMTAxIDIuMzczNC0xMC4xMDF6bS0xOS4xMTcgMC41NzU2OWMtMS44Mjk3IDEwLjA2MyAyLjk0NzkgMTIuMzM0IDIuOTQ3OSAxMi4zMzRsLTAuNTA5NjEtMy41Mjg4IDEuNzk3MiAxLjY5OTEtMC42Nzc2Ni0zLjIxOWMwLjU3NjAyIDAuMzA0OTUgMi40NzM1IDIuMzcxOSAyLjQ3MzUgMi4zNzE5IDAtOC44MDk4LTYuMDMxMy05LjY1NjktNi4wMzEzLTkuNjU2OXptOC40Njk2IDcuNjY5OGMtNS44NzE0IDguMDc2My0yLjA1NzQgMTIuMjU0LTIuMDU3NCAxMi4yNTQgMC4zMDQ5Ni0wLjMwNDk1IDEuMDE2NS0zLjYyNTYgMS4wMTY1LTMuNjI1NmwwLjU0MjEzIDIuNjA5MSAwLjgwODk4LTMuMzQ4MmMwLjQzNjM0IDAuODE5NDUgMC43NDk2NyAzLjkyNDIgMC43NDk2NyAzLjkyNDIgMy4xMDA0LTcuMTMyNS0xLjA1OTktMTEuODEzLTEuMDU5OS0xMS44MTN6bTUuNzU5Mi0xMDMuODctMTIuNSA2LjdlLTQgLTAuNDg5OTEgNy42NjI4YzYuODkwMyAzLjU1MjIgMTUuMDUgMTcuMDMxIDE1LjA1IDE3LjAzMSAwLjg2NyAxLjYzMiAxLjMxMzMgNy40MzA4IDEuNDgyNCAxMC4yMzIgMC40NTU2NCAwLjEyODk1IDAuOTAxMTEgMC4yODkwMiAxLjM1MDYgMC40MzcxOC0wLjExOTgtMS40MTE2IDZlLTMgLTIuODI0MiAwLjYzNjQtMy45MzQzIDAgMC0wLjY0NzU1LTkuNTY1IDAuNjI4NTgtOS43ODI2IDAgMCA1LjM4NzYgMy4wNzg0IDYuNTQyIDcuODg4NyAwIDAgNy4xMTkxIDQuMTM3IDUuNTc5OCAxMS44MzMgMCAwIDAuNDYwNTcgMi4wMDMzIDAuNzIxMzYgMy41NTM3IDAuMjg2NDIgMC4zMzI1NiAwLjU3NDcgMC42NjM0OSAwLjg0ODMxIDEuMDA3OCAxLjA5OTggMS4zODQyIDIuMDc4NiAyLjg1MjggMi45NDExIDQuMzg0NSA1LjQ2NDQtMTMuNzA1IDkuOTgzOC0xMi42NjEgOS45ODM4LTEyLjY2MSAxMS42NjcgMi43MjExIDExLjQ2MyAyMS4xNTcgMTEuNDYzIDIxLjE1Ny04LjcwNzUtMTMuOTEyLTEyLjkyNS0xMi43NTUtMTIuOTI1LTEyLjc1NWwtNi4wNjE2IDkuNzE1OWMwLjM5MTE1IDEuMTMwNyAwLjcyNTE3IDIuMjgzMiAwLjk5MzQ5IDMuNDU0OCAwLjYzMzU5IDIuNzY2NiAwLjkwODc1IDUuNTkzOCAwLjgyNjUxIDguNDEzMSA0LjMxMzUtMy44MDQ5IDkuMTk5OS0yLjc5NTkgOS4xOTk5LTIuNzk1OSA3LjY5NjQgMS4zNDY5IDMuNTU5NiAyMC43OCAyLjY5MzcgMjAuOTczLTAuNDgxMDMtMC40ODEwMy02LjQ0NTctMTMuMzcyLTYuNDQ1Ny0xMy4zNzItMC45ODgzIDAtNi42NzggNi4yMDYxLTguNTI1MSA4LjIzNTctMC4wNjk3IDAuMTUwMzMtMC4xMzczOSAwLjMwMTUyLTAuMjA5MzEgMC40NTA4NS0xLjA3NjggMi4yMzYzLTIuNCA0LjM0NTMtMy45NDUgNi4yODc4LTIuMTU5IDIuNzE0Mi00LjcyOTcgNS4wNTY1LTcuNTk5MyA2Ljk3MDQgMCAwLTQuMjk2IDQuNjA2Ni02LjM3MDIgOS4yMjU2LTIuMjY5IDUuMDUzLTIuNzE0OSAxNi4zOTQtMi43MTQ5IDE2LjM5NCAyLjU0OC0wLjQ0OTE4IDUuMDYyMi0xLjA3NjcgNy41MjE4LTEuODg1OGw2LjM3MjggMTEuMzIyIDExLjI2Mi01LjQyMzgtNC44ODEyLTEyLjAzOWMyLjgyMjMtMS44NDg1IDUuNDY1OC0zLjk1NjYgNy44OTU5LTYuMjk2OWwxMC42NTMgNy40MzUyIDcuNzkzNy05Ljc3MzUtOS42MjExLTguNzI5MmMwLjg3MDEtMS40NDQyIDEuNjcyMy0yLjkyODIgMi40MDQtNC40NDczIDAuNzMxNDItMS41MTg4IDEuMzkxNS0zLjA3MSAxLjk3ODItNC42NTE0bDEyLjgyNCAyLjA3NjggMi43ODEzLTEyLjE4Ny0xMi40NTYtMy42OTA0YzAuMzE0ODItMy4zNTkgMC4zMTUwOC02Ljc0IDFlLTMgLTEwLjA5OWwxMi40NTUtMy42OTMtMi43ODE2LTEyLjE4Ny0xMi44MjMgMi4wNzkxYy0xLjE3NDItMy4xNjI4LTIuNjQxMy02LjIwOTEtNC4zODIyLTkuMDk5bDkuNjE4OS04LjczMTgtNy43OTMzLTkuNzcyNS0xMC42NTEgNy40MzcyYy0yLjQyOTktMi4zNDAyLTUuMDcyOS00LjQ0ODQtNy44OTQ5LTYuMjk2OWw0Ljg3OC0xMi4wNDEtMTEuMjYyLTUuNDIyOS02LjM2OTIgMTEuMzIyYy0zLjIwNjUtMS4wNTQ4LTYuNTA0Ni0xLjgwNzUtOS44NTEzLTIuMjQ4NHptLTI5LjU0NCAzLjg5MDYtMTEuMjYyIDUuNDIzOSA0Ljg3ODYgMTIuMDQxYy0yLjgyMjIgMS44NDgzLTUuNDY1NSAzLjk1NjItNy44OTU2IDYuMjk2M2wtMTAuNjUxLTcuNDM2OS03Ljc5MzMgOS43NzMyIDkuNjE5OCA4LjczMTVjLTAuODY5NDkgMS40NDM1LTEuNjcxMiAyLjkyNjgtMi40MDI0IDQuNDQ1LTAuNzMxNzMgMS41MTk4LTEuMzkyMSAzLjA3MjktMS45Nzg4IDQuNjU0M2wtMTIuODI0LTIuMDc5MS0yLjc4MTMgMTIuMTg3IDEyLjQ1NSAzLjY5M2MtMC4zMTQ1IDMuMzU5LTAuMzE0NSA2Ljc0IDAgMTAuMDk5bC0xMi40NTYgMy42OTA0IDIuNzgxNiAxMi4xODcgMTIuODI1LTIuMDc2NWMxLjE3NDIgMy4xNjI3IDIuNjQxMyA2LjIwODkgNC4zODIyIDkuMDk4N2wtOS42MjExIDguNzI5MiA3Ljc5MzYgOS43NzI1IDEwLjY1NC03LjQzNTJjMi40MyAyLjM0IDUuMDczNCA0LjQ0OCA3Ljg5NTYgNi4yOTYybC00Ljg4MDkgMTIuMDM5IDExLjI2MiA1LjQyMzUgNi4zNzI0LTExLjMyMWMyLjQ1NzYgMC44MDgyMSA0Ljk2OTYgMS40MzU1IDcuNTE1MyAxLjg4NDQtMi4yODUyLTkuNzkyNy01Ljc2NjktMjAuNTM1LTcuMDMzNi0yNC4zNDItOS42NTQ2LTUuNDY0My0xNS42MDMtMTUuMTYzLTE2LjY4NS0yNS41OTYtMS43MDM1IDEuMTIzNC03LjUxNSA1LjQyMDMtMTIuMzg1IDE0LjU5MiAwIDAtNC4xMzctOC4wMjA5IDEyLjQwNS0yMS42MjcgMC40MDE0OC0zLjY2MjYgMS4zODM2LTcuMzIwOCAzLjA3MzItMTAuODI5IDEuODMwOC0zLjc5NSA0LjMzNjgtNy4xNDU4IDcuMzM4Ni05LjkzNC0xLjM1NzgtMS44MTg3LTQuMjYyMy01LjUxODktNS4zOTM2LTUuNDY3NSAwIDAtMTQuNTk1IDkuMjcxNy0xNS40NzkgMTAuNyAwIDAtMy43MDAxLTUuMTYzNiAxNC44NjctMTkgMi4wNjE3LTEuNTM2NCAxMi4xMDcgMS40NDk3IDEzLjI1MyA4LjY1NzkgMy4yNzA1LTEuNzEwMyA2LjgzNjUtMi45MDA2IDEwLjU4OC0zLjQ1MjIgMC4wMzM3LTEuNTExMi03LjU2NTktMTguNTg1LTEwLjAzLTE5LjA2My0wLjY4Mjc3IDAuMTc1NDItMS4zNjIgMC4zNjQxNS0yLjAzNzQgMC41NjYwOHoiIHN0cm9rZS13aWR0aD0iLjU4NzIzIi8+CiAgPGcgc3Ryb2tlLXdpZHRoPSIzLjc3OTUiPgogICA8cGF0aCB0cmFuc2Zvcm09Im1hdHJpeCguMTg5MDQgMCAwIC4xODkwNiAxNzcuNjUgNjIuMDEzKSIgZD0ibTU2NS4xOSAxNDcuNDEgMTguOTE1IDU3Ljc2OSA2MC43ODcgMC4xMzc5LTQ5LjA5NyAzNS44NDEgMTguNjUzIDU3Ljg1NS00OS4yNTktMzUuNjE4LTQ5LjI1OSAzNS42MTggMTguNjUzLTU3Ljg1NS00OS4wOTctMzUuODQxIDYwLjc4Ny0wLjEzNzl6Ii8+CiAgIDxwYXRoIHRyYW5zZm9ybT0ibWF0cml4KC4xODkwNCAwIDAgLjE4OTA2IDE3Ny42NiAxMDAuNTgpIiBkPSJtNTY1LjE5IDE0Ny40MSAxOC45MTUgNTcuNzY5IDYwLjc4NyAwLjEzNzktNDkuMDk3IDM1Ljg0MSAxOC42NTMgNTcuODU1LTQ5LjI1OS0zNS42MTgtNDkuMjU5IDM1LjYxOCAxOC42NTMtNTcuODU1LTQ5LjA5Ny0zNS44NDEgNjAuNzg3LTAuMTM3OXoiLz4KICAgPHBhdGggdHJhbnNmb3JtPSJtYXRyaXgoLjE4OTA0IDAgMCAuMTg5MDYgMTYwLjk0IDEzNS4zMykiIGQ9Im01NjUuMTkgMTQ3LjQxIDE4LjkxNSA1Ny43NjkgNjAuNzg3IDAuMTM3OS00OS4wOTcgMzUuODQxIDE4LjY1MyA1Ny44NTUtNDkuMjU5LTM1LjYxOC00OS4yNTkgMzUuNjE4IDE4LjY1My01Ny44NTUtNDkuMDk3LTM1Ljg0MSA2MC43ODctMC4xMzc5eiIvPgogICA8cGF0aCB0cmFuc2Zvcm09Im1hdHJpeCguMTg5MDQgMCAwIC4xODkwNiAyNS4zNzkgMjcuMjYzKSIgZD0ibTU2NS4xOSAxNDcuNDEgMTguOTE1IDU3Ljc2OSA2MC43ODcgMC4xMzc5LTQ5LjA5NyAzNS44NDEgMTguNjUzIDU3Ljg1NS00OS4yNTktMzUuNjE4LTQ5LjI1OSAzNS42MTggMTguNjUzLTU3Ljg1NS00OS4wOTctMzUuODQxIDYwLjc4Ny0wLjEzNzl6Ii8+CiAgIDxwYXRoIHRyYW5zZm9ybT0ibWF0cml4KC4xODkwNCAwIDAgLjE4OTA2IDkzLjE1OCAtNS4zNjk5KSIgZD0ibTU2NS4xOSAxNDcuNDEgMTguOTE1IDU3Ljc2OSA2MC43ODcgMC4xMzc5LTQ5LjA5NyAzNS44NDEgMTguNjUzIDU3Ljg1NS00OS4yNTktMzUuNjE4LTQ5LjI1OSAzNS42MTggMTguNjUzLTU3Ljg1NS00OS4wOTctMzUuODQxIDYwLjc4Ny0wLjEzNzl6Ii8+CiAgIDxwYXRoIHRyYW5zZm9ybT0ibWF0cml4KC4xODkwNCAwIDAgLjE4OTA2IDkzLjE1OCAxNjcuOTYpIiBkPSJtNTY1LjE5IDE0Ny40MSAxOC45MTUgNTcuNzY5IDYwLjc4NyAwLjEzNzktNDkuMDk3IDM1Ljg0MSAxOC42NTMgNTcuODU1LTQ5LjI1OS0zNS42MTgtNDkuMjU5IDM1LjYxOCAxOC42NTMtNTcuODU1LTQ5LjA5Ny0zNS44NDEgNjAuNzg3LTAuMTM3OXoiLz4KICAgPHBhdGggdHJhbnNmb3JtPSJtYXRyaXgoLjE4OTA0IDAgMCAuMTg5MDYgMTMwLjc2IDE1OS4zOCkiIGQ9Im01NjUuMTkgMTQ3LjQxIDE4LjkxNSA1Ny43NjkgNjAuNzg3IDAuMTM3OS00OS4wOTcgMzUuODQxIDE4LjY1MyA1Ny44NTUtNDkuMjU5LTM1LjYxOC00OS4yNTkgMzUuNjE4IDE4LjY1My01Ny44NTUtNDkuMDk3LTM1Ljg0MSA2MC43ODctMC4xMzc5eiIvPgogICA8cGF0aCB0cmFuc2Zvcm09Im1hdHJpeCguMTg5MDQgMCAwIC4xODkwNiA1NS41MiAzLjIxMzUpIiBkPSJtNTY1LjE5IDE0Ny40MSAxOC45MTUgNTcuNzY5IDYwLjc4NyAwLjEzNzktNDkuMDk3IDM1Ljg0MSAxOC42NTMgNTcuODU1LTQ5LjI1OS0zNS42MTgtNDkuMjU5IDM1LjYxOCAxOC42NTMtNTcuODU1LTQ5LjA5Ny0zNS44NDEgNjAuNzg3LTAuMTM3OXoiLz4KICAgPHBhdGggdHJhbnNmb3JtPSJtYXRyaXgoLjE4OTA0IDAgMCAuMTg5MDYgMTMwLjc2IDMuMjEzNSkiIGQ9Im01NjUuMTkgMTQ3LjQxIDE4LjkxNSA1Ny43NjkgNjAuNzg3IDAuMTM3OS00OS4wOTcgMzUuODQxIDE4LjY1MyA1Ny44NTUtNDkuMjU5LTM1LjYxOC00OS4yNTkgMzUuNjE4IDE4LjY1My01Ny44NTUtNDkuMDk3LTM1Ljg0MSA2MC43ODctMC4xMzc5eiIvPgogICA8cGF0aCB0cmFuc2Zvcm09Im1hdHJpeCguMTg5MDQgMCAwIC4xODkwNiA1NS41NjEgMTU5LjM4KSIgZD0ibTU2NS4xOSAxNDcuNDEgMTguOTE1IDU3Ljc2OSA2MC43ODcgMC4xMzc5LTQ5LjA5NyAzNS44NDEgMTguNjUzIDU3Ljg1NS00OS4yNTktMzUuNjE4LTQ5LjI1OSAzNS42MTggMTguNjUzLTU3Ljg1NS00OS4wOTctMzUuODQxIDYwLjc4Ny0wLjEzNzl6Ii8+CiAgIDxwYXRoIHRyYW5zZm9ybT0ibWF0cml4KC4xODkwNCAwIDAgLjE4OTA2IDE2MC45MiAyNy4yNjMpIiBkPSJtNTY1LjE5IDE0Ny40MSAxOC45MTUgNTcuNzY5IDYwLjc4NyAwLjEzNzktNDkuMDk3IDM1Ljg0MSAxOC42NTMgNTcuODU1LTQ5LjI1OS0zNS42MTgtNDkuMjU5IDM1LjYxOCAxOC42NTMtNTcuODU1LTQ5LjA5Ny0zNS44NDEgNjAuNzg3LTAuMTM3OXoiLz4KICAgPHBhdGggdHJhbnNmb3JtPSJtYXRyaXgoLjE4OTA0IDAgMCAuMTg5MDYgMjUuNDA3IDEzNS4zMykiIGQ9Im01NjUuMTkgMTQ3LjQxIDE4LjkxNSA1Ny43NjkgNjAuNzg3IDAuMTM3OS00OS4wOTcgMzUuODQxIDE4LjY1MyA1Ny44NTUtNDkuMjU5LTM1LjYxOC00OS4yNTkgMzUuNjE4IDE4LjY1My01Ny44NTUtNDkuMDk3LTM1Ljg0MSA2MC43ODctMC4xMzc5eiIvPgogICA8cGF0aCB0cmFuc2Zvcm09Im1hdHJpeCguMTg5MDQgMCAwIC4xODkwNiA4LjY2ODUgMTAwLjU4KSIgZD0ibTU2NS4xOSAxNDcuNDEgMTguOTE1IDU3Ljc2OSA2MC43ODcgMC4xMzc5LTQ5LjA5NyAzNS44NDEgMTguNjUzIDU3Ljg1NS00OS4yNTktMzUuNjE4LTQ5LjI1OSAzNS42MTggMTguNjUzLTU3Ljg1NS00OS4wOTctMzUuODQxIDYwLjc4Ny0wLjEzNzl6Ii8+CiAgIDxwYXRoIHRyYW5zZm9ybT0ibWF0cml4KC4xODkwNCAwIDAgLjE4OTA2IDguNjU4NCA2Mi4wMTMpIiBkPSJtNTY1LjE5IDE0Ny40MSAxOC45MTUgNTcuNzY5IDYwLjc4NyAwLjEzNzktNDkuMDk3IDM1Ljg0MSAxOC42NTMgNTcuODU1LTQ5LjI1OS0zNS42MTgtNDkuMjU5IDM1LjYxOCAxOC42NTMtNTcuODU1LTQ5LjA5Ny0zNS44NDEgNjAuNzg3LTAuMTM3OXoiLz4KICA8L2c+CiA8L2c+Cjwvc3ZnPg=="
+            },
+            {
+              "validFrom": "2010-10-21",
+              "validTo": null,
+              "policy": "default"
+            }
+          ]
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "MMR",
+          "featureProperties": {
+            "name": "미얀마"
+          },
+          "geometrySha256": "f0d172efd6512904e06eecce4ed4fb44b2ec4a01c08b6801ed82be0407a1f76f",
+          "attributeHistoryEvidence": {
+            "officialNames": {
+              "scope": "2000-2026",
+              "effectiveDates": [
+                "2010-10-21"
+              ],
+              "sources": [
+                "https://www.yna.co.kr/view/AKR20101022148500009"
+              ],
+              "displayPolicy": "Retain common names unless the country name itself changed; amend formal names otherwise."
+            },
+            "flag": {
+              "scope": "2000-2026",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar_(1974–2010).svg"
+              ],
+              "artwork": [
+                {
+                  "file": "Flag_of_Myanmar_(1974–2010).svg",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Myanmar_(1974%E2%80%932010).svg",
+                  "sha256": "0dd59e6893b9dd9b613e926e722f68bb6b489b1e93c8efa6ba96eebbf193e696"
+                }
+              ],
+              "sourceArtwork": "Wikimedia Commons historical SVG (see individual source-page licenses); used only for original historical artwork."
+            }
+          },
+          "geometryVersionId": "state:MMR:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:MMR",
+            "versionId": "state:MMR:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "3d8ade051929cdfa58522b70b75028135bdc4a59132e17106d7d3fe8f99937c3",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "MMR",
+              "geometryVersionId": "state:MMR:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "CHN",
+      "path": "assets/data/territorial-entities/source/countries/state-CHN.json",
+      "descriptorSha256": "1ee4e5d258f93caad53d6bb0ea333566d84c417b30421ef2cdf519a355879d72",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:CHN",
+        "entityKind": "general",
+        "lineageId": "chn",
+        "names": {
+          "ko": "중화인민공화국"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1949-10-01",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:CHN:paektu-lsib-11.4",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107+reviewed-korean-northern-20261108",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:CHN:state:CHN:paektu-lsib-11.4",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-f7f4671e898e00dc58ba4b5791bd5acc77d6b4a0cea7555feac008b7bd31cf6c.json",
+              "sha256": "f7f4671e898e00dc58ba4b5791bd5acc77d6b4a0cea7555feac008b7bd31cf6c",
+              "bytes": 1767074
+            },
+            "historicalProvenance": {
+              "evidenceStatus": "provisional",
+              "verifiedHistoricalGeometry": false,
+              "currentGeometrySource": {
+                "sourceId": "approved-current-world-display-20261107+reviewed-korean-northern-20261108",
+                "status": "approved-prepared-current-source-adoption",
+                "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/simplified-northern-replacement.geojson",
+                "sourceFileSha256": "f3b6a220e90380d4962cdae0e684b34d08b17e0a7835877590c9a6f213f86d42",
+                "featureId": "CHN",
+                "geometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6",
+                "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+                "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+                "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+                "upstream": {
+                  "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                  "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                  "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                  "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "sourceFileBytesLocallyVerified": false,
+                  "sourceWP_IDs": [
+                    "422131df-82bc-4f1b-9a1f-ee89cc970e19"
+                  ],
+                  "sourceWP_IDsEvidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                    "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                  }
+                },
+                "sourceReview": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                  "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                },
+                "spratlyEffectiveControl": {
+                  "sourceWP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+                  "sourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "componentIndices": [
+                    7
+                  ],
+                  "basis": "Current effective control, explicitly requested by the user. Not a legal sovereignty determination or a historical control-start date.",
+                  "sourceReferences": [
+                    "https://amti.csis.org/island-tracker/",
+                    "https://lawphil.net/executive/execord/eo2026/eo_111_2026.html"
+                  ],
+                  "report": "reports/borders/validation/world-map-integration-20261107/spratly-effective-control"
+                },
+                "spratlyAllocationEvidence": {
+                  "attribution": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+                    "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a"
+                  },
+                  "coverage": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+                    "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81"
+                  },
+                  "basis": "Saved prior observations bound to the exact approved base donor, not a fresh source-component coverage rerun. Current effective control only; no historical control-start date or sovereignty determination."
+                },
+                "northernReplacementEvidence": [
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/canonical-simplified-northern-validation.json",
+                    "sha256": "510bfaf831187dd64aef53a6e9714a72683ec9e4ab56860e23ce3dfe7ec4c0ae"
+                  },
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-final-topology-and-residue-proof.json",
+                    "sha256": "fc24b7e49cc8b20b27233c145d7fef035c7ffe90a953097b31e32c648ff6145c"
+                  },
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-island-preservation-proof.json",
+                    "sha256": "44f798663a0ecb0465f5dada9f87d4bd96640a18dbe1de3a01ed2bca17a10bfa"
+                  },
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/uniform-simplification-source-evidence.json",
+                    "sha256": "7f45bd2395ab019bd3c8b5e4260f7f02949b0b6529b9745adec83e887a6dd748"
+                  }
+                ]
+              },
+              "previousGeometryProvenance": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+                "entityId": "state:CHN",
+                "versionId": "state:CHN:paektu-lsib-11.4",
+                "priorVersionSha256": "3e0b752cea635640bc56067b925f9ac8dae3c5e77cd941057fe158faee166c0f",
+                "role": "Retired geometry attribution/reviews only. Political/date evidence remains preserved; old reviews do not certify the adopted geometry.",
+                "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+              },
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:CHN",
+                "versionId": "state:CHN:paektu-lsib-11.4",
+                "validFrom": null,
+                "validTo": null,
+                "geometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6",
+                "master": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/simplified-northern-replacement.geojson",
+                  "sha256": "f3b6a220e90380d4962cdae0e684b34d08b17e0a7835877590c9a6f213f86d42",
+                  "role": "Approved prepared current-display donor master. Original upstream survey/GPKG master is not revalidated by this receipt."
+                },
+                "source": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                  "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                  },
+                  "arcSha256": "cbacdc35cc59fde1e826baa66226b1ec9702d14bb3273f87bbfbef07af9fb35d",
+                  "arcDigestDefinition": "sha256(JSON.stringify([type, coordinates])) of this version original geometry, present at rows[entityId,versionId].original.geometry in reference",
+                  "extent": [
+                    62.50571145943582,
+                    12.432967672015838,
+                    147.49428854056418,
+                    56.34344135482215
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=36 +lon_0=105 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+                      "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Adopt the exact approved modern display-source geometry in this existing version and preserve its dates, political interpretation and uncertainty. Current-source visual/topology preservation is checked; boundary accuracy at validFrom is not newly asserted.",
+                "parameters": {
+                  "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                  "additionalSimplificationMetres": 0,
+                  "coordinateRounding": null,
+                  "upstreamSourceSkeletonMetres": 2000,
+                  "upstreamSourceSubordinateRuleMetres": 250,
+                  "upstreamParametersRole": "Recorded prepared donor parameters; not a new generalization run",
+                  "preserveLocalPoliticalExceptions": true,
+                  "historicalSourceAccuracyAsserted": false,
+                  "compiled": false
+                },
+                "visual": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+                  "sha256": "25e71b18d03ede72a0b3a2ad9a1f75a1ab237d089e17fd44ccee245ab2776be6"
+                },
+                "visualImages": [
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/east-asia.png",
+                    "sha256": "69601a7df33ba90efb7123feb0f4073a4ce5823956ca146ef6b89aa8f07f55b4"
+                  }
+                ],
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                    "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Validity and measured scoped neighbor intersections. Union, gaps, connectivity, holes and islands preserve the exact approved donor. Existing KAZ/KAB legal parent/subunit overlap and documented floating-point residuals are explicit exceptions, not clipped. Dates and all unselected versions are preserved, not historically re-established."
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:IND",
+                    "versionId": "state:IND:natural-earth-5.1.1",
+                    "geometrySha256": "73054256641b9962b4447eab2b41ed4099f6cee03af27882528b2d3f0219fe44"
+                  },
+                  {
+                    "entityId": "state:BTN",
+                    "versionId": "state:BTN:natural-earth-5.1.1",
+                    "geometrySha256": "738a303c6e36dc9131e0c3cb2ddc918d81d60f0947fdceb169ddb633e02d8671"
+                  },
+                  {
+                    "entityId": "state:KAZ",
+                    "versionId": "state:KAZ:natural-earth-5.1.1",
+                    "geometrySha256": "56a6d550a4c4401e183e6838ca4f3308f93395f2f44a32002728d66a0617ed24"
+                  },
+                  {
+                    "entityId": "state:TJK",
+                    "versionId": "state:TJK:natural-earth-5.1.1",
+                    "geometrySha256": "c395f35c3c0d74fa073ac0eec07c99e680e4a08df94da8913c57e619306a41f8"
+                  },
+                  {
+                    "entityId": "state:MNG",
+                    "versionId": "state:MNG:natural-earth-5.1.1",
+                    "geometrySha256": "95723f36b602c54d06f37105911748d2af9e253d620df5fe59f4da20181fa026"
+                  },
+                  {
+                    "entityId": "state:RUS",
+                    "versionId": "state:RUS:natural-earth-5.1.1",
+                    "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297"
+                  },
+                  {
+                    "entityId": "state:VNM",
+                    "versionId": "state:VNM:natural-earth-5.1.1",
+                    "geometrySha256": "8bdac7d231c796d87cf0afa2f1245396018e2fdf4d84aa520bf77b44fe5123d3"
+                  },
+                  {
+                    "entityId": "state:LAO",
+                    "versionId": "state:LAO:natural-earth-5.1.1",
+                    "geometrySha256": "e82dae57839c0ea7e4a136777fe7989579741425da7444886d75d01400a3e0da"
+                  },
+                  {
+                    "entityId": "state:KGZ",
+                    "versionId": "state:KGZ:natural-earth-5.1.1",
+                    "geometrySha256": "b295fef6e966d2645f37b3707a20c3c4142eaea08d49e54034b9b3de70932a77"
+                  },
+                  {
+                    "entityId": "state:PAK",
+                    "versionId": "state:PAK:natural-earth-5.1.1",
+                    "geometrySha256": "21df8b422a67c0fb062381790fa11e9a16a90db8d852d7b2e802fc0011650da6"
+                  },
+                  {
+                    "entityId": "state:MMR",
+                    "versionId": "state:MMR:natural-earth-5.1.1",
+                    "geometrySha256": "9ca2c3a2198319586b20e365c5bfd9b294f33fdb8377ba114363ee27c88336ed"
+                  },
+                  {
+                    "entityId": "state:AFG",
+                    "versionId": "state:AFG:natural-earth-5.1.1",
+                    "geometrySha256": "f41df58c39c49e0e8e94620c55258568c26b1bd878f7e0704a525ae2c329c0b9"
+                  },
+                  {
+                    "entityId": "state:NPL",
+                    "versionId": "state:NPL:natural-earth-5.1.1",
+                    "geometrySha256": "12b14b720d640e03d4fb4169e876f846d4611d2e1f852da74c28947820bea211"
+                  },
+                  {
+                    "entityId": "state:HKG",
+                    "versionId": "state:HKG:natural-earth-5.1.1",
+                    "geometrySha256": "038bf74a2d798349f3c71ac374dc4ff392a3c9a1a73941e337ceb81fd494828c"
+                  },
+                  {
+                    "entityId": "state:MAC",
+                    "versionId": "state:MAC:natural-earth-5.1.1",
+                    "geometrySha256": "3270fbb7753bdfb0f15a36bc11928ad17eaaa3f04deaa677e80da59182161285"
+                  },
+                  {
+                    "entityId": "state:PRK",
+                    "versionId": "state:PRK:sino-korean-protocol-1964",
+                    "geometrySha256": "33a140631cc1413f46a5cf153a372a5a227f3515da7fabedf131a7a8d3fa3afd"
+                  },
+                  {
+                    "entityId": "state:KAS",
+                    "versionId": "state:KAS:natural-earth-5.1.1",
+                    "geometrySha256": "00238ed92de0e11a41b39f9e0d89e0310a01b9a3ee35bcc29f10667420b4f21d"
+                  }
+                ],
+                "fixedAnchors": []
+              }
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107+reviewed-korean-northern-20261108",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/simplified-northern-replacement.geojson",
+              "sourceFileSha256": "f3b6a220e90380d4962cdae0e684b34d08b17e0a7835877590c9a6f213f86d42",
+              "featureId": "CHN",
+              "geometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [
+                  "422131df-82bc-4f1b-9a1f-ee89cc970e19"
+                ],
+                "sourceWP_IDsEvidence": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                  "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                }
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              },
+              "spratlyEffectiveControl": {
+                "sourceWP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+                "sourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "componentIndices": [
+                  7
+                ],
+                "basis": "Current effective control, explicitly requested by the user. Not a legal sovereignty determination or a historical control-start date.",
+                "sourceReferences": [
+                  "https://amti.csis.org/island-tracker/",
+                  "https://lawphil.net/executive/execord/eo2026/eo_111_2026.html"
+                ],
+                "report": "reports/borders/validation/world-map-integration-20261107/spratly-effective-control"
+              },
+              "spratlyAllocationEvidence": {
+                "attribution": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+                  "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a"
+                },
+                "coverage": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+                  "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81"
+                },
+                "basis": "Saved prior observations bound to the exact approved base donor, not a fresh source-component coverage rerun. Current effective control only; no historical control-start date or sovereignty determination."
+              },
+              "northernReplacementEvidence": [
+                {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/canonical-simplified-northern-validation.json",
+                  "sha256": "510bfaf831187dd64aef53a6e9714a72683ec9e4ab56860e23ce3dfe7ec4c0ae"
+                },
+                {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-final-topology-and-residue-proof.json",
+                  "sha256": "fc24b7e49cc8b20b27233c145d7fef035c7ffe90a953097b31e32c648ff6145c"
+                },
+                {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/northern-island-preservation-proof.json",
+                  "sha256": "44f798663a0ecb0465f5dada9f87d4bd96640a18dbe1de3a01ed2bca17a10bfa"
+                },
+                {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/uniform-simplification-source-evidence.json",
+                  "sha256": "7f45bd2395ab019bd3c8b5e4260f7f02949b0b6529b9745adec83e887a6dd748"
+                }
+              ]
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "CHN",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cn.svg",
+          "representativeGeometryVersionId": "state:CHN:paektu-lsib-11.4",
+          "directLsibRollbackReport": "reports/borders/validation/korean-lsib-baseline-rollback-2026-11-04/README.md"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107+reviewed-korean-northern-20261108",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "CHN",
+          "featureProperties": {
+            "name": "중화인민공화국"
+          },
+          "geometrySha256": "90cc9a836eb91f66348cf346793a29f14c466dbdf94ff8123de605d05f2651e3",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-EXTANT-20261025",
+            "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+            "researchedAt": "2026-10-25",
+            "calendar": "proleptic-gregorian",
+            "criterion": "User explicitly selected PRC political identity, separately from ROC/Qing.",
+            "sourceUrls": [
+              "https://www.locpg.gov.cn/zggq/2014-01/04/c_125956418.htm"
+            ],
+            "userSelected": true
+          },
+          "geometryVersionId": "state:CHN:paektu-lsib-11.4",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:CHN",
+            "versionId": "state:CHN:paektu-lsib-11.4",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "5e041155da8b2d0933a7876f4f2198c619658658e95ef92817dc387893026cf7",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107+reviewed-korean-northern-20261108",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/korea-lsib-replacement/simplified-northern-replacement.geojson",
+              "sourceFileSha256": "f3b6a220e90380d4962cdae0e684b34d08b17e0a7835877590c9a6f213f86d42",
+              "featureId": "CHN",
+              "geometryVersionId": "state:CHN:paektu-lsib-11.4",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "IND",
+      "path": "assets/data/territorial-entities/source/countries/state-IND.json",
+      "descriptorSha256": "49a6acc1a40895929c8162d3a80240803799aa696f541a09e0d0d187bb6893a1",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:IND",
+        "entityKind": "general",
+        "lineageId": "ind",
+        "names": {
+          "ko": "인도"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1947-08-15",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:IND:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:IND:state:IND:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-ad9c90dea74f4d4b340c1133b5841c3f9a593ffe541397594c71ec9919374621.json",
+              "sha256": "ad9c90dea74f4d4b340c1133b5841c3f9a593ffe541397594c71ec9919374621",
+              "bytes": 1324054
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "IND",
+              "geometrySha256": "73054256641b9962b4447eab2b41ed4099f6cee03af27882528b2d3f0219fe44",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "IND",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/in.svg",
+          "representativeGeometryVersionId": "state:IND:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "IND",
+          "featureProperties": {
+            "name": "인도"
+          },
+          "geometrySha256": "afb289b30aad4a52e88b4f5429a321fefae14315a00dce15768360d0fec6af31",
+          "geometryVersionId": "state:IND:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:IND",
+            "versionId": "state:IND:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "d967bc4b8ed1497e9e766721a5b767060e391747e1a626328d17f9fa5c3f39b6",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "IND",
+              "geometryVersionId": "state:IND:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "BGD",
+      "path": "assets/data/territorial-entities/source/countries/state-BGD.json",
+      "descriptorSha256": "cc33b8d339cc946c27e26252b6aded17dacd19184a42cfd5eefcd462e59df389",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:BGD",
+        "entityKind": "general",
+        "lineageId": "bgd",
+        "names": {
+          "ko": "방글라데시"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1971-03-26",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:BGD:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:BGD:state:BGD:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-afcd2bcbc77c70dfa963b1fd48a6d4debd4d54021831f6be90ee23627e74a285.json",
+              "sha256": "afcd2bcbc77c70dfa963b1fd48a6d4debd4d54021831f6be90ee23627e74a285",
+              "bytes": 588137
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "BGD",
+              "geometrySha256": "639a75f7495d2d8302ff8289bad914ff202d88e4776369325d2e2ff1132d148c",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "BGD",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bd.svg",
+          "representativeGeometryVersionId": "state:BGD:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "BGD",
+          "featureProperties": {
+            "name": "방글라데시"
+          },
+          "geometrySha256": "143c287b029b83187f4f9de78fae33d327e00f56bcb6d3be9493820409a6be51",
+          "geometryVersionId": "state:BGD:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:BGD",
+            "versionId": "state:BGD:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "9f2aae4864f9c625c996d4f9e87977c7a24077055c8535ec29a98deddc01d075",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "BGD",
+              "geometryVersionId": "state:BGD:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "LAO",
+      "path": "assets/data/territorial-entities/source/countries/state-LAO.json",
+      "descriptorSha256": "8650b32ba052f0835c1f38b8b2f3519d6cab2f2bde7ef9262f9600f4343d37e0",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:LAO",
+        "entityKind": "general",
+        "lineageId": "lao",
+        "names": {
+          "ko": "라오스"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1946-08-27",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:LAO:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:LAO:state:LAO:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "Polygon",
+              "file": "geometries/sha256-3e03d7cb4abbf441af102f46d9d590eb7da66f52530cebb2dbd735dce212e6b7.json",
+              "sha256": "3e03d7cb4abbf441af102f46d9d590eb7da66f52530cebb2dbd735dce212e6b7",
+              "bytes": 126507
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "LAO",
+              "geometrySha256": "e82dae57839c0ea7e4a136777fe7989579741425da7444886d75d01400a3e0da",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "LAO",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/la.svg",
+          "representativeGeometryVersionId": "state:LAO:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "LAO",
+          "featureProperties": {
+            "name": "라오스"
+          },
+          "geometrySha256": "e33c4eb3bddfb5ee8631148bc1b355e4e0f259c24f090635a55ed354b206f36e",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-EXTANT-20261025",
+            "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+            "researchedAt": "2026-10-26",
+            "calendar": "proleptic-gregorian",
+            "precision": "date",
+            "criterion": "User chose the unified kingdom in 1946. Original agreement confirms 27 August, not the previously proposed 27 April; French reserved powers did not preclude a polity.",
+            "sourceUrls": [
+              "https://histoireetphilatelie.fr/pages/008_indo/7000c_modus_vivendi_franco-laotien.html",
+              "https://ccl-laos.org/wp-content/uploads/2025/02/2412-Texte-conference-4-decembre-2024.pdf"
+            ],
+            "sourceNotes": [
+              {
+                "url": "https://histoireetphilatelie.fr/pages/008_indo/7000c_modus_vivendi_franco-laotien.html",
+                "supports": "Original agreement scans: unified kingdom and executory force at signature exchange, Vientiane 27 August 1946, 17:00.",
+                "access": "original agreement scans examined"
+              },
+              {
+                "url": "https://ccl-laos.org/wp-content/uploads/2025/02/2412-Texte-conference-4-decembre-2024.pdf",
+                "supports": "Legal history of the kingdom, 1946 agreement, 1947 constitution and 1949 status.",
+                "access": "original legal-history study"
+              }
+            ],
+            "userSelected": true
+          },
+          "geometryVersionId": "state:LAO:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:LAO",
+            "versionId": "state:LAO:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "4ca8e6d68458228af07e6674647ad510a789704816c1b70e5fb0ed64bd67b1b7",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "LAO",
+              "geometryVersionId": "state:LAO:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "VNM",
+      "path": "assets/data/territorial-entities/source/countries/state-VNM.json",
+      "descriptorSha256": "ae0914a90e2f050c4677cec41e642ee9298034ca732baa8cf0d6d3f7aa5887af",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:VNM",
+        "entityKind": "general",
+        "lineageId": "vnm",
+        "names": {
+          "ko": "베트남"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1945-09-02",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:VNM:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:VNM:state:VNM:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-b5d51e68cd007d1839469960970aeebed6d9c856a022b6923087d84503e64515.json",
+              "sha256": "b5d51e68cd007d1839469960970aeebed6d9c856a022b6923087d84503e64515",
+              "bytes": 695775
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "VNM",
+              "geometrySha256": "8bdac7d231c796d87cf0afa2f1245396018e2fdf4d84aa520bf77b44fe5123d3",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              },
+              "spratlyEffectiveControl": {
+                "sourceWP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+                "sourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "componentIndices": [
+                  0,
+                  1,
+                  2,
+                  4
+                ],
+                "basis": "Current effective control, explicitly requested by the user. Not a legal sovereignty determination or a historical control-start date.",
+                "sourceReferences": [
+                  "https://amti.csis.org/island-tracker/",
+                  "https://lawphil.net/executive/execord/eo2026/eo_111_2026.html"
+                ],
+                "report": "reports/borders/validation/world-map-integration-20261107/spratly-effective-control"
+              },
+              "spratlyAllocationEvidence": {
+                "attribution": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/saved-recipient-effective-control-attribution.json",
+                  "sha256": "3a79ea1c210924e1967f6deecdf07958ffee06c963b85678a03f640545bca44a"
+                },
+                "coverage": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/pga-current-identity-reconciliation/approved-ten-island-allocation.json",
+                  "sha256": "5a128103778571cee725a459344701188d5bbffac5519e4c2a6f25a464899d81"
+                },
+                "basis": "Saved prior observations bound to the exact approved base donor, not a fresh source-component coverage rerun. Current effective control only; no historical control-start date or sovereignty determination."
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "VNM",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vn.svg",
+          "representativeGeometryVersionId": "state:VNM:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "VNM",
+          "featureProperties": {
+            "name": "베트남"
+          },
+          "geometrySha256": "421b7b971c70fe6609fc77ee792e829eb4c77f6ff239e8f703f8df4fc8d4e9c5",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-EXTANT-20261025",
+            "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+            "researchedAt": "2026-10-25",
+            "calendar": "proleptic-gregorian",
+            "precision": "day",
+            "criterion": "User explicitly selected Democratic Republic of Vietnam declaration as this current entity origin, treating earlier dynastic polities as predecessors.",
+            "sourceUrls": [
+              "https://mofa.gov.vn/lich-su1"
+            ],
+            "userSelected": true
+          },
+          "geometryVersionId": "state:VNM:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:VNM",
+            "versionId": "state:VNM:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "5e879434559ed4d785d0de598d25978892d7d16ddac70fc9dd7331f3c4f4a52e",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "VNM",
+              "geometryVersionId": "state:VNM:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    }
+  ]
+}

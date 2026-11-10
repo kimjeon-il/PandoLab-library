@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:JEY",
+  "entityKind": "general",
+  "lineageId": "jey",
+  "names": {
+    "ko": "저지섬"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1204",
+    "validTo": null
+  },
+  "parentEntityId": "state:GBR",
+  "geometryVersions": [
+    {
+      "versionId": "state:JEY:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "approved-current-world-display-20261107",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:JEY:state:JEY:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-0874f580c8b173e731dc6731b2cc7bae244958115ca364d9fbaa8028c986dc48.json",
+        "sha256": "0874f580c8b173e731dc6731b2cc7bae244958115ca364d9fbaa8028c986dc48",
+        "bytes": 2948
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "approved-current-world-display-20261107",
+        "status": "approved-prepared-current-source-adoption",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "JEY",
+        "geometrySha256": "8a47566d9cdc08a8ec5e960092e7444084d0d0b5fbbdbe7b7fe5c2ee7b3220d3",
+        "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+        "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+        "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+        "upstream": {
+          "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+          "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+          "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+          "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+          "sourceFileBytesLocallyVerified": false,
+          "sourceWP_IDs": [],
+          "sourceWP_IDsEvidence": null
+        },
+        "sourceReview": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+          "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+        }
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "JEY",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/je.svg",
+    "representativeGeometryVersionId": "state:JEY:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "approved-current-world-display-20261107",
+    "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "JEY",
+    "featureProperties": {
+      "name": "저지섬"
+    },
+    "geometrySha256": "22e64cd8b625b2a02fb44a0a1868dac22a4db69b2c6f02e3d0348053dea9abae",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-25",
+      "calendar": "proleptic-gregorian",
+      "precision": "year",
+      "criterion": "저지 정부는 1204년에 부여된 자체 법에 따른 통치와 왕실 관계를 오늘날 헌정의 기초로 제시한다. 별도 자치 행정·법체계에 대한 공식 법률정보기관 설명과 일치한다. 1856·1948 의회 구성 변경은 정체 재성립으로 취급하지 않는다. 일·월은 근거가 없으므로 연도만 보존한다.",
+      "sources": [
+        {
+          "url": "https://www.gov.je/Leisure/Jersey/pages/history.aspx",
+          "title": "Government of Jersey — Jersey's history",
+          "access": "opened",
+          "supports": "1204년 자체 법·Jurats·Royal Court와 현재 헌정의 기초, 후대 의회 구성 변경."
+        },
+        {
+          "url": "https://www.jerseylaw.je/publications/jglr/Pages/About.aspx",
+          "title": "About the Jersey and Guernsey Law Review",
+          "access": "opened",
+          "supports": "1204년에 시작된 두 Bailiwick의 정치자치·사법독립과 별도 행정·자체 법체계."
+        }
+      ]
+    },
+    "geometryVersionId": "state:JEY:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:JEY",
+      "versionId": "state:JEY:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "77c6d06fa524d84ef373853e1cc6a553556e1b87ede06c1a71ae1225442e9c02",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "JEY",
+        "geometryVersionId": "state:JEY:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

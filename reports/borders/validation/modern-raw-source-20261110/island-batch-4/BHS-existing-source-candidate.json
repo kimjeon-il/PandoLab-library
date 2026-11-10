@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:BHS",
+  "entityKind": "general",
+  "lineageId": "bhs",
+  "names": {
+    "ko": "바하마"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1973-07-10",
+    "validTo": null
+  },
+  "parentEntityId": "",
+  "geometryVersions": [
+    {
+      "versionId": "state:BHS:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "dos-world-polygons-11.4-beta-raw",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:BHS:state:BHS:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-34e28f90158f0f0c9621e266cb0d6a160f1066fc16213d20cdb9503acc5f6748.json",
+        "sha256": "34e28f90158f0f0c9621e266cb0d6a160f1066fc16213d20cdb9503acc5f6748",
+        "bytes": 19100603
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "dos-world-polygons-11.4-beta-raw",
+        "status": "raw-original-source-adopted-not-runtime-approved",
+        "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+        "rawLayer": "DoS_WP_11_4",
+        "sourceWP_IDs": [
+          "a6d07ada-5492-4f5a-806e-debb195f2ab9"
+        ],
+        "rawBlobSha256": "268baeb52807bf09a60cd03f372f8e53d86305cc671af853ef302cf1380219b6",
+        "geometrySha256": "9c7fe1cded156e9a66a39991e92cc8dac767932be8d9ed7b4ba8f7553bd5796f",
+        "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+        "sourceProperties": {
+          "fid": 287,
+          "WP_Name": "The Bahamas",
+          "WP_Name_ND": "The Bahamas",
+          "DOS_Short": "Bahamas, The",
+          "DOS_Long": "Commonwealth of The Bahamas",
+          "Map_Label": "THE BAHAMAS",
+          "US_Recog": "Independent",
+          "Show_Disp": null,
+          "Map_Disp": null,
+          "NOTES": null,
+          "NOTES_Cont": null,
+          "MapTint_2": "BS",
+          "MapTint_3": "BHS",
+          "GENC_Short": "Bahamas, The",
+          "GENC_Full": "Commonwealth of The Bahamas",
+          "GENC_2": "BS",
+          "GENC_3": "BHS",
+          "ISO_3166_1": null,
+          "ISO_3166_2": null,
+          "WP_ID": "a6d07ada-5492-4f5a-806e-debb195f2ab9",
+          "WP_PREV_ID": "a6d07ada-5492-4f5a-806e-debb195f2ab9",
+          "WP_PAR_ID": "a6d07ada-5492-4f5a-806e-debb195f2ab9"
+        },
+        "priorPreparedAttribution": {
+          "sourceId": "approved-current-world-display-20261107",
+          "status": "approved-prepared-current-source-adoption",
+          "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+          "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+          "featureId": "BHS",
+          "geometrySha256": "fb44304d119d149c13272ab12482bcfee160efdddae9ec98d27e4ffb5c779595",
+          "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+          "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+          "historicalAccuracyVerified": false,
+          "effectiveDateEstablished": false,
+          "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+          "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+          "upstream": {
+            "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+            "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+            "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+            "sourceFileBytesLocallyVerified": false,
+            "sourceWP_IDs": [],
+            "sourceWP_IDsEvidence": null
+          },
+          "sourceReview": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+            "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+          }
+        },
+        "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+        "historicalAccuracyVerified": false
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "BHS",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bs.svg",
+    "representativeGeometryVersionId": "state:BHS:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "dos-world-polygons-11.4-beta-raw",
+    "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "BHS",
+    "featureProperties": {
+      "name": "바하마"
+    },
+    "geometrySha256": "9c7fe1cded156e9a66a39991e92cc8dac767932be8d9ed7b4ba8f7553bd5796f",
+    "geometryVersionId": "state:BHS:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:BHS",
+      "versionId": "state:BHS:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "664c4d7a641a686fde82a29dce1f5ef34c7b1779e5f29b945d79af589a4fddf8",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "BHS",
+        "geometryVersionId": "state:BHS:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

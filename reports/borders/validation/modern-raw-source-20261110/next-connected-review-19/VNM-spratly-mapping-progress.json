@@ -1,0 +1,116 @@
+{
+  "status": "raw-to-current-mapping-only-prepared-index-verification-pending",
+  "rawBlobSha256": "d91ff39c3054b702071448b0ce0648d4f8f23e1ebfa415fe924c3578a6b06609",
+  "rawWP_ID": "4ac4f563-db48-4b0a-a528-e45d1dc047d4",
+  "approvedPreparedIndices": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "originalComponents": 23,
+  "currentComponents": 696,
+  "rawComponentsChecked": 23,
+  "matches": [
+    {
+      "rawComponent": 2,
+      "rawWkbSha256": "5f05b7e19f6a8cadaf16654796667ff7dda94de805482dda140045eda45df4e2",
+      "rawBounds": [
+        111.91813170000006,
+        111.92253370000009,
+        8.642141300000048,
+        8.646757500000035
+      ],
+      "rawArea": 1.3130540149942221e-05,
+      "currentMatches": [
+        {
+          "currentComponent": 624,
+          "overlapArea": 5.824343434879253e-06,
+          "rawFraction": 0.44357226499207514,
+          "currentBounds": [
+            111.91875040000008,
+            111.92186750000008,
+            8.642593400000067,
+            8.646686100000068
+          ],
+          "currentContainsRawInterior": true
+        }
+      ]
+    },
+    {
+      "rawComponent": 3,
+      "rawWkbSha256": "146ecfcb285762c301a475fc73d0cf454fc94f958186e82dbef54a0be645dc4d",
+      "rawBounds": [
+        112.25535160000004,
+        112.25813810000011,
+        8.863893800000028,
+        8.869586100000049
+      ],
+      "rawArea": 8.783610835061406e-06,
+      "currentMatches": [
+        {
+          "currentComponent": 625,
+          "overlapArea": 4.243484079929916e-06,
+          "rawFraction": 0.48311385370026466,
+          "currentBounds": [
+            112.2556303,
+            112.25809830000003,
+            8.863893800000028,
+            8.869586100000049
+          ],
+          "currentContainsRawInterior": true
+        }
+      ]
+    },
+    {
+      "rawComponent": 6,
+      "rawWkbSha256": "0d8e1f507a19b6e382b5aef63ef4080d6e2cdc2c2ea523d1948b1327b6030566",
+      "rawBounds": [
+        114.3618715,
+        114.36920020000002,
+        10.178264200000058,
+        10.180215400000066
+      ],
+      "rawArea": 6.973226595098983e-06,
+      "currentMatches": [
+        {
+          "currentComponent": 626,
+          "overlapArea": 5.274848739241639e-07,
+          "rawFraction": 0.07564430421562636,
+          "currentBounds": [
+            114.3618715,
+            114.36920020000002,
+            10.178645000000074,
+            10.179120900000044
+          ],
+          "currentContainsRawInterior": false
+        }
+      ]
+    },
+    {
+      "rawComponent": 10,
+      "rawWkbSha256": "65b28a50c384b91c03773c8d126eda8a2db0b5b5c7a5236788d84ea96c8e3583",
+      "rawBounds": [
+        114.32873080000002,
+        114.33384660000002,
+        11.42587240000006,
+        11.431773500000077
+      ],
+      "rawArea": 1.5393598765204783e-05,
+      "currentMatches": [
+        {
+          "currentComponent": 630,
+          "overlapArea": 1.002082136458693e-05,
+          "rawFraction": 0.6509732725551926,
+          "currentBounds": [
+            114.32958740000004,
+            114.33384660000002,
+            11.42677660000004,
+            11.43172590000006
+          ],
+          "currentContainsRawInterior": true
+        }
+      ]
+    }
+  ]
+}

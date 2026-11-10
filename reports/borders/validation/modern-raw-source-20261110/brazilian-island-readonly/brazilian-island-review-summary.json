@@ -1,0 +1,204 @@
+{
+  "status": "read-only investigation complete; no decision-free whole-island allocation identified",
+  "pinRevision": "f3c7857a23f0e68f962d0c9a02d66a0087b56329",
+  "rawIsland": {
+    "WP_ID": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+    "WP_Name": "Brazilian Island",
+    "GENC_3": "XQP",
+    "WP_PAR_ID": "ddc44fac-bb84-4d9b-88ee-7fc95e409a3b,38f71534-ed56-4db6-b9a0-33396d4e6a71",
+    "Map_Disp": "BRA,URY",
+    "Show_Disp": null,
+    "US_Recog": null
+  },
+  "rawBlobSha256": "3415dea1d8ea5148ca68d4ef1366c1aa33d6604471a772ae4d14d600b633785a",
+  "rawAreaDegrees2": 0.0005013507614902077,
+  "existingCoverage": [
+    {
+      "code": "BRA",
+      "geometryPayloadSha256": "7939643127f205c44da6f05e07c5280a4db7c68e24ceabbfa0941ab4ba0e2616",
+      "containsIslandInteriorPoint": false,
+      "intersectionAreaDegrees2": 1.4856024220027617e-05,
+      "fractionRawIslandCovered": 0.029631996919421817,
+      "intersectingComponents": [
+        {
+          "componentIndex": 17,
+          "intersectionAreaDegrees2": 1.4856024220027617e-05,
+          "countryComponentAreaDegrees2": 700.5965203115587,
+          "componentBounds": [
+            -73.98303939296602,
+            -34.79312519999996,
+            -32.655704499999956,
+            5.271786300000031
+          ]
+        }
+      ]
+    },
+    {
+      "code": "URY",
+      "geometryPayloadSha256": "c5fb71a1001628fc272b9da3d81b4d6d88f93fea6a79a02d66e0c199a774e73d",
+      "containsIslandInteriorPoint": false,
+      "intersectionAreaDegrees2": 4.021419334364644e-06,
+      "fractionRawIslandCovered": 0.008021169295547564,
+      "intersectingComponents": [
+        {
+          "componentIndex": 32,
+          "intersectionAreaDegrees2": 4.021419334364644e-06,
+          "countryComponentAreaDegrees2": 16.987951690395466,
+          "componentBounds": [
+            -58.439319599999976,
+            -53.17987142727349,
+            -34.97334669999998,
+            -30.08649299999996
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ARG",
+      "geometryPayloadSha256": "840d915aba765c5772e9d52f12146ba17e146089b3149c7865eb50a753ab8eb3",
+      "containsIslandInteriorPoint": false,
+      "intersectionAreaDegrees2": 4.7640271235202536e-05,
+      "fractionRawIslandCovered": 0.09502383340078568,
+      "intersectingComponents": [
+        {
+          "componentIndex": 97,
+          "intersectionAreaDegrees2": 4.7640271235202536e-05,
+          "countryComponentAreaDegrees2": 275.063148822575,
+          "componentBounds": [
+            -73.56035999999995,
+            -53.63736944398988,
+            -52.398107188998445,
+            -21.781045999999947
+          ]
+        }
+      ]
+    }
+  ],
+  "existingUncoveredFraction": 0.8673230003846083,
+  "rawCountryIslandContacts": [
+    {
+      "entityId": null,
+      "code": "XQP",
+      "name": "Brazilian Island",
+      "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.05682443483523434
+    },
+    {
+      "entityId": null,
+      "code": "XQP",
+      "name": "Brazilian Island",
+      "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.013275523567670361
+    },
+    {
+      "entityId": null,
+      "code": "XQP",
+      "name": "Brazilian Island",
+      "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+      "class": "unmapped",
+      "area": 0.0,
+      "length": 0.03723604036324825
+    }
+  ],
+  "sourceDescriptors": [
+    {
+      "code": "BRA",
+      "path": "assets/data/territorial-entities/source/countries/state-BRA.json",
+      "sha256": "5b9c42c50796ad5789b36235bdc32a023e93d702e03432444d257c4e8412016f",
+      "geometryVersions": [
+        {
+          "versionId": "state:BRA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:BRA:state:BRA:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-7939643127f205c44da6f05e07c5280a4db7c68e24ceabbfa0941ab4ba0e2616.json",
+            "sha256": "7939643127f205c44da6f05e07c5280a4db7c68e24ceabbfa0941ab4ba0e2616",
+            "bytes": 2619725
+          }
+        }
+      ]
+    },
+    {
+      "code": "URY",
+      "path": "assets/data/territorial-entities/source/countries/state-URY.json",
+      "sha256": "7536888f563f04a4d5bb9e5c4c66e06963ad2e7d9dc172e2dc4992a10eb0e1b1",
+      "geometryVersions": [
+        {
+          "versionId": "state:URY:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:URY:state:URY:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-c5fb71a1001628fc272b9da3d81b4d6d88f93fea6a79a02d66e0c199a774e73d.json",
+            "sha256": "c5fb71a1001628fc272b9da3d81b4d6d88f93fea6a79a02d66e0c199a774e73d",
+            "bytes": 86400
+          }
+        }
+      ]
+    },
+    {
+      "code": "ARG",
+      "path": "assets/data/territorial-entities/source/countries/state-ARG.json",
+      "sha256": "1c92363e5710f15b58f064b94f49d1247ffa327a0883f9915a053b7a3ec4419a",
+      "geometryVersions": [
+        {
+          "versionId": "state:ARG:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:ARG:state:ARG:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-840d915aba765c5772e9d52f12146ba17e146089b3149c7865eb50a753ab8eb3.json",
+            "sha256": "840d915aba765c5772e9d52f12146ba17e146089b3149c7865eb50a753ab8eb3",
+            "bytes": 625853
+          }
+        }
+      ]
+    }
+  ],
+  "targetedAllocationEvidenceSearch": {
+    "archiveKeyTerms": [
+      "XQP",
+      "Brazilian",
+      "Brasilera",
+      "Brasileira"
+    ],
+    "matchingArchiveKeys": [],
+    "searchedReports": [
+      "current-source-adoption-review/original-current-donor-provenance.json",
+      "current-source-adoption-review/prior-source-attribution.json"
+    ],
+    "explicitXQPAllocationFound": false,
+    "limitation": "This was a targeted filename/receipt search, not a catalog-wide geometry search. Absence of a matching name does not prove no other entity geometry exists."
+  },
+  "actionableConclusion": [
+    "Raw BRA/URY/ARG exclude the XQP interior and meet its boundary without overlap. Exact raw country selection would leave the entire raw island unassigned among these three.",
+    "Existing approved current geometry also leaves the tested interior point and about 86.7 percent of the raw footprint unassigned; small edge coverages belong to all three adjacent mainland polygons, not a complete island ownership allocation.",
+    "No verified previous whole-island attribution was found to copy. Adding XQP to BRA, URY or both would require an explicit display/ownership composition decision, not just higher-resolution replacement.",
+    "Omitting XQP preserves non-assignment of the tested interior point, but does not preserve the exact old footprint and is not evidence of a deliberate approved exclusion. Do not silently interpret omission as permission to resolve or perpetuate the island gap.",
+    "The American group also remains connected to French Guiana/FRA, so resolving XQP alone would not certify a closed raw replacement batch."
+  ],
+  "sourceChanges": false,
+  "appChanges": false,
+  "geometryExports": false,
+  "network": false
+}

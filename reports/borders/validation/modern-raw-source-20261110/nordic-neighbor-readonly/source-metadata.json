@@ -1,0 +1,1010 @@
+{
+  "pinRevision": "f3c7857a23f0e68f962d0c9a02d66a0087b56329",
+  "rows": [
+    {
+      "code": "FIN",
+      "path": "assets/data/territorial-entities/source/countries/state-FIN.json",
+      "descriptorSha256": "5f9f828ea81cb615f6c20927e95c9b39e498a716617d1b65f229045141beb270",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:FIN",
+        "entityKind": "general",
+        "lineageId": "fin",
+        "names": {
+          "ko": "핀란드"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1917-12-06",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:FIN:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:FIN:state:FIN:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-26beb477d4e93e601b37279f663534b96d426ba32501d9c1140a66e6a30a5d58.json",
+              "sha256": "26beb477d4e93e601b37279f663534b96d426ba32501d9c1140a66e6a30a5d58",
+              "bytes": 1140608
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "FIN",
+              "geometrySha256": "77811fba6deb9134eb5f4d9463a94257ea0bdc266ec0f852b0a06ed1125a4b40",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "FIN",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fi.svg",
+          "representativeGeometryVersionId": "state:FIN:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "FIN",
+          "featureProperties": {
+            "name": "핀란드"
+          },
+          "geometrySha256": "1a0bfd21adcc9303210750403d15c0290353ac61c851f0899a8503a4cb7f7fbf",
+          "geometryVersionId": "state:FIN:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:FIN",
+            "versionId": "state:FIN:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "37ca0b0fc4ded7cb80d10d02cb89c9c1c2366765c30bcf35940dc1d598dc636f",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "FIN",
+              "geometryVersionId": "state:FIN:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "NOR",
+      "path": "assets/data/territorial-entities/source/countries/state-NOR.json",
+      "descriptorSha256": "b23c601cbcc54725770ef6c6e34e41256e6973d1bdd5d3b3909e1a6cd3745477",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:NOR",
+        "entityKind": "general",
+        "lineageId": "nor",
+        "names": {
+          "ko": "노르웨이"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "0872",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:NOR:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:NOR:state:NOR:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-26df07e6a6157c23be2613620c0f3302a72927d4e320800ad1635a956cd25174.json",
+              "sha256": "26df07e6a6157c23be2613620c0f3302a72927d4e320800ad1635a956cd25174",
+              "bytes": 2711352
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "NOR",
+              "geometrySha256": "f44c30ea9b238be9672a97f31b1b2b3b89d27c5406816e278b31358f69b133e5",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "NOR",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/no.svg",
+          "representativeGeometryVersionId": "state:NOR:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "NOR",
+          "featureProperties": {
+            "name": "노르웨이"
+          },
+          "geometrySha256": "c87454fe4e26f0e3bbb81ff6f3192cbac4595e5cbd8869443b518ad227a719fc",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-REMAINING-20261027",
+            "reportPath": "reports/borders/history/lifetimes/remaining-2026-10-27",
+            "researchedAt": "2026-10-27",
+            "calendar": "proleptic-gregorian",
+            "precision": "year",
+            "criterion": "User-approved traditional unification benchmark associated with Harald Fairhair and the Battle of Hafrsfjord. The actual chronology and extent of unification are uncertain; 872 is not asserted as an independently established exact founding year. Later unions and the 1905 union dissolution do not restart this identity.",
+            "userApproved": true,
+            "sources": [
+              {
+                "url": "https://www.kongehuset.no/historie/kongerekken",
+                "title": "Royal House of Norway: Norges regenter, kongerekken",
+                "supports": "Traces royal succession to Harald Fairhair; traditionally dates unification to the Battle of Hafrsfjord in 872, while early chronology is uncertain."
+              },
+              {
+                "url": "https://www.royalcourt.no/history",
+                "title": "Royal House of Norway: History",
+                "supports": "Harald Fairhair united petty kingdoms in the late ninth century; distinguishes later unions and the independent monarchy after 1905."
+              }
+            ]
+          },
+          "geometryVersionId": "state:NOR:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:NOR",
+            "versionId": "state:NOR:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "783a4c9122c30adf4dbd035827361bbac5710a73e78e151fe961d7209f81d57d",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "NOR",
+              "geometryVersionId": "state:NOR:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "SWE",
+      "path": "assets/data/territorial-entities/source/countries/state-SWE.json",
+      "descriptorSha256": "fc1996f1acdd3fec990be1ca79c86054bf832802a810a1fabb5ad73cd6c35518",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:SWE",
+        "entityKind": "general",
+        "lineageId": "swe",
+        "names": {
+          "ko": "스웨덴"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "0970",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:SWE:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:SWE:state:SWE:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-ab903bc712ea860bd31c198a4151003e2090276a40d6595e7b553b8754f075f6.json",
+              "sha256": "ab903bc712ea860bd31c198a4151003e2090276a40d6595e7b553b8754f075f6",
+              "bytes": 1087916
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "SWE",
+              "geometrySha256": "9590f56a6b0995d6c7a30b77ea60a1f659fa7c36734f8bde55479aec156316bc",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "SWE",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/se.svg",
+          "representativeGeometryVersionId": "state:SWE:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "SWE",
+          "featureProperties": {
+            "name": "스웨덴"
+          },
+          "geometrySha256": "57f1aa80d265694170e552f11e9238afd19736ba4ea1ed392410f59c635525df",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-REMAINING-20261027",
+            "reportPath": "reports/borders/history/lifetimes/remaining-2026-10-27",
+            "researchedAt": "2026-10-27",
+            "calendar": "proleptic-gregorian",
+            "precision": "year",
+            "criterion": "User-approved approximate early royal succession benchmark: the Swedish Royal Court lists Erik the Victorious as reigning circa 970-995. This is not a verified exact founding year or proof that no earlier polity existed. Medieval state formation was gradual; the 1523 departure from the Kalmar Union does not restart this identity.",
+            "userApproved": true,
+            "sources": [
+              {
+                "url": "https://www.kungahuset.se/sveriges-monarki/monarkins-historia",
+                "title": "Swedish Royal Court: Monarkins historia",
+                "supports": "Lists Erik Segersall with a reign of approximately 970-995."
+              },
+              {
+                "url": "https://www.riksdagen.se/en/how-the-riksdag-works/the-history-of-the-riksdag/from-things-and-assemblies-to-the-riksdag-of-today/",
+                "title": "Swedish Parliament: From things and assemblies to the Riksdag of today",
+                "supports": "Describes gradual state formation, becoming more tangible in the thirteenth and fourteenth centuries; no single founding day is established."
+              }
+            ]
+          },
+          "geometryVersionId": "state:SWE:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:SWE",
+            "versionId": "state:SWE:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "8e88181d4f4b98dd25a99224de59fddc498cecaf7f0c0482382ffb712bac0930",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "SWE",
+              "geometryVersionId": "state:SWE:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "code": "RUS",
+      "path": "assets/data/territorial-entities/source/countries/state-RUS.json",
+      "descriptorSha256": "c6589a67398da9e1bf0b92069e39b518d65454d20758d02acacd0642962cf2bf",
+      "descriptor": {
+        "schemaVersion": 2,
+        "entityId": "state:RUS",
+        "entityKind": "general",
+        "lineageId": "rus",
+        "names": {
+          "ko": "러시아"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1991-12-25",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:RUS:post-soviet-existing-coordinates",
+            "validFrom": "1991-12-25",
+            "validTo": "2014-03-17",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:RUS:state:RUS:post-soviet-existing-coordinates",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5.json",
+              "sha256": "dcb6476f67e6d76306d64d5233f73daecb6dd9793651c0e5c4af6cff1350d7a5",
+              "bytes": 5986032
+            },
+            "certainty": "medium",
+            "sourceId": "approved-current-world-display-20261107-temporal-proxy",
+            "notes": "Existing historical proxy rebased to the approved prepared world-map source. Existing period, certainty and political attribution remain unchanged; modern source snapshot does not establish historical accuracy. See version-scoped source recipe and preserved prior attribution.",
+            "historicalProvenance": {
+              "sourceEntityId": "state:soviet-union-russian-sfsr",
+              "sourceGeometryVersionId": "state:soviet-union-russian-sfsr:1991-r1",
+              "periodSources": [
+                "https://www.prlib.ru/item/331430"
+              ],
+              "verifiedHistoricalGeometry": false,
+              "worldMapRebase": {
+                "schemaVersion": 1,
+                "geometrySha256": "c3d2570fa2bdc0e585b70b22a6dffae4dfc6fe8b6e083ecace02c6571360e16f",
+                "donor": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                  "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+                },
+                "method": "exact-donor-component-selection",
+                "parameters": {
+                  "memberCountryIds": [
+                    "RUS"
+                  ],
+                  "excludedDonorComponentIndices": [
+                    253,
+                    254,
+                    255,
+                    256,
+                    257,
+                    258,
+                    259,
+                    260,
+                    261,
+                    262,
+                    263,
+                    264,
+                    265,
+                    266,
+                    267,
+                    268,
+                    269,
+                    270,
+                    271,
+                    512
+                  ],
+                  "approvedJapanOriginComponentsPreserved": 12
+                },
+                "sourceLineage": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/source-lineage-boundary.json",
+                  "sha256": "38aeeff292d6c1912e0de640f834b5c67ad05030bec99ef18352cc0b7c311786"
+                },
+                "previousSourceId": "natural-earth-5.1.1-late-soviet-adjustment",
+                "previousGeometrySha256": "dce6e1e493b9ea55478f98ba1cc9b34e46aea7de6aa3986fc0b9053771119f58",
+                "previousVersionSha256": "96a9d386e4022608bed4de34baa4211112a1d58f03c502253e579635fcb64f5e",
+                "validFrom": "1991-12-25",
+                "validTo": "2014-03-17",
+                "certaintyPreserved": "medium",
+                "verifiedHistoricalGeometry": false,
+                "historicalAccuracyVerified": false,
+                "sourceSnapshot": "2026-11",
+                "effectiveDateEstablished": false,
+                "reviewScope": "Prepared-source rebase within existing version period and political recipe; no new historical boundary claim.",
+                "originalGpkgVerifiedIn": "cloud",
+                "originalGpkgInstalledInWindows": false
+              },
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:RUS",
+                "versionId": "state:RUS:post-soviet-existing-coordinates",
+                "validFrom": "1991-12-25",
+                "validTo": "2014-03-17",
+                "geometrySha256": "c3d2570fa2bdc0e585b70b22a6dffae4dfc6fe8b6e083ecace02c6571360e16f",
+                "master": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                  "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+                },
+                "source": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/metadata-frozen-sources.json",
+                  "sha256": "6cf0bc027103cdc835e551bfb5c3cd2f9c3953c31481e13dbf81ff0e2b15702b"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-visual-review.json",
+                    "sha256": "4e20a1186ae1159725ce55abbe70fd2f94e16f4da603451870ef22c738a2032c"
+                  },
+                  "arcSha256": "eb3db19eb5207923d8cb4eae113634103505efcb380f04e2845e40d7db196a84",
+                  "extent": [
+                    -179.97699726828708,
+                    32.53297215314905,
+                    179.95191523655103,
+                    88.76724416097115
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lon_0=100 +lat_0=60 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-projection-evidence.json",
+                      "sha256": "0fb814168c6917e41c9f88a9a6170cf1e79957603e0bd3b35e5abbb18dd0cb19"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Source-only rebase preserves the existing temporal proxy and approved political recipe, with exact donor/component/vertex-run lineage and same-version projected visual evidence. It does not certify historical accuracy or compiled runtime publication.",
+                "parameters": {
+                  "sourceOnly": true,
+                  "compiledRuntimeApproved": false,
+                  "sourceSnapshot": "2026-11",
+                  "recipe": "exact-donor-component-selection",
+                  "recipeParameters": {
+                    "memberCountryIds": [
+                      "RUS"
+                    ],
+                    "excludedDonorComponentIndices": [
+                      253,
+                      254,
+                      255,
+                      256,
+                      257,
+                      258,
+                      259,
+                      260,
+                      261,
+                      262,
+                      263,
+                      264,
+                      265,
+                      266,
+                      267,
+                      268,
+                      269,
+                      270,
+                      271,
+                      512
+                    ],
+                    "approvedJapanOriginComponentsPreserved": 12
+                  },
+                  "arcDigestAlgorithm": "sha256(JSON.stringify(geometry.coordinates))",
+                  "noCoordinateRepair": true,
+                  "originalGpkgVerifiedIn": "cloud",
+                  "originalGpkgInstalledInWindows": false
+                },
+                "visual": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/bound-14.png",
+                  "sha256": "d2993ef9029cab7ee10aeb65793bee517530d01c012722962942d86cb6f0a725"
+                },
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/ssr-review/source-bound-19/compiled-binding-review/source18-topology-review.json",
+                    "sha256": "04bc78e1cffafe03093533e1ccaedc10585182087d9014dfb1cb49a3c743c4b4"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ]
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:AZE",
+                    "versionId": "state:AZE:natural-earth-5.1.1",
+                    "geometrySha256": "4128b6d8859ed5da923e02372db5f5543e44e64484339ca9b807b18eb7023616"
+                  },
+                  {
+                    "entityId": "state:BLR",
+                    "versionId": "state:BLR:natural-earth-5.1.1",
+                    "geometrySha256": "4acbca4dff1b16bb23dc8a3686d168fba37402297c77f7aa50a0fdff5272ac38"
+                  },
+                  {
+                    "entityId": "state:CHN",
+                    "versionId": "state:CHN:paektu-lsib-11.4",
+                    "geometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6"
+                  },
+                  {
+                    "entityId": "state:EST",
+                    "versionId": "state:EST:natural-earth-5.1.1",
+                    "geometrySha256": "b0d919fe0caf474c93af49b909f37ca87437ca8b6dc3821eb24a30cae790574c"
+                  },
+                  {
+                    "entityId": "state:FIN",
+                    "versionId": "state:FIN:natural-earth-5.1.1",
+                    "geometrySha256": "77811fba6deb9134eb5f4d9463a94257ea0bdc266ec0f852b0a06ed1125a4b40"
+                  },
+                  {
+                    "entityId": "state:GEO",
+                    "versionId": "state:GEO:natural-earth-5.1.1",
+                    "geometrySha256": "5aba9c7b28e0396fccf2023b530771699ae0847dc306a0169b6a1222ecfd1ba1"
+                  },
+                  {
+                    "entityId": "state:KAZ",
+                    "versionId": "state:KAZ:post-soviet-existing-coordinates",
+                    "geometrySha256": "56a6d550a4c4401e183e6838ca4f3308f93395f2f44a32002728d66a0617ed24"
+                  },
+                  {
+                    "entityId": "state:KAZ",
+                    "versionId": "state:KAZ:natural-earth-5.1.1",
+                    "geometrySha256": "56a6d550a4c4401e183e6838ca4f3308f93395f2f44a32002728d66a0617ed24"
+                  },
+                  {
+                    "entityId": "state:LTU",
+                    "versionId": "state:LTU:natural-earth-5.1.1",
+                    "geometrySha256": "cd8c8fb44db515cba1e68cc51352698660f25435ca0492136e94989d277a5da5"
+                  },
+                  {
+                    "entityId": "state:LVA",
+                    "versionId": "state:LVA:natural-earth-5.1.1",
+                    "geometrySha256": "39f72c71269053214f212d2e1a09787875e38e9a884d138f1eb8c66871396833"
+                  },
+                  {
+                    "entityId": "state:MNG",
+                    "versionId": "state:MNG:natural-earth-5.1.1",
+                    "geometrySha256": "95723f36b602c54d06f37105911748d2af9e253d620df5fe59f4da20181fa026"
+                  },
+                  {
+                    "entityId": "state:NOR",
+                    "versionId": "state:NOR:natural-earth-5.1.1",
+                    "geometrySha256": "f44c30ea9b238be9672a97f31b1b2b3b89d27c5406816e278b31358f69b133e5"
+                  },
+                  {
+                    "entityId": "state:POL",
+                    "versionId": "state:POL:natural-earth-5.1.1",
+                    "geometrySha256": "4d5a61b9a0787ae7419e232798e2564276569e1f36ceea188dd15eacf993a279"
+                  },
+                  {
+                    "entityId": "state:PRK",
+                    "versionId": "state:PRK:sino-korean-protocol-1964",
+                    "geometrySha256": "33a140631cc1413f46a5cf153a372a5a227f3515da7fabedf131a7a8d3fa3afd"
+                  },
+                  {
+                    "entityId": "state:UKR",
+                    "versionId": "state:ukraine:1991-2014-r1",
+                    "geometrySha256": "50a7509942ecf5794380e92969695c07669bca1a87506fa394fc97a495779d46"
+                  }
+                ],
+                "fixedAnchors": []
+              }
+            }
+          },
+          {
+            "versionId": "state:RUS:natural-earth-5.1.1",
+            "validFrom": "2014-03-18",
+            "validTo": null,
+            "certainty": "medium",
+            "sourceId": "approved-current-world-display-20261107",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:RUS:state:RUS:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44.json",
+              "sha256": "81eaf5c45b9c59c8172f7a63830bc17b91af0b63967d51f806ef61a8cd28fe44",
+              "bytes": 6033489
+            },
+            "notes": "Existing coordinates reused from this macro display transition; later survey-level boundary detail is not independently established here.",
+            "historicalProvenance": {
+              "periodSources": [
+                "https://www.prlib.ru/item/331430"
+              ],
+              "scope": "Existing Crimea display convention; no determination of internationally recognised sovereignty.",
+              "verifiedHistoricalGeometry": false,
+              "currentGeometrySource": {
+                "sourceId": "approved-current-world-display-20261107",
+                "status": "approved-prepared-current-source-adoption",
+                "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                "featureId": "RUS",
+                "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+                "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+                "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+                "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+                "upstream": {
+                  "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                  "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                  "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                  "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "sourceFileBytesLocallyVerified": false,
+                  "sourceWP_IDs": [
+                    "47aaa6b3-b456-4723-9317-e661720b4332",
+                    "1d116ea2-5067-4f6b-b34d-057e3ac7da6f"
+                  ],
+                  "sourceWP_IDsEvidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                    "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                  }
+                },
+                "sourceReview": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                  "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                }
+              },
+              "previousGeometryProvenance": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+                "entityId": "state:RUS",
+                "versionId": "state:RUS:natural-earth-5.1.1",
+                "priorVersionSha256": "1900fde1f6b4a150195f3878156695c439212ac103bfd57a548094fbb85c6d93",
+                "role": "Retired geometry attribution/reviews only. Political/date evidence remains preserved; old reviews do not certify the adopted geometry.",
+                "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+              },
+              "displayDetailReview": {
+                "schemaVersion": 1,
+                "status": "passed",
+                "entityId": "state:RUS",
+                "versionId": "state:RUS:natural-earth-5.1.1",
+                "validFrom": "2014-03-18",
+                "validTo": null,
+                "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+                "master": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                  "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                  "role": "Approved prepared current-display donor master. Original upstream survey/GPKG master is not revalidated by this receipt."
+                },
+                "source": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                  "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                },
+                "comparison": {
+                  "reference": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/source-review-input.json",
+                    "sha256": "ad909224594faab1b6d17f3092d586e927220e9791ac641eb34a9bb913270c54"
+                  },
+                  "arcSha256": "a0da162d151a64088085f06ad3ff0f6c6c18077c6c680469e9495b7f70e3a5ed",
+                  "arcDigestDefinition": "sha256(JSON.stringify([type, coordinates])) of this version original geometry, present at rows[entityId,versionId].original.geometry in reference",
+                  "extent": [
+                    -179.58317891808682,
+                    28.490661488031996,
+                    179.72050047842103,
+                    89.12325162438061
+                  ],
+                  "scaleDenominator": 10000000,
+                  "projection": {
+                    "definition": "+proj=laea +lat_0=67 +lon_0=95 +datum=WGS84 +units=m +no_defs",
+                    "units": "metre",
+                    "evidence": {
+                      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/projection-execution.json",
+                      "sha256": "2d20587fa48622f016df03d94d98b6400c4fc23062e67924191b58c5ccf481c8"
+                    }
+                  }
+                },
+                "method": "preserved-modern-source",
+                "reason": "Adopt the exact approved modern display-source geometry in this existing version and preserve its dates, political interpretation and uncertainty. Current-source visual/topology preservation is checked; boundary accuracy at validFrom is not newly asserted.",
+                "parameters": {
+                  "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                  "additionalSimplificationMetres": 0,
+                  "coordinateRounding": null,
+                  "upstreamSourceSkeletonMetres": 2000,
+                  "upstreamSourceSubordinateRuleMetres": 250,
+                  "upstreamParametersRole": "Recorded prepared donor parameters; not a new generalization run",
+                  "preserveLocalPoliticalExceptions": true,
+                  "historicalSourceAccuracyAsserted": false,
+                  "compiled": false
+                },
+                "visual": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/visual-review.json",
+                  "sha256": "25e71b18d03ede72a0b3a2ad9a1f75a1ab237d089e17fd44ccee245ab2776be6"
+                },
+                "visualImages": [
+                  {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/russia.png",
+                    "sha256": "9b7b86b4b6245cc672b9387f8559f42f017c8ed097de0358d9cfe781022303c1"
+                  }
+                ],
+                "topology": {
+                  "status": "passed",
+                  "evidence": {
+                    "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                    "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                  },
+                  "checks": [
+                    "validity",
+                    "shared-boundary",
+                    "union",
+                    "gaps-overlaps",
+                    "connectivity",
+                    "holes-islands",
+                    "dates"
+                  ],
+                  "scope": "Validity and measured scoped neighbor intersections. Union, gaps, connectivity, holes and islands preserve the exact approved donor. Existing KAZ/KAB legal parent/subunit overlap and documented floating-point residuals are explicit exceptions, not clipped. Dates and all unselected versions are preserved, not historically re-established."
+                },
+                "counterpartVersions": [
+                  {
+                    "entityId": "state:CHN",
+                    "versionId": "state:CHN:paektu-lsib-11.4",
+                    "geometrySha256": "e439d1b2de2ca808726d291c34e48dcd4b05d95505cb4136bad12f729dc254b6"
+                  },
+                  {
+                    "entityId": "state:UKR",
+                    "versionId": "state:UKR:2014-03-18-post-crimea-r1",
+                    "geometrySha256": "3e95abd26dbcbc47380eed99af5815f6e75bcf9c69b12bbf77e6e3d40b3f6786"
+                  },
+                  {
+                    "entityId": "state:BLR",
+                    "versionId": "state:BLR:natural-earth-5.1.1",
+                    "geometrySha256": "4acbca4dff1b16bb23dc8a3686d168fba37402297c77f7aa50a0fdff5272ac38"
+                  },
+                  {
+                    "entityId": "state:KAZ",
+                    "versionId": "state:KAZ:natural-earth-5.1.1",
+                    "geometrySha256": "56a6d550a4c4401e183e6838ca4f3308f93395f2f44a32002728d66a0617ed24"
+                  },
+                  {
+                    "entityId": "state:LTU",
+                    "versionId": "state:LTU:natural-earth-5.1.1",
+                    "geometrySha256": "cd8c8fb44db515cba1e68cc51352698660f25435ca0492136e94989d277a5da5"
+                  },
+                  {
+                    "entityId": "state:MNG",
+                    "versionId": "state:MNG:natural-earth-5.1.1",
+                    "geometrySha256": "95723f36b602c54d06f37105911748d2af9e253d620df5fe59f4da20181fa026"
+                  },
+                  {
+                    "entityId": "state:EST",
+                    "versionId": "state:EST:natural-earth-5.1.1",
+                    "geometrySha256": "b0d919fe0caf474c93af49b909f37ca87437ca8b6dc3821eb24a30cae790574c"
+                  },
+                  {
+                    "entityId": "state:LVA",
+                    "versionId": "state:LVA:natural-earth-5.1.1",
+                    "geometrySha256": "39f72c71269053214f212d2e1a09787875e38e9a884d138f1eb8c66871396833"
+                  },
+                  {
+                    "entityId": "state:NOR",
+                    "versionId": "state:NOR:natural-earth-5.1.1",
+                    "geometrySha256": "f44c30ea9b238be9672a97f31b1b2b3b89d27c5406816e278b31358f69b133e5"
+                  },
+                  {
+                    "entityId": "state:FIN",
+                    "versionId": "state:FIN:natural-earth-5.1.1",
+                    "geometrySha256": "77811fba6deb9134eb5f4d9463a94257ea0bdc266ec0f852b0a06ed1125a4b40"
+                  },
+                  {
+                    "entityId": "state:GEO",
+                    "versionId": "state:GEO:natural-earth-5.1.1",
+                    "geometrySha256": "5aba9c7b28e0396fccf2023b530771699ae0847dc306a0169b6a1222ecfd1ba1"
+                  },
+                  {
+                    "entityId": "state:AZE",
+                    "versionId": "state:AZE:natural-earth-5.1.1",
+                    "geometrySha256": "4128b6d8859ed5da923e02372db5f5543e44e64484339ca9b807b18eb7023616"
+                  },
+                  {
+                    "entityId": "state:POL",
+                    "versionId": "state:POL:natural-earth-5.1.1",
+                    "geometrySha256": "4d5a61b9a0787ae7419e232798e2564276569e1f36ceea188dd15eacf993a279"
+                  },
+                  {
+                    "entityId": "state:PRK",
+                    "versionId": "state:PRK:sino-korean-protocol-1964",
+                    "geometrySha256": "33a140631cc1413f46a5cf153a372a5a227f3515da7fabedf131a7a8d3fa3afd"
+                  }
+                ],
+                "fixedAnchors": []
+              }
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "RUS",
+              "geometrySha256": "1be9c12b314121b9f55697886f4d0b84a9dd9d72d0f213a826a5c45797b75297",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [
+                  "47aaa6b3-b456-4723-9317-e661720b4332",
+                  "1d116ea2-5067-4f6b-b34d-057e3ac7da6f"
+                ],
+                "sourceWP_IDsEvidence": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                  "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+                }
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "RUS",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ru.svg",
+          "representativeGeometryVersionId": "state:RUS:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "approved-current-world-display-20261107",
+          "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "RUS",
+          "featureProperties": {
+            "name": "러시아"
+          },
+          "geometrySha256": "c1df1e696d219fa5ca462f22ec22b5066eab112de5a8859c43a2668c59e84cb5",
+          "periodTransition": {
+            "date": "1991-12-25",
+            "criterion": "Russian Federation name phase, not an independence declaration",
+            "sources": [
+              "https://www.prlib.ru/history/619842"
+            ],
+            "scope": "Existing Soviet-republic and post-transition catalog phases; not a claim that earlier national statehood did not exist.",
+            "republicEndRule": "The day before the user-approved transition; distinct from abolition of the Soviet-era name."
+          },
+          "geometryVersionId": "state:RUS:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:RUS",
+            "versionId": "state:RUS:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "ec4a51711dd7b654e21e4529fd60fbfae9ded094e95edcdbb7f69128472cad13",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "RUS",
+              "geometryVersionId": "state:RUS:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            },
+            {
+              "sourceId": "approved-current-world-display-20261107-temporal-proxy",
+              "geometryVersionId": "state:RUS:post-soviet-existing-coordinates",
+              "sourceFile": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "role": "Only the named historical version; current and approved earlier versions retain their own attributions.",
+              "licenseNotice": "Composite prepared display. Recorded U.S. Government upstream work, incorporated third-party material and preserved political exceptions retain their respective rights."
+            }
+          ],
+          "versionScopedWorldMapRebases": [
+            {
+              "versionId": "state:RUS:post-soviet-existing-coordinates",
+              "sourceId": "approved-current-world-display-20261107-temporal-proxy",
+              "validFrom": "1991-12-25",
+              "validTo": "2014-03-17",
+              "geometrySha256": "c3d2570fa2bdc0e585b70b22a6dffae4dfc6fe8b6e083ecace02c6571360e16f",
+              "method": "exact-donor-component-selection",
+              "parameters": {
+                "memberCountryIds": [
+                  "RUS"
+                ],
+                "excludedDonorComponentIndices": [
+                  253,
+                  254,
+                  255,
+                  256,
+                  257,
+                  258,
+                  259,
+                  260,
+                  261,
+                  262,
+                  263,
+                  264,
+                  265,
+                  266,
+                  267,
+                  268,
+                  269,
+                  270,
+                  271,
+                  512
+                ],
+                "approvedJapanOriginComponentsPreserved": 12
+              },
+              "priorRecipeDisposition": "Existing geometryRecipes and imported attribution retained as previous-source history. This version-scoped operation supersedes them only for this exact versionId."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    }
+  ]
+}

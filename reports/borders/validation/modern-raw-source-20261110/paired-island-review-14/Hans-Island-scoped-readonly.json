@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "code": "CAN",
+      "WP_ID": "d0838f19-394c-42e6-84f2-a9ae41e56131",
+      "rawBlobSha256": "63fc97c90f5acff50e4237a1e766375d08068b9119a2a6bd9fb914d52ba06fc0",
+      "bbox": [
+        -66.6,
+        80.7,
+        -66.2,
+        80.95
+      ],
+      "matchingComponents": [
+        {
+          "index": 45550,
+          "bounds": [
+            -91.90420719999997,
+            76.13140680000004,
+            -61.094404199999985,
+            83.11321450000008
+          ],
+          "coordinates": 268934,
+          "wkbSha256": "7dc85972e230d211a0d90ff626add2711a3f5ab8ac2f2c08058ad66236da944a"
+        }
+      ]
+    },
+    {
+      "code": "GRL",
+      "WP_ID": "0c59cd13-5b96-4b03-9ccc-33d667fa0e80",
+      "rawBlobSha256": "89aa1fe3f5d0f86917dac13b9f706f0a65a6f5f6a5e7218783dced615072946c",
+      "bbox": [
+        -66.6,
+        80.7,
+        -66.2,
+        80.95
+      ],
+      "matchingComponents": [
+        {
+          "index": 14244,
+          "bounds": [
+            -73.02829869999994,
+            59.972775100000035,
+            -11.415399199999968,
+            83.66625040000008
+          ],
+          "coordinates": 1555134,
+          "wkbSha256": "a3d7046bce1363bb98fa7c4c173ac66b9bbdf3abb9e4a5f4a6b42f5f4d9594e4"
+        }
+      ]
+    }
+  ],
+  "contacts": [],
+  "scope": "Only raw component bounds intersecting Hans Island bounding box; no full Greenland overlay",
+  "conclusion": "Hans Island is separate raw feature XXI with CAN/DNK multi-parent attribution. CAN+GRL raw features alone do not represent this island. Preserve approved allocation via separate evidence before Greenland update.",
+  "separateRawHansFeature": {
+    "properties": {
+      "fid": 126,
+      "WP_Name": "Hans Island",
+      "WP_Name_ND": "Hans Island",
+      "DOS_Short": null,
+      "DOS_Long": null,
+      "Map_Label": null,
+      "US_Recog": null,
+      "Show_Disp": null,
+      "Map_Disp": null,
+      "NOTES": null,
+      "NOTES_Cont": null,
+      "MapTint_2": "XI",
+      "MapTint_3": "XXI",
+      "GENC_Short": "Hans Island",
+      "GENC_Full": "Hans Island",
+      "GENC_2": "XI",
+      "GENC_3": "XXI",
+      "ISO_3166_1": null,
+      "ISO_3166_2": null,
+      "WP_ID": "648a6d52-f25f-43d5-9a55-d71c2ef3538f",
+      "WP_PREV_ID": "648a6d52-f25f-43d5-9a55-d71c2ef3538f",
+      "WP_PAR_ID": "d0838f19-394c-42e6-84f2-a9ae41e56131,ab17b051-c5e1-40e7-9506-1464a6ff0fee"
+    },
+    "rawBlobSha256": "148bc14aa2946b977c6bb98eb5e34a93de81cb91eaece53b7afb4fce5c30dfa4",
+    "bounds": [
+      -66.48760599999997,
+      80.82056450000005,
+      -66.40845559999997,
+      80.83202250000005
+    ],
+    "polygonCount": 1,
+    "areaDeg2": 0.0006353095042852814
+  },
+  "approvedDonorHansCoverage": [
+    {
+      "code": "CAN",
+      "approvedDonorCoversRawHansInterior": false,
+      "approvedDonorIntersectionHansAreaDeg2": 0.0
+    },
+    {
+      "code": "GRL",
+      "approvedDonorCoversRawHansInterior": false,
+      "approvedDonorIntersectionHansAreaDeg2": 0.0
+    }
+  ]
+}

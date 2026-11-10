@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "019bcfb510d0b35cad360ec18e3b9183fd7c8e17",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-BRB.json",
+  "originalDescriptorSha256": "401be1f9b1a7ef7832fb70f0e9e4d5e5eaba6d21d87ec2ba8ef0aeccea0d2355",
+  "candidateDescriptorSha256": "1bd53d6b73387648c9da4776a3d233e44a5187e727434450c4125c76f01ef143",
+  "beforeCoordinates": 69,
+  "afterCoordinates": 3311,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:BRB:state:BRB:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-cd68130436cd20a4ca64f8cf690594df7c52d6029110b8cc26b231cf45fc97c0.json",
+    "sha256": "cd68130436cd20a4ca64f8cf690594df7c52d6029110b8cc26b231cf45fc97c0",
+    "bytes": 132989
+  }
+}

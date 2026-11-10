@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "019bcfb510d0b35cad360ec18e3b9183fd7c8e17",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-DMA.json",
+  "originalDescriptorSha256": "f594ea4dd936f0959924b5e2d6dec08ca51e6b652a8f86a32ee5f88fdf8a081c",
+  "candidateDescriptorSha256": "62d633d22e2dab2ba66c9b5bbbb52010ee2198306edff6f9d878563031853d5f",
+  "beforeCoordinates": 116,
+  "afterCoordinates": 5226,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:DMA:state:DMA:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-7934c82583188a07a90a196adb3c0ae8ef2752f4554113ee81d8b1edaf224105.json",
+    "sha256": "7934c82583188a07a90a196adb3c0ae8ef2752f4554113ee81d8b1edaf224105",
+    "bytes": 209847
+  }
+}

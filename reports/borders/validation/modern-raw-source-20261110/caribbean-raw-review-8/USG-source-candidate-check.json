@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "4ff29196673614272b28e9376b72b8b8d527701f",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-USG.json",
+  "originalDescriptorSha256": "b2d2f0c0fe530ff014741823ac31a0450f24107753b43380dacfe325907f41cf",
+  "candidateDescriptorSha256": "f5df6125b25b1cd05ab24d332b7016ab56ba40aa1d0860e42457c6d499254d34",
+  "beforeCoordinates": 139,
+  "afterCoordinates": 4546,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:USG:state:USG:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-7d4f2e16e0500a10944b1a3f3ef8364b44a044da83f377ffe188e70f725b9ca4.json",
+    "sha256": "7d4f2e16e0500a10944b1a3f3ef8364b44a044da83f377ffe188e70f725b9ca4",
+    "bytes": 180518
+  }
+}

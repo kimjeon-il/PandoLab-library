@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:TTO",
+  "entityKind": "general",
+  "lineageId": "tto",
+  "names": {
+    "ko": "트리니다드토바고"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1962-08-31",
+    "validTo": null
+  },
+  "parentEntityId": "",
+  "geometryVersions": [
+    {
+      "versionId": "state:TTO:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "dos-world-polygons-11.4-beta-raw",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:TTO:state:TTO:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-f291fa356bff6d3bb3311c6016a345db87c235755909903d766385293d0bb9b3.json",
+        "sha256": "f291fa356bff6d3bb3311c6016a345db87c235755909903d766385293d0bb9b3",
+        "bytes": 894334
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "dos-world-polygons-11.4-beta-raw",
+        "status": "raw-original-source-adopted-not-runtime-approved",
+        "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+        "rawLayer": "DoS_WP_11_4",
+        "sourceWP_IDs": [
+          "f432799e-8957-4696-ab59-b00fd9247d8c"
+        ],
+        "rawBlobSha256": "da259f8c21c0f759961fd3678cc1ac2dab5f9781aac03d6929ccad2e4e6b2303",
+        "geometrySha256": "a2a8c89f9215a9d4895a8e2951ae2fce11fd586dd1ae302ca849c8eea064eae2",
+        "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+        "sourceProperties": {
+          "fid": 293,
+          "WP_Name": "Trinidad and Tobago",
+          "WP_Name_ND": "Trinidad and Tobago",
+          "DOS_Short": "Trinidad and Tobago",
+          "DOS_Long": "Republic of Trinidad and Tobago",
+          "Map_Label": "TRINIDAD AND TOBAGO",
+          "US_Recog": "Independent",
+          "Show_Disp": null,
+          "Map_Disp": null,
+          "NOTES": null,
+          "NOTES_Cont": null,
+          "MapTint_2": "TT",
+          "MapTint_3": "TTO",
+          "GENC_Short": "Trinidad and Tobago",
+          "GENC_Full": "Republic of Trinidad and Tobago",
+          "GENC_2": "TT",
+          "GENC_3": "TTO",
+          "ISO_3166_1": null,
+          "ISO_3166_2": null,
+          "WP_ID": "f432799e-8957-4696-ab59-b00fd9247d8c",
+          "WP_PREV_ID": "f432799e-8957-4696-ab59-b00fd9247d8c",
+          "WP_PAR_ID": "f432799e-8957-4696-ab59-b00fd9247d8c"
+        },
+        "priorPreparedAttribution": {
+          "sourceId": "approved-current-world-display-20261107",
+          "status": "approved-prepared-current-source-adoption",
+          "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+          "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+          "featureId": "TTO",
+          "geometrySha256": "0b5b4b68b6e7849c000e5ff425724af43fba8beda692570c897525ad5eaf56fe",
+          "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+          "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+          "historicalAccuracyVerified": false,
+          "effectiveDateEstablished": false,
+          "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+          "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+          "upstream": {
+            "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+            "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+            "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+            "sourceFileBytesLocallyVerified": false,
+            "sourceWP_IDs": [],
+            "sourceWP_IDsEvidence": null
+          },
+          "sourceReview": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+            "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+          }
+        },
+        "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+        "historicalAccuracyVerified": false
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "TTO",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tt.svg",
+    "representativeGeometryVersionId": "state:TTO:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "dos-world-polygons-11.4-beta-raw",
+    "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "TTO",
+    "featureProperties": {
+      "name": "트리니다드토바고"
+    },
+    "geometrySha256": "a2a8c89f9215a9d4895a8e2951ae2fce11fd586dd1ae302ca849c8eea064eae2",
+    "geometryVersionId": "state:TTO:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:TTO",
+      "versionId": "state:TTO:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "ea872ffa69b70f21115440a3cc0612eb33f8cb6c0c2c8e4a34a979f92dd6af81",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "TTO",
+        "geometryVersionId": "state:TTO:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

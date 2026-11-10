@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:DOM",
+  "entityKind": "general",
+  "lineageId": "dom",
+  "names": {
+    "ko": "도미니카 공화국"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1863-09-14",
+    "validTo": null
+  },
+  "parentEntityId": "",
+  "geometryVersions": [
+    {
+      "versionId": "state:DOM:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "dos-world-polygons-11.4-beta-raw",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:DOM:state:DOM:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-5ce4c0e277e55b3b787cfb0f3dc063b91e1f67c0a97f691b427195e5649ef8b7.json",
+        "sha256": "5ce4c0e277e55b3b787cfb0f3dc063b91e1f67c0a97f691b427195e5649ef8b7",
+        "bytes": 2176817
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "dos-world-polygons-11.4-beta-raw",
+        "status": "raw-original-source-adopted-not-runtime-approved",
+        "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+        "rawLayer": "DoS_WP_11_4",
+        "sourceWP_IDs": [
+          "45947b09-7993-4e47-9ba6-3261703fa7ef"
+        ],
+        "rawBlobSha256": "7dbc7412d6166b81c7246f330e132b37d10ea2c6ff1446febc2ef47aa8c2c81a",
+        "geometrySha256": "a11ad9bfd899b39f125010d9c293074f9f0e20c3bc9c3027c74a66a3550fa117",
+        "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+        "sourceProperties": {
+          "fid": 85,
+          "WP_Name": "Dominican Republic",
+          "WP_Name_ND": "Dominican Republic",
+          "DOS_Short": "Dominican Republic",
+          "DOS_Long": "Dominican Republic",
+          "Map_Label": "DOMINICAN REPUBLIC",
+          "US_Recog": "Independent",
+          "Show_Disp": null,
+          "Map_Disp": null,
+          "NOTES": null,
+          "NOTES_Cont": null,
+          "MapTint_2": "DO",
+          "MapTint_3": "DOM",
+          "GENC_Short": "Dominican Republic",
+          "GENC_Full": "Dominican Republic",
+          "GENC_2": "DO",
+          "GENC_3": "DOM",
+          "ISO_3166_1": null,
+          "ISO_3166_2": null,
+          "WP_ID": "45947b09-7993-4e47-9ba6-3261703fa7ef",
+          "WP_PREV_ID": "45947b09-7993-4e47-9ba6-3261703fa7ef",
+          "WP_PAR_ID": "45947b09-7993-4e47-9ba6-3261703fa7ef"
+        },
+        "priorPreparedAttribution": {
+          "sourceId": "approved-current-world-display-20261107",
+          "status": "approved-prepared-current-source-adoption",
+          "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+          "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+          "featureId": "DOM",
+          "geometrySha256": "15657d08eb431e5d26a0880241acb8f9af6d90558b34542ec5f34b6a3e673e66",
+          "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+          "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+          "historicalAccuracyVerified": false,
+          "effectiveDateEstablished": false,
+          "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+          "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+          "upstream": {
+            "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+            "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+            "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+            "sourceFileBytesLocallyVerified": false,
+            "sourceWP_IDs": [],
+            "sourceWP_IDsEvidence": null
+          },
+          "sourceReview": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+            "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+          }
+        },
+        "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+        "historicalAccuracyVerified": false
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "DOM",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/do.svg",
+    "representativeGeometryVersionId": "state:DOM:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "dos-world-polygons-11.4-beta-raw",
+    "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "DOM",
+    "featureProperties": {
+      "name": "도미니카 공화국"
+    },
+    "geometrySha256": "a11ad9bfd899b39f125010d9c293074f9f0e20c3bc9c3027c74a66a3550fa117",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-26",
+      "calendar": "proleptic-gregorian",
+      "precision": "date",
+      "criterion": "복원정부부터 이어지는 최신 구간을 사용자 확정",
+      "sourceUrls": [
+        "https://www.tribunalconstitucional.gob.do/sala-de-prensa/noticias/presidente-del-tc-destaca-influencia-de-la-guerra-de-la-restauraci%C3%B3n-en-la-constituci%C3%B3n-dominicana/",
+        "https://colecciones.agn.gob.do/opac/busca.php?codopac=OPPUB&formTipo=0&materia=GUERRA"
+      ],
+      "sourceNotes": [
+        {
+          "url": "https://www.tribunalconstitucional.gob.do/sala-de-prensa/noticias/presidente-del-tc-destaca-influencia-de-la-guerra-de-la-restauraci%C3%B3n-en-la-constituci%C3%B3n-dominicana/",
+          "supports": "헌법재판소 및 역사학술원은 1865-07-11 철수 명시. 그러나 AGN은 1863-09-14 복원정부 독립선언 원문을 보관하므로 국가 연속성 기준 재질문 필요.",
+          "access": "search-only"
+        },
+        {
+          "url": "https://colecciones.agn.gob.do/opac/busca.php?codopac=OPPUB&formTipo=0&materia=GUERRA",
+          "supports": "AGN 목록에 1863-09-14 산티아고 복원정부 독립선언 원문 식별. 1865-07-11은 스페인군 철수로 별도 보존.",
+          "access": "search-only"
+        }
+      ],
+      "userSelected": true
+    },
+    "geometryVersionId": "state:DOM:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:DOM",
+      "versionId": "state:DOM:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "691c2a166d7b3a16dbec6a5ec80a5529e47ceb2bfe9f9ec88f698f0f42996f67",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "DOM",
+        "geometryVersionId": "state:DOM:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

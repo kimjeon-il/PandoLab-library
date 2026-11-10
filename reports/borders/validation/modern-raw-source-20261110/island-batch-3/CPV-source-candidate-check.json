@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "56cc9689f3831c79c671988d8020c9350a39bf62",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-CPV.json",
+  "originalDescriptorSha256": "a7ca1f61c69db6966cde08c85e4e2c3b088f82d227fe2cf0532fffc08951e740",
+  "candidateDescriptorSha256": "30ab17b1dfb87c7ead2736211359d84c693514a6aedb785514395d1f371f6d1f",
+  "beforeCoordinates": 934,
+  "afterCoordinates": 58105,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:CPV:state:CPV:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-ec98fe0417b4da2c3c2b513df1a64a38c344447a479cef739911eb3c7f6a9357.json",
+    "sha256": "ec98fe0417b4da2c3c2b513df1a64a38c344447a479cef739911eb3c7f6a9357",
+    "bytes": 2346017
+  }
+}

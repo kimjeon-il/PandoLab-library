@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "019bcfb510d0b35cad360ec18e3b9183fd7c8e17",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-LCA.json",
+  "originalDescriptorSha256": "51ddfc77e455ad4bb5e4f268b3415a0a70571440ff13ce86bf1dff26057b6af7",
+  "candidateDescriptorSha256": "b756301de64c8934fd50e9471599fa055f9825237dcd5b3e985f1a6d380c2872",
+  "beforeCoordinates": 150,
+  "afterCoordinates": 1017,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:LCA:state:LCA:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-599435aefc1874c50c87e6524a651863ca5da99f923e04f41e76a2e93a3b51d5.json",
+    "sha256": "599435aefc1874c50c87e6524a651863ca5da99f923e04f41e76a2e93a3b51d5",
+    "bytes": 40959
+  }
+}
