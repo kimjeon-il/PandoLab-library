@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "status": "reviewed-source-display-only",
+  "actualImagesOpened": 2,
+  "images": [
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/AH-restoration-source-scale.png",
+      "sha256": "7318a54f7e6a941b251e34fb9faf0a7914626c89c14246eaa31fa78c5370aebc"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/DEU-restoration-source-scale.png",
+      "sha256": "4dc63efb22c4b7f20548b0f45c667f181534b4b353d1e28a6359a2c0312960d3"
+    }
+  ],
+  "projection": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/projection-execution.json",
+    "sha256": "9f7e4bb9f28e4c8a81d4ea8b3f8af86a62081a1e5c39b2234993cf575f8d2d5f"
+  },
+  "observations": [
+    "Both before/after overall historical outlines remain visually unchanged.",
+    "The17 restored pieces are too small for individual certification at this nominal scale; exact complete inclusion is proved by canonical coordinate matching and independent geometry checks.",
+    "No visible mainland political boundary or major island shape changed."
+  ],
+  "limitations": [
+    "Screen physical scale is not calibrated.",
+    "Visibility was not used as an omission criterion.",
+    "No independent historical positional accuracy claim."
+  ],
+  "runtimeApproval": false
+}

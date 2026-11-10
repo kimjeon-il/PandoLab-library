@@ -1,0 +1,46 @@
+{
+  "definition": "EPSG:3035; always_xy longitude,latitude",
+  "units": "metre",
+  "rows": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "image": "AH-restoration-source-scale.png",
+      "extentProjectedMetres": [
+        4235330.665502694,
+        2111711.53414462,
+        5646662.25407799,
+        3205899.7233313257
+      ],
+      "panelPixels": [
+        534,
+        414
+      ],
+      "scaleDenominator": 10000000,
+      "dpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "restoredCount": 7
+    },
+    {
+      "entityId": "state:DEU",
+      "image": "DEU-restoration-source-scale.png",
+      "extentProjectedMetres": [
+        3973454.0999741834,
+        2634118.859885895,
+        5206926.148380037,
+        3746490.2965417905
+      ],
+      "panelPixels": [
+        467,
+        421
+      ],
+      "scaleDenominator": 10000000,
+      "dpi": 96,
+      "metresPerPixel": 2645.8333333333335,
+      "restoredCount": 10
+    }
+  ],
+  "physicalDisplayScaleCalibrated": false,
+  "limits": [
+    "Tiny restored polygons are subpixel in this nominal-scale image; coordinate identity and inclusion are verified geometrically, not certified by visual discernibility."
+  ]
+}

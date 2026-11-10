@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "status": "Independent geometry validation passed; no canonical approval or source application",
+  "sourceRevision": "36a996c1e596055c4e371b6803b92276252950bc",
+  "tools": {
+    "shapely": "2.1.2",
+    "pyproj": "3.7.2"
+  },
+  "projection": "EPSG:3035, always_xy; descriptive measurement only, never a selection threshold",
+  "groups": [
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "currentValid": true,
+      "candidateValid": true,
+      "candidateValidityExplanation": "Valid Geometry",
+      "existingCoordinatesExactAndOrdered": true,
+      "appendedCoordinatesExactlyMatchDonors": true,
+      "noExistingAreaRemoved": true,
+      "candidateEqualsCurrentUnionExactDonors": true,
+      "addedComponentsOverlapExistingAreaDegreesSquared": 0,
+      "addedComponentsMutualOverlapAreaDegreesSquared": 0,
+      "oldBoundaryIntersectionLengthDegrees": 0,
+      "addedAreaKm2": 1.8539042857942338,
+      "candidatePolygonCount": 28,
+      "originalHoleCount": 0,
+      "candidateHoleCount": 0,
+      "passed": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "currentValid": true,
+      "candidateValid": true,
+      "candidateValidityExplanation": "Valid Geometry",
+      "existingCoordinatesExactAndOrdered": true,
+      "appendedCoordinatesExactlyMatchDonors": true,
+      "noExistingAreaRemoved": true,
+      "candidateEqualsCurrentUnionExactDonors": true,
+      "addedComponentsOverlapExistingAreaDegreesSquared": 0,
+      "addedComponentsMutualOverlapAreaDegreesSquared": 0,
+      "oldBoundaryIntersectionLengthDegrees": 0,
+      "addedAreaKm2": 0.03738073446373062,
+      "candidatePolygonCount": 38,
+      "originalHoleCount": 0,
+      "candidateHoleCount": 0,
+      "passed": true
+    }
+  ],
+  "components": [
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 46,
+      "bboxLonLat": [
+        14.555674800000077,
+        45.24521230000005,
+        14.569322800000066,
+        45.256750400000044
+      ],
+      "centroidLonLat": [
+        14.562759198834561,
+        45.25145131080034
+      ],
+      "measuredAreaKm2EPSG3035": 0.5589167077589962,
+      "measuredAreaKm2GeodesicWGS84": 0.5589168649439812,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.1261937503199508,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 72,
+      "bboxLonLat": [
+        15.207162700000026,
+        44.07265890000008,
+        15.213773400000036,
+        44.079030800000055
+      ],
+      "centroidLonLat": [
+        15.210399063769549,
+        44.076059574776885
+      ],
+      "measuredAreaKm2EPSG3035": 0.2509618483430966,
+      "measuredAreaKm2GeodesicWGS84": 0.25096191041475535,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.08393187753289717,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 164,
+      "bboxLonLat": [
+        15.73771000000005,
+        43.62556300000006,
+        15.745493200000055,
+        43.629822800000056
+      ],
+      "centroidLonLat": [
+        15.74078866666671,
+        43.62709046666672
+      ],
+      "measuredAreaKm2EPSG3035": 0.13949460951244136,
+      "measuredAreaKm2GeodesicWGS84": 0.13949465354263782,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0018955983084151342,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 231,
+      "bboxLonLat": [
+        16.69010940000004,
+        43.18950010000003,
+        16.69784640000006,
+        43.19069390000004
+      ],
+      "centroidLonLat": [
+        16.69381350000005,
+        43.19002533333338
+      ],
+      "measuredAreaKm2EPSG3035": 0.025718862181741135,
+      "measuredAreaKm2GeodesicWGS84": 0.025718574603557587,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0003031678733367643,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 220,
+      "bboxLonLat": [
+        17.16551110000006,
+        42.93240620000006,
+        17.173722800000064,
+        42.93822990000007
+      ],
+      "centroidLonLat": [
+        17.169823200000053,
+        42.9353433333334
+      ],
+      "measuredAreaKm2EPSG3035": 0.1695891296229428,
+      "measuredAreaKm2GeodesicWGS84": 0.16958938694477083,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.16958900298629206,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 212,
+      "bboxLonLat": [
+        17.40236260000006,
+        42.78712150000007,
+        17.431696500000044,
+        42.79119540000005
+      ],
+      "centroidLonLat": [
+        17.415294654490232,
+        42.78883215445406
+      ],
+      "measuredAreaKm2EPSG3035": 0.4604488057474771,
+      "measuredAreaKm2GeodesicWGS84": 0.4604516900110245,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.12995483192043103,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "donorPolygonIndex": 213,
+      "bboxLonLat": [
+        17.338547100000028,
+        42.79120240000003,
+        17.34651320000006,
+        42.79650850000007
+      ],
+      "centroidLonLat": [
+        17.342713442347883,
+        42.7934239911998
+      ],
+      "measuredAreaKm2EPSG3035": 0.2487743226275387,
+      "measuredAreaKm2GeodesicWGS84": 0.2487742107025385,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.15206465965972393,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 48,
+      "bboxLonLat": [
+        7.6690938000000415,
+        53.76741960000004,
+        7.669590400000061,
+        53.76768740000006
+      ],
+      "centroidLonLat": [
+        7.669333042365603,
+        53.767550449096234
+      ],
+      "measuredAreaKm2EPSG3035": 0.0007820993614405687,
+      "measuredAreaKm2GeodesicWGS84": 0.0007820993554294109,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0007820993614405687,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 51,
+      "bboxLonLat": [
+        7.679327700000044,
+        53.77579940000004,
+        7.679831200000024,
+        53.77631290000005
+      ],
+      "centroidLonLat": [
+        7.679539584906916,
+        53.77611203018738
+      ],
+      "measuredAreaKm2EPSG3035": 0.0011402801823571275,
+      "measuredAreaKm2GeodesicWGS84": 0.0011402801902350038,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.00013931348992440794,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 54,
+      "bboxLonLat": [
+        7.771788400000048,
+        53.77822610000004,
+        7.773307000000045,
+        53.77954680000005
+      ],
+      "centroidLonLat": [
+        7.7726832804820125,
+        53.7788606080376
+      ],
+      "measuredAreaKm2EPSG3035": 0.007790534319744163,
+      "measuredAreaKm2GeodesicWGS84": 0.0077905345401316885,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.007790534319744163,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 55,
+      "bboxLonLat": [
+        7.768494900000064,
+        53.77880360000006,
+        7.770584500000041,
+        53.77954680000005
+      ],
+      "centroidLonLat": [
+        7.769519978733528,
+        53.77911445995507
+      ],
+      "measuredAreaKm2EPSG3035": 0.006254952433608024,
+      "measuredAreaKm2GeodesicWGS84": 0.0062549525689780715,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.006254952433608024,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 57,
+      "bboxLonLat": [
+        7.746665900000039,
+        53.779846200000065,
+        7.74982760000006,
+        53.78088720000005
+      ],
+      "centroidLonLat": [
+        7.74830091217172,
+        53.78050287807952
+      ],
+      "measuredAreaKm2EPSG3035": 0.01434369720066352,
+      "measuredAreaKm2GeodesicWGS84": 0.014343697614863515,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.01434369720066352,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 59,
+      "bboxLonLat": [
+        7.745066500000064,
+        53.78169770000005,
+        7.745587900000032,
+        53.782241800000065
+      ],
+      "centroidLonLat": [
+        7.745346507398654,
+        53.781980146722944
+      ],
+      "measuredAreaKm2EPSG3035": 0.0015122293686805242,
+      "measuredAreaKm2GeodesicWGS84": 0.0015122293585464357,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0015122293686805242,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 60,
+      "bboxLonLat": [
+        7.745587900000032,
+        53.782241800000065,
+        7.747679600000026,
+        53.78251050000006
+      ],
+      "centroidLonLat": [
+        7.746607115978555,
+        53.782353762193004
+      ],
+      "measuredAreaKm2EPSG3035": 0.00282473825011123,
+      "measuredAreaKm2GeodesicWGS84": 0.002824738110601902,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.00282473825011123,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 64,
+      "bboxLonLat": [
+        7.943442700000048,
+        53.78709270000007,
+        7.944474900000046,
+        53.787365900000054
+      ],
+      "centroidLonLat": [
+        7.943938220360695,
+        53.78721378764119
+      ],
+      "measuredAreaKm2EPSG3035": 0.0014590293999593245,
+      "measuredAreaKm2GeodesicWGS84": 0.00145902938182652,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0003109647618464194,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 35,
+      "bboxLonLat": [
+        8.129390600000022,
+        53.720529200000044,
+        8.129887200000042,
+        53.72079700000006
+      ],
+      "centroidLonLat": [
+        8.129629802302702,
+        53.72066612177824
+      ],
+      "measuredAreaKm2EPSG3035": 0.0007831990181606586,
+      "measuredAreaKm2GeodesicWGS84": 0.0007831990233547985,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0007831990181606586,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "donorPolygonIndex": 36,
+      "bboxLonLat": [
+        8.129887200000042,
+        53.72079700000006,
+        8.130156700000043,
+        53.72106650000006
+      ],
+      "centroidLonLat": [
+        8.130021924651482,
+        53.72093175798485
+      ],
+      "measuredAreaKm2EPSG3035": 0.0004899749290054815,
+      "measuredAreaKm2GeodesicWGS84": 0.000489974928479176,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0004899749290054816,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    }
+  ],
+  "passed": true,
+  "noSourceWrites": true,
+  "noNetwork": true,
+  "visualReviewPerformed": false
+}

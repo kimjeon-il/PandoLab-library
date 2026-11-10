@@ -1,0 +1,1 @@
+import fs from'node:fs';const dir=new URL('.',import.meta.url),m=await import(new URL('../deu-c1-c2-c3-combined/source-review/review-inputs.mjs',dir)),rev='ebae7be60b7b40a00627028ee16841701c3511a6',rec=m.entity('IDN',rev),tls=m.entity('TLS',rev);fs.writeFileSync(new URL('post-correction-archive-inputs.json',dir),JSON.stringify({sourceRevision:rev,rec,tls}));console.log(rev);

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+  "status": "passed",
+  "rows": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "beforeGeometrySha256": "5f6b7580f1aa7ae54e94cc318864ab8d948d5aa7213471548695342a11319903",
+      "candidateGeometrySha256": "89ef312e04de1c8724abf9abce4063dd64c3fd0ccf1cd6204a3928e94c483819",
+      "valid": true,
+      "validityExplanation": "Valid Geometry",
+      "originalCoordinatesPreserved": true,
+      "restoredCoordinatesExact": true,
+      "resultEqualsExactSourceUnion": true,
+      "originalAreaRemoved": false,
+      "restoredAreaOverlapsExisting": 0.0,
+      "restoredMutualOverlap": 0.0,
+      "restoredBoundarySharedLength": 0.0,
+      "newOmissions": 0,
+      "beforePolygonCount": 21,
+      "afterPolygonCount": 28,
+      "beforeHoles": 0,
+      "afterHoles": 0,
+      "storedDatesUnchanged": true,
+      "passed": true
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "beforeGeometrySha256": "afa85744ce550f32d0e8f579d0f60e82fe3ec5df92e2977db452c601dd3a98b2",
+      "candidateGeometrySha256": "c88ff6148dafa8783b1cff47d88688a378e9d360d34e7b7e4011afee214c608d",
+      "valid": true,
+      "validityExplanation": "Valid Geometry",
+      "originalCoordinatesPreserved": true,
+      "restoredCoordinatesExact": true,
+      "resultEqualsExactSourceUnion": true,
+      "originalAreaRemoved": false,
+      "restoredAreaOverlapsExisting": 0.0,
+      "restoredMutualOverlap": 0.0,
+      "restoredBoundarySharedLength": 0.0,
+      "newOmissions": 0,
+      "beforePolygonCount": 28,
+      "afterPolygonCount": 38,
+      "beforeHoles": 0,
+      "afterHoles": 0,
+      "storedDatesUnchanged": true,
+      "passed": true
+    }
+  ],
+  "sourceBinding": "fresh-preimage-check.json verifies every original polygon against newly decoded current source and every restored polygon against newly decoded approved donor.",
+  "limits": [
+    "No independent historical ownership or shoreline re-verification.",
+    "Source-only correction; no compilation, deployment, new threshold, simplification, snapping or manual geometry."
+  ]
+}

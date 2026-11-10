@@ -1,0 +1,792 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "sourceRevision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+  "preparedRevision": "36a996c1e596055c4e371b6803b92276252950bc",
+  "rows": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+      "sourceDescriptorSha256": "396b582973dc7188227e1b015252a7910b35a70142bb396f2cee18567bbe7e86",
+      "normalizedEntitySha256": "c80377fd40b256e9c64b19dc43339daef5b49beb045580bbcb059c284b47468b",
+      "versionSha256": "3a54037197748d3e2d5c07a571eb28452e8639a779958f5ce1068b0547b764b3",
+      "geometrySha256": "5f6b7580f1aa7ae54e94cc318864ab8d948d5aa7213471548695342a11319903",
+      "candidateGeometrySha256": "89ef312e04de1c8724abf9abce4063dd64c3fd0ccf1cd6204a3928e94c483819",
+      "preparedPreimageStillExact": true,
+      "donorWholeCoordinatesExact": true,
+      "originalDateSourceCertaintyNotesRetained": true,
+      "originalVersionProperties": {
+        "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+        "validFrom": "1867-02-17",
+        "validTo": "1918-10-30",
+        "certainty": "provisional",
+        "sourceId": "histogis-modern-coast-policy-1914",
+        "historicalProvenance": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-28",
+          "scope": "Provisional representative display reuse across the selected historical identity period; detailed border-change versions are deferred.",
+          "limitations": [
+            "Technical topology and generalization only; not independent historical positional accuracy.",
+            "The 1914 reference-day geometry is reused provisionally; historical borders varied within the display period and detailed versions are deferred.",
+            "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+            "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+          ],
+          "displayDetailReview": {
+            "schemaVersion": 1,
+            "status": "passed",
+            "entityId": "state:austro-hungarian-empire",
+            "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+            "validFrom": "1867-02-17",
+            "validTo": "1918-10-30",
+            "geometrySha256": "5f6b7580f1aa7ae54e94cc318864ab8d948d5aa7213471548695342a11319903",
+            "master": {
+              "reference": "assets/data/territorial-entities/source/geometries/sha256-71c90b85332d33ec610a7e9888d78b19b7f27e489f6b6e3613049116657abc4a.json",
+              "revision": "120b7c088363bfab9d6d0c5def1f5cf300fbb17e",
+              "sha256": "71c90b85332d33ec610a7e9888d78b19b7f27e489f6b6e3613049116657abc4a"
+            },
+            "source": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-trieste-coast-20261110/source-provenance.json",
+              "sha256": "ff58d98bb2b807862e0b9c0efebdf49c70d413c70a88ad1491b9d229f819d626"
+            },
+            "comparison": {
+              "reference": {
+                "reference": "assets/data/countries-ne-5.1.1.geojson",
+                "revision": "120b7c088363bfab9d6d0c5def1f5cf300fbb17e",
+                "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+              },
+              "arcSha256": "2a5726b559e8b6fc31a7a43edbeb65bb4c24917c406dd71e07df9654ad95cfd9",
+              "extent": [
+                13.52,
+                45.59,
+                13.81,
+                45.8
+              ],
+              "scaleDenominator": 10000000,
+              "projection": {
+                "definition": "EPSG:3035; always_xy longitude,latitude",
+                "units": "metre",
+                "evidence": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-trieste-coast-20261110/topology-and-projection.json",
+                  "sha256": "a837cb88129c3ccfeca43433796a05c171bf1d343840fedd768b3150c8e8f537"
+                }
+              }
+            },
+            "method": "preserved-modern-source",
+            "reason": "Replace one interior pure-NE coast between two actual rational intersections with exact approved current donor vertices, preserving political boundaries and detached islands.",
+            "parameters": {
+              "operationCount": 1,
+              "donorVertices": 54,
+              "rationalIntersections": 2,
+              "coordinateRounding": null,
+              "snapTolerance": null,
+              "resimplification": null,
+              "arbitraryStraightConnectors": 0,
+              "compiled": false
+            },
+            "visual": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-trieste-coast-20261110/visual-review.json",
+              "sha256": "d6916a465023ca82ab391c75290db9a92a980cc52fe49be0aadf820e348a1b22"
+            },
+            "topology": {
+              "status": "passed",
+              "evidence": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-trieste-coast-20261110/topology-and-projection.json",
+                "sha256": "a837cb88129c3ccfeca43433796a05c171bf1d343840fedd768b3150c8e8f537"
+              },
+              "checks": [
+                "validity",
+                "shared-boundary",
+                "union",
+                "gaps-overlaps",
+                "connectivity",
+                "holes-islands",
+                "dates"
+              ],
+              "scope": "One source display delta. Dates means preserved version interval, not independently verified full-period historical closure."
+            },
+            "counterpartVersions": [],
+            "noSharedBoundaryReason": "No modern international edge imported; modern HRV/SVN overlap and boundaries preserved. The selected coast does not replace a political shared boundary.",
+            "fixedAnchors": [
+              [
+                13.718761,
+                45.600653
+              ],
+              [
+                13.524181,
+                45.760077
+              ]
+            ],
+            "reviewedAt": "2026-11-10T04:03:52.528Z",
+            "reviewScope": "Source display only; no independent historic positional accuracy or compiled/runtime approval.",
+            "compiledDerivatives": [],
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "runtimeApproval": false
+          },
+          "representativeReuse": {
+            "status": "provisional-representative-reuse",
+            "referenceDate": "1914-07-28",
+            "displayPeriod": {
+              "validFrom": "1867-02-17",
+              "validTo": "1918-10-30"
+            },
+            "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+            "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+            "periodEvidence": {
+              "calendar": "gregorian",
+              "precision": "date",
+              "validFrom": "1867-02-17",
+              "lastValidDate": "1918-10-30",
+              "endEventDate": "1918-10-31",
+              "endEventBoundary": "exclusive",
+              "storedValidityBounds": "inclusive",
+              "startEvent": "Formation of the dual government selected as the registration event. The 1867 settlement had several constitutional and legislative stages; this date is a documented modeling choice, not the date of every stage.",
+              "endEvent": "Dissolution of the dual union; treated as the first date outside the old identity.",
+              "sourceUrls": [
+                "https://universitaetsverlage.eu/bucher-e-books/titel/die-protokolle-des-cisleithanischen-ministerrates-1867-1918-band-i-1867/",
+                "https://encyclopedia.1914-1918-online.net/article/post-war-turmoil-and-violence-hungary-1-1/"
+              ]
+            },
+            "reviewScope": "Fresh source-only modern-coast island display delta reviewed for the unchanged provisional display period. Historical correctness across the period and compiled interval outputs are not established.",
+            "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+          },
+          "modernCoastReuse": {
+            "status": "source-display-delta-reviewed",
+            "donorEntityId": "state:HRV",
+            "donorVersionId": "state:HRV:natural-earth-5.1.1",
+            "donorSourcePath": "assets/data/territorial-entities/source/countries/state-HRV.json",
+            "donorSourceBytesSha256": "82ac1394e9c36b1e24e69fa2ed243f5566a498079a669d8ee1fe11333e3bf5da",
+            "donorGeometrySha256": "b2f026910c1a8114147f3ae2b6ea039e7652667e10597c464db3fac54ab372c1",
+            "originalApprovedDonor": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+            },
+            "selectedGroups": [
+              {
+                "oldIndices": [
+                  2,
+                  3
+                ],
+                "donorIndex": 31
+              },
+              {
+                "oldIndices": [
+                  10,
+                  11
+                ],
+                "donorIndex": 66
+              },
+              {
+                "oldIndices": [
+                  13
+                ],
+                "donorIndex": 117
+              },
+              {
+                "oldIndices": [
+                  1
+                ],
+                "donorIndex": 22
+              },
+              {
+                "oldIndices": [
+                  5
+                ],
+                "donorIndex": 5
+              },
+              {
+                "oldIndices": [
+                  6
+                ],
+                "donorIndex": 28
+              },
+              {
+                "oldIndices": [
+                  7
+                ],
+                "donorIndex": 89
+              },
+              {
+                "oldIndices": [
+                  8
+                ],
+                "donorIndex": 2
+              },
+              {
+                "oldIndices": [
+                  9
+                ],
+                "donorIndex": 11
+              },
+              {
+                "oldIndices": [
+                  16
+                ],
+                "donorIndex": 146
+              },
+              {
+                "oldIndices": [
+                  17
+                ],
+                "donorIndex": 153
+              },
+              {
+                "oldIndices": [
+                  18
+                ],
+                "donorIndex": 161
+              },
+              {
+                "oldIndices": [
+                  20
+                ],
+                "donorIndex": 232
+              },
+              {
+                "oldIndices": [
+                  22
+                ],
+                "donorIndex": 199
+              }
+            ],
+            "sourceProvenance": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/approved-source-provenance.json",
+              "sha256": "51d8e596259921185be128bc4dd8afed81a7a78276a8e82b2ce78b5ec797933b"
+            },
+            "previousSource": {
+              "reference": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+              "sha256": "6eaf3cb3a1e34e4e19f3833cf497d1e3493c089e864125fbf81090c49a724f37",
+              "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168"
+            },
+            "sourceOnly": true,
+            "historicalOwnershipReverifiedAcrossWholePeriod": false,
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "compiled": false
+          },
+          "modernCoastArcReuse": {
+            "status": "source-display-delta-reviewed-only",
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/reviewed-coast-operations.json",
+              "sha256": "2f058269476f9ce150ac9cc87be6adcd952a57302537145be19866be6a95e09e"
+            },
+            "sourceProvenance": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-provenance.json",
+              "sha256": "76d351071e33ed3d0c557ea3280d3c0eb95b0d4e68097b602487590a5e0e7cde"
+            },
+            "previousSource": {
+              "reference": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+              "sha256": "d97973c928877f0183c36baef292a67e2168397e1e0accdc9e45c98804d16fa6",
+              "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+              "normalizedVersionSha256": "eb8760230953b2dd46269d3165fd98e7d91bfa73122466bdad1f61929b62413b"
+            },
+            "previousReviewDisposition": "Any previously embedded display receipt applies only to its archived prior geometry; no prior pass is transferred. Previous adopted-island provenance remains unchanged.",
+            "sourceOnly": true,
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "compiled": false,
+            "runtimeApproval": false
+          },
+          "modernWholeIslandReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-six-main-islands-20261110/source-provenance.json",
+              "sha256": "83ee232c59e6d52233f8a045ff284663bedbf649b579f3c8c806aae0359e9998"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-six-main-islands-20261110/operations.json",
+              "sha256": "259498fcb5b42be6b679ad8e25cbdf85dfa01fe8be9e749f44d2394d68d67c9d"
+            },
+            "omissions": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-six-main-islands-20261110/topology-projection-and-omission.json",
+              "sha256": "8bd98cbc1abd654f64a740b568193b54e3f6b1432c6c404a4217a450fecdca1d"
+            },
+            "sourceOnly": true
+          },
+          "modernIstriaInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-istria-interior-20261110/source-provenance.json",
+              "sha256": "90fa39e3df84d30ae9fc9c2ce1d716e1f613cd21c4d276473f1e2582f6827aea"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-istria-interior-20261110/candidate.json",
+              "sha256": "0ad503b34e5aa222f797c348479d157fc50611aecd345e3fd39b8de6c939c2b6"
+            },
+            "sourceOnly": true
+          },
+          "modernDalmatiaInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-dalmatia-interior-20261110/source-provenance.json",
+              "sha256": "312d1cb14db549539f526eb5e45c58202948ec0ab5f195c76b86dec980780c97"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-dalmatia-interior-20261110/candidate.json",
+              "sha256": "5d8e4cbae4e613e1a24d36a07dd8ba3f0a355bab4357bc6c0ec5c3c3551ad3c8"
+            },
+            "sourceOnly": true
+          },
+          "modernSouthDalmatiaInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-south-dalmatia-interior-20261110/source-provenance.json",
+              "sha256": "0c16496876cfd11bba92097cb68307422c0d116448d3e782b212f98cb44a8932"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-south-dalmatia-interior-20261110/candidate.json",
+              "sha256": "5b45c26eeb9fc58833f5b576818ee43d61169a8a57194f2421d3209aa814b715"
+            },
+            "sourceOnly": true
+          },
+          "modernMontenegroInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-montenegro-combined-20261110/source-provenance.json",
+              "sha256": "568eb208e3acc7dcaebed5fd8df605b828c6975b64a6c859249e792e72c6049b"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-montenegro-combined-20261110/candidate-combined.json",
+              "sha256": "583cb333179add8efbccd84de50f4ab9f78b6175676432199d8d95a2548a2778"
+            },
+            "sourceOnly": true
+          },
+          "modernSlovenianCoastReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-slovenian-coast-20261110/source-provenance.json",
+              "sha256": "77442956658612d3c83e2c03db85446e485ecbfa6b743007b1497732c3737cba"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-slovenian-coast-20261110/candidate.json",
+              "sha256": "f7636c7fa53a260325b1abf5f771557f78270733a9dfdaad91af3d895f0bcd51"
+            },
+            "sourceOnly": true
+          },
+          "modernTriesteCoastReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-trieste-coast-20261110/source-provenance.json",
+              "sha256": "ff58d98bb2b807862e0b9c0efebdf49c70d413c70a88ad1491b9d229f819d626"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/ah-trieste-coast-20261110/candidate.json",
+              "sha256": "2a5726b559e8b6fc31a7a43edbeb65bb4c24917c406dd71e07df9654ad95cfd9"
+            },
+            "sourceOnly": true
+          }
+        }
+      }
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "sourcePath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sourceDescriptorSha256": "9a26c1951206d6525842b9600695e857ee03c4c81ee67315fae2aff2ac3d5eba",
+      "normalizedEntitySha256": "cb1424cb10861daee1a3a3c23029e0d9a3855d2b241676f1823d0e3164e2e6dd",
+      "versionSha256": "ad57caf143499330f832e2ac23ed1fdbccc7258c620f558a4619c4c7721c3314",
+      "geometrySha256": "afa85744ce550f32d0e8f579d0f60e82fe3ec5df92e2977db452c601dd3a98b2",
+      "candidateGeometrySha256": "c88ff6148dafa8783b1cff47d88688a378e9d360d34e7b7e4011afee214c608d",
+      "preparedPreimageStillExact": true,
+      "donorWholeCoordinatesExact": true,
+      "originalDateSourceCertaintyNotesRetained": true,
+      "originalVersionProperties": {
+        "versionId": "state:DEU:1914-07-31-display-r1",
+        "validFrom": "1871-01-01",
+        "validTo": "1918-11-08",
+        "certainty": "provisional",
+        "sourceId": "histogis-modern-coast-policy-1914",
+        "historicalProvenance": {
+          "status": "provisional-representative-reuse",
+          "referenceDate": "1914-07-31",
+          "scope": "Provisional representative display reuse across the selected historical identity period; detailed border-change versions are deferred.",
+          "limitations": [
+            "Technical topology and generalization only; not independent historical positional accuracy.",
+            "The 1914 reference-day geometry is reused provisionally; historical borders varied within the display period and detailed versions are deferred.",
+            "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+            "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+          ],
+          "displayDetailReview": {
+            "schemaVersion": 1,
+            "status": "passed",
+            "entityId": "state:DEU",
+            "versionId": "state:DEU:1914-07-31-display-r1",
+            "validFrom": "1871-01-01",
+            "validTo": "1918-11-08",
+            "geometrySha256": "afa85744ce550f32d0e8f579d0f60e82fe3ec5df92e2977db452c601dd3a98b2",
+            "master": {
+              "reference": "assets/data/territorial-entities/source/geometries/sha256-7d1d3e05141a07c3cee2a2728a6b6fc3a7477751cd8859cc1b380a4bddde39fd.json",
+              "revision": "cf8d49b157bcc368ea367222f9330aa79d821e61",
+              "sha256": "7d1d3e05141a07c3cee2a2728a6b6fc3a7477751cd8859cc1b380a4bddde39fd"
+            },
+            "source": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-north-schleswig-east-paired-20261110/source-provenance.json",
+              "sha256": "dfec56a6949887f9ec98c97e88166bb4639274827f77f73074772822e00f083c"
+            },
+            "comparison": {
+              "reference": {
+                "reference": "assets/data/countries-ne-5.1.1.geojson",
+                "revision": "cf8d49b157bcc368ea367222f9330aa79d821e61",
+                "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb"
+              },
+              "arcSha256": "7696a8c9e2c1def81348a18f2939f18aa2b218e3a56ad93c8f05e5385912f45c",
+              "extent": [
+                9.43,
+                54.81,
+                9.77,
+                55.24
+              ],
+              "scaleDenominator": 10000000,
+              "projection": {
+                "definition": "EPSG:3035; always_xy longitude,latitude",
+                "units": "metre",
+                "evidence": {
+                  "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-north-schleswig-east-paired-20261110/paired-topology-proof.json",
+                  "sha256": "db4a768c5f55d27dcc8c9ae4085681fedc37f0d69751aa7c0cce03ae30ceced9"
+                }
+              }
+            },
+            "method": "preserved-modern-source",
+            "reason": "Reuse one identical modern coast sequence in both historical versions without altering political land boundaries.",
+            "parameters": {
+              "operationCount": 1,
+              "sharedOldEdges": 91,
+              "donorVertices": 126,
+              "rationalIntersections": 2,
+              "snapTolerance": null,
+              "coordinateRounding": null,
+              "resimplification": null,
+              "compiled": false
+            },
+            "visual": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-north-schleswig-east-paired-20261110/visual-review.json",
+              "sha256": "a3561ab68475ead05d646ac60e7277462e59862c9138660c091727de8a3b9a0b"
+            },
+            "topology": {
+              "status": "passed",
+              "evidence": {
+                "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-north-schleswig-east-paired-20261110/paired-topology-proof.json",
+                "sha256": "db4a768c5f55d27dcc8c9ae4085681fedc37f0d69751aa7c0cce03ae30ceced9"
+              },
+              "checks": [
+                "validity",
+                "shared-boundary",
+                "union",
+                "gaps-overlaps",
+                "connectivity",
+                "holes-islands",
+                "dates"
+              ],
+              "scope": "Identical shared coast replacement and exact preservation of pre-existing inter-object set differences. Periods preserved, not independently reconstructed."
+            },
+            "counterpartVersions": [
+              {
+                "entityId": "state:north-schleswig",
+                "versionId": "north-schleswig-1900-r3",
+                "validFrom": "1900-01-01",
+                "validTo": "1900-01-01",
+                "geometrySha256": "eaea21c9c4ba0237dc94227d49ad8ee06ae640022d318a9a5f3be507538f9fd2"
+              }
+            ],
+            "fixedAnchors": [
+              [
+                9.699474,
+                55.229804
+              ],
+              [
+                9.442882,
+                54.831529
+              ]
+            ],
+            "reviewedAt": "2026-11-10T04:22:09.979Z",
+            "reviewScope": "Source display only; matched overlap dates do not extend either version.",
+            "compiledDerivatives": [],
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "runtimeApproval": false
+          },
+          "representativeReuse": {
+            "status": "provisional-representative-reuse",
+            "referenceDate": "1914-07-31",
+            "displayPeriod": {
+              "validFrom": "1871-01-01",
+              "validTo": "1918-11-08"
+            },
+            "historicalBoundaryValidity": "Only the reference-day shape is reconstructed; this display period does not assert unchanged historical borders.",
+            "detail": "국경 변동별 세부 형상은 후속 작업. 기준일 대표 형상을 존속기간에 잠정 적용합니다.",
+            "periodEvidence": {
+              "calendar": "gregorian",
+              "precision": "date",
+              "validFrom": "1871-01-01",
+              "lastValidDate": "1918-11-08",
+              "endEventDate": "1918-11-09",
+              "endEventBoundary": "exclusive",
+              "storedValidityBounds": "inclusive",
+              "startEvent": "German imperial constitution effective; January 18 was the subsequent symbolic proclamation.",
+              "endEvent": "Republic proclaimed; the imperial regime ends at the start of this model date.",
+              "sourceUrls": [
+                "https://www.bundestag.de/dokumente/textarchiv/2021/kw11-kalenderblatt-150jahre-reichstag-828278",
+                "https://www.bundestag.de/en/parliament/history/parliamentarism/empire/empire-200352"
+              ]
+            },
+            "reviewScope": "Fresh source-only modern-coast island display delta reviewed for the unchanged provisional display period. Historical correctness across the period and compiled interval outputs are not established.",
+            "peerOwnership": "Date-only local availability update; no peer clipping or neighboring geometry regeneration performed."
+          },
+          "modernCoastReuse": {
+            "status": "source-display-delta-reviewed",
+            "donorEntityId": "state:DEU",
+            "donorVersionId": "state:DEU:natural-earth-5.1.1",
+            "donorSourcePath": "assets/data/territorial-entities/source/countries/state-DEU.json",
+            "donorSourceBytesSha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+            "donorGeometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+            "originalApprovedDonor": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+            },
+            "selectedGroups": [
+              {
+                "oldIndices": [
+                  1
+                ],
+                "donorIndices": [
+                  8
+                ],
+                "basis": "single-positive-overlap whole island"
+              },
+              {
+                "oldIndices": [
+                  12
+                ],
+                "donorIndices": [
+                  84
+                ],
+                "basis": "single-positive-overlap whole island"
+              },
+              {
+                "oldIndices": [
+                  17
+                ],
+                "donorIndices": [
+                  170
+                ],
+                "basis": "single-positive-overlap whole island"
+              },
+              {
+                "oldIndices": [
+                  20
+                ],
+                "donorIndices": [
+                  172
+                ],
+                "basis": "single-positive-overlap whole island"
+              },
+              {
+                "oldIndices": [
+                  3
+                ],
+                "donorIndices": [
+                  21,
+                  23
+                ],
+                "basis": "all positive-overlap components; every supplemental component fully covered by original NE polygon"
+              },
+              {
+                "oldIndices": [
+                  4
+                ],
+                "donorIndices": [
+                  25,
+                  26
+                ],
+                "basis": "all positive-overlap components; every supplemental component fully covered by original NE polygon"
+              },
+              {
+                "oldIndices": [
+                  5
+                ],
+                "donorIndices": [
+                  38,
+                  41,
+                  40
+                ],
+                "basis": "all positive-overlap components; every supplemental component fully covered by original NE polygon"
+              },
+              {
+                "oldIndices": [
+                  13
+                ],
+                "donorIndices": [
+                  89,
+                  90
+                ],
+                "basis": "all positive-overlap components; every supplemental component fully covered by original NE polygon"
+              },
+              {
+                "oldIndices": [
+                  14
+                ],
+                "donorIndices": [
+                  131,
+                  133,
+                  132
+                ],
+                "basis": "all positive-overlap components; every supplemental component fully covered by original NE polygon"
+              },
+              {
+                "oldIndices": [
+                  21
+                ],
+                "donorIndices": [
+                  168,
+                  175
+                ],
+                "basis": "all positive-overlap components; every supplemental component fully covered by original NE polygon"
+              }
+            ],
+            "sourceProvenance": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/approved-source-provenance.json",
+              "sha256": "51d8e596259921185be128bc4dd8afed81a7a78276a8e82b2ce78b5ec797933b"
+            },
+            "previousSource": {
+              "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+              "sha256": "964067e1feccef73e6be36ac02159eea67bd14cd3f4d2764bbd5ebaeae4beb6a",
+              "revision": "d01b02c6feab9b8dfcb71f5e22ca67b4378b3168"
+            },
+            "sourceOnly": true,
+            "historicalOwnershipReverifiedAcrossWholePeriod": false,
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "compiled": false
+          },
+          "modernCoastArcReuse": {
+            "status": "source-display-delta-reviewed-only",
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/reviewed-coast-operations.json",
+              "sha256": "2f058269476f9ce150ac9cc87be6adcd952a57302537145be19866be6a95e09e"
+            },
+            "sourceProvenance": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/source-provenance.json",
+              "sha256": "76d351071e33ed3d0c557ea3280d3c0eb95b0d4e68097b602487590a5e0e7cde"
+            },
+            "previousSource": {
+              "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+              "sha256": "825f2aa3ef5a754c61c5f310e2b0a0b9fa16151f58d95ca76a0ed97c12825eff",
+              "revision": "2d65ccfe2fa57a42bfbe26f8952af2a416b45159",
+              "normalizedVersionSha256": "7456876ddef02b7bcb007ba5b79cfcfe5a5c8761e17652af7b84336641ca6620"
+            },
+            "previousReviewDisposition": "Any previously embedded display receipt applies only to its archived prior geometry; no prior pass is transferred. Previous adopted-island provenance remains unchanged.",
+            "sourceOnly": true,
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "compiled": false,
+            "runtimeApproval": false
+          },
+          "modernConnectedIslandReuse": {
+            "status": "source-display-delta-reviewed-only",
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/reviewed-operations.json",
+              "sha256": "1bdb594cf2704d8cb2917a933c32de7d7bed40c1a437a839cfd856a0c5c42944"
+            },
+            "sourceProvenance": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/source-provenance.json",
+              "sha256": "d1d2445668658d539374a634969134ca1d9de4d602c50b82290b35232f934c36"
+            },
+            "previousSource": {
+              "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+              "sha256": "d13d349840a5f20484f072afcb5ca1c7b39a2b3d3f9cac1c9eae28f96dc2b992",
+              "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6",
+              "normalizedVersionSha256": "bdb62b2ecfc156ab1e414b06f67cccb9e7dcc7d060d4fc3a9759ca9d9b3b7328"
+            },
+            "preservedPriorReview": "Prior display receipt remains in immutable prior descriptor; prior modernCoastReuse and modernCoastArcReuse provenance remains unchanged. No prior pass transfers.",
+            "sourceOnly": true,
+            "historicalOwnershipReverifiedAcrossWholePeriod": false,
+            "fullPeriodDatedCounterpartClosureVerified": false,
+            "compiled": false,
+            "runtimeApproval": false
+          },
+          "modernWholeIslandReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-four-major-islands-20261110/source-provenance.json",
+              "sha256": "cc19145c847474366a369075b5ef8f08656d58522b05eadffbd1528a3031a904"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-four-major-islands-20261110/operations.json",
+              "sha256": "d9722469deed96dc86eefd74f3ad1df6820a1f2003426f4ead7528e2be98185b"
+            },
+            "omissions": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-four-major-islands-20261110/topology-projection-and-omission.json",
+              "sha256": "76d2e9fe39017b5b45febe2ec95c38729644136338b094857f178bc740a76cba"
+            },
+            "sourceOnly": true
+          },
+          "modernMainlandInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-mainland-interior-20261110/source-provenance.json",
+              "sha256": "6b1316bc4d68e0c75736a99c3c7a803b215ca47b473952f8940db38893466576"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-mainland-interior-20261110/candidate.json",
+              "sha256": "673bbf13f4c3dbf12be0b5a63eb5626c953b76bd6202c7d5fbdf9693177699b9"
+            },
+            "sourceOnly": true
+          },
+          "modernBalticInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-baltic-interior-20261110/source-provenance.json",
+              "sha256": "f233b725b89390099c8fa85be7907786585d684e91e1c33e94e3ebdbefda8f95"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-baltic-interior-20261110/candidate.json",
+              "sha256": "83cbffc5d6eb6d1ef6af957c97500bef56f955f13287fe6e06df136ceb5f1267"
+            },
+            "sourceOnly": true
+          },
+          "modernBalticFollowupReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-baltic-followup-combined-20261110/source-provenance.json",
+              "sha256": "1824e3803ce4750e51ab718c8f7fe647461c63a06e1b96631e31aebb6d45b08d"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-baltic-followup-combined-20261110/candidate-combined.json",
+              "sha256": "6723614f4547398ae6e8124fd74b6910ac5cf05e0e781b708b0416ef0fca2ef6"
+            },
+            "sourceOnly": true
+          },
+          "modernPeeneUpperReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-baltic-peene-upper-20261110/source-provenance.json",
+              "sha256": "41b74b6c4b142cf84f7890feb06a9e2fbd90624c40181fd13b284ef8534b364b"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-baltic-peene-upper-20261110/candidate.json",
+              "sha256": "63478167b8cd9b8159f2115dd491eddf37214eadde8baeb8626e6e6e1df6488b"
+            },
+            "sourceOnly": true
+          },
+          "modernPomeraniaInteriorReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-pomerania-interior-20261110/source-provenance.json",
+              "sha256": "074c47020a80c16421e55a80d5085ed7874203e69355b5ae8580d450fe1f0742"
+            },
+            "operations": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-pomerania-interior-20261110/candidate.json",
+              "sha256": "06be0aa38ab07082c81ab19408f47568f5e765c6a1080fe1891934907b0a65bb"
+            },
+            "sourceOnly": true
+          },
+          "pairedWestPrussiaModernCoastReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-west-prussia-paired-20261110/source-provenance.json",
+              "sha256": "76af32c466161460542514ac35f5b49c56422a25174701c54a818b2c185b2852"
+            },
+            "pairedCandidate": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-west-prussia-paired-20261110/paired-candidate.json",
+              "sha256": "33db26da023cf7b0ed572bcfa1c7d4a56ddd0ad8b20cf771e4f4cd43c9417630"
+            },
+            "sourceOnly": true
+          },
+          "pairedNorthSchleswigModernCoastReuse": {
+            "sourceReview": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-north-schleswig-east-paired-20261110/source-provenance.json",
+              "sha256": "dfec56a6949887f9ec98c97e88166bb4639274827f77f73074772822e00f083c"
+            },
+            "pairedCandidate": {
+              "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-north-schleswig-east-paired-20261110/paired-candidate.json",
+              "sha256": "dff5c29c1f27a297914bd86a09c9d9e795b2e18c5a811b647bbed03cc150f096"
+            },
+            "sourceOnly": true
+          }
+        }
+      }
+    }
+  ],
+  "sourceOnly": true
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "status": "Completed source-only correction evidence; local files retained, not remotely published",
+  "sourceCommit": "0e49cfeeb54ee83afb7671e9d56f11d5f400f380",
+  "files": [
+    {
+      "name": "AH-restoration-source-scale.png",
+      "bytes": 19594,
+      "sha256": "7318a54f7e6a941b251e34fb9faf0a7914626c89c14246eaa31fa78c5370aebc"
+    },
+    {
+      "name": "audit-report.json",
+      "bytes": 55448,
+      "sha256": "59f1f15df71333a44f9c270837194b3c67c9a081e465e228148b206e7cf21401"
+    },
+    {
+      "name": "canonical-paired-source-patch.json",
+      "bytes": 1473645,
+      "sha256": "96a2ed597dc1c0fc39524bf88337bc6946bd1490e7c784faa324d6898540d2b9"
+    },
+    {
+      "name": "cleanup-and-retention.json",
+      "bytes": 714,
+      "sha256": "4a73f2ef007aa30506779f06317c3ab96a548bd40db2e2678372098664de423d"
+    },
+    {
+      "name": "current-topology-proof.json",
+      "bytes": 2301,
+      "sha256": "88fee8314848ccee3c761c8dc5626db42e7a300f4d432175239b414485b75dee"
+    },
+    {
+      "name": "DEU-restoration-source-scale.png",
+      "bytes": 19106,
+      "sha256": "4dc63efb22c4b7f20548b0f45c667f181534b4b353d1e28a6359a2c0312960d3"
+    },
+    {
+      "name": "fresh-preimage-check.json",
+      "bytes": 41715,
+      "sha256": "55d1931f39c43f31ce077f3f23e9db4d67bb30c7d16b3070b3341ab48eca6b0c"
+    },
+    {
+      "name": "local-archive-commit.json",
+      "bytes": 3007,
+      "sha256": "5cb4e54c5a02db7659ee70d79859852948026dce8ab8cbc36be148d83026bdc3"
+    },
+    {
+      "name": "local-source-application.json",
+      "bytes": 2237,
+      "sha256": "a24b6dff321a1de203012f12505d1b03ff313e911265b1943934c73562614cfd"
+    },
+    {
+      "name": "projection-evidence.json",
+      "bytes": 585,
+      "sha256": "1078bf7728cc694f456c2a54b54ca19395bc4d09f284bb85854fb0095bc5df6b"
+    },
+    {
+      "name": "projection-execution.json",
+      "bytes": 1246,
+      "sha256": "9f7e4bb9f28e4c8a81d4ea8b3f8af86a62081a1e5c39b2234993cf575f8d2d5f"
+    },
+    {
+      "name": "restoration-candidates.geojson",
+      "bytes": 1320545,
+      "sha256": "a685a5ea3f9ef0c95e9e93d5394ebd94db731d74b1bce89ee81369ee9167ce0c"
+    },
+    {
+      "name": "restoration-manifest.json",
+      "bytes": 2620,
+      "sha256": "a0a2e9115d6cf07454c47c5c274c39d148b95c35518e79258be47d5b80ef741b"
+    },
+    {
+      "name": "restoration-validation.json",
+      "bytes": 14156,
+      "sha256": "6158a978514a6bcd65ef99aee42ffa0b872d5558f18d218c5dbcfac3fa50c8fc"
+    },
+    {
+      "name": "scanned-evidence.json",
+      "bytes": 98947,
+      "sha256": "d18f71e7c52cbece15781ed7f282193424f583e854c76c2f42cfae33ec43ad4a"
+    },
+    {
+      "name": "source-gate-proof.json",
+      "bytes": 1205,
+      "sha256": "181bc7b21ca4047b8350056493b49124919cdde24b6fa40ddc5dba6786b42109"
+    },
+    {
+      "name": "source-provenance.json",
+      "bytes": 4526,
+      "sha256": "43c5dcc22619223d9b46e3fa643ad2415b5bbd18f438c7e9df5162c1156e8f9b"
+    },
+    {
+      "name": "visual-review.json",
+      "bytes": 1569,
+      "sha256": "1554cdc6d4d156580eb4f977ab7c75a25d54a4a7326d1e53f17674ab6f57baaf"
+    }
+  ],
+  "selfHashRule": "This manifest excludes its own hash.",
+  "retainedScripts": "Audit, preparation, rendering, validation, canonical patch, apply and archive verification scripts are retained as reproducible process evidence; never rerun the apply script blindly."
+}

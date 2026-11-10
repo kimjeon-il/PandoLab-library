@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "status": "Candidate only; do not apply without rechecking current source preimages",
+  "sourceRevision": "36a996c1e596055c4e371b6803b92276252950bc",
+  "method": "Append each explicitly omitted whole approved modern polygon without changing or rounding a single coordinate. No clipping, union-based rebuild, buffer, snapping, simplification, scaling or manual boundary drawing.",
+  "sourceApplicationPerformed": false,
+  "committed": false,
+  "groups": [
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorGeometrySha256": "b2f026910c1a8114147f3ae2b6ea039e7652667e10597c464db3fac54ab372c1",
+      "donorPolygonIndicesZeroBased": [
+        46,
+        72,
+        164,
+        231,
+        220,
+        212,
+        213
+      ],
+      "currentVersionSha256": "3a54037197748d3e2d5c07a571eb28452e8639a779958f5ce1068b0547b764b3",
+      "currentSourceDescriptorSha256": "396b582973dc7188227e1b015252a7910b35a70142bb396f2cee18567bbe7e86",
+      "currentGeometrySha256": "5f6b7580f1aa7ae54e94cc318864ab8d948d5aa7213471548695342a11319903",
+      "candidateGeometrySha256": "89ef312e04de1c8724abf9abce4063dd64c3fd0ccf1cd6204a3928e94c483819",
+      "currentPolygonCount": 21,
+      "candidatePolygonCount": 28
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorGeometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+      "donorPolygonIndicesZeroBased": [
+        48,
+        51,
+        54,
+        55,
+        57,
+        59,
+        60,
+        64,
+        35,
+        36
+      ],
+      "currentVersionSha256": "ad57caf143499330f832e2ac23ed1fdbccc7258c620f558a4619c4c7721c3314",
+      "currentSourceDescriptorSha256": "9a26c1951206d6525842b9600695e857ee03c4c81ee67315fae2aff2ac3d5eba",
+      "currentGeometrySha256": "afa85744ce550f32d0e8f579d0f60e82fe3ec5df92e2977db452c601dd3a98b2",
+      "candidateGeometrySha256": "c88ff6148dafa8783b1cff47d88688a378e9d360d34e7b7e4011afee214c608d",
+      "currentPolygonCount": 28,
+      "candidatePolygonCount": 38
+    }
+  ],
+  "doNotTransferOldGeometryApproval": true
+}

@@ -1,0 +1,57 @@
+{
+  "status": "Both local sources applied; archive pending",
+  "sourceRevision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+  "prefixes": [
+    "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+    "assets/data/territorial-entities/source/geometries/sha256-757d34fd0be78528d439907ff09a1441b04f0b1c49d329447e0bf1fe398e1310.json",
+    "assets/data/territorial-entities/source/countries/state-DEU.json",
+    "assets/data/territorial-entities/source/geometries/sha256-7e08c0b1d69ef9e22c1e66b92db8820dde80b562cf00097e5806af547aa447bc.json"
+  ],
+  "results": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "result": {
+        "descriptorWrites": 1,
+        "geometryWrites": 1
+      },
+      "expected": {
+        "entitySha256": "2c81cc2edf4f0bc93e22c22ab39f442ad2ca403ccec4dd5c4f440c55881d6999",
+        "descriptorSha256": "18f99a1b8a98d118f0134ae32d7aecd7d8962e94c74aabe7e564da5558512b18",
+        "versionSha256": "5af65f315736c49e19b6abfd1b51f55ef2d5d21692124f8e5d60eeb66a4e7591",
+        "geometrySha256": "89ef312e04de1c8724abf9abce4063dd64c3fd0ccf1cd6204a3928e94c483819"
+      },
+      "sourceReadbackPassed": true
+    },
+    {
+      "entityId": "state:DEU",
+      "result": {
+        "descriptorWrites": 1,
+        "geometryWrites": 1
+      },
+      "expected": {
+        "entitySha256": "3c372d2f2f6200de05be101bc5a79e3c9f1ceb14918e358c81f0c91d76b43793",
+        "descriptorSha256": "c622f9e2ee63cd05ae8dd8b4bdbbf9a59527e2060a1da664081529f1ed1a0735",
+        "versionSha256": "c46cf0f03e19ed23d0ac4ef41d5fa4d809bb30204d6fc3b59f53826147b743d3",
+        "geometrySha256": "c88ff6148dafa8783b1cff47d88688a378e9d360d34e7b7e4011afee214c608d"
+      },
+      "sourceReadbackPassed": true
+    }
+  ],
+  "configBefore": {
+    "schemaVersion": 1,
+    "repository": "kimjeon-il/PandoLab-library-data",
+    "revision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+    "mounts": [
+      "assets/data",
+      "reports",
+      "tools/historical-library/sources",
+      "tools/historical-library/working",
+      "tools/historical-library/review-output",
+      "tools/historical-library/land-borders"
+    ]
+  },
+  "sourceOnly": true,
+  "compiled": false,
+  "push": false,
+  "deployed": false
+}

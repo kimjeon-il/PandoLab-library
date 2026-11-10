@@ -1,0 +1,153 @@
+{
+  "sourceRevision": "9be2367b126949890345b76830dcc53f255f0dbf",
+  "status": "read-only discrepancy audit; no changes applied",
+  "rows": [
+    {
+      "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+      "validFrom": "1945-08-17",
+      "validTo": "1963-04-30",
+      "baseline": "modern IDN minus definitely source-matched Papua components; unmatched modern islands remain unresolved",
+      "exactModernEquivalent": false,
+      "historicalPolygonCount": 367,
+      "exactCurrentIDNPolygonMatches": 168,
+      "missingFromHistoricalKm2": 14201.205811327822,
+      "extraInHistoricalKm2": 7050.379257648633,
+      "symmetricDifferenceKm2": 21251.585068976456,
+      "explicitOmissionUniqueComponents": 450,
+      "explicitOmissionFullyAbsentComponents": 450,
+      "explicitOmissionActuallyAbsentKm2": 118.91305528646942
+    },
+    {
+      "versionId": "state:indonesia:1945-2002-r1",
+      "validFrom": "1975-12-07",
+      "validTo": "1999-10-24",
+      "baseline": "exact union of complete approved current IDN and TLS",
+      "exactModernEquivalent": false,
+      "historicalPolygonCount": 472,
+      "exactCurrentIDNPolygonMatches": 247,
+      "missingFromHistoricalKm2": 17607.821316306126,
+      "extraInHistoricalKm2": 8171.193603827215,
+      "symmetricDifferenceKm2": 25779.01492013334,
+      "explicitOmissionUniqueComponents": 539,
+      "explicitOmissionFullyAbsentComponents": 539,
+      "explicitOmissionActuallyAbsentKm2": 162.4656725662526
+    }
+  ],
+  "papuaClassification": {
+    "papua_only": 214,
+    "retained_only": 952,
+    "mixed": 0,
+    "no_NE_overlap": 2962
+  },
+  "excludedNEPapuaPolygonIndices": [
+    3,
+    17,
+    32,
+    130,
+    137,
+    154,
+    169,
+    171,
+    172,
+    177,
+    178,
+    180,
+    182,
+    186,
+    187,
+    188,
+    189,
+    190,
+    192,
+    202,
+    244,
+    245,
+    246,
+    255,
+    258
+  ],
+  "modernPapuaMatchedAreaKm2": 408364.47919780255,
+  "unmatchedModernComponentsAreaKm2": 7009.242420998522,
+  "omissionPolicyFinding": "Prior omissions were based on a display-scale pixel criterion, not a verified simplification error. No new omissions are authorized or performed during this audit.",
+  "knownDifferenceClasses": [
+    "Remaining unchanged old NE island/coast polygons",
+    "Protected old NE political boundary and junction connectors, even where their display differs from modern",
+    "Explicit prior display-scale omissions of approved modern components",
+    "1945 Papua exclusion and 1975 East Timor inclusion are period-specific ownership/display scope, not shape errors"
+  ],
+  "limits": [
+    "1945 exact target still needs authoritative classification of modern components without any old NE overlap. The provisional baseline includes them rather than treating them as approved exclusions.",
+    "Numbers are ellipsoidal areas of planar-overlay differences, not evidence of historical territorial entitlement."
+  ],
+  "committedScopes": [
+    {
+      "scope": "idn-borneo-coast-20261110",
+      "revision": "8ffc62d65f03a1ecb319cf975c4ed6b5e7fee3ab",
+      "omissionsPerEditedVersion": 157,
+      "versions": [
+        "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-independent-islands-20261110",
+      "revision": "fe4151e4492b15a3d0ffafccb3e7ba3cb82057ca",
+      "omissionsPerEditedVersion": 93,
+      "versions": [
+        "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-next-islands-20261110",
+      "revision": "e03d6c2748a3b3e57703f179602c2485453aa70f",
+      "omissionsPerEditedVersion": 118,
+      "versions": [
+        "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-remaining-large-islands-20261110",
+      "revision": "eaed2a8583ea8bd0c9454a21c70da1d3c5ca3352",
+      "omissionsPerEditedVersion": 33,
+      "versions": [
+        "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-residual-islands-20261110",
+      "revision": "ffb94a0db4a57f6b0720f945982c8154128aed2f",
+      "omissionsPerEditedVersion": 48,
+      "versions": [
+        "state:IDN:1945-1963-before-west-new-guinea-r1",
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-timor-coast-20261110",
+      "revision": "509d2809e056215bf2570a617aa37cb19a81127c",
+      "omissionsPerEditedVersion": 1,
+      "versions": [
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-west-new-guinea-coast-20261110",
+      "revision": "9be2367b126949890345b76830dcc53f255f0dbf",
+      "omissionsPerEditedVersion": 89,
+      "versions": [
+        "state:indonesia:1945-2002-r1"
+      ]
+    },
+    {
+      "scope": "idn-west-timor-coast-20261110",
+      "revision": "cea05c88148afc24e92c72e92d202a271fbbd56c",
+      "omissionsPerEditedVersion": 1,
+      "versions": [
+        "state:IDN:1945-1963-before-west-new-guinea-r1"
+      ]
+    }
+  ]
+}

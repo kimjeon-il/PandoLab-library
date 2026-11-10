@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "status": "Restore17 explicit existing-approved-donor omissions; source only",
+  "sourceRevision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+  "targets": [
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "sourceId": "histogis-modern-coast-policy-1914",
+      "certainty": "provisional",
+      "source": {
+        "reference": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+        "revision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+        "sha256": "396b582973dc7188227e1b015252a7910b35a70142bb396f2cee18567bbe7e86"
+      },
+      "beforeGeometrySha256": "5f6b7580f1aa7ae54e94cc318864ab8d948d5aa7213471548695342a11319903",
+      "donor": {
+        "entityId": "state:HRV",
+        "versionId": "state:HRV:natural-earth-5.1.1",
+        "geometrySha256": "b2f026910c1a8114147f3ae2b6ea039e7652667e10597c464db3fac54ab372c1",
+        "indices": [
+          46,
+          72,
+          164,
+          231,
+          220,
+          212,
+          213
+        ]
+      },
+      "candidateGeometrySha256": "89ef312e04de1c8724abf9abce4063dd64c3fd0ccf1cd6204a3928e94c483819"
+    },
+    {
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "sourceId": "histogis-modern-coast-policy-1914",
+      "certainty": "provisional",
+      "source": {
+        "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+        "revision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+        "sha256": "9a26c1951206d6525842b9600695e857ee03c4c81ee67315fae2aff2ac3d5eba"
+      },
+      "beforeGeometrySha256": "afa85744ce550f32d0e8f579d0f60e82fe3ec5df92e2977db452c601dd3a98b2",
+      "donor": {
+        "entityId": "state:DEU",
+        "versionId": "state:DEU:natural-earth-5.1.1",
+        "geometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+        "indices": [
+          48,
+          51,
+          54,
+          55,
+          57,
+          59,
+          60,
+          64,
+          35,
+          36
+        ]
+      },
+      "candidateGeometrySha256": "c88ff6148dafa8783b1cff47d88688a378e9d360d34e7b7e4011afee214c608d"
+    }
+  ],
+  "approvedOriginal": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+    "revision": "ebae7be60b7b40a00627028ee16841701c3511a6",
+    "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e"
+  },
+  "audit": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/audit-report.json",
+    "sha256": "59f1f15df71333a44f9c270837194b3c67c9a081e465e228148b206e7cf21401"
+  },
+  "freshPreimage": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/fresh-preimage-check.json",
+    "sha256": "55d1931f39c43f31ce077f3f23e9db4d67bb30c7d16b3070b3341ab48eca6b0c"
+  },
+  "candidate": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/restoration-candidates.geojson",
+    "sha256": "a685a5ea3f9ef0c95e9e93d5394ebd94db731d74b1bce89ee81369ee9167ce0c"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/current-topology-proof.json",
+    "sha256": "88fee8314848ccee3c761c8dc5626db42e7a300f4d432175239b414485b75dee"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/visual-review.json",
+    "sha256": "1554cdc6d4d156580eb4f977ab7c75a25d54a4a7326d1e53f17674ab6f57baaf"
+  },
+  "basis": "Restore whole existing approved donor components removed by historical display-scale selection. Copy exact coordinates. Keep original historical interval, identity, sovereignty assumptions, rights, notes and limitations. Defer any later keep/delete decision to a consistent worldwide review.",
+  "originalDonorOmissionsRestored": 0,
+  "newOmissions": 0,
+  "sourceOnly": true,
+  "runtimeApproval": false
+}

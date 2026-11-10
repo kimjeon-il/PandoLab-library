@@ -1,0 +1,1600 @@
+{
+  "schemaVersion": 1,
+  "status": "Read-only source audit; restoration candidates prepared, no source application or commit",
+  "createdAt": "2026-11-10T05:21:24.463Z",
+  "sourceRevision": "36a996c1e596055c4e371b6803b92276252950bc",
+  "scope": "Explicit existing-modern-donor polygon omission decisions in committed Austria-Hungary and Germany historical-coast work; not a claim that every historical/current mismatch is an error",
+  "summary": {
+    "verifiedOmittedComponents": 17,
+    "AHComponents": 7,
+    "DEUComponents": 10,
+    "allSeventeenPresentInApprovedCanonicalDonors": true,
+    "allSeventeenWhollyAbsentFromCurrentHistoricalArea": true,
+    "originalApprovedDonorOmissionsAmongThese": 0,
+    "manualDrawingOrScalingAmongThese": false,
+    "additionalExplicitOmissionsFoundInReviewedC1C2C3": 0,
+    "restorationCandidateValidationPassed": true
+  },
+  "currentInstructionInterpretation": "Restore confirmed existing-donor omissions first. Any later keep/delete decision should be made consistently worldwide. No new display, area or distance cutoff has been created or applied.",
+  "groups": [
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "referenceDate": "1914-07-28",
+      "commit": "1e820d2adc7ff5d2dbf4288435d8c4753eaec613",
+      "commitDate": "2026-11-10T12:17:24+09:00",
+      "preimageRevision": "565d6b2a9c8f39a9ddf866268a55c1e08ea32028",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorGeometrySha256": "b2f026910c1a8114147f3ae2b6ea039e7652667e10597c464db3fac54ab372c1",
+      "donorPolygonIndicesZeroBased": [
+        46,
+        72,
+        164,
+        231,
+        220,
+        212,
+        213
+      ],
+      "recordedOmittedAreaKm2": 1.853907291163266,
+      "currentVersionSha256": "3a54037197748d3e2d5c07a571eb28452e8639a779958f5ce1068b0547b764b3",
+      "currentSourceDescriptorSha256": "396b582973dc7188227e1b015252a7910b35a70142bb396f2cee18567bbe7e86",
+      "currentGeometrySha256": "5f6b7580f1aa7ae54e94cc318864ab8d948d5aa7213471548695342a11319903",
+      "candidateGeometrySha256": "89ef312e04de1c8724abf9abce4063dd64c3fd0ccf1cd6204a3928e94c483819",
+      "currentPolygonCount": 21,
+      "candidatePolygonCount": 28,
+      "approvedOriginalMatch": true,
+      "donorUnchangedSinceOmission": true,
+      "originalDonorOmission": false,
+      "decisionType": "Existing approved donor components omitted from historical derivative",
+      "criterionRecorded": "Only seven old whole-NE island proxy polygons; copy six exact current major donor bodies. Seven tiny detached fragments absent as separate NE islands are not added to this historical display derivative. No global area threshold and original modern donor preserved.",
+      "simplificationErrorEvidenceFound": false,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "omittedOnly": true,
+      "evidence": [
+        {
+          "relativePath": "ah-six-main-islands-20261110/operations.json",
+          "sha256": "259498fcb5b42be6b679ad8e25cbdf85dfa01fe8be9e749f44d2394d68d67c9d"
+        },
+        {
+          "relativePath": "ah-six-main-islands-20261110/topology-projection-and-omission.json",
+          "sha256": "8bd98cbc1abd654f64a740b568193b54e3f6b1432c6c404a4217a450fecdca1d"
+        },
+        {
+          "relativePath": "ah-six-main-islands-20261110/source-provenance.json",
+          "sha256": "83ee232c59e6d52233f8a045ff284663bedbf649b579f3c8c806aae0359e9998"
+        },
+        {
+          "relativePath": "ah-six-main-islands-20261110/local-archive-commit.json",
+          "sha256": "86540d2b84609e51c1ba6b4c6338d720e863102982925c6e8a439b11f9c6d6ab"
+        }
+      ]
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "validFrom": "1871-01-01",
+      "validTo": "1918-11-08",
+      "referenceDate": "1914-07-31",
+      "commit": "5272723350ca95f9007edbbceffacf4a60dbaa75",
+      "commitDate": "2026-11-10T12:22:31+09:00",
+      "preimageRevision": "1e820d2adc7ff5d2dbf4288435d8c4753eaec613",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorGeometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+      "donorPolygonIndicesZeroBased": [
+        48,
+        51,
+        54,
+        55,
+        57,
+        59,
+        60,
+        64,
+        35,
+        36
+      ],
+      "recordedOmittedAreaKm2": 0.03738073507244651,
+      "currentVersionSha256": "ad57caf143499330f832e2ac23ed1fdbccc7258c620f558a4619c4c7721c3314",
+      "currentSourceDescriptorSha256": "9a26c1951206d6525842b9600695e857ee03c4c81ee67315fae2aff2ac3d5eba",
+      "currentGeometrySha256": "afa85744ce550f32d0e8f579d0f60e82fe3ec5df92e2977db452c601dd3a98b2",
+      "candidateGeometrySha256": "c88ff6148dafa8783b1cff47d88688a378e9d360d34e7b7e4011afee214c608d",
+      "currentPolygonCount": 28,
+      "candidatePolygonCount": 38,
+      "approvedOriginalMatch": true,
+      "donorUnchangedSinceOmission": true,
+      "originalDonorOmission": false,
+      "decisionType": "Existing approved donor components omitted from historical derivative",
+      "criterionRecorded": "Only four old whole-NE island proxy polygons; copy four exact current major donor bodies. Ten tiny detached fragments absent as separate NE islands are not added to this historical display derivative. No global area threshold and original modern donor preserved.",
+      "simplificationErrorEvidenceFound": false,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "omittedOnly": true,
+      "evidence": [
+        {
+          "relativePath": "deu-four-major-islands-20261110/operations.json",
+          "sha256": "d9722469deed96dc86eefd74f3ad1df6820a1f2003426f4ead7528e2be98185b"
+        },
+        {
+          "relativePath": "deu-four-major-islands-20261110/topology-projection-and-omission.json",
+          "sha256": "76d2e9fe39017b5b45febe2ec95c38729644136338b094857f178bc740a76cba"
+        },
+        {
+          "relativePath": "deu-four-major-islands-20261110/source-provenance.json",
+          "sha256": "cc19145c847474366a369075b5ef8f08656d58522b05eadffbd1528a3031a904"
+        },
+        {
+          "relativePath": "deu-four-major-islands-20261110/local-archive-commit.json",
+          "sha256": "320ec260cfeaf0b9dcd2755a34ee011c71169155bc38afc1f79281e42b0f45c4"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 46,
+      "polygonSha256": "fdde933a385c7e7d4ddfae11d34e78dadc5e7d52cef616ab722fd2f9c5a4ebee",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            14.555674800000077,
+            45.25374290000008
+          ],
+          [
+            14.563500000000033,
+            45.256750400000044
+          ],
+          [
+            14.569322800000066,
+            45.24521230000005
+          ],
+          [
+            14.562113100000033,
+            45.248229500000036
+          ],
+          [
+            14.555674800000077,
+            45.25374290000008
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.5589168649439812,
+      "closedVertices": 5,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        45
+      ],
+      "oldRawPolygonIndices": [
+        4
+      ],
+      "selectedParentNEPolygons": [
+        19
+      ],
+      "intersectingNEPolygons": [
+        19
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        14.555674800000077,
+        45.24521230000005,
+        14.569322800000066,
+        45.256750400000044
+      ],
+      "centroidLonLat": [
+        14.562759198834561,
+        45.25145131080034
+      ],
+      "measuredAreaKm2EPSG3035": 0.5589167077589962,
+      "measuredAreaKm2GeodesicWGS84": 0.5589168649439812,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.1261937503199508,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 72,
+      "polygonSha256": "500ec2a5c955dae5b0da0e1b5be99a2b6a1b924438c5d599f3871af63fd9df9e",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            15.213773400000036,
+            44.07265890000008
+          ],
+          [
+            15.208210700000052,
+            44.07397780000008
+          ],
+          [
+            15.207162700000026,
+            44.079030800000055
+          ],
+          [
+            15.212108300000068,
+            44.078751400000044
+          ],
+          [
+            15.213773400000036,
+            44.07265890000008
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.25096191041475535,
+      "closedVertices": 5,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        67
+      ],
+      "oldRawPolygonIndices": [
+        14,
+        12
+      ],
+      "selectedParentNEPolygons": [
+        11,
+        12
+      ],
+      "intersectingNEPolygons": [
+        12
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        15.207162700000026,
+        44.07265890000008,
+        15.213773400000036,
+        44.079030800000055
+      ],
+      "centroidLonLat": [
+        15.210399063769549,
+        44.076059574776885
+      ],
+      "measuredAreaKm2EPSG3035": 0.2509618483430966,
+      "measuredAreaKm2GeodesicWGS84": 0.25096191041475535,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.08393187753289717,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 164,
+      "polygonSha256": "1039504ae38ca798d89d585d8a302e0ece5c9cde159214dab029883f62ba6742",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            15.73771000000005,
+            43.62588560000006
+          ],
+          [
+            15.739162800000031,
+            43.629822800000056
+          ],
+          [
+            15.745493200000055,
+            43.62556300000006
+          ],
+          [
+            15.73771000000005,
+            43.62588560000006
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.13949465354263782,
+      "closedVertices": 4,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        167
+      ],
+      "oldRawPolygonIndices": [
+        15
+      ],
+      "selectedParentNEPolygons": [
+        9
+      ],
+      "intersectingNEPolygons": [
+        9
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        15.73771000000005,
+        43.62556300000006,
+        15.745493200000055,
+        43.629822800000056
+      ],
+      "centroidLonLat": [
+        15.74078866666671,
+        43.62709046666672
+      ],
+      "measuredAreaKm2EPSG3035": 0.13949460951244136,
+      "measuredAreaKm2GeodesicWGS84": 0.13949465354263782,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0018955983084151342,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 231,
+      "polygonSha256": "a0f6d493058eee69a81b6f51a15824f8735fbc81961c93c1c49ef0d03a93f278",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            16.693484700000056,
+            43.18950010000003
+          ],
+          [
+            16.69010940000004,
+            43.18988200000007
+          ],
+          [
+            16.69784640000006,
+            43.19069390000004
+          ],
+          [
+            16.693484700000056,
+            43.18950010000003
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.025718574603557587,
+      "closedVertices": 4,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        230
+      ],
+      "oldRawPolygonIndices": [
+        19
+      ],
+      "selectedParentNEPolygons": [
+        6
+      ],
+      "intersectingNEPolygons": [
+        6
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        16.69010940000004,
+        43.18950010000003,
+        16.69784640000006,
+        43.19069390000004
+      ],
+      "centroidLonLat": [
+        16.69381350000005,
+        43.19002533333338
+      ],
+      "measuredAreaKm2EPSG3035": 0.025718862181741135,
+      "measuredAreaKm2GeodesicWGS84": 0.025718574603557587,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0003031678733367643,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 220,
+      "polygonSha256": "adaa97f267a8d2cec967381bb71448cb3684570aee581ae2d5e091d5746950dc",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            17.16551110000006,
+            42.935393900000065
+          ],
+          [
+            17.170235700000035,
+            42.93822990000007
+          ],
+          [
+            17.173722800000064,
+            42.93240620000006
+          ],
+          [
+            17.16551110000006,
+            42.935393900000065
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.16958938694477083,
+      "closedVertices": 4,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        221
+      ],
+      "oldRawPolygonIndices": [
+        21
+      ],
+      "selectedParentNEPolygons": [
+        4
+      ],
+      "intersectingNEPolygons": [
+        4
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        17.16551110000006,
+        42.93240620000006,
+        17.173722800000064,
+        42.93822990000007
+      ],
+      "centroidLonLat": [
+        17.169823200000053,
+        42.9353433333334
+      ],
+      "measuredAreaKm2EPSG3035": 0.1695891296229428,
+      "measuredAreaKm2GeodesicWGS84": 0.16958938694477083,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.16958900298629206,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 212,
+      "polygonSha256": "2c4cf4969936fd1c005f5b8ce7b0de030c273d4ef54fe28a595f7e9737b4f27f",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            17.431696500000044,
+            42.78783930000003
+          ],
+          [
+            17.411289400000044,
+            42.78712150000007
+          ],
+          [
+            17.40236260000006,
+            42.79119540000005
+          ],
+          [
+            17.41589570000002,
+            42.790048600000034
+          ],
+          [
+            17.431696500000044,
+            42.78783930000003
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.4604516900110245,
+      "closedVertices": 5,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        197
+      ],
+      "oldRawPolygonIndices": [
+        23
+      ],
+      "selectedParentNEPolygons": [
+        3
+      ],
+      "intersectingNEPolygons": [
+        3
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        17.40236260000006,
+        42.78712150000007,
+        17.431696500000044,
+        42.79119540000005
+      ],
+      "centroidLonLat": [
+        17.415294654490232,
+        42.78883215445406
+      ],
+      "measuredAreaKm2EPSG3035": 0.4604488057474771,
+      "measuredAreaKm2GeodesicWGS84": 0.4604516900110245,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.12995483192043103,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "ah-six-main-islands-20261110",
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "donorEntityId": "state:HRV",
+      "donorVersionId": "state:HRV:natural-earth-5.1.1",
+      "donorPolygonIndex": 213,
+      "polygonSha256": "98c09a0f35d2a493eb6911f657a0e714a8edbb81307b4e8b2ce012672360e3f4",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            17.345086000000038,
+            42.79120240000003
+          ],
+          [
+            17.338547100000028,
+            42.791252400000076
+          ],
+          [
+            17.341564300000073,
+            42.79650850000007
+          ],
+          [
+            17.34651320000006,
+            42.794794800000034
+          ],
+          [
+            17.345086000000038,
+            42.79120240000003
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.2487742107025385,
+      "closedVertices": 5,
+      "groupLocation": "Adriatic HRV donor component; exact bounds below",
+      "selectedParentDonorIndices": [
+        197
+      ],
+      "oldRawPolygonIndices": [
+        23
+      ],
+      "selectedParentNEPolygons": [
+        3
+      ],
+      "intersectingNEPolygons": [
+        3
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Tiny detached current donor fragment has no intersecting separate NE island; excluded only from this local display candidate, not removed from original modern source.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        17.338547100000028,
+        42.79120240000003,
+        17.34651320000006,
+        42.79650850000007
+      ],
+      "centroidLonLat": [
+        17.342713442347883,
+        42.7934239911998
+      ],
+      "measuredAreaKm2EPSG3035": 0.2487743226275387,
+      "measuredAreaKm2GeodesicWGS84": 0.2487742107025385,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.15206465965972393,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 48,
+      "polygonSha256": "3c65be31676603474cb8d3e7d2ba76f4c9e6100cb87e97d05382afc276de8d5c",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.669146600000033,
+            53.767684700000075
+          ],
+          [
+            7.6694866000000275,
+            53.76768740000006
+          ],
+          [
+            7.669590400000061,
+            53.76741960000004
+          ],
+          [
+            7.6690938000000415,
+            53.76744180000003
+          ],
+          [
+            7.669146600000033,
+            53.767684700000075
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.0007820993554294109,
+      "closedVertices": 5,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.6690938000000415,
+        53.76741960000004,
+        7.669590400000061,
+        53.76768740000006
+      ],
+      "centroidLonLat": [
+        7.669333042365603,
+        53.767550449096234
+      ],
+      "measuredAreaKm2EPSG3035": 0.0007820993614405687,
+      "measuredAreaKm2GeodesicWGS84": 0.0007820993554294109,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0007820993614405687,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 51,
+      "polygonSha256": "dacc7c13d8f2fa5f24c2f4c5dda6c3dfb7258898bbb5829b2a36179d9773b1d9",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.679831200000024,
+            53.77631290000005
+          ],
+          [
+            7.679768200000069,
+            53.77608890000005
+          ],
+          [
+            7.679354300000057,
+            53.77579940000004
+          ],
+          [
+            7.679327700000044,
+            53.77626630000003
+          ],
+          [
+            7.679831200000024,
+            53.77631290000005
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.0011402801902350038,
+      "closedVertices": 5,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.679327700000044,
+        53.77579940000004,
+        7.679831200000024,
+        53.77631290000005
+      ],
+      "centroidLonLat": [
+        7.679539584906916,
+        53.77611203018738
+      ],
+      "measuredAreaKm2EPSG3035": 0.0011402801823571275,
+      "measuredAreaKm2GeodesicWGS84": 0.0011402801902350038,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.00013931348992440794,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 54,
+      "polygonSha256": "3fd3f78bd7db41ae9f68c678b14373c0dcd35e6f8fe37352212d1abb7f9c1470",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.771788400000048,
+            53.77891040000003
+          ],
+          [
+            7.773076300000071,
+            53.77954680000005
+          ],
+          [
+            7.773307000000045,
+            53.77857810000006
+          ],
+          [
+            7.772721400000023,
+            53.77822610000004
+          ],
+          [
+            7.771788400000048,
+            53.77891040000003
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.0077905345401316885,
+      "closedVertices": 5,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.771788400000048,
+        53.77822610000004,
+        7.773307000000045,
+        53.77954680000005
+      ],
+      "centroidLonLat": [
+        7.7726832804820125,
+        53.7788606080376
+      ],
+      "measuredAreaKm2EPSG3035": 0.007790534319744163,
+      "measuredAreaKm2GeodesicWGS84": 0.0077905345401316885,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.007790534319744163,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 55,
+      "polygonSha256": "608d4f1373fff9d05b726bd51cf68f9e777ee445d0fee09e05a126905951d60e",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.769103700000073,
+            53.77880360000006
+          ],
+          [
+            7.768494900000064,
+            53.77954680000005
+          ],
+          [
+            7.770209400000056,
+            53.77924660000008
+          ],
+          [
+            7.770584500000041,
+            53.778842000000054
+          ],
+          [
+            7.769103700000073,
+            53.77880360000006
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.0062549525689780715,
+      "closedVertices": 5,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.768494900000064,
+        53.77880360000006,
+        7.770584500000041,
+        53.77954680000005
+      ],
+      "centroidLonLat": [
+        7.769519978733528,
+        53.77911445995507
+      ],
+      "measuredAreaKm2EPSG3035": 0.006254952433608024,
+      "measuredAreaKm2GeodesicWGS84": 0.0062549525689780715,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.006254952433608024,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 57,
+      "polygonSha256": "cae9a271b98d39d42f0a3496fad1214aeb070e0469d387f2767841111ed83312",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.747696800000028,
+            53.78036950000006
+          ],
+          [
+            7.746665900000039,
+            53.78035530000005
+          ],
+          [
+            7.746732200000054,
+            53.78076790000006
+          ],
+          [
+            7.746916300000066,
+            53.78088070000007
+          ],
+          [
+            7.749040800000046,
+            53.78088720000005
+          ],
+          [
+            7.74982760000006,
+            53.78052010000005
+          ],
+          [
+            7.7490018000000305,
+            53.779846200000065
+          ],
+          [
+            7.747696800000028,
+            53.78036950000006
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.014343697614863515,
+      "closedVertices": 8,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.746665900000039,
+        53.779846200000065,
+        7.74982760000006,
+        53.78088720000005
+      ],
+      "centroidLonLat": [
+        7.74830091217172,
+        53.78050287807952
+      ],
+      "measuredAreaKm2EPSG3035": 0.01434369720066352,
+      "measuredAreaKm2GeodesicWGS84": 0.014343697614863515,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.01434369720066352,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 59,
+      "polygonSha256": "7a8623c94a3f07f579e73e8c063e41944c15954e8690d88a1f991821824dbfe9",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.745587900000032,
+            53.782241800000065
+          ],
+          [
+            7.745516400000042,
+            53.781720300000075
+          ],
+          [
+            7.7452158000000395,
+            53.78169770000005
+          ],
+          [
+            7.745066500000064,
+            53.782170300000075
+          ],
+          [
+            7.745587900000032,
+            53.782241800000065
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.0015122293585464357,
+      "closedVertices": 5,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.745066500000064,
+        53.78169770000005,
+        7.745587900000032,
+        53.782241800000065
+      ],
+      "centroidLonLat": [
+        7.745346507398654,
+        53.781980146722944
+      ],
+      "measuredAreaKm2EPSG3035": 0.0015122293686805242,
+      "measuredAreaKm2GeodesicWGS84": 0.0015122293585464357,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0015122293686805242,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 60,
+      "polygonSha256": "e21d40f9271df697857a9185b7f5a67bcab1b4e84212d93f4a4d15eb180f15ee",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.747367500000053,
+            53.78224560000007
+          ],
+          [
+            7.745587900000032,
+            53.782241800000065
+          ],
+          [
+            7.746068200000025,
+            53.78251050000006
+          ],
+          [
+            7.747679600000026,
+            53.78240800000003
+          ],
+          [
+            7.747367500000053,
+            53.78224560000007
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.002824738110601902,
+      "closedVertices": 5,
+      "groupLocation": "Spiekeroog",
+      "selectedParentDonorIndices": [
+        47
+      ],
+      "oldRawPolygonIndices": [
+        6
+      ],
+      "selectedParentNEPolygons": [
+        8
+      ],
+      "intersectingNEPolygons": [
+        8
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.745587900000032,
+        53.782241800000065,
+        7.747679600000026,
+        53.78251050000006
+      ],
+      "centroidLonLat": [
+        7.746607115978555,
+        53.782353762193004
+      ],
+      "measuredAreaKm2EPSG3035": 0.00282473825011123,
+      "measuredAreaKm2GeodesicWGS84": 0.002824738110601902,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.00282473825011123,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 64,
+      "polygonSha256": "bc6ac5a127b8081a94aec02d803538505acdfdd9e1ead2aba6ad2ec4f2eec1ea",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            7.944159900000045,
+            53.787365900000054
+          ],
+          [
+            7.944474900000046,
+            53.78709270000007
+          ],
+          [
+            7.943588200000022,
+            53.78709850000007
+          ],
+          [
+            7.943442700000048,
+            53.78730570000005
+          ],
+          [
+            7.944159900000045,
+            53.787365900000054
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.00145902938182652,
+      "closedVertices": 5,
+      "groupLocation": "Wangerooge",
+      "selectedParentDonorIndices": [
+        62
+      ],
+      "oldRawPolygonIndices": [
+        7
+      ],
+      "selectedParentNEPolygons": [
+        9
+      ],
+      "intersectingNEPolygons": [
+        9
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        7.943442700000048,
+        53.78709270000007,
+        7.944474900000046,
+        53.787365900000054
+      ],
+      "centroidLonLat": [
+        7.943938220360695,
+        53.78721378764119
+      ],
+      "measuredAreaKm2EPSG3035": 0.0014590293999593245,
+      "measuredAreaKm2GeodesicWGS84": 0.00145902938182652,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0003109647618464194,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 35,
+      "polygonSha256": "80affbccea47e64229604c0085a7728ab85e5e3cfa75ceb8ffc497a5533fa974",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            8.129390600000022,
+            53.72077480000007
+          ],
+          [
+            8.129887200000042,
+            53.72079700000006
+          ],
+          [
+            8.129783400000065,
+            53.720529200000044
+          ],
+          [
+            8.129443300000048,
+            53.72053180000006
+          ],
+          [
+            8.129390600000022,
+            53.72077480000007
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.0007831990233547985,
+      "closedVertices": 5,
+      "groupLocation": "Mellum",
+      "selectedParentDonorIndices": [
+        34
+      ],
+      "oldRawPolygonIndices": [
+        10
+      ],
+      "selectedParentNEPolygons": [
+        6
+      ],
+      "intersectingNEPolygons": [
+        6
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        8.129390600000022,
+        53.720529200000044,
+        8.129887200000042,
+        53.72079700000006
+      ],
+      "centroidLonLat": [
+        8.129629802302702,
+        53.72066612177824
+      ],
+      "measuredAreaKm2EPSG3035": 0.0007831990181606586,
+      "measuredAreaKm2GeodesicWGS84": 0.0007831990233547985,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0007831990181606586,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    },
+    {
+      "scope": "deu-four-major-islands-20261110",
+      "entityId": "state:DEU",
+      "versionId": "state:DEU:1914-07-31-display-r1",
+      "donorEntityId": "state:DEU",
+      "donorVersionId": "state:DEU:natural-earth-5.1.1",
+      "donorPolygonIndex": 36,
+      "polygonSha256": "c5a7f767f905ea2930097cbf8c764c191b52adf46bce01ed36b946e61e717a03",
+      "coordinateHashConvention": "SHA256(JSON.stringify(polygonCoordinates)); no coordinate rounding",
+      "coordinates": [
+        [
+          [
+            8.129893000000038,
+            53.72105030000006
+          ],
+          [
+            8.130156700000043,
+            53.72106650000006
+          ],
+          [
+            8.130150800000024,
+            53.720813200000066
+          ],
+          [
+            8.129887200000042,
+            53.72079700000006
+          ],
+          [
+            8.129893000000038,
+            53.72105030000006
+          ]
+        ]
+      ],
+      "recordedAreaKm2": 0.000489974928479176,
+      "closedVertices": 5,
+      "groupLocation": "Mellum",
+      "selectedParentDonorIndices": [
+        34
+      ],
+      "oldRawPolygonIndices": [
+        10
+      ],
+      "selectedParentNEPolygons": [
+        6
+      ],
+      "intersectingNEPolygons": [
+        6
+      ],
+      "otherNEPolygonIntersections": [],
+      "reason": "Ten named donor fragments only, absent as separate NE islands; no global area threshold. Original modern source preserved.",
+      "classification": "Assistant-created omission of an existing approved donor component; not an original approved-donor omission",
+      "recordedCoordinatesMatchCanonical": true,
+      "manuallyDrawn": false,
+      "scaled": false,
+      "bboxLonLat": [
+        8.129887200000042,
+        53.72079700000006,
+        8.130156700000043,
+        53.72106650000006
+      ],
+      "centroidLonLat": [
+        8.130021924651482,
+        53.72093175798485
+      ],
+      "measuredAreaKm2EPSG3035": 0.0004899749290054815,
+      "measuredAreaKm2GeodesicWGS84": 0.000489974928479176,
+      "beforeHistoricalOverlapKm2EPSG3035": 0.0004899749290054816,
+      "afterOmissionHistoricalOverlapKm2EPSG3035": 0,
+      "currentHistoricalOverlapKm2EPSG3035": 0,
+      "fullyAbsentFromCurrentHistoricalArea": true,
+      "candidateIncludesWholeComponent": true,
+      "valid": true
+    }
+  ],
+  "otherCommittedScopes": {
+    "sourceGeometryHistory": [
+      {
+        "commit": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 24,
+        "afterPolygonCount": 22,
+        "detachedRemoved": 16,
+        "detachedAdded": 14
+      },
+      {
+        "commit": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 22,
+        "afterPolygonCount": 30,
+        "detachedRemoved": 10,
+        "detachedAdded": 18
+      },
+      {
+        "commit": "ebb886a223b2c30b978b9536f2da016f1e822186",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 22,
+        "afterPolygonCount": 22,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "ebb886a223b2c30b978b9536f2da016f1e822186",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 30,
+        "afterPolygonCount": 30,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "565d6b2a9c8f39a9ddf866268a55c1e08ea32028",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 30,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 3,
+        "detachedAdded": 1
+      },
+      {
+        "commit": "1e820d2adc7ff5d2dbf4288435d8c4753eaec613",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 22,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 7,
+        "detachedAdded": 6
+      },
+      {
+        "commit": "5272723350ca95f9007edbbceffacf4a60dbaa75",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 4,
+        "detachedAdded": 4
+      },
+      {
+        "commit": "241c998412bdd97c8ac92e9a6764a5d383a23708",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "8a533a50dc846c2734e5480714d376f59daa2638",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "0294473edfd08cb0ae3d8a8273fb23b9b1d258d7",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "081009ad414452330d8801f91ed9c33a32254bbc",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "ab309dfa055988cb2fbbe91fd13e87c67031c634",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 21,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "f155202698569771dde7af626342ade4801b6364",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 21,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "39730a57c8c27baea57f8b224a3bd9efbb54d398",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 21,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "9a920f7058f93b2f6c56e7548de76fc07ddde387",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 21,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "120b7c088363bfab9d6d0c5def1f5cf300fbb17e",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 21,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "604e1a8ae45ec6b3d62192e052291d8b2891287a",
+        "entityId": "state:austro-hungarian-empire",
+        "beforePolygonCount": 21,
+        "afterPolygonCount": 21,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "8b6c27f5d6e64892b678be27e95e9ba3ac5e4b5c",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "cf8d49b157bcc368ea367222f9330aa79d821e61",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      },
+      {
+        "commit": "83c6ed07b7c5df2eb86bd5b9cd0525dbb82b8e9b",
+        "entityId": "state:DEU",
+        "beforePolygonCount": 28,
+        "afterPolygonCount": 28,
+        "detachedRemoved": 0,
+        "detachedAdded": 0
+      }
+    ],
+    "c1C2C3": {
+      "commit": "565d6b2a9c8f39a9ddf866268a55c1e08ea32028",
+      "operationsSha256": "1bdb594cf2704d8cb2917a933c32de7d7bed40c1a437a839cfd856a0c5c42944",
+      "committedGeometryMatchesRecordedResult": true,
+      "operationOldIslandIndices": [
+        15,
+        19,
+        18
+      ],
+      "newDetachedDonorIndices": [
+        145
+      ],
+      "donor145ExactInCommittedResult": true,
+      "donor145ExactInCurrentResult": true,
+      "explicitExistingDonorOmissionsFound": 0,
+      "classification": "Three old NE whole-island proxies replaced by exact current mainland arcs plus whole donor145. C4 was excluded from the edit scope and retained, not deleted. The earlier partial C2 candidate was superseded before this commit.",
+      "arbitraryStraightJoins": 0,
+      "recordedCoordinatePolicy": "Exact donor vertices with6 separately computed segment intersections; no arbitrary connector, snap, buffer, simplification, or historical nonNE deletion."
+    },
+    "initialWholeIslandCommit": {
+      "commit": "e5782d15334db4f8b85c57c50ebfae93003cbd11",
+      "AH": "16 old polygons became 14 exact donor polygons; whole-body regrouping, not an identified donor omission",
+      "DEU": "10 old polygons became 18 exact donor polygons; small donor fragments retained",
+      "evidence": {
+        "relativePath": "source-review/approved-visual-review.json",
+        "sha256": "e931e73dc50e3ff773e59c698cd273455e2318522aa5c62e37d3166cb3912f70"
+      }
+    },
+    "laterCoastCommits": "Every later AH/DEU source change in the inspected history preserved all existing detached polygon coordinates; no additional explicit detached-polygon deletion found."
+  },
+  "distinctions": {
+    "approvedOriginalSource": "The approved modern composite is the comparison authority for this task. All17 donor polygons exist there with exact coordinates; none can be dismissed as already absent in that approved source.",
+    "upstreamRawVersusApproved": "Changes from raw upstream data into the already-approved composite were not reclassified as assistant-created historical omissions. No raw-source omission is automatically authorized for restoration here.",
+    "candidateOnlyHolds": "C4, unfinished coast scopes, and source ownership constraints are not automatically errors or deletion decisions.",
+    "historicalDates": "These are existing provisional reference-day displays reused over their stored intervals, not fresh historical ownership verification."
+  },
+  "evidenceScan": {
+    "localFilesInspected": 459,
+    "manifest": "scanned-evidence.json",
+    "archivedC1C2C3ReadWithFetchFalse": true,
+    "canonicalEntitiesDecodedWithFetchFalse": true,
+    "networkCalls": 0
+  },
+  "unresolvedEvidence": [
+    "No independent historical ownership or shoreline re-verification was performed.",
+    "Upstream raw-to-approved-modern omissions are outside this explicit historical-omission audit.",
+    "Keyword evidence plus committed detached-polygon history identifies the17 confirmed decisions; it does not prove every unsurveyed non-overlapping donor island belongs to these historical entities.",
+    "Source application, canonical review metadata refresh, compilation and publication remain pending with the parent."
+  ],
+  "artifacts": {
+    "candidate": "restoration-candidates.geojson",
+    "manifest": "restoration-manifest.json",
+    "validation": "restoration-validation.json"
+  }
+}
