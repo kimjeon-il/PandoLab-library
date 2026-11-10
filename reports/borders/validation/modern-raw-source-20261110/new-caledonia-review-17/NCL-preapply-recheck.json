@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "code": "NCL",
+      "revision": "a33ae028595d358bde5e16c9db4769e90052a076",
+      "archiveSha256": "75c73108249387bcfb1293d7055b9cdf0bfd2bc8a41e0b15184d6d0ec307c0ff",
+      "expectedPreimageSha256": "75c73108249387bcfb1293d7055b9cdf0bfd2bc8a41e0b15184d6d0ec307c0ff",
+      "archivePreimageMatches": true,
+      "savedDescriptorMatches": true,
+      "parent": "state:FRA",
+      "versionId": "state:NCL:natural-earth-5.1.1",
+      "dates": [
+        null,
+        null
+      ],
+      "sourceId": "approved-current-world-display-20261107"
+    },
+    {
+      "code": "VUT",
+      "revision": "a33ae028595d358bde5e16c9db4769e90052a076",
+      "archiveSha256": "5eaf1ebf9434f97b5ab1ec3415a1b880778408bbc8954513280e3a25c50c19a2",
+      "expectedPreimageSha256": "5eaf1ebf9434f97b5ab1ec3415a1b880778408bbc8954513280e3a25c50c19a2",
+      "archivePreimageMatches": true,
+      "savedDescriptorMatches": true,
+      "parent": "",
+      "versionId": "state:VUT:natural-earth-5.1.1",
+      "dates": [
+        null,
+        null
+      ],
+      "sourceId": "dos-world-polygons-11.4-beta-raw"
+    }
+  ],
+  "candidateSha256": "a2a533c1cee290944f51576cd874b888e1bf33dfa2441bbd20e5216e93e3473e",
+  "candidateHashMatches": true,
+  "componentProofSha256": "3d2ec0cd5a593bb38de756c4d21403528d8f20374adef2b567e4d4440e940950",
+  "componentRows": 575,
+  "proofFields": {
+    "status": "candidate-only-awaiting-parent-review",
+    "descriptorParent": "state:FRA",
+    "preserveParent": "state:FRA",
+    "versionId": "state:NCL:natural-earth-5.1.1",
+    "dates": [
+      null,
+      null
+    ],
+    "historicalProvenancePresent": false,
+    "allComponentWkbHashesMatch": true
+  },
+  "concurrentGis": [
+    {
+      "code": "NCL",
+      "revision": "3df797e3f047de9272f7639ce2bcf508d9e2d542",
+      "concurrentGisArchiveSha256": "75c73108249387bcfb1293d7055b9cdf0bfd2bc8a41e0b15184d6d0ec307c0ff",
+      "matchesRawModernSavedPreimage": true,
+      "parent": "state:FRA",
+      "versionId": "state:NCL:natural-earth-5.1.1",
+      "dates": [
+        null,
+        null
+      ],
+      "sourceId": "approved-current-world-display-20261107",
+      "geometrySha256": "e23def6f84696b576157666cdb8da1ea7746d335436926590682bdd3c3d81d0f"
+    },
+    {
+      "code": "VUT",
+      "revision": "3df797e3f047de9272f7639ce2bcf508d9e2d542",
+      "concurrentGisArchiveSha256": "f116f7a40b387cc6f438d4233811065dbecd2b6112069844baa588cd5ff69b4c",
+      "matchesRawModernSavedPreimage": false,
+      "parent": "",
+      "versionId": "state:VUT:natural-earth-5.1.1",
+      "dates": [
+        null,
+        null
+      ],
+      "sourceId": "approved-current-world-display-20261107",
+      "geometrySha256": "99576b093bcc929ac575954581fb47f2623974b34aab69747e9c7d49b02017c0"
+    }
+  ],
+  "concurrentGisAppStatus": "## work/gis...origin/work/gis [ahead 30]\nUU config/library-data.json\nA  docs/raw-modern-workspace-handoff.md\nM  docs/territorial-entity-storage.md\nA  tests/unit/data/library-source-adoption.test.mjs\nM  tools/data/library-context.mjs\nM  tools/data/library-store.mjs\nM  tools/gis/historical-display-review.mjs\n",
+  "concurrentGisDataStatus": "## work/gis\n"
+}

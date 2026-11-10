@@ -1,0 +1,178 @@
+{
+  "revision": "919d9013bf0b5d905a835226d9b0f1079c9a3ef2",
+  "preimageDescriptorSha256": "75c73108249387bcfb1293d7055b9cdf0bfd2bc8a41e0b15184d6d0ec307c0ff",
+  "preimageDescriptorBytes": 7051,
+  "preimageRevision": "919d9013bf0b5d905a835226d9b0f1079c9a3ef2",
+  "preimageDescriptorHashScope": "Exact archive bytes",
+  "status": "candidate-only-awaiting-parent-review",
+  "entityId": "state:NCL",
+  "code": "NCL",
+  "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+  "rawLayer": "DoS_WP_11_4",
+  "sourceWP_IDs": [
+    "f47b7581-8276-4049-a0ea-18986e8a764b",
+    "7ed81f87-f478-4cdc-81fa-477416d70a19"
+  ],
+  "rawFeatures": [
+    {
+      "WP_ID": "f47b7581-8276-4049-a0ea-18986e8a764b",
+      "sourceProperties": {
+        "fid": 210,
+        "WP_Name": "New Caledonia",
+        "WP_Name_ND": "New Caledonia",
+        "DOS_Short": "New Caledonia",
+        "DOS_Long": "New Caledonia",
+        "Map_Label": "New Caledonia (FR.)",
+        "US_Recog": "Dependency or Area of Special Sovereignty",
+        "Show_Disp": null,
+        "Map_Disp": null,
+        "NOTES": null,
+        "NOTES_Cont": null,
+        "MapTint_2": "FR",
+        "MapTint_3": "FRA",
+        "GENC_Short": "New Caledonia",
+        "GENC_Full": "New Caledonia",
+        "GENC_2": "NC",
+        "GENC_3": "NCL",
+        "ISO_3166_1": null,
+        "ISO_3166_2": null,
+        "WP_ID": "f47b7581-8276-4049-a0ea-18986e8a764b",
+        "WP_PREV_ID": "f47b7581-8276-4049-a0ea-18986e8a764b",
+        "WP_PAR_ID": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9"
+      },
+      "rawBlobSha256": "166d03a7e6ccab280467c37ac16c7bab6184809fe5f98201f1f7d1ca918991f0",
+      "rawWkbSha256": "0c0081016bccba9a547c7a46aea797065c3386e6cb30d3c0395092ca09066a41",
+      "polygonCount": 567,
+      "candidateStartIndex": 0
+    },
+    {
+      "WP_ID": "7ed81f87-f478-4cdc-81fa-477416d70a19",
+      "sourceProperties": {
+        "fid": 133,
+        "WP_Name": "Hunter and Matthew Islands",
+        "WP_Name_ND": "Hunter and Matthew Islands",
+        "DOS_Short": "New Caledonia",
+        "DOS_Long": "New Caledonia",
+        "Map_Label": "New Caledonia (FR.)",
+        "US_Recog": "Dependency or Area of Special Sovereignty",
+        "Show_Disp": null,
+        "Map_Disp": "FRA,VUT",
+        "NOTES": null,
+        "NOTES_Cont": null,
+        "MapTint_2": "FR",
+        "MapTint_3": "FRA",
+        "GENC_Short": "New Caledonia",
+        "GENC_Full": "New Caledonia",
+        "GENC_2": "NC",
+        "GENC_3": "NCL",
+        "ISO_3166_1": null,
+        "ISO_3166_2": null,
+        "WP_ID": "7ed81f87-f478-4cdc-81fa-477416d70a19",
+        "WP_PREV_ID": "7ed81f87-f478-4cdc-81fa-477416d70a19",
+        "WP_PAR_ID": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9,662a812b-0ceb-4f4d-8bd5-9e442cba5a30"
+      },
+      "rawBlobSha256": "6c1d39b8a6ce3fe05550a174216ca9fadc91e7ef81aadb676ff370565bc5f1e3",
+      "rawWkbSha256": "9561977d14532823aa2413a4c8f37223c88c5706723b878f1d65113e0111d274",
+      "polygonCount": 8,
+      "candidateStartIndex": 567
+    }
+  ],
+  "compositionMode": "Exact ordered concatenation of every polygon from two raw features. No union, clipping, repair, simplify, rounding, or arbitrary island omission.",
+  "polygonCount": 575,
+  "coordinateCount": 126127,
+  "holes": 0,
+  "geometryValid": true,
+  "rawCoordinatesUnmodified": true,
+  "roundTripWkbEqual": true,
+  "allComponentWkbHashesMatch": true,
+  "allRawComponentsIncluded": true,
+  "componentEvidenceFile": "NCL-raw-component-proof.json",
+  "candidateSha256": "a2a533c1cee290944f51576cd874b888e1bf33dfa2441bbd20e5216e93e3473e",
+  "selectionWkbSha256": "25b37ab569b8b0fed9ee22a350c7f62961379acce1d509c33fcd46cd60d25f50",
+  "bytes": 5066954,
+  "descriptorParent": "state:FRA",
+  "preserveParent": "state:FRA",
+  "versionId": "state:NCL:natural-earth-5.1.1",
+  "dates": [
+    null,
+    null
+  ],
+  "historicalProvenancePresent": false,
+  "preimageGeometryResource": {
+    "logicalRef": {
+      "id": "state:NCL:state:NCL:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-e23def6f84696b576157666cdb8da1ea7746d335436926590682bdd3c3d81d0f.json",
+    "sha256": "e23def6f84696b576157666cdb8da1ea7746d335436926590682bdd3c3d81d0f",
+    "bytes": 145653
+  },
+  "preimageGeometryDigest": "d50c4b5e4ee103ba718519ba19f0bc16a89859cf6b748f06e8a426cc9d54508d",
+  "rawPeerIntersections": [],
+  "approvedDonorPeerIntersections": [],
+  "currentVutIntersects": false,
+  "currentVutGeometrySha256": "7863af46834286014b481dcc60ba01c73864c5b86ef59717fef57734bf6332b2",
+  "allExistingDonorComponentsMatched": true,
+  "newLandRelativeApprovedDonor": {
+    "approvedDonorBounds": [
+      158.30390780000005,
+      -22.761750699999936,
+      171.3610589000001,
+      -18.293172099999936
+    ],
+    "rawComponent0Bounds": [
+      172.08268800000008,
+      -22.39981869999997,
+      172.08991200000003,
+      -22.389867799999934
+    ],
+    "rawComponent0NearestApprovedNclDistanceDeg": 0.7231222824177256,
+    "rawComponent0AreaDeg2": 4.978594751504687e-05,
+    "allHunterMatthewRawAreaDeg2": 0.00011137922500501487,
+    "mainIslandAbsentNotMerelyCoastlineDifference": true
+  },
+  "adoptionBasis": "Current-administration restoration from original raw coordinates, not literal old-donor geographic equality.",
+  "claimCaveat": "Hunter and Matthew sovereignty remains disputed between France and Vanuatu. Preserve raw Map_Disp FRA,VUT and both source parent references; current NCL parent FRA unchanged. No legal sovereignty conclusion or historical control-start date.",
+  "officialEvidenceCheckedDate": "2026-11-10",
+  "officialEvidence": [
+    {
+      "fact": "New Caledonia customs code Article1 lists Matthew and Fearn/Hunter in its customs territory. This documents administrative treatment, not an internationally settled sovereignty determination.",
+      "url": "https://douane.gouv.nc/sites/default/files/atoms/files/cdnc_mai_2020_v2_0.pdf",
+      "sourceDate": "2020-05-28 edition; indexed official document read via connected search",
+      "shortSourceExcerpt": "les îles Matthew et Fearn ou Hunter"
+    },
+    {
+      "fact": "New Caledonia government park service reports its2018 expedition completed ornithological and vegetation surveys on Walpole, Matthew and Hunter, with government topographic GPS work. This demonstrates actual administrative activity on both islands, not merely a paper claim.",
+      "url": "https://mer-de-corail.gouv.nc/en/node/239",
+      "sourceDate": "2018-11-28; full page opened",
+      "shortSourceExcerpt": "Un inventaire ornithologique des îles Walpole, Matthew et Hunter a été réalisé"
+    },
+    {
+      "fact": "Current government park page includes both Matthew and Hunter among the park islands.",
+      "url": "https://mer-de-corail.gouv.nc/fr/decouverte-du-parc/walpole-matthew-et-hunter",
+      "sourceDate": "Current page opened 2026-11-10"
+    },
+    {
+      "fact": "French foreign ministry reaffirmed its sovereignty position concerning both islands during30June2026 meeting.",
+      "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/vanuatu-entretien-de-jean-noel-barrot-avec-johnny-koanapo-vice-premier-ministre-de-la-republique-du",
+      "sourceDate": "2026-07-01 official release read via connected search",
+      "shortSourceExcerpt": "le Ministre a rappelé la position du gouvernement s’agissant de la souveraineté française sur les îles de Matthew et Hunter."
+    },
+    {
+      "fact": "Vanuatu PMO reports seeking ICJ proceedings over both islands after failed bilateral negotiations. This confirms continuing dispute, not a judgment or change in administration.",
+      "url": "https://pmo.gov.vu/en/public-information/press-release/1168-vanuatu-takes-france-to-the-icj-over-sovereignty-of-umaenupne-matthew-and-umaeneg-leka-hunter-islands-and-maritime-boundary-delimitation.html",
+      "sourceDate": "2026-09-02; full page opened",
+      "shortSourceExcerpt": "Bilateral negotiations failed to resolve this dispute"
+    }
+  ],
+  "uncertainties": [
+    "Exact reason Hunter absent from simplified donor not established; cannot assert a particular simplification bug.",
+    "No explicit saved receipt allocating the full original Hunter/Matthew WP_ID was present in current NCL descriptor.",
+    "French/New Caledonian administrative evidence and continued disputes are established; no independent observation of day-to-day present control or final legal adjudication was obtained."
+  ],
+  "sourceWrite": false,
+  "canonicalVutWrite": false,
+  "serialization": "Python JSON shortest round-trip binary64 decimals; exact WKB equality verified (no GDAL rounding pass)"
+}

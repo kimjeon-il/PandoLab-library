@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:NCL",
+  "entityKind": "general",
+  "lineageId": "ncl",
+  "names": {
+    "ko": "누벨칼레도니"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1853-09-24",
+    "validTo": null
+  },
+  "parentEntityId": "state:FRA",
+  "geometryVersions": [
+    {
+      "versionId": "state:NCL:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "approved-current-world-display-20261107",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:NCL:state:NCL:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-e23def6f84696b576157666cdb8da1ea7746d335436926590682bdd3c3d81d0f.json",
+        "sha256": "e23def6f84696b576157666cdb8da1ea7746d335436926590682bdd3c3d81d0f",
+        "bytes": 145653
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "approved-current-world-display-20261107",
+        "status": "approved-prepared-current-source-adoption",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "NCL",
+        "geometrySha256": "d50c4b5e4ee103ba718519ba19f0bc16a89859cf6b748f06e8a426cc9d54508d",
+        "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+        "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+        "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+        "upstream": {
+          "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+          "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+          "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+          "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+          "sourceFileBytesLocallyVerified": false,
+          "sourceWP_IDs": [],
+          "sourceWP_IDsEvidence": null
+        },
+        "sourceReview": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+          "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+        }
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "NCL",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nc.svg",
+    "representativeGeometryVersionId": "state:NCL:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "approved-current-world-display-20261107",
+    "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "NCL",
+    "featureProperties": {
+      "name": "누벨칼레도니"
+    },
+    "geometrySha256": "d8783fda1438ec49d1e5582ed13f82680a30c04adcd92aae31a911e414548abc",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-25",
+      "calendar": "proleptic-gregorian",
+      "precision": "date",
+      "criterion": "Actualdependentgovernment1853beginscurrentinterval;1860/1946statusnotreset.1844attemptwithdrawn.",
+      "sources": [
+        {
+          "url": "https://isee.nc/histoire-et-institutions",
+          "title": "NewCaledonia ISEE History",
+          "supports": "1853-09-24possession andlaterinstitutions.",
+          "access": "opened"
+        },
+        {
+          "url": "https://www.senat.fr/rap/1976-1977/i1976_1977_0163.pdf",
+          "title": "FrenchSenate Report163",
+          "supports": "p4 firstgovernor1853-09-24;1860Jan14decree/Jul1effect.",
+          "access": "opened"
+        },
+        {
+          "url": "https://museemaritime.nc/images/musee/actualites/Dossiers_Pedagogiques_Expo_Temp/Dossier_Pedag_Lycee_Seine_Corrige.pdf",
+          "title": "NewCaledonia MaritimeMuseum LaSeine",
+          "supports": "pp10-11 1845flagwithdrawalvs1853.",
+          "access": "opened"
+        }
+      ]
+    },
+    "geometryVersionId": "state:NCL:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:NCL",
+      "versionId": "state:NCL:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "bf8c8374362032ff28b0c9c921d31b970b3d56adbb9645d71865e489412cc198",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "NCL",
+        "geometryVersionId": "state:NCL:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}
