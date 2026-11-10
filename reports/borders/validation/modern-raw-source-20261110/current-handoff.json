@@ -1,8 +1,8 @@
 {
   "scope": "Modern raw source adoption only. Runtime/LOD generation and historical unique boundaries are not completed.",
-  "localSourceRevision": "b60a708808386fdf7e26ca46e9a5e174a7dcb504",
-  "localAppPinCommit": "cfcb483d6622a2332f344a5a5e0e1d411729f068",
-  "appliedModernObjects": 82,
+  "localSourceRevision": "85464e0ba06fe43a0e67c9095807d260e5c5ecef",
+  "localAppPinCommit": "49c0c17b699e44d057db15484ca838ae54a84ffe",
+  "appliedModernObjects": 83,
   "latestCompleted": [
     "IOA",
     "SPM",
@@ -40,12 +40,13 @@
     "FLK",
     "SGS",
     "IOT",
-    "TWN"
+    "TWN",
+    "NCL"
   ],
   "remainingInventory": {
     "unreviewedOneToOneModern": 111,
     "sourceDisplayContractReview": 36,
-    "specialGeographicScopeReview": 21,
+    "specialGeographicScopeReview": 20,
     "ownershipReview": 4
   },
   "specificHolds": [
@@ -56,7 +57,7 @@
     "Brazilian Island has no demonstrated whole-island allocation in existing BRA/URY/ARG; do not infer one from raw disputed metadata."
   ],
   "remainingNotAllBlocked": true,
-  "simultaneousLOD": "Existing gis independently advanced to c40af6d237f5db4c8f3688deb4c96e5da00295f4; country source descriptors unchanged from our baseline. Our workspace only changed its own pin.",
+  "simultaneousLOD": "Concurrent gis has unrelated config/library-data.json merge conflict; untouched. Own isolated app pin only updated.",
   "remotePush": false,
   "mainMerge": false,
   "deployment": false,
