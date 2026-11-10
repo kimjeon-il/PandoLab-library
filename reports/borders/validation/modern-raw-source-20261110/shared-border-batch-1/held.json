@@ -1,0 +1,33 @@
+{
+  "held": [
+    {
+      "entityId": "state:BEL",
+      "versions": [
+        {
+          "versionId": "state:BEL:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "provenanceStatus": "provisional-modern-proxy",
+          "displayReviewGeometrySha": "77a19f2135501a9558e33e834caab4126a89d901cf8d7588ca966e6bb61a6020"
+        }
+      ],
+      "reason": "Existing modern-proxy historicalProvenance requires input-bound display-scale review. Raw source cannot reuse old simplified display receipt; no source-only supported gate. Dates/provenance not removed, gate unchanged."
+    },
+    {
+      "entityId": "state:LUX",
+      "versions": [
+        {
+          "versionId": "state:LUX:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "provenanceStatus": "provisional-modern-proxy",
+          "displayReviewGeometrySha": "525f87b5289fefff5fe92e51a8c8cb05fc2f1bbb3f2190c2ef4e5bc54922fb4d"
+        }
+      ],
+      "reason": "Existing modern-proxy historicalProvenance requires input-bound display-scale review. Raw source cannot reuse old simplified display receipt; no source-only supported gate. Dates/provenance not removed, gate unchanged."
+    }
+  ],
+  "sourceModified": false,
+  "removedTemporaryBytes": 2324648,
+  "reason": "Reproducible raw export unused while source-display contract is held; original GPKG and proof retained"
+}
