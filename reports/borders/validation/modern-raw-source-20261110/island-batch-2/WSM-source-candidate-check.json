@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "019bcfb510d0b35cad360ec18e3b9183fd7c8e17",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-WSM.json",
+  "originalDescriptorSha256": "74641697a1abd00f216c49393e7d730b3767b58bf814600e4899574fdb8d57cf",
+  "candidateDescriptorSha256": "84af880cb7f26f0171d46f4ee9447c8f0a988144d8976bcbf5ac39c40886c217",
+  "beforeCoordinates": 343,
+  "afterCoordinates": 14245,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:WSM:state:WSM:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-3baa4bca1a86ed07cd36cd628de80fe8c0620ce41843373a7f49f2eec641ee73.json",
+    "sha256": "3baa4bca1a86ed07cd36cd628de80fe8c0620ce41843373a7f49f2eec641ee73",
+    "bytes": 591341
+  }
+}
