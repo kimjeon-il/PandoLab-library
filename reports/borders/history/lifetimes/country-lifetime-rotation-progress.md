@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-10 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-11 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 아시아**
-- **lastCompletedRun: 2026-11-10** (시킴·예멘 아랍 공화국·남예멘 인민공화국/인민민주공화국 3건 1차; 보호국/주 편입 효력·북예멘 국가 법적 연속성·1990 통합 승계 2차 유보)
-- **nextRegion: 아프리카**
-- **nextPhase: 아프리카 미조사 역사 정치체 국가별 1차 조사(1차 소진 시 2차 교차검증)**
-- **nextAction: 아프리카 GEO-LIFE-001/006/012/018/024 및 현행 색인을 대조한 뒤 미조사 국가·역사 정치체 2~4건 1차 조사. 아시아 GEO-LIFE-029의 2차 검증(시킴 헌법 개정 효력일·북예멘 정부체제/국가 연속성·남예멘 1970 국호 공포일·1990 통일국 승계)과 기존 GEO-LIFE-023 중앙아시아 2차 과제는 아시아 다음 차례로 인계. 나머지 지역 미완료 항목도 유지.**
+- **lastProcessedRegion: 아프리카**
+- **lastCompletedRun: 2026-11-11** (가나·나미비아·우간다 3개 현존 주권국 1차, 1957/1990/1962 독립 효력 확인; 기존 lifetime 3건 일치·수정 0, 공화정·신탁권원·헌법 원관보 2차 유보)
+- **nextRegion: 북아메리카**
+- **nextPhase: 북아메리카 미조사 국가·역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
+- **nextAction: 북아메리카 GEO-LIFE-001/007/013/019/025 및 현행 고정 국가 색인을 대조하고 미조사 국가·역사 정치체 2~4건 1차 조사. 아프리카 GEO-LIFE-030의 가나 1960 헌법·영국령 토골란드 종료, 나미비아 1966 위임통치 권원과 1990 원헌법·월비스베이 귀속, 우간다 1963 원관보 및 기존 GEO-LIFE-024의 잔지바르·마다가스카르·다호메이 2차 유보 유지. 아시아 GEO-LIFE-029 및 다른 지역의 모든 기존 미완료도 인계.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -29,7 +29,7 @@
 | --- | --- | --- | --- | --- |
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md), [GEO-LIFE-022: 양시칠리아·하노버·크라쿠프](country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md), [GEO-LIFE-028: 바이에른·뷔르템베르크·바르샤바](country-lifetime-europe-historic-bavaria-wurttemberg-warsaw-2026-11-09.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 배치(총 9건) 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), [GEO-LIFE-029: 시킴·예멘 아랍 공화국·남예멘](country-lifetime-asia-historic-sikkim-north-south-yemen-2026-11-10.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보; 시킴 1950 보호조약/1975 편입, 북예멘 1962 체제변경/1990 통합, 남예멘 1967 독립/1970 개칭/1990 통합의 법적 동일성 2차 유보 |
-| 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | ETH 1936–1941 점령기의 법적 계속성, SDN 독립/분리승계, ZAF 자치령 주권·공화국 동일성 보류; 기존 기간값 수정 0건 |
+| 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-024: 잔지바르·마다가스카르 왕국·다호메이 왕국](country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md), [GEO-LIFE-030: GHA·NAM·UGA](country-lifetime-africa-gha-nam-uga-2026-11-11.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | 기존 ETH 점령기·SDN 승계·ZAF 주권 연속성 및 역사 왕국 국가성 2차 유보; GHA/NAM/UGA 시작일은 기존 현행 값과 일치, 정부체제·원법령 후속 대조 필요 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
 | 남아메리카 | [GEO-LIFE-026: 부에노스아이레스국·아크레·줄리아나](country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) 1차 추가, [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 선행 근거 확인, 19세기 정치체 3개 1차 추가, 소멸국 전수 및 COK/NIU 법적 분류는 미완료 | 미완료 | NZL·하와이 법적 계속성 유보; GEO-LIFE-021 피지 왕국·타히티 보호국·쿡 연방(비주권) 1차, 1871/1880/1900~1901 법적 기간 2차 유보 |
@@ -238,3 +238,12 @@
 - **2차 유보:** 시킴 헌법 개정법 제1조 제2항의 소급효력/연방상원 통과일·1950 원조약, 보호국의 국제법상 성격; 북예멘 1962 정권변경 vs 기존 국제법상 주권국 연속성·왕당파 실효 지배; 남예멘 1970 국호 시행 정확일(11/30 대 12/01)·1990 통일 원조약·회원권 승계. 최종 lifetime 입력 확정 **0건**.
 - **검사/제한:** 인도 법령 PDF 앞 두 페이지 화면 확인. 다른 조약 및 원본 전체 스캔, GIS·위상·화면·웹/앱·로컬 publish-reports/check-reports **미실행**. 국가 lifetime·역사 형상·정본 타임라인·Pando work/gis/main·배포 **0건 변경**. 외부 자료 저장소의 이 보고서/진행기록/색인만 작성.
 - **커서:** lastProcessedRegion=아시아, nextRegion=아프리카, nextPhase=미조사 국가별 1차 2~4건(소진 시 2차). **전 세계 6지역 1·2차 전수 미완료**.
+
+## 2026-11-11 — 아프리카 가나·나미비아·우간다 3개국 1차 인계 (GEO-LIFE-030)
+
+- **선정/단계:** 직전 아시아 GEO-LIFE-029 → **아프리카**, GEO-LIFE-001/006/012/018/024와 중복되지 않는 현존국 **가나·나미비아·우간다** 3개 국가별 1차. 이들 나라의 1801년 이전 왕조·국경은 조사하지 않음.
+- **자료 기준:** Pando `work/gis` HEAD `762a730a6654361911a9c700afcc29396f4fa2cf`, data pin `33d3066e36e16609ae81b77e10913277d56bcd25`, index blob `d982119a3478199a499aeb8a4058b116a7a83b04` **288 entities 실제 JSON 파싱**. `state:GHA=1957-03-06`, `state:NAM=1990-03-21`, `state:UGA=1962-10-09`, 세 개 모두 validTo=null; 이번 1차 근거와 시작일 일치.
+- **확인:** 가나 **1957-02-07** 영국 독립법 재가→**03-06** 독립→**03-08** UN 가입, **1960-07-01** 공화정 전환(국가 계속성). 나미비아 **1966-10-27** UN 위임통치 종료 선언(그 자체는 독립 아님)→**1990-02-09** 헌법 채택→**03-20** 남아공 독립 인정법 재가→**03-21** 시행·독립→**04-23** UN 가입. 우간다 **1962-03-01** 자치정부→**08-01** 독립법 재가→**10-09** 독립→**10-25** UN 가입, **1963-10-09** 헌정 전환(국가 재건국 아님). 출처·법령 원문/검색 색인 접근 상태는 [GEO-LIFE-030](country-lifetime-africa-gha-nam-uga-2026-11-11.md) 참고.
+- **2차 보류:** 가나 1960 원헌법·토골란드 신탁 종료, 나미비아 1966 권원·1990 원헌법/영토 귀속, 우간다 1963 헌법 제1차 개정법 원관보. 세 현행 시작일 수정 **0건**; 3국 전체 법적 연속성 종결 판정은 2차로 넘김.
+- **검사·수정:** 조사 문헌 웹 일부 직접 열람, PDF/스캔 전수·GIS/위상/화면·웹/앱·로컬 `publish-reports`/`check-reports` **미실행**. 국가 lifetime·형상·정본 타임라인·Pando work/gis/main·배포 변경 **0건**. 외부 보고서·진행기록·색인만 기록.
+- **커서:** `lastProcessedRegion=아프리카`, `nextRegion=북아메리카`, `nextPhase=북아메리카 미조사 국가·역사 정치체 1차 2~4건(소진 시 2차)`. 전 세계 6지역 모두 1·2차 조사 미완료, 순환 계속.
