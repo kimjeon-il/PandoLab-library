@@ -1,0 +1,233 @@
+{
+  "pair": [
+    "MMR",
+    "BGD"
+  ],
+  "rawSharedLength": 2.0996902644103708,
+  "currentSharedLength": 1.9349200246628284,
+  "exactCommonLength": 0.08483646358627725,
+  "exactCommonSegments": [
+    {
+      "length": 0.07018868060141245,
+      "start": [
+        92.21820950000006,
+        21.121279800000025
+      ],
+      "end": [
+        92.19069450000006,
+        21.163289700000064
+      ],
+      "vertexCount": 7
+    },
+    {
+      "length": 0.011278049627482998,
+      "start": [
+        92.17587230000004,
+        21.15968280000004
+      ],
+      "end": [
+        92.17254610000003,
+        21.17045920000004
+      ],
+      "vertexCount": 2
+    },
+    {
+      "length": 0.003369733357381799,
+      "start": [
+        92.65221860000008,
+        21.279229000000043
+      ],
+      "end": [
+        92.65447550000005,
+        21.27672670000004
+      ],
+      "vertexCount": 2
+    }
+  ],
+  "status": "anchor-feasibility-only-not-a-candidate",
+  "method": "Exact intersection of the two shared boundary line sets. No snap or tolerance. Endpoints are potential cut anchors, not permission to modify or proof of a valid ring splice.",
+  "next": "Choose two exact common vertices bracketing one changed connected arc; verify one-to-one path order on all four rings. Splice raw arc into both current rings with reverse orientations. Keep all nonselected coordinates/components unchanged and validate before any application.",
+  "exactEndpointVertexMembership": {
+    "(92.17254610000003, 21.17045920000004)": {
+      "rawMMR": [
+        {
+          "polygon": 1035,
+          "ring": 0,
+          "vertex": 324964
+        }
+      ],
+      "rawBGD": [
+        {
+          "polygon": 345,
+          "ring": 0,
+          "vertex": 231280
+        }
+      ],
+      "currentMMR": [
+        {
+          "polygon": 469,
+          "ring": 0,
+          "vertex": 10237
+        }
+      ],
+      "currentBGD": [
+        {
+          "polygon": 186,
+          "ring": 0,
+          "vertex": 6240
+        }
+      ]
+    },
+    "(92.17587230000004, 21.15968280000004)": {
+      "rawMMR": [
+        {
+          "polygon": 1035,
+          "ring": 0,
+          "vertex": 324963
+        }
+      ],
+      "rawBGD": [
+        {
+          "polygon": 345,
+          "ring": 0,
+          "vertex": 231281
+        }
+      ],
+      "currentMMR": [
+        {
+          "polygon": 469,
+          "ring": 0,
+          "vertex": 10236
+        }
+      ],
+      "currentBGD": [
+        {
+          "polygon": 186,
+          "ring": 0,
+          "vertex": 6241
+        }
+      ]
+    },
+    "(92.19069450000006, 21.163289700000064)": {
+      "rawMMR": [
+        {
+          "polygon": 1035,
+          "ring": 0,
+          "vertex": 324961
+        }
+      ],
+      "rawBGD": [
+        {
+          "polygon": 345,
+          "ring": 0,
+          "vertex": 231283
+        }
+      ],
+      "currentMMR": [
+        {
+          "polygon": 469,
+          "ring": 0,
+          "vertex": 10235
+        }
+      ],
+      "currentBGD": [
+        {
+          "polygon": 186,
+          "ring": 0,
+          "vertex": 6242
+        }
+      ]
+    },
+    "(92.21820950000006, 21.121279800000025)": {
+      "rawMMR": [
+        {
+          "polygon": 1035,
+          "ring": 0,
+          "vertex": 324955
+        }
+      ],
+      "rawBGD": [
+        {
+          "polygon": 345,
+          "ring": 0,
+          "vertex": 231289
+        }
+      ],
+      "currentMMR": [
+        {
+          "polygon": 469,
+          "ring": 0,
+          "vertex": 10229
+        }
+      ],
+      "currentBGD": [
+        {
+          "polygon": 186,
+          "ring": 0,
+          "vertex": 6248
+        }
+      ]
+    },
+    "(92.65221860000008, 21.279229000000043)": {
+      "rawMMR": [
+        {
+          "polygon": 1035,
+          "ring": 0,
+          "vertex": 326898
+        }
+      ],
+      "rawBGD": [
+        {
+          "polygon": 345,
+          "ring": 0,
+          "vertex": 229346
+        }
+      ],
+      "currentMMR": [
+        {
+          "polygon": 469,
+          "ring": 0,
+          "vertex": 10317
+        }
+      ],
+      "currentBGD": [
+        {
+          "polygon": 186,
+          "ring": 0,
+          "vertex": 6160
+        }
+      ]
+    },
+    "(92.65447550000005, 21.27672670000004)": {
+      "rawMMR": [
+        {
+          "polygon": 1035,
+          "ring": 0,
+          "vertex": 326899
+        }
+      ],
+      "rawBGD": [
+        {
+          "polygon": 345,
+          "ring": 0,
+          "vertex": 229345
+        }
+      ],
+      "currentMMR": [
+        {
+          "polygon": 469,
+          "ring": 0,
+          "vertex": 10318
+        }
+      ],
+      "currentBGD": [
+        {
+          "polygon": 186,
+          "ring": 0,
+          "vertex": 6159
+        }
+      ]
+    }
+  },
+  "anchorsPresentInAllFour": 6
+}
