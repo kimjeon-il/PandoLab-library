@@ -1,0 +1,443 @@
+{
+  "revision": "ff9ec78ae5bca814967e9a51492e919997d9d010",
+  "status": "read-only-before-geographic-review",
+  "rows": [
+    {
+      "entityId": "state:IDN",
+      "path": "assets/data/territorial-entities/source/countries/state-IDN.json",
+      "descriptorSha256": "d2cbe845538f3fe4be36d99a5e5cb52aacb3facbeac9e4ac945dcb7b4e0fac1c",
+      "lifetime": {
+        "validFrom": "1945-08-17",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "temporalCorrection": {
+        "kind": "source-reference-date-not-geopolitical-event",
+        "referenceDate": "2026-10-06",
+        "retiredVersionId": "state:IDN:natural-earth-5.1.1",
+        "retiredSourceId": "natural-earth-5.1.1",
+        "retiredReferenceCertainty": "high",
+        "retainedVersionId": "state:IDN:1999-2026-after-east-timor-r1",
+        "retainedEventDate": "1999-10-25",
+        "geometrySha256": "003396bbc0865e9414592eece15f68fef1453d26426766f37bb575bf8257b4bd",
+        "verifiedHistoricalGeometry": false,
+        "note": "The 2026-10-06 boundary was a source snapshot reference, not a territorial event. Identical outline coordinates are now represented by one open-ended low-certainty historical proxy. The former canonical source edition is preserved by its version ID and geometry digest in metadata and immutable archive."
+      },
+      "versions": [
+        {
+          "versionId": "state:IDN:1945-1963-before-west-new-guinea-r1",
+          "validFrom": "1945-08-17",
+          "validTo": "1963-04-30",
+          "certainty": "low",
+          "sourceId": "natural-earth-5.1.1-admin1-papua-island-mask",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:IDN:state:IDN:1945-1963-before-west-new-guinea-r1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-301521f2b924be40f9d8e07e2107b0ffeaf97348b48316bca58db7f3f5e4e51b.json",
+            "sha256": "301521f2b924be40f9d8e07e2107b0ffeaf97348b48316bca58db7f3f5e4e51b",
+            "bytes": 2089876
+          }
+        },
+        {
+          "versionId": "state:IDN:1963-1975-before-east-timor-r1",
+          "validFrom": "1963-05-01",
+          "validTo": "1975-12-06",
+          "certainty": "low",
+          "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m-temporal-proxy",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:IDN:state:IDN:1963-1975-before-east-timor-r1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4.json",
+            "sha256": "c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4",
+            "bytes": 4324426
+          }
+        },
+        {
+          "versionId": "state:indonesia:1945-2002-r1",
+          "validFrom": "1975-12-07",
+          "validTo": "1999-10-24",
+          "certainty": "low",
+          "sourceId": "approved-current-world-idn-tls-union-temporal-proxy-20261110",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:IDN:state:indonesia:1945-2002-r1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-eea6604bc23dc2e27be6c08b85e96da38d1bc35c4b99b4a8dfc52ea1b7b077af.json",
+            "sha256": "eea6604bc23dc2e27be6c08b85e96da38d1bc35c4b99b4a8dfc52ea1b7b077af",
+            "bytes": 4332150
+          }
+        },
+        {
+          "versionId": "state:IDN:1999-2026-after-east-timor-r1",
+          "validFrom": "1999-10-25",
+          "validTo": null,
+          "certainty": "low",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:IDN:state:IDN:1999-2026-after-east-timor-r1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4.json",
+            "sha256": "c90ffb79184adb7919375bcd8228f05572fac211b14081e8908582a92dc6a4d4",
+            "bytes": 4324426
+          },
+          "currentGeometrySource": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "IDN",
+            "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [
+                "4026e6ac-83c9-423f-9114-decf7461c75f"
+              ],
+              "sourceWP_IDsEvidence": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+              }
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "IDN",
+            "geometrySha256": "ac23d0aacbf6ba6b72c4797b40122fb22508cf37c513792c77df7ed9f05a9623",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [
+                "4026e6ac-83c9-423f-9114-decf7461c75f"
+              ],
+              "sourceWP_IDsEvidence": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+              }
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "entityId": "state:TLS",
+      "path": "assets/data/territorial-entities/source/countries/state-TLS.json",
+      "descriptorSha256": "65b29b0bd21ce66ec4710641d76e5aa6d28602c6d9aa87178783709cad8978d5",
+      "lifetime": {
+        "validFrom": "2002-05-20",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "temporalCorrection": {
+        "kind": "source-reference-date-not-geopolitical-event",
+        "referenceDate": "2026-10-06",
+        "retiredVersionId": "state:TLS:natural-earth-5.1.1",
+        "retiredSourceId": "natural-earth-5.1.1",
+        "retiredReferenceCertainty": "high",
+        "retainedVersionId": "state:TLS:2002-2026-independence-r1",
+        "retainedEventDate": "2002-05-20",
+        "geometrySha256": "63b893f27d4384481279d7c74ccfb75dc548d0a3448e82f87cb4d366c530caa9",
+        "verifiedHistoricalGeometry": false,
+        "note": "The 2026-10-06 boundary was a source snapshot reference, not a territorial event. Identical outline coordinates are now represented by one open-ended low-certainty historical proxy. The former canonical source edition is preserved by its version ID and geometry digest in metadata and immutable archive."
+      },
+      "versions": [
+        {
+          "versionId": "state:TLS:2002-2026-independence-r1",
+          "validFrom": "2002-05-20",
+          "validTo": null,
+          "certainty": "low",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:TLS:state:TLS:2002-2026-independence-r1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673.json",
+            "sha256": "374ac5c66912ee7e2ddc2a0581fa8be53b8f97ec1e47981529806e562a36a673",
+            "bytes": 21362
+          },
+          "currentGeometrySource": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "TLS",
+            "geometrySha256": "e1030b5d8309167c06e41f5f16fc134812da370248e690f03f27d618d2694524",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [
+                "88cb3d29-f783-4135-a3fb-d28e3fa45cfb"
+              ],
+              "sourceWP_IDsEvidence": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+              }
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "TLS",
+            "geometrySha256": "e1030b5d8309167c06e41f5f16fc134812da370248e690f03f27d618d2694524",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [
+                "88cb3d29-f783-4135-a3fb-d28e3fa45cfb"
+              ],
+              "sourceWP_IDsEvidence": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+                "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b"
+              }
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "entityId": "state:PNG",
+      "path": "assets/data/territorial-entities/source/countries/state-PNG.json",
+      "descriptorSha256": "182608fbbb9df3f6455dbde322ae56755496fed9caf48995288e6726d51f836c",
+      "lifetime": {
+        "validFrom": "1975-09-16",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:PNG:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:PNG:state:PNG:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-25ea9dea2d85ee206a7b038cf4ef34f919ac5df504ace64f08a7f866ce72223c.json",
+            "sha256": "25ea9dea2d85ee206a7b038cf4ef34f919ac5df504ace64f08a7f866ce72223c",
+            "bytes": 912800
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "PNG",
+            "geometrySha256": "b1d002c278e3d6620db97789e2454ca613b953f3257638ed1df995c5658956c8",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "entityId": "state:MYS",
+      "path": "assets/data/territorial-entities/source/countries/state-MYS.json",
+      "descriptorSha256": "24ea0a673eeb14dd91679fb59b88cd91c03b39d6c43129ac10c853da288fda98",
+      "lifetime": {
+        "validFrom": "1963-09-16",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:MYS:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:MYS:state:MYS:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-e2a64870a0d8e60ad43a9bf981f0772d6f93f8de91104e47de2cfa805a43e1aa.json",
+            "sha256": "e2a64870a0d8e60ad43a9bf981f0772d6f93f8de91104e47de2cfa805a43e1aa",
+            "bytes": 631293
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "MYS",
+            "geometrySha256": "92e866895f0ff7d99a0f12125c8041e236aa70f24f40df82ae7c5a6b167b2b6f",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "entityId": "state:BRN",
+      "path": "assets/data/territorial-entities/source/countries/state-BRN.json",
+      "descriptorSha256": "0113250938e6da4c84341b6c5944161d4d51af06968ae5dd8c31c61e12ef1d8b",
+      "lifetime": {
+        "validFrom": "1368",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:BRN:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "certainty": "high",
+          "sourceId": "approved-current-world-display-20261107",
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:BRN:state:BRN:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-3ac0c498c2c746af157127c67869535ce5e70646215669f65ebc84c5380e383c.json",
+            "sha256": "3ac0c498c2c746af157127c67869535ce5e70646215669f65ebc84c5380e383c",
+            "bytes": 26618
+          },
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "BRN",
+            "geometrySha256": "f2f3fd67ae28e1f2d7b7c9a302693ae9dfd48c8a358a66ac642f41e4c8ee6ff1",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
