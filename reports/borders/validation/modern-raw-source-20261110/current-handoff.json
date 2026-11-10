@@ -1,8 +1,8 @@
 {
   "scope": "Modern raw source adoption only. Runtime/LOD generation and historical unique boundaries are not completed.",
-  "localSourceRevision": "21eec58615cfe5c731d5ee2f8af36aad85b34f57",
-  "localAppPinCommit": "a6cc7145d",
-  "appliedModernObjects": 44,
+  "localSourceRevision": "f3c7857a23f0e68f962d0c9a02d66a0087b56329",
+  "localAppPinCommit": "d9f91d4af57a6955a6a56e33224f7da7cc86d303",
+  "appliedModernObjects": 45,
   "latestCompleted": [
     "COK",
     "NIU",
@@ -15,19 +15,19 @@
     "IRL",
     "CUB",
     "USG",
-    "JPN"
+    "JPN",
+    "PHL"
   ],
   "remainingInventory": {
-    "unreviewedOneToOneModern": 112,
+    "unreviewedOneToOneModern": 111,
     "sourceDisplayContractReview": 36,
     "specialGeographicScopeReview": 25,
     "ownershipReview": 37
   },
   "specificHolds": [
-    "BEL/LUX source-only update rejected by geometry-bound display gate; no gate modification allowed",
     "AND/LIE/MCO need neighboring country source changes together",
     "SMR/VAT raw source has positive-area overlap with Italy; preserve original and resolve ownership composition separately",
-    "PHL raw primary feature lacks approved four Spratly components; preserve effective-control allocation before adopting."
+    "BEL/LUX source-only storage contract separated and tested; neighboring country geometry and ownership assembly still require review before applying."
   ],
   "remainingNotAllBlocked": true,
   "simultaneousLOD": "Existing gis independently advanced to c40af6d237f5db4c8f3688deb4c96e5da00295f4; country source descriptors unchanged from our baseline. Our workspace only changed its own pin.",
@@ -50,8 +50,5 @@
     "safeClosedGroups": 0
   },
   "next": "Remaining mainland connections require targeted ownership and period-aware source adoption review. PHL four approved islands resolved using unique raw component correspondence; no runtime approval.",
-  "currentVerifiedRawObjectCount": 45,
-  "latestSourceDataCommit": "f3c7857a23f0e68f962d0c9a02d66a0087b56329",
-  "latestAppPinCommit": "d9f91d4af57a6955a6a56e33224f7da7cc86d303",
   "latestReportCommit": "ac61cbaf4136e01d2d231c29e61c0618756400b7"
 }
