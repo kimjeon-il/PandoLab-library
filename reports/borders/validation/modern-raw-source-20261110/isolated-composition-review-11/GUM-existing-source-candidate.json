@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:GUM",
+  "entityKind": "general",
+  "lineageId": "gum",
+  "names": {
+    "ko": "괌"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1899-04-11",
+    "validTo": null
+  },
+  "parentEntityId": "state:USA",
+  "geometryVersions": [
+    {
+      "versionId": "state:GUM:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "approved-current-world-display-20261107",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:GUM:state:GUM:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-9411e0cd557b13dee307dbc89206e568ff1225ba6708babb0401aa8e35c4b461.json",
+        "sha256": "9411e0cd557b13dee307dbc89206e568ff1225ba6708babb0401aa8e35c4b461",
+        "bytes": 6379
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "approved-current-world-display-20261107",
+        "status": "approved-prepared-current-source-adoption",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "GUM",
+        "geometrySha256": "bebab898f7dd449c166d7dba0e3498ce2f46c9c0fa7125312e7b5a83f953d891",
+        "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+        "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+        "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+        "upstream": {
+          "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+          "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+          "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+          "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+          "sourceFileBytesLocallyVerified": false,
+          "sourceWP_IDs": [],
+          "sourceWP_IDsEvidence": null
+        },
+        "sourceReview": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+          "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+        }
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "GUM",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gu.svg",
+    "representativeGeometryVersionId": "state:GUM:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "approved-current-world-display-20261107",
+    "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "GUM",
+    "featureProperties": {
+      "name": "괌"
+    },
+    "geometrySha256": "d906e834f250c651ba9ea0cc9de703c000da1214910c4c2f9b8b488600f29e09",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-26",
+      "calendar": "proleptic-gregorian",
+      "precision": "date",
+      "criterion": "마리아나에서 분리된 미국령 괌; 자치정부일이 아님",
+      "sourceUrls": [
+        "https://uscode.house.gov/us/usc/119-124/t48/s1421/"
+      ],
+      "sourceNotes": [
+        {
+          "url": "https://uscode.house.gov/us/usc/119-124/t48/s1421/",
+          "supports": "48USC1421은 파리조약1898-12-10서명/1899-04-11공포로 미국에 양도된 괌을 명시.독립 자치령 성립이라는 설명은 잘못.해군총독1899-08-07/민간정부1950별도.",
+          "access": "opened"
+        }
+      ],
+      "userSelected": true
+    },
+    "geometryVersionId": "state:GUM:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:GUM",
+      "versionId": "state:GUM:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "4b708b8a3108ae088d36021c3b982c2353d8101d4a9b69ecd2c05508b3bcd5d4",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "GUM",
+        "geometryVersionId": "state:GUM:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

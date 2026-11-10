@@ -1,0 +1,102 @@
+{
+  "entityId": "state:IOA",
+  "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+  "rawLayer": "DoS_WP_11_4",
+  "compositionMode": "ordered concatenation of all raw polygons; no union, repair, clipping, simplify, rounding",
+  "sourceWP_IDs": [
+    "0ddbd39d-1604-4f42-8446-983fcd76104a",
+    "de540a9e-416f-43ee-ac9f-4187bd4ca9e1"
+  ],
+  "rawFeatures": [
+    {
+      "WP_ID": "0ddbd39d-1604-4f42-8446-983fcd76104a",
+      "properties": {
+        "fid": 57,
+        "WP_Name": "Christmas Island",
+        "WP_Name_ND": "Christmas Island",
+        "DOS_Short": "Christmas Island",
+        "DOS_Long": "Territory of Christmas Island",
+        "Map_Label": "Christmas Island (AUSTL.)",
+        "US_Recog": "Dependency or Area of Special Sovereignty",
+        "Show_Disp": null,
+        "Map_Disp": null,
+        "NOTES": null,
+        "NOTES_Cont": null,
+        "MapTint_2": "AU",
+        "MapTint_3": "AUS",
+        "GENC_Short": "Christmas Island",
+        "GENC_Full": "Territory of Christmas Island",
+        "GENC_2": "CX",
+        "GENC_3": "CXR",
+        "ISO_3166_1": null,
+        "ISO_3166_2": null,
+        "WP_ID": "0ddbd39d-1604-4f42-8446-983fcd76104a",
+        "WP_PREV_ID": "0ddbd39d-1604-4f42-8446-983fcd76104a",
+        "WP_PAR_ID": "1f959630-f4f3-446e-8aeb-28c0fb371d52"
+      },
+      "rawBlobSha256": "d0a6fdcb58d2b8eb712493c030be822957187f616472d000993e973a1af9cd7a",
+      "rawWkbSha256": "1c6157fc84315e9645ac3235247a43a0c615b2df0416da740c5a9ad3a2138667",
+      "polygonCount": 1
+    },
+    {
+      "WP_ID": "de540a9e-416f-43ee-ac9f-4187bd4ca9e1",
+      "properties": {
+        "fid": 61,
+        "WP_Name": "Cocos (Keeling) Islands",
+        "WP_Name_ND": "Cocos (Keeling) Islands",
+        "DOS_Short": "Cocos (Keeling) Islands",
+        "DOS_Long": "Territory of Cocos (Keeling) Islands",
+        "Map_Label": "Cocos (Keeling) Islands (AUSTL.)",
+        "US_Recog": "Dependency or Area of Special Sovereignty",
+        "Show_Disp": null,
+        "Map_Disp": null,
+        "NOTES": null,
+        "NOTES_Cont": null,
+        "MapTint_2": "AU",
+        "MapTint_3": "AUS",
+        "GENC_Short": "Cocos (Keeling) Islands",
+        "GENC_Full": "Territory of Cocos (Keeling) Islands",
+        "GENC_2": "CC",
+        "GENC_3": "CCK",
+        "ISO_3166_1": null,
+        "ISO_3166_2": null,
+        "WP_ID": "de540a9e-416f-43ee-ac9f-4187bd4ca9e1",
+        "WP_PREV_ID": "de540a9e-416f-43ee-ac9f-4187bd4ca9e1",
+        "WP_PAR_ID": "1f959630-f4f3-446e-8aeb-28c0fb371d52"
+      },
+      "rawBlobSha256": "52187daa923c94dbd693a92bc18e50af22cd46cc94cbcb7a476d3a2d87e3d835",
+      "rawWkbSha256": "3fb9eeaca873097a6f5666db2183354b38e614fbf46bed9d010fb4b56954e139",
+      "polygonCount": 44
+    }
+  ],
+  "geometryValid": true,
+  "polygonCount": 45,
+  "coordinateCount": 5410,
+  "holes": 0,
+  "rawCoordinatesUnmodified": true,
+  "roundTripWkbEqual": true,
+  "serialization": "Python JSON shortest round-trip binary64 decimals; exact WKB equality verified (no GDAL rounding pass)",
+  "candidateSha256": "c9b053bec2f349b6de30fed3730fd6290855fbca71968e1236883d2070ccd903",
+  "selectionWkbSha256": "bcd81bd21753481438b1ee4dcbfec607634dcd8bff75f5a63929d284dc08c04f",
+  "bytes": 217770,
+  "preimageDescriptorSha256": "d7e3c809e14eb72fdee48283b35a548a108893b4615f7b127ba9430a711a25f7",
+  "preimageGeometryResource": {
+    "logicalRef": {
+      "id": "state:IOA:state:IOA:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-66e82e23fa115e066481f5e6e94eb5c84a1c7261c65ddcb0106a83adb3d85b9f.json",
+    "sha256": "66e82e23fa115e066481f5e6e94eb5c84a1c7261c65ddcb0106a83adb3d85b9f",
+    "bytes": 5946
+  },
+  "preimageGeometryDigest": "af84d6d8916513829c578e293203de22247e3ea471eccb24e6cc98219aaee97a",
+  "preimageRevision": "ff9ec78ae5bca814967e9a51492e919997d9d010",
+  "preserveVersionId": "state:IOA:natural-earth-5.1.1",
+  "preserveValidFrom": null,
+  "preserveValidTo": null,
+  "sourceWrite": false,
+  "preimageDescriptorBytes": 5762,
+  "preimageDescriptorHashScope": "Exact decoded archive bytes, preserved without JSON reserialization"
+}

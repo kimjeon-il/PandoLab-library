@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:ATF",
+  "entityKind": "general",
+  "lineageId": "atf",
+  "names": {
+    "ko": "프랑스령 남방 및 남극"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1955-08-06",
+    "validTo": null
+  },
+  "parentEntityId": "state:FRA",
+  "geometryVersions": [
+    {
+      "versionId": "state:ATF:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "approved-current-world-display-20261107",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:ATF:state:ATF:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-7d4de8cd15dd4139fe19940fb5244ed51414459e141f27704986825013b89c76.json",
+        "sha256": "7d4de8cd15dd4139fe19940fb5244ed51414459e141f27704986825013b89c76",
+        "bytes": 129632
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "approved-current-world-display-20261107",
+        "status": "approved-prepared-current-source-adoption",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "ATF",
+        "geometrySha256": "858753ebc20c49ca9704174115f156d4e5302669989d782b995b3c28eeba4fa3",
+        "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+        "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+        "historicalAccuracyVerified": false,
+        "effectiveDateEstablished": false,
+        "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+        "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+        "upstream": {
+          "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+          "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+          "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+          "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+          "sourceFileBytesLocallyVerified": false,
+          "sourceWP_IDs": [],
+          "sourceWP_IDsEvidence": null
+        },
+        "sourceReview": {
+          "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+          "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+        }
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "ATF",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tf.svg",
+    "representativeGeometryVersionId": "state:ATF:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "approved-current-world-display-20261107",
+    "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "ATF",
+    "featureProperties": {
+      "name": "프랑스령 남방 및 남극"
+    },
+    "geometrySha256": "d3de944d91d489a35dbee2a67d04aadac5ceeff7c0264bb59b207d007070757c",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-26",
+      "calendar": "proleptic-gregorian",
+      "precision": "date",
+      "criterion": "마다가스카르에서 분리한 창설 법률의 공식 기준일 권고",
+      "sourceUrls": [
+        "https://taaf.fr/actualite/ce-6-aout-2020-les-terres-australes-et-antarctiques-francaises-ont-65-ans/"
+      ],
+      "sourceNotes": [
+        {
+          "url": "https://taaf.fr/actualite/ce-6-aout-2020-les-terres-australes-et-antarctiques-francaises-ont-65-ans/",
+          "supports": "현지정부공식창설기념일1955-08-06.법률55-1052관보1955-08-09.정확한법적시행시점은미확정;관보일을임의로시행일로쓰지않음.",
+          "access": "search-only"
+        }
+      ],
+      "userSelected": true
+    },
+    "geometryVersionId": "state:ATF:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:ATF",
+      "versionId": "state:ATF:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "901886327a6c98e173262202cb707ee454749a18dca264aabac46e1a39081472",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "ATF",
+        "geometryVersionId": "state:ATF:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}
