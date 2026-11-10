@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "b9d7b278286657138a32ffbb43adb33e04923b4e",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-MCO.json",
+  "originalDescriptorSha256": "a56baf16b4dbb4664e9902c0f756f94ab32dba2cd12940f17647aff6b91502af",
+  "candidateDescriptorSha256": "80cdcbd30055f471dfe8a2e32614935f6b3fc0357fd274f73d3fd06d2b149a09",
+  "beforeCoordinates": 11,
+  "afterCoordinates": 521,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:MCO:state:MCO:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-63951aba0e3417fb36a82441b2d69c53ced1bd6eeb2764f76a01945451718902.json",
+    "sha256": "63951aba0e3417fb36a82441b2d69c53ced1bd6eeb2764f76a01945451718902",
+    "bytes": 20043
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "b9d7b278286657138a32ffbb43adb33e04923b4e",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-LIE.json",
+  "originalDescriptorSha256": "36691324f2a7bef9f49db1c3240e982b09d01e616685d80d2808c29a599dec70",
+  "candidateDescriptorSha256": "2b0104ac8cb4a22859c03d85fef6f9fb574afc86a285acf9f1038e190b3f1eed",
+  "beforeCoordinates": 42,
+  "afterCoordinates": 3487,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:LIE:state:LIE:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-62db9df4d40746bf1609a4f8de01c64743268ad6112ff0a5a098fa187e660ec4.json",
+    "sha256": "62db9df4d40746bf1609a4f8de01c64743268ad6112ff0a5a098fa187e660ec4",
+    "bytes": 132966
+  }
+}

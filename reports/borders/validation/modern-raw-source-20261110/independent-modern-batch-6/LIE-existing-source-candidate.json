@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "entityId": "state:LIE",
+  "entityKind": "general",
+  "lineageId": "lie",
+  "names": {
+    "ko": "리히텐슈타인"
+  },
+  "alternateNames": [],
+  "lifetime": {
+    "validFrom": "1719-01-23",
+    "validTo": null
+  },
+  "parentEntityId": "",
+  "geometryVersions": [
+    {
+      "versionId": "state:LIE:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "certainty": "high",
+      "sourceId": "dos-world-polygons-11.4-beta-raw",
+      "geometryResource": {
+        "logicalRef": {
+          "id": "state:LIE:state:LIE:natural-earth-5.1.1",
+          "version": 1
+        },
+        "role": "source",
+        "type": "MultiPolygon",
+        "file": "geometries/sha256-62db9df4d40746bf1609a4f8de01c64743268ad6112ff0a5a098fa187e660ec4.json",
+        "sha256": "62db9df4d40746bf1609a4f8de01c64743268ad6112ff0a5a098fa187e660ec4",
+        "bytes": 132966
+      },
+      "modernBoundarySupplement": {
+        "sourceId": "dos-world-polygons-11.4-beta-raw",
+        "status": "raw-original-source-adopted-not-runtime-approved",
+        "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+        "rawLayer": "DoS_WP_11_4",
+        "sourceWP_IDs": [
+          "dd87e0bd-2819-41a1-ba87-97f2c8ac9845"
+        ],
+        "rawBlobSha256": "099b7a7456d960ee630ae0fab2e951a3282609a3f9ca676ffefdb99bed9b023e",
+        "geometrySha256": "f7dc5bcc50b049eccd779f7e1502bd22d33ab6e72a040ef473a5acffbe9a13c5",
+        "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+        "sourceProperties": {
+          "fid": 176,
+          "WP_Name": "Liechtenstein",
+          "WP_Name_ND": "Liechtenstein",
+          "DOS_Short": "Liechtenstein",
+          "DOS_Long": "Principality of Liechtenstein",
+          "Map_Label": "LIECHTENSTEIN",
+          "US_Recog": "Independent",
+          "Show_Disp": null,
+          "Map_Disp": null,
+          "NOTES": null,
+          "NOTES_Cont": null,
+          "MapTint_2": "LI",
+          "MapTint_3": "LIE",
+          "GENC_Short": "Liechtenstein",
+          "GENC_Full": "Principality of Liechtenstein",
+          "GENC_2": "LI",
+          "GENC_3": "LIE",
+          "ISO_3166_1": null,
+          "ISO_3166_2": null,
+          "WP_ID": "dd87e0bd-2819-41a1-ba87-97f2c8ac9845",
+          "WP_PREV_ID": "dd87e0bd-2819-41a1-ba87-97f2c8ac9845",
+          "WP_PAR_ID": "dd87e0bd-2819-41a1-ba87-97f2c8ac9845"
+        },
+        "priorPreparedAttribution": {
+          "sourceId": "approved-current-world-display-20261107",
+          "status": "approved-prepared-current-source-adoption",
+          "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+          "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+          "featureId": "LIE",
+          "geometrySha256": "b607c8f5b2817b78e01d0cc5f07c9dd9200f19149e052a487bd2dbfe9c0cf19e",
+          "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+          "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+          "historicalAccuracyVerified": false,
+          "effectiveDateEstablished": false,
+          "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+          "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+          "upstream": {
+            "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+            "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+            "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+            "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+            "sourceFileBytesLocallyVerified": false,
+            "sourceWP_IDs": [],
+            "sourceWP_IDsEvidence": null
+          },
+          "sourceReview": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+            "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+          }
+        },
+        "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+        "historicalAccuracyVerified": false
+      }
+    }
+  ],
+  "instantiation": {
+    "mode": "independent",
+    "countryUpdates": {}
+  },
+  "metadata": {
+    "sourceFeatureId": "LIE",
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/li.svg",
+    "representativeGeometryVersionId": "state:LIE:natural-earth-5.1.1"
+  },
+  "sourceInfo": {
+    "sourceId": "dos-world-polygons-11.4-beta-raw",
+    "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+    "featureId": "LIE",
+    "featureProperties": {
+      "name": "리히텐슈타인"
+    },
+    "geometrySha256": "f7dc5bcc50b049eccd779f7e1502bd22d33ab6e72a040ef473a5acffbe9a13c5",
+    "lifetimeEvidence": {
+      "reportId": "GEO-LIFE-EXTANT-20261025",
+      "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+      "researchedAt": "2026-10-25",
+      "calendar": "proleptic-gregorian",
+      "precision": "date",
+      "criterion": "Government explicitly distinguishes creation of the Principality in 1719 from sovereignty in 1806. The merger creating this polity is supported to the day; 1806-07-12 changes the status of an already-existing principality.",
+      "sources": [
+        {
+          "url": "https://www.regierung.li/files/attachments/20251125-broschuere-begegnung-mit-einem-kleinstaat-639080401433496309.pdf",
+          "title": "Government of Liechtenstein: Encounter with a Small State",
+          "access": "opened",
+          "supports": "Printed pp.10-11 identify 1719-01-23 creation and distinguish 1806 sovereignty; day precision."
+        },
+        {
+          "url": "https://www.300.li/wissenwertes/meilensteine-liechtensteins-geschichte",
+          "title": "Official 300 Years of Liechtenstein: Meilensteine",
+          "access": "opened",
+          "supports": "1719-01-23 union and elevation; 1806-07-12 Confederation of the Rhine and sovereignty."
+        },
+        {
+          "url": "https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=4&etID=46360",
+          "title": "Liechtenstein State Archives: Imperial decree on Vaduz and Schellenberg",
+          "access": "opened",
+          "supports": "Record dated 1720-11-03 explicitly concerns elevation on 1719-01-23. Record date and event date are distinct."
+        }
+      ]
+    },
+    "geometryVersionId": "state:LIE:natural-earth-5.1.1",
+    "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+    "priorSourceAttribution": {
+      "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+      "entityId": "state:LIE",
+      "versionId": "state:LIE:natural-earth-5.1.1",
+      "originalSourceId": "natural-earth-5.1.1",
+      "originalSourceGeometrySha256": "16d9a0e1927fe316aef5a2205e5df55d6830f23430cd238161cbc7dfcaa83365",
+      "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+    },
+    "sourceAttributions": [
+      {
+        "sourceId": "approved-current-world-display-20261107",
+        "title": "User-approved composite prepared current display donor",
+        "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+        "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+        "featureId": "LIE",
+        "geometryVersionId": "state:LIE:natural-earth-5.1.1",
+        "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+        "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+        "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+      }
+    ]
+  },
+  "storageLayout": "geometry-resources-v1"
+}

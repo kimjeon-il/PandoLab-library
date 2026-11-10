@@ -1,0 +1,26 @@
+{
+  "status": "canonical-schema candidate verified, not applied",
+  "baseRevision": "b9d7b278286657138a32ffbb43adb33e04923b4e",
+  "sourcePath": "assets/data/territorial-entities/source/countries/state-VAT.json",
+  "originalDescriptorSha256": "aa8664035ed4af37755a79d0c65e7501c906d781081cd80167f1ae4f329c8bc6",
+  "candidateDescriptorSha256": "59e0bf6f6adfabfa94804a4a05f657545f3275dc3b157a026809f5775d498408",
+  "beforeCoordinates": 5,
+  "afterCoordinates": 140,
+  "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+  "metadataPreserved": true,
+  "sourceCodecRoundtrip": true,
+  "historicalGateChangedVersions": 0,
+  "sourceWritten": false,
+  "runtimeGenerated": false,
+  "geometryResource": {
+    "logicalRef": {
+      "id": "state:VAT:state:VAT:natural-earth-5.1.1",
+      "version": 1
+    },
+    "role": "source",
+    "type": "MultiPolygon",
+    "file": "geometries/sha256-9b1875199ef050cf004597df1a5bf0ce31b62708e94e08e504ba8ac8206313ea.json",
+    "sha256": "9b1875199ef050cf004597df1a5bf0ce31b62708e94e08e504ba8ac8206313ea",
+    "bytes": 5529
+  }
+}
