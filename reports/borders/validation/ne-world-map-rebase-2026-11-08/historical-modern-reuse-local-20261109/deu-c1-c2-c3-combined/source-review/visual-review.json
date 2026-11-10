@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "status": "visually-reviewed-final-composed-source-display-only",
+  "reviewedAt": "2026-11-10T00:16:41.429Z",
+  "actualImagesOpened": 2,
+  "candidateGeometrySha256": "369d8055b08adba79bf2bb71f8e56f93bff9cf68fb5716edd8f25cd5c232f0bf",
+  "projection": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/projection-execution.json",
+    "sha256": "6f67b4b47cc90f3628507c3e4aee2a8bd50333a78793042d6e7436de93caa7dd"
+  },
+  "images": [
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/DEU-source-scale-review.png",
+      "sha256": "3e3d4c51154f62143d87860cb0e38dbe7219a61546b5dc7db0c3acf5b148dcbb"
+    },
+    {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/DEU-scoped-diagnostic.png",
+      "sha256": "ddee0952874b81215c95507a50f986f717b7ff7b50e12820e20b2bfa8a70894b"
+    }
+  ],
+  "scope": "Three source-scale panels use same EPSG:3035 extent and nominal1:10M at96dpi. Second image enlarges each of3 operations only for topology diagnostics. Physical screen size is not calibrated.",
+  "observations": [
+    "Overall German representative outline, historical mainland routes and nonselected coast retain the recognizable prior display shape.",
+    "C1/C3 old detached display polygons are subsumed into copied current mainland arcs. C2 additionally preserves the exact small detached donor145, visibly separated from the current mainland route.",
+    "Six black endpoints in diagnostic panels are calculated in-segment intersections. No artificial straight connector was introduced. Diagnostic clipping frames are render boundaries, not geometry edits.",
+    "Current donor bays and small components are not independently dated historic shorelines. Old NE outlines are comparison preimages, not historical truth or clipping limits."
+  ],
+  "historicalPositionalAccuracyMeasured": false,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "runtimeApproval": false
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "source-display-delta-approved-only",
+  "sourceRevision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6",
+  "reviewedAt": "2026-11-10T00:16:41.429Z",
+  "entityId": "state:DEU",
+  "versionId": "state:DEU:1914-07-31-display-r1",
+  "geometrySha256": "369d8055b08adba79bf2bb71f8e56f93bff9cf68fb5716edd8f25cd5c232f0bf",
+  "reason": "Fresh final3-operation replay, exact6 rational intersections, current whole donor145 identity, whole-source validity and scoped counterpart preservation, and actual projected nominal1:10M visual review support only this composed modern display-proxy substitution. No partial review pass is transferred.",
+  "source": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/source-provenance.json",
+    "sha256": "d1d2445668658d539374a634969134ca1d9de4d602c50b82290b35232f934c36"
+  },
+  "topology": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/source-topology-measurements.json",
+    "sha256": "74239f02a37169ff851fa4fef3400dd2bbe79116dce65dad15fad5a569ec1b09"
+  },
+  "visual": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/visual-review.json",
+    "sha256": "2dfdfb629e8362f22c43541125291a5b445924683baf3f6e6836ee412114c475"
+  },
+  "gate": {
+    "reference": "tools/gis/historical-display-review.mjs",
+    "sha256": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563"
+  },
+  "excluded": [
+    "C4 original island11",
+    "Separate6junction changes",
+    "Historical ownership or coastline re-verification",
+    "Compiled and runtime adoption"
+  ],
+  "historicalOwnershipReverifiedAcrossWholePeriod": false,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "compiledDerivatives": [],
+  "compiledApproval": false,
+  "runtimeApproval": false
+}

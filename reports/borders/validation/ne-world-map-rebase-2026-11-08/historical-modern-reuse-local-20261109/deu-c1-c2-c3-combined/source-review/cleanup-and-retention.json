@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "status": "completed-task-owned-decoded-input-cleanup",
+  "removed": [
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\deu-mainland-connected-four\\source-review\\review-inputs.tmp.json",
+      "bytes": 60534117,
+      "sha256": "8158126d6647f547e05e2131251a6d0ba6c8c9e4dfc1ca6d05cd36fb70654f0b",
+      "deleted": true,
+      "reason": "Task-owned decoded input copy; all preparation, measurement/render and patch-writing consumers finished. Reproducible from immutable archive inputs using review-inputs.mjs --prepare. Independent final verifier does not use this file."
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\deu-c1-c2-c3-combined\\source-review\\review-inputs.tmp.json",
+      "bytes": 12974866,
+      "sha256": "7c1ff16911af09b53ed8b34670d98c0da29981f1bd6890063e5b93a3c6737243",
+      "deleted": true,
+      "reason": "Task-owned decoded input copy; all preparation, measurement/render and patch-writing consumers finished. Reproducible from immutable archive inputs using review-inputs.mjs --prepare. Independent final verifier does not use this file."
+    }
+  ],
+  "logicalBytesRemoved": 73508983.0,
+  "driveFreeBytesBefore": 43478536192,
+  "driveFreeBytesAfter": 43552047104,
+  "measuredDriveFreeBytesChange": 73510912,
+  "measurementCaveat": "Drive free-space movement includes unrelated system activity; logical deletion bytes are tracked separately.",
+  "protected": "Frozen owner candidate files, source/runtime/pins, original evidence, shared caches, producer PID6648 and fixed build-native/wasm untouched.",
+  "retained": "Original C1/C3 partial review evidence retained as requested; final C1/C2/C3 review evidence, scripts and canonical patch retained for audit and parent adoption. No raw decoded input copy retained."
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "status": "fresh-source-lineage-and-display-proxy-inputs-verified-with-declared-limits",
+  "sourceRevision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6",
+  "sourceGeometryRevision": "ebb886a223b2c30b978b9536f2da016f1e822186",
+  "canonicalRead": "Actual main modules: decodeArchiveEntry(fetch:false), decodeTerritorialSource, normalizeTerritorialLibraryEntity. Raw source descriptor+geometry resources, never current generated gzip.",
+  "archiveInputs": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/archive-inputs.json",
+    "sha256": "448f0e5d20f0c1391e1a13241c2eb24be874de814391c5ebc945d84889aa324f"
+  },
+  "counterpartBindings": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/counterpart-bindings.json",
+    "sha256": "c43bc69944804e7f4e89062c43be913e49b526d4dce04c9fa930a118fb41a36d"
+  },
+  "operations": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/reviewed-operations.json",
+    "sha256": "1bdb594cf2704d8cb2917a933c32de7d7bed40c1a437a839cfd856a0c5c42944"
+  },
+  "independentReplay": {
+    "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/independent-operation-replay.json",
+    "sha256": "b30a09322a6512baefa295dfdeee2bfbf346752c8c4356a714c3e8a479eca473"
+  },
+  "target": {
+    "entityId": "state:DEU",
+    "versionId": "state:DEU:1914-07-31-display-r1",
+    "validFrom": "1871-01-01",
+    "validTo": "1918-11-08",
+    "certainty": "provisional",
+    "sourceId": "histogis-modern-coast-policy-1914",
+    "referenceDate": "1914-07-31",
+    "sourceDescriptor": {
+      "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "d13d349840a5f20484f072afcb5ca1c7b39a2b3d3f9cac1c9eae28f96dc2b992",
+      "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+    },
+    "preservedReconstructionGeometry": {
+      "reference": "assets/data/territorial-entities/source/geometries/sha256-6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67.json",
+      "sha256": "6da007de965ea38b260527f7efd1000595d1ad477e6d8e470b2df110bbbdfa67",
+      "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+    },
+    "normalizedEntityPreimageSha256": "ff21348c0dcfdf8105e1397220163d8951cbccd89076d3515180f57deb72d30c",
+    "normalizedVersionPreimageSha256": "bdb62b2ecfc156ab1e414b06f67cccb9e7dcc7d060d4fc3a9759ca9d9b3b7328",
+    "geometryPreimageSha256": "719dcc1d8cd2657f77a3b68184f9c6eac34290ea33961a295c2340dfdc67a77e",
+    "resultGeometrySha256": "369d8055b08adba79bf2bb71f8e56f93bff9cf68fb5716edd8f25cd5c232f0bf",
+    "masterRole": "Immutable current reconstruction preimage containing NE-based display and previously adopted coast/islands, not independent historical truth."
+  },
+  "donor": {
+    "entityId": "state:DEU",
+    "versionId": "state:DEU:natural-earth-5.1.1",
+    "validFrom": "1918-11-09",
+    "validTo": null,
+    "sourceDescriptor": {
+      "reference": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "d13d349840a5f20484f072afcb5ca1c7b39a2b3d3f9cac1c9eae28f96dc2b992",
+      "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+    },
+    "geometrySha256": "963b44db46a6df2317f03320013209278539b054ad78dfa5931491234c4402a2",
+    "originalApprovedDonor": {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+      "sha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+      "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+    },
+    "fullGeometryEqualsApprovedDonor": true,
+    "originalArtifact": {
+      "reference": "archive/blobs/a8fbac6d127ecb1bd78abaf3f8473416bf792a15700869cc8de3c8ec492a70b9.bin",
+      "sha256": "a8fbac6d127ecb1bd78abaf3f8473416bf792a15700869cc8de3c8ec492a70b9",
+      "revision": "b782dd46f8028ab70b4b6e853c276b9b668bfeef",
+      "role": "Historical immutable donor-lineage artifact, not current generated authority."
+    },
+    "originalProvenance": {
+      "reference": "reports/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/original-current-donor-provenance.json",
+      "sha256": "62bb0ad45e56a1fd980602037d106a319a5fcd795dda1a28c8b147ea47365a3b",
+      "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+    },
+    "sourceWP_IDs": [
+      "c2f31eef-d048-4452-8096-a81d6dbd90c7"
+    ],
+    "sourceWP_IDScope": "Country-feature lineage only, not independent island historical ownership evidence.",
+    "originalGpkgReread": false,
+    "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved."
+  },
+  "originalWorkingMaster": {
+    "reference": "tools/historical-library/working/german-empire-1914-base.geojson",
+    "sha256": "1fc5aa30b821b981dc67d71dc62dd8643e1b24b006779c64489f7ec3a0cb2bfb",
+    "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+  },
+  "histogisOriginal": {
+    "reference": "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson",
+    "sha256": "0a75047b62dc835abd5a47282a7df71dedb4802395cd476d68f645fb5b81e9e9",
+    "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+  },
+  "naturalEarthReference": {
+    "reference": "assets/data/countries-ne-5.1.1.geojson",
+    "sha256": "52590ce133a779fc678496844c844137aeaa0dca41ceca1621cd7c50169f5efb",
+    "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+  },
+  "scope": {
+    "oldIslandIndexHints": [
+      15,
+      19,
+      18
+    ],
+    "wholeDonorPolygons": [
+      145
+    ],
+    "C4Excluded": true,
+    "priorThreeCoastalEditsPreserved": true,
+    "priorAdoptedIslandsPreserved": true,
+    "existingModernCoastProxyPolicy": [
+      "Technical topology and generalization only; not independent historical positional accuracy.",
+      "The 1914 reference-day geometry is reused provisionally; historical borders varied within the display period and detailed versions are deferred.",
+      "Modern coastal/lake proxies retained under policy; detailed historical shoreline not verified.",
+      "Serbia-Montenegro treaty/gross route checked in archived report; detailed map overlays remain unverified and are not a current mandatory research gate."
+    ],
+    "ownershipLimit": "No independent historical ownership assertion. Exact modern donor coast and whole polygon145 are limited display proxies for existing DEU coastal groups. Neither overlap nor country WP_ID proves historical ownership; old NE extent is not an absolute territorial clip.",
+    "classificationLimit": "An edge not matching exact NE is a conservative protected edge, not automatically historically sourced."
+  },
+  "rights": "Preserve HistoGIS CC BY4.0, OSM ODbL1.0, approved composite modern donor and all inherited source rights. This technical review grants no new redistribution permission.",
+  "temporalScope": "AH/EP/WP are bounded source counterparts at1914-07-31. NorthSchleswig is checked at1900 only. Undated DNK/POL and1990 LTU are technical modern comparators, not historical counterpart fallback.",
+  "historicalOwnershipReverifiedAcrossWholePeriod": false,
+  "fullPeriodDatedCounterpartClosureVerified": false,
+  "compiledDerivatives": [],
+  "runtimeApproval": false
+}

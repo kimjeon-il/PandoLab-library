@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "status": "executed",
+  "inputCrs": "EPSG:4326",
+  "crs": "EPSG:3035",
+  "definition": "unavailable until proj_trans is called",
+  "axisOrder": "always_xy longitude,latitude",
+  "units": "metre",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "pyproj": "3.7.2",
+  "proj": "9.5.1",
+  "shapely": "2.1.2",
+  "geos": "3.13.1",
+  "renderScaleDenominator": 10000000,
+  "dpi": 96,
+  "metresPerPixel": 2645.8333333333335,
+  "framePixels": [
+    482,
+    436
+  ],
+  "sameExtentForEachPanelMetres": [
+    3952544.290843777,
+    2613512.9115471756,
+    5227835.957510443,
+    3767096.2448805096
+  ],
+  "candidateProjectedBoundsMetres": [
+    4023454.0999741834,
+    2684118.859885895,
+    5156926.148380037,
+    3696490.2965417905
+  ],
+  "candidateGeometrySha256": "369d8055b08adba79bf2bb71f8e56f93bff9cf68fb5716edd8f25cd5c232f0bf",
+  "finite": true,
+  "sourceScaleImage": "DEU-source-scale-review.png",
+  "diagnosticImage": "DEU-scoped-diagnostic.png",
+  "diagnostics": [
+    {
+      "oldIslandIndexHint": 15,
+      "extentMetres": [
+        4229076.344224585,
+        3483221.929517308,
+        4264134.608358916,
+        3515776.0319277574
+      ],
+      "metresPerPixel": 62.60404309701826,
+      "scaleDenominator": 236613.70619345485
+    },
+    {
+      "oldIslandIndexHint": 19,
+      "extentMetres": [
+        4419160.314202421,
+        3438835.0690250336,
+        4431010.50804508,
+        3449838.8204503586
+      ],
+      "metresPerPixel": 21.161060433317907,
+      "scaleDenominator": 79978.81108655587
+    },
+    {
+      "oldIslandIndexHint": 18,
+      "extentMetres": [
+        4410387.131242756,
+        3428108.628528914,
+        4420124.785474163,
+        3437150.7360295053
+      ],
+      "metresPerPixel": 17.38866827036813,
+      "scaleDenominator": 65720.95094312364
+    }
+  ],
+  "historicalAccuracyMeasured": false
+}

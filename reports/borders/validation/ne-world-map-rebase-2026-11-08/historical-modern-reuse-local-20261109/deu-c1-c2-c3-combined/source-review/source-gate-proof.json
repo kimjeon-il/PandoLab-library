@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-actual-canonical-source-change-gate-only",
+  "sourceRevision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6",
+  "sourceGeometryRevision": "ebb886a223b2c30b978b9536f2da016f1e822186",
+  "checkedAt": "2026-11-10T00:16:41.429Z",
+  "appRevision": "c9ca35d32c54b1c31bef474683946baa2dc12566",
+  "canonicalGate": {
+    "reference": "tools/gis/historical-display-review.mjs",
+    "sha256": "e93da174e78f0e4be2a6716fc00c5257a495ce91b2a41e522e5070750b127563"
+  },
+  "gateUnmodified": true,
+  "actualSourceGateCount": 1,
+  "codecRoundtrip": true,
+  "expected": {
+    "normalizedEntitySha256": "3833797d1488aa5e1e207972118f43820ee374852d52809cb7a03d4444499c72",
+    "normalizedVersionSha256": "babdc885dd72a21f0d8f441518b51d136df6f0d84e613499061c3a843bd391cd",
+    "geometrySha256": "369d8055b08adba79bf2bb71f8e56f93bff9cf68fb5716edd8f25cd5c232f0bf",
+    "encodedDescriptorSha256": "bfdc58f4e3ce6117b88683606eaa5a233a4df2ffcb976cbf8b9d28f1a0ffc8f8",
+    "encodedDescriptorBytes": 72026,
+    "geometryResources": [
+      {
+        "file": "geometries/sha256-282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433.json",
+        "sha256": "282cd42b71d4f3a1116af0bb826b4f19a8cc141af933aba7358c3b2c51e53433",
+        "bytes": 242010
+      },
+      {
+        "file": "geometries/sha256-623f8cdf83c9e671670a44b4dfbafde2be96e870c519f178bf18a928316a5bfe.json",
+        "sha256": "623f8cdf83c9e671670a44b4dfbafde2be96e870c519f178bf18a928316a5bfe",
+        "bytes": 174678
+      }
+    ]
+  },
+  "compiledApproval": false,
+  "runtimeApproval": false,
+  "sourceOnly": true
+}

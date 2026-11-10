@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-scoped-source-topology-only",
+  "sourceRevision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6",
+  "candidateGeometrySha256": "369d8055b08adba79bf2bb71f8e56f93bff9cf68fb5716edd8f25cd5c232f0bf",
+  "validity": {
+    "before": "Valid Geometry",
+    "after": "Valid Geometry",
+    "wholeBeforeValid": true,
+    "wholeAfterValid": true
+  },
+  "union": {
+    "afterEqualsUnionOfOwnComponents": true,
+    "addedKm2": 95.67817013541732,
+    "removedKm2": 8.243665150286375,
+    "totalDeltaKm2": 103.92183528570361
+  },
+  "connectivity": {
+    "beforePolygonCount": 30,
+    "afterPolygonCount": 28,
+    "removedWholeIslandCount": 3,
+    "newDetachedCount": 1,
+    "meaning": "Three old display-proxy island components are replaced by current mainland routes and exact detached polygon145. This is not evidence of historical land connection or ownership."
+  },
+  "holesIslands": {
+    "remainingPolygonsExactAndOrdered": true,
+    "mainlandHolesExact": true,
+    "exactWholeDonor145Preserved": true,
+    "beforeHoleCount": 0,
+    "afterHoleCount": 0,
+    "newComponentInteriorOverlaps": []
+  },
+  "protectedMasterEdges": {
+    "currentPreimageExactNEMismatchEdges": 4549,
+    "allCurrentMismatchedEdgesExactlyRetained": true,
+    "exactNEMismatchInMaster": 5065,
+    "presentInCurrentPreimage": 1604,
+    "absentBeforeThisChange": 3461,
+    "allPresentEdgesRetained": true,
+    "deltaIntersectsProtectedEdges": false,
+    "classificationLimit": "Exact-NE mismatch is only a conservative preservation classification, NOT proof that the edge is historically sourced. Some mismatches may be generalized NE. No historical provenance is inferred from mismatch."
+  },
+  "priorThreeCoastOperations": [
+    {
+      "operationId": null,
+      "exactOccurrences": 1,
+      "vertices": 341
+    },
+    {
+      "operationId": null,
+      "exactOccurrences": 1,
+      "vertices": 309
+    },
+    {
+      "operationId": null,
+      "exactOccurrences": 1,
+      "vertices": 29
+    }
+  ],
+  "localOperations": [
+    {
+      "oldIslandIndexHint": 15,
+      "bbox": [
+        8.687218700000074,
+        54.455981800000075,
+        9.011567,
+        54.735297
+      ],
+      "oldWholeIslandExactNE": true,
+      "oldArcEveryEdgeExactNE": true,
+      "exactCopiedDonorVertices": 60,
+      "beforeLocalLandKm2": 302.65899304090505,
+      "afterLocalLandKm2": 386.64204188185437,
+      "addedKm2": 84.98059451903985,
+      "removedKm2": 0.9970724858212159,
+      "arbitraryConnectors": 0
+    },
+    {
+      "oldIslandIndexHint": 19,
+      "bbox": [
+        11.524469100000033,
+        54.04877370000003,
+        11.657888,
+        54.142239
+      ],
+      "oldWholeIslandExactNE": true,
+      "oldArcEveryEdgeExactNE": true,
+      "exactCopiedDonorVertices": 19,
+      "beforeLocalLandKm2": 34.04679372021534,
+      "afterLocalLandKm2": 38.38042736190025,
+      "addedKm2": 5.461531535976196,
+      "removedKm2": 1.1273350482349858,
+      "arbitraryConnectors": 0
+    },
+    {
+      "oldIslandIndexHint": 18,
+      "bbox": [
+        11.375662,
+        53.952704,
+        11.497895,
+        54.030951
+      ],
+      "oldWholeIslandExactNE": true,
+      "oldArcEveryEdgeExactNE": true,
+      "exactCopiedDonorVertices": 33,
+      "beforeLocalLandKm2": 41.081146908168314,
+      "afterLocalLandKm2": 40.20030241591738,
+      "addedKm2": 5.236044080401232,
+      "removedKm2": 6.11925761623017,
+      "arbitraryConnectors": 0
+    }
+  ],
+  "computedIntersections": [
+    {
+      "oldIslandIndexHint": 15,
+      "endpoint": 0,
+      "point": [
+        9.00919749958403,
+        54.47662439632021
+      ],
+      "oldSegment": [
+        [
+          9.004731,
+          54.465888
+        ],
+        [
+          9.011485,
+          54.482123
+        ]
+      ],
+      "donorSegment": [
+        [
+          9.012436000000037,
+          54.475509800000054
+        ],
+        [
+          9.005055166015662,
+          54.47805006535189
+        ]
+      ],
+      "rationalCertificateRecomputed": true,
+      "oldParameter": "3588625873698955971584623/5426526678213677259611385",
+      "donorParameter": "793668617127178815653258/1808842226071225753203795",
+      "oldLineResidualDegrees": 8.832648777729029e-16,
+      "donorLineResidualDegrees": 5.306336548207948e-16,
+      "representation": "Exact rational intersection of stored binary floating inputs, converted once to double. Nonzero floating residuals retained; not snap/accuracy tolerances."
+    },
+    {
+      "oldIslandIndexHint": 15,
+      "endpoint": 1,
+      "point": [
+        8.695855944825093,
+        54.73324660481018
+      ],
+      "oldSegment": [
+        [
+          8.722667,
+          54.725531
+        ],
+        [
+          8.688731,
+          54.735297
+        ]
+      ],
+      "donorSegment": [
+        [
+          8.695716700000048,
+          54.73276530000004
+        ],
+        [
+          8.699335246083406,
+          54.74527293635259
+        ]
+      ],
+      "rationalCertificateRecomputed": true,
+      "oldParameter": "28780596610754527599883945/36428940234200050160125641",
+      "donorParameter": "1401817551194521215419402/36428940234200050160125641",
+      "oldLineResidualDegrees": 1.4169159070688602e-15,
+      "donorLineResidualDegrees": 7.961412751555187e-16,
+      "representation": "Exact rational intersection of stored binary floating inputs, converted once to double. Nonzero floating residuals retained; not snap/accuracy tolerances."
+    },
+    {
+      "oldIslandIndexHint": 19,
+      "endpoint": 0,
+      "point": [
+        11.625021571583853,
+        54.08448682642776
+      ],
+      "oldSegment": [
+        [
+          11.624522,
+          54.083645
+        ],
+        [
+          11.628917,
+          54.091051
+        ]
+      ],
+      "donorSegment": [
+        [
+          11.62353980000006,
+          54.07688250000007
+        ],
+        [
+          11.626003500000024,
+          54.089526000000035
+        ]
+      ],
+      "rationalCertificateRecomputed": true,
+      "oldParameter": "5251744658483641710515/46202423276513381858849",
+      "donorParameter": "889217848464927839511039/1478477544848428219483168",
+      "oldLineResidualDegrees": 7.594564690001512e-16,
+      "donorLineResidualDegrees": 4.4372679615486993e-16,
+      "representation": "Exact rational intersection of stored binary floating inputs, converted once to double. Nonzero floating residuals retained; not snap/accuracy tolerances."
+    },
+    {
+      "oldIslandIndexHint": 19,
+      "endpoint": 1,
+      "point": [
+        11.649235011489598,
+        54.13303057490143
+      ],
+      "oldSegment": [
+        [
+          11.633149,
+          54.115912
+        ],
+        [
+          11.657888,
+          54.142239
+        ]
+      ],
+      "donorSegment": [
+        [
+          11.643313921197239,
+          54.129292331640684
+        ],
+        [
+          11.677918000000034,
+          54.151139400000034
+        ]
+      ],
+      "rationalCertificateRecomputed": true,
+      "oldParameter": "19089259006530189020673117/29357754647129963761439350",
+      "donorParameter": "502339383276867223419618/2935775464712996376143935",
+      "oldLineResidualDegrees": 1.53207240866455e-15,
+      "donorLineResidualDegrees": 2.1188063099337164e-15,
+      "representation": "Exact rational intersection of stored binary floating inputs, converted once to double. Nonzero floating residuals retained; not snap/accuracy tolerances."
+    },
+    {
+      "oldIslandIndexHint": 18,
+      "endpoint": 0,
+      "point": [
+        11.473909937614273,
+        53.96336433141129
+      ],
+      "oldSegment": [
+        [
+          11.476817,
+          53.952704
+        ],
+        [
+          11.472423,
+          53.968817
+        ]
+      ],
+      "donorSegment": [
+        [
+          11.47738890000005,
+          53.96148050000005
+        ],
+        [
+          11.470267100000058,
+          53.96533690000007
+        ]
+      ],
+      "rationalCertificateRecomputed": true,
+      "oldParameter": "53404694390872584404721/80720740052089083560131",
+      "donorParameter": "157726652471955958522903/322882960208356334240524",
+      "oldLineResidualDegrees": 4.1668555554600986e-16,
+      "donorLineResidualDegrees": 1.0255745421013032e-15,
+      "representation": "Exact rational intersection of stored binary floating inputs, converted once to double. Nonzero floating residuals retained; not snap/accuracy tolerances."
+    },
+    {
+      "oldIslandIndexHint": 18,
+      "endpoint": 1,
+      "point": [
+        11.49607298709288,
+        53.98157280604311
+      ],
+      "oldSegment": [
+        [
+          11.489513,
+          53.980618
+        ],
+        [
+          11.497895,
+          53.981838
+        ]
+      ],
+      "donorSegment": [
+        [
+          11.494834996838538,
+          53.97996370019537
+        ],
+        [
+          11.499559900000065,
+          53.986105000000066
+        ]
+      ],
+      "rationalCertificateRecomputed": true,
+      "oldParameter": "1417212825631266603773010/1810838609321721730716181",
+      "donorParameter": "948929734172101255101117/3621677218643443461432362",
+      "oldLineResidualDegrees": 2.75120301733617e-15,
+      "donorLineResidualDegrees": 2.3050119216045948e-15,
+      "representation": "Exact rational intersection of stored binary floating inputs, converted once to double. Nonzero floating residuals retained; not snap/accuracy tolerances."
+    }
+  ],
+  "counterparts": [
+    {
+      "entityId": "state:DNK",
+      "versionId": "state:DNK:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "role": "modern technical comparator only",
+      "overlappingStoredInterval": [
+        "1871-01-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 3779.8230129701715,
+      "afterOverlapKm2": 3779.8230129701715,
+      "beforeSharedLengthDegrees": 0.0,
+      "afterSharedLengthDegrees": 0.0
+    },
+    {
+      "entityId": "state:POL",
+      "versionId": "state:POL:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "role": "modern technical comparator only",
+      "overlappingStoredInterval": [
+        "1871-01-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 149555.13839347727,
+      "afterOverlapKm2": 149555.13839347727,
+      "beforeSharedLengthDegrees": 0.0,
+      "afterSharedLengthDegrees": 0.0
+    },
+    {
+      "entityId": "state:north-schleswig",
+      "versionId": "north-schleswig-1900-r3",
+      "validFrom": "1900-01-01",
+      "validTo": "1900-01-01",
+      "role": "bounded source at different historical date",
+      "overlappingStoredInterval": [
+        "1900-01-01",
+        "1900-01-01"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 3705.0091552969725,
+      "afterOverlapKm2": 3705.0091552969725,
+      "beforeSharedLengthDegrees": 4.139227444553366,
+      "afterSharedLengthDegrees": 4.139227444553366
+    },
+    {
+      "entityId": "state:west-prussia",
+      "versionId": "state:west-prussia:1900-01-01-r1",
+      "validFrom": "1878-04-01",
+      "validTo": "1919-12-31",
+      "role": "selected-date bounded source counterpart",
+      "overlappingStoredInterval": [
+        "1878-04-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 25763.420539890452,
+      "afterOverlapKm2": 25763.420539890452,
+      "beforeSharedLengthDegrees": 2.228913995821121,
+      "afterSharedLengthDegrees": 2.228913995821121
+    },
+    {
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "validFrom": "1878-04-01",
+      "validTo": "1920-01-10",
+      "role": "selected-date bounded source counterpart",
+      "overlappingStoredInterval": [
+        "1878-04-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 37821.22349459464,
+      "afterOverlapKm2": 37821.22349459464,
+      "beforeSharedLengthDegrees": 5.394499620186671,
+      "afterSharedLengthDegrees": 5.394499620186671
+    },
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "role": "selected-date bounded source counterpart",
+      "overlappingStoredInterval": [
+        "1871-01-01",
+        "1918-10-30"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 0.0,
+      "afterOverlapKm2": 0.0,
+      "beforeSharedLengthDegrees": 24.455403176033652,
+      "afterSharedLengthDegrees": 24.455403176033652
+    },
+    {
+      "entityId": "state:LTU",
+      "versionId": "state:LTU:natural-earth-5.1.1",
+      "validFrom": "1990-03-11",
+      "validTo": null,
+      "role": "modern technical comparator only",
+      "overlappingStoredInterval": null,
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 2567.5897744952995,
+      "afterOverlapKm2": 2567.5897744952995,
+      "beforeSharedLengthDegrees": 0.0,
+      "afterSharedLengthDegrees": 0.0
+    }
+  ],
+  "dateReview": {
+    "unchangedVersionPeriod": [
+      "1871-01-01",
+      "1918-11-08"
+    ],
+    "representativeDate": "1914-07-31",
+    "certainty": "provisional",
+    "sourceId": "histogis-modern-coast-policy-1914",
+    "modernLTUNot1871Counterpart": true,
+    "undatedDNKPOLAreTechnicalComparatorsOnly": true,
+    "fullPeriodDatedCounterpartClosureVerified": false
+  },
+  "notClaimed": [
+    "Independent historical positional accuracy",
+    "Historical land connection/ownership from modern donor extent",
+    "Revalidated historical ownership throughout 1871-1918",
+    "Compiled/runtime/producer approval"
+  ]
+}

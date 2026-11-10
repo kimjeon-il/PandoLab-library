@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6",
+  "referenceDate": "1914-07-31",
+  "bindings": [
+    {
+      "entityId": "state:DNK",
+      "versionId": "state:DNK:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "role": "modern technical comparator only",
+      "overlappingStoredInterval": [
+        "1871-01-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 3779.8230129701715,
+      "afterOverlapKm2": 3779.8230129701715,
+      "beforeSharedLengthDegrees": 0,
+      "afterSharedLengthDegrees": 0,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-DNK.json",
+        "sha256": "c79f5bf8bbc50d893a67f322b3df611f682afa03c7a9fa24a2bd042ebb9361cf",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "2d4701d7455e5db325db8239906e95ac4185040add751aa57287309a8110803b",
+      "geometrySha256": "af44ba5cb5d2f7c4760c0d46c1a70aad0a37447f53931eb72840e5e40fb6c83f"
+    },
+    {
+      "entityId": "state:POL",
+      "versionId": "state:POL:natural-earth-5.1.1",
+      "validFrom": null,
+      "validTo": null,
+      "role": "modern technical comparator only",
+      "overlappingStoredInterval": [
+        "1871-01-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 149555.13839347727,
+      "afterOverlapKm2": 149555.13839347727,
+      "beforeSharedLengthDegrees": 0,
+      "afterSharedLengthDegrees": 0,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-POL.json",
+        "sha256": "4c9eb8430e8b2a36ebc221212f3bcb423f5b33ba3fc98dd6dcc1ee52f57203b2",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "8954d3ac21df7a8f62be942fc13a53fc876c0be942e6451d768ef1b029167ac8",
+      "geometrySha256": "4d5a61b9a0787ae7419e232798e2564276569e1f36ceea188dd15eacf993a279"
+    },
+    {
+      "entityId": "state:north-schleswig",
+      "versionId": "north-schleswig-1900-r3",
+      "validFrom": "1900-01-01",
+      "validTo": "1900-01-01",
+      "role": "bounded source at different historical date",
+      "overlappingStoredInterval": [
+        "1900-01-01",
+        "1900-01-01"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 3705.0091552969725,
+      "afterOverlapKm2": 3705.0091552969725,
+      "beforeSharedLengthDegrees": 4.139227444553366,
+      "afterSharedLengthDegrees": 4.139227444553366,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-north-schleswig.json",
+        "sha256": "dbfbdeaf0b909210e3c396f635e3b7b8a7b30bb8b68fa0dffb467dce83d269ee",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "bb3a1946558885fb55a6763032978dbd1a73ed53c46f724a67f8fb6b98100bc1",
+      "geometrySha256": "8647261fd22bc128c2b4cc5dca1f607964484a50b5cd4ce1c508fd81173ff81a"
+    },
+    {
+      "entityId": "state:west-prussia",
+      "versionId": "state:west-prussia:1900-01-01-r1",
+      "validFrom": "1878-04-01",
+      "validTo": "1919-12-31",
+      "role": "selected-date bounded source counterpart",
+      "overlappingStoredInterval": [
+        "1878-04-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 25763.420539890452,
+      "afterOverlapKm2": 25763.420539890452,
+      "beforeSharedLengthDegrees": 2.228913995821121,
+      "afterSharedLengthDegrees": 2.228913995821121,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-west-prussia.json",
+        "sha256": "a84ff856375c69867b5291548979d9fba2b298c31729f40ed471fefabd601bdd",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "5d2ae636b63c0b0e0bb4d3ae037403bb58259f0153aa2188ba29068e602cf859",
+      "geometrySha256": "f82768d351c9739413e4f2037b79798047a2b334da78c66fa91cfddafb58de79"
+    },
+    {
+      "entityId": "state:east-prussia",
+      "versionId": "ostpreussen-1878-1920-r3",
+      "validFrom": "1878-04-01",
+      "validTo": "1920-01-10",
+      "role": "selected-date bounded source counterpart",
+      "overlappingStoredInterval": [
+        "1878-04-01",
+        "1918-11-08"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 37821.22349459464,
+      "afterOverlapKm2": 37821.22349459464,
+      "beforeSharedLengthDegrees": 5.394499620186671,
+      "afterSharedLengthDegrees": 5.394499620186671,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+        "sha256": "de6ee8282f5f5986dcdbc628eefe38eb75fb11ea517ec500239eee05bcf82053",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "d724335a734c9a43cf23429b9e58b3158f9ca1babaa3aba8a126f64ca9f66365",
+      "geometrySha256": "62920e3c115f7f136969ef08714c69994b134823e9c9211b700eea356b05423a"
+    },
+    {
+      "entityId": "state:austro-hungarian-empire",
+      "versionId": "state:austro-hungarian-empire:1914-07-28-display-r1",
+      "validFrom": "1867-02-17",
+      "validTo": "1918-10-30",
+      "role": "selected-date bounded source counterpart",
+      "overlappingStoredInterval": [
+        "1871-01-01",
+        "1918-10-30"
+      ],
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 0,
+      "afterOverlapKm2": 0,
+      "beforeSharedLengthDegrees": 24.455403176033652,
+      "afterSharedLengthDegrees": 24.455403176033652,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-austro-hungarian-empire.json",
+        "sha256": "97636642c80ba463fd9161a1ab344a068ea8d5c61f2f4d71747d1559d4159d88",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "53b90935e9f6436dca6f00046f822119b79d4e960793f9a52bce11f0ada22910",
+      "geometrySha256": "3072e51f7a126d2d21c152fbca1e6e6cca1e9f5fee96af4bf7c6dfd7efbe02eb"
+    },
+    {
+      "entityId": "state:LTU",
+      "versionId": "state:LTU:natural-earth-5.1.1",
+      "validFrom": "1990-03-11",
+      "validTo": null,
+      "role": "modern technical comparator only",
+      "overlappingStoredInterval": null,
+      "deltaTouchesPeer": false,
+      "sharedBoundaryUnchanged": true,
+      "overlapUnchanged": true,
+      "beforeOverlapKm2": 2567.5897744952995,
+      "afterOverlapKm2": 2567.5897744952995,
+      "beforeSharedLengthDegrees": 0,
+      "afterSharedLengthDegrees": 0,
+      "sourceDescriptor": {
+        "reference": "assets/data/territorial-entities/source/countries/state-LTU.json",
+        "sha256": "164f2b914d95a60a62a478e5a6833d18f11bbacdd32ae71fe6d0d17986b71381",
+        "revision": "e3c8250ce43caa67d96a239fe4d59ccbdc1dd8d6"
+      },
+      "normalizedVersionSha256": "79e63e3c02d1a68317c2803926f0292107a1e545134563a8d8828ff19a77c240",
+      "geometrySha256": "cd8c8fb44db515cba1e68cc51352698660f25435ca0492136e94989d277a5da5"
+    }
+  ]
+}
