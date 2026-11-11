@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-11 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-12 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 아프리카**
-- **lastCompletedRun: 2026-11-11** (가나·나미비아·우간다 3개 현존 주권국 1차, 1957/1990/1962 독립 효력 확인; 기존 lifetime 3건 일치·수정 0, 공화정·신탁권원·헌법 원관보 2차 유보)
-- **nextRegion: 북아메리카**
-- **nextPhase: 북아메리카 미조사 국가·역사 정치체 1차 조사(1차 소진 시 2차 교차검증)**
-- **nextAction: 북아메리카 GEO-LIFE-001/007/013/019/025 및 현행 고정 국가 색인을 대조하고 미조사 국가·역사 정치체 2~4건 1차 조사. 아프리카 GEO-LIFE-030의 가나 1960 헌법·영국령 토골란드 종료, 나미비아 1966 위임통치 권원과 1990 원헌법·월비스베이 귀속, 우간다 1963 원관보 및 기존 GEO-LIFE-024의 잔지바르·마다가스카르·다호메이 2차 유보 유지. 아시아 GEO-LIFE-029 및 다른 지역의 모든 기존 미완료도 인계.**
+- **lastProcessedRegion: 북아메리카**
+- **lastCompletedRun: 2026-11-12** (벨리즈·자메이카·파나마 3국 국가별 상세 1차. 세 국가는 GEO-023에서 이미 입력한 독립일과 일치하며 신규 날짜 입력 0건; 독립법과 외교 승인, 파나마 운하지대 및 벨리즈 영토 분쟁 별도 2차 유보)
+- **nextRegion: 남아메리카**
+- **nextPhase: 남아메리카 미조사 국가·역사 정치체 1차 조사(소진 시 시기·사건별 2차 검증)**
+- **nextAction: 남아메리카 GEO-LIFE-001/008/014/020/026 및 GEO-023, 현재 288개 고정 국가 색인을 대조하여 미조사 역사 주권국·분리 정치체 2~4건의 1차 조사 우선. 남아메리카 현대 12개국의 기존 기본 날짜와 부에노스아이레스국·아크레·줄리아나 등 이미 조사한 역사 정치체는 신규 조사로 중복 집계하지 않음. 북아메리카 GEO-LIFE-031의 벨리즈 독립법·과테말라 국경 분쟁, 자메이카 헌법 원문·서인도 연방, 파나마 1903 원선언·운하 권원은 2차 유보. 아프리카 GEO-LIFE-030 및 타 지역 기존 미완료 모두 지속 인계.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -30,7 +30,7 @@
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md), [GEO-LIFE-022: 양시칠리아·하노버·크라쿠프](country-lifetime-europe-historic-two-sicilies-hanover-cracow-2026-11-03.md), [GEO-LIFE-028: 바이에른·뷔르템베르크·바르샤바](country-lifetime-europe-historic-bavaria-wurttemberg-warsaw-2026-11-09.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 배치(총 9건) 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), [GEO-LIFE-029: 시킴·예멘 아랍 공화국·남예멘](country-lifetime-asia-historic-sikkim-north-south-yemen-2026-11-10.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보; 시킴 1950 보호조약/1975 편입, 북예멘 1962 체제변경/1990 통합, 남예멘 1967 독립/1970 개칭/1990 통합의 법적 동일성 2차 유보 |
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-024: 잔지바르·마다가스카르 왕국·다호메이 왕국](country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md), [GEO-LIFE-030: GHA·NAM·UGA](country-lifetime-africa-gha-nam-uga-2026-11-11.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | 기존 ETH 점령기·SDN 승계·ZAF 주권 연속성 및 역사 왕국 국가성 2차 유보; GHA/NAM/UGA 시작일은 기존 현행 값과 일치, 정부체제·원법령 후속 대조 필요 |
-| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부 2차 유보 |
+| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md); [GEO-LIFE-031: BLZ·JAM·PAN 3국 상세 1차](country-lifetime-north-america-blz-jam-pan-2026-11-12.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부, BLZ/JAM/PAN 법적·영토 이력 2차 유보; 3국의 기존 독립일은 GEO-023과 일치 |
 | 남아메리카 | [GEO-LIFE-026: 부에노스아이레스국·아크레·줄리아나](country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) 1차 추가, [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 선행 근거 확인, 19세기 정치체 3개 1차 추가, 소멸국 전수 및 COK/NIU 법적 분류는 미완료 | 미완료 | NZL·하와이 법적 계속성 유보; GEO-LIFE-021 피지 왕국·타히티 보호국·쿡 연방(비주권) 1차, 1871/1880/1900~1901 법적 기간 2차 유보 |
 
@@ -38,6 +38,7 @@
 
 | 조사 배치 완료일 | 조사 지역 | 단계 | 신규 조사 | 보고서 | 다음 지역 |
 | --- | --- | --- | --- | --- | --- |
+| **2026-11-12** | **북아메리카** | **국가별 상세 1차** | BLZ·JAM·PAN 3국(선행 GEO-023 독립일은 신규 발견·입력으로 중복 계수하지 않음) | [GEO-LIFE-031](country-lifetime-north-america-blz-jam-pan-2026-11-12.md) — 1981/1962/1903 독립 효력과 타국 승인·영토 변천 분리, 기존 시작일 수정 0건 | **남아메리카** |
 | **2026-10-17** | **아시아** | 국가별 1차 | `IRQ`, `JOR`, `LBN` 3개 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) | **아프리카** |
 | **2026-10-18** | **아프리카** | 국가별 1차 | `ERI`, `GNB`, `SEN` 3개 | [GEO-LIFE-006](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) — 2026-10-19 원격 등록 | **북아메리카** |
 | **2026-10-19** | **북아메리카** | 국가별 1차 | `MEX`, `GTM`, `HND`, `NIC` 4개 | [GEO-LIFE-007](country-lifetime-north-america-2026-10-19.md) — 요약 정본 `cc2d0db1`, 10-19 17:17:36 UTC / 10-20 한국 등록 | **남아메리카** |
@@ -247,3 +248,12 @@
 - **2차 보류:** 가나 1960 원헌법·토골란드 신탁 종료, 나미비아 1966 권원·1990 원헌법/영토 귀속, 우간다 1963 헌법 제1차 개정법 원관보. 세 현행 시작일 수정 **0건**; 3국 전체 법적 연속성 종결 판정은 2차로 넘김.
 - **검사·수정:** 조사 문헌 웹 일부 직접 열람, PDF/스캔 전수·GIS/위상/화면·웹/앱·로컬 `publish-reports`/`check-reports` **미실행**. 국가 lifetime·형상·정본 타임라인·Pando work/gis/main·배포 변경 **0건**. 외부 보고서·진행기록·색인만 기록.
 - **커서:** `lastProcessedRegion=아프리카`, `nextRegion=북아메리카`, `nextPhase=북아메리카 미조사 국가·역사 정치체 1차 2~4건(소진 시 2차)`. 전 세계 6지역 모두 1·2차 조사 미완료, 순환 계속.
+
+## 2026-11-12 — 북아메리카 벨리즈·자메이카·파나마 3국 1차 인계 (GEO-LIFE-031)
+
+- **선정/단계:** 직전 아프리카 GEO-LIFE-030 → **북아메리카**, 기존 GEO-LIFE-001/007/013/019/025의 국가별 상세 1차 보고서와 중복되지 않는 **벨리즈·자메이카·파나마** 3국을 검토했다. `GEO-023`에서 세 나라의 독립 시작일을 이미 확정 기록한 것은 확인했으므로 **새 건국일 발견/신규 입력 0건**. 이번 1차는 영국 독립법·현지 기록·당대 외교 기록의 법적 단계 구분을 보완하는 자료 조사.
+- **자료 기준:** Pando `work/gis` HEAD `e191ed6a6fce97a6f683540491d3e2c81618a0ab`, pinned library revision `921d86aa3c03ffa0b3d5879ad30c9914c4d1b31a`. 그 판본의 국가 색인 **288 entities 실제 JSON 파싱**. `state:BLZ=1981-09-21`, `state:JAM=1962-08-06`, `state:PAN=1903-11-03` (모두 validTo=null), 법령/사료상 독립 효력과 일치. 현행 형상은 NE 5.1.1이며 독립 당시 역사 경계 근거는 아님.
+- **확인:** 벨리즈 영국 SI 1981/1107 **1981-07-31 제정/09-21 시행**, 09-25 UN 가입, 10-29 미국 승인. 자메이카 1962-07-19 독립법 재가/ **08-06 시행·독립** /08-16 미국 승인. 파나마 **1903-11-03 독립 선언**(11-04 임시정부 당대 전보), 11-06 미국 승인/11-13 외교관계 수립; 1979 운하지대 종료·1999 운하 운영권 이양은 파나마 재건국이 아님. 독립 출처와 직접 열람/검색 색인 분리는 [GEO-LIFE-031](country-lifetime-north-america-blz-jam-pan-2026-11-12.md) 참조.
+- **2차 보류:** 벨리즈 영국 독립령·헌법 부칙 원문 전체 및 과테말라 분쟁 법적 지위, 자메이카 헌법 원문·서인도 연방과 종속 도서, 파나마 1903 독립 선언 원본 및 운하 영토 주권·관할·운영권 분리. GEO-LIFE-007/019/025 기존 날짜 충돌 및 미승인 정치체 법적 국가성도 유보 유지.
+- **검사/변경:** 웹 출처 일부 직접 열람; 영국 원본 PDF 이미지 전수·법령 XHTML 직접 열람 일부·GIS/위상/지도/웹/앱 및 로컬 `publish-reports`/`check-reports` 미실행. **국가 lifetime·형상·정본 타임라인·Pando 코드/브랜치·배포 변경 0건**. 외부 라이브러리 보고서·진행기록·색인만 등록.
+- **커서:** `lastProcessedRegion=북아메리카`, `nextRegion=남아메리카`, `nextPhase=미조사 국가·역사 정치체 1차 2~4건(소진 시 2차)`. 모든 6지역 1·2차 전수 미완료. 1801년 이전 미조사, 횡단국 RUS/TUR/GEO 유럽 고정.
