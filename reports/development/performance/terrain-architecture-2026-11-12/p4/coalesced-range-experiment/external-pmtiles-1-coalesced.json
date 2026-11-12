@@ -1,0 +1,224 @@
+{
+  "schema": "pando-pmtiles-external-comparison-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "archiveSha256": "f1c976e3ab026fb67ef559988fa534a32237ddd3935adf92523229504dc47493",
+  "chunkBytes": 65536,
+  "tileCount": 1,
+  "maxCoalescedChunks": 8,
+  "host": {
+    "platform": "win32",
+    "release": "10.0.26300",
+    "arch": "x64",
+    "cpuModel": "AMD Ryzen 5 3500 6-Core Processor              ",
+    "logicalCpus": 6,
+    "totalMemoryBytes": 34307358720
+  },
+  "pmtilesJsSha256": "caf981bc46f6327ee7e65d5dc964d89d38a69f60edca2bd4c5c890c21b554c6c",
+  "archiveUrl": "https://fastly.jsdelivr.net/gh/kimjeon-il/PandoLab-library-data@0ec9535b4210338d437ef428be1dce2e852b6a3e/reports/development/performance/terrain-architecture-2026-11-12/p4/pmtiles-regional-sample/china-1024.pmtiles",
+  "tileBase": "https://fastly.jsdelivr.net/gh/kimjeon-il/PandoLab-library-data@0fc425921e1fb431ef35d9af6f5ac762f2b3a269/reports/development/performance/terrain-architecture-2026-11-12/p2/fixtures-centered/webp/",
+  "startedAt": "2026-11-12T10:32:17.939Z",
+  "runs": [
+    {
+      "index": 1,
+      "candidate": "webp",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 4106.70000000298,
+          "resources": 1,
+          "transferBytes": 1165146,
+          "encodedBodyBytes": 1164846,
+          "blobCacheEntries": 1
+        },
+        {
+          "phase": "warm",
+          "durationMs": 20.299999997019768,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 1
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "candidate": "pmtiles",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 165.69999998807907,
+          "resources": 4,
+          "transferBytes": 1246384,
+          "encodedBodyBytes": 1245184,
+          "blobCacheEntries": 1,
+          "range": {
+            "requests": 4,
+            "networkBytes": 1245184,
+            "cacheHits": 18,
+            "inflightHits": 0,
+            "cachedBytes": 1245184,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          }
+        },
+        {
+          "phase": "warm",
+          "durationMs": 20.400000005960464,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 1,
+          "range": {
+            "requests": 4,
+            "networkBytes": 1245184,
+            "cacheHits": 18,
+            "inflightHits": 0,
+            "cachedBytes": 1245184,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "candidate": "pmtiles",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 164.79999999701977,
+          "resources": 4,
+          "transferBytes": 1246384,
+          "encodedBodyBytes": 1245184,
+          "blobCacheEntries": 1,
+          "range": {
+            "requests": 4,
+            "networkBytes": 1245184,
+            "cacheHits": 18,
+            "inflightHits": 0,
+            "cachedBytes": 1245184,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          }
+        },
+        {
+          "phase": "warm",
+          "durationMs": 20.399999991059303,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 1,
+          "range": {
+            "requests": 4,
+            "networkBytes": 1245184,
+            "cacheHits": 18,
+            "inflightHits": 0,
+            "cachedBytes": 1245184,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "candidate": "webp",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 137.5,
+          "resources": 1,
+          "transferBytes": 1165146,
+          "encodedBodyBytes": 1164846,
+          "blobCacheEntries": 1
+        },
+        {
+          "phase": "warm",
+          "durationMs": 20.100000008940697,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 1
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "candidate": "webp",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 139.20000000298023,
+          "resources": 1,
+          "transferBytes": 1165146,
+          "encodedBodyBytes": 1164846,
+          "blobCacheEntries": 1
+        },
+        {
+          "phase": "warm",
+          "durationMs": 20.30000001192093,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 1
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "candidate": "pmtiles",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 345.70000000298023,
+          "resources": 4,
+          "transferBytes": 1246384,
+          "encodedBodyBytes": 1245184,
+          "blobCacheEntries": 1,
+          "range": {
+            "requests": 4,
+            "networkBytes": 1245184,
+            "cacheHits": 18,
+            "inflightHits": 0,
+            "cachedBytes": 1245184,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          }
+        },
+        {
+          "phase": "warm",
+          "durationMs": 20.200000002980232,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 1,
+          "range": {
+            "requests": 4,
+            "networkBytes": 1245184,
+            "cacheHits": 18,
+            "inflightHits": 0,
+            "cachedBytes": 1245184,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          }
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "limitations": [
+    "Single regional LOD5 sample; local test page, external Fastly CDN; not the Viewer or GPU rendering.",
+    "PMTiles addresses use a custom EPSG:4326 grid, not standard Web Mercator XYZ.",
+    "Cold means fresh browser context; DNS, CDN edge and shared network caches are not controlled.",
+    "Warm means same-page reuse of verified WebP blobs followed by image decode, not Viewer GPU texture reuse.",
+    "Both sources use the same CDN host; immutable archive and tile paths are from different verified data commits."
+  ],
+  "browserVersion": "151.0.7922.34",
+  "finishedAt": "2026-11-12T10:32:24.111Z"
+}
