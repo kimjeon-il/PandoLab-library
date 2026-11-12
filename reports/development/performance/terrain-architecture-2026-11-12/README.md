@@ -52,3 +52,10 @@ NOAA 원본 SHA-256 `8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b
 같은 512 타일을 사용하는 B와 D의 [지형 단독 단일 프레임 비교](p4/terrain-isolation-1/README.md)에서는 RGB 2단계 초과 화소가 32.12%였다. 서로 다른 실행의 정지 화면이라 원인을 단정하지 않는다. [평면 실험](p4/viewer-flat-policy/README.md)은 최신 Viewer 제품 정책이 지구본만 허용해 실제 화면 전환이 거부됐다. 평면 시제품의 합성 WebGL 검사를 실제 Viewer 증거로 취급하지 않는다.
 
 `work/gis` 앱 `2c23275cd`의 중국 다섯 후보 3회 교차 및 확장 시나리오 실행 `43189277151`은 진행 중이다. 나머지 지역의 실제 화면과 세 반복, 실 GPU Viewer와 Canvas, cold/warm 외부 전송 및 하드 게이트 평가가 남았다. 따라서 G1–G6 통과, 후보별 점수, 최종 구조는 아직 결정하지 않는다. main·공개 배포·운영 자료 핀은 변경하지 않았다.
+## 후속: 타일 묶음과 실제 CDN
+
+태국·히말라야·네덜란드의 [A1 확장 상호작용](p4/regions-a1-extended-phases/README.md) 각 1회가 기록됐다. 네덜란드 16배는 1024 타일에서 LOD4여서 다른 타일 크기의 LOD가 다르면 같은 상세도 성능 비교가 아니다. [B512 묶음 그리기](p4/b512-batch-smoke/README.md)는 실제 Viewer의 한 정식 프레임에서 개별 512 타일과 지형 픽셀 차이가 최대 1이었고 atlas 추가 사용량은 19,022,112바이트였다. 동일 실행기에서 두 방식의 세 반복 `43195942158`은 진행 중이다.
+
+[실제 CDN COG 범위 시험](p4/jsdelivr-cog-range/README.md)에서 9.25MB 표본은 검증된 범위 복원에 성공했으나 30MB 표본은 20MB 파일 제한으로 거부됐다. [동일 CDN 전송 시험](p4/external-transfer-comparison/README.md)은 구간 요청의 수와 부분 화면의 추가 전송을 기록한다. PMTiles는 [지역 포장 및 무결성](p4/pmtiles-regional-sample/README.md)과 [Fastly 전송](p4/pmtiles-fastly-transfer/README.md)을 별도 실험했다. 기본 CDN 경로의 PMTiles 범위 불일치는 실제 검증 로더가 거부했고, Fastly 경로의 소규모 표본은 검증됐다. 호스트별 실제 안정성과 세계 규모의 전송·비용은 미검증이다.
+
+평면 시제품은 실험 전용 시작값으로 진입할 수 있으나 [준비 대기 시간 초과](p4/viewer-flat-policy/README.md)가 반복돼 실제 화면 비교는 아직 실패 상태다. 현재 공개 Viewer의 평면 기능이 아니다. 중국 5후보 교차 반복 `43189277151` 및 B 묶음 쌍 반복 `43195942158`이 진행 중이다. 이 문서는 중간 결과이며 실 GPU Viewer, Canvas, 일부 지역·상호작용의 세 반복과 하드 게이트 및 최종 점수는 완료되지 않았다.
