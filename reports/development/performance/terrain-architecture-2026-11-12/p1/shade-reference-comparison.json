@@ -1,0 +1,24 @@
+{
+  "schema": "pando-terrain-shade-reference-v1",
+  "revision": "0866eb0aebb35d1355892b808de331b30c5fe52b",
+  "sample": "southwest-china-lod5-Q1",
+  "reference": [
+    {
+      "path": "terrain/v0.14.0/5/32-7.webp",
+      "gitBlobSha1": "cd18fe2215b89c8f970ff58294498a5e37916c42",
+      "bytes": 961034,
+      "sha256": "b28c40e0d89fcf25f014ae3a5e0e56889a74faff4d598ab11e3b6e20d396fe13"
+    },
+    {
+      "path": "terrain/v0.14.0/5/33-7.webp",
+      "gitBlobSha1": "467cadb211fa74c6c5bbc1c1996b09d1c01244ee",
+      "bytes": 850998,
+      "sha256": "ff9c5e79028e6cc82ebecb7524ad1a6736d29f29c40b80ef108894a70adde803"
+    }
+  ],
+  "sampleCount": 65536,
+  "mismatchCount": 0,
+  "maxAbsoluteByteDifference": 0,
+  "meanAbsoluteByteDifference": 0.0,
+  "comparison": "Q1 unquantized-original shade compacted to v0.14 4-unit encoding"
+}

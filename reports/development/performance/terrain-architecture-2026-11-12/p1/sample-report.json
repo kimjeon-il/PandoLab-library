@@ -1,0 +1,1359 @@
+{
+  "schema": "pando-terrain-representative-quality-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "sourceBytes": 1585813987,
+  "sourceMetadata": {
+    "width": 43200,
+    "height": 21600,
+    "nodata": -99999,
+    "dtype": "float32"
+  },
+  "sourceResampling": "native GDAL window reader, separately for each level",
+  "shade": "Float32 original per LOD, before quantization; 315/45 degrees",
+  "records": [
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        4072,
+        997,
+        4328,
+        1253
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "992ae0fad8f96ebed88905b445737c62154c0f625aad67448f600637dbc25717",
+      "gzipBytes": 82383,
+      "gzipSha256": "bcae3329206dfc299d275ba620f8703146395b272e6fbe1bd0e3de33982e47a4",
+      "count": 65536,
+      "minMeters": -4475.49609375,
+      "maxMeters": 2498.0009765625,
+      "maxErrorMeters": 63.99609375,
+      "meanAbsErrorMeters": 6.856800231647121,
+      "rmseMeters": 14.367021700159626,
+      "shadeSha256": "2729ff0d58a13e7b9d33b0342c51aea68c0bad67444d849159d87bf0e9e287c2"
+    },
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        4072,
+        997,
+        4328,
+        1253
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "c669ce5cf3f918923ed5b3fb1e416e087ad492abf14d34383928c6dd5af52271",
+      "gzipBytes": 74551,
+      "gzipSha256": "9f0d945b7f4a3e910fe3d4d713de4c9fe4fa6377f98427ce34405d6b8f244d9b",
+      "count": 65536,
+      "minMeters": -4475.49609375,
+      "maxMeters": 2498.0009765625,
+      "maxErrorMeters": 63.99609375,
+      "meanAbsErrorMeters": 7.610488130821231,
+      "rmseMeters": 14.523969923290192,
+      "shadeSha256": "2729ff0d58a13e7b9d33b0342c51aea68c0bad67444d849159d87bf0e9e287c2"
+    },
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        4072,
+        997,
+        4328,
+        1253
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "992ae0fad8f96ebed88905b445737c62154c0f625aad67448f600637dbc25717",
+      "gzipBytes": 82383,
+      "gzipSha256": "bcae3329206dfc299d275ba620f8703146395b272e6fbe1bd0e3de33982e47a4",
+      "count": 65536,
+      "minMeters": -4475.49609375,
+      "maxMeters": 2498.0009765625,
+      "maxErrorMeters": 63.99609375,
+      "meanAbsErrorMeters": 6.856800231647121,
+      "rmseMeters": 14.367021700159626,
+      "shadeSha256": "2729ff0d58a13e7b9d33b0342c51aea68c0bad67444d849159d87bf0e9e287c2"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        4102,
+        802,
+        4358,
+        1058
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "c22f4cf6efb4d9467881e5962da4e3026902a60ce03e1def522020c2c544035f",
+      "gzipBytes": 123059,
+      "gzipSha256": "fa5742c430f975bfeb36d63b59383a12448567839973ec583200d1e8324eff84",
+      "count": 65536,
+      "minMeters": -68.96875,
+      "maxMeters": 5768.0361328125,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 2.4539018210311383,
+      "rmseMeters": 3.123530051737516,
+      "shadeSha256": "089426b5962f5a34446f8bc957f74e8ab0d116176674a6020942db5e2605d783"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        4102,
+        802,
+        4358,
+        1058
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "004611a2528436553e8c7973a55e30a48a4618b020279ee3d824909b48038b91",
+      "gzipBytes": 113471,
+      "gzipSha256": "ed752a3dd5c2058183a82e7d35c14e11e722d0de136e69b580a9d5f9bb07b77c",
+      "count": 65536,
+      "minMeters": -68.96875,
+      "maxMeters": 5768.0361328125,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 3.60647451839435,
+      "rmseMeters": 4.262956804131239,
+      "shadeSha256": "089426b5962f5a34446f8bc957f74e8ab0d116176674a6020942db5e2605d783"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        4102,
+        802,
+        4358,
+        1058
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "2ba8387cf6b3ccff2d6c09a2e393d96e339a141e8448fff1d1fc0cb3fd62dae7",
+      "gzipBytes": 126656,
+      "gzipSha256": "903ccdd73c3ec3804707bf0094c9a7c25e8211d2af2f8ab32b75d9694d01b25b",
+      "count": 65536,
+      "minMeters": -68.96875,
+      "maxMeters": 5768.0361328125,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 1.8417515617151707,
+      "rmseMeters": 2.2043679161111513,
+      "shadeSha256": "089426b5962f5a34446f8bc957f74e8ab0d116176674a6020942db5e2605d783"
+    },
+    {
+      "region": {
+        "id": "himalaya",
+        "lon": 86,
+        "lat": 28
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        3862,
+        802,
+        4118,
+        1058
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "43b8c980e036e2aa39e1af2b62e50dff397fcd146d966bbc6c037d7c64a0ec64",
+      "gzipBytes": 96672,
+      "gzipSha256": "4191a8501cae82cca1203a902cf41b3256ea616115033d348336f93e23b7bab8",
+      "count": 65536,
+      "minMeters": -1936.7421875,
+      "maxMeters": 6749.50341796875,
+      "maxErrorMeters": 63.93359375,
+      "meanAbsErrorMeters": 3.0196020149491005,
+      "rmseMeters": 5.217826678142868,
+      "shadeSha256": "f36c23f27b31d347d3c78cbf42c54c136b87b4c49d98d6d1ce3bbda1e8c29841"
+    },
+    {
+      "region": {
+        "id": "himalaya",
+        "lon": 86,
+        "lat": 28
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        3862,
+        802,
+        4118,
+        1058
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "cbd968cbe1717ac0e7ae9060799c493a5358cc8ed6d1645ced9276acee41520f",
+      "gzipBytes": 89842,
+      "gzipSha256": "be1dd3560579a2f69279ce827b2956e229b4c99735e5ae3c5989b6d591ace694",
+      "count": 65536,
+      "minMeters": -1936.7421875,
+      "maxMeters": 6749.50341796875,
+      "maxErrorMeters": 63.93359375,
+      "meanAbsErrorMeters": 3.6160935347182885,
+      "rmseMeters": 5.520102816431585,
+      "shadeSha256": "f36c23f27b31d347d3c78cbf42c54c136b87b4c49d98d6d1ce3bbda1e8c29841"
+    },
+    {
+      "region": {
+        "id": "himalaya",
+        "lon": 86,
+        "lat": 28
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        3862,
+        802,
+        4118,
+        1058
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "76dd59cf0f98a0d5133e85d617cf1b73112ab8e8573847e22618e6d8a0c30162",
+      "gzipBytes": 102354,
+      "gzipSha256": "6ba5471798cb247ebabc119828bb364c114fc9531f77ed2d9407f927f576fb3b",
+      "count": 65536,
+      "minMeters": -1936.7421875,
+      "maxMeters": 6749.50341796875,
+      "maxErrorMeters": 63.93359375,
+      "meanAbsErrorMeters": 2.061938925912159,
+      "rmseMeters": 4.423167477141899,
+      "shadeSha256": "f36c23f27b31d347d3c78cbf42c54c136b87b4c49d98d6d1ce3bbda1e8c29841"
+    },
+    {
+      "region": {
+        "id": "andes",
+        "lon": -73,
+        "lat": -13
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        1477,
+        1417,
+        1733,
+        1673
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "15dbd1c570c4c5c0f6475c91b3d04461eb8380194872f6538cf63b8961ba08f5",
+      "gzipBytes": 95062,
+      "gzipSha256": "1056bd97a50a2b173f404da92e8132e4d8a723e214c371e669e1141c35f065f6",
+      "count": 65536,
+      "minMeters": -7679.95849609375,
+      "maxMeters": 5542.32861328125,
+      "maxErrorMeters": 63.9990234375,
+      "meanAbsErrorMeters": 11.132059883908028,
+      "rmseMeters": 20.378967418634165,
+      "shadeSha256": "3df69d421145ffc10e710565630420acc05cfd51d300f6d7321731d5d3d023f1"
+    },
+    {
+      "region": {
+        "id": "andes",
+        "lon": -73,
+        "lat": -13
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        1477,
+        1417,
+        1733,
+        1673
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "117782cfe57f1c7b19777297aa1a1bcf4de10952faeaa3fa66018351bebde04a",
+      "gzipBytes": 87340,
+      "gzipSha256": "09126a8f080bded9e0bfab2fb303716c1a7a9851b9caa211e1b8640b3f169180",
+      "count": 65536,
+      "minMeters": -7679.95849609375,
+      "maxMeters": 5542.32861328125,
+      "maxErrorMeters": 63.9990234375,
+      "meanAbsErrorMeters": 11.71721062225663,
+      "rmseMeters": 20.457166792445708,
+      "shadeSha256": "3df69d421145ffc10e710565630420acc05cfd51d300f6d7321731d5d3d023f1"
+    },
+    {
+      "region": {
+        "id": "andes",
+        "lon": -73,
+        "lat": -13
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        1477,
+        1417,
+        1733,
+        1673
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "6875b486b9eab85aca631c2cc95a932d44ba3ffee4da87ed5e7046ab91536804",
+      "gzipBytes": 97251,
+      "gzipSha256": "37ad9bfccf5531b120faccd508d27e57535cb626fa825e65a597fafefd8139e3",
+      "count": 65536,
+      "minMeters": -7679.95849609375,
+      "maxMeters": 5542.32861328125,
+      "maxErrorMeters": 63.9990234375,
+      "meanAbsErrorMeters": 10.774417181149715,
+      "rmseMeters": 20.3086477006148,
+      "shadeSha256": "3df69d421145ffc10e710565630420acc05cfd51d300f6d7321731d5d3d023f1"
+    },
+    {
+      "region": {
+        "id": "pacific-ocean",
+        "lon": -150,
+        "lat": 0
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        322,
+        1222,
+        578,
+        1478
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "b43b852d243d3833516bc070f99df85bd232d56efa2bca504d4af0ce3c90301c",
+      "gzipBytes": 46338,
+      "gzipSha256": "09638c30d0e9f35dbcf283f2464eb1b90ad22384ff0a7de2820057fdf6d32d0a",
+      "count": 65536,
+      "minMeters": -5912.68701171875,
+      "maxMeters": 15.64441967010498,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 31.989770403231887,
+      "rmseMeters": 36.92522851203987,
+      "shadeSha256": "5df9d09966d630811fe01787aaf7ec742bee6288f05cd23c07ef1050dd4148ae"
+    },
+    {
+      "region": {
+        "id": "pacific-ocean",
+        "lon": -150,
+        "lat": 0
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        322,
+        1222,
+        578,
+        1478
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "e083533c4fc8903459483cc6b952bdbb827c4c7586abf08be7ef95c442e43a08",
+      "gzipBytes": 46339,
+      "gzipSha256": "2a2ecca8a8326b7540e7469456e87223edf2cd5f42425d99ce69e4d9cba64c85",
+      "count": 65536,
+      "minMeters": -5912.68701171875,
+      "maxMeters": 15.64441967010498,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 31.989789100536655,
+      "rmseMeters": 36.92522952475152,
+      "shadeSha256": "5df9d09966d630811fe01787aaf7ec742bee6288f05cd23c07ef1050dd4148ae"
+    },
+    {
+      "region": {
+        "id": "pacific-ocean",
+        "lon": -150,
+        "lat": 0
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        322,
+        1222,
+        578,
+        1478
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "b43b852d243d3833516bc070f99df85bd232d56efa2bca504d4af0ce3c90301c",
+      "gzipBytes": 46338,
+      "gzipSha256": "09638c30d0e9f35dbcf283f2464eb1b90ad22384ff0a7de2820057fdf6d32d0a",
+      "count": 65536,
+      "minMeters": -5912.68701171875,
+      "maxMeters": 15.64441967010498,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 31.989770403231887,
+      "rmseMeters": 36.92522851203987,
+      "shadeSha256": "5df9d09966d630811fe01787aaf7ec742bee6288f05cd23c07ef1050dd4148ae"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        2632,
+        427,
+        2888,
+        683
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "21116b7a2ec5823beb1c491aaae3dbbab1d413d419fc591082bf337f92d3aa2d",
+      "gzipBytes": 69946,
+      "gzipSha256": "164b6dbaa5e45522eda0221ba6d13d8cd456460741d3592b4071933e73344ad5",
+      "count": 65536,
+      "minMeters": -4525.8642578125,
+      "maxMeters": 3412.277099609375,
+      "maxErrorMeters": 63.97802734375,
+      "meanAbsErrorMeters": 3.126407397040838,
+      "rmseMeters": 6.190990554457702,
+      "shadeSha256": "d2df777ee293fe9d6849300fee7d12746e8c4e8350e8de7fa6d3aaac62717871"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        2632,
+        427,
+        2888,
+        683
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "460137b0cd077caba701b344c83c85e7f8949235e8a054532a528b8bcbbbff14",
+      "gzipBytes": 61610,
+      "gzipSha256": "0803e5a2f6786743f7c73b0e293b809f5e9ef8c105f9c2149bfc3495e838b7ef",
+      "count": 65536,
+      "minMeters": -4525.8642578125,
+      "maxMeters": 3412.277099609375,
+      "maxErrorMeters": 63.97802734375,
+      "meanAbsErrorMeters": 3.8156564619378504,
+      "rmseMeters": 6.482623320524151,
+      "shadeSha256": "d2df777ee293fe9d6849300fee7d12746e8c4e8350e8de7fa6d3aaac62717871"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        2632,
+        427,
+        2888,
+        683
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "aa226091c4353e17821a91343da153b26fb118515be2cc1734eb2f17b1ff4ef5",
+      "gzipBytes": 69965,
+      "gzipSha256": "ed9528c60cc11bd803a3e6cbc7d32a44a0fcd7cd5d35b11b195daffcea8759e5",
+      "count": 65536,
+      "minMeters": -4525.8642578125,
+      "maxMeters": 3412.277099609375,
+      "maxErrorMeters": 63.97802734375,
+      "meanAbsErrorMeters": 3.121178534874433,
+      "rmseMeters": 6.187611263488783,
+      "shadeSha256": "d2df777ee293fe9d6849300fee7d12746e8c4e8350e8de7fa6d3aaac62717871"
+    },
+    {
+      "region": {
+        "id": "date-line",
+        "lon": 179.8,
+        "lat": 0
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        5269,
+        1222,
+        5525,
+        1478
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "d7bf96fab986a92dc52fe4ef8850bad66a359531f10a8e47a435da23a300dd20",
+      "gzipBytes": 60852,
+      "gzipSha256": "96f3dfee99d87f4e0885900d0200c80da55dfabc4525ff4548a0400851c11d1a",
+      "count": 65536,
+      "minMeters": -6584.43359375,
+      "maxMeters": 37.98046875,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 32.02964717479699,
+      "rmseMeters": 37.000865652071695,
+      "shadeSha256": "b4bd35b0990b9b0facd57fb79cc9e4e24f7f7c58fc5a2c1b929eef3e9091fddf"
+    },
+    {
+      "region": {
+        "id": "date-line",
+        "lon": 179.8,
+        "lat": 0
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        5269,
+        1222,
+        5525,
+        1478
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "2db931e9ed6f5334c56f5acc5ec0b651a90e24a13d3e56424d5e125ddc5dc914",
+      "gzipBytes": 60853,
+      "gzipSha256": "7f4c0966fb4eb67b90419eb145a0c6f6215b46d91f3c42cfb6beec7c2e210a94",
+      "count": 65536,
+      "minMeters": -6584.43359375,
+      "maxMeters": 37.98046875,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 32.029775902057736,
+      "rmseMeters": 37.00087261013856,
+      "shadeSha256": "b4bd35b0990b9b0facd57fb79cc9e4e24f7f7c58fc5a2c1b929eef3e9091fddf"
+    },
+    {
+      "region": {
+        "id": "date-line",
+        "lon": 179.8,
+        "lat": 0
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        5269,
+        1222,
+        5525,
+        1478
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "d7bf96fab986a92dc52fe4ef8850bad66a359531f10a8e47a435da23a300dd20",
+      "gzipBytes": 60852,
+      "gzipSha256": "96f3dfee99d87f4e0885900d0200c80da55dfabc4525ff4548a0400851c11d1a",
+      "count": 65536,
+      "minMeters": -6584.43359375,
+      "maxMeters": 37.98046875,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 32.02964717479699,
+      "rmseMeters": 37.000865652071695,
+      "shadeSha256": "b4bd35b0990b9b0facd57fb79cc9e4e24f7f7c58fc5a2c1b929eef3e9091fddf"
+    },
+    {
+      "region": {
+        "id": "arctic",
+        "lon": 0,
+        "lat": 85
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        2572,
+        -53,
+        2828,
+        203
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "a34dc84e4d3d2176409dc67b89265307dc76d4156d697c62cc8b74fcab4de6d7",
+      "gzipBytes": 35898,
+      "gzipSha256": "fa12bb383e814940df8c7ed2e994d9e26ee5d503b223f7825b2fe5c18b36a644",
+      "count": 65536,
+      "minMeters": -5520.0625,
+      "maxMeters": -52.73828125,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 24.13511303719133,
+      "rmseMeters": 30.586053829240704,
+      "shadeSha256": "59eb0f42299bcfdf0cf3fbd4b57cc20bdb6c552ca84c703141ba50a0e27153a1"
+    },
+    {
+      "region": {
+        "id": "arctic",
+        "lon": 0,
+        "lat": 85
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        2572,
+        -53,
+        2828,
+        203
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "a34dc84e4d3d2176409dc67b89265307dc76d4156d697c62cc8b74fcab4de6d7",
+      "gzipBytes": 35898,
+      "gzipSha256": "fa12bb383e814940df8c7ed2e994d9e26ee5d503b223f7825b2fe5c18b36a644",
+      "count": 65536,
+      "minMeters": -5520.0625,
+      "maxMeters": -52.73828125,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 24.13511303719133,
+      "rmseMeters": 30.586053829240704,
+      "shadeSha256": "59eb0f42299bcfdf0cf3fbd4b57cc20bdb6c552ca84c703141ba50a0e27153a1"
+    },
+    {
+      "region": {
+        "id": "arctic",
+        "lon": 0,
+        "lat": 85
+      },
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "window": [
+        2572,
+        -53,
+        2828,
+        203
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "a34dc84e4d3d2176409dc67b89265307dc76d4156d697c62cc8b74fcab4de6d7",
+      "gzipBytes": 35898,
+      "gzipSha256": "fa12bb383e814940df8c7ed2e994d9e26ee5d503b223f7825b2fe5c18b36a644",
+      "count": 65536,
+      "minMeters": -5520.0625,
+      "maxMeters": -52.73828125,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 24.13511303719133,
+      "rmseMeters": 30.586053829240704,
+      "shadeSha256": "59eb0f42299bcfdf0cf3fbd4b57cc20bdb6c552ca84c703141ba50a0e27153a1"
+    },
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        33472,
+        8872,
+        33728,
+        9128
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "c41cff831b3863a1db3e5fdaa98d950437e6d74e9f61cf8957e441d64465ea4c",
+      "gzipBytes": 69937,
+      "gzipSha256": "9d725c53f3cfc8645075433847dbba5ebec9412a428e16a7a06916533ce5dfef",
+      "count": 65536,
+      "minMeters": -4.046888828277588,
+      "maxMeters": 1707.52880859375,
+      "maxErrorMeters": 4.046888828277588,
+      "meanAbsErrorMeters": 1.0944385671322152,
+      "rmseMeters": 1.313281249944291,
+      "shadeSha256": "0852ee43c902b7c0543aca24d648d3582584434c26cd1214d25b1f2455050150"
+    },
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        33472,
+        8872,
+        33728,
+        9128
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "61096a17b38a3d4b5edbe49c306457c4be5f83b191f4e05cd6f74c906b4e5c2f",
+      "gzipBytes": 60155,
+      "gzipSha256": "f2d3a6c508083fb5747b9eedc54d51a8a77157965e228527cd2dcf7066378b18",
+      "count": 65536,
+      "minMeters": -4.046888828277588,
+      "maxMeters": 1707.52880859375,
+      "maxErrorMeters": 7.99859619140625,
+      "meanAbsErrorMeters": 2.3472749069773045,
+      "rmseMeters": 2.7484980681964664,
+      "shadeSha256": "0852ee43c902b7c0543aca24d648d3582584434c26cd1214d25b1f2455050150"
+    },
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        33472,
+        8872,
+        33728,
+        9128
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "c41cff831b3863a1db3e5fdaa98d950437e6d74e9f61cf8957e441d64465ea4c",
+      "gzipBytes": 69937,
+      "gzipSha256": "9d725c53f3cfc8645075433847dbba5ebec9412a428e16a7a06916533ce5dfef",
+      "count": 65536,
+      "minMeters": -4.046888828277588,
+      "maxMeters": 1707.52880859375,
+      "maxErrorMeters": 4.046888828277588,
+      "meanAbsErrorMeters": 1.0944385671322152,
+      "rmseMeters": 1.313281249944291,
+      "shadeSha256": "0852ee43c902b7c0543aca24d648d3582584434c26cd1214d25b1f2455050150"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        33712,
+        7312,
+        33968,
+        7568
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "dfdc2b18ddc9fbdcfad75788feacb7eac2cc12abea1001b003d2190f5f26ac63",
+      "gzipBytes": 159166,
+      "gzipSha256": "7b62171c57434519ccd3b9fba0b2552acd4e98427e9834a5e91b4a5abfef8b03",
+      "count": 65536,
+      "minMeters": 610.8408813476562,
+      "maxMeters": 5079.23486328125,
+      "maxErrorMeters": 7.99951171875,
+      "meanAbsErrorMeters": 3.1567779816687107,
+      "rmseMeters": 3.816252799588973,
+      "shadeSha256": "f173f33ddd28580aaac0edcde12a86e9ba43d9ac1f99280da47b8876cb5bb83d"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        33712,
+        7312,
+        33968,
+        7568
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "c036b2d986075ef6d28f185f9dd07ec234d463fb61cc79b3737cd276296db373",
+      "gzipBytes": 152116,
+      "gzipSha256": "a4d6e45dc255fef7791a2019e7ff69853ddb9d755dcf9b16163d6aee02de32fa",
+      "count": 65536,
+      "minMeters": 610.8408813476562,
+      "maxMeters": 5079.23486328125,
+      "maxErrorMeters": 7.999755859375,
+      "meanAbsErrorMeters": 3.9943287763744593,
+      "rmseMeters": 4.611311287260562,
+      "shadeSha256": "f173f33ddd28580aaac0edcde12a86e9ba43d9ac1f99280da47b8876cb5bb83d"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        33712,
+        7312,
+        33968,
+        7568
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "4bb4ef47ca225c98a0f8cbf030001379cde651de72ab06007d0367350dd35940",
+      "gzipBytes": 165922,
+      "gzipSha256": "cddf42f2e11dcdacd14a3cbfec8d3e82c8616d5e63b8bf8ca71e3e814d6c6a48",
+      "count": 65536,
+      "minMeters": 610.8408813476562,
+      "maxMeters": 5079.23486328125,
+      "maxErrorMeters": 4,
+      "meanAbsErrorMeters": 2.004530716687441,
+      "rmseMeters": 2.3121001947408146,
+      "shadeSha256": "f173f33ddd28580aaac0edcde12a86e9ba43d9ac1f99280da47b8876cb5bb83d"
+    },
+    {
+      "region": {
+        "id": "himalaya",
+        "lon": 86,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        31792,
+        7312,
+        32048,
+        7568
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "c93e8598fad4124d4f16e6d385f3b9043cdb0b7edb7ce9c489a93d63ad899535",
+      "gzipBytes": 153164,
+      "gzipSha256": "849e4220b87bf5d13f892a5bed014f1aeb09ffd67a1ffcf113b1d74626668fee",
+      "count": 65536,
+      "minMeters": 77.24128723144531,
+      "maxMeters": 8353.8330078125,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 3.061994720599614,
+      "rmseMeters": 3.7686727601384122,
+      "shadeSha256": "2381cbcd139e29747e406b0608779f7e8f5622aa10e427ba95e88e829a64e671"
+    },
+    {
+      "region": {
+        "id": "himalaya",
+        "lon": 86,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        31792,
+        7312,
+        32048,
+        7568
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "12619ada277454d4104e644b2fc08a9253c04f8c2108c1556fe2f92022e04831",
+      "gzipBytes": 146953,
+      "gzipSha256": "461380e5ce4779cb12d439a1041915a48c79341c198555bacb3bcb220d1f2428",
+      "count": 65536,
+      "minMeters": 77.24128723144531,
+      "maxMeters": 8353.8330078125,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 3.7831290037138388,
+      "rmseMeters": 4.423885427629562,
+      "shadeSha256": "2381cbcd139e29747e406b0608779f7e8f5622aa10e427ba95e88e829a64e671"
+    },
+    {
+      "region": {
+        "id": "himalaya",
+        "lon": 86,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        31792,
+        7312,
+        32048,
+        7568
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "e9fd82f6ee50b716a9c0f642f6f8f6e1de022423a99d9d9a7ef5ec568bbe95d4",
+      "gzipBytes": 159920,
+      "gzipSha256": "0a0e9c37de4de5f30c2e92fb68e88efe444eeaefc4aa645a7b00618823612bb6",
+      "count": 65536,
+      "minMeters": 77.24128723144531,
+      "maxMeters": 8353.8330078125,
+      "maxErrorMeters": 4,
+      "meanAbsErrorMeters": 1.9066037948941812,
+      "rmseMeters": 2.227053427146823,
+      "shadeSha256": "2381cbcd139e29747e406b0608779f7e8f5622aa10e427ba95e88e829a64e671"
+    },
+    {
+      "region": {
+        "id": "andes",
+        "lon": -73,
+        "lat": -13
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        12712,
+        12232,
+        12968,
+        12488
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "1b07de6b88fcf18177a04821b16506ec98ef0a9abab32680ee849b84df8a71b2",
+      "gzipBytes": 159246,
+      "gzipSha256": "feec8dfbb95ce2963811e59d07ea48eba5e87477bfd1262f3cb6154249463167",
+      "count": 65536,
+      "minMeters": 380.4486389160156,
+      "maxMeters": 5842.0888671875,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 3.0781252598389983,
+      "rmseMeters": 3.75084420620573,
+      "shadeSha256": "ff5e2a6c6b343adff4e6ccf601b3623993561ee553e6e3a0b3e0033a0b0c154c"
+    },
+    {
+      "region": {
+        "id": "andes",
+        "lon": -73,
+        "lat": -13
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        12712,
+        12232,
+        12968,
+        12488
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "e612b126d6623f6245c3039bdb868a45524ef3deac7ed7010509dee3efd1a965",
+      "gzipBytes": 152338,
+      "gzipSha256": "a8fb8cb453febee788274e0f8f0b8c1334a508df21dd3c60c278e2e593a4a3db",
+      "count": 65536,
+      "minMeters": 380.4486389160156,
+      "maxMeters": 5842.0888671875,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 3.96799770090729,
+      "rmseMeters": 4.593836767686542,
+      "shadeSha256": "ff5e2a6c6b343adff4e6ccf601b3623993561ee553e6e3a0b3e0033a0b0c154c"
+    },
+    {
+      "region": {
+        "id": "andes",
+        "lon": -73,
+        "lat": -13
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        12712,
+        12232,
+        12968,
+        12488
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "2a9c2f8d57ef64a180646f9cbf8638d84b992230eba7a1918c7362506079206f",
+      "gzipBytes": 165840,
+      "gzipSha256": "34ef27d2bd8b31d828d2b9b078d43abfc6f1b79545faa8ffd3935f1cfe254468",
+      "count": 65536,
+      "minMeters": 380.4486389160156,
+      "maxMeters": 5842.0888671875,
+      "maxErrorMeters": 4,
+      "meanAbsErrorMeters": 1.9742226814851165,
+      "rmseMeters": 2.2885828873772605,
+      "shadeSha256": "ff5e2a6c6b343adff4e6ccf601b3623993561ee553e6e3a0b3e0033a0b0c154c"
+    },
+    {
+      "region": {
+        "id": "pacific-ocean",
+        "lon": -150,
+        "lat": 0
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        3472,
+        10672,
+        3728,
+        10928
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "01ab79087c25ba1f35d239368202c9550198652307c8f216be51daf109fcaef0",
+      "gzipBytes": 33012,
+      "gzipSha256": "c2cbce1fd439e4d08157c4a56ac862fb079d48be5748c3e7d2a0a22f47d524aa",
+      "count": 65536,
+      "minMeters": -5074.25,
+      "maxMeters": -2088.5,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 32.51811629906297,
+      "rmseMeters": 37.37313334845382,
+      "shadeSha256": "9fc21dd81764588d60c5bdd64a064e364e14ab18d2565c4cd9c2763fe713c90f"
+    },
+    {
+      "region": {
+        "id": "pacific-ocean",
+        "lon": -150,
+        "lat": 0
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        3472,
+        10672,
+        3728,
+        10928
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "01ab79087c25ba1f35d239368202c9550198652307c8f216be51daf109fcaef0",
+      "gzipBytes": 33012,
+      "gzipSha256": "c2cbce1fd439e4d08157c4a56ac862fb079d48be5748c3e7d2a0a22f47d524aa",
+      "count": 65536,
+      "minMeters": -5074.25,
+      "maxMeters": -2088.5,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 32.51811629906297,
+      "rmseMeters": 37.37313334845382,
+      "shadeSha256": "9fc21dd81764588d60c5bdd64a064e364e14ab18d2565c4cd9c2763fe713c90f"
+    },
+    {
+      "region": {
+        "id": "pacific-ocean",
+        "lon": -150,
+        "lat": 0
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        3472,
+        10672,
+        3728,
+        10928
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "01ab79087c25ba1f35d239368202c9550198652307c8f216be51daf109fcaef0",
+      "gzipBytes": 33012,
+      "gzipSha256": "c2cbce1fd439e4d08157c4a56ac862fb079d48be5748c3e7d2a0a22f47d524aa",
+      "count": 65536,
+      "minMeters": -5074.25,
+      "maxMeters": -2088.5,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 32.51811629906297,
+      "rmseMeters": 37.37313334845382,
+      "shadeSha256": "9fc21dd81764588d60c5bdd64a064e364e14ab18d2565c4cd9c2763fe713c90f"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        21952,
+        4312,
+        22208,
+        4568
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "b0b445fe47c21d6c4d9c9e9669899f2b875c2593e71e78d96a4da9a44c343689",
+      "gzipBytes": 5729,
+      "gzipSha256": "a607f8ed5957f48ca15eeaa51febe6f8e707fcfeec3b4b2db3d65ac74e0dd5c7",
+      "count": 65536,
+      "minMeters": -68.71183776855469,
+      "maxMeters": 29.991300582885742,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 4.078035841518744,
+      "rmseMeters": 4.670016712333489,
+      "shadeSha256": "005d2a97ae1ad4babeab6611c0bb692ca727fb9d7ee4c83cfbe152d3540655fc"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        21952,
+        4312,
+        22208,
+        4568
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "36a191a0b284a7b92d16421952f7bd19d56a8ae764547549fcc35b0272f71b75",
+      "gzipBytes": 5402,
+      "gzipSha256": "10b0cb44ebd8464a9bdb3d4d0e12fee1319cd65fb88f2fc8445d86ca81089f46",
+      "count": 65536,
+      "minMeters": -68.71183776855469,
+      "maxMeters": 29.991300582885742,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 4.098093339887004,
+      "rmseMeters": 4.678598731131699,
+      "shadeSha256": "005d2a97ae1ad4babeab6611c0bb692ca727fb9d7ee4c83cfbe152d3540655fc"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        21952,
+        4312,
+        22208,
+        4568
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "b0b445fe47c21d6c4d9c9e9669899f2b875c2593e71e78d96a4da9a44c343689",
+      "gzipBytes": 5729,
+      "gzipSha256": "a607f8ed5957f48ca15eeaa51febe6f8e707fcfeec3b4b2db3d65ac74e0dd5c7",
+      "count": 65536,
+      "minMeters": -68.71183776855469,
+      "maxMeters": 29.991300582885742,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 4.078035841518744,
+      "rmseMeters": 4.670016712333489,
+      "shadeSha256": "005d2a97ae1ad4babeab6611c0bb692ca727fb9d7ee4c83cfbe152d3540655fc"
+    },
+    {
+      "region": {
+        "id": "date-line",
+        "lon": 179.8,
+        "lat": 0
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        43048,
+        10672,
+        43304,
+        10928
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "48c10d4e4d6d0e4b9dea64189891c1cf5136ff831cad9e9b2f074a011173805f",
+      "gzipBytes": 31854,
+      "gzipSha256": "0c75c4d0a54fa0985cfce66f5d8ab94fa97412ae3aaaddcf08e009ac80c8040d",
+      "count": 65536,
+      "minMeters": -5915.5,
+      "maxMeters": -1178,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 33.15325728803873,
+      "rmseMeters": 37.98392843755684,
+      "shadeSha256": "2b7930d570b8eb00b5cd9f34e4d3745e785a5a3c527ea53564c1f05bb83ce5c5"
+    },
+    {
+      "region": {
+        "id": "date-line",
+        "lon": 179.8,
+        "lat": 0
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        43048,
+        10672,
+        43304,
+        10928
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "48c10d4e4d6d0e4b9dea64189891c1cf5136ff831cad9e9b2f074a011173805f",
+      "gzipBytes": 31854,
+      "gzipSha256": "0c75c4d0a54fa0985cfce66f5d8ab94fa97412ae3aaaddcf08e009ac80c8040d",
+      "count": 65536,
+      "minMeters": -5915.5,
+      "maxMeters": -1178,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 33.15325728803873,
+      "rmseMeters": 37.98392843755684,
+      "shadeSha256": "2b7930d570b8eb00b5cd9f34e4d3745e785a5a3c527ea53564c1f05bb83ce5c5"
+    },
+    {
+      "region": {
+        "id": "date-line",
+        "lon": 179.8,
+        "lat": 0
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        43048,
+        10672,
+        43304,
+        10928
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "48c10d4e4d6d0e4b9dea64189891c1cf5136ff831cad9e9b2f074a011173805f",
+      "gzipBytes": 31854,
+      "gzipSha256": "0c75c4d0a54fa0985cfce66f5d8ab94fa97412ae3aaaddcf08e009ac80c8040d",
+      "count": 65536,
+      "minMeters": -5915.5,
+      "maxMeters": -1178,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 33.15325728803873,
+      "rmseMeters": 37.98392843755684,
+      "shadeSha256": "2b7930d570b8eb00b5cd9f34e4d3745e785a5a3c527ea53564c1f05bb83ce5c5"
+    },
+    {
+      "region": {
+        "id": "arctic",
+        "lon": 0,
+        "lat": 85
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        21472,
+        472,
+        21728,
+        728
+      ],
+      "policy": "Q1",
+      "rawBytes": 262144,
+      "rawSha256": "bf9e00f55c8e3eee34c2f486bfe17ab90462cc5d9733b1951503fa87397e7332",
+      "gzipBytes": 38219,
+      "gzipSha256": "53fbbe9d790e33a91e4be6218bf53f77ab3e33d1b7ef1457e4eeed35a70fa27c",
+      "count": 65536,
+      "minMeters": -4348.5,
+      "maxMeters": -1951,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 29.788116455078125,
+      "rmseMeters": 35.043554181864394,
+      "shadeSha256": "d44a0ae36043d79b4413f1a3f43b7ff596891056193e2115462e387b8be4bb15"
+    },
+    {
+      "region": {
+        "id": "arctic",
+        "lon": 0,
+        "lat": 85
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        21472,
+        472,
+        21728,
+        728
+      ],
+      "policy": "Q2",
+      "rawBytes": 262144,
+      "rawSha256": "bf9e00f55c8e3eee34c2f486bfe17ab90462cc5d9733b1951503fa87397e7332",
+      "gzipBytes": 38219,
+      "gzipSha256": "53fbbe9d790e33a91e4be6218bf53f77ab3e33d1b7ef1457e4eeed35a70fa27c",
+      "count": 65536,
+      "minMeters": -4348.5,
+      "maxMeters": -1951,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 29.788116455078125,
+      "rmseMeters": 35.043554181864394,
+      "shadeSha256": "d44a0ae36043d79b4413f1a3f43b7ff596891056193e2115462e387b8be4bb15"
+    },
+    {
+      "region": {
+        "id": "arctic",
+        "lon": 0,
+        "lat": 85
+      },
+      "level": 5,
+      "width": 256,
+      "height": 256,
+      "window": [
+        21472,
+        472,
+        21728,
+        728
+      ],
+      "policy": "Q3",
+      "rawBytes": 262144,
+      "rawSha256": "bf9e00f55c8e3eee34c2f486bfe17ab90462cc5d9733b1951503fa87397e7332",
+      "gzipBytes": 38219,
+      "gzipSha256": "53fbbe9d790e33a91e4be6218bf53f77ab3e33d1b7ef1457e4eeed35a70fa27c",
+      "count": 65536,
+      "minMeters": -4348.5,
+      "maxMeters": -1951,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 29.788116455078125,
+      "rmseMeters": 35.043554181864394,
+      "shadeSha256": "d44a0ae36043d79b4413f1a3f43b7ff596891056193e2115462e387b8be4bb15"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "pando-terrain-representative-quality-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "sourceBytes": 1585813987,
+  "sourceMetadata": {
+    "width": 43200,
+    "height": 21600,
+    "nodata": -99999,
+    "dtype": "float32"
+  },
+  "sourceResampling": "native GDAL window reader, separately for each level",
+  "shade": "Float32 original per LOD, before quantization; 315/45 degrees",
+  "records": [
+    {
+      "region": {
+        "id": "thai-lowland",
+        "lon": 100,
+        "lat": 15
+      },
+      "level": 5,
+      "width": 1024,
+      "height": 1024,
+      "window": [
+        33088,
+        8488,
+        34112,
+        9512
+      ],
+      "policy": "Q1",
+      "rawBytes": 4194304,
+      "rawSha256": "7b2f96017f030f08efd5554c788df54e3a427e4c188bc76006114dce0db2ca3f",
+      "gzipBytes": 1222778,
+      "gzipSha256": "26f40293b68c45458ce1dfa8ef9934b6b6b8594884e998692ba3ce7c3c986467",
+      "count": 1048576,
+      "minMeters": -2705.75,
+      "maxMeters": 2684.546875,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 2.9901708086271697,
+      "rmseMeters": 7.153753408895165,
+      "shadeSha256": "385bd7b37c5f686bda391222c419f97875b440038d80545160f4bb2627bf62f7"
+    },
+    {
+      "region": {
+        "id": "southwest-china",
+        "lon": 102,
+        "lat": 28
+      },
+      "level": 5,
+      "width": 1024,
+      "height": 1024,
+      "window": [
+        33328,
+        6928,
+        34352,
+        7952
+      ],
+      "policy": "Q1",
+      "rawBytes": 4194304,
+      "rawSha256": "baa380dae9570363cdb54079384953d01742ede102d729a7ea5a4ffb0460b023",
+      "gzipBytes": 2427630,
+      "gzipSha256": "0cc44d230deb0fae5cf4fa3da2006d53a27bf5f132eaf916e5c03adbcff927fe",
+      "count": 1048576,
+      "minMeters": 174.8851318359375,
+      "maxMeters": 7169.3447265625,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 2.6495315183419734,
+      "rmseMeters": 3.3065989382073657,
+      "shadeSha256": "f33152304f76c4972ddd44bbc57236914f4a67100e999a72f7028652811f4b4e"
+    },
+    {
+      "region": {
+        "id": "netherlands-coast",
+        "lon": 4,
+        "lat": 53
+      },
+      "level": 5,
+      "width": 1024,
+      "height": 1024,
+      "window": [
+        21568,
+        3928,
+        22592,
+        4952
+      ],
+      "policy": "Q1",
+      "rawBytes": 4194304,
+      "rawSha256": "81f61faf56655566be91bf83c59bf8dabaf5301b812ba88294cdbee97a96a506",
+      "gzipBytes": 545268,
+      "gzipSha256": "a9ba06b1e1b3a46501b3644ba6525197ef5c9cca71f253aec28003f1f5c4d749",
+      "count": 1048576,
+      "minMeters": -238.5,
+      "maxMeters": 778.0300903320312,
+      "maxErrorMeters": 8,
+      "meanAbsErrorMeters": 2.7622902438270525,
+      "rmseMeters": 3.6190761452586653,
+      "shadeSha256": "a817ea330ba77131505b94f21e7ed1bed662f7721ad4c81da36d955225abedc8"
+    }
+  ]
+}

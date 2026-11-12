@@ -1,0 +1,80 @@
+{
+  "schema": "pando-terrain-cog-sample-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "gdalVersion": "3.13.3",
+  "records": [
+    {
+      "region": "thai-lowland",
+      "blockSize": 256,
+      "bytes": 1402759,
+      "sha256": "86a0e05ffe674a8dce44e03f32fad7dcd3022b32c3efe1f975604b4fc9d4ac2a",
+      "encodeMs": 520.4531999916071,
+      "overviewSourceSha256": [
+        "7b2f96017f030f08efd5554c788df54e3a427e4c188bc76006114dce0db2ca3f",
+        "31f3a753cc0197a020af8c098f129f120f12dd712f61c48a8237eba28e03abb4",
+        "71ea453631374670a3804dd9b1de62229f466163bd0a22de67c4573d2b6c0fbc"
+      ]
+    },
+    {
+      "region": "thai-lowland",
+      "blockSize": 512,
+      "bytes": 1432011,
+      "sha256": "1bfe017c2e8c78b354844f5a9e65b4685c1d0e2cf6e7591cd7fd5d769f99885e",
+      "encodeMs": 414.88450000179,
+      "overviewSourceSha256": [
+        "7b2f96017f030f08efd5554c788df54e3a427e4c188bc76006114dce0db2ca3f",
+        "31f3a753cc0197a020af8c098f129f120f12dd712f61c48a8237eba28e03abb4",
+        "71ea453631374670a3804dd9b1de62229f466163bd0a22de67c4573d2b6c0fbc"
+      ]
+    },
+    {
+      "region": "southwest-china",
+      "blockSize": 256,
+      "bytes": 2540157,
+      "sha256": "4dd2131d6c79c96ccf9c9b49a82648ccbc51c4083ded26941d94d6b46eef43fa",
+      "encodeMs": 535.5274000030477,
+      "overviewSourceSha256": [
+        "baa380dae9570363cdb54079384953d01742ede102d729a7ea5a4ffb0460b023",
+        "84ad24a447236bdbf046798cb8dfd3b2a2cc3527eca2c2d1f4ac570635a35b2f",
+        "80df5b22c90ea87d1a98e6f52bbe9c12c3884d1caaa768d9b8bc3bedf6b68c2c"
+      ]
+    },
+    {
+      "region": "southwest-china",
+      "blockSize": 512,
+      "bytes": 2562171,
+      "sha256": "7e7e7dd1f5b63b209805e997879738bac71a2e1770734e98b242f320b025f202",
+      "encodeMs": 544.0610999939963,
+      "overviewSourceSha256": [
+        "baa380dae9570363cdb54079384953d01742ede102d729a7ea5a4ffb0460b023",
+        "84ad24a447236bdbf046798cb8dfd3b2a2cc3527eca2c2d1f4ac570635a35b2f",
+        "80df5b22c90ea87d1a98e6f52bbe9c12c3884d1caaa768d9b8bc3bedf6b68c2c"
+      ]
+    },
+    {
+      "region": "netherlands-coast",
+      "blockSize": 256,
+      "bytes": 627591,
+      "sha256": "e3c6fd97e38f9773bfd807e8d7227b983cd25e2bec2f5b75d91c2a37a48dfec1",
+      "encodeMs": 268.35870000650175,
+      "overviewSourceSha256": [
+        "81f61faf56655566be91bf83c59bf8dabaf5301b812ba88294cdbee97a96a506",
+        "d388d8ecf62d6bf23001bb0be44339a6ebc7ebb98b4a9463ad659cfef990ed9a",
+        "48a6afce8c1ddd2d284c13e9fe36116af63cd918d36e4bbc980870674cb0bf24"
+      ]
+    },
+    {
+      "region": "netherlands-coast",
+      "blockSize": 512,
+      "bytes": 633275,
+      "sha256": "78a2399b10a16d53a5817866ba5c407d323909b2c2e223448c5975b7b72f8827",
+      "encodeMs": 258.20830000157,
+      "overviewSourceSha256": [
+        "81f61faf56655566be91bf83c59bf8dabaf5301b812ba88294cdbee97a96a506",
+        "d388d8ecf62d6bf23001bb0be44339a6ebc7ebb98b4a9463ad659cfef990ed9a",
+        "48a6afce8c1ddd2d284c13e9fe36116af63cd918d36e4bbc980870674cb0bf24"
+      ]
+    }
+  ],
+  "limitations": "Storage fixture only; no browser decoder, renderer, CORS validation or performance result."
+}
