@@ -1,0 +1,127 @@
+{
+  "schema": "canvas-float16-dirty-read-v1",
+  "scope": "synthetic cached image; no Viewer, animation or GPU performance",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "width": 1280,
+  "height": 800,
+  "attributes": {
+    "alpha": true,
+    "colorSpace": "srgb",
+    "colorType": "float16",
+    "desynchronized": false,
+    "toneMapping": {
+      "mode": "standard"
+    },
+    "willReadFrequently": true
+  },
+  "trials": [
+    {
+      "fullMs": 2.7999999970197678,
+      "fullBytes": 8192000,
+      "regions": [
+        {
+          "name": "quarter",
+          "x": 320,
+          "y": 200,
+          "width": 640,
+          "height": 400,
+          "readMs": 0.7999999970197678,
+          "bytes": 2048000,
+          "mismatched": 0
+        },
+        {
+          "name": "right-strip",
+          "x": 1120,
+          "y": 0,
+          "width": 160,
+          "height": 800,
+          "readMs": 0.5999999940395355,
+          "bytes": 1024000,
+          "mismatched": 0
+        },
+        {
+          "name": "tile-corner",
+          "x": 960,
+          "y": 600,
+          "width": 320,
+          "height": 200,
+          "readMs": 0.4000000059604645,
+          "bytes": 512000,
+          "mismatched": 0
+        }
+      ]
+    },
+    {
+      "fullMs": 2.7999999970197678,
+      "fullBytes": 8192000,
+      "regions": [
+        {
+          "name": "quarter",
+          "x": 320,
+          "y": 200,
+          "width": 640,
+          "height": 400,
+          "readMs": 0.7999999970197678,
+          "bytes": 2048000,
+          "mismatched": 0
+        },
+        {
+          "name": "right-strip",
+          "x": 1120,
+          "y": 0,
+          "width": 160,
+          "height": 800,
+          "readMs": 0.5999999940395355,
+          "bytes": 1024000,
+          "mismatched": 0
+        },
+        {
+          "name": "tile-corner",
+          "x": 960,
+          "y": 600,
+          "width": 320,
+          "height": 200,
+          "readMs": 0.29999999701976776,
+          "bytes": 512000,
+          "mismatched": 0
+        }
+      ]
+    },
+    {
+      "fullMs": 2.7000000029802322,
+      "fullBytes": 8192000,
+      "regions": [
+        {
+          "name": "quarter",
+          "x": 320,
+          "y": 200,
+          "width": 640,
+          "height": 400,
+          "readMs": 0.8999999910593033,
+          "bytes": 2048000,
+          "mismatched": 0
+        },
+        {
+          "name": "right-strip",
+          "x": 1120,
+          "y": 0,
+          "width": 160,
+          "height": 800,
+          "readMs": 0.5999999940395355,
+          "bytes": 1024000,
+          "mismatched": 0
+        },
+        {
+          "name": "tile-corner",
+          "x": 960,
+          "y": 600,
+          "width": 320,
+          "height": 200,
+          "readMs": 0.29999999701976776,
+          "bytes": 512000,
+          "mismatched": 0
+        }
+      ]
+    }
+  ]
+}
