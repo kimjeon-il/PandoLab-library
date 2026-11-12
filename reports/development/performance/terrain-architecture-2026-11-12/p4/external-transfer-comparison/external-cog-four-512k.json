@@ -1,0 +1,251 @@
+{
+  "schema": "pando-terrain-external-transfer-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "cogSha256": "bb39a8df768fe4562e3d160715d250d8ac04e4865e247d07f1064907092c5ccf",
+  "tileCount": 4,
+  "chunkBytes": 524288,
+  "dataRevision": "0fc425921e1fb431ef35d9af6f5ac762f2b3a269",
+  "cogUrl": "https://cdn.jsdelivr.net/gh/kimjeon-il/PandoLab-library-data@0fc425921e1fb431ef35d9af6f5ac762f2b3a269/reports/development/performance/terrain-architecture-2026-11-12/p3/centered-southwest-china-cog/regional-q1.tif",
+  "tileBase": "https://cdn.jsdelivr.net/gh/kimjeon-il/PandoLab-library-data@0fc425921e1fb431ef35d9af6f5ac762f2b3a269/reports/development/performance/terrain-architecture-2026-11-12/p2/fixtures-centered/webp/",
+  "startedAt": "2026-11-12T10:09:32.089Z",
+  "runs": [
+    {
+      "index": 1,
+      "candidate": "webp",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 572.5999999940395,
+          "resources": 4,
+          "transferBytes": 5325920,
+          "encodedBodyBytes": 5324720,
+          "blobCacheEntries": 4
+        },
+        {
+          "phase": "warm",
+          "durationMs": 89.79999999701977,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 4
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "candidate": "cog",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 1342.0999999940395,
+          "resources": 15,
+          "transferBytes": 7682533,
+          "encodedBodyBytes": 7678033,
+          "range": {
+            "requests": 15,
+            "networkBytes": 7678033,
+            "cacheHits": 1,
+            "inflightHits": 44,
+            "cachedBytes": 7678033,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          },
+          "cache": {
+            "decodedTiles": 4,
+            "reusedTiles": 0,
+            "pngCacheBytes": 8958142,
+            "tileEvictions": 0,
+            "maxTileCacheBytes": 33554432
+          }
+        },
+        {
+          "phase": "warm",
+          "durationMs": 82,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "range": {
+            "requests": 15,
+            "networkBytes": 7678033,
+            "cacheHits": 1,
+            "inflightHits": 44,
+            "cachedBytes": 7678033,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          },
+          "cache": {
+            "decodedTiles": 4,
+            "reusedTiles": 4,
+            "pngCacheBytes": 8958142,
+            "tileEvictions": 0,
+            "maxTileCacheBytes": 33554432
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "candidate": "cog",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 1349,
+          "resources": 15,
+          "transferBytes": 7682533,
+          "encodedBodyBytes": 7678033,
+          "range": {
+            "requests": 15,
+            "networkBytes": 7678033,
+            "cacheHits": 1,
+            "inflightHits": 44,
+            "cachedBytes": 7678033,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          },
+          "cache": {
+            "decodedTiles": 4,
+            "reusedTiles": 0,
+            "pngCacheBytes": 8958142,
+            "tileEvictions": 0,
+            "maxTileCacheBytes": 33554432
+          }
+        },
+        {
+          "phase": "warm",
+          "durationMs": 81.8999999910593,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "range": {
+            "requests": 15,
+            "networkBytes": 7678033,
+            "cacheHits": 1,
+            "inflightHits": 44,
+            "cachedBytes": 7678033,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          },
+          "cache": {
+            "decodedTiles": 4,
+            "reusedTiles": 4,
+            "pngCacheBytes": 8958142,
+            "tileEvictions": 0,
+            "maxTileCacheBytes": 33554432
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "candidate": "webp",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 567.1999999880791,
+          "resources": 4,
+          "transferBytes": 5325920,
+          "encodedBodyBytes": 5324720,
+          "blobCacheEntries": 4
+        },
+        {
+          "phase": "warm",
+          "durationMs": 89.70000000298023,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 4
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "candidate": "webp",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 562.7000000029802,
+          "resources": 4,
+          "transferBytes": 5325920,
+          "encodedBodyBytes": 5324720,
+          "blobCacheEntries": 4
+        },
+        {
+          "phase": "warm",
+          "durationMs": 89.5,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "blobCacheEntries": 4
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "candidate": "cog",
+      "status": "passed",
+      "samples": [
+        {
+          "phase": "cold",
+          "durationMs": 1341.7000000029802,
+          "resources": 15,
+          "transferBytes": 7682533,
+          "encodedBodyBytes": 7678033,
+          "range": {
+            "requests": 15,
+            "networkBytes": 7678033,
+            "cacheHits": 1,
+            "inflightHits": 44,
+            "cachedBytes": 7678033,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          },
+          "cache": {
+            "decodedTiles": 4,
+            "reusedTiles": 0,
+            "pngCacheBytes": 8958142,
+            "tileEvictions": 0,
+            "maxTileCacheBytes": 33554432
+          }
+        },
+        {
+          "phase": "warm",
+          "durationMs": 83,
+          "resources": 0,
+          "transferBytes": 0,
+          "encodedBodyBytes": 0,
+          "range": {
+            "requests": 15,
+            "networkBytes": 7678033,
+            "cacheHits": 1,
+            "inflightHits": 44,
+            "cachedBytes": 7678033,
+            "evictions": 0,
+            "maxCacheBytes": 33554432
+          },
+          "cache": {
+            "decodedTiles": 4,
+            "reusedTiles": 4,
+            "pngCacheBytes": 8958142,
+            "tileEvictions": 0,
+            "maxTileCacheBytes": 33554432
+          }
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "limitations": [
+    "Single 2x2 regional sample; localhost test page, external HTTPS CDN; not the Viewer or GPU rendering.",
+    "Cold means a fresh browser context; CDN edge, DNS and shared network caches are not controlled.",
+    "Warm means same-page reuse of an in-memory WebP blob or COG adapter PNG cache followed by image decoding.",
+    "Range payload counts are logical adapter bytes; Resource Timing transferSize includes browser cache effects and HTTP overhead.",
+    "COG uses a verified chunk cache and PNG conversion; WebP uses verified blobs; neither duplicates the Viewer GPU texture cache."
+  ],
+  "browserVersion": "151.0.7922.34",
+  "finishedAt": "2026-11-12T10:09:39.576Z"
+}
