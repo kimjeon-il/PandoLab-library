@@ -1,0 +1,27 @@
+{
+  "schema": "terrain-cpu-sampler-probe-v1",
+  "node": "v24.21.0",
+  "platform": "win32",
+  "arch": "x64",
+  "cpu": "AMD Ryzen 5 3500 6-Core Processor              ",
+  "memoryBytes": 34307358720,
+  "sourceSha256": "f92c88c7a88cb4887d0054e5a495c59db63dc88aa7d750e4393c2220dc7bfb55",
+  "scope": "single process synthetic 1026 tile; excludes drawing, cache, browser and Viewer",
+  "runs": [
+    {
+      "samples": 100000,
+      "elapsedMs": 72.0684,
+      "check": 11200000
+    },
+    {
+      "samples": 100000,
+      "elapsedMs": 56.40060000000001,
+      "check": 11200000
+    },
+    {
+      "samples": 100000,
+      "elapsedMs": 57.24889999999999,
+      "check": 11200000
+    }
+  ]
+}
