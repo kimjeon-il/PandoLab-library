@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    "viewer-terrain-b512-1/viewer-1-512-framebuffer-terrain.png",
+    "viewer-terrain-batch-1/viewer-1-512-framebuffer-terrain.png"
+  ],
+  "result": {
+    "width": 1280,
+    "height": 752,
+    "meanChannelDifference": 0.0013152426861702128,
+    "p95ChannelDifference": 0,
+    "maxChannelDifference": 1,
+    "pixelsOver2": 0,
+    "fractionPixelsOver2": 0
+  },
+  "limitations": "Separate SwiftShader CI runs; terrain-only single frame; differing asynchronous rendering state may contribute."
+}
