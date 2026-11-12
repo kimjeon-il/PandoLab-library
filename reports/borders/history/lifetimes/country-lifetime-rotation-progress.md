@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-11-12 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
+> 생성: 2026-10-17 · 최종 수정: 2026-11-13 회차 · 운영 분류: `work/gis` (보고서 정본은 별도 라이브러리 저장소)
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 북아메리카**
-- **lastCompletedRun: 2026-11-12** (벨리즈·자메이카·파나마 3국 국가별 상세 1차. 세 국가는 GEO-023에서 이미 입력한 독립일과 일치하며 신규 날짜 입력 0건; 독립법과 외교 승인, 파나마 운하지대 및 벨리즈 영토 분쟁 별도 2차 유보)
-- **nextRegion: 남아메리카**
-- **nextPhase: 남아메리카 미조사 국가·역사 정치체 1차 조사(소진 시 시기·사건별 2차 검증)**
-- **nextAction: 남아메리카 GEO-LIFE-001/008/014/020/026 및 GEO-023, 현재 288개 고정 국가 색인을 대조하여 미조사 역사 주권국·분리 정치체 2~4건의 1차 조사 우선. 남아메리카 현대 12개국의 기존 기본 날짜와 부에노스아이레스국·아크레·줄리아나 등 이미 조사한 역사 정치체는 신규 조사로 중복 집계하지 않음. 북아메리카 GEO-LIFE-031의 벨리즈 독립법·과테말라 국경 분쟁, 자메이카 헌법 원문·서인도 연방, 파나마 1903 원선언·운하 권원은 2차 유보. 아프리카 GEO-LIFE-030 및 타 지역 기존 미완료 모두 지속 인계.**
+- **lastProcessedRegion: 남아메리카**
+- **lastCompletedRun: 2026-11-13** (남아메리카 역사 정치체 3건 1차: 과야킬 자유주·쿤디나마르카국·엔트레리오스 공화국. 각 정치·헌정 사건은 출처 대조했으나 주권국 lifetime 확정 0건, 제품 데이터 입력 0건. 기존 남미 현대 12개국 및 GEO-LIFE-020/026 조사 대상과 신규 중복 없음)
+- **nextRegion: 오세아니아**
+- **nextPhase: 오세아니아 미조사 국가·역사 정치체 1차 조사(소진 시 시기·사건별 2차 검증)**
+- **nextAction: 오세아니아 GEO-LIFE-001/009/015/021/027 및 GEO-023과 현행 288개 고정 국가 색인을 대조해 미조사 주권국/역사 정치체 2~4건 1차 조사 우선. 기존 하와이·사모아·타히티·피지·보라보라·라이아테아–타하아·쿡 연방을 신규로 중복 집계하지 않음. 남아메리카 GEO-LIFE-032의 과야킬 1822년 7월 13일 사실상 통치 종료 대 7월 31일 법적 편입, 쿤디나마르카 1811 헌법/1813 독립선언/1814~1816 연방 편입·재정복, 엔트레리오스 지방정체의 비분리 성격 및 1821년 소멸일은 2차로 이월. 이전 모든 지역의 미완료 과제도 유지.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -31,13 +31,14 @@
 | 아시아 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) IRQ/JOR/LBN, [GEO-LIFE-011](country-lifetime-asia-south-southeast-2026-10-23.md) PAK/MYS/NPL, [GEO-LIFE-017](country-lifetime-asia-phl-qat-tls-2026-10-29.md) PHL/QAT/TLS, [GEO-LIFE-023: 코칸트·히바·부하라](country-lifetime-asia-historic-kokand-khiva-bukhara-2026-11-04.md), [GEO-LIFE-029: 시킴·예멘 아랍 공화국·남예멘](country-lifetime-asia-historic-sikkim-north-south-yemen-2026-11-10.md), GEO-LIFE-001 A–D 일부, GEO-023 기존 확정 사례 | 진행 중 | 미완료 | PHL 기존 1935 자치령/1946 독립, QAT 1878 통일/1971 독립, TLS 1975 선언/2002 독립 회복 구별 및 법적 계속성 유보; 중앙아시아 코칸트 1876 병합·히바 1920 폐지·부하라 1920 정권 교체 및 보호관계·법적 종료 2차 유보; 시킴 1950 보호조약/1975 편입, 북예멘 1962 체제변경/1990 통합, 남예멘 1967 독립/1970 개칭/1990 통합의 법적 동일성 2차 유보 |
 | 아프리카 | [GEO-LIFE-006: ERI·GNB·SEN](country-lifetime-africa-eri-gnb-sen-2026-10-18.md), [GEO-LIFE-012: CMR·MLI·TZA](country-lifetime-africa-cmr-mli-tza-2026-10-24.md), [GEO-LIFE-018: ETH·SDN·ZAF](country-lifetime-africa-eth-sdn-zaf-2026-10-30.md), [GEO-LIFE-024: 잔지바르·마다가스카르 왕국·다호메이 왕국](country-lifetime-africa-historic-zanzibar-madagascar-dahomey-2026-11-05.md), [GEO-LIFE-030: GHA·NAM·UGA](country-lifetime-africa-gha-nam-uga-2026-11-11.md), [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 | 진행 중 | 미완료 | 기존 ETH 점령기·SDN 승계·ZAF 주권 연속성 및 역사 왕국 국가성 2차 유보; GHA/NAM/UGA 시작일은 기존 현행 값과 일치, 정부체제·원법령 후속 대조 필요 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-019: 중앙아메리카 연방·텍사스·유카탄 역사 정치체](country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md), GEO-023 일부 , [GEO-LIFE-025: 서플로리다·남부연합·1921 중미 연방](country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md); [GEO-LIFE-031: BLZ·JAM·PAN 3국 상세 1차](country-lifetime-north-america-blz-jam-pan-2026-11-12.md) | 진행 중 | 미완료 | 세 역사 정치체 모두 현행 색인에 단독 ID 없음. 중앙아메리카 연방 해체일·텍사스 1845/1846 법적 종료 기준·유카탄 복수 분리 및 주권국가 여부, BLZ/JAM/PAN 법적·영토 이력 2차 유보; 3국의 기존 독립일은 GEO-023과 일치 |
-| 남아메리카 | [GEO-LIFE-026: 부에노스아이레스국·아크레·줄리아나](country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) 1차 추가, [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 3개 1차 추가, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류 |
+| 남아메리카 | [GEO-LIFE-032: 과야킬·쿤디나마르카·엔트레리오스](country-lifetime-south-america-historic-guayaquil-cundinamarca-entre-rios-2026-11-13.md) 1차 추가, [GEO-LIFE-026: 부에노스아이레스국·아크레·줄리아나](country-lifetime-south-america-historic-buenos-aires-acre-juliana-2026-11-07.md) 1차 추가, [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR, [GEO-LIFE-020: 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 공화국](country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | 현행 12개 주권국 기초 기록 확인; 역사 정치체 추가 배치 3개(기존 6건 + 금회 3건) 1차 검토, 소멸국 전수 미완료 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1819/1831 그란콜롬비아 법적 존속, 1836/1839 페루–볼리비아 연합의 정부 종결·법률 효력 구별, 리우그란덴시 공화국 국제법상 국가성 보류; GEO-LIFE-032 과야킬 법적 편입일·쿤디나마르카 국가 계속성·엔트레리오스 비분리 정치체 분류 유보 |
 | 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 선행 근거 확인, 19세기 정치체 3개 1차 추가, 소멸국 전수 및 COK/NIU 법적 분류는 미완료 | 미완료 | NZL·하와이 법적 계속성 유보; GEO-LIFE-021 피지 왕국·타히티 보호국·쿡 연방(비주권) 1차, 1871/1880/1900~1901 법적 기간 2차 유보 |
 
 ## 실행 이력
 
 | 조사 배치 완료일 | 조사 지역 | 단계 | 신규 조사 | 보고서 | 다음 지역 |
 | --- | --- | --- | --- | --- | --- |
+| **2026-11-13** | **남아메리카** | **역사 정치체 1차** | 과야킬 자유주·쿤디나마르카국·엔트레리오스 공화국 3건(현행 국가/선행 역사정체 중복 제외, 독립 주권국 판정 유보) | [GEO-LIFE-032](country-lifetime-south-america-historic-guayaquil-cundinamarca-entre-rios-2026-11-13.md) — 1820/1822 과야킬 독립정부/편입 분리, 1811/1813 쿤디나마르카 헌정/독립선언, 1820/1821 엔트레리오스 지방 정체, lifetime 확정 0건 | **오세아니아** |
 | **2026-11-12** | **북아메리카** | **국가별 상세 1차** | BLZ·JAM·PAN 3국(선행 GEO-023 독립일은 신규 발견·입력으로 중복 계수하지 않음) | [GEO-LIFE-031](country-lifetime-north-america-blz-jam-pan-2026-11-12.md) — 1981/1962/1903 독립 효력과 타국 승인·영토 변천 분리, 기존 시작일 수정 0건 | **남아메리카** |
 | **2026-10-17** | **아시아** | 국가별 1차 | `IRQ`, `JOR`, `LBN` 3개 | [GEO-LIFE-005](country-lifetime-asia-middle-east-2026-10-17.md) | **아프리카** |
 | **2026-10-18** | **아프리카** | 국가별 1차 | `ERI`, `GNB`, `SEN` 3개 | [GEO-LIFE-006](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) — 2026-10-19 원격 등록 | **북아메리카** |
@@ -257,3 +258,11 @@
 - **2차 보류:** 벨리즈 영국 독립령·헌법 부칙 원문 전체 및 과테말라 분쟁 법적 지위, 자메이카 헌법 원문·서인도 연방과 종속 도서, 파나마 1903 독립 선언 원본 및 운하 영토 주권·관할·운영권 분리. GEO-LIFE-007/019/025 기존 날짜 충돌 및 미승인 정치체 법적 국가성도 유보 유지.
 - **검사/변경:** 웹 출처 일부 직접 열람; 영국 원본 PDF 이미지 전수·법령 XHTML 직접 열람 일부·GIS/위상/지도/웹/앱 및 로컬 `publish-reports`/`check-reports` 미실행. **국가 lifetime·형상·정본 타임라인·Pando 코드/브랜치·배포 변경 0건**. 외부 라이브러리 보고서·진행기록·색인만 등록.
 - **커서:** `lastProcessedRegion=북아메리카`, `nextRegion=남아메리카`, `nextPhase=미조사 국가·역사 정치체 1차 2~4건(소진 시 2차)`. 모든 6지역 1·2차 전수 미완료. 1801년 이전 미조사, 횡단국 RUS/TUR/GEO 유럽 고정.
+
+
+## 2026-11-13 남아메리카 1차 조사 — GEO-LIFE-032
+
+- **선정**: 과야킬 자유주·쿤디나마르카국·엔트레리오스 공화국 3건. 앞선 GEO-LIFE-001/008/014/020/026 및 GEO-023 현행국·역사 정치체와 중복하지 않음. 고정 자료 revision `921d86aa3c03ffa0b3d5879ad30c9914c4d1b31a`, 288개 인덱스 엔티티 실제 파싱, 위 3개 역사 정체 ID는 없음.
+- **1차 확인**: 과야킬 1820-10-09 독립·1822-07-13 집행정부 종료·07-31 법적 편입 후보; 쿤디나마르카 1811-03-30 헌법·1813-07-16 완전 독립 선언·1814~16 실효·법적 지위 유보; 엔트레리오스 1820-09-29 조직 선언·1821-07-10 창설자 사망·1821-09-28 체제 종료 문헌후속. 특히 공화국이라는 명칭만으로 주권국 아님.
+- **검증·보류**: 독립 기관/학술자료 교차 조회 완료, 엔트레리오스 2020년 주정부 연구집 PDF p.40/p.96 실제 화면 확인; 원헌법·관보 전체 원문과 최종 법적 존속기간 판정 미완료. 국가·형상/지도/코드 수정 0건, GIS 검사·전체 원문 대조·로컬 보고서 게시/검사 명령 미실행(원격 보고서 직접 저장 및 재조회와 구별).
+- **커서**: `lastProcessedRegion=남아메리카`, `nextRegion=오세아니아`, `nextPhase=미조사 2~4개 1차`; 여섯 지역 모두 1·2차 전수 미완료.
