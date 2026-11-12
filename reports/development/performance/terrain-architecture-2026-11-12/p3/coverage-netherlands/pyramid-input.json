@@ -1,0 +1,80 @@
+{
+  "schema": "pando-terrain-cog-pyramid-input-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "region": "netherlands-coast",
+  "baseOrigin": [
+    19452,
+    3068
+  ],
+  "records": [
+    {
+      "level": 5,
+      "width": 5128,
+      "height": 3080,
+      "window": [
+        19452,
+        3068,
+        24580,
+        6148
+      ],
+      "file": "lod5.rgba.gz",
+      "rawBytes": 63176960,
+      "rawSha256": "a20038dffd049b719c15c0c1d582f3699f2590e7ebb7b3a02937cd483746cd19",
+      "gzipBytes": 17163947,
+      "gzipSha256": "16aa10f8ced16cafae25bfce6a5e255db0cdf9297712594f618a6d9315195068",
+      "count": 15794240,
+      "minMeters": -6407.5,
+      "maxMeters": 4504.45458984375,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 10.050088933896552,
+      "rmseMeters": 18.564498568192285,
+      "shadeSha256": "9dddc0cd1587105a4289e09e3a487fd073889bfb522e772405d9b8548a9beb52"
+    },
+    {
+      "level": 4,
+      "width": 2564,
+      "height": 1540,
+      "window": [
+        9726,
+        1534,
+        12290,
+        3074
+      ],
+      "file": "lod4.rgba.gz",
+      "rawBytes": 15794240,
+      "rawSha256": "256e9639e40a08b68ebbda9276be8feba8d55ce8803e771b8174532fea97b927",
+      "gzipBytes": 4293681,
+      "gzipSha256": "628730df1d20523d678a50618b03d4ab5e852cac675e2b59159d3486c02a886b",
+      "count": 3948560,
+      "minMeters": -6367.625,
+      "maxMeters": 4209.76953125,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 10.051414867854444,
+      "rmseMeters": 18.568589826726786,
+      "shadeSha256": "37be67afcefa1732159c8ed32b08993e7f5508ed658bf5acff20dc17229564ab"
+    },
+    {
+      "level": 3,
+      "width": 1282,
+      "height": 770,
+      "window": [
+        4863,
+        767,
+        6145,
+        1537
+      ],
+      "file": "lod3.rgba.gz",
+      "rawBytes": 3948560,
+      "rawSha256": "910b5e1ce4a8158e66a3ee43e2044878abf1bffa73939136c4ec67884cc769a8",
+      "gzipBytes": 1091509,
+      "gzipSha256": "32d902f9aef8a3bce0d39dd305549b37730396681a0b23c52a353112140be984",
+      "count": 987140,
+      "minMeters": -6273.609375,
+      "maxMeters": 3922.841552734375,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 10.063504463413304,
+      "rmseMeters": 18.59219812734446,
+      "shadeSha256": "4acf3b7ffe9179d32c5f049ec39535a2be1fb8b75d52d784d23f134f337a9f1e"
+    }
+  ]
+}
