@@ -25,7 +25,7 @@ NOAA 원본 SHA-256 `8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b
 
 실제 Viewer 재실행 `43158642846`은 2×2 시험 자료의 가시 타일 누락과 1024 타일의 기본 96MiB 가시 예산 초과로 실패했다. 지명 Worker 15초 초과도 별도로 관측됐다. 원본 결과는 [뷰어 시험](p2/viewer-smoke/README.md)을 참조한다. 실패에서 기존 1배 화면을 32배 결과로 인정하지 않았다.
 
-[확장 자료](p2/fixtures-coverage/README.md)는 세 지역의 보수적 가시 여유를 포함하며, [중국 COG](p3/coverage-china/README.md), [태국 COG](p3/coverage-thai/README.md), [네덜란드 COG](p3/coverage-netherlands/README.md)는 브라우저 복원 화소가 512·1024 참조 타일과 일치한다. 두 후보를 동일 상세도로 비교하는 별도 시험에는 후보 모두 같은 192MiB 가시 예산을 적용한다. 이는 실험 조건이며 기본 96MiB에서 발생한 상세도 하향을 지우거나 현행 운영 성능으로 취급하지 않는다. 실제 뷰어의 반복·상호작용·전체 화면과 지명 오류 및 Canvas 검증은 아직 완료되지 않았다.
+[확장 자료](p2/fixtures-coverage/README.md)는 세 지역의 보수적 가시 여유를 포함하며, [중국 COG](p3/coverage-china/README.md), [태국 COG](p3/coverage-thai/README.md), [네덜란드 COG](p3/coverage-netherlands/README.md)는 브라우저 복원 화소가 512·1024 참조 타일과 일치한다. 동일 상세도를 시도한 별도 시험에서 A1/B/C/D는 192MiB 가시 예산을 사용하고 A0은 제품 기본 96MiB를 유지한다. 이 조건만으로 모든 장면의 동일 LOD가 보장되지는 않는다. 이는 실험 조건이며 기본 96MiB에서 발생한 상세도 하향을 지우거나 현행 운영 성능으로 취급하지 않는다. 실제 뷰어의 반복·상호작용·전체 화면과 지명 오류 및 Canvas 검증은 아직 완료되지 않았다.
 
 현재 실험 코드 기준은 `work/gis` 앱 `d542cbb43`이다. 자료 표본은 자료 저장소 `11c1d4be35ec3d5aeab57393f2f947f6d810ad7d`, COG 표본은 `0fc425921e1fb431ef35d9af6f5ac762f2b3a269`의 고정 파일이다. 아래로 추가된 결과가 앞의 상태 표보다 최신이다.
 
@@ -42,3 +42,13 @@ NOAA 원본 SHA-256 `8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b
 동일 화소의 512·1024 타일은 네 지역 표본에서 [파일 합계 약 0.9~1.1% 차이](p2/tile-size-regional/README.md)가 났으며 요청 수는 60 대 15다. 히말라야의 [타일](p2/fixtures-himalaya/README.md)과 [COG](p3/coverage-himalaya/README.md)도 원본·복원 해시를 검증했다. [GTX 1650 독립 실험](p3/screen-space-globe-gtx1650/README.md)은 뷰어가 아닌 정적 화면공간 시제품이며 동일 기기의 A1/B/C 비교가 아니다.
 
 앱 `4e6e3aa55`로 중국 다섯 후보의 교차 3회 및 상호작용 측정 실행 `43170691547`이 진행 중이다. 이후 실험 코드 `77ba05ff7`에는 히말라야, 8/16/32배, 10초 이동·테마 왕복, 지형 단독 프레임과 장면별 캐시 기록이 추가됐지만 실제 Viewer에서 아직 전체 검증되지 않았다. 이 문서는 중간 기록이다. 세 지역 이상의 반복·전체 상호작용, 물리 GPU의 실제 뷰어, Canvas 및 하드 게이트 판정이 남아 있으므로 최종 점수와 구조 추천을 확정하지 않는다.
+
+## 최신 진행 기록: 확장 시나리오와 제품 투영 제약
+
+[중국 교차 반복](p4/china-interleaved-1/README.md)은 다섯 후보 각각 세 반복과 기존 일곱 장면을 기록했다. 후보 A0과 나머지는 고도 자료·LOD·예산·전송 경로가 달라 성능 순위 근거가 아니다. 소프트웨어 Chromium의 프레임 간격은 대기를 포함하므로 실 GPU 프레임 시간으로 취급하지 않는다.
+
+[중국 A1 확장 시나리오](p4/china-a1-extended-phases/README.md)는 10초 이동, 8·16·32배, 날짜, 테마, 세 지형 모드를 포함한 15개 장면의 단일 반복에 성공했다. 이전에는 [5×3 표본이 16배에서 누락](p4/zoom16-fixture-coverage-failure/README.md)됐고 별도로 [프레임 캡처 대기 제한](p4/late-capture-diagnostic/README.md)이 발생해 원본을 보존했다. 5×4 [중국 표본](p4/china-5x4-fixtures/README.md) 및 세 [지역별 확장 표본](p4/regions-extended-fixtures/README.md)에서 무손실 복호화·공유 경계·COG 원본 일치를 확인했다. 실제 COG 외부 호스팅 적합성이나 모든 장면의 같은 LOD는 아직 증명하지 않았다.
+
+같은 512 타일을 사용하는 B와 D의 [지형 단독 단일 프레임 비교](p4/terrain-isolation-1/README.md)에서는 RGB 2단계 초과 화소가 32.12%였다. 서로 다른 실행의 정지 화면이라 원인을 단정하지 않는다. [평면 실험](p4/viewer-flat-policy/README.md)은 최신 Viewer 제품 정책이 지구본만 허용해 실제 화면 전환이 거부됐다. 평면 시제품의 합성 WebGL 검사를 실제 Viewer 증거로 취급하지 않는다.
+
+`work/gis` 앱 `2c23275cd`의 중국 다섯 후보 3회 교차 및 확장 시나리오 실행 `43189277151`은 진행 중이다. 나머지 지역의 실제 화면과 세 반복, 실 GPU Viewer와 Canvas, cold/warm 외부 전송 및 하드 게이트 평가가 남았다. 따라서 G1–G6 통과, 후보별 점수, 최종 구조는 아직 결정하지 않는다. main·공개 배포·운영 자료 핀은 변경하지 않았다.
