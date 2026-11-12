@@ -1,0 +1,3416 @@
+{
+  "schema": "pando-terrain-viewer-summary-v1",
+  "region": "southwest-china",
+  "identity": {
+    "commit": "4e6e3aa55f709c64d35dbed3c871e2f48f79ec5c",
+    "pin": "921d86aa3c03ffa0b3d5879ad30c9914c4d1b31a",
+    "platform": "linux",
+    "node": "v24.22.2",
+    "scenario": "Chromium SwiftShader; 1280x800; light UI; 2026-11-06 clock; 1 fresh browser per revision; same runner",
+    "viewport": [
+      1280,
+      800
+    ],
+    "cachePolicy": "separate fresh browser instances; browser default cache; same-page date-return reuse",
+    "memoryPolicy": "V8 main page used heap via CDP after GC; Chromium process-family PSS via Linux procfs when available (includes workers/WASM in process memory, excludes GPU VRAM).",
+    "cpuPolicy": "CDP TaskDuration and ScriptDuration are renderer task/script time (not system-wide CPU percent).",
+    "framePolicy": "requestAnimationFrame pacing is a scheduling FPS proxy, not measured GPU presentation rate.",
+    "gpuPolicy": "GPU draw-call and buffer counts from renderer; actual VRAM/utilization/kernel timing not measured."
+  },
+  "sourceStatus": "passed",
+  "fixtureRevision": "11c1d4be35ec3d5aeab57393f2f947f6d810ad7d",
+  "fixtureManifestSha256": "3093b6164d6907ce78f48e2ceade139274aea73827c124f878b721407eaa7e82",
+  "cogSource": {
+    "revision": "0fc425921e1fb431ef35d9af6f5ac762f2b3a269",
+    "folder": "coverage-china",
+    "hash": "b578c6f0e7e2df30d267c2ece476f7e889c149319595e710e6ae0110fef183ab"
+  },
+  "tilePrefetch": {
+    "files": 75,
+    "bytes": 26100134,
+    "durationMs": 2005.746472
+  },
+  "comparisonPolicy": {
+    "byteBudget": 201326592,
+    "bytesPerPixel": 12
+  },
+  "normalizedBudget": true,
+  "minimumValidRepetitions": 3,
+  "limitations": [
+    "Only a bounded LOD5 region uses Q1; lower LODs use the original v0.14 tiles.",
+    "A0 is a separate existing-data baseline served by the existing local server; it does not use Q1, the experiment shader, a modified admission budget, or the in-memory fixture proxy.",
+    "A1/B/C/D use an experiment-only 192MiB visible DEM admission limit; A0 retains the product default of 96MiB and may select a coarser level.",
+    "Programmatic camera setup triggers the full view invalidation in this experiment so label layout follows the camera.",
+    "Only WebGL2 at desktop DPR 1 on SwiftShader; smoke mode covers one stationary 32x scene only.",
+    "Warm return is same-page memory/cache reuse, not a separate browser warm-navigation measurement.",
+    "512 versus 1024 varies tile partition only; an atlas or instancing optimization is not implemented.",
+    "Verified tiles and COG bytes are prefetched outside timing and served from memory through interception; request origins differ and CDP totals are not real-host transfer measurements.",
+    "COG runs use a simulated same-origin 206 range host; GitHub raw CORS is not fixed by this test.",
+    "Screen-space D is a bounded 512-tile atlas prototype; unsupported coverage retains the existing tile path and is not counted as D.",
+    "rAF intervals are scheduling proxies, not actual GPU presentation or GPU time.",
+    "Medians summarize per-run statistics; they are not pooled frame percentiles or confidence intervals.",
+    "Hard gates and scores require independent visual, failure, hardware, and operational evidence."
+  ],
+  "groups": [
+    {
+      "candidate": "a0",
+      "scene": "zoom32",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            49858,
+            52363,
+            52030
+          ],
+          "median": 52030
+        },
+        "p50Ms": {
+          "values": [
+            16.69999999999709,
+            16.69999999999709,
+            16.69999999999709
+          ],
+          "median": 16.69999999999709
+        },
+        "p95Ms": {
+          "values": [
+            616.5999999999985,
+            1350,
+            1433.199999999997
+          ],
+          "median": 1350
+        },
+        "p99Ms": {
+          "values": [
+            3799.9000000000015,
+            3799.9000000000015,
+            3649.7999999999884
+          ],
+          "median": 3799.9000000000015
+        },
+        "pssBytes": {
+          "values": [
+            2377028608,
+            2455355392,
+            2230560768
+          ],
+          "median": 2377028608
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            246873644,
+            245764900,
+            246581928
+          ],
+          "median": 246581928
+        },
+        "cpuTaskMs": {
+          "values": [
+            42888.85999999999,
+            34744.81,
+            42387.088
+          ],
+          "median": 42387.088
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "drag",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            256,
+            297,
+            275
+          ],
+          "median": 275
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2245306368,
+            2290113536,
+            2273166336
+          ],
+          "median": 2273166336
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            261765624,
+            261017048,
+            261909440
+          ],
+          "median": 261765624
+        },
+        "cpuTaskMs": {
+          "values": [
+            257.50099999999065,
+            279.39999999999543,
+            247.96199999998692
+          ],
+          "median": 257.50099999999065
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "rotate",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            3,
+            55,
+            4
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.79999999998836,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2261214208,
+            2309158912,
+            2288353280
+          ],
+          "median": 2288353280
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            260165432,
+            259401056,
+            260383132
+          ],
+          "median": 260165432
+        },
+        "cpuTaskMs": {
+          "values": [
+            62.75700000000484,
+            84.92500000001257,
+            56.98199999999076
+          ],
+          "median": 62.75700000000484
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "previous-year",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            295,
+            289,
+            296
+          ],
+          "median": 295
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2246424576,
+            2336192512,
+            2277249024
+          ],
+          "median": 2277249024
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            259923136,
+            261569152,
+            259965136
+          ],
+          "median": 259965136
+        },
+        "cpuTaskMs": {
+          "values": [
+            384.38499999999465,
+            136.27900000000182,
+            308.6410000000086
+          ],
+          "median": 308.6410000000086
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "date-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            287,
+            286,
+            302
+          ],
+          "median": 287
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2264295424,
+            2310055936,
+            2299240448
+          ],
+          "median": 2299240448
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            264227368,
+            259651320,
+            264262036
+          ],
+          "median": 264227368
+        },
+        "cpuTaskMs": {
+          "values": [
+            118.84299999999826,
+            411.6960000000063,
+            118.39400000000921
+          ],
+          "median": 118.84299999999826
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "dark",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            254,
+            261
+          ],
+          "median": 254
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2284251136,
+            2316654592,
+            2316062720
+          ],
+          "median": 2316062720
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            264841364,
+            261531004,
+            264902280
+          ],
+          "median": 264841364
+        },
+        "cpuTaskMs": {
+          "values": [
+            90.62499999998863,
+            117.44500000000357,
+            96.06200000000342
+          ],
+          "median": 96.06200000000342
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "light",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            258,
+            254
+          ],
+          "median": 254
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2290915328,
+            2332825600,
+            2325876736
+          ],
+          "median": 2325876736
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            264981936,
+            263447292,
+            265046700
+          ],
+          "median": 264981936
+        },
+        "cpuTaskMs": {
+          "values": [
+            103.39500000000612,
+            107.86500000000387,
+            89.15799999999763
+          ],
+          "median": 103.39500000000612
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a0",
+      "scene": "warm-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            4,
+            49,
+            4
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2295392256,
+            2342418432,
+            2331287552
+          ],
+          "median": 2331287552
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            263089476,
+            263269008,
+            265418880
+          ],
+          "median": 263269008
+        },
+        "cpuTaskMs": {
+          "values": [
+            80.95199999999636,
+            80.99999999998886,
+            71.645999999987
+          ],
+          "median": 80.95199999999636
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64640072,
+            64640072,
+            64640072
+          ],
+          "median": 64640072
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "zoom32",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            59757,
+            60221,
+            59408
+          ],
+          "median": 59757
+        },
+        "p50Ms": {
+          "values": [
+            16.69999999999709,
+            16.69999999999709,
+            16.69999999999709
+          ],
+          "median": 16.69999999999709
+        },
+        "p95Ms": {
+          "values": [
+            133.40000000000146,
+            116.70000000000437,
+            133.3000000000029
+          ],
+          "median": 133.3000000000029
+        },
+        "p99Ms": {
+          "values": [
+            4399.800000000003,
+            4449.800000000003,
+            4149.799999999988
+          ],
+          "median": 4399.800000000003
+        },
+        "pssBytes": {
+          "values": [
+            2347932672,
+            2439248896,
+            2481013760
+          ],
+          "median": 2439248896
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            246207736,
+            245355516,
+            246806956
+          ],
+          "median": 246207736
+        },
+        "cpuTaskMs": {
+          "values": [
+            51075.146,
+            50687.438,
+            48538.13000000001
+          ],
+          "median": 50687.438
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "drag",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            660,
+            552,
+            563
+          ],
+          "median": 563
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.79999999998836,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2342524928,
+            2297314304,
+            2348139520
+          ],
+          "median": 2342524928
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            272372792,
+            262271752,
+            263149640
+          ],
+          "median": 263149640
+        },
+        "cpuTaskMs": {
+          "values": [
+            475.7250000000113,
+            288.6299999999977,
+            277.48900000000276
+          ],
+          "median": 288.6299999999977
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "rotate",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            3,
+            5,
+            4
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.79999999998836
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2362275840,
+            2314619904,
+            2361181184
+          ],
+          "median": 2361181184
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267822672,
+            264013016,
+            264754584
+          ],
+          "median": 264754584
+        },
+        "cpuTaskMs": {
+          "values": [
+            56.80499999999711,
+            58.988000000013585,
+            57.42399999999748
+          ],
+          "median": 57.42399999999748
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "previous-year",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            294,
+            302,
+            305
+          ],
+          "median": 302
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2381015040,
+            2290994176,
+            2339886080
+          ],
+          "median": 2339886080
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            271386168,
+            263128804,
+            263053060
+          ],
+          "median": 263128804
+        },
+        "cpuTaskMs": {
+          "values": [
+            123.79400000000373,
+            146.23699999998507,
+            146.19799999999827
+          ],
+          "median": 146.19799999999827
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "date-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            288,
+            290,
+            295
+          ],
+          "median": 290
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2400528384,
+            2309004288,
+            2357195776
+          ],
+          "median": 2357195776
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            275336856,
+            266767708,
+            266275196
+          ],
+          "median": 266767708
+        },
+        "cpuTaskMs": {
+          "values": [
+            112.01800000000617,
+            117.61400000000322,
+            114.86100000001898
+          ],
+          "median": 114.86100000001898
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "dark",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            274,
+            253,
+            254
+          ],
+          "median": 254
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2384422912,
+            2335357952,
+            2379523072
+          ],
+          "median": 2379523072
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            261729644,
+            267507384,
+            266811168
+          ],
+          "median": 266811168
+        },
+        "cpuTaskMs": {
+          "values": [
+            339.97600000000716,
+            93.92200000002049,
+            98.00699999999551
+          ],
+          "median": 98.00699999999551
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "light",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            255,
+            256
+          ],
+          "median": 255
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.800000000017462
+          ],
+          "median": 16.79999999998836
+        },
+        "pssBytes": {
+          "values": [
+            2385348608,
+            2350251008,
+            2400003072
+          ],
+          "median": 2385348608
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            266163296,
+            267697292,
+            267135908
+          ],
+          "median": 267135908
+        },
+        "cpuTaskMs": {
+          "values": [
+            106.77899999998886,
+            107.02200000000062,
+            91.54499999999643
+          ],
+          "median": 106.77899999998886
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "a1",
+      "scene": "warm-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.800000000017462,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "pssBytes": {
+          "values": [
+            2396387328,
+            2359954432,
+            2405147648
+          ],
+          "median": 2396387328
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            264671788,
+            265824324,
+            267714612
+          ],
+          "median": 265824324
+        },
+        "cpuTaskMs": {
+          "values": [
+            70.47799999998006,
+            83.6970000000008,
+            80.90299999997796
+          ],
+          "median": 80.90299999997796
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65300504,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "zoom32",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            101727,
+            90608,
+            99308
+          ],
+          "median": 99308
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.69999999999709
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            3883.2000000000116,
+            3116.5,
+            3283.199999999997
+          ],
+          "median": 3283.199999999997
+        },
+        "p99Ms": {
+          "values": [
+            4549.899999999994,
+            4349.800000000003,
+            4799.800000000003
+          ],
+          "median": 4549.899999999994
+        },
+        "pssBytes": {
+          "values": [
+            2304787456,
+            2222066688,
+            2230307840
+          ],
+          "median": 2230307840
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            273605156,
+            247496204,
+            247614812
+          ],
+          "median": 247614812
+        },
+        "cpuTaskMs": {
+          "values": [
+            85729.598,
+            76947.45,
+            99299.074
+          ],
+          "median": 85729.598
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64526968,
+            64526968,
+            64526968
+          ],
+          "median": 64526968
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "drag",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            549,
+            296,
+            430
+          ],
+          "median": 430
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2389209088,
+            2255443968,
+            2291534848
+          ],
+          "median": 2291534848
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            291728880,
+            261593444,
+            271217024
+          ],
+          "median": 271217024
+        },
+        "cpuTaskMs": {
+          "values": [
+            303.1549999999896,
+            532.1969999999965,
+            446.44199999999046
+          ],
+          "median": 446.44199999999046
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "rotate",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            53,
+            29,
+            5
+          ],
+          "median": 29
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2400845824,
+            2264546304,
+            2285816832
+          ],
+          "median": 2285816832
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            291446688,
+            263281540,
+            261295040
+          ],
+          "median": 263281540
+        },
+        "cpuTaskMs": {
+          "values": [
+            112.10299999999052,
+            91.24099999999657,
+            84.274999999991
+          ],
+          "median": 91.24099999999657
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "previous-year",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            294,
+            290,
+            299
+          ],
+          "median": 294
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2425143296,
+            2283908096,
+            2312956928
+          ],
+          "median": 2312956928
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            292687888,
+            264309680,
+            264818992
+          ],
+          "median": 264818992
+        },
+        "cpuTaskMs": {
+          "values": [
+            169.65500000000588,
+            117.35400000000595,
+            137.37300000002506
+          ],
+          "median": 137.37300000002506
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "date-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            297,
+            299,
+            290
+          ],
+          "median": 297
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2308173824,
+            2310753280,
+            2344041472
+          ],
+          "median": 2310753280
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267020748,
+            268311428,
+            269080692
+          ],
+          "median": 268311428
+        },
+        "cpuTaskMs": {
+          "values": [
+            130.71800000000167,
+            111.54799999999909,
+            131.69500000000767
+          ],
+          "median": 130.71800000000167
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "dark",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            254,
+            265
+          ],
+          "median": 254
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2303991808,
+            2331282432,
+            2367908864
+          ],
+          "median": 2331282432
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            265119512,
+            268822548,
+            267163780
+          ],
+          "median": 267163780
+        },
+        "cpuTaskMs": {
+          "values": [
+            129.0000000000191,
+            89.05099999998356,
+            99.52400000000239
+          ],
+          "median": 99.52400000000239
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "light",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            256,
+            260
+          ],
+          "median": 256
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999953434,
+            16.699999999982538,
+            16.70000000001164
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.800000000017462,
+            16.800000000046566
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2320039936,
+            2311789568,
+            2345671680
+          ],
+          "median": 2320039936
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            264701048,
+            263187460,
+            267424480
+          ],
+          "median": 264701048
+        },
+        "cpuTaskMs": {
+          "values": [
+            102.87999999999897,
+            109.48300000001154,
+            192.67600000000584
+          ],
+          "median": 109.48300000001154
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "b512",
+      "scene": "warm-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            4,
+            4,
+            49
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999953434,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.800000000046566,
+            16.800000000046566
+          ],
+          "median": 16.800000000046566
+        },
+        "pssBytes": {
+          "values": [
+            2333003776,
+            2317982720,
+            2358758400
+          ],
+          "median": 2333003776
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            266124600,
+            262868068,
+            272167528
+          ],
+          "median": 266124600
+        },
+        "cpuTaskMs": {
+          "values": [
+            77.52700000000345,
+            84.45100000000139,
+            111.61199999997962
+          ],
+          "median": 84.45100000000139
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "zoom32",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            39817,
+            51724,
+            39185
+          ],
+          "median": 39817
+        },
+        "p50Ms": {
+          "values": [
+            16.69999999999709,
+            16.69999999999709,
+            16.69999999999709
+          ],
+          "median": 16.69999999999709
+        },
+        "p95Ms": {
+          "values": [
+            133.39999999999418,
+            150,
+            150
+          ],
+          "median": 150
+        },
+        "p99Ms": {
+          "values": [
+            2533.2000000000116,
+            366.59999999999854,
+            2883.300000000003
+          ],
+          "median": 2533.2000000000116
+        },
+        "pssBytes": {
+          "values": [
+            2473992192,
+            2491445248,
+            2349809664
+          ],
+          "median": 2473992192
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            247640416,
+            252324964,
+            247316908
+          ],
+          "median": 247640416
+        },
+        "cpuTaskMs": {
+          "values": [
+            34627.384000000005,
+            51420.356999999996,
+            31789.825000000004
+          ],
+          "median": 34627.384000000005
+        },
+        "terrainCacheBytes": {
+          "values": [
+            66457832,
+            66457832,
+            66457832
+          ],
+          "median": 66457832
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "drag",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            19550,
+            19839,
+            19682
+          ],
+          "median": 19682
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            33.30000000000291,
+            33.39999999999418,
+            16.800000000017462
+          ],
+          "median": 33.30000000000291
+        },
+        "pssBytes": {
+          "values": [
+            2395532288,
+            2357402624,
+            2374048768
+          ],
+          "median": 2374048768
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            265301124,
+            264536040,
+            266423184
+          ],
+          "median": 265301124
+        },
+        "cpuTaskMs": {
+          "values": [
+            19385.625000000004,
+            19651.015,
+            19469.252999999993
+          ],
+          "median": 19469.252999999993
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "rotate",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            37,
+            3,
+            4
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.79999999998836,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2404965376,
+            2370313216,
+            2384919552
+          ],
+          "median": 2384919552
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            265736836,
+            264931868,
+            266664436
+          ],
+          "median": 265736836
+        },
+        "cpuTaskMs": {
+          "values": [
+            70.36399999999787,
+            62.571000000019694,
+            71.63699999999551
+          ],
+          "median": 70.36399999999787
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "previous-year",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            293,
+            308,
+            295
+          ],
+          "median": 295
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2382478336,
+            2393361408,
+            2371361792
+          ],
+          "median": 2382478336
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267353516,
+            268509548,
+            266132016
+          ],
+          "median": 267353516
+        },
+        "cpuTaskMs": {
+          "values": [
+            152.47999999999706,
+            127.94599999998013,
+            141.019
+          ],
+          "median": 141.019
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "date-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            281,
+            292,
+            288
+          ],
+          "median": 288
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "pssBytes": {
+          "values": [
+            2399529984,
+            2415504384,
+            2393000960
+          ],
+          "median": 2399529984
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267368444,
+            269707876,
+            271155368
+          ],
+          "median": 269707876
+        },
+        "cpuTaskMs": {
+          "values": [
+            133.45200000000546,
+            119.91100000000188,
+            119.64599999998882
+          ],
+          "median": 119.91100000000188
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "dark",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            253,
+            254
+          ],
+          "median": 254
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2418179072,
+            2443873280,
+            2417613824
+          ],
+          "median": 2418179072
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267659728,
+            270133384,
+            272079236
+          ],
+          "median": 270133384
+        },
+        "cpuTaskMs": {
+          "values": [
+            94.54899999998645,
+            96.11000000001013,
+            102.73699999999053
+          ],
+          "median": 96.11000000001013
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "light",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            254,
+            269
+          ],
+          "median": 254
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2441563136,
+            2413620224,
+            2433326080
+          ],
+          "median": 2433326080
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267844000,
+            265025824,
+            272264452
+          ],
+          "median": 267844000
+        },
+        "cpuTaskMs": {
+          "values": [
+            121.75799999999981,
+            117.5139999999999,
+            115.73400000000333
+          ],
+          "median": 117.5139999999999
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "cog",
+      "scene": "warm-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            4,
+            4,
+            52
+          ],
+          "median": 4
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.79999999998836,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2451672064,
+            2419268608,
+            2440252416
+          ],
+          "median": 2440252416
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            267653296,
+            265870792,
+            272671632
+          ],
+          "median": 267653296
+        },
+        "cpuTaskMs": {
+          "values": [
+            87.69399999999905,
+            83.79400000001169,
+            97.98699999998917
+          ],
+          "median": 87.69399999999905
+        },
+        "terrainCacheBytes": {
+          "values": [
+            63773816,
+            65300504,
+            66457832
+          ],
+          "median": 65300504
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "zoom32",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            80450,
+            75154,
+            71455
+          ],
+          "median": 75154
+        },
+        "p50Ms": {
+          "values": [
+            16.69999999999709,
+            16.69999999999709,
+            16.69999999999709
+          ],
+          "median": 16.69999999999709
+        },
+        "p95Ms": {
+          "values": [
+            2183.199999999997,
+            2183.199999999997,
+            2133.300000000003
+          ],
+          "median": 2183.199999999997
+        },
+        "p99Ms": {
+          "values": [
+            4233.199999999997,
+            4049.800000000003,
+            4333.100000000006
+          ],
+          "median": 4233.199999999997
+        },
+        "pssBytes": {
+          "values": [
+            2443301888,
+            2267216896,
+            2267921408
+          ],
+          "median": 2267921408
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            272806864,
+            248203984,
+            247812316
+          ],
+          "median": 248203984
+        },
+        "cpuTaskMs": {
+          "values": [
+            63607.972,
+            65265.872,
+            64939.53400000001
+          ],
+          "median": 64939.53400000001
+        },
+        "terrainCacheBytes": {
+          "values": [
+            64526968,
+            64526968,
+            64526968
+          ],
+          "median": 64526968
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "drag",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            650,
+            352,
+            337
+          ],
+          "median": 352
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2416590848,
+            2303486976,
+            2351135744
+          ],
+          "median": 2351135744
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            275077204,
+            262132996,
+            266314212
+          ],
+          "median": 266314212
+        },
+        "cpuTaskMs": {
+          "values": [
+            463.00100000000555,
+            569.2239999999913,
+            286.52700000000664
+          ],
+          "median": 463.00100000000555
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "rotate",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            8,
+            4,
+            48
+          ],
+          "median": 8
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.79999999998836
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2406818816,
+            2316008448,
+            2354322432
+          ],
+          "median": 2354322432
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            273704156,
+            262716396,
+            265250412
+          ],
+          "median": 265250412
+        },
+        "cpuTaskMs": {
+          "values": [
+            83.6659999999938,
+            88.1509999999821,
+            77.0119999999963
+          ],
+          "median": 83.6659999999938
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "previous-year",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            287,
+            294,
+            334
+          ],
+          "median": 294
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2426057728,
+            2333334528,
+            2343017472
+          ],
+          "median": 2343017472
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            271894968,
+            264861860,
+            265152264
+          ],
+          "median": 265152264
+        },
+        "cpuTaskMs": {
+          "values": [
+            130.2699999999959,
+            136.1050000000148,
+            153.78300000000422
+          ],
+          "median": 136.1050000000148
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "date-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            284,
+            282,
+            284
+          ],
+          "median": 284
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2443658240,
+            2352643072,
+            2350640128
+          ],
+          "median": 2352643072
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            272527192,
+            267685652,
+            266390796
+          ],
+          "median": 267685652
+        },
+        "cpuTaskMs": {
+          "values": [
+            126.73200000000406,
+            126.85999999999353,
+            116.03799999997477
+          ],
+          "median": 126.73200000000406
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "dark",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            255,
+            255
+          ],
+          "median": 255
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.79999999998836,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2460660736,
+            2369649664,
+            2368822272
+          ],
+          "median": 2369649664
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            273639560,
+            266764476,
+            265443064
+          ],
+          "median": 266764476
+        },
+        "cpuTaskMs": {
+          "values": [
+            97.98900000001254,
+            150.1090000000147,
+            144.51999999999998
+          ],
+          "median": 144.51999999999998
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "light",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            254,
+            255,
+            258
+          ],
+          "median": 255
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.70000000001164,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.800000000017462,
+            16.800000000017462
+          ],
+          "median": 16.800000000017462
+        },
+        "pssBytes": {
+          "values": [
+            2426201088,
+            2341944320,
+            2350468096
+          ],
+          "median": 2350468096
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            264610332,
+            263412428,
+            263410172
+          ],
+          "median": 263412428
+        },
+        "cpuTaskMs": {
+          "values": [
+            124.52099999998723,
+            129.7399999999982,
+            118.26200000001563
+          ],
+          "median": 124.52099999998723
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    },
+    {
+      "candidate": "screen",
+      "scene": "warm-return",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "invalidOrIncomplete": 0,
+      "metrics": {
+        "readyMs": {
+          "values": [
+            4,
+            29,
+            34
+          ],
+          "median": 29
+        },
+        "p50Ms": {
+          "values": [
+            16.699999999982538,
+            16.699999999982538,
+            16.699999999982538
+          ],
+          "median": 16.699999999982538
+        },
+        "p95Ms": {
+          "values": [
+            16.79999999998836,
+            16.70000000001164,
+            16.70000000001164
+          ],
+          "median": 16.70000000001164
+        },
+        "p99Ms": {
+          "values": [
+            16.800000000017462,
+            16.79999999998836,
+            16.79999999998836
+          ],
+          "median": 16.79999999998836
+        },
+        "pssBytes": {
+          "values": [
+            2435855360,
+            2355497984,
+            2364365824
+          ],
+          "median": 2364365824
+        },
+        "jsHeapUsedBytes": {
+          "values": [
+            265977688,
+            263434300,
+            263474420
+          ],
+          "median": 263474420
+        },
+        "cpuTaskMs": {
+          "values": [
+            98.8670000000127,
+            84.80800000000954,
+            85.98000000000638
+          ],
+          "median": 85.98000000000638
+        },
+        "terrainCacheBytes": {
+          "values": [
+            65583752,
+            65583752,
+            65583752
+          ],
+          "median": 65583752
+        },
+        "gpuTrackedBuffersBytes": {
+          "values": [
+            71601448,
+            71601448,
+            71601448
+          ],
+          "median": 71601448
+        }
+      },
+      "hardGate": "not-assessed",
+      "score": null
+    }
+  ]
+}
