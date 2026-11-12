@@ -30,6 +30,7 @@
 | [유럽 발트 3국 국가 존속기간 — 2차 교차검증](history/lifetimes/country-lifetime-europe-baltic-2026-10-22.md) | GEO-LIFE-010 | 2026-10-22 (2026-10-24 복구) | `investigating / phase-2` |
 | [유럽 역사 정치체 국가 존속기간 — 체코슬로바키아·동독·유고슬라비아](history/lifetimes/country-lifetime-europe-csk-ddr-yug-2026-10-28.md) | GEO-LIFE-016 | 2026-10-28 | `investigating / phase-1 / not-applied` |
 | [북아메리카 국가 존속기간 1차 상세 — 벨리즈·자메이카·파나마](history/lifetimes/country-lifetime-north-america-blz-jam-pan-2026-11-12.md) | GEO-LIFE-031 | 2026-11-12 | `investigating / phase-1 / source-crosschecked / not-applied` |
+| [남아메리카 역사 정치체 1차 — 과야킬 자유주·쿤디나마르카국·엔트레리오스 공화국](history/lifetimes/country-lifetime-south-america-historic-guayaquil-cundinamarca-entre-rios-2026-11-13.md) | GEO-LIFE-032 | 2026-11-13 | `investigating / phase-1 / source-crosschecked / provisional / not-applied` |
 | [북아메리카 국가 존속기간 — 멕시코·과테말라·온두라스·니카라과](history/lifetimes/country-lifetime-north-america-2026-10-19.md) | GEO-LIFE-007 | 2026-10-19 조사 / 등록・검토 10-20 | `investigating` |
 | [북아메리카 2개국 국가 존속기간 — 엘살바도르·미국](history/lifetimes/country-lifetime-north-america-slv-usa-2026-10-25.md) | GEO-LIFE-013 | 2026-10-25 | `investigating / phase-1 / not-applied` |
 | [북아메리카 역사 정치체 국가 존속기간 — 중앙아메리카 연방·텍사스·유카탄](history/lifetimes/country-lifetime-north-america-historic-federation-texas-yucatan-2026-10-31.md) | GEO-LIFE-019 | 2026-10-31 | `investigating / phase-1 / not-applied` |
