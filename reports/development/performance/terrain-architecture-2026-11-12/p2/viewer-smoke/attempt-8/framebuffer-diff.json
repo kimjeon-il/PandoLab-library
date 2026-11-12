@@ -1,0 +1,67 @@
+{
+  "schema": "pando-terrain-framebuffer-diff-v1",
+  "images": [
+    {
+      "file": "viewer-1-1024-framebuffer.png",
+      "sha256": "bf8749bb3873b991ed1a06b1b4d2223b02f78ea31434bba5db35b8969d5f3424",
+      "width": 1280,
+      "height": 752
+    },
+    {
+      "file": "viewer-2-512-framebuffer.png",
+      "sha256": "fb586582f43fb14e2602df08f2996cae22d494b710325a21352ae67400d4ae8e",
+      "width": 1280,
+      "height": 752
+    },
+    {
+      "file": "viewer-3-1024-framebuffer.png",
+      "sha256": "bf8749bb3873b991ed1a06b1b4d2223b02f78ea31434bba5db35b8969d5f3424",
+      "width": 1280,
+      "height": 752
+    },
+    {
+      "file": "viewer-4-512-framebuffer.png",
+      "sha256": "4e314e19ece1ceb780f6d1597e9ad7b5624d64e43d5b79c757b72a042704feab",
+      "width": 1280,
+      "height": 752
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "viewer-1-1024-framebuffer.png",
+      "candidate": "viewer-2-512-framebuffer.png",
+      "meanChannelDifference": 0.002497160350177305,
+      "p95ChannelDifference": 0.0,
+      "maxChannelDifference": 2,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "changedBounds": null
+    },
+    {
+      "reference": "viewer-1-1024-framebuffer.png",
+      "candidate": "viewer-3-1024-framebuffer.png",
+      "meanChannelDifference": 0.0,
+      "p95ChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "changedBounds": null
+    },
+    {
+      "reference": "viewer-1-1024-framebuffer.png",
+      "candidate": "viewer-4-512-framebuffer.png",
+      "meanChannelDifference": 1.8373857214095746,
+      "p95ChannelDifference": 7.0,
+      "maxChannelDifference": 50,
+      "pixelsOver2": 295919,
+      "fractionPixelsOver2": 0.30742914727393617,
+      "changedBounds": [
+        0,
+        0,
+        1279,
+        751
+      ]
+    }
+  ],
+  "limitations": "Full-scene single-frame comparison; differing asynchronous layers can contribute. Not a terrain-only or temporal stability proof."
+}
