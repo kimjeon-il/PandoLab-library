@@ -1,0 +1,45 @@
+{
+  "schema": "pando-pmtiles-regional-sample-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "pmtilesVersion": "3.8.1",
+  "wheelSha256": "718561bb21f8c7dd5464fdcc3b9ad0e7b1c917be60ddfdf9a5ab56b8c67f7bde",
+  "results": [
+    {
+      "tileSize": 1024,
+      "sourceLevel": 5,
+      "archiveZoom": 6,
+      "worldColumns": 43,
+      "worldRows": 22,
+      "squareCapacity": 4096,
+      "worldGridSlots": 946,
+      "unusedSquareSlots": 3150,
+      "tiles": 4,
+      "payloadBytes": 5324720,
+      "archiveBytes": 5325069,
+      "overheadBytes": 349,
+      "sha256": "f1c976e3ab026fb67ef559988fa534a32237ddd3935adf92523229504dc47493",
+      "allTileHashesMatch": true
+    },
+    {
+      "tileSize": 512,
+      "sourceLevel": 5,
+      "archiveZoom": 7,
+      "worldColumns": 85,
+      "worldRows": 43,
+      "squareCapacity": 16384,
+      "worldGridSlots": 3655,
+      "unusedSquareSlots": 12729,
+      "tiles": 16,
+      "payloadBytes": 5293268,
+      "archiveBytes": 5293655,
+      "overheadBytes": 387,
+      "sha256": "b95446ac419091d579bff85868b4e5ef048fac4f4c369614ef55bf7adb0696b9",
+      "allTileHashesMatch": true
+    }
+  ],
+  "limitations": [
+    "Regional sample at one LOD; not a complete global pyramid.",
+    "Coordinates address a custom EPSG:4326 grid, not standard Web Mercator XYZ.",
+    "Local packaging and roundtrip only, not an HTTP/browser performance test."
+  ]
+}
