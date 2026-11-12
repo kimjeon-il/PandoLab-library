@@ -1,0 +1,56 @@
+{
+  "schema": "pando-terrain-framebuffer-diff-v1",
+  "images": [
+    {
+      "file": "viewer-1-1024-framebuffer.png",
+      "sha256": "849f23f631e5f6d8a67711d3fe5122b86335c2ce271bc25347de02c02260880c",
+      "width": 1280,
+      "height": 752
+    },
+    {
+      "file": "viewer-2-512-framebuffer.png",
+      "sha256": "9d0d50b730d54272599c43d6b6cd38e766256f36e12253f1131280f1f539d7b1",
+      "width": 1280,
+      "height": 752
+    },
+    {
+      "file": "viewer-3-1024-framebuffer.png",
+      "sha256": "7b3d17c65931cd0f14ce3fb5a7fba15b2329caa35711a9505c8ebb1369f5d6fa",
+      "width": 1280,
+      "height": 752
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "viewer-1-1024-framebuffer.png",
+      "candidate": "viewer-2-512-framebuffer.png",
+      "meanChannelDifference": 0.04147031527039007,
+      "p95ChannelDifference": 0.0,
+      "maxChannelDifference": 112,
+      "pixelsOver2": 1453,
+      "fractionPixelsOver2": 0.001509516289893617,
+      "changedBounds": [
+        0,
+        135,
+        272,
+        406
+      ]
+    },
+    {
+      "reference": "viewer-1-1024-framebuffer.png",
+      "candidate": "viewer-3-1024-framebuffer.png",
+      "meanChannelDifference": 0.04103848071808511,
+      "p95ChannelDifference": 0.0,
+      "maxChannelDifference": 112,
+      "pixelsOver2": 1453,
+      "fractionPixelsOver2": 0.001509516289893617,
+      "changedBounds": [
+        0,
+        135,
+        272,
+        406
+      ]
+    }
+  ],
+  "limitations": "Full-scene single-frame comparison; differing asynchronous layers can contribute. Not a terrain-only or temporal stability proof."
+}
