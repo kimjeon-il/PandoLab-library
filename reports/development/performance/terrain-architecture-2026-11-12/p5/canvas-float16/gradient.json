@@ -1,0 +1,65 @@
+{
+  "schema": "canvas-float16-cost-v1",
+  "scope": "synthetic one land plane; no Viewer, mask, globe, network or GPU timing",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "width": 1280,
+  "height": 800,
+  "attributes": {
+    "alpha": true,
+    "colorSpace": "srgb",
+    "colorType": "float16",
+    "desynchronized": false,
+    "toneMapping": {
+      "mode": "standard"
+    },
+    "willReadFrequently": true
+  },
+  "observed": [
+    0.00048828125,
+    0,
+    0.83154296875,
+    1,
+    0.00830078125,
+    0,
+    0.80029296875,
+    1,
+    0.02392578125,
+    0,
+    0.7373046875,
+    1,
+    0.03173828125,
+    0,
+    0.7060546875,
+    1
+  ],
+  "heightErrors": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "maxRgbError": 1,
+  "rows": [
+    {
+      "drawMs": 1.7999999970197678,
+      "readMs": 33.70000000298023,
+      "colorMs": 29.099999994039536,
+      "putMs": 4.700000002980232,
+      "pixels": 1024000
+    },
+    {
+      "drawMs": 0,
+      "readMs": 22.799999997019768,
+      "colorMs": 31.099999994039536,
+      "putMs": 4.600000008940697,
+      "pixels": 1024000
+    },
+    {
+      "drawMs": 0,
+      "readMs": 21.200000002980232,
+      "colorMs": 28,
+      "putMs": 4.200000002980232,
+      "pixels": 1024000
+    }
+  ]
+}
