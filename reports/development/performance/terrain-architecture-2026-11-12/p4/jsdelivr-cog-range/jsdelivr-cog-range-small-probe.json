@@ -1,0 +1,51 @@
+{
+  "at": "2026-11-12T09:27:23.131Z",
+  "url": "https://cdn.jsdelivr.net/gh/kimjeon-il/PandoLab-library-data@0fc425921e1fb431ef35d9af6f5ac762f2b3a269/reports/development/performance/terrain-architecture-2026-11-12/p3/centered-southwest-china-cog/regional-q1.tif",
+  "browserVersion": "151.0.7922.34",
+  "observations": [
+    {
+      "index": 0,
+      "expected": "04a3869222d919500bb012eb7f6736ff2830059bff768f2c56710761e383c517",
+      "status": 206,
+      "type": "cors",
+      "contentRange": "bytes 0-65535/9250897",
+      "contentLength": "65536",
+      "bytes": 65536,
+      "sha256": "04a3869222d919500bb012eb7f6736ff2830059bff768f2c56710761e383c517",
+      "match": true
+    },
+    {
+      "index": 1,
+      "expected": "bd729bb08fe947d816958f405cdbc042e2d77c77964a41b0830814224befd99b",
+      "status": 206,
+      "type": "cors",
+      "contentRange": "bytes 65536-131071/9250897",
+      "contentLength": "65536",
+      "bytes": 65536,
+      "sha256": "bd729bb08fe947d816958f405cdbc042e2d77c77964a41b0830814224befd99b",
+      "match": true
+    },
+    {
+      "index": 42,
+      "expected": "5023e764a1148f4bdcfeb46e358d590f0586ebafbcd3fee62e62d8be3574fb04",
+      "status": 206,
+      "type": "cors",
+      "contentRange": "bytes 2752512-2818047/9250897",
+      "contentLength": "65536",
+      "bytes": 65536,
+      "sha256": "5023e764a1148f4bdcfeb46e358d590f0586ebafbcd3fee62e62d8be3574fb04",
+      "match": true
+    },
+    {
+      "index": 141,
+      "expected": "c0488f527eeccff1b18d06bcb47489cdf6555e124b6b71b4111493614e7f4eb0",
+      "status": 206,
+      "type": "cors",
+      "contentRange": "bytes 9240576-9250896/9250897",
+      "contentLength": "10321",
+      "bytes": 10321,
+      "sha256": "c0488f527eeccff1b18d06bcb47489cdf6555e124b6b71b4111493614e7f4eb0",
+      "match": true
+    }
+  ]
+}
