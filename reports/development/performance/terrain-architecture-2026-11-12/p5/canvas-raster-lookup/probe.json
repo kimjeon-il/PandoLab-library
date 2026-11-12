@@ -1,0 +1,31 @@
+{
+  "schema": "canvas-numeric-raster-cost-v1",
+  "scope": "synthetic single tile, one plane; no Viewer, mask, globe, network or GPU timing",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "width": 1280,
+  "height": 800,
+  "lookupInitMs": 5.0999999940395355,
+  "rows": [
+    {
+      "baselineDrawMs": 109.29999999701977,
+      "rasterMs": 174,
+      "putMs": 0.4000000059604645,
+      "lookupRasterMs": 91.29999999701977,
+      "pixels": 1024000
+    },
+    {
+      "baselineDrawMs": 10.5,
+      "rasterMs": 172.79999999701977,
+      "putMs": 0.30000001192092896,
+      "lookupRasterMs": 82.09999999403954,
+      "pixels": 1024000
+    },
+    {
+      "baselineDrawMs": 8.299999997019768,
+      "rasterMs": 172.70000000298023,
+      "putMs": 0.4000000059604645,
+      "lookupRasterMs": 81.59999999403954,
+      "pixels": 1024000
+    }
+  ]
+}
