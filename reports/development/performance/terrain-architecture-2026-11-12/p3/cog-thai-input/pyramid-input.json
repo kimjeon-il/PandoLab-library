@@ -1,0 +1,80 @@
+{
+  "schema": "pando-terrain-cog-pyramid-input-v1",
+  "sourceSha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+  "region": "thai-lowland",
+  "baseOrigin": [
+    32764,
+    8188
+  ],
+  "records": [
+    {
+      "level": 5,
+      "width": 2056,
+      "height": 2056,
+      "window": [
+        32764,
+        8188,
+        34820,
+        10244
+      ],
+      "file": "lod5.rgba.gz",
+      "rawBytes": 16908544,
+      "rawSha256": "e15ecf6dccdec0ce5a401532010e549e731cc93a505ab00e1f09552f8337a91d",
+      "gzipBytes": 4510564,
+      "gzipSha256": "e94416a97e769738c6ca18b5c19cacb55ce8f7e2e380d42291a04c4a7bea2107",
+      "count": 4227136,
+      "minMeters": -4514.5,
+      "maxMeters": 2928.24462890625,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 6.350612550119476,
+      "rmseMeters": 13.18661979827095,
+      "shadeSha256": "05990e0ede066c689df482fdbeb8fa924189ed62e846d3767cf965d7ca741ec8"
+    },
+    {
+      "level": 4,
+      "width": 1028,
+      "height": 1028,
+      "window": [
+        16382,
+        4094,
+        17410,
+        5122
+      ],
+      "file": "lod4.rgba.gz",
+      "rawBytes": 4227136,
+      "rawSha256": "7a39c84fe90e7c1d0e7290ebe5575d43bf532f157e6dd7ed2758d212ccc66de8",
+      "gzipBytes": 1168438,
+      "gzipSha256": "38d1922ded48a93deb157cc8d9e3c3bfeccf634b21befc1880c146c973754182",
+      "count": 1056784,
+      "minMeters": -4491.6875,
+      "maxMeters": 2827.0625,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 6.3558109141326975,
+      "rmseMeters": 13.194553661718436,
+      "shadeSha256": "fc447d92889f99175c4774a71bb9b3709a7dafc73113035a978f064fe700ccb8"
+    },
+    {
+      "level": 3,
+      "width": 514,
+      "height": 514,
+      "window": [
+        8191,
+        2047,
+        8705,
+        2561
+      ],
+      "file": "lod3.rgba.gz",
+      "rawBytes": 1056784,
+      "rawSha256": "5a40999fa4026b69d52ed4586ecea02b70820f9185f72b5ebd018f5e6658487a",
+      "gzipBytes": 298619,
+      "gzipSha256": "9872f97bd1d11c3c8717dad35ab2ec1ec3b0043edfce6e88e87d8b6a086e1a8b",
+      "count": 264196,
+      "minMeters": -4376.03125,
+      "maxMeters": 2656.66064453125,
+      "maxErrorMeters": 64,
+      "meanAbsErrorMeters": 6.36004318224007,
+      "rmseMeters": 13.205084761998277,
+      "shadeSha256": "472719b5ac9a957f2f01da5e1d1ed7aeef7a5773b96e84744b852a3214f74288"
+    }
+  ]
+}
