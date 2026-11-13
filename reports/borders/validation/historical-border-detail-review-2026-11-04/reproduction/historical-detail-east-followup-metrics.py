@@ -1,0 +1,21 @@
+import json,hashlib,struct,csv
+from pathlib import Path
+import numpy as np
+B=Path('build-native/territorial-recipe');O=B/'east-followup-final-2026-11-05';load=lambda p:json.loads(p.read_text(encoding='utf-8-sig'));rows=load(O/'trials.json')['rows'];samples=load(B/'historical-detail-final-metric-input.json')['samples'];route=load(B/'historical-detail-line-2.geojson')['features'];weak=load(B/'historical-detail-east-candidate.json')['spec'];out=[]
+def fingerprint(cs):return hashlib.sha256(struct.pack('>I',len(cs))+b''.join(struct.pack('>dd',*p)for p in cs)).hexdigest()
+def sample(a,step):
+ a=np.asarray(a);d=np.linalg.norm(np.diff(a,axis=0),axis=1);a=a[np.r_[True,d>0]];ar=np.r_[0,np.cumsum(np.linalg.norm(np.diff(a,axis=0),axis=1))];t=np.unique(np.r_[np.arange(0,ar[-1],step),ar[-1]]);return np.column_stack([np.interp(t,ar,a[:,i])for i in range(2)])
+def directed(a,b,step):
+ p=sample(a,step);b=np.asarray(b);v=np.diff(b,axis=0);den=np.sum(v*v,axis=1);den=np.where(den>0,den,1);m=0
+ for k in range(0,len(p),500):
+  q=p[k:k+500,None,:]-b[:-1];t=np.clip(np.sum(q*v,axis=2)/den,0,1);d=np.sum((q-t[:,:,None]*v)**2,axis=2);m=max(m,float(np.sqrt(d.min(axis=1)).max()))
+ return m
+for r in rows:
+ fi=r['feature'];s=next(x for x in samples if x.get('featureIndex')==fi);v=next(x for x in r['variants']if x['name']=='compact');q=v['selected'];keep=set(q['keep_route']);baseline=set(range(r['original_points']))-set(weak[str(fi)]);removed=baseline-keep;categories={k:dict(registered=len(a),surviving764=len(set(a)&baseline),newly_removed=sorted(set(a)&removed),prior_omitted=sorted(set(a)-baseline))for k,a in r['groups_route'].items()};cum=[];a=np.asarray(s['historical']);z=a[q['keep_route']]
+ for step in [25,12.5]:cum.append(dict(step_m=step,registered_to_final_sampled_max_m=directed(a,z,step),final_to_registered_sampled_max_m=directed(z,a,step),sampling_upper_bound_extra_m=step/2))
+ m=q['metrics'];modern=r['modern'];out.append(dict(feature=fi,original_points=r['original_points'],baseline764_points=r['baseline764_points'],conservative_points=next(x for x in r['variants']if x['name']=='conservative')['selected']['points'],final_points=q['points'],selected_cap_m=0 if r['hold']else q['cap_m'],projected_registered_vertex_to_corresponding_final_chord_max_m=q['max_from_registered_vertices_m'],projected_764_vertex_to_corresponding_final_chord_max_m=q['max_from_764_vertices_m'],two_way_sampling=cum,registered_chain_sha256_binary=fingerprint(route[fi]['geometry']['coordinates']),final_chain_sha256_binary=fingerprint(q['coordinates']),keep_route=q['keep_route'],newly_removed_route=sorted(removed),reinserted_route=sorted(keep-baseline),hard_constraints_previously_absent=r['hard_constraints_absent_in764'],categories=categories,metrics=m,modern=modern,detail_ratios=dict(density=m['points_per_km']/modern['points_per_km'],turn1km=m['turn_deg_per100km']['1000']/modern['turn_deg_per100km']['1000'],turn5km=m['turn_deg_per100km']['5000']/modern['turn_deg_per100km']['5000']),hold=r['hold'],limits=r['limits'],projection=r['metricCrs']))
+(O/'final-metrics.json').write_text(json.dumps(dict(status='projected shape diagnostics; not ground accuracy or complete semantic certification',hash_contract='uint32BE count followed by lon/lat float64BE per ordered coordinate',rows=out),indent=2)+'\n',encoding='utf-8')
+with(O/'feature-summary.csv').open('w',encoding='utf-8',newline='')as f:
+ w=csv.writer(f);w.writerow(['feature','registered','764','conservative','final','cap_m','registered_vertex_chord_max_m','764_vertex_chord_max_m','density_ratio','turn1km_ratio','turn5km_ratio'])
+ for r in out:w.writerow([r['feature'],r['original_points'],r['baseline764_points'],r['conservative_points'],r['final_points'],r['selected_cap_m'],r['projected_registered_vertex_to_corresponding_final_chord_max_m'],r['projected_764_vertex_to_corresponding_final_chord_max_m'],*r['detail_ratios'].values()])
+print(json.dumps([dict(feature=r['feature'],points=r['final_points'],cumulativeVertexMax_m=r['projected_registered_vertex_to_corresponding_final_chord_max_m'],sampled=r['two_way_sampling'][-1],priorAbsent=r['hard_constraints_previously_absent'])for r in out]),flush=True)

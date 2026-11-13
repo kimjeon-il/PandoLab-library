@@ -1,0 +1,236 @@
+{
+  "scope": "Read-only dimensional diagnosis of the same four original local inputs, original unclipped inputs and prior diagnostic files hash-guarded. No raw assertion removed, no tolerance changed, no data quantization, no production/remote mutation.",
+  "inputFilesBeforeSha256": {
+    "historical-detail-darja-joint-baseline-request.json": "f3c07af45d47aebd802c4e36413ab2a810398d246836b456fbcc78ee25e09eee",
+    "historical-detail-darja-joint-candidate-request.json": "d770be407506099697385e1481d2622a7187c6c3c1a61ebed79539aafbfcdc1f",
+    "historical-detail-darja-joint-candidate-result.json": "76b67ff190b0d777d76dbea67a45b730606757629a0d79a8365e5a5b68915019",
+    "historical-detail-darja-overlap-diagnostic.json": "0db6fea9b1eb0fefcfe7a867a0602a9e0bc0f044c0575a5549a1892cd39c2a41",
+    "historical-detail-darja-joint-independent-observation.json": "c5b2b8e55f5252900de1e8f6c33f5e83b4f93b20acd8c40334e5dd806e874ed3",
+    "historical-detail-darja-overlay-stability.json": "50a9bdb4d32f0a19f3865408782e85a9b2f731b9ae12019e420f752d8a0a3b6a"
+  },
+  "syntheticClosedTriangle": {
+    "geometryType": "LINESTRING",
+    "dimension": 1,
+    "empty": false,
+    "types": {
+      "LINESTRING": 1
+    },
+    "nodeDimensions": {
+      "1": 1
+    },
+    "polygonComponents": 0,
+    "multiPolygonContainers": 0,
+    "polygonHoles": 0,
+    "lineStringComponents": 1,
+    "closedLineComponents": 1,
+    "pointComponents": 0,
+    "rawOgrGetAreaDiagnosticOnly": 1.0,
+    "polygonOnlyAreaDegree2": 0,
+    "lineOnlyCoordinateLengthDegrees": 5.23606797749979
+  },
+  "localWindow": [
+    53.2,
+    38.7,
+    54.3,
+    40.1
+  ],
+  "geometryInventory": {
+    "oldLocalLand": {
+      "geometryType": "MULTIPOLYGON",
+      "dimension": 2,
+      "empty": false,
+      "types": {
+        "MULTIPOLYGON": 1,
+        "POLYGON": 17
+      },
+      "nodeDimensions": {
+        "2": 18
+      },
+      "polygonComponents": 17,
+      "multiPolygonContainers": 1,
+      "polygonHoles": 0,
+      "lineStringComponents": 0,
+      "closedLineComponents": 0,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.8587427377200949,
+      "polygonOnlyAreaDegree2": 0.8587427377200949,
+      "lineOnlyCoordinateLengthDegrees": 0
+    },
+    "newLocalLand": {
+      "geometryType": "MULTIPOLYGON",
+      "dimension": 2,
+      "empty": false,
+      "types": {
+        "MULTIPOLYGON": 1,
+        "POLYGON": 17
+      },
+      "nodeDimensions": {
+        "2": 18
+      },
+      "polygonComponents": 17,
+      "multiPolygonContainers": 1,
+      "polygonHoles": 0,
+      "lineStringComponents": 0,
+      "closedLineComponents": 0,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.8589152388731863,
+      "polygonOnlyAreaDegree2": 0.8589152388731863,
+      "lineOnlyCoordinateLengthDegrees": 0
+    },
+    "oldLocalWater": {
+      "geometryType": "POLYGON",
+      "dimension": 2,
+      "empty": false,
+      "types": {
+        "POLYGON": 1
+      },
+      "nodeDimensions": {
+        "2": 1
+      },
+      "polygonComponents": 1,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 13,
+      "lineStringComponents": 0,
+      "closedLineComponents": 0,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.6812572622798532,
+      "polygonOnlyAreaDegree2": 0.6812572622798532,
+      "lineOnlyCoordinateLengthDegrees": 0
+    },
+    "newLocalWater": {
+      "geometryType": "POLYGON",
+      "dimension": 2,
+      "empty": false,
+      "types": {
+        "POLYGON": 1
+      },
+      "nodeDimensions": {
+        "2": 1
+      },
+      "polygonComponents": 1,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 13,
+      "lineStringComponents": 0,
+      "closedLineComponents": 0,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.6810847611267936,
+      "polygonOnlyAreaDegree2": 0.6810847611267936,
+      "lineOnlyCoordinateLengthDegrees": 0
+    },
+    "oldIntersection": {
+      "geometryType": "MULTILINESTRING",
+      "dimension": 1,
+      "empty": false,
+      "types": {
+        "MULTILINESTRING": 1,
+        "LINESTRING": 17
+      },
+      "nodeDimensions": {
+        "1": 18
+      },
+      "polygonComponents": 0,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 0,
+      "lineStringComponents": 17,
+      "closedLineComponents": 13,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.007118932412690272,
+      "polygonOnlyAreaDegree2": 0,
+      "lineOnlyCoordinateLengthDegrees": 10.213783802276724
+    },
+    "newIntersection": {
+      "geometryType": "MULTILINESTRING",
+      "dimension": 1,
+      "empty": false,
+      "types": {
+        "MULTILINESTRING": 1,
+        "LINESTRING": 17
+      },
+      "nodeDimensions": {
+        "1": 18
+      },
+      "polygonComponents": 0,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 0,
+      "lineStringComponents": 17,
+      "closedLineComponents": 13,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.007118932412691133,
+      "polygonOnlyAreaDegree2": 0,
+      "lineOnlyCoordinateLengthDegrees": 9.976894241179066
+    },
+    "rawIntersectionSymDifference": {
+      "geometryType": "MULTILINESTRING",
+      "dimension": 1,
+      "empty": false,
+      "types": {
+        "MULTILINESTRING": 1,
+        "LINESTRING": 381
+      },
+      "nodeDimensions": {
+        "1": 382
+      },
+      "polygonComponents": 0,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 0,
+      "lineStringComponents": 381,
+      "closedLineComponents": 93,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.0012482331443368878,
+      "polygonOnlyAreaDegree2": 0,
+      "lineOnlyCoordinateLengthDegrees": 5.373142207091289
+    },
+    "polygonOnlySymDifference": {
+      "geometryType": "POLYGON",
+      "dimension": 2,
+      "empty": true,
+      "types": {
+        "POLYGON": 1
+      },
+      "nodeDimensions": {
+        "2": 1
+      },
+      "polygonComponents": 0,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 0,
+      "lineStringComponents": 0,
+      "closedLineComponents": 0,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.0,
+      "polygonOnlyAreaDegree2": 0,
+      "lineOnlyCoordinateLengthDegrees": 0
+    },
+    "lineOnlySymDifference": {
+      "geometryType": "MULTILINESTRING",
+      "dimension": 1,
+      "empty": false,
+      "types": {
+        "MULTILINESTRING": 1,
+        "LINESTRING": 381
+      },
+      "nodeDimensions": {
+        "1": 382
+      },
+      "polygonComponents": 0,
+      "multiPolygonContainers": 0,
+      "polygonHoles": 0,
+      "lineStringComponents": 381,
+      "closedLineComponents": 93,
+      "pointComponents": 0,
+      "rawOgrGetAreaDiagnosticOnly": 0.0012482331443368878,
+      "polygonOnlyAreaDegree2": 0,
+      "lineOnlyCoordinateLengthDegrees": 5.373142207091289
+    }
+  },
+  "measurements": {
+    "old2dOverlapAreaDegree2": 0.0,
+    "new2dOverlapAreaDegree2": 0.0,
+    "twoDimensionalOverlapSymDifferenceDegree2": 0,
+    "old1dContactLengthMeters": 993443.5926260498,
+    "new1dContactLengthMeters": 970781.9754649875,
+    "oneDimensionalContactSymDifferenceLengthMeters": 523024.2259244013,
+    "projection": "+proj=aeqd +lat_0=39.4 +lon_0=53.7 +datum=WGS84 +units=m",
+    "projectionExecution": "Existing OSGeo OSR transformation with XY axis order; length only, not a simplification tolerance."
+  },
+  "originalInputsAndDiagnosticsUnchanged": true
+}

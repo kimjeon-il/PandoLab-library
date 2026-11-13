@@ -1,0 +1,2662 @@
+{
+  "scope": "Fourteen local candidates only; bidirectional uniform arc-length samples, not exact Hausdorff or legal positional accuracy",
+  "rows": [
+    {
+      "featureIndex": 2,
+      "assemblyId": "Pamir-22-lower",
+      "extent": [
+        75.00002471329317,
+        37.36988386073109,
+        75.15716850414942,
+        37.52719090204353
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.44853738138731 +lon_0=75.0785966087213 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 74,
+        "lengthKm": 32.671626880914225,
+        "verticesPerKm": 2.2649622031288734,
+        "spacingMeters": {
+          "min": 128.7146292605841,
+          "median": 283.88753971876844,
+          "p90": 942.4896507085954,
+          "p95": 1108.1509589825023,
+          "p99": 1796.2193012068287,
+          "max": 2095.9994432737208
+        },
+        "lengthToChordRatio": 1.6780289815376301,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 990.0492994216432,
+        "turnDegrees": {
+          "min": 0.5114075955178011,
+          "median": 28.42629016647259,
+          "p90": 48.642979178606716,
+          "p95": 64.3891829961344,
+          "p99": 82.93208256322137,
+          "max": 84.4497070886445
+        },
+        "turnDegreesPer100Km": 2859.91538429036
+      },
+      "after": {
+        "vertices": 67,
+        "lengthKm": 32.385835361728574,
+        "verticesPerKm": 2.0688056754335307,
+        "spacingMeters": {
+          "min": 128.7146292605841,
+          "median": 264.38218881229153,
+          "p90": 1353.5842191801607,
+          "p95": 1617.3610232553058,
+          "p99": 2190.547827161912,
+          "max": 2366.137682954272
+        },
+        "lengthToChordRatio": 1.6633506046811857,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 981.3889503554112,
+        "turnDegrees": {
+          "min": 1.7313722657832004e-15,
+          "median": 24.60076602500594,
+          "p90": 51.768226900664146,
+          "p95": 60.09651014234118,
+          "p99": 80.1701182739502,
+          "max": 85.94567146597015
+        },
+        "turnDegreesPer100Km": 2685.063743878034
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 1308,
+            "min": 0,
+            "median": 0,
+            "p90": 109.86411021623736,
+            "p95": 154.1970182235922,
+            "p99": 212.99661826570596,
+            "max": 235.8616702984644
+          },
+          "rightToLeft": {
+            "samples": 1297,
+            "min": 0,
+            "median": 0,
+            "p90": 105.85211569514271,
+            "p95": 148.5014473544451,
+            "p99": 207.5552794142132,
+            "max": 230.3228320174832
+          },
+          "pooled": {
+            "samples": 2605,
+            "min": 0,
+            "median": 0,
+            "p90": 108.15793402728832,
+            "p95": 151.3821979715096,
+            "p99": 211.2313136418772,
+            "max": 235.8616702984644
+          },
+          "sampledMaximumMeters": 235.8616702984644,
+          "lengthRatio": 1.0088245838340606,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 2615,
+            "min": 0,
+            "median": 0,
+            "p90": 109.79130798857143,
+            "p95": 154.69278390680927,
+            "p99": 213.53824532885525,
+            "max": 235.8616702984644
+          },
+          "rightToLeft": {
+            "samples": 2592,
+            "min": 0,
+            "median": 0,
+            "p90": 105.96932896628435,
+            "p95": 147.5704680486379,
+            "p99": 206.77549735327912,
+            "max": 230.0461770204818
+          },
+          "pooled": {
+            "samples": 5207,
+            "min": 0,
+            "median": 0,
+            "p90": 107.93051433568942,
+            "p95": 151.5712146437638,
+            "p99": 210.65111007304824,
+            "max": 235.8616702984644
+          },
+          "sampledMaximumMeters": 235.8616702984644,
+          "lengthRatio": 1.0088245838340606,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 5229,
+            "min": 0,
+            "median": 0,
+            "p90": 109.84904027446,
+            "p95": 154.93496004607255,
+            "p99": 213.88599530899995,
+            "max": 235.8616702984644
+          },
+          "rightToLeft": {
+            "samples": 5183,
+            "min": 0,
+            "median": 0,
+            "p90": 105.85599187582683,
+            "p95": 147.96822609541746,
+            "p99": 207.5424012849147,
+            "max": 230.25773188660168
+          },
+          "pooled": {
+            "samples": 10412,
+            "min": 0,
+            "median": 0,
+            "p90": 107.96237865745809,
+            "p95": 151.4383415537707,
+            "p99": 210.8941217092403,
+            "max": 235.8616702984644
+          },
+          "sampledMaximumMeters": 235.8616702984644,
+          "lengthRatio": 1.0088245838340606,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        12,
+        38,
+        41,
+        44,
+        45,
+        49,
+        51
+      ]
+    },
+    {
+      "featureIndex": 4,
+      "assemblyId": "Pamir-21-lower",
+      "extent": [
+        74.89907191732028,
+        37.526011248571756,
+        75.00031707322022,
+        37.76352704234617
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.644769145458966 +lon_0=74.94969449527025 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 66,
+        "lengthKm": 38.21014681063717,
+        "verticesPerKm": 1.7272898826346965,
+        "spacingMeters": {
+          "min": 220.95536341553407,
+          "median": 334.0449773040166,
+          "p90": 1216.7695214475132,
+          "p95": 1466.1173230361796,
+          "p99": 1971.0823250381115,
+          "max": 2626.2115437644006
+        },
+        "lengthToChordRatio": 1.4494498119789607,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 979.7473541189017,
+        "turnDegrees": {
+          "min": 5.211537177969224e-14,
+          "median": 20.868397513002048,
+          "p90": 62.72849189735306,
+          "p95": 64.83927578392858,
+          "p99": 81.96433242072756,
+          "max": 91.67727258844052
+        },
+        "turnDegreesPer100Km": 2583.578295312242
+      },
+      "after": {
+        "vertices": 65,
+        "lengthKm": 38.1722150941369,
+        "verticesPerKm": 1.702809224974312,
+        "spacingMeters": {
+          "min": 220.95536341553407,
+          "median": 334.3484091500515,
+          "p90": 1217.9660758881396,
+          "p95": 1472.6209160449312,
+          "p99": 1981.3187190807078,
+          "max": 2626.2115437644006
+        },
+        "lengthToChordRatio": 1.4480109240411096,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 978.7747460035104,
+        "turnDegrees": {
+          "min": 4.525646432066542e-14,
+          "median": 19.86059997051153,
+          "p90": 57.59871202753076,
+          "p95": 62.73079933895553,
+          "p99": 81.39230900603317,
+          "max": 91.31572635150201
+        },
+        "turnDegreesPer100Km": 2542.549926500163
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 1530,
+            "min": 0,
+            "median": 0,
+            "p90": 2.8421709430404007e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 54.31230267402302,
+            "max": 110.13736140125869
+          },
+          "rightToLeft": {
+            "samples": 1528,
+            "min": 0,
+            "median": 0,
+            "p90": 2.2737367544323206e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 49.04060741209441,
+            "max": 104.5708269192498
+          },
+          "pooled": {
+            "samples": 3058,
+            "min": 0,
+            "median": 0,
+            "p90": 2.8421709430404007e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 54.23059441744375,
+            "max": 110.13736140125869
+          },
+          "sampledMaximumMeters": 110.13736140125869,
+          "lengthRatio": 1.000993699642704,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 3058,
+            "min": 0,
+            "median": 0,
+            "p90": 2.2737367544323206e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 55.735398969449975,
+            "max": 110.40423651956425
+          },
+          "rightToLeft": {
+            "samples": 3055,
+            "min": 0,
+            "median": 0,
+            "p90": 2.2737367544323206e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 50.73386307090288,
+            "max": 104.5708269192498
+          },
+          "pooled": {
+            "samples": 6113,
+            "min": 0,
+            "median": 0,
+            "p90": 2.2737367544323206e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 53.4655702510102,
+            "max": 110.40423651956425
+          },
+          "sampledMaximumMeters": 110.40423651956425,
+          "lengthRatio": 1.000993699642704,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 6115,
+            "min": 0,
+            "median": 0,
+            "p90": 2.2737367544323206e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 56.275539223892515,
+            "max": 110.40423651956425
+          },
+          "rightToLeft": {
+            "samples": 6109,
+            "min": 0,
+            "median": 0,
+            "p90": 2.8421709430404007e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 50.80541933184889,
+            "max": 104.5708269192498
+          },
+          "pooled": {
+            "samples": 12224,
+            "min": 0,
+            "median": 0,
+            "p90": 2.2737367544323206e-13,
+            "p95": 4.547473508864641e-13,
+            "p99": 53.461810553605766,
+            "max": 110.40423651956425
+          },
+          "sampledMaximumMeters": 110.40423651956425,
+          "lengthRatio": 1.000993699642704,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        4
+      ]
+    },
+    {
+      "featureIndex": 8,
+      "assemblyId": "Pamir-21-upper",
+      "extent": [
+        74.9067362255944,
+        37.789827475446,
+        75.00007767919773,
+        37.99962706539138
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=37.89472727041869 +lon_0=74.95340695239607 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 44,
+        "lengthKm": 32.203865540066495,
+        "verticesPerKm": 1.3662956065090175,
+        "spacingMeters": {
+          "min": 156.3265979926594,
+          "median": 577.2084079231902,
+          "p90": 1344.2637993486217,
+          "p95": 1781.8086494621457,
+          "p99": 2141.419723810581,
+          "max": 2268.5773625922566
+        },
+        "lengthToChordRatio": 1.3135866681454431,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 975.8747133353482,
+        "turnDegrees": {
+          "min": 0,
+          "median": 25.046877998060644,
+          "p90": 59.33698572808695,
+          "p95": 66.24298314089332,
+          "p99": 74.12613723515555,
+          "max": 76.36083396350334
+        },
+        "turnDegreesPer100Km": 2967.3879825358886
+      },
+      "after": {
+        "vertices": 40,
+        "lengthKm": 32.053961443161306,
+        "verticesPerKm": 1.247895679631635,
+        "spacingMeters": {
+          "min": 156.3265979926594,
+          "median": 752.5663975462661,
+          "p90": 1782.7345588590922,
+          "p95": 1873.821362962613,
+          "p99": 2153.5299751231214,
+          "max": 2268.5773625922566
+        },
+        "lengthToChordRatio": 1.3074721219599845,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 971.332164944282,
+        "turnDegrees": {
+          "min": 5.6557111618744456e-14,
+          "median": 20.628075756687245,
+          "p90": 57.95344045037323,
+          "p95": 63.56297754110945,
+          "p99": 72.26862215709549,
+          "max": 74.04598892271522
+        },
+        "turnDegreesPer100Km": 2701.652618172508
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 1290,
+            "min": 0,
+            "median": 0,
+            "p90": 68.9510072627323,
+            "p95": 107.38805959279281,
+            "p99": 136.889345702764,
+            "max": 153.19011374385877
+          },
+          "rightToLeft": {
+            "samples": 1284,
+            "min": 0,
+            "median": 0,
+            "p90": 66.67053448014728,
+            "p95": 103.76434586946479,
+            "p99": 133.3772073124379,
+            "max": 149.77788496298365
+          },
+          "pooled": {
+            "samples": 2574,
+            "min": 0,
+            "median": 0,
+            "p90": 67.53525530154589,
+            "p95": 104.85811084991205,
+            "p99": 135.44465770889383,
+            "max": 153.19011374385877
+          },
+          "sampledMaximumMeters": 153.19011374385877,
+          "lengthRatio": 1.0046766168721768,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 2578,
+            "min": 0,
+            "median": 0,
+            "p90": 69.25863954095743,
+            "p95": 106.98661869493706,
+            "p99": 137.36763416411156,
+            "max": 155.20809037161035
+          },
+          "rightToLeft": {
+            "samples": 2566,
+            "min": 0,
+            "median": 0,
+            "p90": 65.63406843802903,
+            "p95": 103.73456081356706,
+            "p99": 133.70834729874082,
+            "max": 151.62126767322093
+          },
+          "pooled": {
+            "samples": 5144,
+            "min": 0,
+            "median": 0,
+            "p90": 67.30701802610402,
+            "p95": 104.97934614662137,
+            "p99": 135.48644099584556,
+            "max": 155.20809037161035
+          },
+          "sampledMaximumMeters": 155.20809037161035,
+          "lengthRatio": 1.0046766168721768,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 5154,
+            "min": 0,
+            "median": 0,
+            "p90": 69.17597321423541,
+            "p95": 106.9509274224155,
+            "p99": 137.35083574333905,
+            "max": 155.32053622036636
+          },
+          "rightToLeft": {
+            "samples": 5130,
+            "min": 0,
+            "median": 0,
+            "p90": 65.83665069036972,
+            "p95": 103.6597794333013,
+            "p99": 133.74585492855334,
+            "max": 151.73354036496255
+          },
+          "pooled": {
+            "samples": 10284,
+            "min": 0,
+            "median": 0,
+            "p90": 67.57409869037807,
+            "p95": 105.14723090420206,
+            "p99": 135.5239484858198,
+            "max": 155.32053622036636
+          },
+          "sampledMaximumMeters": 155.32053622036636,
+          "lengthRatio": 1.0046766168721768,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        4,
+        12,
+        25,
+        42
+      ]
+    },
+    {
+      "featureIndex": 12,
+      "assemblyId": "Pamir-source-10",
+      "extent": [
+        74.20730046015993,
+        38.202895798907655,
+        74.87351657027865,
+        38.666490360039674
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=38.43469307947366 +lon_0=74.5404085152193 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 212,
+        "lengthKm": 119.00924028582335,
+        "verticesPerKm": 1.7813742822896914,
+        "spacingMeters": {
+          "min": 51.349180500133414,
+          "median": 479.02783504462394,
+          "p90": 1150.0281172387708,
+          "p95": 1478.6931972780153,
+          "p99": 1614.2991966217064,
+          "max": 1745.2764346563526
+        },
+        "lengthToChordRatio": 1.6291241437954946,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 991.743669048528,
+        "turnDegrees": {
+          "min": 0.18709011289073368,
+          "median": 23.516612801936265,
+          "p90": 60.32780915037721,
+          "p95": 69.80653145701969,
+          "p99": 91.74606574300813,
+          "max": 95.66134333746368
+        },
+        "turnDegreesPer100Km": 2872.8864688107205
+      },
+      "after": {
+        "vertices": 187,
+        "lengthKm": 118.20401813493535,
+        "verticesPerKm": 1.5820105183440623,
+        "spacingMeters": {
+          "min": 51.349180500133414,
+          "median": 512.3558395958862,
+          "p90": 1397.6258292397993,
+          "p95": 1576.978847831542,
+          "p99": 2363.2609804596977,
+          "max": 2597.6365349010734
+        },
+        "lengthToChordRatio": 1.6181014127539384,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 993.3110767641626,
+        "turnDegrees": {
+          "min": 1.4872531566635806e-13,
+          "median": 23.27848080950996,
+          "p90": 57.234626561939,
+          "p95": 65.46530263780916,
+          "p99": 78.79800591922526,
+          "max": 80.65047105412744
+        },
+        "turnDegreesPer100Km": 2747.2613597641875
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 4762,
+            "min": 0,
+            "median": 0,
+            "p90": 74.10638661315645,
+            "p95": 101.56481203090243,
+            "p99": 143.33349911944222,
+            "max": 168.14094494687507
+          },
+          "rightToLeft": {
+            "samples": 4730,
+            "min": 0,
+            "median": 0,
+            "p90": 70.93822464613324,
+            "p95": 97.99961867656697,
+            "p99": 138.56516487227745,
+            "max": 163.96173031649332
+          },
+          "pooled": {
+            "samples": 9492,
+            "min": 0,
+            "median": 0,
+            "p90": 72.46757788809292,
+            "p95": 99.46153986832583,
+            "p99": 141.4917962635482,
+            "max": 168.14094494687507
+          },
+          "sampledMaximumMeters": 168.14094494687507,
+          "lengthRatio": 1.0068121385684945,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 9522,
+            "min": 0,
+            "median": 0,
+            "p90": 74.09298175763335,
+            "p95": 101.53300809967394,
+            "p99": 143.86754500966921,
+            "max": 169.0440880627384
+          },
+          "rightToLeft": {
+            "samples": 9458,
+            "min": 0,
+            "median": 0,
+            "p90": 71.00845665730249,
+            "p95": 97.90355226353368,
+            "p99": 139.20999518358013,
+            "max": 164.74517688350224
+          },
+          "pooled": {
+            "samples": 18980,
+            "min": 0,
+            "median": 0,
+            "p90": 72.40306744839084,
+            "p95": 99.55373592392077,
+            "p99": 141.8103056975489,
+            "max": 169.0440880627384
+          },
+          "sampledMaximumMeters": 169.0440880627384,
+          "lengthRatio": 1.0068121385684945,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 19043,
+            "min": 0,
+            "median": 0,
+            "p90": 74.06126506097863,
+            "p95": 101.3862826149347,
+            "p99": 143.85632722503502,
+            "max": 169.0440880627384
+          },
+          "rightToLeft": {
+            "samples": 18914,
+            "min": 0,
+            "median": 0,
+            "p90": 70.96998338059606,
+            "p95": 97.81826662149405,
+            "p99": 139.1824940272972,
+            "max": 164.57712443437632
+          },
+          "pooled": {
+            "samples": 37957,
+            "min": 0,
+            "median": 0,
+            "p90": 72.44248877992143,
+            "p95": 99.61218525974478,
+            "p99": 141.53053926487175,
+            "max": 169.0440880627384
+          },
+          "sampledMaximumMeters": 169.0440880627384,
+          "lengthRatio": 1.0068121385684945,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        20,
+        26,
+        27,
+        29,
+        30,
+        44,
+        46,
+        56,
+        64,
+        80,
+        90,
+        92,
+        103,
+        129,
+        140,
+        141,
+        157,
+        173,
+        178,
+        189,
+        191,
+        194,
+        197,
+        202,
+        207
+      ]
+    },
+    {
+      "featureIndex": 18,
+      "assemblyId": "Pamir-source-7",
+      "extent": [
+        74.00000629323984,
+        38.52155986275573,
+        74.12135369097925,
+        38.64023486864724
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=38.58089736570149 +lon_0=74.06067999210954 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 61,
+        "lengthKm": 27.440020631868787,
+        "verticesPerKm": 2.2230303984959368,
+        "spacingMeters": {
+          "min": 106.61143348426356,
+          "median": 377.99172968301946,
+          "p90": 817.3445435056553,
+          "p95": 869.6444964068244,
+          "p99": 1274.604829249635,
+          "max": 1349.7440652560385
+        },
+        "lengthToChordRatio": 1.6244430905489862,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 980.0007368524567,
+        "turnDegrees": {
+          "min": 0.7854670897376961,
+          "median": 28.85322987705838,
+          "p90": 64.72940060712754,
+          "p95": 66.15528034544671,
+          "p99": 80.52009551022917,
+          "max": 85.42895394200079
+        },
+        "turnDegreesPer100Km": 3201.4297634574427
+      },
+      "after": {
+        "vertices": 54,
+        "lengthKm": 27.239572010255632,
+        "verticesPerKm": 1.982410001877751,
+        "spacingMeters": {
+          "min": 106.61143348426356,
+          "median": 449.2960598356828,
+          "p90": 975.3816103000087,
+          "p95": 1222.6772558861592,
+          "p99": 1342.2553771954558,
+          "max": 1349.7440652560385
+        },
+        "lengthToChordRatio": 1.6125765769352396,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 972.8418575091298,
+        "turnDegrees": {
+          "min": 0.42444879078322756,
+          "median": 33.45150300853936,
+          "p90": 59.21783375347474,
+          "p95": 65.38444399568962,
+          "p99": 73.98525041441508,
+          "max": 76.50354087437424
+        },
+        "turnDegreesPer100Km": 3101.004981820668
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 1099,
+            "min": 0,
+            "median": 0,
+            "p90": 59.023138237196044,
+            "p95": 83.74145845895457,
+            "p99": 111.49100844381384,
+            "max": 130.3636773033942
+          },
+          "rightToLeft": {
+            "samples": 1091,
+            "min": 0,
+            "median": 0,
+            "p90": 56.45985205853109,
+            "p95": 80.49334649678586,
+            "p99": 110.16344425064018,
+            "max": 128.949275449082
+          },
+          "pooled": {
+            "samples": 2190,
+            "min": 0,
+            "median": 0,
+            "p90": 57.868896297114034,
+            "p95": 82.43238293913203,
+            "p99": 111.14266590152643,
+            "max": 130.3636773033942
+          },
+          "sampledMaximumMeters": 130.3636773033942,
+          "lengthRatio": 1.007358728747195,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 2197,
+            "min": 0,
+            "median": 0,
+            "p90": 59.17816780946244,
+            "p95": 84.19065025136456,
+            "p99": 113.39628420352417,
+            "max": 131.4154368380897
+          },
+          "rightToLeft": {
+            "samples": 2181,
+            "min": 0,
+            "median": 0,
+            "p90": 56.45985205853109,
+            "p95": 80.54368986293389,
+            "p99": 110.18340835413728,
+            "max": 128.949275449082
+          },
+          "pooled": {
+            "samples": 4378,
+            "min": 0,
+            "median": 0,
+            "p90": 57.87143132703949,
+            "p95": 82.29005932067183,
+            "p99": 111.5602889720795,
+            "max": 131.4154368380897
+          },
+          "sampledMaximumMeters": 131.4154368380897,
+          "lengthRatio": 1.007358728747195,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 4392,
+            "min": 0,
+            "median": 0,
+            "p90": 59.38396850751758,
+            "p95": 84.15326522184833,
+            "p99": 112.90733666522775,
+            "max": 131.83938544756884
+          },
+          "rightToLeft": {
+            "samples": 4360,
+            "min": 0,
+            "median": 0,
+            "p90": 56.32908033577115,
+            "p95": 80.79016490640879,
+            "p99": 110.17739441723519,
+            "max": 129.48134102502894
+          },
+          "pooled": {
+            "samples": 8752,
+            "min": 0,
+            "median": 0,
+            "p90": 57.726682897734555,
+            "p95": 82.29077390542487,
+            "p99": 111.51781713324591,
+            "max": 131.83938544756884
+          },
+          "sampledMaximumMeters": 131.83938544756884,
+          "lengthRatio": 1.007358728747195,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        1,
+        6,
+        10,
+        11,
+        21,
+        36,
+        43
+      ]
+    },
+    {
+      "featureIndex": 20,
+      "assemblyId": "Pamir-source-6",
+      "extent": [
+        73.7990235653908,
+        38.52171262854114,
+        74.00002514865595,
+        38.65363839111694
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=38.58767550982904 +lon_0=73.89952435702338 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 64,
+        "lengthKm": 27.740137986227502,
+        "verticesPerKm": 2.3071262310149607,
+        "spacingMeters": {
+          "min": 84.41662326835845,
+          "median": 304.23781598591376,
+          "p90": 931.1784310016542,
+          "p95": 1089.620356594177,
+          "p99": 1287.5557445554512,
+          "max": 1291.728691547794
+        },
+        "lengthToChordRatio": 1.2395406139138694,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 990.7192137938393,
+        "turnDegrees": {
+          "min": 1.0574765635232173,
+          "median": 18.758247579073885,
+          "p90": 46.271917889163966,
+          "p95": 50.44865960293188,
+          "p99": 62.20891587071554,
+          "max": 65.86406112961319
+        },
+        "turnDegreesPer100Km": 2193.4619433076177
+      },
+      "after": {
+        "vertices": 61,
+        "lengthKm": 27.65058493956804,
+        "verticesPerKm": 2.2061016117134247,
+        "spacingMeters": {
+          "min": 84.41662326835845,
+          "median": 266.91985717686555,
+          "p90": 955.1647258907159,
+          "p95": 1214.981585555213,
+          "p99": 1558.4297616770361,
+          "max": 1942.2191064971707
+        },
+        "lengthToChordRatio": 1.235539024646749,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 987.5208906988586,
+        "turnDegrees": {
+          "min": 0.14328846250624205,
+          "median": 15.018479212360786,
+          "p90": 46.04750760740946,
+          "p95": 50.48239533496487,
+          "p99": 56.62039349457758,
+          "max": 58.19785196429219
+        },
+        "turnDegreesPer100Km": 2060.9753158532194
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 1111,
+            "min": 0,
+            "median": 0,
+            "p90": 41.49438281902016,
+            "p95": 87.60806413554532,
+            "p99": 128.29348990896796,
+            "max": 144.21030974410542
+          },
+          "rightToLeft": {
+            "samples": 1108,
+            "min": 0,
+            "median": 0,
+            "p90": 40.06696686304024,
+            "p95": 85.00435150913137,
+            "p99": 125.60473310671354,
+            "max": 139.54629531586724
+          },
+          "pooled": {
+            "samples": 2219,
+            "min": 0,
+            "median": 0,
+            "p90": 41.35335058860037,
+            "p95": 86.93736667611252,
+            "p99": 127.68223834985196,
+            "max": 144.21030974410542
+          },
+          "sampledMaximumMeters": 144.21030974410542,
+          "lengthRatio": 1.0032387396814637,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 2221,
+            "min": 0,
+            "median": 0,
+            "p90": 43.16472420328011,
+            "p95": 87.61554414103117,
+            "p99": 128.45240859251788,
+            "max": 145.3200290137157
+          },
+          "rightToLeft": {
+            "samples": 2214,
+            "min": 0,
+            "median": 0,
+            "p90": 40.364372551359416,
+            "p95": 85.07698514437999,
+            "p99": 126.12115041364352,
+            "max": 140.63380049034745
+          },
+          "pooled": {
+            "samples": 4435,
+            "min": 0,
+            "median": 0,
+            "p90": 41.83936455698513,
+            "p95": 86.92639037932283,
+            "p99": 127.59205146946793,
+            "max": 145.3200290137157
+          },
+          "sampledMaximumMeters": 145.3200290137157,
+          "lengthRatio": 1.0032387396814637,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 4440,
+            "min": 0,
+            "median": 0,
+            "p90": 43.04820197919958,
+            "p95": 87.89238234166636,
+            "p99": 128.6670450143468,
+            "max": 145.95744477657288
+          },
+          "rightToLeft": {
+            "samples": 4426,
+            "min": 0,
+            "median": 0,
+            "p90": 40.60752201341769,
+            "p95": 85.35486820640122,
+            "p99": 126.31671462976432,
+            "max": 141.7245228972536
+          },
+          "pooled": {
+            "samples": 8866,
+            "min": 0,
+            "median": 0,
+            "p90": 41.7812054708655,
+            "p95": 86.56931079790866,
+            "p99": 127.55056266061789,
+            "max": 145.95744477657288
+          },
+          "sampledMaximumMeters": 145.95744477657288,
+          "lengthRatio": 1.0032387396814637,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        35,
+        38,
+        41
+      ]
+    },
+    {
+      "featureIndex": 23,
+      "assemblyId": "Pamir-source-4",
+      "extent": [
+        73.6993026498407,
+        38.66665503933077,
+        73.8544144061491,
+        38.99999212747811
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=38.833323583404436 +lon_0=73.7768585279949 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 89,
+        "lengthKm": 59.20097964455267,
+        "verticesPerKm": 1.5033535008096655,
+        "spacingMeters": {
+          "min": 136.65086522415834,
+          "median": 526.1925064152088,
+          "p90": 1327.4425631420581,
+          "p95": 1517.4504395456622,
+          "p99": 2238.882627943758,
+          "max": 3097.4564472948637
+        },
+        "lengthToChordRatio": 1.5909429184890824,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 986.6829940758778,
+        "turnDegrees": {
+          "min": 2.397979874254102e-14,
+          "median": 19.911764765946717,
+          "p90": 54.31378629482009,
+          "p95": 66.46351352359031,
+          "p99": 69.70612521508247,
+          "max": 72.62626192591708
+        },
+        "turnDegreesPer100Km": 2570.5776718614534
+      },
+      "after": {
+        "vertices": 70,
+        "lengthKm": 58.56177466077643,
+        "verticesPerKm": 1.1953189671160134,
+        "spacingMeters": {
+          "min": 136.65086522415834,
+          "median": 441.9028104201949,
+          "p90": 1761.4959934865324,
+          "p95": 2323.418108268789,
+          "p99": 3654.990214636703,
+          "max": 4928.330185206081
+        },
+        "lengthToChordRatio": 1.5737651851389332,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 992.5724518775666,
+        "turnDegrees": {
+          "min": 3.3851533304642383e-15,
+          "median": 23.551005273369157,
+          "p90": 53.30766096738316,
+          "p95": 72.55164759698819,
+          "p99": 82.77044333153627,
+          "max": 83.75723273974397
+        },
+        "turnDegreesPer100Km": 2727.1324264398017
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 2370,
+            "min": 0,
+            "median": 11.857102375601762,
+            "p90": 130.6402782143756,
+            "p95": 166.77341312069126,
+            "p99": 212.3893479998261,
+            "max": 264.6654592385017
+          },
+          "rightToLeft": {
+            "samples": 2344,
+            "min": 0,
+            "median": 10.46183066267513,
+            "p90": 127.86445638623304,
+            "p95": 162.44096201379804,
+            "p99": 209.2398738432593,
+            "max": 251.99415727836745
+          },
+          "pooled": {
+            "samples": 4714,
+            "min": 0,
+            "median": 11.05950185973613,
+            "p90": 129.62624732290774,
+            "p95": 164.26122746657674,
+            "p99": 211.32472646939848,
+            "max": 264.6654592385017
+          },
+          "sampledMaximumMeters": 264.6654592385017,
+          "lengthRatio": 1.0109150548711832,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 4738,
+            "min": 0,
+            "median": 11.729836633115625,
+            "p90": 131.31130421187027,
+            "p95": 166.9409039307799,
+            "p99": 213.34411782522153,
+            "max": 265.90344016469714
+          },
+          "rightToLeft": {
+            "samples": 4686,
+            "min": 0,
+            "median": 10.525010653609266,
+            "p90": 127.79805942074935,
+            "p95": 162.2151849777201,
+            "p99": 208.99468511868494,
+            "max": 251.29308164379145
+          },
+          "pooled": {
+            "samples": 9424,
+            "min": 0,
+            "median": 11.177226732722541,
+            "p90": 129.47801843487022,
+            "p95": 164.6381171433522,
+            "p99": 211.37656586839745,
+            "max": 265.90344016469714
+          },
+          "sampledMaximumMeters": 265.90344016469714,
+          "lengthRatio": 1.0109150548711832,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 9474,
+            "min": 0,
+            "median": 11.723994727467216,
+            "p90": 131.25717508020276,
+            "p95": 166.7345667590719,
+            "p99": 213.11225776573434,
+            "max": 265.75147575513535
+          },
+          "rightToLeft": {
+            "samples": 9371,
+            "min": 0,
+            "median": 10.585841302655284,
+            "p90": 127.85250438188851,
+            "p95": 162.56995923458334,
+            "p99": 209.37413417595533,
+            "max": 252.28021633856943
+          },
+          "pooled": {
+            "samples": 18845,
+            "min": 0,
+            "median": 11.182045768827514,
+            "p90": 129.53099829363597,
+            "p95": 164.61807166145803,
+            "p99": 211.43236232551158,
+            "max": 265.75147575513535
+          },
+          "sampledMaximumMeters": 265.75147575513535,
+          "lengthRatio": 1.0109150548711832,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        8,
+        19,
+        21,
+        35,
+        37,
+        53,
+        54,
+        56,
+        58,
+        61,
+        63,
+        68,
+        71,
+        72,
+        76,
+        78,
+        81,
+        85,
+        87
+      ]
+    },
+    {
+      "featureIndex": 25,
+      "assemblyId": "Pamir-source-3",
+      "extent": [
+        73.56883090407575,
+        38.99998550990847,
+        73.84071302874241,
+        39.24655119806587
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=39.12326835398717 +lon_0=73.70477196640908 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 129,
+        "lengthKm": 49.37031948560496,
+        "verticesPerKm": 2.612905918861086,
+        "spacingMeters": {
+          "min": 90.94073132234232,
+          "median": 253.23442571993087,
+          "p90": 900.8950842723291,
+          "p95": 1105.6016214782564,
+          "p99": 1387.3158566276825,
+          "max": 3315.7582011417085
+        },
+        "lengthToChordRatio": 1.3681988143719221,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 987.4063897120992,
+        "turnDegrees": {
+          "min": 4.104801489855279e-14,
+          "median": 24.985238892254387,
+          "p90": 52.86865200563548,
+          "p95": 65.1479498686901,
+          "p99": 75.01218224915527,
+          "max": 81.27420623881089
+        },
+        "turnDegreesPer100Km": 2829.29766540251
+      },
+      "after": {
+        "vertices": 126,
+        "lengthKm": 49.30093246767389,
+        "verticesPerKm": 2.5557325935491564,
+        "spacingMeters": {
+          "min": 90.94073132234232,
+          "median": 251.70963776986906,
+          "p90": 869.6590905377252,
+          "p95": 1152.1156324914527,
+          "p99": 2165.024289668076,
+          "max": 3315.7582011417085
+        },
+        "lengthToChordRatio": 1.3662758931379657,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 986.0186493534778,
+        "turnDegrees": {
+          "min": 5.488485284599989e-14,
+          "median": 25.30333145671256,
+          "p90": 53.37369550870031,
+          "p95": 62.570071205949496,
+          "p99": 77.40919871035116,
+          "max": 85.59342536066762
+        },
+        "turnDegreesPer100Km": 2753.8206689968924
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 1976,
+            "min": 0,
+            "median": 0,
+            "p90": 16.688672483329405,
+            "p95": 71.13285517265341,
+            "p99": 116.15618990183535,
+            "max": 160.9903809423718
+          },
+          "rightToLeft": {
+            "samples": 1974,
+            "min": 0,
+            "median": 0,
+            "p90": 15.38436214309977,
+            "p95": 69.36355398839127,
+            "p99": 114.13730860887031,
+            "max": 156.2775383451996
+          },
+          "pooled": {
+            "samples": 3950,
+            "min": 0,
+            "median": 0,
+            "p90": 15.835845986156256,
+            "p95": 70.78637497429027,
+            "p99": 115.01543698931397,
+            "max": 160.9903809423718
+          },
+          "sampledMaximumMeters": 160.9903809423718,
+          "lengthRatio": 1.0014074179626635,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 3951,
+            "min": 0,
+            "median": 0,
+            "p90": 16.86087268260765,
+            "p95": 71.23410475594392,
+            "p99": 116.35736542466243,
+            "max": 160.9903809423718
+          },
+          "rightToLeft": {
+            "samples": 3946,
+            "min": 0,
+            "median": 0,
+            "p90": 15.514861255294392,
+            "p95": 69.57861483591117,
+            "p99": 114.08224604590411,
+            "max": 157.6972791507214
+          },
+          "pooled": {
+            "samples": 7897,
+            "min": 0,
+            "median": 0,
+            "p90": 16.311598857893447,
+            "p95": 70.64418678878286,
+            "p99": 115.46143319852213,
+            "max": 160.9903809423718
+          },
+          "sampledMaximumMeters": 160.9903809423718,
+          "lengthRatio": 1.0014074179626635,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 7901,
+            "min": 0,
+            "median": 0,
+            "p90": 16.95275269916261,
+            "p95": 71.33430621955692,
+            "p99": 116.52582806921609,
+            "max": 161.6641251592369
+          },
+          "rightToLeft": {
+            "samples": 7890,
+            "min": 0,
+            "median": 0,
+            "p90": 15.387988467813003,
+            "p95": 69.84116311811933,
+            "p99": 114.02248343914474,
+            "max": 158.4074195003964
+          },
+          "pooled": {
+            "samples": 15791,
+            "min": 0,
+            "median": 0,
+            "p90": 16.281165316421752,
+            "p95": 70.53900347019169,
+            "p99": 115.46584778062962,
+            "max": 161.6641251592369
+          },
+          "sampledMaximumMeters": 161.6641251592369,
+          "lengthRatio": 1.0014074179626635,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        89,
+        116,
+        124
+      ]
+    },
+    {
+      "featureIndex": 27,
+      "assemblyId": "Pamir-source-2",
+      "extent": [
+        73.55873853052881,
+        39.25025592932217,
+        73.64549511203998,
+        39.33302004259815
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=39.291637985960165 +lon_0=73.6021168212844 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 21,
+        "lengthKm": 14.14633720120077,
+        "verticesPerKm": 1.4844832058872084,
+        "spacingMeters": {
+          "min": 108.3638746855159,
+          "median": 612.7074674037323,
+          "p90": 1219.468315546353,
+          "p95": 1328.7472426428412,
+          "p99": 1350.675601162662,
+          "max": 1356.1576907926171
+        },
+        "lengthToChordRatio": 1.193680691165648,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 943.089146746718,
+        "turnDegrees": {
+          "min": 0.4904633663604221,
+          "median": 24.66521683077082,
+          "p90": 42.01323986908996,
+          "p95": 44.28332820168758,
+          "p99": 45.85279012586107,
+          "max": 46.24515560690444
+        },
+        "turnDegreesPer100Km": 2353.1128135869
+      },
+      "after": {
+        "vertices": 19,
+        "lengthKm": 14.119413987400392,
+        "verticesPerKm": 1.345664913356521,
+        "spacingMeters": {
+          "min": 108.3638746855159,
+          "median": 622.8462687820474,
+          "p90": 1243.4319315309554,
+          "p95": 1509.2884898773825,
+          "p99": 2334.282180758836,
+          "max": 2540.5306034792015
+        },
+        "lengthToChordRatio": 1.1914088861039878,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 941.2942658266928,
+        "turnDegrees": {
+          "min": 1.7879096290119966e-14,
+          "median": 23.460714825645034,
+          "p90": 41.68076871438247,
+          "p95": 45.58358883163896,
+          "p99": 49.86015573611468,
+          "max": 50.92929746223361
+        },
+        "turnDegreesPer100Km": 2229.783566405835
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 567,
+            "min": 0,
+            "median": 0,
+            "p90": 40.79342057113622,
+            "p95": 65.99641530066512,
+            "p99": 91.1961322720579,
+            "max": 102.5234975421124
+          },
+          "rightToLeft": {
+            "samples": 566,
+            "min": 0,
+            "median": 0,
+            "p90": 40.22555138335494,
+            "p95": 65.07355806543481,
+            "p99": 90.38335795603163,
+            "max": 101.66135076248594
+          },
+          "pooled": {
+            "samples": 1133,
+            "min": 0,
+            "median": 0,
+            "p90": 40.38055261328506,
+            "p95": 65.69770924816967,
+            "p99": 91.01293551618774,
+            "max": 102.5234975421124
+          },
+          "sampledMaximumMeters": 102.5234975421124,
+          "lengthRatio": 1.0019068223245244,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 1133,
+            "min": 0,
+            "median": 0,
+            "p90": 41.00570823513189,
+            "p95": 66.32957760750223,
+            "p99": 91.99586988056355,
+            "max": 102.5234975421124
+          },
+          "rightToLeft": {
+            "samples": 1131,
+            "min": 0,
+            "median": 0,
+            "p90": 40.056555176149324,
+            "p95": 65.4073101134698,
+            "p99": 90.95782046459087,
+            "max": 101.66135076248594
+          },
+          "pooled": {
+            "samples": 2264,
+            "min": 0,
+            "median": 0,
+            "p90": 40.53192423960009,
+            "p95": 65.88948934694665,
+            "p99": 91.73797815873391,
+            "max": 102.5234975421124
+          },
+          "sampledMaximumMeters": 102.5234975421124,
+          "lengthRatio": 1.0019068223245244,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 2265,
+            "min": 0,
+            "median": 0,
+            "p90": 41.260506993822084,
+            "p95": 66.50224682084033,
+            "p99": 92.28210323919474,
+            "max": 102.71702050380595
+          },
+          "rightToLeft": {
+            "samples": 2261,
+            "min": 0,
+            "median": 0,
+            "p90": 40.39454759056056,
+            "p95": 65.69411791029668,
+            "p99": 91.0873282820743,
+            "max": 101.66135076248594
+          },
+          "pooled": {
+            "samples": 4526,
+            "min": 0,
+            "median": 0,
+            "p90": 40.629401748473285,
+            "p95": 65.97088070405613,
+            "p99": 91.8247939640508,
+            "max": 102.71702050380595
+          },
+          "sampledMaximumMeters": 102.71702050380595,
+          "lengthRatio": 1.0019068223245244,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        18,
+        19
+      ]
+    },
+    {
+      "featureIndex": 35,
+      "assemblyId": "W03-light-2",
+      "extent": [
+        77.46624155558591,
+        40.993345266155046,
+        78.00009598365097,
+        41.084732230024684
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=41.039038748089865 +lon_0=77.73316876961843 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 60,
+        "lengthKm": 58.10950625636167,
+        "verticesPerKm": 1.032533295590192,
+        "spacingMeters": {
+          "min": 207.1996409433951,
+          "median": 826.5848043651121,
+          "p90": 1728.458036100391,
+          "p95": 1995.9062077794401,
+          "p99": 3069.4703619959882,
+          "max": 3365.113256463295
+        },
+        "lengthToChordRatio": 1.2825568476844489,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 984.9068857010452,
+        "turnDegrees": {
+          "min": 5.157077897650098e-15,
+          "median": 28.460479562407787,
+          "p90": 64.29507143485917,
+          "p95": 69.00870221575691,
+          "p99": 82.96077289331745,
+          "max": 92.81927870395512
+        },
+        "turnDegreesPer100Km": 2955.2505945418498
+      },
+      "after": {
+        "vertices": 56,
+        "lengthKm": 57.91519085418788,
+        "verticesPerKm": 0.966931113824528,
+        "spacingMeters": {
+          "min": 207.1996409433951,
+          "median": 909.1937996814812,
+          "p90": 1749.21781852192,
+          "p95": 2034.0689600659746,
+          "p99": 3089.859527131664,
+          "max": 3365.113256463295
+        },
+        "lengthToChordRatio": 1.278268039093148,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 998.5377733480669,
+        "turnDegrees": {
+          "min": 4.599138427416579e-14,
+          "median": 27.88815846229643,
+          "p90": 65.43251261674247,
+          "p95": 71.04932175814795,
+          "p99": 88.20849592521623,
+          "max": 102.9641506139356
+        },
+        "turnDegreesPer100Km": 2987.6368874429786
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 2326,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 59.7033285712939,
+            "p99": 137.47824877947096,
+            "max": 178.32771839222664
+          },
+          "rightToLeft": {
+            "samples": 2318,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 53.619980599042,
+            "p99": 128.991327599967,
+            "max": 165.8876550155561
+          },
+          "pooled": {
+            "samples": 4644,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 55.52680796676768,
+            "p99": 132.15172518941517,
+            "max": 178.32771839222664
+          },
+          "sampledMaximumMeters": 178.32771839222664,
+          "lengthRatio": 1.0033551715760207,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 4650,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 59.14234368625218,
+            "p99": 137.2578540126619,
+            "max": 178.57482305710585
+          },
+          "rightToLeft": {
+            "samples": 4635,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 53.70235521674627,
+            "p99": 128.87836567647733,
+            "max": 168.51503826499206
+          },
+          "pooled": {
+            "samples": 9285,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 56.542021573104584,
+            "p99": 132.8265145807309,
+            "max": 178.57482305710585
+          },
+          "sampledMaximumMeters": 178.57482305710585,
+          "lengthRatio": 1.0033551715760207,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 9299,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 59.28960139608875,
+            "p99": 137.06879321990124,
+            "max": 178.6766607152307
+          },
+          "rightToLeft": {
+            "samples": 9268,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 53.97194856360687,
+            "p99": 128.9922952206055,
+            "max": 169.09823966178612
+          },
+          "pooled": {
+            "samples": 18567,
+            "min": 0,
+            "median": 0,
+            "p90": 9.094947017729282e-13,
+            "p95": 56.551754720024974,
+            "p99": 133.06774862168402,
+            "max": 178.6766607152307
+          },
+          "sampledMaximumMeters": 178.6766607152307,
+          "lengthRatio": 1.0033551715760207,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        16,
+        32,
+        34,
+        58
+      ]
+    },
+    {
+      "featureIndex": 37,
+      "assemblyId": "W03-light-3",
+      "extent": [
+        78.00004173818199,
+        41.03624253279503,
+        78.41678239021358,
+        41.332385083538284
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=41.18431380816666 +lon_0=78.20841206419779 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 83,
+        "lengthKm": 65.66982057773579,
+        "verticesPerKm": 1.263898686943264,
+        "spacingMeters": {
+          "min": 195.3225143373552,
+          "median": 726.7744638261196,
+          "p90": 1328.4836072166559,
+          "p95": 1486.435620817883,
+          "p99": 2034.9008175599488,
+          "max": 2321.568691549898
+        },
+        "lengthToChordRatio": 1.4464360282745456,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 994.9972814808453,
+        "turnDegrees": {
+          "min": 0.04022452070693438,
+          "median": 31.49599091029817,
+          "p90": 66.06665135606745,
+          "p95": 82.71095726940081,
+          "p99": 106.62068120848487,
+          "max": 117.35960086175535
+        },
+        "turnDegreesPer100Km": 3383.4414688616966
+      },
+      "after": {
+        "vertices": 56,
+        "lengthKm": 64.84924856749642,
+        "verticesPerKm": 0.8635412319653027,
+        "spacingMeters": {
+          "min": 195.3225143373552,
+          "median": 1019.5588262398188,
+          "p90": 2076.6836383371306,
+          "p95": 2366.9144525165348,
+          "p99": 2795.699754809856,
+          "max": 2857.742219375314
+        },
+        "lengthToChordRatio": 1.4283622021400744,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 997.6807471922525,
+        "turnDegrees": {
+          "min": 0,
+          "median": 27.514260962622053,
+          "p90": 74.14287854402761,
+          "p95": 84.49721840421377,
+          "p99": 101.11995917369252,
+          "max": 109.71620143057973
+        },
+        "turnDegreesPer100Km": 3176.903667000597
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 2628,
+            "min": 0,
+            "median": 18.758958504146673,
+            "p90": 106.2701542843906,
+            "p95": 129.0163849452007,
+            "p99": 165.0060926707406,
+            "max": 192.08623264880197
+          },
+          "rightToLeft": {
+            "samples": 2595,
+            "min": 0,
+            "median": 17.59852635795134,
+            "p90": 103.76566339759746,
+            "p95": 125.51856991466217,
+            "p99": 159.9079646702654,
+            "max": 184.98623068091342
+          },
+          "pooled": {
+            "samples": 5223,
+            "min": 0,
+            "median": 18.450388522768495,
+            "p90": 105.20373890519055,
+            "p95": 127.70947535990429,
+            "p99": 162.24091848953924,
+            "max": 192.08623264880197
+          },
+          "sampledMaximumMeters": 192.08623264880197,
+          "lengthRatio": 1.0126535315113994,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 5255,
+            "min": 0,
+            "median": 18.894611724303537,
+            "p90": 106.49557790028913,
+            "p95": 128.98210604083417,
+            "p99": 165.35490664550454,
+            "max": 193.30607696966626
+          },
+          "rightToLeft": {
+            "samples": 5189,
+            "min": 0,
+            "median": 17.59852635795134,
+            "p90": 103.77236396894357,
+            "p95": 125.7868524556923,
+            "p99": 159.97700628539016,
+            "max": 185.2745560131062
+          },
+          "pooled": {
+            "samples": 10444,
+            "min": 0,
+            "median": 18.471682473169857,
+            "p90": 105.22772495600547,
+            "p95": 127.71148517453307,
+            "p99": 162.89557684604853,
+            "max": 193.30607696966626
+          },
+          "sampledMaximumMeters": 193.30607696966626,
+          "lengthRatio": 1.0126535315113994,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 10509,
+            "min": 0,
+            "median": 19.16284492249211,
+            "p90": 106.61248274138859,
+            "p95": 129.2916432156724,
+            "p99": 165.4327573367539,
+            "max": 194.12287964469195
+          },
+          "rightToLeft": {
+            "samples": 10377,
+            "min": 0,
+            "median": 17.715112455432365,
+            "p90": 103.77181093319128,
+            "p95": 125.74334906875045,
+            "p99": 159.98029486354977,
+            "max": 185.8030883124706
+          },
+          "pooled": {
+            "samples": 20886,
+            "min": 0,
+            "median": 18.404523747992375,
+            "p90": 105.25744798255921,
+            "p95": 127.47770605511846,
+            "p99": 162.89312208966948,
+            "max": 194.12287964469195
+          },
+          "sampledMaximumMeters": 194.12287964469195,
+          "lengthRatio": 1.0126535315113994,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        23,
+        27,
+        29,
+        35,
+        36,
+        40,
+        41,
+        45,
+        49,
+        50,
+        52,
+        59,
+        63,
+        66,
+        71,
+        75,
+        78,
+        80
+      ]
+    },
+    {
+      "featureIndex": 39,
+      "assemblyId": "W03-light-4",
+      "extent": [
+        78.37988332618211,
+        41.3330023979513,
+        78.40483124578628,
+        41.39056815647357
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=41.361785277212434 +lon_0=78.39235728598419 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 20,
+        "lengthKm": 7.587499904542265,
+        "verticesPerKm": 2.6359143659464137,
+        "spacingMeters": {
+          "min": 51.36512547593951,
+          "median": 377.7390782164382,
+          "p90": 784.1779811939629,
+          "p95": 879.5758470170834,
+          "p99": 1041.5554510704349,
+          "max": 1082.0503520837724
+        },
+        "lengthToChordRatio": 1.138427478270193,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 948.4374880677832,
+        "turnDegrees": {
+          "min": 10.00628093389069,
+          "median": 26.388675751436363,
+          "p90": 43.516788639118445,
+          "p95": 50.08865937337449,
+          "p99": 55.34615596077934,
+          "max": 56.66053010763057
+        },
+        "turnDegreesPer100Km": 2673.09921287261
+      },
+      "after": {
+        "vertices": 18,
+        "lengthKm": 7.468055199898764,
+        "verticesPerKm": 2.4102660623403005,
+        "spacingMeters": {
+          "min": 51.36512547593951,
+          "median": 383.0896105828125,
+          "p90": 947.0673487059802,
+          "p95": 1142.5302509275955,
+          "p99": 1336.06592722783,
+          "max": 1384.4498463028885
+        },
+        "lengthToChordRatio": 1.1205060106443911,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 933.5068999873455,
+        "turnDegrees": {
+          "min": 10.04433747367365,
+          "median": 32.21387720622132,
+          "p90": 38.40446215821443,
+          "p95": 41.00222318369232,
+          "p99": 43.08043200407465,
+          "max": 43.59998420917024
+        },
+        "turnDegreesPer100Km": 2679.186824561771
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 305,
+            "min": 0,
+            "median": 0,
+            "p90": 154.6132768930312,
+            "p95": 227.1117649391732,
+            "p99": 242.14744374262438,
+            "max": 245.10851807722986
+          },
+          "rightToLeft": {
+            "samples": 300,
+            "min": 0,
+            "median": 0,
+            "p90": 132.73745934443474,
+            "p95": 212.47124541927926,
+            "p99": 239.26747037028258,
+            "max": 243.61058754924295
+          },
+          "pooled": {
+            "samples": 605,
+            "min": 0,
+            "median": 0,
+            "p90": 144.28904933228912,
+            "p95": 223.8785039372489,
+            "p99": 240.75205681490098,
+            "max": 245.10851807722986
+          },
+          "sampledMaximumMeters": 245.10851807722986,
+          "lengthRatio": 1.0159940843293607,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 608,
+            "min": 0,
+            "median": 0,
+            "p90": 156.94061379682879,
+            "p95": 227.01035369273822,
+            "p99": 241.78463576581711,
+            "max": 245.54619639945778
+          },
+          "rightToLeft": {
+            "samples": 599,
+            "min": 0,
+            "median": 0,
+            "p90": 132.78063085509444,
+            "p95": 212.6199877093149,
+            "p99": 239.9856939128917,
+            "max": 243.61058754924295
+          },
+          "pooled": {
+            "samples": 1207,
+            "min": 0,
+            "median": 0,
+            "p90": 146.02745863156227,
+            "p95": 224.83351336480382,
+            "p99": 241.05454016984604,
+            "max": 245.54619639945778
+          },
+          "sampledMaximumMeters": 245.54619639945778,
+          "lengthRatio": 1.0159940843293607,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 1215,
+            "min": 0,
+            "median": 0,
+            "p90": 157.0515657152874,
+            "p95": 227.32793459414643,
+            "p99": 242.11635710119435,
+            "max": 245.8019893091286
+          },
+          "rightToLeft": {
+            "samples": 1196,
+            "min": 0,
+            "median": 0,
+            "p90": 134.1643002922291,
+            "p95": 213.71972124546684,
+            "p99": 239.79379094751766,
+            "max": 243.41524015334832
+          },
+          "pooled": {
+            "samples": 2411,
+            "min": 0,
+            "median": 0,
+            "p90": 145.16420965665628,
+            "p95": 224.90220114776602,
+            "p99": 241.21412576458832,
+            "max": 245.8019893091286
+          },
+          "sampledMaximumMeters": 245.8019893091286,
+          "lengthRatio": 1.0159940843293607,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        6,
+        7
+      ]
+    },
+    {
+      "featureIndex": 44,
+      "assemblyId": "KAZ-sary-light",
+      "extent": [
+        81.71729451290479,
+        45.14367405720806,
+        82.10258564666108,
+        45.35853719355876
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=45.25110562538341 +lon_0=81.90994007978293 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 53,
+        "lengthKm": 52.574241182078715,
+        "verticesPerKm": 1.0080982399051042,
+        "spacingMeters": {
+          "min": 205.71521332995252,
+          "median": 849.6984393613864,
+          "p90": 1640.0750300401335,
+          "p95": 2639.754112554976,
+          "p99": 3376.1103104799163,
+          "max": 3652.1190766855
+        },
+        "lengthToChordRatio": 1.5026055323429324,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 991.9668147562022,
+        "turnDegrees": {
+          "min": 6.7785762939301576e-15,
+          "median": 17.503287668715394,
+          "p90": 52.121308729305106,
+          "p95": 54.97674901739517,
+          "p99": 84.11831796895467,
+          "max": 110.05958949661373
+        },
+        "turnDegreesPer100Km": 2347.525923027383
+      },
+      "after": {
+        "vertices": 35,
+        "lengthKm": 51.62955099500427,
+        "verticesPerKm": 0.6779063409516506,
+        "spacingMeters": {
+          "min": 205.71521332995252,
+          "median": 1307.3631022582179,
+          "p90": 2983.859080973476,
+          "p95": 3620.8264943026684,
+          "p99": 4066.0321056218936,
+          "max": 4252.477439130216
+        },
+        "lengthToChordRatio": 1.4756056809036688,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 992.8759806731591,
+        "turnDegrees": {
+          "min": 0,
+          "median": 20.30330868142812,
+          "p90": 53.28370079224379,
+          "p95": 59.37679718513486,
+          "p99": 97.1732664714238,
+          "max": 113.07445918852575
+        },
+        "turnDegreesPer100Km": 2476.8107529221165
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 2104,
+            "min": 0,
+            "median": 21.70575309309816,
+            "p90": 170.39122300865358,
+            "p95": 205.39965522310447,
+            "p99": 283.0672322734866,
+            "max": 298.9728473885225
+          },
+          "rightToLeft": {
+            "samples": 2067,
+            "min": 0,
+            "median": 18.767806131214254,
+            "p90": 164.08309485854198,
+            "p95": 197.39961103524377,
+            "p99": 276.98669941572047,
+            "max": 294.6582828447004
+          },
+          "pooled": {
+            "samples": 4171,
+            "min": 0,
+            "median": 20.39357764219048,
+            "p90": 167.2651044718211,
+            "p95": 201.91160171262362,
+            "p99": 280.6083316622031,
+            "max": 298.9728473885225
+          },
+          "sampledMaximumMeters": 298.9728473885225,
+          "lengthRatio": 1.0182974705157875,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 4207,
+            "min": 0,
+            "median": 22.161733279297465,
+            "p90": 170.66494304754823,
+            "p95": 205.39114572162228,
+            "p99": 283.52239141968744,
+            "max": 300.0108643361183
+          },
+          "rightToLeft": {
+            "samples": 4132,
+            "min": 0,
+            "median": 19.051638164033413,
+            "p90": 164.52370510299417,
+            "p95": 198.00559228632088,
+            "p99": 275.95774135899904,
+            "max": 295.3458967906681
+          },
+          "pooled": {
+            "samples": 8339,
+            "min": 0,
+            "median": 20.553772330948775,
+            "p90": 167.36354539727705,
+            "p95": 202.20730374434606,
+            "p99": 280.39083786024275,
+            "max": 300.0108643361183
+          },
+          "sampledMaximumMeters": 300.0108643361183,
+          "lengthRatio": 1.0182974705157875,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 8413,
+            "min": 0,
+            "median": 22.291842429949597,
+            "p90": 170.6940103518111,
+            "p95": 205.42812139873314,
+            "p99": 283.8556349372996,
+            "max": 300.0108643361183
+          },
+          "rightToLeft": {
+            "samples": 8262,
+            "min": 0,
+            "median": 19.133665147467696,
+            "p90": 164.5400965050404,
+            "p95": 198.28038111545607,
+            "p99": 276.5779844142097,
+            "max": 295.2078807283841
+          },
+          "pooled": {
+            "samples": 16675,
+            "min": 0,
+            "median": 20.595011082813183,
+            "p90": 167.64153096850268,
+            "p95": 202.18858915414265,
+            "p99": 280.4040415582219,
+            "max": 300.0108643361183
+          },
+          "sampledMaximumMeters": 300.0108643361183,
+          "lengthRatio": 1.0182974705157875,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        1,
+        8,
+        9,
+        12,
+        18,
+        19,
+        22,
+        24,
+        26,
+        28,
+        32,
+        35,
+        37,
+        39,
+        40,
+        43,
+        48,
+        50
+      ]
+    },
+    {
+      "featureIndex": 48,
+      "assemblyId": "KAZ-chagan-light",
+      "extent": [
+        84.67997612670922,
+        46.827531373597324,
+        85.21658391558348,
+        47.049508142634906
+      ],
+      "metricCrs": "+proj=aeqd +lat_0=46.938519758116115 +lon_0=84.94828002114636 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order",
+      "before": {
+        "vertices": 83,
+        "lengthKm": 82.7175840778621,
+        "verticesPerKm": 1.003414218697104,
+        "spacingMeters": {
+          "min": 0,
+          "median": 819.4537661356947,
+          "p90": 1796.723917833581,
+          "p95": 2219.6892150014296,
+          "p99": 3374.9774169314705,
+          "max": 3697.6209689855414
+        },
+        "lengthToChordRatio": 2.009069348182073,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 996.597398528459,
+        "turnDegrees": {
+          "min": 0,
+          "median": 13.87544633708297,
+          "p90": 41.37056713938126,
+          "p95": 55.323632472120785,
+          "p99": 90.47423773613369,
+          "max": 114.23393124414349
+        },
+        "turnDegreesPer100Km": 1984.8657969442033
+      },
+      "after": {
+        "vertices": 54,
+        "lengthKm": 81.87562867719079,
+        "verticesPerKm": 0.6595369204785541,
+        "spacingMeters": {
+          "min": 0,
+          "median": 1307.9624461303235,
+          "p90": 3418.981379417426,
+          "p95": 4171.058220684046,
+          "p99": 5132.249321952152,
+          "max": 5997.921108486776
+        },
+        "lengthToChordRatio": 1.988619684342365,
+        "lengthToChordApplicability": "open-chain",
+        "turnWindowMeters": 1000,
+        "turnActualSpacingMeters": 998.4832765511072,
+        "turnDegrees": {
+          "min": 0,
+          "median": 13.238008536214075,
+          "p90": 43.43341131468719,
+          "p95": 49.04454978897561,
+          "p99": 82.13946121788805,
+          "max": 117.79947040082388
+        },
+        "turnDegreesPer100Km": 1838.9465332991508
+      },
+      "deviation": [
+        {
+          "spacingMeters": 25,
+          "leftToRight": {
+            "samples": 3310,
+            "min": 0,
+            "median": 21.153486131360083,
+            "p90": 131.32638347233785,
+            "p95": 161.4828734439491,
+            "p99": 241.85833627661484,
+            "max": 249.11208705205243
+          },
+          "rightToLeft": {
+            "samples": 3277,
+            "min": 0,
+            "median": 20.164894949922363,
+            "p90": 127.89901625915262,
+            "p95": 157.05319813659273,
+            "p99": 241.40496867931245,
+            "max": 248.58263206067863
+          },
+          "pooled": {
+            "samples": 6587,
+            "min": 0,
+            "median": 20.713193220193038,
+            "p90": 129.84422836260055,
+            "p95": 159.1975385696586,
+            "p99": 241.67364845789524,
+            "max": 249.11208705205243
+          },
+          "sampledMaximumMeters": 249.11208705205243,
+          "lengthRatio": 1.0102833457803526,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 12.5,
+          "leftToRight": {
+            "samples": 6619,
+            "min": 0,
+            "median": 21.234074515446302,
+            "p90": 131.42119146722905,
+            "p95": 161.60305881818448,
+            "p99": 241.8583362766147,
+            "max": 249.11208705205243
+          },
+          "rightToLeft": {
+            "samples": 6552,
+            "min": 0,
+            "median": 20.202855105837564,
+            "p90": 128.3369242243401,
+            "p95": 157.48248822278023,
+            "p99": 241.46796218336317,
+            "max": 248.645591066642
+          },
+          "pooled": {
+            "samples": 13171,
+            "min": 0,
+            "median": 20.746504726693626,
+            "p90": 129.8058654381438,
+            "p95": 159.35221834865644,
+            "p99": 241.68233488731337,
+            "max": 249.11208705205243
+          },
+          "sampledMaximumMeters": 249.11208705205243,
+          "lengthRatio": 1.0102833457803526,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        },
+        {
+          "spacingMeters": 6.25,
+          "leftToRight": {
+            "samples": 13236,
+            "min": 0,
+            "median": 21.2484216869371,
+            "p90": 131.55318369473991,
+            "p95": 161.45551648969376,
+            "p99": 241.88989874308882,
+            "max": 249.20014769985698
+          },
+          "rightToLeft": {
+            "samples": 13102,
+            "min": 0,
+            "median": 20.23581030747915,
+            "p90": 128.2734941237808,
+            "p95": 157.36240537291764,
+            "p99": 241.49946614783516,
+            "max": 248.73358995535477
+          },
+          "pooled": {
+            "samples": 26338,
+            "min": 0,
+            "median": 20.757479082575017,
+            "p90": 129.91535407139338,
+            "p95": 159.52750155176471,
+            "p99": 241.7103690619986,
+            "max": 249.20014769985698
+          },
+          "sampledMaximumMeters": 249.20014769985698,
+          "lengthRatio": 1.0102833457803526,
+          "endpointOffsetsMeters": [
+            0,
+            0
+          ],
+          "maximumMeaning": "Uniform arc-length point-to-polyline sampled maximum; not an exact continuous Hausdorff bound or pure simplification error."
+        }
+      ],
+      "removedIndices": [
+        2,
+        3,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        26,
+        27,
+        28,
+        30,
+        33,
+        34,
+        35,
+        40,
+        41,
+        47,
+        49,
+        53,
+        55,
+        60,
+        65,
+        68,
+        72,
+        75,
+        78,
+        79,
+        81
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import fs from'node:fs';const d=JSON.parse(fs.readFileSync('build-native/territorial-recipe/historical-detail-konotop-tc-current-chains.json'));for(const r of d.rows)console.log(r.id,r.counts,r.chunks.map(c=>({keys:Object.keys(c),id:c.id,points:c.coordinates?.length})));

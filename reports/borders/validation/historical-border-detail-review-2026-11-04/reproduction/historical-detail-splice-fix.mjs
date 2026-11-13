@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+const p='tools/build-korean-boundaries.mjs';let s=fs.readFileSync(p,'utf8');s=s.replace('ring.splice(0,ring.length,...next);return normalize(result);','ring.splice(0,ring.length,...next);return result;');s=s.replace('return atBaseline(geometry,chain)?geometry:replaceBoundaryChain(geometry,chain.start,chain.end,chain.baseline,chain.retiredWitness);','return atBaseline(geometry,chain)?geometry:normalize(replaceBoundaryChain(geometry,chain.start,chain.end,chain.baseline,chain.retiredWitness));');fs.writeFileSync(p,s);

@@ -1,0 +1,10 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+const fixture=JSON.parse(readFileSync('build-native/territorial-recipe/german-coast-selected-oracle.json'));
+const run=(args,input)=>{const p=spawnSync(process.env.PANDO_TERRITORIAL_RECIPE_BINARY,args,{input,encoding:'utf8',windowsHide:true,maxBuffer:64*1024*1024});if(p.error)throw p.error;if(p.status!==0)throw Error(p.stderr||String(p.status));return JSON.parse(p.stdout)};
+const actual=run(['--german-1914-modern-coast','-'],JSON.stringify(fixture.input));
+const name='build-native/territorial-recipe/german-coast-selected-compare.json';
+writeFileSync(name,JSON.stringify({approved:fixture.expected.geometry,published:actual.geometry}),{flag:'wx'});
+const difference=run(['--compare-historical-geometry',name]);
+const keys=['outsideKm2','areaKm2','historicalAreaKm2','changedKm2','helgolandKm2','duneKm2'];
+console.log(JSON.stringify({metrics:Object.fromEntries(keys.map(k=>[k,{native:actual[k],python:fixture.expected[k],delta:actual[k]-fixture.expected[k]}])),controls:actual.controls,difference}));

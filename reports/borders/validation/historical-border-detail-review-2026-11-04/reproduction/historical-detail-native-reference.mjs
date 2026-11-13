@@ -1,0 +1,1 @@
+import fs from'node:fs';const d=JSON.parse(fs.readFileSync('build-native/territorial-recipe/historical-detail-review-ledger.json'));for(const r of d.decisions.filter(r=>r.entityId==='state:soviet-union'||r.reviewStatus==='unresolved'))console.log(r.entityId,r.versionId,r.nativeObject,r.reviewStatus);

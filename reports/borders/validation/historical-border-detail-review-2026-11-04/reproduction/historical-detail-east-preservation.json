@@ -1,0 +1,90 @@
+{
+  "epsilonDegrees": 1e-10,
+  "scope": "Two existing 1922 historical versions only; AFG and MNG actual selected peers in this date window; other current successor identities not alive in 1922",
+  "rows": [
+    {
+      "entityId": "state:soviet-union",
+      "nativeValid": true,
+      "compiledValid": true,
+      "sourceStructureBefore": {
+        "polygons": 222,
+        "holes": 0
+      },
+      "sourceStructureAfter": {
+        "polygons": 222,
+        "holes": 0
+      },
+      "compiledStructureBefore": {
+        "polygons": 222,
+        "holes": 0
+      },
+      "compiledStructureAfter": {
+        "polygons": 222,
+        "holes": 0
+      },
+      "candidateEdges": 4203,
+      "nativeCandidateEdgesPresent": 4203,
+      "compiledCandidateEdgesPresent": 4203,
+      "peers": [
+        {
+          "peer": "AFG",
+          "overlapBeforeDeg2": 0.0,
+          "overlapAfterDeg2": 0.0,
+          "sharedLineChangedLengthDegrees": 0.0,
+          "deltaTouchesPeerAreaDeg2": 0.0
+        },
+        {
+          "peer": "MNG",
+          "overlapBeforeDeg2": 0.0,
+          "overlapAfterDeg2": 0.0,
+          "sharedLineChangedLengthDegrees": 0.0,
+          "deltaTouchesPeerAreaDeg2": 0.0
+        }
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "nativeValid": true,
+      "compiledValid": true,
+      "sourceStructureBefore": {
+        "polygons": 218,
+        "holes": 0
+      },
+      "sourceStructureAfter": {
+        "polygons": 218,
+        "holes": 0
+      },
+      "compiledStructureBefore": {
+        "polygons": 218,
+        "holes": 0
+      },
+      "compiledStructureAfter": {
+        "polygons": 218,
+        "holes": 0
+      },
+      "candidateEdges": 4203,
+      "nativeCandidateEdgesPresent": 4203,
+      "compiledCandidateEdgesPresent": 4203,
+      "peers": [
+        {
+          "peer": "AFG",
+          "overlapBeforeDeg2": 0.0,
+          "overlapAfterDeg2": 0.0,
+          "sharedLineChangedLengthDegrees": 0.0,
+          "deltaTouchesPeerAreaDeg2": 0.0
+        },
+        {
+          "peer": "MNG",
+          "overlapBeforeDeg2": 0.0,
+          "overlapAfterDeg2": 0.0,
+          "sharedLineChangedLengthDegrees": 0.0,
+          "deltaTouchesPeerAreaDeg2": 0.0
+        }
+      ]
+    }
+  ],
+  "parentChildDeltaSymmetricDifferenceSquareDegrees": 0.0,
+  "historicalNewTerritorialEvent": false,
+  "displayDerivativeChangesExteriorArea": true,
+  "unionNote": "Both parent/child use identical cartographic exterior delta. Existing AFG/MNG shared lines/overlaps unchanged. A global land union is not numerically identical because the reviewed exterior moves into formerly unassigned display space."
+}

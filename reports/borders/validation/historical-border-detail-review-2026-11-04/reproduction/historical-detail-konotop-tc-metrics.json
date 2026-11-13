@@ -1,0 +1,173 @@
+{
+  "schema": "pando-border-detail-metrics-v1",
+  "samples": [
+    {
+      "id": "ua-ru-current-1",
+      "metricCrs": "+proj=aeqd +lat_0=51.3657965120492 +lon_0=33.839752165893046 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ transform executed, traditional XY",
+      "extent": [
+        33.27884371841444,
+        50.99761218254898,
+        34.40066061337164,
+        51.73398084154943
+      ],
+      "scope": "Actual adopted nonmodern shared component, not recovered source master",
+      "metrics": {
+        "historical": {
+          "vertices": 63,
+          "lengthKm": 206.09024065487924,
+          "verticesPerKm": 0.30569133113634633,
+          "spacingMeters": {
+            "min": 1509.3272203070876,
+            "median": 3122.168633467668,
+            "p90": 4453.30143082006,
+            "p95": 4616.554592881972,
+            "p99": 4847.225645723953,
+            "max": 5100.81075764494
+          },
+          "lengthToChordRatio": 2.7652270721743455,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 995.6050273182573,
+          "turnDegrees": {
+            "min": 0,
+            "median": 1.8573664510062664,
+            "p90": 24.557417851604818,
+            "p95": 35.43874559436475,
+            "p99": 87.57384332766854,
+            "max": 135.39434560990563
+          },
+          "turnDegreesPer100Km": 941.7496036029643
+        }
+      }
+    },
+    {
+      "id": "ua-ru-current-3",
+      "metricCrs": "+proj=aeqd +lat_0=46.12476476865116 +lon_0=34.21463486075491 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ transform executed, traditional XY",
+      "extent": [
+        33.61763488063091,
+        45.96683841444502,
+        34.811634840878924,
+        46.2826911228573
+      ],
+      "scope": "Actual adopted nonmodern shared component, not recovered source master",
+      "metrics": {
+        "historical": {
+          "vertices": 99,
+          "lengthKm": 277.35273405608984,
+          "verticesPerKm": 0.35694618384392396,
+          "spacingMeters": {
+            "min": 656.414736663705,
+            "median": 2294.1769801939254,
+            "p90": 4657.058412062373,
+            "p95": 6458.55932863856,
+            "p99": 9364.23097772943,
+            "max": 12439.982954707983
+          },
+          "lengthToChordRatio": 3.0160873940422013,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.6717052377332,
+          "turnDegrees": {
+            "min": 0,
+            "median": 6.134533294323935,
+            "p90": 50.295985418402,
+            "p95": 65.88412878003831,
+            "p99": 113.14692987688115,
+            "max": 126.83605703965546
+          },
+          "turnDegreesPer100Km": 1660.7360906026684
+        }
+      }
+    },
+    {
+      "id": "tc-ru-current-0",
+      "metricCrs": "+proj=aeqd +lat_0=41.847901 +lon_0=47.07696714845491 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ transform executed, traditional XY",
+      "extent": [
+        45.585738,
+        41.220215,
+        48.56819629690983,
+        42.475587
+      ],
+      "scope": "Actual adopted nonmodern shared component, not recovered source master",
+      "metrics": {
+        "historical": {
+          "vertices": 59,
+          "lengthKm": 388.8701902173539,
+          "verticesPerKm": 0.15172158083658385,
+          "spacingMeters": {
+            "min": 1983.2116932486435,
+            "median": 7313.0306858454915,
+            "p90": 10142.232666294101,
+            "p95": 11036.196681500622,
+            "p99": 12226.546169071305,
+            "max": 12684.68090352475
+          },
+          "lengthToChordRatio": 1.5964996284816875,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.6662987592646,
+          "turnDegrees": {
+            "min": 0,
+            "median": 2.7699426018211684e-13,
+            "p90": 13.88656534101127,
+            "p95": 24.405352456067213,
+            "p99": 55.40372940232795,
+            "max": 103.77237878252996
+          },
+          "turnDegreesPer100Km": 437.73480744251606
+        }
+      }
+    },
+    {
+      "id": "tc-ru-current-2",
+      "metricCrs": "+proj=aeqd +lat_0=43.43732284605272 +lon_0=40.273251244090716 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "OSGeo GDAL/PROJ transform executed, traditional XY",
+      "extent": [
+        40.12017296416585,
+        43.3513687137736,
+        40.42632952401557,
+        43.52327697833185
+      ],
+      "scope": "Actual adopted nonmodern shared component, not recovered source master",
+      "metrics": {
+        "historical": {
+          "vertices": 833,
+          "lengthKm": 41.34153811109487,
+          "verticesPerKm": 20.14922613090796,
+          "spacingMeters": {
+            "min": 0.5604808686470745,
+            "median": 50.0551757018972,
+            "p90": 54.67217091802822,
+            "p95": 64.2774371241571,
+            "p99": 65.67298711470661,
+            "max": 67.59734908909762
+          },
+          "lengthToChordRatio": 1.3211802280751859,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 984.3223359784494,
+          "turnDegrees": {
+            "min": 0.0084275956900747,
+            "median": 6.134860380219586,
+            "p90": 34.727053687682805,
+            "p95": 37.474269490434956,
+            "p99": 43.76608962058067,
+            "max": 46.54425953284316
+          },
+          "turnDegreesPer100Km": 1198.1545526096922
+        }
+      }
+    }
+  ],
+  "method": {
+    "coordinates": "Caller-supplied metre chains and explicit CRS metadata. Projection execution belongs in sample.projectionEvidence; +units=m alone does not verify projection or ground accuracy.",
+    "nativeVertices": "Stored chain vertices, including window cut endpoints; independent of distance sampling.",
+    "distanceSampling": "Uniform projected arc length, both directions, 100m then 50m convergence check; native-vertex average not used.",
+    "turnSampling": "Uniform 1km maximum step; actual equal step reported; absolute turns measured between successive sampled chords.",
+    "anchors": "Identical geographic bounding window for both sources; longest connected intersecting shared chain, fixed transverse cuts. Endpoint displacements reported, not snapped away. Multiple-component samples require explicit correspondence review.",
+    "uncertainty": "Source edition, registration, river movement and political interpretation may contribute; LSIB 11.4 is not a legal/historical accuracy oracle. No tolerance inferred from mean displacement or vertex density."
+  }
+}

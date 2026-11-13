@@ -1,0 +1,7 @@
+from historical_detail_membership import *
+d=load(base+'historical-detail-east-candidate.json');raw=load(base+'historical-detail-line-2.geojson');samples=[]
+for fi,remove in d['spec'].items():
+ f=raw['features'][int(fi)];cs=f['geometry']['coordinates'];ns=[p for i,p in enumerate(cs) if i not in remove];xs=[p[0] for p in cs];ys=[p[1] for p in cs];extent=[min(xs),min(ys),max(xs),max(ys)];definition='+proj=aeqd +lat_0='+str((min(ys)+max(ys))/2)+' +lon_0='+str((min(xs)+max(xs))/2)+' +datum=WGS84 +units=m +type=crs';src=osr.SpatialReference();src.ImportFromEPSG(4326);src.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER);dst=osr.SpatialReference();dst.SetFromUserInput(definition);dst.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER);tr=osr.CoordinateTransformation(src,dst)
+ def metric(coords):return [list(tr.TransformPoint(*p)[:2]) for p in coords]
+ samples.append({'id':'east-feature-'+fi,'featureIndex':int(fi),'assemblyId':f['properties']['assemblyId'],'extent':extent,'metricCrs':definition,'projectionEvidence':'Existing OSGeo GDAL/PROJ OSR.CoordinateTransformation executed with explicit traditional XY order','historical':metric(cs),'work':metric(ns),'geographic':{'historical':{'type':'LineString','coordinates':cs},'candidate':{'type':'LineString','coordinates':ns}},'removedIndices':remove,'scope':'Original retained displayed source vs reviewed candidate, not tracing master recovery'})
+json.dump({'schema':'pando-border-detail-samples-v1','samples':samples},open(base+'historical-detail-east-metric-input.json','w'),indent=2)

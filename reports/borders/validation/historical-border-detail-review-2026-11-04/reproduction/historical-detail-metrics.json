@@ -1,0 +1,251 @@
+{
+  "schema": "pando-border-detail-metrics-v1",
+  "samples": [
+    {
+      "id": "by-ru",
+      "scope": "Same geographic window and local projection; historical route differs politically. Detail comparison only; no positional-error or tolerance inference. Longest modern connected component, not the full modern border.",
+      "metricCrs": "+proj=aeqd +lat_0=53.878394623188555 +lon_0=30.4342195 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing GDAL/PROJ OSR.CoordinateTransformation actually executed; traditional GIS XY axis order. PROJ 9",
+      "extent": [
+        27.998907000000003,
+        51.46437524637712,
+        32.869532,
+        56.292414
+      ],
+      "candidateSha256": "bf86f18e074acaca8e91d0534ef9c922fb888f4837a85946fc1dd345f76edf25",
+      "sourceCandidate": "reports/borders/reconstruction/by-ukraine-full-internal-2026-10-29/by-ru-display.geojson",
+      "originalCandidateCounterpartCoverage": {
+        "BLR": {
+          "missingLengthDegrees": 0,
+          "intersectionLengthDegrees": 6.859992864487315
+        },
+        "RUS": {
+          "missingLengthDegrees": 0,
+          "intersectionLengthDegrees": 6.859992864487315
+        }
+      },
+      "measurementScope": "Longest exact both-counterpart applied component if original candidate was partly superseded; otherwise full candidate",
+      "metrics": {
+        "work": {
+          "vertices": 397,
+          "lengthKm": 919.6040441469828,
+          "verticesPerKm": 0.4317075403558647,
+          "spacingMeters": {
+            "min": 8.699398058645404,
+            "median": 1790.0066973988212,
+            "p90": 4693.31948522649,
+            "p95": 6010.242860332433,
+            "p99": 10065.99357806925,
+            "max": 14331.388916823376
+          },
+          "lengthToChordRatio": 1.8100774046498371,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.5696132032422,
+          "turnDegrees": {
+            "min": 0,
+            "median": 5.478542477975571,
+            "p90": 26.966968827696054,
+            "p95": 37.46105077230695,
+            "p99": 65.0538173658079,
+            "max": 92.20142474170196
+          },
+          "turnDegreesPer100Km": 1020.3159889360554
+        },
+        "historical": {
+          "vertices": 164,
+          "lengthKm": 600.4313610679976,
+          "verticesPerKm": 0.2731369655780311,
+          "spacingMeters": {
+            "min": 1292.2098472559546,
+            "median": 3068.325272123372,
+            "p90": 6041.173474123334,
+            "p95": 7082.3157686352415,
+            "p99": 12853.732963216395,
+            "max": 16193.06872651938
+          },
+          "lengthToChordRatio": 1.531263190782383,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.0538453710443,
+          "turnDegrees": {
+            "min": 0,
+            "median": 0.4644995539180161,
+            "p90": 19.38679394933327,
+            "p95": 27.750935624817593,
+            "p99": 45.339219186616134,
+            "max": 71.8405245166868
+          },
+          "turnDegreesPer100Km": 615.7668383986554
+        }
+      }
+    },
+    {
+      "id": "by-ua",
+      "scope": "Same geographic window and local projection; historical route differs politically. Detail comparison only; no positional-error or tolerance inference. Longest modern connected component, not the full modern border.",
+      "metricCrs": "+proj=aeqd +lat_0=51.676472000000004 +lon_0=27.678832 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing GDAL/PROJ OSR.CoordinateTransformation actually executed; traditional GIS XY axis order. PROJ 9",
+      "extent": [
+        23.443319000000002,
+        51.085168,
+        31.914344999999997,
+        52.267776
+      ],
+      "candidateSha256": "33a3c6aa6179ce48b946d8f5e7f6d7279db438073d8e048b04d87ec056be7170",
+      "sourceCandidate": "reports/borders/reconstruction/by-ukraine-full-internal-2026-10-29/by-ua-display.geojson",
+      "originalCandidateCounterpartCoverage": {
+        "BLR": {
+          "missingLengthDegrees": 0,
+          "intersectionLengthDegrees": 2.0162124668380303
+        },
+        "UKR": {
+          "missingLengthDegrees": 0,
+          "intersectionLengthDegrees": 2.0162124668380303
+        }
+      },
+      "measurementScope": "Longest exact both-counterpart applied component if original candidate was partly superseded; otherwise full candidate",
+      "metrics": {
+        "work": {
+          "vertices": 366,
+          "lengthKm": 861.5560357290583,
+          "verticesPerKm": 0.42481276297981796,
+          "spacingMeters": {
+            "min": 9.01994745535657,
+            "median": 1551.848723154164,
+            "p90": 4709.850628352453,
+            "p95": 6984.804585754018,
+            "p99": 15026.215546631181,
+            "max": 19589.055718232736
+          },
+          "lengthToChordRatio": 1.5219464613935059,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.4849602425271,
+          "turnDegrees": {
+            "min": 0,
+            "median": 3.7810588214390997,
+            "p90": 27.821404675127784,
+            "p95": 38.99595101251263,
+            "p99": 70.45656829480971,
+            "max": 110.15134101004783
+          },
+          "turnDegreesPer100Km": 982.2746044638072
+        },
+        "historical": {
+          "vertices": 47,
+          "lengthKm": 157.9586519143905,
+          "verticesPerKm": 0.2975462213077938,
+          "spacingMeters": {
+            "min": 1685.816918139403,
+            "median": 3126.434219450697,
+            "p90": 5975.620906054139,
+            "p95": 6850.201598331354,
+            "p99": 7595.381168405518,
+            "max": 7798.5032179332775
+          },
+          "lengthToChordRatio": 1.4484268882524431,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.7383032556359,
+          "turnDegrees": {
+            "min": 0,
+            "median": 1.746423233563128,
+            "p90": 25.99809714360202,
+            "p95": 38.15961639730239,
+            "p99": 72.04575717441082,
+            "max": 97.56133883548907
+          },
+          "turnDegreesPer100Km": 806.0574638591521
+        }
+      }
+    },
+    {
+      "id": "ua-ru-main",
+      "scope": "Same geographic window and local projection; historical route differs politically. Detail comparison only; no positional-error or tolerance inference. Longest modern connected component, not the full modern border.",
+      "metricCrs": "+proj=aeqd +lat_0=49.7361035 +lon_0=35.19359408616697 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "Existing GDAL/PROJ OSR.CoordinateTransformation actually executed; traditional GIS XY axis order. PROJ 9",
+      "extent": [
+        29.102316825812473,
+        46.953258,
+        41.28487134652147,
+        52.518949
+      ],
+      "candidateSha256": "152fa9b3de3f88c0ec97c9e0523bdc9b7b070764b1f136ecedbe6a951b134a43",
+      "sourceCandidate": "reports/borders/reconstruction/by-ukraine-full-internal-2026-10-29/ua-ru-main-display.geojson",
+      "originalCandidateCounterpartCoverage": {
+        "UKR": {
+          "missingLengthDegrees": 2.952778027782647,
+          "intersectionLengthDegrees": 22.907033288253736
+        },
+        "RUS": {
+          "missingLengthDegrees": 2.952778027782647,
+          "intersectionLengthDegrees": 22.907033288253736
+        }
+      },
+      "measurementScope": "Longest exact both-counterpart applied component if original candidate was partly superseded; otherwise full candidate",
+      "metrics": {
+        "work": {
+          "vertices": 571,
+          "lengthKm": 1523.820726842452,
+          "verticesPerKm": 0.3747159950916167,
+          "spacingMeters": {
+            "min": 166.37821892574252,
+            "median": 1945.457519792485,
+            "p90": 4998.5206841213,
+            "p95": 6748.334621599973,
+            "p99": 12874.931765493428,
+            "max": 15887.579638194475
+          },
+          "lengthToChordRatio": 2.1018372489836583,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.8823666945223,
+          "turnDegrees": {
+            "min": 0,
+            "median": 3.7134778308314997,
+            "p90": 23.1949428770939,
+            "p95": 30.0166746620249,
+            "p99": 56.295950595792206,
+            "max": 97.84455409918505
+          },
+          "turnDegreesPer100Km": 813.602237510021
+        },
+        "historical": {
+          "vertices": 222,
+          "lengthKm": 1340.4577046387842,
+          "verticesPerKm": 0.16561507254704674,
+          "spacingMeters": {
+            "min": 1349.8411721360806,
+            "median": 5597.7401114973845,
+            "p90": 9280.559986860611,
+            "p95": 11065.17724313625,
+            "p99": 15481.428005562397,
+            "max": 18528.308701663856
+          },
+          "lengthToChordRatio": 2.4057839549094515,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.5956037574826,
+          "turnDegrees": {
+            "min": 0,
+            "median": 1.1782265650102152e-12,
+            "p90": 31.070807612588865,
+            "p95": 50.7282885521811,
+            "p99": 81.75371515171368,
+            "max": 115.99563284409183
+          },
+          "turnDegreesPer100Km": 795.2774741176441
+        }
+      }
+    }
+  ],
+  "scope": "Three explicitly selected BY/UA/RU applied-candidate shared arcs; no world validation",
+  "method": {
+    "coordinates": "Caller-supplied metre chains and explicit CRS metadata. Projection execution belongs in sample.projectionEvidence; +units=m alone does not verify projection or ground accuracy.",
+    "nativeVertices": "Stored chain vertices, including window cut endpoints; independent of distance sampling.",
+    "distanceSampling": "Uniform projected arc length, both directions, 100m then 50m convergence check; native-vertex average not used.",
+    "turnSampling": "Uniform 1km maximum step; actual equal step reported; absolute turns measured between successive sampled chords.",
+    "anchors": "Identical geographic bounding window for both sources; longest connected intersecting shared chain, fixed transverse cuts. Endpoint displacements reported, not snapped away. Multiple-component samples require explicit correspondence review.",
+    "uncertainty": "Source edition, registration, river movement and political interpretation may contribute; LSIB 11.4 is not a legal/historical accuracy oracle. No tolerance inferred from mean displacement or vertex density."
+  }
+}

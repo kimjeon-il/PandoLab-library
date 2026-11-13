@@ -1,0 +1,102 @@
+{
+  "referenceDate": "1914-07-31",
+  "historicalGeometryApproved": false,
+  "geosVersion": "3.13.1-CAPI-1.19.2",
+  "projVersion": "9.5.1",
+  "inputs": {
+    "websiteCountries": [
+      "DEU",
+      "DNK",
+      "LTU",
+      "POL",
+      "RUS"
+    ],
+    "coastBufferMeters": 12000,
+    "historicalMatchBufferMeters": 12000,
+    "sources": {
+      "countries": {
+        "path": "assets/data/countries-ne-5.1.1.geojson",
+        "sha256": "52590CE133A779FC678496844C844137AEAA0DCA41CECA1621CD7C50169F5EFB"
+      },
+      "historical": {
+        "path": "tools/historical-library/sources/german-empire-1914/histogis-deutsches-reich-1871-1919.geojson",
+        "sha256": "0A75047B62DC835ABD5A47282A7DF71DEDB4802395CD476D68F645FB5B81E9E9"
+      },
+      "helgoland": {
+        "path": "tools/historical-library/sources/german-empire-1914/helgoland-osm-preserved.geojson",
+        "sha256": "325D2752A06448B19B6B597786F7CFB5AA664F82314DEB195862DCC6CCDA6734"
+      },
+      "dune": {
+        "path": "tools/historical-library/sources/german-empire-1914/dune-osm-way-273992076.geojson",
+        "sha256": "D486D47B2DF5242A02B9A1E61F618D373B4345EC60E3A4CE9E08FAE1CF982A2A"
+      }
+    }
+  },
+  "validation": {
+    "valid": true,
+    "geographicRepaired": true,
+    "repairBoundaryDistanceMethod": "GEOS discrete Hausdorff at vertices",
+    "repairBoundaryDistanceMetres": 0.0017123545200009064,
+    "repairAreaDifferenceKm2": 0.09855168134668213,
+    "geometryType": "MultiPolygon",
+    "componentCount": 29,
+    "boundsWGS84": [
+      5.875153,
+      47.2705079,
+      22.8904465,
+      56.001247
+    ],
+    "historicalAreaKm2": 542359.123,
+    "modernCoastAreaKm2": 544282.767,
+    "symmetricDifferenceKm2": 3918.726,
+    "differenceOutsideCoastZoneKm2": 0,
+    "helgolandAreaKm2": 1.07648,
+    "duneAreaKm2": 0.629302,
+    "controlPoints": [
+      {
+        "name": "Berlin",
+        "expected": true,
+        "actual": true
+      },
+      {
+        "name": "Strasbourg",
+        "expected": true,
+        "actual": true
+      },
+      {
+        "name": "Poznan",
+        "expected": true,
+        "actual": true
+      },
+      {
+        "name": "Danzig",
+        "expected": true,
+        "actual": true
+      },
+      {
+        "name": "Memel",
+        "expected": true,
+        "actual": true
+      },
+      {
+        "name": "Warsaw",
+        "expected": false,
+        "actual": false
+      },
+      {
+        "name": "Copenhagen",
+        "expected": false,
+        "actual": false
+      },
+      {
+        "name": "Prague",
+        "expected": false,
+        "actual": false
+      }
+    ]
+  },
+  "notes": [
+    "Intermediate modern-coast working base; not a historical shoreline approval.",
+    "No intended geometry change outside the 12 km modern-coast zone."
+  ]
+}

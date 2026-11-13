@@ -1,0 +1,27 @@
+import json,csv
+from pathlib import Path
+B=Path('build-native/territorial-recipe');O=B/'east-mask-review-2026-11-05';d=json.loads((B/'historical-detail-line-2.geojson').read_text(encoding='utf-8-sig'));strong=json.loads((B/'strong-independent-2026-11-05/anchor-proofs.json').read_text(encoding='utf-8-sig'))['east'];weak=json.loads((B/'historical-detail-east-candidate.json').read_text(encoding='utf-8-sig'))['spec'];ids=[2,4,8,12,18,20,23,25,27,35,37,39,44,48];rows=[]
+for i in ids:
+ f=d['features'][i];p=f['properties'];r=p.get('remaining_display_simplification_20261028');row=next(x for x in strong if x['feature']==i);keep=set(row['keep']);n=len(f['geometry']['coordinates']);cats={};paths=[]
+ if i==25:
+  x=p['display_simplification_20261028'];ret=x['retained_input_indices'];locked=set(x['protected_input_indices']);current={j for j,k in enumerate(ret) if k in locked};m=x['terrain_mask'];exp=lambda rr:set(j for a,b in rr for j in range(a,b+1));rawcats={'uncertain_water_ice_interval':exp(m['possibleWaterCrossingsVertexIntervalsInclusive']),'symbol_text_overlap_or_endpoint_interval':exp(m['overlapAndEndpointVertexIntervalsInclusive']),'major_bend_or_named_anchor_unseparated':set(m['majorBendAndNamedAnchorIndices'])};cats={k:{j for j,k0 in enumerate(ret) if 205-k0 in v} for k,v in rawcats.items()};paths.append({'path':x['terrain_mask_source'],'sha256':x['terrain_mask_sha256'],'availability':'embedded full mask; separate file/generator not located'});limit='No confirmed river-following segment; ranges protect uncertain source reading. Major bends are not separated from named geographic anchors.'
+ else:
+  ret=r['retained_input_indices'];locked=set(r['locked_input_indices']);current={j for j,k in enumerate(ret) if k in locked};prior={j for j,k in enumerate(ret) if any(k in e for e in r['prior_simplified_edges_preserved_exact'])};cats['prior_shortcut_endpoint_algorithmic']=prior;cats['feature_endpoint']={0,n-1};rawmap=None
+  if p.get('supplementalLightSimplification'):
+   s=p['supplementalLightSimplification'];constants={a+b for a,b in zip(s['removedAssemblyIndices'],s['removedRawSourceIndices'])};assert len(constants)==1
+   constant=next(iter(constants));pre=[j for j in range(s['assembledBefore']) if j not in s['removedAssemblyIndices']];assert len(pre)==r['vertices_before'];rawmap=[constant-pre[j] for j in ret]
+  elif i==23:rawmap=[211-j for j in ret]
+  elif i==27:
+   x=p['display_simplification_20261028'];rawmap=[89-x['retained_input_indices'][j] for j in ret];m=x['terrain_mask'];water=set(j for seg in m['waterOrPossibleWaterCrossingSegmentIndices'] for j in [seg,seg+1]);cats['uncertain_water_channel_interval']={j for j,k in enumerate(rawmap) if k in water};cats['uncertainty_or_bend_buffer_interval']={j for j,k in enumerate(rawmap) if k in m['lockedVertexIndices']};cats['major_bend_with_pixel_context']={j for j,k in enumerate(rawmap) if k in m['fixedMajorBendIndices']};paths.append({'path':x['terrain_mask_source'],'sha256':x['terrain_mask_sha256'],'availability':'embedded full mask; separate file/generator not located'})
+  for a in r['source_mask_anchors']:
+   paths.append({**a,'availability':'hash/index reference; separate full classification/generator not located'})
+   if rawmap is not None:cats.setdefault('source_mask_anchor_reason_unspecified',set()).update(j for j,k in enumerate(rawmap) if k in a['anchor_raw_indices'])
+  explained=set().union(*cats.values()) if cats else set();cats['40degree_or_unexplained_locked_residual']=current-explained
+  limit='40degree threshold and prior shortcut locks are documented; missing point-specific source classification is not proof of purely algorithmic origin.'
+  if i in [35,37,39,44,48]:limit+=' Earlier land-only/water-uncertainty/seam preservation is expressly recorded, but the detailed mask is unavailable.'
+  if i==12:limit+=' Source master allLocked is a preservation label, not independent semantic classification; source_mask_anchors is empty.'
+ out={'feature':i,'assembly':p['assemblyId'],'original_points':n,'weak_candidate_points':n-len(weak[str(i)]),'strong500_points':len(keep),'recorded_locked_current_count':len(current),'strong_removed_recorded_locked_count':len(current-keep),'categories_overlapping':{k:{'current_count':len(v),'strong500_removed':len(v-keep),'weak_removed':len(v.intersection(weak[str(i)])),'current_indices':sorted(v)} for k,v in cats.items()},'mask_references':paths,'decision':'retain existing independently validated weak display candidate','strong_status':'provisional; not source-semantically cleared','reason':limit};assert not current.intersection(weak[str(i)]),(i,'weak removes recorded lock');rows.append(out)
+(O/'feature-review.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+with (O/'feature-review.csv').open('w',newline='',encoding='utf-8-sig')as h:
+ fields=['feature','assembly','original_points','weak_candidate_points','strong500_points','recorded_locked_current_count','strong_removed_recorded_locked_count','decision'];w=csv.DictWriter(h,fieldnames=fields);w.writeheader();w.writerows({k:r[k]for k in fields}for r in rows)
+print(json.dumps([{k:r[k]for k in ['feature','original_points','weak_candidate_points','strong500_points','recorded_locked_current_count','strong_removed_recorded_locked_count']}for r in rows]));print('totals',sum(r['original_points']for r in rows),sum(r['weak_candidate_points']for r in rows),sum(r['strong500_points']for r in rows))

@@ -1,0 +1,37 @@
+{
+  "method": "Remove only each explicitly matched non-seam edited arc interior, preserve endpoints, then compare complete ordered polygon/ring coordinate arrays exactly; no rounding or re-normalization in this proof.",
+  "rows": [
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "arcs": 17,
+      "compiledOutsideCoordinateArraysExactlyEqual": true,
+      "editedArcRepresentationNote": "Canonical owner removes consecutive exact duplicates within edited arc feature48; source retains its original duplicate. The complete outside arrays are still compared without rounding or normalization.",
+      "sourceOutsideCoordinateArraysExactlyEqual": true
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "arcs": 16,
+      "compiledOutsideCoordinateArraysExactlyEqual": true,
+      "editedArcRepresentationNote": "Canonical owner removes consecutive exact duplicates within edited arc feature48; source retains its original duplicate. The complete outside arrays are still compared without rounding or normalization.",
+      "sourceOutsideCoordinateArraysExactlyEqual": true
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "versionId": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "arcs": 1,
+      "compiledOutsideCoordinateArraysExactlyEqual": true,
+      "editedArcRepresentationNote": "Canonical owner removes consecutive exact duplicates within edited arc feature48; source retains its original duplicate. The complete outside arrays are still compared without rounding or normalization.",
+      "sourceOutsideCoordinateArraysExactlyEqual": true
+    },
+    {
+      "entityId": "IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+      "arcs": 1,
+      "compiledOutsideCoordinateArraysExactlyEqual": true,
+      "editedArcRepresentationNote": "Canonical owner removes consecutive exact duplicates within edited arc feature48; source retains its original duplicate. The complete outside arrays are still compared without rounding or normalization.",
+      "sourceOutsideCoordinateArraysExactlyEqual": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema": "pando-border-detail-metrics-v1",
+  "samples": [
+    {
+      "id": "atrek",
+      "metricCrs": "+proj=aeqd +lat_0=37.44694326761819 +lon_0=54.43712427306632 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "GDAL/PROJ OSR transformation actually executed; traditional GIS XY",
+      "extent": [
+        53.86485054613264,
+        37.06937845072322,
+        55.009398000000004,
+        37.824508084513155
+      ],
+      "scope": "Same geographic window and boundary terrain, politically different routes and endpoints: detail only, no positional-error inference",
+      "coverage": {
+        "sourcePresent": 139,
+        "compiledPresent": 139,
+        "edges": 139
+      },
+      "metrics": {
+        "work": {
+          "vertices": 36,
+          "lengthKm": 126.38153869000004,
+          "verticesPerKm": 0.28485173050712753,
+          "spacingMeters": {
+            "min": 679.9926214751409,
+            "median": 2026.7570183962796,
+            "p90": 5320.032397523978,
+            "p95": 13881.993089101494,
+            "p99": 21904.644097855627,
+            "max": 24272.019986867344
+          },
+          "lengthToChordRatio": 1.1730149451421619,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 995.1302259055121,
+          "turnDegrees": {
+            "min": 0,
+            "median": 3.3004185566985446e-13,
+            "p90": 14.893350213407931,
+            "p95": 20.009584300760963,
+            "p99": 24.924152388604618,
+            "max": 30.702362437189073
+          },
+          "turnDegreesPer100Km": 437.2584017667144
+        },
+        "historical": {
+          "vertices": 140,
+          "lengthKm": 100.05646437113492,
+          "verticesPerKm": 1.3992099449037527,
+          "spacingMeters": {
+            "min": 201.3592654981976,
+            "median": 522.4691412326405,
+            "p90": 995.6424738271015,
+            "p95": 1888.9506220659566,
+            "p99": 4332.305589279555,
+            "max": 5514.139165500205
+          },
+          "lengthToChordRatio": 1.4548665126738747,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 990.6580630805438,
+          "turnDegrees": {
+            "min": 0,
+            "median": 5.6960099611271575,
+            "p90": 24.671814907371168,
+            "p95": 38.928781646567145,
+            "p99": 46.37067338868083,
+            "max": 88.14669820383709
+          },
+          "turnDegreesPer100Km": 1008.5879908277401
+        }
+      }
+    },
+    {
+      "id": "khiva",
+      "metricCrs": "+proj=aeqd +lat_0=40.74547151914771 +lon_0=59.50958290729135 +datum=WGS84 +units=m +type=crs",
+      "projectionEvidence": "GDAL/PROJ OSR transformation actually executed; traditional GIS XY",
+      "extent": [
+        56.749305337631576,
+        39.93220056261573,
+        62.26986047695113,
+        41.558742475679686
+      ],
+      "scope": "Same geographic window and boundary terrain, politically different routes and endpoints: detail only, no positional-error inference",
+      "coverage": {
+        "sourcePresent": 32,
+        "compiledPresent": 32,
+        "edges": 32
+      },
+      "metrics": {
+        "work": {
+          "vertices": 66,
+          "lengthKm": 283.3651134425798,
+          "verticesPerKm": 0.23291505153253111,
+          "spacingMeters": {
+            "min": 299.21896211991196,
+            "median": 2967.8190995764044,
+            "p90": 9437.78547983382,
+            "p95": 10658.949756305079,
+            "p99": 19213.255647908387,
+            "max": 23299.005511769737
+          },
+          "lengthToChordRatio": 1.3011302326274403,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 997.7644839527458,
+          "turnDegrees": {
+            "min": 0,
+            "median": 8.509037049961238e-13,
+            "p90": 11.67543329744145,
+            "p95": 19.870291210948192,
+            "p99": 42.061944491426836,
+            "max": 109.44763161632666
+          },
+          "turnDegreesPer100Km": 445.2787178851988
+        },
+        "historical": {
+          "vertices": 33,
+          "lengthKm": 455.6203543986483,
+          "verticesPerKm": 0.0724287220301102,
+          "spacingMeters": {
+            "min": 1344.5904367690994,
+            "median": 16843.498118993848,
+            "p90": 17673.333065455972,
+            "p95": 18119.54053051923,
+            "p99": 19232.42111437292,
+            "max": 19658.19364294808
+          },
+          "lengthToChordRatio": 1.005052559525273,
+          "lengthToChordApplicability": "open-chain",
+          "turnWindowMeters": 1000,
+          "turnActualSpacingMeters": 999.1674438566849,
+          "turnDegrees": {
+            "min": 0,
+            "median": 1.870743552544445e-13,
+            "p90": 0.2087641160898863,
+            "p95": 1.854548344127503,
+            "p99": 4.993791534386364,
+            "max": 9.610929742680044
+          },
+          "turnDegreesPer100Km": 27.281577623377917
+        }
+      }
+    }
+  ],
+  "method": {
+    "coordinates": "Caller-supplied metre chains and explicit CRS metadata. Projection execution belongs in sample.projectionEvidence; +units=m alone does not verify projection or ground accuracy.",
+    "nativeVertices": "Stored chain vertices, including window cut endpoints; independent of distance sampling.",
+    "distanceSampling": "Uniform projected arc length, both directions, 100m then 50m convergence check; native-vertex average not used.",
+    "turnSampling": "Uniform 1km maximum step; actual equal step reported; absolute turns measured between successive sampled chords.",
+    "anchors": "Identical geographic bounding window for both sources; longest connected intersecting shared chain, fixed transverse cuts. Endpoint displacements reported, not snapped away. Multiple-component samples require explicit correspondence review.",
+    "uncertainty": "Source edition, registration, river movement and political interpretation may contribute; LSIB 11.4 is not a legal/historical accuracy oracle. No tolerance inferred from mean displacement or vertex density."
+  }
+}

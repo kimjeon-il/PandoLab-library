@@ -1,0 +1,1 @@
+import fs from'node:fs';const p='build-native/territorial-recipe/historical-detail-darja-joint-independent.py';let s=fs.readFileSync(p,'utf8');s=s.replace("print(metrics,flush=True);assert ","json.dump(metrics,open(base+'historical-detail-darja-joint-independent-observation.json','w'),indent=2);print(metrics,flush=True);assert ");fs.writeFileSync(p,s);
