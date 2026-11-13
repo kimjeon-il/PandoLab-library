@@ -1,0 +1,106 @@
+name: GIS independent river point screen
+on:
+  workflow_dispatch: null
+permissions:
+  contents: read
+jobs:
+  verify-published-hydro-against-independent-points:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout: |-
+            /.github/
+            /tools/
+            /tests/
+            /scripts/
+            /config/
+            /package.json
+            /pnpm-lock.yaml
+            /AGENTS.md
+            /README.md
+            /archive/index.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
+          path: .dependencies/pando
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .dependencies/pando/.nvmrc
+      - name: Read the paired data revision
+        id: hydro-data-pin
+        run: node -e
+          "console.log('revision='+require('./config/library-data.json').revision)"
+          >> "$GITHUB_OUTPUT"
+      - name: Fetch only the pinned Hydro bundle
+        uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/PandoLab-library
+          ref: ${{ steps.hydro-data-pin.outputs.revision }}
+          path: .pando-hydro-input
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout: |-
+            .github
+            tools
+            tests
+            scripts
+            config
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
+          path: .dependencies/pando
+          persist-credentials: false
+      - name: Build the read-only native point screen
+        run: >
+          sudo apt-get update -qq && sudo apt-get install -y -qq libgeos-dev
+          libproj-dev ninja-build
+
+          cmake -S tools/cpp -B build-native/hydro-point-screen -G Ninja
+          -DCMAKE_BUILD_TYPE=Release \
+            -DPANDO_BUILD_COUNTRY_VALIDATOR=OFF -DPANDO_BUILD_HYDRO_POINT_SCREEN=ON
+          cmake --build build-native/hydro-point-screen --target
+          pando-hydro-point-screen
+
+          node tools/gis/package-hydro-point-screen.mjs --binary
+          build-native/hydro-point-screen/pando-hydro-point-screen --directory
+          build-native/hydro-point-screen/artifact
+      - name: Decode version-pinned Hydro through production decoder
+        run: node tools/gis/decode-hydro-connectivity.mjs
+          .pando-hydro-input/assets/data/hydro/v0.13.2
+          /tmp/pando-hydro-point-decoded.json
+      - name: Compare independent NLS/Kazakh river name anchors with original Hydro
+          mainstems
+        run: |
+          node "$PANDO_LIBRARY_ROOT/tools/gis/verify-independent-river-point-anchors.mjs" \
+            --decoded /tmp/pando-hydro-point-decoded.json \
+            --output /tmp/pando-independent-river-point-screen.json
+          node --input-type=module - <<'JS'
+          import assert from 'node:assert/strict';
+          import {readFileSync} from 'node:fs';
+          assert.deepEqual(JSON.parse(readFileSync('/tmp/pando-independent-river-point-screen.json','utf8')),
+            JSON.parse(readFileSync(process.env.PANDO_LIBRARY_ROOT+'/tests/fixtures/hydro-independent-point-screen-v0132-expected.json','utf8')));
+          JS
+      - name: Preserve isolated source evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gis-independent-river-point-screen
+          path: /tmp/pando-independent-river-point-screen.json
+          if-no-files-found: warn
+          retention-days: 14
+    env:
+      PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
+      PANDO_LIBRARY_ROOT: ${{ github.workspace }}
+      PANDOLAB_LIBRARY_DATA_ROOT: ${{ github.workspace }}
+      NODE_OPTIONS: --import=${{ github.workspace }}/tools/register-consumer.mjs
+    defaults:
+      run:
+        working-directory: .dependencies/pando

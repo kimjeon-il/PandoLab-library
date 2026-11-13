@@ -41,13 +41,13 @@ jobs:
           --include-prefix=assets/data/countries-ne-5.1.1.geojson
       - uses: mamba-org/setup-micromamba@v3
         with:
-          environment-file: .dependencies/pando/tools/cpp/territorial-recipe-environment.yml
+          environment-file: tools/cpp/territorial-recipe/territorial-recipe-environment.yml
           init-shell: bash
           cache-environment: true
           cache-downloads: true
       - name: Build selected native generator and candidate
         run: |
-          cmake -S "$PANDO_CONSUMER_ROOT/tools/cpp" -B build-native/territorial-recipe -G Ninja -DPANDO_BUILD_COUNTRY_VALIDATOR=OFF -DPANDO_BUILD_TERRITORIAL_RECIPE=ON
+          cmake -S tools/cpp/territorial-recipe -DPANDO_CONSUMER_ROOT="$PANDO_CONSUMER_ROOT" -B build-native/territorial-recipe -G Ninja -DPANDO_BUILD_COUNTRY_VALIDATOR=OFF -DPANDO_BUILD_TERRITORIAL_RECIPE=ON
           cmake --build build-native/territorial-recipe --target pando-territorial-recipe
           export PANDO_TERRITORIAL_RECIPE_BINARY="$PWD/build-native/territorial-recipe/pando-territorial-recipe"
           node tools/gis/build-german-1914-base.mjs --modern-coast --output build-native/territorial-recipe/german-1914-modern-coast-candidate.geojson --diagnostics build-native/territorial-recipe/german-1914-modern-coast-diagnostics.json

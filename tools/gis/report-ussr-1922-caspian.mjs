@@ -9,7 +9,7 @@ import {readFileSync,mkdirSync,writeFileSync,existsSync} from 'node:fs';
 import {resolve,join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {FOUNDER_IDS,USSR_ZIP_SHA} from './replay-ussr-1922-countries.mjs';
-import {ARCHIVE_SHA} from 'pando:tools/gis/verify-approved-caspian-network.mjs';
+import {ARCHIVE_SHA} from './verify-approved-caspian-network.mjs';
 import {validatePhysicalMetrics} from './replay-ussr-1922-physical.mjs';
 import {APPROVED_DATA_PIN,approvedReportReceiptsMatch} from './audit-ussr-1922-approved-followups.mjs';
 

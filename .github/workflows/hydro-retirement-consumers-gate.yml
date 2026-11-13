@@ -1,0 +1,84 @@
+name: Hydro v0.13.2 Legacy Consumer Migration
+on:
+  workflow_dispatch: null
+permissions:
+  contents: read
+jobs:
+  migrated-consumers:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |-
+            /.github/
+            /tools/
+            /tests/
+            /scripts/
+            /config/
+            /package.json
+            /pnpm-lock.yaml
+            /AGENTS.md
+            /README.md
+            /archive/index.json
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
+          path: .dependencies/pando
+          persist-credentials: false
+      - name: Prepare only paired Hydro inputs
+        run: node tools/data/library-data.mjs --purpose=gis
+          --include-prefix=assets/data/hydro
+          --include-prefix=assets/data/natural-earth
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/PandoLab-library
+          ref: 81c45d11d1265e287dd21aaf0127c1112aca1176
+          path: original-name-research
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |-
+            .github
+            tools
+            tests
+            scripts
+            config
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
+          path: .dependencies/pando
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate migrated consumer source and archived original names
+        run: >
+          node --check tools/gis/decode-hydro-connectivity.mjs
+
+          node --check tools/gis/research-hydro-names.mjs
+
+          node --check tools/gis/promote-hydro-names.mjs
+
+          node "$PANDO_LIBRARY_ROOT/tools/gis/research-hydro-names.mjs" --check
+
+          node "$PANDO_LIBRARY_ROOT/tools/gis/research-hydro-names.mjs" --check
+          --archive-core
+          original-name-research/assets/data/hydro/v0.13.0/metadata-core.json.gz
+      - name: Decode actual 2-file corpus and exercise production Serbia, Croatia and
+          Moldova partitions
+        run: node tools/gis/decode-hydro-connectivity.mjs assets/data/hydro/v0.13.2
+          "$RUNNER_TEMP/hydro-v0132-decoded.json"
+    env:
+      PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
+      PANDO_LIBRARY_ROOT: ${{ github.workspace }}
+      PANDOLAB_LIBRARY_DATA_ROOT: ${{ github.workspace }}
+      NODE_OPTIONS: --import=${{ github.workspace }}/tools/register-consumer.mjs
+    defaults:
+      run:
+        working-directory: .dependencies/pando

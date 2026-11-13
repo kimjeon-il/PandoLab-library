@@ -11,7 +11,11 @@ before changing sources, materialized data, reports or caches.
 
 `tools/` owns QGIS integration, historical-source authoring and repository
 administration. `tests/` contains focused tool tests and fixtures, `config/`
-contains execution configuration and `.github/` contains selected tool CI.
+contains execution configuration, `scripts/` coordinates opt-in execution and
+`.github/` contains selected tool CI. Historical recipes live in
+`tools/cpp/territorial-recipe/`, research inputs in
+`tools/historical-library/hydro/`, and immutable small source oracles in
+`tests/fixtures/`. Fixture retention does not hydrate the real source catalog.
 `config/pando-code.json` independently pins shared computation/storage inputs;
 it does not change any application's runtime data revision.
 

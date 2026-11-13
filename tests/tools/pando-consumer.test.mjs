@@ -20,3 +20,12 @@ test('consumer code is pinned independently of data and unknown or modified code
   assert.throws(()=>consumerResolver({root,pin}).resolve('pando:src/current.mjs',{},next),/differs/);
   assert.throws(()=>consumerResolver({pin}),/PANDO_CONSUMER_ROOT/);
 });
+
+test('library tool code is located independently of the data consumer',t=>{
+ const base=mkdtempSync(join(tmpdir(),'library-code-boundary-')),root=join(base,'app'),libraryRoot=join(base,'library');
+ t.after(()=>rmSync(base,{recursive:true,force:true}));mkdirSync(root);mkdirSync(join(libraryRoot,'tools'),{recursive:true});const file=join(libraryRoot,'tools/current.mjs');writeFileSync(file,'export const current=true;');
+ const pin={repository:'kimjeon-il/Pando',revision:'a'.repeat(40),files:{}},hook=consumerResolver({root,pin,libraryRoot});
+ assert.equal(hook.resolve('library:tools/current.mjs',{},url=>({url})).url,pathToFileURL(file).href);
+ assert.throws(()=>hook.resolve('library:tools/../secret.mjs',{},url=>({url})),/Invalid/);
+ assert.throws(()=>hook.resolve('library:reports/private.mjs',{},url=>({url})),/Invalid/);
+});

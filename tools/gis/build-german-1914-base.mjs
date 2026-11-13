@@ -6,7 +6,7 @@ import {dirname,isAbsolute,relative,resolve,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {parseArgs} from 'node:util';
 import {withLibraryOutputs} from "pando:tools/data/library-runtime.mjs";
-import {verifyCanonicalDEU,verifyHistoricalStateSource} from 'pando:tools/gis/verify-german-1914-originals.mjs';
+import {verifyCanonicalDEU,verifyHistoricalStateSource} from './verify-german-1914-originals.mjs';
 
 const defaultRoot=process.env.PANDO_CONSUMER_ROOT;
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex').toUpperCase();

@@ -1,0 +1,54 @@
+name: Library selected historical recipe
+run-name: Historical recipe ${{ inputs.request_id }}
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  territorial-recipe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            tools
+            tests
+            scripts
+            config
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
+          path: .dependencies/pando
+          persist-credentials: false
+      - uses: mamba-org/setup-micromamba@v3
+        with:
+          environment-file: tools/cpp/territorial-recipe/territorial-recipe-environment.yml
+          init-shell: bash
+          cache-environment: true
+          cache-downloads: true
+      - name: Build only the library recipe
+        run: |
+          cmake -S tools/cpp/territorial-recipe -B build-native/territorial-recipe -G Ninja -DPANDO_CONSUMER_ROOT="$PWD/.dependencies/pando"
+          cmake --build build-native/territorial-recipe --target pando-territorial-recipe --parallel 2
+      - name: Synthetic boundary supplement contract
+        env:
+          PANDO_TERRITORIAL_RECIPE_BINARY: ${{ github.workspace }}/build-native/territorial-recipe/pando-territorial-recipe
+        run: node --test tests/unit/geometry/territorial-boundary-supplement.test.mjs tests/unit/geometry/territorial-source-oracles.test.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: native-territorial-recipe-${{ github.sha }}
+          path: build-native/territorial-recipe/pando-territorial-recipe
+          if-no-files-found: error
+          retention-days: 7
