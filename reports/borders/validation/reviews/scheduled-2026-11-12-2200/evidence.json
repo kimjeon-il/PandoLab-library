@@ -1,0 +1,55 @@
+{
+  "id": "GEO-REVIEW-20261112-2200",
+  "runUtc": "2026-11-12T22:00:00Z",
+  "recoveredOn": "2026-11-13",
+  "priorReviewCommit": "6259502e4b9a1d1fce2c9c764fd35ed525e55390",
+  "heads": {
+    "Pando/main": "bd4ce107179da483bbfbad64036ef400adaeda66",
+    "Pando/work/gis": "8c9b68f6c1320577938a2f759860853017b48531",
+    "PandoLab-library-data/main": "5184244425a9259d4c3bb8fc3fdefce2eae758da",
+    "PandoLab-library-data/work/gis": "82edd7181c158940c482d6621a403bd8667fda72"
+  },
+  "reports": [
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "path": "reports/borders/history/lifetimes/country-lifetime-south-america-historic-guayaquil-cundinamarca-entre-rios-2026-11-13.md",
+      "commit": "50b27e32c0874f614d23899e050247b430b64384",
+      "blob": "521bb5a53e29a92c4f1a85eb6b8057a4c92de248",
+      "decision": "reviewed; not applied; explicit holds retained"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library-data",
+      "branch": "main",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-europe-ukraine-chasiv-yar-control-vector-2026-11-13.md",
+      "commit": "73b6c9d18d21062a67b91c154f2841a94f542a0a",
+      "blob": "4665748623c46fd851d6510c7c01a0da6a447419",
+      "decision": "reviewed; not applied; explicit holds retained"
+    }
+  ],
+  "currentIndexBlob": "d982119a3478199a499aeb8a4058b116a7a83b04",
+  "currentIndexRead": "metadata hash matches previous review; current fetch content empty; no new JSON parse claimed",
+  "scope": {
+    "runtimeChanges": 0,
+    "geometryChanges": 0,
+    "lifetimeChanges": 0,
+    "mainWrites": 0
+  },
+  "verification": {
+    "historyTrees": "complete recursive lifetime/timeline trees compared by path and blob; other history directories unchanged",
+    "otherBorders": "data/reconstruction/validation main tree hashes unchanged since 233b0f5; work/gis borders tree unchanged since 6259502",
+    "sources": [
+      "https://guayaquil.gob.ec/guayaquil-celebra-independencia/",
+      "https://www.archivogeneral.gov.co/Constituciones-de-Colombia",
+      "https://www.anuarioiha.fahce.unlp.edu.ar/article/view/aihae195",
+      "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-july-31-2025"
+    ],
+    "sourceFailure": "ISW fair-use policy HTTP403; no renewed rights clearance",
+    "notRun": [
+      "full source scans",
+      "GIS validation",
+      "local report CLI",
+      "full application tests"
+    ]
+  }
+}

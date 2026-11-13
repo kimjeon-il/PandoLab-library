@@ -17,3 +17,4 @@
 | --- | --- | --- | --- | --- |
 | `GEO-REVIEW-20261108-2200` | [양 브랜치 검토 — 틸지트 비준 교환·아니프 선언·수단 단위 구분](borders/validation/reviews/scheduled-2026-11-08-2200/README.md) | 2026-11-08 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261111-2200` | [양 브랜치 검토 — 시킴 소급효력·예멘 조약 계속성·2025 사건 범위](borders/validation/reviews/scheduled-2026-11-11-2200/README.md) | 2026-11-11 UTC | `reviewed / supplemental-corrections / important-holds` | `report-only / runtime-unchanged` |
+| `GEO-REVIEW-20261112-2200` | [양 브랜치 검토 — 남미 정치체·차시우야르 보류 및 관측시각 보완](borders/validation/reviews/scheduled-2026-11-12-2200/README.md) | 2026-11-13 복구 검토 | `reviewed / supplemental-clarification / important-holds` | `report-only / runtime-unchanged` |
