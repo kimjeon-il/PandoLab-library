@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {readFileSync,writeFileSync} from 'node:fs';
+const log=execFileSync('gh',['run','view','40861419219','--repo','kimjeon-il/Pando','--log'],{encoding:'utf8',maxBuffer:30*1024*1024});
+const rows=log.split(/\r?\n/).filter(line=>line.includes('{"schema":"pando-independent-hydronym-point-screen-v1"'));
+assert.equal(rows.length,2);
+const python=JSON.parse(rows[0].slice(rows[0].indexOf('{"schema"'))),native=JSON.parse(rows[1].slice(rows[1].indexOf('{"schema"')));
+assert.deepEqual(native,python);assert.deepEqual(JSON.parse(readFileSync('build-native/hydro-point-screen/real-proof-92B7wp/windows.json','utf8')),python);
+const data=JSON.stringify(python,null,2)+'\n';writeFileSync('tests/fixtures/hydro-independent-point-screen-v0132-expected.json',data,{flag:'wx'});
+console.log(JSON.stringify({bytes:Buffer.byteLength(data),sha256:createHash('sha256').update(data).digest('hex'),systems:python.items.length}));

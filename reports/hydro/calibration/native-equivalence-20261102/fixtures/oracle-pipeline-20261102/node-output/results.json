@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "purpose": "analysis-only; PandoLab runtime hydro assets are not modified",
+  "stages": [
+    6,
+    6.7,
+    7,
+    7.5
+  ],
+  "formula": {
+    "rivers": {
+      "flowWeight": 1,
+      "upstreamAreaWeight": -0.5,
+      "thresholds": {
+        "6.0": 4.096910013008056,
+        "6.7": 4.096910013008056,
+        "7.0": 4.096910013008056,
+        "7.5": 4.096910013008056
+      },
+      "candidateFloor": 5,
+      "candidateFloorBasis": "maximum score across the complete shared weight search grid"
+    },
+    "lakes": {
+      "areaWeight": 1,
+      "shorelineWeight": -5,
+      "thresholds": {
+        "6.0": -3.816479930623699,
+        "6.7": -3.816479930623699,
+        "7.0": -3.816479930623699,
+        "7.5": -3.816479930623699
+      },
+      "candidateAreaFloorKm2": 1
+    }
+  },
+  "searchSpace": {
+    "riverWeights": [
+      {
+        "flow": 1,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 1,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 1,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 1,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 1,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 1,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 1.3,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 1.3,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 1.3,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 1.3,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 1.3,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 1.3,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 1.7,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 1.7,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 1.7,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 1.7,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 1.7,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 1.7,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 2.1,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 2.1,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 2.1,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 2.1,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 2.1,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 2.1,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 2.5,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 2.5,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 2.5,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 2.5,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 2.5,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 2.5,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 3,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 3,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 3,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 3,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 3,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 3,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 3.5,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 3.5,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 3.5,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 3.5,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 3.5,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 3.5,
+        "upstreamArea": 0.7
+      },
+      {
+        "flow": 4,
+        "upstreamArea": -0.5
+      },
+      {
+        "flow": 4,
+        "upstreamArea": -0.25
+      },
+      {
+        "flow": 4,
+        "upstreamArea": 0
+      },
+      {
+        "flow": 4,
+        "upstreamArea": 0.25
+      },
+      {
+        "flow": 4,
+        "upstreamArea": 0.5
+      },
+      {
+        "flow": 4,
+        "upstreamArea": 0.7
+      }
+    ],
+    "lakeWeights": [
+      {
+        "area": 1,
+        "shoreline": -5
+      },
+      {
+        "area": 1,
+        "shoreline": -4
+      },
+      {
+        "area": 1,
+        "shoreline": -3
+      },
+      {
+        "area": 1,
+        "shoreline": -2.5
+      },
+      {
+        "area": 1,
+        "shoreline": -2
+      },
+      {
+        "area": 1,
+        "shoreline": -1.5
+      },
+      {
+        "area": 1,
+        "shoreline": -1
+      },
+      {
+        "area": 1,
+        "shoreline": -0.5
+      },
+      {
+        "area": 1,
+        "shoreline": 0
+      },
+      {
+        "area": 1,
+        "shoreline": 0.5
+      },
+      {
+        "area": 1,
+        "shoreline": 1
+      }
+    ],
+    "sharedAcrossCalibrationRegions": true,
+    "regionalThresholdsAllowed": false
+  },
+  "regions": {
+    "europe": {
+      "label": "유럽",
+      "bbox": [
+        0,
+        -1,
+        3,
+        2
+      ],
+      "calibrationRegion": true,
+      "rivers": {
+        "6.0": {
+          "targetCount": 1,
+          "selectedCount": 2,
+          "targetLengthKm": 222.632,
+          "selectedLengthKm": 222.632,
+          "lengthRatio": 1,
+          "targetPixelLength": 800,
+          "selectedPixelLength": 800,
+          "pixelRatio": 1
+        },
+        "6.7": {
+          "targetCount": 1,
+          "selectedCount": 2,
+          "targetLengthKm": 222.632,
+          "selectedLengthKm": 222.632,
+          "lengthRatio": 1,
+          "targetPixelLength": 800,
+          "selectedPixelLength": 800,
+          "pixelRatio": 1
+        },
+        "7.0": {
+          "targetCount": 1,
+          "selectedCount": 2,
+          "targetLengthKm": 222.632,
+          "selectedLengthKm": 222.632,
+          "lengthRatio": 1,
+          "targetPixelLength": 800,
+          "selectedPixelLength": 800,
+          "pixelRatio": 1
+        },
+        "7.5": {
+          "targetCount": 1,
+          "selectedCount": 2,
+          "targetLengthKm": 222.632,
+          "selectedLengthKm": 222.632,
+          "lengthRatio": 1,
+          "targetPixelLength": 800,
+          "selectedPixelLength": 800,
+          "pixelRatio": 1
+        }
+      },
+      "lakes": {
+        "6.0": {
+          "targetCount": 1,
+          "selectedCount": 1,
+          "countRatio": 1,
+          "targetPixelArea": 96000,
+          "selectedPixelArea": 96000,
+          "pixelAreaRatio": 1
+        },
+        "6.7": {
+          "targetCount": 1,
+          "selectedCount": 1,
+          "countRatio": 1,
+          "targetPixelArea": 96000,
+          "selectedPixelArea": 96000,
+          "pixelAreaRatio": 1
+        },
+        "7.0": {
+          "targetCount": 1,
+          "selectedCount": 1,
+          "countRatio": 1,
+          "targetPixelArea": 96000,
+          "selectedPixelArea": 96000,
+          "pixelAreaRatio": 1
+        },
+        "7.5": {
+          "targetCount": 1,
+          "selectedCount": 1,
+          "countRatio": 1,
+          "targetPixelArea": 96000,
+          "selectedPixelArea": 96000,
+          "pixelAreaRatio": 1
+        }
+      },
+      "riverBaseOverlapRatio": 0,
+      "lakeBaseOverlapRatio": 0,
+      "riverCandidates": 2,
+      "lakeCandidates": 1
+    }
+  },
+  "sources": {
+    "hydroLakes": {
+      "file": "HydroLAKES_polys_v10.shp",
+      "size": 236,
+      "members": {
+        "shp": {
+          "size": 236,
+          "sha256": "0988bc617dafe573c742678fc9efdfef4884603850e7edd6687cc1589d07ead9"
+        },
+        "dbf": {
+          "size": 214,
+          "sha256": "e4164b02da35da3e74e762e643fe67b785e0a5202db96b0b609c07bff6337a59"
+        },
+        "shx": {
+          "size": 108,
+          "sha256": "2ba1af77ec181ce5565bbaea22fee21576d29c8f1094ef2ba22dee82f1d304dc"
+        }
+      }
+    },
+    "hydroRivers": {
+      "eu": {
+        "file": "HydroRIVERS_v10_eu.shp",
+        "size": 364,
+        "members": {
+          "shp": {
+            "size": 364,
+            "sha256": "8a8721009fa9b34dbfbc022c9f2e2eb1029b2267f3ca7c38f5ab6da279029829"
+          },
+          "dbf": {
+            "size": 505,
+            "sha256": "f64c0ae8169ca229730427b6c157cd812482c1761b786cc890b958abaa502b93"
+          },
+          "shx": {
+            "size": 124,
+            "sha256": "146b7604c97a73ab53372cb61a35c48ae118f5c2666f69558b35c313b6da9e5f"
+          }
+        }
+      }
+    },
+    "naturalEarth": {
+      "rivers_base": {
+        "file": "rivers_base.geojson",
+        "size": 45,
+        "sha256": "7d09e532fc380630caac6b4b1b5174a7a9f7a308f6544bcb79eefb97b1e12306"
+      },
+      "lakes_base": {
+        "file": "lakes_base.geojson",
+        "size": 45,
+        "sha256": "7d09e532fc380630caac6b4b1b5174a7a9f7a308f6544bcb79eefb97b1e12306"
+      },
+      "rivers_europe": {
+        "file": "rivers_europe.geojson",
+        "size": 168,
+        "sha256": "4c243c5fd2d6c37377f63cab9f392ff0f86e5f3824dee67d3aaf358b8cc3c78f"
+      },
+      "lakes_europe": {
+        "file": "lakes_europe.geojson",
+        "size": 187,
+        "sha256": "24ee9604f2fa5d7694bab85f7f43f3d1f5867c7a66fca40e1fffce8d0e667302"
+      }
+    },
+    "fonts": {
+      "regular": {
+        "file": "malgun.ttf",
+        "sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f"
+      },
+      "bold": {
+        "file": "malgunbd.ttf",
+        "sha256": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+      }
+    }
+  },
+  "representativeChecks": {
+    "나일강": {
+      "present": false,
+      "retainedLayer": "Natural Earth base",
+      "matchedNames": [],
+      "note": "기본 수계는 유지되고 Hydro의 동일 구간만 제거됩니다."
+    },
+    "다뉴브강": {
+      "present": false,
+      "retainedLayer": "Natural Earth base",
+      "matchedNames": [],
+      "note": "기본 수계는 유지되고 Hydro의 동일 구간만 제거됩니다."
+    },
+    "미시시피강": {
+      "present": false,
+      "retainedLayer": "Natural Earth base",
+      "matchedNames": [],
+      "note": "기본 수계는 유지되고 Hydro의 동일 구간만 제거됩니다."
+    },
+    "머리강": {
+      "present": false,
+      "retainedLayer": "Natural Earth base",
+      "matchedNames": [],
+      "note": "기본 수계는 유지되고 Hydro의 동일 구간만 제거됩니다."
+    },
+    "오대호": {
+      "present": false,
+      "retainedLayer": "Natural Earth base",
+      "matchedNames": [],
+      "note": "기본 수계는 유지되고 Hydro의 동일 구간만 제거됩니다."
+    }
+  },
+  "worldEstimate": {
+    "riverChaining": {
+      "chainCount": 1,
+      "coordinatesAfterChaining": 4,
+      "selectedReachCount": 2,
+      "sourceCoordinateCount": 4,
+      "objectReductionPercent": 50
+    },
+    "riverReachCount": 8500000,
+    "riverChainCount": 4250000,
+    "riverCoordinateCount": 17000000,
+    "lakeFeatureCount": 1427688,
+    "lakeCoordinateCount": 7138440,
+    "gzipMiB": 530.7002563476562,
+    "riverRenderLoadRatio": 0.0001528584530724549,
+    "lakeRenderLoadRatio": 0.0004967709885742673,
+    "method": "Calibration-region selection and chaining ratios extrapolated to published global source counts."
+  },
+  "acceptance": {
+    "riverFinalWithin15Percent": true,
+    "intermediateScreenWithin25Percent": true,
+    "lakeFinalWithin20Percent": true,
+    "baseOverlapBelow2Percent": true,
+    "representativeFeaturesPresent": false
+  }
+}

@@ -97,3 +97,7 @@ Runtime data pin remains `d401965fdbbcb53b54602b1d8736554b8ebc7dda`.
 
 First edition. Subsequent reports must retain this original evidence and state
 which additional platform/format checks were actually run.
+
+## 보관된 native 검증 원문
+
+[당시 native 검증 source](native-proof-sources/)는 기존 단위·통합 검사와 별개로 당시 실행 조건과 단언을 보존한 원문이다. 현재 실행 진입점이나 새로 통과한 검사로 해석하지 않는다. 현재 QGIS 설정·프로젝트·SDK와 서비스 자원은 별도로 유지한다.

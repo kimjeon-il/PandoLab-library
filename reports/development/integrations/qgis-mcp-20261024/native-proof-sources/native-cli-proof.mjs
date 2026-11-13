@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import {randomBytes} from 'node:crypto';
+import {mkdtempSync,readFileSync,writeFileSync} from 'node:fs';
+import {createServer} from 'node:net';
+import {join,resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
+const {runNativeBridge}=await import(pathToFileURL(resolve('tools/qgis/native-bridge.mjs')));
+const root=mkdtempSync(resolve('build-native/qgis/cli-proof-'));
+const listener=createServer();await new Promise((ok,fail)=>listener.once('error',fail).listen(0,'127.0.0.1',ok));
+const port=listener.address().port;await new Promise((ok,fail)=>listener.close(e=>e?fail(e):ok()));
+const config={host:'127.0.0.1',port,token:randomBytes(32).toString('hex'),qgisRoot:'D:/dev/tools/osgeo4w',
+  profilesRoot:join(root,'profiles'),profile:'proof',artifactDirectory:resolve(process.env.PANDO_QGIS_TEST_ARTIFACT||'build-native/qgis/artifact-8852f384')};
+const path=join(root,'qgis-config.json');writeFileSync(path,JSON.stringify(config),{flag:'wx'});
+const command=(...args)=>runNativeBridge(['--config',path,...args]);
+const started=await command('start');console.log(JSON.stringify({stage:'start',root,pid:started.pid}));
+assert.equal(started.transport,'pando-native-v1');assert.equal((await command('start')).pid,started.pid);
+const input=resolve(process.env.TEMP,'pando-qgis-migration-hJqtBq','source.geojson');
+const opened=await command('open',input);assert.equal(opened.feature_count,2);
+const selectResult=await command('select','--layer',opened.id,'--fids','["0"]'); assert.equal(selectResult.selected,1); assert.deepEqual((await command('selection','--layer',opened.id)).fids,['0']); await assert.rejects(command('select','--layer',opened.id,'--fids','["no"]'),/feature id/i); assert.deepEqual((await command('selection','--layer',opened.id)).fids,['0']); const {requestNativeQgis}=await import(pathToFileURL(resolve('tools/qgis/native-client.mjs'))); await assert.rejects(requestNativeQgis(config,{command:'select',layer:opened.id,fids:['no']}),/invalid qgis feature id/i); assert.deepEqual((await command('selection','--layer',opened.id)).fids,['0']); await command('clear-selection','--layer',opened.id); assert.equal((await command('selection','--layer',opened.id)).count,0);
+const selectedByName=await command('select','--layer',opened.id,'--expression',`"name" = 'QGIS 연동 검증 영역'`);
+assert.equal(selectedByName.selected,1);
+const selectedNameIds=(await command('selection','--layer',opened.id)).fids;assert.equal(selectedNameIds.length,1);
+await assert.rejects(command('select','--layer',opened.id,'--expression','"name" ='),/expression/i);
+assert.deepEqual((await command('selection','--layer',opened.id)).fids,selectedNameIds);
+await assert.rejects(command('select','--layer',opened.id,'--expression','"missing-field" = 1'),/expression/i);
+assert.deepEqual((await command('selection','--layer',opened.id)).fids,selectedNameIds);
+await command('clear-selection','--layer',opened.id);
+const schema=await command('schema','--layer',opened.id); assert.equal(schema.crs,'EPSG:4326'); assert.ok(schema.fields.some(field=>field.name==='source')); assert.ok(schema.fields.some(field=>field.name==='name')); await assert.rejects(command('schema','--layer','missing'),/valid vector layer/i);
+const project=await command('project'),layers=await command('layers','--offset','0','--limit','1');
+assert.equal(project.layer_count,1);assert.equal(project.layers[0].id,opened.id);assert.equal(layers.total_count,1);
+assert.equal(layers.layers[0].id,opened.id);assert.equal(layers.layers[0].feature_count,2);assert.equal(layers.layers[0].visible,true);
+assert.equal((await command('layers','--offset','1','--limit','1')).layers.length,0);
+const output=join(root,'result.geojson');await command('export','--layer',opened.id,'--output',output);
+const original=JSON.parse(readFileSync(input)),exported=JSON.parse(readFileSync(output));
+assert.equal(exported.features.length,2);
+for(let i=0;i<2;i++){
+  assert.deepEqual(exported.features[i].geometry,original.features[i].geometry);
+  assert.deepEqual(exported.features[i].properties.source,original.features[i].properties.source);
+}
+await assert.rejects(command('export','--layer',opened.id,'--output',output),/exists/i);
+console.log(JSON.stringify({stage:'verified',root,pid:started.pid,features:2}));

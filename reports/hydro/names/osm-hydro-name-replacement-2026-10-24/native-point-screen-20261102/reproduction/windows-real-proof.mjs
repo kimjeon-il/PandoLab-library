@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {linkSync,mkdtempSync,readFileSync,writeFileSync} from 'node:fs';
+import {join,resolve} from 'node:path';
+const pin=JSON.parse(readFileSync('config/library-data.json','utf8')).revision;
+assert.equal(pin,'0bce2891d531579b81ac0f97e6d07cb1873b878f','Pinned real-data baseline changed');
+const api=name=>JSON.parse(execFileSync('gh',['api',`repos/kimjeon-il/PandoLab-library-data/contents/assets/data/hydro/v0.13.2/${name}?ref=${pin}`],{encoding:'utf8',maxBuffer:3*1024*1024}));
+const manifestInfo=api('manifest.json'),bundleInfo=api('hydro.bin');
+const manifest=Buffer.from(manifestInfo.content,'base64'),bundle=readFileSync('assets/data/hydro/v0.13.2/hydro.bin');
+const blob=bytes=>createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex');
+const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
+assert.equal(blob(manifest),manifestInfo.sha);assert.equal(blob(bundle),bundleInfo.sha);
+const root=mkdtempSync(resolve('build-native/hydro-point-screen/real-proof-'));
+writeFileSync(join(root,'manifest.json'),manifest,{flag:'wx'});
+linkSync(resolve('assets/data/hydro/v0.13.2/hydro.bin'),join(root,'hydro.bin'));
+const decoded=join(root,'decoded.json'),output=join(root,'windows.json');
+execFileSync(process.execPath,['tools/decode-hydro-connectivity.mjs',root,decoded],{encoding:'utf8'});
+execFileSync(process.execPath,['tools/gis/verify-independent-river-point-anchors.mjs','--decoded',decoded,'--output',output,
+  '--osgeo-root','D:/dev/tools/osgeo4w'],{encoding:'utf8'});
+const log=execFileSync('gh',['run','view','40861419219','--repo','kimjeon-il/Pando','--log'],{encoding:'utf8',maxBuffer:30*1024*1024});
+const rows=log.split(/\r?\n/).filter(line=>line.includes('{"schema":"pando-independent-hydronym-point-screen-v1"'));
+assert.equal(rows.length,2,'Expected Python and Linux native output from the verified CI');
+const baseline=JSON.parse(rows[0].slice(rows[0].indexOf('{"schema"'))),linux=JSON.parse(rows[1].slice(rows[1].indexOf('{"schema"')));
+assert.deepEqual(linux,baseline);const windows=JSON.parse(readFileSync(output,'utf8'));assert.deepEqual(windows,baseline);
+console.log(JSON.stringify({root,pin,manifestSha256:sha(manifest),bundleSha256:sha(bundle),decodedBytes:readFileSync(decoded).length,systems:windows.items.length,baselineRun:40861419219}));

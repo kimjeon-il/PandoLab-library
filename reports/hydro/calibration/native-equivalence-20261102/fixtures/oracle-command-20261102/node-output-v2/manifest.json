@@ -1,0 +1,268 @@
+{
+  "version": "0.13.1",
+  "schema": "pandolab-water-shards-v5",
+  "dataset": "HydroRIVERS 1.0 systems · OSM waterway names · Natural Earth 5.0.0 1:10m lakes · Natural Earth 5.1.1 border alignment",
+  "crs": "EPSG:4326",
+  "coordinatePolicy": "Hydro source vertices retained outside border-aligned display fragments; aligned fragments use exact Natural Earth shared-border paths; 1e-6 degree Int32 delta-varint",
+  "selection": {
+    "riverFormula": "ORD_STRA + 4*log10(DIS_AV_CMS) - 0.5*log10(UPLAND_SKM)",
+    "riverThresholds": [
+      14.4744,
+      12.4307,
+      11.2137,
+      10.55
+    ],
+    "riverWidthFormula": "clamp(0.5 + 0.19*log2(1+DIS_AV_CMS) + 0.06*(ORD_STRA-1), 0.55, 2.6)",
+    "riverContinuity": "Natural Earth guided Hydro main-stem path to headwater from selected headward roots; with ORD_STRA >= 5 and DIS_AV_CMS >= 75; importance >= 10.86; all terminal basins >= 2500 km2 preserve one main stem; all selected paths closed downstream to Hydro terminal; added reaches at stage 3",
+    "logicalGrouping": "all displayed MAIN_RIV main-stem and tributary chains share one system ID",
+    "mediumMainstemMinBasinKm2": 2500,
+    "borderAlignment": {
+      "revision": 2,
+      "maxDistanceKm": 12,
+      "coverageDistanceKm": 5,
+      "minCoverage": 0.7,
+      "maxDirectionDegrees": 30,
+      "minLengthKm": 10,
+      "scope": "built-in Natural Earth shared country borders only"
+    },
+    "terminalConnectivity": {
+      "revision": 2,
+      "classes": [
+        "sea",
+        "lake",
+        "confluence",
+        "endorheic"
+      ],
+      "maximumCoastExtensionKm": 25,
+      "requiresLandContainedConnector": true,
+      "unresolvedRenderedLandTerminal": "repair source graph or exclude the affected logical river before packing",
+      "undisplayedRasterWaterTerminal": "logical river excluded and reported"
+    },
+    "lakeSelection": "Natural Earth 5.0.0 1:10m global lakes and reservoirs; no regional supplements",
+    "minZoomStages": [
+      6,
+      6.7,
+      7,
+      7.5
+    ]
+  },
+  "stages": [
+    {
+      "id": 0,
+      "minZoom": 6,
+      "columns": 8,
+      "rows": 4
+    },
+    {
+      "id": 1,
+      "minZoom": 6.7,
+      "columns": 16,
+      "rows": 8
+    },
+    {
+      "id": 2,
+      "minZoom": 7,
+      "columns": 32,
+      "rows": 16
+    },
+    {
+      "id": 3,
+      "minZoom": 7.5,
+      "columns": 64,
+      "rows": 32
+    }
+  ],
+  "format": {
+    "pack": 4,
+    "index": 4,
+    "metadata": 5,
+    "fragmentLogicalIds": true,
+    "riverSystemIds": true,
+    "featureFlags": {
+      "borderAligned": 1
+    }
+  },
+  "index": {
+    "url": "index.bin.gz",
+    "bytes": 89,
+    "sha256": "0504a701802d0344438cc38a9e246540b4e5f2957e23f7736cd9a6dbfc17f53e",
+    "tileCount": 3,
+    "logicalFeatureCount": 3
+  },
+  "metadata": {
+    "version": 5,
+    "featureCount": 5,
+    "core": {
+      "url": "metadata-core.json.gz",
+      "bytes": 438,
+      "sha256": "745fb2ab87747828f53850a4a3f7a407a786293faafe3df809d35031cf71903d"
+    },
+    "detail": {
+      "url": "metadata-detail.json.gz",
+      "bytes": 156,
+      "sha256": "d395c50a99fcbd42707c98ec7aa09d2a25cb793607d0e3e9cdac06de4c2631b2",
+      "lazy": true
+    }
+  },
+  "shards": [
+    {
+      "id": 0,
+      "url": "shards/s0.bin",
+      "bytes": 346,
+      "sha256": "ceb64fb6e06bff3efdc8a91b209a992d4edae755966ab0ed38059003e42df414",
+      "packs": 4
+    }
+  ],
+  "cache": {
+    "name": "pandolab-water-v0.13.1-0504a701802d",
+    "backgroundDownload": true,
+    "rangeRequests": true
+  },
+  "layers": [
+    {
+      "id": "rivers_hydro",
+      "category": "river",
+      "label": "강 · Hydro",
+      "locked": true
+    },
+    {
+      "id": "lakes_natural_earth",
+      "category": "lake",
+      "label": "호수 · Natural Earth",
+      "locked": true
+    }
+  ],
+  "stats": {
+    "featureCount": 5,
+    "coordinateCount": 21,
+    "categoryCounts": {
+      "river": 4,
+      "lake": 1
+    },
+    "layerCounts": {
+      "rivers_hydro": 4,
+      "lakes_natural_earth": 1
+    },
+    "stageCounts": {
+      "river:3": 3,
+      "river:1": 1,
+      "lake:0": 1
+    },
+    "packCount": 4,
+    "shardCount": 1,
+    "indexTileCount": 3,
+    "logicalFeatureCount": 3,
+    "compressedBytes": 1029,
+    "largestPackBytes": 120,
+    "seedReachCount": 2,
+    "continuityRootCount": 1,
+    "namedContinuityRootCount": 1,
+    "mediumMainstemRootCount": 1,
+    "mediumMainstemReachCount": 3,
+    "selectedReachCount": 8,
+    "continuityReachCount": 6,
+    "downstreamClosureReachCount": 1,
+    "coastSnappedTerminalCount": 0,
+    "excludedTerminalReachCount": 0,
+    "borderAlignedReachCount": 0,
+    "borderAlignedRiverCount": 0,
+    "borderChangedCoordinateCount": 0,
+    "connectionChangedCount": 0,
+    "terminalClassCounts": {
+      "sea": 2
+    },
+    "borderAlignedLengthKm": 0,
+    "riverSystemCount": 2,
+    "namedRiverSystemCount": 1,
+    "unnamedRiverSystemCount": 1,
+    "osmWaterwayMatchCount": 0
+  },
+  "sources": {
+    "naturalEarthNameReference": [
+      {
+        "file": "rivers_base.geojson",
+        "sha256": "a96813cd0342a1580ab2714a4f1272776219f244d77e867b8f862947f88dc48e"
+      },
+      {
+        "file": "lakes_base.geojson",
+        "sha256": "9c220b9c77990ccea1f393e75e1657f6ec3ded2ae3d1077dd09fd1f8a6f36d88"
+      },
+      {
+        "file": "countries-ne-5.1.1.geojson",
+        "sha256": "9ed2c74c24ac8175ae15f45771a797392669969557bcaafcc2cbb1036214ee0c"
+      }
+    ],
+    "drainageFreeWaterMask": {
+      "file": "mask.tif",
+      "sha256": "c537131c420f2d44de19021322dfe8823d1b0cc17b8909a9dfb7abf008c8d737"
+    },
+    "hydroRivers": [
+      {
+        "datasetCode": "eu",
+        "files": [
+          {
+            "file": "HydroRIVERS_v10_eu.shp",
+            "sha256": "9866fa9a5a81c0e2bd89b4c3350d20bc66d1da7d2051187dc41939653a05885d"
+          },
+          {
+            "file": "HydroRIVERS_v10_eu.shx",
+            "sha256": "47f7096edd591cd8a45626813e20824e5e055aafdf61a9c1c34c24c7d55b59c0"
+          },
+          {
+            "file": "HydroRIVERS_v10_eu.dbf",
+            "sha256": "c491030b39df799aad16d109d6cf93c831751a77b9e4185327dba15965aee922"
+          }
+        ],
+        "seedReachCount": 2,
+        "continuityRootCount": 1,
+        "namedContinuityRootCount": 1,
+        "mediumMainstemRootCount": 1,
+        "mediumMainstemReachCount": 3,
+        "downstreamClosureReachCount": 1,
+        "selectedReachCount": 8,
+        "continuityReachCount": 6,
+        "coastSnappedTerminalCount": 0,
+        "terminalClassCounts": {
+          "sea": 2
+        },
+        "excludedTerminalSources": [],
+        "excludedTerminalReachCount": 0,
+        "borderAlignedReachCount": 0,
+        "borderAlignedRiverCount": 0,
+        "borderAlignedLengthKm": 0,
+        "borderChangedCoordinateCount": 0,
+        "borderPairLengthsKm": {},
+        "connectionChangedCount": 0,
+        "chainCount": 2,
+        "systemCount": 2,
+        "nameMatches": 1,
+        "osmMatches": 0
+      }
+    ],
+    "naturalEarthLakes": {
+      "file": "lakes_base.geojson",
+      "sha256": "9c220b9c77990ccea1f393e75e1657f6ec3ded2ae3d1077dd09fd1f8a6f36d88",
+      "selected": 1
+    },
+    "osmWaterways": {
+      "file": null,
+      "matchedSystems": 0,
+      "license": "ODbL"
+    },
+    "hydronymOverrides": {
+      "file": "hydronym-ko-overrides.json",
+      "sha256": "d3fa24cbe87d67cfd3af060985c1d8d75413c52211dd7d9daf9f31d61b0a36aa"
+    },
+    "independentHydronymReplacements": {
+      "file": "independent.json",
+      "sha256": "3730ed10d709707ddb5657a65dc5b8255d98c39b0c01cc45aeb965c38615978c",
+      "replacedSystems": 0,
+      "geometryChanged": false
+    },
+    "nameEnrichment": {
+      "namedRiverSystems": 1,
+      "unnamedRiverSystems": 1,
+      "osmMatches": 0
+    }
+  }
+}
