@@ -1,0 +1,1039 @@
+{
+  "schema": "pando-natural-surface-v1",
+  "version": "0.1.0-preview.2",
+  "pathPrefix": "terrain/natural/v0.1.0-preview.2",
+  "crs": "EPSG:4326",
+  "extent": [
+    -180,
+    -90,
+    180,
+    90
+  ],
+  "registration": "cell-center",
+  "gutter": 1,
+  "tileFormat": "lossless WebP RGBA",
+  "alpha": 255,
+  "colorSpace": "sRGB",
+  "shadeIncluded": false,
+  "referenceDate": "2004-07",
+  "historicalReconstruction": false,
+  "status": "preview",
+  "mixWeight": 0.65,
+  "levels": [
+    {
+      "id": 0,
+      "width": 1350,
+      "height": 675,
+      "tileSize": 1024,
+      "columns": 2,
+      "rows": 1
+    },
+    {
+      "id": 1,
+      "width": 2700,
+      "height": 1350,
+      "tileSize": 1024,
+      "columns": 3,
+      "rows": 2
+    },
+    {
+      "id": 2,
+      "width": 5400,
+      "height": 2700,
+      "tileSize": 1024,
+      "columns": 6,
+      "rows": 3
+    },
+    {
+      "id": 3,
+      "width": 10800,
+      "height": 5400,
+      "tileSize": 1024,
+      "columns": 11,
+      "rows": 6
+    },
+    {
+      "id": 4,
+      "width": 21600,
+      "height": 10800,
+      "tileSize": 1024,
+      "columns": 22,
+      "rows": 11
+    },
+    {
+      "id": 5,
+      "width": 43200,
+      "height": 21600,
+      "tileSize": 1024,
+      "columns": 43,
+      "rows": 22
+    }
+  ],
+  "tiles": {
+    "4/16-3.webp": {
+      "bytes": 1106316,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "20d39826351965a87b9bfd817512d3d421f9006aa725f9c14b894fa420099160"
+    },
+    "4/16-4.webp": {
+      "bytes": 735144,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "294297d21754d552c92ae39b903ede13f6d00b6342f94a34886662348c025703"
+    },
+    "4/15-3.webp": {
+      "bytes": 1181526,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "81ce99eda66d5d007e5f155db399c6f7cfe79838f3fd42a5662bd52385fd8c8b"
+    },
+    "4/11-3.webp": {
+      "bytes": 568448,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "6beecde5a1aa773d3a49760b1387516276e070ad468f13ee1cdbfe179ea1e764"
+    },
+    "4/6-5.webp": {
+      "bytes": 605682,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "9e209f6a10826a0f71b11a51e383ea9b464b99e6199b591a796752c1003b4de7"
+    },
+    "4/7-0.webp": {
+      "bytes": 88928,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "752cc5b91812ca0ff7716980d576c04f84cebdaee1785a48cd773ecf86a78d26"
+    },
+    "4/12-10.webp": {
+      "bytes": 12746,
+      "pixelWidth": 1026,
+      "pixelHeight": 562,
+      "sha256": "1f713ec7c7e7fb616b69d9d8f6382d868608da5fa5ef9cec7a91af0b60ac67f7"
+    },
+    "4/10-2.webp": {
+      "bytes": 822886,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "54559a36ed545a9380df22d4836016555e02cb4ca53465af4c814540d5bc4c1d"
+    },
+    "4/18-6.webp": {
+      "bytes": 978328,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "sha256": "4d593fec201c7a31daa80c145ca014433b43ff00088a8a213fad854798ab9c28"
+    }
+  },
+  "sources": [
+    {
+      "id": "nasa-bmng-base-july-2004",
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/july/world.200407.3x21600x10800.jpg",
+      "descriptionUrl": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+      "sha256": "dea8b4dc8a4f93f5f8bce0c8c85a508a178e7901e9ed8e6bf86e6ce7ef6d61e2",
+      "bytes": 21125326,
+      "observation": "2004-07",
+      "resolution": "21600x10800; about 2km at equator",
+      "license": "NASA imagery usage guidelines; credit NASA Earth Observatory"
+    },
+    {
+      "url": "https://ihp-wins.unesco.org/dataset/33a5017a-e6e9-43cc-82d6-62da7fbb74d8/resource/070f3115-9792-4173-926c-600af1cf97f6/download/rgi2000-v7.0-g-15_south_asia_east.zip",
+      "resolvedUrl": "https://ihpwinsdata.blob.core.windows.net/data/resources/070f3115-9792-4173-926c-600af1cf97f6/rgi2000-v7.0-g-15_south_asia_east.zip",
+      "bytes": 23290130,
+      "sha256": "511564e0c2e21900bc3098a87f1885495d59c2997e4e8f9a2f9baf8e805c066b",
+      "etag": "\"0x8DDCAC7728904BC\"",
+      "lastModified": "Thu, 24 Jul 2025 15:33:32 GMT",
+      "id": "rgi7-region15",
+      "observation": "RGI7 target circa 2000; per-glacier dates vary",
+      "license": "CC BY 4.0; RGI 7.0 Consortium 2023, DOI 10.5067/f6jmovy5navz"
+    },
+    {
+      "url": "https://zenodo.org/records/15327619/files/GreenlandIceMask_2018.00_2025.0_100m_v3.tif?download=1",
+      "resolvedUrl": "https://zenodo.org/records/15327619/files/GreenlandIceMask_2018.00_2025.0_100m_v3.tif",
+      "bytes": 22339275,
+      "sha256": "78ebf3cb28312686e4f4e0dfe9170c4694073a273b089bb64891b7564fed7513",
+      "etag": null,
+      "lastModified": null,
+      "id": "icesat2-greenland",
+      "observation": "2021 fixed band selected from observed time slices",
+      "license": "cc-by-4.0",
+      "publishedMd5": "ef60dc511dec9702ba12dbf2ca4ed56b",
+      "timestampsSha256": "23416f68f440949205750dd8f3b47de48285387c7efdf797a584957a1d568880",
+      "selection": {
+        "band": 16,
+        "decimalYear": 2021.0,
+        "sourceCrs": "EPSG:3413",
+        "coverageValidation": {
+          "rawMinimum": 0.0,
+          "rawMaximum": 1.0,
+          "roundoffTolerance": 1e-06,
+          "sourceNoData": null,
+          "implicitFloatNaNNoData": false,
+          "polarGutterNonfinitePixelsReplicated": 0,
+          "correctedRoundoffPixels": 0
+        }
+      }
+    },
+    {
+      "url": "https://zenodo.org/records/15327619/files/AntarcticIceMask_2018.00_2024.75_240m_v3.tif?download=1",
+      "resolvedUrl": "https://zenodo.org/records/15327619/files/AntarcticIceMask_2018.00_2024.75_240m_v3.tif",
+      "bytes": 125986421,
+      "sha256": "d0fecb28c253201b30ab5d810aca63477e8208450c5c2a4a4a20526b9f3b6ecd",
+      "etag": null,
+      "lastModified": null,
+      "id": "icesat2-antarctica",
+      "observation": "2021 fixed band selected from observed time slices",
+      "license": "cc-by-4.0",
+      "publishedMd5": "ff5e3a7cb5fe49d202907d53a621e976",
+      "timestampsSha256": "714c5368dd34828c1c884b44b93fee87edb9bbeb8cf855908441bea36bef9b68",
+      "selection": {
+        "band": 4,
+        "decimalYear": 2021.04,
+        "sourceCrs": "EPSG:3031",
+        "coverageValidation": {
+          "rawMinimum": 0.0,
+          "rawMaximum": 1.0,
+          "roundoffTolerance": 1e-06,
+          "sourceNoData": "nan",
+          "implicitFloatNaNNoData": false,
+          "polarGutterNonfinitePixelsReplicated": 1026,
+          "correctedRoundoffPixels": 0
+        }
+      }
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N27E102_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E102_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "2b3e0dff9fa66e8a4177e2041d7e34174e68e46bb9b342e1e1f275791eeaa602",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-china-southwest-27-102.npy",
+      "window": [
+        104.5,
+        28.5,
+        105,
+        30
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N27E105_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E105_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "722dddbda68abda103d3ceaf07ad48288db0f0ca195741b8fa256c2a83f59809",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-china-southwest-27-105.npy",
+      "window": [
+        105,
+        28.5,
+        107.5,
+        30
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N30E102_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N30E102_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "9911ae217e7f83e2cf7380214938e9a70bf2dee5cb0b726ef4ae288146ca28a4",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-china-southwest-30-102.npy",
+      "window": [
+        104.5,
+        30,
+        105,
+        31.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N30E105_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N30E105_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "d0adb9643eea6c05186ec68d81340a4f643c1872cf2653da11bb297c0dfbfe4b",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-china-southwest-30-105.npy",
+      "window": [
+        105,
+        30,
+        107.5,
+        31.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N12E096_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N12E096_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "61ef7363abc78b93e97f3890e01b8e3f5a3d663aa435fed44ccdd2e77b84d42a",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-thailand-12-96.npy",
+      "window": [
+        98.5,
+        14.5,
+        99,
+        15
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N12E099_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N12E099_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "6e0ff343b9eeb088234ca4fa0e560970f6110b859670975393779b914c6b4d8c",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-thailand-12-99.npy",
+      "window": [
+        99,
+        14.5,
+        101.5,
+        15
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N15E096_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N15E096_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "d7a13e4a15bca4f18f10670197dd273eb2dde80c7bddfca79b74a0123dd32b75",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-thailand-15-96.npy",
+      "window": [
+        98.5,
+        15,
+        99,
+        17.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N15E099_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N15E099_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "ab1311032efb17b255fb6e69ca459be59655e8ff61d7e49e69a375ba1315960d",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-thailand-15-99.npy",
+      "window": [
+        99,
+        15,
+        101.5,
+        17.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N24E084_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N24E084_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "969c677b9911f930d204b4123565f738f41eef3e806af1898a4b0533d17d6615",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-himalaya-24-84.npy",
+      "window": [
+        84.5,
+        26.5,
+        87,
+        27
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N24E087_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N24E087_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "06d94ee6040c8bb56e5103fdf75c759c3fea356527c16c5929cfbd8e1d5ad539",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-himalaya-24-87.npy",
+      "window": [
+        87,
+        26.5,
+        87.5,
+        27
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E084_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "3eecf78997c8390997f8a0f79099881dd1b4a5b66633c80a88a2eee911fed13c",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-himalaya-27-84.npy",
+      "window": [
+        84.5,
+        27,
+        87,
+        29.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N27E087_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N27E087_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "82d451351feafd4abd90884f59cdf23821579a61b570298658828146f930ddda",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-himalaya-27-87.npy",
+      "window": [
+        87,
+        27,
+        87.5,
+        29.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N21E012_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N21E012_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "5f535ee0b40f61c40b5e282e926a61cc18811242ef08b6b587d9037e792320e4",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-sahara-21-12.npy",
+      "window": [
+        13.5,
+        23.5,
+        15,
+        24
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N21E015_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N21E015_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "5f535ee0b40f61c40b5e282e926a61cc18811242ef08b6b587d9037e792320e4",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-sahara-21-15.npy",
+      "window": [
+        15,
+        23.5,
+        16.5,
+        24
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N24E012_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N24E012_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "718f7e8c8ac0d1758f71591b1b53ef1c1408972174202262471988ff2202dabd",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-sahara-24-12.npy",
+      "window": [
+        13.5,
+        24,
+        15,
+        26.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N24E015_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N24E015_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "db4f838473a7684a0a503583072bc267efbaa56a6a6bec5cc08c57fcf9a9e0a8",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-sahara-24-15.npy",
+      "window": [
+        15,
+        24,
+        16.5,
+        26.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S06W066_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S06W066_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "0c3ac2f0a32a617d130c406cc158199585410d922190397ba52bfe5821c35cdd",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-amazon--6--66.npy",
+      "window": [
+        -63.5,
+        -5.5,
+        -63,
+        -3
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S06W063_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S06W063_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "fde398d753ff554e9567b2fb250b59ffc250d6233f8b24ec5198c5d63c3a5559",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-amazon--6--63.npy",
+      "window": [
+        -63,
+        -5.5,
+        -60.5,
+        -3
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S03W066_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S03W066_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "17c4ac316bbcc28a67e69a0e679e31fe14688dc973d1964ad3dc72c75ce3bd71",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-amazon--3--66.npy",
+      "window": [
+        -63.5,
+        -3,
+        -63,
+        -2.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S03W063_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S03W063_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "6b5edb579a74e663c4576a2ffa089b082fb12257311d933383df50e27e97bb77",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-amazon--3--63.npy",
+      "window": [
+        -63,
+        -3,
+        -60.5,
+        -2.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N48E003_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N48E003_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "b0a3c5102cf1038baa3c88d79fba55a090d5c36fd36d4436feb95225df22de0f",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-netherlands-coast-review-48-3.npy",
+      "window": [
+        3.5,
+        50.5,
+        6,
+        51
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N48E006_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N48E006_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "9e8bc582491f19384e7ca06998c32194ebaa6fb9988ed1b51adaa5d5bc4e47e3",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-netherlands-coast-review-48-6.npy",
+      "window": [
+        6,
+        50.5,
+        6.5,
+        51
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N51E003_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N51E003_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "71981e7184183b56986ad9c2b9ffd2985e8025594b63b6dc64ffdebc22675c7b",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-netherlands-coast-review-51-3.npy",
+      "window": [
+        3.5,
+        51,
+        6,
+        53.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_N51E006_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N51E006_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "b871d7209e789f53957d118485eed176269d38859ac65e316636dad80753dfeb",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-netherlands-coast-review-51-6.npy",
+      "window": [
+        6,
+        51,
+        6.5,
+        53.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S27E132_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S27E132_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "7f75153aea466bce4ccb6e0ac3f8566fb18e7404d5f99785b40ae582a99fc878",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-australia-arid--27-132.npy",
+      "window": [
+        132.5,
+        -26.5,
+        135,
+        -24
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S27E135_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S27E135_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "17faa96887ab761d714dffcc56d9a7f92739209d68fd42a53077644d4d015a26",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-australia-arid--27-135.npy",
+      "window": [
+        135,
+        -26.5,
+        135.5,
+        -24
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S24E132_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S24E132_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "beb50f8bc1ad1619812c933795043f6a5f4be127294293d2eb467818da201d9a",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-australia-arid--24-132.npy",
+      "window": [
+        132.5,
+        -24,
+        135,
+        -23.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    },
+    {
+      "id": "ESA_WorldCover_10m_2021_v200_S24E135_Map.tif",
+      "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S24E135_Map.tif",
+      "observation": "2021",
+      "license": "CC BY 4.0",
+      "sha256": "c23bcde1f2b40a4304a8f8227cea8bb02c8192e9baf1e4cdce8e49da470be387",
+      "hashScope": "exact downsampled review-window array, not the entire source COG",
+      "retainedInput": "wc-australia-arid--24-135.npy",
+      "window": [
+        135,
+        -24,
+        135.5,
+        -23.5
+      ],
+      "sourceSize": [
+        36000,
+        36000
+      ],
+      "resampling": "categorical mode to review resolution, nearest into target grid"
+    }
+  ],
+  "regions": {
+    "china-southwest": "4/16-3.webp",
+    "thailand": "4/16-4.webp",
+    "himalaya": "4/15-3.webp",
+    "sahara": "4/11-3.webp",
+    "amazon": "4/6-5.webp",
+    "greenland": "4/7-0.webp",
+    "antarctica": "4/12-10.webp",
+    "netherlands-coast-review": "4/10-2.webp",
+    "australia-arid": "4/18-6.webp"
+  },
+  "activation": "bounded observed-mask candidate only; bind immutable library revision before use",
+  "limitations": [
+    "WorldCover aggregation is limited to explicit 3-degree review windows, not entire world or every tile pixel",
+    "RGI7 region15 is applied to the Himalayan representative tile; other mountain regions not generated",
+    "Polar masks use observed 2021 bands; no inferred latitude/elevation snow and no historical reconstruction",
+    "Only nine LOD4 tiles; missing LODs/regions retain the altitude-palette background",
+    "Viewer screenshots and hardware performance remain independent release gates"
+  ],
+  "observationMasks": {
+    "china-southwest": {
+      "worldcoverReviewBounds": [
+        104.5,
+        28.5,
+        107.5,
+        31.5
+      ],
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "85221faecccdc7a5a40bedd50124a8c45056ece7b1bfe6147595b26980083454",
+      "masksSha256": "29e6bc694aa86ea5e357ec26886dff1d02ac4cbbbc0f5a58cfdcc85496de69f0",
+      "outputSha256": "20d39826351965a87b9bfd817512d3d421f9006aa725f9c14b894fa420099160",
+      "decodedSha256": "1da61025e115652669c170be1943637b70ded933bdbe9685b898271b93c6ba6f",
+      "bytes": 1106316,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 32400,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 190,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 0,
+      "maskFile": "china-southwest-masks.npz"
+    },
+    "thailand": {
+      "worldcoverReviewBounds": [
+        98.5,
+        14.5,
+        101.5,
+        17.5
+      ],
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "3c2f9454b161fe406a33a49112b0af04ac21062184e0e84c43c461255bd7d733",
+      "masksSha256": "ed4bf45324529c3cfcf9a346c6c0e3a4472ce21984a8ba69bf7cba92263fa9d5",
+      "outputSha256": "294297d21754d552c92ae39b903ede13f6d00b6342f94a34886662348c025703",
+      "decodedSha256": "afbc8f187d9e1f0073610ae85c9b450a6a06ecdbab4d2dfca464a08311376d8f",
+      "bytes": 735144,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 32400,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 218,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 0,
+      "maskFile": "thailand-masks.npz"
+    },
+    "himalaya": {
+      "worldcoverReviewBounds": [
+        84.5,
+        26.5,
+        87.5,
+        29.5
+      ],
+      "rgi7GlacierCount": 11494,
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "31579f03e4fa4fbcc211d28c1d93b1f0c0be99d666cd6021e16da3680fe60bb5",
+      "masksSha256": "57b2633184402b5ecdc01fc7596ca3a7698ea1193174497fd5f0c77f1217f606",
+      "outputSha256": "81ce99eda66d5d007e5f155db399c6f7cfe79838f3fd42a5662bd52385fd8c8b",
+      "decodedSha256": "2250280496536af8299493fb1b1526ebe300f76246fbc7796b27b8612e6dad4a",
+      "bytes": 1181526,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 32400,
+      "worldcoverSnowIcePixels": 1719,
+      "worldcoverWaterPixels": 170,
+      "glacierCoveredPixels": 9790,
+      "polarCoveredPixels": 0,
+      "maskFile": "himalaya-masks.npz"
+    },
+    "sahara": {
+      "worldcoverReviewBounds": [
+        13.5,
+        23.5,
+        16.5,
+        26.5
+      ],
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "6465901c9fb2d96e1360ef69ee5c316c0dac8c30faca85f98be1806bec07f0b6",
+      "masksSha256": "eec3deab64d56f83e96d49ab01d1c994f7d729de515f005e534073dfdb40aaa7",
+      "outputSha256": "6beecde5a1aa773d3a49760b1387516276e070ad468f13ee1cdbfe179ea1e764",
+      "decodedSha256": "91352ad57cb0f81a2114dd5b23bac649b468afb32261f7d793e4eaaa94d56e80",
+      "bytes": 568448,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 32400,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 0,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 0,
+      "maskFile": "sahara-masks.npz"
+    },
+    "amazon": {
+      "worldcoverReviewBounds": [
+        -63.5,
+        -5.5,
+        -60.5,
+        -2.5
+      ],
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "1a039f20826f233732fc228010a7e79275c9661131f3d94a2417c9974b3a8891",
+      "masksSha256": "15c2d8a54121e45b3da1a2a49aeaf7603eaf93072f8b5b7fc430f4ca994f70cc",
+      "outputSha256": "9e209f6a10826a0f71b11a51e383ea9b464b99e6199b591a796752c1003b4de7",
+      "decodedSha256": "8a2366f5510da0c802fa97ed4fdb1d58421ac223d173126a773f739829a21644",
+      "bytes": 605682,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 32220,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 1547,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 0,
+      "maskFile": "amazon-masks.npz"
+    },
+    "greenland": {
+      "worldcoverReviewBounds": null,
+      "polar": {
+        "band": 16,
+        "decimalYear": 2021.0,
+        "sourceCrs": "EPSG:3413",
+        "coverageValidation": {
+          "rawMinimum": 0.0,
+          "rawMaximum": 1.0,
+          "roundoffTolerance": 1e-06,
+          "sourceNoData": null,
+          "implicitFloatNaNNoData": false,
+          "polarGutterNonfinitePixelsReplicated": 0,
+          "correctedRoundoffPixels": 0
+        }
+      },
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "b45513253b67210065f8d2a8516d3a830458be21465267811c31b1959c93f3a4",
+      "masksSha256": "0e13e02aaaf89ab0923490b06376bc2b14b303d84dda13036f37258928af2c02",
+      "outputSha256": "752cc5b91812ca0ff7716980d576c04f84cebdaee1785a48cd773ecf86a78d26",
+      "decodedSha256": "d6938850af636033af21532106e3c853d430c07af42310ad0097ab282d5d6dc2",
+      "bytes": 88928,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 0,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 0,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 491076,
+      "maskFile": "greenland-masks.npz"
+    },
+    "antarctica": {
+      "worldcoverReviewBounds": null,
+      "polar": {
+        "band": 4,
+        "decimalYear": 2021.04,
+        "sourceCrs": "EPSG:3031",
+        "coverageValidation": {
+          "rawMinimum": 0.0,
+          "rawMaximum": 1.0,
+          "roundoffTolerance": 1e-06,
+          "sourceNoData": "nan",
+          "implicitFloatNaNNoData": false,
+          "polarGutterNonfinitePixelsReplicated": 1026,
+          "correctedRoundoffPixels": 0
+        }
+      },
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "87c2326dbad86ccbcb84fb859d07f6fffb83f111e387a98b25f29797e5a66b40",
+      "masksSha256": "b4ebb624ec04817b44fc1af483e8e075804205c91f1d7854e34178097d1d0adf",
+      "outputSha256": "1f713ec7c7e7fb616b69d9d8f6382d868608da5fa5ef9cec7a91af0b60ac67f7",
+      "decodedSha256": "c3f48ebc4afec1effca5be1025953d538a14cf5b048ffcd8be2d148a6465e22a",
+      "bytes": 12746,
+      "pixelWidth": 1026,
+      "pixelHeight": 562,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 0,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 0,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 452936,
+      "maskFile": "antarctica-masks.npz"
+    },
+    "netherlands-coast-review": {
+      "worldcoverReviewBounds": [
+        3.5,
+        50.5,
+        6.5,
+        53.5
+      ],
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "d71c59248b365da80bd6217bec21943082635b8e17fd6635b312ebde9b567b4a",
+      "masksSha256": "39cd088cb8259c238922f1d410d7b031a1573a932ca8210afc7b6803e089dffe",
+      "outputSha256": "54559a36ed545a9380df22d4836016555e02cb4ca53465af4c814540d5bc4c1d",
+      "decodedSha256": "94f7862c02d6786ad644a6774a0d29a807e19897586cb1ef2a8e16892c8f821d",
+      "bytes": 822886,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 28374,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 5987,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 0,
+      "maskFile": "netherlands-coast-review-masks.npz"
+    },
+    "australia-arid": {
+      "worldcoverReviewBounds": [
+        132.5,
+        -26.5,
+        135.5,
+        -23.5
+      ],
+      "schema": "pando-natural-composition-v1",
+      "baseSha256": "7366aa06cacf4688736256db09c495a45a6c4a1e1b7ccb44351764de2111e371",
+      "masksSha256": "e10310a0031c0d1bef29934673b73638d71309ebf39563c4c3439255e50818cc",
+      "outputSha256": "4d593fec201c7a31daa80c145ca014433b43ff00088a8a213fad854798ab9c28",
+      "decodedSha256": "e88f6afff5792eddfb6b07f87392bb4f4e579f2684f57d50548b394016d66baf",
+      "bytes": 978328,
+      "pixelWidth": 1026,
+      "pixelHeight": 1026,
+      "alpha": 255,
+      "shadeIncluded": false,
+      "geometryChanged": false,
+      "snowInterpretation": "observed fixed-reference snow/ice, not reconstructed historical or permanent snow",
+      "worldcoverKnownPixels": 32400,
+      "worldcoverSnowIcePixels": 0,
+      "worldcoverWaterPixels": 0,
+      "glacierCoveredPixels": 0,
+      "polarCoveredPixels": 0,
+      "maskFile": "australia-arid-masks.npz"
+    }
+  }
+}
