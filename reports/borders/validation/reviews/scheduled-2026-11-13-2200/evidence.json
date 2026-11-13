@@ -1,0 +1,146 @@
+{
+  "id": "GEO-REVIEW-20261113-2200",
+  "runUtc": "2026-11-13T22:00:00Z",
+  "priorReviewCommit": "8fc33a93c3d9ad9cee0d08c1c1524de17ffef357",
+  "priorLibraryMain": "5184244425a9259d4c3bb8fc3fdefce2eae758da",
+  "heads": {
+    "Pando/main": "f5f7ed9809377c4dddce95e37f8f78da3f45be19",
+    "Pando/work/gis": "e66e6a2f5812c194d01edfee384d603e13e5aa12",
+    "PandoLab-library/main": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+    "PandoLab-library/work/gis": "51bea5d41fb8805f3d92c6b969187a46cc256132"
+  },
+  "reports": [
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/reconstruction/korea-boundaries-2026-10-21.md",
+      "commit": "756661a43d7aa01b97cb06553dbf99c2f404f9d0",
+      "blob": "2932ff10990c4e511ec681f95861d73c0a2284a8",
+      "decision": "archival links and source note only"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/reconstruction/microstate-borders-2026-10-22.md",
+      "commit": "ccf531ba6a213b2be5db2ab4938214092ec150a2",
+      "blob": "2eae42e86f682b9c31d297b647b66ebf910183d0",
+      "decision": "archival source/evaluation note only"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/validation/historical-border-detail-review-2026-11-04/README.md",
+      "commit": "478dda2129a7190e4e1f1d31f02265f0260ff587",
+      "blob": "d0f686d1ce2a06b40ce13b5a7ef4998e0a282052",
+      "decision": "evaluation/reproducibility archive note only"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/validation/soviet-display-592-application-2026-11-05/README.md",
+      "commit": "7805ad16b342fe723d37d4f03984e590e00d5c75",
+      "blob": "dfe0236e9d4598d3cc7fd14c3331865d2f91e7c3",
+      "decision": "archival evaluation note only"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/history/lifetimes/country-lifetime-rotation-progress.md",
+      "commit": "e7d25094425640a6b5c41300974244ebcd89a1f6",
+      "blob": "39bd40394ebb14b64e8449d525b4d0a30d1262f7",
+      "decision": "progress only"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/history/timeline/historical-timeline-yearly-progress.md",
+      "commit": "8675f7a03e979fc9e4372f093c0f9b8b399e57c2",
+      "blob": "2c8c26701173346341b4329e21cee1bd71a18bd0",
+      "decision": "progress only"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/history/lifetimes/country-lifetime-oceania-historic-uvea-alo-sigave-2026-11-14.md",
+      "commit": "0b62e1ed38e7bb3296aa3194f4ba2e2837145bf7",
+      "blob": "3f0066a61e7bafba0f63e81416b03f59197df1af",
+      "decision": "reviewed; legal identity and lifetimes held"
+    },
+    {
+      "repository": "kimjeon-il/PandoLab-library",
+      "branch": "main",
+      "path": "reports/borders/history/timeline/historical-timeline-2025-asia-myanmar-lashio-control-vector-2026-11-14.md",
+      "commit": "f8ab7abe5e501c5d166c17a2091cabcce352fb12",
+      "blob": "584fd260d75f7ad5aa4f3d44990cdc1be86ee163",
+      "decision": "reviewed; no sovereign boundary change; effective date and geometry held"
+    }
+  ],
+  "index": {
+    "revision": "921d86aa3c03ffa0b3d5879ad30c9914c4d1b31a",
+    "blob": "d982119a3478199a499aeb8a4058b116a7a83b04",
+    "entities": 288,
+    "checked": [
+      "state:WLF",
+      "state:FRA",
+      "state:MMR"
+    ]
+  },
+  "verification": {
+    "scope": "complete relevant subtree comparisons; exact report bytes and origins; four existing report prose diffs; selected cited sources; fixed index blob JSON parse",
+    "limits": [
+      "archived attachments were inventoried, not individually authenticated",
+      "Légifrance direct read HTTP 403; indexed text only",
+      "historical gazette originals and GIS/Viewer tests not run"
+    ]
+  },
+  "changes": {
+    "runtime": 0,
+    "geometry": 0,
+    "lifetime": 0,
+    "main": 0
+  },
+  "archivedEvaluationDocuments": [
+    {
+      "path": "reports/borders/validation/historical-border-detail-review-2026-11-04/evaluation/historical-detail-darja-bundle/README.md",
+      "blob": "dc656727e69292b3bec5d518a41ab33771a94b82",
+      "branch": "main",
+      "observedAt": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+      "decision": "archived historical local evaluation only; no new adoption authority or runtime change"
+    },
+    {
+      "path": "reports/borders/validation/soviet-display-592-application-2026-11-05/evaluation/boundary-semantic-review-2026-11-05/README.md",
+      "blob": "3e0b7462e48233c1389c8763114c78e082cdead0",
+      "branch": "main",
+      "observedAt": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+      "decision": "archived historical local evaluation only; no new adoption authority or runtime change"
+    },
+    {
+      "path": "reports/borders/validation/soviet-display-592-application-2026-11-05/evaluation/east-followup-final-2026-11-05/README.md",
+      "blob": "d51f75638ae3c92fa0d1fc7a3b35b505deeafe7e",
+      "branch": "main",
+      "observedAt": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+      "decision": "archived historical local evaluation only; no new adoption authority or runtime change"
+    },
+    {
+      "path": "reports/borders/validation/soviet-display-592-application-2026-11-05/evaluation/east-followup-final-2026-11-05/comparison-14/METHOD.md",
+      "blob": "e09d207b5236c78b37e8ffa02c1fba02ea1e0b6b",
+      "branch": "main",
+      "observedAt": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+      "decision": "archived historical local evaluation only; no new adoption authority or runtime change"
+    },
+    {
+      "path": "reports/borders/validation/soviet-display-592-application-2026-11-05/evaluation/east-mask-review-2026-11-05/README.md",
+      "blob": "dc6dde8e836cf72f549c51df504665aa5b79d90c",
+      "branch": "main",
+      "observedAt": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+      "decision": "archived historical local evaluation only; no new adoption authority or runtime change"
+    },
+    {
+      "path": "reports/borders/validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/README.md",
+      "blob": "c31c7c1cafe171051d7f4d65869a1dd0e70a4ae3",
+      "branch": "main",
+      "observedAt": "61550b24a3876e73273f8d39ede00faaf5d9a57b",
+      "decision": "archived historical local evaluation only; no new adoption authority or runtime change"
+    }
+  ]
+}
