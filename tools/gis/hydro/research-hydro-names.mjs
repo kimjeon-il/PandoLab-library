@@ -13,7 +13,7 @@ import {
   validateEuropeanReviewMarkdown,
   selectResearchMainstemFeatures,
   validateReviewEntries,
-} from "../lib/hydro-name-research.mjs";
+} from "../../lib/hydro-name-research.mjs";
 
 const root = process.env.PANDO_CONSUMER_ROOT;
 const checkOnly = process.argv.includes('--check');

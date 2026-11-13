@@ -62,7 +62,7 @@ export async function probePublicDomainBaikonurScenes({fetcher=fetch,signal}={})
     stac:LANDSAT_STAC_COLLECTION,reuseRights:'USGS public domain; source acknowledgment requested',
     reusePolicyUrl:USGS_REUSE_POLICY,
     sourceIndependence:'USGS/NASA remote-sensing pixels. No OpenStreetMap source or coordinates.',
-    officialRightBankSource:'1994 Kazakhstan lease coordinates in tools/gis/baikonur-official-reference.mjs',
+    officialRightBankSource:'1994 Kazakhstan lease coordinates in tools/gis/borders/baikonur/baikonur-official-reference.mjs',
     sourceTimeWindow:SCENE_WINDOW,
     phase:'DISCOVERY_ONLY_NOT_APPROVED_FOR_GEOMETRY',
     shorelineDigitized:false,seasonalWaterExtentConfirmed:false,

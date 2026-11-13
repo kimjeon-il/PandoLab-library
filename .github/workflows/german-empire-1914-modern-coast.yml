@@ -50,7 +50,7 @@ jobs:
           cmake -S tools/cpp/territorial-recipe -DPANDO_CONSUMER_ROOT="$PANDO_CONSUMER_ROOT" -B build-native/territorial-recipe -G Ninja -DPANDO_BUILD_COUNTRY_VALIDATOR=OFF -DPANDO_BUILD_TERRITORIAL_RECIPE=ON
           cmake --build build-native/territorial-recipe --target pando-territorial-recipe
           export PANDO_TERRITORIAL_RECIPE_BINARY="$PWD/build-native/territorial-recipe/pando-territorial-recipe"
-          node tools/gis/build-german-1914-base.mjs --modern-coast --output build-native/territorial-recipe/german-1914-modern-coast-candidate.geojson --diagnostics build-native/territorial-recipe/german-1914-modern-coast-diagnostics.json
+          node tools/gis/borders/germany/build-german-1914-base.mjs --modern-coast --output build-native/territorial-recipe/german-1914-modern-coast-candidate.geojson --diagnostics build-native/territorial-recipe/german-1914-modern-coast-diagnostics.json
         env:
           NODE_OPTIONS: --import=./tools/register-consumer.mjs
       - uses: actions/upload-artifact@v4

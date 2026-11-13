@@ -43,21 +43,12 @@ jobs:
         with:
           repository: kimjeon-il/PandoLab-library
           ref: ${{ steps.hydro-data-pin.outputs.revision }}
-          path: .pando-hydro-input
+          path: .dependencies/pando/.pando-hydro-input
           persist-credentials: false
           filter: blob:none
+          sparse-checkout-cone-mode: false
           sparse-checkout: |-
-            .github
-            tools
-            tests
-            scripts
-            config
-      - uses: actions/checkout@v4
-        with:
-          repository: kimjeon-il/Pando
-          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
-          path: .dependencies/pando
-          persist-credentials: false
+            /assets/data/hydro/v0.13.2/
       - name: Build the read-only native point screen
         run: >
           sudo apt-get update -qq && sudo apt-get install -y -qq libgeos-dev
@@ -79,7 +70,7 @@ jobs:
       - name: Query United States NGA independent named river points and compare all
           last eleven
         run: |
-          node "$PANDO_LIBRARY_ROOT/tools/gis/verify-osm-hydro-batch03-points.mjs" \
+          node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/verify-osm-hydro-batch03-points.mjs" \
             --decoded /tmp/osm-hydro-batch03-decoded.json \
             --output /tmp/osm-hydro-batch03-results.json
           node --input-type=module - <<'JS'

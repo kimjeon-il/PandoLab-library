@@ -32,9 +32,9 @@ Run only affected tool checks with small synthetic fixtures. Inspect setup
 before running a test. Data/report-only changes must not trigger tool tests,
 whole-catalog validation, a full build matrix or GIS regeneration. Full-project
 validation requires an explicit request. QGIS native compilation is CI-only:
-use `node scripts/run-application-checks.mjs --native=qgis-native-bridge`.
+use `node tests/run-application-checks.mjs --native=qgis-native-bridge`.
 Historical recipe code and its small fixed source oracles use only
-`node scripts/run-application-checks.mjs --native=territorial-recipe`. This
+`node tests/run-application-checks.mjs --native=territorial-recipe`. This
 selection does not prepare real sources or regenerate historical geometry.
 Do not install local compilers, SDKs, GIS or training environments. Preserve
 existing QGIS profiles, running clients and source-bound native artifacts.

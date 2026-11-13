@@ -9,7 +9,7 @@ import * as __dep9 from "node:crypto";
 
 import * as __dep11 from "pando:tools/data/territorial-entity-sources.mjs";
 import * as __dep12 from "pando:tools/gis/territorial-library.js";
-import * as __dep13 from "../../../tools/gis/normalize-2026-source-reference.mjs";
+import * as __dep13 from "../../../tools/gis/borders/common/normalize-2026-source-reference.mjs";
 import * as __dep14 from "pando:src/data/builtin-world-loader.js";
 import * as __dep15 from "pando:src/document/temporal.js";
 contractSuite("source-date-cut-normalization", () => {

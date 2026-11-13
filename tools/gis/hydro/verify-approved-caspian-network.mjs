@@ -7,7 +7,7 @@ import {tmpdir} from 'node:os';
 import {join,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {zipMembers,zipMemberChunks} from 'pando:tools/lib/geonames-zip.mjs';
-import {verifyHistoricalLinework,digest} from './verify-historical-linework.mjs';
+import {verifyHistoricalLinework,digest} from '../borders/common/verify-historical-linework.mjs';
 
 export const ARCHIVE_NAME='caspian-shoreline-completed-candidate-20261024.zip';
 export const ARCHIVE_SHA='3df45ab6e7d3a4b1dfac42b29f28cc1c932c3b1be9f866ccd7df6bb769b9a5b4';

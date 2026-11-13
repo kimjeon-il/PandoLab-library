@@ -103,7 +103,7 @@ export async function main(argv=process.argv.slice(2),{fetcher=fetch}={}){
    catch(error){failures.push(endpoint+': '+error.message);}
  }
  throw Error('HGIS WFS unavailable; obtain licensed GeoJSON from '+CATALOG+
-   ' and use node tools/gis/fetch-german-empire-1914-source.mjs --from-file PATH\n'+failures.join('\n'));
+   ' and use node tools/gis/borders/germany/fetch-german-empire-1914-source.mjs --from-file PATH\n'+failures.join('\n'));
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url))
  main().then(result=>console.log(JSON.stringify(result)))

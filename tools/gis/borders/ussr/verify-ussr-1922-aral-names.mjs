@@ -7,7 +7,7 @@ import {createHash} from 'node:crypto';
 import {readFileSync,writeFileSync,existsSync,mkdirSync} from 'node:fs';
 import {join,dirname,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {readHydroMetadataSection} from "./inventory-osm-hydronyms.mjs";
+import {readHydroMetadataSection} from "../../hydro/inventory-osm-hydronyms.mjs";
 
 export const ROOT=process.env.PANDO_CONSUMER_ROOT;
 export const ARAL_NAMES=Object.freeze({

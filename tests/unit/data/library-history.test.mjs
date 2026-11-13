@@ -1,6 +1,6 @@
 import test,{describe as contractSuite} from 'node:test';
 import assert from 'node:assert/strict';
-import * as history from '../../../tools/data/library-history.mjs';
+import * as history from '../../../tools/storage/history/library-history.mjs';
 contractSuite("library-retention", () => {
 
 test('retention filters generated editions while retaining source history and shared archives', () => {

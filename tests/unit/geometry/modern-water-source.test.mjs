@@ -1,7 +1,7 @@
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {modernCaspianWater} from '../../../tools/gis/prepare-water-object-history.mjs';
+import {modernCaspianWater} from '../../../tools/gis/hydro/prepare-water-object-history.mjs';
 import {geometryAreaKm2} from 'pando:tools/gis/geometry-metrics.js';
 test('derived modern water retains islands and uses the small spherical interior',()=>{
  const square=(w,s,e,n)=>[[w,s],[w,n],[e,n],[e,s],[w,s]];
@@ -16,7 +16,7 @@ test('derived modern water retains islands and uses the small spherical interior
 });
 
 test('water preparation cannot migrate or regenerate all builtin countries as a side effect',()=>{
- const text=readFileSync(new URL('../../../tools/gis/prepare-water-object-history.mjs',import.meta.url),'utf8');
+ const text=readFileSync(new URL('../../../tools/gis/hydro/prepare-water-object-history.mjs',import.meta.url),'utf8');
  assert.doesNotMatch(text,/prepareCommonCountryTargets|build-builtin-world\.mjs|finalizeBuiltinWorldFiles|writeBuiltinWorldPublication/,
   'The completed country wire migration is not a dependency of water preparation');
 });

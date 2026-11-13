@@ -11,7 +11,7 @@ import {fileURLToPath} from 'node:url';
 import {zipMembers,zipMemberChunks} from 'pando:tools/lib/geonames-zip.mjs';
 import {approvedNetworkBytes,ARCHIVE_SHA,MEMBER_SHA}
   from './verify-approved-caspian-network.mjs';
-import {digest} from './verify-historical-linework.mjs';
+import {digest} from '../borders/common/verify-historical-linework.mjs';
 
 export const WATER_MEMBER='caspian-completion/assembled-completion-candidate/polygon-check/waterbody-polygon-candidate.geojson';
 const requireValue=(ok,message)=>{if(!ok)throw Error(message);};

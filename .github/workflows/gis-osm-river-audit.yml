@@ -39,7 +39,7 @@ jobs:
           node-version: "24"
       - name: Extract verified matched systems without modifying map data
         run: |
-          node "$PANDO_LIBRARY_ROOT/tools/gis/inventory-osm-hydronyms.mjs" \
+          node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/inventory-osm-hydronyms.mjs" \
             --manifest assets/data/hydro/v0.13.2/manifest.json \
             --bundle assets/data/hydro/v0.13.2/hydro.bin \
             --output /tmp/osm-hydro-inventory.json
@@ -145,7 +145,7 @@ jobs:
           build-native/hydro-point-screen/artifact
       - name: Reproduce the independent Victorian Yarra government river vector check
         run: |
-          node "$PANDO_LIBRARY_ROOT/tools/gis/verify-victorian-yarra-source.mjs" \
+          node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/verify-victorian-yarra-source.mjs" \
             --decoded /tmp/hydro-decoded.json \
             --output /tmp/yarra-government-vector-validated.json
           node --input-type=module - <<'JS'
@@ -160,7 +160,7 @@ jobs:
           tests/unit/geometry/hydro-name.test.mjs
       - name: Verify current published independent names and immutable Hydro bytes
         run: |
-          node "$PANDO_LIBRARY_ROOT/tools/gis/verify-published-hydro-independent-names.mjs" \
+          node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/verify-published-hydro-independent-names.mjs" \
             --manifest assets/data/hydro/v0.13.2/manifest.json \
             --bundle assets/data/hydro/v0.13.2/hydro.bin \
             --archive-review assets/data/hydro/v0.13.2/hydro-independent-name-replacements.json \

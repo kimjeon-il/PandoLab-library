@@ -179,7 +179,7 @@ export async function runLSIBUntargeted(request,options={}){
 
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   try{
-    const request={root:resolve(dirname(fileURLToPath(import.meta.url)),'../..'),output:'build-native/lsib-supplement/candidates.json'};
+    const request={root:resolve(dirname(fileURLToPath(import.meta.url)),'../../..'),output:'build-native/lsib-supplement/candidates.json'};
     const names={'--archive':'archive','--disputed-directory':'disputedDirectory','--evidence-directory':'evidenceDirectory','--output':'output'};
     for(let i=2;i<process.argv.length;i++){
       const name=names[process.argv[i]],value=process.argv[++i];if(!name||!value||value.startsWith('--'))throw Error('Expected LSIB source option and value');

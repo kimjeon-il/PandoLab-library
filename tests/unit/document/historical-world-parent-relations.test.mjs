@@ -5,7 +5,7 @@ import * as __country_dep2 from "pando:tools/build/builtin-world-compiler.mjs";
 import * as __country_dep3 from "pando:tools/data/territorial-current-world.mjs";
 import * as __country_dep4 from "pando:src/document/temporal.js";
 import * as __country_dep5 from "node:crypto";
-import * as __country_dep7 from "../../../tools/gis/apply-post-2000-territorial-links.mjs";
+import * as __country_dep7 from "../../../tools/gis/borders/common/apply-post-2000-territorial-links.mjs";
 
 // Original feature contract: historical-world-parent-relations.test.mjs
 contractSuite("historical-world-parent-relations", () => {

@@ -7,10 +7,10 @@ import * as __dep7 from "node:fs";
 import * as __dep8 from "node:os";
 import * as __dep9 from "node:path";
 import * as __dep10 from "node:zlib";
-import * as __dep11 from "../../../tools/gis/inventory-hydro-names.mjs";
+import * as __dep11 from "../../../tools/gis/hydro/inventory-hydro-names.mjs";
 import * as __dep12 from "../../../tools/lib/promote-hydro-names.mjs";
 import * as __dep13 from "node:url";
-import * as __dep14 from "../../../tools/gis/prepare-hydro-name-replacement-bundle.mjs";
+import * as __dep14 from "../../../tools/gis/hydro/prepare-hydro-name-replacement-bundle.mjs";
 
 contractSuite("hydro-name-inventory", () => {
 const assert = __dep1.default;
@@ -239,7 +239,7 @@ test('rejects corrupted bundles and mismatched identities or sources',()=>{
 test('CLI refuses staging inside original input and refuses conflicting filenames',t=>{
   const root=mkdtempSync(join(tmpdir(),'hydro-repack-test-'));t.after(()=>rmSync(root,{recursive:true,force:true}));
   const src=join(root,'source');mkdirSync(src);const bundle=join(src,'hydro.bin');writeFileSync(bundle,'original');
-  const cli=fileURLToPath(new URL("../../../tools/gis/prepare-hydro-name-replacement-bundle.mjs",import.meta.url));
+  const cli=fileURLToPath(new URL("../../../tools/gis/hydro/prepare-hydro-name-replacement-bundle.mjs",import.meta.url));
   const invoke=(output,replacements)=>execFileSync(process.execPath,[cli,'--manifest','unused','--bundle',bundle,'--replacements',replacements,'--output-dir',output],{stdio:'pipe'});
   assert.throws(()=>invoke(join(src,'output'),'review.json'));
   assert.throws(()=>invoke(join(root,'output'),'Manifest.JSON'));

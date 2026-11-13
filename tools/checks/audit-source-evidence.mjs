@@ -4,9 +4,9 @@ import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import {writeFileSync} from 'node:fs';
 import {isAbsolute,relative,resolve,sep} from 'node:path';
-import {auditBaikonurHistoricSceneAvailability} from '../gis/probe-baikonur-1994-landsat.mjs';
-import {probePlanetaryBaikonur} from '../gis/probe-baikonur-planetary-landsat.mjs';
-import {verifyBaikonurLeaseExclusionSource} from '../gis/verify-baikonur-lease-exclusions.mjs';
+import {auditBaikonurHistoricSceneAvailability} from '../gis/borders/baikonur/probe-baikonur-1994-landsat.mjs';
+import {probePlanetaryBaikonur} from '../gis/borders/baikonur/probe-baikonur-planetary-landsat.mjs';
+import {verifyBaikonurLeaseExclusionSource} from '../gis/borders/baikonur/verify-baikonur-lease-exclusions.mjs';
 
 export const SOURCE_EVIDENCE_PROFILES = Object.freeze([
   'historic-scenes','signed-source-access','lease-exclusions',

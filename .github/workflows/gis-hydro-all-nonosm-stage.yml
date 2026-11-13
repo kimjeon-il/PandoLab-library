@@ -35,7 +35,7 @@ jobs:
           node-version: "24"
       - name: Validate all 31 independently sourced names or explicit neutral fallbacks
           at once
-        run: node --test       tests/unit/geometry/hydro-name.test.mjs
+        run: node --test "$PANDO_LIBRARY_ROOT/tests/unit/geometry/hydro-name.test.mjs"
       - name: Pin exact original HydroRIVERS v0.13.2 data commit
         id: data
         shell: bash
@@ -46,21 +46,12 @@ jobs:
         with:
           repository: kimjeon-il/PandoLab-library
           ref: ${{ steps.data.outputs.sha }}
-          path: .pando-hydro-source-pinned
+          path: .dependencies/pando/.pando-hydro-source-pinned
           persist-credentials: false
           filter: blob:none
+          sparse-checkout-cone-mode: false
           sparse-checkout: |-
-            .github
-            tools
-            tests
-            scripts
-            config
-      - uses: actions/checkout@v4
-        with:
-          repository: kimjeon-il/Pando
-          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
-          path: .dependencies/pando
-          persist-credentials: false
+            /assets/data/hydro/v0.13.2/
       - name: Repack every original OSM name/relationship in a single immutable-geometry
           candidate
         shell: bash
@@ -69,7 +60,7 @@ jobs:
 
           input=".pando-hydro-source-pinned/assets/data/hydro/v0.13.2"
 
-          node "$PANDO_LIBRARY_ROOT/tools/gis/stage-hydro-all-nonosm.mjs" \
+          node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/stage-hydro-all-nonosm.mjs" \
             --manifest "$input/manifest.json" \
             --bundle "$input/hydro.bin" \
             --baseline-review "$input/hydro-independent-name-replacements.json" \
@@ -84,7 +75,7 @@ jobs:
           node --input-type=module - <<'JS'
           import assert from 'node:assert/strict';
           import {readFileSync} from 'node:fs';
-          import {auditHydroOsm,auditOsmCreditRemoval} from 'library:tools/gis/audit-osm-credit-removal.mjs';
+          import {auditHydroOsm,auditOsmCreditRemoval} from 'library:tools/gis/hydro/audit-osm-credit-removal.mjs';
           import {manifestRoles} from './tools/checks/check-current-hydro-layout.mjs';
           const root=process.env.RUNNER_TEMP+'/hydro-v0.13.4-nonosm';
           const manifest=JSON.parse(readFileSync(root+'/manifest.json','utf8'));

@@ -162,7 +162,7 @@ export async function writeLSIBTargetedCandidate(request,options={}){
 
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   try{
-    const request={root:resolve(dirname(fileURLToPath(import.meta.url)),'../..'),targets:[],output:'build-native/lsib-supplement/candidates.json'};
+    const request={root:resolve(dirname(fileURLToPath(import.meta.url)),'../../..'),targets:[],output:'build-native/lsib-supplement/candidates.json'};
     const names={'--target':'targets','--reviewed-reference':'referenceManifest','--reviewed-coast':'coastManifest','--output':'output'};
     for(let i=2;i<process.argv.length;i++){
       const name=names[process.argv[i]],value=process.argv[++i];if(!name||!value||value.startsWith('--'))throw Error('Expected LSIB target option and value');

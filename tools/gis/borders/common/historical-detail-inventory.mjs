@@ -22,7 +22,7 @@ export function readInventoryCountries(index,readFile){
  return index.entities.map(entry=>{const country=JSON.parse(gunzipSync(readBuiltinCountryStoredBytes(entry,readFile)));return {entityId:entry.entityId,storedSha256:entry.sha256,sourceBindings:country.sourceBindings,geometryBindings:country.timelineRecords.geometryBindings,lifetimes:country.timelineRecords.lifetimes,sourceVersionMetadata:country.identity.properties.metadata.historicalTimeline.geometryVersions,geometryRefs:country.geometryRefs};});
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
- if(process.argv.length!==3)throw Error('Usage: node tools/gis/historical-detail-inventory.mjs OUTPUT.json');
+ if(process.argv.length!==3)throw Error('Usage: node tools/gis/borders/common/historical-detail-inventory.mjs OUTPUT.json');
  const source=JSON.parse(fs.readFileSync('assets/data/territorial-entities/generated/v2/index.json')),index=JSON.parse(fs.readFileSync('assets/data/builtin-world/generated/v1/index.json')),view=JSON.parse(fs.readFileSync('assets/data/territorial-entities/source/views/world.json'));
  const pin=JSON.parse(fs.readFileSync('config/library-data.json')).revision,sources=territorialSourceIndex(JSON.parse(execFileSync('git',['show',pin+':archive/index.json'],{cwd:libraryCheckout(),maxBuffer:16*1024*1024})));
  const result=buildHistoricalDetailInventory({sourceRecords:sources.sources,sourceEntities:source.entities,countries:readInventoryCountries(index,f=>fs.readFileSync('assets/data/builtin-world/generated/v1/'+f)),sourceIdentities:index.sourceIdentities,currentSelections:view.selections});result.dataRevision=JSON.parse(fs.readFileSync('config/library-data.json')).revision;

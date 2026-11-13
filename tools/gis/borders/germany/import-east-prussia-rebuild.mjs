@@ -7,7 +7,7 @@ import {updateTerritorialSource} from "pando:tools/data/territorial-entity-sourc
 
 const root = process.env.PANDO_CONSUMER_ROOT;
 const artifactPath = process.argv[2];
-if (!artifactPath) throw new Error('Usage: node tools/gis/import-east-prussia-rebuild.mjs <reviewed GeoJSON path>');
+if (!artifactPath) throw new Error('Usage: node tools/gis/borders/germany/import-east-prussia-rebuild.mjs <reviewed GeoJSON path>');
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const bytes = fs.readFileSync(artifactPath);
 const artifact = JSON.parse(bytes);

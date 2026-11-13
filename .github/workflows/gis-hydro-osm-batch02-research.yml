@@ -43,21 +43,12 @@ jobs:
         with:
           repository: kimjeon-il/PandoLab-library
           ref: ${{ steps.hydro-data-pin.outputs.revision }}
-          path: .pando-hydro-input
+          path: .dependencies/pando/.pando-hydro-input
           persist-credentials: false
           filter: blob:none
+          sparse-checkout-cone-mode: false
           sparse-checkout: |-
-            .github
-            tools
-            tests
-            scripts
-            config
-      - uses: actions/checkout@v4
-        with:
-          repository: kimjeon-il/Pando
-          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
-          path: .dependencies/pando
-          persist-credentials: false
+            /assets/data/hydro/v0.13.2/
       - name: Build the read-only native point screen
         run: >
           sudo apt-get update -qq && sudo apt-get install -y -qq libgeos-dev
@@ -78,15 +69,15 @@ jobs:
         run: node tools/gis/decode-hydro-connectivity.mjs
           .pando-hydro-input/assets/data/hydro/v0.13.2 /tmp/batch02-decoded.json
       - name: Query NGA US government non-OSM named-stream locations
-        run: node "$PANDO_LIBRARY_ROOT/tools/gis/probe-nga-streams.mjs" --output
+        run: node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/probe-nga-streams.mjs" --output
           /tmp/batch02-nga.json
       - name: Acquire checksum-verified 2023 Central Asia scientific Hydromet gauge
           locations
-        run: node "$PANDO_LIBRARY_ROOT/tools/gis/probe-central-asia-gauges.mjs" --output
+        run: node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/probe-central-asia-gauges.mjs" --output
           /tmp/batch02-ca-gauges.json
       - name: Compare all 10 pending river mainstems against real independent locations
         run: |
-          node "$PANDO_LIBRARY_ROOT/tools/gis/verify-osm-hydro-batch02-points.mjs" \
+          node "$PANDO_LIBRARY_ROOT/tools/gis/hydro/verify-osm-hydro-batch02-points.mjs" \
             --decoded /tmp/batch02-decoded.json \
             --external-gauges /tmp/batch02-ca-gauges.json \
             --nga /tmp/batch02-nga.json \

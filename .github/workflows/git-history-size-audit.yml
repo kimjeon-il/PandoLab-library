@@ -33,7 +33,7 @@ jobs:
           node-version: "24"
       - name: Audit full Git mirror and isolated rewritten copy
         shell: bash
-        run: bash tools/git-history-dryrun.sh
+        run: bash tools/storage/history/git-history-dryrun.sh
         env:
           PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
           NODE_OPTIONS: --import=./tools/register-consumer.mjs

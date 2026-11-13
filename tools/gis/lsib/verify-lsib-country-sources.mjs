@@ -127,7 +127,7 @@ export function auditLSIBGeometry(contract,{binary=process.env.PANDO_TERRITORIAL
 export function verifyLSIBSources({base,candidatePath,outputPath,root=ROOT,
   binary=process.env.PANDO_TERRITORIAL_RECIPE_BINARY}={}) {
   assert.ok(base&&candidatePath&&outputPath,
-    'Usage: node tools/gis/verify-lsib-country-sources.mjs --base SHA --candidate FILE --output FILE');
+    'Usage: node tools/gis/lsib/verify-lsib-country-sources.mjs --base SHA --candidate FILE --output FILE');
   const sourceRoot=join(root,SOURCE);
   const view=json(join(sourceRoot,'views/world.json'));
   const paths=readdirSync(join(sourceRoot,'lineages'))

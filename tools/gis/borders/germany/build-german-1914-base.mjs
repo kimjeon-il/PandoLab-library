@@ -137,7 +137,7 @@ export function buildGerman1914({root=defaultRoot,recipe,binary=process.env.PAND
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   try{
     const {values}=parseArgs({options:{recipe:{type:'string'},check:{type:'boolean',default:false},'modern-coast':{type:'boolean'},output:{type:'string'},diagnostics:{type:'string'}}});
-    const recipePath=values.recipe?resolve(values.recipe):fileURLToPath(new URL('../historical-library/german-empire-1914-base.recipe.json',import.meta.url));
+    const recipePath=values.recipe?resolve(values.recipe):fileURLToPath(new URL('../../../historical-library/german-empire-1914-base.recipe.json',import.meta.url));
     const result=values['modern-coast']?buildGermanModernCoast({output:values.output,diagnostics:values.diagnostics})
       :buildGerman1914({recipe:JSON.parse(readFileSync(recipePath,'utf8')),check:values.check});
     console.log(JSON.stringify({mode:values.check?'check':'build',output:values['modern-coast']?result.validation:result.output},null,2));

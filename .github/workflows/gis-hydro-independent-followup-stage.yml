@@ -44,21 +44,12 @@ jobs:
         with:
           repository: kimjeon-il/PandoLab-library
           ref: ${{ steps.pinned.outputs.sha }}
-          path: .pando-hydro-followup-source
+          path: .dependencies/pando/.pando-hydro-followup-source
           persist-credentials: false
           filter: blob:none
+          sparse-checkout-cone-mode: false
           sparse-checkout: |-
-            .github
-            tools
-            tests
-            scripts
-            config
-      - uses: actions/checkout@v4
-        with:
-          repository: kimjeon-il/Pando
-          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
-          path: .dependencies/pando
-          persist-credentials: false
+            /assets/data/hydro/v0.13.2/
       - name: Repack ONLY verified 20773860 and 40423228 source metadata in a new
           temporary release
         shell: bash
@@ -68,7 +59,7 @@ jobs:
           input=".pando-hydro-followup-source/assets/data/hydro/v0.13.2"
 
           node
-          "$PANDO_LIBRARY_ROOT/tools/gis/stage-hydro-independent-followup.mjs" \
+          "$PANDO_LIBRARY_ROOT/tools/gis/hydro/stage-hydro-independent-followup.mjs" \
             --manifest "$input/manifest.json" \
             --bundle "$input/hydro.bin" \
             --baseline-review "$input/hydro-independent-name-replacements.json" \
@@ -82,7 +73,7 @@ jobs:
           node --input-type=module - <<'JS'
           import {readFileSync} from 'node:fs';
           import assert from 'node:assert/strict';
-          import {auditHydroOsm,auditOsmCreditRemoval} from 'library:tools/gis/audit-osm-credit-removal.mjs';
+          import {auditHydroOsm,auditOsmCreditRemoval} from 'library:tools/gis/hydro/audit-osm-credit-removal.mjs';
           import {manifestRoles} from './tools/checks/check-current-hydro-layout.mjs';
           const d=process.env.RUNNER_TEMP+'/hydro-v0.13.3-independent-review/';
           const manifest=JSON.parse(readFileSync(d+'manifest.json','utf8'));

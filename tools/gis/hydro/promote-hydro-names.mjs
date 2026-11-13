@@ -9,7 +9,7 @@ import {
   approvedSystemsFromReview,
   promoteCoreMetadata,
   promoteManifest,
-} from "../lib/promote-hydro-names.mjs";
+} from "../../lib/promote-hydro-names.mjs";
 
 const root = process.env.PANDO_CONSUMER_ROOT;
 const hydroRoot = path.join(root, 'assets', 'data', 'hydro');

@@ -103,7 +103,7 @@ export function verifyNativeEastGermanyPartition({
   } finally {rmSync(scope,{recursive:true,force:true});}
 }
 export function main(argv=process.argv.slice(2)){
-  if(argv.length!==0)throw Error('Usage: node tools/gis/verify-east-germany-partition.mjs');
+  if(argv.length!==0)throw Error('Usage: node tools/gis/borders/germany/verify-east-germany-partition.mjs');
   const output=verifyNativeEastGermanyPartition();
   console.log('DDR_1989_NATIVE_PARTITION='+JSON.stringify(output));
   return output;
