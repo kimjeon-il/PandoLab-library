@@ -1,0 +1,531 @@
+{
+  "scope": "Separate local Darja-inclusive candidate only; no active registration/store/pin/commit/push or remote report writes",
+  "activePin": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+  "storageGate": {
+    "sources": 6,
+    "countries": 5
+  },
+  "changedSourceObjects": 6,
+  "changedSourceVersions": 7,
+  "changedCompiledCountries": 5,
+  "changedCompiledVersionBindings": 6,
+  "unchangedSourceDescriptors": 280,
+  "unchangedNativeObjectReferences": 280,
+  "unchangedCompiledCountryDescriptors": 273,
+  "sourceRawChunkNativeChecks": [
+    {
+      "id": "state:soviet-union",
+      "rawChunkNativeExactlyEqual": true,
+      "nativeObject": "5db7d80465ddd4b295d4b60fd16659d1f423528b7c2171ad61f59ad75f99c1a5",
+      "chunkSha256": "ebf8cfb9693655c53b5c6185a3b701bcc9b5adb721c6862718be3ca2929e61b0"
+    },
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "rawChunkNativeExactlyEqual": true,
+      "nativeObject": "0776abae5ced1032dbcc02a7472309ef9fec201b005e7c340d004ec1ed28b899",
+      "chunkSha256": "23d47a1546f99691257e92c99e3b23831661062c5a25e7a155c5ac7bb1ea9bcf"
+    },
+    {
+      "id": "state:soviet-union-byelorussian-ssr",
+      "rawChunkNativeExactlyEqual": true,
+      "nativeObject": "727aa25eabe93d6ce5817b65e32a08b4a9614bcff93765d02d8fcc3aa7a26c8c",
+      "chunkSha256": "3ec7ab16af3e8604acaadbad8c3e5a91fa959df7c0e928aa799a9000b25a6972"
+    },
+    {
+      "id": "state:IRN",
+      "rawChunkNativeExactlyEqual": true,
+      "nativeObject": "236623776936a714c7d94e77cc5e7481a99b5b78e2e547df46b5ef0a91bed529",
+      "chunkSha256": "8784b9c599e431a864ca474b4bf1652c87fd4222cc5f26d1e410a14146d907c4"
+    },
+    {
+      "id": "state:soviet-union-ukrainian-ssr",
+      "rawChunkNativeExactlyEqual": true,
+      "nativeObject": "9609709d88a2fe603a0f079d51b79319f12bf0ebf6ca16bb57d7fd501c2232db",
+      "chunkSha256": "a553a4e627ed6cb4a65d7f2bdadaaf68368cb4096293fd09b387a32facacfc7d"
+    },
+    {
+      "id": "waterbody:caspian",
+      "rawChunkNativeExactlyEqual": true,
+      "nativeObject": "4a1260c6324281855e782bdda574bc25580746de70e90dd8d7bc4cd25ce6500e",
+      "chunkSha256": "0a6eb101114666030889cabd7f8a25f7ad34ebbcf2409120fa4989c07318f87c"
+    }
+  ],
+  "versionChecks": [
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1991-r1",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "versionId": "state:soviet-union-byelorussian-ssr:1991-r1",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "versionId": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-before",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-01-01",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1925-05-13",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "versionId": "state:soviet-union-ukrainian-ssr:1991-r1",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "versionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "waterbody:caspian",
+      "versionId": "waterbody:caspian:modern-before",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "waterbody:caspian",
+      "versionId": "caspian-near1922-approved",
+      "changed": true,
+      "periodAndIdentityUnchanged": true
+    },
+    {
+      "entityId": "waterbody:caspian",
+      "versionId": "waterbody:caspian:modern-after",
+      "changed": false,
+      "periodAndIdentityUnchanged": true
+    }
+  ],
+  "dateBindingChecks": [
+    {
+      "entityId": "state:soviet-union",
+      "date": "1922-12-29",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union",
+      "date": "1922-12-30",
+      "versionIds": [
+        "state:soviet-union:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "date": "1925-05-12",
+      "versionIds": [
+        "state:soviet-union:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "date": "1925-05-13",
+      "versionIds": [
+        "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "date": "1929-12-31",
+      "versionIds": [
+        "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union",
+      "date": "1930-01-01",
+      "versionIds": [
+        "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "date": "1922-12-29",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "date": "1922-12-30",
+      "versionIds": [
+        "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "date": "1925-05-12",
+      "versionIds": [
+        "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "date": "1925-05-13",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "date": "1929-12-31",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "date": "1930-01-01",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "date": "1922-12-29",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "date": "1922-12-30",
+      "versionIds": [
+        "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "date": "1925-05-12",
+      "versionIds": [
+        "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "date": "1925-05-13",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "date": "1929-12-31",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "date": "1930-01-01",
+      "versionIds": []
+    },
+    {
+      "entityId": "IRN",
+      "date": "1922-12-29",
+      "versionIds": [
+        "state:IRN:natural-earth-5.1.1:caspian-1922-01-01"
+      ]
+    },
+    {
+      "entityId": "IRN",
+      "date": "1922-12-30",
+      "versionIds": [
+        "state:IRN:natural-earth-5.1.1:caspian-1922-12-30"
+      ]
+    },
+    {
+      "entityId": "IRN",
+      "date": "1925-05-12",
+      "versionIds": [
+        "state:IRN:natural-earth-5.1.1:caspian-1922-12-30"
+      ]
+    },
+    {
+      "entityId": "IRN",
+      "date": "1925-05-13",
+      "versionIds": [
+        "state:IRN:natural-earth-5.1.1:caspian-1925-05-13"
+      ]
+    },
+    {
+      "entityId": "IRN",
+      "date": "1929-12-31",
+      "versionIds": [
+        "state:IRN:natural-earth-5.1.1:caspian-1925-05-13"
+      ]
+    },
+    {
+      "entityId": "IRN",
+      "date": "1930-01-01",
+      "versionIds": [
+        "state:IRN:natural-earth-5.1.1"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "date": "1922-12-29",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "date": "1922-12-30",
+      "versionIds": [
+        "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "date": "1925-05-12",
+      "versionIds": [
+        "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2"
+      ]
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "date": "1925-05-13",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "date": "1929-12-31",
+      "versionIds": []
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "date": "1930-01-01",
+      "versionIds": []
+    }
+  ],
+  "physicalContextChecks": [
+    {
+      "month": "1921-12",
+      "objects": [
+        "waterbody:caspian"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:modern",
+            "version": 1
+          },
+          "landSha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98",
+          "waterSha256": "4d3709e31f9ce7185722ae36a0d26088bca6c93c6d3317aba3bc77999a265ed2"
+        }
+      ]
+    },
+    {
+      "month": "1922-01",
+      "objects": [
+        "waterbody:caspian",
+        "waterbody:aral"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:restored",
+            "version": 2
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "b95c195e5b8ec07dd7bb6ea5bf186a0a7e79995a2e8eb03acd559e6138f847c9"
+        },
+        {
+          "objectId": "waterbody:aral",
+          "geometryRef": {
+            "id": "waterbody:aral:prasolov1926",
+            "version": 1
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+        }
+      ]
+    },
+    {
+      "month": "1922-12",
+      "objects": [
+        "waterbody:caspian",
+        "waterbody:aral"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:restored",
+            "version": 2
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "b95c195e5b8ec07dd7bb6ea5bf186a0a7e79995a2e8eb03acd559e6138f847c9"
+        },
+        {
+          "objectId": "waterbody:aral",
+          "geometryRef": {
+            "id": "waterbody:aral:prasolov1926",
+            "version": 1
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+        }
+      ]
+    },
+    {
+      "month": "1925-05",
+      "objects": [
+        "waterbody:caspian",
+        "waterbody:aral"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:restored",
+            "version": 2
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "b95c195e5b8ec07dd7bb6ea5bf186a0a7e79995a2e8eb03acd559e6138f847c9"
+        },
+        {
+          "objectId": "waterbody:aral",
+          "geometryRef": {
+            "id": "waterbody:aral:prasolov1926",
+            "version": 1
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+        }
+      ]
+    },
+    {
+      "month": "1925-06",
+      "objects": [
+        "waterbody:caspian",
+        "waterbody:aral"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:restored",
+            "version": 2
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "b95c195e5b8ec07dd7bb6ea5bf186a0a7e79995a2e8eb03acd559e6138f847c9"
+        },
+        {
+          "objectId": "waterbody:aral",
+          "geometryRef": {
+            "id": "waterbody:aral:prasolov1926",
+            "version": 1
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+        }
+      ]
+    },
+    {
+      "month": "1929-12",
+      "objects": [
+        "waterbody:caspian",
+        "waterbody:aral"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:restored",
+            "version": 2
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "b95c195e5b8ec07dd7bb6ea5bf186a0a7e79995a2e8eb03acd559e6138f847c9"
+        },
+        {
+          "objectId": "waterbody:aral",
+          "geometryRef": {
+            "id": "waterbody:aral:prasolov1926",
+            "version": 1
+          },
+          "landSha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608",
+          "waterSha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+        }
+      ]
+    },
+    {
+      "month": "1930-01",
+      "objects": [
+        "waterbody:caspian"
+      ],
+      "waterLandContext": [
+        {
+          "objectId": "waterbody:caspian",
+          "geometryRef": {
+            "id": "waterbody:caspian:modern",
+            "version": 1
+          },
+          "landSha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98",
+          "waterSha256": "4d3709e31f9ce7185722ae36a0d26088bca6c93c6d3317aba3bc77999a265ed2"
+        }
+      ]
+    }
+  ],
+  "physicalPreparedDigests": {
+    "land": "8441dfafed659a8bea0222b046abc2c54f27d59a71cf15bca529408cbc592f8e",
+    "composedWater": "311f12f80b298d3bf032e4eca2bf3f6c03a45666514409d22bf3bbaf2b28aff0"
+  },
+  "newPreparedPacketsDecoded": 8,
+  "originalPreparedEntriesPreserved": 402,
+  "priorInputsAndPriorCandidateBundleUnchanged": true,
+  "protectedNativeReferencesUnchanged": [
+    "state:MCO",
+    "state:FRA",
+    "state:CHN",
+    "state:KOR",
+    "state:PRK",
+    "state:RUS",
+    "state:KAZ"
+  ],
+  "localOnly": true
+}

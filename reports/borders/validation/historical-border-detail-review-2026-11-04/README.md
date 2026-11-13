@@ -66,3 +66,7 @@ Shared-arc owner fix is local commit52725b98f (tools/build-korean-boundaries.mjs
 Darja overlay numerical diagnostic remains unresolved:clipped input polygons and overlap outputs are individually valid, but zero land/water delta difference and zero union difference coexist with a raw overlap-shape discrepancy. Sub-mm measurement-only precision grids1e-8/1e-9/1e-10degrees retain discrepancies about0.001225–0.001237degree². These are diagnostic in-memory copies only; no actual coordinates were quantized, no assertion changed to pass, and no definitive new physical-overlap defect is claimed. The failed preservation check is a concrete production hold pending a reliable explanation. Country-side source/compiled checks do pass for the3Darja versions, but do not substitute for joint physical proof.
 
 Canonical cache preparation at the newer c1d25c3f pin completed successfully. It used existing storage maintenance and finished without deleting another writer's lock or running GIS regeneration. No active production generation is left running for this report.
+
+## 보관 평가 근거
+
+[원자료·최종 평가·재현 근거](evaluation/)에는 해당 연구 당시의 원문 상태와 한계를 유지한다. 미채택·provisional 결과를 운영 채택으로 간주하지 않는다. 이 첨부는 선택한 평가 근거이며 전체 실행환경·지도·mesh 생성물 복사본은 포함하지 않는다. 재현 입력과 판본은 각 원문에 명시된 라이브러리 자료·불변 Git 원본을 기준으로 한다.

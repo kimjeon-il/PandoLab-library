@@ -1,0 +1,14 @@
+{
+  "scope": "actual Viewer with read-only local research data overlay, not deployed/pinned runtime",
+  "pinUnchanged": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+  "overlayOrder": [
+    "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\east-followup-final-2026-11-05\\selected\\prepared-250",
+    "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-bundle",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\c1d25c3f4e2b139fd043a919e411f4a7825f2ecc"
+  ],
+  "status": "failed",
+  "liveData": "Latvia250/Poland250+connector988; East592 contextual constrained research; preserved original4improvements and Atrek/Darja",
+  "startedAt": "2026-11-05T02:32:48.270Z",
+  "failure": "Error: Missing viewer dependency: assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c4afb3ad3bfcb3bec8487aa48b9bcbdc7660330c7923cc8c93d0dd8cdb9748a1.bin.gz\n    at include (file:///D:/dev/worktrees/gis/scripts/lib/product-assets.mjs:64:37)\n    at dataAsset (file:///D:/dev/worktrees/gis/scripts/lib/product-assets.mjs:90:12)\n    at collectViewerAssets (file:///D:/dev/worktrees/gis/scripts/lib/product-assets.mjs:103:56)\n    at buildFrontendSnapshot (file:///D:/dev/worktrees/gis/scripts/lib/frontend-build.mjs:106:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///D:/dev/worktrees/gis/build-native/territorial-recipe/historical-detail-east-followup-viewer.mjs:4:333",
+  "finishedAt": "2026-11-05T02:32:52.423Z"
+}

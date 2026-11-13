@@ -1,0 +1,1 @@
+import fs from'node:fs';const b='build-native/territorial-recipe/',d=JSON.parse(fs.readFileSync(b+'historical-detail-line-2.geojson'));for(const i of [2,4,8,12,18,20,23,25,27,35,37,39,44,48]){const f=d.features[i],p=f.properties;console.log(JSON.stringify({index:i,points:f.geometry.coordinates.length,keys:Object.keys(p),properties:i===25?p:undefined}));}

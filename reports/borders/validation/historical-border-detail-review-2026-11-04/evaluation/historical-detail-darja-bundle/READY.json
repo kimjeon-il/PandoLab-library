@@ -1,0 +1,58 @@
+{
+  "schema": "pando-local-darja-inclusive-ready-v1",
+  "status": "passed-local-verification-only",
+  "productionActivated": false,
+  "activeNativeRegistrationChanged": false,
+  "activePinChanged": false,
+  "remoteOrCommitActionsPerformed": false,
+  "basePin": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+  "sourceObjects": 6,
+  "sourceVersions": 7,
+  "compiledCountries": 5,
+  "compiledVersionBindings": 6,
+  "preparationInputCountries": [
+    "state:soviet-union",
+    "state:soviet-union-russian-sfsr",
+    "state:soviet-union-byelorussian-ssr",
+    "IRN",
+    "state:soviet-union-ukrainian-ssr",
+    "state:soviet-union-transcaucasian-sfsr"
+  ],
+  "countryMonths": [
+    "1922-12",
+    "1925-06"
+  ],
+  "physicalMonths": [
+    "1922-12",
+    "1925-06"
+  ],
+  "storagePreflight": {
+    "sources": 6,
+    "countries": 5
+  },
+  "originalPreparedEntriesPreserved": 402,
+  "preparedCountry": {
+    "count": 31,
+    "reused": 25
+  },
+  "preparedPhysical": [
+    {
+      "month": "1922-12",
+      "count": 2,
+      "reused": 0
+    },
+    {
+      "month": "1925-06",
+      "count": 2,
+      "reused": 2
+    }
+  ],
+  "sourceDescriptorPreservation": 280,
+  "nativeReferencePreservation": 280,
+  "countryDescriptorPreservation": 273,
+  "nextSteps": [
+    "Obtain required authorization for previously denied code/remote report operations; do not retry absent new evidence.",
+    "When authorized, archive the final evidence and rebind local-only review evidence references to canonical published references; regenerate only metadata-bound source/native/compiled/receipt outputs as needed, retaining geometry and reusable meshes.",
+    "Separately authorized canonical activation/store/pin update and non-force remote publication, followed by selected pin-byte/topology/date checks; no main integration or deployment."
+  ]
+}

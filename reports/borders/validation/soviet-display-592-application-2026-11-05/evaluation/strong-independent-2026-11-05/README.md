@@ -1,0 +1,35 @@
+# Strong Soviet display candidates: local independent reproduction
+
+Status: locally reproduced and geometrically checked; NOT adoption-ready. No active source/native registration, production storage, pin, commit/push or remote report edits.
+
+Official Library materialization of README.md failed in apply_xattrs: os.setxattr is unavailable on Windows. The requested destination exists and is empty. No helper modification, retry, alternative URL or transfer was used. Library method text was read as reference; downloaded files were not installed from that text. This directory contains independently calculated results from existing local inputs and four exact immutable Git objects.
+
+## Results
+
+Both Latvia250/500 + Poland250 + East500 scenarios match all eight supplied full-geometry binary fingerprints exactly. Latvia1734 ->163/92; Poland1991 ->670; East14 features1059 ->253. See reproduction-status.json and anchor-proofs.json.
+
+The independent inputs are existing historical-detail-west-whole-view.json (actual GDAL AEQD arrays), historical-detail-final-metric-input.json, historical-detail-east-candidate.json and historical-detail-line-2.geojson. Original four entities are read through git show from a548d5fa... objects; their byte hashes were asserted. Existing active source files were not substituted for these objects. Scripts live one level above, named historical-detail-strong-independent.py, -plot.mjs, -compose.mjs, -check.py, -prepare.mjs, -downstream-audit.mjs and -peers.py. These are research scripts and not registered production entry points.
+
+Each stronger original-state result was composed into the prior Darja-inclusive candidate with only seven shared chains across four native/source and four compiled versions. Existing Atrek/Darja, Iran, USSR1925, Caspian/Aral physical assets and other dates remain in the prior bundle; this experiment does not replace them wholesale. Duplicate-coordinate chain splitting initially failed; diagnostic selection was corrected to include existing zero-length edge representations, without changing or deleting those coordinates.
+
+Both integrated scenarios passed 8/8 native+compiled validity checks, unchanged components/holes and exact cyclic outside-coordinate checks. Polygon-only constituent overlap change, constituent/USSR change-union difference and native/compiled changed-region mismatch are all zero. Each scenario passed12 stored foreign-peer comparisons and8 retained TC/Konotop/Crimea chain-copy checks. These checks cover stored peers only, not a new world-catalog audit.
+
+Scoped canonical prepared generation used six related countries and months1922-12/1925-06, sequentially. Each scenario selected31 mesh inputs, reused24 and built7; all14 new packets decoded with the current algorithm contract. All414 prior bundle manifest entries,282 unrelated source descriptors and274 unrelated compiled descriptors remain exact. Boundary dates1922-12-29/30 and1925-05-12/13 were checked for four countries per scenario (32 checks total), including unchanged outside-period refs. This exercised the canonical local assembly/resolveWorld path; no live browser/public runtime rendering was checked. The PNG is a local coordinate diagnostic, not an app screenshot.
+
+Source chunks contain an explicit unreviewed research experiment record, and prior passed display-review receipts were removed for the changed versions. The existing display-review gate rejects all8 changed research entities as expected. No passing review receipt or active native-library registration was fabricated.
+
+## Pamir exception provenance and remaining limitation
+
+Feature25 embeds the original mask path research/china-frontier-1922/west/south-existing-work-review/pamir/karazak-followup/oldline-continuity/part028-south/preservation-mask.json and SHA d1b75c649ea2a2986a0313c78804249e15e5544885c899a9a7fec7e2550ac2d0. The separately named file and generating code were not found at that local research path or in the targeted tracked tools search; the embedded mask and derivative provenance are available.
+
+The raw mask initially blanket-locks206 source points, labels80 clear ridge-interior points as future separate-review candidates and reports ZERO confirmed river-following segments. Its water/ice overlaps are uncertainty intervals, not certified river crossings or buffers with a known physical width. The later display derivative explicitly records water/uncertain/major-anchor protection, original mask hash, reversed source order and eligibility indices. Current129 coordinates map to those raw206 positions; the protected126 set is not inferred from the fact that the old candidate retained126.
+
+After raw_index=205-display_input_index mapping, all126 recorded protected points belong to the union of three categories: possible-water/unknown intervals17 points; symbol/text overlap or endpoints117; major-bend/named-anchor indices42 (categories overlap). New500m leaves20 points and removes106 recorded protected positions, including15/100/25 in those categories respectively. There is no separate name/feature ID or exact confluence identifier for every category member, and major bends are not separated from named anchors. Do not call all126 independently certified semantic anchors; do not call them all algorithmic curvature locks either. See pamir-exception-audit.json for exact indices.
+
+The DP2000m skeleton is an algorithmic macro safeguard; it does not discharge source-semantic/hydro uncertainty. West hydro/land semantics and other East masks have not been newly certified. These exceptions must be reviewed or retained in a bounded subsequent candidate before adoption can be claimed. No old source-map reconstruction was resumed.
+
+## Preserved work and resumption
+
+Prior historical-detail-darja-bundle and READY.json are unchanged; READY SHA a872ba0c916f296fd8882f58fe70a25562fba919796a986246b0e1a4ff621b8f. Monaco, Korean rollback and small-event retirements are outside the edited source/compiled scope and their descriptors remain unchanged. The existing two denied remote code operations remain unattempted. Prepared-code pair: tools/build-prepared-polygon-mesh.mjs and tests/unit/prepared-polygon-country-scope.test.mjs. Splice-code pair: tools/build-korean-boundaries.mjs and tests/unit/shared-boundary-splice.test.mjs, local commit52725b98..., denied command git push origin HEAD:work/gis. The exact denied prepared commit command was not recovered; it is not guessed here.
+
+Current consumer of all retained generated files is this resumable local research and its scoped prepared/hash evidence. No compiler/artifact installation, packaging, app main integration or deployment occurred.

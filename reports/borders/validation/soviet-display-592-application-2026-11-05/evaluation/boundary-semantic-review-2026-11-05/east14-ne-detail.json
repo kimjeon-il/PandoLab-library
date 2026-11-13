@@ -1,0 +1,2214 @@
+[
+  {
+    "feature": 2,
+    "assembly": "Pamir-22-lower",
+    "metricCrs": "+proj=aeqd +lat_0=37.44853738138731 +lon_0=75.0785966087213 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 2,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8853,
+        8859
+      ],
+      "points": 7,
+      "ascii6Sha256": "9646032e4d62f55696bf8a1c90f7e1ba90539887ffb43514ad79ecd477ba5868",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 74,
+        "nonzero_sampling_vertices": 74,
+        "zero_length_edges": 0,
+        "length_km": 32.67162688091423,
+        "points_per_km": 2.264962203128873,
+        "median_spacing_m": 283.8875397187684,
+        "spacing_p10_m": 182.712520306028,
+        "spacing_p90_m": 942.4896507085953,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2667.7641092270555,
+            "phase_min": 2355.121278188399,
+            "phase_max": 2940.1001551623044
+          },
+          "5000": {
+            "mean_deg_per_100km": 654.963098236135,
+            "phase_min": 406.28533405247856,
+            "phase_max": 841.8534573230513
+          }
+        }
+      },
+      "weak": {
+        "points": 67,
+        "nonzero_sampling_vertices": 67,
+        "zero_length_edges": 0,
+        "length_km": 32.385835361728574,
+        "points_per_km": 2.0688056754335302,
+        "median_spacing_m": 264.38218881229153,
+        "spacing_p10_m": 181.53682132785084,
+        "spacing_p90_m": 1353.5842191801607,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2420.498660084074,
+            "phase_min": 2014.6558103763045,
+            "phase_max": 2645.265007266228
+          },
+          "5000": {
+            "mean_deg_per_100km": 651.3595713828647,
+            "phase_min": 457.84288982630756,
+            "phase_max": 806.7757194436706
+          }
+        }
+      },
+      "250": {
+        "points": 21,
+        "nonzero_sampling_vertices": 21,
+        "zero_length_edges": 0,
+        "length_km": 31.887845935959,
+        "points_per_km": 0.6585581240631532,
+        "median_spacing_m": 1491.822543840448,
+        "spacing_p10_m": 690.020855592383,
+        "spacing_p90_m": 2503.490437992654,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2301.7094903068896,
+            "phase_min": 1957.7681618507838,
+            "phase_max": 2551.5867981069027
+          },
+          "5000": {
+            "mean_deg_per_100km": 662.0775875743175,
+            "phase_min": 398.4441738288192,
+            "phase_max": 840.2096234802138
+          }
+        }
+      },
+      "500": {
+        "points": 13,
+        "nonzero_sampling_vertices": 13,
+        "zero_length_edges": 0,
+        "length_km": 31.094069370710272,
+        "points_per_km": 0.41808615800689086,
+        "median_spacing_m": 2421.97737355968,
+        "spacing_p10_m": 1344.999931623127,
+        "spacing_p90_m": 3688.6225319778723,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1883.9153975460229,
+            "phase_min": 1787.7039671160048,
+            "phase_max": 1935.9807373562448
+          },
+          "5000": {
+            "mean_deg_per_100km": 639.9006283844718,
+            "phase_min": 384.8398330672458,
+            "phase_max": 823.8639537994363
+          }
+        }
+      },
+      "modern": {
+        "points": 7,
+        "nonzero_sampling_vertices": 7,
+        "zero_length_edges": 0,
+        "length_km": 23.327417125542887,
+        "points_per_km": 0.30007608482017456,
+        "median_spacing_m": 3475.7978630443945,
+        "spacing_p10_m": 2204.909590037995,
+        "spacing_p90_m": 5983.001109689056,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 700.4705462106356,
+            "phase_min": 700.4705462106346,
+            "phase_max": 700.4705462106365
+          },
+          "5000": {
+            "mean_deg_per_100km": 581.5747794267073,
+            "phase_min": 541.6157201230757,
+            "phase_max": 657.8572506899878
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 7.547959726567974,
+        "turn1km": 3.8085314559748005,
+        "turn5km": 1.1261889638367244
+      },
+      "weak": {
+        "density": 6.894270420361208,
+        "turn1km": 3.455532389160894,
+        "turn5km": 1.1199928099099283
+      },
+      "250": {
+        "density": 2.194637151633742,
+        "turn1km": 3.2859475716124575,
+        "turn5km": 1.1384221100972889
+      },
+      "500": {
+        "density": 1.3932671717489107,
+        "turn1km": 2.689499805148864,
+        "turn5km": 1.1002895087975784
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 4,
+    "assembly": "Pamir-21-lower",
+    "metricCrs": "+proj=aeqd +lat_0=37.644769145458966 +lon_0=74.94969449527025 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 4,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8859,
+        8874
+      ],
+      "points": 16,
+      "ascii6Sha256": "78fa4fb2d7b08d6365038e520e798b2ef9091d79eecb3a27f865775166915357",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 66,
+        "nonzero_sampling_vertices": 66,
+        "zero_length_edges": 0,
+        "length_km": 38.21014681063717,
+        "points_per_km": 1.7272898826346965,
+        "median_spacing_m": 334.04497730401664,
+        "spacing_p10_m": 287.4992493754331,
+        "spacing_p90_m": 1216.7695214475132,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2714.869282950279,
+            "phase_min": 2438.7734225779523,
+            "phase_max": 2965.014478142693
+          },
+          "5000": {
+            "mean_deg_per_100km": 480.33744164100904,
+            "phase_min": 410.63919541426964,
+            "phase_max": 546.3451121625117
+          }
+        }
+      },
+      "weak": {
+        "points": 65,
+        "nonzero_sampling_vertices": 65,
+        "zero_length_edges": 0,
+        "length_km": 38.1722150941369,
+        "points_per_km": 1.702809224974312,
+        "median_spacing_m": 334.34840915005157,
+        "spacing_p10_m": 287.6803395848652,
+        "spacing_p90_m": 1217.9660758881396,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2699.9159954235147,
+            "phase_min": 2423.3679213840196,
+            "phase_max": 2967.852142156646
+          },
+          "5000": {
+            "mean_deg_per_100km": 481.3595914707029,
+            "phase_min": 411.90931654822407,
+            "phase_max": 545.014330163193
+          }
+        }
+      },
+      "250": {
+        "points": 24,
+        "nonzero_sampling_vertices": 24,
+        "zero_length_edges": 0,
+        "length_km": 37.75656938714564,
+        "points_per_km": 0.6356509711968399,
+        "median_spacing_m": 1592.6977321113825,
+        "spacing_p10_m": 961.9679104807873,
+        "spacing_p90_m": 2433.779868563015,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2532.2699532848274,
+            "phase_min": 2404.6596811170057,
+            "phase_max": 2674.3148600807585
+          },
+          "5000": {
+            "mean_deg_per_100km": 471.7305165606953,
+            "phase_min": 429.03643466986296,
+            "phase_max": 526.8477807923016
+          }
+        }
+      },
+      "500": {
+        "points": 16,
+        "nonzero_sampling_vertices": 16,
+        "zero_length_edges": 0,
+        "length_km": 37.02566951463967,
+        "points_per_km": 0.4321326314889113,
+        "median_spacing_m": 2451.078341806652,
+        "spacing_p10_m": 1193.1000578303635,
+        "spacing_p90_m": 3818.8812189759205,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2012.7226355801347,
+            "phase_min": 1853.6008131977924,
+            "phase_max": 2161.020862131396
+          },
+          "5000": {
+            "mean_deg_per_100km": 493.5588086055521,
+            "phase_min": 450.4187322907888,
+            "phase_max": 536.7406278246456
+          }
+        }
+      },
+      "modern": {
+        "points": 16,
+        "nonzero_sampling_vertices": 16,
+        "zero_length_edges": 0,
+        "length_km": 37.4660434499619,
+        "points_per_km": 0.42705336690726203,
+        "median_spacing_m": 1862.016420965247,
+        "spacing_p10_m": 1017.230532321213,
+        "spacing_p90_m": 3906.679382321746,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 471.23895530467655,
+            "phase_min": 464.17544999890237,
+            "phase_max": 479.9550392792908
+          },
+          "5000": {
+            "mean_deg_per_100km": 296.600433379447,
+            "phase_min": 258.9052703201792,
+            "phase_max": 335.97258775551074
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 4.044669862091945,
+        "turn1km": 5.761130849623833,
+        "turn5km": 1.6194765333552414
+      },
+      "weak": {
+        "density": 3.98734527561772,
+        "turn1km": 5.729398991808521,
+        "turn5km": 1.6229227516161102
+      },
+      "250": {
+        "density": 1.488457931616955,
+        "turn1km": 5.373643084425404,
+        "turn5km": 1.590457947703673
+      },
+      "500": {
+        "density": 1.0118937467193703,
+        "turn1km": 4.271129567967957,
+        "turn5km": 1.6640528908942362
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 8,
+    "assembly": "Pamir-21-upper",
+    "metricCrs": "+proj=aeqd +lat_0=37.89472727041869 +lon_0=74.95340695239607 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 8,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8875,
+        8890
+      ],
+      "points": 16,
+      "ascii6Sha256": "84f36bbe1e156c1696e2dfa6c6b12e4adc36f7afaca20853f0fe5f63483c33b0",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 44,
+        "nonzero_sampling_vertices": 44,
+        "zero_length_edges": 0,
+        "length_km": 32.203865540066495,
+        "points_per_km": 1.3662956065090175,
+        "median_spacing_m": 577.2084079231901,
+        "spacing_p10_m": 265.2775573691993,
+        "spacing_p90_m": 1344.2637993486217,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2711.4269950876624,
+            "phase_min": 2351.9023789838766,
+            "phase_max": 3119.7052786941417
+          },
+          "5000": {
+            "mean_deg_per_100km": 528.6681599518263,
+            "phase_min": 225.63790425118384,
+            "phase_max": 713.9128880988324
+          }
+        }
+      },
+      "weak": {
+        "points": 40,
+        "nonzero_sampling_vertices": 40,
+        "zero_length_edges": 0,
+        "length_km": 32.053961443161306,
+        "points_per_km": 1.247895679631635,
+        "median_spacing_m": 752.5663975462662,
+        "spacing_p10_m": 263.2107601081277,
+        "spacing_p90_m": 1782.7345588590922,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2546.7286320945086,
+            "phase_min": 2032.9619425667724,
+            "phase_max": 3012.3609016317223
+          },
+          "5000": {
+            "mean_deg_per_100km": 532.8723211081025,
+            "phase_min": 247.81753602151872,
+            "phase_max": 741.4377294501987
+          }
+        }
+      },
+      "250": {
+        "points": 20,
+        "nonzero_sampling_vertices": 20,
+        "zero_length_edges": 0,
+        "length_km": 31.698463556727035,
+        "points_per_km": 0.6309454073131443,
+        "median_spacing_m": 1352.3506076906444,
+        "spacing_p10_m": 788.68775307525,
+        "spacing_p90_m": 2781.5934810349527,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2337.642809115763,
+            "phase_min": 2010.4505583664084,
+            "phase_max": 2646.4072791204944
+          },
+          "5000": {
+            "mean_deg_per_100km": 536.2830750069177,
+            "phase_min": 275.8201341717433,
+            "phase_max": 730.3510281206272
+          }
+        }
+      },
+      "500": {
+        "points": 13,
+        "nonzero_sampling_vertices": 13,
+        "zero_length_edges": 0,
+        "length_km": 30.900550689056928,
+        "points_per_km": 0.42070447646112014,
+        "median_spacing_m": 2562.1510518324576,
+        "spacing_p10_m": 1385.088444003044,
+        "spacing_p90_m": 3901.786481358504,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1890.263830794021,
+            "phase_min": 1834.79026841296,
+            "phase_max": 1985.438923308485
+          },
+          "5000": {
+            "mean_deg_per_100km": 511.4233941142767,
+            "phase_min": 200.80499794794727,
+            "phase_max": 674.8044715485478
+          }
+        }
+      },
+      "modern": {
+        "points": 16,
+        "nonzero_sampling_vertices": 16,
+        "zero_length_edges": 0,
+        "length_km": 28.542379356840698,
+        "points_per_km": 0.5605699440808991,
+        "median_spacing_m": 1006.9582050751804,
+        "spacing_p10_m": 692.3319648837166,
+        "spacing_p90_m": 4255.783533783179,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1039.4938327813675,
+            "phase_min": 1024.1786002422202,
+            "phase_max": 1049.2738009897132
+          },
+          "5000": {
+            "mean_deg_per_100km": 504.27102497897306,
+            "phase_min": 334.0431828354039,
+            "phase_max": 630.2535491830172
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 2.43733296966032,
+        "turn1km": 2.608410853032878,
+        "turn5km": 1.048380997051874
+      },
+      "weak": {
+        "density": 2.226119492863042,
+        "turn1km": 2.4499699293840367,
+        "turn5km": 1.056718103385619
+      },
+      "250": {
+        "density": 1.1255426980617587,
+        "turn1km": 2.2488279731885914,
+        "turn5km": 1.0634818350494746
+      },
+      "500": {
+        "density": 0.7504941727671468,
+        "turn1km": 1.818446412266106,
+        "turn5km": 1.0141835814096236
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 12,
+    "assembly": "Pamir-source-10",
+    "metricCrs": "+proj=aeqd +lat_0=38.43469307947366 +lon_0=74.5404085152193 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 12,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8894,
+        8923
+      ],
+      "points": 30,
+      "ascii6Sha256": "6ad6896a69d330440f867641178b760c0be3f5b133f99e00237feeb7daa57d13",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 212,
+        "nonzero_sampling_vertices": 212,
+        "zero_length_edges": 0,
+        "length_km": 119.00924028582335,
+        "points_per_km": 1.7813742822896914,
+        "median_spacing_m": 479.027835044624,
+        "spacing_p10_m": 102.69903200064682,
+        "spacing_p90_m": 1150.0281172387708,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2813.9680953046286,
+            "phase_min": 2555.1523409655597,
+            "phase_max": 3067.6190507628867
+          },
+          "5000": {
+            "mean_deg_per_100km": 587.1876582881597,
+            "phase_min": 512.0635957930787,
+            "phase_max": 647.5972111627211
+          }
+        }
+      },
+      "weak": {
+        "points": 187,
+        "nonzero_sampling_vertices": 187,
+        "zero_length_edges": 0,
+        "length_km": 118.20401813493535,
+        "points_per_km": 1.5820105183440623,
+        "median_spacing_m": 512.3558395958862,
+        "spacing_p10_m": 77.18002116160699,
+        "spacing_p90_m": 1397.6258292397993,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2719.246541520221,
+            "phase_min": 2688.574481658058,
+            "phase_max": 2750.6029445127338
+          },
+          "5000": {
+            "mean_deg_per_100km": 579.7967105395954,
+            "phase_min": 519.8493725912933,
+            "phase_max": 627.7749540367698
+          }
+        }
+      },
+      "250": {
+        "points": 68,
+        "nonzero_sampling_vertices": 68,
+        "zero_length_edges": 0,
+        "length_km": 115.84270836415826,
+        "points_per_km": 0.5870028503325221,
+        "median_spacing_m": 1561.713235026504,
+        "spacing_p10_m": 846.3533372281478,
+        "spacing_p90_m": 2845.392827995224,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2463.1901965442476,
+            "phase_min": 2367.2727383163533,
+            "phase_max": 2579.5878821040988
+          },
+          "5000": {
+            "mean_deg_per_100km": 577.7419920428698,
+            "phase_min": 548.4135634186188,
+            "phase_max": 617.6117719898449
+          }
+        }
+      },
+      "500": {
+        "points": 41,
+        "nonzero_sampling_vertices": 41,
+        "zero_length_edges": 0,
+        "length_km": 113.05013949221376,
+        "points_per_km": 0.36267093684412344,
+        "median_spacing_m": 2258.543417908244,
+        "spacing_p10_m": 1266.8442810131125,
+        "spacing_p90_m": 5535.797112869842,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1880.7379847948114,
+            "phase_min": 1834.4364112072826,
+            "phase_max": 1937.7792721678165
+          },
+          "5000": {
+            "mean_deg_per_100km": 573.9836249072844,
+            "phase_min": 410.3407651733528,
+            "phase_max": 718.4170947066199
+          }
+        }
+      },
+      "modern": {
+        "points": 30,
+        "nonzero_sampling_vertices": 30,
+        "zero_length_edges": 0,
+        "length_km": 93.9788426075136,
+        "points_per_km": 0.31922078595168296,
+        "median_spacing_m": 1992.5155578071867,
+        "spacing_p10_m": 956.6554359877117,
+        "spacing_p90_m": 7251.041313436889,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 427.4806975559722,
+            "phase_min": 422.39889706765365,
+            "phase_max": 431.7006026848834
+          },
+          "5000": {
+            "mean_deg_per_100km": 294.91760366730864,
+            "phase_min": 281.9632441120598,
+            "phase_max": 312.9782037263083
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 5.580383110012513,
+        "turn1km": 6.5826787300406275,
+        "turn5km": 1.9910227500375182
+      },
+      "weak": {
+        "density": 4.9558505835629205,
+        "turn1km": 6.361097839193491,
+        "turn5km": 1.965961690078202
+      },
+      "250": {
+        "density": 1.838861616052065,
+        "turn1km": 5.762108583210893,
+        "turn5km": 1.958994596655581
+      },
+      "500": {
+        "density": 1.136113163066446,
+        "turn1km": 4.3995857486607495,
+        "turn5km": 1.9462508096152347
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 18,
+    "assembly": "Pamir-source-7",
+    "metricCrs": "+proj=aeqd +lat_0=38.58089736570149 +lon_0=74.06067999210954 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 18,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8927,
+        8938
+      ],
+      "points": 12,
+      "ascii6Sha256": "4d42a56737d6f8fe7d93712a92c22519cfb4fc4d2831beebb22e886d87937e8d",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 61,
+        "nonzero_sampling_vertices": 61,
+        "zero_length_edges": 0,
+        "length_km": 27.44002063186878,
+        "points_per_km": 2.223030398495937,
+        "median_spacing_m": 377.99172968301946,
+        "spacing_p10_m": 165.6989718869814,
+        "spacing_p90_m": 817.3445435056552,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 3316.3221419368447,
+            "phase_min": 3019.619317642208,
+            "phase_max": 3695.880963079527
+          },
+          "5000": {
+            "mean_deg_per_100km": 988.2379618360299,
+            "phase_min": 756.2034801095131,
+            "phase_max": 1245.268373091084
+          }
+        }
+      },
+      "weak": {
+        "points": 54,
+        "nonzero_sampling_vertices": 54,
+        "zero_length_edges": 0,
+        "length_km": 27.239572010255618,
+        "points_per_km": 1.982410001877752,
+        "median_spacing_m": 449.2960598356828,
+        "spacing_p10_m": 158.37152958784887,
+        "spacing_p90_m": 975.3816103000087,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 3294.0923085330423,
+            "phase_min": 3061.8070996806364,
+            "phase_max": 3565.594937080906
+          },
+          "5000": {
+            "mean_deg_per_100km": 992.4598465151945,
+            "phase_min": 738.998758526552,
+            "phase_max": 1237.7211749916135
+          }
+        }
+      },
+      "250": {
+        "points": 19,
+        "nonzero_sampling_vertices": 19,
+        "zero_length_edges": 0,
+        "length_km": 26.651593283802328,
+        "points_per_km": 0.7129029697277937,
+        "median_spacing_m": 1220.9743765626017,
+        "spacing_p10_m": 640.4372855110452,
+        "spacing_p90_m": 2909.710212927461,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2948.6144766984103,
+            "phase_min": 2880.7687276359065,
+            "phase_max": 3023.725114210243
+          },
+          "5000": {
+            "mean_deg_per_100km": 975.4477601740962,
+            "phase_min": 600.1716472147757,
+            "phase_max": 1222.2344775095403
+          }
+        }
+      },
+      "500": {
+        "points": 13,
+        "nonzero_sampling_vertices": 13,
+        "zero_length_edges": 0,
+        "length_km": 25.793402368361704,
+        "points_per_km": 0.5040048542004623,
+        "median_spacing_m": 2117.22724050244,
+        "spacing_p10_m": 1187.2039016421309,
+        "spacing_p90_m": 3275.3759479638666,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2506.4239258815232,
+            "phase_min": 2369.720995274834,
+            "phase_max": 2613.0575281006445
+          },
+          "5000": {
+            "mean_deg_per_100km": 1000.7733573979226,
+            "phase_min": 719.4325245776521,
+            "phase_max": 1211.5736586596856
+          }
+        }
+      },
+      "modern": {
+        "points": 12,
+        "nonzero_sampling_vertices": 12,
+        "zero_length_edges": 0,
+        "length_km": 18.103065468447795,
+        "points_per_km": 0.6628711596339883,
+        "median_spacing_m": 1493.2449332260678,
+        "spacing_p10_m": 918.5668503145141,
+        "spacing_p90_m": 2175.226301925779,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1603.405885691162,
+            "phase_min": 1577.2569495197831,
+            "phase_max": 1627.848792552021
+          },
+          "5000": {
+            "mean_deg_per_100km": 948.9085799928985,
+            "phase_min": 799.2537209578151,
+            "phase_max": 1142.3331865228215
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 3.3536387368601286,
+        "turn1km": 2.068298595840139,
+        "turn5km": 1.0414469662013444
+      },
+      "weak": {
+        "density": 2.9906415041082215,
+        "turn1km": 2.054434462246654,
+        "turn5km": 1.0458961668600593
+      },
+      "250": {
+        "density": 1.0754774278027588,
+        "turn1km": 1.838969473052286,
+        "turn5km": 1.027968110670257
+      },
+      "500": {
+        "density": 0.7603360726672045,
+        "turn1km": 1.5631874301129358,
+        "turn5km": 1.0546572962860261
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 20,
+    "assembly": "Pamir-source-6",
+    "metricCrs": "+proj=aeqd +lat_0=38.58767550982904 +lon_0=73.89952435702338 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 20,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8938,
+        8947
+      ],
+      "points": 10,
+      "ascii6Sha256": "101747770995602496af2a3c736df2bf8295f621aef388794da8b8256c85d825",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 64,
+        "nonzero_sampling_vertices": 64,
+        "zero_length_edges": 0,
+        "length_km": 27.7401379862275,
+        "points_per_km": 2.307126231014961,
+        "median_spacing_m": 304.23781598591376,
+        "spacing_p10_m": 132.57533074111805,
+        "spacing_p90_m": 931.1784310016542,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2281.6152923405243,
+            "phase_min": 2140.6598275913498,
+            "phase_max": 2421.913235171589
+          },
+          "5000": {
+            "mean_deg_per_100km": 529.2538131172446,
+            "phase_min": 324.6147405364779,
+            "phase_max": 765.6303236794693
+          }
+        }
+      },
+      "weak": {
+        "points": 61,
+        "nonzero_sampling_vertices": 61,
+        "zero_length_edges": 0,
+        "length_km": 27.65058493956804,
+        "points_per_km": 2.2061016117134247,
+        "median_spacing_m": 266.91985717686555,
+        "spacing_p10_m": 131.94638005569257,
+        "spacing_p90_m": 955.164725890716,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2189.558344841359,
+            "phase_min": 2074.8544718551484,
+            "phase_max": 2330.6492262536385
+          },
+          "5000": {
+            "mean_deg_per_100km": 525.9822884606664,
+            "phase_min": 306.2685579787212,
+            "phase_max": 761.5027016712943
+          }
+        }
+      },
+      "250": {
+        "points": 16,
+        "nonzero_sampling_vertices": 16,
+        "zero_length_edges": 0,
+        "length_km": 27.304714391209455,
+        "points_per_km": 0.5859793942818563,
+        "median_spacing_m": 1509.6285673822101,
+        "spacing_p10_m": 743.3123655243512,
+        "spacing_p90_m": 2231.652158399338,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1942.3585331497504,
+            "phase_min": 1812.0346586624935,
+            "phase_max": 2049.4739549357137
+          },
+          "5000": {
+            "mean_deg_per_100km": 536.2016493288868,
+            "phase_min": 299.5193667680601,
+            "phase_max": 754.0228681733095
+          }
+        }
+      },
+      "500": {
+        "points": 11,
+        "nonzero_sampling_vertices": 11,
+        "zero_length_edges": 0,
+        "length_km": 26.879881594326502,
+        "points_per_km": 0.4092279931144397,
+        "median_spacing_m": 2219.8698197884373,
+        "spacing_p10_m": 1251.3838452140817,
+        "spacing_p90_m": 5278.729220142823,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1428.784460563496,
+            "phase_min": 1428.7844605634948,
+            "phase_max": 1428.7844605634998
+          },
+          "5000": {
+            "mean_deg_per_100km": 602.6620876869372,
+            "phase_min": 343.46482120296764,
+            "phase_max": 833.0249809091998
+          }
+        }
+      },
+      "modern": {
+        "points": 10,
+        "nonzero_sampling_vertices": 10,
+        "zero_length_edges": 0,
+        "length_km": 29.508075762121635,
+        "points_per_km": 0.3388902780586123,
+        "median_spacing_m": 2449.4163876101784,
+        "spacing_p10_m": 1710.707281894564,
+        "spacing_p90_m": 5430.792760041183,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 409.3312788487103,
+            "phase_min": 409.3312788487076,
+            "phase_max": 409.33127884872624
+          },
+          "5000": {
+            "mean_deg_per_100km": 327.11360180629697,
+            "phase_min": 264.74261746351243,
+            "phase_max": 368.55243402439737
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 6.807885561756762,
+        "turn1km": 5.5740067037090855,
+        "turn5km": 1.6179511038206433
+      },
+      "weak": {
+        "density": 6.509781349737838,
+        "turn1km": 5.349110752053288,
+        "turn5km": 1.6079499157364026
+      },
+      "250": {
+        "density": 1.729112436151116,
+        "turn1km": 4.7451993862107225,
+        "turn5km": 1.6391909305147239
+      },
+      "500": {
+        "density": 1.2075530624801878,
+        "turn1km": 3.4905333024686285,
+        "turn5km": 1.8423632779532308
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 23,
+    "assembly": "Pamir-source-4",
+    "metricCrs": "+proj=aeqd +lat_0=38.833323583404436 +lon_0=73.7768585279949 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 23,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8947,
+        8966
+      ],
+      "points": 20,
+      "ascii6Sha256": "c489f2689171aeadd62ce2338016744720e8187794c8019d9ec0c697755d3e62",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 89,
+        "nonzero_sampling_vertices": 89,
+        "zero_length_edges": 0,
+        "length_km": 59.20097964455266,
+        "points_per_km": 1.5033535008096657,
+        "median_spacing_m": 526.1925064152088,
+        "spacing_p10_m": 214.11999697616642,
+        "spacing_p90_m": 1327.4425631420581,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2890.7490567518485,
+            "phase_min": 2758.071177555229,
+            "phase_max": 3040.3565226767573
+          },
+          "5000": {
+            "mean_deg_per_100km": 638.5698158018051,
+            "phase_min": 596.1414105421469,
+            "phase_max": 706.827474963037
+          }
+        }
+      },
+      "weak": {
+        "points": 70,
+        "nonzero_sampling_vertices": 70,
+        "zero_length_edges": 0,
+        "length_km": 58.56177466077643,
+        "points_per_km": 1.1953189671160134,
+        "median_spacing_m": 441.90281042019484,
+        "spacing_p10_m": 210.3627516919748,
+        "spacing_p90_m": 1761.4959934865324,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2732.617828915363,
+            "phase_min": 2559.810477845967,
+            "phase_max": 2882.532229998266
+          },
+          "5000": {
+            "mean_deg_per_100km": 647.150983327689,
+            "phase_min": 574.9825565373224,
+            "phase_max": 745.4463884355966
+          }
+        }
+      },
+      "250": {
+        "points": 37,
+        "nonzero_sampling_vertices": 37,
+        "zero_length_edges": 0,
+        "length_km": 58.175054620222724,
+        "points_per_km": 0.6360114355120539,
+        "median_spacing_m": 1318.1917647457567,
+        "spacing_p10_m": 752.8153947437277,
+        "spacing_p90_m": 2916.748945814175,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2626.4808757943733,
+            "phase_min": 2405.116369906782,
+            "phase_max": 2789.140604399874
+          },
+          "5000": {
+            "mean_deg_per_100km": 643.7872219472514,
+            "phase_min": 580.919571617894,
+            "phase_max": 743.703259484217
+          }
+        }
+      },
+      "500": {
+        "points": 21,
+        "nonzero_sampling_vertices": 21,
+        "zero_length_edges": 0,
+        "length_km": 55.970088393818756,
+        "points_per_km": 0.37520040797933074,
+        "median_spacing_m": 2238.191727802015,
+        "spacing_p10_m": 1166.8596791168668,
+        "spacing_p90_m": 5399.669452865619,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1845.937298740333,
+            "phase_min": 1699.489172239943,
+            "phase_max": 1955.0350354657028
+          },
+          "5000": {
+            "mean_deg_per_100km": 645.4903505776662,
+            "phase_min": 582.6562044469887,
+            "phase_max": 739.5640408318891
+          }
+        }
+      },
+      "modern": {
+        "points": 20,
+        "nonzero_sampling_vertices": 20,
+        "zero_length_edges": 0,
+        "length_km": 48.13403678885277,
+        "points_per_km": 0.41550639286152175,
+        "median_spacing_m": 2017.812077713163,
+        "spacing_p10_m": 1750.4647065265908,
+        "spacing_p90_m": 4308.193219118138,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 711.0660730251502,
+            "phase_min": 711.0660730251489,
+            "phase_max": 711.0660730251577
+          },
+          "5000": {
+            "mean_deg_per_100km": 616.517853735241,
+            "phase_min": 603.0355406421123,
+            "phase_max": 638.9404115359262
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 3.6181236357311524,
+        "turn1km": 4.065373340698823,
+        "turn5km": 1.0357685700956751
+      },
+      "weak": {
+        "density": 2.8767763568787843,
+        "turn1km": 3.84298721677122,
+        "turn5km": 1.0496873357468137
+      },
+      "250": {
+        "density": 1.530689891753413,
+        "turn1km": 3.6937226728035375,
+        "turn5km": 1.0442312709142094
+      },
+      "500": {
+        "density": 0.9029955120434837,
+        "turn1km": 2.5960137443866524,
+        "turn5km": 1.0469937677666463
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 25,
+    "assembly": "Pamir-source-3",
+    "metricCrs": "+proj=aeqd +lat_0=39.12326835398717 +lon_0=73.70477196640908 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 25,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8966,
+        8976
+      ],
+      "points": 11,
+      "ascii6Sha256": "aa721f1f42923b554855295cd334b9b54ef33cf8336b9be6245bcf3b565cb6c3",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 129,
+        "nonzero_sampling_vertices": 129,
+        "zero_length_edges": 0,
+        "length_km": 49.37031948560496,
+        "points_per_km": 2.612905918861086,
+        "median_spacing_m": 253.23442571993087,
+        "spacing_p10_m": 179.08746853743597,
+        "spacing_p90_m": 900.895084272329,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2965.112704617494,
+            "phase_min": 2581.1535393771774,
+            "phase_max": 3275.227805591062
+          },
+          "5000": {
+            "mean_deg_per_100km": 606.466817516926,
+            "phase_min": 536.3442219519684,
+            "phase_max": 657.1678768967522
+          }
+        }
+      },
+      "weak": {
+        "points": 126,
+        "nonzero_sampling_vertices": 126,
+        "zero_length_edges": 0,
+        "length_km": 49.30093246767389,
+        "points_per_km": 2.5557325935491564,
+        "median_spacing_m": 251.70963776986903,
+        "spacing_p10_m": 178.22007319425782,
+        "spacing_p90_m": 869.6590905377252,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2919.1315029382695,
+            "phase_min": 2497.847711637576,
+            "phase_max": 3247.9010769356573
+          },
+          "5000": {
+            "mean_deg_per_100km": 612.7497792435526,
+            "phase_min": 556.900535552085,
+            "phase_max": 658.0311923937977
+          }
+        }
+      },
+      "250": {
+        "points": 32,
+        "nonzero_sampling_vertices": 32,
+        "zero_length_edges": 0,
+        "length_km": 48.38299602836381,
+        "points_per_km": 0.6613893852551106,
+        "median_spacing_m": 1396.4468387223199,
+        "spacing_p10_m": 710.3674105448515,
+        "spacing_p90_m": 2492.092534819872,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2695.8616841761423,
+            "phase_min": 2644.5934202946187,
+            "phase_max": 2762.7493923896245
+          },
+          "5000": {
+            "mean_deg_per_100km": 599.7013763937714,
+            "phase_min": 568.979879175089,
+            "phase_max": 646.0221544010553
+          }
+        }
+      },
+      "500": {
+        "points": 20,
+        "nonzero_sampling_vertices": 20,
+        "zero_length_edges": 0,
+        "length_km": 47.07135603867642,
+        "points_per_km": 0.4248868459104279,
+        "median_spacing_m": 2202.61483201544,
+        "spacing_p10_m": 1539.1346751093338,
+        "spacing_p90_m": 3477.148339843917,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2142.6527757156373,
+            "phase_min": 2086.0377156078766,
+            "phase_max": 2183.059617290583
+          },
+          "5000": {
+            "mean_deg_per_100km": 598.6697667200135,
+            "phase_min": 578.1169451714956,
+            "phase_max": 654.6160409731287
+          }
+        }
+      },
+      "modern": {
+        "points": 11,
+        "nonzero_sampling_vertices": 11,
+        "zero_length_edges": 0,
+        "length_km": 33.906840187378116,
+        "points_per_km": 0.3244183161630841,
+        "median_spacing_m": 3539.1336044140444,
+        "spacing_p10_m": 1709.2331344308088,
+        "spacing_p90_m": 5273.2684459322445,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 400.34896444464994,
+            "phase_min": 400.3489644446493,
+            "phase_max": 400.3489644446512
+          },
+          "5000": {
+            "mean_deg_per_100km": 298.3918663901852,
+            "phase_min": 251.22739727107185,
+            "phase_max": 357.5247454925813
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 8.054125765043384,
+        "turn1km": 7.406320405325874,
+        "turn5km": 2.032450900400528
+      },
+      "weak": {
+        "density": 7.877892419194968,
+        "turn1km": 7.291467599991389,
+        "turn5km": 2.053506976099357
+      },
+      "250": {
+        "density": 2.0386931079521178,
+        "turn1km": 6.73377958630603,
+        "turn5km": 2.0097778925702543
+      },
+      "500": {
+        "density": 1.309688216545821,
+        "turn1km": 5.351962827449423,
+        "turn5km": 2.006320661358701
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 27,
+    "assembly": "Pamir-source-2",
+    "metricCrs": "+proj=aeqd +lat_0=39.291637985960165 +lon_0=73.6021168212844 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 27,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        8976,
+        8978
+      ],
+      "points": 3,
+      "ascii6Sha256": "dc2353f35fd98d53e0882c5822477bdf30acae414483e8424b54bf9ed2e1d02b",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 21,
+        "nonzero_sampling_vertices": 21,
+        "zero_length_edges": 0,
+        "length_km": 14.146337201200772,
+        "points_per_km": 1.4844832058872082,
+        "median_spacing_m": 612.7074674037324,
+        "spacing_p10_m": 324.9697715683624,
+        "spacing_p90_m": 1219.468315546353,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2608.034999511338,
+            "phase_min": 2272.314967295014,
+            "phase_max": 2880.999067507844
+          },
+          "5000": {
+            "mean_deg_per_100km": 391.32034794856423,
+            "phase_min": 139.33713922147166,
+            "phase_max": 546.4846383451055
+          }
+        }
+      },
+      "weak": {
+        "points": 19,
+        "nonzero_sampling_vertices": 19,
+        "zero_length_edges": 0,
+        "length_km": 14.119413987400396,
+        "points_per_km": 1.3456649133565206,
+        "median_spacing_m": 622.8462687820474,
+        "spacing_p10_m": 324.72263273677464,
+        "spacing_p90_m": 1243.4319315309554,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2479.589404701359,
+            "phase_min": 2158.3788444269453,
+            "phase_max": 2757.3943397639614
+          },
+          "5000": {
+            "mean_deg_per_100km": 395.29247322810704,
+            "phase_min": 139.60283038917453,
+            "phase_max": 547.5266874535116
+          }
+        }
+      },
+      "250": {
+        "points": 10,
+        "nonzero_sampling_vertices": 10,
+        "zero_length_edges": 0,
+        "length_km": 14.012264042767455,
+        "points_per_km": 0.7136605454677812,
+        "median_spacing_m": 1773.218005589164,
+        "spacing_p10_m": 555.2305360626945,
+        "spacing_p90_m": 2587.3940655594356,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2343.03121757974,
+            "phase_min": 2119.810882964378,
+            "phase_max": 2458.0612306289872
+          },
+          "5000": {
+            "mean_deg_per_100km": 410.0158190843603,
+            "phase_min": 200.05099849845737,
+            "phase_max": 556.035260007637
+          }
+        }
+      },
+      "500": {
+        "points": 7,
+        "nonzero_sampling_vertices": 7,
+        "zero_length_edges": 0,
+        "length_km": 13.668971861330755,
+        "points_per_km": 0.5121087431456975,
+        "median_spacing_m": 2381.4560920095323,
+        "spacing_p10_m": 1778.6648251852225,
+        "spacing_p90_m": 2674.365013470623,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1903.7965334192004,
+            "phase_min": 1791.3811189272617,
+            "phase_max": 1935.1007173571268
+          },
+          "5000": {
+            "mean_deg_per_100km": 423.044470903404,
+            "phase_min": 149.5395327794713,
+            "phase_max": 588.3144843120672
+          }
+        }
+      },
+      "modern": {
+        "points": 3,
+        "nonzero_sampling_vertices": 3,
+        "zero_length_edges": 0,
+        "length_km": 11.570244097794042,
+        "points_per_km": 0.2592858002513511,
+        "median_spacing_m": 5785.122048897021,
+        "spacing_p10_m": 3849.0166101247096,
+        "spacing_p90_m": 7721.227487669332,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 64.98016503212233,
+            "phase_min": 64.98016503212122,
+            "phase_max": 64.98016503212386
+          },
+          "5000": {
+            "mean_deg_per_100km": 59.62070593033657,
+            "phase_min": 43.74574372570439,
+            "phase_max": 64.98016503212176
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 5.725277683730282,
+        "turn1km": 40.13586297021684,
+        "turn5km": 6.5634973931003096
+      },
+      "weak": {
+        "density": 5.189890507123938,
+        "turn1km": 38.15917370286144,
+        "turn5km": 6.630120644495286
+      },
+      "250": {
+        "density": 2.7524089046756908,
+        "turn1km": 36.05763722547464,
+        "turn5km": 6.877070854602773
+      },
+      "500": {
+        "density": 1.9750743876034105,
+        "turn1km": 29.298117856088496,
+        "turn5km": 7.095596476125385
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 35,
+    "assembly": "W03-light-2",
+    "metricCrs": "+proj=aeqd +lat_0=41.039038748089865 +lon_0=77.73316876961843 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 35,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        9141,
+        9151
+      ],
+      "points": 11,
+      "ascii6Sha256": "6dd49963f97b62466f60a9e0cc85fc4d612fd5c650ce72ebdd1188d7b848b55a",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 60,
+        "nonzero_sampling_vertices": 60,
+        "zero_length_edges": 0,
+        "length_km": 58.10950625636167,
+        "points_per_km": 1.0325332955901922,
+        "median_spacing_m": 826.5848043651121,
+        "spacing_p10_m": 443.6833840157382,
+        "spacing_p90_m": 1728.458036100391,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2931.329403231447,
+            "phase_min": 2641.4613984874572,
+            "phase_max": 3123.606143676703
+          },
+          "5000": {
+            "mean_deg_per_100km": 492.32225120699877,
+            "phase_min": 200.5014140247501,
+            "phase_max": 770.76573326234
+          }
+        }
+      },
+      "weak": {
+        "points": 56,
+        "nonzero_sampling_vertices": 56,
+        "zero_length_edges": 0,
+        "length_km": 57.915190854187884,
+        "points_per_km": 0.9669311138245278,
+        "median_spacing_m": 909.1937996814812,
+        "spacing_p10_m": 495.46929805328386,
+        "spacing_p90_m": 1749.21781852192,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2893.785750142804,
+            "phase_min": 2592.614553548735,
+            "phase_max": 3051.192201209409
+          },
+          "5000": {
+            "mean_deg_per_100km": 490.6697532741461,
+            "phase_min": 206.77923862605857,
+            "phase_max": 799.4977784031927
+          }
+        }
+      },
+      "250": {
+        "points": 38,
+        "nonzero_sampling_vertices": 38,
+        "zero_length_edges": 0,
+        "length_km": 57.10667621093786,
+        "points_per_km": 0.6654213223623355,
+        "median_spacing_m": 1398.5071253297162,
+        "spacing_p10_m": 775.2322434260197,
+        "spacing_p90_m": 2592.710278765379,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2770.47635583746,
+            "phase_min": 2638.784366644742,
+            "phase_max": 2949.9437207159986
+          },
+          "5000": {
+            "mean_deg_per_100km": 484.3959193567148,
+            "phase_min": 202.04574389325563,
+            "phase_max": 739.6422356434757
+          }
+        }
+      },
+      "500": {
+        "points": 23,
+        "nonzero_sampling_vertices": 23,
+        "zero_length_edges": 0,
+        "length_km": 55.039396088087976,
+        "points_per_km": 0.4178824920823909,
+        "median_spacing_m": 2437.174534470081,
+        "spacing_p10_m": 1409.170890347165,
+        "spacing_p90_m": 3800.44021047065,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2170.1635162623375,
+            "phase_min": 2114.1544044991174,
+            "phase_max": 2240.7462967101164
+          },
+          "5000": {
+            "mean_deg_per_100km": 443.4246306783341,
+            "phase_min": 296.5274471989935,
+            "phase_max": 600.3380450505688
+          }
+        }
+      },
+      "modern": {
+        "points": 11,
+        "nonzero_sampling_vertices": 11,
+        "zero_length_edges": 0,
+        "length_km": 48.87559607844513,
+        "points_per_km": 0.22506119377746403,
+        "median_spacing_m": 2980.2000824912175,
+        "spacing_p10_m": 1543.989644750394,
+        "spacing_p90_m": 11267.731474378115,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 264.2995774914265,
+            "phase_min": 264.2995774914192,
+            "phase_max": 264.29957749147155
+          },
+          "5000": {
+            "mean_deg_per_100km": 229.34806930321378,
+            "phase_min": 193.8123438685138,
+            "phase_max": 258.7069090040904
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 4.587789117528366,
+        "turn1km": 11.090934881749993,
+        "turn5km": 2.1466160700751975
+      },
+      "weak": {
+        "density": 4.296303141360788,
+        "turn1km": 10.948885267274687,
+        "turn5km": 2.139410873459097
+      },
+      "250": {
+        "density": 2.9566239794333034,
+        "turn1km": 10.482333653852816,
+        "turn5km": 2.112055797235905
+      },
+      "500": {
+        "density": 1.8567505355702711,
+        "turn1km": 8.210998809987634,
+        "turn5km": 1.933413400973943
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 37,
+    "assembly": "W03-light-3",
+    "metricCrs": "+proj=aeqd +lat_0=41.18431380816666 +lon_0=78.20841206419779 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 37,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        9151,
+        9165
+      ],
+      "points": 15,
+      "ascii6Sha256": "0ed0fb389541fd13e462d91bdffdf5d085e8d9d3ee85a83212a9e6876731d2e5",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 83,
+        "nonzero_sampling_vertices": 83,
+        "zero_length_edges": 0,
+        "length_km": 65.66982057773579,
+        "points_per_km": 1.2638986869432638,
+        "median_spacing_m": 726.7744638261195,
+        "spacing_p10_m": 290.32149300463993,
+        "spacing_p90_m": 1328.4836072166556,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 3177.402056560229,
+            "phase_min": 2969.761877128193,
+            "phase_max": 3356.3457359509407
+          },
+          "5000": {
+            "mean_deg_per_100km": 589.5039564267579,
+            "phase_min": 524.5166028937325,
+            "phase_max": 744.2725517040166
+          }
+        }
+      },
+      "weak": {
+        "points": 56,
+        "nonzero_sampling_vertices": 56,
+        "zero_length_edges": 0,
+        "length_km": 64.84924856749642,
+        "points_per_km": 0.8635412319653029,
+        "median_spacing_m": 1019.5588262398188,
+        "spacing_p10_m": 522.6563736603065,
+        "spacing_p90_m": 2076.6836383371306,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 3005.5263182087565,
+            "phase_min": 2790.4689266012797,
+            "phase_max": 3188.97289789901
+          },
+          "5000": {
+            "mean_deg_per_100km": 580.2680603462821,
+            "phase_min": 543.1233328423607,
+            "phase_max": 618.7248869283574
+          }
+        }
+      },
+      "250": {
+        "points": 43,
+        "nonzero_sampling_vertices": 43,
+        "zero_length_edges": 0,
+        "length_km": 63.91892561457899,
+        "points_per_km": 0.6727272022574847,
+        "median_spacing_m": 1401.1279719882841,
+        "spacing_p10_m": 756.5778190051567,
+        "spacing_p90_m": 2314.47943040749,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2896.1752744102996,
+            "phase_min": 2713.7918978787875,
+            "phase_max": 3086.3539765761257
+          },
+          "5000": {
+            "mean_deg_per_100km": 583.3286951215637,
+            "phase_min": 505.32650729549454,
+            "phase_max": 652.1852574956828
+          }
+        }
+      },
+      "500": {
+        "points": 31,
+        "nonzero_sampling_vertices": 31,
+        "zero_length_edges": 0,
+        "length_km": 62.47889638217522,
+        "points_per_km": 0.49616753488053095,
+        "median_spacing_m": 1783.8334275886418,
+        "spacing_p10_m": 1215.273525437097,
+        "spacing_p90_m": 3589.648090606636,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2497.4790322141735,
+            "phase_min": 2297.634245029706,
+            "phase_max": 2683.592544762259
+          },
+          "5000": {
+            "mean_deg_per_100km": 553.6238791627461,
+            "phase_min": 429.6694087876168,
+            "phase_max": 646.2909600910357
+          }
+        }
+      },
+      "modern": {
+        "points": 15,
+        "nonzero_sampling_vertices": 15,
+        "zero_length_edges": 0,
+        "length_km": 46.14463301955644,
+        "points_per_km": 0.32506488877358475,
+        "median_spacing_m": 2102.1715992834415,
+        "spacing_p10_m": 1771.5603724660825,
+        "spacing_p90_m": 4595.665833284386,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 401.63037716495296,
+            "phase_min": 401.6303771649523,
+            "phase_max": 401.6303771649541
+          },
+          "5000": {
+            "mean_deg_per_100km": 357.06209902146736,
+            "phase_min": 332.31837738178945,
+            "phase_max": 389.6661771972228
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 3.888142738859744,
+        "turn1km": 7.9112593001281954,
+        "turn5km": 1.6509844031116716
+      },
+      "weak": {
+        "density": 2.6565195497529706,
+        "turn1km": 7.483314233909059,
+        "turn5km": 1.6251180451145983
+      },
+      "250": {
+        "density": 2.0695166580296367,
+        "turn1km": 7.211046372672195,
+        "turn5km": 1.6336897607452106
+      },
+      "500": {
+        "density": 1.5263645875520047,
+        "turn1km": 6.218351933047231,
+        "turn5km": 1.5504974643905318
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 39,
+    "assembly": "W03-light-4",
+    "metricCrs": "+proj=aeqd +lat_0=41.361785277212434 +lon_0=78.39235728598419 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 39,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        9165,
+        9169
+      ],
+      "points": 5,
+      "ascii6Sha256": "0e13092f362dc942861a3a8791d1b97f3d34b48b009024a7fad0184338cdb730",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 20,
+        "nonzero_sampling_vertices": 20,
+        "zero_length_edges": 0,
+        "length_km": 7.587499904542265,
+        "points_per_km": 2.6359143659464137,
+        "median_spacing_m": 377.7390782164382,
+        "spacing_p10_m": 72.71035244823987,
+        "spacing_p90_m": 784.177981193963,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2588.9722799274086,
+            "phase_min": 1987.016378569235,
+            "phase_max": 2961.9131936869258
+          },
+          "5000": {
+            "mean_deg_per_100km": 320.9482890393928,
+            "phase_min": 102.58464595442346,
+            "phase_max": 553.0272686560996
+          }
+        }
+      },
+      "weak": {
+        "points": 18,
+        "nonzero_sampling_vertices": 18,
+        "zero_length_edges": 0,
+        "length_km": 7.468055199898764,
+        "points_per_km": 2.4102660623403005,
+        "median_spacing_m": 383.0896105828125,
+        "spacing_p10_m": 67.66541396337263,
+        "spacing_p90_m": 947.0673487059801,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2238.6063432790324,
+            "phase_min": 1926.632176361516,
+            "phase_max": 2403.0788812122364
+          },
+          "5000": {
+            "mean_deg_per_100km": 283.53036297516746,
+            "phase_min": 120.46282612180764,
+            "phase_max": 467.67726706734874
+          }
+        }
+      },
+      "250": {
+        "points": 5,
+        "nonzero_sampling_vertices": 5,
+        "zero_length_edges": 0,
+        "length_km": 7.325866758730119,
+        "points_per_km": 0.6825130956745261,
+        "median_spacing_m": 1624.1452239660512,
+        "spacing_p10_m": 1193.9043549099479,
+        "spacing_p90_m": 2634.8861970282946,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1719.1383010854213,
+            "phase_min": 1496.6267708749772,
+            "phase_max": 2028.6295821975348
+          },
+          "5000": {
+            "mean_deg_per_100km": 232.434395844902,
+            "phase_min": 84.81866603304925,
+            "phase_max": 421.74343945260443
+          }
+        }
+      },
+      "500": {
+        "points": 4,
+        "nonzero_sampling_vertices": 4,
+        "zero_length_edges": 0,
+        "length_km": 7.25355713661063,
+        "points_per_km": 0.5514535730077781,
+        "median_spacing_m": 2952.5793851357853,
+        "spacing_p10_m": 1490.513417556942,
+        "spacing_p90_m": 3131.3005376772485,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1316.3585365578274,
+            "phase_min": 1019.6872992881481,
+            "phase_max": 1589.9263749690115
+          },
+          "5000": {
+            "mean_deg_per_100km": 313.9329580430456,
+            "phase_min": 85.66421058091983,
+            "phase_max": 457.24504950881897
+          }
+        }
+      },
+      "modern": {
+        "points": 5,
+        "nonzero_sampling_vertices": 5,
+        "zero_length_edges": 0,
+        "length_km": 10.549483773023232,
+        "points_per_km": 0.47395684069260563,
+        "median_spacing_m": 2115.1429376369747,
+        "spacing_p10_m": 1866.3775729795525,
+        "spacing_p90_m": 3826.14671802713,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 708.8577879528248,
+            "phase_min": 708.857787952824,
+            "phase_max": 708.8577879528264
+          },
+          "5000": {
+            "mean_deg_per_100km": 648.4521096217553,
+            "phase_min": 555.8516102232352,
+            "phase_max": 708.8577879528235
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 5.561507166126102,
+        "turn1km": 3.6523154911006035,
+        "turn5km": 0.494945246190352
+      },
+      "weak": {
+        "density": 5.08541254266552,
+        "turn1km": 3.158047187072753,
+        "turn5km": 0.4372417928296229
+      },
+      "250": {
+        "density": 1.440032165538853,
+        "turn1km": 2.425223126983309,
+        "turn5km": 0.35844496824982486
+      },
+      "500": {
+        "density": 1.1635101040042475,
+        "turn1km": 1.8570135772359355,
+        "turn5km": 0.4841266662331686
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 44,
+    "assembly": "KAZ-sary-light",
+    "metricCrs": "+proj=aeqd +lat_0=45.25110562538341 +lon_0=81.90994007978293 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 44,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        9351,
+        9364
+      ],
+      "points": 14,
+      "ascii6Sha256": "b07f5da67d1c6709a79876d79aebafd07605d010ab0c578d6a632ea8ada13474",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 53,
+        "nonzero_sampling_vertices": 53,
+        "zero_length_edges": 0,
+        "length_km": 52.57424118207872,
+        "points_per_km": 1.0080982399051042,
+        "median_spacing_m": 849.6984393613864,
+        "spacing_p10_m": 415.4078735436931,
+        "spacing_p90_m": 1640.0750300401335,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2489.152948910175,
+            "phase_min": 2264.708769817837,
+            "phase_max": 2683.088003279703
+          },
+          "5000": {
+            "mean_deg_per_100km": 606.1490341113129,
+            "phase_min": 548.1330507607196,
+            "phase_max": 647.7395441484085
+          }
+        }
+      },
+      "weak": {
+        "points": 35,
+        "nonzero_sampling_vertices": 35,
+        "zero_length_edges": 0,
+        "length_km": 51.629550995004266,
+        "points_per_km": 0.6779063409516507,
+        "median_spacing_m": 1307.3631022582179,
+        "spacing_p10_m": 683.1640611053984,
+        "spacing_p90_m": 2983.8590809734765,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2296.615825983472,
+            "phase_min": 2146.7252181759914,
+            "phase_max": 2413.236645544307
+          },
+          "5000": {
+            "mean_deg_per_100km": 594.4746719458208,
+            "phase_min": 481.4343529838646,
+            "phase_max": 703.8185271159409
+          }
+        }
+      },
+      "250": {
+        "points": 33,
+        "nonzero_sampling_vertices": 33,
+        "zero_length_edges": 0,
+        "length_km": 51.764838046158786,
+        "points_per_km": 0.6374983723618308,
+        "median_spacing_m": 1321.2800802437473,
+        "spacing_p10_m": 812.4469181054817,
+        "spacing_p90_m": 2677.3054222292917,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2359.0050978716504,
+            "phase_min": 2137.44726109724,
+            "phase_max": 2580.2421307349414
+          },
+          "5000": {
+            "mean_deg_per_100km": 596.8353026933339,
+            "phase_min": 491.17823797391463,
+            "phase_max": 709.0767528812125
+          }
+        }
+      },
+      "500": {
+        "points": 16,
+        "nonzero_sampling_vertices": 16,
+        "zero_length_edges": 0,
+        "length_km": 50.03473318696046,
+        "points_per_km": 0.319777861914726,
+        "median_spacing_m": 3584.929909688829,
+        "spacing_p10_m": 1301.5510100154813,
+        "spacing_p90_m": 5395.735931368965,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1595.620816657719,
+            "phase_min": 1572.2302441134793,
+            "phase_max": 1619.4725976210186
+          },
+          "5000": {
+            "mean_deg_per_100km": 591.4307412563768,
+            "phase_min": 526.6396274085569,
+            "phase_max": 685.5074243461255
+          }
+        }
+      },
+      "modern": {
+        "points": 14,
+        "nonzero_sampling_vertices": 14,
+        "zero_length_edges": 0,
+        "length_km": 54.31159389853526,
+        "points_per_km": 0.25777184934315783,
+        "median_spacing_m": 3486.7717107892763,
+        "spacing_p10_m": 1491.7487798757645,
+        "spacing_p90_m": 5281.004209451788,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 514.2105765734727,
+            "phase_min": 514.2105765734719,
+            "phase_max": 514.2105765734736
+          },
+          "5000": {
+            "mean_deg_per_100km": 407.38582321128945,
+            "phase_min": 342.2044708382092,
+            "phase_max": 456.9424543692857
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 3.9108158725395845,
+        "turn1km": 4.840726858434258,
+        "turn5km": 1.4878991844469154
+      },
+      "weak": {
+        "density": 2.629869563643431,
+        "turn1km": 4.466294414415494,
+        "turn5km": 1.4592424136406392
+      },
+      "250": {
+        "density": 2.4731109079066407,
+        "turn1km": 4.587624614007886,
+        "turn5km": 1.465036996105255
+      },
+      "500": {
+        "density": 1.2405460981467489,
+        "turn1km": 3.1030493913415826,
+        "turn5km": 1.4517705515482138
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  },
+  {
+    "feature": 48,
+    "assembly": "KAZ-chagan-light",
+    "metricCrs": "+proj=aeqd +lat_0=46.938519758116115 +lon_0=84.94828002114636 +datum=WGS84 +units=m +type=crs",
+    "comparisonReference": {
+      "featureIndex": 48,
+      "entityId": "state:CHN",
+      "sourceVersionId": "state:CHN:paektu-lsib-11.4",
+      "sourceObject": "e84aeaf7a7334d03d55bee834fbe5ac4cf43b97971ed04c8cd7e348a52cd568a",
+      "ring": [
+        0,
+        0
+      ],
+      "inclusiveRange": [
+        9441,
+        9465
+      ],
+      "points": 25,
+      "ascii6Sha256": "e03deefbddf2e87578c46cbe0745cb4efd9d68e5d24206338e6dbf6b54ea5295",
+      "compiledExact": true
+    },
+    "metrics": {
+      "original": {
+        "points": 83,
+        "nonzero_sampling_vertices": 82,
+        "zero_length_edges": 1,
+        "length_km": 82.7175840778621,
+        "points_per_km": 1.0034142186971038,
+        "median_spacing_m": 824.2787946617117,
+        "spacing_p10_m": 408.6169797714155,
+        "spacing_p90_m": 1797.0101463985393,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 2113.5454048002894,
+            "phase_min": 2028.1555567838886,
+            "phase_max": 2197.682440136363
+          },
+          "5000": {
+            "mean_deg_per_100km": 659.3974838801308,
+            "phase_min": 627.7926641731741,
+            "phase_max": 685.0900221530355
+          }
+        }
+      },
+      "weak": {
+        "points": 54,
+        "nonzero_sampling_vertices": 53,
+        "zero_length_edges": 1,
+        "length_km": 81.8756286771908,
+        "points_per_km": 0.659536920478554,
+        "median_spacing_m": 1311.9348870375238,
+        "spacing_p10_m": 459.0080567005895,
+        "spacing_p90_m": 3495.134645596825,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1936.087314977,
+            "phase_min": 1815.0354128717443,
+            "phase_max": 2078.183747080743
+          },
+          "5000": {
+            "mean_deg_per_100km": 665.8111879334058,
+            "phase_min": 600.9718350633988,
+            "phase_max": 701.7409009817758
+          }
+        }
+      },
+      "250": {
+        "points": 41,
+        "nonzero_sampling_vertices": 41,
+        "zero_length_edges": 0,
+        "length_km": 80.9625108492841,
+        "points_per_km": 0.5064072194638778,
+        "median_spacing_m": 1573.9361790169783,
+        "spacing_p10_m": 769.370064540875,
+        "spacing_p90_m": 3571.43064806746,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1821.938573386395,
+            "phase_min": 1774.1996723439495,
+            "phase_max": 1875.9056072463538
+          },
+          "5000": {
+            "mean_deg_per_100km": 662.3101887349216,
+            "phase_min": 603.9457766167405,
+            "phase_max": 718.3999397387877
+          }
+        }
+      },
+      "500": {
+        "points": 24,
+        "nonzero_sampling_vertices": 24,
+        "zero_length_edges": 0,
+        "length_km": 79.18893787677527,
+        "points_per_km": 0.3030726341770873,
+        "median_spacing_m": 2871.32504329323,
+        "spacing_p10_m": 1291.4631331105466,
+        "spacing_p90_m": 6550.729288265542,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 1399.944796674831,
+            "phase_min": 1356.2299173914475,
+            "phase_max": 1438.9747191464926
+          },
+          "5000": {
+            "mean_deg_per_100km": 632.9397185175353,
+            "phase_min": 523.8362816557363,
+            "phase_max": 755.3205760471864
+          }
+        }
+      },
+      "modern": {
+        "points": 25,
+        "nonzero_sampling_vertices": 25,
+        "zero_length_edges": 0,
+        "length_km": 70.24483000126004,
+        "points_per_km": 0.3558980781867015,
+        "median_spacing_m": 2226.473365244563,
+        "spacing_p10_m": 1560.3975640295296,
+        "spacing_p90_m": 5332.579063770143,
+        "turning": {
+          "1000": {
+            "mean_deg_per_100km": 642.8034655982631,
+            "phase_min": 642.8034655982625,
+            "phase_max": 642.803465598264
+          },
+          "5000": {
+            "mean_deg_per_100km": 496.8297077369376,
+            "phase_min": 467.9049076032451,
+            "phase_max": 529.4276723568595
+          }
+        }
+      }
+    },
+    "ratios": {
+      "original": {
+        "density": 2.8193864485290088,
+        "turn1km": 3.288011838631258,
+        "turn5km": 1.3272102565760218
+      },
+      "weak": {
+        "density": 1.8531623543428233,
+        "turn1km": 3.0119428699331388,
+        "turn5km": 1.3401195169390732
+      },
+      "250": {
+        "density": 1.4228995617060352,
+        "turn1km": 2.8343633332634575,
+        "turn5km": 1.3330728384817174
+      },
+      "500": {
+        "density": 0.8515714266321428,
+        "turn1km": 2.1778737539504234,
+        "turn5km": 1.2739570695169973
+      }
+    },
+    "sourceMeaningVerified": false,
+    "limits": "Regional current CHN arc with documented exact native correspondence, politically different historical route; metric detail context, not legal/positional truth. Same8-phase support for every variant."
+  }
+]

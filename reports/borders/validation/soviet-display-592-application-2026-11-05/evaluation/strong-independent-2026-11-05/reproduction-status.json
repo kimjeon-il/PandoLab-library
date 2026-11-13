@@ -1,0 +1,44 @@
+{
+  "inputs": {
+    "USSR": "dab7724ba5c764269c6c56b0d84dca130072cd91d1a11e8cde05fff0b4b7e005",
+    "RSFSR": "740aa9e2790c761c60e556ae5081c5a156b63988bc5cb32a045ea269f7e752ce",
+    "BY": "4d30e7f72ac91019fef1d920f9c62b21e8b41814c596f82afd75d2873132ac80",
+    "UA": "b58447ab1d1c0983c7a05a5d6459201b1cf942afc008884d7a57e0a8e0c4db6c"
+  },
+  "results": [
+    {
+      "latvia": 250,
+      "hashes": {
+        "USSR": "115d694a463c32e82dd661861affd08e5649095c8feb0450b7e0d4dc58bb7fb2",
+        "RSFSR": "d1ad7f9be4708ec681329820568e80b174f17026c2d5d0f6d6a35e8278f5bd41",
+        "BY": "a914f565d93807a0e4f2ed11f94508e44a4b990a1eaf9aff466fdcb2fb3278c2",
+        "UA": "58491bf08128f2f6ec830e491446dfb14d97d6d5ad28290a5480719964b2fcae"
+      },
+      "matches_expected": {
+        "USSR": true,
+        "RSFSR": true,
+        "BY": true,
+        "UA": true
+      }
+    },
+    {
+      "latvia": 500,
+      "hashes": {
+        "USSR": "7a1a3b83692fc473db1c8f961ba56a8dded5beda50e32e9b54d7628172600e1e",
+        "RSFSR": "afd3a06b7793389a65e962ac284225ed6850908abe1ef50308d1b0d3c800ea63",
+        "BY": "a914f565d93807a0e4f2ed11f94508e44a4b990a1eaf9aff466fdcb2fb3278c2",
+        "UA": "58491bf08128f2f6ec830e491446dfb14d97d6d5ad28290a5480719964b2fcae"
+      },
+      "matches_expected": {
+        "USSR": true,
+        "RSFSR": true,
+        "BY": true,
+        "UA": true
+      }
+    }
+  ],
+  "production_changed": false,
+  "compiled_prepared_checked": false,
+  "source_checks_not_repeated": "Original research topology not recertified by fingerprint alone. Expected exact geometry fingerprints bind to previously checked research outputs.",
+  "exception_audit": "pamir-exception-audit.json"
+}

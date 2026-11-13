@@ -1,0 +1,2386 @@
+{
+  "scope": "actual Viewer with read-only local research data overlay, not deployed/pinned runtime",
+  "pinUnchanged": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+  "overlayOrder": [
+    "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\boundary-semantic-review-2026-11-05\\selected\\prepared-250",
+    "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-bundle",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\c1d25c3f4e2b139fd043a919e411f4a7825f2ecc"
+  ],
+  "status": "rendered local research frame; exact geometry presence recorded separately",
+  "liveData": "selected Latvia250/Poland250+original connector988, East18:250/20,23,25:500 source guards; other10weak; existing Atrek/Darja",
+  "startedAt": "2026-11-05T01:29:03.635Z",
+  "buildMeta": {
+    "appVersion": "0.36.0",
+    "buildId": "0.36.0-build-52725b98fedc",
+    "assetRevision": "0.36.0-build-52725b98fedc",
+    "dataRevision": "data-ee34e40d1145b0f6cd3180c303bd41f9",
+    "sourceCommit": "52725b98fedcdfead55f0affc7cdec458d25e8b7",
+    "dataCommit": null,
+    "resourceProfile": "map-data",
+    "worldBundle": {
+      "url": "assets/data/world/current.json",
+      "encoding": "identity",
+      "compressedBytes": 15120,
+      "decodedBytes": 15120,
+      "sha256": "81847583fd26b2f4233e2b6d0a5dd8670a279d1d675bf0dabcbee3faf20d48e2"
+    },
+    "builtinWorld": {
+      "url": "assets/data/builtin-world/generated/v1/index.json",
+      "encoding": "identity",
+      "compressedBytes": 147622,
+      "decodedBytes": 147622,
+      "sha256": "3161d3a7c2ee534b9f3dd826d321b4af993e1cb061820b158b8c420d55aa6281"
+    },
+    "preparedPolygonMeshes": {
+      "url": "assets/data/prepared-polygons/generated/v2/manifest.json",
+      "encoding": "identity",
+      "compressedBytes": 285669,
+      "decodedBytes": 285669,
+      "sha256": "41c3e1ad5936c40bf93556bd7b11258b5193672692e9dd6ec5cc06c714eab6dd",
+      "algorithmSourceSha256": "a2f262d8d168969a11953ba5185f4f4731cd25b4a376106118ac032aabd2c15c"
+    },
+    "workerAssets": {
+      "assets/js/workers/canvas-render-worker.js": {
+        "url": "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-render-worker.js",
+        "files": [
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/modules/terrain-manifest.js",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/vendor/d3.min.js",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-render-worker.js",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-scene-composition-core.js",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-terrain-dem-core.js",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/geographic-boundary-core.js",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/resource-update-policy-core.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/modules/terrain-manifest.js": "84db9b3fe1d4e58c339c06e02f65f863c51dadfbe08c9af17589c127ec355e46",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/vendor/d3.min.js": "4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-render-worker.js": "4a98775e0c18c6dcf97b1c9430129feeaf40c21e4260636e4b3799edb4c10402",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-scene-composition-core.js": "36d94198654902369c51bb96cae01be0f5bd44b401f6e2f1a4eaf22e9fe9aa00",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/canvas-terrain-dem-core.js": "1d5b8623a01b4fa71bc34e47c14521962ea040d8787d66e286b7b2bf808919b5",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/geographic-boundary-core.js": "b9017382fcc828924608c8a32ddbf2831800475a725b432cad9e6445d33bc8ea",
+          "assets/worker-runtime/0a2f2a7bd6e57d7515fccc6894c1673a/assets/js/workers/resource-update-policy-core.js": "58be87ea6451216f1456fe99d2d36dabecd3188484ee456c603f79506c8c9d03"
+        }
+      },
+      "assets/js/workers/core-viewer-session-worker.js": {
+        "url": "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/workers/core-viewer-session-worker.js",
+        "files": [
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/core-document-runtime.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/core-wasm-loader.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/core-worker-runtime.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/country-flags.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/product-mode-policy.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/reliability-core.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/workers/core-viewer-session-worker.js",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/workers/worker-rpc-host.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/core-document-runtime.js": "21eb837f808d4b8579d86f912e3599d01f9e03b2c8cf291fac4b4c369b2bfe91",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/core-wasm-loader.js": "bfb65f0877e6785e4397a27b5ed5223ea098a223c991e0984953211ec16903cc",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/core-worker-runtime.js": "77b43cf58efea75ca914166c9969508c770403a77e5d05ecb0aa36c73f9a408d",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/country-flags.js": "fc63e259d6051f63a554fd188083dd952b4b50e52d6b5c7a65300001cedebb8a",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/product-mode-policy.js": "3c0ea27dc4dbfdc7fd2e7a52a6163705950ce31eaf132e8520ca5b4eed8986f6",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/modules/reliability-core.js": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/workers/core-viewer-session-worker.js": "c2533dbc22d3cd35a44ff5afd5f704fb4acfcba9634c0b6ccb93e5884d8d718f",
+          "assets/worker-runtime/ebe5deba45c4c7244550be684fe0970b/assets/js/workers/worker-rpc-host.js": "842eebd13ce472a37e77da07dd175ac164105b0b262f269d88d57b71215d14b6"
+        }
+      },
+      "assets/js/workers/country-shared-boundary-worker.js": {
+        "url": "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/workers/country-shared-boundary-worker.js",
+        "files": [
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/boundary-spatial-index.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/boundary-topology.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/coordinate-bounds.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/core-wasm-loader.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-contact-core.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-contact-row-pruning.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-shared-boundary-cache.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-shared-boundary-packet.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-stroke-group-reuse.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/geographic-boundary.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/gpu-stroke-geometry.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/map-edit-geometry.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/polygon-geometry.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/polygon-mesh-codec.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/prepared-polygon-mesh.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/reliability-core.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/temporal.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/territorial-units.js",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/workers/country-shared-boundary-worker.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/boundary-spatial-index.js": "9fe554b8c32276fe9aa5d11416ef052531e280b59f199f468488b2940f23bbee",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/boundary-topology.js": "02310706dcac0cf42408ff98bfa77c024027a27db2ae5b556580d3962ed98d9d",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/coordinate-bounds.js": "67e2598e59d6e5ff98d871566332286dc83d7e4f9fbc3dc1236c9cc9d08665e0",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/core-wasm-loader.js": "bfb65f0877e6785e4397a27b5ed5223ea098a223c991e0984953211ec16903cc",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-contact-core.js": "c2fb3c9ef329e1c6cefcee2a513175ef03e6e1f3bdebb293bda7630580680472",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-contact-row-pruning.js": "1e617d972676a308c92b0a869bf488cc55d9c249e3e3114a53964ed90171363d",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-shared-boundary-cache.js": "f4d0d32a5b2a6f22df0cc2652c2cbccb6ee3cb89311f91a04039d37bd394c250",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-shared-boundary-packet.js": "f4a0225ca28dd6c5bd9b9fdb2dac8161c3f2586378298170bd371fc54fa188b1",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/country-stroke-group-reuse.js": "f23908df18e2801ea991bd99416cdbb83054722d519ea309ce1cfdb222b9daaa",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/geographic-boundary.js": "e5df7ab85b1a8e93745e22a02c47e2c807b159242a3b7fea894372f0bcf85170",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/gpu-stroke-geometry.js": "c7b885a4150c20f957b2477e48d03763e9778be728afc0481016e9b44e5e05fe",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/map-edit-geometry.js": "5187a62adacc25c5d6423d0cb67e344dc740ee795cbdabf5adaf852f27ac46d6",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/polygon-geometry.js": "3354d0e53580206209b2b957c383d6874cd2a6f9fc9097ddde44f1ae85f54a65",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/polygon-mesh-codec.js": "ce7ebccdee3a289c5d5f6bc2c7b24f05cf77257bbd9fd5c683265f3327bc6e70",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/prepared-polygon-mesh.js": "570b1d1900ab85e352102c7537bc4bb8365f44d9d580baf32d9221e4feda89dd",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/reliability-core.js": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/temporal.js": "35459aa88d992692241ef1de27211ca30096fb0592ddaa2026e67098fa827bee",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/modules/territorial-units.js": "a76fb89adab9788f6e690694b4102680b5e2bb7c24b4fa428750176c9061ad80",
+          "assets/worker-runtime/a5aa774c24105874f8e3f2df79d23bf3/assets/js/workers/country-shared-boundary-worker.js": "85f42c4cba88adfc1dd4ac943d5b2fe4dbb3921491df55e0bd36bf26ddc0558e"
+        }
+      },
+      "assets/js/workers/data-loader-worker.js": {
+        "url": "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/workers/data-loader-worker.js",
+        "files": [
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/canonical-country-packet.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/country-mesh-codec.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/country-stroke-preparation.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/gpu-stroke-geometry.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/mesh-spatial-blocks.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/reliability-core.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/startup-readiness.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/stored-asset-loader.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/worker-asset-url.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/world-bundle-manifest.js",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/workers/data-loader-worker.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/canonical-country-packet.js": "ecf6f8c1c94b861cda69df9feacd944b55112a39f239eced36a8e9dccd01768d",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/country-mesh-codec.js": "c71f80285bd39a34a3d2366df78bbc1bdc9a9ba95055b472badfddda7cf84826",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/country-stroke-preparation.js": "9d54d24ac22d02d8507638b488f17f3d54b15775fdf877f737e894e996b08de1",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/gpu-stroke-geometry.js": "c7b885a4150c20f957b2477e48d03763e9778be728afc0481016e9b44e5e05fe",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/mesh-spatial-blocks.js": "e05072a9b5db632a3e725c4f0e15609710c6fc6244ec565478ef050565183547",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/reliability-core.js": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/startup-readiness.js": "54cb9687dfacdde688b02458cecd817f12f4a709622169a7e27ff6f42ddf2a20",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/stored-asset-loader.js": "78e8d3fd94fa816295e10d17c08dc77f65c9173c43f94ab52ddf5988f45fe74f",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/worker-asset-url.js": "7d1c6cf9781e3df0fa3e561c00dc373f3a04a5cb0390268170ffac5590d9a9b4",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/modules/world-bundle-manifest.js": "6b546256cb1c7ed256962b5c656fb9a75e78830e9aa62d10ace6778b9ac9f165",
+          "assets/worker-runtime/50276ac838c452a4051d3b6ac3697542/assets/js/workers/data-loader-worker.js": "14b0bb780afb74656506af6b2f98b81ae1f3a4e34d60f367fdec051bcfadea2d"
+        }
+      },
+      "assets/js/workers/gpu-mesh-worker.js": {
+        "url": "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/gpu-mesh-worker.js",
+        "files": [
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/core-wasm-loader.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/country-mesh-preparation.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/country-mesh-transfer.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/country-stroke-preparation.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/gpu-stroke-geometry.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/mesh-spatial-blocks.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/polygon-mesh-codec.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/prepared-polygon-mesh.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/reliability-core.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/stored-asset-loader.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/temporal.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/worker-asset-url.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/geographic-boundary-core.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/gpu-mesh-core.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/gpu-mesh-worker.js",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/worker-rpc-host.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/core-wasm-loader.js": "bfb65f0877e6785e4397a27b5ed5223ea098a223c991e0984953211ec16903cc",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/country-mesh-preparation.js": "ad7c5975b5ab0daba99a8c3d80cc9414dfcc15782811879ef3056fa691962f07",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/country-mesh-transfer.js": "e7f3430729d4f1f9da52f69a9a5cfca829e6bba9a0cbb9d829e6a68e0f3e2503",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/country-stroke-preparation.js": "9d54d24ac22d02d8507638b488f17f3d54b15775fdf877f737e894e996b08de1",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/gpu-stroke-geometry.js": "c7b885a4150c20f957b2477e48d03763e9778be728afc0481016e9b44e5e05fe",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/mesh-spatial-blocks.js": "e05072a9b5db632a3e725c4f0e15609710c6fc6244ec565478ef050565183547",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/polygon-mesh-codec.js": "ce7ebccdee3a289c5d5f6bc2c7b24f05cf77257bbd9fd5c683265f3327bc6e70",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/prepared-polygon-mesh.js": "570b1d1900ab85e352102c7537bc4bb8365f44d9d580baf32d9221e4feda89dd",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/reliability-core.js": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/stored-asset-loader.js": "78e8d3fd94fa816295e10d17c08dc77f65c9173c43f94ab52ddf5988f45fe74f",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/temporal.js": "35459aa88d992692241ef1de27211ca30096fb0592ddaa2026e67098fa827bee",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/modules/worker-asset-url.js": "7d1c6cf9781e3df0fa3e561c00dc373f3a04a5cb0390268170ffac5590d9a9b4",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/geographic-boundary-core.js": "b9017382fcc828924608c8a32ddbf2831800475a725b432cad9e6445d33bc8ea",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/gpu-mesh-core.js": "8abbb4e9ae0dac367c8571ad63db8a33092bd40036b161bfdc23ba51ee2b0897",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/gpu-mesh-worker.js": "4d10170ee8e7a2b25a683f97cfe68de933ccf189a398bc340dd47e213b865109",
+          "assets/worker-runtime/ef4cec353b8f0c63c32e1326816fb539/assets/js/workers/worker-rpc-host.js": "842eebd13ce472a37e77da07dd175ac164105b0b262f269d88d57b71215d14b6"
+        }
+      },
+      "assets/js/workers/hydro-tile-worker.js": {
+        "url": "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/hydro-tile-worker.js",
+        "files": [
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/vendor/earcut.min.js",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/vendor/fflate/fflate.min.js",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/geographic-boundary-core.js",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/hydro-shard-store.js",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/hydro-tile-worker.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/vendor/earcut.min.js": "1444195270d4358ef8dd1a448074f555d7ac3c83c850f5648b611ea1d2090ff3",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/vendor/fflate/fflate.min.js": "86d12f1b80ed5c9476ea213fbbfddee5fa6366caf6b2c1ea1c8d1f3fdec9fafc",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/geographic-boundary-core.js": "b9017382fcc828924608c8a32ddbf2831800475a725b432cad9e6445d33bc8ea",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/hydro-shard-store.js": "e890b435eab59d6e3eb28585a2a3d49eb5decd4690fadddce3754b930eb36f6e",
+          "assets/worker-runtime/e50ba26ba39bdd2ec9f8653c6a6e6068/assets/js/workers/hydro-tile-worker.js": "5fe68ebd1b7e502b441a43295c2e783a35a421088b54e429a998dbd61bac2e16"
+        }
+      },
+      "assets/js/workers/label-anchor-worker.js": {
+        "url": "assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js",
+        "files": [
+          "assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/vendor/d3.min.js",
+          "assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/vendor/d3.min.js": "4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538",
+          "assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js": "cd3c083504c61b8cd6daecb9b4e4c4cab4e0d8848315871442e474d938a2073a"
+        }
+      },
+      "assets/js/workers/map-display-worker.js": {
+        "url": "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/workers/map-display-worker.js",
+        "files": [
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/boundary-lines.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/boundary-spatial-index.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/boundary-topology.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/coordinate-bounds.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/core-wasm-loader.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/country-contact-core.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/country-contact-row-pruning.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/country-shared-boundary-cache.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/geographic-boundary.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/geometry-versions.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/map-display-preparation.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/map-edit-geometry.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/polygon-clipping-core.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/polygon-geometry.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/reliability-core.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/temporal.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/territorial-highlight-boundary.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/territorial-units.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/workers/map-display-worker.js",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/workers/worker-rpc-host.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/boundary-lines.js": "f831f18cc622677a284a7934efb9d961a6da212e8ffed9b7c0053b881e0a5e1d",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/boundary-spatial-index.js": "9fe554b8c32276fe9aa5d11416ef052531e280b59f199f468488b2940f23bbee",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/boundary-topology.js": "02310706dcac0cf42408ff98bfa77c024027a27db2ae5b556580d3962ed98d9d",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/coordinate-bounds.js": "67e2598e59d6e5ff98d871566332286dc83d7e4f9fbc3dc1236c9cc9d08665e0",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/core-wasm-loader.js": "bfb65f0877e6785e4397a27b5ed5223ea098a223c991e0984953211ec16903cc",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/country-contact-core.js": "c2fb3c9ef329e1c6cefcee2a513175ef03e6e1f3bdebb293bda7630580680472",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/country-contact-row-pruning.js": "1e617d972676a308c92b0a869bf488cc55d9c249e3e3114a53964ed90171363d",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/country-shared-boundary-cache.js": "f4d0d32a5b2a6f22df0cc2652c2cbccb6ee3cb89311f91a04039d37bd394c250",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/geographic-boundary.js": "e5df7ab85b1a8e93745e22a02c47e2c807b159242a3b7fea894372f0bcf85170",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/geometry-versions.js": "c9f9d18ff6e154c00724d0ba118f6f57dada3e41db299edcc260414112b3eaa4",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/map-display-preparation.js": "82cff22637622bff8344b30c31ba388d98f9def0e3216abe9ed9343cb33fa149",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/map-edit-geometry.js": "5187a62adacc25c5d6423d0cb67e344dc740ee795cbdabf5adaf852f27ac46d6",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/polygon-clipping-core.js": "cd6c3f1ef8d1b0c06285355dd556129abec537c5626dee798d6811b5d07a8356",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/polygon-geometry.js": "3354d0e53580206209b2b957c383d6874cd2a6f9fc9097ddde44f1ae85f54a65",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/reliability-core.js": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/temporal.js": "35459aa88d992692241ef1de27211ca30096fb0592ddaa2026e67098fa827bee",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/territorial-highlight-boundary.js": "9e625f91e7c0c60fe4002cac570d3286efc0a445930698664961e9d1bf62898f",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/modules/territorial-units.js": "a76fb89adab9788f6e690694b4102680b5e2bb7c24b4fa428750176c9061ad80",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/workers/map-display-worker.js": "1faee9436143b913393c3eb7c19ddb5495ba91dd094344d175b8baa3c74cac87",
+          "assets/worker-runtime/fafd0d9280ccab69bb004d3ed7bce011/assets/js/workers/worker-rpc-host.js": "842eebd13ce472a37e77da07dd175ac164105b0b262f269d88d57b71215d14b6"
+        }
+      },
+      "assets/js/workers/place-worker.js": {
+        "url": "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/workers/place-worker.js",
+        "files": [
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/core-wasm-loader.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/hydro-tile-window.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/label-layout.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/map-visual-frame.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-codec.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-contract.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-name-display.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-worker-store.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/reliability-core.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/temporal.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/workers/place-worker.js",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/workers/worker-rpc-host.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/core-wasm-loader.js": "bfb65f0877e6785e4397a27b5ed5223ea098a223c991e0984953211ec16903cc",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/hydro-tile-window.js": "778628b590e011db15cbb525deb1c5a7e007ecf3ba376490384f567a6a524397",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/label-layout.js": "a744eda3b8c87d798d90ef37c64b189501bf80a90963d637517f72637f245174",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/map-visual-frame.js": "4333648377219ad4395a9573b32e1f1db86f494029656929def0785264a81489",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-codec.js": "010afe8d13496f58d72b6e6877c858030b7e11af8cc0de1d39e95a21f992bf44",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-contract.js": "a325ce4ea6e4fe457ff463fe92245dd8d83feff984c803cc5397d43110f2d260",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-name-display.js": "c0d17c259d621195c3b8dc69c5ae595807e80012add3d9b382e93d49a6803d74",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/place-worker-store.js": "806723f8b15100dc63471e24c5d3a2a1abf0e8cb51cace1432f5712417f33716",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/reliability-core.js": "88f64cc6fbece517d9280fb64a591628aa51eda38e46793db3455340e76d3bc0",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/modules/temporal.js": "35459aa88d992692241ef1de27211ca30096fb0592ddaa2026e67098fa827bee",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/workers/place-worker.js": "1429bf1a1cdefa5273aa8a4600eaad7bef48480e70b7e4f74cd03943de1e9535",
+          "assets/worker-runtime/f43b6141d48319edcbe56239f07a47d2/assets/js/workers/worker-rpc-host.js": "842eebd13ce472a37e77da07dd175ac164105b0b262f269d88d57b71215d14b6"
+        }
+      },
+      "assets/js/workers/project-read-worker.js": {
+        "url": "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/workers/project-read-worker.js",
+        "files": [
+          "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/vendor/sql/sql-wasm.js",
+          "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/workers/gpkg-read-core.js",
+          "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/workers/project-read-worker.js"
+        ],
+        "sha256": {
+          "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/vendor/sql/sql-wasm.js": "f1c84000dbc856c9d87f4f3aabc4d3654bd436165db4be3da13751db3a9c20d7",
+          "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/workers/gpkg-read-core.js": "0eafabc20e0b32903c531845ceb1b3eb577968fbbc95df158601f0bf54852944",
+          "assets/worker-runtime/b81b39b2c9c2f222ce59dcb12bacc314/assets/js/workers/project-read-worker.js": "84dda8a2b34eece06cfa6f2aae061ddb81fe794840b1210140e908205ef1fe03"
+        }
+      }
+    },
+    "physicalLand": {
+      "url": "assets/data/physical-land/v1/geometry.json.gz",
+      "encoding": "gzip",
+      "compressedBytes": 4357309,
+      "decodedBytes": 12385591,
+      "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
+    },
+    "initialLandPreview": {
+      "url": "assets/data/physical-land/preview/v1/d76ae60e58e09576db6bd155.json.gz",
+      "encoding": "gzip",
+      "compressedBytes": 816313,
+      "decodedBytes": 2203392,
+      "sha256": "d76ae60e58e09576db6bd1554a25b16a45b7bb6916eac197b1bb9a5a32bdc2c6",
+      "sourceSha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98",
+      "algorithm": "physical-land-preview-v1-topo10",
+      "coordinateCount": 96772,
+      "sourceCoordinateCount": 548454,
+      "polygonCount": 4274,
+      "ringCount": 4291
+    },
+    "physicalWaterObjects": {
+      "identities": [
+        {
+          "objectRef": {
+            "domain": "hydroBuiltin",
+            "id": "waterbody:caspian"
+          },
+          "entityKind": "lake",
+          "name": "카스피해",
+          "layerId": "lakes_base",
+          "source": "NE5.1.1 modern baseline and approved near-1922 Caspian display restoration",
+          "sourceId": "caspian-common-object-history"
+        },
+        {
+          "objectRef": {
+            "domain": "hydroBuiltin",
+            "id": "waterbody:aral"
+          },
+          "entityKind": "lake",
+          "name": "아랄해",
+          "layerId": "lakes_base",
+          "source": "Approved Aral near-1922 display reconstruction from Prasolov printed 1926 map",
+          "sourceId": "prasolov-1926-aral-approved-20261026"
+        }
+      ],
+      "timelineRecords": {
+        "schemaVersion": 3,
+        "lifetimes": [
+          {
+            "id": "life:waterbody:caspian",
+            "objectRef": {
+              "domain": "hydroBuiltin",
+              "id": "waterbody:caspian"
+            },
+            "validFrom": null,
+            "validTo": null
+          },
+          {
+            "id": "life:waterbody:aral",
+            "objectRef": {
+              "domain": "hydroBuiltin",
+              "id": "waterbody:aral"
+            },
+            "validFrom": null,
+            "validTo": null
+          }
+        ],
+        "geometryBindings": [
+          {
+            "id": "waterbody:caspian:waterbody:caspian:modern-before",
+            "objectRef": {
+              "domain": "hydroBuiltin",
+              "id": "waterbody:caspian"
+            },
+            "validFrom": null,
+            "validTo": "1921-12-31",
+            "geometryRef": {
+              "id": "waterbody:caspian:modern",
+              "version": 1
+            }
+          },
+          {
+            "id": "waterbody:caspian:caspian-near1922-approved",
+            "objectRef": {
+              "domain": "hydroBuiltin",
+              "id": "waterbody:caspian"
+            },
+            "validFrom": "1922-01-01",
+            "validTo": "1929-12-31",
+            "geometryRef": {
+              "id": "waterbody:caspian:restored",
+              "version": 2
+            }
+          },
+          {
+            "id": "waterbody:caspian:waterbody:caspian:modern-after",
+            "objectRef": {
+              "domain": "hydroBuiltin",
+              "id": "waterbody:caspian"
+            },
+            "validFrom": "1930-01-01",
+            "validTo": null,
+            "geometryRef": {
+              "id": "waterbody:caspian:modern",
+              "version": 1
+            }
+          },
+          {
+            "id": "waterbody:aral:aral-prasolov1926-approved",
+            "objectRef": {
+              "domain": "hydroBuiltin",
+              "id": "waterbody:aral"
+            },
+            "validFrom": "1922-01-01",
+            "validTo": "1929-12-31",
+            "geometryRef": {
+              "id": "waterbody:aral:prasolov1926",
+              "version": 1
+            }
+          }
+        ],
+        "propertyBindings": [],
+        "parentRelations": []
+      },
+      "geometries": [
+        {
+          "geometryRef": {
+            "id": "waterbody:caspian:modern",
+            "version": 1
+          },
+          "asset": {
+            "url": "assets/data/physical-land/v1/caspian-modern-water.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 20826,
+            "decodedBytes": 57486,
+            "sha256": "4d3709e31f9ce7185722ae36a0d26088bca6c93c6d3317aba3bc77999a265ed2"
+          },
+          "land": {
+            "url": "assets/data/physical-land/v1/geometry.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 4357309,
+            "decodedBytes": 12385591,
+            "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
+          }
+        },
+        {
+          "geometryRef": {
+            "id": "waterbody:caspian:restored",
+            "version": 2
+          },
+          "asset": {
+            "url": "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 95159,
+            "decodedBytes": 250314,
+            "sha256": "b95c195e5b8ec07dd7bb6ea5bf186a0a7e79995a2e8eb03acd559e6138f847c9"
+          },
+          "land": {
+            "url": "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 4360786,
+            "decodedBytes": 12372371,
+            "sha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+          }
+        },
+        {
+          "geometryRef": {
+            "id": "waterbody:aral:prasolov1926",
+            "version": 1
+          },
+          "asset": {
+            "url": "assets/data/physical-land/v1/aral-1922-1929-water.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 11280,
+            "decodedBytes": 25948,
+            "sha256": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
+          },
+          "land": {
+            "url": "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+            "encoding": "gzip",
+            "compressedBytes": 4360786,
+            "decodedBytes": 12372371,
+            "sha256": "66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608"
+          },
+          "replaces": [
+            {
+              "domain": "hydroBuiltin",
+              "id": "lakes_base:1159126555"
+            },
+            {
+              "domain": "hydroBuiltin",
+              "id": "lakes_base:1729982865"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "actual": {
+    "month": {
+      "month": "1922-12",
+      "automatic": false
+    },
+    "renderer": {
+      "mapReadiness": {
+        "status": "limited",
+        "label": "제공 자료의 최고 해상도로 표시 중",
+        "retry": false
+      },
+      "screenScale": 526.6625,
+      "scaleBand": "high",
+      "previewAdmission": "validated-scale-bound",
+      "surfacePresentation": {
+        "targetQuality": "canonical",
+        "geometryQuality": "canonical",
+        "quality": "canonical"
+      },
+      "previewDisplayCertificate": null,
+      "surfaceDraw": {
+        "quality": "canonical",
+        "landSource": "physical-canonical",
+        "countryIndexCount": 3140382
+      },
+      "renderer": "webgl2",
+      "mapHost": "legacy",
+      "assetRevision": "0.36.0-build-52725b98fedc",
+      "dataRevision": "data-ee34e40d1145b0f6cd3180c303bd41f9",
+      "dataCacheName": "pandolab-world-content-v1",
+      "projectGeneration": 2,
+      "terrainRepresentation": "raster-rgba-v1",
+      "terrainDatasetVersion": "0.13.3-p2",
+      "terrainSource": "raster",
+      "terrainFallbackReason": null,
+      "terrainTargetLevel": 1,
+      "terrainDetailedShade": false,
+      "projectRenderBlocked": false,
+      "activeWebGlContextCount": 1,
+      "renderSceneRevision": 122,
+      "sceneCacheValid": true,
+      "sceneCache": {
+        "valid": true,
+        "dirty": false,
+        "activeViewSignature": "1:globe:720,463:526.6625:-28.780322171285363,-46.07457784982193,0::1440:952",
+        "stagingViewSignature": "1:globe:720,463:526.6625:-28.780322171285363,-46.07457784982193,0::1440:952",
+        "activeProjectGeneration": 2,
+        "stagingProjectGeneration": 1,
+        "state": "valid",
+        "disabled": false,
+        "width": 1440,
+        "height": 952,
+        "generation": 92,
+        "hitCount": 132,
+        "missCount": 296,
+        "compositeCount": 132,
+        "compositeMs": 4.60000005364418,
+        "recreateCount": 2,
+        "failureCount": 0,
+        "lastFailureReason": "",
+        "lastInvalidationReason": "country-boundary-resource-ready"
+      },
+      "sceneCacheFullDrawCount": 8,
+      "sceneCacheInteractionDrawCount": 204,
+      "sceneCacheReprojectCount": 0,
+      "selectionOnlyBaseDrawCount": 2,
+      "sceneCacheFallbackFrame": false,
+      "canonicalFrameFallbackCount": 182,
+      "firstCanonicalFrameMs": 16481.59999999404,
+      "firstBackgroundFrameMs": 7490.199999988079,
+      "firstCountryPublishedMs": 16495,
+      "countriesPublishedGeneration": 2,
+      "backgroundPresentedKey": "[2,1,[\"polygon:physical-land::66fa6cbb61a1358cfc64a8ae2c1f1b6afad1f82ed574f664e55668a08925f608:high:globe:mesh-5:edge-0.499\"],[1440,952],526.6625,[720,463],[-28.780322171285363,-46.07457784982193,0],\"globe\",1,true,\"2:1:2:1:1/0-0,1/0-1,1/1-0,1/1-1,1/2-0,1/2-1:false\"]",
+      "polygonOverlay": {
+        "resourceCount": 39,
+        "uploadBytes": 71928496,
+        "buildCount": 41,
+        "buildMs": 0,
+        "drawCount": 134,
+        "drawCallCount": 134,
+        "drawMs": 0.9999999701976776,
+        "cacheHits": 0,
+        "cacheMisses": 41,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "activeBufferBytes": 31330392,
+        "resourceBudget": {
+          "byteBudget": 124822487,
+          "activeBytes": 31330392,
+          "entryCount": 39,
+          "activeKeyCount": 24,
+          "protectedKeyCount": 5,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "stroke": {
+        "resourceCount": 3,
+        "uploadBytes": 8324000,
+        "buildCount": 3,
+        "buildMs": 0,
+        "drawCount": 10,
+        "drawCallCount": 880,
+        "drawMs": 13.500000029802322,
+        "cacheHits": 6,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 4.4000000059604645,
+        "selfTestFailureReason": "",
+        "analyticAa": true,
+        "aaRadiusPx": 1,
+        "connectedTopology": true,
+        "topologyJoinCount": 0,
+        "topologyCapCount": 0,
+        "topologyClosedChainCount": 0,
+        "topologyInvalidSegmentCount": 0,
+        "activeBufferBytes": 8324000,
+        "resourceBudget": {
+          "byteBudget": 76504104,
+          "activeBytes": 8324000,
+          "entryCount": 3,
+          "activeKeyCount": 4,
+          "protectedKeyCount": 5,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "selection": {
+        "packetRevision": 0,
+        "countryBoundaryRevision": "canonical:2:2:708480:0:::22",
+        "viewDrawCount": 204,
+        "viewOnlyBufferRebuildCount": 0,
+        "drawMs": 3.700000047683716,
+        "lastDrawMs": 0,
+        "renderFailureCount": 5,
+        "contextLost": false,
+        "contextLossCount": 0,
+        "contextRestoreCount": 0,
+        "bufferBuildCount": 0,
+        "bufferBuildMs": 0,
+        "bufferUploadBytes": 0,
+        "geometryCacheHits": 0,
+        "geometryCacheMisses": 0,
+        "countryBatchCount": 0,
+        "genericBatchCount": 0,
+        "strokeDrawCallCount": 0,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 4.4000000059604645,
+        "selfTestFailureReason": "",
+        "renderSucceeded": true,
+        "channels": {
+          "candidate": {
+            "rebuildCount": 3,
+            "rebuildMs": 0.09999999403953552,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "hover": {
+            "rebuildCount": 3,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "secondary": {
+            "rebuildCount": 3,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "primary": {
+            "rebuildCount": 3,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          }
+        },
+        "segmentCount": 0,
+        "activeBufferBytes": 0,
+        "stagingBufferBytes": 0,
+        "drawCoverage": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "lastSelectionRenderResult": {
+        "succeeded": true,
+        "contextLost": false,
+        "selfTestPassed": true,
+        "gpuHealth": "healthy",
+        "channels": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "effectivePixelRatio": 1,
+      "devicePixelRatio": 1,
+      "meshQuality": "canonical",
+      "activeMeshQuality": "canonical",
+      "canonicalMeshReady": true,
+      "availableMeshQualities": [
+        "canonical"
+      ],
+      "meshVariantBytes": {
+        "canonical": 19596928
+      },
+      "meshRestorePending": false,
+      "qualityPhase": "canonical-ready",
+      "previewAllowed": false,
+      "previewActivationCount": 0,
+      "desiredCountryMeshQuality": "canonical",
+      "countryFocusPending": false,
+      "previewActivationAfterCanonical": 0,
+      "canonicalPromotionCount": 3,
+      "canonicalPromotionError": "",
+      "canonicalReadyFrameId": 364,
+      "meshSwitchCount": 2,
+      "renderQualityChangeCount": 1,
+      "renderQuality": {
+        "tier": "high",
+        "phase": "settle",
+        "revision": 1,
+        "countryMeshQuality": "canonical",
+        "dprCap": 3,
+        "terrainResolutionScale": 1,
+        "terrainCacheBudgetBytes": 134217728,
+        "hydroCacheBudgetBytes": 100663296,
+        "overlayGpuBudgetBytes": 201326592,
+        "uploadBudgetBytes": 8388608,
+        "activeEditLod": "high",
+        "selectedLod": "high",
+        "backgroundLod": "high",
+        "renderPacketCacheBudgetBytes": 201326592,
+        "interactionUploadBudgetBytes": 786432,
+        "settleUploadBudgetBytes": 8388608,
+        "targetFrameMs": 20,
+        "p95FrameMs": 0,
+        "p99FrameMs": 0,
+        "longFrameCount": 0,
+        "reason": "device-hints"
+      },
+      "countries": 83,
+      "renderVertices": 703540,
+      "triangleCount": 1046794,
+      "lineSegmentCount": 354240,
+      "countryBoundaryMode": "shared",
+      "countrySharedBoundarySegmentCount": 22801,
+      "countrySharedBoundaryReady": true,
+      "countrySharedBoundaryReplacementPending": false,
+      "countryInternalBoundarySegmentCount": 1743,
+      "countryInternalBoundaryVisibleOwnerIds": [
+        "USG",
+        "territorial:entity:state:soviet-union-byelorussian-ssr",
+        "territorial:entity:state:soviet-union-russian-sfsr",
+        "territorial:entity:state:soviet-union-ukrainian-ssr",
+        "territorial:entity:state:soviet-union-transcaucasian-sfsr"
+      ],
+      "countrySharedBoundaryWorkerActive": true,
+      "countrySharedBoundaryRequestId": 5,
+      "countrySharedBoundaryLastMessage": "prepared:5:canonical:2:2",
+      "p95CpuSubmitMs": 0.9,
+      "p99CpuSubmitMs": 5.7,
+      "pickCount": 0,
+      "pickReadPixelsMs": 0,
+      "pickLastReadPixelsMs": 0,
+      "pickSceneRenderCount": 0,
+      "countryEmphasisRevision": 4,
+      "interactionFillCoverage": {
+        "succeeded": true,
+        "renderedKeys": [],
+        "missingKeys": []
+      },
+      "interactionFillItems": [],
+      "countryEmphasis": {
+        "primaryId": "",
+        "primaryIds": [],
+        "priorities": {},
+        "hoverId": "",
+        "selectedIds": [],
+        "boundaryEnabled": false,
+        "primaryBoundaryColor": "#316fd3",
+        "secondaryBoundaryColor": "#316fd3"
+      },
+      "interactionStyle": {
+        "theme": "light",
+        "antiAlias": true,
+        "hover": {
+          "color": "#316fd3",
+          "width": 1.5,
+          "alpha": 0.85,
+          "fillAlpha": 0.027999999999999997
+        },
+        "selection": {
+          "color": "#316fd3",
+          "outlineVisible": true,
+          "fillStrength": 0.35,
+          "primary": {
+            "innerWidth": 2.5,
+            "innerAlpha": 1,
+            "fillAlpha": 0.08399999999999999
+          },
+          "secondary": {
+            "innerWidth": 1.5,
+            "innerAlpha": 0.72,
+            "fillAlpha": 0.049
+          }
+        },
+        "drawOrder": [
+          "candidate",
+          "hover",
+          "secondary-inner",
+          "primary-inner"
+        ]
+      },
+      "boundaryOwner": "interaction-overlay",
+      "visualPassOrder": [
+        "substrate",
+        "terrain",
+        "country-fill",
+        "territorial-fill",
+        "lake",
+        "lake-boundary",
+        "river",
+        "border-river",
+        "country-boundary",
+        "physical-water",
+        "independent-overlay",
+        "candidate",
+        "hover",
+        "secondary",
+        "primary",
+        "territorial-labels",
+        "labels"
+      ],
+      "emphasizedCountryCount": 0,
+      "viewportCss": [
+        1440,
+        952
+      ],
+      "canvasBackingPixels": [
+        1440,
+        952
+      ],
+      "layoutMismatchCssPx": 0,
+      "requestedRevision": 2,
+      "displayedRevision": 2,
+      "committedGeometryRevision": 2,
+      "displayedGeometryRevision": 2,
+      "pendingCountryCount": 0,
+      "pendingOldMeshVisibleCount": 0,
+      "countryPatchPresentation": null,
+      "geometryRenderTaskToken": 4,
+      "patchWorkerJobs": {
+        "submitted": 0,
+        "started": 0,
+        "completed": 0,
+        "failed": 0,
+        "cancelled": 0,
+        "coalesced": 0,
+        "staleDiscarded": 0,
+        "maxQueueDepth": 0,
+        "lastLatencyMs": 0,
+        "queueDepth": 0,
+        "runningCount": 0,
+        "activeKeys": [],
+        "queuedKeys": [],
+        "latencyP95Ms": 0,
+        "latencyP99Ms": 0
+      },
+      "patchWorkerOutputBytes": 0,
+      "lastMeshPreparation": {
+        "featureCount": 83,
+        "builtCount": 6,
+        "reusedCount": 77,
+        "hashMs": 66.10000002384186,
+        "triangulationMs": 1433.0999999642372,
+        "assemblyMs": 23.69999998807907,
+        "slowestFeature": {
+          "id": "state:soviet-union",
+          "ms": 1265.800000011921
+        },
+        "cacheBytes": 46240530,
+        "strokeMs": 209.5,
+        "spatialMs": 727.8000000119209,
+        "totalMs": 2491.5999999940395
+      },
+      "lastGeometryCommitTimings": null,
+      "canvasWorkerBusy": false,
+      "canvasStyleRevision": 0,
+      "canvasDisplayedStyleRevision": 0,
+      "canvasWorkerHasPendingFrame": false,
+      "webglContextLost": false,
+      "gpuRecovery": {
+        "recoveryId": 0,
+        "attemptId": 0,
+        "active": false,
+        "disposed": false,
+        "running": false,
+        "queued": false,
+        "phase": "idle",
+        "lastReason": "",
+        "foregroundMs": 0,
+        "idleMs": 0,
+        "contextMs": 0,
+        "canvasMs": 0,
+        "uploadedBytes": 0,
+        "suspended": false,
+        "dataWaiting": false,
+        "timerPending": false,
+        "deviceWaiterCount": 0,
+        "unexplainedAborts": 0
+      },
+      "webGlVersion": 2,
+      "forcedRenderer": "webgl2",
+      "fallbackReason": "",
+      "terrainReady": true,
+      "terrainFailed": false,
+      "terrainResolutionLimited": true,
+      "terrainTargetKey": "2:1:2:1:1/0-0,1/0-1,1/1-0,1/1-1,1/2-0,1/2-1:false",
+      "terrainLevel": 1,
+      "terrainRenderedLevel": 1,
+      "terrainTargetTileCount": 6,
+      "terrainTargetTilesLoaded": 6,
+      "terrainTargetTilesSettled": true,
+      "terrainTilesLoaded": 8,
+      "terrainCacheBytes": 18322328,
+      "terrainPendingDecodedBytes": 0,
+      "terrainTintReady": false,
+      "terrainTilesLoading": 0,
+      "terrainFetchConcurrency": 4,
+      "terrainUploadCount": 8,
+      "terrainFailureCount": 0,
+      "hydroFeaturesLoaded": 2,
+      "hydroDescriptorPackCount": 0,
+      "hydroDescriptorLogicalCount": 0,
+      "hydroDescriptorFidCount": 0,
+      "interactionActive": false,
+      "paletteDirty": {
+        "base": false,
+        "emphasis": false
+      },
+      "paletteRebuildCount": 4,
+      "paletteUploadCount": 8,
+      "paletteUploadBytes": 6960,
+      "uniformCacheHits": 1476,
+      "uniformCacheMisses": 115,
+      "attributeCacheHits": 8,
+      "attributeCacheMisses": 35,
+      "frameContextBuildCount": 0,
+      "visualFrameConsumeCount": 313,
+      "hydroViewRequestCount": 1,
+      "hydroTileWindowCacheHitCount": 224,
+      "hydroTileWindowRecomputeCount": 1,
+      "hydroUploadBytes": 0,
+      "terrainIncompleteFrameCount": 0,
+      "canvasWorkerMessageCount": 0,
+      "canvasWorkerMessageBytes": 0,
+      "canvasWorkerViewMessageCount": 0,
+      "canvasWorkerStaleFrameCount": 0,
+      "canvasWorkerStateMessageCount": 0,
+      "canvasWorkerMessagesByType": {},
+      "baseSceneDrawCount": 8,
+      "interactionFrameCount": 204,
+      "selectionOnlyFrameCount": 14,
+      "selectionOnlyGeometryUploadBytes": 0,
+      "countryInteractionIndexCount": 0,
+      "countryInteractionRangeCount": 0,
+      "countryInteractionFullIndexCount": 3140382,
+      "countryBaseIndexCount": 2424429,
+      "countryBaseFullIndexCount": 3140382,
+      "countryBaseRangeCount": 15,
+      "countryBoundaryIndexCount": 583066,
+      "countryBoundaryFullIndexCount": 708480,
+      "countryVisibleCount": 73,
+      "countryCullingFallbackCount": 290,
+      "countryStateCompositeCount": 0,
+      "countryStateCompositeMs": 0,
+      "countryPatchUploadBytes": 0,
+      "lastCountryPatchUploadBytes": 0,
+      "countryPatchSceneHoldCount": 0,
+      "paletteChangedCountryCount": 290,
+      "paletteUploadRangeCount": 0,
+      "paletteFullRebuildCount": 2,
+      "paletteSkippedUnchangedCount": 14,
+      "overlayUploadBytes": 0,
+      "lastOverlayUploadBytes": 0,
+      "overlayDeferredItemCount": 0,
+      "uploadBudgetOverrunCount": 0,
+      "countryBoundaryPrepareCount": 3,
+      "shaderInitializationMs": 178.39999997615814,
+      "countryBoundaryReuseCount": 1,
+      "countryMeshRebuildCount": 2,
+      "hydroTileWindowSignature": "globe;none;6x4;",
+      "hydroPacksLoaded": 0,
+      "hydroPendingUploadCount": 0,
+      "hydroFeaturePendingCount": 0,
+      "hydroLogicalQueryPendingCount": 0,
+      "hydroPacksActive": 0,
+      "hydroEditRevision": -1,
+      "hydroEditBatchCount": 0,
+      "hydroCacheBytes": 0,
+      "hydroCoverage": {
+        "enabled": true,
+        "maximumBlend": true,
+        "width": 0,
+        "height": 0,
+        "bufferBytes": 0,
+        "renderCount": 0,
+        "fallbackCount": 0
+      }
+    },
+    "visibleCountries": 114,
+    "projection": "globe",
+    "geometryCount": 114
+  },
+  "geometryMatches": [
+    {
+      "entity": "state:soviet-union",
+      "digest": "a3f08f3a56c6b2f6e8065354aaf2e7d986aef663fde4d17308f4a4d190abf34b",
+      "present": true
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "digest": "d6e8e443b26d5b1c7a8d77aade1ea38f43a94e059aa85c75424976efb4d7ccd8",
+      "present": true
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "digest": "105d390e738687c7ad5b849d7c96e6ac97e47b5b7c33bc876e7a722ced782bc6",
+      "present": true
+    }
+  ],
+  "requests": [
+    {
+      "url": "/assets/data/builtin-world/generated/v1/index.json",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/AFG-sha256-334f100332a5ca8b1e793cd46393b4fcac9c1f2f96f31992399aa374ba091bd8.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/AGO-sha256-240a38dfbe11919147a454289fe47f169efe53a7c37c8b5541db0e4aa4f026d2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ALB-sha256-4d7695ba10a2d7dbf6d6985fe167a3ed5d2edb953cebd3e7218a7b55d8e157d8.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/AND-sha256-1d40c82eda842212ab5bdea83c862093fdece9c736195f6d51bc418449278883.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ARE-sha256-473fb937b93b8456ccc44e33d42976a6603124f37c35a33caa763a7fbd9891e4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ARG-sha256-f29fc9cc9c37247553404e6a8d6407ba49bd08bece6b344c5cb9f7c6d71e00fa.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ARM-sha256-3f8199c7b9416152f0e6c3061dea6fda2504bb8686e1273a0a52304f26108aac.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ATG-sha256-bd2672b1151c0e8846e5ac640588db44917408562952dd90db8fd78aa17548aa.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/AZE-sha256-23b441044ae67da82edc0aae894cee579b0ddaae664505a59b7aa31a728c82d3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ATA-sha256-13613e86678c4465ce51402c10ea606264b2cad25fbe9df26fd103ae4d6510b4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/AUT-sha256-0ab17de2253e1f846214d912cc2aeb34e9cef4bfa5b780622b6c903227630b49.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/AUS-sha256-c62066fad3942e6f313161efd3ed799bdf926c0a103fb2cd38a352cfe708ff75.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BDI-sha256-574b36bb3eaad86a9279e84d4e9c9a7874361f5dae517f100f4af2ed098de220.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BFA-sha256-0bc63e8b1199313c0b74fee0def557dfe3528840b6eef2b4d6196fc9fc58a62e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BGD-sha256-bf84da2c394fd7a4ab040cec5bc04de6c24bf785eda09bcdb51db21cb24bbd3f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BGR-sha256-08557d7fdbc2b89181ff215e39d8e140a33dfea70d6b7a1111cc42b28ae52e3d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BEL-sha256-9b830741b508e32c2aed3c4825a93a642652f8a44e80f3902c73cb8e9d21bc7a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BEN-sha256-680b1ee092b8d145632682b66ddba69838dd657f9daa6c96ab3b89535f32363e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BHR-sha256-fe2e494f69a650b5fd4ba4f753a3d9e2cf251858465b9697f462d33a6d057bb9.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BIH-sha256-79f2796c6694a6accd1b0c5a67fb7910a6c5b82ea15f86f99b82ce33fa5be711.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BLR-sha256-8cc57918afe2244f3c0b5f9b46ce32fdf451e0047f785f1f205b8370cce13435.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BLZ-sha256-517ff0b745c57f5dc86de4321601642c424bd38619e3dc4f281fc94da8ff52de.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BHS-sha256-1eef69874db34aec7f77e7f6f2bfffcf0e40f1c776804ab3d7b8544d014d82f5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BOL-sha256-1401a4f5a44ad1aa78a4ea985dc494c768197e5a0bde7a2a2913d7fa1673f49a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BRN-sha256-2dac353199fde3f27b03e8da78d32044febe40350f567b2526a003d3910248e3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BRA-sha256-3b195dac39c711ef414aa33306bd0edd22fdcc7e1e39a4251e7e41a1049c44e9.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BRB-sha256-9d92d3b7bee4415a273b3a89066f5a05e57737f51d61d1117d1f9f1f93eeffc2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BRT-sha256-6b254233cd5999acaa3232f0a44423aef5439efa8d891032cf321505f1dc2a83.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BTN-sha256-f318b3274a22cd8e68fbf0f279d5e1d8977f63d8248c260c4e075a0cee63dda0.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/BWA-sha256-43389c9a9949c8b793c956a05a2286c54fe888bdc8ed69a856022b3ed685fd89.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-ad53593d60e3461abb7ae0313a2b02d83cea82cdf3b71a3d0d95b8ce2c117ded.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CAF-sha256-7453dff8d416b47ec5143c66f1f9e302a9ee1c8bf38601a3fc66b6903cd6cfef.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CHE-sha256-eac623520b148469aa5a07cd0c62d867b265d07c4c14afe1971d58234b931ccb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CHL-sha256-2c56a4a4da8908bec37072e38a2e564f8279bd152b0315b0d9900451d7770a28.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CIV-sha256-93d0214f9fd4150e07afd237a0f441e069882b9299e0ee9ca90d0f1e34652491.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CHN-sha256-4de083d66f4cc64e36a9111a9dcdbac38a014679a0aeb75b6880a685ae83d90e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-c0f5c53c2dc4aa07ccaef22c60047c3dfa4c47c9c519816b8e60c281091138b5.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CMR-sha256-7ba5c59df516f5071e9feaece73dfe4b5bdf8e1c42618f1a094cc40b836b9568.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CNM-sha256-dbdbe4e92a5322db95a2a1bd8ce215a6185b4d266890a15a90fce0b9c3f6356f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/COD-sha256-76c7dd23358f9a43a72ba5ea4d855fdef66187b71735e94c8b98c3213539d26b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/COG-sha256-43ab06510497496fe56baf3ef740d7a2ff3f0446853e27227ce1effa31b5c146.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/COK-sha256-6aa0435b9b3d8f0b07a50a84bfc4868adc9c1384add405b15c21c1960a4a6348.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/COL-sha256-e57fadc664a0ce11f6824307c420dc5801e2b45a20a3658fac22858fda30fd7e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/COM-sha256-38e0d85cdc9a08d54f9d96b003ac1c35fc4e0b098b768bdb849a855623d638ef.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CPV-sha256-12efa5ad74dca483d99be38b8279a3bbddbf5d92d972f1e51180e5fca4cbd6f0.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CRI-sha256-86b61b50a5bc48307048ec92ea5ecc145fa31f36dcf8a1db76927f099f9a441f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CUB-sha256-92fd09d99e461fb5ed0a95786d128be22af87e55e9479565c35a3b71640dd13a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CYN-sha256-6a2753fd2cc6a4faa49aca0af7b8d215b99bc7b43c803815b5e4251f628351ba.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CYP-sha256-1ae5bb01397cdacb0c947bf16e16aae58b6bd9db0f2cfc977690ad36aaefc2d2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/CZE-sha256-a9ac63c4f58efadb5932dec45210184c1dbff9ba488a83dcbc9a560ba429d32f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000414941-sha256-af4ec38a51840c99b81cc5fdb01a0a02ca2a7320df800a4ed89cbac571c8d1e1.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000041534d-sha256-8a43d58c43bd352dde2f217baeb5c852c9f3e4c093a39d52b392cd9e5ff244c6.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000414c44-sha256-daeeae5ad350e0edff81534d81f95e44b797d7508722f3d5bc17febefa0a6ce7.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000414257-sha256-219fd0885639069b446b68f3646911b869d178b1e1c10663e192fe70a3e2c92a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000415443-sha256-e4e08d3cf54db9d03358c37b996dd43c1005fc554221df544a407a5430167e56.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000415446-sha256-7b1bf420d81e1c5b6cf5f0b7796a4554bf140502835135b11086dd81dc087510.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000424c4d-sha256-80502198331488bc0cf3fca0c987d8c8c37c3d171628c430561cce59bc1c47af.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000424d55-sha256-e6f9dfc0ffa4f2e3a9e07fbd5993f3d93dbe1ba8fd62d26f7e7ac33f6b0708ff.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000435349-sha256-ae9c4d3f5a96225b1fd69f5bd8f3fc93fd88e3354ae069b2bec01df5f48fa20e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000434c50-sha256-4405311a52f1d51116e356c483ae3d18dacb035ef112f9a676c0a1b3f71bc2a3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000435557-sha256-8d0583ed43a147edf5b183d1248a4411cdc93dab4f7f2ec37cbf941e66a1e789.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000043594d-sha256-c1cdefc7287d39435b68887c446e2fbae512d7c15e777d3e2b72f1d23d27d2d0.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000455342-sha256-3a282b5165f74b29f904f2e68d720ef824f9020747a7b5c4bcd4336c1c4a8e29.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000046524f-sha256-639d0b27262d937c498d92d1b62f792259c158a264bce556f2cb31a353b78580.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000464c4b-sha256-917e27a2052ea0484243f6a05e2dab7b781b0d6572e0e6b445d02d7825722158.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000474759-sha256-1e30409f5563b7431f62099c336554022b75211baa81427d45f7b0b249335c21.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000474942-sha256-e8332c95a77455ea99123de15c37071fd5a1cca0a25fe35bc117051be8127d5e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000047524c-sha256-52896168bdccb5a8ff51dae027f4b15bc2f7969670f38bc70574caed08cbf84f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000047554d-sha256-fac80f44e23ced3bb47f133307f556e0783da1ecf58de02cf37a15985ac3bc46.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000484b47-sha256-444f22f692a63e5bd2a487abbab74e44b0accc41638f7b279becf1cd736e10fe.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000484d44-sha256-e2625c43a3949f0f17a21316f3999cca37a8be4958e9ff5361bb30f5ac9b720e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000494f41-sha256-09c51c3e8cfdd874328462dbad8725a84b33751580e3272b4a21ec8b1575b154.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000494d4e-sha256-acc0abf7d12c774099476576a97aecfe9fcc5b316d3badcaa971bd1362c828b3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000494f54-sha256-96ba0f32f8853caa8d9235dbe0d43b40fe05669d334eb08a318727a039a453a7.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004a4559-sha256-d87d82a6cb31b02f2e8cb10fe544d61ea370b8e28664eee9980923a9b3707dab.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-c9d5125f8a613ec8a3ef5e73407c4af6468d743d0fa26db278cb70a77ec8b460.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004d4143-sha256-c48dd18d773ea00e3ea42012c67f5657776c0c7a0c3261956d6e5bb59f8bf02d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004d4146-sha256-e02f9408e77c3745e8d265175fded9cbb2fe8ba8eae42508331612c766ac2f57.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004d4e50-sha256-75ee61b622dd64e465506e4fbb48cd1413627f3846088cce8c363c4e0b6a3fe7.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004d5352-sha256-bad92bc1f0f7b1bd112ad3f19ff09503a198347b7f068d8c302e49df2e8b57b5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004e464b-sha256-dcb5116a6a00721227ba72d13efd4330b426a4df843ba4d2317febdec3ef9181.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004e434c-sha256-bd98b645d1ee47e50aff9102231491a49181fae05c07c5ca0b7658eb999b2dd4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000050434e-sha256-91f8ab9b0dbf7bc54663ce5f2e2d70c22ea046516a3cd12e48fb86ed8455184a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000504741-sha256-f763a2c2dd5c5bb7053dcc901bc7776e9b4958a1d391a238dfc6ad4bda069389.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000505249-sha256-9efc015fd718d0e6072c4408e7e7cd096bf14edf5ce7b7902b6334e589ac3401.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000505946-sha256-6624125cdf5349ad4ac81d5838027c8999406d6be39b633e3045f285d194bcb3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000534753-sha256-087c0abc3fc00e1e32523cdfa418eae91ef65c9f95df140fd93de71161f1ab1c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000053484e-sha256-c26eaa16832d0cae9de2e70c13a2c86fdb768f32082ed518cd8787aa71f20cbf.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000053504d-sha256-aecfb6f0ef3766a25a833c36705f40e8a8c36a841fb0346abba0afb293f66b51.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000544341-sha256-0b809ebc7f9af19f15490745e33b370ec3fa29b4dc14a83e0bae55b301a9c3e9.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000053584d-sha256-b497553f79980ef6adc6e797959154ce0cb609d21735c3a6bcc190d722144e60.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000554d49-sha256-74291a057e8fe8af69e9cb3296961467d9a1c853e74d9e3266301af8f565f37c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000555347-sha256-e86a091feb3976b5475c360b8ade3301276899bd4fc89b8783c9b2a345df0788.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000564742-sha256-d0a7f3e87ce4cc20a6dd417e4e608191bbe9a84e553feb12424a714ee031467b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000574c46-sha256-82e05c4f818a4ca7f38c12010ef21408d2f8acf76307f3b089e0292dbd034189.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000564952-sha256-7d63b9f724adbd4cf477e6d96e4853abc74a6df054d68631463656f0855d4430.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/DJI-sha256-4e47b759abf51f69bbe1b74d4c5b2b290214418c1def6d442a57d6465bea4ab2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000575342-sha256-e6aa003d2b8dfe9fc4644d8837d875c353ece3163840301f019223e0e30261d5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/DEU-sha256-3d55c497e50b993c1b283eed3cb68597daef86fe9481b6e615cb2569576ab896.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/DMA-sha256-d82d6181cd2852dfe3505852564fd49155772713c78f8ec980b1375322440588.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/DNK-sha256-b05571b6596144a00803b4eec84ad42f9bb045ed2b6dfc06dede188a997002dc.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/DOM-sha256-61209e98753760f2d6a80b5b68e6d8c376825e27376e4a6dd3306eaf1f6ac60b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ECU-sha256-103edbeb9c01d0359d0051d66022a8fcb23eb83fd35dbac32a35d2a362b77fac.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/DZA-sha256-c0d66e3a7945c786c79f3937b69f29da39c862fae2e54ea576cee74ee6e5cba3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/EGY-sha256-2e178dd2a4f091e1225d51aac53ca7008ac85a19ae77047475a846742cf6b673.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ERI-sha256-3835a7b53e6c39b575926679f123613367008c2a78a6911dee96b81696d60374.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/EST-sha256-7cb704e57060ec5a7183be26a5d8fd588c76ace7bb86f7064a5d8c35fcabfc44.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ESP-sha256-a82f9297391094c0e222861b851fe9759638ff131005ab22559fc9f73d2280d2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ETH-sha256-76ceb2cbc78b6fbb370c143a5f97b6efef2ed2dd9183f1436582142a6b0da4eb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/FJI-sha256-a9cab01277ed02f1ee297273eb98c0e0077a0832fbfdcaf3acd0d37815f861ac.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/FIN-sha256-e74f56745cef50bc727fc7c80974b0b7005b26460af9fe00dae9854179bec34c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/FRA-sha256-51a3cede1b314fc8d762e7b97d6b102176fdb61e6ee368fb58ca2d658ef1281d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GAB-sha256-2bce19ae7bb59b6068bab6129baa9cc2449d5d445f5cb6049dd1e58e19f7bccf.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/FSM-sha256-2199a999af0ef65219430931c51d39a66c1b7a49f85e35b75f96706272ba5a4b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GEO-sha256-82e0b8c69a88a65b4cbdf5a89c7892f767eec766096e903fa724e34a735db4c4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GBR-sha256-26906d09cb48c3e39beffb0bd765eb2a7a2afb267d3b381a81024044a5b8cfd6.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GHA-sha256-174e3b3926620999e899e8db928a2421af50fd35ab8f3859e46882163d1c9c2c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GIN-sha256-16ae711392f4317ea158c98e9c830939933d22590079d2165e916e71bf36a0c6.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GMB-sha256-b28fcedb856c8106efb6f7477c618795499401c8d492b7ada948c106a4d02ccb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GNQ-sha256-afc44a5192f6cf6bd7fa6dfddfa21f04424e95bb98b5effe29d47cdbcec1a250.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GNB-sha256-8d849a4f81806c54ac3baa78d9274efe7c4f15ce192a75c0cb2c186b3a576e30.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GRC-sha256-34e3c8c2c6a6f653721598ce5356cce3b6d91a8c3b84ae0bede0352cb97cd315.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GTM-sha256-5bd0af9506ed2c4e84c27a199384aa9a5399f26dfd51aab9d681a3f4f7ca2018.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GRD-sha256-f5f10cd695b143ffd25719a4255b0eacec024cd068b96c6fe2c1d34bca19822c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/HRV-sha256-c595a16e9eaa927e78d4a8159fad82a4bd829abc22a871f596db7c9ecfb61f12.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/GUY-sha256-45eeb69094c7093d54d11a6960b7b3317cc6ecb78b68e3698fa4c5b88dd0c2cb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/HND-sha256-0ba6dde0235c7b188c1df14ceb851c19eef86685a12e7bfc8b4b992d076b9b44.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/HTI-sha256-70cb5ee3be8e39f5d6aed4b1ca9ddd14be4031925621eff4e9da465b9a7b5fb3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/HUN-sha256-b4570aa0ed1549f4dc6bc1c5031ee57d6e0108c4549b327261bcae21fd457f7b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/IDN-sha256-e4db20ecb856ca931afe0274397ac744acd0d5198b12a343db411b8b38dd78da.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/IND-sha256-46dad0e789fd1aeac281fe0623f6860dd4712a472433f5739b4a4e5f4867074b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ISL-sha256-e6d88f2fd47a819ddd58e85de498e119cee8f3c456b813d11ede500fae9fc3f1.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/IRQ-sha256-b4030f906fe3e1ddbe588f5e747076aec1ecbb2e455a7341cce3d18460d46133.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/IRN-sha256-09789f11cc2921ad83fc57ccc0b341b4604c68569d0e29703c7b3d22a57e7f5f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/IRL-sha256-93dd4a0f17654a4b7292dda1e2e31169e5a5762d266ecc353bc379b484cfb4f6.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ISR-sha256-bdb7afca69185a316c2aa9634c7c37936f23a8800660d5f847b188ec76d89c11.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ITA-sha256-24a1e7aa76b44fac563184609892a9f969eb52823754d973b10af0502df1ff9a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/JAM-sha256-19fb88326212b0b46cff0b935de6734cbff184ff96c00f906a1fae2984d74745.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/JOR-sha256-67f752124629686c28c39499671467838ead9659173ef62331b445ee30106c4d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KAS-sha256-d4cd18fc468c769ecfc54744e0508d1f98e9eb346e290a60c962412a21a86d4f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/JPN-sha256-2e9758a9c5d2c55f992a942aa3012c474413200284c8ae81f2535f00c7593f55.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KAZ-sha256-2b39455f45608f2e3ab23ed5a2557c63a7320b98eef5a9a3ca3c76ba0e3242ee.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KEN-sha256-9bf9dfb91a2c040847c4aa2d54628845190aa52085e4e421b969dfd310a5b057.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KGZ-sha256-06414dafad780e9a61a89d30bfb8abfdc8975908a6043907108466ef43b2d137.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KNA-sha256-2d51ac7d3e3c1994912ac158f1f29eb5aa71bf93f3076c34761f78bfbb07ebdc.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KOR-sha256-2d93bae15fd2e6ad02b245b5b68e0f70a2a9dfec41850359c377be56061ae2a4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KHM-sha256-fbb2ddfab0aed9c776f394e1d45214ed8afbf5604b2edc81452bed3574a041f4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KIR-sha256-67a4ba7f842d2249d479dd0d008707e0dbf0fbc0d79a457deb23050536b0e1ca.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KOS-sha256-9ed0c90e149283424692606b6f700cf0f6d1fb7dfd73835455e6d9e55c30dfcf.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/KWT-sha256-7af4e9279a7e10536ca4121d4148ba012e0fd31fea66eb6c83394c15f6ef3bfb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LBY-sha256-9a043335f51337920085c0b7f30f6265642f7552b147fe8145e21180a35ab3af.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LBR-sha256-cddee8d1781b862fae4de32fb26e66d1963ef9d7f2ee47904a2a1091c398492d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LAO-sha256-2f639c0ceb84c04b67596b7428c0279ba6577e3948c4e4428f98a6d9f04563ba.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LBN-sha256-d78944c8946ff6cb772d9b788e7982a179e6c5571754942e23b206302cc5cc3f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LCA-sha256-b0f27f5c2677487a73b805af64e10101d5f74693271de1eeb235bdee3ffe32f2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LIE-sha256-8d122991a7ca865197ed906ada071adfc7a35fe93f25c9b4c791332a77348d7f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LSO-sha256-f9bd4394dec0388cce5959154f1fa58b8432b0faa50047c140b640cd9b84d6d1.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LKA-sha256-de915d3d5fb8d9d34f69983053b48207f0ec2b8a64a72be3bb3d14b2d88b953b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LTU-sha256-818a623c1147191c1a868edb13d19e6f5200eb5953fca558f813575412a3dadb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MAR-sha256-eb4b08666b5b791fe08207a85a416b875ed9a458e38ed590f1a3135aca870225.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LUX-sha256-a8398592d70c6c972ebe61551ae4a7974d15be58783256bb8a8467dc33525336.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/LVA-sha256-4840ca0e0eaa1b43bcd692c58499f503d79991cd8728fefb636816da9f7d3e7d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MCO-sha256-d307505bf5b1cfff622098f44f3ca21147a8c5e74b2f3ef6d2411807d5759822.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MDV-sha256-68a8dbd454208ed3de92dd4857fc2608cab74479b1fc2d950f23abee37777770.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MEX-sha256-b6c71887522a1d66a653cd9c18891156463b03358fa7e7df20f2058715c1108c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MDA-sha256-e956a6e1ff83da18c771adaacacdf80f370c7a22468415dc5546b9eaab260d3b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MDG-sha256-e3903335914ec0db7bf6c28a81f6b6d1b30f131adbb663c0bb8ff670dd7a4557.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MHL-sha256-fe1a8c9c754e9d2b981303ce6789c94d542d2087af6b4f3828cd0da9406d287d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MKD-sha256-9cb3a9ef9dddf8f024d01e8aba3dd950f7fa0113ebf8d6a6de5ee7520707d2f7.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MLI-sha256-1426abf44f4d39f8d9570ea09c527a61c8e6912237a1f566735d210bb5fc4b5b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MMR-sha256-911edb953e6afc6a8b2b50ff1d396440f4bad51df39805d22d49c0fd56982aa4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MLT-sha256-72dff32f71cd47f2fb950a9f4e3133948e92db8209bdec81bc82d7e71dc3c5cb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MNE-sha256-e3ec6615b756e5e25f41a197f91104f4df4a8a0534f743d5c98f205212079a75.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MNG-sha256-997c793d074fdc144383bd6e44ea79ccb476b1b9fc60aff5439397f3428ec7fd.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MOZ-sha256-8cd862f1d17f952a4c717ec752ea6a218525cf50f19b09402e6462ae9000faa1.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MRT-sha256-438141c949d128d2e74e53fd036080f69eb5c1a2e439cb10cc9720f0d056ee31.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MUS-sha256-f70d5e9e51292d8e098a93c4de8156c3dcecb8b27915cc689e84414946987494.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NAM-sha256-d0952fdd33c5f5ad323e2aae1b761db2e609b013d41cb60462523a1b14554282.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NER-sha256-ee1c62666d9f6da6d4763e37422a0590766aaf7e124ec6e7de7a079b480128d4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MYS-sha256-3d19c5e6565082e5b6e2bc19b08c27eb7f93468304259e4b68fbe9002c316d2f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/MWI-sha256-70457bbe0d3a2d5f3ac298b878fbacd4931859a935121d2d7f4f94aa3b254c9c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NGA-sha256-de04e246d1dad3163ad5237dee49ebdd0180f516d30964fd53b93a20bfd58a0a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NIU-sha256-16383fc95110316f9e33f4e1cf242db441b09b282d1a1d21db40b452b0b361cc.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NIC-sha256-193998ce4a38264f6b99b5468481cbc28b5ef5451d9f670feabbd92adbf71bf4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NLD-sha256-e5cfa27b842dddb3c88f79cb5e8919815af76f86cc51a2738198be1382c1cca8.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NOR-sha256-65d03f7d1217e24d0dd6842e8c616979ad40056d79a3f2516addf02306147d0f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NPL-sha256-741733d8cd46ad71aa905309b9163bbd3b44dfbab325dac60bd2f51fc9ba65ef.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NRU-sha256-ce95ed3d9f249f6d3f12811d2b63d40e4cf6b1616c70fe6216ae49bced556977.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/NZL-sha256-b223258ea0b96a7dfdf9da6a65d7b02ca6837efaf546ecf64dc124cca68121b6.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PAK-sha256-44e0e06deb46abcef9f853b8579848f201e37039ff11a0ef83b85c50884676e4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/OMN-sha256-812f4bb1f9e5ad8aa66e89d53b390dd49c7302225800b7fb85c4815df1a5c8d5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PAN-sha256-7522af2f0d29ffd64ae8017a060c682b9a0ffdb9051de5c94708d457b964a43e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PER-sha256-c8986247ed82617387da8368ab673fdd7280ba65eedcfa0ba08601c6f2c8c3fc.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PHL-sha256-8ff9ad24b154d19b93edf3e3d1c5af78507843a0f2942c785f19e1a6507db9c5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/POL-sha256-2a351ff78d6b260f9a56656b8957a0af0146cf3e94b99c8aa1559f776ece6fdd.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PNG-sha256-54f9c1f74964946b909c31942cc0b866e99cb7bb9eae8a2e183902da315353cf.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PLW-sha256-2cda2cb69ab53adc6dd953e6a09248b1d99b39413f292ae444779e416c03de24.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PRK-sha256-664dd593b804bd318fa92477ca37eaa879e1cbd580a707ede71e217b3410777e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PRT-sha256-4663f3d05204071bdb7de9f9770c3c68b0c288d7c0497d591a1530fd58c632fa.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PRY-sha256-3cb53f1224d99c8c1afdfbc8add9360fc6b887896e33a58570fcfff94f3ff84c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/PSX-sha256-8a2180d30565e333504694895608c7c33a9aeaa7fb16f8c8c186c1d60cdf3f59.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/QAT-sha256-593bea56aa9ab0afda7eee49ac21839a63ed7d3126caea067c2f046f2ab998af.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ROU-sha256-3f83259aabd664cd5c63f7c06846620ea9db07cdfbe382ac5f03b06f2947110a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/RWA-sha256-cb0207795ebb1aae960974b8343df0b440629b3120fd6c2e0eb0c53e70a26b03.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-bedcbef13878857c29af6a31f8c8c428ad84a1a5d91d70daef5cfd7591f80c3b.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SAH-sha256-fd80dc88a61d41939c88f91714d5429f3cd3f17b94a263c68434db9106058910.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SAU-sha256-6cdfc6d3ea86c4aeba6c427875b373e777ac3b514f710b3b257a76dd53280f27.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SDS-sha256-0d1aa50ba59810228bae38391a3c536d5cac98e0e49adeb1883b9d0ae87c72af.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SEN-sha256-ce969a939bbd33d33d6e5eb8d3ed6324a720fbe32d066e51edc1164d172cf8ba.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-4a7382e03cd5b27eb63c7550010fd010334d1c8dd6441085ba390b3cd2750deb.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SGP-sha256-e14f3468e0ca919d220a6a0185456c22dc5ec245764a48674d7e599b7c5cfdde.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SLE-sha256-c6a97e6881add2d1e60889c01fe2fc9eeb2023617136edf7715bc5a16f31ed3e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SLV-sha256-8f260b03a6d8504e06f529b56eefae3d146f02debaf5d2774ebc096d87526da9.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SDN-sha256-5d0e2fed8df318313ff7444af942231022025086e1e812c4b091c8b6d174e9a3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SLB-sha256-5bf1df8bcfabfaa6065606d21ea82a44c8f1853808b7af00a177f32ec0f86c0d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SMR-sha256-3574acff1a027abcd3376268c92cb737ac39ecb6724c68fe3825b9607927486a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SOL-sha256-cd2e7e50e872ac302ac972dd8af042d7a74d46c914163c4ea3c3638ec0233219.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SOM-sha256-39fb23dd5036d213c71d7df124c0fbd875e6b48e5b12810f277680a9f0037c74.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SPI-sha256-2f84e910d16fffa81c43e4e030e1b54520853d9ed09ebad37c3b9b8f5deac8b2.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/STP-sha256-36ea72c0a854e5ac742f98548be7eebb47e3b8e2ed8f528438e8318a66ab3e64.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SUR-sha256-e8f8375861efeb2df632e26405d7a322aede523a34b092fd6300f1bdd22f3aa3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SVK-sha256-b8c11ec42577851741853b79145283b1092df5af85f37253ef7d85f202f84dfb.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SRB-sha256-8d6ee86b68b8505d6e9777a1f9f58635e7ded9333e4682996f77aa171e6583c3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SVN-sha256-efc4bc360f7fbe250542a795e8c6d3954e0f6e220d75d1d42dd390b10184229f.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SWZ-sha256-ff84984304852c51e7a0e95cbee8609ce272a83fb99828df36e25615ef0ba401.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SWE-sha256-5ec8fa3c96304c5e6e0e9d24747b1652975e300acc1544aef48beff8e089094b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SYC-sha256-1bb39124c8b599191598fdf49f56a2388d22f14648790bb10ad899059b76b06e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/SYR-sha256-96dbe867ed053a15f5522c81966efdd44082b5c01eb8eec4ebccee10a1177442.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TCD-sha256-98e79a1e8999f647080eee6de55d360d976e85783933f090402895d1699df4be.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TGO-sha256-8021fe776353f5329ee492a86f6819b4c4ad7be7bac01c723a4224cfe31bd81e.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/THA-sha256-e2784673ed707225fb53fb9578d29db542fc696b3a285a0663847423582301f6.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TJK-sha256-6890a4a487535c852ede6223174e78ac3c40c4b9957434de47f304cb813dc6ef.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TKM-sha256-af8df57034ab3ee77262afda6ba739de09f88625b92317faa71ec781b249632c.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TLS-sha256-d94f7a9d9548dde153a3e3ab624b176334180740c1df10e5eafdbdc6d6b09936.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TON-sha256-c4fe3190a79e1adfc386fad0aeb2a8381e6876a5aa74dd75dbefb7a43d78a925.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TTO-sha256-2ac10c636d1c6104d002733f82dc847216d2755acd0af2dca58b5fee42b4206a.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TUV-sha256-74a211e6346d7b7d349bc6b9fe99125fa57e664c7f796e25cf7f9935e43fbe93.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TWN-sha256-c4d471675d07922a52d5a524a4f0d701b821d7a684361de4d66955ae9e0a62e4.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TUR-sha256-13d4aba7e724627ad8ffc5c389e96a45e4dbc97231a233d088312a94d858aedf.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TZA-sha256-fd2165a87d8c7ab4f3189645398779c9fba869a8ce9339fed1c34f4f14e63726.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/TUN-sha256-770782118ec67c65058e5bb71888e4085b96f996c26ad9c7902da7604206d7b1.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/UGA-sha256-ebd66986c29bf32261b963629dd19addd782f6199979e110886be23ca4c12eab.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/URY-sha256-05701a7138516f985b77ca1016ff9709d141fd0b4ea9c72d07bbf28c17ccb86d.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/USA-sha256-0100249bcbdb4d4197d5693090fd258b1737fa9f63a46ae8fabba4156ff2e415.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/UKR-sha256-71d6d0736c61fc1206fb3877c496bcf5db51cecf51b75adde166b2f811584c55.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/UZB-sha256-052b40ea9d0dabed247391eb846b36dc24a49d5a44a3ea32fc11eb1ce88cd846.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/VAT-sha256-e0dc08d171e34c2e4eb452c874aaa49f6f3e019d7ce76ff508b36cefe703c589.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/VCT-sha256-097578d69fa626f5ebd5b13b2406ea1609123e4c6777f36c351a85774ae4d9c5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/VEN-sha256-a042c9a18e0d0dd7236d6975c34d6c1862b36ff4a1b9a33d2fafb343d5e347aa.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/VNM-sha256-1b5ddaa32169669e5003357cafad57b6a2edf32705edc200e8db273c07f7d7cc.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/VUT-sha256-293f6320de5639469611c00d2d076a475193b23a9d96fd0ad70ba9c415e6be22.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/WSM-sha256-f23561f485b1658bf6da663c15dfeea2cff0fd9e9f3791f9a7bbe04e2a81cec0.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/YEM-sha256-4784f0dfdbcec241bc8efd6f9d55c5a1ec0eec93383c428647613f34bfc9ebc5.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ZAF-sha256-a82688211af9fc44ef0cca1bda958dacd6f25124df21fac3e38988c7120d1ed3.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ZMB-sha256-e30c238392660c70a619fc472d2fe5dafe8509ff2395d9ba9c5fe8a56bd4bc55.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/ZWE-sha256-1889ffb2b40bd1b249c90c2081fa600e29bebf324362a1d2fb973232bf6cabff.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d9d4c5d5ecf0e30980a823a4d29b59931775e3b273da08255926b82d4c0c843f.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e2e12752943f1994749a44f4ae1198e419d5e6db13d149d7cd4fc103700cb6b6.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c8c8fc243a018f0cd0be202a126346542ec15163fa794746cb862e1c5d7e878c.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1ddfd518630c8c2902f3deb442eb1d270a944c0bb40cf1f537067d97b68b047f.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7037131020405d04321a6c51f95c69666031165b68c63df1c0574f2bebc8652d.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6c1d70d6fe88616645b82bd063114dc0efe313af0734b85ce5c03391503afb1b.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1e163ce8c0a517e60463914310add50b30622f1aaa44a1f23765929c328b190a.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-464d2b0eb06e5dd2f1de9aef3b5f76519ce26b79f6dfcf41bdaf355be02c094e.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-95101a59c46cb769ede4b3a13c4648d09b2b1f2fdfcf8a359ba844eed1295adc.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-06feb7c4994f0e05d9102db370d53d7baf66989cd2de16cf3f9100dabdcfa128.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-81449aa31e33169bf7bee424009508f035ce777aca0801cab7a139d298c39e43.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-03a82eb5f52d21b6ec88184c7f581b3bcee7d010a721e0beb91cbfbe9d647b4a.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a24c164b8bf9d4b35a4b907b82d1193c0669dbce0951ac563a5b7836e6596f68.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7f2c13a326838eb65c71344272d8359f2e33d9ad62e4d105010c9bfdff2df6c0.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e0cf35a0008a078b2768d8ab367cdf05811487360fea2d5b54a4e02efa1f4191.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-30a78da7fa2fe5d875a24f431aea960d901a83c564e96a4ccf589053c307233e.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2a7b119ebd1050895fe3fbec41b4bde803f46ab3036394222e7c542b1fe6fcf2.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-380f8898e3d2f47fa9cc1f8ff41200ac5ddca57bd9f706eedcdba1b9197a9c12.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0883a0702b67f3b54ce5ea7ca2d1851386b350e0e9b573005df036007e35bda4.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bf382163a144584a7a4aa33d6e609e8f489346b61e9871f27f71150943337055.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-70b1cbe6976409582f01316b0c25447e1ded6f06f390ef7345b338f9bcbba08b.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f6787c3334910cb54ed4ebe22d2b6193049c2ac1378deed40d03497f0377a932.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-879729a24b2fb2b7150473d53a3de5a267c5f586fcfeb68ebce2dbd84229318d.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4a7a960db97de02d7ebcfcadc422bd1bf2032e0980778af787904327eeb004cd.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-51cc07c54c9de00c3e085c6f15f438696f4abfdf99ae5f760ba62b7f1c344fec.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-97d18858f328ad0ebfec75b7521d7862bd7b13d33f2bf6bad1c68ec81ac19abd.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-692c832e100040acc602a1b9011b19d8b4038d972d8605e972a9a288392f2b86.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-02a3200a0b63d1de79b4d89265db90834ac5650350e63c12bea2d57a14fa2cd3.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-71ab12988080c5fe32831bf0ae578ed278fdbe62459ec97188b314fefe094c85.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4735b893c0fd6c6867bec5a20baeba03d67888d5a161783649bfa4675f02f517.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5ca9d5f33b31635429ab092905423aaa6fdcbe72e1943cc58da0d4fc512392fc.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-483c1472cf568f0ea67cca5a897576f4e25e1884b6966959ad7be103dc2b3026.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bfff998af8fe6b2e59459b2ab3af8e1aa19d957fa7074d0b540c23f23add1d44.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-842a05bde47d059615c889189bb55cc6d3f38182f1086ed8464ca43159d70b36.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-dce2dba8c7fae224fcf0b7e75187cbe6b606b718e1ef84f310cb32ad71a74745.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/state-czechoslovakia-sha256-42e87318d4ba9be58301552dc58d0f76332938ed7258f778ab6ea26e916d0a57.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-071b952701335afd76ceeab14b153b10b2ca41060817b1b5f7b6761166235144.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-2858ddab6be4ca393009317bb3158d2d9c4947edd29d1c951060915475abeb42.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-89da3d07a331007cb60272e831cce19834d23f1eec833033e7e878519a58889b.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-d737d58d4d870ebd53cb9102b6d16a731c3f5154ca0f3a35bd27d94d7003b883.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/countries/state-yugoslavia-sha256-7e9442eb3e8a1bcac1559fae275ad33e210c4bce6fe6e4cb91782f0db3e53319.json.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-9d76c76cf5e51550ff9eb4cb302e9aa6ddb07be97cc2492d013686170fa1a153.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-12d3038852c64c90debb010246f4e829c7b3f97b274a824336dfec0d17726bff.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-e2ecb9b2d925a3c40591136655a102ac28562bc2a5d48ac3834b18e8fb180dce.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-daa731dbc1e7f10445253d6fa4e27ab24644a128e81fbc6a77a5c5e188d79510.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-4f657fef112111181ce29e235a964534672edaaf79180672a96359910eaee17e.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-13eaffb3c11432b0d15339ba539f5a175ece06a232589067224940b1b51dc9f4.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-86f31e229daace30e392aa1fb06f92c7d2c68a06c4dc3d6410ddf8350e7bd861.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-d9010f42457fd8b2a26163a20ef4f7ece1ea30af6b40da50d1ccaca50c70ebad.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-c8b1704b300b706d4a6dcaa899cbcba7e278bf0eecf5711c64445489a957e5ed.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-f35015e44e186b3711acf3dc9c41091a299990d80623d978a22449ef02a6f3e0.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/builtin-world/generated/v1/country-parts/sha256-256ba0b0991645393816e34a268cc5c4e55139a2a10116e3a467affbd1cdc442.bin",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-777cfb1d86270f2e830cb6945e0209fa92dfc2781e776765e0fb3d7d19dbcdcc.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-47124127b3647fa55c103b85790b153c046a024af40a069041363132b83ab972.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9476ef49f06baa55dca8a35c16ce83de59f6ae53c3503b9cc290c45ab50ef8f2.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4d68aa7a9bda5d39faf5435523e05784467bf0804635cb7fffe02688d7be558d.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cc4fce8e23797c843ae6edc11ab7710f35f8c3ed4a7e67833ebc94485a7f51b6.bin.gz",
+      "status": 200
+    },
+    {
+      "url": "/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b04dc706adae5039f87f02427b2b242ce2832ba6cb566d04da1124f2d49c8360.bin.gz",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "finishedAt": "2026-11-05T01:29:44.095Z"
+}

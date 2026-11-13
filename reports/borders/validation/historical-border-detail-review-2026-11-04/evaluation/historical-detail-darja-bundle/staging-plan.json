@@ -1,0 +1,143 @@
+{
+  "schema": "pando-local-darja-inclusive-candidate-v1",
+  "status": "staged; preparation and final scope audit pending",
+  "bundle": "D:\\dev\\worktrees\\gis\\build-native\\territorial-recipe\\historical-detail-darja-bundle",
+  "activePin": "c1d25c3f4e2b139fd043a919e411f4a7825f2ecc",
+  "producerLocalCommit": "52725b98fedcdfead55f0affc7cdec458d25e8b7",
+  "preparedOwnerSourceSha256": "5c3d8c984577aa2a3109b3df8b68ab8d5028fc2638369dbb1f1de77a230e4af6",
+  "originalInputHashes": {
+    "historical-detail-darja-integrated-native-candidate.json": "38f08aeac5ebb1d612da8dadd926bbda5b6dd42a2240e5b3b772d31fc16c6243",
+    "historical-detail-darja-integrated-compiled-candidate.json": "38a2ed17bd3ccd98d53cb17f0a6678f7083b660bcc2fc4b1b285c465b4776aae",
+    "historical-detail-darja-physical-exact-splice.json": "401e989bca630ed2600e4be64c10bb4bb657688487a1b8f26e40ae29c91eb082",
+    "historical-detail-reviewed-staging-plan.json": "5068e21040eea50914e080e4fde952e9cd41efdac74c3704e95eec7b5e867421",
+    "assets/data/prepared-polygons/generated/v2/manifest.json": "e888294beba48cb13b394cec72b2b1facf2940b45ed3389e61a45a20dfe01d87"
+  },
+  "sourceEntities": [
+    "state:soviet-union",
+    "state:soviet-union-russian-sfsr",
+    "state:soviet-union-byelorussian-ssr",
+    "state:IRN",
+    "state:soviet-union-ukrainian-ssr",
+    "waterbody:caspian"
+  ],
+  "nativeObjectChanges": 6,
+  "nativeLibraryIndexHash": "3ce0f10ee34679092e781fe916b81f176c9ddd6b3a4a68896f3da7e89815436a",
+  "compiledCountries": [
+    "state:soviet-union",
+    "state:soviet-union-russian-sfsr",
+    "state:soviet-union-byelorussian-ssr",
+    "IRN",
+    "state:soviet-union-ukrainian-ssr"
+  ],
+  "countryVersionChanges": 6,
+  "sourceVersionChanges": 7,
+  "preparationInputCountries": [
+    "state:soviet-union",
+    "state:soviet-union-russian-sfsr",
+    "state:soviet-union-byelorussian-ssr",
+    "IRN",
+    "state:soviet-union-ukrainian-ssr",
+    "state:soviet-union-transcaucasian-sfsr"
+  ],
+  "countryMonths": [
+    "1922-12",
+    "1925-06"
+  ],
+  "physicalMonths": [
+    "1922-12",
+    "1925-06"
+  ],
+  "versions": [
+    {
+      "sourceEntityId": "state:soviet-union",
+      "sourceVersionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "nativeDigest": "2d0734f946edb554b5c77eedba982f557a8ca68fb2cf64300bb595f33951f97c",
+      "compiledDigest": "41be3c589a33f8c30525c339050b62b3ebd53600415178b809db5193cf321d93"
+    },
+    {
+      "sourceEntityId": "state:soviet-union",
+      "sourceVersionId": "state:soviet-union:1922-1991-baikonur-r1-after-reviewed-day:caspian-1925-05-13",
+      "validFrom": "1925-05-13",
+      "validTo": "1929-12-31",
+      "nativeDigest": "2953e5b3baf11b4b6713a6118af61bc3ab2941bce1b328fda75852d859eca584",
+      "compiledDigest": "2953e5b3baf11b4b6713a6118af61bc3ab2941bce1b328fda75852d859eca584"
+    },
+    {
+      "sourceEntityId": "state:soviet-union-russian-sfsr",
+      "sourceVersionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "nativeDigest": "0d7df4440a8aa0380bf364537d03aa87774df35082d3998d7538732744e92074",
+      "compiledDigest": "114175c508922f855adf7e67115c8cdb926e577b43aa31bbf190b7a52df38d49"
+    },
+    {
+      "sourceEntityId": "state:soviet-union-byelorussian-ssr",
+      "sourceVersionId": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "nativeDigest": "e7058b5f3d45407a32f9b197920d016e65b6d972772db81d503e0897d8558efa",
+      "compiledDigest": "e7058b5f3d45407a32f9b197920d016e65b6d972772db81d503e0897d8558efa"
+    },
+    {
+      "sourceEntityId": "state:IRN",
+      "sourceVersionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "nativeDigest": "edd0f60799e29f9fd303277666fba7934edb066b70cd8ad2f73cd0ebf59a5168",
+      "compiledDigest": "bc9b10118b8f453df7c432cc70d0b6cff1cf8a3c7ab2b5d26d5126b5ed820629"
+    },
+    {
+      "sourceEntityId": "state:soviet-union-ukrainian-ssr",
+      "sourceVersionId": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "nativeDigest": "6676fac20ae1f743343a06114b1b79c62b3d853826101d139632094942e838d1",
+      "compiledDigest": "6676fac20ae1f743343a06114b1b79c62b3d853826101d139632094942e838d1"
+    },
+    {
+      "sourceEntityId": "waterbody:caspian",
+      "sourceVersionId": "caspian-near1922-approved",
+      "validFrom": "1922-01-01",
+      "validTo": "1929-12-31",
+      "nativeDigest": "6719bd380c1a5d96b4369232a22078b056881766159af6e9761f87a4efb9dc4a",
+      "compiledDigest": null
+    }
+  ],
+  "compiledFiles": [
+    "countries/state-soviet-union-byelorussian-ssr-sha256-6c60f87a2ee2c156c6c71b2d3c1b8177d7a77541313d12698b4bb5abadeb713d.json.gz",
+    "countries/IRN-sha256-09789f11cc2921ad83fc57ccc0b341b4604c68569d0e29703c7b3d22a57e7f5f.json.gz",
+    "countries/state-soviet-union-ukrainian-ssr-sha256-3288dc99aeb558df176dc9b991324077735328b51881cc9296a7ad08ffd2a923.json.gz",
+    "country-parts/sha256-6c93618b83b13252b6e3b03f2e8d8a4661ad618e89fde29e52f21d56077a453e.bin",
+    "country-parts/sha256-0136666273b418c7f96e457fff3f964aa48c3df72af536643adbba91f8475a3b.bin",
+    "country-parts/sha256-255e66cdf75cc659d0fcb3264ed494e8cd12d2af87bccbe357da5374c55128cd.bin",
+    "country-parts/sha256-11985c5d018365673c5232aff300ebf84bd22470e501c530be87308840d9bce5.bin",
+    "country-parts/sha256-6beccc55a3e1911aa84615d13c02bfaf6cb81059f38ef07e2b28d6c7f4304586.bin",
+    "country-parts/sha256-745784306e00c96da6cf3f84ddb8be436b455dcaeae676853d7950ddab1fff03.bin",
+    "country-parts/sha256-30c353edd833c51cb7a53d2849abcdbb98ad24de01c13830db87400687b389b5.bin",
+    "country-parts/sha256-91716b4ac8741f56fad973117a98f736304a84576aa83f746b8d499b6bfca10c.bin",
+    "country-parts/sha256-39a089ca554ee2a33f67e3868dda640a313a295bb9afd7afd1f2e319a64656c3.bin",
+    "country-parts/sha256-8587bc4a0da2d9772477a11ae9163a0fe22f8ce39648184d21a40ffa9587cb6b.bin",
+    "country-parts/sha256-dd5ba12ef62e88a5d2a1baedca77eae2089ad2ca1adba1e899357c81a0cd5aee.bin",
+    "country-parts/sha256-0f04498ce5042e9629a35c4c6d5e8b0115e7e310a48d20e029c96bb3e8a306fc.bin",
+    "country-parts/sha256-8de9146ebf7bbeb729c0c055494c3edf72dc7b2fa0a12385fe83a2dcfb5a2f13.bin",
+    "index.json"
+  ],
+  "physicalFiles": [
+    "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz",
+    "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+    "assets/data/physical-land/v1/manifest.json"
+  ],
+  "physicalRefChange": {
+    "before": {
+      "id": "waterbody:caspian:restored",
+      "version": 1
+    },
+    "after": {
+      "id": "waterbody:caspian:restored",
+      "version": 2
+    }
+  },
+  "noActiveRegistrationOrStore": true
+}

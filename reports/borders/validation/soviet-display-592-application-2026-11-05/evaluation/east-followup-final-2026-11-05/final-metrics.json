@@ -1,0 +1,1784 @@
+{
+  "status": "projected shape diagnostics; not ground accuracy or complete semantic certification",
+  "hash_contract": "uint32BE count followed by lon/lat float64BE per ordered coordinate",
+  "rows": [
+    {
+      "feature": 2,
+      "original_points": 74,
+      "baseline764_points": 67,
+      "conservative_points": 60,
+      "final_points": 43,
+      "selected_cap_m": 375,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 361.0864325856831,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 354.4642472277682,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 360.9002521483732,
+          "final_to_registered_sampled_max_m": 358.4038403496402,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 360.9002521483732,
+          "final_to_registered_sampled_max_m": 358.685994165158,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "004a4b5a2a26a015d868892e1a1c3f4b9b25dba7c785571aa1f598cc6d11a75c",
+      "final_chain_sha256_binary": "fa533591d5bed8199333900f1de92846b1d6beff12aa5670833ae969fb3517cf",
+      "keep_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        22,
+        25,
+        26,
+        27,
+        36,
+        37,
+        40,
+        42,
+        43,
+        48,
+        50,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "newly_removed_route": [
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        39,
+        46,
+        47,
+        59
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [
+        41,
+        49,
+        51
+      ],
+      "categories": {
+        "direct": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 28,
+          "surviving764": 28,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 9,
+          "surviving764": 6,
+          "newly_removed": [],
+          "prior_omitted": [
+            41,
+            49,
+            51
+          ]
+        },
+        "broad": {
+          "registered": 23,
+          "surviving764": 23,
+          "newly_removed": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "prior_omitted": []
+        },
+        "technical": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 43,
+        "km": 31.621918406851286,
+        "points_per_km": 1.3598162972517034,
+        "median_spacing_m": 299.8258923306781,
+        "turn_deg_per100km": {
+          "1000": 2106.9155107212327,
+          "5000": 647.7218735948779
+        }
+      },
+      "modern": {
+        "points": 7,
+        "km": 23.327417125542887,
+        "points_per_km": 0.30007608482017456,
+        "median_spacing_m": 3475.7978630443945,
+        "turn_deg_per100km": {
+          "1000": 700.4705462106356,
+          "5000": 581.5747794267073
+        }
+      },
+      "detail_ratios": {
+        "density": 4.5315717114431004,
+        "turn1km": 3.0078573926043006,
+        "turn5km": 1.113737900108694
+      },
+      "hold": null,
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=37.44853738138731 +lon_0=75.0785966087213 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 4,
+      "original_points": 66,
+      "baseline764_points": 65,
+      "conservative_points": 62,
+      "final_points": 52,
+      "selected_cap_m": 125,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 117.75987716889065,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 117.75987716889065,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 117.52259273594203,
+          "final_to_registered_sampled_max_m": 116.623458794389,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 117.52259273594203,
+          "final_to_registered_sampled_max_m": 116.8519031974413,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "aab877556e452893c836da5ce5001d4d05777347e6767d73c81779ca715987f5",
+      "final_chain_sha256_binary": "154722e45959e79ad637fa1915eecb2e9d8e3656cc85d0e97da025902a484601",
+      "keep_route": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        29,
+        33,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        65
+      ],
+      "newly_removed_route": [
+        24,
+        28,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        42,
+        63
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [],
+      "categories": {
+        "direct": {
+          "registered": 3,
+          "surviving764": 3,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 25,
+          "surviving764": 25,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 26,
+          "surviving764": 25,
+          "newly_removed": [
+            30,
+            31,
+            32,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            63
+          ],
+          "prior_omitted": [
+            4
+          ]
+        },
+        "technical": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 52,
+        "km": 38.04157267651652,
+        "points_per_km": 1.3669256116769368,
+        "median_spacing_m": 555.6600815907111,
+        "turn_deg_per100km": {
+          "1000": 2668.2222908635968,
+          "5000": 473.5148157637815
+        }
+      },
+      "modern": {
+        "points": 16,
+        "km": 37.4660434499619,
+        "points_per_km": 0.427053366907262,
+        "median_spacing_m": 1862.016420965247,
+        "turn_deg_per100km": {
+          "1000": 471.23895530467655,
+          "5000": 296.600433379447
+        }
+      },
+      "detail_ratios": {
+        "density": 3.2008308974971165,
+        "turn1km": 5.662142870040263,
+        "turn5km": 1.5964737824843442
+      },
+      "hold": null,
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=37.644769145458966 +lon_0=74.94969449527025 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 8,
+      "original_points": 44,
+      "baseline764_points": 40,
+      "conservative_points": 36,
+      "final_points": 33,
+      "selected_cap_m": 250,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 256.4338129091561,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 207.6186579395016,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 255.90774312403738,
+          "final_to_registered_sampled_max_m": 249.42713063202498,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 255.90774312403738,
+          "final_to_registered_sampled_max_m": 251.13533348567665,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "e60eb0f30d25ce8cad99e12de77bfc9b8cf668b057ced0e474a3e9cd7ba1b967",
+      "final_chain_sha256_binary": "29f202120587ec0ea543161bc12f216f043b1a71a288dd0c956687479d31304a",
+      "keep_route": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        37,
+        38,
+        41,
+        43
+      ],
+      "newly_removed_route": [
+        2,
+        26,
+        27,
+        33,
+        36,
+        39,
+        40
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [
+        12
+      ],
+      "categories": {
+        "direct": {
+          "registered": 2,
+          "surviving764": 2,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 25,
+          "surviving764": 24,
+          "newly_removed": [],
+          "prior_omitted": [
+            12
+          ]
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 13,
+          "surviving764": 11,
+          "newly_removed": [
+            2,
+            39,
+            40
+          ],
+          "prior_omitted": [
+            4,
+            42
+          ]
+        },
+        "technical": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 33,
+        "km": 31.734960025907796,
+        "points_per_km": 1.039862661653251,
+        "median_spacing_m": 805.1333553119848,
+        "turn_deg_per100km": {
+          "1000": 2401.757931770737,
+          "5000": 534.4867933520093
+        }
+      },
+      "modern": {
+        "points": 16,
+        "km": 28.542379356840698,
+        "points_per_km": 0.5605699440808991,
+        "median_spacing_m": 1006.9582050751804,
+        "turn_deg_per100km": {
+          "1000": 1039.4938327813675,
+          "5000": 504.27102497897306
+        }
+      },
+      "detail_ratios": {
+        "density": 1.8550096604950734,
+        "turn1km": 2.3105071487960323,
+        "turn5km": 1.059919699677958
+      },
+      "hold": null,
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=37.89472727041869 +lon_0=74.95340695239607 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 12,
+      "original_points": 212,
+      "baseline764_points": 187,
+      "conservative_points": 117,
+      "final_points": 116,
+      "selected_cap_m": 250,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 249.67900018743447,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 249.67900018743447,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 249.59130769379718,
+          "final_to_registered_sampled_max_m": 238.0583152729519,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 249.59130769379718,
+          "final_to_registered_sampled_max_m": 238.0583152729519,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "ee55cc1d604d205096e9a2ce418d3cb3a4088d2367f55eda6474432258eb184b",
+      "final_chain_sha256_binary": "0bc0c3af54a953c23a1c478b43fce7d0d54c1a62cb10efa9e2a202d2df06736f",
+      "keep_route": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        47,
+        48,
+        51,
+        52,
+        53,
+        54,
+        55,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        79,
+        89,
+        91,
+        93,
+        94,
+        96,
+        99,
+        101,
+        104,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        127,
+        130,
+        131,
+        132,
+        137,
+        138,
+        139,
+        143,
+        144,
+        146,
+        152,
+        155,
+        156,
+        158,
+        162,
+        172,
+        177,
+        180,
+        182,
+        187,
+        188,
+        190,
+        193,
+        195,
+        196,
+        199,
+        201,
+        203,
+        206,
+        211
+      ],
+      "newly_removed_route": [
+        2,
+        3,
+        4,
+        32,
+        45,
+        49,
+        50,
+        77,
+        78,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        95,
+        97,
+        98,
+        100,
+        102,
+        105,
+        106,
+        107,
+        108,
+        125,
+        126,
+        128,
+        133,
+        134,
+        135,
+        136,
+        142,
+        145,
+        147,
+        148,
+        149,
+        150,
+        151,
+        153,
+        154,
+        159,
+        160,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        174,
+        175,
+        176,
+        179,
+        181,
+        183,
+        184,
+        185,
+        186,
+        192,
+        198,
+        200,
+        204,
+        205,
+        208,
+        209,
+        210
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [
+        20,
+        26,
+        56,
+        64,
+        90,
+        92
+      ],
+      "categories": {
+        "direct": {
+          "registered": 2,
+          "surviving764": 2,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 80,
+          "surviving764": 74,
+          "newly_removed": [],
+          "prior_omitted": [
+            20,
+            26,
+            56,
+            64,
+            90,
+            92
+          ]
+        },
+        "broad": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "technical": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 116,
+        "km": 116.53800674062408,
+        "points_per_km": 0.9953834224930453,
+        "median_spacing_m": 790.6210110887105,
+        "turn_deg_per100km": {
+          "1000": 2555.5180284339376,
+          "5000": 570.1285242002717
+        }
+      },
+      "modern": {
+        "points": 30,
+        "km": 93.9788426075136,
+        "points_per_km": 0.31922078595168296,
+        "median_spacing_m": 1992.5155578071867,
+        "turn_deg_per100km": {
+          "1000": 427.4806975559722,
+          "5000": 294.91760366730864
+        }
+      },
+      "detail_ratios": {
+        "density": 3.1181660665534037,
+        "turn1km": 5.978089871763931,
+        "turn5km": 1.9331790205491555
+      },
+      "hold": null,
+      "limits": "New upstream bounded original-pixel review windows, not replacement authoritative hydro mask; outside windows not certified dry land.",
+      "projection": "+proj=aeqd +lat_0=38.43469307947366 +lon_0=74.5404085152193 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 27,
+      "original_points": 21,
+      "baseline764_points": 19,
+      "conservative_points": 17,
+      "final_points": 14,
+      "selected_cap_m": 312.793797,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 259.33241770396774,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 259.33241770396774,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 256.6170492519202,
+          "final_to_registered_sampled_max_m": 235.9489803329499,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 257.5052548772132,
+          "final_to_registered_sampled_max_m": 239.41356173655817,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "4d88c3b6974790f2fdbcb64366ac5486c0f37a50be2fb2ca11eb08edf6f639e6",
+      "final_chain_sha256_binary": "6ed0898b33eb525f6488397985b5d8ad14b68984aae8d21de3029a9388d61353",
+      "keep_route": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        20
+      ],
+      "newly_removed_route": [
+        2,
+        5,
+        7,
+        9,
+        15
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [],
+      "categories": {
+        "direct": {
+          "registered": 6,
+          "surviving764": 6,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 1,
+          "surviving764": 1,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 17,
+          "surviving764": 15,
+          "newly_removed": [
+            2,
+            7,
+            9
+          ],
+          "prior_omitted": [
+            18,
+            19
+          ]
+        },
+        "technical": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 14,
+        "km": 13.921714125868276,
+        "points_per_km": 1.005623292751448,
+        "median_spacing_m": 1207.4865075540517,
+        "turn_deg_per100km": {
+          "1000": 2303.056343810258,
+          "5000": 427.2433811017147
+        }
+      },
+      "modern": {
+        "points": 3,
+        "km": 11.570244097794042,
+        "points_per_km": 0.25928580025135106,
+        "median_spacing_m": 5785.122048897021,
+        "turn_deg_per100km": {
+          "1000": 64.98016503212233,
+          "5000": 59.62070593033657
+        }
+      },
+      "detail_ratios": {
+        "density": 3.878435655853884,
+        "turn1km": 35.44245144147855,
+        "turn5km": 7.166023522112007
+      },
+      "hold": null,
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=39.291637985960165 +lon_0=73.6021168212844 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 35,
+      "original_points": 60,
+      "baseline764_points": 56,
+      "conservative_points": 44,
+      "final_points": 37,
+      "selected_cap_m": 250,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 263.78090564472933,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 231.58712597939467,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 262.3205447995462,
+          "final_to_registered_sampled_max_m": 241.15754654162114,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 262.3205447995462,
+          "final_to_registered_sampled_max_m": 241.15754654162114,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "bf6e5a39422fcf6038debd9d088439e4c242078be8d283c82b28e44cc340079b",
+      "final_chain_sha256_binary": "5465473c58b14d1854a9d160ef3920a4e8cc4671e3bc7427a1b5b8d871ba9c79",
+      "keep_route": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        19,
+        20,
+        21,
+        22,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        37,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        50,
+        53,
+        55,
+        59
+      ],
+      "newly_removed_route": [
+        2,
+        6,
+        9,
+        11,
+        17,
+        18,
+        23,
+        24,
+        25,
+        35,
+        36,
+        38,
+        40,
+        46,
+        51,
+        52,
+        54,
+        56,
+        57
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [],
+      "categories": {
+        "direct": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 13,
+          "surviving764": 9,
+          "newly_removed": [],
+          "prior_omitted": [
+            16,
+            32,
+            34,
+            58
+          ]
+        },
+        "technical": {
+          "registered": 10,
+          "surviving764": 10,
+          "newly_removed": [
+            2,
+            6,
+            9,
+            17,
+            35,
+            38,
+            40,
+            57
+          ],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 37,
+        "km": 57.087185178571445,
+        "points_per_km": 0.6481314481395821,
+        "median_spacing_m": 1340.2018796682669,
+        "turn_deg_per100km": {
+          "1000": 2759.7363403492373,
+          "5000": 487.67931790851844
+        }
+      },
+      "modern": {
+        "points": 11,
+        "km": 48.87559607844513,
+        "points_per_km": 0.22506119377746403,
+        "median_spacing_m": 2980.2000824912175,
+        "turn_deg_per100km": {
+          "1000": 264.2995774914265,
+          "5000": 229.34806930321378
+        }
+      },
+      "detail_ratios": {
+        "density": 2.879800987727993,
+        "turn1km": 10.441697888975094,
+        "turn5km": 2.1263720221850795
+      },
+      "hold": null,
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=41.039038748089865 +lon_0=77.73316876961843 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 37,
+      "original_points": 83,
+      "baseline764_points": 56,
+      "conservative_points": 49,
+      "final_points": 43,
+      "selected_cap_m": 375,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 339.70844001829136,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 339.70844001829136,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 339.0044607048299,
+          "final_to_registered_sampled_max_m": 320.982273052693,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 339.0044607048299,
+          "final_to_registered_sampled_max_m": 320.982273052693,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "722317ac7f845c261e8b8ef615f8f287c79cbd88ee63524782ba8e1aa5896130",
+      "final_chain_sha256_binary": "839cbcf9f3255bf5095841ffcbcadabb7ad0decbdf7bec8e48ee5811bec451eb",
+      "keep_route": [
+        0,
+        3,
+        5,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        19,
+        24,
+        26,
+        28,
+        32,
+        33,
+        34,
+        37,
+        39,
+        42,
+        43,
+        44,
+        46,
+        48,
+        51,
+        54,
+        55,
+        56,
+        57,
+        58,
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        70,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81,
+        82
+      ],
+      "newly_removed_route": [
+        1,
+        2,
+        20,
+        22,
+        25,
+        30,
+        31,
+        38,
+        47,
+        53,
+        61,
+        68,
+        73
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [
+        40,
+        41
+      ],
+      "categories": {
+        "direct": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 4,
+          "surviving764": 2,
+          "newly_removed": [],
+          "prior_omitted": [
+            40,
+            41
+          ]
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 35,
+          "surviving764": 25,
+          "newly_removed": [
+            1,
+            2,
+            47,
+            68,
+            73
+          ],
+          "prior_omitted": [
+            7,
+            9,
+            11,
+            17,
+            45,
+            49,
+            50,
+            71,
+            75,
+            78
+          ]
+        },
+        "technical": {
+          "registered": 4,
+          "surviving764": 4,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 43,
+        "km": 63.713615516585975,
+        "points_per_km": 0.6748949914607532,
+        "median_spacing_m": 1400.5866999533275,
+        "turn_deg_per100km": {
+          "1000": 2820.999233656896,
+          "5000": 573.9877148565524
+        }
+      },
+      "modern": {
+        "points": 15,
+        "km": 46.14463301955644,
+        "points_per_km": 0.32506488877358475,
+        "median_spacing_m": 2102.1715992834415,
+        "turn_deg_per100km": {
+          "1000": 401.63037716495296,
+          "5000": 357.06209902146736
+        }
+      },
+      "detail_ratios": {
+        "density": 2.076185447179542,
+        "turn1km": 7.023869194282304,
+        "turn5km": 1.6075291004830032
+      },
+      "hold": null,
+      "limits": "Registered39/42 retained;40/41 already absent in764 and not reinserted in remove-only mode.",
+      "projection": "+proj=aeqd +lat_0=41.18431380816666 +lon_0=78.20841206419779 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 39,
+      "original_points": 20,
+      "baseline764_points": 18,
+      "conservative_points": 17,
+      "final_points": 8,
+      "selected_cap_m": 250,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 246.07054427994845,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 241.76923523490944,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 245.43851725661966,
+          "final_to_registered_sampled_max_m": 242.74217476736652,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 245.54618240487935,
+          "final_to_registered_sampled_max_m": 243.46912392995088,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "4cf549f0d5f019a95dac18ea5ba0575ca7f2ebe8cbaca2966a3ba57f58d2b0fc",
+      "final_chain_sha256_binary": "b605d22a5eeff0f673d77ae038e3e484ecb16916759fc12cf65a35770fbfdec5",
+      "keep_route": [
+        0,
+        2,
+        5,
+        8,
+        10,
+        14,
+        16,
+        19
+      ],
+      "newly_removed_route": [
+        1,
+        3,
+        4,
+        9,
+        11,
+        12,
+        13,
+        15,
+        17,
+        18
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [],
+      "categories": {
+        "direct": {
+          "registered": 3,
+          "surviving764": 3,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 4,
+          "surviving764": 2,
+          "newly_removed": [],
+          "prior_omitted": [
+            6,
+            7
+          ]
+        },
+        "technical": {
+          "registered": 13,
+          "surviving764": 13,
+          "newly_removed": [
+            1,
+            3,
+            4,
+            9,
+            11,
+            12,
+            13,
+            15,
+            17
+          ],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 8,
+        "km": 7.3181522440599815,
+        "points_per_km": 1.0931721195734156,
+        "median_spacing_m": 1120.7170730051246,
+        "turn_deg_per100km": {
+          "1000": 1992.0472258622406,
+          "5000": 262.36683881673656
+        }
+      },
+      "modern": {
+        "points": 5,
+        "km": 10.549483773023232,
+        "points_per_km": 0.47395684069260563,
+        "median_spacing_m": 2115.1429376369747,
+        "turn_deg_per100km": {
+          "1000": 708.8577879528248,
+          "5000": 648.4521096217553
+        }
+      },
+      "detail_ratios": {
+        "density": 2.306480307312232,
+        "turn1km": 2.8102212597751883,
+        "turn5km": 0.40460480415396627
+      },
+      "hold": null,
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=41.361785277212434 +lon_0=78.39235728598419 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 44,
+      "original_points": 53,
+      "baseline764_points": 35,
+      "conservative_points": 35,
+      "final_points": 35,
+      "selected_cap_m": 0,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 300.2775921626055,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 1.6077746776921858e-13,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 298.95618030983616,
+          "final_to_registered_sampled_max_m": 294.206429056747,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 299.7697677107415,
+          "final_to_registered_sampled_max_m": 295.1703565552752,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "92fd4cc560487ad2d6eb3f0a39a619459ceb4cc80b982f5e0980ca70c52a5870",
+      "final_chain_sha256_binary": "d7c4a6b6aea8047dc626fd9159cc70817e60c31c967d5eef67c4e17e45ea457e",
+      "keep_route": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27,
+        29,
+        30,
+        31,
+        33,
+        34,
+        36,
+        38,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        49,
+        51,
+        52
+      ],
+      "newly_removed_route": [],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [],
+      "categories": {
+        "direct": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 50,
+          "surviving764": 33,
+          "newly_removed": [],
+          "prior_omitted": [
+            1,
+            8,
+            9,
+            18,
+            19,
+            22,
+            24,
+            26,
+            28,
+            32,
+            35,
+            37,
+            39,
+            40,
+            43,
+            48,
+            50
+          ]
+        },
+        "technical": {
+          "registered": 4,
+          "surviving764": 4,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        }
+      },
+      "metrics": {
+        "points": 35,
+        "km": 51.629550995004266,
+        "points_per_km": 0.6779063409516507,
+        "median_spacing_m": 1307.3631022582179,
+        "turn_deg_per100km": {
+          "1000": 2296.615825983472,
+          "5000": 594.4746719458208
+        }
+      },
+      "modern": {
+        "points": 14,
+        "km": 54.31159389853526,
+        "points_per_km": 0.25777184934315783,
+        "median_spacing_m": 3486.7717107892763,
+        "turn_deg_per100km": {
+          "1000": 514.2105765734727,
+          "5000": 407.38582321128945
+        }
+      },
+      "detail_ratios": {
+        "density": 2.629869563643431,
+        "turn1km": 4.466294414415494,
+        "turn5km": 1.4592424136406392
+      },
+      "hold": "Supplementary ridge ranges identified; broader unclassified spans await bounded source-context conclusion.",
+      "limits": null,
+      "projection": "+proj=aeqd +lat_0=45.25110562538341 +lon_0=81.90994007978293 +datum=WGS84 +units=m +type=crs"
+    },
+    {
+      "feature": 48,
+      "original_points": 83,
+      "baseline764_points": 54,
+      "conservative_points": 47,
+      "final_points": 44,
+      "selected_cap_m": 500,
+      "projected_registered_vertex_to_corresponding_final_chord_max_m": 479.8772086140067,
+      "projected_764_vertex_to_corresponding_final_chord_max_m": 479.8772086140067,
+      "two_way_sampling": [
+        {
+          "step_m": 25,
+          "registered_to_final_sampled_max_m": 474.9765681398775,
+          "final_to_registered_sampled_max_m": 428.3460838998905,
+          "sampling_upper_bound_extra_m": 12.5
+        },
+        {
+          "step_m": 12.5,
+          "registered_to_final_sampled_max_m": 478.5721059063545,
+          "final_to_registered_sampled_max_m": 431.1220856835439,
+          "sampling_upper_bound_extra_m": 6.25
+        }
+      ],
+      "registered_chain_sha256_binary": "2879f4a68cdcc4d798ccc32e50ad9bb5b471c04fc55c3adaa11988a307ec4c86",
+      "final_chain_sha256_binary": "0e2c25484a932aca2990eabd8554606087e5fb0b58080ea88c1877091474ff2c",
+      "keep_route": [
+        0,
+        1,
+        4,
+        7,
+        15,
+        17,
+        19,
+        21,
+        23,
+        24,
+        25,
+        29,
+        31,
+        32,
+        36,
+        37,
+        38,
+        39,
+        42,
+        46,
+        48,
+        50,
+        51,
+        52,
+        54,
+        56,
+        57,
+        58,
+        59,
+        61,
+        62,
+        63,
+        64,
+        66,
+        67,
+        69,
+        70,
+        71,
+        73,
+        74,
+        76,
+        77,
+        80,
+        82
+      ],
+      "newly_removed_route": [
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        43,
+        44,
+        45
+      ],
+      "reinserted_route": [],
+      "hard_constraints_previously_absent": [
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        26,
+        27,
+        28,
+        30,
+        33,
+        34,
+        35,
+        40,
+        41,
+        47,
+        49,
+        53,
+        55,
+        60,
+        65,
+        68,
+        72,
+        75,
+        78,
+        79,
+        81
+      ],
+      "categories": {
+        "direct": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "hydro": {
+          "registered": 30,
+          "surviving764": 15,
+          "newly_removed": [],
+          "prior_omitted": [
+            13,
+            14,
+            16,
+            18,
+            20,
+            22,
+            26,
+            27,
+            28,
+            30,
+            33,
+            34,
+            35,
+            40,
+            41
+          ]
+        },
+        "contact": {
+          "registered": 0,
+          "surviving764": 0,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "broad": {
+          "registered": 7,
+          "surviving764": 5,
+          "newly_removed": [
+            5,
+            6
+          ],
+          "prior_omitted": [
+            2,
+            3
+          ]
+        },
+        "technical": {
+          "registered": 1,
+          "surviving764": 1,
+          "newly_removed": [],
+          "prior_omitted": []
+        },
+        "unclassified_hold": {
+          "registered": 35,
+          "surviving764": 23,
+          "newly_removed": [],
+          "prior_omitted": [
+            47,
+            49,
+            53,
+            55,
+            60,
+            65,
+            68,
+            72,
+            75,
+            78,
+            79,
+            81
+          ]
+        }
+      },
+      "metrics": {
+        "points": 44,
+        "km": 81.48858091167479,
+        "points_per_km": 0.5399529542389684,
+        "median_spacing_m": 1333.9559417638022,
+        "turn_deg_per100km": {
+          "1000": 1791.1590678292987,
+          "5000": 669.4243745046001
+        }
+      },
+      "modern": {
+        "points": 25,
+        "km": 70.24483000126004,
+        "points_per_km": 0.35589807818670155,
+        "median_spacing_m": 2226.473365244563,
+        "turn_deg_per100km": {
+          "1000": 642.8034655982631,
+          "5000": 496.8297077369376
+        }
+      },
+      "detail_ratios": {
+        "density": 1.5171561391677788,
+        "turn1km": 2.786480104245005,
+        "turn5km": 1.3473920018869892
+      },
+      "hold": null,
+      "limits": "Local hash-matched L45-08 SW pixels viewed: dashed boundary and several blue channels/pass labels coexist. Without exact crossing-index registration all surviving08 positions47..81 remain fixed;07U hydro13..42 also fixed. Only nonhydro outer glyph range may generalize.",
+      "projection": "+proj=aeqd +lat_0=46.938519758116115 +lon_0=84.94828002114636 +datum=WGS84 +units=m +type=crs"
+    }
+  ]
+}

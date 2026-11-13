@@ -13,3 +13,7 @@ Actual execution: stage-approved-592.mjs; prepare-approved-592.mjs; audit-approv
 Publication target:kimjeon-il/PandoLab-library-data work/gis plus Pando work/gis config/library-data.json. Main merges/refchanges/deployment are excluded. Actual successful data revision is the commit containing this scope and the pairedPando pin; preparation alone is notpublication. This work/gis evidence archive does notclaimreport publication tomain.
 
 Prior source/metric/visual evidence and checks are explicitly listed with hashes. OlderWest context panels remain labelledwiththeirolderEastcandidate; currentEast592figures and restoredPolandconnectorproof identify actualselectedshape. Space originalresearch and14followups predate764 anddonotrepresentthisapplication.
+
+## 보관 평가 근거
+
+[원자료·최종 평가·재현 근거](evaluation/)에는 해당 연구 당시의 원문 상태와 한계를 유지한다. 미채택·provisional 결과를 운영 채택으로 간주하지 않는다. 이 첨부는 선택한 평가 근거이며 전체 실행환경·지도·mesh 생성물 복사본은 포함하지 않는다. 재현 입력과 판본은 각 원문에 명시된 라이브러리 자료·불변 Git 원본을 기준으로 한다.
