@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: kimjeon-il/Pando
-          ref: 4972742b1c7a23abadc006b89dbdab7047163b9d
+          ref: 27a22a6b69a14b4266bf816cc2c2c6ae8e49b3d4
           path: .dependencies/pando
           persist-credentials: false
       - name: Check storage for the existing GIS toolchain
@@ -57,8 +57,8 @@ jobs:
         with:
           name: german-1914-modern-coast-candidate-${{ github.sha }}
           path: |
-            build-native/territorial-recipe/german-1914-modern-coast-candidate.geojson
-            build-native/territorial-recipe/german-1914-modern-coast-diagnostics.json
+            .dependencies/pando/build-native/territorial-recipe/german-1914-modern-coast-candidate.geojson
+            .dependencies/pando/build-native/territorial-recipe/german-1914-modern-coast-diagnostics.json
           if-no-files-found: error
           retention-days: 7
     env:
