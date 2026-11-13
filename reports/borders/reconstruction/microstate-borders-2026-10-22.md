@@ -13,3 +13,7 @@
 작은 국가를 축척 때문에 제거하거나 존재 자체를 일반화하지 않는다. 정확한 조약 경계·원측량 연대는 추가 검증이 필요한 별도 문제다. 바티칸의 LSIB 기반 약 0.497km²와 공식 설명 약 0.44km²는 다르지만, 이 숫자에 맞춰 임의로 형상을 축소하지 않았다. 개별 1:25,000·표석급 정밀 검증, 여러 시점의 픽셀 오차 추적, 중복 대상 후보·진단 스크립트·빌드 로그·캡처는 현행 라이브러리에서 폐기했다.
 
 주요 출처: [LSIB 11.4](https://geodata.state.gov/), [IGM DBSN](https://igmi.esercito.difesa.it/servizi/database-di-sintesi-nazionale/), [바티칸 공식 국가 지리정보](https://www.vaticanstate.va/en/state-and-government/general-informations/geography.html). 실제 운영 지오메트리·레시피와 일반 국가 위상 테스트는 이 정리에서 변경하지 않는다.
+
+## 보관 원자료
+
+소국 경계 조사 원자료와 출처 검토 자료는 [원자료 첨부](microstate-borders-2026-10-22/sources/)에 보관한다. LSIB 전체 다운로드 원문은 [한국 경계 조사와 공유하는 동일 판본](korea-boundaries-2026-10-21/sources/korea-lsib-11.4.zip.parts.json)을 참조한다.
