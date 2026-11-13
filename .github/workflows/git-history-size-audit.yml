@@ -13,11 +13,12 @@ jobs:
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |-
-            tools/data
-            tools/lib
-            tools/register-consumer.mjs
-            tools/git-history-dryrun.sh
-            config/pando-code.json
+            .github
+            tools
+            tests
+            scripts
+            config
+          filter: blob:none
       - uses: actions/checkout@v4
         with:
           repository: kimjeon-il/Pando
