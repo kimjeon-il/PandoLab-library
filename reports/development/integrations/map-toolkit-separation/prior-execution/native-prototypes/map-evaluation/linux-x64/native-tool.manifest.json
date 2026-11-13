@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "target": "map-evaluation",
+  "platform": "linux",
+  "architecture": "x64",
+  "revision": "3753fe6d39d0ee528d4de66013af093f1ad9d83f",
+  "sourceFiles": [
+    {
+      "path": "tools/cpp/map-evaluation/CMakeLists.txt",
+      "normalization": "lf",
+      "sha256": "12fc5d5b05d6d029c12a7bf8d69434a18fca371da1ea16232654a8933ca1a337"
+    },
+    {
+      "path": "tools/cpp/map-evaluation/evaluation.cpp",
+      "normalization": "lf",
+      "sha256": "063b35e4bc37bd02f46c5183980603c37a2d78e68a2a26eb09515e4679ee005a"
+    },
+    {
+      "path": "tools/cpp/map-image/raster-draw.h",
+      "normalization": "lf",
+      "sha256": "d436b1130d03246fc7618492b78fc09f1387b114bc32acfea6ea8e2a45d31b61"
+    },
+    {
+      "path": "tools/cpp/map-preview/PILLOW-LICENSE",
+      "normalization": "lf",
+      "sha256": "51ed379cf673c9676b7fa7e1bedbfc5d4ad63caac4f6f99eeec5ccab50c3e0ef"
+    }
+  ],
+  "files": [
+    {
+      "path": "pando-map-evaluation",
+      "bytes": 72800,
+      "sha256": "857056af159347c3407fc67534d826abdb2539248619bf82555f212a15251ec2"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scope": "2 normalized current-country geometries; selected LSIB targets only",
+  "historicalAccuracyVerified": false,
+  "widthCssPx": 2560,
+  "flatZoom": 64,
+  "metadataAndDatedVersionsPreserved": true,
+  "groups": [
+    {
+      "countries": [
+        "ITA",
+        "SMR"
+      ],
+      "unionDifferenceSquareDegrees": 0.0,
+      "overlapSquareDegrees": 0.0
+    }
+  ],
+  "areas": {
+    "ITA": {
+      "beforeKm2": 301144.35401738057,
+      "afterKm2": 301143.4772312103
+    },
+    "SMR": {
+      "beforeKm2": 60.316971607159914,
+      "afterKm2": 61.19375777740098
+    }
+  },
+  "lsibDerivative": [
+    {
+      "countries": [
+        "ITA",
+        "SMR"
+      ],
+      "closedRing": true,
+      "samples": 4516,
+      "sampledMaximumCssPx": 1.6189897341480941e-12,
+      "continuousUpperBoundCssPx": 0.22755555555717452
+    }
+  ],
+  "maximumLsibDerivativeUpperBoundCssPx": 0.22755555555717452,
+  "sanMarinoIndependentComparison": {
+    "source": "San Marino SIT Limite_stato_li; source survey date and datum-operation accuracy unestablished",
+    "samples": 11640,
+    "sampledMaximumCssPx": 0.46276235600692117,
+    "continuousUpperBoundCssPx": 0.4855179115624767
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "target": "publisher-pdf",
+  "platform": "win32",
+  "architecture": "x64",
+  "revision": "a13cb1bb2dbddd00b94a138859ba23860ee27ccb",
+  "sourceFiles": [
+    {
+      "path": "tools/cpp/map-pdf/publisher/CMakeLists.txt",
+      "normalization": "lf",
+      "sha256": "c552e45d0caec00c9381070b43e2c0444fea096985b9ad5d4079490828cdc081"
+    },
+    {
+      "path": "tools/cpp/map-pdf/publisher/publisher-read.c",
+      "normalization": "lf",
+      "sha256": "0c25a97e5ea94bc656a2c3a7a52b3e6c13c773e8f9a1455351e3b61988ffd659"
+    },
+    {
+      "path": "tools/cpp/map-pdf/MUPDF-COPYING",
+      "normalization": "lf",
+      "sha256": "40e60697600535eabfb5ae05f72829d88cfe8d02dd4792f5a754f6f51dabe55b"
+    },
+    {
+      "path": "tools/cpp/map-pdf/MUPDF-AGPL-3.0",
+      "normalization": "lf",
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+    }
+  ],
+  "files": [
+    {
+      "path": "pando-publisher-pdf.exe",
+      "bytes": 30720,
+      "sha256": "3a720cc725366dff079d441ece1f06e9d4cb76f92d823f8795c6dfa40691d664"
+    }
+  ],
+  "runtimeVersion": "mupdf-1.26.11"
+}

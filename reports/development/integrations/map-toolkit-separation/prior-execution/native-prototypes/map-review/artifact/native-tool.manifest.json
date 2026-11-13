@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "target": "map-review",
+  "platform": "win32",
+  "architecture": "x64",
+  "revision": "25016b1276730b339806e1c6a18c0a034d4f7362",
+  "sourceFiles": [
+    {
+      "path": "tools/cpp/map-review/CMakeLists.txt",
+      "normalization": "lf",
+      "sha256": "93321e58e9fdd72814b3cbd68d206397fe665501226480f92ea76a3e9feddc07"
+    },
+    {
+      "path": "tools/cpp/map-review/review-masks.cpp",
+      "normalization": "lf",
+      "sha256": "e74b8d64bddaaf1b5689f4a96c365a4c6ed08123d7c513e8a7149494aea121df"
+    },
+    {
+      "path": "tools/cpp/map-image/raster-draw.h",
+      "normalization": "lf",
+      "sha256": "d436b1130d03246fc7618492b78fc09f1387b114bc32acfea6ea8e2a45d31b61"
+    },
+    {
+      "path": "tools/cpp/map-preview/PILLOW-LICENSE",
+      "normalization": "lf",
+      "sha256": "51ed379cf673c9676b7fa7e1bedbfc5d4ad63caac4f6f99eeec5ccab50c3e0ef"
+    }
+  ],
+  "files": [
+    {
+      "path": "pando-map-review.exe",
+      "bytes": 33792,
+      "sha256": "5f17a165f53567b9d67b4297d9f6d76d82cc043fdae7da1c137235c905e2768f"
+    }
+  ]
+}
