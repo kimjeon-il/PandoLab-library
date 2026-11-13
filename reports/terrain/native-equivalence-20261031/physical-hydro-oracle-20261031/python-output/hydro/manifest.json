@@ -1,0 +1,96 @@
+{
+  "version": "0.12.6",
+  "dataset": "Natural Earth 5.0.0 1:10m physical vectors",
+  "crs": "EPSG:4326",
+  "coordinatePolicy": "source coordinates retained without simplification",
+  "layers": [
+    {
+      "id": "rivers_base",
+      "category": "river",
+      "url": "hydro/rivers_base.geojson",
+      "featureCount": 2,
+      "coordinateCount": 5,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_rivers_lake_centerlines_scale_rank.shp",
+      "sourceSha256": "72cd854649de9c9d96b1dc39c7cd3768cf56141210571764d3d04088adfacbae",
+      "outputSha256": "edabf6203d179c28c526f226bb965660a5d428f67ff72eaee3cd8aa78ef92f3d"
+    },
+    {
+      "id": "rivers_australia",
+      "category": "river",
+      "url": "hydro/rivers_australia.geojson",
+      "featureCount": 2,
+      "coordinateCount": 5,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_rivers_australia.shp",
+      "sourceSha256": "72cd854649de9c9d96b1dc39c7cd3768cf56141210571764d3d04088adfacbae",
+      "outputSha256": "ccf6851c5b6dd3da1ab437de645ff2d232286eac4fab65334f0a437756cc5b08"
+    },
+    {
+      "id": "rivers_europe",
+      "category": "river",
+      "url": "hydro/rivers_europe.geojson",
+      "featureCount": 2,
+      "coordinateCount": 5,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_rivers_europe.shp",
+      "sourceSha256": "72cd854649de9c9d96b1dc39c7cd3768cf56141210571764d3d04088adfacbae",
+      "outputSha256": "8feb21aa68ecce27a6c41a6458b4942ac651a7504309308cdd3cca473898ed6c"
+    },
+    {
+      "id": "rivers_north_america",
+      "category": "river",
+      "url": "hydro/rivers_north_america.geojson",
+      "featureCount": 2,
+      "coordinateCount": 5,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_rivers_north_america.shp",
+      "sourceSha256": "72cd854649de9c9d96b1dc39c7cd3768cf56141210571764d3d04088adfacbae",
+      "outputSha256": "b370b2b0d007ce541f9129d403e8cfe85352d1d46ca004fc032e7a6fbefb0f8c"
+    },
+    {
+      "id": "lakes_base",
+      "category": "lake",
+      "url": "hydro/lakes_base.geojson",
+      "featureCount": 2,
+      "coordinateCount": 10,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_lakes.shp",
+      "sourceSha256": "2d724e1073ff60973eea6a9ff93662cd4679dca1caa22a769b70a64207ed0ac8",
+      "outputSha256": "1925b1ca9e1c2263350362c0adfab3f94454c123e1a51abefa4a2f5ce8372dbe"
+    },
+    {
+      "id": "lakes_australia",
+      "category": "lake",
+      "url": "hydro/lakes_australia.geojson",
+      "featureCount": 2,
+      "coordinateCount": 10,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_lakes_australia.shp",
+      "sourceSha256": "2d724e1073ff60973eea6a9ff93662cd4679dca1caa22a769b70a64207ed0ac8",
+      "outputSha256": "986c9fcfd80d1d9d4b83e3ad3a31cc55e7fc6c22f2a62a95b83c3a44a1e3b775"
+    },
+    {
+      "id": "lakes_europe",
+      "category": "lake",
+      "url": "hydro/lakes_europe.geojson",
+      "featureCount": 2,
+      "coordinateCount": 10,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_lakes_europe.shp",
+      "sourceSha256": "2d724e1073ff60973eea6a9ff93662cd4679dca1caa22a769b70a64207ed0ac8",
+      "outputSha256": "ca44b305b69e50773e24822333c6c7777f93cddb1b0e38ab51cf766ba1d4314e"
+    },
+    {
+      "id": "lakes_north_america",
+      "category": "lake",
+      "url": "hydro/lakes_north_america.geojson",
+      "featureCount": 2,
+      "coordinateCount": 10,
+      "skippedNullShapes": 1,
+      "sourceFile": "ne_10m_lakes_north_america.shp",
+      "sourceSha256": "2d724e1073ff60973eea6a9ff93662cd4679dca1caa22a769b70a64207ed0ac8",
+      "outputSha256": "7c968edcf9012071c8c35f807863956de46be912370233571bd51c894f2eaa57"
+    }
+  ]
+}

@@ -360,3 +360,7 @@
 ### 31개 전체 연구 산출물
 
 [1차 10개](batch01-ten-research-2026-10-24.md) · [2차 10개](batch02-ten-research-2026-10-24.md) · [3차 11개](batch03-last11-research-2026-10-24.md) · [전수 판정 현황](remaining-31-priority.json). **조사 완료와 OSM 교체 완료는 별도 상태**로 관리한다.
+
+## 보관된 native 전환 평가 근거 — point
+
+[원자료·선택 평가 결과·독립 oracle 생성 근거](native-point-screen-20261102/)를 보관한다. 이는 당시 구현의 비교 근거이며 현행 전체 자료의 재검증을 뜻하지 않는다. 유지되는 정본 fixture와 검사에 없는 옛 실행 API나 Python 환경을 복원하지 않는다. 큰 원문은 부품 순서·각 부품과 전체의 SHA-256이 적힌 parts.json을 기준으로 원래 바이트로 복원한다.
