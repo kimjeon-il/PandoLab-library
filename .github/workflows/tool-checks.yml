@@ -1,0 +1,45 @@
+name: Library affected tool contracts
+on:
+  push:
+    paths: &a1
+      - tools/**
+      - tests/**
+      - scripts/**
+      - config/pando-code.json
+      - package.json
+      - pnpm-lock.yaml
+      - .github/workflows/tool-checks.yml
+  pull_request:
+    paths: *a1
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  tool-contracts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 4972742b1c7a23abadc006b89dbdab7047163b9d
+          path: .dependencies/pando
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Focused synthetic contracts
+        env:
+          PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
+          NODE_OPTIONS: --import=./tools/register-consumer.mjs
+        run: node --test tests/tools/pando-consumer.test.mjs
+          tests/unit/geometry/qgis-native-client.test.mjs
+          tests/unit/geometry/qgis-native-export.test.mjs
+          tests/unit/geometry/qgis-normalize.test.mjs
+          tests/unit/geometry/qgis-native-mcp.test.mjs
+          tests/unit/data/library-history.test.mjs
