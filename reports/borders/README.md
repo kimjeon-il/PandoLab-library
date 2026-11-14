@@ -37,9 +37,10 @@
 | [북아메리카 역사 정치체 1차 — 서플로리다 분리공화국·미국 남부연합·1921년 중미 연방](history/lifetimes/country-lifetime-north-america-historic-west-florida-confederacy-federation-1921-2026-11-06.md) | GEO-LIFE-025 | 2026-11-06 | `investigating / phase-1 / provisional / not-applied` |
 | [오세아니아 4개국 국가 존속기간 — FSM·마셜제도·팔라우·통가](history/lifetimes/country-lifetime-oceania-micronesia-tonga-2026-10-21.md) | GEO-LIFE-009 | 2026-10-21 (2026-10-24 복구) | `investigating / phase-1` |
 | [오세아니아 국가 존속기간 — 뉴질랜드·하와이 왕국·공화국](history/lifetimes/country-lifetime-oceania-nzl-hawaii-2026-10-27.md) | GEO-LIFE-015 | 2026-10-27 | `investigating / phase-1 / not-applied` |
+| [오세아니아 역사 정치체 1차 — 우베아·알로·시가브 전통왕국과 프랑스 보호국](history/lifetimes/country-lifetime-oceania-historic-uvea-alo-sigave-2026-11-14.md) | GEO-LIFE-033 | 2026-11-14 | `investigating / phase-1 / source-crosschecked / provisional / not-applied` |
 | [오세아니아 역사 정치체 1차 — 19세기 사모아 왕정·보라보라 왕국·라이아테아–타하아 왕국](history/lifetimes/country-lifetime-oceania-historic-samoa-bora-bora-raiatea-2026-11-08.md) | GEO-LIFE-027 | 2026-11-08 | `investigating / phase-1 / provisional / not-applied` |
 | [오세아니아 역사 정치체 1차 — 피지 왕국·타히티 왕국·쿡 제도 연방정부](history/lifetimes/country-lifetime-oceania-historic-fiji-tahiti-cook-federation-2026-11-02.md) | GEO-LIFE-021 | 2026-11-02 | `investigating / phase-1 / provisional / not-applied` |
-| [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-12 | `investigating` |
+| [국가 존속기간 조사 지역 순환 진행기록](history/lifetimes/country-lifetime-rotation-progress.md) | GEO-LIFE-ROTATION | 2026-11-14 | `investigating` |
 | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](history/lifetimes/country-lifetime-south-america-2026-10-20.md) | GEO-LIFE-008 | 2026-10-20 회차 / 검토 10-20 | `investigating` |
 | [남아메리카 국가 존속기간 2차 — 아르헨티나·볼리비아](history/lifetimes/country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | GEO-LIFE-014 | 2026-10-26 | `investigating / phase-2 / not-applied` |
 | [남아메리카 역사 정치체 1차 — 그란콜롬비아·페루–볼리비아 연합·리우그란덴시 분리공화국](history/lifetimes/country-lifetime-south-america-historic-gran-colombia-peru-bolivia-riograndense-2026-11-01.md) | GEO-LIFE-020 | 2026-11-01 | `investigating / phase-1 / provisional / not-applied` |
@@ -50,6 +51,7 @@
 | [2025년 오세아니아 미크로네시아–팔라우·마셜제도 해양경계 조약 개정과 역사 GIS 벡터 선별](history/timeline/historical-timeline-2025-oceania-fsm-palau-marshall-maritime-treaty-amendments-2026-11-12.md) | GEO-TIME-028 | 2026-11-12 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 북아메리카 아이티 켄스코프 무장집단 실효 통제·텔레코 시설 재장악과 GIS 벡터 선별](history/timeline/historical-timeline-2025-north-america-haiti-kenscoff-2026-11-10.md) | GEO-TIME-026 | 2026-11-10 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 아시아 태국–캄보디아 국경 실효 통제 주장·JBC 공동경계 측량/역사 GIS 벡터 후속](history/timeline/historical-timeline-2025-asia-thailand-cambodia-ground-control-vector-followup-2026-11-08.md) | GEO-TIME-024 | 2026-11-08 | `investigating / source-indexed / provisional / not-applied` |
+| [2025년 아시아 미얀마 라시오 시가지 통제 인계·효력일 상충과 역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-asia-myanmar-lashio-control-vector-2026-11-14.md) | GEO-TIME-030 | 2026-11-14 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 유럽 우크라이나 차시우야르 군사적 실효 지배 주장·2025년 7월 역사 GIS 벡터 선별](history/timeline/historical-timeline-2025-europe-ukraine-chasiv-yar-control-vector-2026-11-13.md) | GEO-TIME-029 | 2026-11-13 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 유럽 우크라이나 쿠라호베 실효 지배 변화·2025년 1월 역사 GIS 벡터 선별](history/timeline/historical-timeline-2025-europe-kurakhove-effective-control-2026-11-07.md) | GEO-TIME-023 | 2026-11-07 | `investigating / source-indexed / provisional / not-applied` |
 | [2025년 오세아니아 바누아투–프랑스·피지 해양경계 협상 및 연장 대륙붕 제출·역사 GIS 벡터 후보](history/timeline/historical-timeline-2025-oceania-vanuatu-maritime-shelf-2026-11-06.md) | GEO-TIME-022 | 2026-11-06 | `investigating / source-indexed / provisional / not-applied` |
