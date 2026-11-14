@@ -11,13 +11,6 @@ const toMap=x=>x instanceof Map?x:new Map(Object.entries(x||{}).map(([k,v])=>[Nu
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
 const count=(list,key)=>{const map=new Map();for(const x of list){const k=key(x);map.set(k,(map.get(k)||0)+1);}return map;};
 const ordered=x=>Object.fromEntries([...x].sort(([a],[b])=>String(a).localeCompare(String(b),'en')));
-const value=x=>Array.isArray(x)?'['+x.map(y=>typeof y==='string'?JSON.stringify(y):String(y)).join(', ')+']':String(x);
-export function table(headers,rows){
-  const cell=x=>value(x).replace(/\|/g,'\\|').replace(/\n/g,' ');
-  return ['| '+headers.map(cell).join(' | ')+' |',
-    '| '+headers.map(()=>'---').join(' | ')+' |',
-    ...[...rows].map(row=>'| '+row.map(cell).join(' | ')+' |')].join('\n');
-}
 export function applyReviewOverrides(reviews,overrides) {
   if(overrides==null)return reviews;
   if(overrides.version!==1)throw Error('Unsupported candidate review override version');
@@ -91,30 +84,7 @@ const hashFile=async path=>{
   const hash=createHash('sha256');for await(const data of createReadStream(path))hash.update(data);
   return hash.digest('hex');
 };
-export function renderReviews(stats) {
-  const actions=[...REVIEW_ACTIONS].sort();
-  const changed=Object.entries(stats.changedCountries);
-  const part=[
-    '## 재생성 가능한 ID별 검토 결과','',
-    '검토 원본: \x60'+stats.source.name+'\x60 / SHA-256 \x60'+stats.source.sha256+'\x60.','',
-    table(['항목','건수'],[['1차 후보 (변경 없음)',stats.baselineCount],
-      ['누적 ID별 검토',stats.reviewCount],['후보에서 확인 제외',stats.baselineExcludes],
-      ['후보에서 임시 보류',stats.baselineHolds],['별도 정제 후보',stats.refinedCount],
-      ['정제본 내 미검토',stats.unreviewedCount]]),'',
-    '정제본은 전 세계 검증 완료 목록이 아니다. 미검토 기록은 원래 후보 그대로 남는다.',
-    '\x60inclusion-review\x60는 필터 밖의 재검토 제안이며 정제본에 추가하지 않는다.','',
-    table(['country','baseline','refined','excluded','held'],changed.map(([code,counts])=>[
-      code,counts.baseline,counts.refined,counts.excluded,counts.held])),'',
-    '### ID별 판정 근거 보존','',
-    '개별 ID별 판정표는 Markdown에 중복 기재하지 않는다. 원본 ID·판정·근거와 증거 출처는 \x60candidate-review-summary.json\x60의 \x60reviewedRecords\x60/\x60evidenceSources\x60 및 \x60candidate-reviews.json\x60에 보존한다.','',
-    table(['판정','검토 ID'],actions.map(action=>[action,stats.actions[action]||0])),'',
-    '증거 출처 수: '+Object.keys(stats.evidenceSources).length+'개. 개별 URL·접근일·판정에 쓴 사실은 JSON에 보존한다.','',
-    '검토 원장 SHA-256: \x60'+stats.reviewLedgerSha256+'\x60.','',
-    '정제 파일: \x60.cache/'+stats.refinedArtifact.path+'\x60, SHA-256 \x60'+stats.refinedArtifact.sha256+'\x60.',''
-  ];
-  return part.join('\n');
-}
-export async function review(cache,reviewsPath,statsPath,reportPath,overridesPath=null){
+export async function review(cache,reviewsPath,statsPath,overridesPath=null){
   let reviews=JSON_FILE(reviewsPath);
   if(overridesPath)reviews=applyReviewOverrides(reviews,JSON_FILE(overridesPath));
   const source=reviews.source,meta=JSON_FILE(join(cache,source.name+'.source.json'));
@@ -133,10 +103,6 @@ export async function review(cache,reviewsPath,statsPath,reportPath,overridesPat
   const baseline=count(rows,r=>r.countryCode), after=count(refined,r=>r.countryCode),
     excluded=count(reviewed.filter(x=>x.inBaseline&&x.action==='exclude'),x=>x.record.countryCode),
     held=count(reviewed.filter(x=>x.inBaseline&&x.action==='hold'),x=>x.record.countryCode);
-  const content=readFileSync(reportPath,'utf8');
-  if(content.split('<!-- geonames-statistics:start -->').length!==2||
-     content.split('<!-- geonames-statistics:end -->').length!==2)
-    throw Error('Review report requires exactly one generated statistics marker pair');
   const artifact=join(cache,'refined-candidates.ndjson');
   writeFileSync(artifact,refined.map(r=>JSON.stringify(r)).join('\n')+(refined.length?'\n':''));
   const changedCountries={};
@@ -156,9 +122,6 @@ export async function review(cache,reviewsPath,statsPath,reportPath,overridesPat
     refinedArtifact:{path:'refined-candidates.ndjson',rows:refined.length,
       sha256:await hashFile(artifact),bytes:readFileSync(artifact).length}};
   WRITE(statsPath,stats);
-  const start='<!-- geonames-statistics:start -->',end='<!-- geonames-statistics:end -->';
-  const [before,rest]=content.split(start),suffix=rest.split(end)[1];
-  writeFileSync(reportPath,before+start+'\n\n'+renderReviews(stats)+'\n'+end+suffix);
   return stats;
 }
 function parseRowForReview(line) {

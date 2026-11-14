@@ -24,11 +24,6 @@ const { zipMembers, zipTextLines, verifyZip }=__dep8;
 const { sourceLine, snapshot, ledger }=__dep9;
 const rec=values=>parseRow(sourceLine(values))[0];
 const temp=t=>{const dir=mkdtempSync(join(tmpdir(),'geonames-node-'));t.after(()=>rmSync(dir,{recursive:true,force:true}));return dir;};
-const report=(folder,name='report.md')=>{
- const path=join(folder,name);
- writeFileSync(path,'Manual analysis\n<!-- geonames-statistics:start -->\n<!-- geonames-statistics:end -->\nPreserve me\n');
- return path;
-};
 const deep=value=>structuredClone(value);
 const ids=rows=>rows.map(x=>x.geonameId);
 const rejects=(fn,re)=>assert.throws(fn,re);
@@ -101,19 +96,19 @@ test('verified offline build is deterministic and supplementary data is audit on
    sourceLine({id:4,code:'PPLX',population:'200000'})];
  snapshot(cache,'cities500',lines,{deflate:true});
  snapshot(cache,'allCountries',[...lines,sourceLine({id:5,code:'PPLG',population:'0'})]);
- const path=report(cache),statsPath=join(cache,'stats.json');
- const first=await build(cache,statsPath,path);
+ const statsPath=join(cache,'stats.json');
+ const first=await build(cache,statsPath);
  assert.equal(first.totals.totalKept,2);
  assert.equal(first.primary.rawRows,4);
  assert.equal(first.supplement.eligibleMissingFromPrimary[0].geonameId,5);
  assert.deepEqual(first.primary.excludedPCodes,{PPLA3:1,PPLX:1});
- const keep=[statsPath,join(cache,'candidates.ndjson'),path].map(p=>readFileSync(p));
- await build(cache,statsPath,path);
- const now=[statsPath,join(cache,'candidates.ndjson'),path].map(p=>readFileSync(p));
- assert.deepEqual(now,keep);assert.match(readFileSync(path,'utf8'),/Preserve me/);
+ const keep=[statsPath,join(cache,'candidates.ndjson')].map(p=>readFileSync(p));
+ await build(cache,statsPath);
+ const now=[statsPath,join(cache,'candidates.ndjson')].map(p=>readFileSync(p));
+ assert.deepEqual(now,keep);
  const metadata=JSON.parse(readFileSync(join(cache,'cities500.source.json')));
  metadata.sha256='wrong';writeJson(join(cache,'cities500.source.json'),metadata);
- await rejectsAsync(()=>build(cache,statsPath,path),/checksum mismatch/);
+ await rejectsAsync(()=>build(cache,statsPath),/checksum mismatch/);
 });
 test('duplicate source IDs fail before candidate artifacts are written',async t=>{
  const cache=temp(t);snapshot(cache,'cities500',[sourceLine(),sourceLine()]);
@@ -140,7 +135,7 @@ test('official fallback always follows primary attempt in the same order',async 
 test('allCountries alone may be the verified primary without silent source promotion',async t=>{
  const cache=temp(t);
  snapshot(cache,'allCountries',[sourceLine({code:'PPLC',population:'0'})]);
- const data=await build(cache,join(cache,'stats.json'),report(cache));
+ const data=await build(cache,join(cache,'stats.json'));
  assert.equal(data.primarySource,'allCountries');
  assert.equal(data.totals.totalKept,1);assert.equal(data.supplement,null);
 });
@@ -245,18 +240,17 @@ test('offline reviewed output is deterministic; original candidates and unsource
  writeJson(join(cache,'reviews.json'),source);
  const original=join(cache,'candidates.ndjson');
  writeFileSync(original,'Preserve original candidates\n');
- const path=report(cache,'review.md'),summary=join(cache,'summary.json');
- const data=await review(cache,join(cache,'reviews.json'),summary,path);
+ const summary=join(cache,'summary.json');
+ const data=await review(cache,join(cache,'reviews.json'),summary);
  assert.deepEqual([data.baselineCount,data.refinedCount,data.baselineExcludes],[2,1,1]);
  assert.equal(data.unreviewedCount,0);
  assert.equal(readFileSync(original,'utf8'),'Preserve original candidates\n');
- const outputs=[join(cache,'refined-candidates.ndjson'),summary,path].map(p=>readFileSync(p));
- await review(cache,join(cache,'reviews.json'),summary,path);
- assert.deepEqual([join(cache,'refined-candidates.ndjson'),summary,path].map(p=>readFileSync(p)),outputs);
- assert.match(readFileSync(path,'utf8'),/Manual analysis/);
+ const outputs=[join(cache,'refined-candidates.ndjson'),summary].map(p=>readFileSync(p));
+ await review(cache,join(cache,'reviews.json'),summary);
+ assert.deepEqual([join(cache,'refined-candidates.ndjson'),summary].map(p=>readFileSync(p)),outputs);
  source.source.sha256='new-snapshot';writeJson(join(cache,'reviews.json'),source);
- await rejectsAsync(()=>review(cache,join(cache,'reviews.json'),summary,path),/snapshot changed/);
- assert.deepEqual([join(cache,'refined-candidates.ndjson'),summary,path].map(p=>readFileSync(p)),outputs);
+ await rejectsAsync(()=>review(cache,join(cache,'reviews.json'),summary),/snapshot changed/);
+ assert.deepEqual([join(cache,'refined-candidates.ndjson'),summary].map(p=>readFileSync(p)),outputs);
 });
 });
 

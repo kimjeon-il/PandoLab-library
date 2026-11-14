@@ -11,13 +11,11 @@ import {Readable,Transform} from 'node:stream';
 import {pipeline} from 'node:stream/promises';
 import {fileURLToPath} from 'node:url';
 import {downloadVerifiedRanges} from "pando:tools/gis/download-terrain-source.mjs";
-import {reportPath} from "pando:tools/data/report-paths.mjs";
 import {verifyZip} from "pando:tools/lib/geonames-zip.mjs";
-import {BASE_URL,LICENSE,POLICY,DETAIL_COUNTRIES,GENERATED_START,GENERATED_END,
+import {BASE_URL,LICENSE,POLICY,DETAIL_COUNTRIES,
   fileHash,parseRow,candidate,scanPrimary,scanSupplement,validateCandidates,
   summarize,auditKept,largest} from "pando:tools/lib/geonames-policy.mjs";
 import {review} from "../lib/geonames-review.mjs";
-import {renderStatistics} from "../lib/geonames-statistics.mjs";
 
 export {BASE_URL,LICENSE,POLICY,parseRow,candidate,scanPrimary,scanSupplement,
   validateCandidates,summarize,auditKept,largest,review};
@@ -112,14 +110,7 @@ export async function fetchSources(cache=CACHE,options={}){
     throw Error('Both official sources failed; see fetch-attempts.json before selecting a verified mirror');
   return attempts;
 }
-const patchedReport=(current,generated)=>{
-  if(current.split(GENERATED_START).length!==2||current.split(GENERATED_END).length!==2)
-    throw Error('Report requires exactly one generated statistics marker pair');
-  const [start,rest]=current.split(GENERATED_START);
-  return start+GENERATED_START+'\n\n'+generated+'\n'+GENERATED_END+rest.split(GENERATED_END)[1];
-};
-export async function build(cache=CACHE,statsPath=join(ROOT,'reports/places/geonames-statistics.json'),
-  report=reportPath('reports/places/place-data-audit.md',{access:'write'})){
+export async function build(cache=CACHE,statsPath=join(ROOT,'reports/places/geonames-statistics.json')){
   const primaryName=existsSync(join(cache,'cities500.source.json'))?'cities500':'allCountries';
   const [rows,primary]=await scanPrimary(primaryName,cache);
   validateCandidates(rows);rows.sort((a,b)=>a.geonameId-b.geonameId);
@@ -152,14 +143,12 @@ export async function build(cache=CACHE,statsPath=join(ROOT,'reports/places/geon
   const stats={policy:POLICY,primarySource:primaryName,sources,primary,
     totals:summarize(rows),countryCounts,countryDetails:details,
     audit:auditKept(rows),supplement,fetchAttempts:existsSync(attempts)?readJson(attempts):[]};
-  const reportSource=readFileSync(report,'utf8');
-  const reportContent=patchedReport(reportSource,renderStatistics(stats));
   const candidatePath=join(cache,'candidates.ndjson');
   mkdirSync(cache,{recursive:true});
   writeFileSync(candidatePath,rows.map(row=>JSON.stringify(row)).join('\n')+(rows.length?'\n':''));
   stats.candidateArtifact={path:'candidates.ndjson',rows:rows.length,
     sha256:await fileHash(candidatePath),bytes:statSync(candidatePath).size};
-  writeJson(statsPath,stats);writeFileSync(report,reportContent);
+  writeJson(statsPath,stats);
   console.log(primaryName+': '+primary.rawRows.toLocaleString('en-US')+' -> '+
     rows.length.toLocaleString('en-US')+' candidates; '+candidatePath);
   return stats;
@@ -168,7 +157,7 @@ function argsOf(argv){
   const options={};
   for(let i=0;i<argv.length;i++){
     const flag=argv[i];
-    if(!['--cache','--stats','--report','--reviews','--review-overrides'].includes(flag))
+    if(!['--cache','--stats','--reviews','--review-overrides'].includes(flag))
       throw Error('Unknown option '+flag);
     if(!argv[i+1]||argv[i+1].startsWith('--'))throw Error('Missing option '+flag);
     options[flag.slice(2)]=argv[++i];
@@ -181,8 +170,7 @@ export async function main(argv=process.argv.slice(2)){
   const cache=options.cache||CACHE;
   if(command==='fetch')return fetchSources(cache);
   if(command==='build')return build(cache,
-    options.stats||join(ROOT,'reports/places/geonames-statistics.json'),
-    options.report||reportPath('reports/places/place-data-audit.md',{access:'write'}));
+    options.stats||join(ROOT,'reports/places/geonames-statistics.json'));
   const reviews=options.reviews||join(ROOT,'reports/places/candidate-reviews.json');
   let overrides=options['review-overrides']||null;
   const defaultReviews=join(ROOT,'reports/places/candidate-reviews.json');
@@ -190,8 +178,7 @@ export async function main(argv=process.argv.slice(2)){
   if(!overrides&&resolve(reviews)===resolve(defaultReviews)&&existsSync(defaultOverride))
     overrides=defaultOverride;
   return review(cache,reviews,
-    options.stats||join(ROOT,'reports/places/candidate-review-summary.json'),
-    options.report||reportPath('reports/places/place-candidate-review.md',{access:'write'}),overrides);
+    options.stats||join(ROOT,'reports/places/candidate-review-summary.json'),overrides);
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   main().catch(error=>{console.error('place-candidates: '+error.message);process.exitCode=1;});

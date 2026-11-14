@@ -9,8 +9,6 @@ import { reportPath } from "pando:tools/data/report-paths.mjs";
 
 import {
   collectMajorUnnamedEuropeanCandidates,
-  renderEuropeanReviewMarkdown,
-  validateEuropeanReviewMarkdown,
   selectResearchMainstemFeatures,
   validateReviewEntries,
 } from "../../lib/hydro-name-research.mjs";
@@ -19,7 +17,6 @@ const root = process.env.PANDO_CONSUMER_ROOT;
 const checkOnly = process.argv.includes('--check');
 const decodedPath = optionValue('--decoded');
 const reviewPath = reportPath('reports/hydro/names/europe-major-rivers.json', { access: 'read' });
-const markdownPath = reportPath('reports/hydro/names/europe-major-rivers.md', { access: checkOnly ? 'read' : 'write' });
 const overlayPath = reportPath('reports/hydro/names/europe-major-rivers.geojson', { access: !checkOnly && decodedPath ? 'write' : 'read' });
 // Default research validation reconstructs the historical unnamed candidate view
 // from the exact current two-file v0.13.2 metadata. For independent archival
@@ -69,15 +66,7 @@ if (!checkOnly && decodedPath) {
 }
 validateOverlay(JSON.parse(fs.readFileSync(overlayPath, 'utf8')), review.entries);
 
-if (checkOnly) {
-  // The historical report is an edited summary with immutable original evidence.
-  // Check its research facts and links; do not restore the retired full table.
-  validateEuropeanReviewMarkdown(fs.readFileSync(markdownPath, 'utf8'), review);
-  console.log('Validated 33 European HydroRIVERS name candidates');
-} else {
-  fs.writeFileSync(markdownPath, renderEuropeanReviewMarkdown(review));
-  console.log(`Wrote ${path.relative(root, markdownPath)} for ${review.entries.length} candidates`);
-}
+console.log('Validated 33 European HydroRIVERS name candidates');
 
 function validateCurrentCandidateSet(candidates, entries) {
   const actual = candidates.map(candidate => candidate.systemId).sort();
