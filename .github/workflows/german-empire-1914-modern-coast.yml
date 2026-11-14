@@ -23,9 +23,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: kimjeon-il/Pando
-          ref: 46af9f98a57e2850c0d33adb556cc915727bcd29
+          ref: 19fd518ca115786d0179347f677cb94596110ed4
           path: .dependencies/pando
           persist-credentials: false
+      - name: Select data independently of tool code
+        shell: bash
+        env:
+          NODE_OPTIONS: ""
+          PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
+          LIBRARY_DATA_REVISION: 921d86aa3c03ffa0b3d5879ad30c9914c4d1b31a
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from 'node:fs';
+          import { join } from 'node:path';
+          const file = join(process.env.PANDO_CONSUMER_ROOT, 'config/library-data.json');
+          const config = JSON.parse(readFileSync(file, 'utf8'));
+          config.revision = process.env.LIBRARY_DATA_REVISION;
+          writeFileSync(file, JSON.stringify(config, null, 2) + '\n');
+          NODE
       - name: Check storage for the existing GIS toolchain
         shell: pwsh
         run: >

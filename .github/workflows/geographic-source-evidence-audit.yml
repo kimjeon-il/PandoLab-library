@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: kimjeon-il/Pando
-          ref: 46af9f98a57e2850c0d33adb556cc915727bcd29
+          ref: 19fd518ca115786d0179347f677cb94596110ed4
           path: .dependencies/pando
           persist-credentials: false
       - uses: actions/setup-node@v4
