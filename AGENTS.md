@@ -7,16 +7,13 @@ training and the private plugin. Do not copy their implementations here.
 
 ## Working safely
 
-Reuse this permanent checkout and the existing data worktrees, shared Git object
-store, materialized caches and dependencies. Before changes inspect Git status,
+Use D:/dev/PandoLab-library as the single local source checkout, with the shared Git object store, materialized caches and dependencies. Read data editions by explicit revision; do not check out data branches in the tool source tree or create linked data worktrees. Before changes inspect Git status,
 worktrees, processes, library locks and the exact consumer/data pin. Preserve
 unfinished work. Never automatically stash, reset, clean, prune worktrees,
 force-push or rewrite history. History administration tools are opt-in; moving
 or testing them does not authorize a real repository rewrite.
 
-Code lives in tools/, scripts/, config/, tests/ and .github/. The shared root
-keeps code materialized. Linked data worktrees remain metadata-only. Do not
-compact source code as an unused data checkout or hydrate all archive blobs.
+Code lives in tools/, scripts/, config/, tests/ and .github/. Keep it materialized in the shared root. Existing linked data worktrees are transitional and must remain untouched while they have active writers, consumers or uncommitted work. Retire them only after references, pins and originals are preserved and consumers are moved. Do not compact source code or hydrate all archive blobs. Serialize source edits, commits and publication in this checkout; read-only inspection may run concurrently.
 Runtime data pins and report-owner revisions are independent of tool-code pins.
 
 ## Tools and focused checks
