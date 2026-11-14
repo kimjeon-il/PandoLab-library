@@ -54,3 +54,13 @@ outputs only for a concrete current execution, regeneration or verification
 consumer. Do not create deletion inventories, cleanup reports, backups or
 archive copies of approved obsolete files. Report logical bytes separately
 from measured drive free-space changes in the final response.
+
+## Canonical documentation
+
+Keep repository Markdown only for agent instructions, current canonical policy/navigation and required upstream rights notices. Do not retain task-specific plans, execution diaries, completed-work manuals or routine code reports. Do not automatically generate Markdown summaries or use old reports as input templates. The existing structured catalogs, review ledgers and source metadata own facts and decisions. Preserve necessary source attribution, date precision, datum uncertainty, rights and source-to-derivative relationships in their existing metadata; do not copy task prose into a new archive or format merely to keep it. Original maps, datasets, ZIP members and non-document evidence remain protected.
+
+Use the paired Pando GIS and place policies for historical selection, identities and approval. Modern source codes and population do not establish historical sovereignty or city eligibility. Source discovery, schema validity, research completion and publication are distinct decisions. Do not infer exact dates from years or remove explicit uncertainty.
+
+Keep source-bound recipe artifacts separate from consumer data pins. Pass the existing consumer import hook to child Node processes through task-local configuration, never global NODE_OPTIONS. Prepare only selected scopes; data/report commits do not launch recipes or full validation.
+
+Reuse authenticated QGIS instances and profiles without taking over edit sessions. Require explicit coordinate reference systems and reject fallback transformations. Bridge-owned edits remain undoable until explicit commit or rollback; a commit writes the provider. Use a working copy when original bytes must remain exact, because even opening or rolling back a GeoPackage session may change bytes. Preserve scratch output while an unanswered native operation may still be writing.
