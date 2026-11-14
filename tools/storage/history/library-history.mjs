@@ -6,6 +6,28 @@ import { pipeline } from 'node:stream/promises';
 import { organizedReportPath } from "pando:tools/data/library-report-layout.mjs";
 import { HistoryStreamFilter } from "./library-history-stream.mjs";
 
+// Reference inventory for history planning, not an archive decoder. Keep the
+// manifest and every chunk together; malformed metadata must never authorize purge.
+function storedArchivePaths(entry) {
+  const paths=[entry?.stored];
+  if(entry?.encoding==='gzip-chunks') {
+    if(!Array.isArray(entry.chunks)||!entry.chunks.length||entry.chunks.length>1024
+      ||!Number.isSafeInteger(entry.packedBytes)||entry.packedBytes<1)throw Error('Invalid chunk archive inventory');
+    let offset=0;
+    for(const part of entry.chunks) {
+      if(!part||!Number.isSafeInteger(part.bytes)||part.bytes<1||part.bytes>32*1024*1024
+        ||part.offset!==offset||!/^[a-f0-9]{64}$/.test(part.sha256||''))throw Error('Invalid chunk archive reference');
+      offset+=part.bytes;if(!Number.isSafeInteger(offset))throw Error('Chunk archive size overflow');
+      paths.push(part.stored);
+    }
+    if(offset!==entry.packedBytes)throw Error('Chunk archive size mismatch');
+  } else if(entry?.chunks!==undefined)throw Error('Unknown chunk archive encoding');
+  for(const path of paths)if(typeof path!=='string'||!path||path.startsWith('/')
+    ||/^[A-Za-z]:/.test(path)||path.includes(String.fromCharCode(92))
+    ||path.split('/').some(part=>!part||part==='.'||part==='..'))throw Error('Unsafe archive reference');
+  return paths;
+}
+
 export function canonicalResearchPath(path) {
   if (/^reports\/(?:geography|research)\//.test(path)) return organizedReportPath(path);
   return path;
@@ -20,8 +42,8 @@ export function buildResearchPurgeManifest({ retiredPaths, indexes, currentIndex
   for (const path of Object.keys(currentIndex.files)) if (retired.has(canonicalResearchPath(path))) throw Error(`Currently retained research must not be purged: ${path}`);
   const logical = new Set(retired), candidates = new Set(), retainedStores = new Set();
   for (const index of indexes) for (const [path, entry] of Object.entries(index.files)) {
-    if (retired.has(canonicalResearchPath(path))) { logical.add(path); candidates.add(entry.stored); }
-    else retainedStores.add(entry.stored);
+    if (retired.has(canonicalResearchPath(path))) { logical.add(path); for(const stored of storedArchivePaths(entry))candidates.add(stored); }
+    else for(const stored of storedArchivePaths(entry))retainedStores.add(stored);
   }
   const stored = [...candidates].filter(path => !retainedStores.has(path));
   const paths = [...new Set([...logical, ...stored])].sort();
@@ -43,7 +65,7 @@ export function buildHistoryRetentionManifest({ keepPaths, indexes, aliases = {}
   const blobSelections = { ...allowedBlobIds };
   for (const [old, current] of Object.entries(aliases)) if (retained.has(old) && blobSelections[current]) blobSelections[old] = [...blobSelections[current]];
   const manifest = { schema: 'pando-history-retention-v1', keepPaths: [...retained].sort(), aliases, currentOnly, allowedBlobIds: blobSelections };
-  for (const index of indexes) for (const entry of Object.values(filterHistoryIndex(index, manifest).files)) retained.add(safe(entry.stored));
+  for (const index of indexes) for (const entry of Object.values(filterHistoryIndex(index, manifest).files)) for(const stored of storedArchivePaths(entry))retained.add(safe(stored));
   manifest.keepPaths = [...retained].sort();
   return manifest;
 }
