@@ -16,7 +16,6 @@ import {APPROVED_DATA_PIN,approvedReportReceiptsMatch} from './audit-ussr-1922-a
 export const ROOT=process.env.PANDO_CONSUMER_ROOT;
 export const ARCHIVE_BASE='reports/borders/reconstruction/ussr-1922-caspian-application-2026-10-24/';
 export const ARCHIVED=Object.freeze({
-  'README.md':{sha256:'b56e841c11112de6af6e7d76e502b62d931f12a42b839006fcf7e97765427aa8',bytes:9921},
   'application-proof.json':{sha256:'6948649a0ba4be6201552b75f2cbec1f88b7f696bf5c7f88eff34d10d744b8b4',bytes:2655},
   'caspian-comparison-10m.png':{sha256:'a4b30417e8cd2f809e26800470184fa81b16dba2a55ab296c43eda2fc1178626',bytes:33142},
   'app1922.png':{sha256:'c561d7e37bde8d6a57d123da4e8e56c578888934871d9212db86bf434e6961ed',bytes:138526},
@@ -159,47 +158,7 @@ export function buildCompactReport(receipts,archive){
       unchangedFarPolygonCount:physical.metrics.unchangedFarPolygonCount},
     archivedOriginals:archive,
   };
-  const countryRows=countries.entities.map(row=>
-    '| '+row.entityId+' | '+(row.geosTopologicalEquals?'동등':'불일치')+
-    ' | '+row.areaDifferenceSquareDegrees.toFixed(6)+' |');
-  const text=[
-    '# 1922년 소련 건국·카스피해 GIS 검증 요약',
-    '',
-    '기준일: 1922-12-30. 지도 표시는 잠정 복원이며, 국가 경계 자동 교체나 현재 배포를 승인하지 않습니다.',
-    '',
-    '## 국가 객체',
-    '',
-    ...(corrections?[
-      '후속 승인된 드네스트르·유럽·중앙아시아 3구간·부하라·캅카스 수정의 자료 해시와 상호 의존 관계를 검증했습니다.',
-      '현재 고정 자료의 부모–구성공화국 4개 합집합·틈·중복을 C++ GEOS로 재검증했으며, **현재 승인본의 미해결 위상 오류는 0건**입니다.',
-      '아래 다섯 불일치는 수정 전 2026-10-23 ZIP을 기준으로 한 역사적 변경량이며, 현재 승인본의 오류나 원본 복구 지시가 아닙니다.',
-    ]:[
-      '총 '+countries.founders+'개 중 **'+discrepancies.length+'개가 승인 원본과 위상적으로 불일치**합니다.',
-      '현재 승인된 후속 수정 검증 결과가 없어 자동 동등성 판정은 차단됩니다.',
-    ]),
-    '',
-    '| 국가 객체 ID | GEOS 판정 | 차이(도²) |',
-    '| --- | --- | ---: |',
-    ...countryRows,
-    '',
-    '## 카스피해 물리 수역',
-    '',
-    '- 승인 원본 수계 선분 '+network.featureCount+'개, 수역 내부 구멍 '+display.metrics.holesAfter+'개',
-    '- 표시 일반화 정점 '+display.metrics.verticesBefore+'개 → '+display.metrics.verticesAfter+'개',
-    '- 게시된 육지와 C++ 재계산의 대칭차 면적: '+physical.metrics.publishedSymmetricDifferenceSquareDegrees+'도²',
-    '- 검토 범위 밖 면적 변화: '+physical.metrics.outsideRegionDifferenceSquareDegrees+'도²',
-    '- 원본 전 세계 육지의 기존 GEOS 유효성 결함은 수정하지 않고 보존함',
-    '- 수역은 주권 경계의 자동 차감에 사용하지 않음',
-    '',
-    '## 영구 보존된 지도·원본 증거',
-    '',
-    ...archive.map(a=>'- '+a.path.split('/').at(-1)+': SHA-256 '+a.sha256+' ('+a.bytes+'바이트), '+a.url),
-    '',
-    corrections?'과거 원본과 승인 후속본은 별개의 고정 버전입니다. 최초 ZIP 해시와 출처는 보존하되 더 최신인 승인 경계를 덮어쓰지 않습니다.'
-      :'이 보존 파일은 과거 적용 당시 기록입니다. 최신 GEOS 불일치 감사의 판단보다 우선하지 않습니다.',
-    '',
-  ].join('\n');
-  return {json:result,markdown:text};
+  return {json:result};
 }
 const fetchPinned=async(url)=>{
   const response=await fetch(url,{signal:AbortSignal.timeout(120000)});
@@ -237,7 +196,6 @@ export async function main(args=process.argv.slice(2),{
   const directory=resolve(names.get('--report-directory'));
   requireValue(!existsSync(directory),'A historical audit must not overwrite an earlier report');
   mkdirSync(directory,{recursive:true});
-  writeFileSync(join(directory,'summary.md'),report.markdown,{flag:'wx'});
   writeFileSync(join(directory,'summary.json'),JSON.stringify(report.json,null,2)+'\n',{flag:'wx'});
   console.log('USSR_1922_COMPACT_REPORT='+JSON.stringify({
     reportDirectory:directory,archivedFiles:originals.length,
