@@ -1,0 +1,1258 @@
+{
+  "backend": "webgl2",
+  "browser": "151.0.7922.34",
+  "gpu": "SwiftShader",
+  "rounds": [
+    {
+      "year": 2000,
+      "documentSha256": "e0c57dd010b9b6b076b7c5827fd891cef4d88e97973ef05e919e19eee23702b7",
+      "selection": {
+        "primaryKey": "territorial:entity:FRA",
+        "keys": [
+          "territorial:entity:FRA"
+        ],
+        "items": [
+          {
+            "domain": "territorial",
+            "type": "entity",
+            "id": "FRA",
+            "key": "territorial:entity:FRA"
+          }
+        ]
+      },
+      "camera": {
+        "projection": "globe",
+        "scale": 469.7875,
+        "translate": [
+          640,
+          413
+        ],
+        "rotation": [
+          -28.780322171285363,
+          -46.24585623566418,
+          0
+        ],
+        "flatCenter": [
+          0,
+          20
+        ]
+      },
+      "world": {
+        "month": "2000-12",
+        "epoch": 5,
+        "count": 251
+      },
+      "recovery": {
+        "recoveryId": 1,
+        "attemptId": 1,
+        "active": false,
+        "disposed": false,
+        "running": false,
+        "queued": false,
+        "phase": "complete",
+        "lastReason": "frame-presented",
+        "foregroundMs": 17038.299999998882,
+        "idleMs": 59.29999999888241,
+        "contextMs": 184.59999999962747,
+        "canvasMs": 0,
+        "uploadedBytes": 193979236,
+        "suspended": false,
+        "dataWaiting": false,
+        "timerPending": false,
+        "deviceWaiterCount": 0,
+        "unexplainedAborts": 0
+      },
+      "frame": 391,
+      "difference": {
+        "sameSize": true,
+        "changedFraction": 0.000052266725352112674,
+        "meanChannelError": 0.00635514475743349,
+        "colors": 4056
+      }
+    },
+    {
+      "year": 2001,
+      "documentSha256": "e0c57dd010b9b6b076b7c5827fd891cef4d88e97973ef05e919e19eee23702b7",
+      "selection": {
+        "primaryKey": "territorial:entity:FRA",
+        "keys": [
+          "territorial:entity:FRA"
+        ],
+        "items": [
+          {
+            "domain": "territorial",
+            "type": "entity",
+            "id": "FRA",
+            "key": "territorial:entity:FRA"
+          }
+        ]
+      },
+      "camera": {
+        "projection": "globe",
+        "scale": 469.7875,
+        "translate": [
+          640,
+          413
+        ],
+        "rotation": [
+          -28.780322171285363,
+          -46.24585623566418,
+          0
+        ],
+        "flatCenter": [
+          0,
+          20
+        ]
+      },
+      "world": {
+        "month": "2001-12",
+        "epoch": 6,
+        "count": 251
+      },
+      "recovery": {
+        "recoveryId": 2,
+        "attemptId": 2,
+        "active": false,
+        "disposed": false,
+        "running": false,
+        "queued": false,
+        "phase": "complete",
+        "lastReason": "frame-presented",
+        "foregroundMs": 17631.900000000373,
+        "idleMs": 40,
+        "contextMs": 168.90000000037253,
+        "canvasMs": 0,
+        "uploadedBytes": 193979236,
+        "suspended": false,
+        "dataWaiting": false,
+        "timerPending": false,
+        "deviceWaiterCount": 0,
+        "unexplainedAborts": 0
+      },
+      "frame": 571,
+      "difference": {
+        "sameSize": true,
+        "changedFraction": 0,
+        "meanChannelError": 0,
+        "colors": 4058
+      }
+    }
+  ],
+  "passed": true,
+  "bootDiagnostics": {
+    "consoleEvents": [
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x736c022db400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "location": {
+          "url": "http://127.0.0.1:4173/?renderer=webgl2&debug=1",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "arguments": []
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x736c001b9400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "location": {
+          "url": "http://127.0.0.1:4173/?renderer=webgl2&debug=1",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "arguments": []
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "http://127.0.0.1:4173/assets/wasm/pandoeditor-core.wasm?sha256=315238374542fae145768b558f9a8a5395f0057b9b65e49dea7d5e79697aaede",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/wasm/pandoeditor-core.js?sha256=064dab971a64dc61b4e4da6609b97b38d94757db8ae1c98254596c6cb4ae04bf",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/wasm/pandoeditor-core.wasm?sha256=315238374542fae145768b558f9a8a5395f0057b9b65e49dea7d5e79697aaede",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/wasm/pandoeditor-core.wasm?sha256=315238374542fae145768b558f9a8a5395f0057b9b65e49dea7d5e79697aaede",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/wasm/pandoeditor-core.js?sha256=064dab971a64dc61b4e4da6609b97b38d94757db8ae1c98254596c6cb4ae04bf",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/ARM-sha256-3f8199c7b9416152f0e6c3061dea6fda2504bb8686e1273a0a52304f26108aac.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/BEN-sha256-680b1ee092b8d145632682b66ddba69838dd657f9daa6c96ab3b89535f32363e.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/BRN-sha256-2dac353199fde3f27b03e8da78d32044febe40350f567b2526a003d3910248e3.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/BRT-sha256-6b254233cd5999acaa3232f0a44423aef5439efa8d891032cf321505f1dc2a83.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/wasm/pandoeditor-core.js?sha256=064dab971a64dc61b4e4da6609b97b38d94757db8ae1c98254596c6cb4ae04bf",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000415443-sha256-e4e08d3cf54db9d03358c37b996dd43c1005fc554221df544a407a5430167e56.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000047524c-sha256-52896168bdccb5a8ff51dae027f4b15bc2f7969670f38bc70574caed08cbf84f.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000505249-sha256-9efc015fd718d0e6072c4408e7e7cd096bf14edf5ce7b7902b6334e589ac3401.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-00000053584d-sha256-b497553f79980ef6adc6e797959154ce0cb609d21735c3a6bcc190d722144e60.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/DEU-sha256-31917b0441e45c85df5bc8afb89c1330e8e11acb5898e7cf703cfd9a1d9c013a.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/ERI-sha256-3835a7b53e6c39b575926679f123613367008c2a78a6911dee96b81696d60374.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/FJI-sha256-a9cab01277ed02f1ee297273eb98c0e0077a0832fbfdcaf3acd0d37815f861ac.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/FSM-sha256-2199a999af0ef65219430931c51d39a66c1b7a49f85e35b75f96706272ba5a4b.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/FRA-sha256-57610f8277187adcd8b2b25427cf9551008cf9df0379643e38598fa486d8cd4e.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/GHA-sha256-174e3b3926620999e899e8db928a2421af50fd35ab8f3859e46882163d1c9c2c.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/GIN-sha256-16ae711392f4317ea158c98e9c830939933d22590079d2165e916e71bf36a0c6.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3.bin.gz?sha256=04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/IDN-sha256-e4db20ecb856ca931afe0274397ac744acd0d5198b12a343db411b8b38dd78da.json.gz",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/data/builtin-world/generated/v1/countries/KGZ-sha256-06414dafad780e9a61a89d30bfb8abfdc8975908a6043907108466ef43b2d137.json.gz",
+        "failure": "net::ERR_ABORTED"
+      }
+    ],
+    "httpFailures": []
+  },
+  "errors": [],
+  "final": {
+    "boot": {
+      "url": "http://127.0.0.1:4173/?renderer=webgl2&debug=1",
+      "readyState": "complete",
+      "viewerReady": "true",
+      "statusText": "지도 준비 완료.",
+      "coreLoaded": true,
+      "observerOwners": [
+        "session",
+        "renderer",
+        "rendering",
+        "frame"
+      ],
+      "resizableMemorySupported": true
+    },
+    "runtime": {
+      "mapReadiness": {
+        "mapReady": true,
+        "terrainReady": true,
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 저배율 표시",
+        "retry": false
+      },
+      "screenScale": 469.7875,
+      "scaleBand": "low",
+      "previewAdmission": "validated-scale-bound",
+      "surfacePresentation": {
+        "targetQuality": "canonical",
+        "geometryQuality": "canonical",
+        "quality": "canonical"
+      },
+      "previewDisplayCertificate": null,
+      "surfaceDraw": {
+        "quality": "canonical",
+        "landSource": "physical-canonical",
+        "countryIndexCount": 4385229
+      },
+      "renderer": "webgl2",
+      "terrainPreparationEnabled": true,
+      "fallbackReason": "",
+      "effectivePixelRatio": 1,
+      "devicePixelRatio": 1,
+      "activeWebGlContextCount": 1,
+      "canonicalMeshReady": true,
+      "previewAllowed": false,
+      "activeMeshQuality": "canonical",
+      "desiredCountryMeshQuality": "canonical",
+      "countryFocusPending": true,
+      "firstCanonicalFrameMs": 48323,
+      "firstBackgroundFrameMs": 4751.199999999255,
+      "firstCountryPublishedMs": 48417.79999999888,
+      "countriesPublishedGeneration": 1,
+      "backgroundPresentedKey": "[1,5,[\"polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499\"],[1280,852],469.7875,[640,413],[-28.780322171285363,-46.24585623566418,0],\"globe\",1,true]",
+      "canonicalFrameFallbackCount": 459,
+      "projectGeneration": 1,
+      "terrainRepresentation": "dem-relief-v1",
+      "terrainDatasetVersion": "0.13.3",
+      "terrainSource": "official",
+      "terrainFallbackReason": null,
+      "terrainDetailedShade": true,
+      "projectRenderBlocked": false,
+      "temporalPresentationPending": false,
+      "sceneCacheValid": true
+    },
+    "stats": {
+      "mapReadiness": {
+        "mapReady": true,
+        "terrainReady": true,
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 저배율 표시",
+        "retry": false
+      },
+      "screenScale": 469.7875,
+      "scaleBand": "low",
+      "previewAdmission": "validated-scale-bound",
+      "surfacePresentation": {
+        "targetQuality": "canonical",
+        "geometryQuality": "canonical",
+        "quality": "canonical"
+      },
+      "previewDisplayCertificate": null,
+      "surfaceDraw": {
+        "quality": "canonical",
+        "landSource": "physical-canonical",
+        "countryIndexCount": 4385229
+      },
+      "renderer": "webgl2",
+      "assetRevision": "0.36.0-build-2d30fb1df20a",
+      "dataRevision": "data-7c0c7d06db12ba0ca81a6b9ad37260cf",
+      "dataCacheName": "pandolab-world-content-v1",
+      "projectGeneration": 1,
+      "terrainRepresentation": "dem-relief-v1",
+      "terrainDatasetVersion": "0.13.3",
+      "terrainSource": "official",
+      "terrainFallbackReason": null,
+      "terrainTargetLevel": 2,
+      "terrainDetailedShade": true,
+      "projectRenderBlocked": false,
+      "activeWebGlContextCount": 1,
+      "renderSceneRevision": 16,
+      "sceneCacheValid": true,
+      "sceneCache": {
+        "valid": true,
+        "dirty": false,
+        "activeViewSignature": "5:globe:640,413:469.7875:-28.780322171285363,-46.24585623566418,0::1280:852",
+        "stagingViewSignature": "5:globe:640,413:469.7875:-28.780322171285363,-46.24585623566418,0::1280:852",
+        "activeProjectGeneration": 1,
+        "stagingProjectGeneration": 1,
+        "state": "valid",
+        "disabled": false,
+        "width": 1280,
+        "height": 852,
+        "generation": 229,
+        "hitCount": 72,
+        "missCount": 502,
+        "compositeCount": 72,
+        "compositeMs": 2.099999997764826,
+        "recreateCount": 6,
+        "failureCount": 0,
+        "lastFailureReason": "",
+        "lastInvalidationReason": "country-boundary-resource-ready"
+      },
+      "sceneCacheFullDrawCount": 713,
+      "sceneCacheInteractionDrawCount": 530,
+      "sceneCacheReprojectCount": 0,
+      "selectionOnlyBaseDrawCount": 1,
+      "sceneCacheFallbackFrame": false,
+      "canonicalFrameFallbackCount": 459,
+      "firstCanonicalFrameMs": 48323,
+      "firstBackgroundFrameMs": 4751.199999999255,
+      "firstCountryPublishedMs": 48417.79999999888,
+      "countriesPublishedGeneration": 1,
+      "backgroundPresentedKey": "[1,5,[\"polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499\"],[1280,852],469.7875,[640,413],[-28.780322171285363,-46.24585623566418,0],\"globe\",1,true]",
+      "polygonOverlay": {
+        "resourceCount": 33,
+        "uploadBytes": 80981104,
+        "buildCount": 101,
+        "buildMs": 0,
+        "drawCount": 2564,
+        "drawCallCount": 1462,
+        "drawMs": 60.500000005587935,
+        "cacheHits": 0,
+        "cacheMisses": 101,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "activeBufferBytes": 26993364,
+        "resourceBudget": {
+          "byteBudget": 124822487,
+          "activeBytes": 26993364,
+          "entryCount": 33,
+          "activeKeyCount": 33,
+          "protectedKeyCount": 6,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "stroke": {
+        "resourceCount": 3,
+        "uploadBytes": 165111776,
+        "buildCount": 10,
+        "buildMs": 0,
+        "drawCount": 438,
+        "drawCallCount": 17576,
+        "drawMs": 1630.7999999932945,
+        "cacheHits": 90,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 3,
+        "selfTestMs": 542.3000000007451,
+        "selfTestFailureReason": "",
+        "analyticAa": true,
+        "aaRadiusPx": 1,
+        "connectedTopology": true,
+        "topologyJoinCount": 0,
+        "topologyCapCount": 0,
+        "topologyClosedChainCount": 0,
+        "topologyInvalidSegmentCount": 0,
+        "activeBufferBytes": 43721024,
+        "resourceBudget": {
+          "byteBudget": 76504104,
+          "activeBytes": 43721024,
+          "entryCount": 3,
+          "activeKeyCount": 4,
+          "protectedKeyCount": 6,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "selection": {
+        "packetRevision": 1,
+        "countryBoundaryRevision": "canonical:1:1:1029180:0:::11",
+        "viewDrawCount": 530,
+        "viewOnlyBufferRebuildCount": 0,
+        "drawMs": 1518.0999999977648,
+        "lastDrawMs": 1.599999999627471,
+        "renderFailureCount": 3,
+        "contextLost": false,
+        "contextLossCount": 2,
+        "contextRestoreCount": 0,
+        "bufferBuildCount": 0,
+        "bufferBuildMs": 0,
+        "bufferUploadBytes": 0,
+        "geometryCacheHits": 0,
+        "geometryCacheMisses": 0,
+        "countryBatchCount": 363,
+        "genericBatchCount": 0,
+        "strokeDrawCallCount": 0,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 3,
+        "selfTestMs": 542.3000000007451,
+        "selfTestFailureReason": "",
+        "renderSucceeded": true,
+        "channels": {
+          "candidate": {
+            "rebuildCount": 2,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "hover": {
+            "rebuildCount": 2,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "secondary": {
+            "rebuildCount": 2,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "primary": {
+            "rebuildCount": 5,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          }
+        },
+        "segmentCount": 4626,
+        "activeBufferBytes": 37058544,
+        "stagingBufferBytes": 0,
+        "drawCoverage": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [
+              "territorial:entity:FRA"
+            ],
+            "missingKeys": []
+          }
+        }
+      },
+      "lastSelectionRenderResult": {
+        "succeeded": true,
+        "contextLost": false,
+        "selfTestPassed": true,
+        "gpuHealth": "healthy",
+        "channels": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [
+              "territorial:entity:FRA"
+            ],
+            "missingKeys": []
+          }
+        }
+      },
+      "effectivePixelRatio": 1,
+      "devicePixelRatio": 1,
+      "meshQuality": "canonical",
+      "activeMeshQuality": "canonical",
+      "canonicalMeshReady": true,
+      "availableMeshQualities": [
+        "canonical"
+      ],
+      "meshVariantBytes": {
+        "canonical": 27464296
+      },
+      "qualityPhase": "canonical-ready",
+      "previewAllowed": false,
+      "previewActivationCount": 0,
+      "desiredCountryMeshQuality": "canonical",
+      "countryFocusPending": true,
+      "previewActivationAfterCanonical": 0,
+      "canonicalPromotionCount": 2,
+      "canonicalPromotionError": "",
+      "canonicalReadyFrameId": 2,
+      "meshSwitchCount": 2,
+      "renderQualityChangeCount": 1,
+      "renderQuality": {
+        "tier": "high",
+        "phase": "settle",
+        "revision": 1,
+        "countryMeshQuality": "canonical",
+        "dprCap": 3,
+        "terrainResolutionScale": 1,
+        "terrainCacheBudgetBytes": 134217728,
+        "hydroCacheBudgetBytes": 100663296,
+        "overlayGpuBudgetBytes": 201326592,
+        "uploadBudgetBytes": 8388608,
+        "activeEditLod": "high",
+        "selectedLod": "high",
+        "backgroundLod": "high",
+        "renderPacketCacheBudgetBytes": 201326592,
+        "interactionUploadBudgetBytes": 786432,
+        "settleUploadBudgetBytes": 8388608,
+        "targetFrameMs": 20,
+        "p95FrameMs": 0,
+        "p99FrameMs": 0,
+        "longFrameCount": 0,
+        "reason": "device-hints"
+      },
+      "countries": 206,
+      "renderVertices": 992338,
+      "triangleCount": 1461743,
+      "lineSegmentCount": 514590,
+      "countryBoundaryMode": "shared",
+      "countrySharedBoundarySegmentCount": 68390,
+      "countrySharedBoundaryReady": true,
+      "countrySharedBoundaryReplacementPending": false,
+      "countryInternalBoundarySegmentCount": 82,
+      "countryInternalBoundaryVisibleOwnerIds": [
+        "HKG",
+        "USG",
+        "KAB"
+      ],
+      "countrySharedBoundaryWorkerActive": true,
+      "countrySharedBoundaryRequestId": 4,
+      "countrySharedBoundaryLastMessage": "prepared:4:canonical:1:1",
+      "p95CpuSubmitMs": 47,
+      "p99CpuSubmitMs": 121,
+      "pickCount": 0,
+      "pickReadPixelsMs": 0,
+      "pickLastReadPixelsMs": 0,
+      "pickSceneRenderCount": 0,
+      "countryEmphasisRevision": 4,
+      "interactionFillCoverage": {
+        "succeeded": true,
+        "renderedKeys": [],
+        "missingKeys": []
+      },
+      "interactionFillItems": [],
+      "countryEmphasis": {
+        "primaryId": "FRA",
+        "primaryIds": [
+          "FRA"
+        ],
+        "priorities": {
+          "FRA": 4
+        },
+        "hoverId": "",
+        "selectedIds": [
+          "FRA"
+        ],
+        "boundaryEnabled": false,
+        "primaryBoundaryColor": "#316fd3",
+        "secondaryBoundaryColor": "#316fd3"
+      },
+      "interactionStyle": {
+        "theme": "light",
+        "antiAlias": true,
+        "hover": {
+          "color": "#316fd3",
+          "width": 1.5,
+          "alpha": 0.85,
+          "fillAlpha": 0.027999999999999997
+        },
+        "selection": {
+          "color": "#316fd3",
+          "outlineVisible": true,
+          "fillStrength": 0.35,
+          "primary": {
+            "innerWidth": 2.5,
+            "innerAlpha": 1,
+            "fillAlpha": 0.08399999999999999
+          },
+          "secondary": {
+            "innerWidth": 1.5,
+            "innerAlpha": 0.72,
+            "fillAlpha": 0.049
+          }
+        },
+        "drawOrder": [
+          "candidate",
+          "hover",
+          "secondary-inner",
+          "primary-inner"
+        ]
+      },
+      "boundaryOwner": "interaction-overlay",
+      "visualPassOrder": [
+        "substrate",
+        "terrain",
+        "country-fill",
+        "territorial-fill",
+        "lake",
+        "lake-boundary",
+        "river",
+        "border-river",
+        "country-boundary",
+        "physical-water",
+        "independent-overlay",
+        "candidate",
+        "hover",
+        "secondary",
+        "primary",
+        "territorial-labels",
+        "labels"
+      ],
+      "emphasizedCountryCount": 1,
+      "viewportCss": [
+        1280,
+        852
+      ],
+      "canvasBackingPixels": [
+        1280,
+        852
+      ],
+      "layoutMismatchCssPx": 0,
+      "requestedRevision": 2,
+      "displayedRevision": 2,
+      "committedGeometryRevision": 1,
+      "displayedGeometryRevision": 1,
+      "pendingCountryCount": 0,
+      "pendingOldMeshVisibleCount": 0,
+      "countryPatchPresentation": null,
+      "geometryRenderTaskToken": 3,
+      "patchWorkerJobs": {
+        "submitted": 0,
+        "started": 0,
+        "completed": 0,
+        "failed": 0,
+        "cancelled": 0,
+        "coalesced": 0,
+        "staleDiscarded": 0,
+        "maxQueueDepth": 0,
+        "lastLatencyMs": 0,
+        "queueDepth": 0,
+        "runningCount": 0,
+        "activeKeys": [],
+        "queuedKeys": [],
+        "latencyP95Ms": 0,
+        "latencyP99Ms": 0
+      },
+      "patchWorkerOutputBytes": 0,
+      "lastMeshPreparation": {
+        "featureCount": 206,
+        "builtCount": 6,
+        "reusedCount": 200,
+        "hashMs": 102.00000000372529,
+        "triangulationMs": 1055.7000000011176,
+        "assemblyMs": 29.5,
+        "slowestFeature": {
+          "id": "RUS",
+          "ms": 924.8000000007451
+        },
+        "cacheBytes": 44841326,
+        "strokeMs": 367.2000000011176,
+        "spatialMs": 1607.5999999996275,
+        "totalMs": 3183.0999999996275
+      },
+      "lastGeometryCommitTimings": null,
+      "canvasWorkerBusy": false,
+      "canvasStyleRevision": 0,
+      "canvasDisplayedStyleRevision": 0,
+      "canvasWorkerHasPendingFrame": false,
+      "webglContextLost": false,
+      "gpuRecovery": {
+        "recoveryId": 2,
+        "attemptId": 2,
+        "active": false,
+        "disposed": false,
+        "running": false,
+        "queued": false,
+        "phase": "complete",
+        "lastReason": "frame-presented",
+        "foregroundMs": 17631.900000000373,
+        "idleMs": 40,
+        "contextMs": 168.90000000037253,
+        "canvasMs": 0,
+        "uploadedBytes": 193979236,
+        "suspended": false,
+        "dataWaiting": false,
+        "timerPending": false,
+        "deviceWaiterCount": 0,
+        "unexplainedAborts": 0
+      },
+      "webGlVersion": 2,
+      "forcedRenderer": "webgl2",
+      "fallbackReason": "",
+      "terrainReady": true,
+      "terrainFailed": false,
+      "terrainResolutionLimited": false,
+      "terrainTargetKey": "1:5:6:2:2/0-0,2/1-0,2/1-1,2/2-0,2/2-1,2/2-2,2/3-0,2/3-1,2/3-2,2/4-0,2/4-1,2/5-0:true",
+      "terrainLevel": 2,
+      "terrainRenderedLevel": 2,
+      "terrainTargetTileCount": 12,
+      "terrainTargetTilesLoaded": 12,
+      "terrainTargetTilesSettled": true,
+      "terrainTilesLoaded": 20,
+      "terrainCacheBytes": 95800552,
+      "terrainPendingDecodedBytes": 0,
+      "terrainTintReady": true,
+      "terrainTilesLoading": 0,
+      "terrainFetchConcurrency": 4,
+      "terrainUploadCount": 69,
+      "terrainFailureCount": 0,
+      "hydroFeaturesLoaded": 1,
+      "hydroDescriptorPackCount": 0,
+      "hydroDescriptorLogicalCount": 0,
+      "hydroDescriptorFidCount": 0,
+      "interactionActive": false,
+      "paletteDirty": {
+        "base": false,
+        "emphasis": false
+      },
+      "paletteRebuildCount": 11,
+      "paletteUploadCount": 22,
+      "paletteUploadBytes": 26416,
+      "uniformCacheHits": 28516,
+      "uniformCacheMisses": 399,
+      "attributeCacheHits": 713,
+      "attributeCacheMisses": 108,
+      "frameContextBuildCount": 0,
+      "visualFrameConsumeCount": 530,
+      "hydroViewRequestCount": 1,
+      "hydroTileWindowCacheHitCount": 380,
+      "hydroTileWindowRecomputeCount": 1,
+      "hydroUploadBytes": 0,
+      "terrainIncompleteFrameCount": 0,
+      "canvasWorkerMessageCount": 0,
+      "canvasWorkerMessageBytes": 0,
+      "canvasWorkerViewMessageCount": 0,
+      "canvasWorkerStaleFrameCount": 0,
+      "canvasWorkerStateMessageCount": 0,
+      "canvasWorkerMessagesByType": {},
+      "baseSceneDrawCount": 713,
+      "webGlDirectDrawCallCount": 2277,
+      "webGlLastFrameSceneDrawCalls": {
+        "direct": 1,
+        "polygons": 1,
+        "strokes": 671,
+        "total": 673
+      },
+      "webGlFirstBackgroundSceneDrawCalls": {
+        "direct": 13,
+        "polygons": 3,
+        "strokes": 2,
+        "total": 18
+      },
+      "webGlFirstCountrySceneDrawCalls": {
+        "direct": 50,
+        "polygons": 36,
+        "strokes": 678,
+        "total": 764
+      },
+      "webGlLastBaseSubmitMs": 10.5,
+      "interactionFrameCount": 530,
+      "selectionOnlyFrameCount": 20,
+      "selectionOnlyGeometryUploadBytes": 0,
+      "countryInteractionIndexCount": 23952,
+      "countryInteractionRangeCount": 1,
+      "countryInteractionFullIndexCount": 4385229,
+      "countryBaseIndexCount": 3627903,
+      "countryBaseFullIndexCount": 4385229,
+      "countryBaseRangeCount": 26,
+      "countryBoundaryIndexCount": 877404,
+      "countryBoundaryFullIndexCount": 1029180,
+      "countryVisibleCount": 184,
+      "countryCullingFallbackCount": 151,
+      "countryStateCompositeCount": 0,
+      "countryStateCompositeMs": 0,
+      "countryPatchUploadBytes": 0,
+      "lastCountryPatchUploadBytes": 0,
+      "countryPatchSceneHoldCount": 0,
+      "paletteChangedCountryCount": 826,
+      "paletteUploadRangeCount": 1,
+      "paletteFullRebuildCount": 4,
+      "paletteSkippedUnchangedCount": 23,
+      "overlayUploadBytes": 0,
+      "lastOverlayUploadBytes": 0,
+      "overlayDeferredItemCount": 0,
+      "uploadBudgetOverrunCount": 0,
+      "countryBoundaryPrepareCount": 3,
+      "shaderInitializationMs": 563.7000000011176,
+      "countryBoundaryReuseCount": 6,
+      "countryMeshRebuildCount": 2,
+      "hydroTileWindowSignature": "globe;none;5x4;",
+      "hydroPacksLoaded": 0,
+      "hydroPendingUploadCount": 0,
+      "hydroFeaturePendingCount": 0,
+      "hydroLogicalQueryPendingCount": 0,
+      "hydroPacksActive": 0,
+      "hydroEditRevision": 2,
+      "hydroEditBatchCount": 0,
+      "hydroCacheBytes": 0,
+      "hydroCoverage": {
+        "enabled": true,
+        "maximumBlend": true,
+        "width": 0,
+        "height": 0,
+        "bufferBytes": 0,
+        "renderCount": 0,
+        "fallbackCount": 0
+      }
+    },
+    "state": {
+      "epoch": 6,
+      "stateRevision": 0,
+      "revision": 0,
+      "checkpoint": 0,
+      "undoCommandId": "",
+      "redoCommandId": "",
+      "dirty": false,
+      "canUndo": false,
+      "canRedo": false,
+      "timelineCursor": "2001-12",
+      "presentationRevision": 2,
+      "presentationCheckpoint": 0,
+      "dirtyTerritorialIds": [],
+      "documentDirty": false,
+      "presentationDirty": false,
+      "timelineEditsEnabled": true,
+      "storageBaselineId": 1
+    },
+    "world": {
+      "month": "2001-12",
+      "epoch": 6,
+      "count": 251
+    },
+    "selection": {
+      "primaryKey": "territorial:entity:FRA",
+      "keys": [
+        "territorial:entity:FRA"
+      ],
+      "items": [
+        {
+          "domain": "territorial",
+          "type": "entity",
+          "id": "FRA",
+          "key": "territorial:entity:FRA"
+        }
+      ]
+    },
+    "rendering": {
+      "uploads": {
+        "frames": 1269,
+        "uploadedBytes": 657985294,
+        "maxFrameMs": 330,
+        "overrunCount": 262,
+        "completed": 178,
+        "cancelled": 0,
+        "pending": 0,
+        "active": false
+      },
+      "invalidations": 774,
+      "lastReason": "gpu-context-restored",
+      "renderResourceRefreshCount": 572,
+      "renderResourceSnapshotFrameId": 572,
+      "renderResourceProxyCount": 0,
+      "labelPositionRequestCount": 74,
+      "labelPositionMergedCount": 0,
+      "labelPositionCommitCount": 74,
+      "labelPositionProjectionCount": 2032,
+      "labelPositionLastFrameRevision": 2,
+      "visualFramePreparedCount": 572,
+      "visualFrameCommittedCount": 74,
+      "visualFrameRejectedCount": 0,
+      "visualFramePartialCommitCount": 0,
+      "lastPreparedVisualFrameId": 572,
+      "lastCommittedVisualFrameId": 571,
+      "gpuCommittedFrameId": 571,
+      "shellCommittedFrameId": 571,
+      "graticuleCommittedFrameId": 571,
+      "labelCommittedFrameId": 571,
+      "overlayCommittedFrameId": 571,
+      "fullRenderCount": 9,
+      "viewRenderCount": 105,
+      "requestCount": 774,
+      "mergedRequestCount": 670,
+      "labelLayoutCount": 64,
+      "lastRenderMs": 28.5,
+      "lastMode": "partial",
+      "lastRequestedMask": 18434,
+      "lastDirtyMask": 18434,
+      "lastInvalidMask": null,
+      "invalidMaskCount": 0,
+      "viewFrameCount": 10,
+      "resizeFrameCount": 0,
+      "projectionFrameCount": 0,
+      "projectFrameCount": 9,
+      "lastReasons": [
+        "gpu-context-restored"
+      ],
+      "lastRendererTimes": {
+        "beginFrame": 0,
+        "view": 11.900000000372529,
+        "selectionData": 16.300000000745058
+      },
+      "recentFrames": [
+        {
+          "revision": 218,
+          "mode": "full",
+          "frameKind": "project",
+          "requestedMask": 8407042,
+          "dirtyMask": 18874319,
+          "reasons": [
+            "gpu-context-lost"
+          ]
+        },
+        {
+          "revision": 219,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 387,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 388,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 389,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 390,
+          "mode": "full",
+          "frameKind": "project",
+          "requestedMask": 25165891,
+          "dirtyMask": 18874319,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 391,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 392,
+          "mode": "partial",
+          "frameKind": "partial",
+          "requestedMask": 18434,
+          "dirtyMask": 18434,
+          "reasons": [
+            "gpu-context-restored"
+          ]
+        },
+        {
+          "revision": 393,
+          "mode": "full",
+          "frameKind": "project",
+          "requestedMask": 25165891,
+          "dirtyMask": 18874319,
+          "reasons": [
+            "document-presentation",
+            "map-view"
+          ]
+        },
+        {
+          "revision": 394,
+          "mode": "partial",
+          "frameKind": "partial",
+          "requestedMask": 2,
+          "dirtyMask": 2,
+          "reasons": [
+            "builtin-subunit-presentation"
+          ]
+        },
+        {
+          "revision": 395,
+          "mode": "partial",
+          "frameKind": "partial",
+          "requestedMask": 18432,
+          "dirtyMask": 18432,
+          "reasons": [
+            "selection-change"
+          ]
+        },
+        {
+          "revision": 396,
+          "mode": "partial",
+          "frameKind": "partial",
+          "requestedMask": 18432,
+          "dirtyMask": 18432,
+          "reasons": [
+            "selection-change"
+          ]
+        },
+        {
+          "revision": 397,
+          "mode": "full",
+          "frameKind": "project",
+          "requestedMask": 8407042,
+          "dirtyMask": 18874319,
+          "reasons": [
+            "gpu-context-lost"
+          ]
+        },
+        {
+          "revision": 398,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 567,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 568,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 569,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 570,
+          "mode": "full",
+          "frameKind": "project",
+          "requestedMask": 25165891,
+          "dirtyMask": 18874319,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 571,
+          "mode": "partial",
+          "frameKind": "view",
+          "requestedMask": 16777283,
+          "dirtyMask": 16777283,
+          "reasons": [
+            "render-view"
+          ]
+        },
+        {
+          "revision": 572,
+          "mode": "partial",
+          "frameKind": "partial",
+          "requestedMask": 18434,
+          "dirtyMask": 18434,
+          "reasons": [
+            "gpu-context-restored"
+          ]
+        }
+      ],
+      "renderRevision": 572,
+      "pendingMask": 0,
+      "pendingMode": null,
+      "frameQueued": false,
+      "interactionActive": false,
+      "projectGeneration": 1,
+      "territorialBoundaryTopologyRebuildCount": 0,
+      "territorialBoundaryRevision": "",
+      "hasMapHost": true,
+      "hasDomLayers": true,
+      "hasSceneBuilder": true,
+      "hasSelectionDomain": true
+    },
+    "camera": {
+      "projection": "globe",
+      "scale": 469.7875,
+      "translate": [
+        640,
+        413
+      ],
+      "rotation": [
+        -28.780322171285363,
+        -46.24585623566418,
+        0
+      ],
+      "flatCenter": [
+        0,
+        20
+      ]
+    }
+  }
+}
